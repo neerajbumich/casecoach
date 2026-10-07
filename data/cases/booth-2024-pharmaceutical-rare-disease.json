@@ -1,0 +1,381 @@
+{
+ "id": "booth-2024-pharmaceutical-rare-disease",
+ "title": "Pharmaceutical Rare Disease",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  245,
+  250
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "M&A/Acquisition",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Pharmaceutical / Healthcare",
+ "geography": "United States with potential geographic expansion",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG",
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 3, Creativity 2 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "rare-disease",
+  "growth-strategy",
+  "drug-pipeline",
+  "probability-adjusted-revenue",
+  "acquisition",
+  "portfolio-gap",
+  "linear-growth"
+ ],
+ "concepts_tested": [
+  "growth-option matrix",
+  "pipeline attrition",
+  "revenue ramp",
+  "acquisition sizing",
+  "chart interpretation"
+ ],
+ "fit_question": "Tell a story explaining your background and why you are pursuing consulting, this firm, and this location. Alternatively, describe your proudest accomplishment, professional or otherwise.",
+ "prompt": "Our client is a large pharmaceutical company with a strong rare-disease business. Rare diseases affect fewer than 200,000 people in the United States. Historically, small patient populations made rare-disease research unattractive, but fewer blockbuster opportunities and improved regulation that lowers rare-disease R&D cost have driven new investment. The client wants to grow its rare-disease business. How can it double the business in five years?",
+ "clarifying_info": [
+  {
+   "question_topic": "Definition of growth",
+   "answer": "The client is interested in all potential forms of growth, including revenue, profit, volume, market share, and customer base."
+  },
+  {
+   "question_topic": "Current business",
+   "answer": "The existing rare-disease business has $2.5B of revenue and is expected to grow 5% per year; for this case use linear rather than compound growth."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "The rare-disease market is $30B, is as profitable as big pharma, and is growing faster."
+  },
+  {
+   "question_topic": "Economics and regulation",
+   "answer": "Research is relatively expensive, but government tax credits support designated rare-disease drugs and prices tend to be higher to recover upfront research investment."
+  },
+  {
+   "question_topic": "Acquisition landscape",
+   "answer": "Many small biotechs are attractive targets, and large pharmaceutical companies also own rare-disease divisions or assets. Assume each company or peak-revenue asset contributes about $500M of revenue."
+  }
+ ],
+ "interviewer_notes": "This is described as an NPV investment go/no-go case, but the provided case performs no discounting or cost valuation; it is a five-year probability-adjusted revenue-gap exercise. After the framework, provide Exhibit 1 as the candidate requests pipeline facts. Ask for the five-year business size, the gap to doubling, and the number of acquisitions required. Preserve the source instruction to use linear growth. The source contains unit and labeling slips: internal growth is $1.145B, not $1.145M, and the $3.1B in the conclusion comes from the existing business, not the current pipeline.",
+ "suggested_framework": {
+  "summary": "Use an existing-versus-new asset and existing-versus-new market matrix, then quantify organic growth, pipeline revenue, and acquisition needs.",
+  "tree": {
+   "label": "Double rare-disease revenue in five years",
+   "children": [
+    {
+     "label": "Existing drugs in existing markets",
+     "children": [
+      {
+       "label": "Increase penetration and frequency"
+      },
+      {
+       "label": "Pricing and commercial effectiveness"
+      },
+      {
+       "label": "Acquire complementary assets"
+      }
+     ]
+    },
+    {
+     "label": "Existing drugs in new markets",
+     "children": [
+      {
+       "label": "New disease indications and combinations"
+      },
+      {
+       "label": "Geographic and underserved-US expansion"
+      }
+     ]
+    },
+    {
+     "label": "New drugs for current needs",
+     "children": [
+      {
+       "label": "Improve current therapies and support price"
+      },
+      {
+       "label": "Advance existing R&D pipeline"
+      }
+     ]
+    },
+    {
+     "label": "New drugs in new markets",
+     "children": [
+      {
+       "label": "Build or acquire a diversified pipeline"
+      },
+      {
+       "label": "Regulation, reimbursement, patents, and launch timing"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you identify ways to double the rare-disease business in five years?",
+   "expected_answer": "Organize options by existing versus new drugs and existing versus new markets. Grow penetration, frequency, price, and commercial execution for current assets; expand indications, combinations, and geographies; improve or advance the pipeline; and acquire assets where internal growth is insufficient. Test regulation, reimbursement, patents, launch timing, risk-adjusted revenue, cost, and feasibility.",
+   "good_answer_signals": [
+    "Clarifies what growth means",
+    "Covers both current assets and pipeline",
+    "Includes acquisitions and cross-functional constraints"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Based on Exhibit 1 and the company facts, how large will the rare-disease business be in five years before acquisitions?",
+   "release_when": "Provide Exhibit 1 after the candidate asks about current assets and R&D pipeline.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "info_to_release": "Current revenue is $2.5B and grows 5% annually; use linear growth rather than compounding. Each pipeline asset has $500M peak revenue.",
+   "expected_answer": "Existing revenue grows by $2.5B x 5% x 5 = $625M to $3.125B. Probability-adjusted year-five pipeline revenue is $100M from Phase I, $240M from Phase II, and $180M from Phase III; research-stage assets take six years and contribute nothing within the horizon. Total pipeline contribution is $520M, so the business reaches $3.645B before acquisitions.",
+   "good_answer_signals": [
+    "Uses linear growth as instructed",
+    "Combines approval probability with the correct revenue-ramp year",
+    "Excludes six-year research assets"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What is the remaining gap to the five-year doubling target, and how many acquisitions are needed?",
+   "info_to_release": "Assume each acquired company or peak-revenue asset contributes approximately $500M of revenue.",
+   "expected_answer": "The target is $5.0B. The remaining gap is $5.0B - $3.125B - $0.520B = $1.355B, commonly rounded to $1.4B. At $500M per asset, $1.355B / $500M = 2.71, so the client needs at least three peak-revenue assets. Earlier-stage acquisitions would require more assets because of attrition and ramp risk.",
+   "good_answer_signals": [
+    "Calculates the gap from ending revenue, not growth alone",
+    "Rounds asset count up to three",
+    "Distinguishes mature from R&D-stage targets"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How should the client choose and execute the acquisition strategy?",
+   "expected_answer": "Prioritize assets that can contribute within five years, fit the client's rare-disease capabilities, have defensible patents and credible FDA paths, complement current indications or geographies, and offer attractive valuation after probability adjustment. Conduct clinical, regulatory, commercial, manufacturing, reimbursement, and integration diligence; track launches centrally and retain scientific talent.",
+   "good_answer_signals": [
+    "Links screening to the five-year deadline",
+    "Includes valuation and probability-adjusted risk",
+    "Addresses integration and launch control"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What must the client do to double rare-disease revenue?",
+   "expected_answer": "Pursue a combined organic, pipeline, and acquisition plan. Linear growth takes the $2.5B base to $3.125B, and the existing pipeline adds $520M, reaching $3.645B. Close the remaining $1.355B, or roughly $1.4B, by acquiring at least three $500M peak-revenue assets. Perform target diligence, protect FDA and patent milestones, and institute launch tracking. Key risks are target valuation and availability, clinical or testing delays, and regulatory setbacks.",
+   "good_answer_signals": [
+    "Reconciles all components to approximately $5B",
+    "States three acquisitions clearly",
+    "Includes risks and next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Rare-disease R&D assets and revenue ramp",
+   "page": 248,
+   "kind": "table",
+   "description": "Pipeline asset counts, time to market, approval probability, peak revenue, and revenue as a percentage of peak by year on market.",
+   "data": {
+    "columns": [
+     "Phase / year",
+     "Assets",
+     "Time to market",
+     "Approval probability",
+     "Peak revenue",
+     "Revenue as % of peak"
+    ],
+    "rows": [
+     [
+      "Research",
+      "20",
+      "6 years",
+      "10%",
+      "$500M",
+      ""
+     ],
+     [
+      "Phase I",
+      "5",
+      "4 years",
+      "20%",
+      "$500M",
+      ""
+     ],
+     [
+      "Phase II",
+      "3",
+      "3 years",
+      "40%",
+      "$500M",
+      ""
+     ],
+     [
+      "Phase III",
+      "1",
+      "2 years",
+      "60%",
+      "$500M",
+      ""
+     ],
+     [
+      "1st year on market",
+      "",
+      "",
+      "",
+      "",
+      "20%"
+     ],
+     [
+      "2nd year on market",
+      "",
+      "",
+      "",
+      "",
+      "40%"
+     ],
+     [
+      "3rd year on market",
+      "",
+      "",
+      "",
+      "",
+      "60%"
+     ],
+     [
+      "4th year on market",
+      "",
+      "",
+      "",
+      "",
+      "80%"
+     ],
+     [
+      "5th year on market",
+      "",
+      "",
+      "",
+      "",
+      "100%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-pharmaceutical-rare-disease/p248.webp",
+   "image_has_answers": false,
+   "key_insight": "Only Phase I-III assets reach market within five years; expected revenue depends jointly on asset count, approval probability, $500M peak revenue, and years of commercial ramp.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is revenue from the existing $2.5B business after five years of linear 5% growth?",
+   "givens": [
+    "$2.5B current revenue",
+    "5% annual linear growth",
+    "Five years"
+   ],
+   "steps": [
+    "Five-year growth = $2.5B x 5% x 5 = $625M",
+    "Ending existing-business revenue = $2.5B + $625M = $3.125B"
+   ],
+   "answer": "$3.125B",
+   "answer_value": 3.125,
+   "unit": "USD billions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What probability-adjusted year-five revenue comes from the pipeline?",
+   "givens": [
+    "Phase I: 5 assets, 20% approval, $500M peak, 20% of peak in first market year",
+    "Phase II: 3 assets, 40% approval, $500M peak, 40% of peak in second market year",
+    "Phase III: 1 asset, 60% approval, $500M peak, 60% of peak in third market year",
+    "Research takes six years"
+   ],
+   "steps": [
+    "Phase I = 5 x 20% x $500M x 20% = $100M",
+    "Phase II = 3 x 40% x $500M x 40% = $240M",
+    "Phase III = 1 x 60% x $500M x 60% = $180M",
+    "Research contribution = $0 within five years",
+    "Total = $520M"
+   ],
+   "answer": "$520M",
+   "answer_value": 520,
+   "unit": "USD millions in year five",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What organic-plus-pipeline growth is generated, and what gap remains?",
+   "givens": [
+    "$625M existing-business growth",
+    "$520M pipeline contribution",
+    "$2.5B growth needed to double",
+    "$500M per acquired peak-revenue asset"
+   ],
+   "steps": [
+    "Internal growth = $625M + $520M = $1.145B",
+    "Remaining growth gap = $2.5B - $1.145B = $1.355B, approximately $1.4B",
+    "Assets required = $1.355B / $500M = 2.71, rounded up to 3"
+   ],
+   "answer": "$1.355B remaining gap; at least three $500M assets",
+   "answer_value": 1.355,
+   "unit": "USD billions remaining",
+   "verified": false,
+   "book_answer_if_different": "The source writes internal growth as '$1.145M' even though $625M + $520M = $1.145B. Its rounded $1.4B gap and three-asset recommendation are numerically consistent with billions."
+  }
+ ],
+ "synthesis": "Combine growth of the existing business, pipeline launches, and acquisitions. The $2.5B base reaches $3.125B under the instructed linear growth assumption, and Phase I-III assets add $520M, for $3.645B before deals. Acquire at least three $500M peak-revenue assets to close the $1.355B gap. Prioritize assets that can launch within five years and perform clinical, regulatory, patent, commercial, valuation, and integration diligence. Main risks are acquisition pricing, pipeline delays, and regulation.",
+ "what_great_looks_like": [
+  "Uses the existing/new asset and market matrix",
+  "Applies attrition and revenue ramp to each pipeline phase",
+  "Excludes research assets outside the horizon",
+  "Rounds the acquisition count up",
+  "Catches the source's million-versus-billion typo"
+ ],
+ "common_pitfalls": [
+  "Compounding growth despite the source's linear instruction",
+  "Using peak revenue without approval probabilities",
+  "Giving Phase I assets more than one year of revenue",
+  "Including research assets that take six years",
+  "Rounding 2.71 acquisitions down"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "All calculations were independently recomputed. The source has a unit typo: $625M + $520M is $1.145B, not $1.145M. It also labels $3.1B from the existing business as 'current pipeline' in the conclusion. Although interviewer guidance calls this an NPV case, no cash-flow timing discount rate or cost data are supplied, so no NPV is performed. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type secondary labels",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

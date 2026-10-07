@@ -1,0 +1,180 @@
+{
+ "id": "booth-2024-commercial-vehicle-oem-in-china",
+ "title": "Commercial Vehicle OEM in China",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  108,
+  113
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "automotive-ev",
+ "sub_industry": "oems",
+ "industry_source_label": "Transportation & Automotive",
+ "geography": "China",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Strategy&",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 2/3; Creativity 2/3",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "china",
+  "automotive",
+  "localization",
+  "breakeven",
+  "market-share",
+  "emerging-markets"
+ ],
+ "fit_question": "What can you contribute to our consulting team? Why did you choose this geographic location?",
+ "prompt": "Megatron International is a successful global commercial-vehicle OEM with strong mature-market positions, but it has struggled for five years in China, now 80% of global demand. How can it profitably increase its China share?",
+ "clarifying_info": [],
+ "interviewer_notes": "Candidate-led case combining qualitative capability diagnosis with a breakeven-share calculation for a localized brand. Either go or no-go is acceptable if supported.",
+ "suggested_framework": {
+  "summary": "Book framework covering China market, profitability, company capabilities and risks.",
+  "tree": {
+   "label": "China growth",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size, growth, customers and competitors"
+      },
+      {
+       "label": "Regional buying criteria"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Price, volume and mix"
+      },
+      {
+       "label": "Investment and unit costs"
+      }
+     ]
+    },
+    {
+     "label": "Capabilities",
+     "children": [
+      {
+       "label": "Product, manufacturing and brand"
+      },
+      {
+       "label": "Dealer, service and local knowledge"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose Megatron's China performance?",
+   "expected_answer": "Compare market and customer needs, competitors, economics and Megatron's transferable versus missing capabilities, including product, manufacturing, dealer, parts and service networks.",
+   "good_answer_signals": [
+    "Includes local capabilities",
+    "Covers profit and share"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What mature-market strengths transferred, and what likely caused the struggle?",
+   "expected_answer": "Transferable strengths include product development, scale, global low-cost supply chain, quality, brand, sales and management. Gaps include local knowledge, dealer and service coverage, regional scale and an over-engineered expensive product. Chinese buyers prioritize price and payback; domestic trucks last about four years and cost one-quarter as much as Megatron's 20-year trucks.",
+   "good_answer_signals": [
+    "Walks the value chain",
+    "Identifies product-market mismatch"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What share must localized brand Ndamukong win to recover a $500M investment in four years?",
+   "info_to_release": "Global market 500K units; China 80%. Ndamukong price $50K, COGS 75% of price, SG&A $10K/unit. Market is flat. Domestic firms control 90%.",
+   "expected_answer": "China is 400K units/year. Unit contribution=$50K-$37.5K-$10K=$2.5K. Recovering $500M requires 200K vehicles, or 50K/year for four years: 12.5% of China (about 13.9% of domestic-controlled volume). Each 1% share contributes $10M/year.",
+   "good_answer_signals": [
+    "Calculates unit contribution",
+    "Converts cumulative units to annual share"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Megatron invest?",
+   "expected_answer": "Proceed only with credible evidence it can win at least 12.5% through a localized value proposition, differentiation, dealer/service capability and partnerships. Research competitors and customers, test brand architecture and identify local manufacturing partners. Risks are share shortfall, brand dilution and inability to engineer to 'high enough' local standards.",
+   "good_answer_signals": [
+    "Ties decision to 12.5%",
+    "Provides localization actions and risks"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What share is required for four-year breakeven?",
+   "givens": [
+    "500K global units",
+    "80% China",
+    "$50K price",
+    "75% COGS",
+    "$10K SG&A",
+    "$500M investment"
+   ],
+   "steps": [
+    "China=400K units",
+    "Contribution=$2.5K",
+    "Required units=$500M/$2.5K=200K",
+    "Annual=50K",
+    "Share=50K/400K=12.5%"
+   ],
+   "answer": "12.5% of the Chinese market",
+   "answer_value": 12.5,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "Invest only if diligence supports a path to at least 12.5% share. Ndamukong must localize durability and price, build dealer and service coverage, and use local partners without confusing Megatron's premium brand. Otherwise redirect capability building to a more attainable emerging market.",
+ "what_great_looks_like": [
+  "Diagnoses over-engineering",
+  "Calculates share hurdle",
+  "Links localization to economics"
+ ],
+ "common_pitfalls": [
+  "Assumes global strengths transfer unchanged",
+  "Uses revenue as contribution",
+  "Compares 200K cumulative units with one-year market"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "No candidate exhibits; all inputs are interviewer-released. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

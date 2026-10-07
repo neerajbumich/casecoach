@@ -1,0 +1,320 @@
+{
+ "id": "ross-2025-gpg",
+ "title": "GPG",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  33,
+  39
+ ],
+ "variant_group_id": "ross-2025-gpg",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Market Entry",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Non-Profit | Market Entry & New Product",
+ "industry": "public-sector",
+ "sub_industry": "non-profit",
+ "industry_source_label": "Non-Profit / CSR",
+ "geography": "New York City, US",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 1/3 (Quant - 1, Qual - 1, Overall - 1)",
+ "quant_intensity": "M",
+ "estimated_minutes": 25,
+ "tags": [
+  "csr",
+  "market-entry",
+  "unit-economics",
+  "public-sector",
+  "cost-comparison",
+  "survey-analysis",
+  "capex-vs-opex"
+ ],
+ "concepts_tested": [
+  "amortization",
+  "unit cost comparison",
+  "survey/data interpretation"
+ ],
+ "prompt": "Our client is Bass Industries, a global commercial real estate developer headquartered in New York City. Bass Industries needs to expand its CSR portfolio in its home city and has decided to focus on public restroom availability. Bass Industries believes that this initiative relies on existing core competencies such as site selection, zoning management, and dispersed maintenance. Additionally, the issue of restroom availability has been a topic of debate at the New York City Council this year. Bass Industries has reached out to us for help assessing this proposed project.",
+ "clarifying_info": [
+  {
+   "question_topic": "Bass Industries' specific objective",
+   "answer": "Bass Industries is seeking to generate a positive social return and contribute to New York City while adhering to their core corporate principle of robust return on capital."
+  },
+  {
+   "question_topic": "Why pursuing CSR investments now",
+   "answer": "Our client recently elected a new CEO whose priorities are not identical to his predecessor's."
+  },
+  {
+   "question_topic": "What the NY City Council debate entailed",
+   "answer": "The Council identified that NYC has many fewer public restrooms per capita than peer cities around the world. Currently, NYC has approximately one public toilet per 7,820 residents. The council set a target ratio of one public toilet per 2,000 residents."
+  },
+  {
+   "question_topic": "Is the new CEO Chuck Bass?",
+   "answer": "Hard to say, really."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led case testing CSR/social-impact market entry, unit-economics comparison of two build options, and interpretation of survey data to choose a location. Ratings: Quant - 1, Qual - 1, Overall - 1 (book's own scale).",
+ "suggested_framework": {
+  "summary": "Book-provided framework organized around Feasibility, Impact, and Public Relations factors for the CSR initiative.",
+  "tree": {
+   "label": "CSR Public Restroom Initiative",
+   "children": [
+    {
+     "label": "Feasibility",
+     "children": [
+      {
+       "label": "Access to real estate"
+      },
+      {
+       "label": "Zoning and public policy"
+      },
+      {
+       "label": "Maintenance and cleaning access"
+      },
+      {
+       "label": "Costs",
+       "children": [
+        {
+         "label": "Construction"
+        },
+        {
+         "label": "Leasing"
+        },
+        {
+         "label": "Maintenance"
+        },
+        {
+         "label": "Cleaning"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Impact",
+     "children": [
+      {
+       "label": "Identify best locations for placement"
+      },
+      {
+       "label": "Establish KPIs to evaluate projects"
+      },
+      {
+       "label": "Launch pilot and assess impact level and relevance to local community"
+      },
+      {
+       "label": "Continuous evaluation and adaptability of on-going project"
+      },
+      {
+       "label": "Connect with relevant communities"
+      },
+      {
+       "label": "Develop robust stakeholder relationships"
+      }
+     ]
+    },
+    {
+     "label": "Public Relations",
+     "children": [
+      {
+       "label": "Methods of ensuring positive reception"
+      },
+      {
+       "label": "Controlled narrative"
+      },
+      {
+       "label": "Influencer relationship"
+      },
+      {
+       "label": "Minimization of downside risk associated with project failure"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What are the factors that Bass Industries should consider as it creates a plan for their CSR initiative?",
+   "expected_answer": "A structured framework covering Feasibility (real estate access, zoning, maintenance, costs of construction/leasing/maintenance/cleaning), Impact (best locations, KPIs, pilot launch, community connection, stakeholder relationships), and Public Relations (positive reception, controlled narrative, influencer relationships, downside risk minimization).",
+   "good_answer_signals": [
+    "Structures around feasibility, impact, and PR/reputation",
+    "Ties framework back to Bass Industries' core competencies (site selection, zoning, maintenance)"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Bass Industries has identified two potential routes to move forward: permanent installation construction with sewer access and 'ThroneLab' mobile restrooms. From a financial standpoint, how would you assess these options?",
+   "release_when": "Only if probed by interviewee",
+   "info_to_release": "Permanent Construction: 25 units, 10 toilets per unit, $500,000 per unit construction cost, $75,000 annual rent per unit, $0 annual leasing fee, 50-year lifespan with maintenance. ThroneLab: 250 units, 1 toilet per establishment, $0 construction cost, $5,000 annual rent per unit, $10,000 annual leasing fee per unit.",
+   "exhibit_ids": [],
+   "expected_answer": "Permanent construction: 250 toilets; amortized construction cost $12.5M/50yr = $250,000/yr; rent $75,000*25 = $1,875,000/yr; total $2,125,000/yr / 250 toilets = $8,500/toilet/year. ThroneLab: $10,000/toilet leasing + $5,000/toilet rent = $15,000/toilet/year. Permanent construction has a much lower annual cost per toilet ($8,500 vs $15,000) despite higher upfront investment.",
+   "good_answer_signals": [
+    "Asks about expected lifespan of constructed toilets to compare like units",
+    "Computes both options and identifies permanent construction yields lower cost/toilet",
+    "Identifies annual cost/toilet (not cost/establishment) as the relevant metric",
+    "Notes permanent construction requires much higher upfront investment despite lower unit costs"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "To assess the impact this investment might have, the client commissioned an opinion poll. Respondents were asked to rate their agreement with three statements on a 1-5 scale, with 1 being 'strongly disagree' and 5 being 'strongly agree.' What are your takeaways from this data?",
+   "info_to_release": "Exhibit 1: Public Survey Data by borough (Manhattan, Brooklyn, Queens, Bronx, Staten Island) across three statements: satisfaction with restroom access, whether more restrooms would improve the neighborhood, and importance of the issue.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Manhattan residents are opposed to more restrooms even though they aren't satisfied, and feel reasonably strongly. Brooklyn residents are in favor and unsatisfied, feeling somewhat strongly. Queens residents are in favor and unsatisfied, and feel the most strongly of any borough. Bronx residents are relatively neutral and it is not a big priority for them. Staten Island residents are dissatisfied and believe access would improve their neighborhood but are indifferent overall.",
+   "good_answer_signals": [
+    "Identifies that Brooklyn and Queens are the best locations, balancing desire (improvement belief) and fervor (importance) of residents for more public restroom access"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to Bass Industries?",
+   "expected_answer": "Bass Industries should invest in permanently constructed toilets in Brooklyn. This choice maximizes return on investment at $8,500/toilet/year while placing the toilets in the borough where they are most wanted, per the survey data. Risks include polling errors and errors in projecting the lifespan of the permanently constructed installations. Next steps: conduct more robust public opinion surveys and buy insurance.",
+   "good_answer_signals": [
+    "Combines the unit-economics conclusion (permanent construction, lower cost/toilet) with the survey conclusion (Brooklyn)",
+    "Flags risks: polling errors, lifespan projection errors",
+    "Proposes next steps: more robust surveys, insurance"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Public Survey Data",
+   "page": 37,
+   "kind": "table",
+   "description": "Opinion poll results by NYC borough on three statements rated 1-5 (1=strongly disagree, 5=strongly agree): satisfaction with current public restroom access, whether more restrooms would improve the neighborhood, and importance of the issue.",
+   "data": {
+    "columns": [
+     "Question",
+     "Manhattan",
+     "Brooklyn",
+     "Queens",
+     "Bronx",
+     "Staten Island"
+    ],
+    "rows": [
+     [
+      "I am satisfied with access to public restrooms in my neighborhood.",
+      1.6,
+      2,
+      1.5,
+      2.1,
+      1.9
+     ],
+     [
+      "My neighborhood would be improved by greater presence of public restrooms.",
+      2.1,
+      4.2,
+      4,
+      3.1,
+      4.3
+     ],
+     [
+      "Access to public restrooms is an important issue to me.",
+      3.9,
+      3.4,
+      4.1,
+      2.9,
+      1.4
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-gpg/p037.webp",
+   "key_insight": "Brooklyn and Queens combine low satisfaction, strong belief that more restrooms would help, and high importance rating — making them the best target boroughs; Manhattan and Staten Island residents are unsatisfied but don't rate the issue as important or don't want more restrooms, respectively.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the annual cost per toilet for the permanent construction option?",
+   "givens": [
+    "25 units",
+    "10 toilets per unit",
+    "$500,000 per unit construction cost",
+    "$75,000 annual rent per unit",
+    "$0 annual leasing fee",
+    "50-year lifespan"
+   ],
+   "steps": [
+    "Total toilets = 25 units * 10 toilets = 250 toilets",
+    "Total construction cost = $500,000 * 25 = $12.5M",
+    "Amortized construction cost = $12.5M / 50 years = $250,000/year",
+    "Total annual rent = $75,000 * 25 = $1,875,000/year",
+    "Total annual cost = $250,000 + $1,875,000 = $2,125,000/year",
+    "Cost per toilet = $2,125,000 / 250 toilets = $8,500/toilet/year"
+   ],
+   "answer": "$8,500 per toilet per year",
+   "answer_value": 8500,
+   "unit": "USD/toilet/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the annual cost per toilet for the ThroneLab option?",
+   "givens": [
+    "250 units",
+    "1 toilet per establishment",
+    "$0 construction cost",
+    "$5,000 annual rent per unit",
+    "$10,000 annual leasing fee per unit"
+   ],
+   "steps": [
+    "Total toilets = 250 units * 1 toilet = 250 toilets",
+    "Cost per toilet = $10,000 leasing fee/toilet + $5,000 rent/toilet = $15,000/toilet/year"
+   ],
+   "answer": "$15,000 per toilet per year",
+   "answer_value": 15000,
+   "unit": "USD/toilet/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Bass Industries should invest in permanently constructed toilets in Brooklyn. These choices maximize return on investment at $8,500/toilet/year while placing the toilets in the borough where they are most wanted (Brooklyn, alongside Queens, balances residents' desire for more restrooms with the strength of feeling on the issue).",
+ "what_great_looks_like": [
+  "Quickly identifies that permanent construction has much higher initial costs but much lower unit costs",
+  "Rapidly identifies that the most relevant metric is annual cost/toilet (not cost/establishment)",
+  "Notes that although annual cost/toilet is lower for permanent construction, it requires vastly more upfront investment than ThroneLab",
+  "Identifies Brooklyn and Queens as the best locations, balancing desire and fervor of residents for more public restroom access"
+ ],
+ "common_pitfalls": [
+  "Comparing cost per establishment instead of cost per toilet across the two options",
+  "Failing to ask about the lifespan of constructed toilets before comparing options",
+  "Recommending a borough based on satisfaction alone without weighing importance/fervor"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

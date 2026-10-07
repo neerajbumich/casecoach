@@ -1,0 +1,441 @@
+{
+ "id": "fuqua-2023-sardine-airlines",
+ "title": "Sardine Airlines",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  141,
+  151
+ ],
+ "author": "Revised by Vann Vicente and Darian Aghili (Fuqua '24); origin: Fuqua Casebook 2016–2017",
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "airlines",
+ "sub_industry": "passenger-airlines",
+ "industry_source_label": "Transportation",
+ "geography": "Continental United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Medium; Qualitative: Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "profitability",
+  "sga",
+  "outsourcing",
+  "relocation",
+  "taxes",
+  "cost-reduction",
+  "airlines"
+ ],
+ "prompt": "Sardine Airlines is an ultra low-cost carrier with flights throughout the continental United States. They have hub airports in Oakland, California; Tulsa, Oklahoma, and Hartford, Connecticut. Sardine Airlines is facing increased pressure from other low-cost carriers such as Cattle Car Air and Soul Airlines. Sardine Airlines has faced declining profit for the past year. Sardine's CEO, Penny McPincher, has asked your team for advice on how to reverse the profitability trend.",
+ "clarifying_info": [
+  {
+   "question_topic": "Positioning",
+   "answer": "Competes on lowest fares and minimal service, with a cost-saving culture that passes savings to customers."
+  },
+  {
+   "question_topic": "Target",
+   "answer": "20% net profit margin, defined as net income divided by total revenue."
+  },
+  {
+   "question_topic": "Financial definitions",
+   "answer": "Non-ticket revenue includes bag fees, food, beverages, customer-service charges and paper tickets. Landing fees are airport-use charges."
+  }
+ ],
+ "interviewer_notes": "Give Exhibit 1 when revenues/costs are requested; it deliberately contains more data than needs exhaustive analysis. Focus on SG&A growth and provide Exhibit 2. Exhibit 3 is optional, only if the candidate investigates maintenance; do not cut safety-related maintenance. Marketing reductions and larger seats are not accepted by management. The cost-saving answer key confuses a 60% price premium with a 60% saving and mixes pretax savings with a net-income target. Preserve all verbal inputs but grade against corrected calculations and explicitly stated tax assumptions.",
+ "suggested_framework": {
+  "summary": "Diagnose financial drivers, market pressures and internal operations.",
+  "tree": {
+   "label": "Restore airline profitability",
+   "children": [
+    {
+     "label": "Financials",
+     "children": [
+      {
+       "label": "Ticket price, seats, utilization and flight frequency"
+      },
+      {
+       "label": "Baggage, upgrades and other fees"
+      },
+      {
+       "label": "Per-passenger and per-flight costs, SG&A and airport fees"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Travel trends, industry growth, low-cost carriers and booking aggregators"
+      },
+      {
+       "label": "Airline and other-transport competitors"
+      },
+      {
+       "label": "Regional airport access and terminal priority"
+      }
+     ]
+    },
+    {
+     "label": "Internal operations",
+     "children": [
+      {
+       "label": "Fleet life, servicing and route coverage/distance"
+      },
+      {
+       "label": "Pilots, cabin crew, maintenance and administration"
+      },
+      {
+       "label": "Fuel, parts and in-flight suppliers"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you reverse the declining profit trend?",
+   "release_when": "After the prompt; clarify positioning and target on request.",
+   "expected_answer": "Decompose revenue and costs, benchmark market trends and examine fleet, routes, labor and suppliers. Preserve the ultra-low-cost positioning and use the stated 20% net-margin target.",
+   "good_answer_signals": [
+    "Clarifies that the target uses after-tax net income."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What is driving declining profitability, and how much improvement is needed?",
+   "release_when": "When revenue or cost data is requested.",
+   "info_to_release": "Exhibit 1 is an unaudited statement in $M for 2015–2012. Printed 2015 revenue is $2,143M, pretax income $529M, taxes $158M and net income $371M; 2014 revenue is $2,060M and net income $445M. Target margin is 20%.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue continues growing but more slowly: 2015 growth is about 4.03%. SG&A rises from $309M to $428M, or 15% to about 20% of sales, and is the largest cost increase. Maintenance also rises. At current revenue, target net income is $428.6M, $57.6M above current income. Current net margin is about 17.31%.",
+   "good_answer_signals": [
+    "Prioritizes material changes rather than calculating every row."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Which SG&A categories should we investigate?",
+   "release_when": "After SG&A is identified as the main issue.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "info_to_release": "2015/2014 costs in $M: marketing 86/62, salaries 171/170, rent 86/46, customer service 64/12, miscellaneous 21/19.",
+   "expected_answer": "Increases are marketing $24M, rent $40M and customer service $52M, versus only $1M salaries and $2M miscellaneous. Investigate these material drivers. Rounded category shares are 20%/40%/20%/15%/5% in 2015 versus 20%/55%/15%/4%/6% in 2014.",
+   "good_answer_signals": [
+    "Uses absolute dollars, not share movements alone, to prioritize."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "Should Sardine reduce maintenance spending?",
+   "release_when": "Optional: show Exhibit 3 only if maintenance is pursued. Otherwise skip this stage.",
+   "info_to_release": "The June 30, 2015 FAA memo ends maintenance supervision because standards improved; future deterioration would trigger supervision or sanctions. If the candidate persists: management says the improved program is at peak efficiency and cuts would invite unwanted regulatory scrutiny. FAA is the U.S. airline-safety regulator.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Do not cut safety-related maintenance. Increased spending addressed earlier deficiencies and regulatory supervision; focus on SG&A opportunities instead.",
+   "good_answer_signals": [
+    "Treats safe operations as a constraint, not a discretionary expense."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What can Sardine do about headquarters rent and customer-service costs?",
+   "release_when": "After prioritizing SG&A. Marketing and seat-size changes are ruled out by management.",
+   "info_to_release": "The CEO/Board view aggressive marketing as critical and will not cut it. The prompt says headquarters rent rose $35M. Complaints rose nearly 3,000% after 12-inch seats; it says call-center billing increased 520% from 2014's $12.36M. The firm will not enlarge seats and is considering an 8-inch 'steerage' pilot. Headquarters can move to Tulsa or Hartford, where rent would be 40% below current 2015 rent. The U.S./native-English call-center vendor's rates are 60% higher than alternatives. Exhibit costs remain $86M rent and $64M customer service.",
+   "expected_answer": "Relocation saves 40% × $86M = $34.4M. A price 60% higher than an alternative means current price = 1.6 × alternative: outsourcing cost is $64M/1.6 = $40M and savings $24M, not $38.4M. Combined pretax savings are $58.4M. At the current effective tax rate 158/529, after-tax savings are about $40.96M and margin about 19.22%, below 20%; required pretax savings are about $82.13M. Only if taxes are held fixed do these savings just reach about 20.04%. Resolve that assumption and identify more savings rather than promising the target.",
+   "good_answer_signals": [
+    "Uses the correct percentage base for the vendor premium.",
+    "Distinguishes pretax savings from net-income improvement."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Ms. McPincher will join shortly. What do you recommend?",
+   "expected_answer": "Prioritize relocation to Tulsa/Hartford and a suitable overseas call-center vendor, subject to service and execution diligence. Corrected gross savings are $58.4M, not the claimed $72.8M or $78.8M. Do not claim a 20% net margin without tax assumptions: at the existing effective rate, margin reaches about 19.22%. Preserve maintenance and critical marketing. Risks include moving costs, staff attrition and poorer customer service. Scope offices, evaluate vendors and consider recommending against the proposed 8-inch seats because narrower seats already increased complaints.",
+   "good_answer_signals": [
+    "Quantifies corrected savings and flags the remaining target gap.",
+    "Includes one-time transition costs and customer experience."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Statement of operations",
+   "page": 144,
+   "kind": "table",
+   "description": "Unaudited $M financial inputs. Calculated total revenue, pretax income and net income rows are excluded from data and recomputed in math; image contains those totals and is hidden in practice.",
+   "data": {
+    "columns": [
+     "Input ($M)",
+     "2015",
+     "2014",
+     "2013",
+     "2012"
+    ],
+    "rows": [
+     [
+      "Passenger revenue",
+      1088,
+      1092,
+      908,
+      793
+     ],
+     [
+      "Non-ticket revenue",
+      1055,
+      968,
+      862,
+      769
+     ],
+     [
+      "Fuel",
+      589,
+      583,
+      625,
+      718
+     ],
+     [
+      "Landing fees",
+      383,
+      370,
+      332,
+      296
+     ],
+     [
+      "Maintenance",
+      214,
+      164,
+      106,
+      67
+     ],
+     [
+      "SG&A",
+      428,
+      309,
+      185,
+      171
+     ],
+     [
+      "Special charges",
+      0,
+      0,
+      225,
+      0
+     ],
+     [
+      "Taxes",
+      158,
+      189,
+      88,
+      92
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-sardine-airlines/p144.webp",
+   "image_has_answers": true,
+   "key_insight": "SG&A grows much faster than revenue and drives the largest deterioration.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "SG&A breakdown",
+   "page": 146,
+   "kind": "bar",
+   "description": "Category costs in USD millions; the image includes calculated aggregate SG&A totals, so only input rows are used for practice.",
+   "data": {
+    "columns": [
+     "Category",
+     "2015 ($M)",
+     "2014 ($M)"
+    ],
+    "rows": [
+     [
+      "Marketing",
+      86,
+      62
+     ],
+     [
+      "Salaries",
+      171,
+      170
+     ],
+     [
+      "Rent",
+      86,
+      46
+     ],
+     [
+      "Customer service",
+      64,
+      12
+     ],
+     [
+      "Miscellaneous",
+      21,
+      19
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-sardine-airlines/p146.webp",
+   "image_has_answers": true,
+   "key_insight": "Marketing, rent and customer service account for nearly all the increase.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Sardine maintenance memo",
+   "page": 148,
+   "kind": "text",
+   "description": "Fictional case memo dated June 30, 2015, from FAA Administrator Michael Huerta to CEO Penny McPincher: improved maintenance ends supervision; future reductions in standards trigger supervision or sanctions.",
+   "image_path": "exhibits/fuqua-2023-sardine-airlines/p148.webp",
+   "key_insight": "Maintenance cost increases restored safe standards; cuts are not an acceptable lever.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the baseline and target profit gap?",
+   "givens": [
+    "Revenue and cost inputs in Exhibit 1",
+    "20% target net margin"
+   ],
+   "steps": [
+    "2015/2014/2013/2012 revenues sum to $2143M/$2060M/$1770M/$1562M.",
+    "Subtract all operating costs: pretax incomes $529M/$634M/$297M/$310M.",
+    "Subtract taxes: net incomes $371M/$445M/$209M/$218M.",
+    "2015 margin = 371/2143 = 17.3122%; target income = 2143 × 20% = $428.6M; gap = $57.6M.",
+    "SG&A/revenue: 2015 428/2143 = 19.972%; 2014 309/2060 = 15%. Revenue growth is (2143/2060 − 1) = 4.0291%."
+   ],
+   "answer": "$57.6M additional net income is required at constant revenue.",
+   "answer_value": 57.6,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What changed within SG&A?",
+   "givens": [
+    "Exhibit 2 category costs for 2015 and 2014"
+   ],
+   "steps": [
+    "Marketing 86−62=24; salaries 171−170=1; rent 86−46=40; customer service 64−12=52; miscellaneous 21−19=2, all $M."
+   ],
+   "answer": "Marketing, rent and customer service increased $24M, $40M and $52M respectively.",
+   "answer_value": 40,
+   "unit": "USD millions (rent increase)",
+   "verified": false,
+   "book_answer_if_different": "The cost-cutting verbal prompt says headquarters rent increased $35M, whereas Exhibit 2 and its guidance show a $40M increase in the rent category. The book does not explain whether the extra $5M reflects other rent."
+  },
+  {
+   "id": "m3",
+   "question": "What are the corrected relocation and outsourcing savings?",
+   "givens": [
+    "Rent $86M and relocation rent 40% lower",
+    "Customer service $64M",
+    "Current vendor is 60% more expensive than alternative"
+   ],
+   "steps": [
+    "Rent savings = 86 × 40% = $34.4M.",
+    "Alternative call-center cost = 64/1.6 = $40M; saving = 64−40 = $24M.",
+    "Combined saving = 34.4+24 = $58.4M."
+   ],
+   "answer": "$58.4M combined annual pretax savings.",
+   "answer_value": 58.4,
+   "unit": "USD millions/year",
+   "verified": false,
+   "book_answer_if_different": "Page 150 incorrectly uses 60% × $64M = $38.4M saving and totals $72.8M. Page 151 then states $78.8M, which does not even equal its own $34.4M+$38.4M components. A 60% premium implies a 37.5% saving relative to the current price."
+  },
+  {
+   "id": "m4",
+   "question": "Do corrected savings deliver the 20% net-margin target?",
+   "givens": [
+    "2015 pretax income $529M, tax $158M, net income $371M, revenue $2143M",
+    "Pretax savings $58.4M",
+    "Sensitivity assumption: constant effective tax rate 158/529"
+   ],
+   "steps": [
+    "After-tax savings = 58.4 × (1−158/529) = $40.9573M.",
+    "New margin = (371+40.9573)/2143 = 19.2234%.",
+    "Pretax improvement required = 57.6/(1−158/529) = $82.1305M.",
+    "If taxes instead remain fixed, margin = (371+58.4)/2143 = 20.0373%."
+   ],
+   "answer": "About 19.22% at the existing tax rate; 20% is not guaranteed without additional savings or a different tax assumption.",
+   "answer_value": 19.2233914084,
+   "unit": "%",
+   "verified": false,
+   "book_answer_if_different": "The recommendation claims the savings achieve 20% net margin without addressing their tax effect, despite defining the target using net income."
+  },
+  {
+   "id": "m5",
+   "question": "Is the stated call-center increase consistent with the financial inputs?",
+   "givens": [
+    "Verbal 2014 baseline $12.36M",
+    "2015 exhibit $64M",
+    "Verbal claim: billing increased by 520%"
+   ],
+   "steps": [
+    "Actual increase from these figures = (64/12.36−1) × 100 = 417.799%.",
+    "A 520% increase would imply 12.36 × 6.2 = $76.632M."
+   ],
+   "answer": "Approximately 417.8% growth, not 520%; the current bill is approximately 517.8% of the old bill.",
+   "answer_value": 417.7993527508,
+   "unit": "%",
+   "verified": false,
+   "book_answer_if_different": "The prompt says billing increased 520% from $12.36M, while the exhibit gives $64M in 2015. It appears to confuse percentage of baseline with percentage increase."
+  }
+ ],
+ "synthesis": "Move headquarters to Tulsa or Hartford and evaluate overseas call-center vendors while preserving maintenance safety and marketing. Corrected savings are $34.4M rent plus $24M customer service, or $58.4M pretax annually. At the current effective tax rate this raises net margin only to about 19.22%, so validate taxes and find additional opportunities before promising 20%. Include moving costs, attrition and service-quality risks. Scope offices and vendors and reconsider further seat compression given complaint escalation.",
+ "what_great_looks_like": [
+  "Finds the major SG&A drivers quickly.",
+  "Avoids unsafe maintenance cuts.",
+  "Corrects the premium-versus-discount calculation and checks net rather than pretax margin.",
+  "Questions the proposed 8-inch seats in light of service complaints."
+ ],
+ "common_pitfalls": [
+  "Treating a 60% price premium as a 60% cost saving.",
+  "Ignoring tax and one-time relocation costs.",
+  "Following the source's inconsistent $78.8M total.",
+  "Cutting critical maintenance or marketing despite explicit constraints."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[3].givens (future tax treatment unstated)",
+   "math[1].book_answer_if_different (headquarters versus total rent scope unclear)"
+  ],
+  "math_verified": false,
+  "notes": "Fuqua Classic from 2016–2017. Preserved all released figures including the $35M headquarters-rent increase, 520% billing increase and 60% vendor premium. Exhibit rent rises $40M, which may include other rent but is not reconciled. $64M versus $12.36M implies 417.8% growth, not 520%. Correct vendor-premium savings are $24M, not $38.4M; corrected combined savings $58.4M. The source separately claims $72.8M and $78.8M. Constant-tax-rate sensitivity yields 19.22% net margin, not a guaranteed 20%; fixed tax dollars would just meet the target. Printed financial/SG&A aggregate rows are excluded from input tables and their images marked as containing worked totals. Medium maps to 3 in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "format",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls",
+   "math[3] (tax sensitivity)",
+   "stages[5].expected_answer (corrected target conclusion)"
+  ]
+ }
+}

@@ -1,0 +1,430 @@
+{
+ "id": "stern-2022-mens-extra-comfortable-essentials",
+ "title": "Men’s Extra Comfortable Essentials",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  116,
+  125
+ ],
+ "author": "Peter Noorani & Anthony Russ (Stern ’18)",
+ "case_type": [
+  "Growth/Revenue",
+  "Profitability"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "retail",
+ "sub_industry": "apparel-footwear",
+ "industry_source_label": "Consumer Goods",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 6 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "growth-strategy",
+  "cagr",
+  "market-share",
+  "product-mix",
+  "gross-margin",
+  "portfolio-rationalization",
+  "distribution"
+ ],
+ "concepts_tested": [
+  "Market Sizing",
+  "Brainstorming",
+  "Growth Rates"
+ ],
+ "prompt": "Our client, Men’s Extra Comfortable Essentials, is a US-based manufacturer of basic apparel including socks, tanks, tees, and underwear. They manufacture each apparel line then brand and package them for distribution. Revenues in 2016 were $60M, and the CEO has promised shareholders 4x growth by 2020, at which point, she promised 10.5% profit margin. She has hired us to determine whether these are realistic revenue targets, and if so, how her firm could go about achieving them.",
+ "clarifying_info": [
+  {
+   "question_topic": "Supply chain",
+   "answer": "The firm contracts with fabric suppliers across the US, receives uncut fabrics, and processes each apparel line in-house."
+  },
+  {
+   "question_topic": "Distribution and customers",
+   "answer": "Products are sold through traditional channels. The firm currently makes products only for men."
+  },
+  {
+   "question_topic": "Current revenue mix",
+   "answer": "Socks 40%, tanks 25%, tees 15%, underwear 20%."
+  },
+  {
+   "question_topic": "Market shares and growth",
+   "answer": "Only when specifically asked: 2016 shares are socks 15%, tanks 2.5%, tees 5%, underwear 1%. Estimated 2020 shares are 15%, 10%, 5%, 10% respectively. Annual market growth from 2016 to 2020 is +5%, +6%, −3%, +20% respectively."
+  }
+ ],
+ "interviewer_notes": "Keep the candidate organized through current product revenues, current market sizes, four-year market growth, projected revenues and margins. A strong framework covers revenue and cost levers, market size and growth, and external competitive factors. Release market shares and growth only when specifically requested. If the candidate demonstrates competence with the early arithmetic, ask for the compounding method and supply the source’s rounded 2020 market sizes rather than requiring lengthy calculations: socks $200 million, tanks $750 million, tees $150 million, underwear $2.5 billion. Use those explicitly rounded values for subsequent calculations. Show Exhibit 1 for the margin question and ensure the candidate notices margins remain constant through 2020. The case expects product-line cuts and a structured brainstorm on increasing underwear share. The source assesses its stated profit-margin promise using gross margin; no operating-expense model is supplied.",
+ "suggested_framework": {
+  "summary": "Test the revenue and margin targets using product economics, then identify commercial and operating levers with competitive and consumer context.",
+  "tree": {
+   "label": "Meet growth and profitability commitments",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Pricing: low-cost items, basic/mid-range/luxury lines and competitive pricing"
+      },
+      {
+       "label": "Quantity: bulk sales and traditional versus e-commerce distribution"
+      },
+      {
+       "label": "Product mix, market size, growth and market share"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Fixed: manufacturing, labor, SG&A and R&D"
+      },
+      {
+       "label": "Variable: fabric, packaging, logistics and event/showroom fees"
+      }
+     ]
+    },
+    {
+     "label": "Market factors",
+     "children": [
+      {
+       "label": "Competitors and new entrants"
+      },
+      {
+       "label": "Market size and growth"
+      }
+     ]
+    },
+    {
+     "label": "Consumers",
+     "children": [
+      {
+       "label": "Fashion trends"
+      },
+      {
+       "label": "Income levels"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess whether the CEO’s growth and margin promises are achievable?",
+   "release_when": "After the prompt; release operational and product-mix clarifications on request.",
+   "info_to_release": "2016 revenue is $60 million. The CEO promised 4 times that revenue and a 10.5% profit margin by 2020. The company manufactures men’s basic apparel in-house from US-sourced fabric and distributes through traditional channels.",
+   "exhibit_ids": [],
+   "expected_answer": "Translate the revenue promise into a $240 million target. For each product, derive present revenue and market size, apply market growth over 4 years, then apply expected market share to forecast revenue. Calculate a revenue-weighted margin, consider product-line changes, and test what commercial and operational actions make the share assumptions realistic. Include competitors and consumer trends.",
+   "good_answer_signals": [
+    "Tracks both revenue and margin, not growth alone.",
+    "Separates market growth from share capture."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What are current product revenues and market sizes, and how would you project each market to 2020?",
+   "release_when": "Give product mix when requested; release shares and growth only when specifically asked. Once the candidate explains compounding, supply rounded market sizes if needed.",
+   "info_to_release": "2016 mix: socks 40%, tanks 25%, tees 15%, underwear 20%. Current shares: 15%, 2.5%, 5%, 1%. Annual market growth: +5%, +6%, −3%, +20%. The interviewer may provide rounded 2020 market sizes of $200 million, $750 million, $150 million and $2.5 billion respectively.",
+   "exhibit_ids": [
+    "ex0"
+   ],
+   "expected_answer": "2016 product revenues are $24 million socks, $15 million tanks, $9 million tees and $12 million underwear. Dividing by current shares gives markets of $160 million, $600 million, $180 million and $1.2 billion. Compound for 4 years: exact 2020 markets are $194.481 million, $757.486176 million, $159.3527058 million and $2,488.32 million. The source explicitly rounds these to $200 million, $750 million, $150 million and $2.5 billion for the remainder of the case.",
+   "good_answer_signals": [
+    "Uses four compounding periods.",
+    "Divides company revenue by share to find total market size.",
+    "Applies a negative growth rate to tees."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using the rounded market sizes, what will the client’s 2020 revenue be by product?",
+   "release_when": "After the market-size calculation; release estimated shares when requested.",
+   "info_to_release": "Estimated 2020 shares: socks 15%, tanks 10%, tees 5%, underwear 10%. Use rounded markets of $200 million, $750 million, $150 million and $2.5 billion.",
+   "exhibit_ids": [
+    "ex0"
+   ],
+   "expected_answer": "Revenue is $30 million socks, $75 million tanks, $7.5 million tees and $250 million underwear: $362.5 million total, exceeding the $240 million target. This is conditional on the forecast shares, particularly the large increase in underwear share.",
+   "good_answer_signals": [
+    "Compares the total against the target.",
+    "Recognizes that forecast share is an assumption, not achieved growth."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Given Exhibit 1, what is the firm’s gross margin in 2020?",
+   "release_when": "Show Exhibit 1 after projected revenue has been calculated.",
+   "info_to_release": "2016 gross margins remain constant through 2020: socks 15%, tanks −5%, tees 0%, underwear 10%. The exhibit repeats the 2016 product revenues of $24 million, $15 million, $9 million and $12 million respectively.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "2020 gross profits are $4.5 million socks, −$3.75 million tanks, $0 tees and $25 million underwear. Total gross profit is $25.75 million. Divide by $362.5 million revenue to get 7.1034%, about 7.10%, below the 10.5% target. Use weighted economics rather than averaging product margin percentages.",
+   "good_answer_signals": [
+    "Reads the constant-margin footnote.",
+    "Distinguishes dollar gross profit from percentage gross margin."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "How could the firm meet both shareholder targets through product-line changes?",
+   "release_when": "After identifying the margin shortfall.",
+   "info_to_release": "Keep the $240 million revenue and 10.5% margin targets in view. No further financial inputs are supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "Eliminate tanks first: revenue falls to $287.5 million while gross profit rises to $29.5 million, giving 10.2609% margin, still short. Also eliminate zero-margin tees: revenue becomes $280 million and gross profit stays $29.5 million, giving 10.5357%, about 10.54%, just above target. Both remaining lines together exceed the revenue target. Although the source says two lines are below 10.5%, underwear’s 10% is also below it; the relevant distinction is that tanks lose money and tees add no gross profit, whereas retaining underwear supports the revenue target.",
+   "good_answer_signals": [
+    "Checks the revenue constraint after each cut.",
+    "Recognizes the thin margin cushion.",
+    "Does not remove every product below the corporate target indiscriminately."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "Socks can hold 15% share, but underwear must rise from 1% to 10%. How could the client accomplish that?",
+   "release_when": "After the portfolio calculation.",
+   "info_to_release": "Only men’s products are currently sold, fabric suppliers are domestic, and production is in-house.",
+   "exhibit_ids": [],
+   "expected_answer": "Customer levers include luxury and legacy basic segments, women’s underwear, boxers/briefs/boxer briefs/athletic products, marketing to win share from brands such as Hanes, and B2B sales to firms that rebrand apparel. Broaden distribution into grocery stores, pharmacies, gas stations, airports or vending machines, and add e-commerce cross-sells at other brands’ checkout. Operations levers include retooling tanks/tees lines for underwear, renegotiating fabric contracts, considering overseas suppliers, improving warehouse locations and shipping packaging, or outsourcing manufacturing. Distinguish share-growth levers from cost improvements that increase profit without expanding the market.",
+   "good_answer_signals": [
+    "Organizes customer and operating ideas separately.",
+    "Connects the large share ambition to distribution, product and capacity changes."
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "What do you recommend, and what should management validate before acting?",
+   "release_when": "At the end of the case.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Drop tanks and tees and pursue underwear growth through new products or a women’s line. On the rounded source assumptions, revenue would be $280 million with $29.5 million gross profit and 10.54% gross margin, meeting both numerical goals. Risks are alienating loyal buyers, reducing cross-purchases of socks and underwear, and provoking competitive responses. Determine internal and external messaging, select the underwear expansion target, and plan efficient redeployment of equipment and labor. Validate share feasibility and clarify whether the promised profit margin truly means gross margin.",
+   "good_answer_signals": [
+    "Makes the recommendation conditional on capturing the assumed shares.",
+    "Raises cross-product effects and execution risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex0",
+   "title": "Product Mix, Market Shares and Market Growth",
+   "page": 117,
+   "kind": "table",
+   "description": "Interviewer-held inputs released on request, not a separately numbered candidate handout.",
+   "data": {
+    "columns": [
+     "Product",
+     "2016 revenue mix (%)",
+     "2016 market share (%)",
+     "2020 estimated share (%)",
+     "2016–2020 market CAGR (%)"
+    ],
+    "rows": [
+     [
+      "Socks",
+      40,
+      15,
+      15,
+      5
+     ],
+     [
+      "Tanks",
+      25,
+      2.5,
+      10,
+      6
+     ],
+     [
+      "Tees",
+      15,
+      5,
+      5,
+      -3
+     ],
+     [
+      "Underwear",
+      20,
+      1,
+      10,
+      20
+     ]
+    ]
+   },
+   "key_insight": "Underwear combines the fastest market growth with a very large assumed share gain; tees face a shrinking market.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex1",
+   "title": "Gross Margin by Product",
+   "page": 125,
+   "kind": "table",
+   "description": "Product gross-margin rates with a footnote holding them constant through 2020. The source image also repeats 2016 product revenues computed in the preceding question; those are omitted from the input-only data table.",
+   "data": {
+    "columns": [
+     "Product",
+     "2016 gross margin retained through 2020 (%)"
+    ],
+    "rows": [
+     [
+      "Socks",
+      15
+     ],
+     [
+      "Tanks",
+      -5
+     ],
+     [
+      "Tees",
+      0
+     ],
+     [
+      "Underwear",
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-mens-extra-comfortable-essentials/p125.webp",
+   "image_has_answers": true,
+   "key_insight": "Tanks destroy gross profit and tees contribute none; removing them raises the weighted margin while leaving substantial underwear revenue.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are 2016 product revenues and market sizes?",
+   "givens": [
+    "Total revenue $60 million",
+    "Mix: 40%, 25%, 15%, 20%",
+    "Shares: 15%, 2.5%, 5%, 1% for socks, tanks, tees and underwear"
+   ],
+   "steps": [
+    "Product revenues = $60 million × mix = $24 million, $15 million, $9 million, $12 million.",
+    "Markets = product revenues / shares = $160 million, $600 million, $180 million, $1,200 million."
+   ],
+   "answer": "2016 markets: socks $160 million, tanks $600 million, tees $180 million, underwear $1.2 billion.",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are 2020 market sizes after four years of growth?",
+   "givens": [
+    "2016 markets $160 million, $600 million, $180 million, $1,200 million",
+    "Annual growth +5%, +6%, −3%, +20%",
+    "4 years",
+    "Source explicitly rounds markets to $200 million, $750 million, $150 million and $2.5 billion for later work"
+   ],
+   "steps": [
+    "Socks = $160 million × 1.05^4 = $194.481 million, rounded by source to $200 million.",
+    "Tanks = $600 million × 1.06^4 = $757.486176 million, rounded to $750 million.",
+    "Tees = $180 million × 0.97^4 = $159.3527058 million, rounded to $150 million.",
+    "Underwear = $1,200 million × 1.20^4 = $2,488.32 million, rounded to $2,500 million."
+   ],
+   "answer": "Exact markets agree with the source; use its explicitly supplied rounded figures for subsequent revenue and margin calculations.",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Does projected 2020 revenue exceed the target?",
+   "givens": [
+    "Rounded 2020 markets: $200 million, $750 million, $150 million, $2,500 million",
+    "2020 shares: 15%, 10%, 5%, 10%",
+    "Target is 4 × $60 million"
+   ],
+   "steps": [
+    "Product revenues = $30 million + $75 million + $7.5 million + $250 million = $362.5 million.",
+    "Target = 4 × $60 million = $240 million."
+   ],
+   "answer": "$362.5 million projected revenue exceeds the $240 million target.",
+   "answer_value": 362.5,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What gross margin results with all products?",
+   "givens": [
+    "2020 revenues: $30 million, $75 million, $7.5 million, $250 million",
+    "Margins: 15%, −5%, 0%, 10%"
+   ],
+   "steps": [
+    "Gross profits = $4.5 million, −$3.75 million, $0, $25 million.",
+    "Total gross profit = $25.75 million.",
+    "Gross margin = $25.75 million / $362.5 million × 100 = 7.103448%, below 10.5%."
+   ],
+   "answer": "Gross profit $25.75 million; gross margin approximately 7.10%.",
+   "answer_value": 7.103448275862069,
+   "unit": "%",
+   "verified": true
+  },
+  {
+   "id": "m5",
+   "question": "What happens when tanks and then tees are removed?",
+   "givens": [
+    "All-product revenue $362.5 million and gross profit $25.75 million",
+    "Tanks revenue $75 million and gross loss $3.75 million",
+    "Tees revenue $7.5 million and zero gross profit",
+    "Targets: $240 million revenue and 10.5% margin"
+   ],
+   "steps": [
+    "Remove tanks: revenue = $362.5 million − $75 million = $287.5 million; gross profit = $25.75 million + $3.75 million = $29.5 million.",
+    "Margin without tanks = $29.5 million / $287.5 million × 100 = 10.260870%, below target.",
+    "Also remove tees: revenue = $287.5 million − $7.5 million = $280 million; gross profit remains $29.5 million.",
+    "Final margin = $29.5 million / $280 million × 100 = 10.535714%, approximately 10.54%; revenue remains above $240 million."
+   ],
+   "answer": "Keeping socks and underwear yields $280 million revenue, $29.5 million gross profit and 10.54% gross margin.",
+   "answer_value": 10.535714285714286,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "Eliminate tanks and tees and build underwear share through a targeted commercial and operational plan. On the source’s expressly rounded markets and forecast shares, the remaining portfolio generates $280 million revenue and $29.5 million gross profit, or 10.54% gross margin, exceeding $240 million and 10.5%. The key challenge is raising underwear share from 1% to 10%, not the arithmetic alone. Validate demand, competitive response and cross-selling losses, communicate the cuts, select expansion segments, and redeploy equipment and labor. Clarify that the modeled margin is gross margin rather than a fully specified net-profit margin.",
+ "what_great_looks_like": [
+  "Recognizes the need for four-year CAGR and uses efficient shortcuts.",
+  "Tracks current and future markets separately from company revenues.",
+  "Quickly identifies the zero-margin line as a lever for increasing aggregate margin.",
+  "Builds a structured plan to capture underwear share.",
+  "Notices that the company’s initials spell MECE."
+ ],
+ "common_pitfalls": [
+  "Applying market growth to company revenue while ignoring market-share changes.",
+  "Using five rather than four compounding periods.",
+  "Averaging product margins without revenue weights.",
+  "Dropping all products below 10.5%, including the large underwear business, without checking revenue.",
+  "Assuming the aggressive share forecast is already secured.",
+  "Treating gross margin as proven net profit."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup returned NEW. All arithmetic matches, including explicitly authorized rounding of 2020 market sizes. Source Question 3 says only two products are below the 10.5% target, but underwear at 10% is also below it; the intended removals are the negative- and zero-margin lines. The prompt says profit margin while the solution exclusively models gross margin; operating expenses are not provided. Medium confidence records these source interpretation inconsistencies, not an arithmetic mismatch. Apparel-footwear is the closest available taxonomy despite the manufacturer business model and broad Consumer Goods source label. Candidate margin exhibit is page 125, not solution page 121. Its image is conservatively flagged because it repeats earlier computed revenue answers. Page 117 inputs are interviewer-held and have no candidate image. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "industry and sub_industry mapping",
+   "case_type secondary label",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis gross-versus-net caveat"
+  ]
+ }
+}

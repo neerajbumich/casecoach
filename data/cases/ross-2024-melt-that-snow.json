@@ -1,0 +1,249 @@
+{
+ "id": "ross-2024-melt-that-snow",
+ "title": "Melt That Snow",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  49,
+  57
+ ],
+ "case_type": [
+  "Public Sector/Social Impact",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Go-to-Market Strategy",
+ "industry": "public-sector",
+ "sub_industry": "government",
+ "industry_source_label": "Government & Public Sector",
+ "geography": "Holland, Michigan, US",
+ "client_type": "public sector",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant - 2, Qual - 2, Overall - 2 (1-3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "public-infrastructure",
+  "breakeven",
+  "tourism",
+  "tax-revenue",
+  "snowmelt",
+  "risk-assessment"
+ ],
+ "concepts_tested": [
+  "revenue build-up",
+  "public investment breakeven",
+  "social and environmental tradeoffs"
+ ],
+ "prompt": "The city of Holland, Michigan is considering building 690,000 square feet of heated sidewalks and streets, complementing 190,000 square feet of private heated walkways, to create North America's largest publicly owned snowmelt system. Holland's tulip festival attracts up to 2M summer visitors, but winters can fall to 20°F. The city expects its three winter events to attract at least 3,000 new visitors per week and non-event weeks to attract 100 new visitors per day, increasing economic activity and taxes. Evaluate the initiative.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "The city wants the investment to break even within six years."
+  },
+  {
+   "question_topic": "Current alternative",
+   "answer": "Traditional snow plowing costs $0.10 per square foot; snowmelt is expected to be more efficient, reliable, and sustainable."
+  },
+  {
+   "question_topic": "Costs",
+   "answer": "Upfront cost is $10M, annual maintenance is $50,000, and construction takes one year with no revenue."
+  },
+  {
+   "question_topic": "Current tourism revenues",
+   "answer": "Relevant sources include hotels, restaurants, tourist shopping, and event revenue."
+  }
+ ],
+ "interviewer_notes": "No exhibits are used. Give quantitative assumptions as the candidate identifies revenue streams. The candidate should build event-week taxes and tickets, non-event taxes, store royalties, and avoided plowing cost, then assess breakeven and qualitative benefits/risks. The book permits either final decision if justified because the project is experimental and close to its stated six-year hurdle under the book's arithmetic.",
+ "suggested_framework": {
+  "summary": "Book framework balances public revenues and savings, project costs, and broader market/community effects.",
+  "tree": {
+   "label": "Snowmelt investment",
+   "children": [
+    {
+     "label": "Revenue and savings",
+     "children": [
+      {
+       "label": "Event tickets and visitor taxes"
+      },
+      {
+       "label": "Non-event visitor taxes"
+      },
+      {
+       "label": "Store royalties"
+      },
+      {
+       "label": "Avoided plowing"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Construction and legal costs"
+      },
+      {
+       "label": "Maintenance and repairs"
+      },
+      {
+       "label": "Energy consumption"
+      }
+     ]
+    },
+    {
+     "label": "Public impact",
+     "children": [
+      {
+       "label": "Economic development and jobs"
+      },
+      {
+       "label": "Safety and accessibility"
+      },
+      {
+       "label": "Environment and community acceptance"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate Holland's proposed snowmelt system?",
+   "expected_answer": "Compare incremental tourism revenue, taxes, royalties, and avoided plowing with upfront and ongoing costs, then test the six-year breakeven. Also assess safety, jobs, environmental impact, public acceptance, and implementation risk.",
+   "good_answer_signals": [
+    "Separates cash and noncash benefits",
+    "Includes construction and operating costs",
+    "Uses the six-year hurdle"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How much annual revenue and savings can the city generate?",
+   "info_to_release": "Three event weeks; 3,000 visitors each, 70% lodging, three-night stay, two guests/room, $200 room rate, 30% tax, $100/day visitor spending, 30% tax, $20 event ticket. Non-event: 100 visitors/day for 120 days, $100/day spending. Two hundred stores pay $250/year. Avoided plowing costs $0.10 on 690,000 square feet.",
+   "expected_answer": "Using the formulas printed in the case, corrected annual benefits are $1.557M from events, $2.160M from non-event hotel and spending taxes, $50,000 royalties, and $69,000 avoided plowing, totaling $3.836M. The book reports $1.91M because several displayed multiplications are arithmetically inconsistent.",
+   "good_answer_signals": [
+    "Builds four revenue buckets",
+    "Applies tax only to hotel and spending",
+    "Checks each multiplication rather than accepting the printed totals"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Does the project meet the six-year breakeven objective?",
+   "info_to_release": "Upfront cost is $10M, annual maintenance is $50,000, and construction takes one year with no benefits.",
+   "expected_answer": "Corrected annual net benefit is $3.836M-$0.05M=$3.786M. Operating breakeven is $10M/$3.786M=2.64 years; including construction, calendar breakeven is about 3.64 years, within six. The book's $2M rounded revenue yields about five operating years and roughly six including construction.",
+   "good_answer_signals": [
+    "Subtracts maintenance",
+    "Distinguishes operating from calendar breakeven",
+    "Reconciles the corrected result with the book"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What additional benefits and risks should the city consider?",
+   "expected_answer": "Benefits include fewer de-icing chemicals and plowing trucks, lower emissions, construction and winter jobs, political visibility, safety, and accessibility. Risks include delays and overruns, neighborhood opposition, energy use and prices, greenhouse gases, deterioration of heating elements, pollution, maintenance, and public acceptance.",
+   "good_answer_signals": [
+    "Balances environmental upside and energy/pollution risk",
+    "Includes public acceptance and construction risk",
+    "Suggests mitigations"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Holland proceed?",
+   "expected_answer": "Proceed because the corrected economics meet the six-year objective, while acknowledging the experimental nature of the project. Explore public-private funding or phased construction, invest in efficient heating, conduct environmental assessment, and use comparable-city evidence to build support.",
+   "good_answer_signals": [
+    "Answers first",
+    "Links the recommendation to breakeven",
+    "Provides concrete mitigations and next steps"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are annual benefits using the case's displayed formulas?",
+   "givens": [
+    "Event and non-event assumptions in stage 2",
+    "200 stores at $250",
+    "690,000 square feet at $0.10"
+   ],
+   "steps": [
+    "Per event: hotel $189,000 + spending $270,000 + tickets $60,000 = $519,000",
+    "Three events = $1,557,000",
+    "Non-event hotel = $1,080,000; spending tax = $1,080,000",
+    "Royalties = $50,000; plowing savings = $69,000",
+    "Total = $3,836,000"
+   ],
+   "answer": "$3.836M annual benefits",
+   "answer_value": 3836000,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "Book reports $1.91M. Its displayed event-hotel formula equals $189,000, not $63,000; its two non-event formulas equal $1.08M each, not $252,000 and $360,000."
+  },
+  {
+   "id": "m2",
+   "question": "What is corrected breakeven?",
+   "givens": [
+    "$10M upfront",
+    "$3.836M annual benefits",
+    "$50,000 annual maintenance",
+    "One-year construction"
+   ],
+   "steps": [
+    "Annual net benefit = $3.836M-$0.05M = $3.786M",
+    "Operating breakeven = $10M/$3.786M = 2.64 years",
+    "Calendar breakeven = 1+2.64 = 3.64 years"
+   ],
+   "answer": "About 2.64 operating years, or 3.64 years including construction",
+   "answer_value": 3.6413,
+   "unit": "calendar years",
+   "verified": false,
+   "book_answer_if_different": "Book reports approximately five years using its understated $2M rounded revenue, and frames construction as bringing the project close to six years."
+  }
+ ],
+ "synthesis": "Holland should proceed because corrected arithmetic indicates breakeven in about 3.64 calendar years, inside the six-year objective. The project also improves safety, winter tourism, and employment. Manage capital, energy, environmental, maintenance, and public-acceptance risks through partnerships or phasing, efficient technology, environmental assessment, and comparable-city evidence.",
+ "what_great_looks_like": [
+  "Builds revenue from distinct streams",
+  "Catches the book's arithmetic inconsistencies",
+  "Includes the construction year",
+  "Balances public benefits with environmental and political risks"
+ ],
+ "common_pitfalls": [
+  "Accepting printed totals without recalculation",
+  "Forgetting annual maintenance",
+  "Ignoring the no-revenue construction year",
+  "Treating public value as only financial"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "The book contains multiple arithmetic inconsistencies; corrected results and printed answers are both documented. Reviewed and accepted by Claude 2026-09-28.",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

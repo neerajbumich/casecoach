@@ -1,0 +1,123 @@
+{
+  "id": "public-sector",
+  "name": "Public Sector",
+  "group": "Public & services",
+  "one_liner": "Federal, state, and local government agencies delivering public services, where success is measured by outcomes and funding comes from taxes and appropriations.",
+  "how_it_makes_money": "Governments fund programs through taxes, fees, borrowing, and intergovernmental transfers, allocated through annual budgets and appropriations. Contractors and consultants earn revenue from government contracts for defense, IT modernization, health programs, infrastructure, and advisory work.",
+  "value_chain": [
+    "Policy and legislation",
+    "Budgeting and appropriations",
+    "Procurement and contracting",
+    "Program delivery (agencies, contractors)",
+    "Citizen services and outcomes",
+    "Oversight and evaluation"
+  ],
+  "revenue_formula": [
+    "Tax revenue = tax base × tax rate × compliance rate",
+    "Program cost = beneficiaries × cost per beneficiary",
+    "Contractor revenue = contract value × win rate × execution"
+  ],
+  "cost_structure": [
+    "Personnel: salaries, pensions, and benefits for public employees",
+    "Transfer payments: social programs and benefits, a large share of federal spending",
+    "Contracted services: IT, defense, construction, and consulting",
+    "Capital projects: infrastructure, buildings, and equipment",
+    "Debt service: interest on government borrowing"
+  ],
+  "margins": "Governments do not target profit, so performance is judged by outcomes per dollar and budget balance, while government contractors typically earn thinner operating margins, roughly high single digits to low teens. Contract type, competition, and cost control drive contractor profitability.",
+  "key_metrics": [
+    {
+      "name": "Cost per outcome",
+      "what": "Spending per unit of result, such as per job placed or per case resolved; the core efficiency test."
+    },
+    {
+      "name": "Program reach / take-up",
+      "what": "Share of eligible people served; shows whether services reach intended beneficiaries."
+    },
+    {
+      "name": "Budget variance",
+      "what": "Actual versus planned spending; signals fiscal discipline."
+    },
+    {
+      "name": "Service delivery time",
+      "what": "Time to process benefits, permits, or requests; key to citizen experience."
+    },
+    {
+      "name": "Improper payment rate",
+      "what": "Share of payments made in error; a target for fraud and waste reduction."
+    },
+    {
+      "name": "Contract backlog",
+      "what": "Awarded but unperformed contract value; the key forward indicator for contractors."
+    }
+  ],
+  "trends": [
+    "Pressure to cut costs and improve efficiency, including scrutiny of consulting and contractor spending",
+    "Digital government and IT modernization replacing legacy systems",
+    "Adoption of AI for citizen services, fraud detection, and case processing, with governance concerns",
+    "Large infrastructure and energy investments flowing through state and local governments",
+    "Rising defense and cybersecurity spending amid geopolitical tension",
+    "Workforce challenges as public-sector employees retire and recruiting tech talent remains hard"
+  ],
+  "key_players": [
+    "US federal agencies",
+    "State and local governments",
+    "Booz Allen Hamilton",
+    "Leidos",
+    "SAIC",
+    "Lockheed Martin",
+    "Accenture Federal Services",
+    "Deloitte Government & Public Services",
+    "Palantir",
+    "Maximus"
+  ],
+  "case_angles": [
+    {
+      "question": "A state agency's benefits processing times have doubled; how do we fix it?",
+      "framework_id": "operations-capacity"
+    },
+    {
+      "question": "A city wants to reduce homelessness with a limited budget; how should it prioritize?",
+      "framework_id": "public-sector-social-impact"
+    },
+    {
+      "question": "How can a federal agency reduce operating costs without hurting service quality?",
+      "framework_id": "cost-reduction"
+    },
+    {
+      "question": "Should a government contractor bid on a large IT modernization contract?",
+      "framework_id": "investment-npv"
+    }
+  ],
+  "interview_hooks": [
+    "How should government measure return on public investment?",
+    "When should governments outsource services versus build in-house capability?",
+    "How can AI improve public services without eroding trust or equity?"
+  ],
+  "news": {
+    "keywords": [
+      "federal agency",
+      "government contract",
+      "appropriations",
+      "federal budget",
+      "procurement",
+      "government shutdown",
+      "state budget",
+      "public sector",
+      "defense spending",
+      "gsa"
+    ],
+    "companies": [
+      "Booz Allen Hamilton",
+      "Leidos",
+      "SAIC",
+      "Lockheed Martin",
+      "General Dynamics",
+      "Palantir",
+      "Maximus",
+      "CACI",
+      "Accenture Federal Services",
+      "Deloitte"
+    ]
+  }
+}

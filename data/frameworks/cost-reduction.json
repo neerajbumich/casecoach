@@ -1,0 +1,152 @@
+{
+ "id": "cost-reduction",
+ "name": "Cost reduction",
+ "category": "core",
+ "summary": "Map every cost (fixed/variable, by function or value-chain step), benchmark it, find the biggest gaps, then choose levers: price paid, quantity used, process efficiency, or structural change such as outsourcing or footprint.",
+ "opening_line": "I'd first map where the money goes, split by value-chain step and fixed vs variable, benchmark each bucket against competitors, and then focus on the biggest gaps with specific levers.",
+ "when_to_use": [
+  "Client wants to cut costs or hit a cost target",
+  "Costs are identified as the cause of a profit decline",
+  "Operational efficiency, offshoring or outsourcing questions"
+ ],
+ "when_not_to_use": [
+  "Before diagnosing whether the problem is really cost (use profitability first)",
+  "When revenue growth is the real issue"
+ ],
+ "tree": {
+  "label": "Reduce costs",
+  "children": [
+   {
+    "label": "Map the cost base",
+    "children": [
+     {
+      "label": "By value-chain step / function"
+     },
+     {
+      "label": "Fixed vs variable"
+     },
+     {
+      "label": "Trend vs revenue"
+     }
+    ]
+   },
+   {
+    "label": "Benchmark",
+    "children": [
+     {
+      "label": "vs competitors"
+     },
+     {
+      "label": "vs internal best practice"
+     },
+     {
+      "label": "vs historical"
+     }
+    ]
+   },
+   {
+    "label": "Levers",
+    "children": [
+     {
+      "label": "Pay less: procurement, renegotiation"
+     },
+     {
+      "label": "Use less: specs, waste, demand management"
+     },
+     {
+      "label": "Do it better: process, automation"
+     },
+     {
+      "label": "Structural: outsourcing, offshoring, footprint"
+     }
+    ]
+   },
+   {
+    "label": "Risks & trade-offs",
+    "children": [
+     {
+      "label": "Quality / customer impact"
+     },
+     {
+      "label": "One-off costs & timing"
+     },
+     {
+      "label": "Employee morale"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Cost map",
+   "questions": [
+    "What are the biggest cost buckets?",
+    "Which grew fastest?"
+   ],
+   "data_to_ask": [
+    "Cost breakdown over time"
+   ]
+  },
+  {
+   "name": "Benchmark",
+   "questions": [
+    "Where are we worse than peers?"
+   ],
+   "data_to_ask": [
+    "Competitor cost structures"
+   ]
+  },
+  {
+   "name": "Levers",
+   "questions": [
+    "For each big bucket: pay less, use less, or do it differently?"
+   ],
+   "data_to_ask": [
+    "Supplier contracts",
+    "Utilisation"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "airlines",
+   "note": "Fuel (hedging, fleet efficiency), labour, maintenance, airport fees; CASM ex-fuel benchmark."
+  },
+  {
+   "industry": "healthcare-providers",
+   "note": "Labour (staffing ratios, agency nurses), supplies, length of stay, and administrative costs."
+  },
+  {
+   "industry": "professional-services",
+   "note": "Call centres and BPO: handle time, first-call resolution, offshoring, automation / self-service."
+  }
+ ],
+ "common_mistakes": [
+  "Generic cost-cutting lists with no diagnosis or sizing",
+  "Cutting costs that hurt revenue or quality",
+  "Ignoring one-off implementation costs"
+ ],
+ "related": [
+  "profitability",
+  "value-chain",
+  "operations-capacity"
+ ],
+ "match": {
+  "case_types": [
+   "Cost Reduction/Operations"
+  ],
+  "tags": [
+   "cost-reduction",
+   "cost-cutting",
+   "offshoring",
+   "operations",
+   "cost-structure"
+  ],
+  "keywords": [
+   "cost",
+   "saving",
+   "efficien"
+  ]
+ }
+}

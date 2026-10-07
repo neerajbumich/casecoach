@@ -1,0 +1,123 @@
+{
+  "id": "sports",
+  "name": "Sports",
+  "group": "Public & services",
+  "one_liner": "Leagues, teams, and venues monetizing fan passion through media rights, tickets, and sponsorship, where scarce live content commands rising prices.",
+  "how_it_makes_money": "Leagues sell national media rights and share them among teams, while teams earn ticket and premium-seating revenue, local media, sponsorships, and merchandise. Adjacent businesses include venues and events, sports betting partnerships, and franchise value appreciation for owners.",
+  "value_chain": [
+    "Athletes and talent development",
+    "Leagues and teams",
+    "Venues and live events",
+    "Media rights and broadcasting",
+    "Sponsorship and merchandise",
+    "Fans, betting, and fantasy"
+  ],
+  "revenue_formula": [
+    "Team revenue = media share + ticketing + sponsorship + merchandise + concessions",
+    "Ticketing revenue = games × attendance × average ticket price",
+    "Media rights value = viewers × ad value per viewer + subscription value to distributor"
+  ],
+  "cost_structure": [
+    "Player salaries: the largest team cost, often governed by salary caps tied to league revenue",
+    "Venue operations: stadium maintenance, staff, and game-day costs",
+    "Travel and team operations",
+    "Marketing, fan engagement, and technology",
+    "Debt service on franchise purchases and stadium construction"
+  ],
+  "margins": "Team operating margins are often modest or thin because player salaries absorb much of revenue, but franchise values have appreciated strongly. Media deals, market size, and venue ownership drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Media rights value",
+      "what": "Annual fees paid by broadcasters and streamers; the largest and most stable revenue source for major leagues."
+    },
+    {
+      "name": "Attendance and sell-through",
+      "what": "Share of seats sold; drives ticket, concession, and sponsor value."
+    },
+    {
+      "name": "Revenue per fan / per attendee",
+      "what": "Spending on tickets, food, and merchandise; measures monetization of engagement."
+    },
+    {
+      "name": "Franchise valuation",
+      "what": "Market value of teams; key for owners and investors."
+    },
+    {
+      "name": "Viewership",
+      "what": "TV and streaming audience; underpins media rights and sponsorship pricing."
+    },
+    {
+      "name": "Salary cap / payroll ratio",
+      "what": "Player costs as a share of revenue; determines team profitability."
+    }
+  ],
+  "trends": [
+    "Media rights moving to streaming platforms as leagues split packages across TV and tech companies",
+    "Rapid growth of legalized sports betting and league-sportsbook partnerships",
+    "Private equity and institutional investors buying minority stakes in teams",
+    "Rise of women's sports as a fast-growing audience and investment category",
+    "College sports changing with athlete compensation and conference realignment",
+    "Premium venue experiences and mixed-use stadium districts"
+  ],
+  "key_players": [
+    "NFL",
+    "NBA",
+    "MLB",
+    "NHL",
+    "Premier League",
+    "ESPN",
+    "DAZN",
+    "DraftKings",
+    "FanDuel",
+    "Live Nation"
+  ],
+  "case_angles": [
+    {
+      "question": "How should a league allocate its media rights between traditional TV and streamers?",
+      "framework_id": "growth-strategy"
+    },
+    {
+      "question": "A team wants to build a new stadium; is it worth the investment?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "How can a sports team increase revenue per fan?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a sportsbook enter a newly legalized state?",
+      "framework_id": "market-entry"
+    }
+  ],
+  "interview_hooks": [
+    "Does the shift to streaming grow or fragment sports audiences?",
+    "Is sports betting good for leagues long term?",
+    "Should public money fund private stadiums?"
+  ],
+  "news": {
+    "keywords": [
+      "media rights",
+      "sports league",
+      "franchise valuation",
+      "stadium",
+      "sports betting",
+      "sportsbook",
+      "salary cap",
+      "broadcast deal",
+      "nil deals",
+      "women's sports"
+    ],
+    "companies": [
+      "NFL",
+      "NBA",
+      "MLB",
+      "NHL",
+      "Premier League",
+      "ESPN",
+      "DAZN",
+      "DraftKings",
+      "FanDuel",
+      "Live Nation"
+    ]
+  }
+}

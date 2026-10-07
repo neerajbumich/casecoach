@@ -1,0 +1,389 @@
+{
+ "id": "booth-2024-skylight-goods",
+ "title": "Skylight Goods",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  279,
+  289
+ ],
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Growth/Revenue",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Operations",
+ "industry": "industrials-manufacturing",
+ "sub_industry": "building-products",
+ "industry_source_label": "Industrial Goods",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG",
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 3, Creativity 2 (1-3 scale); Quant Level - HEAVY",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "manufacturing-efficiency",
+  "run-length",
+  "inventory-turns",
+  "setup-time",
+  "distribution-network",
+  "profitability",
+  "channel-growth"
+ ],
+ "concepts_tested": [
+  "inventory management",
+  "manufacturing throughput",
+  "income-statement diagnosis",
+  "distribution channels",
+  "operating tradeoffs"
+ ],
+ "fit_question": "Tell me about a time you communicated something difficult to a client. Alternatively, describe a time you built consensus for an idea you proposed.",
+ "prompt": "Skylight Goods is a $12B industrial-goods manufacturer. The division under review makes pressure-sensitive self-adhesive canvases for signboards. Its revenue has stagnated and profitability declined. How can Skylight improve profitability, and should it change its delivery channels? Address the profitability question first and channel growth second.",
+ "clarifying_info": [
+  {
+   "question_topic": "Product",
+   "answer": "Customers buy blank adhesive canvas, print a sign on it, and paste it over a signboard. Assume one undifferentiated product with no product-mix opportunity."
+  },
+  {
+   "question_topic": "Revenue and price",
+   "answer": "Division revenue is about $100M per year. Price has not changed and cannot be changed because the product is undifferentiated."
+  },
+  {
+   "question_topic": "Company position",
+   "answer": "Skylight is an established brand and one of the largest market-share holders. It grew through acquisitions and owns several acquired plants."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "Skylight and two large competitors each hold about 25%; the rest is fragmented. The market grows 3%, approximately GDP growth, and competitor products, price, and promotion are similar."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Skylight supplies the entire United States."
+  }
+ ],
+ "interviewer_notes": "Push the candidate to drive the case. Revenue, price, and product mix offer little initial opportunity, so Exhibit 1 should lead to manufacturing cost and Exhibit 2 to declining run length. Explain the stop-and-setup production process with Exhibit 2. Inventory turns rose intentionally because another consultant called demand uncertain, even though the product stores well and Skylight has storage capacity. After manufacturing, test distribution-network growth. The source conflates 33% more time with a 33% efficiency decline; throughput actually falls 25% from 2004 to 2006.",
+ "suggested_framework": {
+  "summary": "Diagnose stagnant revenue and rising cost, connect inventory policy to manufacturing throughput, and evaluate geographic distributor coverage.",
+  "tree": {
+   "label": "Restore Skylight growth and profit",
+   "children": [
+    {
+     "label": "Market and revenue",
+     "children": [
+      {
+       "label": "Market growth, share, competition, substitutes, and quantity"
+      },
+      {
+       "label": "Price, product, promotion, and channel mix"
+      }
+     ]
+    },
+    {
+     "label": "Manufacturing economics",
+     "children": [
+      {
+       "label": "Raw materials, labor, setup time, run length, overtime, and plant footprint"
+      },
+      {
+       "label": "Inventory turns, holding cost, demand uncertainty, and service level"
+      }
+     ]
+    },
+    {
+     "label": "Distribution network",
+     "children": [
+      {
+       "label": "Customer proximity, distributor locations, cost, service, and contracts"
+      },
+      {
+       "label": "Additional regional distributors versus relocating existing ones"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you address declining profitability and the distribution-channel question?",
+   "expected_answer": "First diagnose revenue and cost trends: price, volume, mix, market share, and fixed and variable manufacturing cost. Then examine run length, setup losses, labor, overtime, inventory policy, and acquired plants. Separately evaluate distribution reach, customer proximity, distributor economics, competitor coverage, service, and contract constraints.",
+   "good_answer_signals": [
+    "Keeps profitability and channel questions distinct",
+    "Moves to cost after learning price and mix are fixed",
+    "Includes inventory-manufacturing tradeoffs"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Exhibit 1 suggest is driving the profit decline?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue is essentially flat at $100M-$101M and contribution stays $59M-$60M. SG&A remains $14M-$15M, but manufacturing cost rises from $40M to $49M. Net income falls from $5M in 2004 to $1M in 2005 and a $5M loss in 2006. Manufacturing is the clear priority for deeper analysis.",
+   "good_answer_signals": [
+    "Identifies manufacturing as the only major rising line",
+    "Quantifies the $9M increase",
+    "Requests process and operating-driver data"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "What operating pattern in Exhibit 2 explains the manufacturing-cost increase?",
+   "info_to_release": "Canvas is produced in preset runs at 25 yards per minute. After each run, the machine stops for a 20-minute setup. Higher inventory turns were pursued to reduce inventory despite stable 50M-yard annual production; canvas can be stored for long periods and storage capacity already exists.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Average run length falls from 1,000 to 750 to 500 yards while setup time and production speed stay fixed. More setups reduce throughput and require more employees and overtime: headcount rises from 100 to 120 and overtime from 100 to 300 hours per employee. Inventory turns improve from 8 to 10, but the policy sacrifices manufacturing efficiency despite a storable product and available space.",
+   "good_answer_signals": [
+    "Links shorter runs to more frequent setup",
+    "Connects inefficiency to headcount and overtime",
+    "Challenges inventory turns as a goal rather than an unqualified benefit"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How inefficient is 2006 production relative to 2004, and what happens at a 1,500-yard run?",
+   "info_to_release": "The machine can run up to 1,500 yards before setup.",
+   "expected_answer": "Effective throughput is 1,000/(1,000/25+20)=16.667 yards/minute in 2004 and 500/(500/25+20)=12.5 in 2006. The 2006 rate is 25% below 2004, although producing the same 1,000 yards takes 80 versus 60 minutes, or 33.3% more time. At 1,500 yards, throughput is 1,500/(60+20)=18.75, 12.5% above 2004 and 50% above 2006.",
+   "good_answer_signals": [
+    "Separates time increase from throughput decline",
+    "Includes setup time",
+    "Calculates both 2004 and 2006 comparisons"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What factors matter in changing Skylight's distribution network?",
+   "info_to_release": "Skylight uses two distributors, one on each coast. Customers prefer nearby distributors. Competitors use several distributors across all regions. All distributors earn a standard percentage of sales, and most will stock multiple brands.",
+   "expected_answer": "Map customers and service levels against distributor locations, quantify freight and inventory effects, assess regional sales potential and competitor coverage, and review exclusivity or channel-conflict terms. Skylight should add distributors in underserved regions or reposition its two current distributors closer to customers; because commissions are standard and multi-brand stocking is common, coverage and contract terms are more important than distributor margin.",
+   "good_answer_signals": [
+    "Prioritizes customer proximity",
+    "Uses competitor network breadth as evidence",
+    "Considers contract and channel-conflict risks"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Skylight do?",
+   "expected_answer": "Increase average runs toward the 1,500-yard maximum and expand regional distributor coverage. A 1,500-yard run produces 18.75 yards/minute, 12.5% above 2004 and 50% above 2006, reversing setup-driven labor and overtime inefficiency. More regional distributors can help growth match the 3% market. Balance longer runs against inventory holding cost and machine wear, review preventive maintenance, renegotiate geographic contracts, and reduce storage cost where possible.",
+   "good_answer_signals": [
+    "Addresses both client questions",
+    "Supports operations recommendation with throughput math",
+    "Includes inventory, maintenance, and distributor risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Skylight Goods income statement",
+   "page": 284,
+   "kind": "table",
+   "description": "Revenue, COGS, contribution, manufacturing cost, SG&A, and net income for 2004-2006 in millions.",
+   "data": {
+    "columns": [
+     "$M",
+     "2004",
+     "2005",
+     "2006"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      "100",
+      "101",
+      "101"
+     ],
+     [
+      "COGS",
+      "40",
+      "42",
+      "42"
+     ],
+     [
+      "Contribution",
+      "60",
+      "59",
+      "59"
+     ],
+     [
+      "Manufacturing cost",
+      "40",
+      "44",
+      "49"
+     ],
+     [
+      "SG&A",
+      "15",
+      "14",
+      "15"
+     ],
+     [
+      "Net income",
+      "5",
+      "1",
+      "-5"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-skylight-goods/p284.webp",
+   "image_has_answers": false,
+   "key_insight": "Manufacturing cost rises $9M while other major lines are stable, turning $5M profit into a $5M loss.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Manufacturing operating drivers",
+   "page": 285,
+   "kind": "table",
+   "description": "Annual volume, average run length, machine speed, setup time, staffing, overtime, and inventory turns for 2004-2006.",
+   "data": {
+    "columns": [
+     "Metric",
+     "2004",
+     "2005",
+     "2006"
+    ],
+    "rows": [
+     [
+      "Total volume (yards)",
+      "50M",
+      "50M",
+      "50M"
+     ],
+     [
+      "Average run length (yards)",
+      "1,000",
+      "750",
+      "500"
+     ],
+     [
+      "Production rate (yards/minute)",
+      "25",
+      "25",
+      "25"
+     ],
+     [
+      "Setup time per run (minutes)",
+      "20",
+      "20",
+      "20"
+     ],
+     [
+      "Employees",
+      "100",
+      "110",
+      "120"
+     ],
+     [
+      "Overtime hours per employee per year",
+      "100",
+      "200",
+      "300"
+     ],
+     [
+      "Inventory turns",
+      "8",
+      "9",
+      "10"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-skylight-goods/p285.webp",
+   "image_has_answers": false,
+   "key_insight": "Shorter runs increase setup frequency, labor, and overtime even though annual volume and machine speed are unchanged.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How did effective manufacturing throughput change from 2004 to 2006?",
+   "givens": [
+    "25 yards/minute machine speed",
+    "20-minute setup",
+    "1,000-yard 2004 run",
+    "500-yard 2006 run"
+   ],
+   "steps": [
+    "2004 time = 1,000/25 + 20 = 60 minutes; throughput = 16.667 yards/minute",
+    "2006 time = 500/25 + 20 = 40 minutes; throughput = 12.5 yards/minute",
+    "Throughput decline = 12.5/16.667 - 1 = -25%",
+    "For 1,000 yards, 2006 requires two runs or 80 minutes versus 60, a 33.3% time increase"
+   ],
+   "answer": "Effective throughput fell 25%; producing the same output takes 33.3% more time",
+   "answer_value": 25,
+   "unit": "percent throughput decline",
+   "verified": false,
+   "book_answer_if_different": "The source correctly states that time per 1,000 yards increased 33%, but then calls this a 33% efficiency decline. Throughput efficiency fell from 16.667 to 12.5 yards/minute, which is a 25% decline."
+  },
+  {
+   "id": "m2",
+   "question": "What is throughput at a 1,500-yard run and its improvement?",
+   "givens": [
+    "1,500-yard run",
+    "25 yards/minute",
+    "20-minute setup"
+   ],
+   "steps": [
+    "Run time = 1,500/25 = 60 minutes",
+    "Total cycle time = 60 + 20 = 80 minutes",
+    "Throughput = 1,500/80 = 18.75 yards/minute",
+    "Improvement versus 2004 = 18.75/16.667 - 1 = 12.5%",
+    "Improvement versus 2006 = 18.75/12.5 - 1 = 50%"
+   ],
+   "answer": "18.75 yards/minute; 12.5% above 2004 and 50% above 2006",
+   "answer_value": 18.75,
+   "unit": "yards per minute",
+   "verified": true
+  }
+ ],
+ "synthesis": "Restore profit by increasing run length toward 1,500 yards and add distributors in underserved regions. Short runs reduced throughput 25% from 2004 to 2006 while headcount and overtime rose; 1,500-yard runs improve throughput 50% over 2006. Broader distribution can help Skylight match 3% market growth. Manage added inventory, storage cost, machine wear, preventive maintenance, and existing distributor relationships.",
+ "what_great_looks_like": [
+  "Isolates manufacturing cost from the income statement",
+  "Connects inventory turns to shorter runs and setup losses",
+  "Separates a 33% time increase from a 25% throughput decline",
+  "Quantifies the 1,500-yard improvement",
+  "Answers both operations and distribution questions"
+ ],
+ "common_pitfalls": [
+  "Assuming higher inventory turns always improve profit",
+  "Ignoring setup time",
+  "Calling a 33% time increase a 33% throughput decline",
+  "Trying to solve stagnant revenue through price or product mix",
+  "Adding distributors without checking geography and contracts"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "All throughput calculations were independently recomputed. The source conflates a 33.3% increase in time per 1,000 yards with a 33% efficiency decline; throughput actually declines 25%. The 1,500-yard comparisons match the source. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type secondary labels",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

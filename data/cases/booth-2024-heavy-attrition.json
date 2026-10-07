@@ -1,0 +1,182 @@
+{
+ "id": "booth-2024-heavy-attrition",
+ "title": "Heavy Attrition",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  189,
+  193
+ ],
+ "case_type": [
+  "Other",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Organizational Change",
+ "industry": "medtech",
+ "sub_industry": "devices",
+ "industry_source_label": "Healthcare / Medical Device Company",
+ "geography": "Not specified",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "ZS Associates",
+  "Round 2"
+ ],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 1/3; Quant 1/3; Creativity 2/3",
+ "quant_intensity": "L",
+ "estimated_minutes": 25,
+ "tags": [
+  "attrition",
+  "salesforce",
+  "incentives",
+  "territories",
+  "commission",
+  "organizational-change"
+ ],
+ "fit_question": "Describe your leadership style and an example of when you demonstrated it. Why are you specifically interested in our firm and chosen office?",
+ "prompt": "A ten-year-old medical-device company has heavy attrition among junior salespeople. New hires stay less than one year even though it takes roughly six months to become effective, while salespeople with more than three years at the company have almost no attrition. Diagnose the causes and recommend a response.",
+ "clarifying_info": [
+  {
+   "question_topic": "Attrition pattern",
+   "answer": "New hires average less than one year; experienced salespeople with more than three years have almost no attrition."
+  },
+  {
+   "question_topic": "Ramp time",
+   "answer": "A salesperson needs about six months to learn the job and become productive."
+  },
+  {
+   "question_topic": "Company",
+   "answer": "The medical-device company has operated for ten years."
+  }
+ ],
+ "interviewer_notes": "Open-ended partner-style candidate-led case focused on hypothesis formation and structured brainstorming. The intended hypothesis is that junior and senior incentive economics differ. Tasks are similar, so direct the discussion toward commission determinants: products, territory/client potential and travel burden.",
+ "suggested_framework": {
+  "summary": "Rule out performance-driven exits and broad work-condition issues, then compare junior and senior incentives and opportunity access.",
+  "tree": {
+   "label": "Junior attrition",
+   "children": [
+    {
+     "label": "Nature of exits",
+     "children": [
+      {
+       "label": "Voluntary versus company-driven"
+      },
+      {
+       "label": "Market benchmark and competitor hiring"
+      }
+     ]
+    },
+    {
+     "label": "Work experience",
+     "children": [
+      {
+       "label": "Hours, tasks, location, benefits and management"
+      },
+      {
+       "label": "Training, ramp support and career path"
+      }
+     ]
+    },
+    {
+     "label": "Incentive economics",
+     "children": [
+      {
+       "label": "Products and commission by margin and effort"
+      },
+      {
+       "label": "Territory/client potential and allocation"
+      },
+      {
+       "label": "Travel distance and expense coverage"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Where should we start in diagnosing heavy junior-sales attrition?",
+   "expected_answer": "Define the attrition by cohort, tenure, voluntary status and performance; compare market benchmarks; assess work conditions, manager and career experience; and compare total compensation, commission opportunity, territory quality and travel between junior and senior staff.",
+   "good_answer_signals": [
+    "Clarifies what heavy attrition means",
+    "Uses the junior-versus-senior contrast to prioritize incentives"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "Assuming junior and senior tasks are similar, what determines the incentives they obtain?",
+   "expected_answer": "Commission depends on which products they may sell and each product's price, margin and effort; the clients and economic potential of assigned territories, including whether accounts are new or established; and the travel time and expense needed to reach customers.",
+   "good_answer_signals": [
+    "Creates at least three clear buckets",
+    "Connects each bucket to actual commission opportunity"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "How could product access create attrition?",
+   "expected_answer": "If juniors can sell only low-price or low-commission devices while seniors control high-margin products, their earnings stay low regardless of effort. Commission rates should reflect margin and selling difficulty, and juniors need a credible path to higher-value products.",
+   "good_answer_signals": [
+    "Separates effort from sales value",
+    "Proposes access and commission-design tests"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How could territory and travel assignments create attrition?",
+   "expected_answer": "Juniors may inherit low-income, low-awareness or new-account territories while seniors retain high-volume relationships. Scattered customers also reduce selling time and raise travel burden. Normalize quotas or commission for territory potential and distance, reimburse expense and rotate or rebalance accounts.",
+   "good_answer_signals": [
+    "Identifies account-quality allocation",
+    "Connects distance to selling capacity and pay"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the company do?",
+   "expected_answer": "Survey recent leavers and current juniors to confirm the cause, then audit product access, territory potential and travel burden by tenure. Redesign commissions and assignments to equalize earning opportunity for comparable effort, involve senior sellers in the redesign and benchmark competitors. Pilot changes while monitoring both junior retention and senior attrition.",
+   "good_answer_signals": [
+    "Prioritizes a testable root cause",
+    "Balances junior fairness with senior-retention risk"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [],
+ "synthesis": "The strongest hypothesis is unequal earning opportunity, not different work. Confirm it through exit surveys and a tenure-level audit of product access, territory potential, established accounts, travel and commission. Rebalance assignments and compensate for effort and distance, while involving senior sellers and monitoring whether the redesign shifts attrition upward.",
+ "what_great_looks_like": [
+  "Uses the tenure contrast to focus the diagnosis",
+  "Structures product, territory and distance drivers",
+  "Recommends evidence collection before redesign"
+ ],
+ "common_pitfalls": [
+  "Lists generic morale issues without prioritization",
+  "Assumes equal commission rates mean equal opportunity",
+  "Ignores senior-retention risk from reallocation"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The case has no candidate exhibits or calculations; its core is structured qualitative diagnosis and incentive redesign. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "geography",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

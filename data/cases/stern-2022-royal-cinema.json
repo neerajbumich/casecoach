@@ -1,0 +1,397 @@
+{
+ "id": "stern-2022-royal-cinema",
+ "title": "Royal Cinema",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  48,
+  57
+ ],
+ "author": "Maxine Rusbasan and Sabrina Yudelson",
+ "case_type": [
+  "Market Entry",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "hospitality",
+ "sub_industry": "leisure-entertainment",
+ "industry_source_label": "Entertainment",
+ "geography": "New York City, United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 7/10; Structure 6/10; higher dimension 7 mapped using round(7/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-entry",
+  "premium-positioning",
+  "capacity-utilization",
+  "payback",
+  "incremental-cash-flow",
+  "differentiation"
+ ],
+ "prompt": "Your client is Royal Cinemas, a NYC theater chain. Their revenue has been badly hurt by decreasing ticket sales, which are at their lowest point since 1996 for both the chain and the industry at large. Royal Cinemas is interested in converting their theaters into luxury cinemas. Should they do it?",
+ "clarifying_info": [
+  {
+   "question_topic": "Timing and footprint",
+   "answer": "Enter immediately if approved. Royal has 10 NYC locations and has not previously tried luxury cinemas."
+  },
+  {
+   "question_topic": "Pricing and competition",
+   "answer": "Ticket and concession prices match competitors; fewer than 5 major players operate in NYC."
+  },
+  {
+   "question_topic": "Performance",
+   "answer": "Revenue has declined steadily for 5 years."
+  },
+  {
+   "question_topic": "Luxury growth",
+   "answer": "Market data is available after the candidate explains the high-level approach."
+  }
+ ],
+ "interviewer_notes": "Let the candidate drive market opportunity, economics, payback and entry strategy. Show Exhibit 1 when they ask about luxury-market size/growth and Exhibit 2 for financial implications. For revenue analysis, state operating costs remain the same in both scenarios; optional NYC population 19.5m is unnecessary. Release renovation cost and luxury variable-cost percentage on request. The book's payback uses all luxury contribution rather than the incremental benefit of conversion; retain the source calculation as a benchmark but correct the decision comparison. Sufficient financing is available and closure during renovations is said to have no meaningful financial impact, even though the conclusion lists closure as a general risk.",
+ "suggested_framework": {
+  "summary": "Assess luxury-market attractiveness, conversion economics and competitive differentiation.",
+  "tree": {
+   "label": "Convert Royal's cinemas to luxury?",
+   "children": [
+    {
+     "label": "Financial implications",
+     "children": [
+      {
+       "label": "Renovation, equipment and shutdown costs"
+      },
+      {
+       "label": "Ticket/concession pricing, customer volume and purchases"
+      },
+      {
+       "label": "Incremental earnings and investment payback"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Luxury size and growth"
+      },
+      {
+       "label": "Preferences and whether existing or different consumers will attend"
+      }
+     ]
+    },
+    {
+     "label": "Competition",
+     "children": [
+      {
+       "label": "Players, share trends and differentiation"
+      },
+      {
+       "label": "Competitor responses and streaming alternatives"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate converting Royal's cinemas?",
+   "release_when": "After the prompt; clarifications on request.",
+   "info_to_release": "10 NYC locations; revenue declining for 5 years; fewer than 5 major competitors; current prices match rivals; no prior luxury entry.",
+   "expected_answer": "Assess market demand, customer mix, competition and differentiation, then compare current and luxury economics including investment and payback. Consider renovation disruption and brand continuity.",
+   "good_answer_signals": [
+    "Connects higher-end positioning with demand and financial feasibility."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do U.S. cinema revenue trends suggest?",
+   "release_when": "Give Exhibit 1 when the candidate asks about luxury-market size or growth.",
+   "info_to_release": "Annual national luxury and standard cinema revenues for 2016–2024, in USD millions, are shown in Exhibit 1.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Luxury revenue and share rise while standard theaters lose share. This makes luxury promising, but national trends may not represent NYC. Standard revenue is not consistently falling in absolute dollars; the main signal is relative share. Proceed to Royal-specific revenue and capacity assumptions.",
+   "good_answer_signals": [
+    "Distinguishes market share from absolute revenue.",
+    "Flags national-to-local applicability."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "How would conversion affect weekly revenue?",
+   "release_when": "Show Exhibit 2 for the financial analysis.",
+   "info_to_release": "Both formats:10 locations,10 screens/location,20 peak and 40 off-peak weekly showings. Standard:150 seats, $10 tickets, $10 concession spend,80%/20% occupancy. Luxury:65 seats, $15 tickets, $35 concessions,90%/30% occupancy. Assume operating costs remain unchanged. Optional population 19.5m is not needed.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Standard peak revenue is 10×10×150×20×80%×$20=$4.8m; off-peak=$2.4m; total=$7.2m/week. Luxury peak is 10×10×65×20×90%×$50=$5.85m; off-peak=$3.9m; total=$9.75m. Increase=$2.55m/week, or 35.42%. Higher spending and occupancy offset fewer seats. Luxury offers improved experience, but its occupancy projections are unproven; standard retains brand familiarity but faces streaming competition.",
+   "good_answer_signals": [
+    "Includes tickets and concessions and separates peak/off-peak demand.",
+    "Questions occupancy and concession-spend assumptions."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How long would it take to recover conversion costs?",
+   "release_when": "Release costs only if requested.",
+   "info_to_release": "Initial conversion/renovation costs $100m. Projected luxury weekly variable costs 50% of weekly revenue, approximately $5m in source guidance. Royal has sufficient financing. If asked about closures, state they have no meaningful financial effect.",
+   "expected_answer": "Luxury revenue less stated variable costs is $9.75m×50%=$4.875m/week. Dividing $100m by this gives the source's20.51-week standalone-contribution payback, approximately 5 months. But that counts earnings Royal would partly have made without converting. Using the earlier assumption that total operating costs remain unchanged, incremental operating benefit is $9.75m−$7.2m=$2.55m/week, implying 39.22-week conversion payback. If unchanged costs meant only fixed costs, standard variable costs are missing and true incremental payback cannot be pinned down. Neither calculation includes a specified tax or discount adjustment.",
+   "good_answer_signals": [
+    "Checks whether the denominator is incremental.",
+    "Challenges the optimistic source horizon and reconciles cost assumptions."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Royal differentiate from other NYC luxury cinemas?",
+   "release_when": "After the payback analysis.",
+   "info_to_release": "No new numerical inputs.",
+   "expected_answer": "Concessions: recognized restaurant/market or celebrity-chef partnerships, waiter service with a possible minimum spend, signature cocktails and digital seat ordering. Environment: premium seating, a Wi-Fi work café and aromatherapy. Content: film-crew talkbacks and exclusive shorts. Other partnerships could include luxury hotels or gyms. Structure creative ideas rather than listing them without categories.",
+   "good_answer_signals": [
+    "Offers concrete customer-experience ideas and considers monetization."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Royal convert?",
+   "release_when": "After examining economics and differentiation.",
+   "info_to_release": "No further facts.",
+   "expected_answer": "Favor conversion conditionally: luxury trends and modeled weekly revenue $9.75m versus $7.2m support it, with differentiated experiences available. The source's20.51-week payback is not incremental; under unchanged total costs, conversion payback is 39.22 weeks. Validate demand, costs and concession spending before investing $100m. Risks include competitors, renovation disruption, mixed-brand confusion, reliance on concessions and streaming. Ensure staffing/organization, develop marketing that attracts luxury customers while retaining loyal patrons, and evaluate on-brand partnerships.",
+   "good_answer_signals": [
+    "Supports the recommendation with corrected economics and explicit assumptions."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Annual revenue trends, U.S. cinemas",
+   "page": 50,
+   "kind": "bar",
+   "description": "Luxury and standard cinema revenue by year, USD millions.",
+   "data": {
+    "columns": [
+     "Year",
+     "Luxury revenue (USD m)",
+     "Standard revenue (USD m)"
+    ],
+    "rows": [
+     [
+      2016,
+      4300,
+      8600
+     ],
+     [
+      2017,
+      4380,
+      8760
+     ],
+     [
+      2018,
+      5040,
+      8450
+     ],
+     [
+      2019,
+      5200,
+      8720
+     ],
+     [
+      2020,
+      5550,
+      8800
+     ],
+     [
+      2021,
+      5710,
+      9070
+     ],
+     [
+      2022,
+      6500,
+      8740
+     ],
+     [
+      2023,
+      6710,
+      9020
+     ],
+     [
+      2024,
+      7360,
+      8870
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-royal-cinema/p050.webp",
+   "key_insight": "Luxury gains share nationally, but the NYC opportunity requires local validation.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Standard and luxury operating assumptions",
+   "page": 52,
+   "kind": "table",
+   "description": "Candidate-facing inputs for capacity, shows, spending and seat occupancy.",
+   "data": {
+    "columns": [
+     "Input",
+     "Standard",
+     "Luxury"
+    ],
+    "rows": [
+     [
+      "Locations",
+      10,
+      10
+     ],
+     [
+      "Screens per location",
+      10,
+      10
+     ],
+     [
+      "Seats per screen",
+      150,
+      65
+     ],
+     [
+      "Peak showings/week",
+      20,
+      20
+     ],
+     [
+      "Off-peak showings/week",
+      40,
+      40
+     ],
+     [
+      "Ticket price (USD)",
+      10,
+      15
+     ],
+     [
+      "Concession spend/person (USD)",
+      10,
+      35
+     ],
+     [
+      "Peak occupancy (%)",
+      80,
+      90
+     ],
+     [
+      "Off-peak occupancy (%)",
+      20,
+      30
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-royal-cinema/p052.webp",
+   "key_insight": "Spending and occupancy improvements offset capacity reduction in the revenue model.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is weekly revenue before and after conversion?",
+   "givens": [
+    "Exhibit 2 locations, screens, seats, shows, occupancy and spending"
+   ],
+   "steps": [
+    "Standard peak=10×10×150×20×0.8×20=$4.8m; off-peak=10×10×150×40×0.2×20=$2.4m.",
+    "Standard total=$7.2m.",
+    "Luxury peak=10×10×65×20×0.9×50=$5.85m; off-peak=10×10×65×40×0.3×50=$3.9m.",
+    "Luxury total=$9.75m; increase=$2.55m, or 35.4167%."
+   ],
+   "answer": "$9.75m/week versus $7.2m/week.",
+   "answer_value": 9.75,
+   "unit": "USD millions/week",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the source's standalone-contribution payback?",
+   "givens": [
+    "$100m investment",
+    "$9.75m weekly revenue",
+    "50% variable costs"
+   ],
+   "steps": [
+    "Weekly revenue minus variable costs=$4.875m.",
+    "100/4.875=20.51282 weeks."
+   ],
+   "answer": "20.51 weeks, but this is not incremental conversion payback.",
+   "answer_value": 20.5128205128,
+   "unit": "weeks",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is incremental conversion payback under unchanged total operating costs?",
+   "givens": [
+    "$100m investment",
+    "Weekly revenue changes from $7.2m to $9.75m",
+    "Earlier source instruction: operational costs remain the same"
+   ],
+   "steps": [
+    "Incremental operating benefit=$9.75m−$7.2m=$2.55m/week.",
+    "Payback=$100m/$2.55m=39.215686 weeks."
+   ],
+   "answer": "39.22 weeks under unchanged total costs; if only fixed costs are unchanged, missing standard variable costs prevent an exact incremental answer.",
+   "answer_value": 39.2156862745,
+   "unit": "weeks",
+   "verified": false,
+   "book_answer_if_different": "Book calls 100M/(9.75M×0.5)=20.51 weeks or~5 months conversion payback, using all luxury contribution and ignoring foregone standard-format earnings. Under its earlier unchanged-cost instruction, incremental payback is 39.22 weeks."
+  }
+ ],
+ "synthesis": "Conditionally convert to luxury: modeled weekly revenue rises $2.55m to $9.75m and national luxury trends are favorable. Validate NYC demand, concession spend, occupancy and operating costs before investing $100m. Source 20.51-week payback uses total luxury contribution; incremental conversion payback is 39.22 weeks if total operating costs are unchanged, otherwise more cost data is needed. Differentiate through food, service, environment and content while planning staffing, marketing and partnerships.",
+ "what_great_looks_like": [
+  "Recognizes national data may not fit NYC.",
+  "Calculates peak/off-peak economics correctly.",
+  "Challenges optimistic capacity and payback assumptions.",
+  "Structures creative differentiation ideas."
+ ],
+ "common_pitfalls": [
+  "Ignoring the reduction from 150 to 65 seats.",
+  "Counting all projected seats as occupied.",
+  "Using total post-conversion earnings as incremental benefit.",
+  "Assuming higher-priced concessions will certainly attract the projected spending."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[2].answer (conditional on meaning of unchanged operating costs)"
+  ],
+  "math_verified": false,
+  "notes": "Both candidate exhibits visually reviewed. Source payback arithmetic 20.51 weeks is correct for total luxury contribution, but not conversion's incremental economics. With explicitly unchanged total operating costs, incremental 39.22 weeks is appropriate; if unchanged refers only to fixed costs, standard variable costs are missing. Source's general closure risk is retained despite its instruction to assume negligible closure financial impact. No invented cash-flow inputs. Difficulty uses higher of Quant 7/Structure 6 and Python round(7/2)=4; all math in math-stern-royal.py. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "difficulty (higher-dimension aggregation)",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "math[2] (incremental correction)",
+   "common_pitfalls",
+   "synthesis (conditional qualification)"
+  ]
+ }
+}

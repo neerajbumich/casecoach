@@ -1,0 +1,542 @@
+{
+ "id": "stern-2022-nook-co",
+ "title": "Nook Co.",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  158,
+  169
+ ],
+ "author": "Ben Wang (Stern ’21), Zoe Ye (Stern ’21)",
+ "case_type": [
+  "Investment/PE due diligence",
+  "M&A/Acquisition",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Private Equity",
+ "industry": "hospitality",
+ "sub_industry": "hotels",
+ "industry_source_label": "PE / Hospitality",
+ "geography": "East Asia; international customers",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 7 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "private-equity",
+  "valuation",
+  "perpetuity",
+  "market-sizing",
+  "profitability",
+  "cost-synergies",
+  "due-diligence"
+ ],
+ "concepts_tested": [
+  "Market Sizing",
+  "Profitability & ROI",
+  "Business Risks"
+ ],
+ "prompt": "Your client Fun Ventures, an established PE firm, is looking to acquire Nook Co., a hospitality group that specializes in developing and transforming uninhabited islands into premium and private vacation destinations. Nook Co. proposed an initial offer of $1.5 Billion. Fun Ventures would like your advice on whether they should proceed with the acquisition. What would you like to consider?",
+ "clarifying_info": [
+  {
+   "question_topic": "Business model",
+   "answer": "Nook acquires islands, constructs resorts, and operates island activities and transportation to and from the islands."
+  },
+  {
+   "question_topic": "Footprint",
+   "answer": "Nook operates 10 East Asian islands and has 5 additional islands under construction. Customers are international."
+  },
+  {
+   "question_topic": "Client objective",
+   "answer": "Fun Ventures wants a decision as soon as possible and targets 15% ROI."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are 4 other global competitors; detailed market and price information is provided later."
+  }
+ ],
+ "interviewer_notes": "The candidate should identify the PE valuation task and ask about the return target. Start with market sizing; guide there if needed. Release market inputs on request. Exhibit 1 illustrates the resort product. Give Exhibits 2 and 3 when market, price or competitor data is requested, and Exhibit 4 for costs. Give Nook’s nightly price, stay length and staffing when asked, or guide the candidate to them. Encourage commentary on Campfire’s leadership, Nook’s rapid share growth and administrative costs. A strong candidate moves naturally to acquisition valuation after calculating profit. Either a supported yes or no recommendation is acceptable. Source inconsistencies must be discussed: market-sizing inputs conflict, the ROI equation uses the wrong denominator, and solution cost-category labels differ from the candidate exhibit.",
+ "suggested_framework": {
+  "summary": "Assess market attractiveness, Nook’s capabilities and unit economics, then valuation, the client’s return hurdle and ownership risks.",
+  "tree": {
+   "label": "Acquire Nook Co. for $1.5 billion?",
+   "children": [
+    {
+     "label": "Island-development market",
+     "children": [
+      {
+       "label": "Size, growth and competitor shares"
+      },
+      {
+       "label": "Customer and technology trends"
+      }
+     ]
+    },
+    {
+     "label": "Nook business",
+     "children": [
+      {
+       "label": "Development, travel and hospitality services"
+      },
+      {
+       "label": "Customer segments and demographics"
+      },
+      {
+       "label": "Operations, distribution, people and assets"
+      }
+     ]
+    },
+    {
+     "label": "Financial value",
+     "children": [
+      {
+       "label": "Revenue, costs and margin"
+      },
+      {
+       "label": "Valuation method and acquisition ROI"
+      },
+      {
+       "label": "Potential administrative savings"
+      }
+     ]
+    },
+    {
+     "label": "Ownership considerations",
+     "children": [
+      {
+       "label": "Portfolio synergies in travel and construction"
+      },
+      {
+       "label": "Lawsuits, regulations and conflicts of interest"
+      },
+      {
+       "label": "Sustainability of growth and pricing"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What would you assess before recommending this acquisition?",
+   "release_when": "After the prompt; answer questions on business scope and the investor’s objective.",
+   "info_to_release": "The asking price is $1.5 billion; Fun Ventures targets 15% ROI and wants to decide quickly. Nook operates 10 islands, has 5 more under construction, and handles resort development, activities and transport. There are 4 global rivals.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Evaluate market size and growth, competitive position, Nook’s customers and capabilities, revenue and cost economics, valuation against the purchase price, and achievable ownership improvements. Include portfolio synergies and legal, operating and environmental risks. Begin with the market.",
+   "good_answer_signals": [
+    "Asks for a specific investment hurdle.",
+    "Connects the operational model to valuation rather than merely discussing tourism trends."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What is the potential annual market for premium island vacations?",
+   "release_when": "Release the source’s sizing inputs when requested, preserving the inconsistency rather than silently substituting a number.",
+   "info_to_release": "World population is 8 billion. The interviewer bullets say the top 0.05% earn $100,000 or more annually. Target customers visit once every 2 years, with 2 guests per room and a $10,000 all-inclusive nightly rate. The adjacent assumption table specifies 10% likelihood to visit and 5 nights per stay, but uses 0.01% potential customers rather than 0.05%.",
+   "exhibit_ids": [],
+   "expected_answer": "Using the explicitly released 0.05% affluent share: 8 billion × 0.05% × 10% × 1/2 visits per year ÷ 2 guests per room × 5 nights × $10,000 = $5 billion annually. The book’s $1 billion result instead requires its conflicting 0.01% table assumption. State both and ask which segment definition is intended. Do not force $1 billion from 0.05%. Use the separate 2019 candidate market exhibit for subsequent actual company revenue rather than substituting the disputed potential-market estimate.",
+   "good_answer_signals": [
+    "Separates people, visits, room stays and annual spending.",
+    "Identifies the fivefold contradiction in the source inputs."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the competitive information suggest about Nook’s position and 2019 revenue?",
+   "release_when": "Give Exhibits 2 and 3 when the candidate requests market, pricing or competitor information.",
+   "info_to_release": "The 2019 market bar reaches $1 billion. Shares are Campfire 31%, K.K. Vacation 27%, Nook 28%, DAL 11% and C.J. Limited 3%. Nook charges $10,000 per night, with a 5-night average stay. Competitor nightly room-rate bars show Campfire and K.K. at $15,000, DAL and C.J. at $10,000.",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "Campfire remains the largest player and has the highest plotted competitor margin. Nook’s labeled share grows from 5% in 2015 to 28% in 2019, with particularly strong recent growth. On the candidate exhibit’s 2019 market, Nook revenue is 28% × $1 billion = $280 million. At $50,000 per room stay, that represents 5,600 stays annually. Investigate whether growth reflects superior service or aggressive value/pricing; the chart alone does not prove the cause. Historical share labels are inconsistent in some years, so avoid unsupported precise historical conclusions.",
+   "good_answer_signals": [
+    "Combines market share with market value.",
+    "Treats a pricing-led growth explanation as a hypothesis to test."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What were Nook’s 2019 costs, profit and margin?",
+   "release_when": "Give Exhibit 4 when costs are requested and supply staff counts when asked; guide to missing necessary inputs if needed.",
+   "info_to_release": "Across all islands, Nook employs 1,000 service staff at $2,000 monthly and 500 kitchen staff at $3,000 monthly. Food/supplies cost $5,000 per stay and transport $10,000 per stay. Candidate Exhibit 4 gives annual maintenance/insurance/utilities of $25 million, marketing/sales $15 million and administrative $30 million.",
+   "exhibit_ids": [
+    "ex4"
+   ],
+   "expected_answer": "Service staff cost $24 million annually and kitchen staff $18 million. At 5,600 stays, food/supplies cost $28 million and transport $56 million. Add $25 million + $15 million + $30 million fixed costs for total costs of $196 million. Profit is $280 million − $196 million = $84 million, a 30% modeled margin. Administrative cost of $30 million is a potential ownership-improvement lever. The source calls competitor margins gross profit while Nook’s calculation includes SG&A; compare cautiously. Nook is below the leading competitor, but not demonstrably below every rival.",
+   "good_answer_signals": [
+    "Uses candidate exhibit cost labels rather than the inconsistent solution labels.",
+    "Annualizes salaries and multiplies per-stay costs by stays, not guests.",
+    "Recognizes the need for comparable profit definitions."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "How does the acquisition value compare with the asking price and 15% return target?",
+   "release_when": "After profit; ideally the candidate requests valuation inputs and drives this stage.",
+   "info_to_release": "Discount rate is 5%. Assume Fun Ventures ideally holds Nook forever. Acquisition price is $1.5 billion and target ROI is 15%. The source suggests testing a $5 million annual administrative-cost reduction.",
+   "exhibit_ids": [],
+   "expected_answer": "Using the source’s flat-profit perpetuity proxy, value is $84 million / 5% = $1.68 billion; net value after purchase is $180 million. Value uplift relative to purchase cost is ($1.68 billion − $1.5 billion) / $1.5 billion = 12%, below 15%. The printed denominator of $1.68 billion would give 10.714%, not 12%; use investment cost for ROI. A recurring $5 million saving raises modeled annual profit to $89 million, value to $1.78 billion and value uplift to 18.667%, exceeding 15%. This is the source’s valuation-uplift measure, not an annual IRR, and accounting profit is only a cash-flow proxy here.",
+   "good_answer_signals": [
+    "Uses the purchase price as the ROI denominator.",
+    "Distinguishes enterprise value from net value after paying the purchase price.",
+    "Makes the cost-saving case conditional on deliverability."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other acquisition risks would you assess?",
+   "release_when": "After valuation and before requesting a recommendation.",
+   "info_to_release": "The business owns island assets, serves premium travelers and has a construction pipeline.",
+   "exhibit_ids": [],
+   "expected_answer": "Internal risks include unsustainable growth, churn if promotional prices rise, a generic service model without durable advantage, and manipulated financial statements. External risks include rising sea levels affecting islands, changing vacation preferences, safety and legal restrictions, and conflicts with portfolio travel companies. Test growth quality and customer retention rather than assuming share gains persist.",
+   "good_answer_signals": [
+    "Separates internal and external risks.",
+    "Connects environmental and legal risks to owning island resorts."
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Fun Ventures acquire Nook, and what are the next steps?",
+   "release_when": "After risks have been discussed; either clearly supported recommendation is acceptable.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "A strict-hurdle no is supported by baseline 12% value uplift versus the 15% target, uncertain promotion-led growth and margin comparability. A conditional yes is supported by strong share growth, few rivals and a credible recurring $5 million cost reduction taking the modeled uplift to 18.67%. Give a direct recommendation with conditions, not an unconditional approval. Conduct balance-sheet and cash-flow diligence, reconcile the source’s market assumptions, research customers and retention, verify savings, and assess island risks. Additional work could improve costs and redesign pricing while protecting customer retention.",
+   "good_answer_signals": [
+    "Commits to a decision with evidence and explicit conditions.",
+    "Does not present potential cost savings as already achieved."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Nook Co. Resort Example: Southeast Asian Island",
+   "page": 166,
+   "kind": "other",
+   "description": "Two illustrative photographs of a tropical beach resort and pool among palm trees; no numerical inputs.",
+   "image_path": "exhibits/stern-2022-nook-co/p166.webp",
+   "key_insight": "The product is a premium island-resort experience rather than a conventional urban hotel.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Island Resort Market Share",
+   "page": 167,
+   "kind": "bar",
+   "description": "Market-value stacked bars from 2015 to 2019 with company share labels. Blank cells below mean the series has no legible printed label, not assumed zero. The 2019 total reaches $1 billion. Historical labels do not all sum to 100%.",
+   "data": {
+    "columns": [
+     "Year",
+     "Campfire (%)",
+     "K.K. Vacation (%)",
+     "Nook (%)",
+     "DAL (%)",
+     "C.J. Limited (%)"
+    ],
+    "rows": [
+     [
+      2015,
+      53,
+      38,
+      5,
+      "",
+      ""
+     ],
+     [
+      2016,
+      45,
+      32,
+      12,
+      11,
+      ""
+     ],
+     [
+      2017,
+      35,
+      24,
+      19,
+      18,
+      4
+     ],
+     [
+      2018,
+      32,
+      25,
+      23,
+      6,
+      4
+     ],
+     [
+      2019,
+      31,
+      27,
+      28,
+      11,
+      3
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-nook-co/p167.webp",
+   "key_insight": "Nook gains share rapidly while Campfire remains the leader. The coherent 2019 data supports $280 million Nook revenue; historical percentages require caution.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Competitors’ Price and Gross Profit Percentage",
+   "page": 168,
+   "kind": "other",
+   "description": "Nightly room-rate bars and a margin line on separate axes. Bar values are visually readable; exact individual line-point percentages are unlabeled and omitted from the table.",
+   "data": {
+    "columns": [
+     "Competitor",
+     "Nightly room rate (USD)"
+    ],
+    "rows": [
+     [
+      "Campfire Company",
+      15000
+     ],
+     [
+      "K.K. Vacation",
+      15000
+     ],
+     [
+      "DAL",
+      10000
+     ],
+     [
+      "C.J. Limited",
+      10000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-nook-co/p168.webp",
+   "key_insight": "Campfire has the highest plotted margin; lower-priced rivals are closer to Nook’s modeled margin, but gross-versus-post-SG&A comparability must be checked.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex4",
+   "title": "Nook Co. Cost Structure",
+   "page": 169,
+   "kind": "table",
+   "description": "Candidate-facing variable and fixed cost assumptions; these labels take precedence over the differently labeled solution list.",
+   "data": {
+    "columns": [
+     "Cost",
+     "Amount (USD)",
+     "Basis"
+    ],
+    "rows": [
+     [
+      "Service staff",
+      2000,
+      "per employee per month"
+     ],
+     [
+      "Kitchen staff",
+      3000,
+      "per employee per month"
+     ],
+     [
+      "Food and supplies",
+      5000,
+      "per stay"
+     ],
+     [
+      "Transport",
+      10000,
+      "per stay"
+     ],
+     [
+      "Maintenance, insurance and utilities",
+      25000000,
+      "per year"
+     ],
+     [
+      "Marketing and sales",
+      15000000,
+      "per year"
+     ],
+     [
+      "Administrative",
+      30000000,
+      "per year"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-nook-co/p169.webp",
+   "key_insight": "Administrative spending is a large fixed-cost line and the proposed PE improvement lever.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What market size follows from the released affluent-population assumption?",
+   "givens": [
+    "8 billion people",
+    "Interviewer bullet: 0.05% earn at least $100,000",
+    "Table: 10% likelihood to visit",
+    "One visit every 2 years",
+    "2 guests per room",
+    "5 nights per stay",
+    "$10,000 per room per night",
+    "Conflicting table affluent share: 0.01%"
+   ],
+   "steps": [
+    "Affluent population using released share = 8 billion × 0.05% = 4 million.",
+    "Interested population = 4 million × 10% = 400,000; annual visits = 200,000; room stays = 100,000.",
+    "Annual spending = 100,000 × 5 × $10,000 = $5 billion.",
+    "Using the table’s 0.01% instead divides this by 5, yielding $1 billion."
+   ],
+   "answer": "$5 billion using the released 0.05% share; $1 billion only under the contradictory 0.01% table assumption.",
+   "answer_value": 5000000000,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "The sizing table states Revenue/year $1B and Potential Customers 0.01%, but the interviewer-release bullets state top 0.05% of the world population. Applying that released figure yields $5B, not $1B."
+  },
+  {
+   "id": "m2",
+   "question": "What are Nook’s 2019 revenue and annual room stays using the candidate market exhibit?",
+   "givens": [
+    "2019 candidate exhibit total $1 billion",
+    "Nook share 28%",
+    "$10,000 per night",
+    "5 nights per stay"
+   ],
+   "steps": [
+    "Revenue = $1 billion × 28% = $280 million.",
+    "Revenue per stay = $10,000 × 5 = $50,000.",
+    "Stays = $280 million / $50,000 = 5,600."
+   ],
+   "answer": "$280 million revenue and 5,600 annual room stays, using the separate 2019 exhibit rather than the disputed sizing estimate.",
+   "answer_value": 280000000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What are annual costs, profit and margin?",
+   "givens": [
+    "1,000 service staff at $2,000 monthly",
+    "500 kitchen staff at $3,000 monthly",
+    "5,600 stays with $5,000 food/supplies and $10,000 transport each",
+    "Annual fixed costs $25 million maintenance/insurance/utilities, $15 million marketing/sales, $30 million administration",
+    "$280 million revenue"
+   ],
+   "steps": [
+    "Annual wages = $24 million service + $18 million kitchen.",
+    "Per-stay costs = $28 million food/supplies + $56 million transport.",
+    "Fixed costs = $25 million + $15 million + $30 million = $70 million.",
+    "Total costs = $24 million + $18 million + $28 million + $56 million + $70 million = $196 million.",
+    "Profit = $280 million − $196 million = $84 million; margin = $84 million / $280 million = 30%."
+   ],
+   "answer": "$196 million cost, $84 million modeled profit and 30% margin.",
+   "answer_value": 84000000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is baseline perpetuity value and value uplift relative to acquisition cost?",
+   "givens": [
+    "Flat annual profit proxy $84 million forever",
+    "5% discount rate",
+    "$1.5 billion purchase price",
+    "15% target value-uplift ROI"
+   ],
+   "steps": [
+    "Perpetuity value = $84 million / 0.05 = $1.68 billion.",
+    "Net value after price = $1.68 billion − $1.5 billion = $180 million.",
+    "Cost-based ROI = $180 million / $1.5 billion × 100 = 12%.",
+    "The source’s printed denominator would yield $180 million / $1.68 billion × 100 = 10.714286%, not 12%."
+   ],
+   "answer": "Value $1.68 billion, net value $180 million and cost-based value uplift 12%, below 15%; this is not an annual IRR.",
+   "answer_value": 12,
+   "unit": "% value uplift on acquisition cost",
+   "verified": false,
+   "book_answer_if_different": "The book prints 'ROI = (1.68B – 1.5B)/1.68B = 12%'. The printed expression equals 10.714%, while 12% requires the correct $1.5B investment-cost denominator. It also calls gross perpetuity value 'NPV of Investment' without subtracting the price."
+  },
+  {
+   "id": "m5",
+   "question": "Would a recurring $5 million administrative saving clear the hurdle?",
+   "givens": [
+    "Baseline annual profit $84 million",
+    "$5 million annual saving",
+    "5% discount rate",
+    "$1.5 billion price"
+   ],
+   "steps": [
+    "Improved annual profit = $84 million + $5 million = $89 million.",
+    "Value = $89 million / 0.05 = $1.78 billion.",
+    "Value-uplift ROI = ($1.78 billion − $1.5 billion) / $1.5 billion × 100 = 18.666667%, above 15%."
+   ],
+   "answer": "A delivered recurring $5 million saving raises the modeled value uplift to 18.67%, above the target.",
+   "answer_value": 18.666666666666668,
+   "unit": "% value uplift on acquisition cost",
+   "verified": true
+  }
+ ],
+ "synthesis": "Do not approve unconditionally at $1.5 billion: baseline modeled value uplift is 12%, below the 15% target. A conditional acquisition can be justified if diligence supports growth and a recurring $5 million administrative saving, which raises modeled value to $1.78 billion and uplift to 18.67%. The source accepts either supported recommendation. Resolve the contradictory market-sizing assumptions, verify accounting and cash flows, assess customer retention and competition, and test environmental, legal and portfolio risks. Use candidate Exhibit 4 cost categories, not the solution’s mislabeled categories.",
+ "what_great_looks_like": [
+  "Identifies the PE client’s return hurdle early.",
+  "Connects market share, revenue, stays, costs and valuation.",
+  "Investigates rapid share growth rather than assuming it is sustainable.",
+  "Identifies administrative savings and shows their valuation effect.",
+  "Gives a direct recommendation with evidence and proposes further cost or pricing work."
+ ],
+ "common_pitfalls": [
+  "Silently changing 0.05% to 0.01% to force the book’s sizing answer.",
+  "Applying the disputed potential-market estimate to observed 2019 company revenue.",
+  "Mixing guest visits with room stays.",
+  "Using enterprise value as the ROI denominator.",
+  "Treating the valuation-uplift metric as annual investment yield or IRR.",
+  "Comparing gross and post-SG&A margins without adjustment.",
+  "Copying incorrect fixed-cost labels from the solution."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (missing historical labels and inconsistent historical share totals)",
+   "exhibits[2].data (exact unlabeled margin points omitted)"
+  ],
+  "math_verified": false,
+  "notes": "Dedup returned NEW. The released 0.05% affluent-population assumption yields $5 billion, whereas the table uses 0.01% and gives $1 billion. Downstream revenue uses the independent candidate 2019 market bar ($1 billion) and 28% share, preserving $280 million revenue. Source ROI expression divides by $1.68 billion yet says 12%; correct cost-based denominator is $1.5 billion. Gross perpetuity value is $1.68 billion and net value after purchase $180 million. Profit is a source cash-flow proxy, not a fully specified DCF or annual IRR. Candidate fixed-cost categories differ from the solution list: retain maintenance/insurance/utilities $25 million, marketing/sales $15 million, administration $30 million; total cost remains $196 million. Historical market-share labels sum to only 96% for the visible 2015 labels and 90% in 2018; do not normalize or invent missing data. Exact competitor margin points are unlabeled and omitted. All candidate images are pages 166–169, not worked pages. These inconsistencies justify medium confidence. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry",
+   "sub_industry",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework grouping",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis conditional recommendation and valuation caveats"
+  ]
+ }
+}

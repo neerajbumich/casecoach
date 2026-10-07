@@ -1,0 +1,202 @@
+{
+ "id": "kellogg-2024-zephyr-beverages",
+ "title": "Zephyr Beverages",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  399,
+  405
+ ],
+ "author": "Edwin Van Dusen, Brian Fox and David Welch (Kellogg 2004); edited by Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "M&A/Acquisition",
+  "Turnaround"
+ ],
+ "case_type_source_label": "Y03 Mergers & Acquisitions",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "X12 Retail & CPG",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 2,
+ "difficulty_inferred": true,
+ "quant_intensity": "L",
+ "estimated_minutes": 25,
+ "tags": [
+  "divestiture",
+  "competitive-position",
+  "product-reformulation",
+  "cost-cutting",
+  "market-share",
+  "brand-synergies",
+  "ambiguity"
+ ],
+ "concepts_tested": [
+  "Customer marketing strategy",
+  "Competitive analysis"
+ ],
+ "fit_question": "What do you think makes a good management consultant?",
+ "prompt": "Our client, Zephyr Beverages, is a division of a large consumer products company. The division produces fruit juices in three forms, all under the Zephyr name: chilled, juice boxes, and frozen concentrate. Zephyr had sales of $600 million last year, about 3% of the company's overall sales of $20 billion. The chilled segment represents $120 million in sales per year. While juice boxes and frozen concentrate have been consistently profitable, chilled juices are only breaking even in good quarters and are losing money in bad quarters. Zephyr has received a proposal from upper management to sell the chilled juices business. We need to help them decide whether or not this is a good idea.",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry growth",
+   "answer": "The chilled juice industry has been growing at GDP (~3%) in recent years and is projected to continue at that rate."
+  },
+  {
+   "question_topic": "Target customer",
+   "answer": "The market for chilled juices is dominated by mothers with young kids."
+  },
+  {
+   "question_topic": "Brand importance",
+   "answer": "Brand name matters because mothers prefer reliable products, but the brand premium must stay in line with other branded products -- all branded juices sell in the same price range."
+  },
+  {
+   "question_topic": "Price sensitivity",
+   "answer": "This is a highly price-sensitive market that responds strongly to coupons and promotions."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Highly concentrated market with little recent change, technological progress, or threat of new entrants."
+  }
+ ],
+ "interviewer_notes": "Problem: What should Zephyr do with an underperforming business? Problem-solving steps: (1) develop a structure to address the problem, (2) conduct competitive analysis, (3) determine product/ingredient analysis, (4) provide a client recommendation. This is a largely qualitative case that rewards comfort with ambiguity and creative, well-reasoned option generation over heavy calculation.",
+ "suggested_framework": {
+  "summary": "Options framework (sell chilled only / sell all juice / keep and fix) layered with a qualitative competitive-position analysis and a product/cost deep dive.",
+  "tree": {
+   "label": "What should Zephyr do with the chilled juice business?",
+   "children": [
+    {
+     "label": "Options",
+     "children": [
+      {
+       "label": "Sell chilled juice only"
+      },
+      {
+       "label": "Sell all juice businesses"
+      },
+      {
+       "label": "Keep all businesses (fix chilled)"
+      }
+     ]
+    },
+    {
+     "label": "Competitive dynamics",
+     "children": [
+      {
+       "label": "Market share vs. leaders"
+      },
+      {
+       "label": "Trade promotion / advertising intensity"
+      },
+      {
+       "label": "Assumed relative profitability"
+      }
+     ]
+    },
+    {
+     "label": "Product / cost structure",
+     "children": [
+      {
+       "label": "Ingredient mix vs. competitors"
+      },
+      {
+       "label": "Shared manufacturing / plant constraints"
+      },
+      {
+       "label": "Cross-product brand synergies"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you think about whether Zephyr should sell its chilled juice business?",
+   "release_when": "When asked, the interviewer can reveal that chilled beverages are a $1 billion worldwide industry.",
+   "info_to_release": "Chilled beverages are a $1 billion worldwide industry.",
+   "expected_answer": "A sample structure identifies the real set of options (sell chilled juice only, sell the entire juice business, or continue with all businesses), then calls for a qualitative discussion of competitive dynamics and a discussion of product selection/components and potential cost-cutting levers.",
+   "good_answer_signals": [
+    "Frames the decision as a choice among at least three distinct options, not just a binary sell/keep",
+    "Explicitly plans to examine both competitive position and the underlying product/cost structure before recommending"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What does Zephyr's competitive position in chilled juice look like?",
+   "info_to_release": "The two largest players have 40% and 25% market share respectively; Zephyr's chilled juice share is only 12% (third in the industry). The two market leaders do more advertising, couponing, promotion, and trade support than Zephyr can. Their profitability is unknown but assumed positive.",
+   "expected_answer": "Candidate should recognize Zephyr is at a serious disadvantage on multiple fronts as a distant #3 player -- smaller, likely less profitable, and less able to compete on the trade promotions and couponing that this price-sensitive customer base cares about. Overall conclusion: Zephyr is in a weak competitive position in chilled juice.",
+   "good_answer_signals": [
+    "Correctly ranks Zephyr as a distant third by share (12% vs. 40% and 25%)",
+    "Connects the promotion/advertising disadvantage specifically to what this price-sensitive, coupon-driven customer segment values",
+    "Reaches a clear 'weak competitive position' conclusion rather than staying purely descriptive"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "What does Zephyr's product line and manufacturing setup look like compared to competitors, and what does that suggest for cost-cutting?",
+   "info_to_release": "Market leaders produce juice based on pure orange juice/citrus blends; Zephyr instead bases its juice 60% on pear/peach juice (similar cost to orange juice) and 40% on other flavorings (cranberry, banana, mango, etc.) that cost about twice as much. A single California plant produces all three product forms (chilled, juice boxes, frozen) on different, form-specific machinery that would be difficult to repurpose. There are existing cross-product synergies, since mothers are somewhat more likely to buy multiple products from the same brand.",
+   "expected_answer": "Candidate should conclude that Zephyr's more elaborate, costlier ingredient mix (vs. competitors' simpler citrus-based formulas) is likely adding cost the price-sensitive market isn't willing to pay for, suggesting room to cut costs through reformulation. The shared, hard-to-repurpose plant and cross-product brand synergies also mean that selling off chilled juice in isolation is not a clean, low-cost option -- divesting chilled would also affect the still-profitable juice box and frozen businesses.",
+   "good_answer_signals": [
+    "Identifies the costlier non-citrus flavoring mix as a likely source of avoidable cost, not just an inherent disadvantage",
+    "Recognizes the shared plant and cross-product synergies as a real obstacle to a clean divestiture of chilled alone",
+    "Connects the ingredient-cost insight back to the earlier competitive-position finding rather than treating them separately"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to Zephyr?",
+   "expected_answer": "There is no single right answer among three options, and the response should be well-reasoned and comprehensive: (1) Sell the chilled juice business -- but this would also hurt the juice box and frozen concentrate businesses, since there are advertising and manufacturing synergies across all three. (2) Sell the entire juice business -- more feasible since a buyer could capture the cross-product synergies, but unlikely to turn the business around, and the sale price is likely to be low. (3) Keep the chilled juice business and rework ingredients/costs -- the most feasible option, supported by competitors' success with simpler formulations; Zephyr is likely paying for ingredient features the market doesn't value or want to pay for, and scaling those back could cut costs without hurting revenue. Strong candidates stay comfortable with ambiguity, surface additional risks/benefits for each option, and can propose creative alternatives within the bounds of the facts given.",
+   "good_answer_signals": [
+    "Presents multiple options with genuine trade-offs rather than declaring one option obviously correct",
+    "Explicitly connects the recommendation to the earlier findings on competitive position and ingredient costs",
+    "Shows comfort with ambiguity by surfacing risks or additional considerations for each option rather than a single flat answer"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [],
+ "synthesis": "There is no single correct recommendation; a strong answer weighs three options. Selling only the chilled juice business is possible but would also hurt the still-profitable juice box and frozen concentrate businesses given shared advertising and manufacturing synergies. Selling the entire juice business is more feasible for a buyer able to capture those synergies, but is unlikely to turn the business around and would likely command a low price. The most feasible option is to keep the chilled juice business and rework its ingredients and costs: Zephyr's costlier, more elaborate flavor mix (versus competitors' simpler citrus-based formulas) is likely adding cost the price-sensitive market won't pay a premium for, so scaling it back could cut costs without hurting revenue. A strong candidate stays comfortable with the ambiguity, surfaces additional risks and benefits for each path, and can propose creative alternatives grounded in the facts of the case.",
+ "what_great_looks_like": [
+  "Generates a genuine set of distinct options rather than treating the decision as a binary sell/keep",
+  "Draws a clear conclusion ('weak competitive position') from the market-share and promotion data rather than just restating the numbers",
+  "Connects the ingredient-cost finding back to the competitive-position analysis to build a coherent narrative",
+  "Recognizes the shared-plant and brand-synergy constraints as real obstacles to a clean divestiture",
+  "Stays comfortable with ambiguity and surfaces additional risks/benefits for each recommended option"
+ ],
+ "common_pitfalls": [
+  "Recommending an immediate sale of the chilled business without considering the manufacturing and brand synergies with juice boxes and frozen concentrate",
+  "Stopping at 'Zephyr has low market share' without linking that to its promotional disadvantage or profitability implications",
+  "Missing the ingredient-cost insight and therefore missing the most feasible recommendation (reformulate to cut cost)",
+  "Presenting only one option as correct instead of weighing the genuine trade-offs among the three"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "This case has no exhibits, images, or quantitative math steps in the book -- it is a purely qualitative competitive-position and product-strategy case, so the exhibits and math arrays are empty. Book does not give a difficulty rating; difficulty was inferred as relatively low given the absence of quantitative work.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "case_type (secondary: Turnaround, inferred from the underperforming-business framing)"
+  ]
+ }
+}

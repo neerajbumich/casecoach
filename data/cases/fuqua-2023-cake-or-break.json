@@ -1,0 +1,418 @@
+{
+ "id": "fuqua-2023-cake-or-break",
+ "title": "Cake or Break",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  65,
+  74
+ ],
+ "author": "Soumya Bagade (Fuqua '24), reviewed by Kehinde Majolagbe (Fuqua '24)",
+ "case_type": [
+  "Profitability",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "restaurants",
+ "sub_industry": "coffee-cafes",
+ "industry_source_label": "Consumer Goods",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Deloitte"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative Difficulty Medium; Qualitative Difficulty Medium",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "bakery",
+  "profitability",
+  "catering",
+  "product-mix",
+  "margin",
+  "growth-options"
+ ],
+ "prompt": "Everything Bundt Cakes (EBC) is a bakery that specializes in bundt cakes of all sizes. They offer a variety of flavors, including a seasonal flavor. Since 2020, EBC has noticed a decline in profits and would like your help to increase profits again.",
+ "clarifying_info": [
+  {
+   "question_topic": "Products and location",
+   "answer": "EBC is in the US and sells 5-inch, 10-inch and 15-inch cakes."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "Individuals visiting stores or ordering online generate most revenue; business orders contribute a nominal amount."
+  },
+  {
+   "question_topic": "Objective",
+   "answer": "Increase profitability to support future growth."
+  }
+ ],
+ "interviewer_notes": "Run a profitability-driver brainstorm before the exhibits. The first exhibit tests the ability to extract relevant data from a dense slide; guide the candidate toward flavor-type economics and profitability options. After comparing growth options, require a more structured creative brainstorm and finish with a recommendation. The source's stated flavor margins are incorrect and must be corrected in the answer key.",
+ "suggested_framework": {
+  "summary": "Use the book's revenue, cost and market-trend framework.",
+  "tree": {
+   "label": "Restore bakery profits",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Cake volume and price by size and flavor"
+      },
+      {
+       "label": "New products and business models"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Salaries, equipment, rent, overhead and SG&A"
+      },
+      {
+       "label": "Ingredients and labor"
+      }
+     ]
+    },
+    {
+     "label": "Market trends",
+     "children": [
+      {
+       "label": "Competition, substitutes and supply chain"
+      },
+      {
+       "label": "Price sensitivity, healthy eating and customer demand"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you investigate EBC's declining profits?",
+   "expected_answer": "Split price and volume by cake size and flavor, examine ingredient and labor costs plus fixed costs, and evaluate competition, substitutes and changing customer preferences.",
+   "good_answer_signals": [
+    "Uses cake-specific drivers",
+    "Separates revenue and cost"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "Before analysis, why might EBC face decreasing profitability?",
+   "expected_answer": "Revenue could fall with COVID-related demand loss, grocery cakes, home bakers, specialized cake vendors such as Baked by Melissa, cookie bakeries such as Crumbl, or healthier substitutes such as Edible Arrangement cups. Ingredient shortages, rental costs and equipment costs could also reduce profits.",
+   "good_answer_signals": [
+    "Structures the brainstorm",
+    "Relates causes to EBC's business model"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What do you learn from the product economics?",
+   "release_when": "After the first brainstorm.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "info_to_release": "For 5/10/15-inch cakes, regular revenue is $6/$12/$18 and cost $4/$8/$12; seasonal revenue $7.5/$15/$22.5 and cost $6/$12/$18. The inclusive two-month seasonal schedule creates two seasonal flavors each month, alongside six regular flavors.",
+   "expected_answer": "Seasonal prices are 25% higher, but regular profit is $2/$4/$6 versus seasonal $1.5/$3/$4.5. Regular margins are 33.33% and seasonal margins 20%, not the book's 34% and 25%. Consider ingredient availability and supplier terms as reasons for seasonal costs.",
+   "good_answer_signals": [
+    "Calculates margins using revenue as denominator",
+    "Finds better regular-flavor economics despite lower prices"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Which growth option looks most attractive?",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "info_to_release": "Compare catering, grocery partnerships, additional seasonal flavors and new geographies using customer interest, competition, implementation ability, new-demographic potential and implementation costs.",
+   "expected_answer": "Catering combines the strongest implementation ability, lowest implementation cost and 75%-filled new-demographic score. Grocery partnerships have weak interest and high competition; seasonal expansion has high interest but weaker margin and demographic reach; geographic expansion is costly and poorly suited to the immediate profitability problem.",
+   "good_answer_signals": [
+    "Interprets high competition and costs as disadvantages",
+    "Connects seasonal-flavor choice to Exhibit 1 margins"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other ways can EBC increase future profit?",
+   "expected_answer": "Internal options include catering, new flavors, geographic expansion and a cupcake line. External options include grocery partnerships, non-food partnerships such as Fuqua Admitted Students Weekend, and influencer or celebrity sponsorships. Structure ideas beyond simply adding products.",
+   "good_answer_signals": [
+    "Separates internal and external growth",
+    "Suggests new revenue channels"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "The CEO is about to enter. What do you recommend?",
+   "expected_answer": "Launch catering centered on regular flavors because they earn 33.33% margins versus 20% for seasonal cakes and catering offers attractive implementation economics. Negotiate seasonal ingredient costs before broadening the menu. Test cannibalization, demand for a bundt-only menu, and whether seasonal flavors drive regular-flavor add-ons; validate financials and allocate marketing, packaging and labor gradually.",
+   "good_answer_signals": [
+    "Gives a supported catering recommendation",
+    "Addresses demand and cannibalization before rollout"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Cake revenues, costs and flavors",
+   "page": 69,
+   "kind": "bar",
+   "description": "Price and cost by cake size, with regular flavors and an inclusive seasonal calendar.",
+   "data": {
+    "columns": [
+     "Flavor type",
+     "Size (inches)",
+     "Revenue per cake",
+     "Cost per cake"
+    ],
+    "rows": [
+     [
+      "Regular",
+      5,
+      6,
+      4
+     ],
+     [
+      "Regular",
+      10,
+      12,
+      8
+     ],
+     [
+      "Regular",
+      15,
+      18,
+      12
+     ],
+     [
+      "Seasonal",
+      5,
+      7.5,
+      6
+     ],
+     [
+      "Seasonal",
+      10,
+      15,
+      12
+     ],
+     [
+      "Seasonal",
+      15,
+      22.5,
+      18
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-cake-or-break/p069.webp",
+   "image_has_answers": false,
+   "key_insight": "Regular flavors earn more profit per cake and a higher margin despite seasonal price premiums.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex1b",
+   "title": "Flavor calendar",
+   "page": 69,
+   "kind": "table",
+   "description": "Seasonal dates are inclusive; all six regular flavors are always available.",
+   "data": {
+    "columns": [
+     "Flavor",
+     "Availability"
+    ],
+    "rows": [
+     [
+      "Maple",
+      "Jan-Feb"
+     ],
+     [
+      "Cookies & Cream",
+      "Feb-Mar"
+     ],
+     [
+      "Lemon",
+      "Mar-Apr"
+     ],
+     [
+      "Very berry",
+      "Apr-May"
+     ],
+     [
+      "Strawberries & Cream",
+      "May-June"
+     ],
+     [
+      "Key Lime",
+      "June-July"
+     ],
+     [
+      "Blueberry",
+      "July-Aug"
+     ],
+     [
+      "Carrot",
+      "Aug-Sept"
+     ],
+     [
+      "Pumpkin",
+      "Sept-Oct"
+     ],
+     [
+      "Cinnamon roll",
+      "Oct-Nov"
+     ],
+     [
+      "Gingerbread",
+      "Nov-Dec"
+     ],
+     [
+      "Hot chocolate",
+      "Dec-Jan"
+     ],
+     [
+      "Chocolate, Vanilla, Marble, Oreo, Red velvet, Sprinkles",
+      "Regular"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-cake-or-break/p069.webp",
+   "image_has_answers": false,
+   "key_insight": "Two overlapping seasonal flavors are offered each month alongside six regular flavors.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Revenue growth options",
+   "page": 71,
+   "kind": "table",
+   "description": "Harvey-ball ratings transcribed as blue-filled fractions, not probability forecasts.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Catering",
+     "Grocery partnerships",
+     "More seasonal flavors",
+     "New geographies"
+    ],
+    "rows": [
+     [
+      "Customer interest",
+      "1/2",
+      "1/4",
+      "3/4",
+      "1/2"
+     ],
+     [
+      "Competition",
+      "3/4",
+      "full",
+      "1/2",
+      "full"
+     ],
+     [
+      "Ability to implement",
+      "full",
+      "1/2",
+      "1/2",
+      "1/4"
+     ],
+     [
+      "New demographic potential",
+      "3/4",
+      "full",
+      "1/4",
+      "full"
+     ],
+     [
+      "Implementation costs",
+      "1/4",
+      "1/2",
+      "1/2",
+      "full"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-cake-or-break/p071.webp",
+   "image_has_answers": false,
+   "key_insight": "Catering has the best implementation ability and lowest costs, with substantial new-customer potential.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are cake profits and margins by flavor and size?",
+   "givens": [
+    "Regular price 6/12/18; cost 4/8/12",
+    "Seasonal price 7.5/15/22.5; cost 6/12/18"
+   ],
+   "steps": [
+    "Regular profits=2/4/6; margins=(price-cost)/price=33.333% for each size",
+    "Seasonal profits=1.5/3/4.5; margins=20% for each size"
+   ],
+   "answer": "Regular margin 33.33%; seasonal margin 20%, with regular profit higher at every size",
+   "answer_value": 20,
+   "unit": "% seasonal margin",
+   "verified": false,
+   "book_answer_if_different": "The book states '34% vs. 25%'. Regular margin is 33.33% and seasonal margin is 20%. The 25% figure is seasonal markup on cost, not margin on revenue."
+  },
+  {
+   "id": "m2",
+   "question": "What is the seasonal price premium?",
+   "givens": [
+    "Seasonal prices 7.5/15/22.5",
+    "Regular prices 6/12/18"
+   ],
+   "steps": [
+    "7.5/6-1=25%; the same ratio holds at every size"
+   ],
+   "answer": "25% higher revenue per cake",
+   "answer_value": 25,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "Introduce catering with regular flavors: regular margins are 33.33%, versus seasonal margins of 20%, and catering has the lowest implementation costs and best implementation score. Validate demand and cannibalization, consider whether seasonal cakes draw customers to regular cakes, and phase marketing, packaging and staffing investments. Negotiate seasonal ingredient costs before adding those flavors.",
+ "what_great_looks_like": [
+  "Separates margin from price",
+  "Connects both exhibits",
+  "Structures creative growth ideas and tests cannibalization"
+ ],
+ "common_pitfalls": [
+  "Chooses seasonal flavors only because price is higher",
+  "Treats markup as margin",
+  "Assumes catering demand or future profit is proven"
+ ],
+ "extraction": {
+  "model": "codex/gpt-6",
+  "extracted_at": "2026-10-01",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Read both candidate exhibits visually. Corrected book margins 34%/25% to 33.33%/20%; calculations saved in math-cake.py. Bakery classified as restaurants/coffee-cafes rather than broad Consumer Goods. Harvey balls preserved as ordinal fractions. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "format",
+   "industry",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls"
+  ]
+ }
+}

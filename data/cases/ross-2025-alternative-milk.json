@@ -1,0 +1,291 @@
+{
+ "id": "ross-2025-alternative-milk",
+ "title": "Alternative Milk",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  95,
+  101
+ ],
+ "variant_group_id": "ross-2025-alternative-milk",
+ "is_canonical_variant": true,
+ "case_type": [
+  "M&A/Acquisition",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Consumer Packaged Goods | M&A",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "Consumer Packaged Goods",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 2, Overall - 2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "ma",
+  "market-sizing",
+  "market-share",
+  "profitability",
+  "synergies",
+  "cpg",
+  "growth-rate",
+  "acquisition"
+ ],
+ "concepts_tested": [
+  "market sizing from a known share and revenue",
+  "target-driven market sizing (working backward from a share goal)",
+  "revenue/profit build and required growth rate calculation",
+  "revenue and cost synergy brainstorm"
+ ],
+ "prompt": "Your client is FoodCo, a multi-billion dollar company looking to enter the growing alternative milk market. FoodCo wants to understand the best way to enter the market through acquisition of a growing brand, Smilk. Smilk's profits have doubled in the last 3 years in both the US and Europe. FoodCo has expressed interest in purchasing the US business of Smilk. FoodCo's main objective is to increase Smilk market share in the US to 8% in the next 5 years and increase profitability by 6x in the next 5 years. How would you help FoodCo think about a potential acquisition of Smilk?",
+ "clarifying_info": [
+  {
+   "question_topic": "What products does Smilk sell",
+   "answer": "Drinkable alternative milk products (like oat, almond and soy milk)."
+  },
+  {
+   "question_topic": "Value chain",
+   "answer": "Smilk handles everything from manufacturing to distribution in supermarkets."
+  },
+  {
+   "question_topic": "Specific financial target for FoodCo",
+   "answer": "6x profit and increase market share to 8%."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led case testing M&A entry evaluation via market sizing (two directions: bottom-up and target-driven) and a profitability/growth-rate build, followed by a revenue/cost synergy brainstorm. Ratings: Quant - 2, Qual - 2, Overall - 2 (book's own scale).",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering Smilk's US profit drivers, the alternative milk market, and FoodCo's own synergy potential.",
+  "tree": {
+   "label": "FoodCo acquisition of Smilk (US)",
+   "children": [
+    {
+     "label": "Smilk Profit",
+     "children": [
+      {
+       "label": "Revenues in US",
+       "children": [
+        {
+         "label": "# of Sales"
+        },
+        {
+         "label": "Current distribution channels (Supermarkets, ecommerce)"
+        },
+        {
+         "label": "Pricing"
+        }
+       ]
+      },
+      {
+       "label": "Costs in US",
+       "children": [
+        {
+         "label": "Variable Costs",
+         "children": [
+          {
+           "label": "COGS"
+          },
+          {
+           "label": "Distribution costs"
+          }
+         ]
+        },
+        {
+         "label": "Fixed Costs"
+        },
+        {
+         "label": "Manufacturing costs"
+        },
+        {
+         "label": "Facilities cost"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Market of Alternative Milk",
+     "children": [
+      {
+       "label": "Growth + size of market in US"
+      },
+      {
+       "label": "Competition in the space"
+      },
+      {
+       "label": "Customer preferences / trends in market"
+      }
+     ]
+    },
+    {
+     "label": "FoodCo Company",
+     "children": [
+      {
+       "label": "Revenue Synergies"
+      },
+      {
+       "label": "Cost Synergies",
+       "children": [
+        {
+         "label": "Savings in manufacturing"
+        },
+        {
+         "label": "Economies of scale"
+        },
+        {
+         "label": "Supplier cost savings"
+        }
+       ]
+      },
+      {
+       "label": "Expertise"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you help FoodCo think about a potential acquisition of Smilk?",
+   "expected_answer": "A framework covering Smilk's US profit (revenues: sales volume, distribution channels, pricing; costs: variable COGS/distribution, fixed manufacturing/facilities), the alternative milk market (size/growth, competition, customer trends), and FoodCo's own synergy potential (revenue synergies, cost synergies like manufacturing savings/economies of scale/supplier savings, and expertise).",
+   "good_answer_signals": [
+    "Mentions the three buckets (Smilk profit, market, FoodCo synergies) or other reasonable equivalents",
+    "Sufficiently expands on each bucket and keeps the goal of increasing profit and market share front and center"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What is the total market size today and in 5 years of the alternative milk market?",
+   "info_to_release": "5-year market growth rate: 40% (provided by interviewer). Smilk's current US market size (revenue): $5M. Smilk's current US market share: 4%. FoodCo's target: Smilk market share of 8% in 5 years.",
+   "release_when": "Give the 5-year growth rate directly; give all other information verbally as the candidate asks; candidate can take a minute to develop their approach.",
+   "expected_answer": "Total alternative milk market today = Smilk revenue / Smilk share = $5M / 4% = $125M. In 5 years, market size = $125M × 1.4 = $175M. To hit FoodCo's target of 8% share in 5 years, Smilk would need revenue = 8% × $175M = $14M in 5 years.",
+   "good_answer_signals": [
+    "Correctly backs into total market size from Smilk's known revenue and share",
+    "Applies the 40% growth rate to project the 5-year market size",
+    "Remembers FoodCo's stated 8% share target and translates it into a required $14M revenue figure for Smilk, rather than stopping at market size"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Our client is curious in understanding the profitability of the US Smilk business. What is Smilk's profit for the US? What would you expect the growth rate to need to be to obtain 6x profit?",
+   "info_to_release": "Worldwide Smilk sales: 2.5M products sold. % of business in the US: 40%. Average sales price: $5. Profit margin: 15%.",
+   "release_when": "Provide information verbally as the candidate asks; candidate can take a minute to develop their approach.",
+   "expected_answer": "US units sold = 2.5M × 40% = 1M products. US Revenue = 1M × $5 = $5M. US Profit = $5M × 15% = $750K. To reach FoodCo's target of 6x profit in 5 years: target profit = $750K × 6 = $4.5M. Growth needed = ($4.5M - $750K) / $750K = 5, i.e., total growth of 500% over 5 years (roughly a 43% compound annual growth rate).",
+   "good_answer_signals": [
+    "Correctly derives US units sold, revenue, and profit step by step from the given ratios",
+    "Solves for the growth needed to reach the 6x profit target",
+    "Contextualizes whether the resulting growth rate is reasonable given Smilk's profits have already doubled in the last 3 years"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are some synergies we can expect to see if FoodCo acquires Smilk?",
+   "expected_answer": "Revenue Synergies: diversify FoodCo's product mix with alternative milk products from Smilk; cross-sell Smilk with complementary FoodCo products. Cost Synergies: Supply Chain & Operations — greater buyer power and economies of scale by producing products in the same location; SG&A — reduce headcount to share marketing, finance, sales, and IT teams.",
+   "good_answer_signals": [
+    "Separates revenue synergies from cost synergies",
+    "Gives concrete, specific examples rather than generic 'synergies exist' statements"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should FoodCo acquire Smilk?",
+   "expected_answer": "Yes, FoodCo should acquire Smilk because they will be able to achieve their goals of increasing market share to 8% and profitability by 6x. Risks: culture clashes may occur between FoodCo and Smilk; government approval of the acquisition; brand cannibalization. Next steps: send Smilk a term sheet with details for the acquisition; start preparing internal teams to onboard and transition the Smilk team; conduct a survey to further understand the alternative milk market and remain a leader in the category.",
+   "good_answer_signals": [
+    "Ties the recommendation directly back to the two numeric targets (8% share, 6x profit) established earlier in the case",
+    "Names concrete risks (culture clash, regulatory approval, cannibalization) and concrete next steps"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the total alternative milk market size today, and what will it be in 5 years? What Smilk revenue is needed in 5 years to hit FoodCo's 8% share target?",
+   "givens": [
+    "Smilk current US revenue: $5M",
+    "Smilk current US market share: 4%",
+    "5-year market growth rate: 40%",
+    "FoodCo target Smilk market share in 5 years: 8%"
+   ],
+   "steps": [
+    "Total market size today = $5M / 4% = $125M",
+    "Total market size in 5 years = $125M × 1.4 = $175M",
+    "Smilk revenue needed at 8% share in 5 years = 8% × $175M = $14M"
+   ],
+   "answer": "Total market today = $125M; total market in 5 years = $175M; Smilk needs $14M in revenue in 5 years to hit the 8% share target",
+   "answer_value": 14,
+   "unit": "USD millions (5-year target revenue)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is Smilk's current US profit, and what growth rate is needed to reach 6x profit in 5 years?",
+   "givens": [
+    "Worldwide units sold: 2.5M",
+    "% of business in US: 40%",
+    "Average sales price: $5",
+    "Profit margin: 15%"
+   ],
+   "steps": [
+    "US units sold = 2.5M × 40% = 1M products",
+    "US Revenue = 1M × $5 = $5M",
+    "US Profit = $5M × 15% = $750K",
+    "Target profit (6x) = $750K × 6 = $4.5M",
+    "Growth needed = ($4.5M - $750K) / $750K = 5 (i.e., 500% total growth over 5 years)",
+    "As a compound annual growth rate: 6^(1/5) - 1 ≈ 43% per year"
+   ],
+   "answer": "US profit today = $750K; growth needed = 500% total over 5 years (≈43% compound annual growth rate) to reach $4.5M profit",
+   "answer_value": 500,
+   "unit": "% total growth over 5 years",
+   "verified": false,
+   "book_answer_if_different": "Book labels the result of ($4.5M-$750K)/$750K as '5%', but that calculation equals 5 (i.e., 500% total growth, not 5%) — the '5%' label appears to be a typo/error in the source book. This extraction uses the mathematically correct reading of the book's own formula."
+  }
+ ],
+ "synthesis": "Yes, FoodCo should acquire Smilk because they will be able to obtain their goal of increasing market share by 8% and profitability by 6x.",
+ "what_great_looks_like": [
+  "Backs into total alternative milk market size from Smilk's known revenue and share rather than asking for it directly",
+  "Remembers to translate the market-size result into what Smilk itself needs to achieve (revenue at 8% share) rather than stopping at market size",
+  "Builds US profit step by step from worldwide units, % of business, price, and margin without skipping steps",
+  "Sanity-checks whether the implied growth rate is realistic given Smilk's profits already doubled in 3 years",
+  "Separates revenue synergies from cost synergies with specific, concrete examples in the brainstorm"
+ ],
+ "common_pitfalls": [
+  "Computing total market size but forgetting to re-apply FoodCo's 8% share target to find Smilk's required future revenue",
+  "Mixing up total-growth (500%, i.e., 5x) with an annual growth rate (5%) when solving for the growth needed to hit 6x profit",
+  "Giving vague synergy ideas ('cost savings', 'more revenue') instead of specific, acquisition-relevant examples"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[1].answer (book's stated '5%' growth-rate label appears to be a typo/error relative to its own calculation)"
+  ],
+  "math_verified": false,
+  "notes": "Question 2's growth-rate calculation in the book is labeled '5%' but the arithmetic shown (($4.5M-$750K)/$750K) equals 5, i.e. 500% total growth over 5 years, not 5%; flagged as a likely book error and corrected in math[1].",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

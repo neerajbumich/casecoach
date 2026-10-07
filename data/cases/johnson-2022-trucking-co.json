@@ -1,0 +1,280 @@
+{
+ "id": "johnson-2022-trucking-co",
+ "title": "Trucking Co",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  38,
+  43
+ ],
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "rail-trucking",
+ "sub_industry": "trucking",
+ "industry_source_label": "Transportation",
+ "client_type": "for-profit",
+ "geography": "United States",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Simple; Quant: Medium; Analysis: Low",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "repair-costs",
+  "cost-benchmarking",
+  "outsourcing",
+  "insourcing",
+  "supplier-negotiation",
+  "unit-economics",
+  "capacity-investment"
+ ],
+ "prompt": "Our client is a U.S. transportation company with a fleet of over 2,000 trucks. In this case, the truck is the front part where the driver sits, excluding the trailer. The fleet is split among 10 locations in the United States. A truck departs from its home location, picks up a customer load such as at a distribution center, delivers it to another location such as a retail store, and returns to its original location. Over the past year, the company has experienced declining profitability. The client wants to turn this around and increase profitability in its trucking business.",
+ "clarifying_info": [],
+ "interviewer_notes": "There is minimal clarifying information. Test comfort with an unfamiliar topic and the ability to connect calculations to the big picture. After the structure, focus on maintenance and repairs, first current costs and then competitor benchmarks. Use 2,000 trucks for the calculations, as directed by pages 40–41, although the prompt says over 2,000. Repair inputs are given verbally; the calculation slides contain answers and are not candidate exhibits. The source uses 'fleet' imprecisely for an individual tractor; the prompt is lightly clarified without changing the operational model. Page 41 contains a $1 million addition error that propagates into savings; use corrected figures throughout the answer key. If time permits, keep pushing the candidate for additional brainstorm ideas and practical implementation detail.",
+ "suggested_framework": {
+  "summary": "Diagnose profitability through operating costs, revenue segments and industry conditions, then benchmark repair unit economics.",
+  "tree": {
+   "label": "Profitability",
+   "children": [
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "PP&E, maintenance and repairs"
+      },
+      {
+       "label": "Fuel and insurance"
+      },
+      {
+       "label": "Truck parking lots"
+      }
+     ]
+    },
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Customer segments"
+      },
+      {
+       "label": "Geography across 10 US locations"
+      },
+      {
+       "label": "Other trucking product lines"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Company-specific versus competitor-wide issues"
+      },
+      {
+       "label": "Employee availability and technology trends"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose and reverse the decline in profitability?",
+   "release_when": "Read the prompt; there is little further clarification.",
+   "info_to_release": "The company operates over 2,000 trucks across 10 US locations. Profitability declined over the past year. Focus the analysis on maintenance and repair costs after the candidate outlines an approach.",
+   "exhibit_ids": [],
+   "expected_answer": "Consider costs such as equipment, repairs, fuel, insurance and parking; revenues by customer, geography and product line; and whether competitors face the same pressure. Then investigate repair costs and the balance of in-house versus outsourced work.",
+   "good_answer_signals": [
+    "Uses a trucking-specific cost structure.",
+    "Keeps the profitability objective visible rather than treating each calculation as isolated."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What are total in-house and outsourced repair costs, and which method is cheaper per repair?",
+   "release_when": "When the candidate asks for maintenance and repair data, provide these inputs verbally.",
+   "info_to_release": "Use 2,000 trucks. Every truck had 3 repairs: 2 in-house and 1 outsourced. In-house material cost is $850 per repair and labor $1,100. Outsourced material cost is $1,400 per repair and labor $1,500.",
+   "exhibit_ids": [],
+   "expected_answer": "There are 4,000 in-house repairs and 2,000 outsourced repairs. In-house materials cost $3.4 million and labor $4.4 million, totaling $7.8 million. Outsourced materials cost $2.8 million and labor $3 million, totaling $5.8 million. Total repair spending is $13.6 million. In-house repairs cost $1,950 each versus $2,900 outsourced; lower aggregate outsourced spend merely reflects fewer repairs. Potential in-house advantages include avoiding travel to external shops, more comprehensive coverage and off-hours repair that preserves truck utilization.",
+   "good_answer_signals": [
+    "Normalizes costs per repair before comparing sourcing choices.",
+    "Distinguishes the number of trucks from the number of repair events.",
+    "Treats suggested operational explanations as hypotheses, not proven savings."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "How much could the client save by matching competitor repair costs?",
+   "release_when": "After the current-cost calculation, provide benchmark unit costs verbally.",
+   "info_to_release": "Industry research finds competitors pay less in all categories. Keep 2,000 trucks and 3 repairs per truck, with 2 in-house and 1 outsourced. Competitor in-house materials cost $800 per repair and labor $1,000. Outsourced materials and labor each cost $1,000 per repair.",
+   "exhibit_ids": [],
+   "expected_answer": "Benchmark in-house materials are $3.2 million and labor $4 million, totaling $7.2 million, not $6.2 million. In-house savings are $600,000, not $1.6 million. Benchmark outsourced spending is $4 million, saving $1.8 million. Total spending becomes $11.2 million and total savings are $2.4 million, not $3.4 million. In-house still costs less per repair: $1,800 versus $2,000. One repair for each of 2,000 trucks costs $3.6 million in-house versus $4 million outsourced, not the source's $3.1 million in-house. Expansion investment must be evaluated before claiming those unit savings can be realized at greater scale.",
+   "good_answer_signals": [
+    "Recomputes component sums rather than copying the erroneous total.",
+    "Separates benchmark-cost savings at the current sourcing mix from future insourcing savings.",
+    "Recognizes outsourced benchmarking offers the larger savings pool while in-house retains the lower unit cost."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "The client wants to revisit material-supplier contracts and invest over two years in in-house capacity and capabilities. What challenges do you anticipate?",
+   "release_when": "After quantifying the benchmark savings.",
+   "info_to_release": "The two proposed actions are supplier-contract renegotiation and a two-year investment program to increase in-house repair capacity and capabilities.",
+   "exhibit_ids": [],
+   "expected_answer": "For contracts: supplier resistance, whether the client already uses the lowest-cost suppliers, and changes in inflation and raw-material costs versus contracts signed 5 or 10 years ago. For in-house expansion: upfront equipment and staffing costs, warehouse space, management time and resources, technical capability, and distraction from the core trucking business. Explain how proposed actions would be implemented, not just name risks.",
+   "good_answer_signals": [
+    "Organizes challenges by the two initiatives.",
+    "Considers both physical capacity and skills.",
+    "Connects supplier negotiations to market conditions and contract renewal opportunities."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What do you recommend to the COO?",
+   "release_when": "After the challenges discussion.",
+   "info_to_release": "No investment amount or capacity-expansion payback estimate is supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "Pursue a two-pronged approach: negotiate material-supplier contracts using competitor benchmarks and evaluate investment in in-house repair capacity. Matching benchmark unit costs at the current repair mix saves $2.4 million, comprising $600,000 in-house and $1.8 million outsourced. In-house benchmark cost is $1,800 per repair versus $2,000 outsourced, supporting further investigation of insourcing. Supplier pushback and upfront equipment, facilities, materials, staffing and training costs are risks. Explore other suppliers at contract renewal, calculate investment payback, and build a two-year investment and execution roadmap.",
+   "good_answer_signals": [
+    "Uses the corrected $2.4 million savings total.",
+    "Does not recommend unqualified capacity spending before evaluating payback.",
+    "Offers specific mitigations and a two-year implementation next step."
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What does the current repair mix cost?",
+   "givens": [
+    "2,000 trucks",
+    "2 in-house and 1 outsourced repair per truck",
+    "In-house material $850 and labor $1,100 per repair",
+    "Outsourced material $1,400 and labor $1,500 per repair"
+   ],
+   "steps": [
+    "In-house materials: 2,000 × 2 × $850 = $3,400,000.",
+    "In-house labor: 2,000 × 2 × $1,100 = $4,400,000.",
+    "In-house total: $7,800,000.",
+    "Outsourced materials: 2,000 × $1,400 = $2,800,000.",
+    "Outsourced labor: 2,000 × $1,500 = $3,000,000.",
+    "Outsourced total: $5,800,000; combined total: $13,600,000.",
+    "Cost per repair: in-house $850 + $1,100 = $1,950; outsourced $1,400 + $1,500 = $2,900."
+   ],
+   "answer": "$7.8 million in-house and $5.8 million outsourced, totaling $13.6 million. In-house is cheaper per repair.",
+   "answer_value": 13600000,
+   "unit": "USD for the stated repair volume",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are benchmark in-house costs and savings?",
+   "givens": [
+    "4,000 in-house repairs",
+    "Benchmark material $800 and labor $1,000 per repair",
+    "Current in-house cost $7.8 million"
+   ],
+   "steps": [
+    "Materials: 4,000 × $800 = $3,200,000.",
+    "Labor: 4,000 × $1,000 = $4,000,000.",
+    "Total: $3,200,000 + $4,000,000 = $7,200,000.",
+    "Savings: $7,800,000 − $7,200,000 = $600,000."
+   ],
+   "answer": "$7.2 million benchmark in-house cost and $600,000 savings.",
+   "answer_value": 600000,
+   "unit": "USD savings",
+   "verified": false,
+   "book_answer_if_different": "Page 41 incorrectly adds '$3,200,000 + $4,000,000 = $6,200,000' and consequently claims $1,600,000 in-house savings. Correct totals are $7,200,000 and $600,000."
+  },
+  {
+   "id": "m3",
+   "question": "What are outsourced and combined savings at competitor costs?",
+   "givens": [
+    "2,000 outsourced repairs",
+    "Benchmark outsourced material and labor each $1,000 per repair",
+    "Current outsourced cost $5.8 million",
+    "Corrected in-house savings $600,000"
+   ],
+   "steps": [
+    "Outsourced materials = $2 million and labor = $2 million; total = $4 million.",
+    "Outsourced savings = $5.8 million − $4 million = $1.8 million.",
+    "Combined benchmark cost = $7.2 million + $4 million = $11.2 million.",
+    "Combined savings = $0.6 million + $1.8 million = $2.4 million."
+   ],
+   "answer": "$1.8 million outsourced savings and $2.4 million combined savings at the current repair mix.",
+   "answer_value": 2400000,
+   "unit": "USD savings",
+   "verified": false,
+   "book_answer_if_different": "Page 41 reports overall savings of $3.4 million. That carries forward its $1 million in-house addition error; the correct combined savings are $2.4 million. Outsourced savings of $1.8 million are correct."
+  },
+  {
+   "id": "m4",
+   "question": "At benchmark costs, is an in-house repair still cheaper?",
+   "givens": [
+    "In-house material $800 and labor $1,000",
+    "Outsourced material $1,000 and labor $1,000",
+    "2,000 trucks"
+   ],
+   "steps": [
+    "In-house unit cost = $800 + $1,000 = $1,800.",
+    "Outsourced unit cost = $1,000 + $1,000 = $2,000.",
+    "One repair per truck costs 2,000 × $1,800 = $3.6 million in-house versus 2,000 × $2,000 = $4 million outsourced."
+   ],
+   "answer": "In-house remains cheaper: $1,800 versus $2,000 per repair, or $3.6 million versus $4 million for one repair across all 2,000 trucks.",
+   "answer_value": 1800,
+   "unit": "USD per in-house repair",
+   "verified": false,
+   "book_answer_if_different": "Page 41 says 'One in-house repair is $3.1M vs. $4M for outsourced.' Its $3.1 million inherits the wrong in-house total. Correct one-repair-per-truck spending is $3.6 million; an individual repair costs $1,800, not millions."
+  }
+ ],
+ "synthesis": "Negotiate supplier contracts against industry benchmarks and evaluate expanding in-house repair capability. Benchmarking at the existing sourcing mix yields corrected savings of $2.4 million, not $3.4 million: $600,000 in-house plus $1.8 million outsourced. In-house repairs remain cheaper per event at $1,800 versus $2,000, but capacity investment requires a payback assessment. Anticipate supplier pushback and upfront facilities, equipment, staffing and training costs. Consider alternative suppliers at renewal and develop the proposed two-year investment roadmap.",
+ "what_great_looks_like": [
+  "Normalizes repair costs by events rather than comparing aggregate spending.",
+  "Identifies the source's addition error and follows the corrected savings through the recommendation.",
+  "Separates current-mix cost benchmarking from incremental capacity investment.",
+  "Links supplier negotiations and in-house expansion to concrete execution risks and payback analysis."
+ ],
+ "common_pitfalls": [
+  "Concluding outsourcing is cheaper because $5.8 million is below $7.8 million without adjusting for repair counts.",
+  "Adding $3.2 million and $4 million to get the book's incorrect $6.2 million.",
+  "Quoting $3.4 million savings instead of $2.4 million.",
+  "Treating the fleet-wide one-repair total as the price of an individual repair.",
+  "Assuming in-house expansion is free or immediately feasible."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Dedup verdict NEW. Pages 38–43 read and visually inspected. No candidate exhibits: all repair inputs are interviewer-given facts on worked calculation slides, so they remain in info_to_release with no image. Page 41 adds $3.2 million and $4 million incorrectly to $6.2 million; correct in-house total is $7.2 million, saving $0.6 million rather than $1.6 million. Combined savings become $2.4 million instead of $3.4 million. Its $3.1 million for one in-house repair across the fleet is $3.6 million; unit cost is $1,800. These source inconsistencies require medium confidence. All stated unit-cost inputs remain unchanged. The prompt says over 2,000 trucks, while both worked stages explicitly use 2,000; this modeling count is released at the calculation stage and not silently substituted into the prompt. Source terminology equates fleet with tractor; cleaned for readability. No payback is invented because investment amounts are absent. Overall Simple maps in code to 2. Quant intensity H reflects the multi-step cost chain rather than the source's Medium arithmetic-difficulty label. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

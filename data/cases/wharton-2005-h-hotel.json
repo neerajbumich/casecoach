@@ -1,0 +1,246 @@
+{
+ "id": "wharton-2005-h-hotel",
+ "title": "H Hotel",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  41,
+  43
+ ],
+ "variant_group_id": "h-hotel",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Pricing"
+ ],
+ "case_type_source_label": "advise on a room-rate increase",
+ "industry": "hospitality",
+ "sub_industry": "hotels",
+ "industry_source_label": "business hotel chain",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Booz Allen Hamilton, 1st Round"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "pricing",
+  "price-elasticity",
+  "customer-segmentation",
+  "b2b-vs-end-user",
+  "competitive-positioning",
+  "cost-structure",
+  "differentiation"
+ ],
+ "concepts_tested": [
+  "distinguishing the paying customer from the end user in a B2B-influenced purchase",
+  "price-cap/willingness-to-pay reasoning",
+  "recognizing when cost-cutting is exhausted and growth must come from the top line",
+  "demand-side differentiation and lock-in tactics"
+ ],
+ "prompt": "You are hired by H Hotel to advise whether they should raise their daily room rate from $160 to $180.",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry overview",
+   "answer": "The overall hotel market is stable. The industry broadly splits into two segments serving different needs: business hotels (typically in metro centers, smaller than vacation resorts, well-equipped with in-room business services like internet/fax/printer, more flexible booking) and vacation hotels (in touristy/scenic areas but not necessarily centrally located, wider range of price and facilities, more demand fluctuation)."
+  },
+  {
+   "question_topic": "Competitive position",
+   "answer": "The client is the leader in the Business Hotel segment and an average player in the Vacation Hotel segment."
+  },
+  {
+   "question_topic": "Why focus on Business Hotel",
+   "answer": "1) Location advantage — as the segment leader, the client has likely already secured the best locations in major cities, which are hard for competitors to match given limited supply of prime space; 2) steady revenue stream — once corporate contracts are signed, business-travel demand is easier to predict than vacation demand, supporting higher occupancy and easier fixed pricing; 3) lower maintenance cost — business hotels are smaller and need fewer recreational facilities."
+  },
+  {
+   "question_topic": "Why raise price (internal view)",
+   "answer": "To increase profitability. Profit = Revenue − Cost = Price × Quantity − (Fixed Cost + Variable Cost). There isn't much room left for cost savings: the hotel has already outsourced cleaning, gone through a major layoff cutting staff by half, and its restaurant/bar already operate efficiently. So on the profit equation, growth must come from the revenue side — increasing price and/or quantity (occupancy rate)."
+  },
+  {
+   "question_topic": "External consumer impact",
+   "answer": "Distinguish the 'end user' (the business traveler) from the 'customer' (the corporation with the contract). End users are largely unaffected since they don't pay directly, and won't stop staying at H Hotel as long as service level, flexibility, location, etc. stay the same. Corporate customers, who mostly have long, stable relationships with H Hotel, would only leave if: 1) the new price isn't competitive vs. competitors (it still is), 2) the price exceeds their travel-expense cap (the cap here is $240), or 3) no extra benefits come with the increase (H Hotel does provide better services/business-friendly facilities)."
+  }
+ ],
+ "interviewer_notes": "There's very limited information to begin with, so the candidate is expected to ask questions, but in a structured way. Allow 10-15 seconds for the candidate to lay out assumptions for each step of the analysis before giving any clues. The interview should create a certain level of stress but remain pleasant overall.",
+ "suggested_framework": {
+  "summary": "Evaluate the price increase from both an internal view (does it improve profit, given limited remaining cost-saving room?) and an external view (how will the end user and the paying corporate customer react?), informed by the client's competitive position in the business-hotel segment.",
+  "tree": {
+   "label": "Should H Hotel raise its room rate from $160 to $180?",
+   "children": [
+    {
+     "label": "Industry/segment context",
+     "children": [
+      {
+       "label": "Business vs. vacation hotel segments"
+      },
+      {
+       "label": "Client's competitive position in each"
+      }
+     ]
+    },
+    {
+     "label": "Internal view",
+     "children": [
+      {
+       "label": "Profit = Price×Quantity − (Fixed + Variable Cost)"
+      },
+      {
+       "label": "Cost-saving headroom (already limited)"
+      }
+     ]
+    },
+    {
+     "label": "External view",
+     "children": [
+      {
+       "label": "End user (traveler) impact"
+      },
+      {
+       "label": "Paying customer (corporation) — competitiveness, expense cap, added benefits"
+      }
+     ]
+    },
+    {
+     "label": "Demand-side actions post-increase",
+     "children": [
+      {
+       "label": "Product/service differentiation"
+      },
+      {
+       "label": "Traveler-specific lock-in promotions"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "H Hotel is considering raising its daily room rate from $160 to $180. How would you advise them?",
+   "expected_answer": "Candidate proposes a structured framework: understand the industry/segment context and the client's competitive position, assess the internal profit rationale (and whether cost-cutting is exhausted), and assess the external impact on both the end-user traveler and the paying corporate customer, before concluding.",
+   "good_answer_signals": [
+    "Lays out a clear structure before requesting data",
+    "Distinguishes an internal (cost/profit) lens from an external (customer reaction) lens up front"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "clarify",
+   "interviewer_asks": "How would you characterize the hotel industry's segments, and where does H Hotel stand?",
+   "release_when": "Let the candidate characterize the segments first, then confirm/fill gaps",
+   "info_to_release": "Two segments: business hotels (central metro locations, smaller, in-room business amenities, flexible booking) and vacation hotels (touristy/scenic areas, wider price/facility range, more demand volatility). The client leads the Business Hotel segment and is an average player in Vacation Hotels.",
+   "expected_answer": "Candidate proposes plausible distinguishing characteristics for each segment (location, size, amenities, booking flexibility, demand predictability) before being told H Hotel's specific competitive standing.",
+   "good_answer_signals": [
+    "Attempts to characterize the two segments before being told",
+    "Notes that the client's strength is concentrated in the more predictable, business segment"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "Why do you think H Hotel decided to focus on its Business Hotel unit specifically?",
+   "expected_answer": "1) Location advantage — as segment leader it likely already holds the best big-city locations, which are hard for competitors to match given limited prime real estate; 2) steadier, more predictable revenue once corporate contracts are signed, supporting higher occupancy and simpler fixed pricing; 3) lower maintenance cost, since business hotels are smaller with fewer recreational facilities.",
+   "good_answer_signals": [
+    "Identifies at least two of the three rationale categories (location, revenue predictability, cost structure)"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "From an internal view, why would H Hotel want to raise price, and does it make sense?",
+   "release_when": "Give hints on cost-saving limits only if candidate proposes cost cuts: 'they already outsourced cleaning', 'they just went through a major layoff and cut staff by half', 'their restaurant and bar are operating efficiently'",
+   "expected_answer": "The goal is to increase profitability (Profit = Price×Quantity − (Fixed Cost + Variable Cost)). Since cost-cutting has essentially reached its limit (cleaning outsourced, staff already halved, F&B already efficient), the remaining levers are on the revenue side — raising price and/or growing occupancy (quantity).",
+   "good_answer_signals": [
+    "States the profit equation and correctly locates price/quantity as the two revenue levers",
+    "Recognizes cost-cutting is largely exhausted rather than proposing more cost cuts"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "How is the price increase going to impact consumer behavior?",
+   "expected_answer": "Candidate should separate the 'end user' (business traveler) from the 'customer' (the corporation with the contract). The end user is largely unaffected since they don't pay directly and won't switch hotels as long as service, flexibility, and location stay the same. The corporate customer — mostly in long, stable relationships with H Hotel — would only leave if: (1) the new price isn't competitive vs. rivals (it still is here), (2) the price exceeds the corporation's travel-expense cap (here $240), or (3) no added benefit comes with the increase (H Hotel does offer better service/facilities).",
+   "good_answer_signals": [
+    "Explicitly separates end user from paying customer",
+    "Identifies all three conditions under which the corporate customer would actually leave"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "Assuming the price increase goes through, what can H Hotel do to increase demand from the end user?",
+   "expected_answer": "Candidate should be creative but hit: product differentiation (better convenience like transportation or prime emerging-area locations, more business-friendly facilities like in-room fax/printer, room upgrades); service differentiation (personalized experience tracking each traveler's preferences); and consumer lock-in via traveler-specific promotions distinct from corporate deals (e.g., shopping-coupon gifts, or cross-promotion offering a free stay at one of H Hotel's vacation properties).",
+   "good_answer_signals": [
+    "Covers both product and service differentiation, not just one",
+    "Proposes a specific consumer lock-in/promotion mechanism"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "[With ~3 minutes left, if not already offered] What's your conclusion — should H Hotel raise the price?",
+   "expected_answer": "Yes. H Hotel has a real competitive advantage (superior location, good service, trusted long-term customer relationships) that gives it room to raise price, especially paired with further differentiation. Even after the $20 increase to $180, the price stays well below the $240 corporate expense cap and remains competitive with rivals. H Hotel can also grow occupancy further by locking in travelers who have multiple hotel choices through traveler-specific promotions. Internally, cost-cutting has reached its limit, so profit growth must come from the top line, and as long as the price increase doesn't hurt occupancy, total revenue — and profit — should grow.",
+   "good_answer_signals": [
+    "Gives a clear, unprompted 'yes' recommendation as time runs low",
+    "Grounds the recommendation in both the external (cap/competitiveness) and internal (cost-exhausted, top-line growth) analysis"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much headroom remains below the corporate travel-expense cap after the price increase?",
+   "givens": [
+    "Current price $160",
+    "Proposed price $180",
+    "Corporate travel-expense cap $240"
+   ],
+   "steps": [
+    "Headroom at current price = $240 − $160 = $80",
+    "Headroom at proposed price = $240 − $180 = $60"
+   ],
+   "answer": "$60 of headroom remains below the $240 cap after the increase (down from $80 at the current price)",
+   "answer_value": 60,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "Yes, H Hotel should raise its room rate from $160 to $180. Externally, the new price remains well below the $240 corporate travel-expense cap and stays competitive with rivals, so the vast majority of H Hotel's corporate customers — who value its superior locations, service, and long-standing relationships — have no strong reason to switch; end users are essentially unaffected since they don't pay directly. Internally, cost-cutting has already reached its practical limit (outsourced cleaning, halved staff, efficient F&B), so profit growth must come from the top line: the price increase itself, plus further occupancy growth through product/service differentiation and traveler-specific lock-in promotions.",
+ "what_great_looks_like": [
+  "Explicitly separates the internal (cost/profit) analysis from the external (customer reaction) analysis",
+  "Distinguishes the end user (traveler) from the paying customer (corporation) rather than treating 'the consumer' as one undifferentiated group",
+  "Recognizes that cost-cutting is exhausted and correctly redirects the profit lever to price/quantity",
+  "Identifies all three conditions that would actually cause the corporate customer to leave (competitiveness, expense cap, added benefit)",
+  "Proposes concrete, creative demand-side tactics (differentiation and lock-in promotions) rather than stopping at the pricing decision alone"
+ ],
+ "common_pitfalls": [
+  "Treats 'the customer' as a single entity and misses that the traveler and the bill-payer are different people with different sensitivities",
+  "Keeps proposing cost-cutting ideas after being hinted that cost-saving has already reached its limit",
+  "Fails to check the new price against the corporate expense cap, missing a key reason the increase is safe",
+  "Recommends the price increase without addressing how to keep growing occupancy afterward"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Case is primarily qualitative pricing/customer-behavior reasoning; only one lightweight numeric comparison (price vs. expense cap) exists in the book, included as m1. No exhibits/images in this bundle.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "client_type"
+  ]
+ }
+}

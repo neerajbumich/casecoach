@@ -1,0 +1,279 @@
+{
+ "id": "booth-2024-linda-s-great-burgers",
+ "title": "Linda's Great Burgers",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  206,
+  211
+ ],
+ "case_type": [
+  "M&A/Acquisition",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Mergers and Acquisitions",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "Restaurant, Food & Beverage / Fast Food Chain",
+ "geography": "Global",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 1/3; Creativity 2/3",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "fast-food",
+  "donuts",
+  "acquisition",
+  "synergies",
+  "franchising",
+  "cagr"
+ ],
+ "fit_question": "Tell me about a time you led a team through a complex challenge. Tell me about a challenge where you had to make risk decisions.",
+ "prompt": "Linda's Great Burgers is a global burger chain using individual franchises. Believing its market is saturated, it is considering acquiring Heavenly Donuts, a young global coffee-and-donut chain using territorial franchises. Determine whether Heavenly Donuts is a good acquisition and strategic match.",
+ "clarifying_info": [],
+ "interviewer_notes": "Acquisition case with structured synergy brainstorming, exhibit interpretation and a growth calculation. The title page labels it candidate-driven, while the detailed case page labels it interviewer-led; format follows the detailed case page. A final deal decision must remain conditional because purchase price, valuation and integration costs are not provided.",
+ "suggested_framework": {
+  "summary": "Assess donut-market attractiveness, Heavenly Donuts, deal returns and strategic fit and synergies with Great Burgers.",
+  "tree": {
+   "label": "Heavenly Donuts acquisition",
+   "children": [
+    {
+     "label": "Market and target",
+     "children": [
+      {
+       "label": "Demand, growth, competition and substitutes"
+      },
+      {
+       "label": "Target revenue, profit, footprint and franchise model"
+      }
+     ]
+    },
+    {
+     "label": "Deal economics",
+     "children": [
+      {
+       "label": "Purchase price, financing and standalone value"
+      },
+      {
+       "label": "Synergy value, integration cost, NPV and return"
+      }
+     ]
+    },
+    {
+     "label": "Fit and execution",
+     "children": [
+      {
+       "label": "Geography, customers, operations and cross-selling"
+      },
+      {
+       "label": "Management, culture, franchisees and integration risk"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether Heavenly Donuts is a good acquisition?",
+   "expected_answer": "Assess donut-market growth and competition, Heavenly Donuts' financial and operating health, purchase price and returns, revenue and cost synergies, franchise-model and geographic fit, management and culture, and integration risks.",
+   "good_answer_signals": [
+    "Includes valuation and integration cost",
+    "Separates standalone attractiveness from synergies"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Exhibit 1 tell you, and where are the synergies?",
+   "expected_answer": "Heavenly Donuts is concentrated in North America, with only 20 European stores and none in Asia or other regions, while Great Burgers has a much broader network. Great Burgers can accelerate geographic expansion, localize market entry, cross-sell or colocate, consolidate procurement, property/equipment and SG&A, and transfer stronger franchise and store operations. Risks include different franchise models and Heavenly Donuts' below-industry sales per store.",
+   "good_answer_signals": [
+    "Finds both revenue and cost synergies",
+    "Notes target underperformance and geographic whitespace"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "If Heavenly Donuts must double market share in five years and market size and store count stay constant, what revenue per store is required?",
+   "expected_answer": "Revenue must double from $700M to $1.4B. Across 1,020 stores, required revenue per store is $1.3725M versus $686K today. Doubling over five years requires a 14.87% revenue CAGR.",
+   "good_answer_signals": [
+    "Gets $1.37M per store",
+    "Calculates about 15% CAGR and challenges assumptions"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could the combined company produce that growth?",
+   "expected_answer": "Expand into Great Burgers' European and Asian footprint, colocate or cross-sell breakfast and snack occasions, improve franchisee selection and operations, add products and healthier options, use loyalty and pricing, and improve marketing while protecting brand differentiation.",
+   "good_answer_signals": [
+    "Structures same-store and footprint growth",
+    "Uses Great Burgers' actual capabilities"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Great Burgers acquire Heavenly Donuts?",
+   "expected_answer": "Proceed to valuation and diligence because the strategic fit and synergies are promising: broad geographic whitespace, complementary occasions, operating transfer and procurement/property/SG&A savings. But approve the deal only if purchase price plus integration costs are below standalone and synergy value and if roughly 15% annual growth is credible after testing demand, franchisees and culture.",
+   "good_answer_signals": [
+    "Makes a conditional recommendation",
+    "Connects growth and synergies to valuation and risk"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Great Burgers and Heavenly Donuts Comparison",
+   "page": 209,
+   "kind": "table",
+   "description": "Store footprint, growth, sales, parent revenue, cost ratios and sales-per-store performance for both companies.",
+   "image_path": "exhibits/booth-2024-linda-s-great-burgers/p209.webp",
+   "image_has_answers": false,
+   "key_insight": "Great Burgers offers geographic and operating capabilities that can address Heavenly Donuts' narrow footprint and below-industry sales per store.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Metric",
+     "Great Burgers",
+     "Heavenly Donuts"
+    ],
+    "rows": [
+     [
+      "Total stores",
+      5000,
+      1020
+     ],
+     [
+      "North America stores",
+      3500,
+      1000
+     ],
+     [
+      "Europe stores",
+      1000,
+      20
+     ],
+     [
+      "Asia stores",
+      400,
+      0
+     ],
+     [
+      "Other stores",
+      100,
+      0
+     ],
+     [
+      "Growth in stores",
+      "10%",
+      "15%"
+     ],
+     [
+      "Total sales ($M)",
+      5500,
+      700
+     ],
+     [
+      "Parent revenue ($M)",
+      1900,
+      200
+     ],
+     [
+      "COGS",
+      "51%",
+      "40%"
+     ],
+     [
+      "Restaurant operating costs",
+      "24%",
+      "26%"
+     ],
+     [
+      "Property and equipment",
+      "4.6%",
+      "8.5%"
+     ],
+     [
+      "Corporate SG&A",
+      "6.3%",
+      "4.9%"
+     ],
+     [
+      "Sales/store ($M)",
+      1.1,
+      0.7
+     ],
+     [
+      "Industry average sales/store ($M)",
+      0.9,
+      0.8
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What per-store revenue and CAGR would double Heavenly Donuts' market share in five years?",
+   "givens": [
+    "Current revenue $700M",
+    "1,020 stores",
+    "Constant total market and store count",
+    "Five years"
+   ],
+   "steps": [
+    "Target revenue=2×$700M=$1.4B",
+    "Target revenue/store=$1.4B/1,020=$1.37255M",
+    "Current exact revenue/store=$700M/1,020=$0.68627M",
+    "CAGR=2^(1/5)-1=14.87%"
+   ],
+   "answer": "$1.37M revenue per store and approximately 14.9% annual growth",
+   "answer_value": 1.37255,
+   "unit": "USD millions/store",
+   "verified": true
+  }
+ ],
+ "synthesis": "Advance Heavenly Donuts to valuation and diligence, but do not approve without a price. Great Burgers can unlock international expansion, colocations, operational improvement and procurement/property/SG&A synergies. Doubling share with fixed market size and stores requires $1.37M per store and 14.9% annual growth. Buy only if that plan is credible and total price plus integration cost is below standalone and synergy value.",
+ "what_great_looks_like": [
+  "Finds geographic, revenue and cost synergies",
+  "Tests the 15% growth requirement",
+  "Keeps the acquisition decision conditional on valuation"
+ ],
+ "common_pitfalls": [
+  "Recommends acquisition without purchase price",
+  "Treats every cost-ratio difference as an automatic synergy",
+  "Assumes market size and store count will stay fixed without challenge"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "format"
+  ],
+  "math_verified": true,
+  "notes": "The exhibit is candidate-facing and contains inputs only. The source conflicts on format: the title page says candidate-driven and the detailed page says interviewer-led; the latter is used. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

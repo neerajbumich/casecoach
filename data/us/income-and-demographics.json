@@ -1,0 +1,199 @@
+{
+  "id": "income-and-demographics",
+  "section": "consumer",
+  "order": 3,
+  "title": "Income & Demographics",
+  "summary": "Who the US consumer actually is: how income is distributed, why spending is 'K-shaped', how credit fuels consumption, and how ethnicity, immigration and household make-up shape demand. Gives you the segmentation instincts interviewers expect in any consumer case.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The median household",
+      "body": "US median household income was ~$87K in 2025 (Census), a record high in real terms; after taxes and credits it was ~$76K. The mean is much higher because the top is long-tailed, so always size markets off the median or off tiers, not the average. Spending per household runs ~$78K a year (BLS, 2024), and housing plus transportation take about half of it."
+    },
+    {
+      "type": "table",
+      "title": "Working income tiers for case segmentation",
+      "columns": [
+        "Tier",
+        "Rough household income",
+        "What it means for spending"
+      ],
+      "rows": [
+        [
+          "Lower income",
+          "Below ~$50K",
+          "Budget dominated by rent, food, car; very price- and promotion-sensitive; heavier use of SNAP, dollar stores, BNPL"
+        ],
+        [
+          "Middle income",
+          "~$58K-$175K (Pew-style: 2/3x to 2x the 2025 median)",
+          "Mass-market core; trades down selectively, protects a few treats"
+        ],
+        [
+          "Upper-middle / affluent",
+          "Top ~10-20%",
+          "Drives travel, premium, services; spending tracks stock and home values"
+        ],
+        [
+          "Top 10%",
+          "Very top of distribution",
+          "~Half of all consumer spending by mid-2025 (Moody's estimate)"
+        ]
+      ],
+      "note": "Tier cut-offs are rules of thumb for structuring, not official definitions. Pew also adjusts for household size."
+    },
+    {
+      "type": "text",
+      "title": "The K-shaped consumer",
+      "body": "Since 2023 the recovery has split: higher-income households, buoyed by asset gains, keep spending on travel and premium goods, while lower-income households face high rents, food prices and borrowing costs and cut back. Census shows the 90th-percentile household gaining while the 10th percentile was flat in 2025. Moody's estimated the top 10% of earners drove nearly half of spending in Q2 2025, the highest share in its data back to 1989."
+    },
+    {
+      "type": "list",
+      "title": "Credit and debt: how Americans pay",
+      "items": [
+        "~82% of adults held a credit card in 2025 (Fed SHED); about 45% of cardholders carried a balance at some point that year.",
+        "Credit card balances were ~$1.26T in Q2 2026; total household debt ~$18.8T, of which mortgages ~$13.1T (NY Fed).",
+        "Card interest rates are typically 20%+, so revolving balances are expensive; rewards cards subsidize affluent 'transactors'.",
+        "~16% of adults used buy now, pay later in 2025, more among lower-income and younger shoppers (Fed SHED).",
+        "~63% could cover a $400 surprise expense with cash or equivalent in 2025 (Fed SHED)."
+      ]
+    },
+    {
+      "type": "table",
+      "title": "How lower vs higher income households spend",
+      "columns": [
+        "Item",
+        "Lowest income fifth",
+        "Highest income fifth"
+      ],
+      "rows": [
+        [
+          "Food as % of pre-tax income (2024)",
+          "~33%",
+          "~6%"
+        ],
+        [
+          "Food spend per year (2024)",
+          "~$5.5K",
+          "~$17K"
+        ],
+        [
+          "Housing",
+          "Largest, most rigid share of the budget",
+          "Large in dollars, smaller share"
+        ],
+        [
+          "Discretionary (travel, dining, entertainment)",
+          "Thin; first to be cut",
+          "Large; tied to wealth effects"
+        ],
+        [
+          "Typical channels",
+          "Dollar stores, Walmart, Aldi, discount grocers",
+          "Costco, Whole Foods, Target, DTC, premium"
+        ]
+      ],
+      "note": "Food figures: USDA ERS from BLS Consumer Expenditure Survey, 2024."
+    },
+    {
+      "type": "list",
+      "title": "Ethnicity, race and immigration as market segments",
+      "items": [
+        "Hispanic Americans: ~70M people, ~21% of the population (July 2025), younger than average (median age ~31); the largest minority group.",
+        "Immigrants: ~52M, ~15% of the population (mid-2025, Pew); the first decline since the 1960s came in 2025 as inflows fell.",
+        "Top origins: Mexico (~22% of immigrants), then India (~3.2M) and China (2023, Pew); about half from Latin America, ~27% from Asia.",
+        "Segments differ in household size, language, media and channel use; treat each as many sub-segments, not one block.",
+        "Multicultural shoppers often lead growth in categories like international foods, beauty and remittance/fintech."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Household composition",
+      "items": [
+        "One-person households: ~29% of households (~40M) in 2025, up from 20% in 1975 (Census).",
+        "Married couples are now under half of households (~47%); only ~37% of those have kids under 18.",
+        "Median age at first marriage: ~31 for men, ~28 for women (2025).",
+        "~58% of 18-24 year-olds live with parents (including college dorms); ~16% of 25-34 year-olds do.",
+        "~18% of Americans lived in multigenerational households in 2021 (Pew), higher among Asian, Black and Hispanic Americans."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Don't size off the average",
+      "body": "Mean income and mean spend are pulled up by the top. For a mass-market product, segment by income tier or use the median. And don't assume a single 'Hispanic' or 'Asian' consumer: origin, generation in the US, language and income vary widely within each group."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Name the K early",
+      "body": "In any consumer-demand case, ask 'which income segment is this brand exposed to?' A premium travel brand and a dollar-store chain can read the same macro data in opposite ways. Interviewers reward candidates who split demand by income before projecting a single growth rate."
+    }
+  ],
+  "in_a_case": [
+    "Declining same-store sales at a mid-tier grocer: check whether core shoppers are lower-income households trading down to Aldi/Walmart rather than blaming store operations.",
+    "Market sizing for a premium product: start from ~130M US households (Census: ~129M in 2024), then filter to the top income tiers instead of applying one average spend.",
+    "A bank or fintech case: remember most adults hold credit cards and many revolve balances; BNPL and card rewards are segment-specific economics.",
+    "Growth strategy for a food brand: Hispanic and Asian American households are fast-growing segments with distinct channel and product preferences.",
+    "Product for single-person households: smaller pack sizes, delivery and convenience formats fit the rising share of people living alone."
+  ],
+  "flashcards": [
+    {
+      "front": "US median household income, 2025",
+      "back": "~$87K (Census); ~$76K after taxes and credits. Record high in real terms."
+    },
+    {
+      "front": "What is the 'K-shaped' consumer?",
+      "back": "Higher-income households keep spending (asset gains) while lower-income households cut back under high prices and borrowing costs."
+    },
+    {
+      "front": "Share of consumer spending by the top 10% of earners (2025)",
+      "back": "~Half (Moody's, Q2 2025), highest in its data since 1989."
+    },
+    {
+      "front": "US credit card balances (Q2 2026)",
+      "back": "~$1.26T; total household debt ~$18.8T (NY Fed)."
+    },
+    {
+      "front": "Share of adults with a credit card / carrying a balance (2025)",
+      "back": "~82% hold one; ~45% of cardholders carried a balance at some point (Fed SHED)."
+    },
+    {
+      "front": "Food as share of pre-tax income: lowest vs highest income fifth (2024)",
+      "back": "~33% vs ~6% (USDA ERS)."
+    },
+    {
+      "front": "Hispanic share of US population (2025)",
+      "back": "~21%, ~70M people; median age ~31."
+    },
+    {
+      "front": "Immigrant share of US population (mid-2025)",
+      "back": "~15% (~52M, Pew); India is the #2 country of origin after Mexico."
+    },
+    {
+      "front": "One-person households share (2025)",
+      "back": "~29% of US households (~40M)."
+    },
+    {
+      "front": "Housing + transportation share of household spending (2024)",
+      "back": "~50% (BLS): housing ~33%, transport ~17%."
+    }
+  ],
+  "sources": [
+    "https://www.census.gov/library/stories/2026/09/median-household-income.html",
+    "https://www.census.gov/library/publications/2026/demo/p60-289.html",
+    "https://www.census.gov/library/stories/2025/09/median-household-income.html",
+    "https://www.marketplace.org/story/2025/09/17/top-10-of-earners-make-up-half-of-us-retail-spending",
+    "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+    "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+    "https://fedcommunities.org/economic-well-being-of-us-households-in-2025/",
+    "https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm",
+    "https://www.bls.gov/opub/ted/2026/housing-and-transportation-accounted-for-50-percent-of-household-spending-in-2024.htm",
+    "https://ers.usda.gov/data-products/chart-gallery/chart-detail?chartId=58372",
+    "https://www.census.gov/newsroom/facts-for-features/2026/hispanic-heritage-month.html",
+    "https://www.pewresearch.org/short-reads/2025/08/21/key-findings-about-us-immigrants/",
+    "https://www.census.gov/newsroom/press-releases/2025/families-and-living-arrangements.html",
+    "https://www.pewresearch.org/social-trends/2022/03/24/the-demographics-of-multigenerational-households/"
+  ],
+  "checked": "2026-10"
+}

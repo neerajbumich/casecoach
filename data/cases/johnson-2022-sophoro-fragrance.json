@@ -1,0 +1,432 @@
+{
+ "id": "johnson-2022-sophoro-fragrance",
+ "title": "Sophoro Fragrance",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  93,
+  100
+ ],
+ "case_type": [
+  "Market Entry",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "beauty",
+ "sub_industry": "cosmetics",
+ "industry_source_label": "Retail / Consumer; contents page: Manufacturing",
+ "client_type": "for-profit",
+ "geography": "United States, United Kingdom and Australia",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Medium; Quant: Medium; Analysis: Medium",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-entry",
+  "compound-growth",
+  "market-share",
+  "channel-strategy",
+  "private-label",
+  "international-expansion",
+  "build-versus-buy"
+ ],
+ "prompt": "It is March 2022. Sophoro is a US-based retailer of personal care and cosmetics products. It has hundreds of chain stores across the United States and carries hundreds of brands, along with its own private label. Sophoro's in-house line offers affordable beauty products, including Sophoro Makeup, Skincare, Hair & Beauty. Sophoro engaged your firm last week to assess the opportunity to enter the fragrances and perfumes market. The CEO asks what factors Sophoro should consider in assessing this market-entry opportunity.",
+ "clarifying_info": [
+  {
+   "question_topic": "Revenue objective",
+   "answer": "Achieve $7 million revenue by 2024."
+  },
+  {
+   "question_topic": "Markets",
+   "answer": "Evaluate opportunities in the US, UK and Australia."
+  },
+  {
+   "question_topic": "Entry mode",
+   "answer": "Sophoro is open to building an in-house fragrance/perfume line or pursuing M&A."
+  },
+  {
+   "question_topic": "Industry outlook",
+   "answer": "The case describes the global fragrance and perfume industry as optimistic with steady growth."
+  }
+ ],
+ "interviewer_notes": "Test market-entry opportunity identification, sizing, synthesis, brainstorming and quantitative analysis. A strong framework goes beyond market conditions and is used to drive the case. After sizing the 2024 revenue opportunities, compare qualitative entry tradeoffs and then discuss UK channels using the CEO's stated interest. Any final country choice is acceptable with a supported rationale, but the US forecast misses the stated target. Exhibit 1's US shares total 105%, so retain Sophoro's explicitly given 20% for sizing and flag the inconsistent competitor chart rather than normalizing it. Australian competitor slices lack labels; do not invent exact shares. The source recommendation asks for risk-linked mitigation without specifying it; example mitigations are identified as inferred.",
+ "suggested_framework": {
+  "summary": "Compare geographic opportunity, revenue potential, entry capabilities and execution risks before selecting a market and channel approach.",
+  "tree": {
+   "label": "Fragrance market entry",
+   "children": [
+    {
+     "label": "Industry and competition",
+     "children": [
+      {
+       "label": "Regional size, growth and barriers"
+      },
+      {
+       "label": "Competitor models, products, positioning and concentration"
+      },
+      {
+       "label": "Customer demographics, local/imported or organic preferences, willingness to pay and loyalty"
+      }
+     ]
+    },
+    {
+     "label": "Financial analysis: $7 million revenue target",
+     "children": [
+      {
+       "label": "Value-, cost- and competition-based pricing"
+      },
+      {
+       "label": "Online and offline channels, advertising, social media and influencers"
+      },
+      {
+       "label": "Fragrance, perfume and body-care mix; differentiation and brand positioning"
+      }
+     ]
+    },
+    {
+     "label": "Company strategies",
+     "children": [
+      {
+       "label": "In-house R&D timeline, scent expertise, equipment, production and financial resources"
+      },
+      {
+       "label": "Existing versus new sales and marketing teams"
+      },
+      {
+       "label": "Acquisitions, partnerships and joint ventures"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Cost control and profitability despite revenue-led goal"
+      },
+      {
+       "label": "Local cosmetics requirements and IFRA guidelines"
+      },
+      {
+       "label": "Foreign exchange exposure"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess this fragrance market-entry opportunity?",
+   "release_when": "Read the prompt, then provide clarifications when requested.",
+   "info_to_release": "The case is set in March 2022. Sophoro seeks $7 million revenue by 2024, considering the US, UK and Australia. It is open to in-house development or M&A. The industry outlook is steady growth.",
+   "exhibit_ids": [],
+   "expected_answer": "Evaluate market size and growth, competitors and customers, then pricing, channel volumes and product mix against the revenue target. Assess R&D, production and commercial capabilities and the build-versus-buy choice, while considering costs, foreign regulation and FX. Move to the 2024 opportunity rather than relying only on current market size.",
+   "good_answer_signals": [
+    "Goes beyond a generic market-attractiveness framework.",
+    "Uses the target year and company capabilities to guide analysis."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Estimate Sophoro's 2024 revenue opportunity in each market.",
+   "release_when": "After the framework, provide Exhibit 1 input data. The image is withheld because its US pie shares total 105%; preserve the original numeric assumptions in the input table.",
+   "info_to_release": "2022 market size / annual CAGR / Sophoro 2024 share: US $30 million / 2% / 20%; UK $20 million / 7% / 33%; Australia $42 million / 5% / 16%. US competitor labels are Fom Tord 30%, Mark Jacquelyn 25%, DKNZ 15%, Other 15%, alongside Sophoro 20%; the source's labels sum inconsistently, so do not infer a replacement share. UK labels are Cread 35%, Joe Melon 25%, Other 7%, and Sophoro 33%. Australian non-Sophoro slices are unlabeled.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Compound two years. US market is $30 million × 1.02² = $31.212 million; Sophoro gets $6.2424 million, below target. UK market is $20 million × 1.07² = $22.898 million; Sophoro gets $7.55634 million. Australia market is $42 million × 1.05² = $46.305 million; Sophoro gets $7.4088 million. UK offers the highest modeled Sophoro revenue, narrowly ahead of Australia; both exceed $7 million. Australia's total market is largest, so distinguish total market size from company revenue.",
+   "good_answer_signals": [
+    "Compounds growth for two years and then applies the target share.",
+    "Compares company revenue with the $7 million goal.",
+    "Does not silently normalize the flawed US competitor pie."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are the entry pros and cons of each market?",
+   "release_when": "After the revenue calculations.",
+   "info_to_release": "The source describes UK enterprise zones as investment incentives, the UK as consolidated with established local brands, and Australia as fragmented. Treat these as case context.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "US: existing experience supports feasibility, but modeled revenue misses the goal and 2% growth is lowest. UK: meets the target, grows fastest at 7% and has the source's enterprise-zone incentives, but regulations, IFRA conformity, FX and loyalty to established brands can impede entry and the assumed 33% share. Australia: meets the target and fragmentation offers acquisition opportunities, but foreign regulation and FX remain risks, and fragmentation may attract further entrants. Share forecasts need validation before committing.",
+   "good_answer_signals": [
+    "Balances company familiarity against target achievement.",
+    "Connects concentration with competitive barriers and fragmentation with M&A opportunities."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Sophoro views the UK as a good opportunity. What channel strategy should it pursue, and what are each channel's advantages and disadvantages?",
+   "release_when": "After country tradeoffs; introduce the CEO's UK focus as the next discussion, not a mandatory final answer.",
+   "info_to_release": "Compare online retail partners, Sophoro's own online store, grassroots partners and big-box retailers. The source gives Walmart and Target as examples of the big-box channel category, not verified UK partners.",
+   "exhibit_ids": [],
+   "expected_answer": "Online retail partners offer scale, traffic, trust and outsourced operations; shoppers gain convenience, time savings and reviews, but Sophoro pays platform fees and loses direct customer contact, and shoppers cannot sample scents. Its own online store supports branding, behavioral data and community, plus brand-specific shopping and reviews, but requires development, maintenance and customer-service training and still lacks tactile experience. Grassroots partners offer reach and lower operating burden plus in-person sampling, but intermediaries reduce margins and direct contact, with fewer reviews. Big-box partners offer scale, operational savings, affordable prices and sampling, but very low margins and a potential low-end image, also with limited reviews. Select a justified mix based on margin, brand, customer access and sampling needs; no single mix is prescribed.",
+   "good_answer_signals": [
+    "Discusses both company and customer consequences.",
+    "Recognizes fragrance sampling as a limitation of online-only channels.",
+    "Balances reach with margin and brand control."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What market would you recommend, what risks matter and what should Sophoro do next?",
+   "release_when": "After channel discussion.",
+   "info_to_release": "Any country choice can be accepted if properly supported. The next strategic decision is in-house development versus M&A.",
+   "exhibit_ids": [],
+   "expected_answer": "A UK recommendation is supported by modeled 2024 revenue of about $7.56 million and 7% growth, but needs validation of share capture against entrenched brands and foreign-market execution. Australia is a defensible alternative at about $7.41 million with fragmented acquisition opportunities. A US choice must explicitly address its roughly $6.24 million forecast missing the target. Pair cost or foreign-market risks with a relevant mitigation, such as a costed entry plan and local compliance review, then decide whether to build a line or acquire capability. Do not equate meeting a revenue target with proven profitability.",
+   "good_answer_signals": [
+    "Makes a supported choice while acknowledging alternatives and forecast dependence.",
+    "Links mitigation to the selected risk and advances the build-versus-buy decision."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Sophoro's Estimated Market Share in 2024",
+   "page": 96,
+   "kind": "pie",
+   "description": "Three market-share pies plus 2022 market sizes and CAGR inputs. The US printed shares sum to an erroneous 105%; its image is withheld for this invalid total, not for ordinary candidate-facing percentages. Original individual inputs remain transcribed. Unlabeled Australian competitor slices are not estimated.",
+   "data": {
+    "columns": [
+     "Market",
+     "Metric",
+     "Value",
+     "Unit"
+    ],
+    "rows": [
+     [
+      "US",
+      "2022 market size",
+      30,
+      "USD millions"
+     ],
+     [
+      "US",
+      "CAGR",
+      2,
+      "%"
+     ],
+     [
+      "US",
+      "Sophoro 2024 share",
+      20,
+      "%"
+     ],
+     [
+      "US",
+      "Fom Tord share",
+      30,
+      "%"
+     ],
+     [
+      "US",
+      "Mark Jacquelyn share",
+      25,
+      "%"
+     ],
+     [
+      "US",
+      "DKNZ share",
+      15,
+      "%"
+     ],
+     [
+      "US",
+      "Other share",
+      15,
+      "%"
+     ],
+     [
+      "UK",
+      "2022 market size",
+      20,
+      "USD millions"
+     ],
+     [
+      "UK",
+      "CAGR",
+      7,
+      "%"
+     ],
+     [
+      "UK",
+      "Sophoro 2024 share",
+      33,
+      "%"
+     ],
+     [
+      "UK",
+      "Cread share",
+      35,
+      "%"
+     ],
+     [
+      "UK",
+      "Joe Melon share",
+      25,
+      "%"
+     ],
+     [
+      "UK",
+      "Other share",
+      7,
+      "%"
+     ],
+     [
+      "Australia",
+      "2022 market size",
+      42,
+      "USD millions"
+     ],
+     [
+      "Australia",
+      "CAGR",
+      5,
+      "%"
+     ],
+     [
+      "Australia",
+      "Sophoro 2024 share",
+      16,
+      "%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/johnson-2022-sophoro-fragrance/p096.webp",
+   "image_has_answers": true,
+   "key_insight": "UK has the highest modeled Sophoro revenue and fastest growth; Australia is more fragmented. The US share labels are internally inconsistent and require correction by the source owner.",
+   "data_confidence": "low"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is Sophoro's 2024 US revenue opportunity?",
+   "givens": [
+    "2022 market $30 million",
+    "CAGR 2%",
+    "Sophoro share 20%",
+    "Two years to 2024"
+   ],
+   "steps": [
+    "2023 market = $30 million × 1.02 = $30.6 million.",
+    "2024 market = $30.6 million × 1.02 = $31.212 million.",
+    "Sophoro revenue = $31.212 million × 20% = $6.2424 million."
+   ],
+   "answer": "$6.2424 million, approximately $6.24 million, below the $7 million target.",
+   "answer_value": 6.2424,
+   "unit": "USD millions in 2024",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is Sophoro's 2024 UK revenue opportunity?",
+   "givens": [
+    "2022 market $20 million",
+    "CAGR 7%",
+    "Sophoro share 33%",
+    "Two years to 2024"
+   ],
+   "steps": [
+    "2023 market = $20 million × 1.07 = $21.4 million.",
+    "2024 market = $21.4 million × 1.07 = $22.898 million.",
+    "Sophoro revenue = $22.898 million × 33% = $7.55634 million."
+   ],
+   "answer": "$7.55634 million, approximately $7.56 million, above target.",
+   "answer_value": 7.55634,
+   "unit": "USD millions in 2024",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is Sophoro's 2024 Australian revenue opportunity?",
+   "givens": [
+    "2022 market $42 million",
+    "CAGR 5%",
+    "Sophoro share 16%",
+    "Two years to 2024"
+   ],
+   "steps": [
+    "2023 market = $42 million × 1.05 = $44.1 million.",
+    "2024 market = $44.1 million × 1.05 = $46.305 million.",
+    "Sophoro revenue = $46.305 million × 16% = $7.4088 million."
+   ],
+   "answer": "$7.4088 million, approximately $7.41 million, above target but below the UK opportunity.",
+   "answer_value": 7.4088,
+   "unit": "USD millions in 2024",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "Are the US competitor shares internally consistent?",
+   "givens": [
+    "Fom Tord 30%, Mark Jacquelyn 25%, DKNZ 15%, Sophoro 20%, Other 15%"
+   ],
+   "steps": [
+    "30% + 25% + 15% + 20% + 15% = 105%.",
+    "A complete market-share distribution should sum to 100%; the source does not identify which slice is wrong.",
+    "Retain the explicit Sophoro 20% input for the case's revenue calculation rather than inventing a normalized value."
+   ],
+   "answer": "No: the printed US shares total 105%, not 100%. The correct individual competitor shares cannot be determined from this source.",
+   "answer_value": 105,
+   "unit": "%, sum of printed US shares",
+   "verified": false,
+   "book_answer_if_different": "Page 96 presents a complete US pie with labels 30%, 25%, 15%, 20% and 15%, implying a full market despite totaling 105%. The book gives no correction."
+  }
+ ],
+ "synthesis": "The UK is a defensible leading choice: modeled Sophoro revenue of $7.55634 million in 2024 exceeds the $7 million goal and is slightly above Australia's $7.4088 million. Australia remains attractive for fragmented-market acquisitions. The US offers familiarity but only $6.2424 million under the supplied share; its competitor pie also sums incorrectly to 105%, so validate that chart without silently changing Sophoro's 20% input. Any recommendation must address costs, share capture, foreign regulations and FX, select channels with attention to sampling and margins, and move next to in-house development versus M&A. The book permits any well-supported market choice rather than prescribing one final answer.",
+ "what_great_looks_like": [
+  "Uses a tailored framework spanning market, finances, capabilities and risk.",
+  "Compounds growth correctly and distinguishes total market size from company revenue.",
+  "Balances quantitative target achievement with competition and geographic feasibility.",
+  "Analyzes channels from both Sophoro's and shoppers' perspectives.",
+  "Flags the inconsistent US pie and avoids invented Australian slice values."
+ ],
+ "common_pitfalls": [
+  "Applying only one year of growth.",
+  "Choosing Australia solely because its total market is largest.",
+  "Claiming the US forecast reaches $7 million.",
+  "Ignoring sampling needs and margin tradeoffs in channel design.",
+  "Normalizing an erroneous pie without authorization or assuming revenue implies profitability."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-05",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data: US shares total 105%; correct slice unknown",
+   "exhibits[0].data: Australian competitor slices unlabeled"
+  ],
+  "math_verified": false,
+  "notes": "Dedup verdict NEW. Pages 93–100 read; rendered pages 94–100 visually inspected. All three revenue calculations match source rounding. Candidate exhibit page 96 is the image source, not solution page 97. US share labels total 105%; individual printed inputs including Sophoro 20% are preserved, the inconsistency is recorded in math, and the image is hidden under the user rule for erroneous totals. No normalization or guessed correction. Australian unlabeled competitor shares are omitted, making exhibit data confidence low; its 16% Sophoro input is clearly legible. Medium overall confidence for the source inconsistency. The source contents label Manufacturing is overridden by the actual cosmetics-retailer business, consistent with its case-page Retail / Consumer label. Foreign regulatory and enterprise-zone references are preserved as 2022 case context, not verified contemporary advice. Big-box examples are source channel illustrations, not asserted UK partners. A specific channel mix and mitigation are not prescribed by the source; sample mitigation is explicitly inferred. Overall Medium normalized in code to 3; quant M describes the three substantive sizing calculations, excluding the chart-consistency audit. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "stages[4] example mitigation",
+   "math[3] exhibit consistency audit",
+   "synthesis leading-choice example",
+   "what_great_looks_like chart audit point",
+   "common_pitfalls"
+  ]
+ }
+}

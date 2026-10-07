@@ -1,0 +1,602 @@
+{
+ "id": "ross-2025-mission-artemis",
+ "title": "Mission Artemis",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  185,
+  198
+ ],
+ "variant_group_id": "ross-2025-mission-artemis",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Capacity/Supply Chain",
+  "Public Sector/Social Impact"
+ ],
+ "case_type_source_label": "Aerospace & Defense | Supply Chain & Operations",
+ "industry": "aerospace-defense",
+ "sub_industry": "space",
+ "industry_source_label": "Aerospace & Defense",
+ "geography": "International (US/NASA, Europe/ESA, Japan/JAXA)",
+ "client_type": "public sector",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 3, Qual - 3, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 45,
+ "tags": [
+  "resource-allocation",
+  "supply-chain-crisis",
+  "multi-stakeholder",
+  "risk-tradeoff",
+  "capacity-constraint",
+  "logistics-optimization",
+  "space-operations"
+ ],
+ "concepts_tested": [
+  "runway/days-remaining calculation under consumption rates",
+  "multi-constraint bin-packing (weight, volume, deadline) across vehicles",
+  "cost-risk tradeoff across launch options",
+  "reconciling competing stakeholder priorities with a stated risk hierarchy"
+ ],
+ "prompt": "In May 2032, the Artemis Orbital Laboratory (AOL) - a joint mission between NASA, ESA, and JAXA - suffered an aborted resupply mission (RS-19) due to a propulsion malfunction. The station currently houses four astronauts and supports seven ongoing scientific experiments. The next available launch windows span from Day 3 to Day 10 [sic; per Exhibit 3, launch vehicles become available on Days 3, 7, and 14], each with differing cargo capacities, failure risks, and agency ownership. Internal reports estimate that the station's critical life-support systems and scientific experiments are under mounting strain. Your team at NovaLogix, a space logistics advisory firm, has been contracted to develop an emergency logistics plan. You are expected to recommend a resupply strategy that balances astronaut safety, operational continuity, and stakeholder priorities across multiple international launch options. (Extra Hint) You will need to weigh trade-offs across cargo prioritization, timing, risk, and multi-agency coordination to avoid escalation into a full-scale mission failure.",
+ "clarifying_info": [
+  {
+   "question_topic": "Available launch vehicles and agency control",
+   "answer": "There are currently three launch vehicles available within the next 10-14 days. Each vehicle has unique capacity, risk, and approval requirements; inter-agency coordination is needed for cross-cargo loading (full details in Exhibit 3)."
+  },
+  {
+   "question_topic": "Astronaut daily resource requirements",
+   "answer": "Each astronaut consumes 1.4 kg of oxygen, 3.0 kg of water, and 2.0 kg of food per day (remaining inventory detailed in Exhibit 1)."
+  },
+  {
+   "question_topic": "Scientific experiments and threat level",
+   "answer": "There are seven active experiments on board. Two are time-sensitive and could suffer irreversible data loss or hardware failure if not addressed within 12-14 days; the others can tolerate longer delays but may face performance degradation."
+  },
+  {
+   "question_topic": "Communication protocols and public disclosure",
+   "answer": "NASA has released a limited public statement acknowledging the launch delay but has not disclosed specific risk levels. A broader media response will be required if resupply does not occur by Day 8. Internal comms must be carefully aligned with ESA and JAXA press offices."
+  },
+  {
+   "question_topic": "Payload and docking constraints",
+   "answer": "All three vehicles are compatible with the station's docking system but have different weight/volume capacity constraints. Payloads must be pre-approved, and mixed-agency cargo must be prioritized and coordinated in advance."
+  }
+ ],
+ "interviewer_notes": "This is a multi-part, exhibit-heavy logistics and stakeholder-management case. Candidates should work through resource runway analysis, payload prioritization, launch-vehicle feasibility matching, cargo allocation under weight/volume constraints, cost/risk tradeoffs across launch combinations, and finally reconcile competing stakeholder priorities using the stated principle that operational risk outweighs reputational risk.",
+ "suggested_framework": {
+  "summary": "Assess internal resource/operational status, plan logistics and launch allocation, then align with stakeholder priorities and constraints.",
+  "tree": {
+   "label": "Mission Artemis Emergency Resupply Plan",
+   "children": [
+    {
+     "label": "Internal Assessment",
+     "children": [
+      {
+       "label": "Resource inventory and consumption rates"
+      },
+      {
+       "label": "Operational constraints (station capacity, system reliability)"
+      },
+      {
+       "label": "Key dependencies and bottlenecks"
+      }
+     ]
+    },
+    {
+     "label": "Logistics & Launch Planning",
+     "children": [
+      {
+       "label": "Supply/delivery capabilities and timing"
+      },
+      {
+       "label": "Cost, risk, and capacity trade-offs"
+      },
+      {
+       "label": "Feasibility of alternatives (backups, reallocations)"
+      },
+      {
+       "label": "Launch windows, vehicle capacities, failure risks"
+      },
+      {
+       "label": "Cargo weight/volume constraints and docking compatibility"
+      },
+      {
+       "label": "Allocation strategy under time, risk, and agency constraints"
+      }
+     ]
+    },
+    {
+     "label": "Stakeholder & Priority Alignment",
+     "children": [
+      {
+       "label": "Primary and secondary objectives"
+      },
+      {
+       "label": "Political, financial, and reputational risks"
+      },
+      {
+       "label": "Communication and coordination requirements"
+      },
+      {
+       "label": "Inter-agency goals (NASA, ESA, JAXA, private sponsors)"
+      },
+      {
+       "label": "Contractual and diplomatic obligations"
+      },
+      {
+       "label": "Scenario planning for trade-offs (life support vs. research)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you approach developing an emergency resupply strategy for the Artemis Orbital Laboratory?",
+   "expected_answer": "Candidate proposes a framework covering internal assessment (resource inventory, operational constraints, dependencies), logistics & launch planning (delivery timing, cost/risk/capacity trade-offs, vehicle constraints), and stakeholder & priority alignment (agency objectives, political/financial/reputational risk, communication needs).",
+   "good_answer_signals": [
+    "structure separates 'what's the actual emergency' from 'how do we solve it logistically' from 'who needs to be satisfied'",
+    "explicitly flags multi-agency coordination as a distinct consideration up front"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Based on Exhibit 1, how long will each supply last the astronauts? Which are most urgent to consider?",
+   "release_when": "When candidate asks about current inventory/resource status",
+   "info_to_release": "Exhibit 1: Oxygen 48 kg available, 5.6 kg/day consumption (4 astronauts x 1.4 kg); Water 125 kg available, 12.0 kg/day (4 x 3.0 kg); Food 160 kg available, 8.0 kg/day (4 x 2.0 kg); Waste Containment 50 kg available, 2.0 kg/day; Battery Reserve 196 kg available, 12.0 kg/day; Data Storage Buffer 90 kg available, 4.0 kg/day. Formula if needed: Days Remaining = Inventory Available / Daily Consumption.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Oxygen (8.6 days) and Water (10.4 days) are the most urgent life-support constraints. Battery Reserve (16.3 days) is no longer an immediate risk. Food (20.0 days) is stable short-term. Waste (25.0 days) and Data Storage (22.5 days) are low priority. Launch sequencing must address oxygen and water within about 10 days to avoid mission failure.",
+   "good_answer_signals": [
+    "correctly computes days remaining = inventory / daily consumption for each resource",
+    "ranks resources by urgency (oxygen and water first) rather than treating all six equally"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Calculate the days-remaining for each of the six systems in Exhibit 1.",
+   "expected_answer": "Oxygen: 48/5.6 = 8.6 days. Water: 125/12.0 = 10.4 days. Food: 160/8.0 = 20.0 days. Waste Containment: 50/2.0 = 25.0 days. Battery Reserve: 196/12.0 = 16.3 days. Data Storage Buffer: 90/4.0 = 22.5 days.",
+   "good_answer_signals": [
+    "arrives at all six figures correctly",
+    "immediately flags oxygen and water as the binding constraints given the available launch windows"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Here is the payload overview (Exhibit 2) and the launch vehicle capacity/cost/risk profile (Exhibit 3). Which payloads can be delivered by which vehicle given timing constraints?",
+   "release_when": "After urgency of resources is established",
+   "info_to_release": "Exhibit 2 (payloads): Oxygen+Water Resupply (240kg/3.5m3, min delivery Day 8, required for crew survival); Battery Replacement Packs (120kg/2.0m3, Day 16, not urgent); Biomedical Experiment Kit (80kg/1.0m3, Day 10, NASA-funded, data loss if delayed); Food Buffer-15 Days (150kg/2.5m3, Day 18, optional comfort); Private Research Payload (100kg/1.5m3, Day 20, refund/PR penalty if delayed); CO2 Scrubber Repair Module (50kg/0.5m3, Day 14, needed to restore recycling). Payloads must be pre-approved for agency-specific vehicles; mixed-agency cargo needs 48 hours' diplomatic coordination. Exhibit 3 (vehicles): Falcon-X (NASA, available Day 3, 500kg/8.0m3, 2% failure risk, $28M); Vega+ (ESA, Day 7, 300kg/5.0m3, 5% failure risk, $18M); Kibo-L (JAXA, Day 14, 600kg/6.0m3, 6% failure risk, $22M).",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "Matching feasibility to timing: Oxygen+Water (D8 deadline) - Falcon-X (D3) Yes, Vega+ (D7) Yes, Kibo-L (D14) No, too late. Biomedical Kit (D10) - Falcon-X Yes, Vega+ Yes, Kibo-L No, too late. CO2 Scrubber (D14) - Falcon-X Yes, Vega+ Yes, Kibo-L at exactly D14, treated as risky/too late given no margin. Battery Packs (D16), Food Supply (D18), and Commercial Payload (D20) can all be delivered by any of the three vehicles.",
+   "good_answer_signals": [
+    "correctly rules out Kibo-L for the three most time-sensitive payloads (Oxygen+Water, Biomedical Kit, and treats CO2 Scrubber as too tight)",
+    "recognizes the last three payloads have enough slack to go on any vehicle"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Optimize cargo allocation on Falcon-X by weight and volume, then decide how to handle the remaining payloads.",
+   "info_to_release": "Falcon-X capacity: 500kg / 8.0 m3.",
+   "expected_answer": "Suggested Falcon-X loadout: Oxygen+Water (240kg/3.5m3) + Biomedical Kit (80kg/1.0m3) + CO2 Scrubber (50kg/0.5m3) = 370kg/5.0m3 subtotal, leaving 130kg/3.0m3 remaining capacity. Falcon-X could optionally also carry the Battery Reserve (120kg/2.0m3, total 490kg/7.0m3) or the Commercial Payload (100kg/1.5m3) as a 4th item, but not both - a decision point between a medium-priority (Battery) and a low-priority, long-deadline item (Commercial). Remaining items (Food, and whichever of Battery/Commercial wasn't chosen) go on Vega+ (Day 7, 300kg/5.0m3 capacity - Food+Commercial = 250kg/4.0m3 fits) or, as a backup if Vega+ fails/is unavailable, Kibo-L (Day 14) can still deliver both safely with extra buffer.",
+   "good_answer_signals": [
+    "prioritizes the three life-critical/time-sensitive payloads first on Falcon-X",
+    "correctly computes remaining capacity (130kg/3.0m3) after the priority loadout",
+    "recognizes only one of Battery or Commercial can be added to Falcon-X, and proposes Vega+ (with Kibo-L as a fallback) for the rest"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "What are the cost scenarios for different combinations of launch vehicles, and how does failure risk factor into the recommendation?",
+   "info_to_release": "Vehicle costs: Falcon-X $28M, Vega+ $18M, Kibo-L $22M. Failure risks: Falcon-X 2%, Vega+ 5%, Kibo-L 6%.",
+   "expected_answer": "Falcon-X only (limited): $28M, delivers Oxygen+Water, Biomedical, CO2, Battery. Falcon-X + Vega+: $46M, delivers critical payloads plus Food and Commercial. Falcon-X + Kibo-L (buffered launch): $50M, delivers critical payloads plus deferred payloads. Falcon-X + Vega+ + Kibo-L (risk-spread plan): $68M, spreads payloads across all 3 launches for safety. Risk evaluation: place the highest-priority payload (Oxygen+Water) on Falcon-X, the lowest-risk vehicle (2% failure); use Vega+/Kibo-L (5-6% failure) for lower-priority or backup items; consider splitting non-critical payloads (food/commercial) across launches to de-risk.",
+   "good_answer_signals": [
+    "sums vehicle costs correctly for each combination ($28M/$46M/$50M/$68M)",
+    "explicitly ties the lowest-risk vehicle to the highest-priority cargo rather than optimizing on cost alone"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "exhibit",
+   "interviewer_asks": "Here are the stakeholder objectives and constraints (Exhibit 3/4). How do you reconcile the different agencies' priorities?",
+   "release_when": "After the logistics/cost analysis, to bring in the stakeholder dimension",
+   "info_to_release": "NASA (government): astronaut safety + U.S.-funded research; critical payloads Oxygen+Water, Biomedical Kit; low flexibility (<=12 days); risk if delayed: political fallout, biomedical data loss. ESA (government): European research continuity; critical payloads CO2 Scrubber, shared Food Cargo; medium flexibility (<=14 days); risk: contractual obligation + reputational risk. JAXA (government): long-term station operations & payload use; critical payloads Battery Reserve, Joint Maintenance; medium flexibility (<=16 days); risk: tech system inefficiency, funding pushback. Commercial Lab (private): deliver proprietary experiment module; critical payload Commercial Payload; high flexibility (<=20 days); risk: refunds, reputational loss, PR escalation. Astronaut Crew (internal user): survival + mission stability; critical payloads Oxygen+Water, Food, CO2 Scrubber; no flexibility (hard deadlines); risk: health failure, mission failure.",
+   "exhibit_ids": [
+    "ex4"
+   ],
+   "expected_answer": "NASA and the Astronaut Crew are aligned on life-support-critical payloads (Oxygen, Biomedical Kit) with non-negotiable deadlines, which must go on the earliest, most reliable launch (Falcon-X). ESA's CO2 Scrubber request is important but has a medium window, making it a strong candidate for a second launch once early launches are maxed out. JAXA's Battery Packs are not time-sensitive and can be postponed or bundled with other medium-priority cargo. The Commercial Lab has the most flexible deadline and lowest mission impact, but the highest external visibility if delayed - a PR risk, not a survival or technical one. When allocating resources, operational risk should outweigh reputational risk, especially under tight weight/volume constraints.",
+   "good_answer_signals": [
+    "identifies NASA and the Astronaut Crew's shared interest as the anchor for the Falcon-X loadout",
+    "correctly ranks the Commercial Lab's concern as a PR/reputational risk, not an operational one, and deprioritizes it accordingly"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to NovaLogix's client?",
+   "expected_answer": "Launch Falcon-X in 3 days with a priority load of the Oxygen+Water Module, the Biomedical Kit, and the CO2 Scrubber Module - fully utilizing its capacity and ensuring on-time delivery of mission-critical systems with minimal failure risk (2%). Sequence the remaining payloads - Battery Reserve Packs, Food Supply Extension, and the Commercial Payload - across Vega+ (Day 7) and, if needed, Kibo-L (Day 14), based on final volume and cost efficiency. This staggered approach balances capacity, timeline flexibility, and inter-agency obligations. Key risks: single point of failure on Falcon-X (a backup plan using Vega+ for partial life-support resupply should be pre-approved); diplomatic friction if ESA or JAXA feel deprioritized (requires proactive communication on mission-first principles); commercial sponsor backlash (requires clear justification, a future recovery plan, or partial data retention). Next steps: confirm Falcon-X's cargo manifest and safety checks within 24 hours; engage ESA and JAXA on a staggered resupply strategy with visibility into Vega+/Kibo-L plans; issue formal communication to the commercial sponsor including risk disclosure and a backup commitment via Kibo-L; prepare a contingency protocol to reallocate payloads in case of launch failure or docking complications.",
+   "good_answer_signals": [
+    "gives a specific, sequenced recommendation (what goes on which launch and when) rather than a vague prioritization",
+    "flags the single-point-of-failure risk on Falcon-X and proposes a concrete mitigation",
+    "addresses diplomatic/stakeholder risk with specific communication actions, not just 'communicate proactively'"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Artemis Station - Life Support and System Inventory",
+   "page": 188,
+   "kind": "bar",
+   "description": "Dual-axis bar/line chart of inventory available (kg) and daily consumption (kg/day) for six station systems: Oxygen, Water, Food, Waste Containment, Battery Reserve, and Data Storage Buffer.",
+   "data": {
+    "columns": [
+     "System Metric",
+     "Inventory Available (kg)",
+     "Daily Consumption (kg/day)",
+     "Days Remaining"
+    ],
+    "rows": [
+     [
+      "Oxygen Supply",
+      48,
+      5.6,
+      "8.6 days"
+     ],
+     [
+      "Water Supply",
+      125,
+      12,
+      "10.4 days"
+     ],
+     [
+      "Food Supply",
+      160,
+      8,
+      "20.0 days"
+     ],
+     [
+      "Waste Containment",
+      50,
+      2,
+      "25.0 days"
+     ],
+     [
+      "Battery Reserve",
+      196,
+      12,
+      "16.3 days"
+     ],
+     [
+      "Data Storage Buffer",
+      90,
+      4,
+      "22.5 days"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-mission-artemis/p188.webp",
+   "key_insight": "Oxygen (8.6 days) and Water (10.4 days) are the binding constraints given the earliest launch vehicle (Falcon-X) is available on Day 3 and the resupply deadline for those items is Day 8 - all other systems have enough runway to be deprioritized.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Payload overview",
+   "page": 190,
+   "kind": "table",
+   "description": "Table of six candidate payload items with weight, volume, minimum delivery deadline, qualitative priority, and notes.",
+   "data": {
+    "columns": [
+     "Payload Item",
+     "Weight (kg)",
+     "Volume (m3)",
+     "Minimum Delivery By (Days)",
+     "Priority",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Oxygen + Water Resupply",
+      240,
+      3.5,
+      8,
+      "Highest",
+      "Required for crew survival"
+     ],
+     [
+      "Battery Replacement Packs",
+      120,
+      2,
+      16,
+      "Low",
+      "Not urgent post-inventory update"
+     ],
+     [
+      "Biomedical Experiment Kit",
+      80,
+      1,
+      10,
+      "High",
+      "NASA-funded; data loss if delayed"
+     ],
+     [
+      "Food Buffer (15 Days)",
+      150,
+      2.5,
+      18,
+      "Low",
+      "Optional; improves comfort, not survival"
+     ],
+     [
+      "Private Research Payload",
+      100,
+      1.5,
+      20,
+      "Low-Medium",
+      "Delay results in refund/PR penalty"
+     ],
+     [
+      "CO2 Scrubber Repair Module",
+      50,
+      0.5,
+      14,
+      "High",
+      "Needed to restore recycling functionality"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-mission-artemis/p190.webp",
+   "key_insight": "Only three payloads (Oxygen+Water, Biomedical Kit, CO2 Scrubber) are both high-priority and time-constrained enough to require the earliest launch; the other three have enough slack to defer to later, cheaper, or riskier vehicles.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Launch Vehicles - Capacity, Cost & Risk Profile",
+   "page": 191,
+   "kind": "table",
+   "description": "Table of the three available launch vehicles with owning agency, availability, max payload weight/volume, failure risk, and cost.",
+   "data": {
+    "columns": [
+     "Launch Vehicle",
+     "Agency",
+     "Available In (Days)",
+     "Max Payload (kg)",
+     "Volume Capacity (m3)",
+     "Failure Risk",
+     "Cost (USD)"
+    ],
+    "rows": [
+     [
+      "Falcon-X",
+      "NASA",
+      3,
+      500,
+      8,
+      "2%",
+      "$28M"
+     ],
+     [
+      "Vega+",
+      "ESA",
+      7,
+      300,
+      5,
+      "5%",
+      "$18M"
+     ],
+     [
+      "Kibo-L",
+      "JAXA",
+      14,
+      600,
+      6,
+      "6%",
+      "$22M"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-mission-artemis/p191.webp",
+   "key_insight": "Falcon-X is both the earliest-available and lowest-risk vehicle, making it the natural home for the most time-critical, highest-priority cargo despite not having the largest capacity (that belongs to Kibo-L, which is too slow for the urgent items).",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex4",
+   "title": "Stakeholder Objectives & Constraints",
+   "page": 196,
+   "kind": "table",
+   "description": "Table of the five stakeholders (NASA, ESA, JAXA, Commercial Lab, Astronaut Crew) with sponsor type, primary objective, critical payload(s), flexibility window, and penalty/risk if delayed.",
+   "data": {
+    "columns": [
+     "Stakeholder",
+     "Sponsor Type",
+     "Primary Objective",
+     "Critical Payload(s)",
+     "Flexibility Window",
+     "Penalty or Risk if Delayed"
+    ],
+    "rows": [
+     [
+      "NASA",
+      "Government",
+      "Astronaut safety + U.S.-funded research",
+      "Oxygen + Water, Biomedical Kit",
+      "Low (<=12 days)",
+      "Political fallout; biomedical data loss"
+     ],
+     [
+      "ESA",
+      "Government",
+      "European research continuity",
+      "CO2 Scrubber, Shared Food Cargo",
+      "Medium (<=14 days)",
+      "Contractual obligation + reputational risk"
+     ],
+     [
+      "JAXA",
+      "Government",
+      "Long-term station operations & payload use",
+      "Battery Reserve, Joint Maintenance",
+      "Medium (<=16 days)",
+      "Tech system inefficiency; funding pushback"
+     ],
+     [
+      "Commercial Lab",
+      "Private Sector",
+      "Deliver proprietary experiment module",
+      "Commercial Payload",
+      "High (<=20 days)",
+      "Refunds, reputational loss, PR escalation"
+     ],
+     [
+      "Astronaut Crew",
+      "Internal User",
+      "Survival + mission stability",
+      "Oxygen + Water, Food, CO2 Scrubber",
+      "None (hard deadlines)",
+      "Health failure, mission failure"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-mission-artemis/p196.webp",
+   "key_insight": "NASA and the Astronaut Crew's interests are aligned and least flexible, anchoring the Falcon-X loadout, while the Commercial Lab's concern is purely reputational (PR) rather than operational, justifying its lower priority under the stated 'operational risk > reputational risk' principle.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many days of runway remain for each of the six station systems?",
+   "givens": [
+    "Oxygen: 48 kg available, 5.6 kg/day",
+    "Water: 125 kg available, 12.0 kg/day",
+    "Food: 160 kg available, 8.0 kg/day",
+    "Waste Containment: 50 kg available, 2.0 kg/day",
+    "Battery Reserve: 196 kg available, 12.0 kg/day",
+    "Data Storage Buffer: 90 kg available, 4.0 kg/day"
+   ],
+   "steps": [
+    "Days Remaining = Inventory Available / Daily Consumption",
+    "Oxygen: 48 / 5.6 = 8.57 -> 8.6 days",
+    "Water: 125 / 12.0 = 10.42 -> 10.4 days",
+    "Food: 160 / 8.0 = 20.0 days",
+    "Waste Containment: 50 / 2.0 = 25.0 days",
+    "Battery Reserve: 196 / 12.0 = 16.33 -> 16.3 days",
+    "Data Storage Buffer: 90 / 4.0 = 22.5 days"
+   ],
+   "answer": "Oxygen 8.6 days, Water 10.4 days, Food 20.0 days, Waste 25.0 days, Battery 16.3 days, Data Storage 22.5 days",
+   "answer_value": 8.6,
+   "unit": "days (Oxygen, the most binding constraint)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the optimal Falcon-X loadout by weight and volume, and how much capacity remains?",
+   "givens": [
+    "Falcon-X capacity: 500 kg / 8.0 m3",
+    "Oxygen+Water: 240kg/3.5m3",
+    "Biomedical Kit: 80kg/1.0m3",
+    "CO2 Scrubber: 50kg/0.5m3",
+    "Battery Reserve: 120kg/2.0m3",
+    "Commercial Payload: 100kg/1.5m3"
+   ],
+   "steps": [
+    "Priority subtotal = 240 + 80 + 50 = 370 kg; 3.5 + 1.0 + 0.5 = 5.0 m3",
+    "Remaining capacity = 500 - 370 = 130 kg; 8.0 - 5.0 = 3.0 m3",
+    "Adding Battery Reserve: 370 + 120 = 490 kg; 5.0 + 2.0 = 7.0 m3 (fits within 500kg/8.0m3)",
+    "Alternatively adding Commercial Payload: 370 + 100 = 470 kg; 5.0 + 1.5 = 6.5 m3 (also fits, with more room left over)"
+   ],
+   "answer": "Priority loadout (Oxygen+Water, Biomedical Kit, CO2 Scrubber) = 370kg/5.0m3, leaving 130kg/3.0m3 of remaining capacity for one more item (Battery Reserve -> 490kg/7.0m3 total, or Commercial Payload -> 470kg/6.5m3 total)",
+   "answer_value": 130,
+   "unit": "kg remaining capacity after priority loadout",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Do the deferred items (Food + Commercial Payload, or whichever wasn't added to Falcon-X) fit on Vega+?",
+   "givens": [
+    "Vega+ capacity: 300kg/5.0m3",
+    "Food Buffer: 150kg/2.5m3",
+    "Commercial Payload: 100kg/1.5m3"
+   ],
+   "steps": [
+    "Food + Commercial = 150 + 100 = 250 kg; 2.5 + 1.5 = 4.0 m3",
+    "Compare to Vega+ capacity: 250kg <= 300kg and 4.0m3 <= 5.0m3"
+   ],
+   "answer": "Yes, Food + Commercial Payload (250kg/4.0m3) fit comfortably within Vega+'s 300kg/5.0m3 capacity",
+   "answer_value": 250,
+   "unit": "kg combined deferred payload",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is the total cost of each launch-vehicle combination scenario?",
+   "givens": [
+    "Falcon-X = $28M",
+    "Vega+ = $18M",
+    "Kibo-L = $22M"
+   ],
+   "steps": [
+    "Falcon-X only = $28M",
+    "Falcon-X + Vega+ = $28M + $18M = $46M",
+    "Falcon-X + Kibo-L = $28M + $22M = $50M",
+    "Falcon-X + Vega+ + Kibo-L = $28M + $18M + $22M = $68M"
+   ],
+   "answer": "Falcon-X only: $28M; Falcon-X+Vega+: $46M; Falcon-X+Kibo-L: $50M; All 3: $68M",
+   "answer_value": 46,
+   "unit": "$M (Falcon-X + Vega+ scenario, the recommended combination)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Launch Falcon-X in 3 days with a priority load consisting of the Oxygen+Water Module, the Biomedical Kit, and the CO2 Scrubber Module. This fully utilizes Falcon-X's capacity (370kg/5.0m3 of 500kg/8.0m3) and ensures on-time delivery of mission-critical systems with minimal failure risk (2%). Remaining payloads - Battery Reserve Packs, Food Supply Extension, and the Commercial Payload - should be sequenced across Vega+ (Day 7) and, if needed, Kibo-L (Day 14) as a backup, based on final volume and cost efficiency (Food+Commercial fit within Vega+'s 300kg/5.0m3 capacity at a combined cost of $46M for the two-launch plan). This staggered approach balances capacity, timeline flexibility, and inter-agency obligations. Key risks: Falcon-X represents a single point of failure for life support, so a Vega+-based backup plan for partial life-support resupply should be pre-approved; ESA or JAXA may push back if their payloads are deprioritized, requiring proactive communication on mission-first principles; the commercial sponsor may react negatively to delay, requiring clear risk disclosure and a backup commitment via Kibo-L. Next steps: confirm Falcon-X's cargo manifest and safety checks within 24 hours, engage ESA and JAXA on the staggered resupply strategy, formally communicate with the commercial sponsor, and prepare a contingency protocol for launch failure or docking complications.",
+ "what_great_looks_like": [
+  "Quickly identifies oxygen and water as the binding life-support constraints using the days-remaining calculation, rather than treating all six systems as equally urgent",
+  "Matches payloads to vehicles on BOTH timing feasibility and capacity (weight/volume), not just one dimension",
+  "Recognizes the Falcon-X loadout decision point (Battery vs. Commercial as a 4th item) and reasons about it using priority rather than just 'whatever fits'",
+  "Explicitly pairs the lowest-risk vehicle (Falcon-X, 2% failure) with the highest-priority, least-flexible cargo",
+  "Reconciles stakeholder interests using the case's own stated hierarchy (operational risk > reputational risk) rather than trying to please every agency equally",
+  "Flags the single-point-of-failure risk of relying on one launch for all life-critical cargo and proposes a concrete backup plan"
+ ],
+ "common_pitfalls": [
+  "Optimizing purely for lowest cost (e.g., Falcon-X only) without considering the diplomatic/reputational cost of indefinitely deprioritizing ESA, JAXA, and the commercial sponsor",
+  "Assigning the CO2 Scrubber or Biomedical Kit to Kibo-L without checking that its Day 14 availability misses their Day 10/14 deadlines",
+  "Treating the Commercial Lab's PR risk as equivalent in priority to NASA/Astronaut Crew's operational/survival risk",
+  "Forgetting that mixed-agency cargo requires 48 hours of diplomatic coordination, which can affect sequencing"
+ ],
+ "follow_ups": [
+  "How would the recommendation change if Falcon-X's failure risk were revised upward mid-mission?",
+  "What contractual or diplomatic steps would you take if ESA formally objected to being deprioritized to the second launch?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "prompt (the case prompt states launch windows 'span from Day 3 to Day 10,' but Exhibit 3 shows the three vehicles become available on Days 3, 7, and 14 respectively - the prompt's Day 10 upper bound does not match any exhibit figure and is preserved verbatim with a bracketed note)",
+   "exhibits[3] (the stakeholder table is labeled 'Exhibit 3' on page 196, duplicating the launch-vehicle table's own 'Exhibit 3' label on page 191, while its own guidance slide is titled 'Exhibit 4 Guidance' - this extraction follows the guidance slide's numbering and assigns it id ex4; see extraction.notes)"
+  ],
+  "math_verified": true,
+  "notes": "Two source inconsistencies: (1) The case prompt says launch windows 'span from Day 3 to Day 10,' but Exhibit 3 shows vehicles available on Days 3 (Falcon-X), 7 (Vega+), and 14 (Kibo-L) - no vehicle is tied to 'Day 10,' and Kibo-L's 14-day availability exceeds the stated range. This is preserved as written in the prompt with a bracketed clarification rather than silently corrected. (2) The stakeholder objectives table on page 196 is labeled 'Exhibit 3' (Launch Vehicles) is ALSO page 191's label, creating a duplicate exhibit number; the following page's guidance is titled 'Exhibit 4 Guidance,' which references the stakeholder table's content. This extraction treats the stakeholder table as Exhibit 4 (id ex4) to match its own guidance slide's numbering, rather than page 196's literal (seemingly mislabeled) header. Also note: Exhibit 2&3's feasibility table treats Kibo-L's Day 14 availability as 'too late' for the CO2 Scrubber's Day 14 deadline (labeled 'Risky') even though the two dates are equal - this is preserved as the book's own conservative (no-margin) judgment call, not treated as a math error.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "concepts_tested"
+  ]
+ }
+}

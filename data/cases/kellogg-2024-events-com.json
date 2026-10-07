@@ -1,0 +1,423 @@
+{
+ "id": "kellogg-2024-events-com",
+ "title": "Events.com",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  152,
+  161
+ ],
+ "author": "Alex Fabry (Kellogg 2020)",
+ "case_type": [
+  "Profitability",
+  "Pricing"
+ ],
+ "case_type_source_label": "Y07 Profitability",
+ "industry": "tech-saas",
+ "sub_industry": "enterprise-software",
+ "industry_source_label": "X13 Technology",
+ "geography": "United States",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "profitability",
+  "pricing-strategy",
+  "rate-volume-decomposition",
+  "p&l-analysis",
+  "saas",
+  "private-equity",
+  "fee-structure",
+  "root-cause-analysis"
+ ],
+ "concepts_tested": [
+  "Z14 Pricing strategy",
+  "Z07 Market share"
+ ],
+ "fit_question": "What has been the most risky project that you have worked on?",
+ "prompt": "Our client is Prospect Equity Partners ('Prospect'), a prominent Private Equity firm that invests in the technology space. They have recently acquired Events.com due to strong commercial wins and momentum in the market. Events.com is a leading SaaS-based registration/ticketing platform for Endurance events (5K runs, Marathons, Triathlons, Mud Runs, etc.). They make money by taking registrations and processing payments for events and charging a fee per transaction (similar to Ticketmaster or Eventbrite) — e.g., $100 registration price x 10% fee = $10 in revenue for Events.com. Events.com has doubled market share since 2015, but in the last two years revenue is flat and profits are down, despite growing share. Prospect wants you to determine what is causing this and come up with a plan to improve profitability.",
+ "clarifying_info": [
+  {
+   "question_topic": "Market",
+   "answer": "The market has declined ~4% per year since 2015, driven by low participation in experiential runs like Color or Mud Runs."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Two main other players in the space: Active Network and RunSignUp. No recent entrants."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "Customers are all in the US. Historically, local 5K events were targeted, but Events.com recently signed the IRONMAN triathlon in Q4 2017 ($125M in transaction volume per year) and other premium events."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "The product platform is called EventWorks Endurance, and has been around for 10+ years."
+  },
+  {
+   "question_topic": "Company",
+   "answer": "No changes have been made to the company since being acquired by Prospect."
+  }
+ ],
+ "interviewer_notes": "Core question: are the costs associated with the pricing change justified by the resulting outcomes? This is a PE-portfolio company in Tech that has seen profitability decline despite commercial wins and market share growth. Events.com made a pricing change that has harmed profitability and needs to make a change. Key case steps: (1) analyze profitability issues, (2) identify root cause, (3) quantify price change impact, (4) provide client recommendation.",
+ "suggested_framework": {
+  "summary": "Book gives no explicit framework tree; the case proceeds directly through P&L analysis (Exhibit A) to isolate the cost driver, then a rate/volume decomposition of revenue and payment processing costs (Exhibit B), then quantifying a specific pricing fix (Exhibit C).",
+  "tree": {
+   "label": "Why is Events.com's profitability declining despite share growth, and how should it be fixed?",
+   "children": [
+    {
+     "label": "P&L analysis",
+     "children": [
+      {
+       "label": "Revenue trend"
+      },
+      {
+       "label": "Variable costs (payment processing, server hosting)"
+      },
+      {
+       "label": "Fixed costs (headcount, marketing, SG&A)"
+      }
+     ]
+    },
+    {
+     "label": "Root cause isolation",
+     "children": [
+      {
+       "label": "Is the payment-processing cost increase rate-driven or volume-driven?"
+      },
+      {
+       "label": "What's happening to average fee rate and average price per registration?"
+      }
+     ]
+    },
+    {
+     "label": "Pricing structure",
+     "children": [
+      {
+       "label": "Old (variable %) vs. new (tiered fixed fee) pricing"
+      },
+      {
+       "label": "Quantify a fix"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "exhibit",
+   "interviewer_asks": "Using the P&L, let's discuss what's driving the decline in profitability.",
+   "release_when": "Provide Exhibit A when asked about profitability (or revenue/costs). Only after candidate asks — release clarifying information (market decline, competitors, customer mix/IRONMAN win, product, ownership) on request.",
+   "info_to_release": "Exhibit A (2015-2018 P&L and market share). Candidates should note market share growth came from stealing share from Active Network, but should largely set the share data aside. They should focus on 2017-2018 and notice payment processing costs increased drastically — a variable expense, so likely driven by processing volume or processing rate — and ask for more detail on payment processing. Other expense lines are not material and can be set aside.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Revenue grew from $25.0M (2015) to $39.9M (2017) then went flat at $39.9M (2018). Operating income peaked at $17.6M (2017, 44% margin) then fell to $13.5M (2018, 34% margin), even though revenue held flat — driven by Payment Processing Costs jumping from $8.0M (2017) to $11.9M (2018) while Server Hosting and fixed costs stayed roughly flat. The candidate should isolate payment processing as the key line to investigate further, and set aside the roughly-flat headcount/marketing/SG&A lines and the market-share pie charts as secondary.",
+   "good_answer_signals": [
+    "Scans the full P&L but quickly narrows to the one line with a material, unexplained jump (payment processing costs)",
+    "Recognizes payment processing is a variable cost and hypothesizes rate vs. volume as the two possible drivers before being told to",
+    "Doesn't get pulled into over-analyzing the market-share pie charts, consistent with the interviewer guidance to largely set that data aside"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Let's dig into payment processing costs and revenue in more detail.",
+   "release_when": "Provide Exhibit B when asked about payment processing costs or revenue.",
+   "info_to_release": "Exhibit B (2017 vs. 2018 events, registrations, dollars processed, revenue, and payment processing expenses). Additional context: price per registration declined because higher-priced customers with fewer total registrations (e.g., IRONMAN) were acquired while lower-priced customers did not renew. If stuck, discuss how pricing affects revenue and have the candidate calculate the payment processing rate, average fee rate, and average price per registration for 2017 and 2018.",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Payment processing rate (expenses / dollars processed): 2017 = $8M/$399M ≈ 2%; 2018 = $11.9M/$595M ≈ 2% — the rate is unchanged, so the cost increase is driven by volume ($399M → $595M in dollars processed), not by a change in the processing rate. Meanwhile average fee rate (revenue / dollars processed) fell from 10% (2017) to 6.7% (2018), and price per registration (dollars processed / registrations) rose from ~$50 (2017) to ~$75 (2018) even as total registrations were roughly flat (8.0M → 7.9M). This should lead the candidate to examine the revenue/pricing side, not just costs.",
+   "good_answer_signals": [
+    "Correctly isolates rate vs. volume as the driver of the payment-processing cost increase by computing processing rate directly, rather than assuming",
+    "Notices the average fee rate falling even as price per registration rises — a sign the fee structure itself has changed, not just customer mix",
+    "Connects declining fee rate + flat registrations + rising dollar volume into a coherent story rather than treating each ratio in isolation"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Let's look at pricing more closely.",
+   "release_when": "Provide Exhibit C when asked about pricing.",
+   "info_to_release": "Exhibit C (old vs. new pricing structure). Additional context: pricing was changed due to competitive pressure. Once the candidate identifies the 'over $50' tier as the issue, tell them customer surveys indicate a 2.25% 'Credit Card Fee' can be added to that tier with negligible customer loss, and that ~$375M of volume falls in the over-$50 tier. Do not allow rounding on the resulting calculation.",
+   "exhibit_ids": [
+    "exC"
+   ],
+   "expected_answer": "The old pricing was a flat 10% variable fee per transaction; the new pricing is a tiered flat fee ($3.00 under $50, $5.50 over $50) — as average price per registration rose (driven by premium accounts like IRONMAN), the flat per-transaction fee failed to scale with transaction size, causing revenue to go flat despite rising dollar volume. Adding a 2.25% variable fee on the ~$375M of over-$50 volume would add 2.25% x $375,000,000 = $8,437,500 in revenue (and profit, since it flows straight to the bottom line).",
+   "good_answer_signals": [
+    "Explains why a flat per-transaction fee breaks down as average transaction size rises (fee doesn't scale with price)",
+    "Computes the exact, unrounded revenue impact ($8,437,500) as instructed",
+    "Recognizes the added fee drops essentially straight to profit since it isn't tied to a new variable cost"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the client?",
+   "expected_answer": "The shift from a variable (10%) fee to a tiered fixed-fee pricing structure caused revenue to go flat and profitability to decline as average price per registration rose. Recommend adding a 2.25% variable fee to the 'over $50' tier, which would add approximately $8.4M of revenue and profit. Risks: further increases in average price per registration could erode the fix over time; customer reaction to a pricing increase. Next steps: develop a roll-out strategy for the pricing change; investigate further pricing changes to guard against future increases in average price per registration (e.g., additional pricing tiers, customer/market research on willingness to pay); consider targeting new lower-priced customer segments; consider acquiring RunSignUp to consolidate market position and stratify offerings; or consider exiting the market given its ongoing ~4%/year decline.",
+   "good_answer_signals": [
+    "Recommendation is specific (2.25% fee on the over-$50 tier) and quantified (~$8.4M impact)",
+    "Names at least one concrete risk and pairs it with a next step",
+    "Offers a range of next steps spanning tactical (rollout, tiering) and strategic (M&A, market exit) options"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Historical P&L and Market Share",
+   "page": 155,
+   "kind": "table",
+   "description": "2015-2018 P&L in $M (revenue; variable costs — payment processing and server hosting; fixed costs — headcount, marketing, SG&A/other; operating income and margin), alongside pie charts of market share among Events.com, Active Network, RunSignUp, and Other in 2015 and 2018. The case's own guidance is to largely set the share pies aside and focus on the P&L.",
+   "data": {
+    "columns": [
+     "Line item",
+     "2015",
+     "2016",
+     "2017",
+     "2018"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      25,
+      35,
+      39.9,
+      39.9
+     ],
+     [
+      "Payment Processing Costs",
+      3.3,
+      4.7,
+      8,
+      11.9
+     ],
+     [
+      "Server Hosting Costs",
+      3.8,
+      5.3,
+      4.8,
+      4.8
+     ],
+     [
+      "Total Variable Costs",
+      7.1,
+      9.9,
+      12.8,
+      16.7
+     ],
+     [
+      "Headcount",
+      5,
+      5.3,
+      5.5,
+      5.5
+     ],
+     [
+      "Marketing",
+      1.5,
+      1.7,
+      1.8,
+      2
+     ],
+     [
+      "SG&A / Other Costs",
+      2,
+      2.1,
+      2.2,
+      2.2
+     ],
+     [
+      "Total Fixed Expenses",
+      8.5,
+      9,
+      9.5,
+      9.7
+     ],
+     [
+      "Operating Income",
+      9.4,
+      16.1,
+      17.6,
+      13.5
+     ],
+     [
+      "Operating Income Margin",
+      "38%",
+      "46%",
+      "44%",
+      "34%"
+     ]
+    ]
+   },
+   "key_insight": "Revenue plateaus at $39.9M from 2017 to 2018 while Payment Processing Costs jump nearly 50% ($8.0M to $11.9M) — the single line item that explains almost all of the operating income decline, since every other cost line is roughly flat.",
+   "data_confidence": "medium",
+   "image_path": "exhibits/kellogg-2024-events-com/p155.webp"
+  },
+  {
+   "id": "exB",
+   "title": "Payment Processing Breakdown",
+   "page": 156,
+   "kind": "table",
+   "description": "2017 vs. 2018 comparison of number of events, total registrations, dollars processed, Events.com revenue, and payment processing expenses.",
+   "data": {
+    "columns": [
+     "Metric",
+     "2017",
+     "2018"
+    ],
+    "rows": [
+     [
+      "Number of events",
+      4023,
+      5051
+     ],
+     [
+      "Total registrations",
+      "8.0M",
+      "7.9M"
+     ],
+     [
+      "Dollars processed",
+      "$399M",
+      "$595M"
+     ],
+     [
+      "Events.com Revenue",
+      "$39.9M",
+      "$39.9M"
+     ],
+     [
+      "Payment Processing Expenses",
+      "$8.0M",
+      "$11.9M"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-events-com/p156.webp",
+   "key_insight": "Dollars processed grew ~49% while registrations were roughly flat — meaning average transaction size roughly doubled from 2017 to 2018 — yet revenue didn't grow at all, which is the central puzzle the pricing exhibit resolves.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Pricing Structure",
+   "page": 157,
+   "kind": "table",
+   "description": "Old pricing structure (flat 10.0% fee per transaction) vs. new pricing structure (tiered fixed fee: $3.00 per transaction under $50, $5.50 per transaction over $50).",
+   "data": {
+    "columns": [
+     "Pricing structure",
+     "Detail",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Old",
+      "Fee per transaction",
+      "10.0%"
+     ],
+     [
+      "New",
+      "Fixed fee — price under $50",
+      "$3.00"
+     ],
+     [
+      "New",
+      "Fixed fee — price over $50",
+      "$5.50"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-events-com/p157.webp",
+   "key_insight": "A flat fixed fee per transaction (rather than a % of transaction value) means revenue doesn't scale up as average transaction size rises — explaining exactly why revenue went flat even as dollar volume surged.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "processing-rate",
+   "question": "Is the increase in payment processing costs driven by a change in processing rate or by volume?",
+   "givens": [
+    "2017: Payment processing expenses $8.0M, dollars processed $399M",
+    "2018: Payment processing expenses $11.9M, dollars processed $595M"
+   ],
+   "steps": [
+    "2017 rate = 8.0 / 399 ≈ 2.0%",
+    "2018 rate = 11.9 / 595 ≈ 2.0%"
+   ],
+   "answer": "The processing rate is unchanged (~2% both years), so the cost increase is driven entirely by higher dollar volume processed, not by a rate change.",
+   "answer_value": 2,
+   "unit": "% (processing rate, both years)",
+   "verified": true
+  },
+  {
+   "id": "avg-fee-rate-and-price-per-reg",
+   "question": "How have the average fee rate and average price per registration changed from 2017 to 2018?",
+   "givens": [
+    "2017: Revenue $39.9M, dollars processed $399M, registrations 8.0M",
+    "2018: Revenue $39.9M, dollars processed $595M, registrations 7.9M"
+   ],
+   "steps": [
+    "Avg fee rate = Revenue / Dollars processed: 2017 = 39.9/399 = 10.0%; 2018 = 39.9/595 ≈ 6.7%",
+    "Price per registration = Dollars processed / Registrations: 2017 = 399M/8.0M ≈ $50; 2018 = 595M/7.9M ≈ $75"
+   ],
+   "answer": "Average fee rate fell from 10.0% to ~6.7%, while average price per registration rose from ~$50 to ~$75.",
+   "unit": "% and $ (see steps)",
+   "verified": true
+  },
+  {
+   "id": "credit-card-fee-revenue-impact",
+   "question": "How much additional revenue would adding a 2.25% fee to the 'over $50' pricing tier generate?",
+   "givens": [
+    "Volume in the 'over $50' tier ≈ $375M",
+    "Proposed additional fee = 2.25%",
+    "Do not round the result"
+   ],
+   "steps": [
+    "Additional revenue = 2.25% x $375,000,000 = $8,437,500"
+   ],
+   "answer": "$8,437,500 in additional revenue (and profit).",
+   "answer_value": 8437500,
+   "unit": "$",
+   "verified": true
+  }
+ ],
+ "synthesis": "A change in pricing to fixed-fee tiered pricing caused revenue to remain flat and profitability to decline even as market share and processing volume grew. Recommend adding a 2.25% variable fee to the 'over $50' pricing tier, which would add approximately $8.4M of revenue and profitability. Risks: further increases in average price per registration eroding the fix over time, and customer reaction to a pricing increase. Next steps: develop a roll-out strategy for the pricing change; investigate further pricing changes to guard against future increases in average price per registration (additional pricing tiers, customer/market research on willingness to pay); consider targeting new, lower-priced customer segments; consider acquiring RunSignUp to consolidate market position and stratify offerings; or consider exiting the declining market.",
+ "what_great_looks_like": [
+  "Analyzes the full P&L but quickly narrows in on the one line (payment processing costs) that actually explains the profit decline",
+  "Thinks through how variable costs and revenue are mechanically related to processing volume and pricing structure",
+  "Correctly separates rate effects from volume effects using the processing-rate calculation, rather than assuming one or the other",
+  "Connects declining average fee rate, rising price per registration, and the old-vs-new pricing structure into one coherent root cause",
+  "Brainstorms multiple concrete pricing and strategic fixes in the recommendation, not just the 2.25% fee"
+ ],
+ "common_pitfalls": [
+  "Getting stuck analyzing the market-share pie charts instead of moving quickly to the P&L, despite the case's own guidance to largely set share data aside",
+  "Assuming the payment-processing cost jump is due to a rate increase without actually calculating the rate",
+  "Treating 'price per registration up, fee rate down' as contradictory instead of recognizing both stem from the same fixed-fee pricing structure",
+  "Rounding the final $8,437,500 revenue-impact calculation when the case explicitly asks not to",
+  "Stopping at the 2.25%-fee fix without acknowledging it only patches the current tier structure and could erode again as average price rises further"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[exA].data — 2016 and 2018 fixed/variable cost component rows sum to slightly different totals than the book's printed subtotal (rounding in the book's own $M figures); market-share pie percentages are given in the text but their exact slice-to-competitor mapping (beyond Events.com itself) is ambiguous without the page-155 image, which was not rendered"
+  ],
+  "math_verified": true,
+  "notes": "Part 4's recommendation text says to add the fee to the 'Over $30m' tier, which appears to be a typo for the 'Over $50' tier defined in Exhibit C and used consistently in Part 3's math (2.25% x $375m); this extraction uses 'Over $50' throughout. Exhibit A's component cost rows (e.g., 2016 Payment Processing $4.7M + Server Hosting $5.3M = $10.0M) don't perfectly foot to the book's printed 'Total Variable Costs' subtotal of $9.9M for 2016 (similarly Total Fixed Expenses for 2016), a minor rounding artifact in the book's own $M-rounded figures; Operating Income each year is internally consistent with the printed subtotals.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "common_pitfalls",
+   "suggested_framework.tree (book gives case steps but no explicit framework tree)"
+  ]
+ }
+}

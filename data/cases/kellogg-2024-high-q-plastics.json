@@ -1,0 +1,386 @@
+{
+ "id": "kellogg-2024-high-q-plastics",
+ "title": "High Q Plastics",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  191,
+  202
+ ],
+ "author": "Erin Brooks (Kellogg 2011); edited by Uri Kalir (Kellogg 2012), Tuhina Kapoor (Kellogg 2020)",
+ "variant_group_id": "high-q-plastics",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Y01 Cost reduction; Y05 Operations; Y07 Profitability",
+ "industry": "automotive-ev",
+ "sub_industry": "auto-parts",
+ "industry_source_label": "X04 Engineering & Construction",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "profitability",
+  "cost-reduction",
+  "lean-manufacturing",
+  "market-share",
+  "goal-feasibility",
+  "b2b-manufacturing"
+ ],
+ "concepts_tested": [
+  "Z11 Competitive Analysis",
+  "Z12 Creativity"
+ ],
+ "fit_question": "Tell me about a time you had to navigate a conflict and come up with a creative solution.",
+ "prompt": "Our client, High Q Plastics, is an automotive parts supplier in the U.S. They primarily manufacture and sell plastic injection-molded parts, such as grills, door handles, decorative trim etc., to automotive customers. The client has two primary revenue sources: large automotive OEMs, and aftermarket. The client has recently seen declining profits, primarily due to increased price competition from new overseas competitors in China. Annual profits have declined from $50M to $20M over the past few years. What is the reason behind declining profitability? How can High Q improve profits? Can they reach $100M in profits by 2014?",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry characteristics / market economics",
+   "answer": "Automotive sales overall are still growing steadily, driven by emerging markets. Automotive manufacturing is leaving the U.S."
+  },
+  {
+   "question_topic": "Client characteristics",
+   "answer": "Client is currently one of the leaders in this category, has U.S.-based manufacturing, revenues have been slowly declining over the last 5 years, and its products are of higher quality than most Chinese competitors' products."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "Automotive OEM customers are looking to reduce cost, driving increased price competition among parts suppliers."
+  }
+ ],
+ "interviewer_notes": "Problem: How can High Q generate $100m in profits by 2014? Problem-solving steps: 1) Develop a structure to address the problem, 2) Brainstorm ideas to improve profits, 3) Determine whether the profit goal can be met, 4) Provide client recommendation. An effective interviewee should demonstrate a clear and MECE approach to dissecting profitability, structured brainstorming in improving profits (e.g. brainstorming in buckets), and effective use of exhibits to outline the correct approach to calculating 2014 profits.",
+ "suggested_framework": {
+  "summary": "A profitability-driver structure covering industry trends, competitors, revenue (pricing across customers/products), and costs (labor/material trends).",
+  "tree": {
+   "label": "What key questions would you ask to understand High Q's declining profits?",
+   "children": [
+    {
+     "label": "Industry",
+     "children": [
+      {
+       "label": "Sales volume trend"
+      },
+      {
+       "label": "OEM vs. aftermarket demand/growth split and relative profitability"
+      }
+     ]
+    },
+    {
+     "label": "Competitors",
+     "children": [
+      {
+       "label": "Who are they, relative market share"
+      },
+      {
+       "label": "Prices vs. client's"
+      },
+      {
+       "label": "Cost structure vs. client's"
+      },
+      {
+       "label": "Technology/quality advantage"
+      }
+     ]
+    },
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "How have prices changed in recent years?"
+      },
+      {
+       "label": "Declines across all customers and products?"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Trends in cost structure -- labor or material cost increases?"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What key questions would you ask an industry expert in order to better understand the reasons behind High Q's declining profits?",
+   "expected_answer": "An effective structure addresses: Industry (sales volume trend, OEM vs. aftermarket demand/growth and relative profitability), Competitors (identity, relative market share, prices vs. client, cost structure vs. client, technology/quality advantage), Revenue (how client prices have changed, whether declines span all customers/products), and Costs (trends in labor or material costs).",
+   "good_answer_signals": [
+    "Structure is MECE across industry, competitors, revenue, and costs",
+    "Explicitly separates OEM and aftermarket segments"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "The CEO of High Q wants to know if $100M in annual profits is achievable by 2014. What would you need to know in order to determine this? What data would you ask for? What ways can you think of to increase revenues? What ways can you think of to reduce costs?",
+   "expected_answer": "Interviewee should generate 2-3 ideas each for cost reduction and revenue increase. Reduce cost: find alternative material sources, invest in process automation to reduce labor, consolidate multiple manufacturing sites to reduce SG&A costs, relocate close to customers to reduce transportation costs. Increase revenue: segment customers to determine price sensitivity, increase marketing in the aftermarket segment, negotiate long-term contracts with OEM customers.",
+   "good_answer_signals": [
+    "Brainstorms in clear buckets (cost vs. revenue) rather than a random list",
+    "Generates at least 2-3 distinct, relevant ideas per bucket"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Our client is planning on implementing lean manufacturing across all 4 of its U.S. plants, in order to provide cost savings and increase profits. The client is expecting to produce 80% of 2010 volumes in 2014. They are also planning on reducing prices by 10% due to increased competition. Lean manufacturing implementation across all plants will provide an additional 20% savings in raw material, and 30% savings in labor. What is the change in profits the High Q CEO can expect from 2010 to 2014, based on this information?",
+   "release_when": "Provide Exhibit A",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Revenue, labor, and material for each plant first fall by 20% due to the reduced (80% of 2010) volume; revenue falls by a further 10% price cut; material gets an additional 20% savings and labor an additional 30% savings from lean manufacturing; overhead is unchanged. 2014 Revenue = $72.0M per plant. Labor: A $11.2M, B $22.4M, C $33.6M, D $16.8M. Material: A $35.2M, B $25.6M, C $12.8M, D $22.4M. Overhead unchanged: A $20.0M, B $15.0M, C $15.0M, D $30.0M. Net profits: A $5.6M, B $9.0M, C $10.6M, D $2.8M. Total 2014 profit = $28.0M, an additional $8.0M vs. 2010's $20.0M total. Even with lean manufacturing, High Q remains far short of the CEO's $100M target, so this alone is not a realistic path to the goal; a strong interviewee flags the importance of aligning the client's expectations.",
+   "good_answer_signals": [
+    "Correctly sequences the volume cut, price cut, and the material/labor savings percentages",
+    "Recognizes overhead is unchanged",
+    "Concludes the $100M target is not achievable via lean manufacturing alone and flags expectation-setting"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "High Q's CEO has also asked us to take a look at competitive dynamics among the automotive OEMs, in order to predict any increase in profits from increased sales. Based on the information given, what do you expect High Q will see in additional profits due to Toyota's predicted market share increase (from 10% to 40%) in trucks and SUVs?",
+   "release_when": "Hand out Exhibits B and C",
+   "exhibit_ids": [
+    "exB",
+    "exC"
+   ],
+   "expected_answer": "2010: US auto market = 16,000,000 units; Trucks & SUVs = 20% = 3,200,000 units; Toyota's share of Truck/SUV = 10% = 320,000 units; High Q supplies 70% of Toyota's business = 224,000 units; at $20 average price, High Q's Toyota revenue = $4,480,000. 2014 (assuming the same total Truck/SUV market size, only Toyota's share changes): Toyota Truck/SUV sales at 40% share = 1,280,000 units; High Q's Toyota units at 70% = 896,000; revenue at $20 = $17,920,000. Additional revenue = $17,920,000 - $4,480,000 = $13,440,000 (rounded answers of $13M or $14M are acceptable given the interviewee has already demonstrated math proficiency).",
+   "good_answer_signals": [
+    "Correctly chains the pie-chart share, market-share bar chart, High Q's 70% supply share, and $20 average price into a revenue figure",
+    "Computes the delta between 2010 and 2014 Toyota-related revenue"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Please summarize your findings to the CEO, including any other potential opportunities to increase High Q's profits over the next few years.",
+   "expected_answer": "Interviewee should concisely summarize the case goal (reversing High Q's declining profitability due to new, low-cost competition), main findings from each question, and a recommendation: yes, High Q should implement the lean manufacturing initiative, while recognizing that this initiative alone will not hit the CEO's total profit goal in 2014. Additional opportunities not explored in the case: (a) consolidation of the 4 manufacturing plants, especially Plant D given its high overhead costs, (b) pursuing growth in the aftermarket segment, (c) diversifying into plastic injection-molded parts for other industries outside of automotive, where there is less price competition.",
+   "good_answer_signals": [
+    "Gives a clear recommendation (proceed with lean manufacturing) while managing the CEO's $100M expectation",
+    "Surfaces at least the three additional opportunities the book calls out"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "High Q's 2010 Financials, By Facility",
+   "page": 194,
+   "kind": "table",
+   "description": "2010 revenue and cost breakdown ($m) for High Q's four U.S. plants (A, B, C, D): revenues, labor, material, overhead, and resulting net profits.",
+   "data": {
+    "columns": [
+     "$m",
+     "Plant A",
+     "Plant B",
+     "Plant C",
+     "Plant D"
+    ],
+    "rows": [
+     [
+      "Revenues",
+      100,
+      100,
+      100,
+      100
+     ],
+     [
+      "Labor",
+      20,
+      40,
+      60,
+      30
+     ],
+     [
+      "Material",
+      55,
+      40,
+      20,
+      35
+     ],
+     [
+      "Overhead",
+      20,
+      15,
+      15,
+      30
+     ],
+     [
+      "Net Profits",
+      5,
+      5,
+      5,
+      5
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-high-q-plastics/p194.webp",
+   "key_insight": "All four plants earn the same $5M net profit despite very different cost structures (e.g. Plant C has the highest labor cost, Plant A the highest material cost), which is the baseline for the 2014 lean-manufacturing projection.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exB",
+   "title": "2010 U.S. Automotive Market",
+   "page": 195,
+   "kind": "pie",
+   "description": "Pie chart of the 2010 U.S. automotive sales mix by vehicle type: Compact cars 38%, Full-size cars 42%, Trucks and SUVs 20%. Total 2010 US automotive sales = 16 million units.",
+   "data": {
+    "columns": [
+     "Vehicle type",
+     "Share of 2010 US auto sales"
+    ],
+    "rows": [
+     [
+      "Compact cars",
+      "38%"
+     ],
+     [
+      "Full-size cars",
+      "42%"
+     ],
+     [
+      "Trucks and SUVs",
+      "20%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-high-q-plastics/p195.webp",
+   "key_insight": "Trucks and SUVs are 20% of the 16M-unit US auto market, i.e. 3.2M units in 2010 -- the base for sizing Toyota's truck/SUV sales.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "U.S. Truck / SUV Market Share (2010-2014)",
+   "page": 196,
+   "kind": "bar",
+   "description": "Bar chart of each OEM's share of the U.S. truck/SUV market in 2010 vs. 2014 (projected): Ford 33% to 21%, GM 31% to 20%, Chrysler 19% to 14%, Toyota 10% to 40%, Nissan 7% to 5%. High Q supplies 70% of Toyota's business; average price of High Q products sold to Toyota = $20.",
+   "data": {
+    "columns": [
+     "OEM",
+     "2010 share",
+     "2014 share"
+    ],
+    "rows": [
+     [
+      "Ford",
+      "33%",
+      "21%"
+     ],
+     [
+      "GM",
+      "31%",
+      "20%"
+     ],
+     [
+      "Chrysler",
+      "19%",
+      "14%"
+     ],
+     [
+      "Toyota",
+      "10%",
+      "40%"
+     ],
+     [
+      "Nissan",
+      "7%",
+      "5%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-high-q-plastics/p196.webp",
+   "key_insight": "Toyota's truck/SUV share is projected to quadruple (10% to 40%) by 2014; since High Q supplies 70% of Toyota's business at $20/unit, this share shift translates directly into incremental High Q revenue.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is High Q's total 2014 profit across all 4 plants under the lean manufacturing plan, and how much additional profit does that represent vs. 2010?",
+   "givens": [
+    "2010 revenue/labor/material/overhead/profit by plant (Exhibit A)",
+    "2014 volume = 80% of 2010 volume",
+    "2014 price is cut by an additional 10%",
+    "Lean manufacturing gives 20% additional material savings and 30% additional labor savings",
+    "Overhead is unchanged"
+   ],
+   "steps": [
+    "2014 Revenue per plant = $100M x 80% x 90% = $72.0M (same for all 4 plants)",
+    "2014 Labor = 2010 Labor x 80% x 70% (i.e. volume cut plus 30% lean savings): A = 20x0.8x0.7=11.2, B = 40x0.8x0.7=22.4, C = 60x0.8x0.7=33.6, D = 30x0.8x0.7=16.8",
+    "2014 Material = 2010 Material x 80% x 80% (i.e. volume cut plus 20% lean savings): A = 55x0.8x0.8=35.2, B = 40x0.8x0.8=25.6, C = 20x0.8x0.8=12.8, D = 35x0.8x0.8=22.4",
+    "2014 Overhead = 2010 Overhead (unchanged): A=20.0, B=15.0, C=15.0, D=30.0",
+    "2014 Net Profit = Revenue - Labor - Material - Overhead: A = 72-11.2-35.2-20=5.6, B = 72-22.4-25.6-15=9.0, C = 72-33.6-12.8-15=10.6, D = 72-16.8-22.4-30=2.8",
+    "Total 2014 profit = 5.6+9.0+10.6+2.8 = 28.0",
+    "2010 total profit = 5x4 = 20.0; Additional profit = 28.0 - 20.0 = 8.0"
+   ],
+   "answer": "$28.0M total 2014 profit; $8.0M additional profit vs. 2010 -- far short of the $100M target",
+   "answer_value": 28,
+   "unit": "USD million",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much additional revenue does High Q gain from Toyota's projected truck/SUV market share increase (10% to 40%) by 2014?",
+   "givens": [
+    "2010 US auto market = 16,000,000 units",
+    "Trucks & SUVs = 20% of the market (Exhibit B)",
+    "Toyota's truck/SUV share: 10% (2010) to 40% (2014) (Exhibit C), assumed on a constant-size truck/SUV market",
+    "High Q supplies 70% of Toyota's business",
+    "Average price of High Q products sold to Toyota = $20"
+   ],
+   "steps": [
+    "2010 Truck/SUV market = 16,000,000 x 20% = 3,200,000 units",
+    "2010 Toyota Truck/SUV sales = 3,200,000 x 10% = 320,000 units; 2014 Toyota Truck/SUV sales = 3,200,000 x 40% = 1,280,000 units",
+    "2010 High Q units to Toyota = 320,000 x 70% = 224,000; 2014 High Q units to Toyota = 1,280,000 x 70% = 896,000",
+    "2010 High Q Toyota revenue = 224,000 x $20 = $4,480,000; 2014 High Q Toyota revenue = 896,000 x $20 = $17,920,000",
+    "Additional revenue = $17,920,000 - $4,480,000 = $13,440,000"
+   ],
+   "answer": "~$13.4 million in additional annual revenue (book accepts a rounded $13M or $14M)",
+   "answer_value": 13440000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "High Q should implement the lean manufacturing initiative -- it increases profits by $8M to $28M total -- but this alone will not hit the CEO's $100M target, so expectations need to be reset. Additional opportunities to explore include consolidating the 4 manufacturing plants (especially high-overhead Plant D), pursuing growth in the aftermarket segment, and diversifying into plastic injection-molded parts for non-automotive industries with less price competition.",
+ "what_great_looks_like": [
+  "Uses a clear, MECE profitability structure and structured brainstorming in buckets",
+  "Accurately sequences volume, price, and cost-savings adjustments across all 4 plants without losing track of units",
+  "Recognizes that the $100M goal is not realistic even after lean manufacturing and Toyota share gains, and proactively raises additional levers"
+ ],
+ "common_pitfalls": [
+  "Applying the 20%/30% lean-manufacturing savings to the original (2010) cost base instead of the volume-adjusted 2014 base",
+  "Forgetting the additional 10% price cut when projecting 2014 revenue",
+  "Treating Toyota's 10%-to-40% change as a 30% relative increase rather than a shift in share of a fixed-size market"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book's Exhibit B pie labels the 20% slice's category (Trucks and SUVs) implicitly via legend order/pattern rather than an on-slice label; confirmed via the given Truck/SUV unit figures (3,200,000 = 16M x 20%) that Trucks and SUVs = 20%, Compact = 38%, Full-size = 42%.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "suggested_framework.tree",
+   "client_type",
+   "case_type (mapped from Y01/Y05/Y07 to taxonomy)"
+  ]
+ }
+}

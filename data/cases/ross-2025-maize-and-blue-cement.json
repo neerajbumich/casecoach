@@ -1,0 +1,301 @@
+{
+ "id": "ross-2025-maize-and-blue-cement",
+ "title": "Maize and Blue Cement",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  40,
+  46
+ ],
+ "variant_group_id": "ross-2025-maize-and-blue-cement",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Engineering/Construction | Profitability / Cost Optimization",
+ "industry": "construction",
+ "sub_industry": "cement-materials",
+ "industry_source_label": "Engineering/Construction",
+ "geography": "Country X (fictional)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 1/3 (Quant - 1, Qual - 2, Overall - 1)",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "distribution-strategy",
+  "insourcing-vs-outsourcing",
+  "profitability",
+  "segment-analysis",
+  "third-party-risk",
+  "channel-strategy",
+  "cement"
+ ],
+ "concepts_tested": [
+  "profit-impact analysis",
+  "revenue/cost tradeoff of insourcing",
+  "supplier dependency risk"
+ ],
+ "prompt": "A cement manufacturer, Maize and Blue Cement (MBC), operates in Country X. Over the last three years, their profitability has stagnated, and MBC is currently under pressure to increase it. MBC has three main customer segments: private-owned general contractors, government/state-owned general contractors, and retail. The reason for differentiating between private-owned and state-owned general contractors in Country X is that it is generally believed to be necessary to provide special treatment when dealing with government/state-owned companies officially. The CEO believes that an opportunity lies in their distribution strategy, particularly in transitioning from using third-party service providers to an in-house approach. Should they pursue this change?",
+ "clarifying_info": [
+  {
+   "question_topic": "How distribution currently works",
+   "answer": "Third party service providers handle end-to-end logistics once the product leaves MBC's distribution center to hardware stores, and the sales and relationship with hardware stores is done by the third party."
+  },
+  {
+   "question_topic": "Revenue per channel",
+   "answer": "Retail: 10%, Private-owned contractors: 40%, State-owned contractors: 50%."
+  },
+  {
+   "question_topic": "Industry standard for distribution",
+   "answer": "There is no single industry standard for distribution. One big competitor does the distribution by themselves, whereas another big competitor also uses third-party services."
+  },
+  {
+   "question_topic": "Specific profitability target",
+   "answer": "There is no specific profitability target. Any increase of profitability with reasonable risk is accepted."
+  }
+ ],
+ "interviewer_notes": "Candidate-led case (interviewee led) testing distribution/insourcing strategy for a cement manufacturer. Ratings: Quant - 1, Qual - 2, Overall - 1 (book's own scale). Progresses from qualitative framework, to a profitability calc for one segment, to a risk brainstorm, to a refined strategic/financial analysis of a hybrid model, to synthesis.",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering financial analysis, strategic value, and risks of insourcing distribution.",
+  "tree": {
+   "label": "In-house vs. third-party distribution",
+   "children": [
+    {
+     "label": "Financial Analysis",
+     "children": [
+      {
+       "label": "Expected change in cost",
+       "children": [
+        {
+         "label": "Increase in salaries and transportation"
+        },
+        {
+         "label": "Reduced commission/fees to third party"
+        }
+       ]
+      },
+      {
+       "label": "Projected revenue change",
+       "children": [
+        {
+         "label": "Potentially higher revenue through better distribution and relationship with customers"
+        }
+       ]
+      },
+      {
+       "label": "Planned capex",
+       "children": [
+        {
+         "label": "Potential capex for vehicles and sales equipment, etc."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Strategic Value",
+     "children": [
+      {
+       "label": "New opportunities",
+       "children": [
+        {
+         "label": "Geographic expansion not limited to third party coverage"
+        }
+       ]
+      },
+      {
+       "label": "Advantages in operations",
+       "children": [
+        {
+         "label": "More flexibility, potential shorter lead times"
+        }
+       ]
+      },
+      {
+       "label": "Improvement in customer experience",
+       "children": [
+        {
+         "label": "Potentially stronger relationship with customers"
+        }
+       ]
+      },
+      {
+       "label": "Better understanding of customers"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Financial risks",
+       "children": [
+        {
+         "label": "Lack of scale"
+        },
+        {
+         "label": "Overestimate revenue / underestimate cost projection"
+        }
+       ]
+      },
+      {
+       "label": "Operational risks",
+       "children": [
+        {
+         "label": "Long time to develop capabilities"
+        },
+        {
+         "label": "Unable to get favorable funding for investment"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "The CEO believes that an opportunity lies in their distribution strategy, particularly in transitioning from using third-party service providers to an in-house approach. Should they pursue this change? How would you structure your analysis?",
+   "expected_answer": "A framework covering financial analysis (expected cost changes, projected revenue change, planned capex), strategic value (new opportunities, operational advantages, customer experience improvement), and risks (financial risks like lack of scale, operational risks like capability development time and funding).",
+   "good_answer_signals": [
+    "Separates financial, strategic, and risk buckets",
+    "Recognizes the three customer segments differ in relevance"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How much extra profit from the private-owned general contractors segment will MBC get by converting the distribution to in-house?",
+   "info_to_release": "MBC wants to focus on private-owned general contractors first, believing they have a competitive advantage there via the CEO's relationship with contractors. Internal analysis: segment revenue increases 35% (current third party does not focus on this segment); current commission paid to third party is 10% of segment revenue; extra cost for internal operations is $7M; current total revenue is $100M; current revenue proportion per segment: Retail 10%, Private-owned contractors 40%, State-owned contractors 50%.",
+   "release_when": "If prompted, clarify that currently the third-party service provider handles all distribution for all segments.",
+   "expected_answer": "Additional profit = Revenue Increase – Additional Cost = (35% * 40% * $100M) – [$7M - (10% * 40% * $100M)] = $14M - ($7M - $4M) = $14M - $3M = $11M.",
+   "good_answer_signals": [
+    "Correctly isolates the private-owned contractor segment (40% of $100M)",
+    "Nets out the commission MBC no longer pays the third party against the new internal operations cost"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What would be major risks in continuing with the plan?",
+   "expected_answer": "The dependency on the current third-party service provider is very high, so taking away some of their business (private-owned segment) gives them high bargaining power and risks their service quality in the other two segments — especially the larger, relationship-intensive state-owned contractors segment currently managed by the third party. Revenue increase may be lower than expected and/or cost increase may be higher than expected. MBC may not execute the operational distribution channel smoothly, causing disruption to the private-owned contractor segment.",
+   "good_answer_signals": [
+    "Identifies the third party's high bargaining position and retaliation risk on other segments",
+    "Flags execution/estimation risk on the financials",
+    "Flags operational disruption risk"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "Assess the feasibility of the new plan.",
+   "info_to_release": "MBC's CEO is afraid that taking some of the third-party's current revenue will push them to work with a competitor, lowering state-owned contractors segment revenue by 50%. After consulting internal experts, the optimal model for the state-owned segment is a hybrid: MBC handles sales and customer relationship in-house, while the third party keeps handling physical logistics. New financials: segment revenue increase remains 35%; new commission paid to third party is 9% of segment revenue (down from 10%); extra cost for internal operations is $5M; current total revenue $100M; segment split unchanged (Retail 10%, Private-owned 40%, State-owned 50%).",
+   "exhibit_ids": [],
+   "expected_answer": "Additional MBC profit = Revenue Increase – Additional Cost = (35% * 40% * $100M) – [$5M + (9% * 40% * $100M * 1.35) - (10% * 40% * $100M)] = $14M - ($5M + $4.86M - $4M) = $14M - $5.86M = $8.14M. Change in third-party service provider revenue = (9% * 40% * $100M * 1.35) - (10% * 40% * $100M) = $4.86M - $4M = $0.86M. The new plan is feasible: MBC still gets additional profit of $8.14M and the third-party provider gets additional revenue of $0.86M, so there is no risk of undermining other segments by implementing this hybrid plan.",
+   "good_answer_signals": [
+    "Correctly applies the new 9% commission to the increased ($100M*1.35) segment revenue base, not the original base",
+    "Recognizes the hybrid structure keeps the third party whole (and slightly better off), removing the retaliation risk identified earlier"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to MBC?",
+   "expected_answer": "Recommend MBC go ahead and transition the private-owned contractors segment to in-house sales and customer relationship management, while keeping physical logistics with the third party. Reasoning: despite the additional cost, revenue will increase more significantly, resulting in higher profit of $8.14M; it also reduces MBC's dependency on the current third-party service provider. Risks: current lack of distribution expertise, competitive response from third-party distributors. Next steps: confirm analysis assumptions, put together an acquisition target attribute list, conduct due diligence.",
+   "good_answer_signals": [
+    "Recommends the hybrid (sales in-house, logistics stays third-party) model, not full insourcing",
+    "Cites the $8.14M profit figure and reduced third-party dependency as reasoning",
+    "Names concrete risks and next steps"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much extra profit from the private-owned general contractors segment will MBC get by converting distribution to in-house (full insourcing scenario)?",
+   "givens": [
+    "Segment revenue increase: 35%",
+    "Current commission to third party: 10% of segment revenue",
+    "Extra cost for internal operations: $7M",
+    "Current total revenue: $100M",
+    "Private-owned contractors: 40% of revenue"
+   ],
+   "steps": [
+    "Revenue increase = 35% * 40% * $100M = $14M",
+    "Commission no longer paid to third party = 10% * 40% * $100M = $4M",
+    "Net additional cost = $7M - $4M = $3M",
+    "Additional profit = $14M - $3M = $11M"
+   ],
+   "answer": "$11M additional profit",
+   "answer_value": 11,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is MBC's additional profit under the hybrid model (in-house sales/relationship, third party keeps logistics) for the state-owned contractors segment, and how does the third party's revenue change?",
+   "givens": [
+    "Segment revenue increase: 35%",
+    "New commission to third party: 9% of segment revenue (down from 10%)",
+    "Extra cost for internal operations: $5M",
+    "Current total revenue: $100M",
+    "State-owned contractors: 40%... note: calculation in book uses the 40% private-owned proportion consistently with stage 2's segment, applied here to this analysis"
+   ],
+   "steps": [
+    "Revenue increase = 35% * 40% * $100M = $14M",
+    "New commission paid to third party = 9% * 40% * $100M * 1.35 = $4.86M",
+    "Old commission paid to third party = 10% * 40% * $100M = $4M",
+    "Net additional cost = $5M + $4.86M - $4M = $5.86M",
+    "Additional profit = $14M - $5.86M = $8.14M",
+    "Change in third-party revenue = $4.86M - $4M = $0.86M"
+   ],
+   "answer": "MBC additional profit $8.14M; third-party service provider revenue increases by $0.86M",
+   "answer_value": 8.14,
+   "unit": "USD millions",
+   "verified": true,
+   "book_answer_if_different": "Book applies the same 40% segment-revenue proportion as stage 2's calculation; the printed formula and result ($8.14M) match this recomputation exactly."
+  }
+ ],
+ "synthesis": "We recommend MBC go ahead and make the transition in the private-owned contractors segment to do sales and customer relationship in-house, while keeping the physical logistics operation handled by the third party. Despite the additional cost, the revenue will increase more significantly and therefore result in higher profit of $8.14M, and it will also reduce MBC's dependency on the current third-party service provider.",
+ "what_great_looks_like": [
+  "Correctly nets the saved third-party commission against new internal operating costs in both profit calculations",
+  "Surfaces the third-party bargaining-power/retaliation risk unprompted during brainstorming",
+  "Recognizes that a hybrid model (in-house sales, third-party logistics) resolves the retaliation risk raised earlier by keeping the third party's revenue roughly whole",
+  "Ties the final recommendation back to both the quantitative profit result and the strategic risk-reduction rationale"
+ ],
+ "common_pitfalls": [
+  "Applying the new commission rate to the original (pre-increase) revenue base rather than the increased revenue base",
+  "Recommending full insourcing without addressing the third-party retaliation risk on the larger state-owned segment",
+  "Forgetting to net out the commission MBC stops paying when calculating additional cost"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "No page images were rendered for this case (render_pages empty in meta.json); all content came from text.txt only.",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

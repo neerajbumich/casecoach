@@ -1,0 +1,147 @@
+{
+ "id": "growth-strategy",
+ "name": "Growth strategy",
+ "category": "core",
+ "summary": "Grow revenue organically (more customers, more per customer, new products, new markets: the Ansoff matrix) or inorganically (acquisitions, partnerships). Prioritise by size of prize, feasibility and risk.",
+ "opening_line": "Revenue can grow organically, by selling more of what we have or adding new products and markets, or inorganically through acquisitions and partnerships. I'd size each option and prioritise by impact and feasibility.",
+ "when_to_use": [
+  "Client wants to grow revenue or hit a revenue target",
+  "Revenue has stalled, but margins are fine"
+ ],
+ "when_not_to_use": [
+  "Profit is falling because of costs: use profitability",
+  "The question is one specific market or deal: use market entry or M&A"
+ ],
+ "tree": {
+  "label": "Grow revenue",
+  "children": [
+   {
+    "label": "Organic: existing products",
+    "children": [
+     {
+      "label": "More customers (share, new segments)"
+     },
+     {
+      "label": "More per customer (price, frequency, cross-sell)"
+     },
+     {
+      "label": "Retention / churn"
+     }
+    ]
+   },
+   {
+    "label": "Organic: new products or markets",
+    "children": [
+     {
+      "label": "New products for existing customers"
+     },
+     {
+      "label": "Existing products in new markets"
+     },
+     {
+      "label": "Diversification"
+     }
+    ]
+   },
+   {
+    "label": "Inorganic",
+    "children": [
+     {
+      "label": "Acquisitions"
+     },
+     {
+      "label": "Partnerships / JVs / licensing"
+     }
+    ]
+   },
+   {
+    "label": "Prioritise",
+    "children": [
+     {
+      "label": "Size of prize"
+     },
+     {
+      "label": "Feasibility / capabilities"
+     },
+     {
+      "label": "Time to impact & risk"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Core business",
+   "questions": [
+    "Where are we under-penetrated?",
+    "Can we raise price, frequency or basket size?",
+    "Why do customers leave?"
+   ],
+   "data_to_ask": [
+    "Revenue by customer segment",
+    "Share by region / channel",
+    "Churn"
+   ]
+  },
+  {
+   "name": "Adjacencies",
+   "questions": [
+    "Which adjacent products or markets fit our capabilities?"
+   ],
+   "data_to_ask": [
+    "Adjacent market sizes"
+   ]
+  },
+  {
+   "name": "Inorganic",
+   "questions": [
+    "Are there targets that accelerate growth?"
+   ],
+   "data_to_ask": [
+    "Target list, valuations"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "hospitality",
+   "note": "RevPAR = occupancy × ADR; ancillaries (F&B, events); loyalty; new properties vs asset-light franchising."
+  },
+  {
+   "industry": "banking",
+   "note": "Deposits and loan growth, fee products, cross-sell ratio, digital acquisition."
+  },
+  {
+   "industry": "retail",
+   "note": "Same-store sales (traffic × ticket) vs new stores vs e-commerce."
+  }
+ ],
+ "common_mistakes": [
+  "Listing ideas without sizing or prioritising them",
+  "Ignoring profitability of the growth",
+  "Forgetting capability fit and execution risk"
+ ],
+ "related": [
+  "market-entry",
+  "mergers-acquisitions",
+  "new-product-gtm",
+  "customer-segmentation"
+ ],
+ "match": {
+  "case_types": [
+   "Growth/Revenue"
+  ],
+  "tags": [
+   "revenue-growth",
+   "growth-strategy",
+   "cross-sell",
+   "portfolio-strategy"
+  ],
+  "keywords": [
+   "grow",
+   "growth",
+   "revenue"
+  ]
+ }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "construction",
+  "name": "Construction & Engineering",
+  "group": "Industrials",
+  "one_liner": "Construction and engineering firms design and build buildings and infrastructure on a project basis, earning thin margins where bidding, execution risk and labor productivity decide profitability.",
+  "how_it_makes_money": "Contractors win projects through competitive bids or negotiated contracts, paid under fixed-price, cost-plus, guaranteed-maximum-price or unit-rate terms. Engineering and design firms earn fees on professional services, and materials and equipment suppliers sell into projects.",
+  "value_chain": [
+    "Owner and project financing",
+    "Design and engineering",
+    "Bidding and procurement",
+    "General contracting and subcontracting",
+    "Materials and equipment supply",
+    "Operations and maintenance"
+  ],
+  "revenue_formula": [
+    "Revenue = backlog converted × project value recognized per period",
+    "New revenue = bids submitted × win rate × average contract value",
+    "Project margin = contract price - (labor + materials + subcontractors + equipment + overhead) ± change orders"
+  ],
+  "cost_structure": [
+    "Materials: steel, concrete, lumber and components, exposed to price swings",
+    "Labor: direct craft labor, often constrained by skilled-worker shortages",
+    "Subcontractors: specialty trades that perform much of the work on general contractor projects",
+    "Equipment: owned or rented machinery",
+    "Overhead, insurance and bonding: project management, safety, surety bonds"
+  ],
+  "margins": "General contractors often earn thin net margins in the low single digits, while specialty contractors, engineering firms and materials producers can earn more; fixed-price risk, cost overruns and labor productivity drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Backlog",
+      "what": "Contracted work not yet completed; the main indicator of future revenue."
+    },
+    {
+      "name": "Book-to-bill ratio",
+      "what": "New orders relative to revenue; above 1 means backlog is growing."
+    },
+    {
+      "name": "Bid win rate",
+      "what": "Share of bids won; reflects pricing and competitive positioning."
+    },
+    {
+      "name": "Gross margin by project",
+      "what": "Project profitability after direct costs; shows execution quality."
+    },
+    {
+      "name": "Change order rate",
+      "what": "Scope changes as a share of contract value; can protect or erode margin."
+    },
+    {
+      "name": "Schedule and cost variance",
+      "what": "Deviation from planned timeline and budget; signals execution risk."
+    },
+    {
+      "name": "Safety incident rate (TRIR)",
+      "what": "Recordable incidents per hours worked; affects cost, insurance and bid eligibility."
+    }
+  ],
+  "trends": [
+    "Infrastructure spending from federal programs supporting public works backlog",
+    "Boom in data center, power grid and manufacturing plant construction",
+    "Skilled labor shortages and wage pressure",
+    "Materials cost volatility and tariffs affecting bids and margins",
+    "Adoption of prefabrication, modular construction and digital tools like BIM",
+    "Softer office and some commercial construction amid higher rates"
+  ],
+  "key_players": [
+    "Bechtel",
+    "Fluor",
+    "Kiewit",
+    "Turner Construction",
+    "Jacobs",
+    "AECOM",
+    "Quanta Services",
+    "EMCOR",
+    "Vulcan Materials",
+    "(highly fragmented)"
+  ],
+  "case_angles": [
+    {
+      "question": "A general contractor is growing revenue but losing money. Why?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a regional contractor expand into data center construction?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "How should a contractor decide whether to bid on a large fixed-price infrastructure project?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "A construction firm's projects routinely run late. How do you fix operations?",
+      "framework_id": "operations-capacity"
+    }
+  ],
+  "interview_hooks": [
+    "Why has construction productivity lagged other industries, and can modular building fix it?",
+    "Who should bear cost-overrun risk on large infrastructure projects?",
+    "Can the industry meet the data center and grid build-out given labor constraints?"
+  ],
+  "news": {
+    "keywords": [
+      "construction",
+      "contractor",
+      "infrastructure spending",
+      "construction spending",
+      "building materials",
+      "backlog",
+      "engineering firm",
+      "modular construction",
+      "cement",
+      "construction labor"
+    ],
+    "companies": [
+      "Bechtel",
+      "Fluor",
+      "Kiewit",
+      "Turner Construction",
+      "Jacobs",
+      "AECOM",
+      "Quanta Services",
+      "EMCOR",
+      "Vulcan Materials",
+      "Martin Marietta"
+    ]
+  }
+}

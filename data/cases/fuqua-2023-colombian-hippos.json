@@ -1,0 +1,276 @@
+{
+ "id": "fuqua-2023-colombian-hippos",
+ "title": "Colombian Hippos",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  46,
+  51
+ ],
+ "author": "Juan Pablo Quintero (Fuqua '24)",
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Decision Analysis",
+ "industry": "public-sector",
+ "sub_industry": "government",
+ "industry_source_label": "Non-Profit",
+ "geography": "Colombia",
+ "client_type": "public sector",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Easy; Qualitative: Medium",
+ "quant_intensity": "M",
+ "estimated_minutes": 25,
+ "tags": [
+  "public-sector",
+  "wildlife",
+  "cost-benefit",
+  "tourism",
+  "relocation",
+  "stakeholders"
+ ],
+ "concepts_tested": [
+  "stakeholder analysis",
+  "five-year economics",
+  "capacity constraint",
+  "nonfinancial tradeoffs"
+ ],
+ "prompt": "Pablo Escobar imported exotic animals to Colombia in the 1980s, and escaped hippos now attack humans, damage ecosystems, and reproduce without natural predators. Experts expect the 50 escaped hippos to become 250 if unchecked. Colombia's new president ran on a strong-on-hippo platform and asks for the key considerations and potential solutions.",
+ "clarifying_info": [
+  {
+   "question_topic": "Budget and objective",
+   "answer": "The government has a deep budget but prefers cost-neutral or revenue-generating solutions."
+  },
+  {
+   "question_topic": "Impact",
+   "answer": "Hippos attack humans and eat 88 pounds of vegetation per day, including wild plants and crops."
+  },
+  {
+   "question_topic": "Scope",
+   "answer": "Only hippos are in scope; population-growth rate is not needed for the case."
+  }
+ ],
+ "interviewer_notes": "The framework is standalone because the rest of this interviewer-led case compares two mutually exclusive relocation options over five years. Read the option data aloud. There is no uniquely correct choice: the Duke option has higher stated profit but capacity for only 30 of 50 hippos, while a Colombian sanctuary addresses all 50 and creates local benefits.",
+ "suggested_framework": {
+  "summary": "Balance environmental, social, financial, logistical, political, and animal-welfare considerations.",
+  "tree": {
+   "label": "Address Colombia's hippos",
+   "children": [
+    {
+     "label": "Impact",
+     "children": [
+      {
+       "label": "Habitat, crops, waste, human safety, economic damage, and future spread"
+      }
+     ]
+    },
+    {
+     "label": "Logistics and care",
+     "children": [
+      {
+       "label": "Capture, worker safety, transport, habitat, veterinary care, food, and sterilization"
+      }
+     ]
+    },
+    {
+     "label": "Stakeholders",
+     "children": [
+      {
+       "label": "Communities, farmers, tourists, researchers, animal-welfare groups, and international nonprofits"
+      }
+     ]
+    },
+    {
+     "label": "Economics and feasibility",
+     "children": [
+      {
+       "label": "Upfront/ongoing cost, revenue, capacity, value creation, political backlash, and cost of inaction"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What considerations and solution areas should the president examine?",
+   "expected_answer": "Assess environmental and crop damage, human safety, future spread, and costs; capture, transport, habitat, veterinary, sterilization, and feeding logistics; local communities, farmers, researchers, tourists, and animal-welfare stakeholders; and financial, political, staffing, and cost-of-inaction implications. Solutions can include sanctuary, relocation, sterilization, research partnerships, or managed tourism.",
+   "good_answer_signals": [
+    "Covers impact and implementation",
+    "Includes affected stakeholders",
+    "Considers revenue-generating options"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Compare the Colombian sanctuary and Duke relocation over five years.",
+   "info_to_release": "Options are mutually exclusive. Colombian campus: capacity 50; capture/tag $15K each; construction $2M; maintenance $5K per hippo annually; overhead $100K annually; 50K-60K tourists annually at $20. Duke: capacity 30; $1M upfront research grant plus $10K per hippo annually; capture $15K and transport $15K per hippo; Duke pays maintenance and keeps hippos after five years.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Colombia costs $2M+$750K+$1.25M+$500K=$4.5M and earns $5M-$6M, for $0.5M-$1.5M profit. Duke earns $1M+$1.5M=$2.5M and costs $900K, for $1.6M profit. Duke is financially higher than even the campus high case, but houses only 30 hippos and leaves 20 unresolved, with unquantified additional cost.",
+   "good_answer_signals": [
+    "Includes capture cost in both options",
+    "Calculates a range for tourism",
+    "Flags Duke's 30-hippo capacity"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "What nonfinancial tradeoffs could change the choice?",
+   "expected_answer": "A Colombian sanctuary addresses all 50 and may create jobs, tourism, cultural identity, academic research, and regional spending, but introduces construction, attendance, and operating risk. Duke offers research expertise and lower operating burden but removes animals internationally, leaves 20, creates transport/safety risk, and may face sovereignty or welfare objections. A government may rationally choose lower accounting profit for broader public value.",
+   "good_answer_signals": [
+    "Values local spillovers",
+    "Recognizes unresolved hippos",
+    "Treats government objectives as broader than profit"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "Which option should the president pursue?",
+   "expected_answer": "Choose the Colombian sanctuary if the priority is a complete, domestically controlled solution: it handles all 50 and earns $0.5M-$1.5M over five years while creating tourism and local benefits. Duke's stated $1.6M profit is attractive but incomplete because 20 hippos remain. Validate attendance and ticket price, capture and construction costs, safety, welfare, and a contingency for demand below 50K visitors.",
+   "good_answer_signals": [
+    "Makes a clear choice",
+    "Quantifies both options",
+    "Explains why nominal profit is not decisive"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Hippo relocation options",
+   "page": 49,
+   "kind": "table",
+   "description": "Five-year capacity, cost, and revenue inputs read aloud by the interviewer.",
+   "data": {
+    "columns": [
+     "Input",
+     "Colombian campus",
+     "Duke center"
+    ],
+    "rows": [
+     [
+      "Capacity",
+      50,
+      30
+     ],
+     [
+      "Capture/tag",
+      "$15K/hippo",
+      "$15K/hippo"
+     ],
+     [
+      "Construction/transport",
+      "$2M construction",
+      "$15K transport/hippo"
+     ],
+     [
+      "Maintenance",
+      "$5K/hippo/year",
+      "Paid by Duke"
+     ],
+     [
+      "Overhead",
+      "$100K/year",
+      "Not stated"
+     ],
+     [
+      "Revenue",
+      "50K-60K tourists/year at $20",
+      "$1M grant + $10K/hippo/year"
+     ]
+    ]
+   },
+   "key_insight": "Duke has higher stated profit but cannot house 20 hippos; the Colombian campus covers the full problem and generates public spillovers.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is five-year Colombian-campus profit?",
+   "givens": [
+    "50 hippos",
+    "$15K capture",
+    "$2M construction",
+    "$5K maintenance/hippo/year",
+    "$100K overhead/year",
+    "50K-60K tourists/year at $20"
+   ],
+   "steps": [
+    "Costs=$2M+$0.75M+$1.25M+$0.5M=$4.5M",
+    "Revenue=$5M-$6M",
+    "Profit=$0.5M-$1.5M"
+   ],
+   "answer": "$0.5M-$1.5M five-year profit",
+   "answer_value": 1.0,
+   "unit": "USD millions midpoint profit",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is five-year Duke profit?",
+   "givens": [
+    "30 hippos",
+    "$1M grant",
+    "$10K/hippo/year",
+    "$15K capture + $15K transport per hippo"
+   ],
+   "steps": [
+    "Revenue=$1M+30x$10Kx5=$2.5M",
+    "Cost=30x$30K=$0.9M",
+    "Profit=$1.6M"
+   ],
+   "answer": "$1.6M stated profit, excluding the unresolved 20 hippos",
+   "answer_value": 1.6,
+   "unit": "USD millions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Pursue a Colombian sanctuary if the goal is a complete solution: it handles all 50 hippos, earns $0.5M-$1.5M over five years, and can create tourism, jobs, and research. Duke earns a stated $1.6M but houses only 30, leaving 20 and unknown costs. Validate visitor demand, construction, safety, welfare, and a low-attendance contingency.",
+ "what_great_looks_like": [
+  "Includes capture cost in both options",
+  "Calculates the sanctuary range",
+  "Flags Duke capacity",
+  "Balances public value with finance",
+  "Links risks to next steps"
+ ],
+ "common_pitfalls": [
+  "Ignoring the 20 remaining hippos",
+  "Forgetting capture costs for Duke",
+  "Using only one tourist-demand point",
+  "Optimizing only accounting profit",
+  "Ignoring animal and worker safety"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Deduplication verdict was NEW. Both five-year option calculations were independently recomputed and match the source. Industry is classified as public-sector/government rather than the book's Non-Profit label because the client is Colombia's president. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

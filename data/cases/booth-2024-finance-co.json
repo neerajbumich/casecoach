@@ -1,0 +1,432 @@
+{
+ "id": "booth-2024-finance-co",
+ "title": "Finance Co",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  150,
+  156
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "asset-management-pe",
+ "sub_industry": "asset-management",
+ "industry_source_label": "Financial Services / Asset Management",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain",
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3/3; Quant 3/3; Creativity 3/3",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "retirement",
+  "ira",
+  "defined-contribution",
+  "demographics",
+  "market-growth",
+  "rollovers"
+ ],
+ "fit_question": "What are your career goals over the next 5-10 years and how does consulting fit into that? What do you typically do when you move onto a new project?",
+ "prompt": "Finance Co, an international retirement-account asset manager, is considering entering the US market and must choose between Defined Contribution plans such as 401(k)s and Individual Retirement Accounts. Each market currently holds about $3T and earns similar margin per asset dollar. Determine each market's five-year growth outlook and recommend the more attractive entry.",
+ "clarifying_info": [
+  {
+   "question_topic": "Account flows",
+   "answer": "Workers generally accumulate assets in DC plans. At job change or retirement, DC assets can roll into IRAs, but IRA assets cannot roll back into DC plans."
+  },
+  {
+   "question_topic": "Retirement",
+   "answer": "Retirees gradually withdraw their balances."
+  },
+  {
+   "question_topic": "Economics",
+   "answer": "The two markets currently have similar assets and margin per dollar, so relative growth is the central comparison."
+  }
+ ],
+ "interviewer_notes": "Candidate-led market-selection case. Reveal Exhibit 1 first; after population trends are discussed, reveal Exhibits 2 and 3. Reveal Exhibit 4 for the five-year calculation. Exhibit 5 is an optional, independent rollover-sensitivity exercise and is not required for the recommendation.",
+ "suggested_framework": {
+  "summary": "Forecast DC and IRA assets from demographic cohorts and balances, then test market attractiveness and company fit.",
+  "tree": {
+   "label": "US retirement entry",
+   "children": [
+    {
+     "label": "Market growth",
+     "children": [
+      {
+       "label": "Population by age and cohort growth"
+      },
+      {
+       "label": "Balances, contributions, rollovers and withdrawals"
+      }
+     ]
+    },
+    {
+     "label": "Market attractiveness",
+     "children": [
+      {
+       "label": "Margins, competition and regulation"
+      },
+      {
+       "label": "Customer access and competitive response"
+      }
+     ]
+    },
+    {
+     "label": "Finance Co fit",
+     "children": [
+      {
+       "label": "Products, administration, sales and marketing"
+      },
+      {
+       "label": "Capital position and execution risks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you compare the five-year outlook for DC plans and IRAs?",
+   "expected_answer": "Forecast assets by age cohort using population change and average account balance, then incorporate DC contributions, IRA rollovers and retirement withdrawals. Compare growth, margin, competition, regulation, customer access and Finance Co's capabilities.",
+   "good_answer_signals": [
+    "Identifies population as a growth driver",
+    "Distinguishes contributions, rollovers and withdrawals"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do Exhibits 1-3 imply about relative market growth?",
+   "expected_answer": "The fastest-growing cohorts are ages 55-64 and 65-74. DC balances peak at 45-54 and decline later, while IRA balances rise sharply through 65-74 because assets roll over. Aging therefore favors IRA growth.",
+   "good_answer_signals": [
+    "Connects cohort growth to balance profiles",
+    "Forms an IRA-growth hypothesis"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 4, calculate current and five-year DC and IRA market values.",
+   "expected_answer": "Current DC assets are $3.000T and current IRA assets are $2.996T, both approximately $3T. Applying cohort growth produces $3.1935T in DC assets and $3.3558T in IRA assets after five years, rounded to $3.19T and $3.36T.",
+   "good_answer_signals": [
+    "Multiplies population by average cohort balance",
+    "Maintains consistent million-times-thousand equals billion units"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Optional: if $200B of DC lump-sum distributions currently has a 75% rollover rate, and an IRA forecast of $3.1T must fall to $3.05T with all else equal, what rollover rate is required?",
+   "expected_answer": "Current rollovers are 75%×$200B=$150B. Reducing IRA inflow by $50B requires $100B of rollovers, so the rate must be $100B/$200B=50%.",
+   "good_answer_signals": [
+    "Calculates the required dollar reduction",
+    "Gets a 50% rollover rate"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Which market should Finance Co enter?",
+   "expected_answer": "Prioritize IRAs because five-year assets reach about $3.36T versus $3.19T for DC plans and demographic aging reinforces rollover growth. Before entering, assess competition, achievable share, regulation, financial capacity and the fit of products, marketing and sales capabilities.",
+   "good_answer_signals": [
+    "Quantifies the market comparison",
+    "Adds entry feasibility and risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Current US Population by Age Group",
+   "page": 154,
+   "kind": "bar",
+   "description": "Current US population in millions across six age cohorts.",
+   "image_path": "exhibits/booth-2024-finance-co/p154.webp",
+   "image_has_answers": false,
+   "key_insight": "Older cohorts are smaller today, so their growth rates can materially change retirement-asset mix.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Age group",
+     "Population (M)"
+    ],
+    "rows": [
+     [
+      "<35",
+      140
+     ],
+     [
+      "35-44",
+      45
+     ],
+     [
+      "45-54",
+      40
+     ],
+     [
+      "55-64",
+      30
+     ],
+     [
+      "65-74",
+      20
+     ],
+     [
+      "75",
+      20
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex2",
+   "title": "DC Balances by Age Group",
+   "page": 154,
+   "kind": "bar",
+   "description": "Average defined-contribution balance by age cohort in thousands of dollars.",
+   "image_path": "exhibits/booth-2024-finance-co/p154.webp",
+   "image_has_answers": false,
+   "key_insight": "DC balances peak before retirement and fall as assets roll out or are withdrawn.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Age group",
+     "Average DC balance ($K)"
+    ],
+    "rows": [
+     [
+      "<35",
+      1.5
+     ],
+     [
+      "35-44",
+      18
+     ],
+     [
+      "45-54",
+      27
+     ],
+     [
+      "55-64",
+      23
+     ],
+     [
+      "65-74",
+      10.5
+     ],
+     [
+      "75",
+      0
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex3",
+   "title": "IRA Balances by Age Group",
+   "page": 154,
+   "kind": "bar",
+   "description": "Average IRA balance by age cohort in thousands of dollars.",
+   "image_path": "exhibits/booth-2024-finance-co/p154.webp",
+   "image_has_answers": false,
+   "key_insight": "IRA balances are concentrated among older cohorts and peak at ages 65-74.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Age group",
+     "Average IRA balance ($K)"
+    ],
+    "rows": [
+     [
+      "<35",
+      0.4
+     ],
+     [
+      "35-44",
+      4
+     ],
+     [
+      "45-54",
+      7.5
+     ],
+     [
+      "55-64",
+      28
+     ],
+     [
+      "65-74",
+      51
+     ],
+     [
+      "75",
+      30
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex4",
+   "title": "Projected Population Growth Rates by Age Group",
+   "page": 155,
+   "kind": "bar",
+   "description": "Projected cumulative US population growth over the next five years by age cohort.",
+   "image_path": "exhibits/booth-2024-finance-co/p155.webp",
+   "image_has_answers": false,
+   "key_insight": "Ages 55-64 and 65-74 grow fastest, favoring the IRA balance profile.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Age group",
+     "Five-year growth"
+    ],
+    "rows": [
+     [
+      "<35",
+      "5%"
+     ],
+     [
+      "35-44",
+      "-5%"
+     ],
+     [
+      "45-54",
+      "5%"
+     ],
+     [
+      "55-64",
+      "20%"
+     ],
+     [
+      "65-74",
+      "15%"
+     ],
+     [
+      "75",
+      "5%"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex5",
+   "title": "Cash Flows by Market",
+   "page": 155,
+   "kind": "bar",
+   "description": "Composition of $200B in DC lump-sum distributions and $225B in IRA inflows.",
+   "image_path": "exhibits/booth-2024-finance-co/p155.webp",
+   "image_has_answers": false,
+   "key_insight": "DC rollovers are the largest IRA inflow and make IRA growth sensitive to rollover behavior.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Market flow",
+     "Total",
+     "Composition"
+    ],
+    "rows": [
+     [
+      "DC lump-sum distributions",
+      "$200B",
+      "75% rollovers; 5% transferred to new plan; 20% cashed out"
+     ],
+     [
+      "IRA fund inflows",
+      "$225B",
+      "$150B DC rollovers; $75B new contributions"
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are current DC and IRA market assets?",
+   "givens": [
+    "Exhibit 1 cohort populations",
+    "Exhibits 2-3 average balances"
+   ],
+   "steps": [
+    "DC=$210B+$810B+$1,080B+$690B+$210B+$0=$3,000B",
+    "IRA=$56B+$180B+$300B+$840B+$1,020B+$600B=$2,996B"
+   ],
+   "answer": "$3.000T in DC assets and $2.996T in IRA assets, each approximately $3T",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are projected DC and IRA assets in five years?",
+   "givens": [
+    "Current population by cohort",
+    "Average DC and IRA balances",
+    "Five-year cohort growth rates"
+   ],
+   "steps": [
+    "Projected populations (M)=147, 42.75, 42, 36, 23, 21",
+    "DC=$220.5B+$769.5B+$1,134B+$828B+$241.5B+$0=$3,193.5B",
+    "IRA=$58.8B+$171B+$315B+$1,008B+$1,173B+$630B=$3,355.8B"
+   ],
+   "answer": "$3.1935T DC and $3.3558T IRA, or approximately $3.19T and $3.36T",
+   "answer_value": 3.3558,
+   "unit": "USD trillions (IRA)",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What DC rollover rate would reduce projected IRA assets from $3.1T to $3.05T, all else equal?",
+   "givens": [
+    "$200B DC distributions",
+    "Current 75% rollover rate",
+    "$50B required reduction"
+   ],
+   "steps": [
+    "Current rollovers=75%×$200B=$150B",
+    "Required rollovers=$150B-$50B=$100B",
+    "Required rate=$100B/$200B=50%"
+   ],
+   "answer": "50% rollover rate",
+   "answer_value": 50,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "Enter the IRA market. Applying cohort growth to age-specific balances produces about $3.36T in IRA assets after five years versus $3.19T for DC plans, and the aging population supports continued rollovers. Validate achievable share, regulation, competitive response, financial capacity and Finance Co's marketing, sales and product fit before launch.",
+ "what_great_looks_like": [
+  "Links demographic aging to account-balance profiles",
+  "Keeps cohort calculation units consistent",
+  "Separates market growth from entry feasibility"
+ ],
+ "common_pitfalls": [
+  "Chooses based only on current $3T size",
+  "Applies growth rates to balances instead of populations",
+  "Uses the optional rollover exercise as the base forecast"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All five exhibits use candidate-facing pages 154-155 and contain inputs only. The charts' cohort labels are preserved as printed, including '75'. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

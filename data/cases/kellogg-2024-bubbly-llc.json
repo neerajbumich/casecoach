@@ -1,0 +1,463 @@
+{
+ "id": "kellogg-2024-bubbly-llc",
+ "title": "Bubbly LLC",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  86,
+  96
+ ],
+ "author": "Eli Derrow (Kellogg 2021); edited by Kathy Hoe (Kellogg 2021)",
+ "case_type": [
+  "Market Entry",
+  "Profitability"
+ ],
+ "case_type_source_label": "Y04 New product / Market entry; Y07 Profitability",
+ "industry": "cpg",
+ "sub_industry": "household-products",
+ "industry_source_label": "X12 Retail & CPG",
+ "geography": "United States (existing business); Nigeria/West Africa (expansion)",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "profitability",
+  "market-entry",
+  "product-mix",
+  "capacity-constraint",
+  "contribution-margin",
+  "emerging-markets",
+  "cpg",
+  "opportunity-cost"
+ ],
+ "concepts_tested": [
+  "Z04 Capacity (2)",
+  "Z06 Macroeconomics (4)",
+  "Z08 Market Sizing (3)",
+  "Z12 Creativity (4)"
+ ],
+ "fit_question": "Tell me about a time you changed how you went about an analysis due to new information.",
+ "prompt": "Our client, Bubbly LLC, is a company that specializes in low-cost hand soap products distributed only in the United States. The company has one manufacturing facility in the U.S., and last year, 2014, it reached maximum capacity of 1M units. Given the location of their raw materials, Bubbly recently acquired a production facility in Nigeria to double production capacity and reduce costs: products are 20% cheaper than U.S. production including shipping costs. The new plant is not expected to be fully operational until 1 year from today. The CFO has come to us to ask: what immediate steps can be taken to improve profitability as we wait for the second plant to become operational, and given the new factory in Nigeria, what factors should Bubbly consider when deciding if they should enter the West African market with their products?",
+ "clarifying_info": [
+  {
+   "question_topic": "Products",
+   "answer": "Bubbly LLC's products include bar soap, bottled soap (e.g. foam and liquid), and hand sanitizer."
+  },
+  {
+   "question_topic": "Locations/channel",
+   "answer": "Bubbly currently only sells online direct-to-consumer within the United States. They are not considering retail locations."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "It is a competitive and fragmented industry in the U.S., suggesting Bubbly has little room to move on price."
+  },
+  {
+   "question_topic": "Nigerian market entry characteristics/timing",
+   "answer": "At the time of the case (2015), there was a significant outbreak of Ebola Virus Disease in the region. The additional production facility can be used to supply either additional product to the U.S. market or the local West Africa market. Further market information is provided later in the case."
+  },
+  {
+   "question_topic": "Timeline and goal",
+   "answer": "'Immediate steps' is defined as the next three months. Market entry should be profitable within one year. Entering the market will cost an additional $500K (one-time)."
+  }
+ ],
+ "interviewer_notes": "Problem: how can Bubbly LLC improve short- and long-term profitability? Key case steps: (1) develop a structure, (2) analyze the product mix, (3) estimate profits to identify the optimal product mix for the new market, (4) brainstorm market entry considerations, (5) provide CEO/CFO recommendation.",
+ "suggested_framework": {
+  "summary": "Two-pronged structure: short-term, at-capacity product mix optimization in the U.S.; longer-term, whether/how to enter the West Africa market via the new Nigeria plant.",
+  "tree": {
+   "label": "How can Bubbly LLC improve short- and long-term profitability?",
+   "children": [
+    {
+     "label": "Short-term (plant at capacity)",
+     "children": [
+      {
+       "label": "Product profitability (revenue - costs) by product"
+      },
+      {
+       "label": "Trends (which products are growing; cannibalization)"
+      },
+      {
+       "label": "Other: price pressure, fixed/distribution costs, factory efficiency (interviewer can state plant is already at max efficiency)"
+      }
+     ]
+    },
+    {
+     "label": "Longer-term (West Africa market entry)",
+     "children": [
+      {
+       "label": "Market conditions",
+       "children": [
+        {
+         "label": "Size"
+        },
+        {
+         "label": "Growth"
+        },
+        {
+         "label": "Trends"
+        }
+       ]
+      },
+      {
+       "label": "Penetration into the market"
+      },
+      {
+       "label": "Product mix — what is there demand for, what is most profitable, how to promote/distribute"
+      },
+      {
+       "label": "Risks — regulatory, currency, cultural"
+      },
+      {
+       "label": "Capabilities/benefits — synergies, diversification, reputational (Ebola context)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem of how Bubbly should improve profitability in the short term and whether/how they should enter the West African market.",
+   "release_when": "Only after candidate asks — release clarifying content (products, channel, competitive dynamics, Nigeria/Ebola context, timeline and $500K entry cost) on request.",
+   "info_to_release": "Clarifying content: three products (bar soap, bottled soap, hand sanitizer); online D2C only in the U.S.; fragmented, price-competitive U.S. industry; Ebola outbreak context in the West Africa region at the time; 'immediate steps' = next 3 months, market entry should be profitable within 1 year, and entry costs a one-time $500K.",
+   "expected_answer": "A structure with a short-term branch (product profitability by revenue minus cost, and trends/cannibalization, since the plant is at capacity) and a longer-term branch (West Africa market conditions — size/growth/trends; penetration; product mix — demand, profitability, promotion/distribution; risks — regulatory, currency, cultural; capabilities/benefits — synergies, diversification, reputational effects from the Ebola context).",
+   "good_answer_signals": [
+    "Explicitly separates the short-term (capacity-constrained, mix-only) problem from the longer-term (new-market) problem",
+    "Recognizes the plant is at max efficiency so the short-term lever is mix, not capex",
+    "Surfaces risk and capability/benefit buckets for the market-entry side, not just market sizing"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "We have data on the recent pricing and variable costs of the three products, which can be swapped 1:1 in production. How should Bubbly change its U.S. product mix in the near term if they are willing to shift up to 10% of unit production? What would be the annual profitability improvement?",
+   "release_when": "After the structure discussion.",
+   "info_to_release": "Exhibit A (price, variable cost, units sold by product) and Exhibit B (product mix trends by revenue % and units, 2012-2014). If asked: variable costs have not changed over time and fixed costs are irrelevant; recent demand trends are expected to continue (bar soap flat at ~200k units, growth mainly in bottled soap).",
+   "exhibit_ids": [
+    "exA",
+    "exB"
+   ],
+   "expected_answer": "Profit margins: Bar Soap $2.00/unit (33%), Bottled Soap $1.00/unit (15%), Hand Sanitizer $0.05/unit (2.5%). Total profits: Bar Soap $400K, Bottled Soap $720K, Hand Sanitizer $4K. Bar Soap has the highest margin, but Bottled Soap is the biggest absolute contributor; Hand Sanitizer's profitability is extremely low and should be cut. Exhibit B shows nearly all growth coming from Bottled Soap (and hints Bar Soap pricing/margins may be softening). Since products swap 1:1 and only 10% of the 1M-unit capacity (100k units) can shift, Bubbly should shift all 80k units of Hand Sanitizer production to Bottled Soap, within the allowed 10%, for an additional ≈$76K in annual profit.",
+   "good_answer_signals": [
+    "Distinguishes % margin from absolute $ contribution and prioritizes the latter given 1:1 swappable capacity",
+    "Checks the 80k-unit shift against the 10% (100k-unit) cap",
+    "Connects the Exhibit B trend read (growth concentrated in Bottled Soap) back to the mix recommendation"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Bubbly determined there is a one-time $500K cost to enter the West Africa market today. Could Bubbly LLC make a profit within the next year from a West Africa market entry?",
+   "release_when": "After the U.S. product-mix analysis is complete.",
+   "info_to_release": "Exhibit C (West Africa market size, average price, and anticipated penetration by product), plus Nigeria-plant variable costs (80% of U.S. variable cost, i.e. 20% cheaper). If asked: costs are not expected to be lowered any further.",
+   "exhibit_ids": [
+    "exC"
+   ],
+   "expected_answer": "Bar Soap: Nigeria variable cost = 80% x $4.00 = $3.20; margin = $4.50 - $3.20 = $1.30 (28%); revenue = $100M x 0.9% = $900K; units = $900K/$4.50 = 200K; profit = 200K x $1.30 = $260K. Bottled Soap: Nigeria variable cost = 80% x $5.50 = $4.40, which exceeds the $4.00 market price — negative margin, so Bottled Soap should be disregarded for West Africa. Hand Sanitizer: Nigeria variable cost ≈ 80% x $1.95 ≈ $1.50-$1.60 (a 20% discount off $1.95 isn't a round number); margin ≈ $0.40 (20%); revenue = $40M x 3.5% = $1.4M; units = $1.4M/$2.00 = 700K; profit = 700K x $0.40 = $280K. Total first-year profit from Bar Soap + Hand Sanitizer = $260K + $280K = $540K, which exceeds the one-time $500K entry cost — entry is profitable (net ≈$40K in year one, ≈$540K/year thereafter). U.S. demand trends mean the opportunity cost of dedicating Nigeria capacity to West Africa is minimal in the medium term. Bonus: the 80K units of Hand Sanitizer freed up from U.S. production (Part 2) can instead be produced with Nigeria's remaining capacity for an additional 80K x $0.40 = $32K of profit.",
+   "good_answer_signals": [
+    "Immediately screens out Bottled Soap once its Nigeria-plant margin comes out negative",
+    "Correctly backs into market entry units from market size x penetration / price, not the reverse",
+    "Compares total product profits ($540K) against the one-time $500K entry cost to reach a clear go/no-go",
+    "Connects the freed-up U.S. hand-sanitizer capacity to incremental Nigeria production for the bonus $32K insight"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Bubbly has agreed to move forward with selling their product in the West Africa market. What factors should they consider during implementation?",
+   "expected_answer": "A 4Ps framework: Product (market trends, e.g. hand sanitizer viewed as an epidemic-preferred product; whether to add products like detergent); Price (whether to price above/below the given average market prices); Place (currently online-only in the U.S. — could they gain share via retail or third-party selling in West Africa?); Promotion (initial discounts or loyalty programs; advertising approach). Additional factors: brand awareness, reputational impact, price arbitrage concerns (same product priced lower in a different region), and time horizon (e.g. if U.S. growth continues, would Bubbly eventually ramp down West Africa supply to serve U.S. demand?).",
+   "good_answer_signals": [
+    "Uses a clear framework (4Ps) rather than an unstructured list",
+    "Raises price arbitrage explicitly, given the price gap between U.S. and West Africa pricing",
+    "Connects West Africa decisions back to their impact on the U.S. business rather than treating the markets independently"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the CFO, who is walking into the room now (if asked, do not allow time to write it down).",
+   "expected_answer": "Bubbly LLC should shift U.S. production of Hand Sanitizer to Bottled Soap and should enter the West Africa market. Shifting Hand Sanitizer to Bottled Soap production in the U.S. increases profitability by $76K. Bubbly should enter West Africa with Bar Soap and Hand Sanitizer, for $40K in profit in year one and ~$540K/year thereafter. Risks: price arbitrage on regional pricing; whether Bubbly would need to exit West Africa as U.S. growth continues to absorb Nigeria capacity. Mitigations: conduct further market entry analysis using true (non-discounted) U.S. pricing assumptions; consider building additional West Africa plant capacity given demand.",
+   "good_answer_signals": [
+    "Recommendation is specific and quantified (both the $76K U.S. mix shift and the $40K/$540K West Africa entry)",
+    "Names at least one concrete risk and a paired mitigation, not just a list of concerns",
+    "Recognizes that with only ~10% U.S. growth/year, the Nigeria plant will have significant idle capacity best used for West Africa rather than sitting unused or forcing a U.S. plant shutdown due to its higher variable costs",
+    "Recognizes that with 1:1 swappable production, Bubbly should optimize for absolute $ margin rather than % margin"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Bubbly U.S. Product Mix Financials (2014)",
+   "page": 89,
+   "kind": "table",
+   "description": "Table of price per unit, variable cost per unit, and units sold in 2014 for Bar Soap, Bottled Soap, and Hand Sanitizer.",
+   "data": {
+    "columns": [
+     "Product",
+     "Price/Unit",
+     "Variable Cost/Unit",
+     "Units Sold"
+    ],
+    "rows": [
+     [
+      "Bar Soap",
+      "$6.00",
+      "$4.00",
+      200000
+     ],
+     [
+      "Bottled Soap",
+      "$6.50",
+      "$5.50",
+      720000
+     ],
+     [
+      "Hand Sanitizer",
+      "$2.00",
+      "$1.95",
+      80000
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-bubbly-llc/p089.webp",
+   "key_insight": "Bar Soap has by far the highest per-unit margin, while Hand Sanitizer's margin is razor-thin ($0.05/unit) despite meaningful volume — a strong candidate for cutting.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exB",
+   "title": "Bubbly U.S. Product Mix Trends (2012-2014)",
+   "page": 90,
+   "kind": "bar",
+   "description": "Two stacked bar charts by year (2012-2014): % of revenue by product, and number of units sold by product, for Bar Soap, Bottled Soap, and Hand Sanitizer. Total units sold grow from ~840k (2012) to ~900k (2013) to 1,000,000/at-capacity (2014); Bar Soap's share of revenue declines from ~25% to ~20% over the period while Bottled Soap's share grows correspondingly.",
+   "data": {
+    "columns": [
+     "Year",
+     "Total units sold (approx.)",
+     "Bar Soap revenue share (approx.)"
+    ],
+    "rows": [
+     [
+      "2012",
+      840000,
+      "25%"
+     ],
+     [
+      "2013",
+      900000,
+      "21%"
+     ],
+     [
+      "2014",
+      1000000,
+      "20%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-bubbly-llc/p090.webp",
+   "key_insight": "Nearly all unit and revenue growth from 2012-2014 comes from Bottled Soap; Bar Soap's declining revenue share alongside flattish units suggests its price/margin may be under pressure.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "exC",
+   "title": "West Africa Market Entry Financials (2014)",
+   "page": 91,
+   "kind": "bar",
+   "description": "Bar chart of West Africa market size (USD) by product (Bar Soap ~$100M, Bottled Soap ~$65M, Hand Sanitizer ~$40M), with a table below giving average market price and anticipated penetration rate for each product.",
+   "data": {
+    "columns": [
+     "Product",
+     "West Africa market size",
+     "Average price",
+     "Anticipated penetration"
+    ],
+    "rows": [
+     [
+      "Bar Soap",
+      "$100,000,000",
+      "$4.50",
+      "0.9%"
+     ],
+     [
+      "Bottled Soap",
+      "$65,000,000",
+      "$4.00",
+      "5.0%"
+     ],
+     [
+      "Hand Sanitizer",
+      "$40,000,000",
+      "$2.00",
+      "3.5%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-bubbly-llc/p091.webp",
+   "key_insight": "Bar Soap has the largest addressable market but the lowest anticipated penetration; Bottled Soap looks attractive on market size and penetration alone but turns out unprofitable once Nigeria-plant variable costs are applied.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "us-product-margins",
+   "question": "What is the per-unit margin and total annual profit for each U.S. product in 2014?",
+   "givens": [
+    "Bar Soap: price $6.00, variable cost $4.00, 200,000 units",
+    "Bottled Soap: price $6.50, variable cost $5.50, 720,000 units",
+    "Hand Sanitizer: price $2.00, variable cost $1.95, 80,000 units"
+   ],
+   "steps": [
+    "Bar Soap margin = 6.00 - 4.00 = $2.00/unit (33%); total profit = 200,000 x 2.00 = $400,000",
+    "Bottled Soap margin = 6.50 - 5.50 = $1.00/unit (15%); total profit = 720,000 x 1.00 = $720,000",
+    "Hand Sanitizer margin = 2.00 - 1.95 = $0.05/unit (2.5%); total profit = 80,000 x 0.05 = $4,000"
+   ],
+   "answer": "Bar Soap $400K profit (33% margin); Bottled Soap $720K profit (15% margin); Hand Sanitizer $4K profit (2.5% margin).",
+   "unit": "$ (2014 annual profit by product)",
+   "verified": true
+  },
+  {
+   "id": "us-mix-shift-benefit",
+   "question": "What is the annual profitability improvement from shifting Hand Sanitizer production to Bottled Soap (up to a 10% production shift)?",
+   "givens": [
+    "Products are swappable 1:1 in production",
+    "Shift is capped at 10% of 1M units = 100,000 units",
+    "Hand Sanitizer production = 80,000 units at $0.05/unit margin",
+    "Bottled Soap margin = $1.00/unit"
+   ],
+   "steps": [
+    "80,000 units of Hand Sanitizer is within the 100,000-unit (10%) cap",
+    "New profit as Bottled Soap = 80,000 x $1.00 = $80,000",
+    "Profit given up as Hand Sanitizer = 80,000 x $0.05 = $4,000",
+    "Net improvement = $80,000 - $4,000 = $76,000"
+   ],
+   "answer": "≈$76K additional annual profit from shifting all 80,000 Hand Sanitizer units to Bottled Soap.",
+   "answer_value": 76000,
+   "unit": "$/year",
+   "verified": true
+  },
+  {
+   "id": "wa-bar-soap",
+   "question": "What is Bar Soap's West Africa profit potential in year one?",
+   "givens": [
+    "Market price = $4.50",
+    "Nigeria plant variable cost = 80% x U.S. cost ($4.00) = $3.20",
+    "Market size = $100M",
+    "Anticipated penetration = 0.9%"
+   ],
+   "steps": [
+    "Margin = 4.50 - 3.20 = $1.30/unit (≈28%)",
+    "Estimated revenue = $100M x 0.9% = $900,000",
+    "Units = $900,000 / $4.50 = 200,000",
+    "Total profit = 200,000 x $1.30 = $260,000"
+   ],
+   "answer": "≈$260K profit from 200,000 units of Bar Soap in West Africa.",
+   "answer_value": 260000,
+   "unit": "$/year",
+   "verified": true
+  },
+  {
+   "id": "wa-bottled-soap-screen",
+   "question": "Is Bottled Soap viable for the West Africa market?",
+   "givens": [
+    "Market price = $4.00",
+    "Nigeria plant variable cost = 80% x U.S. cost ($5.50) = $4.40"
+   ],
+   "steps": [
+    "Margin = 4.00 - 4.40 = -$0.40/unit — negative"
+   ],
+   "answer": "No — Bottled Soap has a negative margin in West Africa (variable cost $4.40 exceeds the $4.00 market price) and should be disregarded.",
+   "answer_value": -0.4,
+   "unit": "$/unit margin",
+   "verified": true
+  },
+  {
+   "id": "wa-hand-sanitizer",
+   "question": "What is Hand Sanitizer's West Africa profit potential in year one?",
+   "givens": [
+    "Market price = $2.00",
+    "Nigeria plant variable cost = 80% x U.S. cost ($1.95) ≈ $1.50-$1.60 (not a round number)",
+    "Market size = $40M",
+    "Anticipated penetration = 3.5%"
+   ],
+   "steps": [
+    "Margin ≈ 2.00 - 1.56 ≈ $0.40-$0.50/unit; book estimates ≈$0.40/unit (20%)",
+    "Estimated revenue = $40M x 3.5% = $1,400,000",
+    "Units = $1,400,000 / $2.00 = 700,000",
+    "Total profit ≈ 700,000 x $0.40 = $280,000"
+   ],
+   "answer": "≈$280K profit from 700,000 units of Hand Sanitizer in West Africa.",
+   "answer_value": 280000,
+   "unit": "$/year",
+   "verified": true
+  },
+  {
+   "id": "wa-entry-decision",
+   "question": "Is West Africa market entry profitable within the first year, net of the $500K one-time entry cost?",
+   "givens": [
+    "Bar Soap profit = $260K",
+    "Hand Sanitizer profit = $280K",
+    "One-time entry cost = $500K"
+   ],
+   "steps": [
+    "Total product profit = 260,000 + 280,000 = $540,000",
+    "Net year-1 profit = 540,000 - 500,000 = $40,000"
+   ],
+   "answer": "Yes — total product profit of $540K exceeds the $500K one-time entry cost, netting ≈$40K in year one and ≈$540K/year thereafter (once the one-time cost is not recurring).",
+   "answer_value": 40000,
+   "unit": "$ (net year-1 profit)",
+   "verified": true
+  },
+  {
+   "id": "wa-bonus-idle-capacity",
+   "question": "Bonus: what additional profit is available from producing the freed-up 80K units of Hand Sanitizer (previously shifted out of U.S. production) in Nigeria instead?",
+   "givens": [
+    "80,000 units of Hand Sanitizer production freed up in the U.S. (Part 2)",
+    "Nigeria Hand Sanitizer margin ≈ $0.40/unit"
+   ],
+   "steps": [
+    "Additional profit = 80,000 x $0.40 = $32,000"
+   ],
+   "answer": "≈$32K of additional profit by producing the freed-up 80K Hand Sanitizer units in Nigeria using remaining/idle capacity.",
+   "answer_value": 32000,
+   "unit": "$/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Bubbly LLC should shift U.S. production of Hand Sanitizer to Bottled Soap and should enter the West Africa market. Shifting Hand Sanitizer production to Bottled Soap in the U.S. increases profitability by $76K. Bubbly should enter the West Africa market with Bar Soap and Hand Sanitizer, generating $40K in profit in the first year and ~$540K/year thereafter. Risks include price arbitrage on regional pricing and whether Bubbly would need to exit West Africa as U.S. growth continues to consume Nigeria plant capacity. Mitigation steps include conducting further market entry analysis using true (non-discounted) U.S. pricing assumptions and considering additional West Africa plant capacity given demand.",
+ "what_great_looks_like": [
+  "Immediately recognizes Hand Sanitizer production in the U.S. should stop given its razor-thin margin",
+  "Recognizes that with only ~10% annual U.S. growth, the Nigeria plant will have significant idle capacity — otherwise the higher-cost U.S. plant would need to be shut down",
+  "Recognizes at minimum that future Hand Sanitizer production should move entirely to the Nigeria plant given its higher margin, and connects this to context like the Ebola crisis",
+  "Understands that with 1:1 swappable production, Bubbly should optimize for absolute $ margin, not % margin",
+  "Lays out tables clearly and completes fairly complex calculations at a fast pace"
+ ],
+ "common_pitfalls": [
+  "Optimizing the U.S. product mix shift on % margin (favoring Bar Soap) rather than absolute $ contribution",
+  "Missing that Bottled Soap becomes unprofitable once Nigeria's lower price point is paired with its Nigeria variable cost, and including it in the West Africa mix anyway",
+  "Forgetting to net the one-time $500K entry cost against first-year West Africa profits when making the go/no-go call",
+  "Treating the West Africa decision in isolation without connecting it back to U.S. capacity and demand trends",
+  "Missing the 10%/100,000-unit cap on how much U.S. production can be shifted between products"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[exB].data — stacked bar/line values are approximate reads from the chart image rather than a text table",
+   "math[wa-hand-sanitizer].answer_value — book itself gives only a range ($1.50-$1.60) for the Nigeria hand sanitizer variable cost"
+  ],
+  "math_verified": true,
+  "notes": "The book's Hand Sanitizer West Africa variable cost is presented as an estimated range ($1.50-$1.60) rather than a single figure, since 20% off $1.95 is not round; the ~$0.40/20% margin and downstream $280K/$540K/$40K figures are taken as given from the book and are internally consistent with that range.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "common_pitfalls"
+  ]
+ }
+}

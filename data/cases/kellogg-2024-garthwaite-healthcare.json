@@ -1,0 +1,222 @@
+{
+ "id": "kellogg-2024-garthwaite-healthcare",
+ "title": "Garthwaite Healthcare",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  162,
+  169
+ ],
+ "author": "Aaron Mowery (Kellogg 2013); edited by Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "garthwaite-healthcare",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability"
+ ],
+ "case_type_source_label": "Y07 Profitability",
+ "industry": "health-insurance",
+ "sub_industry": "payers",
+ "industry_source_label": "X08 Healthcare",
+ "geography": "US (Midwest)",
+ "client_type": "non-profit",
+ "format": "interviewer-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "cost-reduction",
+  "fixed-vs-variable-costs",
+  "insurance",
+  "commission-structure",
+  "brainstorming"
+ ],
+ "concepts_tested": [
+  "Z12 Creativity",
+  "Z15 Supply/value chain",
+  "Z16 Vertical integration"
+ ],
+ "fit_question": "Tell me about a time when you had to come up with a creative solution for a problem.",
+ "prompt": "Our client is Garthwaite Healthcare Co (GHC), a health insurance firm located in the Midwest. Customers pay GHC a fixed monthly premium per person covered under the plan. In exchange, GHC pays for all health services that each member requires (e.g. physician care, prescription medications, hospitalization). In recent years, GHC's financial and competitive position has begun to decline, and the CEO has retained our firm to help them determine what is causing the problem and how to fix it. How can GHC reduce its total cost to serve its policy holders?",
+ "clarifying_info": [
+  {
+   "question_topic": "Client characteristics",
+   "answer": "GHC is a mutual insurance company, meaning profits are returned to members in the form of lower premiums the following year. As such, GHC does not seek to maximize profit -- it seeks to minimize cost, but does expect to earn a 5% profit margin. GHC's prices reflect underwriting of risk and the underlying cost to serve a customer."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "Market share is steady, despite the presence of major national health insurance company UHC (which has 30% share)."
+  },
+  {
+   "question_topic": "Industry economics",
+   "answer": "National medical cost inflation is 10% over the past 5 years. GHC's cost increase in this period is 12% and UHC's is 10%."
+  }
+ ],
+ "interviewer_notes": "Problem: How can GHC reduce its total cost to serve its policy holders? Problem-solving steps: 1) Develop a structure to address the problem, 2) Brainstorm medical cost sources and solutions, 3) Calculate administrative costs, 4) Develop commission sharing arrangement, 5) Provide client recommendation. Provide all clarifying information even if the interviewee does not request it.",
+ "suggested_framework": {
+  "summary": "The interviewee should determine revenue is not relevant (premiums are set to cost, not profit-maximizing) and focus the structure on cost, split into variable medical costs and fixed administrative costs.",
+  "tree": {
+   "label": "Reduce GHC total cost to serve",
+   "children": [
+    {
+     "label": "Variable costs (medical costs)",
+     "children": [
+      {
+       "label": "Number of claims per customer"
+      },
+      {
+       "label": "Number of claimants (% of customers claiming)"
+      },
+      {
+       "label": "Cost per claim"
+      }
+     ]
+    },
+    {
+     "label": "Fixed costs (administrative costs)",
+     "children": [
+      {
+       "label": "Marketing & sales (incl. commissions)"
+      },
+      {
+       "label": "Underwriting"
+      },
+      {
+       "label": "Finance"
+      },
+      {
+       "label": "HR"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem: how can GHC reduce its total cost to serve its policy holders?",
+   "expected_answer": "The interviewee should determine that revenue is not relevant to this case (GHC is a mutual insurer that prices to cost, not profit maximization) and focus on cost. Costs break into fixed costs (administrative costs, e.g. marketing & sales, underwriting, finance, HR) and variable costs (medical costs -- claims made by policyholders). The candidate should note the need to understand how these costs have changed in recent years.",
+   "good_answer_signals": [
+    "Recognizes revenue is a red herring given the mutual insurer structure",
+    "Splits costs into fixed (administrative) and variable (medical)",
+    "Frames the need to compare cost trends to industry benchmarks"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "Medical costs are the largest component of GHC's costs. However, GHC's medical costs are increasing faster than the national average. What are some potential reasons why this is taking place? What potential opportunities could you explore to reverse this trend?",
+   "info_to_release": "Medical cost = (Number of claims per customer) x (Number of claimants, i.e. % of customers claiming) x (Cost per claim).",
+   "expected_answer": "Problems: GHC customers are sicker on average and older than average (more claims/claimants); low deductibles incentivize more claims on average; GHC pays more per procedure than average (higher cost per claim). Solutions: enhance wellness programs, introduce pre-enrollment diagnosis to improve cost estimates; increase marketing efforts toward younger customers, increase deductibles; conduct a benchmarking study to determine competitors' costs.",
+   "good_answer_signals": [
+    "Structures brainstorm around the three drivers of the medical cost equation",
+    "Generates solutions mapped to each driver"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "GHC administrative costs are also higher than average. The biggest driver of this is high cost of sales. GHC policies are sold through independent agents, each of which works with a General Agency that acts as a sales support organization. How much does GHC pay in commissions each year? What are some potential approaches GHC could take to reduce its cost of sales, and what potential strategic issues exist with these approaches?",
+   "release_when": "After the interviewee explains how they would calculate commission expense",
+   "info_to_release": "Commission (10% of annual premiums) is paid to the General Agency, which passes a share to the independent agent. Total commission paid is, on average, $25 per agent, per month. There are 500,000 agents.",
+   "exhibit_ids": [],
+   "expected_answer": "Total commission expense = $25 x 500,000 agents x 12 months = $150,000,000. Approaches to reduce cost of sales: reduce commission percentage; cap commission to a certain level per year; change commissions from percent of premium to a flat fee (that increases annually with inflation). Issues: agents could shift business from GHC to another carrier that pays higher commission; agents would lose incentive to sell if their commission is capped.",
+   "good_answer_signals": [
+    "Correctly multiplies $25 x 500,000 x 12",
+    "Identifies at least two approaches and matching strategic risks"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "The team has decided to pay a flat commission directly to agents, and to pay the General Agencies a separate fee for the support services they provide to agents. If the total commission paid to both parties is set at $20 per member per month, what share should be given to the General Agencies?",
+   "release_when": "If the interviewee asks, explain they should find the maximum amount that should be allocated to the General Agencies",
+   "info_to_release": "General Agencies perform three activities: training, application processing, and performance management. If GHC were to perform these activities internally, they would cost: Training $6,000,000; Application processing $9,000,000; Performance management $15,000,000. There are 500,000 members and 12 months in a year.",
+   "expected_answer": "The total cost of the activities that General Agencies perform is $30,000,000 (= $6,000,000 + $9,000,000 + $15,000,000). The maximum amount GHC should be willing to pay the General Agencies is the per-member-per-month cost of these activities: $30,000,000 / (500,000 x 12) = $5 per member per month.",
+   "good_answer_signals": [
+    "Sums the three activity costs to $30,000,000",
+    "Correctly divides by (members x months) to reach $5 PMPM"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Taking into account what you've learned thus far as well as your own additional hypotheses, what initiatives would you recommend to the CEO at this point?",
+   "expected_answer": "Our client should take action to reduce both medical costs and administrative costs: enhance marketing efforts to attract more young customers and bring down average claims per member; conduct a benchmarking study to determine opportunities for reductions in payments for medical services; change the commission structure to a flat fee per member per month, which reduces commission expense while keeping agents' incentive to sell.",
+   "good_answer_signals": [
+    "Synthesizes into a small number of clear, prioritized initiatives",
+    "Ties recommendations back to both cost levers explored earlier"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much does GHC pay in commissions each year?",
+   "givens": [
+    "Total commission paid averages $25 per agent, per month",
+    "There are 500,000 agents"
+   ],
+   "steps": [
+    "Total commission expense = $25 per agent per month x 500,000 agents x 12 months"
+   ],
+   "answer": "$150,000,000 per year",
+   "answer_value": 150000000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the maximum per-member-per-month amount GHC should pay the General Agencies for training, application processing, and performance management?",
+   "givens": [
+    "Internal cost of training = $6,000,000",
+    "Internal cost of application processing = $9,000,000",
+    "Internal cost of performance management = $15,000,000",
+    "500,000 members, 12 months per year"
+   ],
+   "steps": [
+    "Total activity cost = $6,000,000 + $9,000,000 + $15,000,000 = $30,000,000",
+    "Per member per month cost = $30,000,000 / (500,000 x 12)"
+   ],
+   "answer": "$5 per member per month",
+   "answer_value": 5,
+   "unit": "USD PMPM",
+   "verified": true
+  }
+ ],
+ "synthesis": "Our client should take action to reduce both medical costs and administrative costs: enhance marketing efforts to attract more young customers and bring down the average claims per member; conduct a benchmarking study to determine opportunities for reductions in payments for medical services; and change the commission structure to a flat fee per member per month, which reduces commission expense while keeping an agent's incentive to sell more business.",
+ "what_great_looks_like": [
+  "Demonstrates the ability to analyze issues using a clear structure and draws out the implications of the analysis",
+  "Recognizes revenue is a red herring given GHC's mutual-insurer pricing model",
+  "Keeps track of units cleanly through the commission and General Agency calculations"
+ ],
+ "common_pitfalls": [
+  "Spending time exploring revenue growth levers instead of focusing on cost",
+  "Failing to separate fixed (administrative) from variable (medical) costs",
+  "Losing track of units (per agent vs. per member, monthly vs. annual) in the commission math"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "No exhibits/rendered pages for this case (render_pages empty); all data is textual. Book explicitly labels this case Interviewer-led and gives an 'Experience' fit-style question instead of the usual 'Fit:' label; treated as fit_question per instructions.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "suggested_framework.tree",
+   "client_type",
+   "geography"
+  ]
+ }
+}

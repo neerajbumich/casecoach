@@ -1,0 +1,489 @@
+{
+ "id": "kellogg-2024-kellogg-klogs",
+ "title": "Kellogg Klogs",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  227,
+  240
+ ],
+ "author": "AnnaClare Smith (Kellogg 2022); edited by Eli Derrow (Kellogg 2021)",
+ "variant_group_id": "kellogg-klogs",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Pricing",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Y04 New product / Market entry",
+ "industry": "retail",
+ "sub_industry": "apparel-footwear",
+ "industry_source_label": "X12 Retail & CPG",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "pricing-strategy",
+  "sustainability-premium",
+  "competitive-benchmarking",
+  "breakeven",
+  "warranty-economics",
+  "brand-positioning"
+ ],
+ "concepts_tested": [
+  "Z14 Pricing strategy",
+  "Z12 Creativity",
+  "Z10 Customer marketing strategy",
+  "Z03 Breakeven analysis"
+ ],
+ "fit_question": "Tell me about a time that you disagreed with your supervisor. How did you resolve the situation?",
+ "prompt": "Our client, Kellogg Klogs, is a startup that has received significant funding to launch the market's first eco-friendly, stylish clogs, produced from sustainable plant-based materials. Kellogg Klogs already has a perfect sustainable prototype ready to launch. The shoe has received positive feedback from beta testers and investors. The CMO has come to us to ask, how should Kellogg Klogs price the shoe?",
+ "clarifying_info": [
+  {
+   "question_topic": "Timeline and goal",
+   "answer": "Kellogg Klogs wants to launch as soon as possible (within the next quarter). The company's goal is to maximize revenue and market penetration; for now they are not concerned about profitability."
+  },
+  {
+   "question_topic": "Cost",
+   "answer": "It costs Kellogg Klogs $70 to produce a pair of clogs."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "The clogs are made of sustainable plant-based materials, a novel substitute for leather lauded by animal-rights activists. The shoes are unisex and come in one color -- purple."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Kellogg Klogs is based in San Francisco, plans to sell direct-to-consumer in the US, and is open to launching a few retail locations."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are 4 main competitors in the clog market, none using sustainable materials or production methods; competitors are not expected to adjust prices in response to Kellogg Klogs entering the market."
+  },
+  {
+   "question_topic": "Customer",
+   "answer": "Kellogg Klogs is targeting millennial consumers and young working professionals."
+  }
+ ],
+ "interviewer_notes": "Problem: What is the maximum price Kellogg Klogs can charge without losing target customers to non-sustainable competitors -- i.e. what sustainability premium can they charge? The case forces the interviewee to think about the trade-offs of sustainability: customers expect to pay more for eco-friendly products, but how much more? Problem-solving steps: 1) Develop structure, 2) Analyze competitor pricing, 3) Examine sustainability premium on various products to calculate optimal price, 4) Brainstorm how to improve competitive advantage, 5) Calculate warranty breakeven, 6) Provide client recommendation.",
+ "suggested_framework": {
+  "summary": "A pricing framework combining cost-based, value-based, and competitor-based pricing, plus other considerations and risks.",
+  "tree": {
+   "label": "How should Kellogg Klogs price the clogs?",
+   "children": [
+    {
+     "label": "Cost-Based",
+     "children": [
+      {
+       "label": "Per-unit costs, desired profit margin"
+      },
+      {
+       "label": "Cost drivers: VC vs FC (sustainable-design R&D, new material input costs, whether FC declines over time)"
+      }
+     ]
+    },
+    {
+     "label": "Value-Based",
+     "children": [
+      {
+       "label": "Customer willingness-to-pay and price elasticity of demand"
+      },
+      {
+       "label": "How much is the sustainability premium worth to customers?"
+      }
+     ]
+    },
+    {
+     "label": "Competitor-Based",
+     "children": [
+      {
+       "label": "Industry average price for non-sustainable clogs"
+      },
+      {
+       "label": "Pricing of substitutes (sneakers, sandals, boots) for the same target customer"
+      },
+      {
+       "label": "Industry benchmarks for sustainability premiums"
+      }
+     ]
+    },
+    {
+     "label": "Other Considerations & Risks",
+     "children": [
+      {
+       "label": "Competitor reaction: lower prices, launch of a sustainable alternative"
+      },
+      {
+       "label": "Image/brand impact of the chosen price"
+      },
+      {
+       "label": "Consumer preferences: quality not worth the premium, shifting preferences"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem: how should Kellogg Klogs price the shoe?",
+   "expected_answer": "The structure should cover: 1) the main elements of pricing strategy (cost-based, value-based, competitor-based), 2) the price premium often associated with green products, and 3) risks associated with pricing (competitor reaction, brand image, shifting consumer preferences).",
+   "good_answer_signals": [
+    "Covers all three classic pricing angles (cost/value/competitor)",
+    "Explicitly calls out the green/sustainability premium as a distinct consideration"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "The client has data on the average prices of comparable clogs and sandals. How should Kellogg Klogs use this information to start working towards an optimal price?",
+   "release_when": "Provide Exhibit A once the interviewee has asked about competitor-based pricing",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "The exhibit is intentionally busy -- the interviewee should digest it and ignore superfluous information (e.g. founding date, location) while identifying the target customer (millennials/young professionals) and choosing the best comparable(s). Company C shares a similar target demographic but Company D is the industry leader/quality benchmark, so Kellogg Klogs should use the average of C & D as its baseline price: (100+75)/2 = $87.50. If the interviewee picks only one company, suggest the blended average of both instead.",
+   "good_answer_signals": [
+    "Filters out irrelevant columns (location, founding date, growth rate) rather than getting distracted",
+    "Selects Companies C and D as the right comparables based on demographic fit and market leadership, and averages them"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "The client has consulted with other firms to determine various average industry-wide 'green premiums' customers are willing to pay. How can Kellogg Klogs use this information to price its product?",
+   "release_when": "Provide Exhibit B once the interviewee suggests considering the sustainability added value; note there is no sustainability-premium data for the shoe market specifically, as this is the first product of its kind",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Green premiums increase with the price and purchase-durability/frequency of the product, so the interviewee should pick the category most comparable to shoes in price and purchase frequency: Beauty Care (~10% premium, ~$55 average price, purchased about once a year). Applying a 10% premium to the $87.50 competitor baseline: $87.50 x 110% = $96.25 optimal price.",
+   "good_answer_signals": [
+    "Selects Beauty Care as the best proxy category rather than defaulting to Automotive (highest premium) or Food (lowest)",
+    "Correctly applies the 10% premium to the $87.50 baseline to reach $96.25"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Is $96.25 a viable price point for Kellogg Klogs' target millennial demographic? What are the key purchasing criteria for these consumers?",
+   "release_when": "Provide Exhibit C once the interviewee questions whether $96.25 is viable for the target demographic",
+   "exhibit_ids": [
+    "exC"
+   ],
+   "expected_answer": "Exhibit C compares Kellogg Klogs to Companies C and D at $96.25 against millennial purchase criteria (price for value, sustainability, quality, brand) weighted by importance. Kellogg Klogs outperforms Company C on sustainability but underperforms on price, quality, and brand; it outperforms Company D on price and sustainability but underperforms on quality and brand. Brand matters little to millennials so underperformance there is not a major concern, but quality does matter. Takeaway: $96.25 is an appropriate price -- it beats Company D on price and Company C on sustainability, so Kellogg Klogs should capture millennial share from both -- but Kellogg Klogs should work to improve quality perception to strengthen its competitive advantage.",
+   "good_answer_signals": [
+    "Reads the multi-series chart correctly against the importance-weighted criteria rather than just eyeballing raw scores",
+    "Correctly discounts the brand gap as low-importance while flagging the quality gap as worth addressing"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How can Kellogg Klogs improve its competitive advantage, focusing on price, quality, and brand?",
+   "expected_answer": "Price: lower price to undercut both Company C and Company D. Quality: bolster perceived quality through customer testimonials and warranty programs, and place retail locations near stores associated with high quality. Brand: build brand recognition through loyalty programs, strategic partnerships, and targeted ads (lower priority given millennials weight brand less, but still potentially valuable).",
+   "good_answer_signals": [
+    "Generates ideas across price, quality, and brand rather than just one dimension",
+    "Proactively suggests a warranty program under quality, leading into the next stage"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "The client likes the idea of a warranty program in which a customer can replace their clogs with a brand-new pair if there are quality defects. What is the longest warranty Kellogg Klogs can offer and remain profitable on each pair sold?",
+   "release_when": "Provide Exhibit D when the interviewee mentions a warranty program",
+   "exhibit_ids": [
+    "exD"
+   ],
+   "expected_answer": "Unit profit at $96.25 price and $70 cost = $26.25. Expected value of a claim in a given warranty year = % expected claims x $70 replacement cost: Year 1 = $7.00, Year 2 = $14.00, Year 3 = $21.00, Year 4 = $28.00. Net expected profit per pair = unit profit - expected claim value: Year 1 = $19.25, Year 2 = $12.25, Year 3 = $5.25, Year 4 = -$1.75 (loses money). Kellogg Klogs would start losing money on each pair sold after Year 4, so it should offer a 3-year warranty (still profitable, at $5.25 net expected profit per pair) -- consistent with not being focused on maximizing profitability.",
+   "good_answer_signals": [
+    "Correctly computes expected claim value as probability x replacement cost, not just the raw claim percentage",
+    "Identifies Year 3 as the longest warranty year that remains net-profitable"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "The CMO is about to enter the room -- what is your recommendation?",
+   "expected_answer": "Kellogg Klogs should price the clogs at $96.25 per pair and include a 3-year warranty with each purchase. $96.25 is appropriate because it uses Companies C/D as a competitive baseline and assumes a 10% sustainability premium. The 3-year warranty eases quality concerns and strengthens competitive advantage while still breaking even (net positive) on each pair sold. Risks: consumers may not be willing to pay the 10% premium for apparel, competitors could react, and the expected warranty claim rate could rise. Next steps: a pilot study to confirm $96.25 is the right price, a distribution plan (DTC vs. retail locations), and a sensitivity analysis on the green premium and expected warranty claims.",
+   "good_answer_signals": [
+    "Delivers a single clear price + warranty recommendation, not just a range",
+    "Ties the recommendation back to the specific math from each stage",
+    "Flags concrete risks and next steps rather than stopping at the price number"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Competitor Pricing (2020)",
+   "page": 230,
+   "kind": "table",
+   "description": "Price per clog, location, founding date, US market share, growth rate, and customer demographics for 4 competitors (A-D) in the clog market.",
+   "data": {
+    "columns": [
+     "",
+     "Company A",
+     "Company B",
+     "Company C",
+     "Company D"
+    ],
+    "rows": [
+     [
+      "Price per clog",
+      "$175",
+      "$50",
+      "$75",
+      "$100"
+     ],
+     [
+      "Location",
+      "NYC",
+      "UK",
+      "SF",
+      "CHI"
+     ],
+     [
+      "Date Founded",
+      "2010",
+      "2000",
+      "2018",
+      "1920"
+     ],
+     [
+      "US Market Share",
+      "10%",
+      "20%",
+      "10%",
+      "60%"
+     ],
+     [
+      "Growth Rate",
+      "7%",
+      "7%",
+      "25%",
+      "2%"
+     ],
+     [
+      "Customer Demographics",
+      "High-end designer-label clogs worn by upper-class, middle-aged women",
+      "No-frills clogs for service professionals; entered to undercut Company D",
+      "Fashionable leather clogs targeting young working professionals",
+      "Staple clog worn for generations by middle-aged and elderly consumers; industry leader"
+     ]
+    ]
+   },
+   "key_insight": "Most of the exhibit (location, founding date, growth rate, and Companies A/B) is a distractor; the relevant comparables for a millennial/young-professional target are Company C (demographic fit) and Company D (quality/market leader), averaging to an $87.50 baseline price.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-kellogg-klogs/p230.webp"
+  },
+  {
+   "id": "exB",
+   "title": "Average Sustainability Premium Across Industries",
+   "page": 231,
+   "kind": "bar",
+   "description": "Bar chart of the average 'green premium' (additional % charge for a sustainable version) across 6 product categories, with each category's average price and typical purchase frequency shown below the chart.",
+   "data": {
+    "columns": [
+     "Category",
+     "Green Premium",
+     "Average Price",
+     "Purchase Frequency"
+    ],
+    "rows": [
+     [
+      "Food",
+      "~2%",
+      "$7",
+      "Every week"
+     ],
+     [
+      "Packaging",
+      "~3%",
+      "$10",
+      "Every 3mo"
+     ],
+     [
+      "Cleaning Products",
+      "~5%",
+      "$20",
+      "Every 6mo"
+     ],
+     [
+      "Beauty Care",
+      "10%",
+      "$55",
+      "Every 1yr"
+     ],
+     [
+      "Furniture",
+      "20%",
+      "$1,000",
+      "Every 3yr"
+     ],
+     [
+      "Automotive",
+      "30%",
+      "$30,000",
+      "Every 7yr"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-kellogg-klogs/p231.webp",
+   "key_insight": "Green premium rises with price point and purchase infrequency; Beauty Care is the closest analog to shoes on both dimensions, justifying a ~10% sustainability premium for Kellogg Klogs.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Criteria importance millennial customer survey",
+   "page": 232,
+   "kind": "line",
+   "description": "Bar chart of millennial customers' importance rating (0-5) for 4 purchase criteria (Price for Value, Sustainability, Quality, Brand), overlaid with line series showing how Company C, Company D, and Kellogg Klogs (at $96.25) each score on those same criteria.",
+   "data": {
+    "columns": [
+     "Criterion",
+     "Importance to millennials (0-5)",
+     "Company C score",
+     "Company D score",
+     "Kellogg Klogs score"
+    ],
+    "rows": [
+     [
+      "Price for Value",
+      "~4.9",
+      "~4.9",
+      "~4.0",
+      "~4.1"
+     ],
+     [
+      "Sustainability",
+      "~4.8",
+      "~1.0",
+      "~3.0",
+      "~5.0"
+     ],
+     [
+      "Quality",
+      "~4.0",
+      "~4.0",
+      "~5.0",
+      "~2.0"
+     ],
+     [
+      "Brand",
+      "~1.0",
+      "~3.0",
+      "~5.0",
+      "~2.0"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-kellogg-klogs/p232.webp",
+   "key_insight": "Kellogg Klogs leads on Sustainability (the 2nd-most-important criterion) and is competitive on Price for Value, but trails badly on Quality (an important criterion) and Brand (a low-importance criterion) -- so quality, not brand, is the priority fix.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "exD",
+   "title": "Expected Claims Per Years of Warranty",
+   "page": 233,
+   "kind": "table",
+   "description": "Expected percentage of customers filing a warranty claim, by length of warranty offered (1-4 years).",
+   "data": {
+    "columns": [
+     "Years of Warranty",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "rows": [
+     [
+      "% Expected Claims",
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-kellogg-klogs/p233.webp",
+   "key_insight": "Combined with the $26.25 unit profit and $70 replacement cost, a 4-year warranty tips net expected profit negative, capping the profitable warranty length at 3 years.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is Kellogg Klogs' optimal (sustainability-premium-adjusted) price per pair of clogs?",
+   "givens": [
+    "Baseline competitor price = average of Company C ($75) and Company D ($100)",
+    "Sustainability premium (Beauty Care proxy) = 10%"
+   ],
+   "steps": [
+    "Average competitor price = (100+75)/2 = $87.50",
+    "Optimal price = $87.50 x (1 + 10%) = $87.50 x 110%"
+   ],
+   "answer": "$96.25 per pair",
+   "answer_value": 96.25,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the longest warranty (in years) Kellogg Klogs can offer while remaining net profitable per pair sold?",
+   "givens": [
+    "Selling price = $96.25",
+    "Unit cost = $70",
+    "% expected claims by warranty length: Year 1 = 10%, Year 2 = 20%, Year 3 = 30%, Year 4 = 40%",
+    "Cost of honoring a claim = replacement unit cost = $70"
+   ],
+   "steps": [
+    "Unit profit = $96.25 - $70 = $26.25 (same for all warranty lengths)",
+    "Expected unit value of claims = % expected claims x $70: Year 1 = 10%x70=$7.00, Year 2 = 20%x70=$14.00, Year 3 = 30%x70=$21.00, Year 4 = 40%x70=$28.00",
+    "Net expected profit = unit profit - expected claim value: Year 1 = 26.25-7.00=$19.25, Year 2 = 26.25-14.00=$12.25, Year 3 = 26.25-21.00=$5.25, Year 4 = 26.25-28.00=-$1.75"
+   ],
+   "answer": "3-year warranty is the longest that remains net profitable (net expected profit of $5.25/pair); a 4-year warranty loses $1.75/pair",
+   "answer_value": 3,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Kellogg Klogs should price the clogs at $96.25 per pair and include a 3-year warranty with each purchase. $96.25 uses Companies C and D as a competitive baseline and assumes a 10% sustainability premium (based on the Beauty Care analog). The 3-year warranty eases customers' quality concerns and boosts competitive advantage while still generating positive net expected profit ($5.25/pair) after accounting for expected claims. Risks include consumers not being willing to pay the 10% premium, competitor reaction, and higher-than-expected warranty claim rates. Next steps: a pilot study to validate the price, a distribution plan (DTC vs. retail), and sensitivity analysis on the green premium and claim rates.",
+ "what_great_looks_like": [
+  "Drives to the sustainability premium proactively rather than needing to be led there",
+  "Works through the math quickly and accurately, using sensible proxies (competitor pricing, adjacent-industry premiums) when exact data isn't available",
+  "Clears busy exhibits (like Exhibit A) efficiently, discarding irrelevant data",
+  "Considers second-order effects throughout: competitor reaction, whether stated willingness-to-pay matches real behavior, and how to build the product-market fit further via quality and warranty"
+ ],
+ "common_pitfalls": [
+  "Picking the highest-premium reference category (Automotive) instead of the best price/frequency analog (Beauty Care)",
+  "Averaging all 4 competitors instead of identifying Company C and D as the relevant comparables for the target demographic",
+  "Calculating expected claim value as just the claim percentage rather than percentage x replacement cost",
+  "Overweighting the brand gap versus Companies C/D even though brand is the lowest-importance criterion to millennial customers"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[2].data (Exhibit C's line-chart values are read visually from the image and are approximate)"
+  ],
+  "math_verified": true,
+  "notes": "Book's case_type label is 'Y04 New product / Market entry' but the case content and interviewer guide are centrally a pricing case; classified primarily as Pricing with New Product/GTM as secondary, keeping the book's own label in case_type_source_label.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "client_type",
+   "case_type (Pricing added; book label kept in source_label)",
+   "exhibits[2].data (approximate line-chart values)"
+  ]
+ }
+}

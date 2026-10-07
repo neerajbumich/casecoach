@@ -1,0 +1,220 @@
+{
+ "id": "wharton-2005-abc-conglomerate",
+ "title": "ABC Conglomerate",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  26,
+  28
+ ],
+ "variant_group_id": "abc-conglomerate",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Other",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "corporate portfolio strategy across three divisions",
+ "industry": "other",
+ "industry_source_label": "unspecified — the case deliberately omits product/industry details",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Bain, 1st Round"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "portfolio-strategy",
+  "bcg-matrix",
+  "divestiture",
+  "cash-cow",
+  "growth-investment",
+  "market-lifecycle",
+  "information-organization"
+ ],
+ "concepts_tested": [
+  "growth-share (BCG-style) portfolio classification",
+  "divisional resource allocation",
+  "tracking parallel data sets without confusing them"
+ ],
+ "prompt": "The CEO of a major conglomerate is dealing with poor profitability in each of his three divisions: A, B, and C. What should he do to maximize value for his shareholders?",
+ "clarifying_info": [
+  {
+   "question_topic": "Division A",
+   "answer": "Market leader with 60% share; manufacturing is done in Asia by all firms and is already about as low-cost as possible. Division A generates over 60% of firm revenues, but gross margins have been declining and high fixed costs have pushed net income negative. Prices have become increasingly competitive, and A has had to price aggressively to defend volume even as market leader. The overall market has been shrinking and looks likely to keep shrinking. Customers are moving to an entirely new substitute product category that Division A is not well positioned to enter."
+  },
+  {
+   "question_topic": "Division B",
+   "answer": "Only 5% share, one of many players. The market is relatively new and costs are believed to be reducible significantly from their current level. Revenues are low but growing; the division runs negative net cash flow as it invests in marketing, R&D, and plant capacity. A wide range of prices exists in the market with generally high margins. The overall market is growing 10%/year with significant further growth expected. It's a new product category and consumers aren't yet sure what they want or like."
+  },
+  {
+   "question_topic": "Division C",
+   "answer": "50% share with only one other major competitor and a few minor ones. The firm has significant economies of scale and the lowest variable cost in the market, while spending significantly on marketing, R&D, and plant capacity to try to grow revenue further. Revenues are strong with good operating margins but have been flat for the past few years. Division C holds a price-leadership position. The overall market is not growing and is expected to remain flat."
+  }
+ ],
+ "interviewer_notes": "Fairly straightforward analytically — the difficulty is keeping the information straight across the three divisions. Give information out freely, but make the candidate ask for each division's data separately (don't summarize it for them); this case rewards neat, orderly notes and the ability to quickly form a mental picture of each division. There is deliberately no information about the divisions' products or industries — don't invent any; just tell the candidate to focus on the information given.",
+ "suggested_framework": {
+  "summary": "Evaluate each of the three divisions independently on competitive position, cost structure, financial trajectory, pricing power, and market growth/lifecycle stage, then assign each a differentiated strategy (divest, invest, or harvest) rather than a one-size-fits-all fix.",
+  "tree": {
+   "label": "How should the CEO maximize shareholder value across Divisions A, B, and C?",
+   "children": [
+    {
+     "label": "Division A",
+     "children": [
+      {
+       "label": "Competitive position"
+      },
+      {
+       "label": "Cost structure"
+      },
+      {
+       "label": "Financial trajectory"
+      },
+      {
+       "label": "Market trend / substitute threat"
+      }
+     ]
+    },
+    {
+     "label": "Division B",
+     "children": [
+      {
+       "label": "Competitive position"
+      },
+      {
+       "label": "Cost structure"
+      },
+      {
+       "label": "Financial trajectory"
+      },
+      {
+       "label": "Market trend"
+      }
+     ]
+    },
+    {
+     "label": "Division C",
+     "children": [
+      {
+       "label": "Competitive position"
+      },
+      {
+       "label": "Cost structure"
+      },
+      {
+       "label": "Financial trajectory"
+      },
+      {
+       "label": "Market trend"
+      }
+     ]
+    },
+    {
+     "label": "Portfolio-level recommendation",
+     "children": [
+      {
+       "label": "Divest / invest / harvest decision per division"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What should he do to maximize value for his shareholders?",
+   "expected_answer": "Candidate proposes evaluating each division separately — competitive position, cost structure, financial performance, pricing, and market growth/lifecycle stage — rather than applying one fix across the conglomerate, since the three divisions are likely at different life-cycle stages.",
+   "good_answer_signals": [
+    "Proposes analyzing divisions independently before concluding",
+    "Signals awareness that each division may need a different strategy"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "Tell me about Division A.",
+   "release_when": "Only when candidate asks specifically and concisely for Division A's information",
+   "info_to_release": "60% share/market leader; low-cost Asia manufacturing (no advantage vs. peers); >60% of firm revenue but declining gross margins and high fixed costs have pushed net income negative; increasingly aggressive pricing to defend volume; shrinking, still-shrinking market; customers switching to a new substitute category A isn't positioned to enter.",
+   "expected_answer": "Candidate recognizes Division A is a share leader in a declining, structurally threatened market — market leadership no longer protects profitability once the category itself is being displaced by a substitute, and high fixed costs turn shrinking volume into losses. This points toward divestiture rather than continued investment.",
+   "good_answer_signals": [
+    "Notes that market leadership doesn't offset industry decline and substitute threat",
+    "Connects high fixed costs + falling volume to the negative net income",
+    "Starts leaning toward exit/divest for this division"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "Tell me about Division B.",
+   "release_when": "Only when candidate asks specifically and concisely for Division B's information",
+   "info_to_release": "Only 5% share among many players; new market with real cost-reduction potential; low but growing revenue, negative net cash flow from marketing/R&D/capacity investment; wide pricing range with generally high margins; market growing 10%/year with more growth expected; undefined consumer preferences (new category).",
+   "expected_answer": "Candidate recognizes Division B is an early-stage investment opportunity in a fast-growing, not-yet-defined market — current losses reflect deliberate investment (marketing, R&D, capacity), not a failing business, and the division should be funded aggressively to try to win share and shape the category.",
+   "good_answer_signals": [
+    "Distinguishes 'losing money by investing' from 'losing money because the business is broken'",
+    "Connects high market growth + undefined consumer preferences to an opportunity to build a differentiated, branded leader"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "Tell me about Division C.",
+   "release_when": "Only when candidate asks specifically and concisely for Division C's information",
+   "info_to_release": "50% share with one other major competitor and a few minor ones; significant scale economies and lowest variable cost in the market; heavy marketing/R&D/capacity spend aimed at growth; strong revenue and good operating margins but flat for several years; price leadership; overall market flat and expected to stay flat.",
+   "expected_answer": "Candidate recognizes Division C is a mature market leader generating strong, stable cash flow in a flat market — further growth investment is unlikely to pay off given the flat market, so C should be run efficiently as a cash generator (cash cow) rather than continue heavy discretionary spending aimed at growth.",
+   "good_answer_signals": [
+    "Identifies the mismatch between C's heavy growth investment and its flat, mature market",
+    "Proposes managing C for cash generation rather than growth"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "[With ~3 minutes left] The CEO just called and wants to know what he should do.",
+   "expected_answer": "The conglomerate needs to rationalize its portfolio, treating each division according to its market life-cycle stage rather than uniformly. Division A is in a declining, substitute-threatened industry with a high fixed-cost base it can no longer cover — it should be divested immediately. Division B is in an emerging growth market and, despite current losses, is a strong investment opportunity — it should be funded aggressively (R&D, marketing, capacity) to build differentiated, branded products and become the market leader. Division C leads a mature, flat market and can generate a steady stream of cash — it should be run as a cash cow, cutting expenditures not needed to sustain profitability, with the freed cash redirected to fund Division B.",
+   "good_answer_signals": [
+    "Gives a clear, unprompted recommendation before time runs out",
+    "Assigns a distinct action to each division (divest A, invest B, harvest C)",
+    "Connects the recommendation to reallocating C's/A's freed resources toward B"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [],
+ "synthesis": "Rationalize the portfolio by treating each division according to its market life-cycle stage. Divest Division A: it's a share leader in a shrinking, substitute-threatened market where high fixed costs have already pushed net income negative with no realistic path back. Invest aggressively in Division B: it's a small-share position in an emerging, fast-growing market with undefined customer preferences — a strong opportunity to build a differentiated, branded leader despite today's losses. Run Division C as a cash cow: it's a strong-margin leader in a flat, mature market, so cut discretionary growth spending that a flat market won't reward and redirect that cash — along with any proceeds from divesting A — into funding Division B's growth.",
+ "what_great_looks_like": [
+  "Keeps the three divisions' information cleanly separated and asks for each division's data individually",
+  "Diagnoses each division's market life-cycle stage (decline, growth, maturity) rather than applying one lens to all three",
+  "Distinguishes 'losing money while investing in growth' (Division B) from 'losing money because the core business is structurally impaired' (Division A)",
+  "Reaches a differentiated, three-part recommendation (divest / invest / harvest) unprompted as time runs low",
+  "Connects the recommendation to reallocating capital from A and C toward B"
+ ],
+ "common_pitfalls": [
+  "Confuses facts between divisions from disorganized note-taking",
+  "Recommends the same fix (e.g., cost-cutting) across all three divisions instead of differentiating by life-cycle stage",
+  "Treats Division B's negative cash flow as a red flag rather than recognizing it as deliberate growth investment",
+  "Tries to invent product/industry details instead of working with the competitive and financial facts given"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Case contains no quantitative data or exhibits by design (deliberately omits product/industry detail); math is empty as expected.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "industry",
+   "case_type"
+  ]
+ }
+}

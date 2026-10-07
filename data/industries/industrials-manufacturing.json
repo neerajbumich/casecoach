@@ -1,0 +1,121 @@
+{
+  "id": "industrials-manufacturing",
+  "name": "Industrials & Manufacturing",
+  "group": "Industrials",
+  "one_liner": "Making machinery, equipment, components and automation systems for other businesses, where scale, operational excellence and aftermarket service drive returns.",
+  "how_it_makes_money": "Manufacturers sell capital equipment and components to customers in construction, energy, autos and other industries, often through dealers or distributors. Aftermarket parts, service contracts and software recur over the equipment's life and usually carry higher margins than the original sale. Many firms run a portfolio of segments serving different end markets.",
+  "value_chain": [
+    "Raw materials and components",
+    "Design and engineering",
+    "Manufacturing and assembly",
+    "Distribution and dealers",
+    "Installation and aftermarket service"
+  ],
+  "revenue_formula": [
+    "Revenue = units sold × average selling price + installed base × aftermarket revenue per unit",
+    "Aftermarket revenue = installed base × attach rate × spend per unit per year"
+  ],
+  "cost_structure": [
+    "Materials and components: often the largest cost, e.g. steel and electronics",
+    "Direct labor and manufacturing overhead",
+    "SG&A, including sales and dealer support",
+    "R&D and engineering",
+    "Logistics and warranty costs"
+  ],
+  "margins": "Operating margins commonly range from mid single digits for commodity components to high teens or better for leaders with strong aftermarket businesses. Mix of aftermarket, pricing power, lean operations and cycle exposure drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Book-to-bill ratio",
+      "what": "Orders versus shipments; above 1 signals growing demand."
+    },
+    {
+      "name": "Backlog",
+      "what": "Orders not yet delivered, giving revenue visibility."
+    },
+    {
+      "name": "Aftermarket share of revenue",
+      "what": "Higher share means steadier, higher-margin revenue."
+    },
+    {
+      "name": "Capacity utilization",
+      "what": "Drives fixed-cost absorption and unit cost."
+    },
+    {
+      "name": "Organic growth",
+      "what": "Growth excluding M&A and currency, the key underlying signal."
+    },
+    {
+      "name": "Free cash flow conversion",
+      "what": "Share of net income converted to cash; working capital heavy firms lag."
+    }
+  ],
+  "trends": [
+    "Reshoring and nearshoring manufacturing to the US and Mexico",
+    "Tariffs and trade policy raising input costs and reshaping supply chains",
+    "Electrification and data center buildout boosting electrical equipment demand",
+    "Portfolio simplification and conglomerate breakups",
+    "Factory automation, robotics and industrial AI",
+    "Skilled labor shortages"
+  ],
+  "key_players": [
+    "Caterpillar",
+    "Deere",
+    "Honeywell",
+    "3M",
+    "Emerson",
+    "Eaton",
+    "Parker Hannifin",
+    "Siemens",
+    "ABB",
+    "Illinois Tool Works"
+  ],
+  "case_angles": [
+    {
+      "question": "A machinery maker's margins are falling despite rising sales; why?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should an industrial conglomerate break itself up?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "Should a manufacturer move production from China to Mexico?",
+      "framework_id": "value-chain"
+    },
+    {
+      "question": "How can a manufacturer grow its aftermarket services business?",
+      "framework_id": "growth-strategy"
+    }
+  ],
+  "interview_hooks": [
+    "Do conglomerates still make sense, or do focused companies create more value?",
+    "Will reshoring meaningfully bring manufacturing back to the US?",
+    "How much of an equipment maker's future value is in software and services?"
+  ],
+  "news": {
+    "keywords": [
+      "manufacturing",
+      "factory",
+      "industrial",
+      "machinery",
+      "reshoring",
+      "ism manufacturing",
+      "factory orders",
+      "automation",
+      "heavy equipment",
+      "supply chain"
+    ],
+    "companies": [
+      "Caterpillar",
+      "Deere",
+      "Honeywell",
+      "3M",
+      "Emerson",
+      "Eaton",
+      "Siemens",
+      "ABB",
+      "Parker Hannifin",
+      "General Electric"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+ "id": "stern-2022-apple-of-my-eye",
+ "title": "Apple of My Eye",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  90,
+  97
+ ],
+ "author": "Chelsea Dias and Briana Brickell (Stern '20)",
+ "case_type": [
+  "Market Entry",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "cpg",
+ "sub_industry": "alcoholic-beverages",
+ "industry_source_label": "Food & Beverage",
+ "geography": "Upper West Side, New York City, United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 7/10; Structure 6/10; higher dimension 7 mapped using round(7/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "market-entry",
+  "brewery",
+  "capacity",
+  "incremental-revenue",
+  "breakeven",
+  "cannibalization",
+  "demand-validation"
+ ],
+ "prompt": "Bob is a master brewer and has been brewing beer for the past decade. Upon graduating from Stern, he opened a brewery on the Upper West Side called Something Witty that features Belgian Witbier styled brews. While he found early success, he has noticed an increase in customers asking for gluten-free alternatives, such as cider. Bob has hired us to help him analyze his options.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "Continue to be profitable regardless of the expansion option selected."
+  },
+  {
+   "question_topic": "Current sales",
+   "answer": "Bob currently sells bottled beer directly to consumers."
+  }
+ ],
+ "interviewer_notes": "Math-heavy case requiring organization and accuracy, with a creative qualitative section. Begin with expansion alternatives before focusing on cider. Give the candidate Exhibit 1 for current versus renovated production. Release bottles/case and operating days only when requested. Reuse prior cider-volume calculation for the market-share test; the source permits providing 86,400 bottles if needed for time. The conclusion mistakenly says 0.05% breakeven share although the actual question says 0.5%; use 0.5% and record the discrepancy. Strong candidates note capacity is not proof of actual sales demand.",
+ "suggested_framework": {
+  "summary": "Compare expansion routes, market demand, economics and production capabilities while protecting the core beer business.",
+  "tree": {
+   "label": "How should Bob expand?",
+   "children": [
+    {
+     "label": "Alternatives",
+     "children": [
+      {
+       "label": "Wine, cocktails, cider, food or experiences such as music/themed nights"
+      }
+     ]
+    },
+    {
+     "label": "Costs and returns",
+     "children": [
+      {
+       "label": "Renovation, equipment, licensing and breakeven"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size, competition, tastes and potential cannibalization"
+      }
+     ]
+    },
+    {
+     "label": "Capabilities",
+     "children": [
+      {
+       "label": "Equipment, training, ingredients, space and utilization"
+      },
+      {
+       "label": "Produce organically or buy from another manufacturer"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess Bob's expansion options?",
+   "release_when": "After the prompt; clarifications on request.",
+   "info_to_release": "Bob wants to remain profitable and currently sells bottled beer directly to consumers.",
+   "expected_answer": "Consider alternative drinks, food or experiences; assess market demand, competition and cannibalization; compare investment/costs with revenue; and evaluate capacity, skills and outsourcing. Do not assume renovation is the only way to enter cider—new facilities or buying/reselling cider are alternatives.",
+   "good_answer_signals": [
+    "Keeps the decision broader than a single production plan initially."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Bob is exploring cider. What do you think of current production versus renovating?",
+   "release_when": "Give Exhibit 1 when introducing the two production configurations.",
+   "info_to_release": "Current output 30 beer cases/day. After renovation 24 beer and 12 cider cases/day. Beer sells $5/bottle and cider $6/bottle.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Current specialization supports a clear marketing message and specialized labor but misses gluten-free demand and growth. Renovation adds a higher-price product but reduces beer production by 6 cases/day and requires capital. Compare incremental revenue while recognizing that production changes do not establish customer demand.",
+   "good_answer_signals": [
+    "Identifies the lost beer capacity as an opportunity cost."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "How would annual revenue change if Bob produces cider?",
+   "release_when": "After discussing Exhibit 1; release unit conversions and schedule only when asked.",
+   "info_to_release": "Sales are by bottle; cases are production units.30 bottles/case. Production Monday–Friday; assume 20 days/month,12 months/year.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "There are 240 production days/year. Current beer revenue=30×30×240×$5=$1,080,000. Future beer=24×30×240×$5=$864,000. Cider=12×30×240=86,400 bottles, worth $518,400 at $6. Future total=$1,382,400; increase=$302,400. Equivalently, add cider revenue and subtract $216,000 lost beer revenue. This assumes all production sells.",
+   "good_answer_signals": [
+    "Uses an incremental calculation efficiently and keeps units organized."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Besides revenue, what else matters before entering cider?",
+   "release_when": "After the revenue calculation.",
+   "info_to_release": "No quantitative cost estimates are supplied.",
+   "expected_answer": "Consider training, equipment, labels, marketing and apples/materials; cider versus beer market size, new-customer demand and future growth; go-to-market plans; cannibalization and brand equity; and channels such as grocery or liquor stores. Costs are essential because the client's objective is profitability, not simply revenue.",
+   "good_answer_signals": [
+    "Quickly raises costs and separates supply capability from market demand."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Bob says breakeven requires 0.5% of NYC's annual take-home cider market. Can he produce enough?",
+   "release_when": "After the broader considerations. Provide market bottles only when asked; prior production may be supplied for time.",
+   "info_to_release": "Breakeven share 0.5%. If asked, expected NYC cider sales next year are 15.5m bottles. The source permits supplying Bob's annual cider production 86,400 bottles if needed.",
+   "expected_answer": "Required sales=15.5m×0.5%=77,500 bottles. Capacity 86,400 exceeds this by 8,900 bottles and equals 0.5574% of the market. Thus production capacity is sufficient, but actual demand is unproven. The source conclusion's0.05% is a typo; applying it would wrongly lower the threshold tenfold.",
+   "good_answer_signals": [
+    "Reuses prior volume and distinguishes producing from selling enough to break even."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Bob do?",
+   "release_when": "After the capacity test.",
+   "info_to_release": "No further data.",
+   "expected_answer": "Conditionally favor cider investment: it offers $302,400 additional annual revenue at full sell-through, and 86,400-bottle capacity exceeds the 77,500 bottles corresponding to the stated 0.5% breakeven share. Validate cider demand, the breakeven/cost assumptions and effects on beer sales before committing. Analyze competitors and test price, flavor and packaging. Do not use the conclusion's erroneous 0.05% figure or claim capacity alone guarantees profitability.",
+   "good_answer_signals": [
+    "States numerical support and the demand caveat together."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Bottled beverage production",
+   "page": 93,
+   "kind": "table",
+   "description": "Daily production configurations and selling prices, with no worked revenue totals.",
+   "data": {
+    "columns": [
+     "Input",
+     "Beer",
+     "Cider"
+    ],
+    "rows": [
+     [
+      "Current cases/day",
+      30,
+      0
+     ],
+     [
+      "Renovated cases/day",
+      24,
+      12
+     ],
+     [
+      "Price per bottle (USD)",
+      5,
+      6
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-apple-of-my-eye/p093.webp",
+   "key_insight": "Cider increases total output and selling price, but displaces 6 beer cases/day.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are current and future annual revenues?",
+   "givens": [
+    "Current 30 beer cases/day; future 24 beer+12 cider",
+    "30 bottles/case;20 days/month;12 months/year",
+    "Beer $5/bottle;cider $6/bottle"
+   ],
+   "steps": [
+    "Production days=240.",
+    "Current=30×30×240×5=$1,080,000.",
+    "Future beer=24×30×240×5=$864,000.",
+    "Future cider=12×30×240×6=$518,400.",
+    "Future total=$1,382,400; increase=$302,400."
+   ],
+   "answer": "$302,400 incremental annual revenue assuming all output sells.",
+   "answer_value": 302400,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is annual cider capacity?",
+   "givens": [
+    "12 cases/day;30 bottles/case;240 days/year"
+   ],
+   "steps": [
+    "12×30×240=86,400 bottles."
+   ],
+   "answer": "86,400 cider bottles/year.",
+   "answer_value": 86400,
+   "unit": "bottles/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Can production cover the stated breakeven market share?",
+   "givens": [
+    "15.5m NYC bottles/year",
+    "0.5% breakeven share in Question 3",
+    "86,400-bottle capacity"
+   ],
+   "steps": [
+    "Required=15,500,000×0.005=77,500 bottles.",
+    "Capacity cushion=86,400−77,500=8,900 bottles.",
+    "Capacity market share=86,400/15,500,000×100=0.557419%."
+   ],
+   "answer": "Yes on capacity:0.5574% exceeds 0.5%, but sales demand remains unverified.",
+   "answer_value": 77500,
+   "unit": "bottles/year required for stated breakeven",
+   "verified": false,
+   "book_answer_if_different": "Question 3 correctly requires 0.5%; the recommendation and next steps instead say '0.05%'. Use 0.5%, giving 77,500 bottles, not the 7,750 implied by 0.05%. The qualitative capacity conclusion is unchanged."
+  }
+ ],
+ "synthesis": "Conditionally pursue cider: full sell-through raises annual revenue $302,400 and capacity 86,400 bottles exceeds the 77,500 bottles needed for the stated 0.5% market-share hurdle. The conclusion's0.05% figure is erroneous. Validate actual customer demand, underlying costs and breakeven assumptions, beer cannibalization and competitor response. Test cider price, flavor and packaging before committing capital.",
+ "what_great_looks_like": [
+  "Identifies alternatives to brewery renovation.",
+  "Subtracts lost beer revenue when calculating cider's benefit.",
+  "Reuses annual volume efficiently.",
+  "Recognizes capacity is not proof of demand or profitability."
+ ],
+ "common_pitfalls": [
+  "Treating cases as bottles.",
+  "Ignoring 6 displaced beer cases/day.",
+  "Using 0.05% from the conclusion instead of 0.5% from the question.",
+  "Assuming everything produced will certainly sell."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Candidate Exhibit 1 and worked revenue page visually reviewed; image points to 93, not answer page 94. Source math for $302,400 revenue and 86,400 capacity matches Python. Internal inconsistency: Question 3 says 0.5% breakeven share, but final recommendation/next steps say 0.05%; retained 0.5% and recorded typo. No renovation amount or detailed cost model is supplied, so breakeven share is a given rather than independently derived. Demand remains untested. Difficulty uses higher rating 7 mapped to 4; calculations in math-stern-apple.py. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "difficulty (higher-dimension aggregation)",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "math[2] (explicit threshold/cushion)",
+   "synthesis (conditional qualification)"
+  ]
+ }
+}

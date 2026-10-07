@@ -1,0 +1,72 @@
+{
+  "id": "food-delivery-quick-commerce",
+  "name": "Food Delivery & Quick Commerce",
+  "group": "Consumer & retail",
+  "one_liner": "Platforms that deliver restaurant meals, groceries, and convenience goods on demand, whose economics depend on order density, courier utilization, and fees charged to both merchants and consumers.",
+  "how_it_makes_money": "Restaurant delivery platforms earn commissions from merchants plus delivery and service fees from consumers, and increasingly advertising and subscription revenue. Quick commerce operators often run dark stores and earn retail margin on inventory they own, plus delivery fees and supplier ad income.",
+  "value_chain": [
+    "Merchant and inventory onboarding",
+    "App discovery and ordering",
+    "Dispatch and courier matching",
+    "Restaurant prep or dark-store picking",
+    "Last-mile delivery",
+    "Customer support and refunds"
+  ],
+  "revenue_formula": [
+    "Revenue = orders × average order value × take rate (commission + consumer fees)",
+    "Orders = active users × order frequency",
+    "Contribution per order = commission + fees + ad revenue − courier cost − discounts − support and refunds"
+  ],
+  "cost_structure": [
+    "Courier pay: the largest variable cost per order",
+    "Discounts and promotions: incentives to acquire and retain users",
+    "Dark-store operations (quick commerce): rent, picking labor, and inventory shrink",
+    "Customer acquisition and marketing",
+    "Technology, mapping, and payment processing",
+    "Customer support, refunds, and insurance"
+  ],
+  "margins": "Leading US delivery platforms have reached positive but modest adjusted profitability after years of losses, while many quick-commerce players still burn cash outside their densest cities. Order density, basket size, courier efficiency, and ad revenue drive the gap between winners and laggards.",
+  "key_metrics": [
+    {"name": "Gross order value (GOV)", "what": "Total value of orders placed, the platform's scale metric."},
+    {"name": "Take rate", "what": "Platform revenue as a share of order value, balancing merchant and consumer pricing."},
+    {"name": "Contribution margin per order", "what": "Profit per order after courier, discounts, and variable costs, the heart of unit economics."},
+    {"name": "Orders per courier-hour", "what": "Courier utilization, driven by density and batching."},
+    {"name": "Monthly transacting users and frequency", "what": "How many users order and how often, the driver of volume."},
+    {"name": "Delivery time", "what": "Speed of fulfillment, a core promise in quick commerce and a key cost trade-off."}
+  ],
+  "trends": [
+    "Expansion beyond restaurants into grocery, convenience, and retail delivery",
+    "Subscription programs such as DashPass and Uber One driving frequency and retention",
+    "Advertising sold to restaurants and CPG brands becoming a meaningful profit pool",
+    "Gig worker regulation and minimum pay rules raising courier costs in major cities",
+    "Quick commerce booming in India while consolidating or retreating in the US and Europe",
+    "Autonomous delivery pilots with robots and drones"
+  ],
+  "key_players": [
+    "DoorDash",
+    "Uber Eats",
+    "Instacart",
+    "Grubhub",
+    "Gopuff",
+    "Deliveroo",
+    "Delivery Hero",
+    "Meituan",
+    "Swiggy",
+    "Zomato (Blinkit)"
+  ],
+  "case_angles": [
+    {"question": "A food delivery platform is losing money in several cities; should it stay, fix, or exit?", "framework_id": "profitability"},
+    {"question": "Should a restaurant delivery app launch 15-minute grocery delivery with dark stores?", "framework_id": "new-product-gtm"},
+    {"question": "How should a delivery platform set its commission and consumer fee structure?", "framework_id": "pricing"},
+    {"question": "Estimate the number of dark stores needed to cover a major metro with 10-minute delivery.", "framework_id": "market-sizing"}
+  ],
+  "interview_hooks": [
+    "Is quick commerce a structurally profitable model or only viable in dense, low-labor-cost markets?",
+    "Who should bear delivery costs: restaurants, consumers, or the platform through ads?",
+    "Will gig worker regulation fundamentally change delivery unit economics?"
+  ],
+  "news": {
+    "keywords": ["food delivery", "quick commerce", "q-commerce", "dark stores", "gig workers", "delivery app", "grocery delivery", "delivery drivers", "dashers", "instant delivery"],
+    "companies": ["DoorDash", "Uber Eats", "Instacart", "Grubhub", "Gopuff", "Deliveroo", "Delivery Hero", "Meituan", "Swiggy", "Zomato", "Blinkit", "Zepto"]
+  }
+}

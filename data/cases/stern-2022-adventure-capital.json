@@ -1,0 +1,378 @@
+{
+ "id": "stern-2022-adventure-capital",
+ "title": "Adventure Capital",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  126,
+  133
+ ],
+ "author": "Alastair Butler, Nick Pate & Henry Marsh (Stern ’20)",
+ "case_type": [
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "other",
+ "industry_source_label": "Archeology",
+ "geography": "Indiana, United States; Siwa Oasis, Northwestern Egypt",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey First Round"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 5 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "expected-value",
+  "roi",
+  "valuation",
+  "growing-perpetuity",
+  "opportunity-cost",
+  "investment-risk"
+ ],
+ "concepts_tested": [
+  "Brainstorming",
+  "Return on Investment",
+  "Valuation"
+ ],
+ "prompt": "Your client is Idaho Johnson, an archeologist/adventurer who specializes in rare artifact recovery. They have just learned about the possibility of an incredibly valuable 6,000 year old crown buried in the Siwa Oasis of Northwestern Egypt. You have been hired to determine whether Idaho should launch an expedition to recover this artifact.",
+ "clarifying_info": [
+  {
+   "question_topic": "Financing and buyer",
+   "answer": "Idaho must self-finance the dig, but finds a buyer and agrees a deal before departure, conditional on recovery."
+  },
+  {
+   "question_topic": "Discovery",
+   "answer": "A colleague has a map she is willing to sell him."
+  },
+  {
+   "question_topic": "Location and duration",
+   "answer": "He is currently in Indiana. The dig is expected to take 1 year, or 12 months."
+  },
+  {
+   "question_topic": "Investment hurdle",
+   "answer": "He only wants to undertake the expedition if expected ROI is at least 85%."
+  },
+  {
+   "question_topic": "Success probability",
+   "answer": "He believes recovery has a 20% chance of success."
+  },
+  {
+   "question_topic": "Equipment",
+   "answer": "He owns some equipment but must buy more for this expedition."
+  },
+  {
+   "question_topic": "Food and lodging scope",
+   "answer": "The $10,000 monthly food/lodging cost covers the entire group."
+  },
+  {
+   "question_topic": "Museum valuation rates",
+   "answer": "If asked during valuation, provide a 15% discount rate and 5% growth rate."
+  }
+ ],
+ "interviewer_notes": "Test deductive reasoning in an unfamiliar industry. There is no single correct go/no-go recommendation: the candidate should weigh the arguments and decide. Require a cost brainstorm before giving Exhibit 1. Clarify the group-wide food/lodging amount if asked. For the museum offer, first ask how to estimate its value, then provide attendance, exhibit take-up, ticket price and explorer share; give discount and growth rates only if asked. Emphasize the 85% expected-ROI hurdle and the personal capital risk of self-financing. The source includes missed teaching salary in economic cost. Its valuation uses a growing perpetuity and does not separately model an additional expedition-year discount.",
+ "suggested_framework": {
+  "summary": "Compare risk-adjusted artifact value with expedition and opportunity costs, then weigh alternatives and personal risk.",
+  "tree": {
+   "label": "Should Idaho launch the expedition?",
+   "children": [
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "One-time travel, permits and equipment"
+      },
+      {
+       "label": "Recurring wages and housing"
+      },
+      {
+       "label": "Foregone teaching salary"
+      }
+     ]
+    },
+    {
+     "label": "Artifact value",
+     "children": [
+      {
+       "label": "One-time sale versus present value of recurring receipts"
+      },
+      {
+       "label": "Artifact demand and market conditions"
+      },
+      {
+       "label": "Buyer and location-specific willingness to pay"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Recovery probability"
+      },
+      {
+       "label": "Competitors finding the artifact first"
+      },
+      {
+       "label": "Expedition danger and personal funding exposure"
+      }
+     ]
+    },
+    {
+     "label": "Alternatives",
+     "children": [
+      {
+       "label": "Other artifacts or safer expeditions"
+      },
+      {
+       "label": "Teaching"
+      },
+      {
+       "label": "Film franchise and other adventure-related income"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether this expedition is worthwhile?",
+   "release_when": "After the prompt, with clarifications on request.",
+   "info_to_release": "The dig takes 12 months, is self-financed and has a 20% recovery probability. Idaho requires 85% expected ROI and arranges a buyer beforehand, contingent on recovery.",
+   "exhibit_ids": [],
+   "expected_answer": "Estimate expedition and opportunity costs, compare potential buyers and the value of their payment structures, probability-weight successful recovery, and test the result against the 85% hurdle. Consider danger, competing explorers, self-financing risk and alternative uses of his time.",
+   "good_answer_signals": [
+    "Raises recovery probability early.",
+    "Keeps the explicit return hurdle central."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What costs would be required to embark on this expedition?",
+   "release_when": "Before providing Exhibit 1.",
+   "info_to_release": "Idaho must buy a colleague’s map and additional equipment; he begins in Indiana.",
+   "exhibit_ids": [],
+   "expected_answer": "Upfront costs include the map, equipment, travel and legal/administrative requirements such as permits, visas and vaccinations. Recurring costs include labor, lodging and food. Opportunity costs include teaching salary and other expeditions he could pursue instead.",
+   "good_answer_signals": [
+    "Separates upfront, recurring and opportunity costs.",
+    "Includes both travel directions and the explorer as well as employees when calculating travel."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 1, what is the total cost of the expedition?",
+   "release_when": "Give Exhibit 1 once the cost categories have been brainstormed; clarify food/lodging scope if asked.",
+   "info_to_release": "There are 5 employees at $4,000 each per month. Map/equipment costs $12,000 total; legal costs $10,000 total; travel is $1,500 per person each way. Food/lodging costs $10,000 monthly for the entire group. Missed salary is $100,000 annually. The expedition lasts 12 months and Idaho travels with the 5 employees.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "One-time costs are $12,000 + $10,000 + 6 × $1,500 × 2 = $40,000. Recurring costs are $4,000 × 5 × 12 + $10,000 × 12 = $360,000. Add $100,000 foregone salary for total economic cost of $500,000. Actual modeled expedition outlays are $400,000, with the other $100,000 an opportunity cost.",
+   "good_answer_signals": [
+    "Does not multiply group lodging by crew size.",
+    "Counts 6 travelers and a return trip.",
+    "Does not confuse foregone salary with an upfront cash payment."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "A collector offers $4 million on recovery, while Beelong Zynna Museum offers a share of exhibit tickets. How would you value the museum offer, and which is better?",
+   "release_when": "Ask for the valuation approach first, then provide operating assumptions. Provide discount and growth rates only if requested.",
+   "info_to_release": "The collector pays $4 million once. Museum attendance is 900,000 annually; 50% buy a $10 exhibit ticket; Idaho receives 10% of ticket revenue. If asked: discount rate 15%, growth rate 5%.",
+   "exhibit_ids": [],
+   "expected_answer": "Use comparable museums with similar urban setting, scale and visitor numbers after acquiring comparable artifacts to estimate exhibit cash flows, then discount them. Annual exhibit revenue is 900,000 × 50% × $10 = $4.5 million and Idaho’s share is $450,000. Using the source’s growing-perpetuity convention, value is $450,000 / (15% − 5%) = $4.5 million. This exceeds the collector’s $4 million offer. The perpetuity assumes the stated $450,000 is the first modeled annual payment.",
+   "good_answer_signals": [
+    "Includes the growth rate rather than using a flat perpetuity.",
+    "Distinguishes museum ticket revenue from Idaho’s receipts."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Given the recovery risk, what is the expected return on investment?",
+   "release_when": "After choosing the museum offer.",
+   "info_to_release": "Success probability is 20%; failure probability is 80%. Successful recovery yields museum value of $4.5 million; failure yields no artifact-sale proceeds. Total modeled economic cost is $500,000.",
+   "exhibit_ids": [],
+   "expected_answer": "Expected receipts are 20% × $4.5 million + 80% × $0 = $900,000. Subtract the $500,000 cost regardless of outcome to get $400,000 expected economic profit. ROI is $400,000 / $500,000 = 80%, below 85%. The source labels the $0 failure outcome as a loss/cost, but it is zero sale proceeds, not a cost-free failed trip; it also labels this ROI as profit margin. Comparing $900,000 only with the $100,000 teaching salary is insufficient because expedition costs also matter.",
+   "good_answer_signals": [
+    "Probability-weights value but does not erase costs on failure.",
+    "Uses investment cost as the ROI denominator.",
+    "Recognizes the hurdle is not met despite positive expected profit."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Idaho go, and what should he do next?",
+   "release_when": "After the quantitative and risk analysis.",
+   "info_to_release": "No single recommendation is required by the book; support either choice with evidence.",
+   "exhibit_ids": [],
+   "expected_answer": "Under a strict 85% hurdle, do not proceed on the current quantified case because expected ROI is 80%, recovery probability only 20%, and the client bears personal funding risk. The museum projections may be wrong. A reasoned go decision must explicitly justify accepting less than the stated hurdle or credibly establish additional value: other artifacts, fame, future contracts, films, a biography, book tours or appearances, as well as enjoyment and the artifact’s museum placement. If going, plan the expedition, crew, supplies and charter plane. If not, identify other artifacts or revenue opportunities, keep teaching, or explore reselling the map.",
+   "good_answer_signals": [
+    "States the hurdle shortfall clearly even if recommending go.",
+    "Does not assign invented values to qualitative upside."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Expedition Costs",
+   "page": 133,
+   "kind": "table",
+   "description": "Cost inputs for the expedition, with one-way travel footnote. Interviewer clarification establishes food/lodging is group-wide.",
+   "data": {
+    "columns": [
+     "Cost category",
+     "Amount",
+     "Basis"
+    ],
+    "rows": [
+     [
+      "Labor",
+      4000,
+      "USD per employee per month; 5 employees"
+     ],
+     [
+      "Map/equipment",
+      12000,
+      "USD total"
+     ],
+     [
+      "Travel",
+      1500,
+      "USD per person, one direction"
+     ],
+     [
+      "Legal",
+      10000,
+      "USD total"
+     ],
+     [
+      "Food/lodging",
+      10000,
+      "USD per month"
+     ],
+     [
+      "Missed salary",
+      100000,
+      "USD per year"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-adventure-capital/p133.webp",
+   "key_insight": "Account for the explorer’s round-trip travel, annual recurring costs and foregone salary without multiplying group lodging by each traveler.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is total economic expedition cost?",
+   "givens": [
+    "5 employees plus Idaho",
+    "$4,000 monthly wage per employee for 12 months",
+    "$12,000 map/equipment",
+    "$10,000 legal",
+    "$1,500 one-way travel per person",
+    "$10,000 monthly group food/lodging",
+    "$100,000 foregone annual salary"
+   ],
+   "steps": [
+    "Travel = 6 × $1,500 × 2 = $18,000.",
+    "Upfront = $12,000 + $10,000 + $18,000 = $40,000.",
+    "Recurring = $4,000 × 5 × 12 + $10,000 × 12 = $240,000 + $120,000 = $360,000.",
+    "Economic cost = $40,000 + $360,000 + $100,000 = $500,000."
+   ],
+   "answer": "$500,000 total including $100,000 opportunity cost; modeled expedition spending is $400,000.",
+   "answer_value": 500000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the museum offer worth?",
+   "givens": [
+    "900,000 annual museum visitors",
+    "50% exhibit ticket purchase",
+    "$10 ticket",
+    "10% explorer share",
+    "15% discount rate",
+    "5% growth",
+    "$4 million collector offer"
+   ],
+   "steps": [
+    "Exhibit revenue = 900,000 × 50% × $10 = $4,500,000 annually.",
+    "Explorer receipts = $4,500,000 × 10% = $450,000 annually.",
+    "Growing-perpetuity value = $450,000 / (0.15 − 0.05) = $4,500,000, exceeding $4,000,000."
+   ],
+   "answer": "$4.5 million museum offer value under the source’s perpetuity convention, versus $4 million for the collector.",
+   "answer_value": 4500000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What expected ROI does the expedition offer?",
+   "givens": [
+    "20% success with $4.5 million value",
+    "80% failure with zero sale proceeds",
+    "$500,000 economic cost",
+    "85% required ROI"
+   ],
+   "steps": [
+    "Expected receipts = 20% × $4,500,000 + 80% × $0 = $900,000.",
+    "Expected economic profit = $900,000 − $500,000 = $400,000.",
+    "Expected ROI = $400,000 / $500,000 × 100 = 80%, below the 85% hurdle."
+   ],
+   "answer": "80% expected ROI, so the quantified case fails the stated hurdle.",
+   "answer_value": 80,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "The quantified case yields 80% expected ROI, below Idaho’s 85% requirement. Under a strict hurdle, do not proceed yet. The museum offer is worth $4.5 million on the source’s assumptions; probability-weighted receipts of $900,000 less $500,000 economic cost produce $400,000 expected profit. The book permits a justified go decision based on additional artifacts, related future earnings, enjoyment or museum placement, but that upside is not quantified. Consider self-funding exposure, recovery risk, uncertain museum projections, expedition danger and the source’s fictional curse risk. Plan crew and logistics only if proceeding; otherwise pursue other artifacts, teaching or a profitable map resale.",
+ "what_great_looks_like": [
+  "Incorporates the less-than-certain success rate from the outset.",
+  "Keeps the 85% ROI hurdle visible.",
+  "Includes growth in the museum valuation.",
+  "Recognizes upfront personal-capital risk and opportunity cost.",
+  "Weighs both sides without inventing a numerical value for speculative upside."
+ ],
+ "common_pitfalls": [
+  "Forgetting Idaho’s travel or the return trip.",
+  "Multiplying group food/lodging by crew size.",
+  "Valuing all museum ticket revenue as the explorer’s income.",
+  "Ignoring the growth rate in valuation.",
+  "Treating failure as zero cost rather than zero proceeds.",
+  "Calling return on investment profit margin or treating positive expected profit as sufficient to clear the hurdle."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup returned NEW. Source arithmetic matches throughout. The source labels its (900−500)/500 = 80% calculation 'Profit Margin', but this is ROI; it labels zero failure proceeds 'Loss from Failure (Cost): $0', which must not be interpreted as avoiding expedition costs. These inconsistent labels are corrected in interpretation while the numerical inputs are preserved. The museum valuation follows the source's growing-perpetuity convention with $450,000 as the first modeled annual receipt; no separate extra-year discount is supplied. The source offers arguments for both decisions rather than one mandatory conclusion. Medium confidence reflects the terminology and timing limitations, not an arithmetic mismatch. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "industry taxonomy mapping",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis strict-hurdle framing"
+  ]
+ }
+}

@@ -1,0 +1,354 @@
+{
+ "id": "booth-2024-cruise-line-acquisition",
+ "title": "Cruise Line Acquisition",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  354,
+  361
+ ],
+ "case_type": [
+  "Profitability",
+  "M&A/Acquisition",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "hospitality",
+ "sub_industry": "travel",
+ "industry_source_label": "Travel & Tourism",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 2, Creativity 3 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "cruise",
+  "acquisition",
+  "EBITDA-margin",
+  "cost-benchmarking",
+  "passenger-density",
+  "APCD"
+ ],
+ "concepts_tested": [
+  "brainstorming",
+  "chart clearing",
+  "math structuring",
+  "cost alignment",
+  "operating leverage"
+ ],
+ "fit_question": "Tell me about a conflict you had in the workplace. Alternatively, discuss your most rewarding accomplishment.",
+ "prompt": "FunCruiseLines, a major US cruise line, is considering acquiring Fancy Small Cruises (FSC), a new luxury cruise line. Before doing so, it wants to know whether FSC's profitability can be increased. How should the analysis be structured?",
+ "clarifying_info": [
+  {
+   "question_topic": "Decision criterion",
+   "answer": "Profitability is management's primary consideration."
+  },
+  {
+   "question_topic": "Target",
+   "answer": "If asked, the goal is to raise FSC EBITDA margin from 10% to 40%."
+  },
+  {
+   "question_topic": "Revenue",
+   "answer": "FSC is all-inclusive and earns $1,000 per available passenger cruise day (APCD); gaming revenue can be ignored."
+  }
+ ],
+ "interviewer_notes": "Provide Exhibits 1 and 2 as requested. Ask the candidate to choose defensible benchmarks for each cost. The intended intermediate result is $650/APCD, a 35% EBITDA margin, which misses the 40% target. Then use Exhibit 3: increasing passengers from 800 to 1,000 reduces fixed cost per APCD by 20% and produces $584/APCD cost and a 41.6% margin. The source is internally inconsistent about shipboard salaries: one alignment list places them with the parent, while the worked itemization uses the competitor's $220/APCD. Preserve the intended worked path and call out the inconsistency.",
+ "suggested_framework": {
+  "summary": "Benchmark FSC revenue and cost per APCD, identify credible synergies, test passenger-density operating leverage, and evaluate whether the luxury proposition survives.",
+  "tree": {
+   "label": "Can FunCruiseLines lift FSC profitability?",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Ticket/APCD, excursions, beverage, casino, occupancy, and pricing"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Corporate, rent, fuel, crew, ports, food, and excursions; fixed versus variable"
+      }
+     ]
+    },
+    {
+     "label": "Benchmarks and synergies",
+     "children": [
+      {
+       "label": "Parent purchasing/overhead versus luxury-peer service levels"
+      }
+     ]
+    },
+    {
+     "label": "Execution and risks",
+     "children": [
+      {
+       "label": "Capacity, customer experience, integration, investment, and competitor response"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How should we determine whether FSC profitability can be improved?",
+   "expected_answer": "Compare revenue and costs per APCD with FunCruiseLines and luxury competitors, separating fixed and variable costs. Identify which costs can inherit parent scale and which must retain luxury-peer service levels. Then test occupancy or passenger-density changes, implementation investment, customer experience, and whether the resulting EBITDA margin meets the target.",
+   "good_answer_signals": [
+    "Uses APCD consistently",
+    "Separates fixed and variable cost",
+    "Benchmarks to the right comparator"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibits 1 and 2, estimate FSC's cost after attainable alignment.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Use parent-level corporate salaries $10 and office rent $5; reduce FSC fuel $50 by 10% to $45; use luxury-competitor levels for shipboard salaries $220, port fees $50, food and beverage $100, and excursions $220. Total cost is $650/APCD. With $1,000 revenue, EBITDA is $350 and margin is 35%, below the 40% target. A strong candidate should notice the source's alignment-list inconsistency for shipboard salaries and defend using the luxury-peer benchmark reflected in the worked solution.",
+   "good_answer_signals": [
+    "Explains each benchmark",
+    "Gets $650 and 35%",
+    "Recognizes parent total is not comparable because ships exceed 2,000 passengers"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "How else could FSC close the margin gap?",
+   "expected_answer": "Increase passenger density within customer tolerance, improve occupancy and pricing, redesign itineraries or port mix, negotiate suppliers, automate or consolidate overhead, and add ancillary revenue without undermining all-inclusive luxury. Separate changes that spread fixed cost from those that reduce variable service quality.",
+   "good_answer_signals": [
+    "Identifies passenger density",
+    "Protects luxury experience",
+    "Distinguishes fixed from variable levers"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What happens if passenger density rises to the customer-acceptable level in Exhibit 3?",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Passengers rise from 800 to 1,000, a 25% increase, so fixed cost per APCD falls by 800/1,000=20%. Corporate salaries fall to $8, rent $4, fuel $36, shipboard salaries $176, and port fees $40; food and beverage stays $100 and excursions $220. Total cost is $584/APCD, EBITDA is $416, and margin is 41.6%, above target.",
+   "good_answer_signals": [
+    "Uses a 20% per-APCD reduction rather than 25%",
+    "Changes only fixed costs",
+    "Gets $584 and 41.6%"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should FunCruiseLines proceed?",
+   "expected_answer": "Proceed to acquisition diligence because FSC can exceed the 40% target: benchmark alignment cuts cost from $900 to $650/APCD, and acceptable passenger density reduces it further to $584, yielding a 41.6% EBITDA margin on $1,000 revenue. Confirm that 1,000 passengers preserve satisfaction, validate each synergy and fixed-cost classification, and plan corporate integration and luxury-service training before committing.",
+   "good_answer_signals": [
+    "Quantifies both improvement steps",
+    "States the 41.6% margin",
+    "Makes the recommendation conditional on customer and synergy validation"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Costs per APCD",
+   "page": 358,
+   "kind": "bar",
+   "description": "FSC, FunCruiseLines, and competitor-average cost by category.",
+   "data": {
+    "columns": [
+     "Cost per APCD",
+     "FSC",
+     "FunCruiseLines",
+     "Competitor average"
+    ],
+    "rows": [
+     [
+      "Corporate salaries",
+      "$100",
+      "$10",
+      "$20"
+     ],
+     [
+      "Office rent",
+      "$100",
+      "$5",
+      "$10"
+     ],
+     [
+      "Fuel",
+      "$50",
+      "$20",
+      "$40"
+     ],
+     [
+      "Shipboard salaries",
+      "$250",
+      "$75",
+      "$220"
+     ],
+     [
+      "Port docking",
+      "$50",
+      "$20",
+      "$50"
+     ],
+     [
+      "Food and beverage",
+      "$100",
+      "$50",
+      "$100"
+     ],
+     [
+      "Excursions",
+      "$250",
+      "$20",
+      "$220"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-cruise-line-acquisition/p358.webp",
+   "image_has_answers": false,
+   "key_insight": "FSC spends far more on overhead and excursions, but the parent benchmark is not appropriate for every luxury-service category.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Fuel cost per barrel",
+   "page": 359,
+   "kind": "bar",
+   "description": "Fuel cost per barrel for FunCruiseLines and FSC.",
+   "data": {
+    "columns": [
+     "Company",
+     "Cost per barrel"
+    ],
+    "rows": [
+     [
+      "FunCruiseLines",
+      "$36"
+     ],
+     [
+      "FSC",
+      "$40"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-cruise-line-acquisition/p359.webp",
+   "image_has_answers": false,
+   "key_insight": "Parent purchasing lowers fuel price by 10%, which should reduce FSC fuel cost per APCD from $50 to $45 rather than to the parent's $20/APCD.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Passenger-density survey",
+   "page": 360,
+   "kind": "bar",
+   "description": "Current FSC passengers per ship and the passenger count acceptable to surveyed customers.",
+   "data": {
+    "columns": [
+     "Scenario",
+     "Passengers per ship"
+    ],
+    "rows": [
+     [
+      "FSC current",
+      "800"
+     ],
+     [
+      "Acceptable to customers",
+      "1,000"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-cruise-line-acquisition/p360.webp",
+   "image_has_answers": false,
+   "key_insight": "A 25% passenger increase spreads fixed costs across 1.25 times as many APCDs, reducing fixed cost per APCD by 20%.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is FSC cost and margin after benchmark alignment?",
+   "givens": [
+    "Revenue $1,000/APCD",
+    "Aligned costs $10, $5, $45, $220, $50, $100, $220"
+   ],
+   "steps": [
+    "Cost=10+5+45+220+50+100+220=$650",
+    "EBITDA=$1,000-$650=$350",
+    "Margin=$350/$1,000=35%"
+   ],
+   "answer": "$650/APCD cost and 35% EBITDA margin",
+   "answer_value": 35,
+   "unit": "percent EBITDA margin",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is margin after increasing passengers from 800 to 1,000?",
+   "givens": [
+    "Fixed costs $10, $5, $45, $220, $50",
+    "Variable costs $100 and $220",
+    "Fixed cost per APCD multiplier 800/1,000=0.8"
+   ],
+   "steps": [
+    "Adjusted fixed costs=$8+$4+$36+$176+$40=$264",
+    "Total cost=$264+$100+$220=$584",
+    "EBITDA=$1,000-$584=$416",
+    "Margin=$416/$1,000=41.6%"
+   ],
+   "answer": "$584/APCD cost and 41.6% EBITDA margin",
+   "answer_value": 41.6,
+   "unit": "percent EBITDA margin",
+   "verified": true
+  }
+ ],
+ "synthesis": "Proceed to diligence: credible benchmark alignment reduces FSC cost from $900 to $650/APCD, and raising passenger density from 800 to the customer-acceptable 1,000 lowers cost to $584 and lifts EBITDA margin to 41.6%, above the 40% target. Validate customer experience, the fixed/variable classification, each synergy, and the integration capabilities needed to serve luxury guests.",
+ "what_great_looks_like": [
+  "Chooses benchmarks by cost driver",
+  "Does not copy the parent's $200 total",
+  "Uses 800/1,000 for fixed cost per APCD",
+  "Calculates 41.6%",
+  "Protects luxury customer experience"
+ ],
+ "common_pitfalls": [
+  "Aligning every cost to the parent",
+  "Applying fuel dollars per barrel directly to APCD",
+  "Reducing variable costs with passenger density",
+  "Using a 25% fixed-cost reduction",
+  "Ignoring the source's shipboard-salary inconsistency"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All cost and margin calculations were independently verified and match the intended worked solution. The source conflicts on shipboard salaries: its alignment list places them with the parent, but its itemized solution uses the competitor's $220/APCD. The JSON preserves the intended $220 luxury-peer benchmark and explains the inconsistency. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

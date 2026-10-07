@@ -1,0 +1,374 @@
+{
+ "id": "kellogg-2024-kellogg-in-india",
+ "title": "Kellogg in India",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  216,
+  226
+ ],
+ "author": "Abhilash Sridharan (Kellogg 2015), Rashaad Jamaal (Kellogg 2015); edited by Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "kellogg-in-india",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Market Entry"
+ ],
+ "case_type_source_label": "Y04 New product / Market entry",
+ "industry": "education",
+ "sub_industry": "higher-ed",
+ "industry_source_label": "X07 Government & Public Sector",
+ "geography": "India",
+ "client_type": "non-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "market-entry",
+  "market-sizing",
+  "breakeven-analysis",
+  "npv",
+  "higher-education",
+  "risk-analysis"
+ ],
+ "concepts_tested": [
+  "Z08 Market sizing",
+  "Z07 Market share",
+  "Z03 Breakeven analysis"
+ ],
+ "fit_question": "Tell me about a time when you were provided feedback and what action you took.",
+ "prompt": "Our client is the Dean of Kellogg School of Management. She has hired you to advise her on an idea, which struck her during the previous week -- to consider starting a satellite campus of Kellogg in India. She has asked you to determine whether Kellogg should enter the Indian market.",
+ "clarifying_info": [
+  {
+   "question_topic": "Strategic rationale",
+   "answer": "India is a fast growing economy with huge demand for MBAs. Kellogg's Dean believes an India campus would help Kellogg become a Top 3 global MBA program. The caliber of India candidates is the same as in the US."
+  },
+  {
+   "question_topic": "Objective",
+   "answer": "The Dean wants the satellite campus to break even in 4 years."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Eight top-tier business schools: 7 IIMs and the ISB (which has a pedagogy partnership with Kellogg)."
+  },
+  {
+   "question_topic": "Candidate selection",
+   "answer": "IIMs select based on CAT test results. The ISB admits candidates based on the GMAT."
+  },
+  {
+   "question_topic": "Pricing",
+   "answer": "Indian MBAs cost $20k per year (US MBAs cost $70k). Indian schools don't offer scholarships, but banks offer loans."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "Kellogg would only launch the 2-year MBA program in India."
+  }
+ ],
+ "interviewer_notes": "This is a quintessential market entry case. The two main quantitative concepts tested are market size estimation and breakeven analysis. Problem-solving steps: 1) Develop a structure, 2) Confirm market attractiveness (sizing), 3) Market share and breakeven analysis, 4) Conduct risk analysis, 5) Provide client recommendation.",
+ "suggested_framework": {
+  "summary": "Splits Market Entry into Qualitative considerations (impact on ranking, brand, cannibalization, job prospects/ROI) and Quantitative Market Sizing (Revenue = # of students x fee per annum; Costs = Fixed [salaries, marketing, SG&A] + Variable [cost/student]).",
+  "tree": {
+   "label": "Should Kellogg enter the Indian market?",
+   "children": [
+    {
+     "label": "Qualitative",
+     "children": [
+      {
+       "label": "Impact on ranking"
+      },
+      {
+       "label": "Brand Kellogg & Kellogg India"
+      },
+      {
+       "label": "Cannibalisation"
+      },
+      {
+       "label": "Job prospects, ROI"
+      }
+     ]
+    },
+    {
+     "label": "Quantitative -- Market Sizing",
+     "children": [
+      {
+       "label": "Revenue",
+       "children": [
+        {
+         "label": "# of students"
+        },
+        {
+         "label": "Fee per annum"
+        }
+       ]
+      },
+      {
+       "label": "Costs",
+       "children": [
+        {
+         "label": "Fixed",
+         "children": [
+          {
+           "label": "Salaries"
+          },
+          {
+           "label": "Marketing"
+          },
+          {
+           "label": "SG&A"
+          }
+         ]
+        },
+        {
+         "label": "Variable",
+         "children": [
+          {
+           "label": "Cost/student"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem: should Kellogg enter the Indian market with a satellite campus?",
+   "expected_answer": "The structure should split into Qualitative factors (impact on ranking, brand Kellogg & Kellogg India, cannibalization, job prospects/ROI) and Quantitative market sizing (Revenue = # of students x fee per annum; Costs = Fixed costs [salaries, marketing, SG&A] and Variable costs [cost per student]).",
+   "good_answer_signals": [
+    "Separates qualitative brand/ranking considerations from quantitative market-sizing",
+    "Frames revenue and costs at the right level of detail for a breakeven analysis"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "How large is the addressable market of high-quality MBA applicants in India, and what would Kellogg's market size be?",
+   "release_when": "Provide Exhibit A when the candidate requests any of the information it contains; can be solved top-down or bottom-up (a top-down approach becomes too dependent on assumptions, so Exhibit A is used for a bottom-up approach)",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "IIMs: 500,000 applications/year; top 6% interviewed = 30,000 applicants; 1 in 5 accepted = 6,000 eligible students. ISB: 1,400 matriculated students / 70% matriculation rate = 2,000 eligible students. Total Addressable Market = 6,000 + 2,000 = 8,000 high-quality applicants. Market size: choose an annual fee between $20,000 and $70,000 (e.g. $50,000/year for a 2-year program): 8,000 x $50,000 x 2 = $800M potential market size.",
+   "good_answer_signals": [
+    "Correctly works from applications through interview rate through acceptance rate for IIMs",
+    "Uses matriculated students (not all admits) for ISB, or self-corrects when prompted",
+    "Selects a reasonable fee assumption within the given $20k-$70k range"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Assuming 7.5% market share in the year of launch, what is Kellogg India's expected profitability through Year 4, and does the project break even in 4 years as the Dean wants?",
+   "release_when": "Let the candidate propose a target launch-year market share first (a lower number is preferable), then have them assume 7.5%. Provide Exhibit B when asked about revenue, and Exhibit C after the candidate brainstorms costs. Confirm there is no discount rate if asked.",
+   "exhibit_ids": [
+    "exB",
+    "exC"
+   ],
+   "expected_answer": "Using 7.5% share of the 8,000-applicant TAM = 600 admits in Year 1, growing per Exhibit B (600, 600, 900, 900 in Years 1-4) at a $50,000 annual fee. Because it's a 2-year program, each cohort's tuition is earned across its two years in the program, giving Total Revenue of $30M (Y1), $60M (Y2), $75M (Y3), $90M (Y4). Costs (Exhibit C): $150M in Year 0 ($100M land + $50M support infrastructure) then $30M/$30M/$30M/$20M in Years 1-4. Resulting profit: -$150M (Y0), $0M (Y1), $30M (Y2), $45M (Y3), $70M (Y4). Cumulative profit after Year 4 = -$5M, so the project does not quite break even in 4 years, but given rising revenue and declining costs, breakeven is achieved in the first month of Year 5. Conclusion: the project should go ahead.",
+   "good_answer_signals": [
+    "Recognizes each 2-year cohort contributes tuition revenue in two consecutive years, not just one",
+    "Correctly sums cohort revenue to reach the $30M/$60M/$75M/$90M totals",
+    "Nets revenue against costs and correctly concludes cumulative breakeven is essentially achieved (off by only $5M) by Year 4/early Year 5"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What risks should we consider with this project? (Ask the candidate to brainstorm if they don't raise these on their own.)",
+   "expected_answer": "Brand impact (no top US school has succeeded in India yet; a satellite campus might dilute the brand); rankings impact (diversity, international presence, proximity to Asia, job prospects all factor into rankings); cannibalization (50-60 Indian students currently matriculate at Kellogg US; impact on the US MBA candidate pool across Asia); brand parity (is a Kellogg US MBA equivalent to a Kellogg India MBA?); job prospects (premium for Kellogg India vs. IIM/ISB graduates); support (parent campus pedagogical support needed for satellites).",
+   "good_answer_signals": [
+    "Generates risks across brand, rankings, cannibalization, and operational support, not just financial risk",
+    "Connects cannibalization back to Kellogg's existing ~50-60 Indian matriculants"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the Dean?",
+   "expected_answer": "Starting a satellite campus makes financial sense (near-breakeven by Year 4, breakeven early Year 5), but further scrutiny is needed on the impact to Kellogg's brand and other ranking factors. Additional considerations: negotiate down the ~$150M initial investment, explore Indian government subsidies, and develop additional revenue sources (supporting programs, corporate training). Key risks: brand dilution, cannibalization of Indian-student revenue, a steep (50%) projected admissions increase from Year 2 to Year 3, salary/PPP effects on Kellogg's reported average salary (and thus rankings), and the need for additional fundraising alongside Kellogg's new building project. Next steps: engage a brand consultant, work out the $150M fundraising, identify potential local partners/faculty support, and begin discussions with the Indian government on land, infrastructure, and licenses.",
+   "good_answer_signals": [
+    "Gives a clear, conditional recommendation (financially sound, but pending brand/ranking diligence) rather than a flat yes/no",
+    "Lists concrete next steps tied to the risks raised"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Indian business schools",
+   "page": 219,
+   "kind": "table",
+   "description": "Admissions process and student cost for the two competitor categories: IIMs (Common Admission Test, top 6% of CAT scorers interviewed, 5 candidates interviewed per seat, 85% of admits matriculate) and ISB (70% of admitted students matriculate, two campuses, total class size 1,400). Cost to a student is INR 1,200,000/year (1 USD = 60 INR); Kellogg's own annual cost is $70k.",
+   "data": {
+    "columns": [
+     "Category",
+     "IIMs",
+     "ISB"
+    ],
+    "rows": [
+     [
+      "Admissions process",
+      "Common Admission Test (CAT); top 6% of CAT scores interviewed; 5 candidates interviewed per seat; 85% of admitted candidates matriculate",
+      "70% of admitted students matriculate; two campuses; total class size 1,400"
+     ],
+     [
+      "Cost incurred by student",
+      "n/a in this exhibit",
+      "INR 1,200,000/year (1 USD = 60 INR)"
+     ]
+    ]
+   },
+   "key_insight": "Provides the funnel data (applications to interviews to acceptances) needed to bottom-up size the Total Addressable Market of high-quality Indian MBA applicants at 8,000.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-kellogg-in-india/p219.webp"
+  },
+  {
+   "id": "exB",
+   "title": "Admitted students",
+   "page": 220,
+   "kind": "table",
+   "description": "Expected annual admits for the Kellogg India campus in each of its first 4 years, with only source of revenue being student fees.",
+   "data": {
+    "columns": [
+     "Year",
+     "Expected admits per year"
+    ],
+    "rows": [
+     [
+      "1",
+      "600 (7.5% of 8,000)"
+     ],
+     [
+      "2",
+      "600"
+     ],
+     [
+      "3",
+      "900"
+     ],
+     [
+      "4",
+      "900"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-kellogg-in-india/p220.webp",
+   "key_insight": "Admits (and thus revenue) step up 50% from Year 2 to Year 3, which the book later flags as a notably high and risky assumption.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Estimated cost structure",
+   "page": 221,
+   "kind": "table",
+   "description": "Fixed (Year 0) and annual variable costs for the Kellogg India campus.",
+   "data": {
+    "columns": [
+     "Cost type",
+     "Year 0",
+     "Year 1",
+     "Year 2",
+     "Year 3",
+     "Year 4"
+    ],
+    "rows": [
+     [
+      "Fixed / Variable costs ($M)",
+      "$100M (land) + $50M (support infrastructure)",
+      "$30M",
+      "$30M",
+      "$30M",
+      "$20M"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-kellogg-in-india/p221.webp",
+   "key_insight": "The $150M Year-0 fixed investment (land + infrastructure) must be recovered through Years 1-4 operating profit; declining variable costs in Year 4 help the project nearly break even.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the Total Addressable Market (TAM) of high-quality MBA applicants in India, and what is the implied market size in dollars?",
+   "givens": [
+    "IIMs receive 500,000 applications/year",
+    "Top 6% of CAT scorers are interviewed",
+    "1 in 5 interviewed candidates is accepted",
+    "ISB has 1,400 matriculated students at a 70% matriculation rate",
+    "Assume an annual fee between $20,000 and $70,000 (e.g. $50,000) for a 2-year program"
+   ],
+   "steps": [
+    "IIM interviewees = 500,000 x 6% = 30,000",
+    "IIM eligible (accepted) students = 30,000 / 5 = 6,000",
+    "ISB eligible (all admitted) students = 1,400 matriculated / 70% = 2,000",
+    "TAM = 6,000 + 2,000 = 8,000 high-quality applicants",
+    "Market size = 8,000 applicants x $50,000/year x 2 years"
+   ],
+   "answer": "TAM = 8,000 high-quality applicants; implied market size ≈ $800M",
+   "answer_value": 800000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are Kellogg India's projected profits in Years 0-4, and does the project break even within the Dean's 4-year target?",
+   "givens": [
+    "7.5% launch-year market share of the 8,000-student TAM",
+    "Admits by year (Exhibit B): 600, 600, 900, 900",
+    "Annual fee = $50,000; 2-year program (each cohort earns fees across 2 years)",
+    "Costs (Exhibit C): Year 0 = $150M ($100M land + $50M infrastructure); Years 1-4 = $30M/$30M/$30M/$20M",
+    "No discount rate"
+   ],
+   "steps": [
+    "Revenue by year = fee-earning cohorts present that year x $50,000: Y1 = 600 x $50k = $30M (Y1 cohort only)",
+    "Y2 = Y1 cohort (2nd year, $30M) + Y2 cohort (1st year, 600 x $50k = $30M) = $60M",
+    "Y3 = Y2 cohort (2nd year, $30M) + Y3 cohort (1st year, 900 x $50k = $45M) = $75M",
+    "Y4 = Y3 cohort (2nd year, $45M) + Y4 cohort (1st year, 900 x $50k = $45M) = $90M",
+    "Profit = Revenue - Costs: Y0 = -$150M, Y1 = $30M-$30M = $0M, Y2 = $60M-$30M = $30M, Y3 = $75M-$30M = $45M, Y4 = $90M-$20M = $70M",
+    "Cumulative profit through Y4 = -150+0+30+45+70 = -$5M"
+   ],
+   "answer": "Project is essentially breakeven by Year 4 (cumulative -$5M); given rising revenue and falling costs, full breakeven is reached in the first month of Year 5 -- the project should proceed",
+   "answer_value": -5,
+   "unit": "USD million (cumulative profit through Year 4)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Starting a satellite campus makes financial sense -- the project is nearly breakeven by Year 4 (cumulative -$5M) and would break even in the first month of Year 5 -- but further scrutiny is needed on the impact of this move on Kellogg's brand and rankings. Additional considerations include negotiating down the initial investment, seeking Indian government subsidies, and developing additional revenue sources like supporting programs and corporate training. Key risks include brand dilution, cannibalization of the existing Indian-student pipeline, an aggressive Year 2-to-Year 3 admissions ramp, PPP-adjusted salary effects on reported rankings, and the need for additional fundraising alongside Kellogg's ongoing building project. Next steps: engage a brand consultant, secure ~$150M in funding, line up local partners and faculty support, and begin government discussions on land, infrastructure, and licenses.",
+ "what_great_looks_like": [
+  "Uses Exhibit A to build a clean bottom-up TAM rather than a shakier top-down estimate",
+  "Recognizes that each 2-year cohort contributes revenue across two fiscal years and doesn't double count or drop revenue",
+  "Nets the $150M investment against 4 years of operating profit and correctly concludes the project is essentially at breakeven, not a clear miss",
+  "Proactively raises brand, ranking, and cannibalization risks rather than treating the case as purely a financial breakeven exercise"
+ ],
+ "common_pitfalls": [
+  "Using all admitted students (rather than matriculated students) for the ISB eligible-pool calculation",
+  "Modeling each cohort's tuition as a single one-time payment instead of spreading it across the 2-year program",
+  "Concluding the project is a clear failure because Year 4 cumulative profit is negative, without noting it is off by only $5M with rising revenue and falling costs"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The book's raw text for the Part 3 revenue table interleaves two sub-rows ('Revenue from students in year 1' and 'from students in year 2') in a way that is ambiguous from the text layer alone; reconstructed the correct per-cohort revenue logic (each 2-year cohort earns its $50k fee across 2 consecutive years) by cross-checking against the book's own Total Revenue and Profit rows, which match exactly.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "client_type",
+   "case_type (mapped from Y04 to taxonomy)"
+  ]
+ }
+}

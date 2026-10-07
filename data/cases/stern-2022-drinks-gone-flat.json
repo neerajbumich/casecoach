@@ -1,0 +1,313 @@
+{
+ "id": "stern-2022-drinks-gone-flat",
+ "title": "Drinks Gone Flat",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  82,
+  89
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Pricing"
+ ],
+ "case_type_source_label": "Revenue Growth",
+ "industry": "retail",
+ "sub_industry": "grocery",
+ "industry_source_label": "Retail",
+ "geography": "Southeastern United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 7/10; Structure 6/10; higher dimension 7 mapped using round(7/2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 15,
+ "tags": [
+  "revenue-decline",
+  "price-volume-mix",
+  "cannibalization",
+  "retail-pricing",
+  "brand-differentiation",
+  "four-ps"
+ ],
+ "prompt": "The beverage department of a regional supermarket has seen a drop in revenue over the last year and has hired your firm to determine the cause of the decline and recommend ways to reverse the trend.",
+ "clarifying_info": [
+  {
+   "question_topic": "Client and scope",
+   "answer": "The client is a leading regional grocer in the southeastern U.S. The revenue decline is specific to beverages."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "The competitive landscape has not changed over the last year."
+  },
+  {
+   "question_topic": "Objective",
+   "answer": "Find the cause of falling revenue and recommend how to stop the decline."
+  }
+ ],
+ "interviewer_notes": "The title says interviewer-led, but detailed instructions explicitly require the candidate to drive and information to be released only when asked; use that operating format. Can be completed in under 15 minutes and tests efficient diagnosis. Stay high-level until the interviewer confirms information exists; avoid unnecessary cost analysis because the objective is revenue. Give Exhibit 1 only when product-category revenue/sales is requested; Exhibit 2 only after the candidate isolates soda and asks for brand detail. Strong candidates move naturally from diagnosis to structured recommendations using price, promotion, product and placement.",
+ "suggested_framework": {
+  "summary": "Locate the beverage revenue decline through price, volume and mix, then identify targeted commercial levers.",
+  "tree": {
+   "label": "Reverse beverage revenue decline",
+   "children": [
+    {
+     "label": "Diagnose revenue",
+     "children": [
+      {
+       "label": "Product-category volume and average price"
+      },
+      {
+       "label": "Brand-level volume, price and substitution"
+      }
+     ]
+    },
+    {
+     "label": "Customer and market",
+     "children": [
+      {
+       "label": "Changes in preferences and competitive conditions"
+      }
+     ]
+    },
+    {
+     "label": "Commercial response",
+     "children": [
+      {
+       "label": "Price and promotion"
+      },
+      {
+       "label": "Product differentiation and shelf placement"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you investigate the revenue decline?",
+   "release_when": "After the prompt; clarifications on request.",
+   "info_to_release": "The client is a southeastern U.S. regional grocer; only beverage revenue is declining and competitive conditions have not changed.",
+   "expected_answer": "Decompose revenue into price and quantity by beverage category, then drill into the affected category and brands. Keep the inquiry focused on revenue rather than expenses and reserve commercial levers for the diagnosis-driven recommendation.",
+   "good_answer_signals": [
+    "Requests segmented sales data promptly."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Which beverage category explains the decline?",
+   "release_when": "Give Exhibit 1 only when the candidate requests category-level revenue or sales information.",
+   "info_to_release": "Volumes in millions of gallons and prices/gallon: soda 2014 100/$0.90,2015 120/$0.70; water 20/$0.70 and 22/$0.65; other 11/$4 and 10/$4.50. Cost data is also on the exhibit but is not needed for this revenue diagnosis. Source footnote labels values average per store.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Soda revenue falls from $90m to $84m, a$6m decline. Water rises $14m to $14.3m and other beverages $44m to $45m. Total falls $148m to $143.3m, or $4.7m. Soda is the sole declining category despite higher volume, implying a price/mix issue. Ask for soda detail by brand.",
+   "good_answer_signals": [
+    "Uses price times volume rather than interpreting volume growth as revenue growth.",
+    "Drills down only after isolating the problem."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What changed within soda?",
+   "release_when": "Give Exhibit 2 once the candidate identifies soda and asks for brand segmentation.",
+   "info_to_release": "Brand A gallons/revenue (millions):2014 50/$50m,2015 30/$30m. Brand B25/$25m then 30/$30m. Value Brand 25/$15m then 60/$24m.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "A and B remain $1/gallon in both years. Value Brand falls from $0.60 to $0.40/gallon and volume rises 25m to 60m gallons. A revenue falls $20m while B gains $5m and Value gains $9m, net−$6m. The source attributes the category decline to the lower-priced Value Brand drawing demand away from Brand A. This is a price/mix substitution hypothesis supported by the patterns, not direct customer-switching evidence.",
+   "good_answer_signals": [
+    "Calculates implied prices and reconciles brand revenue changes to soda's decline."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could the client reverse the decline?",
+   "release_when": "After identifying the value-brand price/mix shift; strong candidates initiate this themselves.",
+   "info_to_release": "No price-elasticity, customer-switching or promotional experiment data is supplied.",
+   "expected_answer": "Use the 4Ps to structure options: reassess Value Brand pricing, improve brand differentiation, explore bundles and promotions to support other brands, and test shelf placement. Do not assert an exact optimal price or revenue uplift without demand-response data. Consider how price changes could alienate value customers or brand suppliers.",
+   "good_answer_signals": [
+    "Proposes targeted actions linked to the diagnosis rather than generic growth ideas."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the grocer do next?",
+   "release_when": "After the candidate prioritizes commercial responses.",
+   "info_to_release": "No new facts.",
+   "expected_answer": "Address soda pricing and mix: it accounts for $6m lost revenue, partly offset elsewhere. Value Brand's price fell $0.60 to $0.40 as its volume increased and Brand A lost sales. Explore Value Brand pricing, differentiation from A/B, bundles and shelf placement. Protect value-seeking customers and supplier relationships; validate switching and price response before broad changes.",
+   "good_answer_signals": [
+    "Summarizes the root-cause hypothesis with key figures and concrete next steps."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Revenue and cost inputs by beverage category",
+   "page": 88,
+   "kind": "table",
+   "description": "Volume in millions of gallons, price and cost per gallon. Footnote states average per store; unusual scale retained as printed.",
+   "data": {
+    "columns": [
+     "Category",
+     "2014 gallons (m)",
+     "2015 gallons (m)",
+     "2014 price/gallon (USD)",
+     "2015 price/gallon (USD)",
+     "2014 cost/gallon (USD)",
+     "2015 cost/gallon (USD)"
+    ],
+    "rows": [
+     [
+      "Sodas",
+      100,
+      120,
+      0.9,
+      0.7,
+      0.3,
+      0.3
+     ],
+     [
+      "Waters",
+      20,
+      22,
+      0.7,
+      0.65,
+      0.2,
+      0.2
+     ],
+     [
+      "Others",
+      11,
+      10,
+      4,
+      4.5,
+      3.9,
+      3.9
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-drinks-gone-flat/p088.webp",
+   "key_insight": "Only soda revenue declines; higher gallons do not compensate for lower average price.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Sodas by brand",
+   "page": 89,
+   "kind": "table",
+   "description": "Supplied brand volume and revenue inputs, both in millions; footnote average per store. Prices are calculated separately in math.",
+   "data": {
+    "columns": [
+     "Brand",
+     "2014 gallons (m)",
+     "2015 gallons (m)",
+     "2014 revenue (USD m)",
+     "2015 revenue (USD m)"
+    ],
+    "rows": [
+     [
+      "A",
+      50,
+      30,
+      50,
+      30
+     ],
+     [
+      "B",
+      25,
+      30,
+      25,
+      30
+     ],
+     [
+      "Value",
+      25,
+      60,
+      15,
+      24
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-drinks-gone-flat/p089.webp",
+   "key_insight": "The value brand gains volume at a lower price while Brand A loses revenue and volume.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which categories drive total revenue change?",
+   "givens": [
+    "Exhibit 1 category volumes and prices"
+   ],
+   "steps": [
+    "Soda:100×0.9=$90m;120×0.7=$84m; change−$6m.",
+    "Water:20×0.7=$14m;22×0.65=$14.3m; change+$0.3m.",
+    "Others:11×4=$44m;10×4.5=$45m; change+$1m.",
+    "Totals $148m and $143.3m; change−$4.7m."
+   ],
+   "answer": "Soda drives a$6m decline; overall beverages decline $4.7m.",
+   "answer_value": -4.7,
+   "unit": "USD millions change in annual revenue",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What happened to soda brand prices and revenues?",
+   "givens": [
+    "Exhibit 2 brand revenues and gallons"
+   ],
+   "steps": [
+    "A:50/50=30/30=$1/gallon.",
+    "B:25/25=30/30=$1/gallon.",
+    "Value:15/25=$0.60;24/60=$0.40.",
+    "Revenue changes:A30−50=−$20m;B30−25=+$5m;Value 24−15=+$9m; sum−$6m."
+   ],
+   "answer": "Value Brand is the only brand with a price reduction; mix shifts toward it as Brand A contracts.",
+   "answer_value": 0.4,
+   "unit": "USD/gallon 2015 Value Brand price",
+   "verified": true
+  }
+ ],
+ "synthesis": "Focus on soda: its $6m revenue loss drives the overall $4.7m beverage decline. Value Brand's price cut from $0.60 to $0.40 and volume growth coincide with Brand A's$20m revenue loss, suggesting substitution toward lower-priced products. Reassess Value Brand pricing and differentiation, test bundles and shelf placement, and protect value customers and supplier relationships. No optimal price or guaranteed uplift can be determined from the supplied data.",
+ "what_great_looks_like": [
+  "Efficiently moves from category to brand data without prompting.",
+  "Stays focused on revenue rather than unnecessary costs.",
+  "Calculates implied brand prices and reconciles the decline.",
+  "Structures remedies through price, promotion, product and placement."
+ ],
+ "common_pitfalls": [
+  "Mistaking rising soda gallons for improving revenue.",
+  "Missing the shift to lower-priced Value Brand.",
+  "Spending time on costs despite the revenue objective.",
+  "Assuming a price increase leaves demand unchanged."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Both candidate exhibits visually reviewed. All calculations match and were recomputed in math-stern-drinks.py. Source labels millions of gallons and revenues as average per store; that scale is unusual but preserved, not rescaled. Format set candidate-led because explicit conduct instructions override the cover's interviewer-led label. Suggested duration 15 minutes follows source guidance. Cannibalization is qualified as a hypothesis because customer switching is not directly measured. Difficulty uses max(7,6) mapped to 4. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "difficulty (higher-dimension aggregation)",
+   "quant_intensity",
+   "tags",
+   "suggested_framework.tree",
+   "common_pitfalls",
+   "synthesis (causal and price-response caveats)"
+  ]
+ }
+}

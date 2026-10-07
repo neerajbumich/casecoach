@@ -1,0 +1,421 @@
+{
+ "id": "ross-2024-dowork",
+ "title": "DoWork",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  130,
+  142
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Profitability"
+ ],
+ "case_type_source_label": "Growth",
+ "industry": "real-estate",
+ "sub_industry": "commercial-re",
+ "industry_source_label": "Technology & Real Estate",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 2, Qual - 3, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "growth-strategy",
+  "market-share",
+  "coworking",
+  "segment-profitability",
+  "technology",
+  "initiative-prioritization",
+  "hybrid-work"
+ ],
+ "concepts_tested": [
+  "organic share capture",
+  "weighted profit margin",
+  "growth-gap closure",
+  "risk and timing prioritization"
+ ],
+ "prompt": "DoWork provides physical and virtual coworking spaces and uses technology solutions to run a lean, efficient operation. The company experienced acute financial stress after COVID but has recovered as more people return to offices and companies choose flexible lease arrangements for hybrid work. The CEO has asked you to explore new growth frontiers while maintaining a strong focus on profitability.",
+ "clarifying_info": [
+  {
+   "question_topic": "Business model",
+   "answer": "DoWork signs long-term contracts to rent office space cheaply and rents it at higher rates to enterprises and startups. It has also begun exploring technology-enabled lease and commercial-space management services."
+  },
+  {
+   "question_topic": "Current performance",
+   "answer": "Revenue is approximately $1 billion and profit margin is 15%."
+  },
+  {
+   "question_topic": "Growth objective",
+   "answer": "Double revenue within three years while maintaining or increasing profitability."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "The market in scope is the United States."
+  },
+  {
+   "question_topic": "Virtual coworking",
+   "answer": "Virtual coworking means virtual-meeting software solutions."
+  }
+ ],
+ "interviewer_notes": "This case combines revenue growth with a profitability constraint. Guide the candidate toward organic competitor-share capture, then assess whether the resulting mix maintains margin, brainstorm technology products, and prioritize one initiative to close the remaining revenue gap within three years. Strong candidates note that Exhibit 2 does not require a full calculation because every incremental segment margin is at least the current 15%. They should also question capacity and investment needs before assuming captured demand is costless.",
+ "suggested_framework": {
+  "summary": "Book-provided framework spanning organic and inorganic growth, profitability, and market conditions.",
+  "tree": {
+   "label": "DoWork profitable growth",
+   "children": [
+    {
+     "label": "Revenue growth",
+     "children": [
+      {
+       "label": "Organic: price increases"
+      },
+      {
+       "label": "Organic: new customers, products, or both"
+      },
+      {
+       "label": "Inorganic: acquisition or geographic expansion"
+      }
+     ]
+    },
+    {
+     "label": "Profitability",
+     "children": [
+      {
+       "label": "Revenue mix and segment margins"
+      },
+      {
+       "label": "Fixed costs: long-term leases and labor"
+      },
+      {
+       "label": "Variable costs: consumables such as food, beverages, and stationery"
+      }
+     ]
+    },
+    {
+     "label": "Market and feasibility",
+     "children": [
+      {
+       "label": "Competition and share available"
+      },
+      {
+       "label": "COVID and hybrid-work trends"
+      },
+      {
+       "label": "Real-estate cost and lease-versus-buy"
+      },
+      {
+       "label": "Capacity and investment required"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you help DoWork double revenue without reducing its profit margin?",
+   "expected_answer": "Evaluate organic growth through price, customer acquisition, and new products; inorganic growth through acquisition or geography; the revenue, fixed-cost, and variable-cost consequences of each; and market feasibility including competition, hybrid-work demand, real-estate costs, capacity, and required investment.",
+   "good_answer_signals": [
+    "Treats profitability as a constraint, not an afterthought",
+    "Covers both existing and new customers and products",
+    "Includes market capacity and execution feasibility"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How much incremental revenue can DoWork capture organically from its two largest competitors, and what else do you observe?",
+   "release_when": "Hand out Exhibit 1 after the initial structure.",
+   "info_to_release": "AllWork has $2.5B revenue split 20% SMEs, 40% big corporates, 40% startups. BeeWork has $0.5B split 15% SMEs, 5% big corporates, 80% startups. DoWork has $1.0B split 20% SMEs, 8% big corporates, 72% startups. DoWork can capture from AllWork/BeeWork: SMEs 10%/20%, big corporates 25%/10%, startups 30%/20%.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Incremental revenue is $65M from SMEs, $252.5M from big corporates, and $380M from startups, totaling $697.5M (approximately $700M). Revenue would reach about $1.7B, leaving roughly a $300M gap to the $2B goal. DoWork should also assess profitability and whether it has enough space and operational capacity to serve the captured demand without major investment.",
+   "good_answer_signals": [
+    "Applies capture rates to each competitor's segment revenue",
+    "Finds approximately $700M total and $300M shortfall",
+    "Calls out profitability and capacity"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "Will the organic expansion maintain or increase DoWork's current 15% profit margin?",
+   "info_to_release": "Post-expansion margins are 15% for SMEs, 30% for big corporates, and 20% for startups.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Yes. Each incremental segment margin is at least the current 15%, so the blended margin cannot fall below 15%. Exact calculation gives about $161.5M incremental profit; adding the current $150M profit yields $311.5M on $1.6975B revenue, or about 18.35% (the book rounds to $160M incremental profit and an 18% margin on $1.7B). Big corporates are the most profitable segment at 30%.",
+   "good_answer_signals": [
+    "Recognizes the conclusion without unnecessary arithmetic",
+    "Identifies big corporates as the highest-margin segment",
+    "If calculating, obtains approximately 18%"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What technology-led initiatives could DoWork pursue to make customers feel safe about in-person work and generate additional revenue?",
+   "expected_answer": "Ideas include autonomous cleaning, zero-touch and voice-enabled technology, mobile/app-based access, remote collaboration tools, people-counting sensors and crowding alerts, attendance management, and B2B lease management.",
+   "good_answer_signals": [
+    "Generates multiple concrete safety and workplace-management products",
+    "Includes both physical-space technology and software services",
+    "Links ideas to existing enterprise customers"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "Which technology initiative should DoWork prioritize to close the remaining $300M revenue gap within three years?",
+   "release_when": "Provide Exhibit 3 after the technology brainstorm.",
+   "info_to_release": "Attendance management: 2-year implementation, $150M revenue, $10M operating cost, medium risk, 0.5-year post-implementation lead time. CRM: 1 year, $200M revenue, $50M operating cost, high risk, 1-year lead. Lease-management SaaS: 1.5 years, $300M revenue, $5M operating cost, high risk, 2-year lead. Voice-enabled technology: 1 year, $350M revenue, $50M operating cost, high risk, 2-year lead. Implementation costs are not available. Internal controls allow only one high-risk project at a time.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Prioritize voice-enabled technology. Attendance management and CRM finish within three years but deliver only $150M and $200M, below the gap. Lease-management SaaS provides $300M but requires 3.5 years. Voice-enabled technology produces $350M in exactly three years and closes the gap; its $50M operating cost is small relative to revenue, so it should improve margin. Because it is high risk and only one high-risk project can run at a time, DoWork should not concurrently undertake CRM or lease-management SaaS.",
+   "good_answer_signals": [
+    "Adds implementation and lead time",
+    "Eliminates initiatives that miss either revenue or timing",
+    "Accounts for the one-high-risk-project constraint",
+    "Considers operating cost and missing implementation cost"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to DoWork's CEO?",
+   "expected_answer": "Pursue organic share capture, emphasizing big corporates because their incremental margin is 30%, to add about $697.5M and raise blended margin to roughly 18%. Close the remaining approximately $300M with voice-enabled technology, which can generate $350M within three years. Risks include renewed COVID disruption, rising urban lease costs, capacity constraints, and execution risk on the high-risk technology project. Next steps are competitor and capacity diligence, growth marketing, and a detailed voice-technology business case including implementation cost.",
+   "good_answer_signals": [
+    "Combines organic capture with one technology initiative",
+    "Quantifies growth and margin",
+    "Names capacity, lease, COVID, and implementation risks",
+    "Proposes focused diligence and resourcing"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Competitive Revenue Mix and Capturable Share",
+   "page": 134,
+   "kind": "bar",
+   "description": "Revenue and customer-segment mix for AllWork, BeeWork, and DoWork, plus the share of each competitor's segment revenue that DoWork can capture organically.",
+   "data": {
+    "columns": [
+     "Company",
+     "Revenue (USD B)",
+     "SMEs",
+     "Big corporates",
+     "Startups"
+    ],
+    "rows": [
+     [
+      "AllWork",
+      2.5,
+      "20%",
+      "40%",
+      "40%"
+     ],
+     [
+      "BeeWork",
+      0.5,
+      "15%",
+      "5%",
+      "80%"
+     ],
+     [
+      "DoWork",
+      1.0,
+      "20%",
+      "8%",
+      "72%"
+     ],
+     [
+      "Capturable from AllWork",
+      "",
+      "10%",
+      "25%",
+      "30%"
+     ],
+     [
+      "Capturable from BeeWork",
+      "",
+      "20%",
+      "10%",
+      "20%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-dowork/p134.webp",
+   "key_insight": "DoWork can add approximately $700M organically, but that leaves roughly $300M to reach its $2B goal.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Net Profit Margin by Segment Post Organic Expansion",
+   "page": 137,
+   "kind": "bar",
+   "description": "Post-expansion profit margins for SMEs, big corporates, and startups.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Profit margin"
+    ],
+    "rows": [
+     [
+      "SMEs",
+      "15%"
+     ],
+     [
+      "Big corporates",
+      "30%"
+     ],
+     [
+      "Startups",
+      "20%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-dowork/p137.webp",
+   "key_insight": "Every incremental segment meets or exceeds DoWork's current 15% margin; big corporates provide the most profitable growth.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Tech Initiatives for Incremental Revenue Generation",
+   "page": 140,
+   "kind": "table",
+   "description": "Implementation time, revenue, operating cost, risk, and revenue-realization lead time for four technology initiatives.",
+   "data": {
+    "columns": [
+     "Initiative",
+     "Implementation",
+     "Implementation cost",
+     "Incremental revenue",
+     "Operating cost",
+     "Risk",
+     "Lead time after implementation"
+    ],
+    "rows": [
+     [
+      "Attendance management for enterprises",
+      "2 years",
+      "NA",
+      "$150M",
+      "$10M",
+      "Medium",
+      "0.5 years"
+     ],
+     [
+      "CRM management",
+      "1 year",
+      "NA",
+      "$200M",
+      "$50M",
+      "High",
+      "1 year"
+     ],
+     [
+      "Lease-management SaaS",
+      "1.5 years",
+      "NA",
+      "$300M",
+      "$5M",
+      "High",
+      "2 years"
+     ],
+     [
+      "Voice-enabled technology",
+      "1 year",
+      "NA",
+      "$350M",
+      "$50M",
+      "High",
+      "2 years"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-dowork/p140.webp",
+   "key_insight": "Only voice-enabled technology both closes the roughly $300M gap and realizes revenue within three years.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much organic revenue can DoWork capture from AllWork and BeeWork?",
+   "givens": [
+    "Competitor revenue, segment mix, and capturable share from Exhibit 1"
+   ],
+   "steps": [
+    "SMEs = 20%×$2.5B×10% + 15%×$0.5B×20% = $65M",
+    "Big corporates = 40%×$2.5B×25% + 5%×$0.5B×10% = $252.5M",
+    "Startups = 40%×$2.5B×30% + 80%×$0.5B×20% = $380M",
+    "Total = $65M + $252.5M + $380M = $697.5M",
+    "Gap to $2B from $1B base = $302.5M, approximately $300M"
+   ],
+   "answer": "$697.5 million incremental revenue, leaving a $302.5 million gap",
+   "answer_value": 697.5,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What profit and blended margin result from organic expansion?",
+   "givens": [
+    "Current revenue $1B and margin 15%",
+    "Incremental revenue: SMEs $65M at 15%, big corporates $252.5M at 30%, startups $380M at 20%"
+   ],
+   "steps": [
+    "Incremental profit = $65M×15% + $252.5M×30% + $380M×20% = $161.5M",
+    "Current profit = $1B×15% = $150M",
+    "New profit = $311.5M",
+    "New revenue = $1,697.5M",
+    "Blended margin = $311.5M ÷ $1,697.5M = 18.35%"
+   ],
+   "answer": "$161.5 million incremental profit and approximately 18.35% blended margin",
+   "answer_value": 18.35,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "DoWork should capture organic share from AllWork and BeeWork, focusing especially on 30%-margin big corporates. This adds $697.5M of revenue and approximately $161.5M of profit, taking the business to about $1.70B revenue and an 18.35% margin. To close the remaining approximately $300M revenue gap within the three-year deadline, prioritize voice-enabled technology: it produces $350M after one year of implementation plus two years of lead time. DoWork should validate capacity, implementation cost, customer demand, and the competitive response before committing. Key risks are renewed COVID disruption, urban lease inflation, physical-space capacity, and the execution risk of a single high-risk technology bet.",
+ "what_great_looks_like": [
+  "Builds a growth plan that explicitly protects margin",
+  "Calculates competitor share capture by segment and competitor",
+  "Recognizes that Exhibit 2's conclusion follows directly from every segment margin being at least 15%",
+  "Uses revenue, total time, risk, and operating cost to prioritize initiatives",
+  "Raises capacity and missing implementation cost as diligence issues"
+ ],
+ "common_pitfalls": [
+  "Applies capture rates to total competitor revenue without segmenting",
+  "Stops after finding approximately $700M and ignores the remaining gap",
+  "Chooses lease-management SaaS because it earns $300M but misses its 3.5-year timeline",
+  "Runs multiple high-risk initiatives despite the internal-control limit",
+  "Assumes new customers require no physical capacity or investment"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The book rounds organic revenue to $700M, incremental profit to $160M, and blended margin to 18%; exact recomputation gives $697.5M, $161.5M, and 18.35%, consistent with the stated rounding. The book lists implementation cost as NA for all technology initiatives. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

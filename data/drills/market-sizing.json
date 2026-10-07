@@ -1,0 +1,1843 @@
+[
+  {
+    "id": "us-golf-balls",
+    "question": "How many golf balls are bought in the US each year?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "sports",
+      "classic"
+    ],
+    "clarify": [
+      "Do we count only balls used on courses, or driving-range balls too? Assume on-course play; ranges are a small B2B add-on.",
+      "Are we counting balls bought or balls used? Assume purchases roughly equal balls lost, since golfers rebuy what they lose."
+    ],
+    "approach": [
+      "US golfers (~25M) × rounds per golfer per year (~20) = total rounds",
+      "Total rounds × balls lost per round (~1.5) = balls lost and replaced each year"
+    ],
+    "assumptions": [
+      {
+        "label": "US golfers",
+        "value": "~25M",
+        "why": "Roughly 7-8% of the population plays at least once a year"
+      },
+      {
+        "label": "Rounds per golfer",
+        "value": "~20 per year",
+        "why": "Blend of a few avid players at 50+ and many casuals at 5-10"
+      },
+      {
+        "label": "Balls lost per round",
+        "value": "~1.5",
+        "why": "Water hazards and trees; better players lose fewer"
+      }
+    ],
+    "calc": [
+      "25M golfers × 20 rounds = 500M rounds",
+      "500M rounds × 1.5 balls = 750M balls"
+    ],
+    "estimate": "~750M balls",
+    "estimate_value": 750000000,
+    "range": [
+      400000000,
+      1500000000
+    ],
+    "sanity_check": "At ~$2 per ball that is ~$1.5B of ball sales, about the right order for the category leaders' combined golf-ball revenue.",
+    "so_what": "A ball maker would use this to size its share target and decide whether premium or value balls drive growth."
+  },
+  {
+    "id": "us-dog-food",
+    "question": "Estimate the annual US market for dog food in dollars.",
+    "difficulty": 1,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "pets",
+      "cpg"
+    ],
+    "clarify": [
+      "Do we include treats and supplements? Assume food plus treats, excluding vet diets.",
+      "Retail value or manufacturer revenue? Assume retail value."
+    ],
+    "approach": [
+      "US households (~130M) × share owning a dog (~40%) = dog households",
+      "Dog households × dogs per household (~1.4) = US dogs",
+      "US dogs × annual food and treat spend per dog (~$400) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US households",
+        "value": "~130M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Share of households with a dog",
+        "value": "~40%",
+        "why": "Roughly two in five homes have a dog"
+      },
+      {
+        "label": "Dogs per dog-owning household",
+        "value": "~1.4",
+        "why": "Most have one, a meaningful minority have two or more"
+      },
+      {
+        "label": "Food and treat spend per dog",
+        "value": "~$400 per year",
+        "why": "~$30-35 a month blending budget kibble and premium brands"
+      }
+    ],
+    "calc": [
+      "130M households × 40% = 52M dog households",
+      "52M × 1.4 = 73M dogs",
+      "73M dogs × $400 = $29B"
+    ],
+    "estimate": "~$29B",
+    "estimate_value": 29000000000,
+    "range": [
+      15000000000,
+      50000000000
+    ],
+    "sanity_check": "Per US household that is ~$220 a year, or ~$560 per dog household, plausible for a monthly bag plus treats.",
+    "so_what": "A pet-food brand would use this to judge whether the premium segment is big enough to justify a new product line."
+  },
+  {
+    "id": "us-coffee-cups-daily",
+    "question": "How many cups of coffee do Americans drink on a typical day?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "food-and-beverage"
+    ],
+    "clarify": [
+      "Adults only? Assume adults; teen consumption is small.",
+      "Home plus out-of-home? Assume all cups wherever brewed."
+    ],
+    "approach": [
+      "US adults (~260M) × share who drink coffee daily (~60%) = daily drinkers",
+      "Daily drinkers × cups per drinker per day (~2.5) = cups per day"
+    ],
+    "assumptions": [
+      {
+        "label": "US adults",
+        "value": "~260M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Share drinking coffee daily",
+        "value": "~60%",
+        "why": "A clear majority of adults are daily coffee drinkers"
+      },
+      {
+        "label": "Cups per drinker",
+        "value": "~2.5 per day",
+        "why": "One at home, one at work, sometimes a third"
+      }
+    ],
+    "calc": [
+      "260M adults × 60% = 156M drinkers",
+      "156M × 2.5 cups = 390M cups"
+    ],
+    "estimate": "~390M cups per day",
+    "estimate_value": 390000000,
+    "range": [
+      250000000,
+      700000000
+    ],
+    "sanity_check": "That is a bit over one cup per American per day, which feels right given kids and non-drinkers pull the average down.",
+    "so_what": "A coffee chain or equipment maker would use this as the base to size its share of daily occasions."
+  },
+  {
+    "id": "us-gas-stations",
+    "question": "How many gas stations are there in the US?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "supply-side",
+      "us",
+      "energy",
+      "classic"
+    ],
+    "clarify": [
+      "Retail stations only, excluding private fleet depots? Assume retail only.",
+      "Do EVs matter here? Assume they are still a small share of the fleet and ignore them."
+    ],
+    "approach": [
+      "US cars (~130M households × ~2 cars) × fill-ups per car per year (~40) = annual fill-ups",
+      "Station capacity = pumps per station (~8) × fills per pump per day (~25) × 365",
+      "Annual fill-ups ÷ fills per station per year = stations"
+    ],
+    "assumptions": [
+      {
+        "label": "US households",
+        "value": "~130M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Cars per household",
+        "value": "~2",
+        "why": "Rounds up to include commercial light vehicles"
+      },
+      {
+        "label": "Fill-ups per car",
+        "value": "~40 per year",
+        "why": "Roughly every 9 days"
+      },
+      {
+        "label": "Pumps per station",
+        "value": "~8",
+        "why": "Four islands with two sides each"
+      },
+      {
+        "label": "Fills per pump per day",
+        "value": "~25",
+        "why": "Busy at rush hour, idle overnight"
+      }
+    ],
+    "calc": [
+      "130M households × 2 = 260M cars",
+      "260M cars × 40 = 10.4B fill-ups",
+      "8 pumps × 25 fills = 200 fills per day",
+      "200 × 365 = 73,000 fills per station",
+      "10.4B ÷ 73,000 = 140K stations"
+    ],
+    "estimate": "~140K stations",
+    "estimate_value": 140000,
+    "range": [
+      80000,
+      250000
+    ],
+    "sanity_check": "That is roughly one station per 2,400 people, or a few in every small town, which matches everyday experience.",
+    "so_what": "A convenience-store chain or fuel brand would use this to size the white space for new sites or acquisitions."
+  },
+  {
+    "id": "us-weddings",
+    "question": "How many weddings take place in the US each year?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "events"
+    ],
+    "clarify": [
+      "Legal marriages or ceremonies? Assume legal marriages, including remarriages.",
+      "Steady state? Assume a stable population with no big demographic swings."
+    ],
+    "approach": [
+      "US population (~340M) ÷ life expectancy (~80) = people per birth-year cohort",
+      "Cohort × share who ever marry (~80%) × marriages per ever-married person (~1.2) = people marrying per year",
+      "People marrying ÷ 2 people per wedding = weddings"
+    ],
+    "assumptions": [
+      {
+        "label": "US population",
+        "value": "~340M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Life expectancy",
+        "value": "~80 years",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Share who ever marry",
+        "value": "~80%",
+        "why": "Most people marry at least once, though the share is falling"
+      },
+      {
+        "label": "Marriages per ever-married person",
+        "value": "~1.2",
+        "why": "Remarriage after divorce or widowhood"
+      }
+    ],
+    "calc": [
+      "340M ÷ 80 = 4.25M people per cohort",
+      "4.25M × 80% = 3.4M people who marry",
+      "3.4M × 1.2 = 4.1M marriages by people",
+      "4.1M ÷ 2 = 2M weddings"
+    ],
+    "estimate": "~2M weddings",
+    "estimate_value": 2000000,
+    "range": [
+      1200000,
+      3500000
+    ],
+    "sanity_check": "About 6 weddings per 1,000 people per year, a believable rate for a developed country.",
+    "so_what": "A wedding-services marketplace would multiply this by spend per wedding to size its revenue pool."
+  },
+  {
+    "id": "india-smartphones-sold",
+    "question": "How many new smartphones are sold in India each year?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "india",
+      "tech",
+      "consumer-electronics"
+    ],
+    "clarify": [
+      "New devices only? Assume new; refurbished and second-hand are excluded.",
+      "Replacement only or also first-time buyers? Assume replacement dominates at this penetration."
+    ],
+    "approach": [
+      "India population (~1.4B) × smartphone users (~55%) = user base",
+      "User base ÷ replacement cycle (~4 years) = annual units"
+    ],
+    "assumptions": [
+      {
+        "label": "India population",
+        "value": "~1.4B",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Smartphone user share",
+        "value": "~55%",
+        "why": "Near-universal in cities, still growing in rural areas"
+      },
+      {
+        "label": "Replacement cycle",
+        "value": "~4 years",
+        "why": "Longer than the US because of price sensitivity and hand-me-downs"
+      }
+    ],
+    "calc": [
+      "1.4B × 55% = 770M users",
+      "770M ÷ 4 years = 190M phones"
+    ],
+    "estimate": "~190M phones",
+    "estimate_value": 190000000,
+    "range": [
+      100000000,
+      350000000
+    ],
+    "sanity_check": "At ~$200 average price that is a ~$40B market, consistent with India being one of the world's two largest phone markets.",
+    "so_what": "A handset maker would use this to set volume targets and decide how much to invest in mass-market vs premium models."
+  },
+  {
+    "id": "us-toothbrushes",
+    "question": "How many manual toothbrushes are sold in the US each year?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "cpg"
+    ],
+    "clarify": [
+      "Manual only, excluding electric brush heads? Assume manual only.",
+      "Include free dentist giveaways? Assume yes, they still get manufactured and sold to dentists."
+    ],
+    "approach": [
+      "US population (~340M) × toothbrushes per person per year (~3) = units"
+    ],
+    "assumptions": [
+      {
+        "label": "US population",
+        "value": "~340M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Toothbrushes per person",
+        "value": "~3 per year",
+        "why": "Dentists say 4, most people replace less often; electric users pull it down"
+      }
+    ],
+    "calc": [
+      "340M people × 3 = 1B toothbrushes"
+    ],
+    "estimate": "~1B toothbrushes",
+    "estimate_value": 1000000000,
+    "range": [
+      600000000,
+      1600000000
+    ],
+    "sanity_check": "At ~$2 each that is ~$2B, a reasonable size for a mature oral-care sub-category.",
+    "so_what": "An oral-care brand would use this to judge share and whether nudging replacement frequency is a bigger lever than winning share."
+  },
+  {
+    "id": "us-pizzas",
+    "question": "How many pizzas do Americans eat in a year?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "food-and-beverage"
+    ],
+    "clarify": [
+      "Whole pizzas, all channels (restaurant, delivery, frozen)? Assume yes."
+    ],
+    "approach": [
+      "US households (~130M) × pizzas per household per year (~26, one every two weeks) = pizzas"
+    ],
+    "assumptions": [
+      {
+        "label": "US households",
+        "value": "~130M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Pizzas per household",
+        "value": "~26 per year",
+        "why": "A pizza night about every other week, blending heavy and light eaters"
+      }
+    ],
+    "calc": [
+      "130M households × 26 = 3.4B pizzas"
+    ],
+    "estimate": "~3.4B pizzas",
+    "estimate_value": 3400000000,
+    "range": [
+      2000000000,
+      5000000000
+    ],
+    "sanity_check": "At ~$12 average that is ~$40B, in line with pizza being one of the largest US restaurant categories.",
+    "so_what": "A pizza chain would use this to size frequency growth vs share gain in its growth plan."
+  },
+  {
+    "id": "us-office-chairs",
+    "question": "How many office chairs are sold to US businesses each year?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2b",
+      "demand-side",
+      "us",
+      "furniture"
+    ],
+    "clarify": [
+      "Business purchases only, excluding home-office buyers? Assume businesses only.",
+      "Replacement-driven market? Assume flat headcount, so replacement drives demand."
+    ],
+    "approach": [
+      "US adults (~260M) × employed (~60%) = workers",
+      "Workers × desk-based share (~40%) = desk workers",
+      "Desk workers ÷ chair life (~8 years) = chairs bought per year"
+    ],
+    "assumptions": [
+      {
+        "label": "US adults",
+        "value": "~260M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Employment rate of adults",
+        "value": "~60%",
+        "why": "Excludes retirees, students, and non-working adults"
+      },
+      {
+        "label": "Desk-based share",
+        "value": "~40%",
+        "why": "Office, admin, and knowledge roles"
+      },
+      {
+        "label": "Chair life",
+        "value": "~8 years",
+        "why": "Commercial chairs last longer than home ones"
+      }
+    ],
+    "calc": [
+      "260M × 60% = 156M workers",
+      "156M × 40% = 62M desk workers",
+      "62M ÷ 8 years = 8M chairs"
+    ],
+    "estimate": "~8M chairs",
+    "estimate_value": 8000000,
+    "range": [
+      4000000,
+      15000000
+    ],
+    "sanity_check": "At ~$400 per chair that is ~$3B, a plausible slice of the commercial furniture market.",
+    "so_what": "A furniture maker would use this to size the replacement market vs new-office build-outs."
+  },
+  {
+    "id": "us-school-buses",
+    "question": "How many school buses are in service in the US?",
+    "difficulty": 1,
+    "unit": "units",
+    "tags": [
+      "b2b",
+      "supply-side",
+      "us",
+      "education",
+      "transportation"
+    ],
+    "clarify": [
+      "Public K-12 only? Assume K-12, all schools.",
+      "Do buses run multiple routes? Assume yes, so each bus carries more riders than its seat count per day."
+    ],
+    "approach": [
+      "US population (~340M) ÷ life expectancy (~80) × 13 grades = K-12 students",
+      "Students × share who ride the bus (~50%) = riders",
+      "Riders ÷ riders per bus per day (~55, across two runs) = buses"
+    ],
+    "assumptions": [
+      {
+        "label": "Children per birth-year",
+        "value": "~4.25M",
+        "why": "340M ÷ 80"
+      },
+      {
+        "label": "Grades",
+        "value": "13",
+        "why": "K through 12"
+      },
+      {
+        "label": "Share riding the bus",
+        "value": "~50%",
+        "why": "High in rural and suburban areas, low in cities"
+      },
+      {
+        "label": "Riders per bus",
+        "value": "~55 per day",
+        "why": "Roughly two routes a morning at ~27 kids each"
+      }
+    ],
+    "calc": [
+      "340M ÷ 80 = 4.25M per grade",
+      "4.25M × 13 = 55M students",
+      "55M × 50% = 28M riders",
+      "28M ÷ 55 = 500K buses"
+    ],
+    "estimate": "~500K buses",
+    "estimate_value": 500000,
+    "range": [
+      300000,
+      800000
+    ],
+    "sanity_check": "That is roughly 5 buses per public school, which fits a typical district picture.",
+    "so_what": "A school-bus maker moving to electric would use this fleet size and a ~15-year life to size annual replacement demand."
+  },
+  {
+    "id": "us-ev-public-chargers",
+    "question": "How many public EV charging ports does the US need today to serve its electric cars?",
+    "difficulty": 2,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "tech",
+      "ev",
+      "energy"
+    ],
+    "clarify": [
+      "Ports or stations? Assume ports (plugs); a station has several.",
+      "Blend Level 2 and DC fast chargers? Assume a blended average power and utilization.",
+      "Today's fleet, not a future forecast? Assume today."
+    ],
+    "approach": [
+      "US cars (~260M) × EV share of fleet (~2%) = EVs on the road",
+      "Energy per EV = miles per year (~12,000) × kWh per mile (~0.3); × public share (~20%)",
+      "Total public kWh = EVs × public kWh per EV",
+      "Per-port supply = blended kW (~10) × charging hours per day (~4) × 365",
+      "Ports = total public kWh ÷ per-port supply"
+    ],
+    "assumptions": [
+      {
+        "label": "US cars",
+        "value": "~260M",
+        "why": "130M households × ~2 cars"
+      },
+      {
+        "label": "EV share of fleet",
+        "value": "~2%",
+        "why": "Sales share is higher but the fleet turns over slowly"
+      },
+      {
+        "label": "Miles per car",
+        "value": "~12,000 per year",
+        "why": "Typical US driving"
+      },
+      {
+        "label": "EV efficiency",
+        "value": "~0.3 kWh per mile",
+        "why": "Mid-size EV average"
+      },
+      {
+        "label": "Share charged in public",
+        "value": "~20%",
+        "why": "Most charging happens at home overnight"
+      },
+      {
+        "label": "Blended port power",
+        "value": "~10 kW",
+        "why": "Mostly slow Level 2 ports with some fast chargers"
+      },
+      {
+        "label": "Effective charging hours",
+        "value": "~4 per day",
+        "why": "Utilization is low outside busy corridors"
+      }
+    ],
+    "calc": [
+      "260M cars × 2% = 5.2M EVs",
+      "12,000 miles × 0.3 kWh = 3,600 kWh per EV",
+      "3,600 kWh × 20% = 720 kWh public",
+      "5.2M EVs × 720 kWh = 3.7B kWh",
+      "10 kW × 4 hours × 365 = 14,600 kWh per port",
+      "3.7B kWh ÷ 14,600 kWh = 250K ports"
+    ],
+    "estimate": "~250K ports",
+    "estimate_value": 250000,
+    "range": [
+      120000,
+      500000
+    ],
+    "sanity_check": "That is about 20 EVs per public port, a ratio in the range policy targets usually discuss.",
+    "so_what": "A charging network would compare this to installed ports to find whether the gap is in fast chargers or in specific regions."
+  },
+  {
+    "id": "us-hair-salons",
+    "question": "How many hair salons and barbershops are there in the US?",
+    "difficulty": 2,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "supply-side",
+      "us",
+      "services"
+    ],
+    "clarify": [
+      "Salons and barbershops combined? Assume yes, excluding in-home stylists.",
+      "Haircuts only, or color and styling too? Assume haircut visits as the demand unit."
+    ],
+    "approach": [
+      "Demand: men (~170M) × cuts per year (~8) + women (~170M) × cuts per year (~4) = haircuts",
+      "Stylist capacity: cuts per day (~8) × working days (~250)",
+      "Stylists = haircuts ÷ capacity; salons = stylists ÷ stylists per salon (~4)"
+    ],
+    "assumptions": [
+      {
+        "label": "Men and boys",
+        "value": "~170M",
+        "why": "Half of 340M"
+      },
+      {
+        "label": "Women and girls",
+        "value": "~170M",
+        "why": "Half of 340M"
+      },
+      {
+        "label": "Cuts per male per year",
+        "value": "~8",
+        "why": "Every six to seven weeks"
+      },
+      {
+        "label": "Cuts per female per year",
+        "value": "~4",
+        "why": "Less frequent but longer appointments"
+      },
+      {
+        "label": "Cuts per stylist per day",
+        "value": "~8",
+        "why": "Mix of quick cuts and long color appointments"
+      },
+      {
+        "label": "Stylists per salon",
+        "value": "~4",
+        "why": "Many small shops, some large chains"
+      }
+    ],
+    "calc": [
+      "170M men × 8 = 1.36B haircuts",
+      "170M women × 4 = 680M haircuts",
+      "1.36B + 680M = 2B haircuts",
+      "8 cuts × 250 days = 2,000 cuts per stylist",
+      "2B ÷ 2,000 = 1M stylists",
+      "1M stylists ÷ 4 = 250K salons"
+    ],
+    "estimate": "~250K salons",
+    "estimate_value": 250000,
+    "range": [
+      120000,
+      500000
+    ],
+    "sanity_check": "One salon per ~1,400 people is roughly a couple per neighborhood strip mall, which fits intuition.",
+    "so_what": "A salon-booking software company would use this as its count of potential business customers."
+  },
+  {
+    "id": "us-crm-software",
+    "question": "Estimate the annual US market for CRM software in dollars.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2b",
+      "demand-side",
+      "us",
+      "tech",
+      "saas"
+    ],
+    "clarify": [
+      "Subscription software only, excluding implementation services? Assume software only.",
+      "All company sizes? Assume yes, captured through seats rather than company counts."
+    ],
+    "approach": [
+      "US workers (~156M) × customer-facing roles that use CRM (~20%) = potential seats",
+      "Potential seats × CRM penetration (~60%) = paid seats",
+      "Paid seats × blended price (~$100 per month × 12) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US workers",
+        "value": "~156M",
+        "why": "260M adults × ~60% employed"
+      },
+      {
+        "label": "Customer-facing share",
+        "value": "~20%",
+        "why": "Sales, service, account management, and marketing roles"
+      },
+      {
+        "label": "Penetration",
+        "value": "~60%",
+        "why": "Near-universal in enterprise, patchy in small businesses"
+      },
+      {
+        "label": "Blended seat price",
+        "value": "~$100 per month",
+        "why": "Mix of $25 starter tiers and $150+ enterprise tiers"
+      }
+    ],
+    "calc": [
+      "156M workers × 20% = 31M seats",
+      "31M × 60% = 19M paid seats",
+      "$100 × 12 = $1,200 per seat",
+      "19M seats × $1,200 = $23B"
+    ],
+    "estimate": "~$23B",
+    "estimate_value": 23000000000,
+    "range": [
+      12000000000,
+      45000000000
+    ],
+    "sanity_check": "The largest CRM vendor's revenue is in the tens of billions globally with the US as its biggest region, so a ~$20B+ US market is the right order of magnitude.",
+    "so_what": "A SaaS entrant would use this to size a niche (e.g. mid-market service teams) and judge whether a 1-2% share is a real business."
+  },
+  {
+    "id": "us-residential-solar",
+    "question": "Estimate the annual US market for residential rooftop solar installations in dollars.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "energy",
+      "climate"
+    ],
+    "clarify": [
+      "Installed system value including labor? Assume yes, before tax credits.",
+      "Owner-occupied single-family homes only? Assume yes; renters and apartments rarely install."
+    ],
+    "approach": [
+      "US households (~130M) × owner-occupied (~65%) × single-family (~80%) = candidate homes",
+      "Candidate homes × suitable roof and sun (~50%) = addressable homes",
+      "Addressable homes × adopting per year (~2%) = installs",
+      "Installs × system price (~$25K) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US households",
+        "value": "~130M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Owner-occupied",
+        "value": "~65%",
+        "why": "Roughly two-thirds of homes are owned"
+      },
+      {
+        "label": "Single-family share of owned",
+        "value": "~80%",
+        "why": "Most owners live in detached or attached houses"
+      },
+      {
+        "label": "Suitable roofs",
+        "value": "~50%",
+        "why": "Shade, orientation, and roof condition rule out many"
+      },
+      {
+        "label": "Annual adoption",
+        "value": "~2%",
+        "why": "Early-majority pace, varies a lot by state"
+      },
+      {
+        "label": "Price per system",
+        "value": "~$25K",
+        "why": "~7-8 kW system before incentives"
+      }
+    ],
+    "calc": [
+      "130M × 65% = 85M owned homes",
+      "85M × 80% = 68M single-family",
+      "68M × 50% = 34M addressable",
+      "34M × 2% = 680K installs",
+      "680K × $25,000 = $17B"
+    ],
+    "estimate": "~$17B",
+    "estimate_value": 17000000000,
+    "range": [
+      8000000000,
+      30000000000
+    ],
+    "sanity_check": "680K installs a year is ~13K a week nationally, a few hundred per state per week, which is plausible for a large installer ecosystem.",
+    "so_what": "An installer would use this to decide which states to enter and how much to spend acquiring each customer."
+  },
+  {
+    "id": "india-two-wheelers",
+    "question": "How many new two-wheelers are sold in India each year?",
+    "difficulty": 2,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "india",
+      "automotive"
+    ],
+    "clarify": [
+      "Motorcycles and scooters, including electric? Assume yes.",
+      "Domestic sales only, excluding exports? Assume domestic."
+    ],
+    "approach": [
+      "India population (~1.4B) ÷ household size (~4.5) = households",
+      "Households × share owning a two-wheeler (~55%) × vehicles per owning household (~1.2) = fleet",
+      "Replacement = fleet ÷ life (~12 years); growth = fleet × ~2% net growth",
+      "Replacement + growth = annual sales"
+    ],
+    "assumptions": [
+      {
+        "label": "India population",
+        "value": "~1.4B",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Household size",
+        "value": "~4.5",
+        "why": "Larger than US households"
+      },
+      {
+        "label": "Ownership",
+        "value": "~55%",
+        "why": "The default family vehicle in towns and villages"
+      },
+      {
+        "label": "Vehicles per owning household",
+        "value": "~1.2",
+        "why": "Some families have one per earning member"
+      },
+      {
+        "label": "Vehicle life",
+        "value": "~12 years",
+        "why": "Long use, heavy repair culture"
+      },
+      {
+        "label": "Net fleet growth",
+        "value": "~2% per year",
+        "why": "Rising incomes and rural penetration"
+      }
+    ],
+    "calc": [
+      "1.4B ÷ 4.5 = 310M households",
+      "310M × 55% = 170M owning households",
+      "170M × 1.2 = 200M two-wheelers",
+      "200M ÷ 12 years = 17M replacements",
+      "200M × 2% = 4M new additions",
+      "17M + 4M = 21M units"
+    ],
+    "estimate": "~21M units",
+    "estimate_value": 21000000,
+    "range": [
+      12000000,
+      35000000
+    ],
+    "sanity_check": "About 15 two-wheelers sold per 1,000 people, versus ~45 cars per 1,000 in the US; the lower rate fits lower income despite two-wheelers being the main vehicle.",
+    "so_what": "An EV two-wheeler startup would use this to size the market its electric share targets apply to."
+  },
+  {
+    "id": "global-daily-flights",
+    "question": "How many commercial passenger flights take off worldwide on an average day?",
+    "difficulty": 2,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "supply-side",
+      "global",
+      "travel",
+      "aviation"
+    ],
+    "clarify": [
+      "Scheduled passenger flights only, excluding cargo and private jets? Assume yes."
+    ],
+    "approach": [
+      "Commercial passenger aircraft worldwide (~25K) × share in active service (~80%) = active fleet",
+      "Active fleet × flights per aircraft per day (~5) = daily flights"
+    ],
+    "assumptions": [
+      {
+        "label": "Commercial aircraft",
+        "value": "~25K",
+        "why": "Roughly the size of the global narrow- and wide-body fleet"
+      },
+      {
+        "label": "Active share",
+        "value": "~80%",
+        "why": "Some are parked, in maintenance, or in storage"
+      },
+      {
+        "label": "Flights per aircraft per day",
+        "value": "~5",
+        "why": "Short-haul narrow-bodies do 6-8, long-haul wide-bodies 1-2"
+      }
+    ],
+    "calc": [
+      "25K aircraft × 80% = 20K active",
+      "20K × 5 flights = 100K flights"
+    ],
+    "estimate": "~100K flights per day",
+    "estimate_value": 100000,
+    "range": [
+      60000,
+      180000
+    ],
+    "sanity_check": "At ~150 passengers each that is ~15M passengers a day, or ~5B a year, the right order for global air travel.",
+    "so_what": "An airport-services or in-flight-connectivity company would use this to size its per-flight revenue pool."
+  },
+  {
+    "id": "us-pet-insurance",
+    "question": "Estimate the annual US pet insurance market in premium dollars.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "pets",
+      "insurance"
+    ],
+    "clarify": [
+      "Dogs and cats only? Assume yes.",
+      "Gross written premium? Assume yes."
+    ],
+    "approach": [
+      "Dogs: households (~130M) × dog share (~40%) × dogs each (~1.4) × insured (~5%) × premium (~$650)",
+      "Cats: households (~130M) × cat share (~30%) × cats each (~1.8) × insured (~2%) × premium (~$350)",
+      "Dog premiums + cat premiums = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US households",
+        "value": "~130M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Dog households",
+        "value": "~40%",
+        "why": "Same as pet-food problems"
+      },
+      {
+        "label": "Dogs per dog household",
+        "value": "~1.4",
+        "why": "Same as pet-food problems"
+      },
+      {
+        "label": "Cat households",
+        "value": "~30%",
+        "why": "Slightly fewer homes have cats than dogs"
+      },
+      {
+        "label": "Cats per cat household",
+        "value": "~1.8",
+        "why": "Cat owners often have more than one"
+      },
+      {
+        "label": "Insured share",
+        "value": "~5% dogs, ~2% cats",
+        "why": "Still an early-adoption product in the US"
+      },
+      {
+        "label": "Annual premium",
+        "value": "~$650 dog, ~$350 cat",
+        "why": "Accident-and-illness plans; dogs cost more to treat"
+      }
+    ],
+    "calc": [
+      "130M × 40% = 52M dog households",
+      "52M × 1.4 = 73M dogs",
+      "73M × 5% = 3.7M insured dogs",
+      "3.7M × $650 = $2.4B",
+      "130M × 30% = 39M cat households",
+      "39M × 1.8 = 70M cats",
+      "70M × 2% = 1.4M insured cats",
+      "1.4M × $350 = $490M",
+      "$2.4B + $490M = $2.9B"
+    ],
+    "estimate": "~$2.9B",
+    "estimate_value": 2900000000,
+    "range": [
+      1500000000,
+      6000000000
+    ],
+    "sanity_check": "That is ~$20 per pet per year across all pets, small next to ~$400 per dog on food, consistent with low insurance penetration.",
+    "so_what": "An insurer would use the low penetration to argue the growth is in adoption, not share, and invest in vet-channel distribution."
+  },
+  {
+    "id": "us-office-cleaning",
+    "question": "Estimate the annual US market for commercial office cleaning services.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2b",
+      "demand-side",
+      "us",
+      "services",
+      "real-estate"
+    ],
+    "clarify": [
+      "Offices only, excluding hospitals, schools, and retail? Assume offices only.",
+      "Outsourced plus in-house? Assume the total cost of cleaning, however delivered."
+    ],
+    "approach": [
+      "US desk workers (~62M) × office space per worker (~150 sq ft) = office floor area",
+      "Office floor area × cleaning cost per sq ft per year (~$1.50) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "Desk workers",
+        "value": "~62M",
+        "why": "156M workers × ~40% desk-based"
+      },
+      {
+        "label": "Space per worker",
+        "value": "~150 sq ft",
+        "why": "Includes shared space; lower with hybrid work and hot-desking"
+      },
+      {
+        "label": "Cleaning cost",
+        "value": "~$1.50 per sq ft per year",
+        "why": "Nightly janitorial at a few cents per sq ft per visit"
+      }
+    ],
+    "calc": [
+      "62M workers × 150 sq ft = 9.3B sq ft",
+      "9.3B sq ft × $1.5 = $14B"
+    ],
+    "estimate": "~$14B",
+    "estimate_value": 14000000000,
+    "range": [
+      7000000000,
+      28000000000
+    ],
+    "sanity_check": "Per desk worker that is ~$225 a year, a small line next to ~$10K+ in rent per head.",
+    "so_what": "A cleaning-services roll-up would use this to judge how fragmented the market is and how many acquisitions it can make."
+  },
+  {
+    "id": "us-rideshare-bookings",
+    "question": "Estimate annual US rideshare gross bookings.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "tech",
+      "mobility"
+    ],
+    "clarify": [
+      "Gross bookings (what riders pay) rather than platform net revenue? Assume gross.",
+      "Rides only, excluding food delivery? Assume rides only."
+    ],
+    "approach": [
+      "US adults (~260M) × share who use rideshare (~35%) = riders",
+      "Riders × rides per month (~2) × 12 = annual rides",
+      "Annual rides × average fare (~$22) = gross bookings"
+    ],
+    "assumptions": [
+      {
+        "label": "US adults",
+        "value": "~260M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Rideshare users",
+        "value": "~35%",
+        "why": "Heavy in cities, light in rural areas"
+      },
+      {
+        "label": "Rides per user",
+        "value": "~2 per month",
+        "why": "Mix of commuters and occasional nights out and airport runs"
+      },
+      {
+        "label": "Average fare",
+        "value": "~$22",
+        "why": "Includes tips and airport trips"
+      }
+    ],
+    "calc": [
+      "260M × 35% = 90M riders",
+      "2 rides × 12 = 24 rides per rider",
+      "90M × 24 = 2.2B rides",
+      "2.2B rides × $22 = $48B"
+    ],
+    "estimate": "~$48B",
+    "estimate_value": 48000000000,
+    "range": [
+      25000000000,
+      90000000000
+    ],
+    "sanity_check": "About $140 per American per year; the two big platforms' combined US mobility bookings are in the tens of billions.",
+    "so_what": "An autonomous-vehicle company would use this to size the revenue pool a robotaxi could capture."
+  },
+  {
+    "id": "us-food-delivery",
+    "question": "Estimate the annual US restaurant food delivery market in gross order value.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "tech",
+      "marketplace",
+      "food-and-beverage"
+    ],
+    "clarify": [
+      "Third-party apps only, or restaurants' own delivery too? Assume all app-based ordering.",
+      "Restaurant meals only, excluding grocery? Assume restaurant only."
+    ],
+    "approach": [
+      "US adults (~260M) × share using delivery apps (~40%) = users",
+      "Users × orders per month (~2) × 12 = annual orders",
+      "Annual orders × average order value (~$35) = GOV"
+    ],
+    "assumptions": [
+      {
+        "label": "US adults",
+        "value": "~260M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Delivery app users",
+        "value": "~40%",
+        "why": "Skews urban and younger"
+      },
+      {
+        "label": "Orders per user",
+        "value": "~2 per month",
+        "why": "A few heavy users, many occasional"
+      },
+      {
+        "label": "Average order value",
+        "value": "~$35",
+        "why": "Includes fees and tip; often feeds more than one person"
+      }
+    ],
+    "calc": [
+      "260M × 40% = 100M users",
+      "2 orders × 12 = 24 orders per user",
+      "100M × 24 = 2.4B orders",
+      "2.4B × $35 = $84B"
+    ],
+    "estimate": "~$84B",
+    "estimate_value": 84000000000,
+    "range": [
+      40000000000,
+      150000000000
+    ],
+    "sanity_check": "That is about 10% of total US restaurant spending (roughly $1T), a plausible delivery share.",
+    "so_what": "A delivery platform would use this to decide whether to push restaurant share or move into adjacent categories like grocery."
+  },
+  {
+    "id": "us-childcare",
+    "question": "Estimate the annual US market for paid childcare for children under five.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "us",
+      "education",
+      "services"
+    ],
+    "clarify": [
+      "Paid care only (centers, home daycares, nannies), excluding unpaid family care? Assume yes.",
+      "Ages 0 to 4? Assume yes; after-school care excluded."
+    ],
+    "approach": [
+      "US population (~340M) ÷ life expectancy (~80) × 5 years = children under five",
+      "Children × share in paid care (~40%) = paid-care children",
+      "Paid-care children × average annual cost (~$10K) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "Children per birth-year",
+        "value": "~4.25M",
+        "why": "340M ÷ 80"
+      },
+      {
+        "label": "Share in paid care",
+        "value": "~40%",
+        "why": "Many use parents, grandparents, or part-time arrangements"
+      },
+      {
+        "label": "Average annual cost",
+        "value": "~$10K",
+        "why": "Blend of $20K+ city centers, cheaper home daycares, and part-time care"
+      }
+    ],
+    "calc": [
+      "340M ÷ 80 = 4.25M per year",
+      "4.25M × 5 = 21M children",
+      "21M × 40% = 8.4M in paid care",
+      "8.4M × $10,000 = $84B"
+    ],
+    "estimate": "~$84B",
+    "estimate_value": 84000000000,
+    "range": [
+      40000000000,
+      160000000000
+    ],
+    "sanity_check": "About $650 per household per year, which fits since only a minority of households have a young child in paid care.",
+    "so_what": "An employer-benefits company would use this to size the pool it could route through subsidized childcare."
+  },
+  {
+    "id": "us-ai-coding-assistants",
+    "question": "Estimate the annual US market for AI coding-assistant subscriptions.",
+    "difficulty": 2,
+    "unit": "$",
+    "tags": [
+      "b2b",
+      "demand-side",
+      "us",
+      "tech",
+      "saas",
+      "ai"
+    ],
+    "clarify": [
+      "Paid seats only, excluding free tiers and token-based API usage? Assume paid seats.",
+      "Professional developers only? Assume yes."
+    ],
+    "approach": [
+      "US workers (~156M) × software developers (~3%) = developers",
+      "Developers × paid adoption (~50%) = paid seats",
+      "Paid seats × blended price (~$30 per month × 12) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US workers",
+        "value": "~156M",
+        "why": "260M adults × ~60% employed"
+      },
+      {
+        "label": "Developer share",
+        "value": "~3%",
+        "why": "Engineers plus data and DevOps roles who write code daily"
+      },
+      {
+        "label": "Paid adoption",
+        "value": "~50%",
+        "why": "Rapid adoption, but not every employer pays yet"
+      },
+      {
+        "label": "Blended price",
+        "value": "~$30 per month",
+        "why": "Individual tiers around $10-20, business tiers higher"
+      }
+    ],
+    "calc": [
+      "156M × 3% = 4.7M developers",
+      "4.7M × 50% = 2.4M seats",
+      "$30 × 12 = $360 per seat",
+      "2.4M × $360 = $860M"
+    ],
+    "estimate": "~$860M",
+    "estimate_value": 860000000,
+    "range": [
+      400000000,
+      2000000000
+    ],
+    "sanity_check": "$360 a year is under 0.3% of a ~$130K developer salary, so even modest productivity gains justify it, supporting high adoption.",
+    "so_what": "A dev-tools startup would use this to decide whether seat subscriptions alone are big enough or it needs usage-based pricing."
+  },
+  {
+    "id": "us-restaurant-pos",
+    "question": "Estimate the annual US market for restaurant point-of-sale systems, hardware and software combined.",
+    "difficulty": 3,
+    "unit": "$",
+    "tags": [
+      "b2b",
+      "supply-side",
+      "us",
+      "tech",
+      "saas",
+      "restaurants"
+    ],
+    "clarify": [
+      "Annual spend including software subscriptions, payments excluded, hardware amortized? Assume yes.",
+      "All restaurant formats? Assume yes, segmented into full-service and limited-service."
+    ],
+    "approach": [
+      "Restaurant count: US population (~340M) × restaurant meals per person per week (~4) ÷ 7 = meals per day; ÷ meals per restaurant per day (~300)",
+      "Split restaurants: full-service (~40%) vs limited-service (~60%)",
+      "Full-service × ~$5,000 per year + limited-service × ~$2,000 per year = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US population",
+        "value": "~340M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Restaurant meals per person",
+        "value": "~4 per week",
+        "why": "Includes takeout, coffee runs, and fast food"
+      },
+      {
+        "label": "Meals per restaurant per day",
+        "value": "~300",
+        "why": "Busy fast-food sites do far more, small cafes far fewer"
+      },
+      {
+        "label": "Full-service share",
+        "value": "~40%",
+        "why": "Sit-down restaurants are a minority of locations"
+      },
+      {
+        "label": "POS spend per full-service location",
+        "value": "~$5,000 per year",
+        "why": "More terminals, handhelds, kitchen screens"
+      },
+      {
+        "label": "POS spend per limited-service location",
+        "value": "~$2,000 per year",
+        "why": "One or two terminals and a basic subscription"
+      }
+    ],
+    "calc": [
+      "340M × 4 = 1.36B meals per week",
+      "1.36B ÷ 7 = 194M meals per day",
+      "194M ÷ 300 = 650K restaurants",
+      "650K × 40% = 260K full-service",
+      "260K × $5,000 = $1.3B",
+      "650K × 60% = 390K limited-service",
+      "390K × $2,000 = $780M",
+      "$1.3B + $780M = $2.1B"
+    ],
+    "estimate": "~$2.1B",
+    "estimate_value": 2100000000,
+    "range": [
+      1000000000,
+      4500000000
+    ],
+    "sanity_check": "The largest restaurant-focused POS company earns roughly a billion dollars or so in subscription and hardware revenue, so a ~$2B total pool is the right order of magnitude.",
+    "so_what": "A POS entrant would use this to decide whether to target full-service (higher spend per site) or limited-service (more sites)."
+  },
+  {
+    "id": "india-cell-towers",
+    "question": "How many mobile cell towers are there in India?",
+    "difficulty": 3,
+    "unit": "units",
+    "tags": [
+      "b2b",
+      "supply-side",
+      "india",
+      "tech",
+      "telecom"
+    ],
+    "clarify": [
+      "Physical tower sites, not individual antennas or operators' tenancies? Assume sites.",
+      "Split urban capacity vs rural coverage? Assume yes: cities are capacity-limited, villages are coverage-limited."
+    ],
+    "approach": [
+      "Subscribers: India population (~1.4B) × mobile subscribers (~80%)",
+      "Urban towers: subscribers × urban share (~35%) ÷ subscribers per urban tower (~1,000)",
+      "Rural towers: land area (~3.3M sq km) × area needing coverage (~70%) ÷ area per rural tower (~5 sq km)",
+      "Urban + rural = total towers"
+    ],
+    "assumptions": [
+      {
+        "label": "India population",
+        "value": "~1.4B",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Mobile subscribers",
+        "value": "~80%",
+        "why": "Unique users, not SIM count"
+      },
+      {
+        "label": "Urban share",
+        "value": "~35%",
+        "why": "Roughly a third of Indians live in cities"
+      },
+      {
+        "label": "Subscribers per urban tower",
+        "value": "~1,000",
+        "why": "Capacity limit given heavy data use"
+      },
+      {
+        "label": "Land area",
+        "value": "~3.3M sq km",
+        "why": "Ballpark for India's area"
+      },
+      {
+        "label": "Area needing coverage",
+        "value": "~70%",
+        "why": "Excludes mountains, deserts, forests with few people"
+      },
+      {
+        "label": "Area per rural tower",
+        "value": "~5 sq km",
+        "why": "Dense villages need towers a couple of km apart"
+      }
+    ],
+    "calc": [
+      "1.4B × 80% = 1.1B subscribers",
+      "1.1B × 35% = 385M urban",
+      "385M ÷ 1,000 = 385K urban towers",
+      "3.3M sq km × 70% = 2.3M sq km",
+      "2.3M sq km ÷ 5 = 460K rural towers",
+      "385K + 460K = 850K towers"
+    ],
+    "estimate": "~850K towers",
+    "estimate_value": 850000,
+    "range": [
+      450000,
+      1500000
+    ],
+    "sanity_check": "That implies ~1,550 rural subscribers per rural tower, near the urban capacity figure, so the two halves are consistent.",
+    "so_what": "A tower company would use this to size how many new sites 5G densification needs and where to build."
+  },
+  {
+    "id": "us-elevator-maintenance",
+    "question": "Estimate the annual US market for elevator maintenance services.",
+    "difficulty": 3,
+    "unit": "$",
+    "tags": [
+      "b2b",
+      "supply-side",
+      "us",
+      "industrial",
+      "services"
+    ],
+    "clarify": [
+      "Maintenance contracts only, excluding new installs and modernization? Assume yes.",
+      "Residential and commercial buildings? Assume both."
+    ],
+    "approach": [
+      "Residential elevators: households (~130M) × apartment share (~25%) × in elevator buildings (~40%) ÷ units per elevator (~100)",
+      "Commercial elevators: multi-story non-residential floor area (~15B sq ft) ÷ sq ft per elevator (~25,000)",
+      "Total elevators × annual maintenance contract (~$6,000) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US households",
+        "value": "~130M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Apartment share",
+        "value": "~25%",
+        "why": "Roughly a quarter of households rent or own in multi-unit buildings"
+      },
+      {
+        "label": "Apartments in elevator buildings",
+        "value": "~40%",
+        "why": "Buildings of four or more stories"
+      },
+      {
+        "label": "Units per elevator",
+        "value": "~100",
+        "why": "A mid-rise building of 100 units might have one to two cars"
+      },
+      {
+        "label": "Multi-story non-residential area",
+        "value": "~15B sq ft",
+        "why": "Offices, hotels, hospitals, malls, campuses"
+      },
+      {
+        "label": "Area per elevator",
+        "value": "~25,000 sq ft",
+        "why": "Offices and hospitals need more, low-rise retail fewer"
+      },
+      {
+        "label": "Contract per elevator",
+        "value": "~$6,000 per year",
+        "why": "Monthly inspections plus callouts and parts"
+      }
+    ],
+    "calc": [
+      "130M × 25% = 32.5M apartments",
+      "32.5M × 40% = 13M in elevator buildings",
+      "13M ÷ 100 = 130K residential elevators",
+      "15B sq ft ÷ 25,000 sq ft = 600K commercial elevators",
+      "130K + 600K = 730K elevators",
+      "730K × $6,000 = $4.4B"
+    ],
+    "estimate": "~$4.4B",
+    "estimate_value": 4400000000,
+    "range": [
+      2500000000,
+      9000000000
+    ],
+    "sanity_check": "The big four elevator makers earn most of their profit from service globally, and a ~$4B US service pool fits them each having a multi-billion service business worldwide.",
+    "so_what": "An elevator OEM would use this to decide how much to invest in remote-monitoring tech to defend its high-margin service base."
+  },
+  {
+    "id": "global-mobile-gaming",
+    "question": "Estimate annual global mobile gaming revenue.",
+    "difficulty": 3,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "global",
+      "tech",
+      "gaming"
+    ],
+    "clarify": [
+      "In-app purchases plus in-game advertising? Assume both.",
+      "Smartphones and tablets? Assume yes."
+    ],
+    "approach": [
+      "World population (~8B) × smartphone users (~60%) × who play games at least monthly (~50%) = mobile gamers",
+      "In-app revenue: gamers × paying share (~10%) × spend per payer (~$300 per year)",
+      "Ad revenue: gamers × ad revenue per gamer (~$8 per year)",
+      "In-app + ads = total"
+    ],
+    "assumptions": [
+      {
+        "label": "World population",
+        "value": "~8B",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Smartphone users",
+        "value": "~60%",
+        "why": "Near-universal in rich countries, lower in poorer ones"
+      },
+      {
+        "label": "Monthly mobile gamers",
+        "value": "~50%",
+        "why": "Casual puzzle and match-three games are mainstream"
+      },
+      {
+        "label": "Paying share",
+        "value": "~10%",
+        "why": "Most revenue comes from a small share of spenders"
+      },
+      {
+        "label": "Spend per payer",
+        "value": "~$300 per year",
+        "why": "A few whales at thousands, most at $5-50 a month"
+      },
+      {
+        "label": "Ad revenue per gamer",
+        "value": "~$8 per year",
+        "why": "Rewarded video and banners, heavily weighted to rich markets"
+      }
+    ],
+    "calc": [
+      "8B × 60% = 4.8B smartphone users",
+      "4.8B × 50% = 2.4B gamers",
+      "2.4B × 10% = 240M payers",
+      "240M × $300 = $72B",
+      "2.4B × $8 = $19B",
+      "$72B + $19B = $91B"
+    ],
+    "estimate": "~$91B",
+    "estimate_value": 91000000000,
+    "range": [
+      50000000000,
+      150000000000
+    ],
+    "sanity_check": "That is about half of all video-game revenue if total gaming is ~$180-200B, consistent with mobile being the largest segment.",
+    "so_what": "A game studio would use the split to decide between monetizing through in-app purchases or advertising in new titles."
+  },
+  {
+    "id": "us-golf-courses",
+    "question": "How many golf courses are there in the US?",
+    "difficulty": 3,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "supply-side",
+      "us",
+      "sports",
+      "classic"
+    ],
+    "clarify": [
+      "18-hole equivalents? Assume yes; count two 9-hole courses as one.",
+      "Public and private? Assume both."
+    ],
+    "approach": [
+      "Demand: US golfers (~25M) × rounds each (~20) = rounds per year",
+      "Course capacity: daylight hours (~12) × tee times per hour (~6) × players per tee time (~4) × playable days (~250)",
+      "Actual rounds per course = capacity × utilization (~50%)",
+      "Courses = rounds ÷ rounds per course"
+    ],
+    "assumptions": [
+      {
+        "label": "US golfers",
+        "value": "~25M",
+        "why": "Same as golf-ball problem"
+      },
+      {
+        "label": "Rounds per golfer",
+        "value": "~20 per year",
+        "why": "Same as golf-ball problem"
+      },
+      {
+        "label": "Tee times",
+        "value": "~6 per hour for ~12 hours",
+        "why": "Every ten minutes through daylight"
+      },
+      {
+        "label": "Players per tee time",
+        "value": "~4",
+        "why": "A full foursome"
+      },
+      {
+        "label": "Playable days",
+        "value": "~250",
+        "why": "Weather limits northern courses, southern ones play year-round"
+      },
+      {
+        "label": "Utilization",
+        "value": "~50%",
+        "why": "Weekends full, weekdays and late afternoons thin"
+      }
+    ],
+    "calc": [
+      "25M × 20 = 500M rounds",
+      "12 hours × 6 = 72 tee times per day",
+      "72 × 4 = 288 players per day",
+      "288 × 250 days = 72,000 capacity",
+      "72,000 × 50% = 36,000 rounds per course",
+      "500M ÷ 36,000 = 14K courses"
+    ],
+    "estimate": "~14K courses",
+    "estimate_value": 14000,
+    "range": [
+      8000,
+      25000
+    ],
+    "sanity_check": "About one course per 24,000 people, i.e. a few per mid-size county, which matches intuition outside big cities.",
+    "so_what": "A golf-course management company would use rounds per course to judge whether markets are oversupplied before acquiring."
+  },
+  {
+    "id": "india-quick-commerce",
+    "question": "Estimate the annual gross order value of quick-commerce grocery delivery (10-20 minute delivery) in India, in US dollars.",
+    "difficulty": 3,
+    "unit": "$",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "india",
+      "tech",
+      "marketplace",
+      "retail"
+    ],
+    "clarify": [
+      "Top cities only, where dark stores exist? Assume the top metros and large tier-2 cities.",
+      "Gross order value including fees? Assume yes, converted at roughly Rs 85 per dollar."
+    ],
+    "approach": [
+      "India population (~1.4B) ÷ household size (~4.5) = households; × urban share (~35%) = urban households",
+      "Urban households × share in cities with quick-commerce coverage (~30%) × adopters (~40%) = ordering households",
+      "Ordering households × orders per month (~6) × 12 × average order value (~$6) = GOV"
+    ],
+    "assumptions": [
+      {
+        "label": "India population",
+        "value": "~1.4B",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Household size",
+        "value": "~4.5",
+        "why": "Same as two-wheeler problem"
+      },
+      {
+        "label": "Urban share",
+        "value": "~35%",
+        "why": "Same as cell-tower problem"
+      },
+      {
+        "label": "Covered-city share",
+        "value": "~30%",
+        "why": "Dark-store networks concentrate in the largest metros"
+      },
+      {
+        "label": "Adoption among covered households",
+        "value": "~40%",
+        "why": "Middle-class and affluent households in covered pin codes"
+      },
+      {
+        "label": "Orders per household",
+        "value": "~6 per month",
+        "why": "Top-ups of milk, snacks, and essentials rather than full grocery runs"
+      },
+      {
+        "label": "Average order value",
+        "value": "~$6",
+        "why": "Around Rs 500 per basket"
+      }
+    ],
+    "calc": [
+      "1.4B ÷ 4.5 = 310M households",
+      "310M × 35% = 110M urban households",
+      "110M × 30% = 33M covered",
+      "33M × 40% = 13M ordering households",
+      "6 orders × 12 = 72 orders per household",
+      "13M × 72 = 940M orders",
+      "940M × $6 = $5.6B"
+    ],
+    "estimate": "~$5.6B",
+    "estimate_value": 5600000000,
+    "range": [
+      3000000000,
+      12000000000
+    ],
+    "sanity_check": "That is ~2.6M orders a day across a few thousand dark stores, i.e. several hundred to ~1,000 orders per store per day, which is a plausible throughput.",
+    "so_what": "A quick-commerce player would use this to decide whether growth comes from new cities or from raising order frequency in existing ones."
+  },
+  {
+    "id": "us-last-mile-parcel",
+    "question": "Estimate the annual US market for last-mile parcel delivery.",
+    "difficulty": 3,
+    "unit": "$",
+    "tags": [
+      "b2b",
+      "demand-side",
+      "us",
+      "logistics",
+      "e-commerce"
+    ],
+    "clarify": [
+      "Last-mile cost only (depot to doorstep), not line-haul? Assume yes.",
+      "Parcels to homes and businesses? Assume both, with businesses as an uplift on consumer volume."
+    ],
+    "approach": [
+      "Consumer parcels: US households (~130M) × parcels per week (~2.5) × 52",
+      "Add business-bound parcels (~20% uplift)",
+      "Total parcels × last-mile cost per parcel (~$5) = market"
+    ],
+    "assumptions": [
+      {
+        "label": "US households",
+        "value": "~130M",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Parcels per household",
+        "value": "~2.5 per week",
+        "why": "E-commerce habits; some households get many, some almost none"
+      },
+      {
+        "label": "Business uplift",
+        "value": "~20%",
+        "why": "Parcels to offices and shops on top of consumer deliveries"
+      },
+      {
+        "label": "Last-mile cost",
+        "value": "~$5 per parcel",
+        "why": "Often half or more of total shipping cost"
+      }
+    ],
+    "calc": [
+      "130M × 2.5 = 325M parcels per week",
+      "325M × 52 = 17B consumer parcels",
+      "17B × 1.2 = 20B parcels",
+      "20B × $5 = $100B"
+    ],
+    "estimate": "~$100B",
+    "estimate_value": 100000000000,
+    "range": [
+      50000000000,
+      200000000000
+    ],
+    "sanity_check": "20B parcels is ~60 per person per year; the big carriers' combined US parcel revenue is in the low hundreds of billions, and last mile is about half of that.",
+    "so_what": "A delivery-robot or locker company would use this to size the cost pool it could cut by batching or automating the final step."
+  },
+  {
+    "id": "global-wifi-routers",
+    "question": "How many Wi-Fi routers are sold worldwide each year?",
+    "difficulty": 3,
+    "unit": "units",
+    "tags": [
+      "b2c",
+      "demand-side",
+      "global",
+      "tech",
+      "consumer-electronics"
+    ],
+    "clarify": [
+      "Home routers and business access points? Assume both, with business as an uplift.",
+      "Including ISP-supplied gateways? Assume yes, they are routers too."
+    ],
+    "approach": [
+      "World population (~8B) ÷ household size (~3.5) = households",
+      "Households × share with home broadband (~60%) = connected homes",
+      "Connected homes ÷ replacement cycle (~5 years) = home routers per year",
+      "Home routers × business uplift (~1.2) = total units"
+    ],
+    "assumptions": [
+      {
+        "label": "World population",
+        "value": "~8B",
+        "why": "Standard anchor"
+      },
+      {
+        "label": "Global household size",
+        "value": "~3.5",
+        "why": "Between rich-country ~2.5 and larger households in developing countries"
+      },
+      {
+        "label": "Home broadband share",
+        "value": "~60%",
+        "why": "Many developing-world households rely on mobile data only"
+      },
+      {
+        "label": "Replacement cycle",
+        "value": "~5 years",
+        "why": "Upgrades for new Wi-Fi standards or ISP swaps"
+      },
+      {
+        "label": "Business uplift",
+        "value": "~1.2",
+        "why": "Offices, retail, hospitality access points"
+      }
+    ],
+    "calc": [
+      "8B ÷ 3.5 = 2.3B households",
+      "2.3B × 60% = 1.4B connected homes",
+      "1.4B ÷ 5 years = 280M home routers",
+      "280M × 1.2 = 340M routers"
+    ],
+    "estimate": "~340M routers",
+    "estimate_value": 340000000,
+    "range": [
+      180000000,
+      600000000
+    ],
+    "sanity_check": "At ~$60 average that is ~$20B, a plausible size for global networking equipment sold to homes and small offices.",
+    "so_what": "A chipmaker would use this volume to size the opportunity when a new Wi-Fi standard triggers an upgrade cycle."
+  }
+]

@@ -1,0 +1,218 @@
+{
+ "tech-saas": [
+  "enterprise-software",
+  "consumer-internet",
+  "it-services",
+  "hardware-devices"
+ ],
+ "ai-cloud": [
+  "cloud-infrastructure",
+  "data-centers",
+  "ai-platforms"
+ ],
+ "semiconductors": [
+  "chip-design",
+  "foundry",
+  "semiconductor-equipment"
+ ],
+ "telecom": [
+  "wireless-carriers",
+  "cable-broadband"
+ ],
+ "telecom-infra": [
+  "towers",
+  "fiber",
+  "network-equipment"
+ ],
+ "media-streaming": [
+  "video-streaming",
+  "music-audio",
+  "publishing",
+  "advertising",
+  "sports-media"
+ ],
+ "gaming": [
+  "video-games",
+  "casinos-gambling"
+ ],
+ "retail": [
+  "grocery",
+  "department-specialty",
+  "apparel-footwear",
+  "home-furnishing",
+  "convenience"
+ ],
+ "ecommerce": [
+  "marketplaces",
+  "d2c",
+  "online-services"
+ ],
+ "cpg": [
+  "food-beverage",
+  "alcoholic-beverages",
+  "household-products",
+  "personal-care"
+ ],
+ "food-delivery-quick-commerce": [
+  "food-delivery",
+  "quick-commerce"
+ ],
+ "restaurants": [
+  "qsr",
+  "casual-dining",
+  "coffee-cafes"
+ ],
+ "beauty": [
+  "cosmetics",
+  "salons-services"
+ ],
+ "luxury": [
+  "luxury-goods",
+  "premium-apparel"
+ ],
+ "airlines": [
+  "passenger-airlines",
+  "cargo-airlines",
+  "airports"
+ ],
+ "hospitality": [
+  "hotels",
+  "travel",
+  "leisure-entertainment",
+  "fitness"
+ ],
+ "automotive-ev": [
+  "oems",
+  "ev",
+  "auto-parts",
+  "dealers-aftermarket",
+  "motorcycles-powersports",
+  "mobility-rideshare"
+ ],
+ "oil-gas": [
+  "upstream",
+  "midstream",
+  "downstream"
+ ],
+ "renewables": [
+  "solar",
+  "wind",
+  "storage-hydrogen"
+ ],
+ "utilities": [
+  "power-generation",
+  "electric-grid",
+  "water",
+  "gas-utilities"
+ ],
+ "banking": [
+  "retail-banking",
+  "commercial-banking",
+  "wealth-management",
+  "credit-cards"
+ ],
+ "insurance": [
+  "life",
+  "property-casualty"
+ ],
+ "payments-fintech": [
+  "payments",
+  "lending-fintech",
+  "crypto"
+ ],
+ "asset-management-pe": [
+  "private-equity",
+  "asset-management",
+  "venture-capital"
+ ],
+ "healthcare-providers": [
+  "hospitals",
+  "clinics-outpatient",
+  "senior-care"
+ ],
+ "pharma": [
+  "branded",
+  "generics",
+  "pharmacy"
+ ],
+ "biotech": [
+  "therapeutics",
+  "life-science-tools"
+ ],
+ "medtech": [
+  "devices",
+  "diagnostics"
+ ],
+ "health-insurance": [
+  "payers",
+  "pbm"
+ ],
+ "logistics-3pl": [
+  "3pl-warehousing",
+  "parcel-delivery",
+  "freight-forwarding"
+ ],
+ "rail-trucking": [
+  "rail",
+  "trucking",
+  "shipping-ports"
+ ],
+ "industrials-manufacturing": [
+  "machinery",
+  "building-products",
+  "packaging-plastics",
+  "electrical-equipment"
+ ],
+ "aerospace-defense": [
+  "commercial-aerospace",
+  "defense",
+  "space"
+ ],
+ "chemicals": [
+  "commodity-chemicals",
+  "specialty-chemicals"
+ ],
+ "mining": [
+  "metals",
+  "precious-metals",
+  "construction-materials"
+ ],
+ "agriculture": [
+  "farming",
+  "agri-inputs",
+  "fisheries",
+  "forestry"
+ ],
+ "real-estate": [
+  "commercial-re",
+  "residential-re",
+  "reits"
+ ],
+ "construction": [
+  "engineering-construction",
+  "homebuilding",
+  "cement-materials"
+ ],
+ "education": [
+  "k12",
+  "higher-ed",
+  "edtech"
+ ],
+ "sports": [
+  "teams-leagues",
+  "sporting-goods",
+  "events"
+ ],
+ "public-sector": [
+  "government",
+  "non-profit",
+  "international-development"
+ ],
+ "professional-services": [
+  "consulting",
+  "legal",
+  "staffing",
+  "call-centers-bpo"
+ ],
+ "other": []
+}

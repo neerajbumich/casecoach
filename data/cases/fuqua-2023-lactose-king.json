@@ -1,0 +1,410 @@
+{
+ "id": "fuqua-2023-lactose-king",
+ "title": "Lactose King",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  123,
+  132
+ ],
+ "author": "Revised and updated by Vann Vicente (Fuqua '24); origin: Fuqua Casebook 2017–2018",
+ "case_type": [
+  "Growth/Revenue",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Growth",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "Services",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Easy; Qualitative: Easy",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "growth",
+  "customer-segmentation",
+  "new-product",
+  "cannibalization",
+  "consumer-preferences",
+  "market-share"
+ ],
+ "prompt": "Our client is Lactose King, a premium ice cream restaurant chain with approximately 3,000 locations throughout the United States. While they've enjoyed consistent profitability and are an industry leader in direct-to-consumer ice cream sales, their revenue has been stagnant over the past few years. What can they do to improve their gross revenue?",
+ "clarifying_info": [
+  {
+   "question_topic": "Business model",
+   "answer": "Owns and operates all stores, procures ingredients from suppliers nationwide, and processes/serves ice cream at individual locations."
+  },
+  {
+   "question_topic": "Products",
+   "answer": "Only soft-serve ice cream and related products such as milkshakes and ice cream sandwiches."
+  },
+  {
+   "question_topic": "Revenue objective",
+   "answer": "Last year $250K per store, or $750M. Increase gross revenue by about 33% in one year; the stated target is $1B, a $250M increase."
+  }
+ ],
+ "interviewer_notes": "Guide toward market/customer breakdown and show Exhibit 1. The next three largest U.S. competitors are shown. Seek a large, fragmented segment with low existing LK penetration, leading to ages 18–32. Ask what matters to this group, then show Exhibit 2. Identify low-calorie products as the most important addressable gap; brainstorm new products and recipe changes before introducing sugar-free licensing and Exhibit 3. Release zero market growth and one-third cannibalization only if asked. The source is a Fuqua Classic and is registered here for subsequent reprint detection.",
+ "suggested_framework": {
+  "summary": "Grow through products, promotion and sales locations/channels.",
+  "tree": {
+   "label": "Grow Lactose King revenue",
+   "children": [
+    {
+     "label": "Product",
+     "children": [
+      {
+       "label": "Sugar-free, dairy-free, frozen yogurt, cakes and gelato"
+      },
+      {
+       "label": "Permanent or seasonal flavors"
+      },
+      {
+       "label": "Savory items, coffee and affogato"
+      }
+     ]
+    },
+    {
+     "label": "Promotion",
+     "children": [
+      {
+       "label": "Consumer trends and new demographics"
+      },
+      {
+       "label": "Online and local paid campaigns"
+      },
+      {
+       "label": "Influencers and social media"
+      }
+     ]
+    },
+    {
+     "label": "Place",
+     "children": [
+      {
+       "label": "Packaged grocery products and other restaurants"
+      },
+      {
+       "label": "Domestic/international stores and small airport/stadium sites"
+      },
+      {
+       "label": "Service windows and store renovations"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you improve Lactose King's gross revenue?",
+   "release_when": "After the prompt; clarify the business and target on request.",
+   "info_to_release": "Approximately 3,000 owned stores, $250K revenue per store last year, and a stated $1B target in one year, described as 33% growth.",
+   "expected_answer": "Baseline is $750M and the stated target requires $250M additional sales. Consider product expansion, promotion, new channels and geography, grounded in consumer preferences. The 33% label is approximate: exactly 33% yields $997.5M, whereas $1B requires 33⅓%.",
+   "good_answer_signals": [
+    "Clarifies the one-year gross-revenue objective before brainstorming."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Which customer segment offers the best growth opportunity?",
+   "release_when": "When the candidate asks about market size or customer breakdown.",
+   "info_to_release": "Exhibit 1 is an analysis of U.S. direct-to-consumer ice cream buyers, labeled 2016. It shows market sizes and shares for LK, the next three largest competitors and others; sizes use both millions and billions.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Target ages 18–32: the market is $1.2B, LK has only 10% share and others hold 50%, indicating fragmentation and headroom. Under-18s are more fragmented but only a $10M market; ages 46–60 also represent $1.2B but have much higher LK penetration and less fragmentation. Investigate the chosen segment's preferences.",
+   "good_answer_signals": [
+    "Combines size, available share and fragmentation.",
+    "Notices the mixed monetary units."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "How can this survey help improve LK's standing with 18–32-year-old customers?",
+   "release_when": "Once the candidate selects ages 18–32 and considers their purchase criteria.",
+   "info_to_release": "The survey measures criteria importance and LK's performance versus other ice cream stores. Low-calorie and appearance are very important; price and variety somewhat important; taste and service low importance.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Low-calorie is the best addressable gap: very important to customers, but LK performs poorly. Price is LK's weakest area but only somewhat important for this group, consistent with premium positioning. Appearance is already strong. Brainstorm lower-calorie products and modifying the existing recipe.",
+   "good_answer_signals": [
+    "Prioritizes the intersection of importance and underperformance rather than the lowest score alone."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Would introducing sugar-free ice cream meet the revenue objective?",
+   "release_when": "After identifying low-calorie products. Release growth and cannibalization assumptions only if asked.",
+   "info_to_release": "A small company going out of business will license sugar-free ice cream for next to nothing, to be sold alongside the existing product. Estimated new-product shares: under 18 0%; ages 18–32 25%; 33–45 20%; 46–60 15%; over 60 5%. No market growth is expected in any segment next year. One-third of existing sales will be cannibalized.",
+   "exhibit_ids": [
+    "ex1",
+    "ex3"
+   ],
+   "expected_answer": "Sugar-free revenue is $0M + $300M + $160M + $180M + $10M = $650M. Cannibalization is one-third of $750M, or $250M. Net additional revenue is $400M and total revenue $1.15B, above the $1B stated target. Keep new-product gross revenue distinct from net company growth.",
+   "good_answer_signals": [
+    "Asks about market growth and cannibalization.",
+    "Combines the share estimates with the correct age-segment market sizes."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "The CEO is asking for an update. What do you recommend?",
+   "expected_answer": "Introduce sugar-free ice cream. It addresses caloric concerns, especially for ages 18–32, and adds $400M net revenue to reach $1.15B despite $250M cannibalization. Risks include different shelf life or dispensing equipment, forecast misses and competitor responses. Develop marketing to deliver projected demand and scope operational changes. Creative marketing and longer-run category growth are additional upside, not required assumptions.",
+   "good_answer_signals": [
+    "Quantifies net growth, relates it to the customer insight, and addresses operational risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "2016 U.S. direct-to-consumer ice cream buyers by age",
+   "page": 126,
+   "kind": "pie",
+   "description": "Market size and competitor shares by age. Market sizes normalized to USD millions; shares are percentages.",
+   "data": {
+    "columns": [
+     "Age",
+     "Market size ($M)",
+     "Lactose King (%)",
+     "Sugar Shack (%)",
+     "Delly's Dairy (%)",
+     "Heavenly Ice Cream (%)",
+     "Other (%)"
+    ],
+    "rows": [
+     [
+      "<18",
+      10,
+      10,
+      10,
+      5,
+      10,
+      65
+     ],
+     [
+      "18–32",
+      1200,
+      10,
+      15,
+      10,
+      15,
+      50
+     ],
+     [
+      "33–45",
+      800,
+      30,
+      25,
+      20,
+      10,
+      15
+     ],
+     [
+      "46–60",
+      1200,
+      29,
+      27,
+      25,
+      9,
+      10
+     ],
+     [
+      ">60",
+      200,
+      20,
+      20,
+      20,
+      10,
+      30
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-lactose-king/p126.webp",
+   "key_insight": "Ages 18–32 combine a large market, low LK share and fragmentation.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Ice cream store criteria for ages 18–32",
+   "page": 128,
+   "kind": "other",
+   "description": "Relative performance markers have no numeric scale. Positions are described qualitatively, not converted into invented scores.",
+   "data": {
+    "columns": [
+     "Criterion",
+     "Importance",
+     "LK relative performance (qualitative)"
+    ],
+    "rows": [
+     [
+      "Price",
+      "Somewhat",
+      "Near worst end; weakest criterion"
+     ],
+     [
+      "Low calorie",
+      "Very",
+      "Poor"
+     ],
+     [
+      "Store appearance",
+      "Very",
+      "Strong"
+     ],
+     [
+      "Taste",
+      "Low",
+      "Near best end"
+     ],
+     [
+      "Product variety",
+      "Somewhat",
+      "Poor"
+     ],
+     [
+      "Customer service",
+      "Low",
+      "Above midpoint"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-lactose-king/p128.webp",
+   "key_insight": "Low-calorie is important and underperforming, unlike appearance, which is already strong.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Estimated sugar-free market share",
+   "page": 130,
+   "kind": "table",
+   "description": "Anticipated U.S. market share captured by the sugar-free offering, by age group.",
+   "data": {
+    "columns": [
+     "Age",
+     "Anticipated share (%)"
+    ],
+    "rows": [
+     [
+      "<18",
+      0
+     ],
+     [
+      "18–32",
+      25
+     ],
+     [
+      "33–45",
+      20
+     ],
+     [
+      "46–60",
+      15
+     ],
+     [
+      ">60",
+      5
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-lactose-king/p130.webp",
+   "key_insight": "Apply shares to segment sizes, then subtract cannibalization of existing sales.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the revenue baseline and target increase?",
+   "givens": [
+    "3,000 stores",
+    "$250K revenue per store",
+    "Stated target $1B, described as 33% growth"
+   ],
+   "steps": [
+    "3,000 × $250K = $750M.",
+    "$1,000M − $750M = $250M required increase.",
+    "Exactly 33% growth would produce $997.5M; the $1B target implies 33⅓%, consistent with an approximate 33% label."
+   ],
+   "answer": "$750M baseline; $250M needed for the stated $1B target.",
+   "answer_value": 250,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What gross revenue would sugar-free ice cream generate?",
+   "givens": [
+    "Market sizes $10M/$1200M/$800M/$1200M/$200M",
+    "New-product shares 0%/25%/20%/15%/5%",
+    "No market growth"
+   ],
+   "steps": [
+    "Segment revenues = 10 × 0%, 1200 × 25%, 800 × 20%, 1200 × 15%, 200 × 5%.",
+    "These equal $0M/$300M/$160M/$180M/$10M.",
+    "Sum = $650M."
+   ],
+   "answer": "$650M gross sugar-free revenue.",
+   "answer_value": 650,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is revenue after cannibalization?",
+   "givens": [
+    "Existing revenue $750M",
+    "One-third cannibalized",
+    "New-product revenue $650M"
+   ],
+   "steps": [
+    "Lost existing revenue = 750 / 3 = $250M.",
+    "Net increase = 650 − 250 = $400M.",
+    "Total revenue = 750 + 400 = $1,150M."
+   ],
+   "answer": "$400M net increase, reaching $1.15B and exceeding the stated $1B goal.",
+   "answer_value": 1150,
+   "unit": "USD millions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Launch sugar-free ice cream alongside the original product. Its $650M gross revenue less $250M cannibalization generates $400M net growth and $1.15B total sales, above the $1B goal. This addresses the high-importance low-calorie gap among ages 18–32. Validate demand, shelf life and dispensing requirements, plan marketing, and prepare for imitation and forecast risk.",
+ "what_great_looks_like": [
+  "Uses market size, fragmentation and low existing share together.",
+  "Targets the high-importance low-calorie performance gap.",
+  "Subtracts cannibalization and proposes creative, segment-specific marketing."
+ ],
+ "common_pitfalls": [
+  "Confusing millions and billions across age segments.",
+  "Selecting price solely because performance is lowest.",
+  "Reporting $650M as net growth without cannibalization.",
+  "Assuming future market growth despite the explicit zero-growth input."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Fuqua Classic from 2017–2018, revised in this edition. Classified as restaurants/qsr rather than Services. The $1B target implies 33⅓% growth, so the source's 33% is approximate; one-third cannibalization is used exactly. Exhibit 1 implies $749M historical LK revenue from rounded shares, close to the provided $750M baseline, which is retained. The solution labels one age group 45–60, while candidate exhibits consistently say 46–60; retained candidate label. The customer graphic is dated 2016 despite the narrative's latest-year wording. Easy maps to 2 in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "format",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls"
+  ]
+ }
+}

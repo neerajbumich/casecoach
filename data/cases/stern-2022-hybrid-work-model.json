@@ -1,0 +1,492 @@
+{
+ "id": "stern-2022-hybrid-work-model",
+ "title": "Hybrid Work Model",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  222,
+  231
+ ],
+ "author": "Tom Galante (Stern '22)",
+ "case_type": [
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Cost Savings / Change Management",
+ "industry": "media-streaming",
+ "industry_source_label": "Entertainment",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Deloitte Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 8 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "hybrid-work",
+  "cost-reduction",
+  "breakeven",
+  "space-utilization",
+  "change-management",
+  "talent-strategy",
+  "lease-costs"
+ ],
+ "concepts_tested": [
+  "Chart Clearing",
+  "Investment / Breakeven",
+  "Non-Quantitative Benefits"
+ ],
+ "client_type": "for-profit",
+ "geography": "United States; New York City headquarters and proposed New Jersey server location",
+ "prompt": "You've been called into the headquarters of Galloway Entertainment, a small television production company in New York. The company carefully managed employee interactions during the pandemic, and as a result was able to get through without making significant operational changes. However, the CEO has been reading up on the new 'hybrid work model' and is excited by the opportunity to consolidate her real estate footprint and generate what she expects will be significant near-term operational efficiencies. Her team has pulled together an initial estimate of what it will take to enable a hybrid workplace, and she has asked you to evaluate whether she should pull the trigger.",
+ "clarifying_info": [
+  {
+   "question_topic": "Hybrid work",
+   "answer": "Employees spend some, but not all, of their time in the office."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Galloway produces scripted television and is exploring documentary filmmaking. It licenses content to cable television companies and online streaming platforms."
+  },
+  {
+   "question_topic": "Locations",
+   "answer": "Filming takes place across the United States. Operations are in New York City, a few blocks from the CEO's apartment."
+  },
+  {
+   "question_topic": "Decision criterion",
+   "answer": "The CEO wants the decision to be cash-neutral or better over two years."
+  },
+  {
+   "question_topic": "Current lease",
+   "answer": "Three years remain. Moving requires breaking the lease. Only if specifically asked, disclose a lease-breakage charge of 50% of the remaining lease value."
+  },
+  {
+   "question_topic": "Current space and servers",
+   "answer": "The current space is optimal. Server-room volume is fixed and does not fall with employee attendance."
+  },
+  {
+   "question_topic": "Missing server room in the proposed office",
+   "answer": "Only when asked, disclose a separate 1,000-square-foot server location in New Jersey at $5 per square foot per month."
+  }
+ ],
+ "interviewer_notes": "Let the candidate drive through the existing plan, alternatives, transition costs and qualitative benefits, prompting only if needed. Test savings calculations, discovery of missing data, and willingness to challenge the CEO's short-term savings belief. There is no single mandatory final recommendation. Nominal cash flows suffice; no present-value calculation is required. Candidate Exhibit 1 on page 229 has different future attendance rates from the solution on page 224; grade using the candidate exhibit. The case guide's contractual breakage formula also conflicts with the later $250,000 handover. Retain both disclosures and explicitly discuss the two scenarios rather than silently substituting one.",
+ "suggested_framework": {
+  "summary": "Compare operational fit and recurring savings with transition investment, then weigh workforce trends and strategic benefits against the two-year cash requirement.",
+  "tree": {
+   "label": "Should Galloway adopt the proposed hybrid workplace?",
+   "children": [
+    {
+     "label": "Current footprint and proposed plan",
+     "children": [
+      {
+       "label": "Attendance by employee type"
+      },
+      {
+       "label": "Communal, desk and fixed server-space requirements"
+      },
+      {
+       "label": "Suitability of the proposed office"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Rent savings including the offsite server room"
+      },
+      {
+       "label": "Moving, lease termination and technology implementation"
+      },
+      {
+       "label": "Annual licensing and two-year cash impact"
+      }
+     ]
+    },
+    {
+     "label": "Workforce and market trends",
+     "children": [
+      {
+       "label": "Hybrid-work expectations by age"
+      },
+      {
+       "label": "Access to film-production talent"
+      }
+     ]
+    },
+    {
+     "label": "Strategic and implementation tradeoffs",
+     "children": [
+      {
+       "label": "Qualitative upside and downside"
+      },
+      {
+       "label": "Change management and employee acceptance"
+      },
+      {
+       "label": "Whether a two-year hurdle is appropriate"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate whether the CEO should implement the hybrid-work plan?",
+   "release_when": "Read the prompt; give clarifications only when requested.",
+   "info_to_release": "The CEO requires cash-neutral or better performance over two years. There are three years left on the lease. Only if specifically asked, disclose breakage at 50% of remaining lease value. Galloway licenses scripted television and is considering documentaries.",
+   "exhibit_ids": [],
+   "expected_answer": "Understand current utilization and the proposed footprint, compare recurring savings with all one-time and continuing costs, and assess talent, operational fit and change-management effects. Request the existing plan rather than assuming all employees need desks or all space can shrink.",
+   "good_answer_signals": [
+    "Clarifies the cash objective and time horizon.",
+    "Includes qualitative benefits and downside alongside rent savings."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "How does shifting to hybrid work affect the current footprint and space utilization?",
+   "release_when": "Give Exhibit 1 when the candidate asks about the existing plan; provide it and prompt the two calculations if necessary.",
+   "info_to_release": "Exhibit 1: field crew 50 employees, current/future attendance 0%/0%; production 20, 100%/70%; post-production 20, 100%/50%; administration 10, 100%/30%. Current communal space is 5,000 square feet, desk space 10,000 and server room 1,000. Rent is $8.33 per square foot per month. If asked, current space is optimal and server volume is fixed.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Current effective attendance is 50 employees; future attendance is 14 + 10 + 3 = 27, a 46% reduction. Current communal and desk space per effective employee are 100 and 200 square feet. Servers remain fixed. Total rent is 16,000 × $8.33 × 12 = $1,599,360 annually, approximately $1.6 million. The solution's 30 employees and 40% reduction use different rates and do not follow the candidate exhibit. Ask about alternatives next.",
+   "good_answer_signals": [
+    "Weights employee counts by attendance.",
+    "Does not reduce server capacity with attendance.",
+    "Uses the candidate's 50% and 30% future rates."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "The real-estate team has found a new space with competing bids. How much would the proposed lease save annually?",
+   "release_when": "Give Exhibit 2 on request for the alternative. Do not volunteer the missing server-room cost; prompt the candidate to check requirements if needed.",
+   "info_to_release": "The Soho office sublease has 2,500 square feet of communal/conference space and 7,500 of office/desk space at $6.67 per square foot per month. Only when asked, disclose 1,000 square feet of offsite server space in New Jersey at $5 per square foot per month. Do not yet explain whether the new space mix is suitable.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Office rent is $800,400 and server rent $60,000 annually, totaling $860,400. Gross annual rent savings are $738,960, approximately the book's $740,000. Total footprint is 11,000 square feet including servers. At 27 effective office employees, communal space is 92.59 square feet per employee and desk space 277.78, versus 100 and 200 currently. The changed mix requires investigation; rent savings alone do not establish operational fit.",
+   "good_answer_signals": [
+    "Notices the missing server room.",
+    "Questions the changed allocation of communal and desk space.",
+    "Asks about transition costs next."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What costs and benefits could arise from making this move? Once you have the estimates, does it meet the CEO's cash objective?",
+   "release_when": "First request a structured brainstorm. After sufficient ideas, give the cost estimates exactly as printed.",
+   "info_to_release": "One-time moving cost is $250,000. The later estimate explicitly gives lease-breakage cost of $250,000. New technology costs $500,000 to implement and $250,000 annually to license. This $250,000 breakage estimate is preserved even if the candidate previously received the case guide's 50%-of-remaining-lease rule. Use nominal calculations, not PV.",
+   "exhibit_ids": [],
+   "expected_answer": "Structure direct versus indirect, quantitative versus qualitative, or upside versus downside. Include change-management and technology costs. Exact recurring net savings are $488,960. With the later flat $250,000 breakage estimate, upfront cost is $1 million and two-year cash impact is negative $22,080; rounded source inputs give negative $20,000. Neither meets the stated goal. However, 50% of three years of current rent is $2,399,040, not $250,000. If that contractual rule applies, upfront cost becomes $3,149,040 and the two-year impact is negative $2,171,120. Resolve the fee before claiming the move is close to breakeven.",
+   "good_answer_signals": [
+    "Separates recurring and one-time cash flows.",
+    "Includes annual software licensing.",
+    "Preserves and flags the incompatible lease-breakage disclosures."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "What do the data on filmmaking hubs and hybrid-work trends tell you?",
+   "release_when": "Give Exhibit 3 after the financial discussion.",
+   "info_to_release": "The map's bubbles indicate relative volume of students concentrating in film production or similar studies. Expected office days per week fall from 4.5 to 2.5 for ages 20–30, 5 to 3.5 for ages 30–40, and 5 to 4.5 for ages 40 and above.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "A more flexible model could improve recruiting competitiveness, particularly among younger talent, and enable access to geographically dispersed film-production talent as Galloway explores documentaries. These are qualitative opportunities, not quantified savings. Reconsider whether the smaller communal footprint and larger desk allocation suit a hybrid workforce.",
+   "good_answer_signals": [
+    "Connects trends to Galloway's documentary expansion.",
+    "Does not invent student counts or monetize unquantified benefits."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the CEO?",
+   "release_when": "After the candidate has interpreted the trend exhibit.",
+   "info_to_release": "No additional information.",
+   "exhibit_ids": [],
+   "expected_answer": "Do not approve the move on the claim that it meets the two-year cash requirement. Under the later flat fee it is slightly cash-negative at $22,080 using exact exhibit rates; under the initial contractual formula it is negative $2,171,120. Resolve this material fee discrepancy. The source permits either a supported go or no-go strategic recommendation, but requires pushback on near-term savings. Consider talent access and flexibility, question whether two years is too short, and test the space mix and employee reaction to moving neighborhoods before committing.",
+   "good_answer_signals": [
+    "Leads with an answer tied to the CEO's criterion.",
+    "Separates strategic benefits from demonstrated cash savings.",
+    "Treats the unresolved contract cost as decision-critical."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Current Operational & Employee Footprint",
+   "page": 229,
+   "kind": "other",
+   "description": "Employee attendance and current lease inputs, with a map distinguishing distributed field crew from New York production/post-production. The current office is a fourth-floor walkup on Union Square. Lease rate is $8.33 per square foot per month.",
+   "data": {
+    "columns": [
+     "Input",
+     "Employee count or square feet",
+     "Current attendance",
+     "Future attendance"
+    ],
+    "rows": [
+     [
+      "Field crew",
+      50,
+      "0%",
+      "0%"
+     ],
+     [
+      "Production",
+      20,
+      "100%",
+      "70%"
+     ],
+     [
+      "Post-production",
+      20,
+      "100%",
+      "50%"
+     ],
+     [
+      "Administration",
+      10,
+      "100%",
+      "30%"
+     ],
+     [
+      "Communal areas and conference rooms (square feet)",
+      5000,
+      "Not applicable",
+      "Not applicable"
+     ],
+     [
+      "Office and desk space (square feet)",
+      10000,
+      "Not applicable",
+      "Not applicable"
+     ],
+     [
+      "Server room (square feet)",
+      1000,
+      "Not applicable",
+      "Not applicable"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-hybrid-work-model/p229.webp",
+   "image_has_answers": false,
+   "key_insight": "Effective attendance falls from 50 to 27, not the solution's 30. Server capacity stays fixed.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Proposed New Lease",
+   "page": 230,
+   "kind": "table",
+   "description": "Soho office sublease at $6.67 per square foot per month. The candidate exhibit does not include a server room; that cost is released separately only when requested.",
+   "data": {
+    "columns": [
+     "Space type",
+     "Square feet"
+    ],
+    "rows": [
+     [
+      "Communal areas and conference rooms",
+      2500
+     ],
+     [
+      "Office and desk space",
+      7500
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-hybrid-work-model/p230.webp",
+   "image_has_answers": false,
+   "key_insight": "Include the missing offsite server cost and challenge the suitability of the new space mix.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Hybrid Work Trends & Filmmaking Hubs",
+   "page": 231,
+   "kind": "other",
+   "description": "A US map shows relative film-production student concentrations without numerical counts; a bar chart shows expected weekly office attendance by age before and after COVID. Bubble size represents volume of students listing film production or similar as their concentration.",
+   "data": {
+    "columns": [
+     "Age group",
+     "Pre-COVID office days per week",
+     "Post-COVID office days per week"
+    ],
+    "rows": [
+     [
+      "20–30",
+      4.5,
+      2.5
+     ],
+     [
+      "30–40",
+      5,
+      3.5
+     ],
+     [
+      "40+",
+      5,
+      4.5
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-hybrid-work-model/p231.webp",
+   "image_has_answers": false,
+   "key_insight": "Flexibility may improve access to dispersed talent and attract younger employees; the exhibit does not quantify financial benefits.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much does effective office attendance decline?",
+   "givens": [
+    "Field crew: 50 employees at 0% currently and in future",
+    "Production: 20 at 100% currently and 70% in future",
+    "Post-production: 20 at 100% currently and 50% in future",
+    "Administration: 10 at 100% currently and 30% in future"
+   ],
+   "steps": [
+    "Current effective attendance = 20 + 20 + 10 = 50.",
+    "Future attendance = 20 × 70% + 20 × 50% + 10 × 30% = 27.",
+    "Reduction = (50 − 27) / 50 = 46%."
+   ],
+   "answer": "27 effective office employees, a 46% reduction.",
+   "answer_value": 46,
+   "unit": "% reduction",
+   "verified": false,
+   "book_answer_if_different": "Page 224 uses 55% post-production and 50% administration, yielding 30 future employees and a 40% reduction. Candidate Exhibit 1 instead gives 50% and 30%."
+  },
+  {
+   "id": "m2",
+   "question": "How does employee-used space per effective employee change?",
+   "givens": [
+    "Current communal/desk space: 5,000/10,000 square feet",
+    "Future communal/desk space: 2,500/7,500 square feet",
+    "Current/future effective employees: 50/27 from candidate Exhibit 1",
+    "Server room stays fixed at 1,000 square feet"
+   ],
+   "steps": [
+    "Current communal = 5,000 / 50 = 100; desk = 10,000 / 50 = 200; combined = 300 square feet per effective employee.",
+    "Future communal = 2,500 / 27 = 92.5926; desk = 7,500 / 27 = 277.7778; combined = 370.3704 square feet per effective employee."
+   ],
+   "answer": "Future communal space falls to 92.59 square feet per effective employee while desk space rises to 277.78; combined employee-used space is 370.37.",
+   "answer_value": 370.3703703703704,
+   "unit": "square feet per effective employee",
+   "verified": false,
+   "book_answer_if_different": "Page 226 divides by the inconsistent 30-person total and reports 83.3 communal, 250.0 desk and 333.3 combined square feet per effective employee."
+  },
+  {
+   "id": "m3",
+   "question": "What is annual rental savings including the server location?",
+   "givens": [
+    "Current areas total 16,000 square feet at $8.33 per month",
+    "New office areas total 10,000 square feet at $6.67 per month",
+    "New Jersey server room: 1,000 square feet at $5 per month"
+   ],
+   "steps": [
+    "Current rent = 16,000 × 8.33 × 12 = $1,599,360.",
+    "New office rent = 10,000 × 6.67 × 12 = $800,400.",
+    "Server rent = 1,000 × 5 × 12 = $60,000; new combined rent = $860,400.",
+    "Annual savings = 1,599,360 − 860,400 = $738,960."
+   ],
+   "answer": "$738,960 annual gross savings using exact displayed rates, approximately $740,000 using the book's rounded annual rents.",
+   "answer_value": 738960,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "Page 226 displays $1,600,000 current rent, $800,000 office rent, $860,000 combined new rent and $740,000 savings. These implicitly round the monthly-rate calculations; exact displayed inputs give $1,599,360, $800,400, $860,400 and $738,960."
+  },
+  {
+   "id": "m4",
+   "question": "What is two-year cash impact under the later flat lease-breakage estimate?",
+   "givens": [
+    "Gross annual rent savings $738,960 from exact candidate rates",
+    "Annual software license $250,000",
+    "Moving $250,000; later breakage estimate $250,000; implementation $500,000",
+    "Two-year nominal evaluation"
+   ],
+   "steps": [
+    "Net annual savings = 738,960 − 250,000 = $488,960.",
+    "Upfront costs = 250,000 + 250,000 + 500,000 = $1,000,000.",
+    "Two-year cash impact = 2 × 488,960 − 1,000,000 = −$22,080."
+   ],
+   "answer": "Negative $22,080 over two years under the flat $250,000 breakage scenario; the cash-neutral requirement is missed.",
+   "answer_value": -22080,
+   "unit": "USD over two years",
+   "verified": false,
+   "book_answer_if_different": "Page 227 uses rounded annual rental savings of $740,000 and net savings of $490,000, giving $980,000 over two years and a final negative $20,000. Exact exhibit rates give negative $22,080. The much larger contractual breakage inconsistency is evaluated separately."
+  },
+  {
+   "id": "m5",
+   "question": "What if the case guide's contractual lease-breakage rule applies?",
+   "givens": [
+    "Three years remain",
+    "Breakage equals 50% of remaining lease value",
+    "Exact current annual rent $1,599,360",
+    "Other upfront costs: moving $250,000 and technology $500,000",
+    "Net recurring savings $488,960 annually"
+   ],
+   "steps": [
+    "Remaining lease value = 3 × 1,599,360 = $4,798,080.",
+    "Breakage = 50% × 4,798,080 = $2,399,040.",
+    "Upfront costs = 2,399,040 + 250,000 + 500,000 = $3,149,040.",
+    "Two-year cash impact = 2 × 488,960 − 3,149,040 = −$2,171,120."
+   ],
+   "answer": "Contractual breakage is $2,399,040, implying negative $2,171,120 over two years. The conflicting fee must be resolved before a decision.",
+   "answer_value": -2171120,
+   "unit": "USD over two years",
+   "verified": false,
+   "book_answer_if_different": "Page 223 specifies 50% of the remaining three-year lease value, but page 227 gives only $250,000 breakage and a negative $20,000 overall result. These cannot both describe the same lease; even rounded annual rent implies $2.4 million breakage."
+  }
+ ],
+ "synthesis": "Do not justify the move as meeting the CEO's two-year cash hurdle. With the later $250,000 breakage estimate, exact exhibit rates imply a $22,080 two-year shortfall, close to the book's rounded $20,000. But the initial 50%-of-remaining-value rule implies a $2,171,120 shortfall, so reconcile the lease terms before committing. The candidate exhibit also implies 27, not 30, effective office employees. A strategic case for flexibility and access to filmmaking talent may still exist; the book permits either supported recommendation. Test the office mix, employees' reaction to the neighborhood change, and whether a two-year horizon is appropriate for the strategic benefits.",
+ "what_great_looks_like": [
+  "Drives the discussion from current footprint to alternatives and full transition economics.",
+  "Recognizes fixed server requirements and requests the omitted offsite cost.",
+  "Challenges the changed space allocation and the CEO's near-term savings assumption.",
+  "Connects remote-work trends and geographically dispersed talent to documentary expansion.",
+  "Resolves the lease-fee conflict instead of treating the move as demonstrably near breakeven."
+ ],
+ "common_pitfalls": [
+  "Using all 100 employees as daily office occupants.",
+  "Copying solution attendance rates instead of the candidate exhibit.",
+  "Ignoring server rent, implementation costs or recurring software licenses.",
+  "Treating $250,000 breakage as consistent with 50% of three years of rent.",
+  "Presenting unquantified recruiting benefits as established cash savings."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Candidate pages 229–231 are used rather than solution pages 224/226. Candidate future post-production/admin utilization is 50%/30%; solution uses 55%/50%. Correct attendance is 27 and reduction 46%, changing space-per-employee results. The guide's 50% of remaining three-year lease value conflicts with the later explicitly released $250,000 breakage fee; both are preserved in release information and evaluated separately. Exact monthly rental rates imply slightly different annual figures from the book's implicit rounding: savings $738,960 versus $740,000 and two-year flat-fee loss $22,080 versus $20,000. The contractual-fee scenario loses $2,171,120. Medium confidence reflects these internal inconsistencies, not illegible data. Map bubbles have no numerical counts; none are invented. The broad media-streaming taxonomy covers the television-content producer, but no mismatched streaming-platform sub-industry is assigned. Difficulty uses max(8,8) and Python round(8/2) = 4. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type",
+   "industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls",
+   "what_great_looks_like conflict-resolution item"
+  ]
+ }
+}

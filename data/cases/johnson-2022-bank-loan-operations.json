@@ -1,0 +1,257 @@
+{
+ "id": "johnson-2022-bank-loan-operations",
+ "title": "Bank Loan Operations",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  87,
+  92
+ ],
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "banking",
+ "sub_industry": "retail-banking",
+ "industry_source_label": "Financial Services",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Medium; Quant: Medium; Analysis: Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "expected-profit",
+  "credit-risk",
+  "approval-funnel",
+  "process-redesign",
+  "centralization",
+  "screening-cost",
+  "change-management"
+ ],
+ "prompt": "Your client is a bank considering changing its loan-issuing operation. In the original process, a loan application is generated at a branch, the branch completes a first background check, and applicants who clear it are sent to a central office for a second background check. The central office then approves or denies the loan. The bank is considering eliminating the first check and relying only on the central office. Greater scrutiny there would increase total background-check cost from $100 to $110 per application. Under the original system, about 50% pass the first check and 90% of those pass the second. For the proposed system, good loans that are repaid earn the bank $0.20 per dollar loaned, while bad loans that are not repaid lose $0.50 per dollar loaned. Evaluate the pros and cons of each system and recommend how the bank should proceed.",
+ "clarifying_info": [
+  {
+   "question_topic": "Applications",
+   "answer": "The bank receives about 1,000 loan applications annually."
+  },
+  {
+   "question_topic": "Average loan",
+   "answer": "Average loan value is $10,000."
+  },
+  {
+   "question_topic": "Proposed approval rate",
+   "answer": "The new system approves 40% of applications."
+  },
+  {
+   "question_topic": "Bad-loan rates",
+   "answer": "The original system has 10% bad loans among issued loans; the proposed system has 5%, owing to increased central-office scrutiny."
+  }
+ ],
+ "interviewer_notes": "This candidate-led case tests profitability and mental math. A clear calculation structure is essential: approval probabilities determine issued volume, and repayment/default probabilities determine expected gain per dollar of issued loans. Charge background-check costs on all 1,000 applications, not only approvals. Although the prompt introduces the $0.20 gain and $0.50 loss in reference to the proposed system, the source applies them to both systems; make that modeling convention explicit if asked. The book calls the result before screening cost expected revenue; it is expected loan gain after credit losses, not loan principal or gross cash receipts. There are no candidate exhibits. Encourage further brainstorming and practical implementation detail when time permits.",
+ "suggested_framework": {
+  "summary": "Compare expected loan gains and screening costs under each approval process, then test feasibility and transition risks.",
+  "tree": {
+   "label": "Bank loan system",
+   "children": [
+    {
+     "label": "Original system",
+     "children": [
+      {
+       "label": "Branch and central-office checks"
+      },
+      {
+       "label": "50% then 90% approval, or 45% overall"
+      },
+      {
+       "label": "10% bad loans"
+      }
+     ]
+    },
+    {
+     "label": "New system",
+     "children": [
+      {
+       "label": "$10 higher screening cost per application"
+      },
+      {
+       "label": "40% approval"
+      },
+      {
+       "label": "5% bad loans"
+      }
+     ]
+    },
+    {
+     "label": "Non-financial implications",
+     "children": [
+      {
+       "label": "Legal requirements"
+      },
+      {
+       "label": "Central-office employee training"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you compare the two loan-issuing systems?",
+   "release_when": "Read the prompt; provide application volume, loan size and risk rates when requested.",
+   "info_to_release": "Original process: 50% pass the branch check and 90% of those pass central review; screening costs $100 per application. Proposed process: central review only, costing $110 per application and approving 40%. There are 1,000 applications annually and average loans are $10,000. Bad-loan rates are 10% original and 5% proposed. The source uses $0.20 earned per good-loan dollar and $0.50 lost per bad-loan dollar under both systems.",
+   "exhibit_ids": [],
+   "expected_answer": "Calculate issued loans from application volume and approval rates, then expected credit-adjusted gain on issued principal. Subtract screening costs for all applications. Compare financial results while evaluating legal requirements, central-office capacity and training. Distinguish approval from eventual repayment.",
+   "good_answer_signals": [
+    "Defines a consistent calculation tree before substituting numbers.",
+    "Recognizes sequential conditional approvals in the old process."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Calculate expected profit under each system.",
+   "release_when": "After the structure, use the previously released inputs; no additional assumptions.",
+   "info_to_release": "Use 1,000 annual applications, $10,000 loan size, original approvals 50% then 90%, proposed approval 40%, original bad-loan rate 10%, proposed bad-loan rate 5%, $0.20 gain for each good-loan dollar and $0.50 loss for each bad-loan dollar. Apply $100 or $110 screening cost to every application.",
+   "exhibit_ids": [],
+   "expected_answer": "Original: 1,000 × 50% × 90% = 450 loans. Expected gain per issued dollar is 90% × $0.20 − 10% × $0.50 = $0.13. Expected loan gain is 450 × $10,000 × $0.13 = $585,000; subtract $100,000 screening cost to obtain $485,000. Proposed: 400 loans and expected gain per dollar of 95% × $0.20 − 5% × $0.50 = $0.165. Expected loan gain is $660,000; subtract $110,000 to obtain $550,000. The new system improves annual expected profit by $65,000 despite lower approval volume and higher screening cost.",
+   "good_answer_signals": [
+    "Keeps the old 90% second-stage approval separate from its 90% good-loan probability.",
+    "Subtracts default losses rather than treating all issued principal as revenue.",
+    "Charges screening expense on all applicants."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What else should the bank consider before changing its loan operation?",
+   "release_when": "After the financial comparison.",
+   "info_to_release": "Consider internal implementation and external effects. The source also raises a possible $10 increase in customer application cost; whether the bank passes on its higher processing cost is not established in the financial model.",
+   "exhibit_ids": [],
+   "expected_answer": "Internally, assess central-office training, staffing capacity, a transition roadmap and phase-out plan, and employee communication. Externally, consider potential customer fees, processing-time differences, legal requirements for multiple checks and customer communication. Do not count an assumed fee pass-through as additional revenue without support.",
+   "good_answer_signals": [
+    "Separates operating readiness from legal and customer issues.",
+    "Considers the central office's increased workload and scrutiny.",
+    "Explains practical transition steps."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "How should the bank proceed?",
+   "release_when": "After the implementation discussion.",
+   "info_to_release": "No quantified one-time transition or training cost is supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "Proceed with the new system, subject to legal and implementation checks, because expected annual profit rises to $550,000 from $485,000. Risks are mandatory multiple-check rules and incremental training needs. Preserve a secondary check process where required and have experienced branch loan staff train central-office staff. Set objectives, milestones and timelines; phase out the original process, plan central-office training, and determine rollout speed, testing and a possible pilot.",
+   "good_answer_signals": [
+    "Quantifies the $65,000 annual improvement.",
+    "Does not ignore compliance merely because the financial model favors centralization.",
+    "Pairs risks with specific mitigations and a staged rollout."
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is expected annual profit under the original process?",
+   "givens": [
+    "1,000 applications; 50% pass first check and 90% of those pass second",
+    "$10,000 average loan",
+    "90% good loans earning $0.20 per dollar; 10% bad losing $0.50",
+    "$100 screening per application"
+   ],
+   "steps": [
+    "Approved loans = 1,000 × 50% × 90% = 450.",
+    "Expected gain per issued dollar = 90% × $0.20 − 10% × $0.50 = $0.13.",
+    "Credit-adjusted gain = 450 × $10,000 × $0.13 = $585,000.",
+    "Screening = 1,000 × $100 = $100,000.",
+    "Expected profit = $585,000 − $100,000 = $485,000."
+   ],
+   "answer": "$485,000 expected annual profit.",
+   "answer_value": 485000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is expected annual profit under the proposed process?",
+   "givens": [
+    "1,000 applications; 40% approved",
+    "$10,000 average loan",
+    "95% good loans earning $0.20 per dollar; 5% bad losing $0.50",
+    "$110 screening per application"
+   ],
+   "steps": [
+    "Approved loans = 1,000 × 40% = 400.",
+    "Expected gain per issued dollar = 95% × $0.20 − 5% × $0.50 = $0.165.",
+    "Credit-adjusted gain = 400 × $10,000 × $0.165 = $660,000.",
+    "Screening = 1,000 × $110 = $110,000.",
+    "Expected profit = $660,000 − $110,000 = $550,000."
+   ],
+   "answer": "$550,000 expected annual profit.",
+   "answer_value": 550000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the proposed system's annual profit improvement?",
+   "givens": [
+    "Original profit $485,000",
+    "Proposed profit $550,000"
+   ],
+   "steps": [
+    "$550,000 − $485,000 = $65,000."
+   ],
+   "answer": "$65,000 higher expected annual profit before any unspecified transition costs.",
+   "answer_value": 65000,
+   "unit": "USD/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Adopt the central-office-only system subject to legal and implementation feasibility. Expected annual profit increases from $485,000 to $550,000, a $65,000 gain, because the lower bad-loan rate outweighs fewer approvals and higher screening expense. Address any requirement for multiple checks with a secondary process, use experienced branch staff to train central-office staff, and define milestones, testing, rollout speed and a potential pilot. One-time training and transition costs are not quantified in the source.",
+ "what_great_looks_like": [
+  "Separates the approval funnel from the repayment/default outcome tree.",
+  "Applies processing costs to all applications.",
+  "Explains why fewer issued loans can produce greater profit.",
+  "Connects the recommendation to compliance, training and a practical rollout."
+ ],
+ "common_pitfalls": [
+  "Treating 50% and 90% approval rates as additive or using only one.",
+  "Confusing second-round approval with the good-loan rate.",
+  "Treating loan principal as revenue.",
+  "Charging screening costs only to approved loans.",
+  "Adding fee pass-through revenue or transition costs that the source does not quantify."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-05",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup verdict NEW. Pages 87–92 read; rendered pages 88–92 visually inspected. No candidate exhibits. Both source profit results match Python recomputation. The prompt introduces per-dollar loan gains/losses under the proposed system; the worked solution explicitly uses the same values for both, retained as the comparison convention. Source 'expected revenue' is described more precisely as credit-adjusted loan gain, not principal or gross receipts. The brainstorm's possible $10 customer application-cost increase is preserved as a consideration, not added as bank revenue: no fee pass-through rule is supplied. No one-time training or transition cost is invented. Overall Medium maps in code to 3; H quant intensity reflects the conditional multi-step model. Banking/retail-banking is inferred from branch-originated loans; borrower subtype is not otherwise specified. No book arithmetic errors found. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "math[2] incremental comparison",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

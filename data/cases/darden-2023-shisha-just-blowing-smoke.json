@@ -1,0 +1,409 @@
+{
+ "id": "darden-2023-shisha-just-blowing-smoke",
+ "title": "Shisha: Just Blowing Smoke?",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  92,
+  101
+ ],
+ "case_type": [
+  "Market Entry",
+  "Public Sector/Social Impact"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "public-sector",
+ "sub_industry": "government",
+ "industry_source_label": "Public Sector",
+ "geography": "Saudi Arabia",
+ "client_type": "public sector",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2; Quantitative 2; Qualitative 2 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "licensing",
+  "adoption-rates",
+  "cohort-analysis",
+  "revenue-forecast",
+  "public-policy",
+  "market-sizing"
+ ],
+ "fit_question": "Name three adjectives that your learning team would use to describe you.",
+ "prompt": "Over the past five years, the government of Saudi Arabia has been focused on reducing economic dependence on oil by diversifying the domestic economy. As part of this effort, the government has evidenced a willingness to relax certain social norms. As part of the diversification initiative, the government hired us to forecast the potential revenue impact of taxing shisha consumption.",
+ "clarifying_info": [
+  {
+   "question_topic": "Shisha",
+   "answer": "In the case, shisha is an instrument for vaporizing and smoking flavored tobacco; waterpipe smoking is a cultural tradition in the Arab world and Middle East."
+  },
+  {
+   "question_topic": "Revenue sources",
+   "answer": "Institutions apply and pay for a license to sell shisha, with sales tax and import tariffs also levied as appropriate. The analysis focuses on licensing."
+  },
+  {
+   "question_topic": "Goal",
+   "answer": "Maximize revenue over a 3-year period; there is no fixed revenue target."
+  },
+  {
+   "question_topic": "Baseline public revenue",
+   "answer": "The case gives annual government revenue of SAR 2.5 trillion, including SAR 500 million from tobacco and related products."
+  },
+  {
+   "question_topic": "Social context",
+   "answer": "The case states that Islam widely shapes citizens' personal, political, economic and legal lives; public shisha consumption is banned in its scenario, while home consumption is widespread."
+  }
+ ],
+ "interviewer_notes": "Treat country rules and fees as case assumptions, not current real-world policy. Tests comparable data, growth and adoption rates; suggested after 10–15 cases. Direct the candidate toward three-year revenue sizing and explain that the client is mainly interested in licenses. Give Exhibits 1 and 2 together. Only if asked, provide 1,000 additional Riyadh restaurants in each of the next two years and adoption rates of 5%, 10% and 15% in years 1–3. Assume licenses only for restaurants. The source alternates between three-year cumulative opportunity and year-3 annual revenue; keep these separate. It also mistakenly refers once to four years and labels restaurant share as GDP share in the solution.",
+ "suggested_framework": {
+  "summary": "Size license, tax and tariff revenue alongside implementation costs and social effects.",
+  "tree": {
+   "label": "Assess shisha policy revenue",
+   "children": [
+    {
+     "label": "Revenue sources",
+     "children": [
+      {
+       "label": "License-eligible businesses, one-time versus recurring fees, restaurant lifetime and adoption"
+      },
+      {
+       "label": "Sales-tax rate, customer spending and public-consumption adoption"
+      },
+      {
+       "label": "Domestic versus imported supply and tariff rates"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Regulatory body, auditing and quality control"
+      },
+      {
+       "label": "Implementation versus ongoing administration"
+      }
+     ]
+    },
+    {
+     "label": "Social issues",
+     "children": [
+      {
+       "label": "Public opinion, health and well-being"
+      },
+      {
+       "label": "Job creation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate the revenue opportunity?",
+   "release_when": "After the prompt; clarifications on request.",
+   "info_to_release": "The objective is maximum revenue over 3 years. Focus on issuing restaurant licenses, while recognizing sales taxes and import tariffs as other sources. Baselines are SAR 2.5 trillion total annual government revenue and SAR 500 million tobacco-related revenue.",
+   "expected_answer": "Estimate eligible restaurants, adoption over time and alternative fee structures. Separate first-time licensing fees from recurring charges. Consider program administration, enforcement and health/social implications, but begin with license revenue sizing.",
+   "good_answer_signals": [
+    "Clarifies the three-year horizon.",
+    "Models revenue cohorts rather than charging every restaurant an initial fee every year."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Which licensing structure should Saudi Arabia adopt?",
+   "release_when": "Give Exhibits 1 and 2 when beginning revenue sizing.",
+   "info_to_release": "Qatar: SAR 10,000 one-time. Jordan: SAR 3,000 one-time plus SAR 500 monthly. UAE: SAR 6,000 one-time plus SAR 3,000 annually. The average restaurant lifetime is 3 years.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "For a restaurant operating for 3 full years, Qatar generates SAR 10,000, Jordan SAR 3,000 + 3 × 12 × 500 = SAR 21,000, and UAE SAR 6,000 + 3 × 3,000 = SAR 15,000. Jordan has the largest three-year revenue per license. Confirm its attractiveness using phased adoption, because later entrants do not pay three full years within the forecast horizon.",
+   "good_answer_signals": [
+    "Converts monthly Jordan fees to SAR 6,000 annually.",
+    "Keeps initial and recurring fees distinct."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Estimate the national licensing revenue by year and over the three-year period.",
+   "release_when": "After choosing the fee model. Growth and adoption assumptions only on request.",
+   "info_to_release": "Riyadh has 5,000 fast-casual restaurants, 2,000 casual sit-down, 1,000 fine-dining and 6,000 tea/coffee shops. Riyadh is about 20% of the domestic restaurant market. If asked: add 1,000 Riyadh restaurants in each of the next 2 years; adoption is 5%, 10%, 15% in years 1, 2, 3. Average restaurant lifespan is 3 years.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Riyadh restaurant counts are 14,000, 15,000, 16,000. Active licensees are 700, 1,500, 2,400; assuming no within-horizon churn and full-year fees, new licensees are 700, 800, 900. Jordan initial-fee revenue is SAR 2.1m, 2.4m, 2.7m; recurring revenue is SAR 4.2m, 9m, 14.4m. Riyadh totals are SAR 6.3m, 11.4m, 17.1m. Divide by 20% for national totals SAR 31.5m, 57m, 85.5m. Cumulative three-year national revenue is SAR 174m; SAR 85.5m is only year 3. Under identical adoption, Qatar yields SAR 120m cumulative and UAE SAR 141m, so Jordan remains best.",
+   "good_answer_signals": [
+    "Uses cumulative adoption to find active licenses and differences to find new licenses.",
+    "Does not confuse year-3 annual revenue with cumulative revenue.",
+    "Uses the restaurant-market share, not GDP share, to extrapolate."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How material is the revenue opportunity?",
+   "release_when": "After completing the forecast.",
+   "info_to_release": "Annual tobacco-related revenue is SAR 500 million; total annual government revenue is SAR 2.5 trillion.",
+   "expected_answer": "Year-3 licensing revenue of SAR 85.5m equals 17.1% of the SAR 500m tobacco-related annual baseline, but only 0.00342% of total government annual revenue. It is meaningful within tobacco receipts but tiny relative to overall public revenue. This is a gross licensing opportunity, not net fiscal benefit, and excludes tax/tariff revenue and health/administration costs.",
+   "good_answer_signals": [
+    "Uses comparable annual periods.",
+    "Avoids overstating the diversification impact."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What else should the government consider before legalizing public shisha consumption?",
+   "release_when": "After quantifying revenue.",
+   "info_to_release": "No further numerical information.",
+   "expected_answer": "Consider citizen health and healthcare costs; willingness of restaurants and patrons to participate; international reputation while other countries restrict tobacco; alternative distribution channels; program launch and governance costs; sales-tax and tariff receipts; jobs; and the three-year economic outlook. Structure and prioritize these issues rather than stopping at one or two ideas.",
+   "good_answer_signals": [
+    "Balances financial, operational and social consequences.",
+    "Prioritizes the most important risks."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "The minister of commerce is calling. Summarize your findings.",
+   "release_when": "After the broader considerations.",
+   "info_to_release": "No new information.",
+   "expected_answer": "Jordan's fee model maximizes modeled licensing revenue: SAR 174m nationally over 3 years, including SAR 85.5m in year 3, or 17.1% of the current annual tobacco-related revenue baseline. Additional sales tax and tariffs are excluded, but so are administration and healthcare costs. Validate restaurant adoption and assess the financial and social costs before policy implementation; the licensing calculation alone is not a complete policy recommendation.",
+   "good_answer_signals": [
+    "States the fee choice and distinguishes annual from cumulative revenue.",
+    "Acknowledges adoption sensitivity and health effects."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Shisha licensing structures",
+   "page": 95,
+   "kind": "table",
+   "description": "Comparable licensing fees expressed in Saudi riyal, as supplied by the case.",
+   "data": {
+    "columns": [
+     "Country",
+     "One-time fee (SAR)",
+     "Recurring fee",
+     "Frequency"
+    ],
+    "rows": [
+     [
+      "Qatar",
+      10000,
+      "None",
+      "None"
+     ],
+     [
+      "Jordan",
+      3000,
+      500,
+      "Monthly"
+     ],
+     [
+      "United Arab Emirates",
+      6000,
+      3000,
+      "Annual"
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-shisha-just-blowing-smoke/p095.webp",
+   "key_insight": "Monthly and annual fees must be normalized, with initial fees charged only on entry.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Riyadh restaurant market segmentation",
+   "page": 97,
+   "kind": "table",
+   "description": "Restaurant categories, counts and U.S. analogues. Footnotes give Riyadh 20% of the domestic restaurant market and average restaurant life of 3 years.",
+   "data": {
+    "columns": [
+     "Restaurant type",
+     "Businesses",
+     "U.S. equivalents"
+    ],
+    "rows": [
+     [
+      "Fast casual",
+      5000,
+      "Chipotle, Cava, McDonalds"
+     ],
+     [
+      "Casual sit-down",
+      2000,
+      "Panera, Applebee's"
+     ],
+     [
+      "Fine dining",
+      1000,
+      "C&O, Ivy Inn Restaurant"
+     ],
+     [
+      "Tea and coffee shops",
+      6000,
+      "Starbucks"
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-shisha-just-blowing-smoke/p097.webp",
+   "key_insight": "Sum all four categories and scale by restaurant-market share; do not interpret the share as GDP.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which fee structure maximizes revenue from a three-year licensee?",
+   "givens": [
+    "Qatar SAR 10,000 initial",
+    "Jordan SAR 3,000 initial plus SAR 500/month",
+    "UAE SAR 6,000 initial plus SAR 3,000/year"
+   ],
+   "steps": [
+    "Qatar = SAR 10,000.",
+    "Jordan = 3,000 + 500×12×3 = SAR 21,000.",
+    "UAE = 6,000 + 3,000×3 = SAR 15,000."
+   ],
+   "answer": "Jordan yields SAR 21,000, the highest three-year revenue per licensee.",
+   "answer_value": 21000,
+   "unit": "SAR/licensee over three years",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many Riyadh licensees pay fees each year?",
+   "givens": [
+    "Restaurant categories 5,000, 2,000, 1,000, 6,000",
+    "1,000 additions in each next 2 years",
+    "Adoption 5%, 10%, 15%"
+   ],
+   "steps": [
+    "Total restaurants = 14,000; 15,000; 16,000.",
+    "Active licensees = 14,000×5%=700; 15,000×10%=1,500; 16,000×15%=2,400.",
+    "New licensees = 700; 1,500−700=800; 2,400−1,500=900, assuming no churn."
+   ],
+   "answer": "Active licensees 700/1,500/2,400; new licensees 700/800/900.",
+   "answer_value": 2400,
+   "unit": "year-3 active Riyadh licensees",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is year-3 national license revenue under Jordan's model?",
+   "givens": [
+    "New Riyadh licensees 900; active 2,400",
+    "SAR 3,000 initial and SAR 6,000 annual",
+    "Riyadh share 20%"
+   ],
+   "steps": [
+    "Initial fees = 900×3,000 = SAR 2.7m.",
+    "Recurring fees = 2,400×6,000 = SAR 14.4m.",
+    "Riyadh total = SAR 17.1m.",
+    "National = 17.1 / 20% = SAR 85.5m."
+   ],
+   "answer": "SAR 85.5 million national licensing revenue in year 3.",
+   "answer_value": 85.5,
+   "unit": "SAR millions/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is cumulative three-year national licensing revenue?",
+   "givens": [
+    "New Riyadh licensees 700/800/900",
+    "Active Riyadh licensees 700/1,500/2,400",
+    "Jordan fees 3,000 initial and 6,000 annual; Riyadh share 20%"
+   ],
+   "steps": [
+    "Year 1: (700×3,000 + 700×6,000)/0.2 = SAR 31.5m.",
+    "Year 2: (800×3,000 + 1,500×6,000)/0.2 = SAR 57m.",
+    "Year 3 = SAR 85.5m.",
+    "Cumulative = 31.5 + 57 + 85.5 = SAR 174m."
+   ],
+   "answer": "SAR 174 million over three years; do not call SAR 85.5 million the cumulative impact.",
+   "answer_value": 174,
+   "unit": "SAR millions over three years",
+   "verified": false,
+   "book_answer_if_different": "The question asks 'estimated three-year revenue impact' but the solution reports 'Estimated Domestic Revenue Impact' of 85.5 million riyal. That figure is year-3 annual revenue; cumulative three-year revenue is SAR 174m. The final page correctly asks for year-3 opportunity."
+  },
+  {
+   "id": "m5",
+   "question": "How much does year-3 licensing add relative to baseline revenue?",
+   "givens": [
+    "SAR 85.5m annual opportunity",
+    "SAR 500m annual tobacco-related revenue",
+    "SAR 2.5 trillion total annual government revenue"
+   ],
+   "steps": [
+    "85.5/500 × 100 = 17.1%.",
+    "85.5/2,500,000 × 100 = 0.00342%."
+   ],
+   "answer": "17.1% of tobacco-related revenue and 0.00342% of all public revenue, comparing annual figures.",
+   "answer_value": 17.1,
+   "unit": "% of annual tobacco-related revenue",
+   "verified": true
+  },
+  {
+   "id": "m6",
+   "question": "Does Jordan remain best under phased adoption over three years?",
+   "givens": [
+    "Riyadh new licensees 700/800/900; active 700/1,500/2,400",
+    "Riyadh 20% of market",
+    "Fee structures in Exhibit 1"
+   ],
+   "steps": [
+    "Qatar annual national receipts = SAR 35m, 40m, 45m; total SAR 120m.",
+    "UAE receipts = SAR 31.5m, 46.5m, 63m; total SAR 141m.",
+    "Jordan total SAR 174m exceeds both, holding adoption constant."
+   ],
+   "answer": "Jordan still maximizes modeled three-year licensing receipts.",
+   "answer_value": 174,
+   "unit": "SAR millions over three years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Use Jordan's licensing structure in the revenue model: SAR 3,000 upfront plus SAR 500 monthly yields SAR 174 million nationally over three years, with SAR 85.5 million in year 3. The year-3 amount equals 17.1% of current annual tobacco-related receipts. Validate adoption and investigate administration, enforcement, healthcare and broader social costs before implementing policy. Sales taxes and tariffs are excluded, so the estimate is licensing-only, not a complete net fiscal forecast.",
+ "what_great_looks_like": [
+  "Separates one-time fees, recurring fees and adoption cohorts.",
+  "Distinguishes cumulative revenue from year-3 run rate.",
+  "Puts licensing receipts in context rather than overstating diversification.",
+  "Structures and prioritizes health, social and execution issues."
+ ],
+ "common_pitfalls": [
+  "Charging initial fees to all active restaurants every year.",
+  "Applying adoption only to the 1,000 new restaurants.",
+  "Calling SAR 85.5m the cumulative three-year total.",
+  "Using the source's erroneous GDP label rather than restaurant-market share."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Candidate-facing exhibits visually reviewed; math recomputed in math-darden-shisha.py. Source horizon inconsistency: question requests three-year impact, a guidance sentence says four-year impact, calculations show year 3, and conclusion correctly specifies year 3. SAR 85.5m is annual year-3 revenue; three-year cumulative is SAR 174m. The solution labels the 20% scaling factor 'Riyadh Percentage of GDP', whereas the candidate exhibit explicitly says domestic restaurant-market share. Forecast assumes equal national adoption, full-year fees and no within-horizon churn; average lifespan alone does not establish those conditions. Historical/policy statements are case assumptions. EntertainmentCo actually begins on PDF102, so Shisha ends101; corrected the initial segmentation before writing. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "math[3] (cumulative correction)",
+   "math[4].steps[1]",
+   "math[5]",
+   "stages[3].expected_answer (total-government comparison)"
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "labor-and-workplace",
+  "section": "business",
+  "order": 4,
+  "title": "Labor and the Workplace",
+  "summary": "How US employment works: at-will hiring and firing, health insurance tied to jobs, where unions are strong, state-by-state minimum wages and the gig debate. Labor is often the largest cost line in a US case, and it explains why automation and offshoring pencil out.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "At-will employment",
+      "body": "Most US jobs are 'at will': employer or employee can end the relationship at any time, for any lawful reason, usually with no notice requirement. Limits come from anti-discrimination law, union contracts, individual contracts and some state rules; large layoffs can trigger federal WARN Act notice. Result: US firms adjust headcount faster than firms in many countries, and restructuring is a normal lever in cases."
+    },
+    {
+      "type": "list",
+      "title": "Healthcare is tied to the job",
+      "items": [
+        "Employer insurance covers ~154M people under 65 (KFF, 2025); it is a core part of a job offer.",
+        "Average family premium for employer coverage was ~$27K in 2025; employers pay most of it.",
+        "Benefits were ~30% of private-sector compensation cost in mid-2026 (BLS); wages ~70%.",
+        "Losing a job often means losing coverage, which reduces job mobility and raises the stakes of layoffs.",
+        "Part-time and contract workers often get fewer benefits, which is part of their cost appeal to employers."
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Unions: where they matter",
+      "columns": ["Area", "Union presence", "Case relevance"],
+      "rows": [
+        ["Overall", "~10% of workers (2025)", "Most private firms are non-union"],
+        ["Public sector", "~33% (teachers, police, fire)", "Shapes government cost cases"],
+        ["Private sector", "~6%", "Concentrated in specific industries"],
+        ["Autos (UAW)", "Strong at Detroit Three", "Labor contracts drive cost and plant decisions"],
+        ["Airlines", "Pilots, flight attendants, mechanics", "Seniority rules, scheduling, wage resets"],
+        ["Hospitals", "Nurses in some states", "Staffing ratios, strike risk"],
+        ["Utilities, transport", "Highest private rates (~18%, ~14%)", "Work rules limit productivity changes"],
+        ["States", "Highest Hawaii, New York; lowest the Carolinas", "Plant location decisions"]
+      ],
+      "note": "BLS 2025 union data; state ranking from BLS 2024 data."
+    },
+    {
+      "type": "list",
+      "title": "Minimum wage varies by place",
+      "items": [
+        "Federal minimum is $7.25 per hour, unchanged since 2009.",
+        "Many states and cities set much higher floors; Washington, California, Connecticut, New York and DC are above ~$16 in 2026.",
+        "Several Southern states have no state minimum and default to the federal rate.",
+        "Many states index their minimum to inflation, so floors rise automatically each year.",
+        "For restaurants and retail, the local wage floor can swing store-level economics sharply."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Gig work and contractor classification",
+      "body": "Employees get minimum wage, overtime, unemployment insurance and employer payroll taxes; independent contractors do not. Gig platforms (ride-hailing, delivery) rely on contractor status, which is contested in courts and state legislatures, with California the best-known battleground. Independent contractors were ~7% of US employment in 2023 (BLS). Classification risk is a real cost scenario in any platform case."
+    },
+    {
+      "type": "compare",
+      "title": "India vs US: labor context",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        ["Labor cost", "Low wages; labor-intensive models viable", "High fully loaded cost; automation pays back faster"],
+        ["Firing", "Formal-sector rules and approvals for larger firms", "At-will for most; layoffs common"],
+        ["Health insurance", "Largely separate from employment for most workers", "Primarily through employer"],
+        ["Delivery workforce", "Large pool of gig riders at low cost", "Higher pay floors; classification fights"],
+        ["Minimum wage", "Set by states with many categories", "Federal floor plus higher state/city floors"],
+        ["Unions", "Concentrated in public sector and some industries", "~10% overall, strong in pockets"]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Why automation and offshoring pencil out",
+      "items": [
+        "Fully loaded labor cost (wages + benefits + payroll taxes) often runs well above the hourly wage.",
+        "Private-sector compensation averaged ~$47 per hour worked in June 2026 (BLS).",
+        "Labor shortages in warehousing, trucking and healthcare push firms to automate.",
+        "Offshoring back-office, IT and customer service to India and elsewhere has been common for decades.",
+        "Counterweights: tariffs, reshoring incentives, quality, time zones and public-image risk."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "H-1B in brief",
+      "body": "The H-1B visa lets US employers hire foreign professionals in specialty occupations. The annual cap is 65,000 plus 20,000 for US advanced-degree holders; universities and affiliated research nonprofits are exempt. Demand far exceeds supply, so a lottery is used, and since 2026 selection is weighted toward higher wage levels. A 2025 proclamation added a $100,000 payment for certain new petitions, which has been challenged in court."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Always fully load labor cost",
+      "body": "When a case gives an hourly wage, add benefits and payroll taxes (BLS data imply roughly 1.4-1.5x wages for full-time private workers) before comparing against automation or outsourcing. Interviewers notice when you remember that a $20/hour worker costs the company much more than $20."
+    }
+  ],
+  "in_a_case": [
+    "Warehouse automation: compare robot capex against fully loaded labor plus turnover and hiring costs; tight labor markets shorten payback.",
+    "Restaurant chain expansion: check state and city minimum wages; the same store format can be profitable in Texas and marginal in California.",
+    "Airline or automaker cost case: union contracts set wages and work rules; savings may require negotiation, not just a plan.",
+    "Delivery or gig platform: model a scenario where couriers are reclassified as employees and see what happens to unit economics.",
+    "Fit conversation: if asked about visas, be factual and calm; firms differ in sponsorship policies, so research each firm rather than assume."
+  ],
+  "flashcards": [
+    {"front": "What is at-will employment?", "back": "Either side can end the job at any time for any lawful reason, usually without notice."},
+    {"front": "Federal minimum wage", "back": "$7.25/hour, unchanged since 2009; many states and cities set higher floors."},
+    {"front": "US union membership rate (2025)", "back": "~10% overall: ~33% public sector, ~6% private sector (BLS)."},
+    {"front": "Benefits share of private-sector compensation", "back": "~30% (BLS, mid-2026); wages ~70%."},
+    {"front": "Average employer family health premium (2025)", "back": "~$27K per year (KFF)."},
+    {"front": "Employee vs independent contractor", "back": "Employees get minimum wage, overtime, unemployment insurance and employer payroll taxes; contractors do not."},
+    {"front": "Independent contractors share of US employment", "back": "~7% (BLS, 2023)."},
+    {"front": "H-1B annual cap", "back": "65,000 plus 20,000 for US advanced-degree holders; universities exempt; lottery when oversubscribed."},
+    {"front": "States with highest and lowest union rates", "back": "Highest: Hawaii, New York. Lowest: North Carolina, South Dakota, South Carolina (2024)."}
+  ],
+  "sources": [
+    "https://www.bls.gov/news.release/union2.nr0.htm",
+    "https://www.bls.gov/opub/ted/2025/union-membership-rates-highest-in-hawaii-and-new-york-lowest-in-north-carolina-in-2024.htm",
+    "https://www.dol.gov/agencies/whd/minimum-wage/state",
+    "https://www.bls.gov/news.release/conemp.nr0.htm",
+    "https://www.bls.gov/opub/ted/2026/compensation-costs-for-private-industry-workers-averaged-46-89-per-hour-worked-in-june-2026.htm",
+    "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/",
+    "https://en.wikipedia.org/wiki/H-1B_visa"
+  ],
+  "checked": "2026-10"
+}

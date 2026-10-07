@@ -1,0 +1,368 @@
+{
+ "id": "booth-2024-super-jr-baby-formula",
+ "title": "Super Jr. Baby Formula",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  309,
+  319
+ ],
+ "case_type": [
+  "Investment/PE due diligence",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "Consumer Products",
+ "geography": "China; product sourced from Australia",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain & Company"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 3, Creativity 2 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 40,
+ "tags": [
+  "baby-formula",
+  "china",
+  "private-equity",
+  "cagr",
+  "market-segmentation",
+  "premiumization",
+  "outsourced-manufacturing"
+ ],
+ "concepts_tested": [
+  "chart interpretation",
+  "market and company CAGR",
+  "competitive segmentation",
+  "cost-structure benchmarking",
+  "investment judgment"
+ ],
+ "fit_question": "Tell me about a work conflict you managed. Alternatively, what is the best feedback you have received and why?",
+ "prompt": "A private equity firm is evaluating China's baby-formula market and Super Jr., a Chinese startup founded in 2006 that presents itself as foreign and advertises formula made and imported from Australia. Should the PE firm invest in Super Jr.?",
+ "clarifying_info": [
+  {
+   "question_topic": "Business model",
+   "answer": "Super Jr. has no manufacturing capability and buys finished formula from an Australian manufacturer."
+  },
+  {
+   "question_topic": "Distribution",
+   "answer": "It primarily sells through regional and local supermarkets that charge shelf-space fees."
+  },
+  {
+   "question_topic": "Brand and management",
+   "answer": "Heavy marketing has created a decent brand, and management has food sales and distribution experience."
+  },
+  {
+   "question_topic": "Growth strategy",
+   "answer": "Management plans to enter national chains such as Walmart and spend more on marketing to penetrate premium formula and charge a premium."
+  }
+ ],
+ "interviewer_notes": "This PE case emphasizes clearing three exhibits and synthesizing competing evidence. Exhibit 1 tests market and company CAGR; Exhibit 2 shows Super Jr. is a local-specialty player in fragmented medium and low segments while premium growth is concentrated among multinationals; Exhibit 3 reveals heavy marketing, zero R&D and manufacturing, and high outsourced-product cost. Either invest or decline is acceptable if supported, though the company's 51% growth forecast is far above the 20% market rate.",
+ "suggested_framework": {
+  "summary": "Assess the Chinese formula market, Super Jr.'s competitive position and economics, and fit and returns for the PE portfolio.",
+  "tree": {
+   "label": "Invest in Super Jr.?",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size, growth, segments, customer preferences, channels, competitors, and raw-material trends"
+      }
+     ]
+    },
+    {
+     "label": "Company",
+     "children": [
+      {
+       "label": "Growth plan, share, price, margin, brand, supplier, management, R&D, and channels"
+      }
+     ]
+    },
+    {
+     "label": "Deal fit",
+     "children": [
+      {
+       "label": "Return targets, portfolio synergies, management support, risks, and opportunity cost"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate Super Jr. as an investment?",
+   "expected_answer": "Test market attractiveness and segment growth; Super Jr.'s competitive position, brand, channels, supplier model, management, price, margin, and capabilities; and the PE fund's return, synergy, support capacity, and alternatives. Verify whether the forecast can be achieved without unsustainable share capture or spending.",
+   "good_answer_signals": [
+    "Goes beyond market and profitability",
+    "Includes supplier and capability risk",
+    "Links forecast to required share gains"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What do the growth figures in Exhibit 1 imply for the 2012 market and Super Jr.'s forecast?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "At 20% CAGR, the $9B 2006 market reaches $9B x 1.2^6 = $26.874B, approximately $27B, in 2012. Super Jr. grows from about $5M to $60M, implying (60/5)^(1/6)-1 = 51.3% CAGR. That is about 2.6 times market growth and requires substantial share capture, making the forecast ambitious.",
+   "good_answer_signals": [
+    "Calculates both CAGRs or endpoints",
+    "Uses exact compounding",
+    "States the share-capture implication"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Exhibit 2 suggest about Super Jr.'s target segments?",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Super Jr. is a local-specialty brand competing in the fragmented medium and low segments, which grow 15% and 20%. The premium segment grows faster at 30% but is concentrated among four multinational brands. Fragmentation offers acquisition or marketing-led share opportunity, while moving premium requires overcoming strong incumbents and a brand-positioning gap.",
+   "good_answer_signals": [
+    "Distinguishes segment growth and concentration",
+    "Locates Super Jr. correctly",
+    "Balances fragmentation upside with premium-entry difficulty"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "How does Exhibit 3 affect the investment thesis?",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Super Jr. charges $110, below multinationals' $125 but above local established brands' $70, yet earns only a 15% margin versus 30% for multinationals. It spends 50% on marketing and 45% on sourced product, with zero manufacturing and R&D. The asset-light model is flexible and management knows distribution, but it depends on one supplier, foreign exchange, marketing efficiency, and external product innovation.",
+   "good_answer_signals": [
+    "Reconciles every cost percentage",
+    "Identifies both asset-light benefits and capability gaps",
+    "Questions whether premium entry is credible without R&D"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should the PE firm invest?",
+   "expected_answer": "Do not invest without stronger proof of the premium-entry and growth plan. Super Jr.'s 51.3% forecast far exceeds the 20% market, premium formula is concentrated, and the company has no R&D or manufacturing capability while relying on high marketing and a single Australian source. The brand, distribution team, fragmented core segments, and low fixed capital are positives. Diligence the premium market, supplier contract, foreign-exchange exposure, customer acquisition efficiency, and exact share plan; compare competing investment targets before proceeding.",
+   "good_answer_signals": [
+    "Takes a defensible position",
+    "Synthesizes all three exhibits",
+    "Defines decision-changing diligence"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Baby-formula market history and Super Jr. forecast",
+   "page": 313,
+   "kind": "bar",
+   "description": "China baby-formula market growth from about $3B in 2000 to $9B in 2006 at 20% CAGR, and Super Jr.'s forecast from about $5M in 2006 to $60M in 2012.",
+   "data": {
+    "columns": [
+     "Series",
+     "Start",
+     "End",
+     "Period / CAGR"
+    ],
+    "rows": [
+     [
+      "China baby formula market",
+      "$3B in 2000",
+      "$9B in 2006",
+      "20% CAGR"
+     ],
+     [
+      "Super Jr. forecast",
+      "$5M in 2006",
+      "$60M in 2012",
+      "6 years"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-super-jr-baby-formula/p313.webp",
+   "image_has_answers": false,
+   "key_insight": "Super Jr.'s implied growth rate is much faster than the already attractive market and depends on taking share.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Market share by company type",
+   "page": 316,
+   "kind": "bar",
+   "description": "Competitive concentration across premium, medium, and low formula segments with segment growth and player counts.",
+   "data": {
+    "columns": [
+     "Segment",
+     "CAGR",
+     "Competitive structure"
+    ],
+    "rows": [
+     [
+      "Premium",
+      "30%",
+      "Four multinational brands dominate"
+     ],
+     [
+      "Medium",
+      "15%",
+      "Multinationals, >20 local established, and >80 local specialty brands"
+     ],
+     [
+      "Low",
+      "20%",
+      "Highly weighted to local established and specialty brands"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-super-jr-baby-formula/p316.webp",
+   "image_has_answers": false,
+   "key_insight": "The fastest-growing premium segment is concentrated, whereas Super Jr.'s medium and low segments are fragmented but slower-growing.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Key statistics by company type",
+   "page": 318,
+   "kind": "table",
+   "description": "Price, profit margin, and cost structure for multinationals, local established brands, and Super Jr.",
+   "data": {
+    "columns": [
+     "Factor",
+     "Multinationals",
+     "Local established",
+     "Super Jr."
+    ],
+    "rows": [
+     [
+      "Retail price",
+      "$125",
+      "$70",
+      "$110"
+     ],
+     [
+      "Profit margin",
+      "30%",
+      "15%",
+      "15%"
+     ],
+     [
+      "Raw materials / sourced product",
+      "12%",
+      "27%",
+      "45%"
+     ],
+     [
+      "Manufacturing",
+      "28%",
+      "43%",
+      "0%"
+     ],
+     [
+      "Marketing",
+      "20%",
+      "10%",
+      "50%"
+     ],
+     [
+      "SG&A",
+      "5%",
+      "5%",
+      "5%"
+     ],
+     [
+      "R&D",
+      "35%",
+      "15%",
+      "0%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-super-jr-baby-formula/p318.webp",
+   "image_has_answers": false,
+   "key_insight": "Super Jr. substitutes outsourced product and marketing for manufacturing and R&D, creating flexibility but concentrated supplier and capability risk.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the 2012 market size at 20% CAGR?",
+   "givens": [
+    "$9B in 2006",
+    "20% CAGR",
+    "Six years"
+   ],
+   "steps": [
+    "2012 market = $9B x 1.2^6",
+    "1.2^6 = 2.985984",
+    "Market = $26.873856B"
+   ],
+   "answer": "Approximately $26.87B, or $27B",
+   "answer_value": 26.873856,
+   "unit": "USD billions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What CAGR is implied by growth from $5M to $60M in six years?",
+   "givens": [
+    "$5M in 2006",
+    "$60M in 2012",
+    "Six years"
+   ],
+   "steps": [
+    "CAGR = (60/5)^(1/6)-1",
+    "CAGR = 12^(1/6)-1 = 0.513086"
+   ],
+   "answer": "Approximately 51.3%",
+   "answer_value": 51.3086,
+   "unit": "percent CAGR",
+   "verified": true
+  }
+ ],
+ "synthesis": "Decline to invest until Super Jr. substantiates its premium strategy and 51.3% growth forecast. The market is attractive at 20%, but premium is concentrated and Super Jr. lacks R&D and manufacturing while spending half of revenue on marketing and relying on an Australian supplier. Diligence supplier resilience, FX, marketing efficiency, brand permission, product innovation, and the precise share-capture plan; compare alternative formula investments.",
+ "what_great_looks_like": [
+  "Calculates market and company growth exactly",
+  "Connects outgrowth to share capture",
+  "Distinguishes segment growth from concentration",
+  "Interprets the outsourced model as both benefit and risk",
+  "Supports a clear investment decision with diligence"
+ ],
+ "common_pitfalls": [
+  "Treating 20% market growth as proof Super Jr. will hit 51%",
+  "Assuming a Chinese startup can enter premium solely through marketing",
+  "Ignoring supplier and currency concentration",
+  "Calling zero manufacturing cost inherently superior",
+  "Failing to consider PE fit and alternatives"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Both growth calculations were independently recomputed and match the source's rounded $27B and 51% figures. Exhibit 2 does not print exact stacked-share percentages, so only visible segment growth and qualitative concentration are transcribed; its confidence is medium. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

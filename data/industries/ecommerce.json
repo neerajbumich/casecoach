@@ -1,0 +1,73 @@
+{
+  "id": "ecommerce",
+  "name": "E-commerce",
+  "group": "Consumer & retail",
+  "one_liner": "Online sale of goods through first-party retailers and third-party marketplaces, where economics are defined by customer acquisition cost, fulfillment cost per order, and repeat purchasing.",
+  "how_it_makes_money": "First-party sellers earn product margin like any retailer, while marketplaces take a commission (take rate) on third-party sales and charge for fulfillment and advertising. Mature platforms increasingly rely on high-margin advertising and subscription fees to subsidize low-margin product sales and fast delivery.",
+  "value_chain": [
+    "Seller onboarding and sourcing",
+    "Site, search, and merchandising",
+    "Payments and checkout",
+    "Warehousing and fulfillment",
+    "Last-mile delivery",
+    "Returns and customer service"
+  ],
+  "revenue_formula": [
+    "Revenue = site visitors × conversion rate × average order value",
+    "Marketplace revenue = GMV × take rate (commissions + fulfillment + ads)",
+    "Customer value = orders per year × AOV × contribution margin × expected lifetime"
+  ],
+  "cost_structure": [
+    "Cost of goods (for first-party): the product itself",
+    "Fulfillment: picking, packing, and warehouse labor",
+    "Shipping and last-mile: often the most scrutinized cost per order",
+    "Customer acquisition and performance marketing: paid search and social ads",
+    "Returns: reverse logistics and write-offs, especially heavy in apparel",
+    "Technology and payment processing"
+  ],
+  "margins": "Most pure-play e-commerce operators run low or negative operating margins, while scaled marketplaces earn healthier profits because advertising and seller services carry high margins. The spread depends on order density, return rates, AOV relative to shipping cost, and reliance on paid acquisition.",
+  "key_metrics": [
+    {"name": "Gross merchandise value (GMV)", "what": "Total value of goods sold on the platform, the headline scale metric for marketplaces."},
+    {"name": "Take rate", "what": "Share of GMV the platform keeps as revenue, reflecting pricing power over sellers."},
+    {"name": "Conversion rate", "what": "Share of site visits that result in an order, a direct lever on revenue."},
+    {"name": "Average order value (AOV)", "what": "Spend per order, which determines whether shipping costs can be covered."},
+    {"name": "CAC and LTV", "what": "Cost to acquire a customer versus lifetime profit, the core test of unit economics."},
+    {"name": "Contribution margin per order", "what": "Profit per order after product, fulfillment, shipping, and payment costs."},
+    {"name": "Return rate", "what": "Share of orders sent back, a major profit drain in apparel and footwear."}
+  ],
+  "trends": [
+    "Low-price cross-border marketplaces such as Temu and Shein reshaping competition, with tariff and de minimis rule changes altering their model",
+    "Advertising becoming a major profit engine for large marketplaces",
+    "Faster delivery promises through regionalized fulfillment networks",
+    "Social and creator-led commerce through platforms like TikTok Shop",
+    "Rising customer acquisition costs pushing DTC brands back into wholesale and physical retail",
+    "AI shopping assistants and agentic checkout changing product discovery"
+  ],
+  "key_players": [
+    "Amazon",
+    "Walmart",
+    "Shopify",
+    "eBay",
+    "Temu",
+    "Shein",
+    "Etsy",
+    "Wayfair",
+    "Chewy",
+    "Alibaba"
+  ],
+  "case_angles": [
+    {"question": "An online retailer grows fast but loses money on every order; how do we fix unit economics?", "framework_id": "profitability"},
+    {"question": "Should a first-party e-commerce retailer open its site to third-party sellers?", "framework_id": "growth-strategy"},
+    {"question": "A DTC apparel brand is considering opening physical stores; should it?", "framework_id": "market-entry"},
+    {"question": "An e-commerce player wants to offer same-day delivery; can its fulfillment network handle it?", "framework_id": "operations-capacity"}
+  ],
+  "interview_hooks": [
+    "Is the DTC model viable without heavy paid acquisition, or do most brands need wholesale?",
+    "Will ultra-low-price cross-border platforms hold share as trade rules tighten?",
+    "How far can marketplaces raise seller fees and ad load before sellers and shoppers leave?"
+  ],
+  "news": {
+    "keywords": ["e-commerce", "ecommerce", "online retail", "online shopping", "marketplace sellers", "de minimis", "prime day", "direct-to-consumer", "tiktok shop", "cyber monday"],
+    "companies": ["Amazon", "Shopify", "eBay", "Temu", "Shein", "Etsy", "Wayfair", "Chewy", "Alibaba", "PDD Holdings", "MercadoLibre"]
+  }
+}

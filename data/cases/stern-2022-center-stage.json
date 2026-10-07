@@ -1,0 +1,383 @@
+{
+ "id": "stern-2022-center-stage",
+ "title": "Center Stage",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  338,
+  348
+ ],
+ "author": "Jane Kennedy (Stern '23)",
+ "case_type": [
+  "Market Entry",
+  "Pricing",
+  "Profitability"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "hospitality",
+ "sub_industry": "leisure-entertainment",
+ "industry_source_label": "Theater/Producing",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 5 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "theater",
+  "pricing",
+  "profit-margin",
+  "willingness-to-pay",
+  "marketing-budget",
+  "ancillary-revenue",
+  "product-selection"
+ ],
+ "concepts_tested": [
+  "Fast Math",
+  "Creative Brainstorming",
+  "Profitability",
+  "Algebra"
+ ],
+ "client_type": "for-profit",
+ "geography": "Broadway, New York City",
+ "prompt": "You've been approached by a producing team who have a hold on a major Broadway theater for 10 weeks next summer. Theater is a very expensive industry, and they're trying to determine the best show to run during this window. They've narrowed down to three options: a revival of Beauty and the Beast, the Pulitzer-Prize winning play To Kill a Mockingbird, and a one-man show starring Steve Martin called Steve Live. The team has less than two weeks to make a decision in order to start rehearsals on time. You've been hired to assess which show is the best one for the producing team to mount, and how they should price tickets to maximize profit margins.",
+ "clarifying_info": [
+  {
+   "question_topic": "Competition and market",
+   "answer": "The source describes 41 active Broadway theaters: 22 musicals, 18 plays and 1 one-person show. With seats limited, revenue growth primarily comes from price. Typical tickets are $150 and prices increased 10% over the past year."
+  },
+  {
+   "question_topic": "Producer capabilities and objective",
+   "answer": "The team has successfully launched all three show types on and off Broadway, but none of these particular productions. It wants the highest possible profit margin, ideally at least 20%. Steve Live is brand new."
+  },
+  {
+   "question_topic": "Schedule, costs and other revenues",
+   "answer": "There will be 8 performances per week for 10 weeks. Theater maintenance costs $1,000 per show. Additional costs are in Exhibit 1. The producer may sell concessions and merchandise inside the theater."
+  },
+  {
+   "question_topic": "Ticket availability and late sales",
+   "answer": "The source pricing calculations use 500 available tickets per performance. All tickets not sold at full price are assumed sold for $50 at the box office beginning two hours before the show."
+  }
+ ],
+ "interviewer_notes": "Ask for a show-selection framework and, if not covered, a brainstorm of costs and revenues. Encourage per-performance calculations rather than multiplying by the entire run. The candidate should keep notes organized and reuse Exhibit 1 when solving the marketing-budget question. Supply the missing late-ticket rule and the 500-ticket capacity used in the source calculation. Projected cost totals are treated as inclusive in the answer key; do not add the separately mentioned maintenance fee again. Marketing's improvement in willingness to pay is an assumption for the calculation, not a demonstrated outcome. Both clean candidate exhibits remain visible; their projected totals are legitimate inputs.",
+ "suggested_framework": {
+  "summary": "Compare show-level economics and market appeal against the producing team's capabilities and the risks of a short run.",
+  "tree": {
+   "label": "Choose and price the summer production",
+   "children": [
+    {
+     "label": "Financials",
+     "children": [
+      {
+       "label": "Talent, unions, rights, maintenance, staff and marketing costs"
+      },
+      {
+       "label": "Seats, performances, occupancy, pricing and discounts"
+      },
+      {
+       "label": "Concessions, merchandise and other revenue"
+      }
+     ]
+    },
+    {
+     "label": "Market and show appeal",
+     "children": [
+      {
+       "label": "Comparable summer shows and their economics"
+      },
+      {
+       "label": "Popularity, reputation and audience demand"
+      },
+      {
+       "label": "Award eligibility"
+      }
+     ]
+    },
+    {
+     "label": "Producing team",
+     "children": [
+      {
+       "label": "Strengths and relationships"
+      },
+      {
+       "label": "Synergies with existing productions"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Forecast uncertainty and short-run economics"
+      },
+      {
+       "label": "Competition and pandemic disruption"
+      },
+      {
+       "label": "Ability to prepare within the decision window"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How should the team choose a show, and what costs and revenues should it consider?",
+   "release_when": "Read the prompt and answer clarifications. If the framework omits economics, ask the separate cost/revenue brainstorm.",
+   "info_to_release": "Ten-week theater window, 8 shows weekly and a decision within two weeks. Goal is maximum profit margin, ideally 20% or more. The team has experience with all three formats but not these shows. Maintenance is $1,000 per performance; projected totals follow in Exhibit 1.",
+   "exhibit_ids": [],
+   "expected_answer": "Compare expected margins, market appeal, producer capabilities and risks. Costs include theater rent/maintenance, actors, musicians, dressers, stagehands, unions, rights, costumes, marketing and casting. Revenues include tickets, concessions, backstage tours and merchandise. Examine comparable summer shows, demand, awards and forecast reliability while accounting for a short preparation and run window.",
+   "good_answer_signals": [
+    "Covers both financial and qualitative selection criteria.",
+    "Names theater-specific costs and ancillary revenues."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Which show has the highest projected profit margin per performance?",
+   "release_when": "Give Exhibit 1 after the framework. Encourage per-performance analysis.",
+   "info_to_release": "Beauty and the Beast: projected costs $45,000, revenue $60,000. To Kill a Mockingbird: costs $24,000, revenue $30,000. Steve Live: costs $30,000, revenue $35,000. Revenue includes tickets plus concessions/merchandise.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Beauty produces $15,000 profit and 25% margin; Mockingbird $6,000 and 20%; Steve Live $5,000 and 14.286%. Choose Beauty on projected margin. Use profit divided by revenue, not cost, and do not add maintenance a second time to the supplied total costs.",
+   "good_answer_signals": [
+    "Compares margins on a consistent per-show basis.",
+    "Recognizes Beauty exceeds the 20% target while Steve Live does not."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "The team selects Beauty and the Beast. Which full ticket price maximizes ticket revenue?",
+   "release_when": "Give Exhibit 2 and supply the missing capacity and late-sale assumptions when required.",
+   "info_to_release": "There are 500 tickets per performance. Full-price purchase rates: 80% at $100, 60% at $150, 40% at $200. All remaining tickets are sold for $50 beginning two hours before the show.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "$100 yields 400 full-price tickets ($40,000) plus 100 late tickets ($5,000), totaling $45,000. $150 yields 300 full-price ($45,000) plus 200 late ($10,000), totaling $55,000. $200 yields 200 full-price ($40,000) plus 300 late ($15,000), also $55,000. The latter two tie; the baseline exhibit alone does not uniquely favor $200. Investigate ways to differentiate them and validate the assumption that every remaining seat sells late.",
+   "good_answer_signals": [
+    "Includes discounted tickets rather than treating unsold full-price seats as empty.",
+    "Recognizes the tie and does not invent a unique optimum."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "If marketing raises willingness to pay $200 from 40% to 50%, what is the maximum additional marketing spend per performance while keeping a 25% margin?",
+   "release_when": "After the pricing comparison. Direct the candidate back to Exhibit 1 if needed.",
+   "info_to_release": "Assume the campaign works: 50% buy at $200 and the rest at $50. Non-ticket revenue is $5,000 per performance. Baseline costs remain $45,000 before additional marketing. Target margin is 25%.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Ticket revenue becomes 250 × $200 + 250 × $50 = $62,500. Add $5,000 ancillary revenue for $67,500. A 25% margin allows total costs of 75% × $67,500 = $50,625. Subtract the existing $45,000 cost base to obtain $5,625 maximum incremental marketing spend. At that limit profit is $16,875. This is a spending ceiling conditional on the demand uplift, not proof the uplift can be bought for that amount.",
+   "good_answer_signals": [
+    "Includes non-ticket revenue.",
+    "Solves for total allowable costs, then subtracts current costs.",
+    "Distinguishes additional budget from total marketing cost or total show cost."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could the team use the added budget to increase willingness to pay $200?",
+   "release_when": "After deriving the incremental budget.",
+   "info_to_release": "The modeled maximum is $5,625 additional spend per performance; actual effectiveness is uncertain.",
+   "exhibit_ids": [],
+   "expected_answer": "Production enhancements: celebrity appearances and promotion to their fans, refreshed dance numbers, selective modernization, or an award strategy recognizing the short run. Media: morning-show appearances, behind-the-scenes videos, tourism/hotel partnerships and critic previews. Perks: limited merchandise for selected performances or backstage-tour raffles for $200 buyers. Compare cost, audience relevance, timing and measurable lift before committing the full allowance.",
+   "good_answer_signals": [
+    "Uses structured, theater-specific ideas.",
+    "Connects each tactic to willingness to pay rather than awareness alone.",
+    "Acknowledges budget and short-run execution constraints."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the producers mount, how should they price it, and what are the next steps?",
+   "release_when": "After the marketing brainstorm.",
+   "info_to_release": "No further data.",
+   "exhibit_ids": [],
+   "expected_answer": "Produce Beauty and the Beast, whose initial projected margin is highest at 25%. The source recommends $200 full-price tickets with targeted marketing, conditional on raising uptake to 50%; up to $5,625 incremental spend then preserves 25% margin. Without that improvement, $150 and $200 tie on ticket revenue. Risks include uncertain projections, rival revivals, pandemic disruption and ineffective marketing. Cast the show, obtain rights/materials, begin outreach, explore synergies and evaluate extending the run if successful rather than assuming an extension is available.",
+   "good_answer_signals": [
+    "States the conditional nature of the $200 recommendation.",
+    "Uses the margin and budget numbers correctly.",
+    "Connects preparation steps to the two-week decision deadline."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Projected Costs and Revenues per Performance",
+   "page": 347,
+   "kind": "table",
+   "description": "Original candidate-facing projected totals. Revenue includes tickets and concessions/merchandise; these printed input totals are not worked answers and the image remains visible.",
+   "data": {
+    "columns": [
+     "Show",
+     "Projected costs (USD/performance)",
+     "Projected revenue (USD/performance)"
+    ],
+    "rows": [
+     [
+      "Beauty and the Beast",
+      45000,
+      60000
+     ],
+     [
+      "To Kill a Mockingbird",
+      24000,
+      30000
+     ],
+     [
+      "Steve Live",
+      30000,
+      35000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-center-stage/p347.webp",
+   "image_has_answers": false,
+   "key_insight": "Compare profit divided by revenue for each show, rather than picking by revenue alone.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Willingness to Pay Based on Ticket Prices",
+   "page": 348,
+   "kind": "table",
+   "description": "Projected proportion of tickets sold at each full price. Capacity and the late-sale rule are supplied separately in the interview.",
+   "data": {
+    "columns": [
+     "Full price (USD)",
+     "Tickets sold at full price (%)"
+    ],
+    "rows": [
+     [
+      100,
+      80
+     ],
+     [
+      150,
+      60
+     ],
+     [
+      200,
+      40
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-center-stage/p348.webp",
+   "image_has_answers": false,
+   "key_insight": "With all remaining tickets sold at $50, the $150 and $200 options generate equal baseline ticket revenue.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which show has the highest projected margin?",
+   "givens": [
+    "Beauty revenue/cost $60,000/$45,000",
+    "Mockingbird $30,000/$24,000",
+    "Steve Live $35,000/$30,000",
+    "Margin = (revenue − cost)/revenue"
+   ],
+   "steps": [
+    "Beauty: profit $15,000; margin 15,000/60,000 = 25%.",
+    "Mockingbird: profit $6,000; margin 6,000/30,000 = 20%.",
+    "Steve Live: profit $5,000; margin 5,000/35,000 = 14.2857%, approximately 14%."
+   ],
+   "answer": "Beauty and the Beast leads at 25% per performance.",
+   "answer_value": 25,
+   "unit": "% profit margin",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "Which full-price option gives the most ticket revenue?",
+   "givens": [
+    "500 tickets per performance",
+    "Full-price demand 80% at $100, 60% at $150, 40% at $200",
+    "All remaining tickets sell at $50"
+   ],
+   "steps": [
+    "$100: 500 × 80% × 100 + 500 × 20% × 50 = $45,000.",
+    "$150: 500 × 60% × 150 + 500 × 40% × 50 = $55,000.",
+    "$200: 500 × 40% × 200 + 500 × 60% × 50 = $55,000."
+   ],
+   "answer": "$150 and $200 tie at $55,000 ticket revenue per performance.",
+   "answer_value": 55000,
+   "unit": "USD/performance ticket revenue",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What additional marketing spend preserves 25% margin if $200 uptake reaches 50%?",
+   "givens": [
+    "500 tickets; 50% at $200 and remainder at $50",
+    "$5,000 non-ticket revenue",
+    "$45,000 existing costs",
+    "Target profit margin 25%"
+   ],
+   "steps": [
+    "Ticket revenue = 250 × 200 + 250 × 50 = $62,500.",
+    "Total revenue = 62,500 + 5,000 = $67,500.",
+    "Allowed total costs = 67,500 × (1 − 25%) = $50,625.",
+    "Additional marketing = 50,625 − 45,000 = $5,625.",
+    "Profit at that cost = 67,500 − 50,625 = $16,875, or 25%."
+   ],
+   "answer": "At most $5,625 additional marketing per performance under the assumed uplift.",
+   "answer_value": 5625,
+   "unit": "USD/performance incremental marketing",
+   "verified": true
+  }
+ ],
+ "synthesis": "Mount Beauty and the Beast, the highest projected-margin option at 25%. Use the source's $200 strategy only with a credible plan to raise full-price demand from 40% to 50%; at that uptake, $5,625 additional marketing per performance preserves a 25% margin on $67,500 total revenue. Baseline $150 and $200 ticket prices otherwise tie. Validate demand and the all-late-seats-sell assumption, secure cast and rights, launch focused outreach and monitor competitive and operational risks before considering an extended run.",
+ "what_great_looks_like": [
+  "Uses theater-specific revenue and cost ideas.",
+  "Performs clean per-performance calculations and reuses earlier cost data.",
+  "Identifies the baseline price tie.",
+  "Distinguishes a conditional marketing budget from guaranteed demand creation.",
+  "Offers creative promotion ideas while flagging forecast and competitive risks."
+ ],
+ "common_pitfalls": [
+  "Dividing profit by costs rather than revenues.",
+  "Double-counting maintenance on top of the supplied total cost.",
+  "Ignoring the $50 late-sale rule.",
+  "Claiming $200 is uniquely optimal before the marketing assumption.",
+  "Treating $50,625 total allowed costs as additional marketing spend.",
+  "Assuming the proposed campaign has already demonstrated the promised uplift."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All calculations match, including the source's rounded 14% Steve Live margin. Capacity 500 is embedded in the solution calculations, not Exhibit 2, and is supplied explicitly in release information. The cost totals are treated as inclusive, as the source solution does; no extra maintenance charge is added. Marketing effectiveness and all unsold seats selling at $50 are assumptions, not verified demand facts. Original projected totals in Exhibit 1 remain visible under the updated image rule. Candidate pages 347/348 are used. Difficulty uses max(8,5), Python round(8/2) = 4. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary mappings",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls"
+  ]
+ }
+}

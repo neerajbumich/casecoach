@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+data/library.json
+data/library-index.json
+.vercel
+.data/
+data/frameworks.json
+data/framework-map.json
+data/industries.json
+data/firms.json
+data/us.json

@@ -1,0 +1,447 @@
+{
+ "id": "kellogg-2024-lobster-woman",
+ "title": "Lobster-Woman",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  241,
+  253
+ ],
+ "author": "Robert Pontrelli (Kellogg 2023); edited by Aditi Kannan (Kellogg 2023)",
+ "variant_group_id": "lobster-woman",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Other"
+ ],
+ "case_type_source_label": "Valuation / Financial Decision",
+ "industry": "agriculture",
+ "industry_source_label": "Non-Traditional",
+ "geography": "Coastal Maine (~70,000-population city)",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "npv",
+  "growing-perpetuity",
+  "career-decision",
+  "non-traditional-case",
+  "creativity",
+  "cost-of-living",
+  "discount-rate"
+ ],
+ "concepts_tested": [
+  "Creativity",
+  "NPV",
+  "Math Structuring",
+  "Attention-to-Detail"
+ ],
+ "fit_question": "Where do you see yourself in 5 and 10 years?",
+ "prompt": "While on vacation in a mid-sized (~70,000 population) city on the coast of Maine, you meet a high school student who is so impressed by your MBA that she asks you for career advice. She loves the ocean and wants to become a career lobster fisherman (Lobster-Woman) like her mother and many of her friends. She is a very bright girl, but she often skips school to fish for lobsters, which has hurt her grades -- a trend she plans to continue. A school guidance counselor encouraged her to instead consider a less risky career path, either in professional services or as a trade worker. She would like your opinion on which of these three career options she should pursue.",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry definitions",
+   "answer": "Lobster Fishing: lobster-women own their own boats, work for themselves, and sell their catch to distributors who sell to restaurants/grocery stores. Professional Services: white-collar jobs (accountant, consultant, financial analyst), requires a 4-year college degree. Trade Jobs: skilled manual-labor roles (carpenter, electrician, plumber), requires a 2-year vocational degree."
+  },
+  {
+   "question_topic": "Timeline",
+   "answer": "She needs to decide within the next few months and plans to keep the same career for her whole life."
+  },
+  {
+   "question_topic": "Goals",
+   "answer": "Her main goal is financial: earn enough to cover her cost-of-living plus retirement savings. After that, her main goal is to follow her dream of becoming a Lobster-Woman. She is also concerned about the safety of each profession."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "She plans to stay in the same Maine city regardless of which career she chooses."
+  }
+ ],
+ "interviewer_notes": "This case forces the interviewee to think creatively to identify all relevant variables and assign a financial value to each in order to make a recommendation based on the NPV of each career. Steps 2-5 can be done in any order and the interviewee should drive the order: 1) Develop structure, 2) Determine student's cost-of-living plus retirement savings, 3) Calculate expected earnings & costs for each profession, 4) Consider alignment between the student's skills and each job's requirements, 5) Calculate NPV of each profession and brainstorm other considerations, 6) Provide recommendation.",
+ "suggested_framework": {
+  "summary": "A framework covering the student's earning goals (cost-of-living + retirement), skills alignment with each profession, earnings/costs of each career, and other qualitative considerations.",
+  "tree": {
+   "label": "Which career should the student pursue: Professional Services, Trade Jobs, or Lobster Fishing?",
+   "children": [
+    {
+     "label": "Earning Goals",
+     "children": [
+      {
+       "label": "Cost-of-living (housing, transportation, food, utilities, etc.)"
+      },
+      {
+       "label": "Retirement goals"
+      }
+     ]
+    },
+    {
+     "label": "Skills Alignment",
+     "children": [
+      {
+       "label": "Likelihood of successfully entering the chosen profession"
+      },
+      {
+       "label": "Ability to succeed once in the profession"
+      }
+     ]
+    },
+    {
+     "label": "Earnings/Costs",
+     "children": [
+      {
+       "label": "Earnings: salary potential, salary growth"
+      },
+      {
+       "label": "Costs: education, equipment, healthcare"
+      }
+     ]
+    },
+    {
+     "label": "Other Considerations",
+     "children": [
+      {
+       "label": "Health/safety"
+      },
+      {
+       "label": "Lifestyle"
+      },
+      {
+       "label": "Industry strength"
+      },
+      {
+       "label": "Regulatory risks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem: which career should the student pursue?",
+   "expected_answer": "The structure should cover: 1) the student's earning goals (cost-of-living, retirement), 2) alignment between the student's skills and each job's requirements, and 3) earning potential and costs of each career, plus other qualitative considerations (health/safety, lifestyle, industry strength, regulatory risk).",
+   "good_answer_signals": [
+    "Frames earning goals as a distinct benchmark before comparing career earnings against it",
+    "Includes both financial and qualitative/fit dimensions"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "The student wants to earn enough to cover her monthly expenses and contribute to retirement savings, but doesn't know what those will be. How much money does she need to earn each month to meet her earnings/savings goal?",
+   "release_when": "Provide Exhibit A when the interviewee asks about the student's earnings goals",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "The student's Maine city isn't listed in Exhibit A, so the interviewee should find the best comparable city using the details from the prompt (~70,000 population, tourism-driven economy) -- Asheville, NC is the best comp. Reading the footnotes, 'Cost-of-Living Plus Rent' is the relevant variable (others can be ignored); it's indexed to New York City's $3,000/month. Asheville's index is ~66.67 (rounded), so Maine city cost-of-living plus rent = (66.67/100) x $3,000 = $2,000/month. Retirement contributions for Asheville are ~50% (rounded from 49.89%) of that figure, so monthly earnings goal = $2,000 x 1.5 = $3,000/month, or $36,000/year.",
+   "good_answer_signals": [
+    "Selects Asheville as the comp city using population and industry clues from the prompt rather than picking an arbitrary city",
+    "Correctly identifies 'Cost-of-Living Plus Rent' as the only relevant index and ignores the others",
+    "Adds retirement contributions on top of cost-of-living rather than as a separate unrelated figure"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What are the expected average salary, salary growth rate, and major costs for each of the three career paths?",
+   "release_when": "Provide Exhibit B when the interviewee asks about industry salaries; read out cost information (below) only when the interviewee asks about industry costs, and ask them first what they think the major costs of each industry will be",
+   "info_to_release": "Professional Services: 4-Year College $230,000 one-time up-front; employer-subsidized health insurance $1,000/year. Trade Jobs: 2-Year Vocational School $50,000 one-time up-front; out-of-pocket health insurance $4,000/year. Lobster Fishing: purchase boat & equipment $450,000 one-time up-front; out-of-pocket health & boat insurance $6,000/year.",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Average salary = aggregate annual industry salary / industry size (workers): Professional Services = $14B / 200K workers = $70K, growth 1%/year. Trade Jobs = $4B / 80K workers = $50K, growth 3%/year. Lobster Fishing = $1.6B / 20K workers = $80K, growth 5%/year. These pair with the up-front and annual costs above (education/equipment vs. healthcare/insurance) as the inputs to the later NPV calculation.",
+   "good_answer_signals": [
+    "Correctly divides aggregate industry salary by industry headcount for each career",
+    "Recalls and reuses the projected growth rate for each career in the eventual NPV calc",
+    "Anticipates plausible major costs (education, equipment, insurance) before being told"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How does the student's profile as a candidate impact her likely earnings in each industry?",
+   "release_when": "Provide Exhibit C when the interviewee asks about skill alignment",
+   "exhibit_ids": [
+    "exC"
+   ],
+   "expected_answer": "The interviewee should recall details from the prompt: the student has bad grades, so in Professional Services (where academic performance predicts success) she would likely be an underperformer earning ~80% of the average salary. In Trade Jobs, high demand means all new hires are paid as over-performers, so she'd earn ~120% of average. In Lobster Fishing, she has many industry connections (mother and friends are lobster-women), so she'd likely be an over-performer earning ~120% of average.",
+   "good_answer_signals": [
+    "Connects the student's specific prompt details (poor grades, industry connections) to the right performance tier in each career",
+    "Doesn't over-invest time on this exhibit -- it's meant to be a quick qualitative-to-quantitative translation"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Using a growing perpetuity NPV formula, which career path has the best net present value? Use different discount rates to reflect each career's risk: costs do not grow and are discounted at 10%; Professional Services at 11%; Trade Jobs at 13%; Lobster Fishing at 15%.",
+   "expected_answer": "Formula: NPV = (Performance factor x Average Salary - Ongoing Costs) / (Discount rate - Growth rate) - Upfront costs. Professional Services: (0.8x$70K - $36K - $1K) / (11%-1%) - $230K = -$40K (do not recommend). Trade Jobs: (1.2x$50K - $36K - $4K) / (13%-3%) - $50K = $150K (ok to recommend). Lobster Fishing: (1.2x$80K - $36K - $6K) / (15%-5%) - $450K = $90K (also a positive-NPV, strong option). Both Trade Jobs and Lobster Fishing clear the earnings/retirement goal and have positive NPV; Professional Services does not.",
+   "good_answer_signals": [
+    "Sets up and executes the growing-perpetuity NPV formula correctly for at least one career, then applies the same structure to the others",
+    "Correctly nets the $36K annual earnings goal plus each career's own ongoing costs from the performance-adjusted salary before discounting",
+    "Subtracts the up-front cost only once, outside the perpetuity term"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "Besides the NPV numbers, what other considerations should factor into her decision?",
+   "expected_answer": "Impact on Personal Life: work-life balance, risk tolerance, health impacts. Industry Forces: regulation around lobstering, global warming's impact on lobstering, technological change/upskilling needs.",
+   "good_answer_signals": [
+    "Generates ideas tailored to a high-school-age lobster fisherman specifically, not generic business risks",
+    "Separates personal/lifestyle factors from external industry forces"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the student?",
+   "expected_answer": "She should pursue a career as a Lobster-Woman. Both Trade Jobs and Lobster Fishing allow her to meet her earnings/retirement goal (both have positive NPV); since her stated goal was to earn enough to be able to follow her dream of becoming a Lobster-Woman, she should pursue that career. She should also weigh personal factors (work-life balance, risk tolerance) and industry trends (climate change, regulation) that could affect the decision.",
+   "good_answer_signals": [
+    "Recognizes that meeting the earnings threshold, not maximizing NPV, is the deciding criterion given the student's stated goals",
+    "A truly outstanding answer recommends Lobster Fishing over the higher-NPV Trade Jobs specifically because it better fits the student's stated dream"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Cost-of-Living Index in Select U.S. Cities (2020)",
+   "page": 244,
+   "kind": "table",
+   "description": "Cost-of-Living Index (excl. rent), Rent Index, Cost-of-Living Plus Rent Index, average retirement contributions (% of cost-of-living plus rent), population, and major industry for 5 US cities, all indexed to New York City ($3,000/month average Cost-of-Living Plus Rent = index 100).",
+   "data": {
+    "columns": [
+     "City",
+     "Cost-of-Living Index (Excl. Rent)",
+     "Rent Index",
+     "Cost-of-Living Plus Rent Index",
+     "Average Retirement Contributions (% of CoL+Rent)",
+     "Population (thousands)",
+     "Major Industry"
+    ],
+    "rows": [
+     [
+      "Seattle, WA",
+      88.12,
+      64.42,
+      76.96,
+      "63.74%",
+      737,
+      "Technology"
+     ],
+     [
+      "Oakland, CA",
+      92.12,
+      85.35,
+      88.91,
+      "57.86%",
+      441,
+      "Logistics"
+     ],
+     [
+      "New York, NY",
+      100,
+      100,
+      100,
+      "51.34%",
+      8380,
+      "Finance"
+     ],
+     [
+      "Asheville, NC",
+      76.51,
+      54.74,
+      67.12,
+      "49.89%",
+      92,
+      "Tourism"
+     ],
+     [
+      "Tampa, FL",
+      75.82,
+      53.62,
+      66.72,
+      "45.03%",
+      385,
+      "Healthcare"
+     ]
+    ]
+   },
+   "key_insight": "The student's actual city isn't listed, so the candidate must infer the best comparable from population (~70,000) and industry (tourism) clues in the prompt -- Asheville, NC is the closest match, and only the 'Cost-of-Living Plus Rent' and retirement-contribution columns are actually needed.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-lobster-woman/p244.webp"
+  },
+  {
+   "id": "exB",
+   "title": "Industry Salary Information (2020)",
+   "page": 245,
+   "kind": "bar",
+   "description": "Bubble chart plotting Industry Size (thousands of workers, y-axis) against Projected Yearly Salary Growth (x-axis) for Professional Services, Trade Jobs, and Lobster Fishing; bubble size/label shows each industry's aggregate annual salary.",
+   "data": {
+    "columns": [
+     "Industry",
+     "Industry size (thousands of workers)",
+     "Aggregate annual industry salary",
+     "Projected yearly salary growth"
+    ],
+    "rows": [
+     [
+      "Professional Services",
+      "~200K",
+      "$14B",
+      "1%"
+     ],
+     [
+      "Trade Jobs",
+      "~80K",
+      "$4B",
+      "3%"
+     ],
+     [
+      "Lobster Fishing",
+      "~20K",
+      "$1.6B",
+      "5%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-lobster-woman/p245.webp",
+   "key_insight": "Lobster Fishing has the smallest workforce and lowest aggregate salary pool but the highest average individual salary ($80K) and fastest projected growth (5%), setting up a favorable NPV despite its small size.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Job Requirements",
+   "page": 246,
+   "kind": "table",
+   "description": "For each career, the key predictor of success and the resulting earnings tier (under-performer ~80% of average, average performer 100%, over-performer ~120% of average), based on a study of job descriptions and career earnings.",
+   "data": {
+    "columns": [
+     "Career",
+     "Predictor of Success",
+     "Under Performer (~80% of avg. salary)",
+     "Average Performer (avg. salary)",
+     "Over Performer (~120% of avg. salary)"
+    ],
+    "rows": [
+     [
+      "Professional Services",
+      "Academic Performance",
+      "Low Grades",
+      "Average Grades",
+      "High Grades"
+     ],
+     [
+      "Trade Jobs",
+      "Technical Ability",
+      "N/A -- high demand inflates all salaries",
+      "N/A -- high demand inflates all salaries",
+      "All new trade workers paid as high performers due to high demand"
+     ],
+     [
+      "Lobster Fishing",
+      "Connections in the industry",
+      "No connections or industry knowledge",
+      "Has industry knowledge but no direct connections",
+      "Many connections already working in industry"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-lobster-woman/p246.webp",
+   "key_insight": "The student's specific profile (poor grades, strong lobster-industry connections) maps directly to under-performer in Professional Services but over-performer in both Trade Jobs (via high demand) and Lobster Fishing (via connections).",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the student's annual earnings goal (cost-of-living plus retirement savings)?",
+   "givens": [
+    "Asheville, NC is the best comparable city (Cost-of-Living Plus Rent Index = 67.12, rounds to ~66.67)",
+    "New York City average Cost-of-Living Plus Rent = $3,000/month",
+    "Asheville average retirement contribution = 49.89% of Cost-of-Living Plus Rent, rounds to 50%"
+   ],
+   "steps": [
+    "Maine-city monthly Cost-of-Living Plus Rent = (66.67/100) x $3,000 = $2,000",
+    "Monthly earnings goal = $2,000 x (1 + 50%) = $2,000 x 1.5 = $3,000",
+    "Annual earnings goal = $3,000 x 12"
+   ],
+   "answer": "$36,000 per year",
+   "answer_value": 36000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the average individual salary and projected growth rate for each career?",
+   "givens": [
+    "Professional Services: $14B aggregate salary / ~200K workers",
+    "Trade Jobs: $4B aggregate salary / ~80K workers",
+    "Lobster Fishing: $1.6B aggregate salary / ~20K workers",
+    "Projected growth rates from Exhibit B: 1% / 3% / 5%"
+   ],
+   "steps": [
+    "Professional Services average salary = $14,000,000,000 / 200,000 = $70,000",
+    "Trade Jobs average salary = $4,000,000,000 / 80,000 = $50,000",
+    "Lobster Fishing average salary = $1,600,000,000 / 20,000 = $80,000"
+   ],
+   "answer": "Professional Services $70K (1% growth), Trade Jobs $50K (3% growth), Lobster Fishing $80K (5% growth)",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the NPV of each career path using a growing-perpetuity formula, with career-specific discount rates?",
+   "givens": [
+    "Formula: NPV = (Performance factor x Average Salary - Ongoing Costs) / (Discount rate - Growth rate) - Upfront costs",
+    "Professional Services: performance factor 0.8, salary $70K, ongoing costs = $36K earnings goal + $1K health insurance, discount rate 11%, growth rate 1%, upfront cost $230K",
+    "Trade Jobs: performance factor 1.2, salary $50K, ongoing costs = $36K + $4K health insurance, discount rate 13%, growth rate 3%, upfront cost $50K",
+    "Lobster Fishing: performance factor 1.2, salary $80K, ongoing costs = $36K + $6K health/boat insurance, discount rate 15%, growth rate 5%, upfront cost $450K"
+   ],
+   "steps": [
+    "Professional Services: (0.8x70,000 - 36,000 - 1,000) / (11%-1%) - 230,000 = (56,000-37,000)/0.10 - 230,000 = 190,000 - 230,000 = -40,000",
+    "Trade Jobs: (1.2x50,000 - 36,000 - 4,000) / (13%-3%) - 50,000 = (60,000-40,000)/0.10 - 50,000 = 200,000 - 50,000 = 150,000",
+    "Lobster Fishing: (1.2x80,000 - 36,000 - 6,000) / (15%-5%) - 450,000 = (96,000-42,000)/0.10 - 450,000 = 540,000 - 450,000 = 90,000"
+   ],
+   "answer": "NPV: Professional Services -$40K (do not recommend), Trade Jobs $150K (positive, recommendable), Lobster Fishing $90K (positive, best fit to the student's stated goal)",
+   "answer_value": 90000,
+   "unit": "USD (Lobster Fishing NPV)",
+   "verified": true
+  }
+ ],
+ "synthesis": "She should pursue a career as a Lobster-Woman. Both Trade Jobs (NPV $150K) and Lobster Fishing (NPV $90K) allow her to meet her earnings/retirement goal, since both have positive NPV. Because her stated goal was to earn enough money to be able to follow her dream of becoming a Lobster-Woman, she should pursue that career rather than the higher-NPV Trade Jobs path. She should also weigh personal factors (work-life balance, risk tolerance, health impacts) and industry trends (regulation, global warming's impact on lobstering, technological change) in making her final decision.",
+ "what_great_looks_like": [
+  "Identifies all relevant variables (cost-of-living benchmark, skills alignment, earnings, costs) and drives from one to the next to collect the numbers needed",
+  "Uses prompt details creatively and with attention to detail -- e.g. matching the Maine city to Asheville via population/industry, and using the student's grades/connections for skills alignment",
+  "Structures the math logically and performs an accurate growing-perpetuity NPV calculation for each career",
+  "Ultimately recommends Lobster Fishing specifically because it best matches the student's stated goals, even though it has a lower NPV than Trade Jobs"
+ ],
+ "common_pitfalls": [
+  "Using New York City's own cost-of-living figures instead of finding the best comparable smaller city",
+  "Including all five index columns in the calculation instead of isolating 'Cost-of-Living Plus Rent' as the only relevant figure",
+  "Defaulting to the highest-NPV option (Trade Jobs) without weighing the student's explicitly stated goal of pursuing lobster fishing",
+  "Forgetting to subtract the one-time upfront cost outside of the perpetuity term (subtracting it inside the discounted cash flow instead)"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "This is a 'non-traditional' case (concepts tested labeled 'Creativity' and 'NPV' rather than the book's usual Z-code taxonomy, and case type is 'Valuation / Financial Decision'); mapped case_type to 'Other' in the fixed CASE_TYPES list and industry to 'other' since no taxonomy industry fits a personal career-choice case. No client_type applies (the 'client' is an individual student), so that optional field is omitted.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "case_type (mapped to 'Other')",
+   "industry (mapped to 'other')"
+  ]
+ },
+ "sub_industry": "fisheries"
+}

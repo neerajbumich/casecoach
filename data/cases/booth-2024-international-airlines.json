@@ -1,0 +1,283 @@
+{
+ "id": "booth-2024-international-airlines",
+ "title": "International Airlines",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  194,
+  200
+ ],
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "airlines",
+ "sub_industry": "passenger-airlines",
+ "industry_source_label": "Transportation / International Airline",
+ "geography": "Global",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain",
+  "Round 1"
+ ],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 1/3; Quant 2/3; Creativity 1/3",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "airline",
+  "air-freight",
+  "capacity-utilization",
+  "belly-cargo",
+  "fleet",
+  "profitability"
+ ],
+ "fit_question": "What experience on your resume are you most proud of? How have you used analysis to guide your decisions?",
+ "prompt": "A leading global airline has seen profitability stagnate over the last three years despite otherwise strong business performance. Its two main businesses are passengers and freight. Diagnose the problem and recommend a correction.",
+ "clarifying_info": [
+  {
+   "question_topic": "Business mix",
+   "answer": "The airline operates passenger and freight businesses globally."
+  },
+  {
+   "question_topic": "Freight types",
+   "answer": "Belly freight rides on passenger aircraft; freighter freight uses dedicated aircraft. Except for negligible live-animal volume, either mode can carry the freight."
+  },
+  {
+   "question_topic": "Relative service",
+   "answer": "Passenger aircraft have 35% of dedicated-freighter freight capacity; belly delivery is about 10% slower but serves more destinations."
+  }
+ ],
+ "interviewer_notes": "Candidate-led Bain-style profitability case; encourage an answer-first hypothesis. Show Exhibit 1 when segment performance is requested. After freight is isolated, release utilization and cost facts, then show Exhibit 2 last. The key is overexpansion of dedicated freighters and underused belly capacity.",
+ "suggested_framework": {
+  "summary": "Locate the profit decline by segment, diagnose freight capacity and route economics, and test operational remedies.",
+  "tree": {
+   "label": "Airline profit stagnation",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Demand, customers and competitors"
+      },
+      {
+       "label": "Substitutes, routes and industry trends"
+      }
+     ]
+    },
+    {
+     "label": "Segment economics",
+     "children": [
+      {
+       "label": "Passenger versus freight revenue and profit"
+      },
+      {
+       "label": "Price, utilization, fuel, crew and maintenance"
+      }
+     ]
+    },
+    {
+     "label": "Freight actions",
+     "children": [
+      {
+       "label": "Shift to belly capacity and trim freighters"
+      },
+      {
+       "label": "Share, sell or spin off capacity; service constraints"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose stagnant profitability?",
+   "expected_answer": "Compare passenger and freight revenue and profit trends; split each into price, volume, product and route mix and capacity utilization; examine fuel, maintenance, personnel and fleet costs; and assess market, competition and operational remedies.",
+   "good_answer_signals": [
+    "Uses an answer-first segment hypothesis",
+    "Makes the profitability tree airline-specific"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Exhibit 1 show?",
+   "expected_answer": "Passenger revenue rises from $300M to $450M and profit from $140M to $190M, while freight revenue rises from $212.5M to $275M but freight profit falls from $200M to $120M. Freight is the source of deterioration despite revenue growth.",
+   "good_answer_signals": [
+    "Separates revenue from profit",
+    "Prioritizes freight"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "What operational facts explain the freight decline?",
+   "info_to_release": "Freighters rose from 3 to 12 and utilization fell from 85% to 35%. Passenger flights doubled, destinations increased one-third, and belly utilization fell from 85% to 60%. Belly freight's incremental cost per ton is 20% of freighter freight cost.",
+   "expected_answer": "The airline overbuilt dedicated-freighter capacity while simultaneously creating unused, lower-cost belly capacity with broader reach. Shift compatible freight to passenger aircraft and reduce or share dedicated freighter routes and assets.",
+   "good_answer_signals": [
+    "Connects fleet expansion to utilization collapse",
+    "Recognizes belly freight as a substitute"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 2, how did profit per freighter flight change as utilization fell from 85% to 35%?",
+   "expected_answer": "Freighter revenue scales from $800K at full utilization. At 85%, revenue was $680K and profit was $280K after $400K cost. At 35%, revenue is $280K and profit is -$120K. Profit deteriorated by $400K per flight.",
+   "good_answer_signals": [
+    "Interpolates linearly from the table",
+    "Gets a $120K loss and $400K deterioration"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the airline do?",
+   "expected_answer": "Shift suitable freight to passenger belly capacity, where utilization is only 60% and incremental cost is much lower, and trim, sell, share or spin off excess freighters and routes. Preserve routes or service levels that truly require dedicated aircraft and validate contracts, route coverage and further utilization downside.",
+   "good_answer_signals": [
+    "Ties the recommendation to quantified flight losses",
+    "Addresses service and contractual constraints"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Revenue and Profit by Business Segment",
+   "page": 197,
+   "kind": "table",
+   "description": "Passenger and freight revenue and profit for 2000-2002.",
+   "image_path": "exhibits/booth-2024-international-airlines/p197.webp",
+   "image_has_answers": false,
+   "key_insight": "Passenger profit rises while freight profit falls sharply despite freight revenue growth.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Metric ($M)",
+     "2000",
+     "2001",
+     "2002"
+    ],
+    "rows": [
+     [
+      "Passenger revenue",
+      300,
+      375,
+      450
+     ],
+     [
+      "Passenger profit",
+      140,
+      165,
+      190
+     ],
+     [
+      "Freight revenue",
+      212.5,
+      225,
+      275
+     ],
+     [
+      "Freight profit",
+      200,
+      190,
+      120
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex2",
+   "title": "Revenue by Freight Usage",
+   "page": 199,
+   "kind": "table",
+   "description": "Freight revenue per passenger and dedicated-freighter flight by capacity utilization; total flight costs are $600K and $400K respectively.",
+   "image_path": "exhibits/booth-2024-international-airlines/p199.webp",
+   "image_has_answers": false,
+   "key_insight": "At 35% utilization, a dedicated freighter earns only $280K against $400K cost.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Flight type",
+     "25% usage",
+     "50% usage",
+     "75% usage",
+     "100% usage"
+    ],
+    "rows": [
+     [
+      "Passenger freight revenue",
+      "$150K",
+      "$300K",
+      "$450K",
+      "$600K"
+     ],
+     [
+      "Freighter freight revenue",
+      "$200K",
+      "$400K",
+      "$600K",
+      "$800K"
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How did freighter profit per flight change from 85% to 35% utilization?",
+   "givens": [
+    "$800K revenue at 100% utilization",
+    "$400K cost per freighter flight",
+    "85% former utilization",
+    "35% current utilization"
+   ],
+   "steps": [
+    "Former revenue=$800K×85%=$680K",
+    "Former profit=$680K-$400K=$280K",
+    "Current revenue=$800K×35%=$280K",
+    "Current profit=$280K-$400K=-$120K",
+    "Profit change=-$120K-$280K=-$400K"
+   ],
+   "answer": "Profit fell from $280K to a $120K loss, a $400K deterioration per flight",
+   "answer_value": -120000,
+   "unit": "USD profit/current flight",
+   "verified": true
+  }
+ ],
+ "synthesis": "Freight—not passengers—is depressing profitability. Dedicated freighters expanded from 3 to 12 while utilization collapsed from 85% to 35%, turning $280K profit per flight into a $120K loss. Move compatible freight into underused passenger belly capacity, then reduce, share, sell or spin off excess freighters while protecting required routes and service levels.",
+ "what_great_looks_like": [
+  "Finds freight deterioration despite revenue growth",
+  "Connects fleet expansion to utilization economics",
+  "Uses belly capacity as an operational substitute"
+ ],
+ "common_pitfalls": [
+  "Focuses on passenger revenue because it is larger",
+  "Treats empty capacity as recoverable revenue",
+  "Recommends exiting freight without testing route and contract constraints"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Both exhibits use candidate-facing pages and their data contain only inputs. The per-flight loss calculation was independently recomputed. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bain",
+  "name": "Bain & Company",
+  "tier": "MBB",
+  "one_liner": "MBB firm known for results-focused consulting, market-leading private equity work, and a famously supportive, team-oriented culture.",
+  "at_a_glance": [
+    "Founded 1973; headquartered in Boston.",
+    "Roughly 20,000+ employees across ~65+ offices in ~40 countries.",
+    "Private partnership.",
+    "Market-leading private equity practice (due diligence and portfolio work).",
+    "Repeatedly #1 on Glassdoor's Best Places to Work list; $1B pro bono commitment."
+  ],
+  "interview_process": {
+    "rounds": [
+      "Screen: some offices use an online test (formats vary by office).",
+      "First round: ~2 case interviews, each with fit questions.",
+      "Final round: ~2-3 case interviews with senior leaders, sometimes including a behavioral-focused interview."
+    ],
+    "case_style": "Candidate-led: clarify the question, lay out a structure, drive the analysis, and adjust to interviewer cues. Practical business judgment and clear math matter more than one 'right' answer.",
+    "fit_style": "Behavioral questions in most interviews; Bain wants to know why you want Bain specifically and how you work in teams. Same questions per role to reduce bias.",
+    "assessments": "No universal test; some offices use an online screening test (e.g., aptitude or case-style questions). Check your invitation."
+  },
+  "what_they_look_for": [
+    "Intellectual curiosity and love of problem solving",
+    "Entrepreneurial mindset",
+    "Practical, results-oriented judgment",
+    "Team-first attitude",
+    "Clear, genuine motivation for Bain specifically"
+  ],
+  "culture": [
+    "'A Bain-er never lets another Bain-er fail' captures the team-support ethos.",
+    "Strong social culture and office community; frequent Glassdoor #1 ranking.",
+    "Emphasis on results, not reports: recommendations clients actually implement."
+  ],
+  "why_us_angles": [
+    "How does Bain's results-focused, implementation mindset compare with how things got done at your last employer?",
+    "Is private equity exposure (fast diligence work) a draw, and why?",
+    "What have Bain people you met said about the supportive culture, and why does that matter to you?",
+    "How does Bain's pro bono or social impact work connect to your values?"
+  ],
+  "prep_tips": [
+    "Practice Bain's public cases (e.g., Coffee Shop Co., FashionCo.) and watch its mock interview videos.",
+    "Lead the case: summarize, structure out loud, and state next steps without waiting to be asked.",
+    "Prepare a sharp, specific 'Why Bain' story backed by conversations with Bain people.",
+    "Practice quick PE-style cases: market attractiveness, competitive position, and deal recommendation.",
+    "Ask your recruiter whether your office uses an online test and practice that format."
+  ],
+  "practice_mode": "bain",
+  "sources": [
+    "https://www.bain.com/careers/hiring-process/interviewing/",
+    "https://www.bain.com/careers/hiring-process/case-interview/",
+    "https://www.bain.com/about/"
+  ],
+  "checked": "2026-09"
+}

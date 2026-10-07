@@ -1,0 +1,525 @@
+{
+ "id": "ross-2025-rubicon-co",
+ "title": "Rubicon Co.",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  83,
+  94
+ ],
+ "variant_group_id": "ross-2025-rubicon-co",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "M&A/Acquisition"
+ ],
+ "case_type_source_label": "Airline | Post-Acquisition / Profitability",
+ "industry": "airlines",
+ "sub_industry": "passenger-airlines",
+ "industry_source_label": "Airline",
+ "geography": "United States (Pacific Northwest focus)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 2, Overall - 2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "post-merger-integration",
+  "profitability",
+  "cost-synergies",
+  "route-profitability",
+  "airlines",
+  "benchmarking",
+  "cost-cutting"
+ ],
+ "concepts_tested": [
+  "merger synergy realization gap analysis",
+  "cost synergy dollar calculation",
+  "route-level profit/loss and competitive benchmarking",
+  "brainstorm risk/mitigation for cost cuts and route elimination"
+ ],
+ "prompt": "Your client is Rubicon Co, a low-cost airline operating in the US. A couple of years ago, Rubicon Co acquired Scarlet Air, an airline based primarily on the West Coast. The post-acquisition profits do not meet the executive committee's expectations, and the CEO of Rubicon Co has brought you in to understand the causes and improve profitability.",
+ "clarifying_info": [
+  {
+   "question_topic": "Profitability target",
+   "answer": "The CEO wants to increase profit by $100M."
+  },
+  {
+   "question_topic": "Fleet assumption",
+   "answer": "Assume Rubicon Co operates a single aircraft type across their fleet with similar seat layouts."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Rubicon Co is an all-economy airline, not looking to change the business model."
+  },
+  {
+   "question_topic": "International expansion",
+   "answer": "At this point Rubicon Co is not looking to expand operations internationally."
+  },
+  {
+   "question_topic": "Industry conditions",
+   "answer": "The industry has remained relatively stable, with single-digit profit % growth YoY."
+  }
+ ],
+ "interviewer_notes": "Candidate-led case (interviewee led) testing post-acquisition profitability improvement: a synergy gap-analysis calculation, a cost-cutting brainstorm, a route-level profitability and competitive benchmarking calculation, and a route-cutting risk brainstorm. Ratings: Quant - 2, Qual - 2, Overall - 2 (book's own scale). Candidate should look to understand pre/post-merger financials (Exhibit 1) and should recognize that different routes have different profitability profiles.",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering revenue synergies, cost synergies, and competitive response considerations from the acquisition.",
+  "tree": {
+   "label": "Rubicon Co. post-acquisition profitability",
+   "children": [
+    {
+     "label": "Revenue (Synergies)",
+     "children": [
+      {
+       "label": "Ticketing (all metrics should ≥ combined metrics of individual airlines)",
+       "children": [
+        {
+         "label": "# of tickets sold"
+        },
+        {
+         "label": "Price of tickets"
+        },
+        {
+         "label": "Dependent on routes",
+         "children": [
+          {
+           "label": "Consolidation should decrease competition, resulting in increased prices"
+          }
+         ]
+        },
+        {
+         "label": "Seasonality"
+        }
+       ]
+      },
+      {
+       "label": "Fees (all metrics should ≥ combined metrics of individual airlines)",
+       "children": [
+        {
+         "label": "Wifi"
+        },
+        {
+         "label": "Food and Bev"
+        },
+        {
+         "label": "Luggage"
+        },
+        {
+         "label": "Change Fees"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Cost (Synergies)",
+     "children": [
+      {
+       "label": "Variable Costs (all metrics should ≤ combined metrics of individual airlines)",
+       "children": [
+        {
+         "label": "Hourly Labor"
+        },
+        {
+         "label": "Aircraft operations",
+         "children": [
+          {
+           "label": "Fuel"
+          },
+          {
+           "label": "Maintenance & Servicing"
+          },
+          {
+           "label": "Parking/Storage"
+          },
+          {
+           "label": "Landing fees"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Fixed Costs",
+       "children": [
+        {
+         "label": "Central functions",
+         "children": [
+          {
+           "label": "Marketing"
+          },
+          {
+           "label": "IT"
+          },
+          {
+           "label": "HR"
+          },
+          {
+           "label": "Etc"
+          }
+         ]
+        },
+        {
+         "label": "Plant, Property, Equipment",
+         "children": [
+          {
+           "label": "Airport gate rental agreements"
+          },
+          {
+           "label": "Corporate building rentals"
+          },
+          {
+           "label": "Hangar space"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Competitive Response",
+     "children": [
+      {
+       "label": "Other airlines consolidating could lead to greater pricing pressure as cost structures are reduced"
+      },
+      {
+       "label": "Alternatively, fewer players could lead to more favorable pricing as consumers have less choice"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you think about understanding the causes of the profitability shortfall and improving profitability post-acquisition?",
+   "expected_answer": "A framework covering revenue synergies (ticketing metrics and fees, both of which should be at or above the combined pre-merger levels), cost synergies (variable costs like labor and aircraft operations, which should be at or below the combined pre-merger levels; fixed costs like central functions and PPE, where real savings are expected), and competitive response (how other airlines might react to Rubicon's consolidation).",
+   "good_answer_signals": [
+    "Structures around revenue synergies, cost synergies, and competitive response",
+    "Notes upfront that airline routes differ in profitability (e.g., DTW-JFK vs. JFK-LAX) rather than treating the network as uniform"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Are there areas of opportunity to positively impact profitability? [If needed: although variable costs (VC) may need to remain at their combined level, does fixed cost (FC) of the combined entity need to be the sum of the individual FCs?]",
+   "info_to_release": "Exhibit 1: Pre- and post-acquisition financials in $M for Rubicon Co (Pre), Scarlet Air (Pre), and Rubicon Co (Post) — Revenue (Tickets), Revenue (Non-Tickets), Operations (Variable), Marketing, IT, HR, and PPE (Airport Slots, offices). If asked about comparables, pre-merger Rubicon Co and Scarlet Air both met industry averages on financials.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "While synergies were found in HR ($25.5M post vs. $34M combined, a 25% reduction) and Property ($153.75M post vs. $205M combined, a 25% reduction), Marketing ($90M post) and IT ($145M post) are exactly equal to the sum of the two airlines' pre-merger costs — these are two clear opportunities for cost cutting. The 25% net cost savings achieved in HR and Property can be used as a rough baseline for potential savings in Marketing and IT.",
+   "good_answer_signals": [
+    "Notices Marketing and IT show zero synergy (post = sum of pre-merger figures) while HR and Property show a 25% reduction",
+    "Uses the 25% HR/Property synergy rate as a reasonable benchmark to apply to Marketing and IT without being told to"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "If Marketing and IT can achieve the same 25% net cost savings seen in HR and Property, how much additional profit improvement (in dollars) would that generate?",
+   "info_to_release": "Exhibit 1 continued: applying a 25% reduction, potential Marketing = $67.50M (.75×$90M) and potential IT = $108.75M (.75×$145M), with Operations, HR, and Property unchanged (HR and Property already reflect their reductions). Revenue unchanged at $1,900M total.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Post-synergy Total Cost = Operations $1,255M + Marketing $67.50M + IT $108.75M + HR $25.50M + Property $153.75M ≈ $1,610.5M. Post-synergy Profit = $1,900M - $1,610.5M ≈ $289.50M (margin ≈15.24%), versus current post-acquisition Profit of $230.75M (margin 12.14%). Increased profitability from Marketing/IT synergies ≈ $58.75M.",
+   "good_answer_signals": [
+    "Correctly applies 0.75× only to Marketing and IT, leaving Operations, HR, and Property as already-realized",
+    "Computes the profit improvement in dollars (the case explicitly wants profitability in dollars, with percentages as a nice-to-have)",
+    "Notices this closes roughly half of the CEO's $100M improvement target"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Now that we have identified a potential for cost reductions in the Marketing and IT functions, what are some ways this can be accomplished?",
+   "expected_answer": "Marketing: reduce headcount, leverage digital solutions to streamline campaigns, outsource specific functions. IT: reduce headcount, outsource specific functions, merge disparate systems.",
+   "good_answer_signals": [
+    "Lists 2-3 concrete ideas per function rather than one vague idea",
+    "Identifies risks associated with the recommendations and plans mitigation steps",
+    "Notices that roughly half of the $100M improvement target has now been achieved and proactively starts thinking about other profit levers"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "One of our analysts flagged the Pacific Northwest (PNW) as an area of concern. What are your initial thoughts on the routes?",
+   "info_to_release": "Exhibit 2: Northwest Region Route Comparison — revenue per seat and cost per seat for Rubicon Co and four competitors (Southeast Airlines, United, Gamma, US Fleet Co) across three routes (Seattle↔Denver, Portland↔Seattle, Denver↔Portland). Rubicon Co flies ~500,000 passengers per route per year. Approximate Rubicon figures: Seattle↔Denver revenue/seat $306, cost/seat $215; Portland↔Seattle revenue/seat $199, cost/seat $203; Denver↔Portland revenue/seat $189, cost/seat $210. Cheapest competitor cost/seat: Seattle↔Denver $175, Portland↔Seattle $169, Denver↔Portland $160.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Portland↔Seattle and Denver↔Portland are not profitable (Rubicon's cost per seat exceeds revenue per seat on both), while Seattle↔Denver is profitable. Strong candidates will calculate the annual profit/loss on each route and suggest cutting costs to match competitors' cost structure across all three routes.",
+   "good_answer_signals": [
+    "Identifies which specific routes are unprofitable, not just that 'the PNW is a concern'",
+    "Moves to quantify the loss per route",
+    "Proposes matching the most efficient competitor's cost structure as the fix, rather than just cutting the unprofitable routes"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Calculate the annual profit/loss for each of the three Pacific Northwest routes, and the profit potential if Rubicon matched its most efficient competitor's cost per seat on each route.",
+   "info_to_release": "Same Exhibit 2 data; 500,000 passengers per route per year.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Seattle↔Denver: profit/seat = $306-$215 = $91; net profit = $91×500,000 = $45.5M. Portland↔Seattle: profit/seat = $199-$203 = -$4; net profit = -$4×500,000 = -$2.0M. Denver↔Portland: profit/seat = $189-$210 = -$21; net profit = -$21×500,000 = -$10.5M. Total current net profit = $45.5M - $2.0M - $10.5M = $33.0M. If matching the most profitable competitor's cost per seat: Seattle↔Denver profit potential = $306-$175 = $131/seat → $65.5M; Portland↔Seattle = $199-$169 = $30/seat → $15.0M; Denver↔Portland = $189-$160 = $29/seat → $14.5M. Total potential net profit = $95.0M. Net improvement from matching competitor cost structure = $95.0M - $33.0M = $62.0M.",
+   "good_answer_signals": [
+    "Correctly computes profit/loss per seat, multiplies by passenger volume for each route, and sums across routes",
+    "Also computes the upside potential from matching competitor costs, not just the current-state loss",
+    "Arrives at the $62M net improvement figure as a second major lever toward the $100M target"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "brainstorm",
+   "interviewer_asks": "While Rubicon Co. is considering options to lower costs on these routes, some within the company are thinking of cutting the loss-making routes completely. What concerns do you have with this?",
+   "expected_answer": "Quantitative: loss of ancillary revenue from fees, inflight purchases, and freight/shipping on the cut routes. Qualitative: the 'knock-back' effect — passengers flying these routes may be connecting to other profit-positive flights, and cutting a route may make other routes less attractive; political issues with city leadership; airport contractual obligations.",
+   "good_answer_signals": [
+    "Separates the answer into quantitative and qualitative buckets",
+    "Considers potential changes in demand for connecting routes before recommending route cuts, rather than treating each route in isolation"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to Rubicon Co.'s CEO?",
+   "expected_answer": "To achieve the target profitability improvement, Rubicon Co should reduce costs in Marketing & IT to match the synergies already achieved in other departments (≈$58.75M). In addition, the airline should look to reduce costs on its Pacific Northwest routes to match competitors' cost structure (≈$62M net improvement). Risks: detriment to morale from headcount reductions/outsourcing; changes in demand on routes impacting pricing and profitability. Next steps: research competitors' cost basis for PNW routes and begin matching methodology; consider cross-training employees to reduce the volume of layoffs; identify a strategy to reduce Marketing and IT costs by 25%.",
+   "good_answer_signals": [
+    "Combines both levers (central function synergies and route-level cost matching) into a single recommendation rather than presenting them in isolation",
+    "Ties the combined impact back toward the CEO's original $100M target",
+    "Flags concrete risks and next steps tied to each lever"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Pre and post acquisition financials",
+   "page": 86,
+   "kind": "table",
+   "description": "Table of Rubicon Co and Scarlet Air pre-merger financials, Rubicon Co post-merger actuals, and Rubicon Co post-merger with potential synergy gains applied to Marketing and IT (25% reduction), in $M, including Revenue (Tickets/Non-Tickets), Operations, Marketing, IT, HR, Property, Total Revenue, Total Cost, Profit, and Margin.",
+   "data": {
+    "columns": [
+     "Line Item",
+     "Rubicon Co (Pre)",
+     "Scarlet Air (Pre)",
+     "Rubicon Co (Post)",
+     "Rubicon Co (Post) w/ Potential Synergy Gains"
+    ],
+    "rows": [
+     [
+      "Revenue (Tickets)",
+      749,
+      690,
+      1439,
+      "Same"
+     ],
+     [
+      "Revenue (Non-Tickets)",
+      251,
+      210,
+      461,
+      "Same"
+     ],
+     [
+      "Operations",
+      650,
+      605,
+      1255,
+      "Same"
+     ],
+     [
+      "Marketing",
+      50,
+      40,
+      90,
+      "$67.50 (.75*$90)"
+     ],
+     [
+      "IT",
+      75,
+      70,
+      145,
+      "$108.75 (.75*$145)"
+     ],
+     [
+      "HR",
+      20,
+      14,
+      "$25.50 (.75*$34)",
+      "Reductions Already Made"
+     ],
+     [
+      "Property (Airport, offices)",
+      115,
+      90,
+      "$153.75 (.75*205)",
+      "Reductions Already Made"
+     ],
+     [
+      "Total Revenue",
+      1000,
+      900,
+      1900,
+      1900
+     ],
+     [
+      "Total Cost",
+      910,
+      819,
+      1669.25,
+      1610
+     ],
+     [
+      "Profit",
+      90,
+      81,
+      230.75,
+      289.5
+     ],
+     [
+      "Margin",
+      "9.00%",
+      "9.00%",
+      "12.14%",
+      "15.24%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-rubicon-co/p086.webp",
+   "key_insight": "HR and Property costs already show a 25% net synergy reduction post-merger, but Marketing and IT costs are simply the sum of the two airlines' pre-merger costs with zero synergy captured — applying the same 25% reduction to Marketing and IT would add roughly $58.75M in profit.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Northwest Region Route Comparison",
+   "page": 90,
+   "kind": "bar",
+   "description": "Grouped bar chart of revenue per seat and cost per seat for Rubicon Co and four competitors (Southeast Airlines, United, Gamma, US Fleet Co) across three Pacific Northwest routes (Seattle↔Denver, Portland↔Seattle, Denver↔Portland). Rubicon Co flies approximately 500,000 passengers per route per year.",
+   "data": {
+    "columns": [
+     "Route",
+     "Rubicon Revenue/Seat",
+     "Rubicon Cost/Seat",
+     "Cheapest Competitor Cost/Seat"
+    ],
+    "rows": [
+     [
+      "Seattle ↔ Denver",
+      "$306",
+      "$215",
+      "$175"
+     ],
+     [
+      "Portland ↔ Seattle",
+      "$199",
+      "$203",
+      "$169"
+     ],
+     [
+      "Denver ↔ Portland",
+      "$189",
+      "$210",
+      "$160"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-rubicon-co/p090.webp",
+   "key_insight": "Rubicon Co is the highest-cost operator on all three routes and is unprofitable on Portland↔Seattle and Denver↔Portland; matching the cheapest competitor's cost structure would turn both loss-making routes profitable and roughly double route-level profit overall.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What would be the additional dollar profit improvement if Marketing and IT achieve the same 25% net cost savings already realized in HR and Property?",
+   "givens": [
+    "Post-merger Marketing cost: $90M",
+    "Post-merger IT cost: $145M",
+    "Post-merger Operations: $1,255M (unchanged)",
+    "Post-merger HR: $25.50M (already reduced)",
+    "Post-merger Property: $153.75M (already reduced)",
+    "Total Revenue: $1,900M",
+    "Current post-merger Total Cost: $1,669.25M, Profit: $230.75M"
+   ],
+   "steps": [
+    "Potential Marketing = 0.75 × $90M = $67.50M",
+    "Potential IT = 0.75 × $145M = $108.75M",
+    "New Total Cost = $1,255M + $67.50M + $108.75M + $25.50M + $153.75M ≈ $1,610.5M",
+    "New Profit = $1,900M - $1,610.5M ≈ $289.50M",
+    "Increased profitability = $289.50M - $230.75M = $58.75M"
+   ],
+   "answer": "≈$58.75M in additional profit from Marketing/IT synergies",
+   "answer_value": 58.75,
+   "unit": "USD millions",
+   "verified": true,
+   "book_answer_if_different": "Book displays New Total Cost rounded to $1,610M (vs. this recomputation's $1,610.5M); the book's own Profit ($289.50M) and Increased Profitability ($58.75M) figures are consistent with the unrounded $1,610.5M total cost, so the $1,610M in the table appears to be a display rounding rather than a computational discrepancy."
+  },
+  {
+   "id": "m2",
+   "question": "What is the current annual net profit/loss on each of the three Pacific Northwest routes, and what is the profit potential if Rubicon matches its most efficient competitor's cost per seat on each route?",
+   "givens": [
+    "500,000 passengers per route per year",
+    "Seattle↔Denver: revenue/seat $306, cost/seat $215, cheapest competitor cost/seat $175",
+    "Portland↔Seattle: revenue/seat $199, cost/seat $203, cheapest competitor cost/seat $169",
+    "Denver↔Portland: revenue/seat $189, cost/seat $210, cheapest competitor cost/seat $160"
+   ],
+   "steps": [
+    "Seattle↔Denver: profit/seat = $306-$215 = $91; net profit = $91 × 500,000 = $45,500,000",
+    "Portland↔Seattle: profit/seat = $199-$203 = -$4; net profit = -$4 × 500,000 = -$2,000,000",
+    "Denver↔Portland: profit/seat = $189-$210 = -$21; net profit = -$21 × 500,000 = -$10,500,000",
+    "Current total net profit = $45,500,000 - $2,000,000 - $10,500,000 = $33,000,000",
+    "Profit potential if matching cheapest competitor: Seattle↔Denver = $306-$175 = $131/seat → $65,500,000; Portland↔Seattle = $199-$169 = $30/seat → $15,000,000; Denver↔Portland = $189-$160 = $29/seat → $14,500,000",
+    "Total potential net profit = $65,500,000 + $15,000,000 + $14,500,000 = $95,000,000",
+    "Net improvement = $95,000,000 - $33,000,000 = $62,000,000"
+   ],
+   "answer": "Current total net profit ≈$33.0M; potential net profit if matching competitors ≈$95.0M; net improvement ≈$62.0M",
+   "answer_value": 62000000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "To achieve the target profitability improvement, Rubicon Co should reduce costs in Marketing & IT to match the synergies already achieved in other departments (≈$58.75M). In addition, the airline should look to reduce costs on its Pacific Northwest routes to match competitors' cost structure (≈$62M net improvement), together addressing a large share of the CEO's $100M profitability target.",
+ "what_great_looks_like": [
+  "Spots that HR/Property already show 25% synergy while Marketing/IT show none, and uses that 25% as a self-generated benchmark",
+  "Frames the answer in dollar terms as the case explicitly requests, treating margin percentages as secondary",
+  "Correctly separates per-seat economics from total route economics (multiplying by passenger volume) in the route analysis",
+  "Connects each quantitative finding back to the CEO's overall $100M profitability target and notices when roughly half the target has been met",
+  "Raises the 'knock-back' network effect and contractual/political constraints before endorsing outright route elimination"
+ ],
+ "common_pitfalls": [
+  "Applying the 25% synergy discount to all cost lines instead of only the two (Marketing, IT) that show no synergy yet",
+  "Treating unprofitable routes as automatically ripe for elimination without considering connecting traffic and contractual obligations",
+  "Confusing per-seat profit figures with total route profit by forgetting to multiply by passenger volume",
+  "Giving a single-lever recommendation (only cost synergies, or only route pricing) instead of combining both toward the $100M target"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (bar chart values read visually; some competitor cost-per-seat bars are partially obscured/overlapping in the source image)"
+  ],
+  "math_verified": true,
+  "notes": "Exhibit 1's post-synergy Total Cost displays as $1,610M (rounded) in the book, while the unrounded sum is $1,610.5M; the book's own downstream Profit ($289.50M) and Increased Profitability ($58.75M) figures match the unrounded value, so this was treated as display rounding, not an error. Exhibit image audit 2026-09-28: pages that also show interviewer notes are flagged image_has_answers.",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

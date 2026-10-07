@@ -1,0 +1,435 @@
+{
+ "id": "stern-2022-great-burger",
+ "title": "Great Burger",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  272,
+  282
+ ],
+ "case_type": [
+  "M&A/Acquisition",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "M&A",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "Fast Food",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey Round 2"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 9 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "acquisition",
+  "synergies",
+  "franchising",
+  "cannibalization",
+  "market-share",
+  "store-productivity",
+  "integration"
+ ],
+ "concepts_tested": [
+  "Profitability"
+ ],
+ "client_type": "for-profit",
+ "geography": "Worldwide businesses; US market analysis and North American cross-selling opportunity",
+ "prompt": "Let's assume our client is Great Burger (GB), a fast food chain that competes head-to-head with McDonald's, Wendy's, Burger King, KFC, etc. GB is the fourth largest fast food chain worldwide, measured by the number of stores in operation. As most of its competitors do, GB offers food and combos for the three largest meal occasions: breakfast, lunch and dinner. Even though GB owns some of its stores, it operates under the franchising business model with 85% of its stores owned by franchisees: individuals own and manage stores and pay a franchise fee to GB, but major business decisions, such as menu and look of store, are controlled by GB. As part of its growth strategy, GB has analyzed some potential acquisition targets including Heavenly Donuts (HD), a growing doughnut producer with both a US and international store presence. HD operates under the franchising business model too, though a little differently. While GB franchises restaurants, HD franchises areas or regions in which the franchisee is required to open a certain number of stores. GB's CEO has hired McKinsey to advise him on whether they should acquire HD or not.",
+ "clarifying_info": [],
+ "interviewer_notes": "Use the source's sequence: acquisition framework, synergies, market-share/store-productivity math, cross-selling economics, optional cannibalization math and CEO synthesis. Do not let the initial framework dive deeply into synergies, which have their own question. Explicitly instruct rounding current HD share to 25% in the market calculation. Only do the second quantitative question if more assessment is needed or time remains; if skipped, tell the candidate the team's calculated incremental profit is $15,000 per GB store. The optional solution's final $5,000 is an arithmetic typo; $60,000 minus $45,000 is $15,000, consistent with the fallback disclosure and synthesis. US market math uses global HD sales and North American stores as proxies without an actual US split, so its output is conditional rather than a verified US forecast.",
+ "suggested_framework": {
+  "summary": "Evaluate HD's standalone value, realizable strategic synergies and the ability to integrate management and distinct franchise structures before setting a price.",
+  "tree": {
+   "label": "Should GB acquire HD?",
+   "children": [
+    {
+     "label": "Standalone value",
+     "children": [
+      {
+       "label": "Doughnut-market growth and competition"
+      },
+      {
+       "label": "Store-count versus same-store sales growth"
+      },
+      {
+       "label": "Profitability and capital/working-capital requirements"
+      }
+     ]
+    },
+    {
+     "label": "Strategic fit and synergies",
+     "children": [
+      {
+       "label": "Brand compatibility and customer overlap"
+      },
+      {
+       "label": "Revenue and cost synergies"
+      },
+      {
+       "label": "GB's merger and integration experience"
+      }
+     ]
+    },
+    {
+     "label": "Management and culture",
+     "children": [
+      {
+       "label": "Top and middle management capabilities"
+      },
+      {
+       "label": "Cultural compatibility and adaptability"
+      },
+      {
+       "label": "Restaurant-level versus regional franchise structures"
+      }
+     ]
+    },
+    {
+     "label": "Deal economics and implementation",
+     "children": [
+      {
+       "label": "Quantify incremental revenue, savings and required investment"
+      },
+      {
+       "label": "Price GB should be willing to pay"
+      },
+      {
+       "label": "Integration plan and capture of benefits"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What areas would you explore to determine whether GB should acquire HD?",
+   "release_when": "Read the prompt. Defer detailed synergy discussion to the next question.",
+   "info_to_release": "GB is the fourth-largest chain worldwide by stores and has 85% franchisee ownership. GB franchises individual restaurants; HD grants areas or regions whose franchisees must open a required number of stores.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess standalone market growth, competitors, HD's store and same-store sales growth, margins and growth capital. Evaluate management skills, cultural fit and ability to run two franchise structures. Consider brand compatibility, customer overlap, synergies and GB's integration experience. Too little overlap may suggest incompatible brands; too much can limit incremental cross-selling.",
+   "good_answer_signals": [
+    "Separates standalone value from incremental acquisition value.",
+    "Addresses the different franchise models and management/cultural risks."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What potential synergies do you see from these facts about GB and HD?",
+   "release_when": "Provide Exhibit 1 after the framework.",
+   "info_to_release": "GB has 5,000 stores, including 3,500 in North America; HD has 1,020, including 1,000 in North America. Store sales are $5,500 million and $700 million; parent revenues $1,900 million and $200 million. Annual store growth is 10% and 15%. The exhibit supplies cost ratios, profit margins of 6.3%/4.9%, average store sales of $1.1 million/$0.7 million and industry benchmarks of $0.9 million/$0.8 million for GB/HD respectively.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Cost opportunities include combining corporate SG&A, volume purchasing for overlapping inputs such as beverages and frying oil, and transferring GB's property/lease skills. Ingredient overlap may be limited. Revenue opportunities include selling doughnuts in GB and selected GB products in HD, leveraging GB's international knowledge and location-selection skills, and accelerating HD expansion with better capital access. Treat these as hypotheses to quantify; the source also suggests GB's lower debt, but no debt data are supplied in the candidate exhibit.",
+   "good_answer_signals": [
+    "Links ideas to specific cost and footprint differences.",
+    "Distinguishes hypotheses from proven savings.",
+    "Recognizes parent revenue differs from systemwide store sales."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "If HD doubles its US market share in five years and increases its store count by 2.5 times, what sales per store would be required?",
+   "release_when": "After synergies. Once the initial share is calculated, explicitly ask the candidate to round it to 25% as the book directs.",
+   "info_to_release": "US doughnut consumption is $10 per capita annually today and forecast at $20 in five years. Assume 300 million US population. Use Exhibit 1. The source calculation uses HD's $700 million total sales and 1,000 North American stores for its US model; no separate US values are supplied. Round the calculated share to 25% for simplicity, then double it; store count grows by 2.5 times.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Under the source's geography proxies, current US market is $3 billion and HD share is 23.333%, rounded as instructed to 25%. Future market is $6 billion. A doubled rounded share of 50% gives $3 billion sales across 2,500 stores, or $1.2 million per store. Without the authorized share rounding the same proxy model gives $1.12 million. This is conditional: global HD revenue and North American stores are not genuine US inputs. The source considers the target plausible because per-capita spending doubles while the rounded store target is less than twice the given $0.7 million baseline, but this does not establish attainability.",
+   "good_answer_signals": [
+    "Uses explicit share rounding and distinguishes share growth from market growth.",
+    "Checks the reasonableness of required store productivity.",
+    "Flags the geographic-data mismatch rather than claiming a verified US forecast."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How would you assess profitability from selling doughnuts in GB stores?",
+   "release_when": "After the market-growth calculation.",
+   "info_to_release": "No new quantitative inputs yet.",
+   "exhibit_ids": [],
+   "expected_answer": "Calculate incremental doughnut units × price × participating stores, then deduct production, staffing, training, software, marketing and distribution costs. Assess space and layout investment, including whether production can occur in-house. Subtract lost contribution from cannibalized GB items, especially breakfast, and nearby HD stores. Estimate effects using historic GB launches and HD sales changes after nearby competitors open, rather than treating all doughnut revenue as incremental profit.",
+   "good_answer_signals": [
+    "Includes ongoing costs and one-time investments.",
+    "Considers cannibalization across both brands.",
+    "Suggests evidence for estimating substitution."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What is incremental profit per store from 50,000 doughnuts at $2 and 60% margin if they cannibalize 10% of GB sales?",
+   "release_when": "Optional: use only if time remains or more quantitative assessment is needed. Give Exhibit 2. If skipped, release the source-mandated result of $15,000 incremental profit per GB store.",
+   "info_to_release": "Per GB store: existing GB units 300,000 at $3 with 50% margin; HD doughnut units 50,000 at $2 with 60% margin; cannibalization 10% of existing GB sales. If the question is skipped, tell the candidate the team's estimate is $15,000 incremental profit per store.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "HD contribution is 50,000 × $2 × 60% = $60,000. Lost GB contribution is 300,000 × 10% × $3 × 50% = $45,000. Net incremental contribution is $15,000, not the solution line's $5,000. Applying this uniformly to 3,500 North American GB stores gives $52.5 million before unmodeled implementation costs and any additional HD-store cannibalization. This is system/store-level contribution, not automatically cash captured by the parent franchisor.",
+   "good_answer_signals": [
+    "Subtracts lost contribution, not all cannibalized revenue.",
+    "Uses existing GB volume as the cannibalization base.",
+    "Recognizes the typo and the limits of scaling across franchise stores."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "You meet the CEO in the hall. What is McKinsey's perspective so far on acquiring HD?",
+   "release_when": "After the preceding analysis, using the released $15,000 figure if the optional question was skipped.",
+   "info_to_release": "No acquisition price or fully quantified investment/integration costs are supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "Early findings favor pursuing HD, subject to valuation and diligence. Doughnut cross-selling yields $15,000 incremental contribution per GB store, or $52.5 million across 3,500 North American stores under uniform adoption, close to the source's approximately $50 million claim. Other cost and revenue synergies remain unquantified. Do not treat store-system gains as identical to parent earnings or recommend a purchase price yet. Quantify investments and capture economics, validate the market/share assumptions and prepare an integration plan for different cultures and franchise structures before making a binding deal recommendation.",
+   "good_answer_signals": [
+    "Gives a concise, evidence-backed preliminary answer.",
+    "States what remains before setting a price.",
+    "Includes integration and franchise economics rather than only revenue upside."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "GB and HD Store Footprints and Financials",
+   "page": 281,
+   "kind": "table",
+   "description": "Candidate comparison of regional footprint and supplied historical financial inputs. The image also prints summed store totals and sales-per-store ratios; it is conservatively flagged to hide these worked totals. Those source figures needed for discussion are retained in release information. Cost-of-sales percentages represent variable costs, mostly food. Key expenses are not a complete income statement.",
+   "data": {
+    "columns": [
+     "Input",
+     "GB",
+     "HD"
+    ],
+    "rows": [
+     [
+      "North America stores",
+      3500,
+      1000
+     ],
+     [
+      "Europe stores",
+      1000,
+      20
+     ],
+     [
+      "Asia stores",
+      400,
+      0
+     ],
+     [
+      "Other region stores",
+      100,
+      0
+     ],
+     [
+      "Annual store-count growth (%)",
+      10,
+      15
+     ],
+     [
+      "Total historical store sales (USD millions)",
+      5500,
+      700
+     ],
+     [
+      "Parent company revenues (USD millions)",
+      1900,
+      200
+     ],
+     [
+      "Cost of sales (% sales)",
+      51,
+      40
+     ],
+     [
+      "Restaurant operating costs (% sales)",
+      24,
+      26
+     ],
+     [
+      "Property and equipment costs (% sales)",
+      4.6,
+      8.5
+     ],
+     [
+      "Corporate G&A (% sales)",
+      8,
+      15
+     ],
+     [
+      "Supplied historical profit margin (%)",
+      6.3,
+      4.9
+     ],
+     [
+      "Industry average sales per store (USD millions)",
+      0.9,
+      0.8
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-great-burger/p281.webp",
+   "image_has_answers": false,
+   "key_insight": "GB has a broader international footprint and lower property/G&A ratios, supporting synergy hypotheses; store-system sales must not be confused with parent revenue.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Sales and Profitability per Store",
+   "page": 282,
+   "kind": "table",
+   "description": "Inputs for the optional cross-selling contribution calculation. Cannibalization applies to GB's existing sales base.",
+   "data": {
+    "columns": [
+     "Input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "GB units per store",
+      300000
+     ],
+     [
+      "GB USD price per unit",
+      3
+     ],
+     [
+      "GB margin (%)",
+      50
+     ],
+     [
+      "HD units sold in GB stores",
+      50000
+     ],
+     [
+      "HD USD price per unit",
+      2
+     ],
+     [
+      "HD margin (%)",
+      60
+     ],
+     [
+      "Cannibalization of GB sales (%)",
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-great-burger/p282.webp",
+   "image_has_answers": false,
+   "key_insight": "Lost GB contribution must be deducted from doughnut contribution; the correct difference is $15,000.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What five-year sales per HD store are required under the source's market-share model?",
+   "givens": [
+    "US population 300 million",
+    "Annual per-capita doughnut spending $10 today and $20 in five years",
+    "Source uses $700 million global HD sales and 1,000 North American stores as US proxies",
+    "Double market share, explicitly rounded to 25% before doubling",
+    "Store-count multiplier 2.5"
+   ],
+   "steps": [
+    "Current market = 300 million × $10 = $3 billion.",
+    "Proxy share = 700 million / 3 billion = 23.333%; round to 25% as explicitly instructed.",
+    "Future market = 300 million × $20 = $6 billion.",
+    "Target sales = $6 billion × 25% × 2 = $3 billion.",
+    "Target stores = 1,000 × 2.5 = 2,500; sales per store = $3 billion / 2,500 = $1.2 million.",
+    "Without the permitted share rounding, the same proxy calculation yields $1.12 million per store. A genuinely US-only result cannot be computed without US sales and store counts."
+   ],
+   "answer": "$1.2 million per store under the book's explicitly rounded, geographically mixed proxy model; not an independently established US forecast.",
+   "answer_value": 1200000,
+   "unit": "USD/store under source proxy assumptions",
+   "verified": false,
+   "book_answer_if_different": "The book presents $1.2 million as a US sales/store requirement, using worldwide HD sales of $700 million and North American stores of 1,000 from Exhibit 1. The arithmetic and authorized rounding match, but the geographic inputs do not establish a US-only result; the missing US split prevents a unique correction."
+  },
+  {
+   "id": "m2",
+   "question": "What incremental contribution does doughnut cross-selling create per GB store?",
+   "givens": [
+    "50,000 HD units at $2 and 60% margin",
+    "300,000 existing GB units at $3 and 50% margin",
+    "10% cannibalization of GB sales"
+   ],
+   "steps": [
+    "HD contribution = 50,000 × 2 × 60% = $60,000.",
+    "Lost GB contribution = 300,000 × 10% × 3 × 50% = $45,000.",
+    "Net incremental contribution = 60,000 − 45,000 = $15,000."
+   ],
+   "answer": "$15,000 incremental contribution per store before other unmodeled costs.",
+   "answer_value": 15000,
+   "unit": "USD/store",
+   "verified": false,
+   "book_answer_if_different": "Page 279 prints '$60K – 45K = 5K incremental profit/store'. The correct difference is $15,000. The same page's fallback disclosure and page 280 recommendation correctly use $15,000."
+  },
+  {
+   "id": "m3",
+   "question": "What does uniform rollout imply across North American GB stores?",
+   "givens": [
+    "3,500 North American GB stores",
+    "$15,000 incremental store contribution",
+    "Uniform application assumed by the source's scale-up"
+   ],
+   "steps": [
+    "Aggregate contribution = 3,500 × 15,000 = $52,500,000."
+   ],
+   "answer": "$52.5 million of store-system contribution, before other costs and franchise-parent sharing; approximately the source's $50 million claim.",
+   "answer_value": 52500000,
+   "unit": "USD across North American stores",
+   "verified": true
+  }
+ ],
+ "synthesis": "Pursue acquisition diligence: cross-selling offers $15,000 incremental contribution per GB store, or $52.5 million across the North American network under uniform adoption, with additional purchasing, corporate-cost, property and international-growth opportunities. Correct the book's isolated $5,000 subtraction typo. Treat the $1.2 million future HD store-sales target as conditional on its authorized rounding and mixed-geography proxies. Before deciding what to pay, quantify investments, additional cannibalization, franchise-parent benefit capture and integration costs, and validate brand, culture and franchise-structure compatibility. The source favors acquisition in principle, not an unconditional transaction at an unspecified price.",
+ "what_great_looks_like": [
+  "Separates standalone HD value, synergies and integration feasibility.",
+  "Connects synergy ideas to specific exhibit comparisons.",
+  "Models cannibalization using lost contribution.",
+  "Gives a concise preliminary CEO recommendation with explicit valuation next steps.",
+  "Recognizes geography and franchise-economics limitations in the source model."
+ ],
+ "common_pitfalls": [
+  "Counting all doughnut revenue as incremental profit.",
+  "Applying cannibalization to HD volume instead of the given GB base.",
+  "Copying the $5,000 subtraction error.",
+  "Treating worldwide revenue and North American stores as verified US data.",
+  "Assuming store-system gains all accrue to GB's corporate parent.",
+  "Recommending an acquisition price without investments or capture economics."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[0].answer (US sales and store split unavailable; conditional source proxy retained)"
+  ],
+  "math_verified": false,
+  "notes": "Page 279 incorrectly subtracts $45,000 from $60,000 to get $5,000. Correct $15,000 agrees with the mandated fallback disclosure and final recommendation; release information preserves that disclosure. Scaling 3,500 stores yields $52.5 million, consistent with the source's approximate $50 million. Question 3 mixes worldwide sales and North American stores with a US market denominator; no true US split is provided. Its $1.2 million result is reproduced conditionally with explicit 25% rounding, not silently treated as a verified US forecast. The no-share-rounding proxy result is $1.12 million. Exhibit 1 key expense lines are not a complete income statement, so missing categories are not invented to reconcile profit margins. Source lower-debt commentary has no supporting candidate data. Franchisor capture of store-level gains is unmodeled. Exhibit 1's total/ratio-bearing image is conservatively hidden; data omit calculated company store totals and company sales/store ratios, retaining them in source release text. Difficulty uses max(8,9), Python round(9/2) = 4. Author is printed N/A and omitted. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type secondary mapping",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls",
+   "what_great_looks_like source-limitation item"
+  ]
+ }
+}

@@ -1,0 +1,449 @@
+{
+ "id": "kellogg-2024-swagger-llamas",
+ "title": "Swagger Llamas",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  333,
+  344
+ ],
+ "author": "Lance Ho (Kellogg 2021)",
+ "variant_group_id": "kellogg-2024-swagger-llamas",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Y02 Growth Strategy",
+ "industry": "tech-saas",
+ "sub_industry": "consumer-internet",
+ "industry_source_label": "X13 Technology",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "growth-strategy",
+  "revenue-decline",
+  "penetration",
+  "market-sizing",
+  "chart-reading",
+  "brainstorming",
+  "startup",
+  "pricing"
+ ],
+ "concepts_tested": [
+  "Z09 Microeconomics",
+  "Z07 Market share",
+  "Z10 Marketing strategy",
+  "Z12 Creativity"
+ ],
+ "fit_question": "Experience: Tell me about a time that you led a team to meet an aggressive deadline.",
+ "prompt": "It is the year 2025. Our client is Swagger Llamas, a start-up founded in 2020 by a Kellogg graduate who participated in KWEST Peru and was inspired by the famous 'Goat 2 Meeting' service that took the world of virtual meetings by storm during the 2020 pandemic. Swagger Llamas targets Top-10 MBA programs, offering students and faculty the ability to invite llamas dressed in that program's swag onto virtual conferences for a service fee (think a llama dressed as a Big Dog joining the section connection via Zoom). Despite explosive growth in the first year of the business, revenues have since declined steadily. The client is now worried about Swagger Llamas' future, as revenue is expected to fall another 15% this year. How would you advise the client in growing their revenues in the near and long term?",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Grow revenue by 5% in the next year; no set goal for the longer term."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Direct-to-customer: a customer signs into an online portal, schedules a meeting, and provides a credit card on file; at the scheduled meeting, a Swagger Llamas representative joins with a llama dressed in swag; after the meeting, an invoice is sent based on a flat fee per every 15 minutes."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "Swagger Llamas currently serves students and faculty at Top-10 MBA programs in the U.S.; assume program rankings don't change year to year."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "There are no other providers offering similar services; Goat 2 Meeting ceased operations after 2020."
+  }
+ ],
+ "interviewer_notes": "Problem: how can Swagger Llamas grow its revenues? Steps: (1) develop a structure, (2) evaluate the situation and identify trends in historical revenue, (3) analyze penetration and growth opportunity, (4) brainstorm ways to grow penetration in the core business, (5) provide client recommendation. Strong candidates drive the case with little probing — recognizing the external headwind in Exhibit A and knowing what to do with the penetration data in Exhibit C. Outstanding candidates continuously consider implications for Swagger Llamas' business and goals and don't get bogged down in unnecessary chart-reading details; the case should feel like a problem-solving collaboration, not Q&A.",
+ "suggested_framework": {
+  "summary": "A growth-levers framework: what happens if nothing changes (market landscape), levers to grow the core business (penetration, frequency, price), new growth opportunities (new products/markets), inorganic growth, and execution considerations.",
+  "tree": {
+   "label": "How can Swagger Llamas grow its revenues?",
+   "children": [
+    {
+     "label": "Market landscape",
+     "children": [
+      {
+       "label": "What happens if Swagger Llamas does nothing?"
+      },
+      {
+       "label": "Market size and growth trend"
+      },
+      {
+       "label": "Fit with customer preferences"
+      }
+     ]
+    },
+    {
+     "label": "Growth in core business",
+     "children": [
+      {
+       "label": "Penetration (number of schools, usage within each school)"
+      },
+      {
+       "label": "Frequency of purchase"
+      },
+      {
+       "label": "Price"
+      }
+     ]
+    },
+    {
+     "label": "New growth opportunities",
+     "children": [
+      {
+       "label": "New products (e.g., new animals)"
+      },
+      {
+       "label": "New markets (e.g., non-MBA)"
+      }
+     ]
+    },
+    {
+     "label": "Inorganic growth",
+     "children": [
+      {
+       "label": "Acquisition or joint ventures"
+      }
+     ]
+    },
+    {
+     "label": "Execution considerations",
+     "children": [
+      {
+       "label": "Investment required"
+      },
+      {
+       "label": "Timing to capture the opportunity"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you advise the client in growing their revenues in the near and long term?",
+   "expected_answer": "A structure covering market landscape, growth levers within the core business (penetration, frequency, price), new growth opportunities (new products/markets), inorganic growth, and execution considerations (investment, timing).",
+   "good_answer_signals": [
+    "Distinguishes near-term core-business levers from longer-term diversification options",
+    "Includes execution/investment considerations, not just growth ideas"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What can be derived from Swagger Llamas' historical revenue data?",
+   "release_when": "If the candidate asks about historical revenue",
+   "info_to_release": "Exhibit A (2020-2024 revenue). If asked: founded in the second half of 2020; pricing has been constant at $11 per 15-min interval since 2020; one service at one price point across all MBA programs; penetration at the Top-10 programs has remained relatively stable over time.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue jumped in 2021 because 2020 was only a partial founding year; revenue has declined every year since the 2021 peak (168→146→121→106, in $K). Since pricing has stayed constant and penetration has been stable, the decline must be driven by declining volume — and since there's no competition, the volume decline is likely due to external factors (e.g., a shrinking overall market). Next step: ask about market trends in virtual meetings and events.",
+   "good_answer_signals": [
+    "Recognizes 2020 as a partial year, explaining the 2021 jump",
+    "Logically rules out price and penetration/competition as causes, isolating external market shrinkage as the likely driver"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What are the implications for Swagger Llamas given the trends in virtual meetings and events?",
+   "release_when": "If the candidate asks about market trends",
+   "info_to_release": "Exhibit B (virtual meetings/events by platform, 2019-24, and by purpose, 2024).",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "EbWex is predominantly business use (94%) while Zam is majority non-business use (62%), and Swagger Llamas' business (llamas at virtual social/school events) is more relevant to the non-business/Zam-type usage. In 2020 both platforms jumped due to the pandemic, with Zam growing disproportionately (~2.3x) vs. EbWex (~1.5x), suggesting business meetings were less affected by the pandemic while non-business virtual use (social events, classes) surged. Post-2020, non-business use has declined ~15%/year continuously, while business use dropped less and is now growing slowly again. Since Swagger Llamas' relevant (non-business) market is shrinking rapidly, growth should come from increasing penetration within the existing Top-10 programs rather than new markets — the client does not want to expand beyond its core offering or customers outside the Top-10 programs. Next step: ask about current penetration at the Top-10 programs.",
+   "good_answer_signals": [
+    "Correctly identifies Zam/non-business as the more relevant platform/segment for Swagger Llamas, not EbWex/business",
+    "Notices non-business use declining ~15%/year and concludes the core market is structurally shrinking",
+    "Converges on penetration growth (not new markets) as the right lever, per client constraints"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What could Swagger Llamas do to grow its revenues, given its penetration levels at the Top-10 programs?",
+   "release_when": "If the candidate asks about penetration",
+   "info_to_release": "Exhibit C (2024 penetration by school and forecast 2024 event volume). Virtual events last 45 minutes on average; 2025 prices remain at $11 per 15-min interval.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Penetration varies widely by school (5%-25% vs. an average of ~15%), so it will be easier to gain share at the under-penetrated schools D, F, H, and J (5%, 5%, 10%, 5% respectively). Raising each to the ~15% average requires a +10pp increase at D, F, J and +5pp at H. At 3 fifteen-minute intervals per 45-minute event and $11/interval: incremental revenue = D $8.3K (10% × 2.5K events × 3 × $11), F $6.9K (10% × 2.1K × 3 × $11), H $3.3K (5% × 2.0K × 3 × $11), J $6.3K (10% × 1.9K × 3 × $11) — total $24.8K. Total 2025 revenue = $24.8K + $90.1K (2024's $106K less the expected 15% decline) = $114.9K, roughly 8% growth over 2024, which clears the 5% growth goal.",
+   "good_answer_signals": [
+    "Correctly identifies D, F, H, and J as the under-penetrated target schools",
+    "Correctly computes intervals-per-event (3) and per-school incremental revenue",
+    "Nets the $24.8K gain against the expected $15.9K base decline to reach ~8% net growth, clearing the 5% target"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "Tactically, how could Swagger Llamas grow its penetration at the under-penetrated programs (D, F, H, J)? Disregard prior assumptions and restrictions around the business model — the client wants creativity.",
+   "expected_answer": "Ideas structured around improving awareness and improving conversion. Awareness: campus flyers, marketing through student clubs, sponsorship of events, on-campus student liaisons. Conversion — price levers: volume discounts, tiered pricing, introductory pricing offers. Conversion — non-price levers: negotiation at the school-administration level, free trial periods, endorsement campaigns from happy users, referral programs, product offering modifications. Strong candidates hypothesize which 1-2 ideas would move the needle most.",
+   "good_answer_signals": [
+    "Organizes ideas into a clear structure (e.g., awareness vs. conversion, price vs. non-price)",
+    "Prioritizes 1-2 highest-impact ideas rather than just listing everything"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "Swagger Llamas should focus on growing penetration at programs D, F, H, and J: raising penetration at these schools to the company's average of 15% yields ~$24.8K of incremental revenue, for roughly 8% growth over 2024, clearing the 5% goal. This should be paired with 1-2 top tactics from the brainstorm to actually drive penetration. Risks: the core (non-business) virtual-meeting market continues to decline rapidly, and this recommendation only solves the problem for one year, leaving long-term growth in question. Next steps: pilot growth efforts at 1-2 schools before rolling out across all four; explore evolving the business model beyond its current offering (e.g., non-MBA customers); and diversify away from reliance on virtual modes in the medium-to-long term.",
+   "good_answer_signals": [
+    "Ties the recommendation to the specific $24.8K / ~8% growth calculation",
+    "Flags that the plan is only a one-year fix given continued market decline",
+    "Proposes concrete next steps including a pilot and longer-term diversification"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Swagger Llamas historical revenue",
+   "page": 336,
+   "kind": "bar",
+   "description": "Bar chart of Swagger Llamas' annual revenue, 2020-2024, in thousands of USD.",
+   "data": {
+    "columns": [
+     "Year",
+     "Revenue ($K)"
+    ],
+    "rows": [
+     [
+      2020,
+      48
+     ],
+     [
+      2021,
+      168
+     ],
+     [
+      2022,
+      146
+     ],
+     [
+      2023,
+      121
+     ],
+     [
+      2024,
+      106
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-swagger-llamas/p336.webp",
+   "key_insight": "Revenue peaked in 2021 ($168K) — the first full year after the 2020 pandemic-driven launch — and has declined every year since, down to $106K in 2024, a ~37% drop from peak despite stable pricing and stable penetration, pointing to an external/market-driven volume decline.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Exhibit B – Virtual meetings and events in the U.S.",
+   "page": 337,
+   "kind": "bar",
+   "description": "Two charts: (left) total US virtual meetings/events by platform (EbWex and Zam), in millions, 2019-2024; (right) 2024 split of each platform's usage by purpose (business vs. non-business).",
+   "data": {
+    "columns": [
+     "Year",
+     "EbWex (M meetings)",
+     "Zam (M meetings)",
+     "Total (M meetings)"
+    ],
+    "rows": [
+     [
+      2019,
+      201,
+      26,
+      227
+     ],
+     [
+      2020,
+      302,
+      60,
+      361
+     ],
+     [
+      2021,
+      281,
+      51,
+      332
+     ],
+     [
+      2022,
+      267,
+      43,
+      310
+     ],
+     [
+      2023,
+      271,
+      36,
+      307
+     ],
+     [
+      2024,
+      275,
+      30,
+      306
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-swagger-llamas/p337.webp",
+   "key_insight": "EbWex is 94% business-use and Zam is 62% non-business-use in 2024; Zam (the more Swagger-Llamas-relevant, non-business platform) surged ~2.3x in 2020 versus EbWex's ~1.5x, then has declined every year since (60M→30M, roughly -15%/year), while EbWex/business use dipped less and has been slowly recovering — confirming Swagger Llamas' addressable (non-business/social) market is shrinking structurally, not just cyclically.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Exhibit C – Penetration at Top-10 programs",
+   "page": 338,
+   "kind": "bar",
+   "description": "Bar chart of Swagger Llamas' 2024 penetration (share of virtual events using Swagger Llamas) at each of the 10 target MBA programs (Schools A-J), with the average (15%) marked, plus each school's forecast number of virtual events for 2024.",
+   "data": {
+    "columns": [
+     "School",
+     "Penetration (%)",
+     "Forecast Virtual Events (2024)"
+    ],
+    "rows": [
+     [
+      "A",
+      15,
+      "1.9K"
+     ],
+     [
+      "B",
+      15,
+      "2.2K"
+     ],
+     [
+      "C",
+      15,
+      "1.7K"
+     ],
+     [
+      "D",
+      5,
+      "2.5K"
+     ],
+     [
+      "E",
+      25,
+      "1.4K"
+     ],
+     [
+      "F",
+      5,
+      "2.1K"
+     ],
+     [
+      "G",
+      25,
+      "1.5K"
+     ],
+     [
+      "H",
+      10,
+      "2.0K"
+     ],
+     [
+      "I",
+      25,
+      "2.3K"
+     ],
+     [
+      "J",
+      5,
+      "1.9K"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-swagger-llamas/p338.webp",
+   "key_insight": "Penetration ranges widely from 5% to 25% (average 15%) across otherwise-similar schools; Schools D, F, H, and J sit well below average, making them the clearest targets for a penetration-driven growth push rather than schools already near or above 15%.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the incremental 2025 revenue from raising penetration at Schools D, F, H, and J to Swagger Llamas' 15% average?",
+   "givens": [
+    "Penetration increases: D +10pp (5%→15%), F +10pp (5%→15%), H +5pp (10%→15%), J +10pp (5%→15%)",
+    "Forecast 2025 events (using 2024 forecast, since program rankings don't change): D 2.5K, F 2.1K, H 2.0K, J 1.9K",
+    "Average event length = 45 minutes = 3 fifteen-minute intervals",
+    "Price = $11 per 15-minute interval"
+   ],
+   "steps": [
+    "D: 10% × 2,500 events × 3 intervals × $11 = $8,250 ≈ $8.3K",
+    "F: 10% × 2,100 × 3 × $11 = $6,930 ≈ $6.9K",
+    "H: 5% × 2,000 × 3 × $11 = $3,300 = $3.3K",
+    "J: 10% × 1,900 × 3 × $11 = $6,270 ≈ $6.3K",
+    "Total incremental revenue = $8.3K + $6.9K + $3.3K + $6.3K = $24.8K"
+   ],
+   "answer": "$24.8K of incremental revenue from increasing penetration at Schools D, F, H, and J to the 15% average",
+   "answer_value": 24.8,
+   "unit": "$K incremental revenue",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is total 2025 revenue and growth rate versus 2024, combining the expected 15% baseline decline with the penetration-driven incremental revenue?",
+   "givens": [
+    "2024 revenue = $106K",
+    "Expected 2025 decline (absent action) = 15%",
+    "Incremental revenue from penetration gains (m1) = $24.8K"
+   ],
+   "steps": [
+    "Baseline 2025 revenue = $106K × (1 − 15%) = $90.1K",
+    "Total 2025 revenue = $90.1K + $24.8K = $114.9K",
+    "Growth vs. 2024 = ($114.9K − $106K) / $106K ≈ 8.4%"
+   ],
+   "answer": "Total 2025 revenue of $114.9K, roughly 8% growth over 2024 — clearing the client's 5% growth goal",
+   "answer_value": 114.9,
+   "unit": "$K total 2025 revenue",
+   "verified": true
+  }
+ ],
+ "synthesis": "Swagger Llamas should focus its near-term growth efforts on increasing penetration at its most under-penetrated Top-10 programs — Schools D, F, H, and J — up to the company's 15% average penetration level. This yields ~$24.8K of incremental revenue, bringing total 2025 revenue to ~$114.9K, roughly 8% growth over 2024 and above the client's 5% target, even after accounting for the expected 15% baseline decline in the shrinking non-business virtual-meetings market. The plan should be paired with 1-2 high-impact tactics (e.g., an endorsement/referral campaign, or targeted school-administration negotiation) to actually drive the penetration gain. Risks: the core non-business virtual-meeting market continues to shrink rapidly, and this plan only addresses one year of growth, leaving the longer-term trajectory in question. Next steps: pilot the effort at 1-2 schools before rolling out to all four, explore evolving the business model (e.g., non-MBA customers) in the medium term, and diversify away from reliance on virtual-only formats longer term.",
+ "what_great_looks_like": [
+  "Drives the case proactively — asking for the right exhibit at the right time rather than waiting to be prompted",
+  "Correctly parses the deliberately data-dense Exhibit B to isolate that Zam/non-business is the relevant, structurally-declining segment for Swagger Llamas",
+  "Executes the multi-step penetration math cleanly (identifying target schools, computing per-school incremental revenue, netting against the baseline decline) without getting lost in chart-reading minutiae",
+  "Connects the final recommendation explicitly back to the 5% growth goal and flags that the fix is only a one-year solution"
+ ],
+ "common_pitfalls": [
+  "Treating all ten schools' 2024 forecast event volumes as this year's numbers without checking they're being reused as the 2025 assumption (per the case's 'rankings don't change' assumption)",
+  "Using the wrong platform (EbWex/business) as the relevant market trend instead of Zam/non-business",
+  "Computing incremental revenue without correctly converting 45-minute events into 3 fifteen-minute billing intervals",
+  "Forgetting to net the $24.8K penetration gain against the expected 15% baseline revenue decline before comparing to the 5% growth goal"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book's own figures ($8.3K, $6.9K, $3.3K, $6.3K, $24.8K total, $90.1K baseline, $114.9K total 2025 revenue, ~8% growth) were independently recomputed and matched (within normal rounding) exactly. The fit-question text in the book reads 'Tell me about a time that you lead a time to meet an aggressive deadline,' which appears to be a typo for 'led a team'; corrected here as a light cleanup per extraction guidance.",
+  "fields_inferred": [
+   "difficulty",
+   "tags",
+   "industry (tech-saas/consumer-internet is inferred from the business model, since the printed X13 Technology label has no taxonomy sub-industry equivalent given)",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

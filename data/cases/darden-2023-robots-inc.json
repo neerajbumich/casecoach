@@ -1,0 +1,362 @@
+{
+ "id": "darden-2023-robots-inc",
+ "title": "Robots Inc.",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  115,
+  125
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Growth",
+ "industry": "ai-cloud",
+ "sub_industry": "ai-platforms",
+ "industry_source_label": "Technology",
+ "geography": "North America; considering international expansion",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2; Quantitative 3; Qualitative 2 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "generative-ai",
+  "market-entry",
+  "market-penetration",
+  "linear-growth",
+  "payback",
+  "npv",
+  "healthcare"
+ ],
+ "fit_question": "Describe a time when you had to adapt your approach or strategy due to unexpected circumstances during a project.",
+ "prompt": "Robots Inc. is a rapidly growing startup in the artificial intelligence sector specializing in generative AI models for various industries. Recently, with the popularity of AI, the company has attracted a large amount of funding and plans to expand their services. However, since it's a very new market, there are so many opportunities to be explored. For this reason, the CEO approached you with a question: Which new market and application should we invest our money in?",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Leverage generative-AI expertise to expand services, enter high-growth markets, grow revenue and secure a strong market position."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Develop and license customized generative-AI models to industries. A past fashion-retail project used customer data to create innovative clothing designs with positive results."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Currently North America, with international expansion under consideration."
+  },
+  {
+   "question_topic": "Generative AI",
+   "answer": "Models learn from existing patterns using techniques such as deep learning and neural networks to create content, data or solutions, including text, images and drug-discovery applications."
+  }
+ ],
+ "interviewer_notes": "Tests market analysis, penetration, exhibits and NPV; suggested after 15–20 cases. Begin with broad market opportunities; if the candidate requests company finances or specific products too early, redirect to a general opportunity assessment. Release Exhibit 1 for sector selection, then Exhibit 2 for healthcare applications. Assume equal year-on-year application growth. Read the investment math question after Exhibit 2. Provide the 10% discount rate, current year 2023 and linear-growth clarification only on request. The source's solution ultimately uses undiscounted payback despite discussing NPV; distinguish the two rather than implying that the discounted hurdle is met.",
+ "suggested_framework": {
+  "summary": "Select a promising AI market and application, then test economics, capabilities and regulatory feasibility.",
+  "tree": {
+   "label": "Where should Robots Inc. invest?",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "AI segments, market size and growth"
+      },
+      {
+       "label": "Competition, concentration and entry barriers"
+      }
+     ]
+    },
+    {
+     "label": "Offering and economics",
+     "children": [
+      {
+       "label": "Customer needs and suitable AI solution"
+      },
+      {
+       "label": "Revenue, costs, investment returns"
+      },
+      {
+       "label": "Pricing, promotion, freemium and demand creation"
+      }
+     ]
+    },
+    {
+     "label": "Capabilities",
+     "children": [
+      {
+       "label": "Funding needs and available capital"
+      },
+      {
+       "label": "Suppliers, bargaining power and operational capacity"
+      },
+      {
+       "label": "Current and future regulation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you identify an attractive expansion opportunity?",
+   "release_when": "After the prompt; provide clarifications if requested.",
+   "info_to_release": "Robots Inc. licenses tailored generative-AI models, operates in North America and wants high-growth expansion opportunities.",
+   "expected_answer": "Compare segment size and growth, competition and customer problems, then evaluate application economics and implementation capabilities. Include AI-specific regulatory risk. Start with the broad market before choosing a specific product.",
+   "good_answer_signals": [
+    "Tailors the framework to AI and regulation."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What insights can you derive from the market-size exhibit?",
+   "release_when": "Show Exhibit 1 when the candidate chooses to examine market opportunities.",
+   "info_to_release": "Candidate chart shows healthcare, manufacturing, finance, retail and other AI applications from 2023 to 2026, in USD billions. Segment values are not numerically labeled.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "The overall market expands rapidly, roughly doubling over the period. Healthcare and finance are particularly promising, with healthcare the largest segment by 2026. Healthcare grows from about $2bn to $5bn, or 2.5 times. Pursue financial information on healthcare applications. The source summarizes annual market growth as roughly 20–30%, with annotated rates 21%, 34% and 27%; use these as approximate guidance, not precise results from rounded segment labels.",
+   "good_answer_signals": [
+    "Combines size and growth rather than selecting a segment solely on current size.",
+    "Moves from a sector recommendation to specific applications."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Which healthcare application should Robots Inc. investigate? Assume all applications grow at the same rate.",
+   "release_when": "Show Exhibit 2 after the healthcare discussion.",
+   "info_to_release": "2023 application markets in USD millions: medical imaging 500, disease prediction 400, genomic analysis 350, drug discovery 300, personalized medicine 250, treatment optimization 200. The chart total is $2bn.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Medical imaging is the largest application at $500m. With the sector's 2.5-times growth and equal application growth, its market would reach about $1.25bn in 2026. Ask for required investment and ongoing costs before committing.",
+   "good_answer_signals": [
+    "Connects the healthcare-sector forecast to the application chart.",
+    "Does not treat market size alone as an investment case."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Will the medical-imaging investment pay back within three years, by 2026?",
+   "release_when": "Read after insights from Exhibit 2; discount rate and current year only if asked.",
+   "info_to_release": "Medical imaging is currently $500m and grows linearly to $1.25bn in 2026. Initial investment is $200m in 2023. Annual operating costs are $8m starting in 2024. Market penetration is 5% in 2024, growing 40% per year through 2026. Target payback is 3 years, by 2026. If asked: current year is 2023, discount rate 10%, market growth applies linearly in 2024–2026.",
+   "expected_answer": "Market size grows by $250m annually to $750m/$1,000m/$1,250m. Penetration is 5%/7%/9.8%, producing revenue $37.5m/$70m/$122.5m and net operating cash flows $29.5m/$62m/$114.5m. Undiscounted cumulative inflows are $206m, exceeding $200m by $6m, so simple payback occurs by 2026. The source rounds penetration to 10%, producing $208.5m; exact arithmetic retains 9.8%. At the supplied 10% rate, end-year discounted inflows are only $164.083m and NPV is −$35.917m through 2026, so discounted payback is not achieved. No post-2026 or terminal cash flows are supplied.",
+   "good_answer_signals": [
+    "Distinguishes linear market growth from compounded penetration.",
+    "Keeps the initial investment at time zero.",
+    "Separates simple payback from discounted value."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What applications outside healthcare might the company explore?",
+   "release_when": "After the investment calculation.",
+   "info_to_release": "No additional numerical data.",
+   "expected_answer": "Entertainment: AI park characters, better in-game experiences and streaming-content generation. Finance: market analysis, investment bots tailored to risk preferences and fraud detection. Education: adaptive study plans, tailored teaching assistants and plagiarism detection. Present a structured, creative set of ideas.",
+   "good_answer_signals": [
+    "Groups applications by sector and states a clear use case."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What would you tell the CEO?",
+   "release_when": "After the quantitative and qualitative analysis.",
+   "info_to_release": "No new information.",
+   "expected_answer": "Prioritize healthcare medical imaging for further investment diligence: healthcare grows from $2bn to $5bn, and imaging is the largest application, potentially $1.25bn by 2026. It meets the stated simple-payback test with $206m undiscounted inflows against $200m invested, but does not meet discounted payback at 10%; three-year NPV is −$35.917m absent later value. Assess regulatory compliance, competition/IP and adoption. Research regulation, develop an IP strategy and engage experts/customers before committing.",
+   "good_answer_signals": [
+    "Qualifies the source's positive recommendation with the discounting inconsistency.",
+    "Links next steps to regulation, IP and customer adoption."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "AI market size, 2023–2026",
+   "page": 118,
+   "kind": "bar",
+   "description": "Stacked market chart in USD billions with five sectors. Values are not individually labeled. Only clearly readable healthcare endpoints central to the case are transcribed; other precise segment-year values are omitted rather than guessed.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Year",
+     "Approximate size (USD billions)"
+    ],
+    "rows": [
+     [
+      "Healthcare",
+      2023,
+      2
+     ],
+     [
+      "Healthcare",
+      2026,
+      5
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-robots-inc/p118.webp",
+   "key_insight": "Healthcare and finance are promising; healthcare grows approximately 2.5 times and is the largest endpoint segment.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex2",
+   "title": "Potential healthcare application markets, 2023",
+   "page": 120,
+   "kind": "waterfall",
+   "description": "Application market-size inputs in USD millions, totaling $2bn. Individual step values are readable from the chart and corroborated by source guidance; the computed total is omitted from the data rows.",
+   "data": {
+    "columns": [
+     "Application",
+     "Market size (USD millions)"
+    ],
+    "rows": [
+     [
+      "Medical imaging",
+      500
+     ],
+     [
+      "Disease prediction",
+      400
+     ],
+     [
+      "Genomic analysis",
+      350
+     ],
+     [
+      "Drug discovery",
+      300
+     ],
+     [
+      "Personalized medicine",
+      250
+     ],
+     [
+      "Treatment optimization",
+      200
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-robots-inc/p120.webp",
+   "key_insight": "Medical imaging is the largest individual opportunity under equal application growth.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the projected medical-imaging market?",
+   "givens": [
+    "Healthcare $2bn in 2023, $5bn in 2026",
+    "Medical imaging $500m in 2023",
+    "Equal application growth"
+   ],
+   "steps": [
+    "Healthcare growth multiple = 5/2 = 2.5.",
+    "Medical imaging = $500m × 2.5 = $1,250m."
+   ],
+   "answer": "$1.25 billion in 2026.",
+   "answer_value": 1250,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What market, share and revenue are expected each year?",
+   "givens": [
+    "Market grows linearly from $500m to $1,250m over 3 years",
+    "Penetration 5% in 2024, then 40% annual growth"
+   ],
+   "steps": [
+    "Annual market addition = (1,250−500)/3 = $250m.",
+    "Markets = $750m/$1,000m/$1,250m.",
+    "Shares = 5%; 5%×1.4=7%; 7%×1.4=9.8%.",
+    "Revenues = $37.5m/$70m/$122.5m."
+   ],
+   "answer": "Exact 2026 revenue is $122.5m; rounding penetration to 10% gives the book's $125m.",
+   "answer_value": 122.5,
+   "unit": "USD millions 2026 revenue",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Does undiscounted payback occur by 2026?",
+   "givens": [
+    "Revenue $37.5m/$70m/$122.5m",
+    "$8m annual operating costs",
+    "$200m initial investment"
+   ],
+   "steps": [
+    "Cash flows = $29.5m/$62m/$114.5m.",
+    "Total = $206m; after initial capital, surplus = $6m.",
+    "With uniform within-year cash generation, approximate payback = 2 + (200−29.5−62)/114.5 = 2.9476 years; end-year convention establishes recovery by end2026."
+   ],
+   "answer": "Yes for simple payback: $206m total inflows versus $200m invested. The book's $208.5m uses explicitly rounded penetration.",
+   "answer_value": 206,
+   "unit": "USD millions cumulative operating cash flow",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "Does the investment achieve discounted payback at the supplied 10% rate?",
+   "givens": [
+    "2023 investment $200m",
+    "2024–2026 cash flows $29.5m/$62m/$114.5m",
+    "10% discount rate"
+   ],
+   "steps": [
+    "Assuming end-year cash flows, PV = 29.5/1.1 + 62/1.1² + 114.5/1.1³ = $164.083396m.",
+    "NPV through 2026 = $164.083396m − $200m = −$35.916604m."
+   ],
+   "answer": "No discounted payback by 2026; three-year NPV is approximately −$35.917m, excluding any later cash flows.",
+   "answer_value": -35.9166040571,
+   "unit": "USD millions NPV",
+   "verified": false,
+   "book_answer_if_different": "Source supplies 10% discount rate and says the year affects NPV, but concludes from '$208.5 M > $200 M' that the goal is met without discounting. That supports simple payback only; discounted recovery fails."
+  }
+ ],
+ "synthesis": "Prioritize healthcare medical imaging for further diligence: healthcare expands approximately 2.5 times to $5bn, and imaging could reach $1.25bn. The model meets simple payback by 2026 with $206m cumulative operating cash flow against $200m invested, but at the supplied 10% rate its three-year NPV is −$35.917m and discounted payback fails. Confirm the intended hurdle and longer-term cash flows, then address regulation, IP/competition and adoption through regulatory research, IP protection and customer/expert engagement.",
+ "what_great_looks_like": [
+  "Uses a market-first approach tailored to generative AI.",
+  "Connects sector growth to application potential.",
+  "Separates linear market expansion from compounded penetration.",
+  "Recognizes the difference between undiscounted payback and NPV."
+ ],
+ "common_pitfalls": [
+  "Compounding the market despite an explicit linear-growth assumption.",
+  "Adding 40 percentage points to penetration instead of multiplying by 1.4.",
+  "Calling cumulative operating inflows profit after investment.",
+  "Ignoring the 10% rate while claiming a discounted investment test is passed."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (unlabeled non-healthcare and intermediate-year values omitted)"
+  ],
+  "math_verified": false,
+  "notes": "Candidate charts visually reviewed. Source solution uses rounded stacked-chart labels whose sums do not consistently match rounded totals; exact unlabeled segment-year values are not copied from solution annotations. Healthcare endpoints $2bn/$5bn are clear. Source explicitly rounds 9.8% to10%, so $125m revenue/$208.5m inflows are allowed approximations; exact results are $122.5m/$206m. Material inconsistency: source supplies a10% discount rate and mentions NPV but ignores it. Simple payback passes; discounted payback does not, with three-year NPV −$35.917m under conventional end-year timing. No terminal value or post2026 cash flows given. Case header incorrectly numbers Robots as11; contents order is10. All math recomputed in math-darden-robots.py. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "math[2].steps[2] (uniform within-year interpolation)",
+   "math[3] (discounted correction and end-year convention)",
+   "synthesis (qualified recommendation)"
+  ]
+ }
+}

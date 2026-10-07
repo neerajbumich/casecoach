@@ -1,0 +1,423 @@
+{
+ "id": "ross-2025-eurorail",
+ "title": "EuroRail",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  141,
+  148
+ ],
+ "variant_group_id": "ross-2025-eurorail",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Growth/Revenue",
+  "Pricing"
+ ],
+ "case_type_source_label": "Hospitality | Growth",
+ "industry": "hospitality",
+ "sub_industry": "travel",
+ "industry_source_label": "Hospitality",
+ "geography": "Europe",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 3, Qual - 2, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "price-elasticity",
+  "revenue-growth",
+  "capacity-constrained",
+  "segmentation",
+  "new-revenue-stream",
+  "per-unit-economics",
+  "opportunity-cost"
+ ],
+ "concepts_tested": [
+  "converting a yearly revenue target to a per-unit (per train per day) target",
+  "price elasticity trade-off across two segments",
+  "repurposing freed capacity",
+  "net-new-revenue accounting for a cannibalized asset with a launch delay"
+ ],
+ "prompt": "Our client, EuroRail, is a railway company that operates luxury trains across Europe. It is a very different kind of railway company where tourists sign up for a 24-hour trip on the train. The trains are like hotels on wheels with various amenities on board - ranging from a ballroom, jacuzzi, spa, and a bar. These trains are very popular in Europe and run at 100% capacity throughout the year. It's the end of 2022 and the company is looking to quickly increase its yearly revenue for year 2023. What should they do?",
+ "clarifying_info": [
+  {
+   "question_topic": "Revenue growth goal",
+   "answer": "Increase revenues by at least €44M for the year 2023. Current revenue is €365M, so €44M is about 12% growth."
+  },
+  {
+   "question_topic": "Average pricing",
+   "answer": "The company charges €100 per person per trip on average; if candidate asks about segments/tiers, provide ticket prices by segment from Exhibit 1."
+  },
+  {
+   "question_topic": "Fleet size",
+   "answer": "The company operates 20 trains across Europe."
+  },
+  {
+   "question_topic": "Capacity and demand",
+   "answer": "The trains run at 100% capacity, 365 days a year. Demand for Luxury currently perfectly matches capacity, but demand for Economy is so high that the company has to deny many registrations every day."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "No competitor in the market."
+  }
+ ],
+ "interviewer_notes": "Acceptable performance: a good candidate creates a framework exploring revenue growth levers only (not cost/profit, which is out of scope). Exceptional performance: candidate recognizes the trains run at 100% capacity and avoids volume-based growth ideas (lower price, target new customers, more marketing); also considers inorganic growth but recognizes it isn't feasible within a one-year window. Interviewer should shoot down ideas like new routes/trains or adding coaches (infeasible in one year / no engine capacity) and push the candidate toward price increases or cabin-tier mix changes. Do not show Exhibit 2 until Exhibit 1 has been worked through. This case is hard to solve at the yearly level — a good candidate brings everything down to a per-train-per-day level (360 days/year is fine).",
+ "suggested_framework": {
+  "summary": "Grow revenue through higher average spend per passenger, new onboard revenue streams, or inorganic growth — with time-to-market and capacity constraints ruling most levers out except price/mix changes and onboard streams.",
+  "tree": {
+   "label": "EuroRail Revenue Growth",
+   "children": [
+    {
+     "label": "Increase Average Spend",
+     "children": [
+      {
+       "label": "Increase prices"
+      },
+      {
+       "label": "Change mix of cabin tiers"
+      },
+      {
+       "label": "Introduce new tiers in train"
+      },
+      {
+       "label": "Improve quality of onboard services to drive more onboard sales"
+      }
+     ]
+    },
+    {
+     "label": "Find New Revenue Stream",
+     "children": [
+      {
+       "label": "Introduce casinos onboard (like cruise ships)"
+      },
+      {
+       "label": "Place advertisements inside/outside trains"
+      },
+      {
+       "label": "Partner with luxury companies for commission-based onboard sales"
+      },
+      {
+       "label": "Add more coaches to the train"
+      }
+     ]
+    },
+    {
+     "label": "Grow Inorganically",
+     "children": [
+      {
+       "label": "Add new trains to the fleet"
+      },
+      {
+       "label": "Expand to other geographies / new routes"
+      },
+      {
+       "label": "Acquire competitors"
+      },
+      {
+       "label": "Partner with other railway operators"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you think about growing EuroRail's revenue for 2023?",
+   "expected_answer": "Candidate builds a framework around increasing average spend per passenger, finding new onboard revenue streams, and inorganic growth, while staying focused on revenue (not cost/profit) levers.",
+   "good_answer_signals": [
+    "framework is revenue-only, not cost/profit",
+    "recognizes 100% capacity constraint and avoids volume-based ideas",
+    "flags that inorganic growth is likely infeasible within a one-year window"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "clarify",
+   "interviewer_asks": "Push the candidate toward price increase or cabin-tier mix ideas; shoot down new routes/trains/coaches as infeasible in one year.",
+   "release_when": "If candidate asks about willingness to pay, current pricing, and tiers",
+   "info_to_release": "Exhibit 1: EuroRail train has 10 Economy coaches and 10 Luxury coaches, each coach with 10 cabins at 2 PAX/cabin. Ticket per PAX: €75 Economy, €125 Luxury. Onboard spend per PAX: €25 for both segments. Price-demand relationship: for every 1% price increase, Luxury demand drops roughly 0.5% and Economy demand drops roughly 1.5% (at 20% price increase, Luxury demand drops ~10% and Economy demand drops ~30%). EuroRail will not raise prices more than 20% due to fear of public outrage.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate should convert the €44M annual target into a per-train-per-day figure and use the price-demand data to identify which segment to raise prices on.",
+   "good_answer_signals": [
+    "converts the annual goal into a per-train-per-day target before doing further math",
+    "asks for the price-demand curve rather than assuming"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Given the price-demand relationship, which segment should EuroRail raise prices on, and what price increase gets closest to the target?",
+   "info_to_release": "Goal = €44M / (20 trains x 360 days) = €6,111 (~€6,000) per train per day additional revenue. Current Luxury ticket sales = 10 coaches x 10 cabins x 2 PAX x €125 = €25,000/day; Current Economy ticket sales = 10 x 10 x 2 x €75 = €15,000/day; Current total = €40,000/day.",
+   "expected_answer": "Economy has much higher price elasticity (steeper % demand drop per % price increase) than Luxury, so price should be raised on the Luxury segment only. At a 10% Luxury price increase (5% demand drop): Luxury = €25,000 x 1.1 x 0.95 = €26,125; Economy (backfilled with upgraded passengers, see next stage) = €15,000 x 1.05 = €15,750; Total = €41,875, i.e. only €1,875 additional revenue — not enough. At a 20% Luxury price increase (10% demand drop, the maximum allowed): Luxury = €25,000 x 1.2 x 0.90 = €27,000; Economy = €15,000 x 1.1 = €16,500; Total = €43,500, i.e. €3,500 additional revenue per train per day — still short of the ~€6,000 target, so additional revenue streams must be explored.",
+   "good_answer_signals": [
+    "correctly identifies Economy's higher elasticity as the reason to leave Economy price alone",
+    "computes the combined Luxury + backfilled-Economy revenue impact, not just Luxury alone",
+    "recognizes even the maximum 20% increase falls short of target"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Raising the luxury price will free up some cabins as demand drops. What should EuroRail do with those freed cabins? (Ask 'what else' until candidate is out of ideas.)",
+   "expected_answer": "Guide candidate toward giving loyal Economy passengers a free upgrade into the freed Luxury cabins, charging them only the Economy price (€75/person) rather than leaving cabins empty — since Economy demand is high enough to fill any freed capacity. This backfill is what's embedded in the Economy ticket sales figures above (15,000 x 1.05 and x 1.1).",
+   "good_answer_signals": [
+    "arrives at 'free upgrade for loyal economy passengers' without being told directly",
+    "connects the freed-cabin idea back to the €15,750/€16,500 economy figures already computed"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "I like the idea of the 20% price hike, but what else can we do? (Candidate should return to the framework and explore additional revenue streams — e.g., a casino coach.)",
+   "release_when": "After candidate exhausts the pricing lever and returns to the framework for new revenue streams",
+   "info_to_release": "Exhibit 2 (for interviewer): EuroRail wants to add a casino coach. Additional revenue: €25 per PAX. The casino coach is created by converting 1 existing Economy coach. The casino will require 6 months to launch.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidate should compute the revenue lost from converting an Economy coach, the new casino revenue (recognizing only 380 total train PAX remain and that revenue only accrues for half the year due to the 6-month launch), and net it out.",
+   "good_answer_signals": [
+    "realizes converting the coach removes 20 Economy PAX from the train (400 -> 380 total)",
+    "accounts for the 6-month launch delay reducing the casino's first-year revenue to 50% of a full year"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Calculate the net new revenue per train per day from adding the casino coach.",
+   "info_to_release": "Revenue lost: 20 Economy PAX x (€75 ticket + €25 onboard spend) = €2,000. New casino revenue: 380 total PAX x €25 x 50% (half-year due to 6-month launch) = €4,750.",
+   "expected_answer": "Net new revenue = €4,750 - €2,000 = €2,750 per train per day.",
+   "good_answer_signals": [
+    "uses 380 PAX (not 400) in the new-revenue calculation",
+    "applies the 50%-of-year discount for the 6-month launch delay"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are some pros and cons of adding a Casino Coach?",
+   "expected_answer": "Pros: high revenue potential long-term; makes the train more attractive to all passengers; could help justify the 20% price increase. Cons: possible regulatory issues; casinos are risky investments (EuroRail could lose money on bad days); requires high investment (security, surveillance, dealers, etc.); long time to launch.",
+   "good_answer_signals": [
+    "balances upside (revenue, attractiveness) against downside (regulatory, capital risk)",
+    "connects casino idea back to justifying the price increase"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to EuroRail?",
+   "expected_answer": "To achieve its €44M revenue growth target for 2023, EuroRail should increase the price of its Luxury segment by 20%, accepting the resulting 10% drop in Luxury demand, and give free upgrades to loyal Economy travelers to backfill the freed-up Luxury cabins (combined €3,500 additional revenue per train per day). EuroRail should also convert one Economy coach per train into a casino coach (additional €2,750 revenue per train per day, net of lost Economy revenue and the 6-month launch delay). Together these moves get EuroRail meaningfully closer to its ~€6,000/train/day target, though not fully there, so further revenue ideas should continue to be explored. Key risks: price increase may not be well received by travelers and could invite new competition into an attractive market; casino operations are risky and capital-intensive. Next steps: announce the casino launch alongside the price hike with supporting marketing/communications; conduct customer research on casino game selection; consult lawyers on casino regulations; hire designers to redesign the coach.",
+   "good_answer_signals": [
+    "gives a clear two-part recommendation (price + casino) with dollar figures",
+    "acknowledges the combined impact still may not fully close the gap to target",
+    "flags risks and concrete next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Data from consumer insights team",
+   "page": 144,
+   "kind": "other",
+   "description": "Diagram of a EuroRail train (10 Economy coaches, 10 Luxury coaches; 10 cabins/coach, 2 PAX/cabin), a table of revenue streams (ticket price and onboard spend per PAX by segment), and a price-demand relationship line chart showing % decrease in demand vs. % increase in price for Luxury and Economy segments.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Ticket per PAX",
+     "Onboard Spend per PAX",
+     "Cabins per Coach",
+     "PAX per Cabin",
+     "Coaches"
+    ],
+    "rows": [
+     [
+      "Economy",
+      "€75",
+      "€25",
+      10,
+      2,
+      10
+     ],
+     [
+      "Luxury",
+      "€125",
+      "€25",
+      10,
+      2,
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-eurorail/p144.webp",
+   "key_insight": "Economy demand is far more price-elastic than Luxury demand (steeper demand-drop curve), so any price increase should target the Luxury segment; EuroRail also caps any price increase at 20% due to public-outrage risk.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Casino Coach economics (for interviewer)",
+   "page": 146,
+   "kind": "text",
+   "description": "Interviewer-only data on the proposed casino coach: incremental revenue per passenger, the fact that it replaces one Economy coach, and its 6-month launch timeline, plus the worked net-new-revenue solution.",
+   "data": {
+    "columns": [
+     "Item",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Additional revenue per PAX",
+      "€25"
+     ],
+     [
+      "Coach conversion",
+      "1 Economy coach -> Casino coach"
+     ],
+     [
+      "Time to launch",
+      "6 months"
+     ],
+     [
+      "Revenue lost from conversion (per train/day)",
+      "€2,000"
+     ],
+     [
+      "New casino revenue (per train/day, year-1)",
+      "€4,750"
+     ],
+     [
+      "Net new revenue (per train/day, year-1)",
+      "€2,750"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-eurorail/p146.webp",
+   "key_insight": "Converting an Economy coach to a casino only nets €2,750/day once the lost Economy PAX revenue and the 6-month launch delay (50% of year-1 revenue) are both accounted for — nearly half of the naive €4,750 headline figure is offset.",
+   "data_confidence": "high",
+   "image_has_answers": true
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Convert the €44M annual revenue growth goal into a per-train-per-day target.",
+   "givens": [
+    "Goal = €44M over the year",
+    "20 trains",
+    "360 days/year (approximation allowed)"
+   ],
+   "steps": [
+    "Per train per day target = €44,000,000 / (20 x 360) = €44,000,000 / 7,200",
+    "= €6,111 per train per day (okay to round to €6,000)"
+   ],
+   "answer": "≈€6,111 (rounded to €6,000) additional revenue needed per train per day",
+   "answer_value": 6111,
+   "unit": "€/train/day",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is current daily ticket revenue per train, and what is the additional revenue from a 10% vs. 20% Luxury price increase (with Economy backfilling freed Luxury cabins)?",
+   "givens": [
+    "Luxury: 10 coaches x 10 cabins x 2 PAX x €125 = €25,000/day",
+    "Economy: 10 coaches x 10 cabins x 2 PAX x €75 = €15,000/day",
+    "10% Luxury price increase -> 5% Luxury demand drop",
+    "20% Luxury price increase -> 10% Luxury demand drop",
+    "Freed Luxury cabins backfilled by Economy passengers at €75/person"
+   ],
+   "steps": [
+    "Current total = €25,000 + €15,000 = €40,000/day",
+    "10% increase: Luxury = €25,000 x 1.1 x 0.95 = €26,125; Economy (incl. backfill) = €15,000 x 1.05 = €15,750; Total = €41,875 -> +€1,875/day (short of target)",
+    "20% increase: Luxury = €25,000 x 1.2 x 0.90 = €27,000; Economy (incl. backfill) = €15,000 x 1.1 = €16,500; Total = €43,500 -> +€3,500/day (still short of ~€6,000 target)"
+   ],
+   "answer": "A 20% Luxury price increase (the maximum allowed) yields €3,500/day in additional revenue — the best pricing-only outcome, but still short of the ~€6,000/day target.",
+   "answer_value": 3500,
+   "unit": "€/train/day additional revenue",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the net new revenue per train per day from converting one Economy coach into a Casino coach?",
+   "givens": [
+    "1 Economy coach has 10 cabins x 2 PAX = 20 PAX",
+    "Lost Economy PAX revenue = 20 x (€75 ticket + €25 onboard) ",
+    "Casino revenue = €25/PAX across the train's remaining 380 total PAX (400 - 20 lost to conversion)",
+    "Casino only operates for 50% of year 1 due to 6-month launch"
+   ],
+   "steps": [
+    "Revenue lost = 20 PAX x (€75 + €25) = 20 x €100 = €2,000",
+    "New casino revenue = 380 PAX x €25 x 50% = €4,750",
+    "Net new revenue = €4,750 - €2,000 = €2,750"
+   ],
+   "answer": "€2,750 net new revenue per train per day in year 1",
+   "answer_value": 2750,
+   "unit": "€/train/day",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "Combining the 20% Luxury price increase and the Casino coach, how close does EuroRail get to its ~€6,000/train/day target?",
+   "givens": [
+    "20% price increase impact = €3,500/train/day",
+    "Casino coach net new revenue = €2,750/train/day",
+    "Target = ~€6,111/train/day"
+   ],
+   "steps": [
+    "Combined additional revenue = €3,500 + €2,750 = €6,250/train/day",
+    "Compare to target of ~€6,111/train/day"
+   ],
+   "answer": "Combined additional revenue of ~€6,250/train/day slightly exceeds the ~€6,111/train/day target, meeting (and modestly beating) the €44M annual goal.",
+   "answer_value": 6250,
+   "unit": "€/train/day",
+   "verified": true
+  }
+ ],
+ "synthesis": "To achieve its €44M revenue growth target for 2023, EuroRail should raise Luxury segment prices by 20% (the maximum allowed before risking public outrage), accepting the resulting 10% drop in Luxury demand, and offer free upgrades to loyal Economy travelers to backfill the freed-up Luxury cabins — together generating €3,500 in additional revenue per train per day. EuroRail should also convert one Economy coach per train into a casino, generating a further €2,750 in net new revenue per train per day (after accounting for lost Economy revenue and the 6-month launch delay). Combined, these two levers generate roughly €6,250 per train per day, which meets the ~€6,111 per train per day target implied by the €44M annual goal. Key risks: the price increase may not be well received by travelers and could attract new entrants to an attractive, currently competitor-free market; the casino is a risky, capital-intensive investment subject to regulatory hurdles. Next steps: announce the casino launch alongside the price hike with supporting marketing and communications, conduct customer research to decide which games to offer, consult lawyers on casino regulations, and hire designers to redesign the coach.",
+ "what_great_looks_like": [
+  "Recognizes early that the trains run at 100% capacity, so volume-based revenue ideas are out of scope",
+  "Converts the €44M annual target into a per-train-per-day figure before doing further math",
+  "Uses the price-demand exhibit to correctly identify Luxury (not Economy) as the segment to raise prices on",
+  "Independently arrives at the idea of backfilling freed Luxury cabins with upgraded Economy passengers",
+  "Correctly nets casino revenue against lost Economy revenue and discounts for the 6-month launch delay",
+  "Combines both levers into a single quantified recommendation against the original target"
+ ],
+ "common_pitfalls": [
+  "Suggesting volume-growth ideas (lower prices, more marketing, new customer segments) despite the 100% capacity constraint",
+  "Raising Economy prices instead of Luxury prices, missing the elasticity difference shown in Exhibit 1",
+  "Forgetting to account for the freed Luxury cabins after a price increase",
+  "Using 400 PAX instead of 380 PAX (or full-year instead of half-year) in the casino coach math",
+  "Working the case entirely at the annual level instead of bringing it down to a per-train-per-day figure"
+ ],
+ "follow_ups": [
+  "What other onboard revenue streams could EuroRail explore beyond a casino coach?",
+  "How might EuroRail's 20% price increase change its competitive risk profile given there are currently no competitors?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[0].data (price-demand % drop values for intermediate price points are read off a line chart rather than printed as exact numbers, though the 10%/20% endpoints used in the math are corroborated by text.txt)"
+  ],
+  "math_verified": true,
+  "notes": "Exhibit image audit 2026-09-28: pages that also show interviewer notes are flagged image_has_answers.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "sub_industry",
+   "concepts_tested",
+   "math[3] (combined-total check; not spelled out as a discrete step in the book but implied by the conclusion's dollar figures)"
+  ]
+ }
+}

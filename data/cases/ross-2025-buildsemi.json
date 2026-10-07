@@ -1,0 +1,433 @@
+{
+ "id": "ross-2025-buildsemi",
+ "title": "BuildSemi",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  66,
+  75
+ ],
+ "variant_group_id": "ross-2025-buildsemi",
+ "is_canonical_variant": true,
+ "case_type": [
+  "New Product/GTM",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Engineering & Construction | New Product",
+ "industry": "semiconductors",
+ "sub_industry": "semiconductor-equipment",
+ "industry_source_label": "Engineering & Construction (semiconductor equipment manufacturing)",
+ "geography": "Global (HQ northern California; production in Taiwan)",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 1, Qual - 2, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "new-product",
+  "market-entry",
+  "semiconductors",
+  "facility-location",
+  "breakeven",
+  "capacity",
+  "supply-chain"
+ ],
+ "concepts_tested": [
+  "market sizing from public data",
+  "location/site-selection tradeoffs",
+  "breakeven unit calculation with a product mix ratio"
+ ],
+ "prompt": "Your client, BuildSemi, is a semiconductor equipment manufacturer who produces equipment to create Memory and ASIC (Application-Specific Integrated Circuit) semiconductor chips. BuildSemi has recently seen an increase in worldwide demand for GPU (Graphics Processing Unit) chips, so the CEO has approached you to determine if manufacturing GPU production equipment is the best for the company. The CEO believes that by offering this new product, they can capture a share of a growing market. What factors should BuildSemi consider when expanding their portfolio into this new market?",
+ "clarifying_info": [
+  {
+   "question_topic": "Headquarters and factory locations",
+   "answer": "Headquartered in northern California, but production of their equipment is completed in Taiwan."
+  },
+  {
+   "question_topic": "What GPU chips are used for",
+   "answer": "GPU chips are traditionally used for accelerating computer graphics and rendering. They are increasingly used in fields for artificial intelligence (AI) and machine learning (ML) applications."
+  },
+  {
+   "question_topic": "Can Memory/ASIC equipment be used to make GPU chips? What equipment does BuildSemi produce?",
+   "answer": "No, the products BuildSemi would create are different. If asked, the equipment used is in the chemical vapor deposition steps."
+  },
+  {
+   "question_topic": "Does BuildSemi make semiconductor chips?",
+   "answer": "No, only the equipment used in the semiconductor fabrication process."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led case testing new-product market entry for semiconductor equipment: market sizing/landscape interpretation, facility location tradeoffs, a breakeven-unit calculation with a product mix ratio, and a brainstorm on new-plant considerations. Ratings: Quant - 1, Qual - 2, Overall - 2 (book's own scale).",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering profitability, market potential, entry strategy, and client-specific factors for the new GPU equipment line.",
+  "tree": {
+   "label": "BuildSemi GPU equipment entry",
+   "children": [
+    {
+     "label": "Profitability",
+     "children": [
+      {
+       "label": "Revenue",
+       "children": [
+        {
+         "label": "Market size/growth"
+        },
+        {
+         "label": "Equipment price / quantity"
+        }
+       ]
+      },
+      {
+       "label": "Costs",
+       "children": [
+        {
+         "label": "Fixed Costs: IP and R&D, licenses"
+        },
+        {
+         "label": "Variable Costs: material, labor, customer acquisition"
+        },
+        {
+         "label": "Upfront costs: new manufacturing site, new line in existing factory, retooling"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Market Potential",
+     "children": [
+      {
+       "label": "Existing competition"
+      },
+      {
+       "label": "Customers",
+       "children": [
+        {
+         "label": "Targeted segmentation"
+        },
+        {
+         "label": "Drivers – AI"
+        }
+       ]
+      },
+      {
+       "label": "Trends",
+       "children": [
+        {
+         "label": "Semiconductor boom or bust?"
+        },
+        {
+         "label": "Geopolitical tensions? Trade? Tariffs?"
+        },
+        {
+         "label": "CHIPS and Science Act, supplement semiconductors"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Entry Strategy",
+     "children": [
+      {
+       "label": "Green field (build a new line or new factory)"
+      },
+      {
+       "label": "Acquisition (M&A)"
+      },
+      {
+       "label": "Partnership (JV)"
+      },
+      {
+       "label": "Geographical location for supply chain + customers"
+      }
+     ]
+    },
+    {
+     "label": "Client Factors",
+     "children": [
+      {
+       "label": "Brand perception amongst B2B clients"
+      },
+      {
+       "label": "Existing IP"
+      },
+      {
+       "label": "Existing partnerships with chip customers"
+      },
+      {
+       "label": "Capacity constraints"
+      },
+      {
+       "label": "Loss of focus on core competencies"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What factors should BuildSemi consider when expanding their portfolio into the GPU equipment market?",
+   "expected_answer": "A framework covering profitability (revenue drivers, cost structure), market potential (competition, customers, trends like AI demand and geopolitics/CHIPS Act), entry strategy (green field, acquisition, partnership, location), and client-specific factors (brand perception, existing IP/partnerships, capacity constraints, focus risk).",
+   "good_answer_signals": [
+    "Structures around profitability, market, entry strategy, and client-specific factors",
+    "Distinguishes BuildSemi's equipment business from actually manufacturing chips"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "The client has some public information about the semiconductor equipment market. What do you notice about this figure and table?",
+   "info_to_release": "Exhibit 1: pie chart of market share of semiconductor equipment manufacturers (Semi-A 22%, Semi-B 16%, Semi-C 8%, Unaddressed 54%) and a table of total market size by year (2025: $79.3B, 2026: $80.9B, 2027: $82.5B, 2028: $84.2B, 2029: $85.8B).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Much of the market's demand is unmet (54% unaddressed), and total market size is expected to grow roughly 2% YoY, so entering this market seems slightly attractive. Entering this market may take years due to the long time to build a factory, so it may be a good idea to look into acquiring a startup or a company with existing plans to build a new factory or add lines to existing plants.",
+   "good_answer_signals": [
+    "Gives an overview of the exhibit before diving into insights",
+    "Calculates or references the ~2% YoY growth rate and the size of the unaddressed 54% share",
+    "Relates the data back to the case prompt (attractiveness of entry)",
+    "When pushed for more, generates additional organized thoughts beyond what's directly shown (e.g., time-to-build, acquisition as a faster entry route)"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "BuildSemi has decided to investigate building their own GPU plant (ground up), and they need to determine the best location. Please review the exhibit and let me know what you think.",
+   "info_to_release": "Exhibit 2: world map and table of 8 candidate locations (Texas US; Bogota, CO; Lagos, NG; Shanghai, CN; Chengdu, CN; Taipei, TW; Seoul, KR; Hanoi, VN) each rated on cost ($ to $$$$), workforce skill (1/5 to 5/5), and other notes (subsidies, trade relations, political stability, US relations), plus BuildSemi's HQ (California), existing plant (Taiwan), and customer clusters (US, Europe, and Asia) shown on the map.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Taiwan is a strong choice for the new fabrication facility because of its proximity to the existing plant (enabling cross-training to build new employees' competency) and its highly skilled workforce (5/5), despite geographic weather risk (typhoons, earthquakes) and higher cost — the return is worth the risk-mitigation cost given the skilled workforce. Texas is also a strong choice because it's close to headquarters, has a low risk of international conflict, and can upskill its workforce via local community colleges/trade centers; it's the most expensive option but this could be mitigated through partnerships and aggressive customer acquisition.",
+   "good_answer_signals": [
+    "Weighs both positives and negatives across locations rather than picking on cost alone",
+    "References HQ proximity, existing plant proximity, workforce skill needed for a highly technical process, US relations/geopolitical stability, and proximity to customer clusters",
+    "Reaches a defensible recommendation (e.g., Taiwan or Texas) with tradeoffs acknowledged"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "There are many different types of equipment sold to chip fabrication facilities, and BuildSemi could likely produce GPU equipment focused on three steps: lithography, chemical vapor deposition, and etching. If lithography equipment is priced at $25M per unit, deposition at $7M, and etching at $5M, how many units would need to be sold to pay off a $1.2B facility?",
+   "info_to_release": "Do not consider any other costs besides the facility. Equipment sales mix: 1/14 of all units sold would be Lithography EQP, 5/14 would be Deposition EQP, and 4/7 (=8/14) would be Etching EQP.",
+   "release_when": "If asked",
+   "expected_answer": "For every 14 units sold (the ratio 1:5:8), revenue = 1×$25M + 5×$7M + 8×$5M = $25M + $35M + $40M = $100M. $1.2B / $100M = 12 sets of 14 units. So BuildSemi needs to sell 12 Lithography EQP, 60 Deposition EQP, and 96 Etching EQP (168 units total) to pay off the $1.2B facility.",
+   "good_answer_signals": [
+    "Recognizes the mix percentages reduce to a 1:5:8 ratio totaling 14 units costing $100M",
+    "Correctly scales up by the factor of 12 to get final unit counts per equipment type",
+    "Provides the 'so-what': how long this might take to sell, whether these purchase quantities are typical, production time per unit, and who the customers are (e.g., TSMC)"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "The CEO is leaning towards building a facility from scratch. What factors would you consider when opening a new plant?",
+   "expected_answer": "Physical considerations: layout/space utilization, semiconductor clean room environment. Processes and methodologies: lean or six sigma, creating SOPs, hiring specialized talent, quality inspections, leveraging existing start-up knowledge, existing local tier 2/3 suppliers. Automation and technology: robots for palletizing and logistical support, demand management and forecasting, warehousing.",
+   "good_answer_signals": [
+    "Structures the answer into distinct major buckets (physical, process, automation/technology)",
+    "Generates additional ideas when pushed further by the interviewer"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to BuildSemi's CEO on entering the GPU equipment market and where to build the facility?",
+   "expected_answer": "Interviewee should justify whether the CEO should create a new GPU equipment facility and in which location. Example recommendation: build in Taiwan because of the advanced labor pool available there, proximity to potential customer clusters, and proximity to the existing ASIC/memory equipment plant. Risks include supply chain concentration, global tariffs, and client knowledge gaps (as highlighted in the brainstorming). Next steps: address the risks outlined in the recommendation, begin discussions with manufacturing contractors, get land quotes, and start engaging with new GPU customer clusters to understand product demands.",
+   "good_answer_signals": [
+    "Ties the location recommendation back to earlier exhibit analysis (Taiwan's workforce skill and proximity)",
+    "Names concrete risks (supply chain concentration, tariffs, client knowledge gaps) and next steps (manufacturing contractor discussions, land quotes, customer engagement)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Semiconductor industry landscape",
+   "page": 69,
+   "kind": "pie",
+   "description": "Pie chart of market share of semiconductor equipment manufacturers (Semi-A 22%, Semi-B 16%, Semi-C 8%, Unaddressed 54%), alongside a table of total semiconductor equipment market size by year from 2025 ($79.3B) to 2029 ($85.8B).",
+   "data": {
+    "columns": [
+     "Segment/Year",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Semi-A market share",
+      "22%"
+     ],
+     [
+      "Semi-B market share",
+      "16%"
+     ],
+     [
+      "Semi-C market share",
+      "8%"
+     ],
+     [
+      "Unaddressed market share",
+      "54%"
+     ],
+     [
+      "Market size 2025",
+      "$79.3B"
+     ],
+     [
+      "Market size 2026",
+      "$80.9B"
+     ],
+     [
+      "Market size 2027",
+      "$82.5B"
+     ],
+     [
+      "Market size 2028",
+      "$84.2B"
+     ],
+     [
+      "Market size 2029",
+      "$85.8B"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-buildsemi/p069.webp",
+   "key_insight": "54% of the semiconductor equipment market is unaddressed by the three named competitors, and total market size is growing roughly 2% per year, suggesting meaningful open opportunity for a new entrant like BuildSemi.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Candidate GPU plant locations",
+   "page": 71,
+   "kind": "table",
+   "description": "World map showing BuildSemi's HQ (California), existing plant (Taiwan), 8 optional plant locations, and customer clusters (US, Europe, Asia), plus a table rating each candidate location on cost, workforce skill (out of 5), and other notes.",
+   "data": {
+    "columns": [
+     "Location Option",
+     "Cost",
+     "Workforce Skill",
+     "Other Notes"
+    ],
+    "rows": [
+     [
+      "Texas, US",
+      "$$$$",
+      "3/5",
+      "Gov subsidize, close to HQ"
+     ],
+     [
+      "Bogota, CO",
+      "$",
+      "1/5",
+      "Good trading partner"
+     ],
+     [
+      "Lagos, NG",
+      "$",
+      "1/5",
+      "Developing economy"
+     ],
+     [
+      "Shanghai, CN",
+      "$$",
+      "4/5",
+      "Unstable gov relations"
+     ],
+     [
+      "Chengdu, CN",
+      "$$",
+      "4/5",
+      "Unstable gov relations"
+     ],
+     [
+      "Taipei, TW",
+      "$$$",
+      "5/5",
+      "Good US relations"
+     ],
+     [
+      "Seoul, KR",
+      "$$$",
+      "5/5",
+      "Good US relations"
+     ],
+     [
+      "Hanoi, VN",
+      "$",
+      "2/5",
+      "Good US relations"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-buildsemi/p071.webp",
+   "key_insight": "Taipei and Seoul offer the best combination of high workforce skill (5/5) and good US relations, and Taipei has the added advantage of being co-located with BuildSemi's existing plant; Texas is close to HQ and has low geopolitical risk but is the most expensive and has lower workforce skill.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many units of each equipment type would BuildSemi need to sell to pay off a $1.2B facility, given the pricing and sales mix?",
+   "givens": [
+    "Lithography equipment: $25M per unit",
+    "Deposition equipment: $7M per unit",
+    "Etching equipment: $5M per unit",
+    "Sales mix: 1/14 Lithography, 5/14 Deposition, 4/7 (8/14) Etching",
+    "Facility cost: $1.2B",
+    "Consider only the facility cost, no other costs"
+   ],
+   "steps": [
+    "Mix ratio per 14 units sold: 1 Lithography, 5 Deposition, 8 Etching",
+    "Revenue per 14-unit set = 1×$25M + 5×$7M + 8×$5M = $25M + $35M + $40M = $100M",
+    "Number of 14-unit sets needed = $1.2B / $100M = 12",
+    "Lithography units = 12 × 1 = 12",
+    "Deposition units = 12 × 5 = 60",
+    "Etching units = 12 × 8 = 96",
+    "Total units = 12 + 60 + 96 = 168"
+   ],
+   "answer": "12 Lithography EQP, 60 Deposition EQP, and 96 Etching EQP (168 units total)",
+   "answer_value": 168,
+   "unit": "units",
+   "verified": true
+  }
+ ],
+ "synthesis": "Interviewee should justify whether the CEO should create a new GPU equipment facility and in which location. Example: build in Taiwan because of the advanced labor pool available there, the proximity to its potential customer clusters, and its proximity to its existing ASIC/memory equipment plant.",
+ "what_great_looks_like": [
+  "Gives an overview of each exhibit before diving into insights, then ties insights back to the case prompt",
+  "Calculates the ~2% YoY market growth and the 54% unaddressed share and explains why those numbers matter",
+  "Weighs both positive and negative factors for facility location rather than optimizing on a single dimension (e.g., cost alone)",
+  "Recognizes the equipment sales mix reduces to a clean ratio (1:5:8) before scaling to the full facility payoff",
+  "Structures the new-plant brainstorm into clear major buckets and keeps generating ideas when pressed further"
+ ],
+ "common_pitfalls": [
+  "Treating the unaddressed 54% market share as automatically capturable without discussing entry barriers (long factory build times, capital intensity)",
+  "Recommending a plant location on cost alone without weighing workforce skill or geopolitical stability",
+  "Miscomputing the equipment mix ratio (e.g., forgetting 4/7 = 8/14) when solving the breakeven problem",
+  "Failing to give a 'so-what' after computing unit volumes (e.g., feasibility of selling 168 units, time to produce and sell)"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

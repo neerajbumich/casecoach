@@ -1,0 +1,135 @@
+{
+ "id": "competitive-response",
+ "name": "Competitive response",
+ "category": "core",
+ "summary": "A competitor made a move (price cut, new product, entry). Understand the move and its real impact on us, the competitor's likely intent and staying power, then weigh our options: ignore, match, differentiate, or counter-attack.",
+ "opening_line": "Before reacting, I'd quantify how much the competitor's move actually hurts us and understand why they did it. Then I'd compare our options: ignore, match, differentiate, or counter where they're weak.",
+ "when_to_use": [
+  "A competitor cut prices, launched a product or entered the market",
+  "New disruptive entrant"
+ ],
+ "when_not_to_use": [
+  "General profit decline with no specific competitor trigger: use profitability"
+ ],
+ "tree": {
+  "label": "Respond?",
+  "children": [
+   {
+    "label": "The move",
+    "children": [
+     {
+      "label": "What exactly changed?"
+     },
+     {
+      "label": "Which customers/segments are affected?"
+     }
+    ]
+   },
+   {
+    "label": "Impact on us",
+    "children": [
+     {
+      "label": "Share / volume at risk"
+     },
+     {
+      "label": "Profit impact"
+     }
+    ]
+   },
+   {
+    "label": "Competitor",
+    "children": [
+     {
+      "label": "Intent & strategy"
+     },
+     {
+      "label": "Cost position & staying power"
+     }
+    ]
+   },
+   {
+    "label": "Options",
+    "children": [
+     {
+      "label": "Do nothing"
+     },
+     {
+      "label": "Match price"
+     },
+     {
+      "label": "Differentiate / add value"
+     },
+     {
+      "label": "Counter-attack elsewhere"
+     },
+     {
+      "label": "Partner / acquire"
+     }
+    ]
+   },
+   {
+    "label": "Choose",
+    "children": [
+     {
+      "label": "Profit impact of each"
+     },
+     {
+      "label": "Competitor counter-reaction"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Impact",
+   "questions": [
+    "How many customers are actually switching?"
+   ],
+   "data_to_ask": [
+    "Share trend since the move"
+   ]
+  },
+  {
+   "name": "Options",
+   "questions": [
+    "What does each option cost, and what does it save?"
+   ],
+   "data_to_ask": [
+    "Price elasticity",
+    "Cost positions"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "airlines",
+   "note": "Route-level fare wars: compare cost per seat on the contested routes."
+  }
+ ],
+ "common_mistakes": [
+  "Reflexively matching a price cut (price war)",
+  "Not quantifying the actual impact",
+  "Ignoring the competitor's cost position and intent"
+ ],
+ "related": [
+  "pricing",
+  "porters-five-forces",
+  "three-cs"
+ ],
+ "match": {
+  "case_types": [
+   "Competitive Response"
+  ],
+  "tags": [
+   "competitive-response",
+   "price-war",
+   "competition"
+  ],
+  "keywords": [
+   "competitor",
+   "respond",
+   "response"
+  ]
+ }
+}

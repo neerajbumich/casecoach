@@ -1,0 +1,98 @@
+{
+ "id": "supply-demand",
+ "name": "Supply & demand",
+ "category": "tool",
+ "summary": "Price and volume in a market move with shifts in demand (customers, substitutes, income, trends) and supply (capacity, input costs, entrants). Use it to explain or forecast market prices.",
+ "opening_line": "A price change in a commodity-like market is usually a shift in supply or demand, so I'd look at what changed on each side and how capacity will respond.",
+ "when_to_use": [
+  "Commodity or market price changes (oil, crops, shipping rates)",
+  "Forecasting market prices or capacity additions"
+ ],
+ "when_not_to_use": [
+  "Differentiated products where the firm sets its own price: use pricing"
+ ],
+ "tree": {
+  "label": "Market price & volume",
+  "children": [
+   {
+    "label": "Demand",
+    "children": [
+     {
+      "label": "Customer volume & growth"
+     },
+     {
+      "label": "Substitutes"
+     },
+     {
+      "label": "Macro / seasonality"
+     }
+    ]
+   },
+   {
+    "label": "Supply",
+    "children": [
+     {
+      "label": "Capacity & utilisation"
+     },
+     {
+      "label": "Input costs"
+     },
+     {
+      "label": "New entrants / exits"
+     }
+    ]
+   },
+   {
+    "label": "Equilibrium",
+    "children": [
+     {
+      "label": "Price elasticity"
+     },
+     {
+      "label": "Time to adjust"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Shift",
+   "questions": [
+    "Did the demand curve or the supply curve move?"
+   ],
+   "data_to_ask": [
+    "Volumes, capacity, input prices over time"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "oil-gas",
+   "note": "OPEC supply decisions, shale breakeven costs, demand from transport and industry."
+  },
+  {
+   "industry": "agriculture",
+   "note": "Weather and yields drive supply; stock-to-use ratio."
+  }
+ ],
+ "common_mistakes": [
+  "Not distinguishing short-run vs long-run supply response"
+ ],
+ "related": [
+  "pricing",
+  "operations-capacity"
+ ],
+ "match": {
+  "case_types": [],
+  "tags": [
+   "supply-demand",
+   "commodity"
+  ],
+  "keywords": [
+   "supply",
+   "demand",
+   "capacity"
+  ]
+ }
+}

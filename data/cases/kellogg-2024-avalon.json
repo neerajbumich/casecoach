@@ -1,0 +1,428 @@
+{
+ "id": "kellogg-2024-avalon",
+ "title": "Avalon",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  65,
+  74
+ ],
+ "author": "Pairoj Kiatpanya (Kellogg 2021)",
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Y06 Opportunity assessment",
+ "industry": "utilities",
+ "sub_industry": "power-generation",
+ "industry_source_label": "X03 Energy, Utilities & Mining",
+ "geography": "Avalon (fictional small island developing country, tropical Pacific)",
+ "client_type": "public sector",
+ "format": "interviewer-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "public-sector",
+  "utilities",
+  "power-generation",
+  "capacity-planning",
+  "levelized-cost",
+  "renewables-vs-gas",
+  "risk-assessment",
+  "sustainability"
+ ],
+ "concepts_tested": [
+  "Z12 Creativity (1)"
+ ],
+ "fit_question": "What is your greatest weakness? Tell me about a team experience when you were hampered by this weakness.",
+ "prompt": "Our client is Avalon government, particularly the Avalon department of energy. Avalon is a small developing country. The department is responsible for all electricity production inside the country. The country is doing very well with GDP growth at 5% on average over the last decade. As economies grow, electricity demand increases. The energy department wants to ensure that the country has enough electricity supply to sustain the GDP growth by adding new power plants. There are many options to consider: solar, wind, coal, natural gas, nuclear and etc. The government wants to know which type of power plants they should build? And what are the factors they should consider?",
+ "clarifying_info": [
+  {
+   "question_topic": "Location/natural resources",
+   "answer": "Avalon is a small island located in a tropical area of the Pacific ocean. It has no access to natural resources such as coal or natural gas — these have to be imported. However, it has an abundance of wind."
+  },
+  {
+   "question_topic": "Electricity demand",
+   "answer": "Electricity demand is projected to increase significantly as the economy grows and the country moves toward electric vehicles in the near future."
+  },
+  {
+   "question_topic": "GDP growth",
+   "answer": "Most of the growth comes from foreign investments, as international companies outsource their manufacturing to a cheaper labor market. These companies care not only about access to cheap electricity but also clean and sustainable sources to maintain their brand image."
+  },
+  {
+   "question_topic": "Market structure",
+   "answer": "The Avalon energy market is essentially a regulated market — the government sets all electricity prices and essentially monopolizes the energy market, like most developing countries."
+  },
+  {
+   "question_topic": "Objective",
+   "answer": "The government wants to make sure that its people have sufficient, clean, cheap and reliable (uninterrupted) energy supply."
+  }
+ ],
+ "interviewer_notes": "Client is in the public sector. The case tests candidates' ability to really think (as opposed to applying a memorized framework and practicing lots of cases) since candidates will typically not be as familiar with the topic. The objective of a government agency is not just profit (though profit may be part of it). Candidates are encouraged to be creative and to think about different stakeholders and the impacts of the decision on different fronts (cost, environment, local industry, etc.). The case is structured to be more of an interviewer-led case style.",
+ "suggested_framework": {
+  "summary": "Evaluate power plant type choices across three lenses: economic impact/energy equity, environmental impact/sustainability, and security.",
+  "tree": {
+   "label": "Which power plant type should Avalon build?",
+   "children": [
+    {
+     "label": "Economic impact/energy equity",
+     "children": [
+      {
+       "label": "Cost/investment required"
+      },
+      {
+       "label": "Impact on the number of jobs created"
+      },
+      {
+       "label": "Impact on local GDP"
+      }
+     ]
+    },
+    {
+     "label": "Environmental impact/sustainability",
+     "children": [
+      {
+       "label": "CO2 emissions/greenhouse gases"
+      },
+      {
+       "label": "Other air pollution (PM2.5)"
+      },
+      {
+       "label": "Water pollution"
+      },
+      {
+       "label": "Amount of land used (deforestation?)"
+      },
+      {
+       "label": "Waste"
+      }
+     ]
+    },
+    {
+     "label": "Security",
+     "children": [
+      {
+       "label": "Import/export dependence on other countries"
+      },
+      {
+       "label": "Diversification (not depending on just one source)"
+      },
+      {
+       "label": "Intermittency (renewable energy is unstable)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem of which type of power plant(s) Avalon should build.",
+   "release_when": "Only after candidate asks — release clarifying information (location/resources, demand, GDP growth drivers, regulated market, government objective) on request.",
+   "info_to_release": "Clarifying information: island nation with no domestic coal/gas (must import) but abundant wind; demand growing with EV adoption; regulated, government-monopoly market; objective is sufficient, clean, cheap, reliable power.",
+   "expected_answer": "A structure covering three main buckets (book notes these are 'just an example and guideline'): (1) Economic impact/energy equity — cost/investment required, jobs created, impact on local GDP; (2) Environmental impact/sustainability — CO2/greenhouse gases, other air pollution (PM2.5), water pollution, land use/deforestation, waste; (3) Security — import/export dependence, diversification, intermittency of renewables.",
+   "good_answer_signals": [
+    "Goes beyond a rote profitability framework given the public-sector client",
+    "Explicitly considers non-profit objectives (equity, sustainability, energy security)",
+    "Organizes MECE-ish buckets rather than a laundry list"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Calculate the required additional amount of electricity capacity Avalon needs to add, and by when.",
+   "release_when": "When candidate asks to quantify the supply/demand gap, or after structure is complete.",
+   "info_to_release": "Exhibit A — projected demand and supply capacity (GW) for current/2025/2030; note that the government requires a minimum grid capacity of 20% above projected demand, and that a new power plant takes 2 years to build.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Required capacity = demand x 1.2. By 2025: 6.0 x 1.2 = 7.2 GW required vs. 4.9 GW projected supply → 2.3 GW must be added (construction must start in 2023). By 2030: 7.3 x 1.2 = 8.76 GW required (book rounds to 8.6); since the 2.3 GW added for 2025 persists into 2030, additional capacity needed = required(2030) − supply(2030) − capacity already committed in 2025 ≈ 8.76 − 4.3 − 2.3 ≈ 2.2 GW (book states 2 GW), and construction must start by 2028. Bonus insight: in the current year, required capacity is only 4.8 GW (4.0 x 1.2) vs. 5.4 GW actual supply — 0.6 GW of existing capacity is an inefficient/wasted investment.",
+   "good_answer_signals": [
+    "Applies the 20% buffer correctly",
+    "Recognizes the 2-year build lead time and backs into start-build years (2023, 2028)",
+    "Notices capacity added in 2025 persists into the 2030 calculation",
+    "Spots the current-year over-capacity inefficiency for bonus points"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Now suppose Avalon is considering three types of power plants — wind, solar, and natural gas. How should the government decide among the three options?",
+   "release_when": "After the capacity gap is established.",
+   "info_to_release": "Exhibit B — lifetime, load factor, CAPEX, fixed O&M, and variable O&M for wind, solar, and natural gas.",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Convert all costs to a common unit ($/kWh): (1) running hours = 24 x 365 x load factor x lifetime; (2) total fixed cost = CAPEX + (fixed O&M x lifetime); (3) $/kWh = total fixed cost / running hours; (4) add variable O&M. Results: Wind ≈ $0.02/kWh, Solar ≈ $0.057/kWh, Natural gas ≈ $0.016/kWh. Natural gas is cheapest on a pure cost basis, though ~31% of its cost is the volatile variable (fuel) cost.",
+   "good_answer_signals": [
+    "Correctly normalizes CAPEX (a $/kW stock measure) into a $/kWh flow measure via running hours",
+    "Remembers to multiply fixed O&M by lifetime before combining with CAPEX",
+    "Flags that no cost of capital is assumed and asks about it",
+    "Notices natural gas's cost exposure to fuel-price risk"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "Based on your analysis, what would you recommend to the Avalon government, and what risks should they consider?",
+   "expected_answer": "On cost alone, natural gas is cheapest and demand growth is significant, so it looks attractive. However, further analysis on pollution, local GDP impact, and dependence on other countries is needed. A reasonable recommendation is to diversify across all three (or multiple) technologies to spread risk, while flagging risks for whichever option is chosen: higher/volatile natural gas costs, protests from environmentalists, dependence on imported raw materials (gas), and intermittency of wind/solar if renewables are recommended. Excellent candidates note the government will need a large capital investment, which may be hard to finance as a developing country, and raise cost of capital as a missing input.",
+   "good_answer_signals": [
+    "Recommendation is not purely cost-driven — weighs the qualitative framework buckets too",
+    "Proactively lists concrete risks tied to the chosen option(s)",
+    "Mentions capital availability/financing as a constraint for a developing-country government",
+    "Raises cost of capital as an assumption/limitation of the cost analysis"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Electricity demand and supply projection",
+   "page": 68,
+   "kind": "bar",
+   "description": "Two side-by-side bar charts: projected electricity demand (GW) for current/2025/2030, and projected supply capacity (GW) for the same years. Demand rises (4.0 → 6.0 → 7.3 GW) while supply capacity falls (5.4 → 4.9 → 4.3 GW) because old power plants will be retired. Notes: it takes 2 years to build a new power plant; the government requires minimum grid capacity of at least 20% above projected demand.",
+   "data": {
+    "columns": [
+     "Year",
+     "Projected demand (GW)",
+     "Projected supply capacity (GW)"
+    ],
+    "rows": [
+     [
+      "current",
+      4,
+      5.4
+     ],
+     [
+      "2025",
+      6,
+      4.9
+     ],
+     [
+      "2030",
+      7.3,
+      4.3
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-avalon/p068.webp",
+   "key_insight": "A widening gap opens between rising demand and shrinking existing supply, which, combined with the mandated 20% buffer and 2-year build lead time, forces the government to add capacity well ahead of the shortfall.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exB",
+   "title": "Costs of wind, solar and natural gas",
+   "page": 69,
+   "kind": "table",
+   "description": "Table of technical/cost inputs for wind, solar, and natural gas power plants: lifetime (years), load factor (%), CAPEX ($/kW), fixed O&M ($/kW-year), and variable O&M ($/MWh).",
+   "data": {
+    "columns": [
+     "Metric",
+     "Unit",
+     "Wind",
+     "Solar",
+     "Natural gas"
+    ],
+    "rows": [
+     [
+      "Lifetime",
+      "Year",
+      15,
+      10,
+      20
+     ],
+     [
+      "Load factor",
+      "%",
+      50,
+      20,
+      80
+     ],
+     [
+      "CAPEX",
+      "$/kW",
+      1000,
+      900,
+      1200
+     ],
+     [
+      "Fixed O&M costs",
+      "$/kW-year",
+      20,
+      10,
+      20
+     ],
+     [
+      "Variable O&M costs",
+      "$/MWh",
+      0,
+      0,
+      5
+     ]
+    ]
+   },
+   "key_insight": "Natural gas has the highest load factor and longest lifetime, which spreads its higher CAPEX over far more running hours than solar in particular, making it the cheapest option per kWh despite its variable fuel cost.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-avalon/p069.webp"
+  }
+ ],
+ "math": [
+  {
+   "id": "capacity-2025",
+   "question": "How much additional electricity capacity must Avalon add by 2025, and when must construction start?",
+   "givens": [
+    "2025 projected demand = 6.0 GW",
+    "Required buffer = 20% above demand",
+    "2025 projected supply = 4.9 GW",
+    "Build lead time = 2 years"
+   ],
+   "steps": [
+    "Required capacity = demand x 1.2 = 6.0 x 1.2 = 7.2 GW",
+    "Additional capacity needed = required − projected supply = 7.2 − 4.9 = 2.3 GW",
+    "Construction must start 2 years early, i.e., in 2023"
+   ],
+   "answer": "2.3 GW of additional capacity must be added by 2025 (construction starting 2023).",
+   "answer_value": 2.3,
+   "unit": "GW",
+   "verified": true
+  },
+  {
+   "id": "capacity-2030",
+   "question": "How much additional electricity capacity must Avalon add by 2030, and when must construction start?",
+   "givens": [
+    "2030 projected demand = 7.3 GW",
+    "Required buffer = 20% above demand",
+    "2030 projected supply = 4.3 GW",
+    "2.3 GW added for 2025 remains available in 2030",
+    "Build lead time = 2 years"
+   ],
+   "steps": [
+    "Required capacity = 7.3 x 1.2 = 8.76 GW",
+    "Total supply available by 2030 = projected supply + capacity already committed in 2025 = 4.3 + 2.3 = 6.6 GW",
+    "Additional capacity needed = 8.76 − 6.6 ≈ 2.16 GW (≈2.2 GW)",
+    "Construction must start 2 years early, i.e., in 2028"
+   ],
+   "answer": "≈2.2 GW of additional capacity must be added by 2030 (construction starting 2028).",
+   "answer_value": 2.2,
+   "unit": "GW",
+   "verified": false,
+   "book_answer_if_different": "Book computes required 2030 capacity as 7.3 x 1.2 = 8.6 GW (arithmetic should be 8.76) and additional capacity as 2 GW via '8.6 − 4.3 + 2.3' (printed with a '+', but only 8.6 − 4.3 − 2.3 = 2.0 reproduces their stated answer of 2 GW)."
+  },
+  {
+   "id": "current-year-waste",
+   "question": "Bonus: is there any inefficiency in the current (pre-2025) supply-demand balance?",
+   "givens": [
+    "Current demand = 4.0 GW",
+    "Required buffer = 20% above demand",
+    "Current supply = 5.4 GW"
+   ],
+   "steps": [
+    "Required capacity = 4.0 x 1.2 = 4.8 GW",
+    "Excess supply = actual supply − required = 5.4 − 4.8 = 0.6 GW"
+   ],
+   "answer": "0.6 GW of existing supply capacity is excess/wasted relative to the 20% buffer requirement.",
+   "answer_value": 0.6,
+   "unit": "GW",
+   "verified": true
+  },
+  {
+   "id": "wind-cost-per-kwh",
+   "question": "What is the levelized cost of wind power, in $/kWh?",
+   "givens": [
+    "Lifetime = 15 years",
+    "Load factor = 50%",
+    "CAPEX = $1000/kW",
+    "Fixed O&M = $20/kW-year",
+    "Variable O&M = $0/MWh"
+   ],
+   "steps": [
+    "Running hours = 24 x 365 x 0.50 x 15 = 65,700 hours",
+    "Total fixed cost = CAPEX + (fixed O&M x lifetime) = 1000 + (20 x 15) = $1,300/kW",
+    "Cost = 1300 / 65,700 = $0.0198/kWh (~$0.02/kWh)",
+    "Add variable O&M (0) → $0.02/kWh"
+   ],
+   "answer": "≈$0.02/kWh",
+   "answer_value": 0.02,
+   "unit": "$/kWh",
+   "verified": true
+  },
+  {
+   "id": "solar-cost-per-kwh",
+   "question": "What is the levelized cost of solar power, in $/kWh?",
+   "givens": [
+    "Lifetime = 10 years",
+    "Load factor = 20%",
+    "CAPEX = $900/kW",
+    "Fixed O&M = $10/kW-year",
+    "Variable O&M = $0/MWh"
+   ],
+   "steps": [
+    "Running hours = 24 x 365 x 0.20 x 10 = 17,520 hours",
+    "Total fixed cost = 900 + (10 x 10) = $1,000/kW",
+    "Cost = 1000 / 17,520 = $0.0571/kWh",
+    "Add variable O&M (0) → $0.057/kWh"
+   ],
+   "answer": "≈$0.057/kWh",
+   "answer_value": 0.057,
+   "unit": "$/kWh",
+   "verified": true
+  },
+  {
+   "id": "gas-cost-per-kwh",
+   "question": "What is the levelized cost of natural gas power, in $/kWh?",
+   "givens": [
+    "Lifetime = 20 years",
+    "Load factor = 80%",
+    "CAPEX = $1200/kW",
+    "Fixed O&M = $20/kW-year",
+    "Variable O&M = $5/MWh = $0.005/kWh"
+   ],
+   "steps": [
+    "Running hours = 24 x 365 x 0.80 x 20 = 140,160 hours",
+    "Total fixed cost = 1200 + (20 x 20) = $1,600/kW",
+    "Cost = 1600 / 140,160 = $0.0114/kWh (~$0.011/kWh)",
+    "Add variable O&M ($0.005/kWh) → ≈$0.016/kWh"
+   ],
+   "answer": "≈$0.016/kWh (cheapest of the three; ~31% of this is the variable/fuel component)",
+   "answer_value": 0.016,
+   "unit": "$/kWh",
+   "verified": true
+  }
+ ],
+ "synthesis": "Based on the cost analysis alone, Avalon government should invest in the natural gas power plant — it is the cheapest option per kWh and demand projections predict a significant need for new generation. However, more analysis is needed on pollution, impact on local GDP, and dependence on other countries. One reasonable recommendation is to invest in a diversified mix of all three technologies to spread risk. Whatever the recommendation, candidates must identify the associated risks: higher/volatile cost of natural gas, potential protests from environmentalists, dependence on imported raw materials (natural gas), and the intermittency of wind/solar if renewables are recommended.",
+ "what_great_looks_like": [
+  "Creates a creative, tailored structure for the problem as a whole rather than a memorized framework",
+  "Identifies that the government will need a large capital investment, which is a real constraint for a developing country",
+  "Identifies or mentions cost of capital as a missing input to the cost analysis"
+ ],
+ "common_pitfalls": [
+  "Defaulting to a standard profitability framework instead of adapting to a public-sector, multi-stakeholder objective",
+  "Confusing $/kW (a capacity/stock cost) with $/kWh (an energy/flow cost) and skipping the running-hours conversion",
+  "Forgetting that fixed O&M is an annual cost and must be multiplied by lifetime before combining with CAPEX",
+  "Missing that capacity added for 2025 persists into the 2030 calculation, double-counting the shortfall",
+  "Recommending purely on cost without weighing environmental, security, and equity considerations"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "math[1] (capacity-2030) — book's own arithmetic appears inconsistent"
+  ],
+  "math_verified": false,
+  "notes": "Book's 2030 required-capacity figure (8.6 GW) does not match 7.3 x 1.2 = 8.76 GW, and the printed subtraction '8.6 - 4.3 + 2.3' only reproduces the stated answer of 2 GW if read as a subtraction (8.6 - 4.3 - 2.3 = 2.0); likely an OCR/typo of a minus sign combined with a rounding choice. Recomputed value using 8.76 is preserved in math[1].answer while the book's figures are kept in book_answer_if_different.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "common_pitfalls",
+   "case_type (mapped to fixed taxonomy list)"
+  ]
+ }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "telecom-infra",
+  "name": "Digital Infrastructure",
+  "group": "Tech & media",
+  "one_liner": "Owners of towers, fiber networks, and data centers that lease shared capacity on long-term contracts, a real-estate-like business defined by high upfront cost and high operating leverage.",
+  "how_it_makes_money": "Tower companies lease antenna space to carriers on long contracts with built-in escalators, earning more as additional tenants are added to each site. Fiber providers sell wholesale and enterprise connectivity, and data-center operators lease space, power, and interconnection to cloud, AI, and enterprise customers.",
+  "value_chain": [
+    "Land, permits, and power",
+    "Construction of sites and fiber",
+    "Leasing to anchor tenants",
+    "Adding tenants and amendments",
+    "Operations and maintenance",
+    "Interconnection and ecosystem"
+  ],
+  "revenue_formula": [
+    "Tower revenue = sites × tenants per site × rent per tenant (with annual escalators)",
+    "Data center revenue = leased power capacity (MW) × price per kW per month",
+    "Fiber revenue = route miles × lit services sold × price per service"
+  ],
+  "cost_structure": [
+    "Capex: construction of towers, fiber routes, and data-center shells and electrical systems",
+    "Power: the largest operating cost for data centers, often passed through to tenants",
+    "Ground leases and land: rents paid to landowners under towers",
+    "Interest expense: heavy debt financing, since assets are long-lived and stable",
+    "Operations and maintenance staff"
+  ],
+  "margins": "Mature tower businesses earn very high EBITDA margins, often around 60%+, because adding a tenant to an existing site costs little. Data centers run lower, roughly 40-50%, with tenancy, power costs, and leverage driving the spread.",
+  "key_metrics": [
+    {
+      "name": "Tenancy ratio",
+      "what": "Average tenants per tower; each extra tenant adds high-margin revenue."
+    },
+    {
+      "name": "Adjusted funds from operations (AFFO)",
+      "what": "Cash earnings measure used to value infrastructure REITs and dividend capacity."
+    },
+    {
+      "name": "Power capacity (MW)",
+      "what": "Critical load a data center can support; the unit in which capacity is sold."
+    },
+    {
+      "name": "Occupancy / utilization",
+      "what": "Share of available space or power leased; drives returns on fixed assets."
+    },
+    {
+      "name": "Churn",
+      "what": "Lease revenue lost from tenant cancellations, such as carrier consolidation."
+    },
+    {
+      "name": "Yield on cost",
+      "what": "Annual cash return on the construction cost of a new asset; the key development hurdle."
+    }
+  ],
+  "trends": [
+    "AI-driven boom in large data-center campuses, with power availability as the binding constraint",
+    "Data-center developers pursuing on-site generation, nuclear, and long-term power contracts",
+    "Carrier consolidation and slower 5G spending weighing on tower leasing growth",
+    "Private equity and infrastructure funds acquiring towers, fiber, and data centers for stable cash yields",
+    "Higher interest rates raising financing costs and pressuring valuations",
+    "Government funding for rural broadband expanding fiber construction"
+  ],
+  "key_players": [
+    "American Tower",
+    "Crown Castle",
+    "SBA Communications",
+    "Equinix",
+    "Digital Realty",
+    "Zayo",
+    "Lumen",
+    "QTS (Blackstone)",
+    "Vantage Data Centers",
+    "Cellnex"
+  ],
+  "case_angles": [
+    {
+      "question": "An infrastructure fund is evaluating the purchase of a tower portfolio; what is it worth?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "Should a data-center operator build a new campus in a power-constrained market?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "A tower company's revenue growth is slowing; how can it grow?",
+      "framework_id": "growth-strategy"
+    },
+    {
+      "question": "How much data-center capacity will be needed in a region over the next five years?",
+      "framework_id": "supply-demand"
+    }
+  ],
+  "interview_hooks": [
+    "Will AI data-center demand outrun the grid's ability to supply power?",
+    "Is digital infrastructure a utility-like investment or exposed to technology cycles?",
+    "Does carrier consolidation permanently weaken tower economics?"
+  ],
+  "news": {
+    "keywords": [
+      "data center",
+      "cell tower",
+      "tower reit",
+      "colocation",
+      "fiber network",
+      "hyperscale campus",
+      "megawatt",
+      "digital infrastructure",
+      "interconnection",
+      "dark fiber"
+    ],
+    "companies": [
+      "American Tower",
+      "Crown Castle",
+      "SBA Communications",
+      "Equinix",
+      "Digital Realty",
+      "Zayo",
+      "Lumen",
+      "Vantage Data Centers",
+      "QTS",
+      "Cellnex"
+    ]
+  }
+}

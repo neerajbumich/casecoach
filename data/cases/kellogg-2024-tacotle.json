@@ -1,0 +1,606 @@
+{
+ "id": "kellogg-2024-tacotle",
+ "title": "Tacotle",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  345,
+  360
+ ],
+ "author": "Ryan Sullivan (Kellogg 2016); edited by Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Y07 Profitability; Y05 Operations",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "X02 Agriculture & Food",
+ "geography": "United States (national fast casual chain)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "profitability",
+  "price-vs-volume",
+  "customer-survey",
+  "menu-change",
+  "cogs",
+  "ebitda-margin",
+  "root-cause"
+ ],
+ "concepts_tested": [
+  "Macroeconomics",
+  "Accounting",
+  "Customer strategy"
+ ],
+ "fit_question": "Tell me about a time you felt conflict in the workplace.",
+ "prompt": "Your client is Tacotle, a leading national fast casual restaurant with $420m in revenue in 2019. Over the five years preceding 2019, Tacotle has experienced steady revenue growth and industry leading profitability. But for the first time in its 15 year history, Tacotle has experienced three straight quarters of EBITDA erosion. Tacotle's CEO has hired you to explore what is causing profits to drop and what can be done to reverse the tide.",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Profitability (no specific milestones; looking for positive annual profit growth in the short term)."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "Defer until after the framework presentation."
+  },
+  {
+   "question_topic": "EBITDA definition",
+   "answer": "Ensure the interviewee understands EBITDA is Earnings Before Interest, Tax, Depreciation and Amortization (a profit measure)."
+  }
+ ],
+ "interviewer_notes": "Problem: How can we return Tacotle to profit growth? Problem-solving steps: (1) develop a structure to address the problem, (2) analyze external market conditions, (3) identify trends in profitability over time, (4) deep dive into drivers of revenue change, (5) calculate the change in units sold between 2018 and 2019, (6) analyze operational reasons for the price increase, (7) provide a client recommendation.",
+ "suggested_framework": {
+  "summary": "Profitability framework split into Operations vs. Market Conditions, with Operations further split into Revenue (price x quantity, product mix) and Costs (fixed vs. variable).",
+  "tree": {
+   "label": "Profit decline",
+   "children": [
+    {
+     "label": "Operations",
+     "children": [
+      {
+       "label": "Product mix change?"
+      },
+      {
+       "label": "Revenue down",
+       "children": [
+        {
+         "label": "Avg. price down?"
+        },
+        {
+         "label": "Quantity down?"
+        }
+       ]
+      },
+      {
+       "label": "Costs up",
+       "children": [
+        {
+         "label": "Fixed",
+         "children": [
+          {
+           "label": "Marketing"
+          },
+          {
+           "label": "PP&E"
+          },
+          {
+           "label": "SG&A"
+          }
+         ]
+        },
+        {
+         "label": "Variable",
+         "children": [
+          {
+           "label": "COGS"
+          },
+          {
+           "label": "Distribution"
+          },
+          {
+           "label": "Labor"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Market conditions",
+     "children": [
+      {
+       "label": "Competition increased?"
+      },
+      {
+       "label": "Customer preferences changed?"
+      },
+      {
+       "label": "Market shrinking?"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you structure an approach to figuring out why Tacotle's EBITDA has eroded for three straight quarters?",
+   "expected_answer": "Candidate should recognize the problem could originate from market conditions or company operations, and lay out a basic profitability framework (revenue = price x quantity; costs = fixed + variable), with hypotheses on likely fixed and variable cost drivers for a restaurant business.",
+   "good_answer_signals": [
+    "Splits problem into external (market) vs. internal (operations)",
+    "Lays out profit = revenue - costs with price/quantity and fixed/variable cost branches",
+    "Ties framework to a restaurant business specifically"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "clarify",
+   "interviewer_asks": "Candidate asks about the market, competitors, and customers.",
+   "release_when": "After the candidate presents their framework and asks about the market.",
+   "info_to_release": "Market is growing at GDP rate (mature market). No major competitors have entered or exited and no new substitutes introduced; Tacotle has a stable 30% revenue market share. Customers are beginning to stress ingredient quality and order customization.",
+   "expected_answer": "Candidate should conclude the profitability issue is not market-wide; there are no major competitive threats, so the problem is most likely specific to Tacotle. The shift in customer preferences doesn't directly explain the profit decline but may have influenced decisions made within Tacotle.",
+   "good_answer_signals": [
+    "Rules out market/competitive explanations",
+    "Flags customer preference shift as a possible influence on management decisions rather than a direct cause"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What trends do you see in Tacotle's profitability over time?",
+   "release_when": "Once the interviewee requests information on Tacotle's revenue or profitability.",
+   "info_to_release": "Exhibit A: quarterly revenue and EBITDA, 2017-2019.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue spikes sharply in Q1 2019 while EBITDA stays roughly flat, so EBITDA margin drops sharply (from ~46% to ~39%); revenue then declines steadily over the rest of 2019 while EBITDA erodes further. A good candidate hypothesizes that price and/or purchases increased, with costs rising more than the added revenue, and commits to digging into both the revenue and cost sides of the framework.",
+   "good_answer_signals": [
+    "Notices the Q1 2019 revenue spike paired with flat EBITDA / falling EBITDA %",
+    "Notices the subsequent steady revenue decline through 2019",
+    "Hypothesizes price/cost mix rather than jumping to a conclusion"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "What is driving the change in revenue?",
+   "release_when": "Once the interviewee has hypothesized potential drivers of the increased revenue.",
+   "info_to_release": "Exhibit B: average revenue per order, 2017-2019, showing a jump from ~$4.00-4.15 to ~$5.15-5.25 starting Q1 2019.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Average order price increased sharply starting Q1 2019 and stayed elevated. A good candidate recognizes a price increase could also change the quantity sold, and should not assume unit volume increased or decreased without more data.",
+   "good_answer_signals": [
+    "Quickly identifies the price increase",
+    "Stays open on whether units sold went up or down until more data is available"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "How did units sold change in 2019?",
+   "release_when": "Once the interviewee asks how units sold changed in 2019.",
+   "info_to_release": "Exhibit C: income statement for 2017-2019 (revenue, COGS, wages, SG&A, fixed overhead, EBITDA).",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Candidate should evaluate the full income statement, note that COGS nearly doubled from 2018 ($54M) to 2019 ($96M) while wages, SG&A, and fixed overhead stayed roughly flat, and use revenue and average price to back into units sold (see math step).",
+   "good_answer_signals": [
+    "Notices COGS nearly doubling 2018 to 2019",
+    "Sets up units sold = revenue / average price per unit"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Calculate the change in units sold between 2018 and 2019.",
+   "release_when": "If the interviewee does not calculate this themselves, the interviewer should prompt them to.",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "Units sold fell from ~95M in 2018 to ~80M in 2019, a decrease of about 15M units (~16%), even though revenue rose. Since prices held flat over the last three 2019 quarters while revenue kept declining, the falling unit volume is what is driving the ongoing EBITDA erosion.",
+   "good_answer_signals": [
+    "Correctly computes ~95M units (2018) and ~80M units (2019)",
+    "Connects declining unit volume, not price, to the ongoing EBITDA erosion in later 2019 quarters"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "exhibit",
+   "interviewer_asks": "Why did Tacotle increase prices, and why did units sold keep falling through 2019?",
+   "release_when": "Once the interviewee or interviewer raises these questions; ensure Exhibits A, B, and C have been covered first.",
+   "info_to_release": "Exhibit D: 2018 customer survey rating importance and Tacotle's performance on Quality, Speed of Service, Consistency of Product, Drive-through, Cleanliness, Staff Friendliness, and Seating.",
+   "exhibit_ids": [
+    "ex4"
+   ],
+   "expected_answer": "Tacotle lags on Quality (its most important attribute) but is on par with or exceeding expectations on everything else. Candidate should conclude Tacotle likely made a change aimed at raising quality, which increased COGS (and likely revenue via higher prices).",
+   "good_answer_signals": [
+    "Identifies Quality as the key underperforming, high-importance attribute",
+    "Links the quality gap to a plausible operational change (and thus rising COGS/prices)"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "exhibit",
+   "interviewer_asks": "What did Tacotle actually change, and how did customers respond?",
+   "release_when": "After the interviewee has speculated on the operational change; the interviewer then reveals the new menu and provides Exhibit E.",
+   "info_to_release": "Tacotle introduced a new menu focused on greater order customization and higher-quality/selection of ingredients. If asked, average time to serve a customer increased from ~1 minute to ~3.5 minutes. Exhibit E: 2019 customer survey (same format as Exhibit D, post menu change).",
+   "exhibit_ids": [
+    "ex5"
+   ],
+   "expected_answer": "Exhibit E is the same survey one year later. The attribute ranking has shifted: Speed of Service is now Tacotle's weakest attribute and Consistency of Product has also dropped below expectations, both due to the complexity the new menu added to food preparation. Although Quality now meets expectations, the declines in Speed of Service and Consistency more than offset that gain, so overall customer satisfaction fell. Takeaway: the menu change was not effective.",
+   "good_answer_signals": [
+    "Recognizes Exhibit E as a like-for-like comparison to Exhibit D one year later",
+    "Identifies Speed of Service and Consistency as the new weak points, both caused by menu complexity",
+    "Concludes net customer satisfaction declined despite the quality improvement"
+   ]
+  },
+  {
+   "order": 9,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the CEO?",
+   "expected_answer": "Recommend scaling back the menu changes made during 2019: the new menu drove COGS and prices up (denting EBITDA %) while adding food-prep complexity that hurt speed and consistency, degrading brand equity and unit sales, which is what is driving the EBITDA erosion. Flag risks (over-correcting could hurt the quality gains, could disrupt supplier relationships or require asset divestiture, and cutting back without a margin focus could just shrink the business) and propose next steps (more detailed customer research, a cost-conscious menu scale-back balanced with customer needs, and piloting future menu changes at a small number of restaurants before a full rollout).",
+   "good_answer_signals": [
+    "Recommendation is clearly tied back to the menu-change root cause",
+    "Surfaces at least one real risk of the recommendation",
+    "Offers concrete, testable next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Quarterly revenue and EBITDA",
+   "page": 348,
+   "kind": "line",
+   "description": "Line chart of quarterly revenue ($M) and EBITDA ($M), Q1 2017 through Q4 2019, with a table of EBITDA margin (%) by quarter beneath it.",
+   "data": {
+    "columns": [
+     "Period",
+     "EBITDA (%)"
+    ],
+    "rows": [
+     [
+      "Q1 2017",
+      44
+     ],
+     [
+      "Q2 2017",
+      45
+     ],
+     [
+      "Q3 2017",
+      44
+     ],
+     [
+      "Q4 2017",
+      46
+     ],
+     [
+      "Q1 2018",
+      45
+     ],
+     [
+      "Q2 2018",
+      45
+     ],
+     [
+      "Q3 2018",
+      44
+     ],
+     [
+      "Q4 2018",
+      46
+     ],
+     [
+      "Q1 2019",
+      39
+     ],
+     [
+      "Q2 2019",
+      40
+     ],
+     [
+      "Q3 2019",
+      39
+     ],
+     [
+      "Q4 2019",
+      40
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-tacotle/p348.webp",
+   "key_insight": "Revenue spikes sharply in Q1 2019 (from ~$85M to ~$122M) while EBITDA barely moves, so EBITDA margin drops from the mid-40s% to ~39-40% and stays there; revenue then declines steadily through the rest of 2019 while margin stays depressed.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex2",
+   "title": "Average revenue per order",
+   "page": 349,
+   "kind": "line",
+   "description": "Line chart of average revenue per order ($) by quarter, Q1 2017 through Q4 2019.",
+   "data": {
+    "columns": [
+     "Period",
+     "Avg. revenue per order (approx.)"
+    ],
+    "rows": [
+     [
+      "Q1 2017",
+      4
+     ],
+     [
+      "Q2 2017",
+      4.1
+     ],
+     [
+      "Q3 2017",
+      4.15
+     ],
+     [
+      "Q4 2017",
+      4.05
+     ],
+     [
+      "Q1 2018",
+      4.05
+     ],
+     [
+      "Q2 2018",
+      4.1
+     ],
+     [
+      "Q3 2018",
+      4.15
+     ],
+     [
+      "Q4 2018",
+      4.1
+     ],
+     [
+      "Q1 2019",
+      5.15
+     ],
+     [
+      "Q2 2019",
+      5.25
+     ],
+     [
+      "Q3 2019",
+      5.2
+     ],
+     [
+      "Q4 2019",
+      5.25
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-tacotle/p349.webp",
+   "key_insight": "Average order price jumps from ~$4.10 to ~$5.20 starting Q1 2019 and stays elevated for the rest of the year, coinciding exactly with the revenue spike in Exhibit A.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex3",
+   "title": "Income statement",
+   "page": 350,
+   "kind": "table",
+   "description": "Annual income statement for 2017, 2018, and 2019: revenue, COGS, wages, SG&A, fixed overhead, and EBITDA.",
+   "data": {
+    "columns": [
+     "Line item",
+     "2017",
+     "2018",
+     "2019"
+    ],
+    "rows": [
+     [
+      "Revenue ($M)",
+      364,
+      377,
+      420
+     ],
+     [
+      "COGS ($M)",
+      51,
+      54,
+      96
+     ],
+     [
+      "Wages ($M)",
+      96,
+      99,
+      101
+     ],
+     [
+      "SG&A ($M)",
+      11,
+      10,
+      10
+     ],
+     [
+      "Fixed Overhead ($M)",
+      43,
+      44,
+      44
+     ],
+     [
+      "EBITDA ($M)",
+      163,
+      170,
+      169
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-tacotle/p350.webp",
+   "key_insight": "COGS nearly doubles from $54M (2018) to $96M (2019) while every other line item is roughly flat, pinpointing COGS growth (tied to the menu change) as the main driver of the EBITDA % decline despite revenue growth.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex4",
+   "title": "Customer survey (2018)",
+   "page": 351,
+   "kind": "bar",
+   "description": "Bar chart of importance ratings (0-5) with an overlaid performance line, for seven attributes: Quality, Speed of Service, Consistency of Product, Has a Drive Through, Restaurant Cleanliness, Friendliness of Staff, Ample Seating.",
+   "data": {
+    "columns": [
+     "Attribute",
+     "Importance"
+    ],
+    "rows": [
+     [
+      "Quality",
+      4.8
+     ],
+     [
+      "Speed of Service",
+      4.7
+     ],
+     [
+      "Consistency of Product",
+      4.5
+     ],
+     [
+      "Has a drive through",
+      4.5
+     ],
+     [
+      "Restaurant Cleanliness",
+      3.4
+     ],
+     [
+      "Friendliness of Staff",
+      3.3
+     ],
+     [
+      "Ample Seating",
+      3.1
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-tacotle/p351.webp",
+   "key_insight": "Tacotle underperforms on Quality, its single most important attribute, while meeting or exceeding expectations on every other attribute.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex5",
+   "title": "Customer survey (2019)",
+   "page": 352,
+   "kind": "bar",
+   "description": "Same customer survey as Exhibit D, one year later (post menu change): importance ratings (0-5) with performance line, for Speed of Service, Quality, Has a Drive Through, Consistency of Product, Restaurant Cleanliness, Friendliness of Staff, Ample Seating (note the attributes are now ranked in a different order).",
+   "data": {
+    "columns": [
+     "Attribute",
+     "Importance"
+    ],
+    "rows": [
+     [
+      "Speed of Service",
+      4.8
+     ],
+     [
+      "Quality",
+      4.7
+     ],
+     [
+      "Has a drive through",
+      4.6
+     ],
+     [
+      "Consistency of product",
+      4.5
+     ],
+     [
+      "Restaurant Cleanliness",
+      3.5
+     ],
+     [
+      "Friendliness of Staff",
+      3.4
+     ],
+     [
+      "Ample Seating",
+      3.1
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-tacotle/p352.webp",
+   "key_insight": "Speed of Service is now the top-ranked-importance attribute and Tacotle's weakest performer, and Consistency of Product has also fallen below expectations -- both due to the complexity the new, more customizable menu added to food prep -- offsetting the improvement in Quality.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the change in units sold between 2018 and 2019?",
+   "givens": [
+    "2018 revenue = $377M (rounded to $380M)",
+    "2018 average price per unit = $4.05 (rounded to $4)",
+    "2019 revenue = $420M",
+    "2019 average price per unit = $5.25"
+   ],
+   "steps": [
+    "Units sold = Revenue / Average price per unit",
+    "2018: $380M / $4 = 95M units",
+    "2019: $420M / $5.25 = 80M units",
+    "Change = 95M - 80M = 15M fewer units sold (a decrease of ~16%)"
+   ],
+   "answer": "Units sold fell by about 15M units, from ~95M in 2018 to ~80M in 2019 (a ~16% decline).",
+   "answer_value": -15,
+   "unit": "million units",
+   "verified": true
+  }
+ ],
+ "synthesis": "Scale back the menu changes implemented during 2019. The menu change drove a significant increase in COGS, which cut EBITDA %; it also led to overall customer dissatisfaction (net, despite improved Quality scores) that degraded brand equity and drove the quarter-over-quarter decline in unit sales, which is what is driving the ongoing EBITDA erosion. Risks: scaling back too far could re-open the Quality gap; scaling back could disrupt supplier relationships or require asset divestiture tied to the original menu change; and a scale-back that doesn't focus on margin improvement could simply shrink revenue and profit (effectively downsizing the company). Next steps: run more detailed, focused customer surveys to gauge what Tacotle customers actually expect; scale back the menu in a way that balances cost-cutting with customer needs; and pilot any further menu changes at a small number of restaurants before a full rollout.",
+ "what_great_looks_like": [
+  "Structures the problem cleanly into market vs. operations before diving into data",
+  "Systematically works through the profitability framework (price, quantity, fixed and variable costs) rather than jumping to conclusions",
+  "Connects each exhibit back to the central question of why EBITDA eroded",
+  "Independently proposes and executes the units-sold calculation",
+  "Ties the final recommendation directly to the root cause (the menu change) and surfaces real risks and concrete next steps"
+ ],
+ "common_pitfalls": [
+  "Concluding from Exhibit B alone that higher prices are the whole story, without checking what happened to volume",
+  "Missing that COGS (not wages, SG&A, or fixed overhead) is the cost line that moved",
+  "Treating Exhibit E as new information rather than recognizing it as the same survey as Exhibit D one year later",
+  "Recommending a menu rollback without acknowledging the risk of re-opening the Quality gap or the cost of unwinding supplier relationships"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[ex1].data (EBITDA % table transcribed from a page whose text layer had overlapping/duplicated year labels; verified against image)",
+   "exhibits[ex2].data (avg. revenue per order read off an unlabeled line chart, approximate)",
+   "exhibits[ex4].data (performance line not numerically labeled, only importance bars are; performance values omitted)",
+   "exhibits[ex5].data (performance line not numerically labeled, only importance bars are; performance values omitted)"
+  ],
+  "math_verified": true,
+  "notes": "Book does not give a difficulty rating for this case; difficulty was inferred. Sub-industry chosen as 'qsr' for this fast-casual chain since taxonomy has no distinct fast-casual bucket; 'casual-dining' is a plausible alternative.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "geography",
+   "client_type"
+  ]
+ }
+}

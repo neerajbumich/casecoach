@@ -1,0 +1,397 @@
+{
+ "id": "stern-2022-curling-and-careers",
+ "title": "Curling and Careers",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  330,
+  337
+ ],
+ "author": "Monique St. Jarre & Kennedy Salveter (Stern '23)",
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Public Sector/Social Impact",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Operations",
+ "industry": "public-sector",
+ "sub_industry": "non-profit",
+ "industry_source_label": "Non-Profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey Final Round"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 7 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "nonprofit",
+  "capacity",
+  "bottlenecks",
+  "staff-utilization",
+  "mentoring",
+  "social-impact",
+  "administrative-burden"
+ ],
+ "concepts_tested": [
+  "Chart Reading",
+  "Brainstorming",
+  "Algebraic Math"
+ ],
+ "client_type": "non-profit",
+ "geography": "New York City, United States",
+ "prompt": "Your client is Curling & Careers (C&C), the New York City chapter of a national non-profit organization. The non-profit aims to provide disadvantaged high-school-age students with leadership training and career development through an increasingly popular sport, curling. Curling is a sport in which players slide stones on a sheet of ice toward a target area segmented into four concentric circles. C&C rents ice hockey rinks around the city to host weekly curling practices and games. Students can also opt in to leadership skills workshops, professional development sessions and one-on-one mentoring. High school students apply to join C&C as an extracurricular after-school program. The program is free due to generous support from large institutional donors. Main costs include facility rental, curling equipment, transportation, staff salaries and administrative overhead. C&C has been growing quickly since 2021 when students returned to the classroom full-time and is unable to meet demand for all its programming. How can it increase its impact?",
+ "clarifying_info": [
+  {
+   "question_topic": "Organization",
+   "answer": "Local chapters operate mostly independently. National headquarters provides some funding and administrative support and markets program results."
+  },
+  {
+   "question_topic": "Students and program",
+   "answer": "There are 1,000 students aged 14–18 from across NYC. Families must meet an income criterion. Students opt in to sessions and are transported from school to the curling center. Weekly schedules vary but always include curling and educational events."
+  },
+  {
+   "question_topic": "Staff",
+   "answer": "Paid staff include coaches, mentors, administrative personnel and program coordinators."
+  },
+  {
+   "question_topic": "Impact objective",
+   "answer": "Serve more students and meet demand; there is no numerical target."
+  },
+  {
+   "question_topic": "Other capacity constraints",
+   "answer": "Local arena availability prevents increasing games capacity. People leading practice and social activities are not the same staff who provide mentorship, so their spare capacity cannot simply be transferred to mentoring."
+  }
+ ],
+ "interviewer_notes": "Follow exhibit, brainstorming and math order; the book says the case can also flow naturally candidate-led, but its title labels it interviewer-led. Keep youth empowerment, not cost cutting alone, as the objective. Push the candidate to identify mentoring's unmet demand and impact before brainstorming. After their first brainstorm, request one or two more ideas. All mentoring-data items are per mentor except total students and the total mentor count. Do not permit rounding in the workload calculation. The 420-slot increase assumes existing classroom and planning commitments stay unchanged: it adds optional one-on-one sessions for students already in the organization, not 420 wholly new students receiving every service.",
+ "suggested_framework": {
+  "summary": "Match demand and impact to financial and nonfinancial capacity, then remove the most consequential bottleneck.",
+  "tree": {
+   "label": "Increase youth impact",
+   "children": [
+    {
+     "label": "Demand assessment",
+     "children": [
+      {
+       "label": "Capacity gaps by activity"
+      },
+      {
+       "label": "Five-year growth and geography"
+      },
+      {
+       "label": "Beneficiary feedback and impact"
+      }
+     ]
+    },
+    {
+     "label": "Financial constraints",
+     "children": [
+      {
+       "label": "Facility, transport, labor and overhead costs"
+      },
+      {
+       "label": "Fuel, equipment, water, snacks and application costs"
+      },
+      {
+       "label": "Donation cash flow"
+      }
+     ]
+    },
+    {
+     "label": "Nonfinancial constraints",
+     "children": [
+      {
+       "label": "Staff numbers and allocation"
+      },
+      {
+       "label": "Facility and transport capacity"
+      },
+      {
+       "label": "Program schedules and COVID constraints"
+      },
+      {
+       "label": "Applications, onboarding and administrative backlogs"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you identify ways for C&C to serve more students and increase impact?",
+   "release_when": "Read the prompt and answer requested clarifications.",
+   "info_to_release": "C&C currently has 1,000 students aged 14–18, with voluntary participation in offered sessions. The goal is to meet more demand, with no fixed numerical target. Chapters have substantial independence, with some national funding and administrative support.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess demand, beneficiary impact and capacity by activity, then investigate funding, staffing, facilities, transport, scheduling and administrative constraints. Avoid assuming that saving money alone increases youth impact or that every student demands every service.",
+   "good_answer_signals": [
+    "Keeps nonprofit priorities central.",
+    "Distinguishes financial from operational constraints."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Where should C&C focus based on its program analysis?",
+   "release_when": "Give Exhibit 1. Ensure the candidate identifies mentorship before proceeding.",
+   "info_to_release": "Capacity/demand percentages of all 1,000 students: classroom 52/51; one-on-one mentoring 38/75; fitness 40/23; professional development 72/69; team practice 84/61; games 27/34. The impact survey ranks professional development first and mentoring second. If discussed, arena availability blocks additional games, and practice/social staff are not interchangeable with mentors.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Prioritize one-on-one mentoring: a 37-percentage-point gap represents about 370 students, and mentoring is the second-most-impactful activity. Games also have unmet demand but face a facility constraint. Spare practice and fitness capacity does not automatically create qualified mentor hours. Check labor allocation and other bottlenecks before proposing transfers.",
+   "good_answer_signals": [
+    "Combines demand gaps with impact rather than choosing the largest program.",
+    "Recognizes staff specialization and venue constraints."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could C&C increase mentorship capacity?",
+   "release_when": "After the mentoring bottleneck is identified. Ask for one or two additional ideas after the initial response.",
+   "info_to_release": "No additional facts; seek creative but structured options.",
+   "exhibit_ids": [],
+   "expected_answer": "Staffing: recruit paid mentors or volunteers, free existing mentor hours, or consider efficiency/overtime incentives. Scheduling: offer more mentoring days, replace lower-impact sessions where feasible, or use two-to-one sessions with quality tradeoffs. External support: raise funds, engage senior students, use other chapters' remote mentors or partner with universities. Assess qualifications, safeguarding, funding and service quality when comparing options.",
+   "good_answer_signals": [
+    "Organizes ideas by staffing, schedule and external support.",
+    "Offers tailored nonprofit partnerships.",
+    "Does not assume expanded quantity preserves one-on-one quality automatically."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How many more students could receive weekly one-on-one mentoring if mentors stopped preparing the report to headquarters?",
+   "release_when": "Give Exhibit 2 after the brainstorm and explain that administration is the identified constraint.",
+   "info_to_release": "There are 14 mentors serving 378 students weekly. Each mentor works 40 hours. One-on-one time is 20 minutes per student; classroom instruction is 30 minutes per student; lesson planning is 6 lessons at 1.25 hours each. The weekly report consumes the remaining time. Values are per mentor except the 378-student total and mentor count. Do not round.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Each mentor currently serves 378/14 = 27 students. Mentoring takes 9 hours, planning 7.5 and classroom instruction 13.5, leaving 10 hours for reporting. Reallocating those 10 hours yields 30 additional 20-minute sessions per mentor and 420 across 14 mentors. Total mentoring capacity becomes 798, versus demand of 750. The earlier chart's rounded 38% capacity implies 370 unmet students; the precise 378 baseline implies 372, so both are covered. This assumes no additional classroom/planning time per added optional mentoring session and successful elimination or reassignment of reporting.",
+   "good_answer_signals": [
+    "Converts minutes to hours and uses the 40-hour constraint.",
+    "Distinguishes total-student from per-mentor data.",
+    "Connects the result back to unmet demand and checks the added-service scope."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What do you recommend, and what should C&C do next?",
+   "release_when": "After the capacity calculation.",
+   "info_to_release": "No extra financial estimates are supplied for reassignment or hiring.",
+   "exhibit_ids": [],
+   "expected_answer": "Reduce mentors' reporting burden to add up to 420 weekly mentoring slots, more than the approximately 370–372 current gap in a highly impactful activity. Work with national headquarters to streamline requirements and decide who handles essential remaining administration, including whether hiring is necessary. Reassignment can raise costs and the solution does not remove other program bottlenecks. Monitor service quality and future demand while evaluating the broader long-term program mix.",
+   "good_answer_signals": [
+    "Quantifies the mentoring opportunity without claiming 420 new full-program enrollments.",
+    "Acknowledges that administrative work may move rather than disappear.",
+    "Links next steps to cost and broader-capacity risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Weekly Program, Impact Survey and Capacity versus Demand",
+   "page": 333,
+   "kind": "other",
+   "description": "Illustrative schedule: Monday–Tuesday classroom leadership/fitness; Wednesday–Friday mentoring/team practices; Saturday–Sunday professional development/games. Bars are percentages of all 1,000 students. Unlabeled pie slices show impact rankings, with professional development first and mentoring second; exact survey percentages are omitted.",
+   "data": {
+    "columns": [
+     "Program",
+     "Capacity (%)",
+     "Demand (%)"
+    ],
+    "rows": [
+     [
+      "Classroom leadership",
+      52,
+      51
+     ],
+     [
+      "One-on-one mentoring",
+      38,
+      75
+     ],
+     [
+      "Fitness activity",
+      40,
+      23
+     ],
+     [
+      "Professional development",
+      72,
+      69
+     ],
+     [
+      "Team practices",
+      84,
+      61
+     ],
+     [
+      "Games",
+      27,
+      34
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-curling-and-careers/p333.webp",
+   "image_has_answers": false,
+   "key_insight": "Mentoring has the largest unmet demand and second-highest impact ranking.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex2",
+   "title": "Mentoring Data",
+   "page": 336,
+   "kind": "table",
+   "description": "Total mentors and students, with workload inputs per mentor. The footnote specifies a 40-hour workweek.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Amount"
+    ],
+    "rows": [
+     [
+      "Mentors",
+      14
+     ],
+     [
+      "Total students per week",
+      378
+     ],
+     [
+      "One-on-one minutes per student",
+      20
+     ],
+     [
+      "Lessons planned per mentor",
+      6
+     ],
+     [
+      "Planning hours per lesson",
+      1.25
+     ],
+     [
+      "Classroom minutes per student",
+      30
+     ],
+     [
+      "Weekly report",
+      "Remainder of mentor time"
+     ],
+     [
+      "Work hours per mentor per week",
+      40
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-curling-and-careers/p336.webp",
+   "image_has_answers": false,
+   "key_insight": "Solve the residual administrative workload before translating freed time into sessions.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How large is the unmet mentoring demand?",
+   "givens": [
+    "1,000 program students",
+    "Mentoring demand 75%, chart capacity 38%",
+    "Later precise mentoring baseline 378 students"
+   ],
+   "steps": [
+    "Chart gap = (75% − 38%) × 1,000 = 370 students.",
+    "Demand = 750; using the later precise baseline, gap = 750 − 378 = 372 students."
+   ],
+   "answer": "Approximately 370 students from the rounded chart, or 372 using the precise workload baseline.",
+   "answer_value": 370,
+   "unit": "students from rounded chart",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much time does each mentor spend on the weekly report?",
+   "givens": [
+    "378 students across 14 mentors",
+    "40-hour week",
+    "20 mentoring minutes and 30 classroom minutes per student",
+    "6 lessons × 1.25 planning hours"
+   ],
+   "steps": [
+    "Students per mentor = 378/14 = 27.",
+    "Mentoring = 27 × 20/60 = 9 hours.",
+    "Planning = 6 × 1.25 = 7.5 hours; classroom = 27 × 30/60 = 13.5 hours.",
+    "Report time = 40 − 9 − 7.5 − 13.5 = 10 hours."
+   ],
+   "answer": "10 hours per mentor per week.",
+   "answer_value": 10,
+   "unit": "hours/mentor/week",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "How much extra one-on-one capacity would removing reporting create?",
+   "givens": [
+    "10 freed hours per mentor",
+    "20-minute one-on-one sessions",
+    "14 mentors; 378 existing sessions; demand 750",
+    "Existing classroom and planning commitments unchanged in the source model"
+   ],
+   "steps": [
+    "Extra sessions per mentor = 10 × 60/20 = 30.",
+    "Total extra weekly sessions = 30 × 14 = 420.",
+    "Total capacity = 378 + 420 = 798; surplus over demand = 798 − 750 = 48."
+   ],
+   "answer": "420 additional weekly mentoring slots, bringing capacity to 798 and covering current demand.",
+   "answer_value": 420,
+   "unit": "additional mentoring slots/week",
+   "verified": true
+  }
+ ],
+ "synthesis": "Prioritize mentoring and streamline or reassign reporting: the source model frees 10 hours per mentor and creates 420 additional weekly slots, covering the roughly 370–372-student gap. This expands optional mentoring access, not necessarily total enrollment or all educational services. Coordinate with headquarters, assess reassignment/hiring costs and preserve service quality. Continue checking facilities, staffing and future demand because mentorship is only part of the broader impact strategy.",
+ "what_great_looks_like": [
+  "Combines impact ranking with unmet demand.",
+  "Structures creative capacity ideas for this nonprofit.",
+  "Converts minutes to hours and avoids rounding the workload inputs.",
+  "Reconciles the rounded chart with precise mentoring counts.",
+  "Recognizes administrative reassignment and other bottlenecks as implementation issues."
+ ],
+ "common_pitfalls": [
+  "Treating every bar as a percentage of current participants in that activity rather than all 1,000 students.",
+  "Assuming coaches can automatically become mentors.",
+  "Ignoring the 40-hour footnote.",
+  "Treating 378 as a per-mentor count.",
+  "Claiming 420 new full-program students when only extra mentoring slots are modeled.",
+  "Assuming removing a report eliminates all organizational need for its information."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[0].data (unlabeled impact-pie percentages omitted; bar labels transcribed exactly)"
+  ],
+  "math_verified": true,
+  "notes": "All workload arithmetic matches. Chart capacity 38% is consistent with rounding the later 378/1,000 baseline; gaps are therefore 370 from the chart and 372 precisely. The 420 gain assumes additional optional mentoring only, with classroom/planning workload unchanged; it is not a full-program enrollment calculation. Reassignment cost is unknown. Candidate pages 333 and 336 are clean and visible. The title's interviewer-led label is used although overview also describes candidate-led delivery. Difficulty uses max(8,7), Python round(8/2) = 4. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type mappings",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls",
+   "stages[2].expected_answer implementation safeguards"
+  ]
+ }
+}

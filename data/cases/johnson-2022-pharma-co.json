@@ -1,0 +1,362 @@
+{
+ "id": "johnson-2022-pharma-co",
+ "title": "Pharma Co",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  58,
+  66
+ ],
+ "case_type": [
+  "New Product/GTM",
+  "Profitability",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Market Attractiveness / Two Options",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Life Sciences",
+ "client_type": "for-profit",
+ "geography": "Global",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Simple; Quant: Low; Analysis: Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "r-and-d-prioritization",
+  "market-sizing",
+  "gross-profit",
+  "risk-adjustment",
+  "clinical-development",
+  "competitive-differentiation",
+  "overlapping-markets"
+ ],
+ "prompt": "Our client today is Pharma Co., a global manufacturer of specialty drugs. They produce blockbuster drugs across a variety of diseases. They have approached you because they have two drugs in the pipeline to help the 5 million people living with Alzheimer's: a Disease Modifying Drug, designed to slow the progression of Alzheimer's, and a Symptom Treating Drug, which would reduce the effects of Alzheimer's symptoms and improve the patient's quality of life. Both drugs are in the same development stage, but Pharma Co. can only continue to invest in the research and development of one. They brought you in to help determine which drug they should choose. In the case's background description, Alzheimer's is a degenerative brain disease most commonly associated with memory loss; as brain function degrades, patients lose basic bodily functions such as breathing, which is ultimately fatal.",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "There is no specific financial target. Focus primarily on overall profitability. The case defines blockbuster drugs as highly profitable drugs with annual sales of $1 billion or more and patent exclusivity."
+  },
+  {
+   "question_topic": "Existing treatment and market",
+   "answer": "For this case, assume 5 million people globally have Alzheimer's and no other treatment or cure is currently on the market."
+  },
+  {
+   "question_topic": "Development stage",
+   "answer": "Both drugs are at the same stage and need additional research before completion."
+  },
+  {
+   "question_topic": "Treatment frequency",
+   "answer": "Both drugs would be taken daily for the rest of the patient's life."
+  }
+ ],
+ "interviewer_notes": "Evaluate the two R&D options, not breakeven. Initially allow 100% market share because the case assumes no marketed alternatives. Ask for revenue drivers before giving qualifying patients and annual prices. Next calculate annual gross profit; exclude one-time R&D and omit unavailable SG&A, depreciation and other expenses. Introduce scientific failure risk and then competition. Competition is a qualitative exercise with no unique right answer: do not demand equal-share calculations. If the candidate insists, the source supplies illustrative revenue-per-firm results under equal shares and unchanged prices. No additional information about the disease-modifying mechanism is available. Reward recognition of overlapping patient groups and the effect of competition on pricing. All medical and market facts are hypothetical case assumptions, not current clinical guidance.",
+ "suggested_framework": {
+  "summary": "Compare market access and revenue, development and operating costs, and scientific and competitive risk for the two drugs.",
+  "tree": {
+   "label": "Disease-modifying versus symptom-treating drug",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Total patients, diagnosis and accessible share"
+      },
+      {
+       "label": "Insurance and Medicare reimbursement"
+      },
+      {
+       "label": "International revenue and payment structure"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Remaining R&D investment"
+      },
+      {
+       "label": "Production equipment and raw materials"
+      },
+      {
+       "label": "Sales staff and marketing"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Competitors researching Alzheimer's treatments"
+      },
+      {
+       "label": "Clinical-trial completion and regulatory approval"
+      },
+      {
+       "label": "Patent exclusivity"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you choose which drug should receive continued R&D investment?",
+   "release_when": "Read the prompt; give clarifications when requested.",
+   "info_to_release": "There are 5 million patients globally in the case. Both drugs are at the same development stage and would be taken daily for life. Focus on profitability, with no specific financial target. Initially assume no existing marketed treatment or cure. Blockbuster drugs have annual sales of at least $1 billion and patent exclusivity.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess eligible and accessible patients, pricing and reimbursement, annual revenue and COGS, remaining R&D and commercialization requirements, then scientific, regulatory and competitive risks. Differentiate a drug that slows progression from one that treats symptoms. Do not assume the larger market automatically creates the better risk-adjusted investment.",
+   "good_answer_signals": [
+    "Asks about access, diagnosis and reimbursement rather than applying a price to all patients.",
+    "Includes development risk and competing mechanisms."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What is the annual revenue potential of each drug?",
+   "release_when": "After the candidate identifies revenue drivers, disclose the inputs when asked.",
+   "info_to_release": "Assume 100% share initially. The symptom-treating drug has 3 million qualifying global patients and an annual price of $3,500. The disease-modifying drug has 4 million qualifying patients and an annual price of $6,250.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Symptom-treating revenue is 3 million × $3,500 = $10.5 billion per year. Disease-modifying revenue is 4 million × $6,250 = $25 billion. The groups overlap because there are only 5 million total patients, so these are not independent patient markets. Move next to profitability.",
+   "good_answer_signals": [
+    "Uses annual rather than daily prices.",
+    "Recognizes substantial overlap in the two qualifying populations."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Determine each drug's annual gross profit.",
+   "release_when": "After market sizing; provide the cost inputs, not the worked solution.",
+   "info_to_release": "Symptom-treating revenue is $3,500 per patient per year; disease-modifying revenue is $6,250. COGS are $1,000 per patient per year for either drug. Each requires $2 billion in R&D investment. No information is supplied for SG&A, depreciation or other expenses, which are omitted. Calculate annual gross profit rather than breakeven.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Symptom-treating annual gross profit is ($3,500 − $1,000) × 3 million = $7.5 billion. Disease-modifying annual gross profit is ($6,250 − $1,000) × 4 million = $21 billion. Unit COGS and R&D requirements are the same, so they do not explain the difference; price and eligible population do. Do not subtract the one-time $2 billion R&D amount from annual gross profit or call this measure net profit.",
+   "good_answer_signals": [
+    "Separates annual gross profit from one-time development investment.",
+    "Interprets the higher disease-modifying result rather than merely reporting it."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "The Chief Scientist says both drugs are at the edge of science. How should clinical failure risk change your assessment?",
+   "release_when": "After the annual gross-profit calculations.",
+   "info_to_release": "The symptom-treating drug has an 80% chance of failure; the disease-modifying drug has a 95% chance of failure. Neither is guaranteed to pass all clinical trials.",
+   "exhibit_ids": [],
+   "expected_answer": "Success probabilities are 20% and 5%. Risk-adjusted annual gross profit is $7.5 billion × 20% = $1.5 billion for symptom treatment and $21 billion × 5% = $1.05 billion for disease modification. The ranking reverses after scientific risk. These are probability-weighted annual gross-profit measures, not an NPV or a complete development-investment return. Next consider competition.",
+   "good_answer_signals": [
+    "Multiplies by success probability, not failure probability.",
+    "Explains why the larger nominal opportunity becomes smaller after risk adjustment."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How would you qualitatively assess the competitive dynamics?",
+   "release_when": "After scientific risk adjustment; keep this primarily qualitative.",
+   "info_to_release": "There are 5 competitors researching symptom-treating drugs, all using similar techniques and mechanisms. There are 12 competitors researching disease-modifying drugs, and Pharma Co. has a distinct mechanism. No further information about its differentiation is available.",
+   "exhibit_ids": [],
+   "expected_answer": "Symptom treatment has fewer competitors but less apparent differentiation. Disease modification has more competitors yet a distinct mechanism that may support differentiation. Competition can lower prices; overlapping patient groups mean doctors and patients may prefer one approach over the other. Either choice can be defended with explicit tradeoffs. Only if the candidate insists on an equal-share illustration: $10.5 billion / 6 firms = $1.75 billion revenue per firm; $25 billion / 13 = about $1.92 billion. These illustrative revenues assume equal shares and no price pressure, not a validated forecast.",
+   "good_answer_signals": [
+    "Discusses pricing pressure and mechanism differentiation.",
+    "Includes Pharma Co. when counting firms in an optional equal-share calculation.",
+    "Avoids treating the markets as wholly separate or equal shares as guaranteed."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Which drug would you prioritize, and how would you manage its risks?",
+   "release_when": "After the qualitative competition discussion.",
+   "info_to_release": "No single answer is prescribed; support the chosen drug with a coherent rationale.",
+   "exhibit_ids": [],
+   "expected_answer": "A symptom-treatment choice can cite lower R&D failure risk, fewer competitors and $1.5 billion risk-adjusted annual gross profit; its similar-mechanism rivals create pricing pressure, for which pricing flexibility is a possible mitigation. A disease-modifying choice can cite $25 billion revenue potential, a distinct mechanism and potentially greater patient/doctor value reflected in its higher price, while explicitly accepting 95% failure risk and the lower $1.05 billion risk-adjusted annual gross profit. The source proposes regular on-site monitoring for that development risk. Invest in the chosen drug's R&D and consolidate resources to advance development.",
+   "good_answer_signals": [
+    "Makes a clear choice while acknowledging its tradeoffs.",
+    "Pairs the chosen drug's specific risk with mitigation and the R&D next step."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Qualifying Patients and Annual Prices",
+   "page": 61,
+   "kind": "table",
+   "description": "Inputs explicitly designated for disclosure when requested. No image is attached because the source page combines these inputs with a solution column and interviewer guidance.",
+   "data": {
+    "columns": [
+     "Drug",
+     "Qualifying patients globally",
+     "Price per patient per year (USD)"
+    ],
+    "rows": [
+     [
+      "Symptom treating",
+      3000000,
+      3500
+     ],
+     [
+      "Disease modifying",
+      4000000,
+      6250
+     ]
+    ]
+   },
+   "key_insight": "The disease-modifying drug addresses more eligible patients at a higher annual price, but the two patient groups overlap.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Revenue, COGS and R&D Inputs",
+   "page": 62,
+   "kind": "table",
+   "description": "The source's Give to Candidate inputs only. The worked gross-profit calculations and interviewer notes are excluded, and no answer-bearing page image is attached.",
+   "data": {
+    "columns": [
+     "Drug",
+     "Revenue per patient/year (USD)",
+     "COGS per patient/year (USD)",
+     "R&D investment (USD)"
+    ],
+    "rows": [
+     [
+      "Symptom treating",
+      3500,
+      1000,
+      2000000000
+     ],
+     [
+      "Disease modifying",
+      6250,
+      1000,
+      2000000000
+     ]
+    ]
+   },
+   "key_insight": "COGS per patient and one-time R&D investment are identical; compare annual gross profit without deducting R&D.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is annual revenue potential at the initial 100% market-share assumption?",
+   "givens": [
+    "Symptom: 3 million patients at $3,500/year",
+    "Disease: 4 million patients at $6,250/year",
+    "100% initial share"
+   ],
+   "steps": [
+    "Symptom: 3,000,000 × $3,500 = $10.5 billion/year.",
+    "Disease: 4,000,000 × $6,250 = $25 billion/year."
+   ],
+   "answer": "$10.5 billion for symptom treatment and $25 billion for disease modification annually.",
+   "answer_value": 25000000000,
+   "unit": "USD/year, disease-modifying revenue",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is annual gross profit for each drug?",
+   "givens": [
+    "Symptom: 3 million patients, $3,500 annual price",
+    "Disease: 4 million patients, $6,250 annual price",
+    "COGS $1,000/patient/year for both",
+    "R&D $2 billion each, excluded from gross profit"
+   ],
+   "steps": [
+    "Symptom: ($3,500 − $1,000) × 3,000,000 = $7.5 billion/year.",
+    "Disease: ($6,250 − $1,000) × 4,000,000 = $21 billion/year."
+   ],
+   "answer": "$7.5 billion for symptom treatment and $21 billion for disease modification in annual gross profit.",
+   "answer_value": 21000000000,
+   "unit": "USD/year, disease-modifying gross profit",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "How does clinical failure risk change the gross-profit ranking?",
+   "givens": [
+    "Gross profit $7.5 billion symptom and $21 billion disease",
+    "Failure probabilities 80% symptom and 95% disease"
+   ],
+   "steps": [
+    "Success probabilities are 1 − 80% = 20% and 1 − 95% = 5%.",
+    "Symptom: $7.5 billion × 20% = $1.5 billion.",
+    "Disease: $21 billion × 5% = $1.05 billion."
+   ],
+   "answer": "Symptom treatment ranks higher at $1.5 billion risk-adjusted annual gross profit versus $1.05 billion for disease modification.",
+   "answer_value": 1500000000,
+   "unit": "USD/year, symptom risk-adjusted gross profit",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "Only if requested: what revenue per firm would an equal-share illustration imply?",
+   "givens": [
+    "Markets $10.5 billion symptom and $25 billion disease",
+    "5 symptom competitors and 12 disease competitors, plus Pharma Co.",
+    "Illustrative equal shares and unchanged prices"
+   ],
+   "steps": [
+    "Symptom: $10.5 billion / (5 + 1) = $1.75 billion per firm.",
+    "Disease: $25 billion / (12 + 1) = $1.923076923 billion, approximately $1.92 billion per firm."
+   ],
+   "answer": "$1.75 billion symptom and approximately $1.92 billion disease revenue per firm under the optional simplifying assumptions. The source prefers a qualitative discussion.",
+   "answer_value": 1923076923.076923,
+   "unit": "USD/year per disease-modifying firm",
+   "verified": true
+  }
+ ],
+ "synthesis": "Either drug can be defended; the book has no unique preferred answer. Symptom treatment offers lower failure risk, fewer competitors and the higher risk-adjusted annual gross profit, $1.5 billion versus $1.05 billion. Disease modification offers the larger $25 billion revenue opportunity and a distinct mechanism, potentially valuable to patients and doctors, but carries 95% failure risk. Address same-mechanism competition and pricing flexibility for symptom treatment, or close development monitoring for disease modification. Then consolidate resources and invest in the chosen R&D program. The measures are annual gross-profit comparisons, not complete investment NPVs.",
+ "what_great_looks_like": [
+  "Calculates market size, gross profit and risk-adjusted results quickly and accurately.",
+  "Recognizes that qualifying patient groups overlap.",
+  "Separates annual gross profit from one-time R&D investment.",
+  "Discusses price pressure and differentiation instead of blindly dividing market share.",
+  "Makes a clear, defensible choice while acknowledging tradeoffs."
+ ],
+ "common_pitfalls": [
+  "Using failure rather than success probabilities.",
+  "Choosing solely on nominal $25 billion revenue potential.",
+  "Subtracting one-time R&D from annual gross profit or turning the exercise into breakeven.",
+  "Adding the patient markets as if disjoint.",
+  "Treating equal shares and unchanged prices as guaranteed competitive outcomes."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-05",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup verdict NEW before full reading. Pages 58–66 read and visually inspected. All arithmetic, including optional equal-share revenue and source rounding, verified in Python; no book arithmetic errors found. Pages 61–62 combine release inputs with worked answers and guidance; only input tables are retained without images. No solution columns or computed gross profits are stored as exhibit inputs. Page 63 risk-adjusted results are math, not a candidate data table. The generic word profitability is implemented as the book's explicitly requested annual gross profit, with one-time R&D and unspecified expenses excluded; this is not risk-adjusted NPV. Medical prevalence and no-treatment statements are preserved only as hypothetical case assumptions. Source has no unique recommendation and no further mechanism details; neither is invented. Overall Simple maps in code to 2; H quant intensity reflects the multi-stage model despite the source Low arithmetic label. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type taxonomy mapping",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "synthesis distinction from NPV",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,406 @@
+{
+ "id": "fuqua-2023-whats-the-matter",
+ "title": "What's the MATter?",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  75,
+  84
+ ],
+ "author": "Darian Aghili (Fuqua '24)",
+ "case_type": [
+  "Growth/Revenue",
+  "Market Entry",
+  "M&A/Acquisition"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "industrials-manufacturing",
+ "sub_industry": "packaging-plastics",
+ "industry_source_label": "Industrials",
+ "geography": "United States and rest of world",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "LEK"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Medium; Qualitative: Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-share",
+  "organic-growth",
+  "acquisition",
+  "product-adjacencies",
+  "ebitda-multiple",
+  "geographic-expansion"
+ ],
+ "prompt": "Our client, Matting Co., is a U.S. based manufacturer of HDPE (high density polyethylene) matting products that are used for construction and infrastructure projects across a variety of industries. Matting Co. has catapulted itself into a leading player within the matting manufacturing space, but given recent strategic acquisitions made by competitors, Matting Co.'s industry dominance is being threatened, forcing the company to look for new strategic growth opportunities that align with the company's historical value proposition. Matting Co. would like our help to analyze various growth opportunities that they could potentially capitalize on in the marketplace moving forward.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "Increase market share and reverse the falling-share trend; no particular target share is required."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Manufacture and sell to end users or distributors who rent the products to end users."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Operations are U.S. based, with a small amount of revenue from overseas customers, according to the overview. Exhibit 1 instead gives equal U.S. and overseas revenue; retain that inconsistency."
+  },
+  {
+   "question_topic": "Timeline",
+   "answer": "As soon as possible."
+  }
+ ],
+ "interviewer_notes": "Use the market exhibit, material/application exhibit, material-interest brainstorm, acquisition calculation, and recommendation. Let the candidate choose the order: organic growth leads to Exhibit 2, inorganic growth to Exhibit 3. Explain market growth and the expired patent only if prompted. Exhibit 3 must be read aloud, not shown. The material brainstorm is non-exhaustive and should be structured and specific to matting. The source contains incorrect overseas market shares and an unexplained SAM calculation; do not grade candidates against those errors.",
+ "suggested_framework": {
+  "summary": "Assess the market, organic versus inorganic growth levers, and the financial consequences of each option.",
+  "tree": {
+   "label": "Restore Matting Co.'s market share",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Domestic and international size, trends and forecast"
+      },
+      {
+       "label": "Customer key purchase criteria"
+      },
+      {
+       "label": "Competitor volumes, trajectories and recent activity"
+      }
+     ]
+    },
+    {
+     "label": "Growth levers",
+     "children": [
+      {
+       "label": "Organic: product adjacencies, geography and new markets"
+      },
+      {
+       "label": "Inorganic: acquisition or merger"
+      }
+     ]
+    },
+    {
+     "label": "Financial considerations",
+     "children": [
+      {
+       "label": "Capex and additional headcount"
+      },
+      {
+       "label": "Sales volume, cannibalization and pricing"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate growth opportunities for Matting Co.?",
+   "release_when": "After the prompt; provide clarifications only if asked.",
+   "expected_answer": "Clarify that the goal is to reverse declining share, then assess market attractiveness, organic and inorganic options, and the capital and revenue implications. Include international expansion and product adjacencies rather than only changes to the existing U.S. business.",
+   "good_answer_signals": [
+    "Connects growth to the existing HDPE value proposition.",
+    "Distinguishes market-share performance from absolute revenue growth."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the U.S. and rest-of-world market information suggest?",
+   "release_when": "When the candidate asks about current market performance.",
+   "info_to_release": "Exhibit 1 reports revenue for 10 years ago, 5 years ago and today. U.S. revenue in $M: Matting 100/105/110; Competitor 1 50/75/105; Competitor 2 25/45/90; all others 25/37.5/61.7. Printed U.S. totals are 200/262.5/366.7. Rest-of-world Matting revenue is 100/105/110 and total market 1000/1250/1500. If asked, environmental consciousness is increasing ground-protection use in construction, maintenance and events. Competitor 1's core-product patent expired 5 years ago; Competitor 2 copied it and priced favorably. No exact share target is required.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Matting's U.S. share falls from 50% to 40% to about 30%, despite revenue growth. Competitor 2's share rises from 12.5% to 17.1% to 24.5%. Overseas share also declines, but the correct figures are 10%, 8.4% and 7.33%, not the guidance's 10%, 8.75%, 4.4%. The overseas market is much larger and merits attention. If pursuing organic options, move to Exhibit 2; if inorganic, move to Exhibit 3.",
+   "good_answer_signals": [
+    "Calculates share rather than mistaking growing sales for improving competitiveness.",
+    "Identifies both geographic and product growth opportunities."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Which adjacent applications should Matting Co. consider entering?",
+   "release_when": "When organic growth is raised; explain terms and provide the guidance's investment assumptions as needed.",
+   "info_to_release": "Exhibit 2 shows U.S. market size by material for track-out, forestry, mining and ice. Track-out removes sediment from tires at job sites and is required by many state transport authorities. Forestry and mining mats create temporary access roads/walkways. Ice mats convert rinks into event spaces or courts. The guidance gives track-out capex $1M, market capture 20%, SAM $4M; forestry/mining each require $0.5M capex and 10% capture, with stated SAM about $1.5M/$1.4M respectively. The book does not explain these SAM figures or provide margins.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Track-out is the most attractive application, with the largest market and substantial scope to replace other materials with composite. Forestry and mining also offer conversion opportunities. Ice is already composite and has finite rink demand, making it less attractive. If the stated SAM values are treated as inputs before capture, implied sales are $0.8M track-out, $0.15M forestry and $0.14M mining. However, the SAM definitions are unexplained; clarify before using those figures for an investment decision. Revenue is not profit and cannot establish ROI or payback without margins and timing.",
+   "good_answer_signals": [
+    "Uses material conversion, not simply total market size, to assess opportunity.",
+    "Compares organic entry with acquisition and notices the ambiguous SAM assumptions."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Why might the client not be interested in other matting materials?",
+   "release_when": "After discussing application expansion.",
+   "expected_answer": "Nonfinancial reasons include ESG benefits from reuse, longer life and less waste; engineering innovation and composite tailwinds; and protecting brand reputation and the existing value proposition. Financial reasons include investment in new capabilities and additional sales and marketing needs.",
+   "good_answer_signals": [
+    "Separates financial from nonfinancial reasons.",
+    "Offers reasons tailored to matting instead of generic expansion risks."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What would the track-out acquisition cost, and how would you assess that price?",
+   "release_when": "When the candidate considers inorganic growth, or prompt a comparison after Exhibit 2. Read aloud; do not show Exhibit 3.",
+   "info_to_release": "Matting Co. has discussed acquiring a leading global track-out matting supplier. It sells $10M of matting per year globally, with adjusted EBITDA margin 22.5%. Comparable industrials players have historically been acquired at 10 times EBITDA.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "EBITDA is $2.25M and the indicative acquisition price is $22.5M. Discuss whether the multiple and price are fair, compare buying capabilities and access with organic entry, and relate the target's revenue to the market without comparing global revenue as if it were all U.S. track-out sales.",
+   "good_answer_signals": [
+    "Gives perspective on the valuation rather than only calculating it.",
+    "Recognizes the mismatch between global target revenue and the U.S. exhibit."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "The CEO would like a final recommendation on potential growth avenues. What do you recommend?",
+   "expected_answer": "Pursue track-out product expansion and/or international expansion. U.S. share has declined to about 30%, and overseas share to about 7.33%. Track-out offers material-conversion potential; an acquisition benchmark is $22.5M, but diligence is required before choosing buy versus build. Risks include established competitors' response, copying, acquisition execution, local low-cost alternatives and differing ESG demand. Validate track-out capabilities and economics, resolve the SAM inconsistency, and mobilize the salesforce toward attractive markets.",
+   "good_answer_signals": [
+    "Remembers the geographic opportunity from Exhibit 1.",
+    "Names competitive and execution risks with practical next steps."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "U.S. and rest-of-world matting markets",
+   "page": 78,
+   "kind": "table",
+   "description": "Revenue in USD millions, 10 years ago, 5 years ago and present. U.S. aggregate rows are excluded from the data table because they can be summed; the rest-of-world total market is an independent given.",
+   "data": {
+    "columns": [
+     "Market / participant",
+     "10 years ago ($M)",
+     "5 years ago ($M)",
+     "Present ($M)"
+    ],
+    "rows": [
+     [
+      "U.S. Matting Co.",
+      100,
+      105,
+      110
+     ],
+     [
+      "U.S. Competitor 1",
+      50,
+      75,
+      105
+     ],
+     [
+      "U.S. Competitor 2",
+      25,
+      45,
+      90
+     ],
+     [
+      "U.S. all others",
+      25,
+      37.5,
+      61.7
+     ],
+     [
+      "RoW Matting Co.",
+      100,
+      105,
+      110
+     ],
+     [
+      "RoW market size (given)",
+      1000,
+      1250,
+      1500
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-whats-the-matter/p078.webp",
+   "image_has_answers": true,
+   "key_insight": "Both markets grow faster than the client, reducing its share. Competitor 2 gains quickly; the much larger overseas market offers another avenue.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "U.S. market by matting application and material",
+   "page": 80,
+   "kind": "bar",
+   "description": "Stacked bars for track-out, forestry, mining and ice, split into composite, wood, gravel and metal. The vertical axis is USD millions. Individual segments have no printed values; exact numeric segment values are intentionally omitted.",
+   "data": {
+    "columns": [
+     "Application",
+     "Materials shown"
+    ],
+    "rows": [
+     [
+      "Track-out",
+      "Composite, wood, gravel, metal"
+     ],
+     [
+      "Forestry",
+      "Composite, wood, gravel, metal"
+     ],
+     [
+      "Mining",
+      "Composite, wood, gravel, metal"
+     ],
+     [
+      "Ice",
+      "Composite only"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-whats-the-matter/p080.webp",
+   "key_insight": "Track-out has the largest market and substantial material-conversion potential. Ice is already composite and offers limited conversion upside.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Acquisition inputs — read aloud only",
+   "page": 83,
+   "kind": "table",
+   "description": "Read the inputs aloud; the source explicitly prohibits showing this exhibit. No image is attached.",
+   "data": {
+    "columns": [
+     "Input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Global annual target sales ($M)",
+      10
+     ],
+     [
+      "Adjusted EBITDA margin (%)",
+      22.5
+     ],
+     [
+      "Historical acquisition EBITDA multiple",
+      10
+     ]
+    ]
+   },
+   "key_insight": "Apply the EBITDA margin before multiplying by the acquisition multiple; then assess whether the price is sensible.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How have U.S. market shares changed?",
+   "givens": [
+    "Matting revenues 100/105/110M; Competitor 1 50/75/105M; Competitor 2 25/45/90M; others 25/37.5/61.7M."
+   ],
+   "steps": [
+    "Sum participant revenues: 200M, 262.5M, 366.7M.",
+    "Divide each participant's revenue by the corresponding market total.",
+    "Matting: 50%, 40%, 29.9973%; Competitor 1: 25%, 28.5714%, 28.6338%; Competitor 2: 12.5%, 17.1429%, 24.5432%; others: 12.5%, 14.2857%, 16.8257%."
+   ],
+   "answer": "Matting's share falls from 50% to 40% to approximately 30%.",
+   "answer_value": 29.9972729752,
+   "unit": "%",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are the correct overseas shares?",
+   "givens": [
+    "Matting RoW revenues 100/105/110M; market size 1000/1250/1500M."
+   ],
+   "steps": [
+    "100 / 1000 × 100 = 10%.",
+    "105 / 1250 × 100 = 8.4%.",
+    "110 / 1500 × 100 = 7.333333%."
+   ],
+   "answer": "Overseas shares are 10%, 8.4% and approximately 7.33%.",
+   "answer_value": 7.3333333333,
+   "unit": "%",
+   "verified": false,
+   "book_answer_if_different": "Page 79 gives 10%, 8.75% and 4.4%; the latter two do not follow from the exhibit revenues and market sizes."
+  },
+  {
+   "id": "m3",
+   "question": "What sales are implied if the guidance's SAM figures precede capture?",
+   "givens": [
+    "Track-out stated SAM $4M and capture 20%; forestry SAM about $1.5M and capture 10%; mining SAM about $1.4M and capture 10%."
+   ],
+   "steps": [
+    "Track-out: 4 × 20% = 0.8M.",
+    "Forestry: 1.5 × 10% = 0.15M.",
+    "Mining: 1.4 × 10% = 0.14M."
+   ],
+   "answer": "Conditional revenues are $0.8M, $0.15M and $0.14M. The book does not define SAM consistently enough to rely on these for a final investment decision.",
+   "answer_value": 0.8,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is the target's indicative acquisition price?",
+   "givens": [
+    "Global annual sales $10M",
+    "Adjusted EBITDA margin 22.5%",
+    "Acquisition multiple 10x EBITDA"
+   ],
+   "steps": [
+    "EBITDA = 10 × 22.5% = $2.25M.",
+    "Price = 2.25 × 10 = $22.5M."
+   ],
+   "answer": "Indicative acquisition price is $22.5M.",
+   "answer_value": 22.5,
+   "unit": "USD millions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Expand into track-out matting and consider international expansion to reverse share loss. The U.S. share is now about 30%; corrected overseas share is about 7.33%. Track-out offers the strongest adjacent material-conversion opportunity. A target is valued at $22.5M using the supplied EBITDA multiple, but the case does not establish whether buying beats building. Clarify the unexplained organic SAM assumptions and compare margins, capabilities and implementation requirements. Address competitor imitation, acquisition risks, local low-cost options and market-specific ESG preferences. Validate investment economics and mobilize the salesforce.",
+ "what_great_looks_like": [
+  "Links declining relative share to product and geographic growth.",
+  "Explains why composite's environmental and engineering attributes matter.",
+  "Assesses the acquisition price in context, including global versus U.S. market scope."
+ ],
+ "common_pitfalls": [
+  "Repeating the incorrect overseas shares in the answer slide.",
+  "Treating revenue as profit or computing payback without margins.",
+  "Assuming the unexplained SAM figures are directly observable chart values.",
+  "Showing the read-aloud acquisition slide or entering ice solely because it already uses composite."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (exact unlabelled segment values omitted)",
+   "stages[2].info_to_release (source SAM definition unexplained)"
+  ],
+  "math_verified": false,
+  "notes": "Growth/Revenue, Market Entry and M&A better describe the task than the source Profitability label. Page 79's RoW shares 8.75% and 4.4% are corrected to 8.4% and 7.3333%. The overview's small overseas revenue conflicts with Exhibit 1's equal U.S./RoW client revenue. Exhibit 2 has unlabelled stacks; exact numeric segment estimates are omitted. Page 81's SAM $4M/$1.5M/$1.4M values are preserved verbatim as interviewer inputs, but their derivation from Exhibit 2 is unexplained. Conditional sales calculations are additional derivations, not a book ROI claim. Exhibit 1's image includes aggregate totals, so image_has_answers is conservatively true under the user's worked-total rule. Exhibit 3 is intentionally data-only. Difficulty Medium maps to 3 in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "case_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls",
+   "math[2]",
+   "stages[2].expected_answer (conditional sales and SAM caveat)"
+  ]
+ }
+}

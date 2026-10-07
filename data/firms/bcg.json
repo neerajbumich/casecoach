@@ -1,0 +1,56 @@
+{
+  "id": "bcg",
+  "name": "Boston Consulting Group",
+  "tier": "MBB",
+  "one_liner": "MBB firm known for pioneering strategy concepts, a strong digital and AI build arm (BCG X), and conversational, candidate-driven case interviews.",
+  "at_a_glance": [
+    "Founded 1963; headquartered in Boston.",
+    "About 33,500 employees and 100+ offices in 50+ countries (2025).",
+    "Reported roughly $14.4B revenue in 2025, its 22nd straight year of growth.",
+    "Tech and AI-related work now exceeds ~40% of revenue.",
+    "Private, partner-owned firm."
+  ],
+  "interview_process": {
+    "rounds": [
+      "Screen: some candidates complete an online case (Casey chatbot) depending on office and program.",
+      "First round: ~2 case interviews, each with some behavioral discussion.",
+      "Final round: ~2-3 case interviews with senior leaders, plus fit questions."
+    ],
+    "case_style": "Conversational and largely candidate-driven: structure the problem, ask for data, analyze charts, do quick math, and land a recommendation. Cases can feel less scripted than McKinsey's.",
+    "fit_style": "Behavioral questions woven into case interviews; BCG lists integrity, intellectual curiosity, creative thinking, collaborative mindset, and drive as qualities it looks for.",
+    "assessments": "Online case assessment used in many geographies (Casey chatbot plus quantitative questions), office-dependent. BCG also offers OneDay@BCG, a free job simulation."
+  },
+  "what_they_look_for": [
+    "Integrity",
+    "Intellectual curiosity",
+    "Creative thinking and insight beyond the obvious",
+    "Collaborative mindset",
+    "Drive"
+  ],
+  "culture": [
+    "Known for intellectual rigor and 'unconventional' thinking rooted in founder Bruce Henderson's legacy.",
+    "Rapidly growing BCG X tech-and-build arm means more mixed consultant-engineer teams.",
+    "Relatively flexible, less standardized approach than McKinsey; strong emphasis on people development."
+  ],
+  "why_us_angles": [
+    "Which BCG frameworks or Henderson Institute ideas shaped how you think about strategy?",
+    "How could BCG X's build-and-scale model use any product or tech experience you have?",
+    "Which BCG practice (e.g., consumer, tech, operations) connects to your background, and what have you learned from BCGers?",
+    "What would working on AI-driven transformations at BCG let you do that other firms would not?"
+  ],
+  "prep_tips": [
+    "Practice the Casey format: typed answers, predefined steps, and short recorded video summaries under time pressure.",
+    "Drive cases yourself: propose a structure, prioritize branches, and ask for the data you need.",
+    "Bring creative, insight-driven ideas, not just textbook frameworks.",
+    "Prepare crisp fit stories mapped to curiosity, collaboration, and drive.",
+    "Use BCG's case interview prep page and OneDay@BCG simulation to calibrate."
+  ],
+  "practice_mode": "bcg",
+  "sources": [
+    "https://careers.bcg.com/global/en/interview-process",
+    "https://careers.bcg.com/global/en/case-interview-preparation",
+    "https://www.bcg.com/press/23april2026-bcg-revenue-22nd-consecutive-year-growth",
+    "https://managementconsulted.com/bcg-online-case/"
+  ],
+  "checked": "2026-09"
+}

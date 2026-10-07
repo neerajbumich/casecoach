@@ -1,0 +1,130 @@
+{
+  "id": "insurance",
+  "name": "Insurance",
+  "group": "Financial services",
+  "one_liner": "Insurers pool risk by collecting premiums upfront and paying claims later, profiting from underwriting discipline and from investing the float in between.",
+  "how_it_makes_money": "Property & casualty insurers aim for an underwriting profit (premiums above claims and expenses) plus investment income on the float. Life and annuity insurers earn the spread between investment returns and the rates credited to policyholders, plus fees on retirement products; brokers earn commissions without taking risk.",
+  "value_chain": [
+    "Product design and pricing",
+    "Distribution via agents and brokers",
+    "Underwriting and policy issuance",
+    "Claims handling and settlement",
+    "Investment of float",
+    "Reinsurance and risk transfer"
+  ],
+  "revenue_formula": [
+    "Revenue = earned premiums + investment income",
+    "Earned premiums = policies in force × average premium × retention",
+    "Underwriting profit = earned premiums × (1 - combined ratio)"
+  ],
+  "cost_structure": [
+    "Losses and loss adjustment expenses: claims paid and reserved, by far the largest cost",
+    "Acquisition costs: agent and broker commissions",
+    "Operating expenses: underwriting, policy administration, technology",
+    "Reinsurance premiums: ceded to transfer peak and catastrophe risk",
+    "Regulatory capital and compliance: state-by-state rules in the US"
+  ],
+  "margins": "A P&C combined ratio below 100% means underwriting profit, and most profit years land roughly in the 90s; returns on equity are often high single to low double digits, driven by pricing discipline, catastrophe exposure, and investment yields.",
+  "key_metrics": [
+    {
+      "name": "Combined ratio",
+      "what": "Losses plus expenses divided by earned premium; below 100% signals an underwriting profit."
+    },
+    {
+      "name": "Loss ratio",
+      "what": "Claims and adjustment costs over earned premium; the core test of pricing and risk selection."
+    },
+    {
+      "name": "Expense ratio",
+      "what": "Acquisition and operating costs over premium; reflects distribution and operating efficiency."
+    },
+    {
+      "name": "Gross written premium (GWP)",
+      "what": "Total premium written in a period; the top-line growth measure."
+    },
+    {
+      "name": "Retention / persistency",
+      "what": "Share of policies that renew; drives lifetime value given high acquisition costs."
+    },
+    {
+      "name": "Investment yield",
+      "what": "Return on the invested float; a major profit driver especially for life insurers."
+    },
+    {
+      "name": "Solvency / RBC ratio",
+      "what": "Capital relative to required regulatory capital; indicates financial strength."
+    }
+  ],
+  "trends": [
+    "Rising catastrophe losses from severe weather push up property rates and trigger market exits in high-risk states",
+    "Auto insurers repricing after a period of rising repair costs and claims severity",
+    "Higher interest rates boosting investment income and annuity sales",
+    "Private equity-backed firms acquiring life and annuity blocks",
+    "Telematics, AI underwriting and claims automation",
+    "Embedded insurance sold at the point of purchase"
+  ],
+  "key_players": [
+    "State Farm",
+    "Berkshire Hathaway (GEICO)",
+    "Progressive",
+    "Allstate",
+    "Travelers",
+    "Chubb",
+    "MetLife",
+    "Prudential Financial",
+    "AIG",
+    "Marsh McLennan (broker)"
+  ],
+  "case_angles": [
+    {
+      "question": "An auto insurer's combined ratio has risen above 100%. How do you restore profitability?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a P&C carrier continue writing homeowners insurance in a wildfire-prone state?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "How should an insurer price a new usage-based auto product?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "An insurer's direct-to-consumer rival is taking share from its agents. How should it respond?",
+      "framework_id": "competitive-response"
+    }
+  ],
+  "interview_hooks": [
+    "Will climate risk make parts of the US effectively uninsurable, and who should bear that risk?",
+    "Are agents a durable advantage or a legacy cost versus direct and embedded distribution?",
+    "Is private equity ownership of life insurers good for policyholders?"
+  ],
+  "news": {
+    "keywords": [
+      "insurer",
+      "insurers",
+      "insurance",
+      "reinsurance",
+      "reinsurer",
+      "premiums",
+      "underwriting",
+      "combined ratio",
+      "catastrophe losses",
+      "annuities",
+      "policyholders"
+    ],
+    "companies": [
+      "State Farm",
+      "Progressive",
+      "Allstate",
+      "GEICO",
+      "Travelers",
+      "Chubb",
+      "AIG",
+      "MetLife",
+      "Prudential",
+      "Marsh McLennan",
+      "Aon",
+      "Munich Re"
+    ]
+  }
+}

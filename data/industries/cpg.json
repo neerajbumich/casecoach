@@ -1,0 +1,72 @@
+{
+  "id": "cpg",
+  "name": "Consumer Packaged Goods (CPG)",
+  "group": "Consumer & retail",
+  "one_liner": "Branded, frequently purchased goods (food, beverages, household and personal care) whose economics hinge on brand power, scale in manufacturing and media, and negotiating leverage with a concentrated set of retailers.",
+  "how_it_makes_money": "Manufacturers sell to retailers and distributors at a wholesale price, and the retailer sets the shelf price; the consumer never pays the manufacturer directly. Profit comes from gross margin on branded volume after trade spend, with scale players earning more through pricing power, mix shifts toward premium SKUs, and cost productivity programs.",
+  "value_chain": [
+    "Ingredient and packaging sourcing",
+    "Manufacturing and co-packing",
+    "Distribution centers and DSD",
+    "Retailer negotiation and trade promotion",
+    "Shelf placement and in-store execution",
+    "Consumer marketing and brand building"
+  ],
+  "revenue_formula": [
+    "Net revenue = gross sales (list price × volume) − trade spend (promotions, slotting, allowances)",
+    "Retail sales = households × penetration × purchase frequency × units per trip × price per unit",
+    "Category share = distribution (ACV %) × velocity (units per store per week) relative to competitors"
+  ],
+  "cost_structure": [
+    "Cost of goods (raw materials, packaging, conversion): the largest bucket, typically around half or more of net sales",
+    "Trade spend: often roughly 15-25% of gross sales, and frequently the second-largest outlay after COGS",
+    "Advertising and consumer promotion: brand-building media, often mid-single-digit to ~10% of sales",
+    "Logistics and warehousing: freight to retailer DCs or direct-store delivery routes",
+    "SG&A: sales force, category management teams, corporate overhead"
+  ],
+  "margins": "Large branded players typically earn gross margins of roughly 35-50% and operating margins of roughly 15-25%, while private-label manufacturers and commodity-exposed food makers sit well below. The spread is driven by brand strength (pricing power), category (beverages and personal care beat packaged food), trade-spend efficiency, and manufacturing scale.",
+  "key_metrics": [
+    {"name": "Net revenue management (NRM) / price-mix", "what": "Decomposes revenue growth into price, mix, and volume, the first question in any CPG growth or profitability case."},
+    {"name": "Trade spend ROI", "what": "Incremental volume and profit generated per dollar of promotion; many promotions lose money once baseline sales and forward-buying are stripped out."},
+    {"name": "ACV-weighted distribution (%ACV)", "what": "Share of all-commodity retail volume carried by stores that stock the product, the core measure of shelf reach."},
+    {"name": "Velocity (units/store/week)", "what": "Sales rate once on shelf; retailers use it to decide which SKUs keep or lose space."},
+    {"name": "Household penetration and repeat rate", "what": "How many households buy the brand and how many come back, the main levers of brand growth."},
+    {"name": "Market share (dollar and volume)", "what": "Position within a category, tracked through syndicated scanner data such as Circana and NielsenIQ."},
+    {"name": "Gross margin and productivity savings", "what": "Shows whether cost-savings programs are offsetting input-cost inflation."}
+  ],
+  "trends": [
+    "Volume weakness after years of price-led growth, pushing companies to rebuild value perception and promotional depth",
+    "Private label gaining share as retailers such as Costco, Walmart, and Aldi upgrade store brands to premium tiers",
+    "Portfolio reshaping through spin-offs, divestitures of slow-growth brands, and acquisitions of insurgent brands",
+    "GLP-1 weight-loss drugs raising questions about long-run demand for snacks, confectionery, and indulgent foods",
+    "Retail media networks absorbing a growing share of trade and marketing budgets",
+    "Health, clean-label, and protein-forward reformulation alongside regulatory scrutiny of ultra-processed foods and dyes"
+  ],
+  "key_players": [
+    "Procter & Gamble",
+    "Unilever",
+    "Nestlé",
+    "PepsiCo",
+    "Coca-Cola",
+    "Kraft Heinz",
+    "Mondelez",
+    "General Mills",
+    "Colgate-Palmolive",
+    "Kimberly-Clark"
+  ],
+  "case_angles": [
+    {"question": "A packaged snacks maker's profits fell despite flat revenue; what is driving it and how do we fix it?", "framework_id": "profitability"},
+    {"question": "A CPG client spends heavily on trade promotions; how should it restructure trade spend to improve ROI?", "framework_id": "cost-reduction"},
+    {"question": "A retailer's private-label product is taking share in our client's core category; how should the client respond?", "framework_id": "competitive-response"},
+    {"question": "Should a large food company acquire a fast-growing insurgent protein-snack brand?", "framework_id": "mergers-acquisitions"}
+  ],
+  "interview_hooks": [
+    "Is private label a structural threat to mid-tier brands, or a cyclical trade-down that reverses when budgets recover?",
+    "Should CPG companies keep taking price to protect margin, or invest in price and promotion to win back volume?",
+    "Does category captaincy with retailers still create an advantage when retailers own the shopper data through retail media?"
+  ],
+  "news": {
+    "keywords": ["consumer packaged goods", "cpg", "packaged food", "private label", "store brands", "trade promotion", "snack maker", "household products", "personal care", "shrinkflation", "food maker"],
+    "companies": ["Procter & Gamble", "Unilever", "Nestlé", "PepsiCo", "Coca-Cola", "Kraft Heinz", "Mondelez", "General Mills", "Colgate-Palmolive", "Kimberly-Clark", "Kellanova", "Hershey"]
+  }
+}

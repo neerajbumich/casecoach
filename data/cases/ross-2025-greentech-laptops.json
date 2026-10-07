@@ -1,0 +1,316 @@
+{
+ "id": "ross-2025-greentech-laptops",
+ "title": "GreenTech Laptops",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  120,
+  128
+ ],
+ "variant_group_id": "ross-2025-greentech-laptops",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Pricing",
+  "M&A/Acquisition",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Technology | Market Entry",
+ "industry": "tech-saas",
+ "sub_industry": "hardware-devices",
+ "industry_source_label": "Technology",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 3, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "pricing-strategy",
+  "willingness-to-pay",
+  "roi-analysis",
+  "acquisition-vs-build",
+  "sustainability",
+  "marketing-campaign",
+  "value-action-gap"
+ ],
+ "concepts_tested": [
+  "price elasticity by segment",
+  "5-year ROI comparison of acquisition vs. internal R&D",
+  "closing a stated-preference vs. purchasing-behavior gap"
+ ],
+ "prompt": "GreenTech Laptops is a leading mid-sized laptop manufacturer that has invested heavily in sustainability initiatives over the past three years. The company has committed over $50 million to using recycled materials, reducing carbon footprint in manufacturing, implementing take-back programs for end-of-life products, and redesigning packaging to minimize waste. Despite these significant investments, GreenTech has not seen the anticipated market perception changes or sales increases. CEO Jamie Chen has brought you in to evaluate GreenTech's sustainability strategy and determine the optimal approach to maximize both business impact and environmental benefits.",
+ "clarifying_info": [
+  {
+   "question_topic": "Current market position",
+   "answer": "GreenTech is a leading mid-sized laptop manufacturer with a stagnant market share of 11%. Competitors who have invested less in sustainability but marketed it more aggressively have seen growth."
+  },
+  {
+   "question_topic": "Sustainability investment breakdown",
+   "answer": "GreenTech has invested $50 million total: approximately $15 million in recycled materials, $20 million in carbon footprint reduction, $10 million in take-back programs, and $5 million in redesigning packaging."
+  },
+  {
+   "question_topic": "Technologies/actions under consideration",
+   "answer": "GreenTech is considering acquiring EcoInnovate for $20 million, which would provide patented biodegradable laptop component technology that could reduce environmental impact by 40% and provide sustainable competitive advantage for 3-5 years."
+  },
+  {
+   "question_topic": "Pricing structure vs. competitors",
+   "answer": "GreenTech currently charges a uniform 10% premium for sustainable features across all segments: $550 (budget), $990 (mainstream), $1,650 (premium), which is approximately 4-6% higher than competitors' comparable sustainable offerings."
+  }
+ ],
+ "interviewer_notes": "Candidate should structure around market & customer analysis, financial/ROI analysis, positioning & marketing, and operational considerations. The case has three distinct quantitative/qualitative sub-questions (pricing strategy, acquisition vs. R&D ROI, marketing campaign) that build toward an integrated recommendation.",
+ "suggested_framework": {
+  "summary": "Evaluate GreenTech's sustainability strategy across market/customer fit, financial ROI of investment options, positioning/marketing, and operational feasibility.",
+  "tree": {
+   "label": "GreenTech Sustainability Strategy",
+   "children": [
+    {
+     "label": "Market & Customer Analysis",
+     "children": [
+      {
+       "label": "Current market share and competitive positioning"
+      },
+      {
+       "label": "Customer segmentation and sustainability preferences"
+      },
+      {
+       "label": "Willingness to pay premium by segment"
+      },
+      {
+       "label": "Gap analysis between customer values and purchasing behavior"
+      }
+     ]
+    },
+    {
+     "label": "Financial & ROI Analysis",
+     "children": [
+      {
+       "label": "Current investment by category"
+      },
+      {
+       "label": "Financial returns on existing sustainability investments"
+      },
+      {
+       "label": "NPV/ROI analysis of acquisition vs. R&D"
+      }
+     ]
+    },
+    {
+     "label": "Positioning & Marketing",
+     "children": [
+      {
+       "label": "Strategic positioning & marketing"
+      },
+      {
+       "label": "Competitive differentiation through sustainability"
+      },
+      {
+       "label": "Marketing effectiveness of sustainability messaging"
+      },
+      {
+       "label": "Alignment of initiatives with brand values"
+      }
+     ]
+    },
+    {
+     "label": "Operational Considerations",
+     "children": [
+      {
+       "label": "Integration capabilities for potential acquisition"
+      },
+      {
+       "label": "R&D timelines and probability of success"
+      },
+      {
+       "label": "Supply chain and manufacturing implications"
+      },
+      {
+       "label": "Regulatory considerations and compliance"
+      },
+      {
+       "label": "Talent and organizational capabilities"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you approach evaluating GreenTech's sustainability strategy?",
+   "expected_answer": "Candidate lays out a MECE structure covering market & customer analysis, financial/ROI analysis, positioning & marketing, and operational considerations.",
+   "good_answer_signals": [
+    "separates the pricing, investment, and marketing sub-questions",
+    "ties structure back to the CEO's dual goal of business impact and environmental benefit"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Based on the information in Exhibit 1, should GreenTech maintain its current pricing strategy for sustainability features?",
+   "release_when": "When candidate reaches the pricing question; additional elasticity data only if asked",
+   "info_to_release": "Exhibit 1 shows base price, current price (10% premium), and willingness-to-pay price by segment: Budget $500/$550/$510; Mainstream $900/$990/$945; Premium $1500/$1650/$1665. If probed: current monthly sales ~10,000 units/segment; 10% unit change for every $25 price gap vs. WTP; profit per unit $20 (budget), $50 (mainstream), $150 (premium).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Current pricing is misaligned with willingness to pay: GreenTech is overpricing Budget and Mainstream (current price above WTP) and underpricing Premium (WTP above current price). Aligning prices with WTP increases monthly profit by $32,000 (Budget) + $90,000 (Mainstream) + $150,000 (Premium) = $272,000/month, or about $3.26M annually.",
+   "good_answer_signals": [
+    "recognizes the price-vs-WTP gap differs in direction by segment",
+    "correctly applies the 10% per $25 elasticity rule",
+    "aggregates to an annual profit impact"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "GreenTech is considering two approaches to maintain product leadership: Option A - acquire EcoInnovate for $20M (immediate biodegradable component tech, $6M/year benefit); Option B - internal R&D for $15M (2 years to develop, $7M/year benefit). Calculate the return on investment for each option over a 5-year period and recommend which path GreenTech should pursue.",
+   "info_to_release": "Option A: $20M initial investment, $6M/year benefit for 5 years. Option B: $15M initial investment, $7M/year benefit, but takes 2 years to develop so benefits only accrue in years 3-5 (3 years).",
+   "expected_answer": "Option A: Total benefits = $6M x 5 = $30M; Net return = $30M - $20M = $10M (ROI = 50%). Option B: Total benefits = $7M x 3 = $21M; Net return = $21M - $15M = $6M (ROI = 40%). Option A (acquisition) delivers a higher net return and ROI over the 5-year horizon and should be recommended.",
+   "good_answer_signals": [
+    "correctly limits Option B's benefit period to years 3-5",
+    "computes both net return and can express as ROI %",
+    "recommends Option A with the return comparison as support"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "GreenTech has identified a gap between consumers' stated preference for sustainable products (78% say sustainability is important) and actual purchasing behavior (only 14% report paying a premium for sustainable features). Develop a creative, multi-channel marketing campaign for GreenTech that addresses this value-action gap and effectively communicates the value of their sustainability investments.",
+   "expected_answer": "Lots of potential options; focus on structured and creative responses aligned with the earlier recommendations. Example concept: 'Feel the Difference, Make the Difference,' bridging the value-action gap by making sustainability tangible, emotional, and personally relevant. Key tactics: (1) an interactive 'Sustainability Impact Visualizer' translating specs into real-world equivalents (e.g., 'prevents 35 plastic bottles from entering oceans'); (2) an 'Experience Sustainability' retail strategy with multi-sensory displays contrasting conventional vs. sustainable materials and digital kiosks sharing sourcing stories; (3) a 'Sustainability as Standard' pricing approach integrating sustainable features across all tiers rather than as premium add-ons, offset by supply-chain efficiencies; (4) highlighting the planned EcoInnovate acquisition if recommended. Measurement: track conversion lift, target a 50% reduction in the value-action gap within 18 months, monitor competitor price differentials, measure earned media/sentiment, and run quarterly perception studies.",
+   "good_answer_signals": [
+    "structures ideas around a clear campaign concept rather than a scattershot list",
+    "includes a measurable target for closing the value-action gap",
+    "connects the campaign back to the acquisition/pricing recommendations"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to CEO Jamie Chen?",
+   "expected_answer": "Pursue a three-pronged strategy to maximize ROI on sustainability investments: (1) Acquire EcoInnovate for immediate access to superior technology, since its 5-year NPV/return ($10M net, 50% ROI) beats internal R&D ($6M net, 40% ROI); (2) Optimize pricing with segment-specific prices aligned to willingness to pay, increasing profit by about $3.2M annually while expanding share in budget/mainstream segments; (3) Transform marketing with a campaign that makes sustainability tangible and closes the value-action gap. Key risks: acquisition integration (cultural alignment, talent retention, manufacturing integration), pricing implementation (gradual rollout, competitive response), and marketing effectiveness (substantiated claims, consistent measurement). Next steps: plan acquisition integration, conduct a market study for pricing strategy, and address any other risks raised.",
+   "good_answer_signals": [
+    "integrates all three sub-analyses into one recommendation",
+    "flags at least one key risk per workstream",
+    "proposes concrete next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "GreenTech Laptop Pricing Analysis by Segment",
+   "page": 123,
+   "kind": "bar",
+   "description": "Grouped bar chart comparing Base Price, Current Price (10% premium), and Willingness-to-Pay Price for Budget, Mainstream, and Premium laptop segments.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Base Price",
+     "Current Price (10% Premium)",
+     "Willingness to Pay Price"
+    ],
+    "rows": [
+     [
+      "Budget",
+      500,
+      550,
+      510
+     ],
+     [
+      "Mainstream",
+      900,
+      990,
+      945
+     ],
+     [
+      "Premium",
+      1500,
+      1650,
+      1665
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-greentech-laptops/p123.webp",
+   "key_insight": "GreenTech is overpricing the Budget and Mainstream segments relative to willingness to pay, but underpricing the Premium segment, suggesting a segment-specific pricing correction rather than a uniform premium.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the monthly and annual profit impact of aligning each segment's price with its willingness-to-pay price?",
+   "givens": [
+    "~10,000 units/month per segment",
+    "10% unit change per $25 price gap vs. WTP",
+    "Profit per unit: $20 (budget), $50 (mainstream), $150 (premium)",
+    "Budget: price $550 vs WTP $510 (-$40); Mainstream: price $990 vs WTP $945 (-$45); Premium: price $1650 vs WTP $1665 (+$15)"
+   ],
+   "steps": [
+    "Budget: reduce price by $40 -> unit increase = (40/25) x 10% = 16%; new units = 10,000 x 1.16 = 11,600; new profit = $20 x 11,600 = $232,000 vs current $200,000 -> +$32,000",
+    "Mainstream: reduce price by $45 -> unit increase = (45/25) x 10% = 18%; new units = 10,000 x 1.18 = 11,800; new profit = $50 x 11,800 = $590,000 vs current $500,000 -> +$90,000",
+    "Premium: WTP is $15 above current price, so raise price by $15 with units held at 10,000 (per case instructions); new profit = ($150 + $15) x 10,000 = $1,650,000 vs current $1,500,000 -> +$150,000",
+    "Total monthly profit increase = $32,000 + $90,000 + $150,000 = $272,000",
+    "Annualized = $272,000 x 12 = $3,264,000 (~$3.26M)"
+   ],
+   "answer": "Aligning prices to willingness to pay increases profit by $272,000/month, or approximately $3.26M annually.",
+   "answer_value": 3264000,
+   "unit": "$ annual profit increase",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the 5-year net return and ROI for Option A (acquire EcoInnovate) vs. Option B (internal R&D)?",
+   "givens": [
+    "Option A: $20M initial investment, $6M/year benefit for all 5 years",
+    "Option B: $15M initial investment, $7M/year benefit, but only in years 3-5 (2-year development delay)"
+   ],
+   "steps": [
+    "Option A total benefits = $6M x 5 years = $30M; Net return = $30M - $20M = $10M; ROI = $10M / $20M = 50%",
+    "Option B total benefits = $7M x 3 years (years 3-5) = $21M; Net return = $21M - $15M = $6M; ROI = $6M / $15M = 40%"
+   ],
+   "answer": "Option A (acquisition) net return = $10M (50% ROI); Option B (internal R&D) net return = $6M (40% ROI). Option A is superior over the 5-year horizon.",
+   "answer_value": 10,
+   "unit": "$M net return (Option A)",
+   "verified": true
+  }
+ ],
+ "synthesis": "GreenTech should pursue a three-pronged strategy to maximize the ROI of its sustainability investments: (1) Pursue the strategic acquisition of EcoInnovate to gain immediate access to revolutionary technology — its net return over a 5-year horizon ($10M / 50% ROI) is superior to internal R&D ($6M / 40% ROI); (2) Optimize pricing strategy by implementing segment-specific pricing that aligns with customers' willingness to pay, increasing total revenue by approximately $3.2M annually while expanding market share, particularly in the budget and mainstream segments; (3) Transform the marketing approach by launching a campaign that addresses the value-action gap in consumer behavior, converting stated sustainability preferences into purchasing decisions. Key risks include acquisition integration, pricing implementation communication, and marketing claim substantiation; next steps include planning acquisition integration and a market study for pricing.",
+ "what_great_looks_like": [
+  "Correctly identifies that the pricing misalignment runs in opposite directions across segments (overpriced budget/mainstream, underpriced premium)",
+  "Compares Option A and B on both net return and ROI %, not just raw dollar totals",
+  "Correctly limits Option B's benefit period to years 3-5 due to the 2-year development lag",
+  "Connects the marketing campaign concept back to the acquisition and pricing recommendations rather than treating it in isolation",
+  "Delivers an integrated top-down recommendation combining all three workstreams with risks and next steps"
+ ],
+ "common_pitfalls": [
+  "Applying the same price-elasticity logic to the premium segment as the other two despite the case instructing no volume change there",
+  "Comparing Option A and B on total benefit dollars without accounting for Option B's delayed start",
+  "Treating the marketing brainstorm as disconnected from the financial recommendation",
+  "Ignoring the acquisition integration risk when a case explicitly raises it"
+ ],
+ "follow_ups": [
+  "How would you prioritize implementation sequencing across the pricing change, acquisition, and marketing campaign?",
+  "What would change in the ROI comparison if EcoInnovate's technology advantage erodes faster than 3-5 years?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "sub_industry",
+   "concepts_tested"
+  ]
+ }
+}

@@ -1,0 +1,374 @@
+{
+ "id": "kellogg-2024-mustard-clinic",
+ "title": "Mustard Clinic",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  279,
+  288
+ ],
+ "author": "Edited by Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "kellogg-2024-mustard-clinic",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Y07 Profitability; Y01 Cost reduction; Y05 Operations",
+ "industry": "healthcare-providers",
+ "sub_industry": "hospitals",
+ "industry_source_label": "X08 Healthcare",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "profitability",
+  "capacity",
+  "hospital-operations",
+  "cost-reduction",
+  "breakeven",
+  "patient-mix",
+  "fixed-fee-pricing"
+ ],
+ "concepts_tested": [
+  "Z04 Capacity",
+  "Z12 Creativity"
+ ],
+ "fit_question": "Experience: Tell me about a time you implemented a new way of doing things in an organization.",
+ "prompt": "Your client is the CEO of the Mustard Clinic, a for-profit hospital in the United States. The hospital is known primarily for its leading care for babies and young children. Patients pay a fixed fee to access services on arrival, and all subsequent costs are borne by the Mustard Clinic; the Clinic does not deal with insurance providers directly (patients submit claims to their own insurer). In the last few years, the hospital's profitability has fallen, and they are facing bankruptcy — last year they lost $1.4m. The CEO asks you: \"Why has profitability gone down and how can we turn it around?\"",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "The Mustard Clinic wants to at least break even (i.e., increase profit by $1.4m)."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "The Clinic cannot influence its patient mix in the short term."
+  },
+  {
+   "question_topic": "Services",
+   "answer": "The Clinic offers intrapartum (childbirth), neonatal (newborns), pediatrics (infants/children), and a small geriatrics (elderly) unit."
+  },
+  {
+   "question_topic": "Competitors",
+   "answer": "There aren't any competitors that have contributed to the Mustard Clinic's problem."
+  },
+  {
+   "question_topic": "Revenue model",
+   "answer": "Customers are charged a fixed fee at check-in; all subsequent costs are borne by the Mustard Clinic."
+  }
+ ],
+ "interviewer_notes": "Problem: how can the Mustard Clinic break even (increase profits by $1.4m)? Key case steps: (1) analyze customer segments, (2) determine cost impact of shorter patient stays, (3) determine profit impact of shorter patient stays, (4) brainstorm ways to shorten patient stays, (5) provide client recommendation. Strong candidates maintain organization well since there are several points where they need to refer back to prior clarifying info, exhibits, or calculations. Outstanding candidates think strategically about the impact of changes throughout and find quick ways to do calculations (e.g., Q2 savings = 2 nights × 1,000 patients × $600/night = $1.2m).",
+ "suggested_framework": {
+  "summary": "Interviewer-led case built around a fixed patient-nights capacity constraint and a fixed-fee revenue model: the interviewer walks the candidate through customer-segment mix, the cost impact of shorter stays, the profit impact of freed-up capacity, and a brainstorm of ways to actually shorten stays.",
+  "tree": {
+   "label": "How can the Mustard Clinic break even?",
+   "children": [
+    {
+     "label": "Customer segment analysis",
+     "children": [
+      {
+       "label": "Volume and average stay by unit (Intrapartum, Neonatal, Pediatrics, Geriatrics)"
+      }
+     ]
+    },
+    {
+     "label": "Cost structure",
+     "children": [
+      {
+       "label": "Fixed costs"
+      },
+      {
+       "label": "Variable costs per patient-night"
+      }
+     ]
+    },
+    {
+     "label": "Capacity",
+     "children": [
+      {
+       "label": "Total patient-night capacity (currently 100% utilized)"
+      },
+      {
+       "label": "Capacity freed by shortening average stay"
+      }
+     ]
+    },
+    {
+     "label": "Profit impact",
+     "children": [
+      {
+       "label": "Cost savings from existing patients' shorter stays"
+      },
+      {
+       "label": "Incremental profit from new patients filling freed capacity"
+      }
+     ]
+    },
+    {
+     "label": "Implementation",
+     "children": [
+      {
+       "label": "Brainstorm ways to shorten stays (patient journey: admittance, diagnosis, surgery, recovery, other)"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Why has profitability gone down and how can we turn it around?",
+   "expected_answer": "A structure examining patient/customer segment mix, the hospital's fixed-fee revenue model and cost structure (fixed vs. variable), and capacity utilization, since the fixed-fee pricing model means longer stays directly hurt profitability."
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "Our team has conducted the following analysis on various groups of customers. Providing overnight care is expensive for the Mustard Clinic. In number of nights, what is the average stay duration for a Mustard Clinic patient?",
+   "release_when": "Start of Part 1",
+   "info_to_release": "Exhibit A (segment volumes and average stays).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Total patient-nights = (500×10) + (300×7) + (150×11) + (50×25) = 5,000+2,100+1,650+1,250 = 10,000. Average stay = 10,000 nights / 1,000 patients = 10 nights. Takeaway: because of the fixed-fee arrangement, it is worth looking to reduce average patient stay duration.",
+   "good_answer_signals": [
+    "Correctly sums total patient-nights across all four segments",
+    "Connects fixed-fee pricing to the incentive to shorten stays"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "If the Mustard Clinic were to reduce the length of an average patient stay by two nights, what would be the cost savings?",
+   "release_when": "Start of Part 2",
+   "info_to_release": "Exhibit B (cost structure: fixed costs $1.4m, variable cost $600/patient-night, 1,000 patients/year, 10-night average stay, 100% capacity utilization).",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "At a 10-night stay: variable costs = 1,000 × 10 × $600 = $6m (plus $1.4m fixed = $7.4m total). At an 8-night stay: variable costs = 1,000 × 8 × $600 = $4.8m (plus $1.4m fixed = $6.2m total). Savings = $1.2m. Takeaway: promising, but $1.2m alone doesn't close the $1.4m gap — and shorter stays also free up capacity for new patients.",
+   "good_answer_signals": [
+    "Correctly isolates the variable-cost savings as $1.2m",
+    "Notes on their own that this alone doesn't reach breakeven and that capacity is freed up"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Reducing the average stay length frees up space for new patients. How many additional patients can we serve, and what would be the impact on profit if average revenue per patient is $6,000?",
+   "release_when": "Start of Part 3",
+   "info_to_release": "Average revenue per patient = $6,000.",
+   "expected_answer": "Capacity made available = 1,000 patients × 2-night reduction = 2,000 patient-nights. Additional patients servable = 2,000 / 8-night new average stay = 250 additional patients (total 1,250 patients/year). Revenue = 1,250 × $6,000 = $7.5m. Fixed cost = $1.4m. Variable cost = 1,250 × 8 × $600 = $6m. Profit = $7.5m − ($1.4m + $6m) = $100k. Takeaway: the Mustard Clinic can return to profitability by shortening stays by 2 nights and using the freed-up capacity.",
+   "good_answer_signals": [
+    "Correctly computes 250 additional patients from freed capacity",
+    "Arrives at $100k total profit, i.e., the clinic crosses from a $1.4m loss to breakeven-plus"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are some ways in which the Mustard Clinic could reduce the average patient stay duration from 10 to 8 nights?",
+   "info_to_release": "A patient-journey structure (Admittance, Diagnosis, Surgery, Recovery, Other) can help organize ideas.",
+   "expected_answer": "Ideas mapped to the patient journey: Admittance — decrease/eliminate the geriatrics unit; Diagnosis — more receptionists, partner hospitals, tele-diagnosis; Surgery — better technology, doctor skill/quality, address operational delays; Recovery — telemedicine, at-home care, partner hospitals; Other — end fixed-fee pricing, drive awareness of cost structure to doctors. The actual ideas matter less than demonstrating a structured approach to the brainstorm.",
+   "good_answer_signals": [
+    "Structures the brainstorm around a clear framework (e.g., patient journey) rather than listing random ideas"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "The Mustard Clinic can meet its goal and return to profit by decreasing average patient stay from 10 to 8 nights: this saves $1.2m in variable costs, frees capacity for 250 additional patients, and brings in $300k of profit from those additional patients (net swing from −$1.4m to +$100k). One concrete way to shorten stays is closing the Geriatrics unit, which is not a core competency. Risks: shortening average stay might hurt revenue if patient care quality worsens, or if Geriatrics is a complementary service to the Clinic's core units. Next steps: a feasibility study into tactical ways to reduce average stay without impacting patient care.",
+   "good_answer_signals": [
+    "Ties the recommendation back to the specific $1.2m savings + $300k new-patient profit math",
+    "Flags the quality-of-care and complementary-service risks of closing Geriatrics",
+    "Proposes a concrete next step (feasibility study)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Key hospital unit metrics",
+   "page": 282,
+   "kind": "table",
+   "description": "Table of the four hospital segments (Intrapartum, Neonatal, Pediatrics, Geriatrics) with a description of each, annual patient volume, and average stay in nights.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Description",
+     "Annual volume (patients)",
+     "Average stay (nights)"
+    ],
+    "rows": [
+     [
+      "Intrapartum",
+      "Care of due and in-labor mothers (during labor and childbirth)",
+      500,
+      10
+     ],
+     [
+      "Neonatal",
+      "Care of premature newborns (first 28 days of life)",
+      300,
+      7
+     ],
+     [
+      "Pediatrics",
+      "Care of infants, children, and adolescents (up to age 21)",
+      150,
+      11
+     ],
+     [
+      "Geriatrics",
+      "Care of elderly patients (aged 60 and over)",
+      50,
+      25
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-mustard-clinic/p282.webp",
+   "key_insight": "Geriatrics has by far the longest average stay (25 nights) despite the smallest volume (50 patients/year), making it a disproportionate consumer of capacity — 1,250 of the clinic's 10,000 total patient-nights (12.5%) for only 5% of patients.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Exhibit B – Cost structure",
+   "page": 283,
+   "kind": "table",
+   "description": "Table of the clinic's overall cost structure: fixed costs, variable cost per patient-night, average stay, patients per year, and capacity utilization.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Fixed costs",
+      "$1.4m"
+     ],
+     [
+      "Variable costs",
+      "$600/patient per night"
+     ],
+     [
+      "Average stay (nights)",
+      10
+     ],
+     [
+      "Patients per year",
+      1000
+     ],
+     [
+      "Capacity utilization",
+      "100%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-mustard-clinic/p283.webp",
+   "key_insight": "The clinic is at 100% capacity utilization (10,000 patient-nights/year), so the only way to serve more patients without adding capacity is to shorten the average stay per patient.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the cost savings from reducing average patient stay from 10 to 8 nights?",
+   "givens": [
+    "Fixed costs = $1.4m (unaffected by stay length)",
+    "Variable cost = $600/patient-night",
+    "1,000 patients/year"
+   ],
+   "steps": [
+    "Variable cost at 10-night stay = 1,000 × 10 × $600 = $6m; total cost = $6m + $1.4m = $7.4m",
+    "Variable cost at 8-night stay = 1,000 × 8 × $600 = $4.8m; total cost = $4.8m + $1.4m = $6.2m",
+    "Savings = $7.4m − $6.2m = $1.2m (equivalently, 2 nights × 1,000 patients × $600/night)"
+   ],
+   "answer": "$1.2m in cost savings",
+   "answer_value": 1.2,
+   "unit": "$M",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many additional patients can be served with the capacity freed by shortening stays, and what is the resulting total profit?",
+   "givens": [
+    "Original capacity = 1,000 patients × 10 nights = 10,000 patient-nights",
+    "Capacity freed = 1,000 patients × 2-night reduction = 2,000 patient-nights",
+    "New average stay = 8 nights",
+    "Average revenue per patient = $6,000",
+    "Fixed costs = $1.4m; variable cost = $600/patient-night"
+   ],
+   "steps": [
+    "Additional patients = 2,000 freed patient-nights / 8 nights = 250 additional patients",
+    "Total patients = 1,000 + 250 = 1,250",
+    "Revenue = 1,250 × $6,000 = $7.5m",
+    "Variable cost = 1,250 × 8 × $600 = $6m",
+    "Total cost = $6m + $1.4m fixed = $7.4m",
+    "Profit = $7.5m − $7.4m = $100k"
+   ],
+   "answer": "250 additional patients served; total profit of $100k (a turnaround from last year's $1.4m loss)",
+   "answer_value": 0.1,
+   "unit": "$M profit",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "How much of the $100k total profit comes specifically from the 250 additional patients versus the cost savings on the original 1,000 patients?",
+   "givens": [
+    "250 additional patients at $6,000 revenue and $600/night × 8 nights variable cost each",
+    "The book states this group contributes $300k in profit"
+   ],
+   "steps": [
+    "Revenue from 250 new patients = 250 × $6,000 = $1.5m",
+    "Variable cost for 250 new patients = 250 × 8 × $600 = $1.2m",
+    "Profit from new patients = $1.5m − $1.2m = $300k (no incremental fixed cost, since capacity was already in place)",
+    "Original 1,000 patients: revenue $6m, variable cost at 8 nights $4.8m, fixed cost $1.4m → profit = 6 − 4.8 − 1.4 = −$0.2m",
+    "Total profit = −$0.2m + $0.3m = $0.1m, consistent with m2"
+   ],
+   "answer": "$300k of the total $100k profit comes from the 250 additional patients; the original 1,000 patients still run a $200k loss after the stay reduction, netting to $100k overall",
+   "answer_value": 0.3,
+   "unit": "$M profit from new patients",
+   "verified": true
+  }
+ ],
+ "synthesis": "The Mustard Clinic can return to profit by decreasing average patient stay from 10 to 8 nights: this saves $1.2m in variable costs on existing patients and frees capacity for 250 additional patients, who bring in $300k of profit — a net swing from a $1.4m loss to $100k of profit. One concrete way to shorten stays is to close the Geriatrics unit, which has by far the longest average stay and is not a core competency. Risks: shortening average stay could hurt revenue if patient care quality worsens, or if Geriatrics is complementary to the Clinic's core units. Next steps: a feasibility study into tactical ways to reduce average stay without impacting patient care.",
+ "what_great_looks_like": [
+  "Uses the fixed-fee pricing model to immediately connect stay length to profitability, rather than treating it as a generic cost problem",
+  "Finds the quick calculation shortcut (2 nights × 1,000 patients × $600/night = $1.2m) rather than recomputing full costs from scratch",
+  "Structures the brainstorm around a clear framework such as the patient journey",
+  "Ties the final recommendation back to the specific $1.2m + $300k math and flags the Geriatrics complementary-service risk"
+ ],
+ "common_pitfalls": [
+  "Stopping at the $1.2m cost savings and concluding the clinic breaks even, without checking it against the $1.4m loss",
+  "Forgetting that freed capacity can be filled with new, revenue-generating patients, not just used to cut costs",
+  "Recommending closing the Geriatrics unit without weighing the risk that it may support other units or overall patient care quality"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book's own figures ($1.2m savings, 250 additional patients, $100k total profit, $300k profit from new patients) were independently recomputed and matched exactly. Case prompt inconsistently refers to the client as both 'Mustard Clinic' and 'Sugar Magnolia' in one clause ('Sugar Magnolia does not deal with insurance providers') — likely a book editing artifact; preserved verbatim in the prompt/clarifying info as printed.",
+  "fields_inferred": [
+   "suggested_framework.tree",
+   "difficulty",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "math[2] (breakdown of the $300k figure is inferred/derived, though it matches the book's stated number)"
+  ]
+ }
+}

@@ -1,0 +1,367 @@
+{
+ "id": "booth-2024-greenshield-health-insurance",
+ "title": "GreenShield Health Insurance",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  176,
+  182
+ ],
+ "case_type": [
+  "Market Entry",
+  "Market Sizing/Guesstimate",
+  "Profitability"
+ ],
+ "case_type_source_label": "Market Entry/Sizing",
+ "industry": "health-insurance",
+ "sub_industry": "payers",
+ "industry_source_label": "Financial Services & Insurance / Healthcare Insurer",
+ "geography": "Florida, United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Strategy&",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 2/3; Creativity 1/3",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "health-insurance",
+  "florida",
+  "market-sizing",
+  "breakeven",
+  "acquisition-channels",
+  "agents"
+ ],
+ "fit_question": "Describe a time when you led a team through significant change or introduced a new idea. Tell me about a time when you failed.",
+ "prompt": "GreenShield Health Insurance wants to expand into Florida and needs a business plan to determine whether the market is attractive, which customers to target and which distribution channels to use.",
+ "clarifying_info": [],
+ "interviewer_notes": "Three-part interviewer-led case: market attractiveness and breakeven, channel selection, then recommendation. Discuss what a business plan must establish before asking for a framework. Show Exhibits 1 and 2 for market sizing and breakeven, then Exhibit 3 for channel economics.",
+ "suggested_framework": {
+  "summary": "Assess Florida's addressable segments and competition, entry economics, channel acquisition economics and GHI fit.",
+  "tree": {
+   "label": "Florida entry",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Insured, uninsured, affordability and satisfaction"
+      },
+      {
+       "label": "Growth, competitors, exchange and regulation"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Policy price, medical and admin contribution"
+      },
+      {
+       "label": "Upfront investment, scale and breakeven share"
+      }
+     ]
+    },
+    {
+     "label": "Go to market",
+     "children": [
+      {
+       "label": "Direct and indirect channel leads, yield and cost"
+      },
+      {
+       "label": "Capabilities, customer fit and execution risks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What must GHI believe for a Florida entry to make sense?",
+   "expected_answer": "Florida must offer a large, growing and reachable customer pool, attractive policy contribution and attainable breakeven share; competition and regulation must be manageable; and GHI must have channels and capabilities that can acquire the target customers economically.",
+   "good_answer_signals": [
+    "Covers market, customers and channels",
+    "Includes profitability and company fit"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "How large is the target audience in Exhibit 1?",
+   "expected_answer": "Of 12M Florida adults, 6M lack employer coverage. Of these, 4.8M are insured and 1.2M uninsured. Thirty percent of the uninsured can afford coverage, or 360K, while 30% of the insured are unhappy, or 1.44M. The stated target audience is 1.8M.",
+   "good_answer_signals": [
+    "Builds both target segments",
+    "Gets 1.8M without double-counting"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 2, what volume and share are required to recover the $2M investment?",
+   "expected_answer": "Contribution per lifetime policy is $500-$350-$100=$50. Breakeven requires $2M/$50=40,000 policies. That is 0.833% of the 4.8M currently insured market used by the book, or 2.22% of the explicitly defined 1.8M target audience.",
+   "good_answer_signals": [
+    "Uses contribution rather than revenue",
+    "States the denominator for market share"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Which acquisition channels in Exhibit 3 are most attractive?",
+   "expected_answer": "Profit is $75K internet, $100K direct mail, $200K call center, $0 billboard and $1.95M agents. Agents dominate because 30% yield overcomes lower $750 revenue per sale and $30 lead cost; call centers and direct mail are next.",
+   "good_answer_signals": [
+    "Calculates sales, revenue and lead cost by channel",
+    "Selects agents on profit rather than yield alone"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should GHI enter Florida, and how?",
+   "expected_answer": "Enter because breakeven requires only 40,000 policies, 0.83% of the current insured base, and the modeled channels can be profitable. Lead with agents, then call centers and direct mail. Validate trends, target-channel fit, regulations and GHI's direct-sales capabilities before building the salesforce.",
+   "good_answer_signals": [
+    "Quantifies entry feasibility",
+    "Links channel choice to capability and target fit risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Florida Market Sizing",
+   "page": 180,
+   "kind": "table",
+   "description": "Florida adult, non-employer-covered, insured, uninsured, affordability and dissatisfaction inputs.",
+   "image_path": "exhibits/booth-2024-greenshield-health-insurance/p180.webp",
+   "image_has_answers": false,
+   "key_insight": "Affordable uninsured adults plus unhappy insured adults create a 1.8M target audience.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Market-sizing input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Florida population",
+      17000000
+     ],
+     [
+      "Over 18 years old",
+      12000000
+     ],
+     [
+      "Not covered by employer",
+      "50%"
+     ],
+     [
+      "Currently insured among non-employer-covered",
+      "80%"
+     ],
+     [
+      "Uninsured",
+      "20%"
+     ],
+     [
+      "Uninsured who can afford",
+      "30%"
+     ],
+     [
+      "Insured but unhappy",
+      "30%"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex2",
+   "title": "Breakeven Inputs",
+   "page": 180,
+   "kind": "table",
+   "description": "Upfront investment and lifetime per-policy revenue, medical cost and administrative cost.",
+   "image_path": "exhibits/booth-2024-greenshield-health-insurance/p180.webp",
+   "image_has_answers": false,
+   "key_insight": "Each policy contributes $50 toward the $2M upfront investment.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Upfront investment",
+      "$2,000,000"
+     ],
+     [
+      "Revenue per policy",
+      "$500"
+     ],
+     [
+      "Medical cost per policy",
+      "$350"
+     ],
+     [
+      "Administrative cost per policy",
+      "$100"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex3",
+   "title": "Lead Generation by Channel",
+   "page": 181,
+   "kind": "table",
+   "description": "Cost, lead volume, yield and revenue per sale for five acquisition channels.",
+   "image_path": "exhibits/booth-2024-greenshield-health-insurance/p181.webp",
+   "image_has_answers": false,
+   "key_insight": "Agents have by far the highest modeled acquisition profit due to a 30% yield.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Metric",
+     "Internet",
+     "Direct Mail",
+     "Call Center",
+     "Billboard",
+     "Agents"
+    ],
+    "rows": [
+     [
+      "Cost per lead",
+      25,
+      15,
+      30,
+      10,
+      30
+     ],
+     [
+      "Number of leads",
+      1000,
+      20000,
+      10000,
+      500,
+      10000
+     ],
+     [
+      "Yield",
+      "10%",
+      "2%",
+      "5%",
+      "1%",
+      "30%"
+     ],
+     [
+      "Revenue per sale",
+      1000,
+      1000,
+      1000,
+      1000,
+      750
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the target audience?",
+   "givens": [
+    "12M adults",
+    "50% not employer-covered",
+    "80% insured and 20% uninsured",
+    "30% of uninsured can afford",
+    "30% of insured are unhappy"
+   ],
+   "steps": [
+    "Non-employer-covered=12M×50%=6M",
+    "Insured=6M×80%=4.8M; uninsured=1.2M",
+    "Affordable uninsured=1.2M×30%=360K",
+    "Unhappy insured=4.8M×30%=1.44M",
+    "Target=360K+1.44M=1.8M"
+   ],
+   "answer": "1.8 million adults",
+   "answer_value": 1.8,
+   "unit": "million adults",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many policies and what share are required to break even?",
+   "givens": [
+    "$2M upfront investment",
+    "$500 revenue/policy",
+    "$350 medical cost/policy",
+    "$100 admin cost/policy",
+    "4.8M currently insured",
+    "1.8M target audience"
+   ],
+   "steps": [
+    "Contribution=$500-$350-$100=$50",
+    "Policies=$2M/$50=40,000",
+    "Share of insured=40,000/4.8M=0.833%",
+    "Share of target=40,000/1.8M=2.222%"
+   ],
+   "answer": "40,000 policies; 0.83% of the current insured market or 2.22% of the stated target audience",
+   "answer_value": 40000,
+   "unit": "policies",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is modeled profit by acquisition channel?",
+   "givens": [
+    "Exhibit 3 lead, yield, revenue and cost inputs"
+   ],
+   "steps": [
+    "Internet=1,000×10%×$1,000-1,000×$25=$75K",
+    "Direct mail=20,000×2%×$1,000-20,000×$15=$100K",
+    "Call center=10,000×5%×$1,000-10,000×$30=$200K",
+    "Billboard=500×1%×$1,000-500×$10=$0",
+    "Agents=10,000×30%×$750-10,000×$30=$1.95M"
+   ],
+   "answer": "$75K internet; $100K direct mail; $200K call center; $0 billboard; $1.95M agents",
+   "answer_value": 1.95,
+   "unit": "USD millions (agents)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Enter Florida, subject to validation. Breakeven is 40,000 policies—0.83% of the 4.8M currently insured base and 2.22% of the 1.8M defined target audience. Agents generate $1.95M in the channel model, followed by call centers and direct mail. Confirm market trends, regulations, target-channel fit and GHI's ability to build and manage direct sales.",
+ "what_great_looks_like": [
+  "Builds both target segments cleanly",
+  "Uses contribution margin for breakeven",
+  "Selects channels on profit and tests strategic fit"
+ ],
+ "common_pitfalls": [
+  "Uses all Florida residents as the addressable market",
+  "Divides investment by revenue instead of contribution",
+  "Ranks channels only by lead volume or yield"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All exhibits use candidate-facing pages and their data fields contain inputs only. The book's 0.8% share uses the 4.8M currently insured denominator; 2.22% of the stated 1.8M target audience is also reported for clarity. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

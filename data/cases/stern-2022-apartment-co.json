@@ -1,0 +1,508 @@
+{
+ "id": "stern-2022-apartment-co",
+ "title": "Apartment Co.",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  179,
+  189
+ ],
+ "author": "John Malfetano, Andrea Monzón, Hart Zeitler (Stern ’20)",
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "real-estate",
+ "sub_industry": "residential-re",
+ "industry_source_label": "Real Estate",
+ "geography": "New York City, United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Deloitte Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 7; Structure: 8 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "profitability",
+  "energy-efficiency",
+  "payback",
+  "capital-investment",
+  "utilities",
+  "sustainability",
+  "cost-diagnosis"
+ ],
+ "concepts_tested": [
+  "Sustainability",
+  "Investment Decision",
+  "Cost reduction"
+ ],
+ "prompt": "Apartment Co. is a residential real estate company that owns and operates 10 buildings throughout three different boroughs within New York. The buildings were built between 1975 and 1990 and have been under Apartment Co.’s management since that time. Apartment Co. prides itself on offering affordable, quality apartments for everyday New Yorkers. The only permanent staff in Apartment Co.’s buildings are the doormen. The company operates leasing from its central location in Manhattan, and has contracted with a maintenance service, which will be up for renegotiation soon. Over the last three years, Apartment Co. has decided to invest $5 million in its infrastructure with the hope of commanding higher apartment rent prices. The company has upgraded many apartment unit amenities, including kitchen appliances, bathroom fixtures, and flooring. These improvements have yielded high renter demand as well as increased rent prices. Recently, half of Apartment Co.’s buildings added washers and dryers in the basement; the remaining buildings have no laundry facilities. Even in light of these changes, however, management has not seen the increase in profitability it was hoping for. Apartment Co. has asked your team to assess ways to achieve higher long-term profitability.",
+ "clarifying_info": [
+  {
+   "question_topic": "Revenue",
+   "answer": "Tenant rent is the sole material source; vending and laundry revenues are negligible."
+  },
+  {
+   "question_topic": "Portfolio",
+   "answer": "Each building has 50 units. There are 5 Manhattan buildings, 3 Brooklyn buildings and 2 Queens buildings, with no recent portfolio additions."
+  },
+  {
+   "question_topic": "Ownership",
+   "answer": "All properties are fully owned without outstanding loans."
+  },
+  {
+   "question_topic": "Maintenance and residents",
+   "answer": "The company contracts a staff of 30 to maintain the complexes. Tenants are mainly young working professionals."
+  },
+  {
+   "question_topic": "Time horizon",
+   "answer": "Focus on long-term profitability, not necessarily an immediate turnaround. Short-term spending is acceptable if it increases long-term profit."
+  }
+ ],
+ "interviewer_notes": "The prompt is modeled after a Deloitte case and intentionally contains substantial background detail. Test profitability diagnosis, structured brainstorming and investment decisions. After a framework, the candidate should request financial information; provide Exhibits 1–5. Once utilities are questioned, disclose that management began including utilities in rent in 2017. Ask for utility-reduction ideas, and prompt toward efficient lighting and solar if neither appears. Give investment inputs verbally. Offer the electricity-savings formula only if the candidate struggles. If short on time for solar, request the formula and then give the calculation result. Credit several possible recommendations if supported, but do not treat the source’s claimed strong cash position as a proven cash balance; no balance sheet is supplied.",
+ "suggested_framework": {
+  "summary": "Diagnose revenue and cost changes, identify controllable utility drivers, and compare long-term returns and risks of efficiency investments.",
+  "tree": {
+   "label": "Increase long-term property profitability",
+   "children": [
+    {
+     "label": "Rental revenue",
+     "children": [
+      {
+       "label": "Occupancy"
+      },
+      {
+       "label": "Rent levels and annual increases"
+      }
+     ]
+    },
+    {
+     "label": "Operating costs",
+     "children": [
+      {
+       "label": "Electricity, gas and water"
+      },
+      {
+       "label": "Amenities, maintenance and hourly labor"
+      },
+      {
+       "label": "Management, insurance and property taxes"
+      }
+     ]
+    },
+    {
+     "label": "External factors",
+     "children": [
+      {
+       "label": "Competing rental prices"
+      },
+      {
+       "label": "Market-wide profitability and tenant preferences"
+      }
+     ]
+    },
+    {
+     "label": "Investment response",
+     "children": [
+      {
+       "label": "Efficiency savings, upfront cost and useful life"
+      },
+      {
+       "label": "Energy-price risk and alternative investments"
+      },
+      {
+       "label": "Pilot and implementation feasibility"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you investigate Apartment Co.’s profitability and identify improvements?",
+   "release_when": "After the prompt; answer clarifying questions as requested.",
+   "info_to_release": "There are 10 debt-free buildings with 50 units each: 5 Manhattan, 3 Brooklyn, 2 Queens. Rent is the only material revenue. The focus is long-term profitability and there have been no recent portfolio additions.",
+   "exhibit_ids": [],
+   "expected_answer": "Separate rent revenue and occupancy from utility, staffing, maintenance and fixed costs. Compare trends with competitors and identify the effects of recent capital spending. Request financial data to distinguish cash operating pressures from depreciation. Evaluate investments over their lives rather than requiring immediate profit improvement.",
+   "good_answer_signals": [
+    "Prioritizes relevant facts despite the long prompt.",
+    "Distinguishes recent capital spending from recurring operating cost."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What do these exhibits tell you about the drivers of profitability?",
+   "release_when": "Provide Exhibits 1–5 after the framework when financial data is requested. Reveal the utility-policy change only when utilities are questioned.",
+   "info_to_release": "Financial figures are in thousands of dollars. Rent rises from $17 million in 2016 to $20 million in 2017 and $20.5 million in 2018. Source printed total costs are $9.3 million, $11.1 million and $11.6 million. Beginning in 2017, management paid utilities under rental leases to remain competitive. Depreciation reflects the recent amenity investment. Current electricity is $0.15 per kWh.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2",
+    "ex3",
+    "ex4",
+    "ex5"
+   ],
+   "expected_answer": "Rent is growing, but occupancy costs including utilities and insurance rise from $1.2 million to $2 million; depreciation rises from $0.3 million to $1 million after investment. Gas and water spending appears broadly stable, while electricity prices fluctuate. Focus on controllable electricity use and the lease-policy change. Re-summing costs gives $9.3 million, $11 million and $11.3 million, not the source’s last two totals. Implied profits are $7.7 million, $9 million and $9.2 million: absolute profit grows, but margins soften from about 45.29% to 44.88%. Do not claim profits fell. Salary and resident-income exhibits provide context rather than a demonstrated primary cost cause.",
+   "good_answer_signals": [
+    "Checks totals instead of copying them.",
+    "Separates depreciation from avoidable operating costs.",
+    "Asks why the landlord now bears utilities."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Apartment Co. reduce utility expense?",
+   "release_when": "Once the utility-cost issue is identified and the 2017 policy change is disclosed.",
+   "info_to_release": "Utilities have been included in leases since 2017. Consider demand-side behavior and supply-side equipment changes, or group ideas by water, gas and electricity.",
+   "exhibit_ids": [],
+   "expected_answer": "Demand-side ideas include encouraging residents to turn off air conditioning and lights and rewarding low energy consumption. Supply-side ideas include building upgrades, efficient lighting, automatic switches and solar panels. Organize ideas logically and connect them to specific utility uses. Proceed to compare lighting and solar once those options are raised.",
+   "good_answer_signals": [
+    "Uses clear buckets.",
+    "Adds creative behavior incentives rather than relying only on capital upgrades."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Evaluate the energy-efficient lighting investment.",
+   "release_when": "After lighting and solar are identified; provide investment inputs verbally when requested.",
+   "info_to_release": "Installation costs $30 per bulb. There are 5,000 bulbs per building across 10 buildings. Each bulb saves 100 kWh annually and lasts 10 years. Use $0.15 per kWh from Exhibit 2. If needed, savings equal kWh saved multiplied by dollars per kWh.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "There are 50,000 bulbs. Annual energy saving is 5 million kWh, worth $750,000. Upfront cost is $1.5 million, so simple payback is 2 years. With a 10-year life, there are 8 years after nominal payback; undiscounted lifetime savings net of installation are $6 million, assuming constant prices and performance.",
+   "good_answer_signals": [
+    "Uses all buildings and keeps annual savings distinct from upfront cost.",
+    "Recognizes the shorter payback and lower capital need."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Evaluate solar panels and compare them with lighting.",
+   "release_when": "After lighting. If time is short, ask for the formula and provide the result.",
+   "info_to_release": "Solar installation costs $200 per square foot, including labor and maintenance in the source assumption. Each building has 40 ft by 40 ft of usable roof. Annual energy savings are stated as 400 kWh per square foot. Panels last 20 years; electricity is $0.15 per kWh.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Each roof is 1,600 square feet; total area is 16,000. Annual modeled generation/savings are 6.4 million kWh, worth $960,000. Cost is $3.2 million. Simple payback is $3.2 million / $960,000 = 3.333 years, about 3 years as rounded in the source. This leaves 16.667 years after payback, roughly 17. Undiscounted net lifetime savings are $16 million under unchanged performance and prices. Solar produces higher modeled annual and lifetime savings, while lighting needs less capital and pays back faster. Validate the supplied 400 kWh per square foot assumption before an actual investment and avoid assuming both projects’ savings add independently.",
+   "good_answer_signals": [
+    "Calculates roof area before scaling to 10 buildings.",
+    "Compares cost, payback, useful life and risk rather than annual saving alone."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What would you recommend, and what are the risks and next steps?",
+   "release_when": "At the end; credit a data-supported choice among lighting, solar, both or neither.",
+   "info_to_release": "No further cash, discount-rate or financing data is provided.",
+   "exhibit_ids": [],
+   "expected_answer": "A defensible recommendation is to pilot lighting first for its $1.5 million cost and 2-year payback, while validating the larger solar opportunity. Solar is also supportable at $3.2 million cost, $960,000 annual modeled saving and 3.33-year payback over a 20-year life. Doing both requires funding and combined-savings validation; doing neither requires a clear risk-based rationale. Risks include volatile energy prices, high upfront costs, changing tenant preferences, opportunity cost, bulb theft or damage, and solar regulation. Investigate providers and subcontractors, assess potential subsidies or tax benefits without inventing their value, and pilot one building to verify savings.",
+   "good_answer_signals": [
+    "Chooses and supports a course of action.",
+    "Treats source engineering and price assumptions as items to validate.",
+    "Does not invent a cash balance or discount rate."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Apartment Co. Financials",
+   "page": 185,
+   "kind": "table",
+   "description": "Annual revenue and cost line items in USD thousands. Printed total costs are excluded from the input table and their arithmetic discrepancies are recorded in math. The image contains those computed totals.",
+   "data": {
+    "columns": [
+     "Line item (USD thousands)",
+     "2016",
+     "2017",
+     "2018"
+    ],
+    "rows": [
+     [
+      "Tenant rent",
+      17000,
+      20000,
+      20500
+     ],
+     [
+      "Property management",
+      5000,
+      5300,
+      5400
+     ],
+     [
+      "Repair and maintenance",
+      2000,
+      2000,
+      2100
+     ],
+     [
+      "Property taxes",
+      800,
+      800,
+      800
+     ],
+     [
+      "Occupancy: utilities and insurance",
+      1200,
+      1900,
+      2000
+     ],
+     [
+      "Depreciation",
+      300,
+      1000,
+      1000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-apartment-co/p185.webp",
+   "image_has_answers": true,
+   "key_insight": "Rent rises, but utilities/insurance and depreciation increase; the last two printed cost totals do not equal the line-item sums.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Historic Electricity Rates",
+   "page": 186,
+   "kind": "line",
+   "description": "Labeled electricity prices from 2010 to 2018 in USD per kWh.",
+   "data": {
+    "columns": [
+     "Year",
+     "USD/kWh"
+    ],
+    "rows": [
+     [
+      2010,
+      0.08
+     ],
+     [
+      2011,
+      0.14
+     ],
+     [
+      2012,
+      0.15
+     ],
+     [
+      2013,
+      0.07
+     ],
+     [
+      2014,
+      0.09
+     ],
+     [
+      2015,
+      0.21
+     ],
+     [
+      2016,
+      0.12
+     ],
+     [
+      2017,
+      0.08
+     ],
+     [
+      2018,
+      0.15
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-apartment-co/p186.webp",
+   "key_insight": "Use the current $0.15 rate for the source investment calculations, but historical volatility is an important risk.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Average Monthly Apartment Spending on Utilities",
+   "page": 187,
+   "kind": "bar",
+   "description": "Gas and water spending for 2016–2018. Bars are not numerically labeled; exact values are omitted rather than inferred from pixels.",
+   "image_path": "exhibits/stern-2022-apartment-co/p187.webp",
+   "key_insight": "Gas and water spending are broadly stable compared with the policy change and electricity-price movements.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex4",
+   "title": "Real Estate Management Salaries, 2017",
+   "page": 188,
+   "kind": "other",
+   "description": "Average management salary bars and annual-raise line across horizontal categories 2, 5, 10, 20 and 30+. The horizontal measure and salary-axis unit are not explicitly labeled. The footnote states Apartment Co.’s average management salary is $67,000 per year.",
+   "data": {
+    "columns": [
+     "Explicit footnote input",
+     "USD/year"
+    ],
+    "rows": [
+     [
+      "Apartment Co. average management salary",
+      67000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-apartment-co/p188.webp",
+   "key_insight": "Use as contextual salary information, not proof of a quantified savings lever without knowing the comparison groups.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex5",
+   "title": "Income Level of Residents",
+   "page": 189,
+   "kind": "pie",
+   "description": "Resident income distribution by annual income band.",
+   "data": {
+    "columns": [
+     "Annual income band (USD)",
+     "Share (%)"
+    ],
+    "rows": [
+     [
+      "Below $25,000",
+      5
+     ],
+     [
+      "$25,000–$50,000",
+      10
+     ],
+     [
+      "$50,000–$75,000",
+      15
+     ],
+     [
+      "$75,000–$100,000",
+      50
+     ],
+     [
+      "$100,000 and above",
+      20
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-apartment-co/p189.webp",
+   "key_insight": "Resident income is useful context for positioning and incentives but does not establish willingness to pay for further rent increases.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What do the financial line items imply for costs and profit?",
+   "givens": [
+    "All amounts in USD thousands",
+    "Revenue 17,000 / 20,000 / 20,500 in 2016 / 2017 / 2018",
+    "Costs by year: [5,000, 2,000, 800, 1,200, 300]; [5,300, 2,000, 800, 1,900, 1,000]; [5,400, 2,100, 800, 2,000, 1,000]"
+   ],
+   "steps": [
+    "2016 total costs = 9,300; profit = 17,000 − 9,300 = 7,700; margin 45.2941%.",
+    "2017 total costs = 11,000; profit = 20,000 − 11,000 = 9,000; margin 45%.",
+    "2018 total costs = 11,300; profit = 20,500 − 11,300 = 9,200; margin 44.8780%."
+   ],
+   "answer": "Correct costs are $9.3 million, $11 million and $11.3 million; implied profits are $7.7 million, $9 million and $9.2 million.",
+   "verified": false,
+   "book_answer_if_different": "Exhibit 1 prints 2017 total costs of $11.1 million and 2018 total costs of $11.6 million. The displayed components sum to $11 million and $11.3 million respectively. The 2016 $9.3 million total is correct."
+  },
+  {
+   "id": "m2",
+   "question": "What are lighting savings, cost and payback?",
+   "givens": [
+    "10 buildings; 5,000 bulbs each",
+    "$30 installed per bulb",
+    "100 kWh saved per bulb annually",
+    "$0.15/kWh",
+    "10-year life"
+   ],
+   "steps": [
+    "Bulbs = 10 × 5,000 = 50,000.",
+    "Annual energy savings = 50,000 × 100 = 5,000,000 kWh; dollars = 5,000,000 × $0.15 = $750,000.",
+    "Cost = 50,000 × $30 = $1,500,000; payback = $1,500,000 / $750,000 = 2 years.",
+    "Years after payback = 10 − 2 = 8; undiscounted lifetime net = 10 × $750,000 − $1,500,000 = $6,000,000."
+   ],
+   "answer": "$1.5 million investment, $750,000 annual saving and 2-year simple payback; $6 million undiscounted lifetime net under constant assumptions.",
+   "answer_value": 2,
+   "unit": "years",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What are solar savings, cost and payback?",
+   "givens": [
+    "10 roofs, each 40 ft × 40 ft",
+    "$200 per square foot installed including stated labor/maintenance",
+    "400 kWh saved per square foot annually",
+    "$0.15/kWh",
+    "20-year life"
+   ],
+   "steps": [
+    "Area = 40 × 40 × 10 = 16,000 square feet.",
+    "Annual energy savings = 16,000 × 400 = 6,400,000 kWh; dollars = 6,400,000 × $0.15 = $960,000.",
+    "Cost = 16,000 × $200 = $3,200,000.",
+    "Payback = $3,200,000 / $960,000 = 3.333333 years, approximately 3 years as the source rounds.",
+    "Years after payback = 20 − 3.333333 = 16.666667, approximately 17; undiscounted lifetime net = 20 × $960,000 − $3,200,000 = $16,000,000."
+   ],
+   "answer": "$3.2 million investment, $960,000 annual modeled saving and 3.33-year payback; $16 million undiscounted lifetime net under constant assumptions.",
+   "answer_value": 3.3333333333333335,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Utilities are a controllable lever after the company began including them in rent. A defensible first step is a lighting pilot: $1.5 million upfront, $750,000 annual modeled savings and 2-year payback. Solar offers $960,000 annual savings at $3.2 million cost and 3.33-year payback over a longer life. The book allows either, both or neither if justified. Correct financial totals show profit still grew, from $7.7 million to $9.2 million, while margins softened. Verify engineering performance, electricity prices, installation terms, funding and overlap before combining projects; investigate providers, possible incentives and subcontractors, then pilot one building.",
+ "what_great_looks_like": [
+  "Filters superfluous prompt details and identifies utilities as the operational lever.",
+  "Recognizes depreciation from prior amenity investment.",
+  "Structures creative utility-reduction ideas.",
+  "Compares investments over different lifetimes and capital requirements.",
+  "Addresses solar regulation/subsidies and lighting theft or breakage without inventing values."
+ ],
+ "common_pitfalls": [
+  "Copying printed total costs without summing components.",
+  "Claiming absolute profit fell when the corrected financials show growth.",
+  "Treating depreciation as directly avoidable utility spending.",
+  "Applying savings for one building to the entire portfolio or vice versa.",
+  "Calling approximate 3-year solar payback exact.",
+  "Adding project savings without considering overlap, or assuming an unprovided cash balance."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[2].data (unlabeled utility bars; exact values omitted)",
+   "exhibits[3].data (horizontal measure and salary units not stated)"
+  ],
+  "math_verified": false,
+  "notes": "Dedup returned NEW. Candidate financial components sum to $11 million in 2017 and $11.3 million in 2018, not printed $11.1 million/$11.6 million. Correct profits are $9 million/$9.2 million. Medium confidence records source inconsistency. Exhibit 1 image is flagged for computed totals; input table omits them. Source investment math matches; solar payback is exactly 3.333 years versus approximate 3, and remaining life 16.667 versus approximate 17. The stated 400 kWh per square foot annual solar performance is retained as a case input, not independently validated engineering performance. Source permits doing both on a claimed strong cash position, but no cash balance is provided, so funding is a condition. Utility and salary charts are visually inspected; exact unlabeled values/undefined axes are not guessed. All exhibit images point to candidate pages 185–189. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry",
+   "sub_industry",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework investment branch",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "math lifetime net savings extensions",
+   "common_pitfalls",
+   "synthesis lighting-first example and validation caveats"
+  ]
+ }
+}

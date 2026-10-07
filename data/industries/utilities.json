@@ -1,0 +1,123 @@
+{
+  "id": "utilities",
+  "name": "Utilities",
+  "group": "Energy & resources",
+  "one_liner": "Regulated providers of electricity, gas and water whose returns are set by regulators on the capital they invest in networks.",
+  "how_it_makes_money": "Regulated utilities earn an allowed return on equity on their rate base (invested capital), recovered through customer rates approved by state commissions. Fuel and purchased power are usually passed through to customers. Some players also run unregulated generation that sells into competitive wholesale markets.",
+  "value_chain": [
+    "Power generation",
+    "High-voltage transmission",
+    "Local distribution",
+    "Retail supply and billing",
+    "Customer service and metering"
+  ],
+  "revenue_formula": [
+    "Regulated earnings = rate base × equity share × allowed return on equity",
+    "Revenue requirement = operating costs + depreciation + taxes + allowed return on rate base",
+    "Retail revenue = customers × usage (kWh) × tariff"
+  ],
+  "cost_structure": [
+    "Fuel and purchased power: large but largely passed through to customers",
+    "Operations and maintenance: crews, vegetation management, repairs",
+    "Depreciation on network and plant assets",
+    "Interest expense: utilities are heavily debt financed",
+    "Property and other taxes"
+  ],
+  "margins": "Returns are stable and bounded by regulation, with allowed ROEs typically around the high single to low double digits. Rate base growth, regulatory lag and constructive versus tough regulators drive differences.",
+  "key_metrics": [
+    {
+      "name": "Rate base",
+      "what": "Invested capital on which the utility earns a regulated return; its growth drives earnings growth."
+    },
+    {
+      "name": "Allowed return on equity (ROE)",
+      "what": "Regulator-approved profit rate on equity."
+    },
+    {
+      "name": "Earned vs allowed ROE",
+      "what": "Gap reveals regulatory lag or cost overruns."
+    },
+    {
+      "name": "SAIDI / SAIFI",
+      "what": "Outage duration and frequency, the core reliability measures."
+    },
+    {
+      "name": "Load growth",
+      "what": "Growth in electricity demand, now rising after years of flat usage."
+    },
+    {
+      "name": "Capex plan",
+      "what": "Multi-year investment that sets future rate base."
+    }
+  ],
+  "trends": [
+    "Load growth returning, driven by data centers, electrification and reshoring",
+    "Massive grid capex for transmission, hardening and modernization",
+    "Wildfire and extreme weather liability reshaping risk and insurance",
+    "Affordability pressure as rates rise, tightening regulatory scrutiny",
+    "Coal retirements and renewables integration changing the generation mix",
+    "Renewed interest in nuclear, including life extensions and small modular reactors"
+  ],
+  "key_players": [
+    "NextEra Energy",
+    "Duke Energy",
+    "Southern Company",
+    "Dominion Energy",
+    "Exelon",
+    "American Electric Power",
+    "PG&E",
+    "Xcel Energy",
+    "Constellation Energy",
+    "Sempra"
+  ],
+  "case_angles": [
+    {
+      "question": "A utility wants to meet a surge of data center demand; how should it plan capacity?",
+      "framework_id": "operations-capacity"
+    },
+    {
+      "question": "How should a utility set rates for EV charging customers?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "A utility's earned ROE is well below allowed; why and what to do?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a utility acquire a neighboring regulated utility?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Who should pay for grid upgrades driven by data centers: the data centers or all ratepayers?",
+    "Does the regulated utility model encourage enough innovation?",
+    "Is nuclear a necessary part of a reliable decarbonized grid?"
+  ],
+  "news": {
+    "keywords": [
+      "utility",
+      "electric grid",
+      "power grid",
+      "ratepayers",
+      "rate case",
+      "public utility commission",
+      "transmission line",
+      "power outage",
+      "ferc",
+      "wildfire liability",
+      "nuclear plant"
+    ],
+    "companies": [
+      "Duke Energy",
+      "Southern Company",
+      "Dominion Energy",
+      "Exelon",
+      "PG&E",
+      "Con Edison",
+      "Xcel Energy",
+      "Constellation Energy",
+      "American Electric Power",
+      "Entergy"
+    ]
+  }
+}

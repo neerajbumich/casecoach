@@ -1,0 +1,130 @@
+{
+  "id": "us-healthcare-map",
+  "section": "business",
+  "order": 2,
+  "title": "US Healthcare Map",
+  "summary": "A plain-English map of who pays, who provides and who sits in the middle of US healthcare, plus why it costs so much. Healthcare is one of the most common US case industries, and interviewers assume you know the players.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The big picture",
+      "body": "The US spent ~$5.3T on health in 2024, ~18% of GDP and ~$15.5K per person (CMS). There is no single payer: most working-age people are covered through an employer, older adults through Medicare, lower-income people through Medicaid, and others buy plans on the ACA marketplace. Roughly 8% of people were uninsured in 2024 (Census). Money flows through insurers and intermediaries before reaching hospitals, doctors and pharmacies."
+    },
+    {
+      "type": "table",
+      "title": "Who pays: the coverage map",
+      "columns": ["Source", "Who it covers", "Scale (approx.)", "Funded by"],
+      "rows": [
+        ["Employer insurance", "Workers and families", "~154M under 65 (KFF, 2025)", "Employer + employee premiums"],
+        ["Medicare", "Age 65+ and some disabled", "~64M eligible (2026)", "Federal: payroll tax, premiums, general revenue"],
+        ["Medicare Advantage", "Medicare via private insurers", "~55% of eligible (2026)", "Federal payments to insurers"],
+        ["Medicaid / CHIP", "Low-income, kids, disabled, long-term care", "~73M enrolled (mid-2026)", "Federal + state jointly"],
+        ["ACA marketplace", "Individuals buying own plan", "~23M sign-ups (2026)", "Premiums + federal subsidies"],
+        ["Uninsured", "No coverage", "~8% of people (2024)", "Out of pocket, charity care"]
+      ],
+      "note": "People can hold more than one type (e.g. Medicare + Medicaid), so shares overlap."
+    },
+    {
+      "type": "list",
+      "title": "The main players",
+      "items": [
+        "Providers: hospitals and health systems (~6,100 hospitals, most community hospitals nonprofit), physician groups, clinics, nursing facilities.",
+        "Payers: insurers like UnitedHealth, Elevance, Cigna, Aetna (CVS), Humana; plus government programs.",
+        "Self-insured employers: large firms often bear the claims risk and hire an insurer only to administer.",
+        "PBMs: manage drug benefits; the big three (Express Scripts, CVS Caremark, Optum Rx) handled ~80% of claims in 2025.",
+        "Manufacturers: pharma, biotech and device makers.",
+        "Vertical integration: insurers increasingly own PBMs, pharmacies and physician groups."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "The drug channel",
+      "body": "Drugs move physically from manufacturer to wholesaler (a few big distributors) to pharmacy to patient. Money moves differently. The PBM negotiates rebates from manufacturers in exchange for favorable formulary placement, builds pharmacy networks, and processes claims for the plan sponsor. List prices can rise while net prices after rebates fall, so the patient paying coinsurance on list price can lose out. That gap drives much of the PBM policy debate."
+    },
+    {
+      "type": "compare",
+      "title": "Fee-for-service vs value-based care",
+      "left": "Fee-for-service",
+      "right": "Value-based care",
+      "rows": [
+        ["Paid for", "Each visit, test, procedure", "Outcomes and total cost for a population"],
+        ["Incentive", "More volume", "Keep patients healthy, avoid admissions"],
+        ["Risk", "Payer bears cost risk", "Provider shares upside/downside"],
+        ["Examples", "Traditional billing", "ACOs, capitation, bundled payments"],
+        ["Case angle", "Grow procedure volume, payer mix", "Care management, data, primary care networks"]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Why US prices are high",
+      "items": [
+        "Prices per service, not usage, are the main driver: hospital stays, specialist fees and branded drugs cost more than in peer countries.",
+        "Fragmented payers mean weaker bargaining power than a single national buyer.",
+        "Hospital consolidation gives systems leverage to negotiate higher commercial rates.",
+        "Heavy administrative cost from billing across many plans with different rules.",
+        "Private insurers typically pay hospitals well above Medicare rates, cross-subsidizing public payers."
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Key acronyms",
+      "columns": ["Acronym", "Meaning"],
+      "rows": [
+        ["CMS", "Centers for Medicare & Medicaid Services, the federal agency running both"],
+        ["ACA", "Affordable Care Act (2010), created marketplaces, expanded Medicaid"],
+        ["MA", "Medicare Advantage, private plans for Medicare beneficiaries"],
+        ["PBM", "Pharmacy benefit manager"],
+        ["ACO", "Accountable care organization, providers sharing savings"],
+        ["ESI", "Employer-sponsored insurance"],
+        ["FFS", "Fee-for-service"],
+        ["VBC", "Value-based care"],
+        ["Payer mix", "Share of a provider's patients by insurance type"],
+        ["340B", "Program giving certain hospitals discounted drugs"]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "'Insured' does not mean costs are covered",
+      "body": "Deductibles and coinsurance are common. The average single-coverage deductible for workers was ~$1.9K in 2025, and a family employer premium averaged ~$27K (KFF). Patients still shop on price for some services, and bad debt is a real line item for hospitals."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Always ask about payer mix",
+      "body": "For any provider case, ask what share of revenue comes from commercial, Medicare and Medicaid. Commercial pays the most, Medicaid the least. A hospital losing commercial patients can see margins collapse even if volume is flat."
+    }
+  ],
+  "in_a_case": [
+    "Hospital margin case: start with payer mix and commercial rate negotiations before chasing volume; Medicaid-heavy systems run thin margins.",
+    "Pharma launch: map formulary access through the PBMs and expect rebate demands; list price is not what the manufacturer nets.",
+    "Employer benefits cost case: large employers are often self-insured, so levers include PBM contract terms, narrow networks and GLP-1 coverage policy.",
+    "Insurer growth case: Medicare Advantage is the profit pool most players fight over; watch star ratings and government reimbursement changes.",
+    "Policy shock: ACA subsidy changes or Medicaid eligibility rules shift coverage, which changes providers' uncompensated care and insurers' risk pools."
+  ],
+  "flashcards": [
+    {"front": "US national health spending share of GDP (2024)", "back": "~18% (~$5.3T, CMS)."},
+    {"front": "Uninsured rate in 2024", "back": "~8% of people (Census)."},
+    {"front": "Who does Medicare cover?", "back": "People 65+ and some younger people with disabilities; federally funded."},
+    {"front": "Who funds Medicaid?", "back": "Federal and state governments jointly; states administer it."},
+    {"front": "What does a PBM do?", "back": "Manages drug benefits: negotiates manufacturer rebates, sets formularies, builds pharmacy networks, processes claims."},
+    {"front": "Big three PBMs", "back": "Express Scripts (Cigna), CVS Caremark, Optum Rx (UnitedHealth): ~80% of claims in 2025."},
+    {"front": "Physical drug channel", "back": "Manufacturer to wholesaler to pharmacy to patient."},
+    {"front": "Fee-for-service vs value-based care", "back": "FFS pays per service (volume); VBC pays for outcomes and total cost, sharing risk with providers."},
+    {"front": "Medicare Advantage share of eligible beneficiaries (2026)", "back": "~55% (KFF)."},
+    {"front": "Which payer typically pays hospitals the most?", "back": "Commercial insurance, well above Medicare and Medicaid rates."},
+    {"front": "What is payer mix?", "back": "A provider's revenue split by commercial, Medicare, Medicaid and self-pay."}
+  ],
+  "sources": [
+    "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/historical",
+    "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+    "https://www.fiercehealthcare.com/regulatory/census-bureau-8-americans-were-uninsured-2024",
+    "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/",
+    "https://www.kff.org/medicare/medicare-advantage-in-2026-enrollment-update-and-key-trends/",
+    "https://www.medicaid.gov/medicaid/program-information/medicaid-and-chip-enrollment-data/report-highlights",
+    "https://www.kff.org/affordable-care-act/what-we-know-so-far-about-2026-aca-marketplace-enrollment-premiums-and-deductibles/",
+    "https://www.drugchannels.net/2026/03/the-top-pharmacy-benefit-managers-of.html",
+    "https://www.aha.org/statistics/fast-facts-us-hospitals"
+  ],
+  "checked": "2026-10"
+}

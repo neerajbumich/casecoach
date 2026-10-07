@@ -1,0 +1,482 @@
+{
+ "id": "stern-2022-the-pricing-games",
+ "title": "The Pricing Games",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  58,
+  67
+ ],
+ "author": "Will Wang (Stern '19), Di Mo (Stern '19)",
+ "case_type": [
+  "Pricing",
+  "New Product/GTM",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Product Pricing",
+ "industry": "gaming",
+ "sub_industry": "video-games",
+ "industry_source_label": "Technology",
+ "geography": "Los Angeles, California; U.S. launch",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "BCG Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 5/10; Structure 7/10; higher dimension 7 mapped using round(7/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "pricing-model",
+  "subscription",
+  "free-to-play",
+  "market-sizing",
+  "sunk-cost",
+  "customer-retention",
+  "unit-economics"
+ ],
+ "prompt": "Your client is Next Level Gaming (NLG), a start-up in the E-sports and computer gaming industry based in Los Angeles, California. NLG is planning to launch its first game—an online, multiplayer role playing game that is unlike any existing franchise. Being a new player in the industry, NLG's CEO, Bobby Beck, has asked for your help in deciding its business model. The company is considering 3 alternatives: a subscription model where players pay a monthly fee; a retail model where players pay full price at initial purchase; and a free-to-play model where the game is free to play but charges players for in-game merchandise. How would you advise NLG to proceed?",
+ "clarifying_info": [
+  {
+   "question_topic": "Launch and target",
+   "answer": "Launch immediately in the U.S. only. Most expected players are 21–40. The game runs on Apple and Windows computers."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Three major companies control 35%,25% and 20% share; a long tail of smaller firms remains."
+  },
+  {
+   "question_topic": "Development already spent",
+   "answer": "NLG spent $10m developing its first game. This is sunk and should not affect the forward business-model comparison."
+  }
+ ],
+ "interviewer_notes": "Start with addressable players, then first-year profitability, qualitative factors and survey-based recommendation. Sizing assumptions are an illustrative response; accept other coherent approaches and pressure-test materially different estimates from 10m. Use the supplied 10m target market in financial exhibits even if the candidate's sizing differs. Show revenue and cost exhibits together. Highlight the free-to-play cost footnote if missed: all players incur the listed per-player costs and paying free-to-play users incur another $10. Subscription and free-to-play yield equal absolute profits, with different margins. Explain beta tests as early trials for selected players if needed. A higher switching score is worse. Either subscription or free-to-play can be defended. The book calls 100 responses statistically significant; sample size alone does not establish significance or representativeness.",
+ "suggested_framework": {
+  "summary": "Compare model profitability and player behavior, then strategic expansion opportunities.",
+  "tree": {
+   "label": "Choose NLG's business model",
+   "children": [
+    {
+     "label": "Financials",
+     "children": [
+      {
+       "label": "Acquired players and revenue per player"
+      },
+      {
+       "label": "Fixed infrastructure/development and variable operating/acquisition costs"
+      }
+     ]
+    },
+    {
+     "label": "Customer and competition",
+     "children": [
+      {
+       "label": "Acquisition, retention and competitive response"
+      },
+      {
+       "label": "Player preferences and additional spending"
+      }
+     ]
+    },
+    {
+     "label": "Future growth",
+     "children": [
+      {
+       "label": "Second-generation games, mobile/console and international expansion"
+      },
+      {
+       "label": "Merchandising and esports tournaments"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you compare the three business models?",
+   "release_when": "After the prompt; provide clarifications on request.",
+   "info_to_release": "U.S.-only immediate launch on Mac/Windows; target primarily ages 21–40. Competitors hold 35%,25%,20% shares. Prior development spending $10m is sunk.",
+   "expected_answer": "Compare addressable users, share, revenue per player and fixed/variable costs. Evaluate retention, competition and expansion into platforms, regions, future games or alternative revenue. Exclude sunk development spend from the forward comparison but include ongoing product development.",
+   "good_answer_signals": [
+    "Separates sunk and prospective costs."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "How many U.S. players could NLG address with its first game?",
+   "release_when": "After the framework. Let the candidate propose assumptions; source table is interviewer-only guidance.",
+   "info_to_release": "Example assumptions if guidance is needed: populations 80m ages 0–20,80m ages 21–40,160m ages 41+; computer ownership 50%/75%/75%; computer gaming among owners 25%/25%/5%; willing and able to try a new genre 30%/40%/10%.",
+   "exhibit_ids": [
+    "exSizing"
+   ],
+   "expected_answer": "Segments yield 3m,6m and 0.6m players, totaling 9.6m, reasonably rounded to 10m. The source rounds the oldest cohort to~1m. Accept other justified estimates; proceed with the explicit 10m financial-exhibit input.",
+   "good_answer_signals": [
+    "Applies conditional rates sequentially and pressure-tests the result."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What is expected first-year profitability for each model?",
+   "release_when": "Show Exhibits 1 and 2 together.",
+   "info_to_release": "All models target 10m potential users. Subscription share 10%, $10/month, annual variable cost $50/player and acquisition $35/player. Retail share 12%, $60 initial price, variable $22 and acquisition $18/player. Free-to-play share 50%,30% of acquired users pay $100/year; variable $13 and acquisition $7 apply to every user, plus $10 additional cost per paying user. All models have $5m ongoing development,$7m servers,$3m other fixed costs.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Subscription:1m players, revenue $120m, costs $100m, profit $20m, margin 16.67%. Retail:1.2m players, revenue $72m, costs $63m, profit $9m, margin 12.5%. Free-to-play:5m users including 1.5m payers, revenue $150m, costs $130m, profit $20m, margin 13.33%. Subscription and free-to-play tie on profit; subscription has higher margin while free-to-play creates a larger audience. Do not add the sunk $10m initial development cost.",
+   "good_answer_signals": [
+    "Charges free users acquisition and operating costs too.",
+    "Distinguishes profit dollars from margins."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What non-financial factors matter in comparing subscription and free-to-play?",
+   "release_when": "After calculating profits.",
+   "info_to_release": "No new numerical data.",
+   "expected_answer": "Assess retention if competitors launch similar games; expansion to mobile/console, new geographies and a second-generation game; merchandising and esports if audience scale supports it; and changing consumer tastes or migration away from PC gaming. Use distinct categories and connect them to the proposed model.",
+   "good_answer_signals": [
+    "Links audience scale and loyalty to future strategic options."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "How does the beta survey change your view?",
+   "release_when": "Show Exhibit 3 after the qualitative discussion.",
+   "info_to_release": "Survey n=100; scores 1 least likely to 5 most likely. Continue after year 1: subscription 4.2,retail 1.2,free 4.8. Buy add-ons:1.2/1.8/3.6. Recommend:4.0/4.1/4.2. Switch to same-genre rival:1.5/2.3/1.9.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Retail has low continuing-play intent and relatively high switching likelihood. Free-to-play has the strongest continuation and add-on intent; subscription also retains strong loyalty and the lowest switching score. Recommendations are similar across models. Low—not high—switching is favorable. Treat these as stated intentions from 100 beta respondents, not proof of conversion or statistical significance.",
+   "good_answer_signals": [
+    "Interprets the unfavorable direction of the switching metric.",
+    "Questions survey representativeness and intent-to-behavior conversion."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What would you recommend to CEO Bobby Beck?",
+   "release_when": "After the survey discussion.",
+   "info_to_release": "No new information.",
+   "expected_answer": "Either subscription or free-to-play is defensible with consistent reasoning. The source example favors free-to-play:5m players, $20m first-year profit and 13.33% margin create a larger base for competitive resilience and future games/platforms/regions. Risks are achieving 30% paying conversion and $100 annual spending. Offer cosmetic purchases and optional progression/time-saving purchases to address different value propositions. Subscription is an alternative with equal $20m profit, higher 16.67% margin and favorable loyalty; retail trails at $9m profit.",
+   "good_answer_signals": [
+    "Combines quantified economics with survey and strategic evidence.",
+    "Offers concrete monetization-risk mitigation."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exSizing",
+   "title": "Illustrative age-cohort sizing assumptions",
+   "page": 60,
+   "kind": "table",
+   "description": "Interviewer-only sample table; source page contains calculated answers and notes. Data includes assumptions only, not cohort answer totals.",
+   "data": {
+    "columns": [
+     "Age cohort",
+     "Population (millions)",
+     "Computer ownership (%)",
+     "Gaming among owners (%)",
+     "Willing/able to try new genre (%)"
+    ],
+    "rows": [
+     [
+      "0–20",
+      80,
+      50,
+      25,
+      30
+     ],
+     [
+      "21–40",
+      80,
+      75,
+      25,
+      40
+     ],
+     [
+      "41+",
+      160,
+      75,
+      5,
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-the-pricing-games/p060.webp",
+   "image_has_answers": true,
+   "key_insight": "Apply demographic and behavioral filters to estimate addressable players.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex1",
+   "title": "Predicted revenues",
+   "page": 65,
+   "kind": "table",
+   "description": "Inputs for user capture and monetization under three models; dash means not applicable.",
+   "data": {
+    "columns": [
+     "Input",
+     "Subscription",
+     "Retail",
+     "Free-to-play"
+    ],
+    "rows": [
+     [
+      "Target audience (millions)",
+      10,
+      10,
+      10
+     ],
+     [
+      "Predicted share (%)",
+      10,
+      12,
+      50
+     ],
+     [
+      "Buy in-game content (%)",
+      "—",
+      "—",
+      30
+     ],
+     [
+      "Monthly subscription (USD)",
+      10,
+      "—",
+      "—"
+     ],
+     [
+      "Initial retail price (USD)",
+      "—",
+      60,
+      "—"
+     ],
+     [
+      "Annual in-game purchase per payer (USD)",
+      "—",
+      "—",
+      100
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-the-pricing-games/p065.webp",
+   "key_insight": "Free-to-play has a larger user base but only a subset monetizes.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Cost structure",
+   "page": 66,
+   "kind": "table",
+   "description": "Per-player operating/acquisition costs and fixed spending. Footnote on starred free-to-play model: listed costs include non-payers; paying users incur another $10 average variable cost.",
+   "data": {
+    "columns": [
+     "Input",
+     "Subscription",
+     "Retail",
+     "Free-to-play"
+    ],
+    "rows": [
+     [
+      "Annual variable cost/player (USD)",
+      50,
+      22,
+      13
+     ],
+     [
+      "Acquisition cost/player (USD)",
+      35,
+      18,
+      7
+     ],
+     [
+      "Annual product development (USD m)",
+      5,
+      5,
+      5
+     ],
+     [
+      "Server costs (USD m)",
+      7,
+      7,
+      7
+     ],
+     [
+      "Other fixed costs (USD m)",
+      3,
+      3,
+      3
+     ],
+     [
+      "Extra variable cost/free-to-play payer (USD)",
+      "Not applicable",
+      "Not applicable",
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-the-pricing-games/p066.webp",
+   "key_insight": "Non-paying free-to-play users still create costs; ongoing development is distinct from sunk R&D.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Beta-test survey, n=100",
+   "page": 67,
+   "kind": "bar",
+   "description": "Likelihood scores 1–5; the last question is adverse, unlike the first three.",
+   "data": {
+    "columns": [
+     "Question",
+     "Subscription",
+     "Upfront purchase",
+     "Free-to-play"
+    ],
+    "rows": [
+     [
+      "Continue after year 1",
+      4.2,
+      1.2,
+      4.8
+     ],
+     [
+      "Purchase add-ons",
+      1.2,
+      1.8,
+      3.6
+     ],
+     [
+      "Recommend to friends",
+      4,
+      4.1,
+      4.2
+     ],
+     [
+      "Switch to new same-genre game",
+      1.5,
+      2.3,
+      1.9
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-the-pricing-games/p067.webp",
+   "key_insight": "Subscription and free-to-play show greater loyalty than retail; free-to-play has strongest add-on interest.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the sample addressable audience?",
+   "givens": [
+    "Age-cohort inputs in exSizing"
+   ],
+   "steps": [
+    "0–20:80m×50%×25%×30%=3m.",
+    "21–40:80m×75%×25%×40%=6m.",
+    "41+:160m×75%×5%×10%=0.6m, rounded by source to~1m.",
+    "Total 9.6m, rounded to 10m."
+   ],
+   "answer": "About 10 million addressable players; literal inputs yield 9.6m.",
+   "answer_value": 9.6,
+   "unit": "million players",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is subscription profitability?",
+   "givens": [
+    "10m users×10% share; $10/month",
+    "$50 variable+$35 acquisition/player",
+    "$5m+$7m+$3m fixed costs"
+   ],
+   "steps": [
+    "Revenue=1m×10×12=$120m.",
+    "Costs=1m×85+15m=$100m.",
+    "Profit=$20m; margin 20/120=16.6667%."
+   ],
+   "answer": "$20m profit at 16.67% margin.",
+   "answer_value": 20,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is retail profitability?",
+   "givens": [
+    "10m×12% share; $60 price",
+    "$22 variable+$18 acquisition/player; $15m fixed"
+   ],
+   "steps": [
+    "Revenue=1.2m×60=$72m.",
+    "Costs=1.2m×40+15m=$63m.",
+    "Profit=$9m; margin 9/72=12.5%."
+   ],
+   "answer": "$9m profit at 12.5% margin.",
+   "answer_value": 9,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is free-to-play profitability?",
+   "givens": [
+    "10m×50% share; 30% pay $100/year",
+    "All users cost $13+$7; payers cost another $10; $15m fixed"
+   ],
+   "steps": [
+    "Users 5m; payers 1.5m.",
+    "Revenue=1.5m×100=$150m.",
+    "Costs=5m×20+1.5m×10+15m=$130m.",
+    "Profit=$20m; margin 20/150=13.3333%."
+   ],
+   "answer": "$20m profit at 13.33% margin.",
+   "answer_value": 20,
+   "unit": "USD millions/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "The source's example recommends free-to-play for its 5m-player scale, $20m annual profit and 13.33% margin, supporting future expansion. Manage dependence on paying conversion and spending through cosmetic and time-saving purchases. Subscription is also defensible: equal profit,16.67% margin and strong loyalty. Retail is weaker at $9m. Validate beta-survey intentions rather than treating n=100 as proof of statistical reliability.",
+ "what_great_looks_like": [
+  "Excludes sunk R&D but includes ongoing product development.",
+  "Costs all free-to-play users and adds payer-specific expense.",
+  "Compares profit and margin separately.",
+  "Uses survey direction and long-term strategy consistently in the recommendation."
+ ],
+ "common_pitfalls": [
+  "Charging costs only to paying users.",
+  "Forgetting 12 months of subscription revenue.",
+  "Treating high switching likelihood as favorable.",
+  "Claiming sample size alone proves statistical significance."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All four source visuals inspected. Age 41+ calculates 0.6m; source explicitly writes~1m, and total 9.6m rounds to 10m. All profitability calculations match. $10m in the solution's fixed-cost shorthand means servers 7m plus other 3m, not sunk initial R&D. Free-to-play footnote applies to its starred column, consistent with solution. Source claim that 100 responses is statistically significant is unsupported absent sampling design/variance/test; qualified without inventing a statistic. Difficulty uses max(5,7) then Python round(x/2)=4. Math in math-stern-pricing.py. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "difficulty (higher-dimension aggregation)",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "stages[4].expected_answer (survey caveat)"
+  ]
+ }
+}

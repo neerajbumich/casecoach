@@ -1,0 +1,360 @@
+{
+ "id": "kellogg-2024-orrington-office-supplies",
+ "title": "Orrington Office Supplies",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  289,
+  298
+ ],
+ "author": "Edited by Peter Manoogian (Kellogg 2012), Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "kellogg-2024-orrington-office-supplies",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Y05 Operations; Y07 Profitability",
+ "industry": "cpg",
+ "sub_industry": "household-products",
+ "industry_source_label": "X04 Engineering & Construction",
+ "geography": "US / Mexico",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "capacity",
+  "plant-consolidation",
+  "manufacturing",
+  "fixed-vs-variable-cost",
+  "profitability",
+  "offshoring",
+  "SKU-rationalization",
+  "operations"
+ ],
+ "concepts_tested": [
+  "Z04 Capacity"
+ ],
+ "fit_question": "What role do you typically play in a team? Give me an example of this.",
+ "prompt": "Our client, Orrington Office Supplies (OOS), is a leading manufacturer of office products. In 1992, with sales of $275m in 1991, they have strong brands, invest heavily in marketing and advertising, and have grown through product line extensions and 4 key acquisitions. OOS is organized into 5 autonomous divisions but shares manufacturing and marketing functions; shared costs (45% of total) are allocated on a percentage-share-of-sales method. There are three plants running at a current capacity utilization of 50%. Analysts predict OOS is a potential acquisition target given its strong balance sheet but weakening earnings; OOS is publicly traded and has little long-term debt. As a potential investor, how would you improve its profitability?",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry",
+   "answer": "The US office supplies market grew at a 5% CAGR historically, but declined 5%/year in 1990 and 1991. The superstore channel is becoming increasingly critical, having gained 10 share points in the past 2 years, and typically discounts products 30% to small retailers/dealers. Superstores are aggressively substituting private-label products for traditional brand names."
+  },
+  {
+   "question_topic": "Client characteristics",
+   "answer": "OOS has a broader product line than competitors (12.5k SKUs vs. 4-5k for competitors). Distribution is 75% wholesalers, 15% superstores, 10% end customers. Its highest-selling product is a high-end branded stapler. Staples, Inc. is OOS's largest customer."
+  }
+ ],
+ "interviewer_notes": "Problem: how can OOS increase profits? Problem-solving steps: (1) identify trends in sales and profit, (2) analyze plant production operations, (3) determine financial impact of plant consolidation, (4) provide client recommendation. Excellent interviewees recognize which macroeconomic issues (industry decline, superstore shift) are beyond the client's control and then quickly move into the plant-consolidation analysis and cost-structure review.",
+ "suggested_framework": {
+  "summary": "A profitability framework (revenue vs. cost) that quickly narrows to operations/capacity, since the case is really about consolidating underutilized manufacturing capacity.",
+  "tree": {
+   "label": "How can OOS increase profits?",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Market trends (declining office supplies market, superstore shift, private label substitution)"
+      },
+      {
+       "label": "Product/SKU mix and pricing"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Fixed vs. variable cost structure of the business"
+      },
+      {
+       "label": "Shared/allocated costs across 5 divisions"
+      },
+      {
+       "label": "Plant capacity utilization and consolidation opportunity"
+      }
+     ]
+    },
+    {
+     "label": "Qualitative / implementation",
+     "children": [
+      {
+       "label": "Union labor at closing plants"
+      },
+      {
+       "label": "Distribution and warehousing transition"
+      },
+      {
+       "label": "Centralizing purchasing"
+      },
+      {
+       "label": "Culture and change management"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "As a potential investor, how would you improve OOS's profitability?",
+   "expected_answer": "A profitability framework that considers both revenue (industry trends, channel shift, SKU/pricing) and costs (fixed vs. variable structure, shared costs, plant capacity utilization), recognizing that a 50% capacity utilization across three plants signals a likely operations/consolidation opportunity."
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Why do the slopes for sales and profits differ as time elapses?",
+   "release_when": "After the candidate asks about profitability",
+   "info_to_release": "Exhibit A (historical revenue and pre-tax profit, 1980-1991, with CAGRs for 1980-1989 and 1989-1991).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Two insights expected: (1) profits declined more steeply than sales (1989-91: -40% profit CAGR vs. -8% sales CAGR), reflecting the fixed-cost nature of the business — costs don't scale down as fast as revenue falls; (2) sales didn't grow faster than profit during the 1980s (both grew at 15% CAGR) likely because growth came through acquisitions, which prevented OOS from capturing the economies of scale normally expected in this type of business.",
+   "good_answer_signals": [
+    "Connects the steeper profit decline to fixed costs",
+    "Recognizes that acquisition-driven growth explains the lack of scale economies in the 1980s"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Qualitatively discuss the potential options for plant consolidation.",
+   "release_when": "After the candidate asks about plant consolidation",
+   "info_to_release": "Exhibit B (unused vs. utilized SKU capacity by plant: Chihuahua, Grand Rapids, Sayreville).",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "The Chihuahua, Mexico plant is close to having the capacity to produce all of OOS's 12,500 SKUs (total capacity ~12,000 units). OOS could either close Chihuahua and move all production to the US plants, or close the US plants, discontinue ~500 low-volume SKUs, and move all production to Chihuahua. A strong candidate identifies Chihuahua as the more feasible consolidation target but asks to see fixed and variable cost data before committing.",
+   "good_answer_signals": [
+    "Notices Chihuahua's capacity is close to total company SKU count",
+    "Asks for cost data before recommending a direction"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How would consolidating to Chihuahua and discontinuing 500 SKUs change revenues (currently $275m/year)? How would it change production costs, and what are they now? How would it change pre-tax profits (currently $25m/year)?",
+   "release_when": "After the candidate asks about costs",
+   "info_to_release": "Exhibit C (fixed and variable costs per plant).",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "Revenue per SKU = $275m / 12,500 SKUs = $22k; eliminating 500 SKUs cuts revenue by 500 × $22k = $11m (4%). Current total plant costs = Chihuahua $38m ($20m fixed + $18m variable) + Grand Rapids $54.5m ($15m + $39.5m) + Sayreville $43.5m ($18m + $25.5m) = $136m; variable cost per SKU is $4k (Chihuahua), $7.9k (Grand Rapids), $8.5k (Sayreville). Consolidating the remaining 12,000 SKUs into Chihuahua: new cost = $20m fixed + ($4k × 12,000 SKUs variable) = $68m — a $68m reduction from $136m (a 50% cut). Net profit change = $68m cost savings − $11m revenue loss = $57m. New pre-tax profit = $25m + $57m = $82m, more than tripling current profit.",
+   "good_answer_signals": [
+    "Correctly computes the $11m revenue loss from SKU elimination",
+    "Correctly computes total current plant costs ($136m) and new consolidated cost ($68m)",
+    "Nets the cost savings against the revenue loss to reach $57m profit increase and $82m new profit"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "OOS should eliminate 500 (low-volume) SKUs and consolidate all production into the Chihuahua plant, raising annual profits from $25m to $82m. Qualitative issues to manage: implementation will take a long-term timeframe; whether unionized labor exists at the closing plants and the impact of closing them; need for a carefully developed distribution/warehousing transition plan; need to move to a strong central purchasing department rather than smaller local ones; and a culture/communication plan to prevent a morale decline during the transition.",
+   "good_answer_signals": [
+    "States the recommendation with the supporting $25m→$82m math",
+    "Raises union labor, distribution/warehousing, purchasing centralization, and culture/change-management as implementation risks",
+    "Recognizes which issues (industry decline, superstore shift) are outside the client's control versus the controllable consolidation opportunity"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Historical revenues and profits",
+   "page": 292,
+   "kind": "line",
+   "description": "Line chart of OOS sales and pre-tax profit, 1980-1991 ($M), with a table of Sales CAGR and Pre-tax Profit CAGR for 1980-1989 and 1989-1991.",
+   "data": {
+    "columns": [
+     "Metric",
+     "1980 to 1989",
+     "1989 to 1991"
+    ],
+    "rows": [
+     [
+      "Sales CAGR",
+      "15%",
+      "-8%"
+     ],
+     [
+      "Pre-tax Profit CAGR",
+      "15%",
+      "-40%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-orrington-office-supplies/p292.webp",
+   "key_insight": "From 1989-1991, pre-tax profit fell far faster (-40% CAGR) than sales (-8% CAGR), signaling the fixed-cost nature of the business; sales and profit grew in lockstep (both 15% CAGR) during the 1980s, suggesting acquisition-driven growth didn't deliver the scale economies normally expected.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Exhibit B – Production plants",
+   "page": 293,
+   "kind": "bar",
+   "description": "Stacked bar chart showing, for each of OOS's three plants (Chihuahua MEX, Grand Rapids MI, Sayreville NJ), the number of SKUs currently produced (SKU capacity utilization) versus unused capacity, in units.",
+   "data": {
+    "columns": [
+     "Plant",
+     "SKU capacity utilization (units)",
+     "Unused capacity (units)",
+     "Total capacity (units)"
+    ],
+    "rows": [
+     [
+      "Chihuahua, MEX",
+      4500,
+      7500,
+      12000
+     ],
+     [
+      "Grand Rapids, MI",
+      5000,
+      3500,
+      8500
+     ],
+     [
+      "Sayreville, NJ",
+      3000,
+      2500,
+      5500
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-orrington-office-supplies/p293.webp",
+   "key_insight": "Chihuahua's total capacity (12,000 units) is close to OOS's full 12,500-SKU product line, and it has by far the most unused capacity (7,500 units, ~63% idle) — making it the natural plant to consolidate production into. Combined utilization across all three plants (4,500+5,000+3,000=12,500 SKUs) versus combined total capacity (26,000 units) is consistent with the ~50% capacity utilization stated in the case prompt.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Exhibit C – Plant operating costs",
+   "page": 294,
+   "kind": "bar",
+   "description": "Bar chart of fixed and variable annual operating costs ($M) for each of the three plants.",
+   "data": {
+    "columns": [
+     "Plant",
+     "Fixed Costs ($M)",
+     "Variable Costs ($M)"
+    ],
+    "rows": [
+     [
+      "Chihuahua, MEX",
+      20,
+      18
+     ],
+     [
+      "Grand Rapids, MI",
+      15,
+      39.5
+     ],
+     [
+      "Sayreville, NJ",
+      18,
+      25.5
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-orrington-office-supplies/p294.webp",
+   "key_insight": "Chihuahua has both the lowest variable cost per SKU ($4k, vs. $7.9k Grand Rapids and $8.5k Sayreville) and among the lowest fixed costs — confirming it as the most cost-efficient plant to consolidate into, on top of having the most spare capacity.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the revenue impact of discontinuing 500 SKUs?",
+   "givens": [
+    "Current revenue = $275m",
+    "Current SKU count = 12,500"
+   ],
+   "steps": [
+    "Revenue per SKU = $275m / 12,500 = $22k",
+    "Revenue lost from eliminating 500 SKUs = 500 × $22k = $11m",
+    "As a % of current revenue: $11m / $275m = 4%"
+   ],
+   "answer": "$11m (4%) reduction in annual revenue",
+   "answer_value": -11,
+   "unit": "$M revenue change",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the change in total annual plant operating costs from consolidating the remaining 12,000 SKUs into the Chihuahua plant?",
+   "givens": [
+    "Current plant costs: Chihuahua $20m fixed + $18m variable = $38m; Grand Rapids $15m + $39.5m = $54.5m; Sayreville $18m + $25.5m = $43.5m; total = $136m",
+    "Variable cost per SKU: Chihuahua $18m/4,500 = $4k; Grand Rapids $39.5m/5,000 = $7.9k; Sayreville $25.5m/3,000 = $8.5k",
+    "After eliminating 500 SKUs, remaining SKU count = 12,500 − 500 = 12,000, all produced at Chihuahua's $4k/SKU variable cost and $20m fixed cost"
+   ],
+   "steps": [
+    "New Chihuahua cost = $20m fixed + ($4k × 12,000 SKUs) = $20m + $48m = $68m",
+    "Cost reduction = $136m − $68m = $68m (a 50% cut in total plant costs)"
+   ],
+   "answer": "New total plant cost of $68m, a $68m (50%) reduction from the current $136m",
+   "answer_value": 68,
+   "unit": "$M new total plant cost",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the net impact on pre-tax profit from consolidating to Chihuahua and eliminating 500 SKUs?",
+   "givens": [
+    "Current pre-tax profit = $25m/year",
+    "Cost savings from consolidation (m2) = $68m",
+    "Revenue loss from SKU elimination (m1) = $11m"
+   ],
+   "steps": [
+    "Net profit change = $68m cost savings − $11m revenue loss = $57m",
+    "New pre-tax profit = $25m + $57m = $82m"
+   ],
+   "answer": "Pre-tax profit rises by $57m to $82m, more than tripling the current $25m",
+   "answer_value": 82,
+   "unit": "$M new pre-tax profit",
+   "verified": true
+  }
+ ],
+ "synthesis": "OOS should eliminate 500 (low-volume) SKUs and consolidate all remaining production into the Chihuahua plant, which has the most spare capacity and the lowest cost per SKU. This raises annual pre-tax profit from $25m to $82m ($57m net of a $68m plant-cost reduction and an $11m revenue loss). The recommendation should be paired with a plan to manage implementation timeline, unionized-labor impacts at closing plants, distribution/warehousing transition, centralization of purchasing, and culture/communication to protect morale through the change.",
+ "what_great_looks_like": [
+  "Separates macro/industry trends the client can't control from the controllable operations opportunity, and moves quickly to the plant-consolidation analysis",
+  "Notices from Exhibit B that Chihuahua's total capacity is close to the full 12,500-SKU line before being told the consolidation numbers",
+  "Nets the cost savings against the SKU-driven revenue loss rather than only citing gross cost reduction",
+  "Raises union labor, distribution, purchasing, and culture/change-management risks alongside the financial recommendation"
+ ],
+ "common_pitfalls": [
+  "Citing the $68m cost savings as the full profit impact without netting out the $11m revenue loss from discontinued SKUs",
+  "Missing that fixed costs explain why profit fell faster than sales in 1989-1991",
+  "Recommending consolidation without addressing qualitative implementation risks (labor, distribution, culture)"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book's own figures ($11m revenue loss, $68m new plant cost, $57m profit increase, $82m new profit) were independently recomputed and matched exactly. The cover page lists 'X04 Engineering & Construction' as the primary sector, which appears to be a book labeling error/reuse — content clearly describes an office-products manufacturer; industry_source_label is kept as printed but the industry/sub_industry slugs were chosen based on actual case content (cpg/household-products) rather than the printed label.",
+  "fields_inferred": [
+   "suggested_framework.tree",
+   "difficulty",
+   "tags",
+   "industry (chosen from case content rather than the printed, apparently mismatched, source label)",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

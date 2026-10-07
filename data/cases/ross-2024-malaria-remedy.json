@@ -1,0 +1,418 @@
+{
+ "id": "ross-2024-malaria-remedy",
+ "title": "Malaria Remedy",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  58,
+  66
+ ],
+ "case_type": [
+  "Market Entry",
+  "Profitability"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Healthcare",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain-style"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant - 3, Qual - 2, Overall - 2 (1-3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-entry",
+  "vaccines",
+  "break-even",
+  "market-share",
+  "competitive-positioning",
+  "social-impact"
+ ],
+ "concepts_tested": [
+  "market prioritization",
+  "currency conversion",
+  "break-even share",
+  "competitive analysis",
+  "partnership strategy"
+ ],
+ "prompt": "Your client is a group of researchers in Uganda that has developed a malaria vaccine. The group wants to commercialize the vaccine across African markets and is considering a partnership with David-Wilson, a Ghanaian pharmaceutical company. The client wants to break even within three years while saving as many lives as possible. Which markets should it enter, and how should it proceed?",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "The client wants to recover market-entry fixed costs within three years and maximize lives saved."
+  },
+  {
+   "question_topic": "Product use",
+   "answer": "Assume one vaccine is required per reported malaria case and 33% of potential patients purchase a vaccine."
+  },
+  {
+   "question_topic": "Candidate markets",
+   "answer": "The initial countries are Ghana, South Africa, Uganda, and Tanzania."
+  },
+  {
+   "question_topic": "Partner",
+   "answer": "David-Wilson is based in Ghana; the commercial implications of that relationship should be considered after the quantitative screen."
+  }
+ ],
+ "interviewer_notes": "The quantitative screen tests currency conversion and the share required to recover fixed cost in three years. Tanzania and South Africa require impossible shares; Ghana and Uganda advance to competitor analysis. The source rounds annual demand to 400K, 82.5K, 500K, and 700K units. Exact application of the stated 33% gives 396K, 82.5K, 495K, and 693K, so either convention is acceptable if stated. The competitive exhibit favors Ghana. Page 63 says not to continue with Uganda, while the final page calls Uganda realistic to a lesser extent; treat this as a source inconsistency rather than forcing agreement.",
+ "suggested_framework": {
+  "summary": "Screen countries for economic feasibility, then test competitive position, partnership advantages, impact, and execution risk.",
+  "tree": {
+   "label": "Select malaria-vaccine markets",
+   "children": [
+    {
+     "label": "Economic feasibility",
+     "children": [
+      {
+       "label": "Addressable cases and purchase rate"
+      },
+      {
+       "label": "Contribution margin in USD"
+      },
+      {
+       "label": "Three-year break-even share"
+      }
+     ]
+    },
+    {
+     "label": "Market attractiveness",
+     "children": [
+      {
+       "label": "Lives saved"
+      },
+      {
+       "label": "Competitor price and efficacy"
+      },
+      {
+       "label": "Regulation and access"
+      }
+     ]
+    },
+    {
+     "label": "Ability to win",
+     "children": [
+      {
+       "label": "Local partner and distribution"
+      },
+      {
+       "label": "Funding and procurement"
+      },
+      {
+       "label": "Supply chain and geopolitical risk"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine which countries the researchers should enter?",
+   "expected_answer": "Start with economic feasibility: addressable cases, likely purchase volume, USD contribution per dose, fixed entry cost, and three-year break-even share. Then compare health impact and competitive position, including price, efficacy, access, regulation, partners, supply chain, and country risk.",
+   "good_answer_signals": [
+    "Balances financial and social objectives",
+    "Proposes a country-by-country break-even screen",
+    "Includes execution and partner considerations"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 1, which countries can recover their fixed cost within three years?",
+   "info_to_release": "One-third of malaria patients buy one vaccine. Convert all economics to USD before calculating required share.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Using the book's rounded annual demand, three-year potential volume is 1.2M in Ghana, 247.5K in South Africa, 1.5M in Uganda, and 2.1M in Tanzania. Required break-even share is 62.5% for Ghana, roughly 2,886% for South Africa, 80% for Uganda, and about 119% for Tanzania. Only Ghana and Uganda are mathematically feasible, though both require ambitious adoption.",
+   "good_answer_signals": [
+    "Converts both margin and fixed cost consistently",
+    "Uses three years of demand",
+    "Rejects shares above 100%"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "Compare the client's competitive position in Ghana and Uganda using Exhibit 2.",
+   "release_when": "After the candidate advances Ghana and Uganda from the economic screen.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "The client's 95% efficacy is highest in both markets. In Ghana its $4.80 price sits between the $4.00 and $5.25 alternatives, creating a credible value proposition and reinforcing the David-Wilson partnership. In Uganda, its $6.00 price is well above the $4.50 and $4.25 alternatives; superior efficacy may not overcome the premium and the already-high break-even share. Prioritize Ghana and do not advance Uganda without a lower-cost route or strong subsidy.",
+   "good_answer_signals": [
+    "Compares price and efficacy together",
+    "Links Ghana to the local partner",
+    "Recognizes Uganda's affordability problem"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could the researchers improve adoption and reduce commercialization risk?",
+   "expected_answer": "Position the vaccine around its superior efficacy; work with governments, NGOs, donors, and public-health systems on education, procurement, and subsidies; use David-Wilson's local distribution in Ghana; seek an equivalent partner in Uganda before reconsidering it; secure diverse raw-material sources and anti-theft controls; and stage regulatory, manufacturing, and market-entry investment against adoption milestones.",
+   "good_answer_signals": [
+    "Generates demand and funding levers",
+    "Addresses distribution and affordability",
+    "Includes supply-chain, security, and regulatory mitigations"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the researchers?",
+   "expected_answer": "Enter Ghana first with David-Wilson. Ghana has a feasible 62.5% three-year break-even share, a mid-market $4.80 price, and leading 95% efficacy. Do not enter South Africa or Tanzania because break-even shares exceed 100%, and defer Uganda because an 80% share at a substantial price premium is too risky. Validate demand and reimbursement, agree partner economics, secure approvals and funding, and build a resilient supply chain before launch.",
+   "good_answer_signals": [
+    "Makes Ghana the clear priority",
+    "Uses quantitative and competitive evidence",
+    "Names concrete diligence and risk actions"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Country economics and exchange rates",
+   "page": 60,
+   "kind": "table",
+   "description": "Annual malaria cases, local-currency contribution margin per vaccine, fixed entry cost, and exchange rates for four markets.",
+   "data": {
+    "columns": [
+     "Country",
+     "Annual cases",
+     "Contribution margin (local)",
+     "Fixed cost (local)",
+     "Local currency per USD",
+     "Contribution margin (USD)",
+     "Fixed cost (USD)"
+    ],
+    "rows": [
+     [
+      "Ghana",
+      "1.2M",
+      "40 cedi",
+      "30M cedi",
+      "20",
+      "$2.00",
+      "$1.5M"
+     ],
+     [
+      "South Africa",
+      "250K",
+      "7 rand",
+      "50M rand",
+      "10",
+      "$0.70",
+      "$5.0M"
+     ],
+     [
+      "Uganda",
+      "1.5M",
+      "60 shilling",
+      "72M shilling",
+      "40",
+      "$1.50",
+      "$1.8M"
+     ],
+     [
+      "Tanzania",
+      "2.1M",
+      "36 shilling",
+      "90M shilling",
+      "30",
+      "$1.20",
+      "$3.0M"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-malaria-remedy/p060.webp",
+   "key_insight": "After currency conversion, only Ghana and Uganda can break even within three years at a market share below 100%.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Competitive price and efficacy",
+   "page": 63,
+   "kind": "table",
+   "description": "The client's price and vaccine efficacy compared with two alternatives in Ghana and Uganda.",
+   "data": {
+    "columns": [
+     "Market",
+     "Option",
+     "Price",
+     "Efficacy"
+    ],
+    "rows": [
+     [
+      "Ghana",
+      "Client",
+      "$4.80",
+      "95%"
+     ],
+     [
+      "Ghana",
+      "Competitor 1",
+      "$4.00",
+      "87%"
+     ],
+     [
+      "Ghana",
+      "Competitor 2",
+      "$5.25",
+      "80%"
+     ],
+     [
+      "Uganda",
+      "Client",
+      "$6.00",
+      "95%"
+     ],
+     [
+      "Uganda",
+      "Competitor 1",
+      "$4.50",
+      "87%"
+     ],
+     [
+      "Uganda",
+      "Competitor 2",
+      "$4.25",
+      "80%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-malaria-remedy/p063.webp",
+   "key_insight": "The client offers the best efficacy in both countries, but its price is competitive only in Ghana.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What three-year share is required to break even in Ghana?",
+   "givens": [
+    "1.2M annual cases",
+    "33% purchase rate",
+    "$2 contribution per vaccine",
+    "$1.5M fixed cost",
+    "3 years"
+   ],
+   "steps": [
+    "Rounded annual demand = 1.2M×33% ≈ 400K",
+    "Three-year demand = 400K×3 = 1.2M",
+    "Break-even units = $1.5M÷$2 = 750K",
+    "Required share = 750K÷1.2M = 62.5%"
+   ],
+   "answer": "62.5%",
+   "answer_value": 62.5,
+   "unit": "percent market share",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What three-year share is required to break even in South Africa?",
+   "givens": [
+    "250K annual cases",
+    "33% purchase rate",
+    "$0.70 contribution per vaccine",
+    "$5M fixed cost",
+    "3 years"
+   ],
+   "steps": [
+    "Annual demand = 250K×33% = 82.5K",
+    "Three-year demand = 247.5K",
+    "Break-even units = $5M÷$0.70 = 7.143M",
+    "Required share = 7.143M÷247.5K = 28.86 times the market, or 2,886%"
+   ],
+   "answer": "Approximately 2,886%; infeasible",
+   "answer_value": 2886,
+   "unit": "percent market share",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What three-year share is required to break even in Uganda?",
+   "givens": [
+    "1.5M annual cases",
+    "33% purchase rate",
+    "$1.50 contribution per vaccine",
+    "$1.8M fixed cost",
+    "3 years"
+   ],
+   "steps": [
+    "Rounded annual demand = 1.5M×33% ≈ 500K",
+    "Three-year demand = 1.5M",
+    "Break-even units = $1.8M÷$1.50 = 1.2M",
+    "Required share = 1.2M÷1.5M = 80%"
+   ],
+   "answer": "80%",
+   "answer_value": 80,
+   "unit": "percent market share",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What three-year share is required to break even in Tanzania?",
+   "givens": [
+    "2.1M annual cases",
+    "33% purchase rate",
+    "$1.20 contribution per vaccine",
+    "$3M fixed cost",
+    "3 years"
+   ],
+   "steps": [
+    "Rounded annual demand = 2.1M×33% ≈ 700K",
+    "Three-year demand = 2.1M",
+    "Break-even units = $3M÷$1.20 = 2.5M",
+    "Required share = 2.5M÷2.1M = 119.0%"
+   ],
+   "answer": "Approximately 119%; infeasible",
+   "answer_value": 119.05,
+   "unit": "percent market share",
+   "verified": true
+  }
+ ],
+ "synthesis": "Launch first in Ghana with David-Wilson. Ghana is the strongest combination of feasible economics, superior efficacy, competitive pricing, and local partnership support. South Africa and Tanzania cannot recover fixed costs within three years, and Uganda's 80% hurdle plus large price premium makes entry too risky without subsidy or a new local partner. Confirm demand, reimbursement, partner terms, regulatory timing, and supply resilience before committing capital.",
+ "what_great_looks_like": [
+  "Converts local economics to USD before comparing countries",
+  "Uses three years of addressable volume in break-even shares",
+  "Rejects mathematically impossible markets",
+  "Integrates price, efficacy, and partnership evidence",
+  "Surfaces the source's Uganda inconsistency"
+ ],
+ "common_pitfalls": [
+  "Mixing local currency and USD",
+  "Dividing break-even units by one year of demand",
+  "Treating an above-100% share as viable",
+  "Choosing Uganda on case volume alone",
+  "Ignoring affordability and local distribution"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All calculations were independently recomputed. The book rounds 33% demand figures; exact shares are 63.13% for Ghana, 80.81% for Uganda, and 120.25% for Tanzania. Page 63 rejects Uganda while the final conclusion describes it as realistic to a lesser extent. Reviewed and accepted by Claude 2026-09-28.",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

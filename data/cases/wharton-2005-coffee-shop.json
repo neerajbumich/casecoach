@@ -1,0 +1,370 @@
+{
+ "id": "wharton-2005-coffee-shop",
+ "title": "Coffee Shop",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  33,
+  34
+ ],
+ "variant_group_id": "coffee-shop",
+ "is_canonical_variant": true,
+ "case_type": [
+  "M&A/Acquisition",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "valuation question",
+ "industry": "restaurants",
+ "sub_industry": "coffee-cafes",
+ "industry_source_label": "coffee shop",
+ "geography": "Vail, Colorado, US",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Bain, 1st Round"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "valuation",
+  "market-sizing",
+  "dcf",
+  "wacc",
+  "fixed-costs",
+  "tax",
+  "small-business-acquisition"
+ ],
+ "concepts_tested": [
+  "bottom-up demand estimation",
+  "unit-economics profitability build",
+  "after-tax cash flow",
+  "multi-year DCF valuation vs. asking price"
+ ],
+ "prompt": "A friend asked me if I wanted to buy his coffee shop for $100,000. Do you think I should do it?",
+ "clarifying_info": [
+  {
+   "question_topic": "Location",
+   "answer": "The coffee shop is in Vail, Colorado."
+  },
+  {
+   "question_topic": "Products/prices",
+   "answer": "Cup of coffee $4.00; bottled water $2.00; pastries $3.00."
+  },
+  {
+   "question_topic": "Variable cost",
+   "answer": "All products have a 50% margin."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "The shop serves mostly locals, not tourists, so demand is consistent throughout the year."
+  },
+  {
+   "question_topic": "Other costs",
+   "answer": "Rent was $500/month. Wages (for 2 employees) were $8.00/hour. The shop is open 12 hours a day, six days a week."
+  },
+  {
+   "question_topic": "Profit consistency",
+   "answer": "Candidate may assume the coffee shop will bring in consistent profits."
+  }
+ ],
+ "interviewer_notes": "This is a valuation question — the candidate needs to build up profitability (revenue, costs, taxes) before valuing the business, then compare that valuation to the $100,000 asking price. Share each bullet of information only if the candidate asks for it clearly and deliberately.",
+ "suggested_framework": {
+  "summary": "Value the coffee shop as a multi-year discounted cash flow (revenue build from customer traffic → fixed/variable costs → after-tax profit → 5-year DCF at the given WACC) and compare that value to the $100,000 asking price.",
+  "tree": {
+   "label": "Should I buy the coffee shop for $100,000?",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Customer traffic (busy vs. slow hours)"
+      },
+      {
+       "label": "Product mix and pricing"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Variable cost (50% margin on all products)"
+      },
+      {
+       "label": "Fixed costs: rent, wages"
+      }
+     ]
+    },
+    {
+     "label": "Profit",
+     "children": [
+      {
+       "label": "Pre-tax profit"
+      },
+      {
+       "label": "After-tax profit (assume tax rate)"
+      }
+     ]
+    },
+    {
+     "label": "Valuation",
+     "children": [
+      {
+       "label": "5-year discounted cash flow at assumed WACC"
+      }
+     ]
+    },
+    {
+     "label": "Decision",
+     "children": [
+      {
+       "label": "Compare DCF value to $100,000 asking price"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "A friend asked me if I wanted to buy his coffee shop for $100,000. Do you think I should do it?",
+   "expected_answer": "Candidate frames this as a valuation question: first estimate the shop's profitability (revenue less costs and taxes), then value it (e.g., as a multi-year discounted cash flow), and compare that value to the $100,000 asking price.",
+   "good_answer_signals": [
+    "Explicitly frames the problem as 'value the business, then compare to price'",
+    "Lays out the revenue → costs → profit → valuation chain before asking for numbers"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "How would you estimate the shop's customer traffic and revenue?",
+   "release_when": "Only if candidate asks clearly and deliberately",
+   "info_to_release": "Assume 10 customers/hour in a slow hour and 20 customers/hour in a busy hour; the first and last 2 hours of the day are busy hours; shop is open 12 hours/day, 6 days/week; assume Saturday is entirely busy hours; assume the shop operates roughly 50 weeks/year.",
+   "expected_answer": "Weekday customers = 20×4 (busy hours) + 10×8 (slow hours) = 160/day. Saturday (all busy) = 20×12 = 240. Customers/week = 160×5 + 240×1 = 1,040. Customers/year ≈ 1,040×50 ≈ 52,000 (book states 50,200, an apparent arithmetic slip — see math log).",
+   "good_answer_signals": [
+    "Splits the day into busy vs. slow hours correctly",
+    "Treats Saturday as a distinct, busier day",
+    "Annualizes weekly traffic with a reasonable weeks/year assumption"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Given that traffic, what's the shop's annual revenue?",
+   "info_to_release": "Assume 60% of customers order coffee ($4), 30% order a pastry ($3), and 10% order bottled water ($2).",
+   "expected_answer": "Using ~50,000 annual customers (the book's own rounding of its traffic estimate): Revenue = 50,000×60%×$4 + 50,000×30%×$3 + 50,000×10%×$2 = $120,000 + $45,000 + $10,000 = $175,000.",
+   "good_answer_signals": [
+    "Applies the order-mix percentages to price correctly",
+    "States and uses a consistent annual-customer figure"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What are the shop's fixed costs?",
+   "info_to_release": "Rent $500/month; wages $8.00/hour for 2 employees; open 12 hours/day, 6 days/week, ~50 weeks/year. Candidate can also consider utilities and insurance as additional assumptions.",
+   "expected_answer": "Rent = $500×12 = $6,000/year. Wages (per the book's own formula) = $8×12hrs×6days×50weeks = $28,800/year (book states $30,000 — see math log). Total fixed costs ≈ $34,800/year (book's figure: $36,000).",
+   "good_answer_signals": [
+    "Annualizes rent and wages from the monthly/hourly inputs",
+    "Notes that utilities/insurance could be added as further assumptions"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "So what's the shop's annual profit, before and after tax?",
+   "info_to_release": "Assume a 40% tax rate.",
+   "expected_answer": "Pre-tax profit = Revenue×50% margin − fixed costs = $175,000×50% − fixed costs ≈ $87,500 − $34,800 ≈ $52,700 (book states $52,500). After-tax profit = pre-tax profit × (1−40%) ≈ $31,600 (book states $31,500).",
+   "good_answer_signals": [
+    "Applies the 50% product margin to revenue before subtracting fixed costs",
+    "Correctly applies the tax rate to get after-tax profit"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Assuming the shop operates for 5 years and using a 10% WACC, what is it worth today?",
+   "info_to_release": "Assume a 5-year operating horizon and a 10% WACC.",
+   "expected_answer": "Value ≈ after-tax profit × [1 + 1/1.1 + 1/1.1² + 1/1.1³ + 1/1.1⁴] ≈ $31,500 × 4.17 ≈ $131,000 (using the book's own after-tax profit figure and discounting formula).",
+   "good_answer_signals": [
+    "Discounts a multi-year stream of consistent after-tax cash flows at the given WACC",
+    "Arrives at a valuation figure to compare against the $100,000 asking price"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "So, should I buy the coffee shop?",
+   "expected_answer": "Yes — as long as sales stay consistent over the next 5 years, the estimated value (~$131,000) exceeds the $100,000 asking price, making the purchase profitable. Candidate should flag that further diligence on the seller's management experience and local competition would help confirm the consistent-sales assumption.",
+   "good_answer_signals": [
+    "Explicitly compares the DCF value to the $100,000 asking price to reach a recommendation",
+    "Flags at least one real-world risk (competition, management/operational continuity) to the consistent-sales assumption"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many customers does the shop see per day (weekday)?",
+   "givens": [
+    "10 customers/hour in a slow hour",
+    "20 customers/hour in a busy hour",
+    "First and last 2 hours of the 12-hour day are busy (4 busy hours, 8 slow hours)"
+   ],
+   "steps": [
+    "Customers/day = 20×4 (busy) + 10×8 (slow) = 80 + 80 = 160"
+   ],
+   "answer": "160 customers/day",
+   "answer_value": 160,
+   "unit": "customers/day",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many customers does the shop see per week and per year?",
+   "givens": [
+    "160 customers on each of 5 regular days",
+    "Saturday treated as all 12 hours busy: 20×12 = 240 customers",
+    "~50 operating weeks/year"
+   ],
+   "steps": [
+    "Customers/week = 160×5 + 240×1 = 800 + 240 = 1,040",
+    "Customers/year = 1,040 × 50 = 52,000"
+   ],
+   "answer": "1,040 customers/week; ≈52,000 customers/year",
+   "answer_value": 52000,
+   "unit": "customers/year",
+   "verified": false,
+   "book_answer_if_different": "Book states 1,040 × 50 = 50,200, which is an arithmetic error (1,040 × 50 = 52,000, not 50,200)."
+  },
+  {
+   "id": "m3",
+   "question": "What is the shop's annual revenue?",
+   "givens": [
+    "≈50,000 annual customers (book's own rounding of its traffic estimate)",
+    "60% order coffee at $4",
+    "30% order a pastry at $3",
+    "10% order bottled water at $2"
+   ],
+   "steps": [
+    "Coffee revenue = 50,000 × 60% × $4 = $120,000",
+    "Pastry revenue = 50,000 × 30% × $3 = $45,000",
+    "Water revenue = 50,000 × 10% × $2 = $10,000",
+    "Total = $120,000 + $45,000 + $10,000 = $175,000"
+   ],
+   "answer": "$175,000/year",
+   "answer_value": 175000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What are the shop's annual fixed costs?",
+   "givens": [
+    "Rent $500/month",
+    "Wages $8.00/hour, shop open 12 hours/day, 6 days/week, ~50 weeks/year"
+   ],
+   "steps": [
+    "Rent = $500 × 12 months = $6,000/year",
+    "Wages = $8/hr × 12 hrs/day × 6 days/week × 50 weeks/year = $28,800/year",
+    "Total fixed costs = $6,000 + $28,800 = $34,800/year"
+   ],
+   "answer": "$34,800/year",
+   "answer_value": 34800,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "Book states wages = $8×12×6×50 = $30,000 (arithmetic error: the formula as given computes to $28,800) and total fixed costs = $36,000."
+  },
+  {
+   "id": "m5",
+   "question": "What is the shop's pre-tax annual profit?",
+   "givens": [
+    "Revenue $175,000",
+    "50% product margin",
+    "Fixed costs (recomputed) $34,800"
+   ],
+   "steps": [
+    "Pre-tax profit = $175,000 × 50% − $34,800 = $87,500 − $34,800 = $52,700"
+   ],
+   "answer": "$52,700/year",
+   "answer_value": 52700,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "Book states $52,500, which does not exactly reconcile even with the book's own $36,000 fixed-cost figure ($87,500 − $36,000 = $51,500, not $52,500) — an additional apparent arithmetic slip in the book."
+  },
+  {
+   "id": "m6",
+   "question": "What is the shop's after-tax annual profit?",
+   "givens": [
+    "Pre-tax profit (recomputed) $52,700",
+    "Assume 40% tax rate"
+   ],
+   "steps": [
+    "After-tax profit = $52,700 × (1 − 40%) = $52,700 × 60% = $31,620"
+   ],
+   "answer": "≈$31,620/year",
+   "answer_value": 31620,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "Book states $31,500, derived from its own (also slightly inconsistent) $52,500 pre-tax figure: $52,500 × 60% = $31,500."
+  },
+  {
+   "id": "m7",
+   "question": "What is the present value of the coffee shop, assuming a 5-year horizon of consistent after-tax profit and a 10% WACC?",
+   "givens": [
+    "After-tax profit ≈ $31,500/year (book's figure, used here since it is the book's own DCF input)",
+    "5-year horizon, cash flows in years 0 through 4",
+    "10% WACC"
+   ],
+   "steps": [
+    "Value = $31,500 + $31,500/1.1 + $31,500/1.1² + $31,500/1.1³ + $31,500/1.1⁴",
+    "= $31,500 + $28,636 + $26,033 + $23,666 + $21,514 ≈ $131,350"
+   ],
+   "answer": "≈$131,000 (matches the book's stated valuation); using our recomputed after-tax profit of ≈$31,620 instead gives ≈$131,850 — either way comfortably above the $100,000 asking price",
+   "answer_value": 131000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "Yes, buy the coffee shop. Even after correcting a few small arithmetic slips in the book's own worked solution, the shop's estimated present value (roughly $131,000–$132,000, discounting 5 years of after-tax profit at a 10% WACC) comfortably exceeds the $100,000 asking price, as long as sales stay as consistent as assumed. Before finalizing, it's worth diligencing the seller's management/operational continuity and the local competitive environment to confirm that the 'consistent profits' assumption will hold.",
+ "what_great_looks_like": [
+  "Frames the problem explicitly as 'value the business, then compare to the asking price'",
+  "Builds revenue from first principles (traffic by hour-of-day, product mix, pricing) rather than guessing a top-line number",
+  "Correctly separates fixed and variable costs and annualizes monthly/hourly inputs",
+  "Applies tax and a multi-year discounting approach rather than valuing a single year's profit",
+  "Explicitly compares the resulting valuation to the $100,000 ask and flags real-world diligence items (management, competition) behind the consistency assumption"
+ ],
+ "common_pitfalls": [
+  "Values a single year of profit instead of discounting a multi-year cash flow stream",
+  "Forgets to apply the 50% product margin before subtracting fixed costs",
+  "Skips taxes entirely when computing the cash flow to discount",
+  "Never circles back to explicitly compare the computed value to the $100,000 asking price"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[4].answer",
+   "math[5].answer"
+  ],
+  "math_verified": false,
+  "notes": "The book's own worked solution contains several small, apparently unintentional arithmetic slips that don't reconcile with its own stated inputs: (1) 1,040×50 is printed as 50,200 instead of 52,000; (2) its wage formula 8×12×6×50 is printed as $30,000 instead of $28,800; (3) its own $87,500−$36,000 is printed as profit $52,500 instead of $51,500. Recomputed each step independently per extraction rule 4 and flagged verified=false with the book's original figures preserved in book_answer_if_different. None of these discrepancies change the final recommendation — the valuation stays well above the $100,000 asking price either way.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "client_type"
+  ]
+ }
+}

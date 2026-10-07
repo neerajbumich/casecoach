@@ -1,0 +1,122 @@
+{
+  "id": "how-americans-shop",
+  "section": "consumer",
+  "order": 1,
+  "title": "How Americans shop",
+  "summary": "The US retail landscape by channel: who shops where, why each format wins, and the economics (membership fees, private label, returns) that interviewers expect you to reason with in retail and CPG cases.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The big picture",
+      "body": "US retail is dominated by a few national giants with huge physical footprints, plus a long tail of regional grocers and specialty chains. Most households drive to a big store once or twice a week and fill a cart, rather than buying small baskets daily. Online is a large and growing slice (~17% of retail sales in Q2 2026, per Census), but stores still carry most volume and double as fulfilment hubs for online orders."
+    },
+    {
+      "type": "table",
+      "title": "Retail channels at a glance",
+      "columns": ["Channel", "Key players", "Why shoppers go", "Economics to know"],
+      "rows": [
+        ["Mass / big-box", "Walmart, Target", "One-stop shop, low prices, parking", "Thin margins, huge volume; Walmart grocery is the traffic driver"],
+        ["Warehouse clubs", "Costco, Sam's Club, BJ's", "Bulk value, treasure-hunt, gas", "Membership fees are most of the profit; tiny markups on goods"],
+        ["Dollar stores", "Dollar General, Dollar Tree / Family Dollar", "Close to home in rural and low-income areas", "Small boxes, small baskets, mostly consumables"],
+        ["Grocery (national + regional)", "Kroger, Albertsons/Safeway, Publix, H-E-B, Wegmans, Aldi, Trader Joe's", "Fresh food, weekly stock-up, pharmacy, fuel points", "Thin net margins; loyalty data and private label matter"],
+        ["Drugstores", "CVS, Walgreens", "Prescriptions plus convenience items", "Pharmacy reimbursement pressure; store closures since 2024"],
+        ["Department / specialty", "Macy's, Nordstrom, Best Buy, Ulta, Home Depot, Lowe's", "Category depth, brands, expertise", "Department stores losing share; home improvement tied to housing"],
+        ["Off-price", "TJ Maxx, Marshalls, HomeGoods (TJX), Ross, Burlington", "Brand names at a discount, treasure-hunt", "Opportunistic buying of excess inventory; resilient in downturns"],
+        ["Convenience / gas", "7-Eleven, Circle K, Wawa, Sheetz, Buc-ee's", "Fuel, drinks, snacks, speed", "Fuel brings traffic; in-store food and drinks earn the margin"],
+        ["E-commerce", "Amazon, Walmart.com, Target.com, Shein/Temu", "Selection, convenience, fast delivery", "Shipping and returns costs; ads and marketplace fees boost profit"]
+      ],
+      "note": "Regional grocers (H-E-B in Texas, Publix in the Southeast, Wegmans in the Northeast) are household names locally and often beat national chains on loyalty."
+    },
+    {
+      "type": "list",
+      "title": "Why the leaders win",
+      "items": [
+        "Walmart: everyday low prices and reach (~90% of Americans live within 10 miles of a store, per a Morgan Stanley estimate); stores double as delivery hubs.",
+        "Costco: a limited assortment, bulk packs, Kirkland label; fees (~$65 basic, ~$130 Executive since 2024) fund near-cost pricing; ~90% global renewal.",
+        "Target: 'cheap chic' for suburban families; strong owned brands and drive-up pickup, but sales slipped in 2025.",
+        "Kroger: largest pure-play grocer (~2,700 supermarkets); loyalty card data feeds personalized coupons and retail media.",
+        "Dollar General: ~21,000 stores, ~80% in towns of 20,000 or fewer people; wins on proximity, not price per unit.",
+        "Amazon: selection plus Prime's fast free shipping; ads, marketplace fees and AWS fund the retail engine.",
+        "TJX: buys brands' excess inventory cheaply; the in-store 'hunt' pulls repeat visits and resists e-commerce."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Membership and loyalty economics",
+      "body": "Paid memberships (Costco, Sam's Club, Amazon Prime, Walmart+) lock in spend: once a customer has paid, they concentrate purchases to 'get their money's worth.' Fee income is almost pure profit, so the retailer can price goods near cost. Free loyalty programs (Kroger, Target Circle, CVS ExtraCare, Starbucks Rewards) trade discounts for purchase data, which now powers retail media networks that sell ads to brands."
+    },
+    {
+      "type": "list",
+      "title": "Private label, coupons, BNPL, returns",
+      "items": [
+        "Private label ('store brands') hit a record ~$283B in 2025, ~21% dollar share and ~23.5% unit share (PLMA).",
+        "Store brands carry higher margins for the retailer; think Kirkland (Costco), Great Value (Walmart), Good & Gather (Target), Simple Truth (Kroger).",
+        "Coupons moved from newspaper inserts to apps and loyalty cards; 'digital coupons' must be clipped in the retailer's app.",
+        "BNPL (Affirm, Klarna, Afterpay) is mainstream online; it drove a record ~$1B of spend on Cyber Monday 2025 (Adobe).",
+        "Returns are huge: NRF estimated ~$890B in 2024, ~17% of retail sales; generous no-questions-asked policies are expected.",
+        "'Bracketing' (buying several sizes, returning most) is common in apparel and drives reverse-logistics cost."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Costco is not a grocery margin business",
+      "body": "A common slip is analyzing Costco or Sam's Club like a supermarket. Merchandise is priced near cost; membership fees deliver most of operating profit. In a club case, the key levers are member count, renewal rate and upgrades to the higher tier, not markup on items."
+    },
+    {
+      "type": "compare",
+      "title": "India vs US: how people buy",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        ["Neighbourhood store", "Kirana: credit to regulars, home delivery, tiny SKUs", "Convenience store / gas station; little credit, limited range"],
+        ["Weekly shop", "Frequent small top-ups; modern trade still a minority", "Car-based weekly stock-up at a supermarket or club"],
+        ["Pack sizes", "Sachets and small packs for affordability", "Bulk and family packs; big fridges and pantries"],
+        ["Fast delivery", "Quick commerce (Blinkit, Zepto, Instamart) in 10-20 minutes via dark stores", "Same-day via Instacart, DoorDash, Amazon, Walmart; sub-30-minute is niche"],
+        ["Delivery cost", "Cheap labour makes small-basket delivery viable", "High labour cost; delivery fees, tips and minimum baskets"],
+        ["Payments", "UPI dominates digital; cash still common", "Credit and debit cards dominate; rewards cards; BNPL online"],
+        ["Discount format", "D-Mart: everyday low price, owned stores", "Walmart, Aldi, dollar stores, off-price"],
+        ["Returns", "Returns limited outside online fashion", "Generous returns expected across channels"]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Segment the shopper first",
+      "body": "When a case says 'a US retailer is losing share,' ask which channel and which customer: rural vs urban, income band, trip type (stock-up vs fill-in). Value formats (Walmart, Costco, Aldi, TJX) have been taking share from mid-tier players since inflation spiked, including from higher-income households."
+    }
+  ],
+  "in_a_case": [
+    "A club-store profitability case: start from members x fee x renewal, then upgrades and merchandise margin; fee income is most of the profit.",
+    "A grocer losing share: check private label mix, loyalty/personalization, and whether value players (Walmart, Aldi, Costco) are trading customers down.",
+    "A CPG brand's sales drop: test private label substitution and retailer shelf decisions before blaming marketing.",
+    "An e-commerce profitability case: include returns (~17% of sales overall, far higher in apparel), shipping and ad/marketplace income.",
+    "Market entry for a delivery startup: don't port India quick-commerce economics; US labour and fees make small baskets hard."
+  ],
+  "flashcards": [
+    {"front": "E-commerce share of US retail sales (Census, Q2 2026)?", "back": "~17%, still growing"},
+    {"front": "Where does Costco make most of its profit?", "back": "Membership fees (~$65 basic / ~$130 Executive since 2024; ~90% renewal globally)"},
+    {"front": "Dollar General's core customer location?", "back": "Rural/small towns: ~80% of ~21,000 stores in towns of 20,000 or fewer"},
+    {"front": "US private label share (PLMA, 2025)?", "back": "~21% of dollars, ~23.5% of units; record ~$283B sales"},
+    {"front": "Total US retail returns (NRF, 2024)?", "back": "~$890B, ~17% of sales"},
+    {"front": "Who owns TJ Maxx, Marshalls and HomeGoods?", "back": "TJX Companies (off-price)"},
+    {"front": "Largest US pure-play supermarket operator?", "back": "Kroger (~2,700 supermarkets; banners like Ralphs, King Soopers, Harris Teeter)"},
+    {"front": "Walmart U.S. revenue (FY ending Jan 2026)?", "back": "~$480B of ~$713B total; e-commerce growing ~25%+"},
+    {"front": "What is a retail media network?", "back": "Retailer selling ads to brands using its shopper data (Walmart Connect, Amazon Ads, Kroger Precision Marketing)"},
+    {"front": "India quick commerce vs US delivery?", "back": "India: 10-20 min from dark stores, cheap labour. US: same-day via Instacart/DoorDash, higher fees and tips"}
+  ],
+  "sources": [
+    "https://www.census.gov/retail/ecommerce.html",
+    "https://talkbusiness.net/2026/02/walmart-annual-revenue-up-almost-5-net-income-up-12-6/",
+    "https://fortune.com/2026/05/16/walmarts-upper-hand-over-amazon-in-the-1-trillion-e-commerce-race-90-of-americans-live-within-10-miles-of-a-superstore/",
+    "https://www.spokesman.com/stories/2025/oct/17/costco-tested-members-with-higher-fees-the-results/",
+    "https://www.sec.gov/Archives/edgar/data/29534/000110465926032325/dg-20260130x10k.htm",
+    "https://www.stocktitan.net/sec-filings/KR/10-k-kroger-co-files-annual-report-38d6497b0466.html",
+    "https://corporate.target.com/press/release/2026/03/target-corporation-reports-fourth-quarter-and-full-year-2025-earnings",
+    "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm",
+    "https://www.cspdailynews.com/company-news/private-label-sales-hit-record-2828b-2025-outpacing-national-brands",
+    "https://nrf.com/media-center/press-releases/nrf-and-happy-returns-report-2024-retail-returns-total-890-billion",
+    "https://news.adobe.com/news/2025/12/adobe-cyber-monday-hits-record"
+  ],
+  "checked": "2026-10"
+}

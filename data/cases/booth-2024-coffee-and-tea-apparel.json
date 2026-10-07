@@ -1,0 +1,234 @@
+{
+ "id": "booth-2024-coffee-and-tea-apparel",
+ "title": "Coffee and Tea Apparel",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  100,
+  107
+ ],
+ "case_type": [
+  "M&A/Acquisition"
+ ],
+ "case_type_source_label": "Mergers and Acquisitions",
+ "industry": "retail",
+ "sub_industry": "apparel-footwear",
+ "industry_source_label": "Retail & Apparel",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Deloitte",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 3/3; Creativity 1/3",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "divestiture",
+  "apparel",
+  "valuation-multiple",
+  "carve-out",
+  "cash-flow",
+  "brand-strategy"
+ ],
+ "fit_question": "What has been your most significant professional accomplishment? Tell me about a weakness.",
+ "prompt": "Coffee, a multinational women's clothing retailer, is deciding whether to hold or sell its underperforming US casual-wear brand Tea. Should it divest Tea and refocus on the formal-wear Coffee brand, or hold Tea and milk the cash cow?",
+ "clarifying_info": [],
+ "interviewer_notes": "Interviewer-led hold-versus-sell case. The sale includes Tea products sold through Tea retail and wholesale only; it excludes Coffee retail and outlet channels. Use the data sheet throughout.",
+ "suggested_framework": {
+  "summary": "Book framework comparing projected revenue, valuation and cash flow plus strategic risks.",
+  "tree": {
+   "label": "Tea hold or sell",
+   "children": [
+    {
+     "label": "Market and brand",
+     "children": [
+      {
+       "label": "Channels, customers and competition"
+      },
+      {
+       "label": "Strategic fit and loyalty"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Sale perimeter and valuation"
+      },
+      {
+       "label": "Hold revenue, margin and payback"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Tea decline and investment appetite"
+      },
+      {
+       "label": "Stranded costs and buyer terms"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you compare holding and selling Tea?",
+   "expected_answer": "Define the sale perimeter, project channel revenue, apply comparable multiples, estimate after-tax hold cash flow and payback, and assess brand fit, replaceable revenue, buyer synergies, stranded costs and execution.",
+   "good_answer_signals": [
+    "Separates Tea product from channels",
+    "Includes strategic factors"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What 2017 revenue transfers to a buyer, and what Tea revenue does Coffee retain if it holds?",
+   "release_when": "Use the candidate data sheet on page 102.",
+   "info_to_release": "2016 Tea-product revenue: Coffee retail $20M, Tea retail $10M, outlets $30M, wholesale $60M. Tea stores fall 32 to 20; Coffee stores rise 125 to 150; outlets constant; wholesale unchanged. Sale includes Tea retail and wholesale only.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Tea retail becomes $10M×20/32=$6.25M; buyer revenue is $6.25M+$60M=$66.25M. Hold revenue also includes Coffee retail Tea sales growing to $20M×150/125=$24M and $30M outlets, totaling $120.25M.",
+   "good_answer_signals": [
+    "Applies store ratios only to retail",
+    "Uses sale perimeter correctly"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Value sale and hold scenarios.",
+   "info_to_release": "Comparable revenue multiples are 0.6, 0.7, 0.9, 0.6 and 1.9; the 1.9 deal is old and tiny.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Exclude the 1.9 outlier; average of 0.6,0.7,0.9,0.6 is 0.7. Sale value=$66.25M×0.7=$46.375M; hold value=$120.25M×0.7=$84.175M. Hold is higher.",
+   "good_answer_signals": [
+    "Removes dated outlier",
+    "Applies same refined multiple"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How long until hold cash flow equals a $50M sale price?",
+   "info_to_release": "2016 EBIT margin is 10%; tax rate 40%; assume no D&A or working-capital change and ignore time value.",
+   "expected_answer": "After-tax cash margin is 10%×60%=6%. Annual cash flow=$120.25M×6%=$7.215M; payback=$50M/$7.215M=6.93 years, about seven.",
+   "good_answer_signals": [
+    "Taxes EBIT",
+    "Uses $50M specified sale price"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Coffee do?",
+   "expected_answer": "Hold Tea: comparable value is about $84M versus $46M sale value. Improve Tea through stores, cost reduction, international and wholesale expansion, but test whether retail decline and margin erosion will continue. Also analyze investment needs, stranded services and potential buyer terms.",
+   "good_answer_signals": [
+    "Uses valuation gap",
+    "Acknowledges declining Tea retail"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Coffee and Tea Data Sheet",
+   "page": 102,
+   "kind": "table",
+   "description": "Candidate-facing brand-channel sales, store counts, comparable transactions and Tea historical margins.",
+   "image_path": "exhibits/booth-2024-coffee-and-tea-apparel/p102.webp",
+   "key_insight": "The sale perimeter captures only $66.25M projected revenue, while holding preserves $120.25M across all channels.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are sale and hold revenues?",
+   "givens": [
+    "Data sheet inputs"
+   ],
+   "steps": [
+    "Tea retail=$10M×20/32=$6.25M",
+    "Sale=$6.25M+$60M=$66.25M",
+    "Coffee retail Tea=$20M×150/125=$24M",
+    "Hold=$66.25M+$24M+$30M=$120.25M"
+   ],
+   "answer": "$66.25M sale-perimeter revenue; $120.25M hold revenue",
+   "answer_value": 120.25,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are comparable values?",
+   "givens": [
+    "0.7 refined multiple"
+   ],
+   "steps": [
+    "Sale=$66.25M×.7=$46.375M",
+    "Hold=$120.25M×.7=$84.175M"
+   ],
+   "answer": "$46.375M sale and $84.175M hold value",
+   "answer_value": 84.175,
+   "unit": "USD millions hold value",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is after-tax hold payback versus $50M?",
+   "givens": [
+    "10% EBIT",
+    "40% tax",
+    "$120.25M revenue"
+   ],
+   "steps": [
+    "Cash flow=$120.25M×10%×60%=$7.215M",
+    "Payback=$50M/$7.215M=6.93 years"
+   ],
+   "answer": "6.93 years",
+   "answer_value": 6.93,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Hold Tea. The retained business is worth about $84.2M versus approximately $46.4M for the sale perimeter, and after-tax cash flow is about $7.2M annually. Coffee should determine whether declining retail stores and EBIT margins can be stabilized and quantify investment and stranded costs before final approval.",
+ "what_great_looks_like": [
+  "Respects carve-out perimeter",
+  "Removes the multiple outlier",
+  "Taxes EBIT for cash flow"
+ ],
+ "common_pitfalls": [
+  "Includes Tea sales in excluded channels in sale value",
+  "Uses the 1.9 outlier",
+  "Uses EBIT before tax as cash flow"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Page 102 is the candidate data sheet and contains no worked answers. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

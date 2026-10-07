@@ -1,0 +1,272 @@
+{
+ "id": "booth-2024-pyeongchang-winter-olympics",
+ "title": "PyeongChang Winter Olympics",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  261,
+  265
+ ],
+ "case_type": [
+  "Investment/PE due diligence",
+  "Pricing"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "media-streaming",
+ "sub_industry": "sports-media",
+ "industry_source_label": "Tech, Media & Entertainment",
+ "geography": "PyeongChang, South Korea; US television audience",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey & Co",
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 3, Creativity 3 (1-3 scale); Quant Level - HEAVY",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "broadcast-rights",
+  "olympics",
+  "advertising",
+  "opportunity-cost",
+  "present-value",
+  "maximum-bid",
+  "sports-media"
+ ],
+ "concepts_tested": [
+  "math structuring",
+  "advertising inventory",
+  "economic profit",
+  "discounting",
+  "cost brainstorming"
+ ],
+ "fit_question": "Tell me about a conflict with a group or manager. Alternatively, describe how you handled a difficult teammate who was blocking progress.",
+ "prompt": "In 2012, a television network has retained us to determine how much it should bid for the rights to broadcast the 2018 Winter Olympic Games in PyeongChang, South Korea. How much should the network bid?",
+ "clarifying_info": [
+  {
+   "question_topic": "Business model",
+   "answer": "The client is a broadcast television network that earns money through advertising only, not subscriptions."
+  },
+  {
+   "question_topic": "Decision rule",
+   "answer": "The maximum bid is limited by the present value of economic profit the Olympic broadcast can generate."
+  }
+ ],
+ "interviewer_notes": "Drive the case to advertising revenue first and provide schedule and pricing facts orally as requested; do not show the interviewer calculation table. After revenue, ask for a structured cost brainstorm, then provide total accounting cost of $428M. Push the candidate to include $1M per broadcast hour of opportunity cost and to discount the 2018 profit six years back to 2012. The source uses the Rule of 72 to halve $354M and recommends $177M; exact 12% discounting gives about $179.36M.",
+ "suggested_framework": {
+  "summary": "Value the broadcast rights from advertising revenue less accounting and opportunity costs, discounted to the bid date, with strategic and market risks considered separately.",
+  "tree": {
+   "label": "Maximum Olympic broadcast-rights bid",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Broadcast hours, ad minutes, and slot length"
+      },
+      {
+       "label": "Prime versus non-prime slot pricing"
+      },
+      {
+       "label": "Licensing or merchandising only if available"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Studios, talent, infrastructure, labor, marketing, hotels, insurance, and utilities"
+      },
+      {
+       "label": "Opportunity cost of displaced programming"
+      }
+     ]
+    },
+    {
+     "label": "Timing and risk",
+     "children": [
+      {
+       "label": "Discount 2018 cash flow to 2012"
+      },
+      {
+       "label": "Viewership, advertiser demand, competitors, technology, and network fit"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine the maximum amount the network should bid?",
+   "expected_answer": "Estimate advertising inventory and revenue by prime and non-prime schedule, subtract incremental accounting costs and the opportunity cost of displaced programming, then discount the 2018 economic profit to 2012. Also test viewership, advertiser appeal, competitors, streaming substitutes, network fit, and strategic benefits.",
+   "good_answer_signals": [
+    "Recognizes profit as the bid ceiling",
+    "Includes opportunity cost and discounting",
+    "Starts with the advertising-only business model"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How much advertising revenue can the Olympic broadcast generate?",
+   "info_to_release": "Viewers tolerate at most 10 advertising minutes per television hour. Each ad slot lasts 30 seconds. The Games last 16 days: opening ceremony Friday, competitions over the next 14 days, and closing ceremony Saturday. Opening and closing ceremonies each run 8-11pm. On ten competition weekdays coverage is 9am-noon, 2-5pm, and 7-11pm. On four competition weekend days coverage is 11am-9pm. Prime time is weekdays 7-11pm, all day Saturday and Sunday, and both ceremonies. Prime slots cost $400,000 and non-prime slots $200,000.",
+   "expected_answer": "Ten ad minutes per hour divided by 30 seconds gives 20 slots per hour. Revenue per hour is $8M prime and $4M non-prime. Ten weekdays generate 60 non-prime hours worth $240M and 40 prime hours worth $320M. Four weekend days generate 40 prime hours worth $320M. Two three-hour ceremonies generate $48M. Total advertising revenue is $928M.",
+   "good_answer_signals": [
+    "Structures schedule before multiplying",
+    "Gets 20 slots per hour",
+    "Separates weekday prime, weekday non-prime, weekends, and ceremonies"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What costs should the network include?",
+   "expected_answer": "Internal fixed costs include on-site buildings, talent, and broadcast infrastructure; external fixed costs include rented property and equipment. Variable costs include contract labor, viewer marketing, hotels, insurance, and on-site utilities. Also include opportunity cost from programming displaced by 146 Olympic broadcast hours.",
+   "good_answer_signals": [
+    "Uses internal/external and fixed/variable buckets",
+    "Includes opportunity cost",
+    "Avoids inventing numerical costs"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What is the 2018 economic profit before paying for the rights?",
+   "info_to_release": "Total accounting cost is $428M. Displaced programming has an opportunity cost of $1M per broadcast hour.",
+   "expected_answer": "Accounting profit is $928M - $428M = $500M. Total broadcast time is 60 weekday non-prime + 40 weekday prime + 40 weekend + 6 ceremony = 146 hours, so opportunity cost is $146M. Economic profit before rights is $500M - $146M = $354M.",
+   "good_answer_signals": [
+    "Keeps the interviewer-provided $428M cost",
+    "Calculates 146 total hours",
+    "Distinguishes accounting from economic profit"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What is the maximum bid in 2012 dollars?",
+   "info_to_release": "The economic profit is received in 2018, six years after the 2012 bid decision. Use a 12% discount rate.",
+   "expected_answer": "Exact present value is $354M / 1.12^6 = about $179.36M, so that is the strict breakeven ceiling before bid risk. The source uses the Rule of 72, treats six years at 12% as a doubling period, and reports $177M; a strong candidate should recognize this as an approximation rather than exact discounting.",
+   "good_answer_signals": [
+    "Discounts six years",
+    "Uses economic rather than accounting profit",
+    "Distinguishes the exact $179.36M result from the source's $177M shortcut"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "How much should the network bid, and what should it do next?",
+   "expected_answer": "Do not bid more than about $179.36M on exact economics; bid lower to preserve value under uncertainty. The Games generate $928M of ads, $354M of 2018 economic profit after $428M accounting cost and $146M opportunity cost, and $179.36M present value. Strategic viewership growth or denying a competitor a marquee event could support a higher strategic valuation, but risks include competing bids, poor network fit, and viewing shifts to tablets, smartphones, or other media. Assess competitors, network fit, and technology-driven audience change before finalizing the bid.",
+   "good_answer_signals": [
+    "Leads with a numeric ceiling",
+    "Explains the source's $177M approximation",
+    "Includes strategic upside, risks, and next steps"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is total Olympic advertising revenue?",
+   "givens": [
+    "20 ad slots per hour",
+    "$4M revenue per non-prime hour",
+    "$8M per prime hour",
+    "10 weekdays: 6 non-prime and 4 prime hours each",
+    "4 weekend days: 10 prime hours each",
+    "Two ceremonies: 3 prime hours each"
+   ],
+   "steps": [
+    "Weekday non-prime = 10 x 6 x $4M = $240M",
+    "Weekday prime = 10 x 4 x $8M = $320M",
+    "Weekend prime = 4 x 10 x $8M = $320M",
+    "Ceremonies = 2 x 3 x $8M = $48M",
+    "Total = $928M"
+   ],
+   "answer": "$928M",
+   "answer_value": 928,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is 2018 economic profit before broadcast-rights cost?",
+   "givens": [
+    "$928M revenue",
+    "$428M accounting cost",
+    "146 broadcast hours",
+    "$1M opportunity cost per hour"
+   ],
+   "steps": [
+    "Accounting profit = $928M - $428M = $500M",
+    "Opportunity cost = 146 x $1M = $146M",
+    "Economic profit = $500M - $146M = $354M"
+   ],
+   "answer": "$354M",
+   "answer_value": 354,
+   "unit": "USD millions in 2018",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the 2012 present value of $354M received in 2018 at 12%?",
+   "givens": [
+    "$354M future economic profit",
+    "Six years",
+    "12% discount rate"
+   ],
+   "steps": [
+    "PV = $354M / (1.12^6)",
+    "1.12^6 = 1.9738227",
+    "PV = $179.347M, approximately $179.35M"
+   ],
+   "answer": "Approximately $179.35M",
+   "answer_value": 179.347,
+   "unit": "USD millions in 2012",
+   "verified": false,
+   "book_answer_if_different": "The source recommends $177M by applying the Rule of 72 and dividing $354M by two. That is a stated approximation; exact six-year discounting at 12% gives about $179.35M."
+  }
+ ],
+ "synthesis": "Set approximately $179.35M as the exact 2012 breakeven ceiling and bid below it for a margin of safety. Advertising produces $928M, while accounting and opportunity costs reduce 2018 economic profit to $354M. Exact six-year discounting at 12% differs from the source's $177M Rule-of-72 shortcut. Evaluate competing bids, network fit, audience migration to new media, strategic viewership benefits, and implementation readiness before bidding.",
+ "what_great_looks_like": [
+  "Structures 146 broadcast hours correctly",
+  "Handles ad-slot timing and prime pricing without unit errors",
+  "Includes opportunity cost before discounting",
+  "Uses exact present value while preserving the source approximation",
+  "Separates economic bid ceiling from strategic option value"
+ ],
+ "common_pitfalls": [
+  "Counting ten ad slots rather than twenty per hour",
+  "Treating all hours as prime",
+  "Stopping at $500M accounting profit",
+  "Forgetting six years of discounting",
+  "Treating the approximate $177M as exact"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "All calculations were independently recomputed. Revenue, accounting profit, opportunity cost, and 2018 economic profit match the source. Exact discounting produces about $179.35M; the source's $177M is a Rule-of-72 approximation. The schedule and pricing table is interviewer-only and explicitly should not be shown to the candidate, so no exhibit is included. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

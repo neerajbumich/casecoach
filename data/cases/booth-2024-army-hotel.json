@@ -1,0 +1,241 @@
+{
+ "id": "booth-2024-army-hotel",
+ "title": "Army Hotel",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  69,
+  74
+ ],
+ "case_type": [
+  "Market Entry",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "hospitality",
+ "sub_industry": "hotels",
+ "industry_source_label": "Hospitality",
+ "client_type": "PE/investor",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey & Co",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 2/3; Creativity 2/3",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "hotel",
+  "pricing",
+  "occupancy",
+  "capacity",
+  "breakeven",
+  "private-equity"
+ ],
+ "concepts_tested": [
+  "pricing against per diem",
+  "room-night demand",
+  "capacity adjustment",
+  "investment breakeven"
+ ],
+ "fit_question": "Why consulting? Tell me about a time when you had to face a significant challenge.",
+ "prompt": "A PE firm can invest in building a 400-room hotel on an army base. The army proposed the idea, and the government will provide the land free; the client can build the hotel and retain all profits. What does the PE firm need to know to decide whether to build it?",
+ "clarifying_info": [
+  {
+   "question_topic": "Customers",
+   "answer": "The hotel houses soldiers attending training and soldiers temporarily transferred to the base."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Three hotels are about 20 miles away: Hilton $110/night, Hampton Inn $75, Days Inn $40."
+  },
+  {
+   "question_topic": "Demand",
+   "answer": "Basic Officer Training has 200 soldiers for 10 weeks, five times yearly; Advanced has 50 for four weeks, ten times yearly; 9,000 active-duty soldiers rotate every three years and receive 15 days for temporary housing."
+  }
+ ],
+ "interviewer_notes": "McKinsey-style interviewer-led case. Investors care about both hotel profitability and their own hurdle. Ask the pricing, revenue, cost, capacity, and breakeven questions in order while assessing whether the candidate drives toward market and competitive implications.",
+ "suggested_framework": {
+  "summary": "Book framework covering hotel market, profitability and PE-firm objectives.",
+  "tree": {
+   "label": "Army hotel investment",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Competitors, location and rates"
+      },
+      {
+       "label": "Soldier demand and proximity"
+      }
+     ]
+    },
+    {
+     "label": "Profitability",
+     "children": [
+      {
+       "label": "Rooms, occupancy, price and ancillary revenue"
+      },
+      {
+       "label": "Construction, labor, maintenance and utilities"
+      }
+     ]
+    },
+    {
+     "label": "PE objectives",
+     "children": [
+      {
+       "label": "Breakeven and return hurdle"
+      },
+      {
+       "label": "Portfolio, exit and opportunity cost"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What should the PE firm evaluate?",
+   "expected_answer": "Assess soldier demand, competitors and location; price, room capacity and ancillary revenue; construction and operating costs; and the sponsor's breakeven, portfolio, exit and opportunity-cost objectives.",
+   "good_answer_signals": [
+    "Includes both market and sponsor hurdle",
+    "Separates upfront and operating costs"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "The army reimburses $75 per day including breakfast and dinner. What nightly price should the hotel charge?",
+   "info_to_release": "Competitors 20 miles away charge $110, $75 and $40.",
+   "expected_answer": "Charge below $75 so food still fits the stipend; $60 is used for the remainder. The relevant low-price competitor is Days Inn at $40, but the on-base hotel's convenience and included amenities support a premium.",
+   "good_answer_signals": [
+    "Leaves room for meals",
+    "Uses the $40 competitor and 20-mile distance"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "At $60 per night, what is potential annual revenue?",
+   "expected_answer": "Basic training creates 200×10×7×5=70,000 room-nights; advanced creates 50×4×7×10=14,000; rotations create 3,000×15=45,000. Total is 129,000 (about 130,000), yielding $7.74M, rounded by the book to $7.8M.",
+   "good_answer_signals": [
+    "Converts weeks to nights",
+    "Divides rotating soldiers by three"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What are investment and operating profit after capacity constraints?",
+   "info_to_release": "Operating cost is $4M/year. Comparable construction cost is $50,000 per room. For four months, demand exceeds capacity by 80 rooms per night.",
+   "expected_answer": "Investment is 400×$50,000=$20M. Shortage removes 80×4×30=9,600 room-nights, leaving 119,400; revenue is $7.164M and profit $3.164M. The book rounds to 120,000 nights, $7.2M revenue and $3.2M profit.",
+   "good_answer_signals": [
+    "Adjusts room-nights for shortage",
+    "Calculates both capex and annual profit"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "The client wants breakeven in four to five years. Should it invest?",
+   "expected_answer": "No. Exact payback is about $20M/$3.164M=6.32 years (6.25 using book rounding), beyond the four-to-five-year hurdle. Study restaurants, conferences, amenities and cost reduction, or other bases with better economics. Risks are training-volume changes, occupancy error and opportunity cost.",
+   "good_answer_signals": [
+    "Compares payback with hurdle",
+    "Suggests ancillary revenue and cost actions"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are annual room-nights and revenue?",
+   "givens": [
+    "Training and rotation demand",
+    "$60/night"
+   ],
+   "steps": [
+    "Basic 70,000",
+    "Advanced 14,000",
+    "Temporary 45,000",
+    "Total 129,000",
+    "Revenue 129,000×$60=$7.74M"
+   ],
+   "answer": "$7.74 million (book rounds to $7.8M)",
+   "answer_value": 7.74,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is adjusted operating profit?",
+   "givens": [
+    "129,000 room-nights",
+    "9,600-room shortage",
+    "$60/night",
+    "$4M opex"
+   ],
+   "steps": [
+    "Served nights=119,400",
+    "Revenue=$7.164M",
+    "Profit=$3.164M"
+   ],
+   "answer": "$3.164 million annually (book rounds to $3.2M)",
+   "answer_value": 3.164,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is payback?",
+   "givens": [
+    "$20M investment",
+    "$3.164M profit"
+   ],
+   "steps": [
+    "$20M÷$3.164M=6.32 years"
+   ],
+   "answer": "6.32 years",
+   "answer_value": 6.3211,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Do not build under the current plan. Capacity-adjusted operating profit is approximately $3.16M and $20M of construction cost pays back in 6.32 years, missing the four-to-five-year hurdle. The client should test ancillary restaurant and conference revenue, amenities, operating-cost reductions, and other bases with higher occupancy or lower cost before reconsidering.",
+ "what_great_looks_like": [
+  "Prices within the soldier's total per diem",
+  "Builds all demand sources",
+  "Adjusts for capacity",
+  "Uses the PE hurdle to decide"
+ ],
+ "common_pitfalls": [
+  "Uses 9,000 rotating soldiers every year",
+  "Forgets days per week",
+  "Ignores the peak shortage",
+  "Recommends investing because profit is positive"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The book rounds 129,000 room-nights to 130,000 and the 9,600 shortage to 10,000; exact arithmetic is retained and agrees with the rounded recommendation. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

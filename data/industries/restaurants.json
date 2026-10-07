@@ -1,0 +1,72 @@
+{
+  "id": "restaurants",
+  "name": "Restaurants",
+  "group": "Consumer & retail",
+  "one_liner": "Quick-service, fast-casual, and full-service dining operators whose economics are set by unit-level volumes, food and labor costs, and whether the brand owns or franchises its locations.",
+  "how_it_makes_money": "Company-operated restaurants earn the spread between menu prices and food, labor, and occupancy costs. Franchisors earn royalties (a percentage of franchisee sales), upfront fees, and sometimes rent, giving them asset-light, high-margin revenue streams.",
+  "value_chain": [
+    "Menu design and ingredient sourcing",
+    "Distribution to restaurants",
+    "Kitchen prep and operations",
+    "Ordering channels (counter, drive-thru, digital)",
+    "Delivery and off-premise",
+    "Loyalty and marketing"
+  ],
+  "revenue_formula": [
+    "Revenue = number of units × average unit volume (AUV)",
+    "AUV = transactions per day × average check × operating days",
+    "Franchisor revenue = system-wide sales × royalty rate + franchise fees + rent"
+  ],
+  "cost_structure": [
+    "Food and packaging: commonly roughly 25-35% of sales",
+    "Labor: similar in size to food cost, rising with minimum wage increases",
+    "Occupancy: rent and utilities, largely fixed",
+    "Third-party delivery commissions for off-premise orders",
+    "Marketing, including franchise ad fund contributions",
+    "Restaurant-level overhead and corporate G&A"
+  ],
+  "margins": "Restaurant-level margins are often roughly 15-20% for strong operators, while corporate operating margins for heavily franchised brands can be far higher because they collect royalties without running stores. Menu pricing power, traffic, labor efficiency, and franchise mix drive the spread.",
+  "key_metrics": [
+    {"name": "Same-store sales (SSS)", "what": "Sales growth in existing restaurants, split into traffic and average check."},
+    {"name": "Average unit volume (AUV)", "what": "Annual sales per restaurant, a key indicator of brand strength and unit economics."},
+    {"name": "Restaurant-level margin", "what": "Profit at the four walls after food, labor, and occupancy."},
+    {"name": "Prime cost", "what": "Food plus labor as a share of sales, the main controllable cost lever."},
+    {"name": "Cash-on-cash return / payback", "what": "Return on new-unit build cost, used to decide expansion pace."},
+    {"name": "Digital mix", "what": "Share of sales through apps, kiosks, and delivery, linked to loyalty and data."}
+  ],
+  "trends": [
+    "Value wars as quick-service chains discount to win back lower-income traffic after menu price increases",
+    "Drive-thru and digital ordering growth, with smaller-format and pickup-focused stores",
+    "Loyalty programs and app-based personalization driving frequency",
+    "Labor cost pressure from state and city minimum wage laws, especially in California",
+    "Kitchen automation and AI voice ordering at drive-thrus",
+    "Fast-casual brands expanding rapidly while casual dining consolidates"
+  ],
+  "key_players": [
+    "McDonald's",
+    "Starbucks",
+    "Chipotle",
+    "Yum! Brands",
+    "Restaurant Brands International",
+    "Chick-fil-A",
+    "Darden",
+    "Domino's",
+    "Wendy's",
+    "Texas Roadhouse"
+  ],
+  "case_angles": [
+    {"question": "A fast-food chain's same-store sales are falling; what's going on and what should it do?", "framework_id": "profitability"},
+    {"question": "Should a fast-casual chain expand from 200 to 1,000 units, and should it franchise?", "framework_id": "growth-strategy"},
+    {"question": "How should a burger chain respond to a competitor's $5 value meal?", "framework_id": "competitive-response"},
+    {"question": "What is the breakeven daily volume for a new drive-thru location?", "framework_id": "breakeven"}
+  ],
+  "interview_hooks": [
+    "Should restaurant brands move toward fully franchised, asset-light models?",
+    "Does third-party delivery create or destroy value for restaurants?",
+    "How should chains balance menu price increases against losing value-seeking customers?"
+  ],
+  "news": {
+    "keywords": ["restaurant chain", "fast food", "fast-casual", "quick-service", "drive-thru", "franchisees", "value menu", "casual dining", "menu prices", "restaurant traffic"],
+    "companies": ["McDonald's", "Starbucks", "Chipotle", "Yum Brands", "Taco Bell", "Burger King", "Chick-fil-A", "Darden", "Domino's", "Wendy's", "Sweetgreen"]
+  }
+}

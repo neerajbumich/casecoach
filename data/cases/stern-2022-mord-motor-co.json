@@ -1,0 +1,448 @@
+{
+ "id": "stern-2022-mord-motor-co",
+ "title": "Mord Motor Co.",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  320,
+  329
+ ],
+ "author": "Hans Zhang and Isabelle van de Walle",
+ "case_type": [
+  "Market Entry",
+  "New Product/GTM",
+  "Profitability"
+ ],
+ "case_type_source_label": "Market Entry / Product Mix",
+ "industry": "automotive-ev",
+ "sub_industry": "ev",
+ "industry_source_label": "Automotive (Electric Vehicles)",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Strategy& Final Round"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 7; Structure: 8 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "electric-vehicles",
+  "market-sizing",
+  "product-mix",
+  "contribution-margin",
+  "sunk-costs",
+  "breakeven",
+  "pricing"
+ ],
+ "concepts_tested": [
+  "Market Sizing",
+  "Chart Reading",
+  "Profitability/Breakeven Analysis",
+  "Brainstorming"
+ ],
+ "client_type": "for-profit",
+ "geography": "United States; Detroit headquarters",
+ "prompt": "Mord Motor Company, an international automotive company, has seen meteoric sales and market share growth over the last 10 years in the US. However, in recent years it has seen its profitability stagnate during the Covid-19 pandemic. The company is optimistic that it can capitalize on the tailwinds of permanent remote work policies and workers migrating out of urban areas and into suburbs where vehicles are more necessary. The CEO, Lenry Mord, has come to your consulting firm to figure out how to bring the company back on track.",
+ "clarifying_info": [
+  {
+   "question_topic": "Company and competition",
+   "answer": "Mord is an international mid-level automaker with a $25 billion market capitalization. It competes across vehicle segments in a fragmented market with a comparable domestic share."
+  },
+  {
+   "question_topic": "Market growth",
+   "answer": "The source describes the internal-combustion market as stagnating and the EV market as growing at 10% CAGR with few major players. These are case assumptions."
+  },
+  {
+   "question_topic": "Operations",
+   "answer": "Mord is headquartered in Detroit, owns its entire supply chain and sells directly through its own dealerships. It has two promising EV models in development."
+  },
+  {
+   "question_topic": "Scope",
+   "answer": "Do not explore secondary sales markets or licensee costs for a new model. Historical sales and revenue are not central to the initial analysis."
+  },
+  {
+   "question_topic": "Cost timing and objective",
+   "answer": "Only if asked: raw materials and labor/assembly are per vehicle; other costs except R&D are annual. Both models' R&D costs have already been incurred. Mord wants to break even as early as possible and has capital to proceed with only one model."
+  }
+ ],
+ "interviewer_notes": "This is open-ended and brainstorming-heavy. Start with market analysis and maintain a revenue-growth focus; do not get stuck discussing generic hybrid/EV expansion or historical costs. Have the candidate size the US EV market, discuss entry factors, then read the two candidate exhibits and distinguish per-unit, annual and already-incurred costs. Source guidance is internally inconsistent: page 327 swaps Model Y's price and volume, while page 328 changes its distribution cost from the candidate exhibit's $40 million to $60 million. Use the candidate exhibits: Y is approximately $50,000 and 30,000 units, with $40 million distribution cost. The source asks candidates to recover both models' R&D; identify this as historical cost recovery, not incremental investment economics, because both amounts are sunk.",
+ "suggested_framework": {
+  "summary": "Evaluate EV demand and product fit, compare model economics and capital requirements, then test operational and regulatory risks.",
+  "tree": {
+   "label": "Restore Mord's growth and profitability",
+   "children": [
+    {
+     "label": "Automotive market",
+     "children": [
+      {
+       "label": "Size and growth of ICE versus EV"
+      },
+      {
+       "label": "Competition and consumer preferences"
+      },
+      {
+       "label": "Luxury versus economy segments"
+      }
+     ]
+    },
+    {
+     "label": "Revenue and product mix",
+     "children": [
+      {
+       "label": "New EV models and competitive price points"
+      },
+      {
+       "label": "Forecast volumes and regional expansion"
+      },
+      {
+       "label": "Branding and marketing"
+      }
+     ]
+    },
+    {
+     "label": "Economics and readiness",
+     "children": [
+      {
+       "label": "Unit contribution and annual costs"
+      },
+      {
+       "label": "Factory switchover, training and supply-chain optimization"
+      },
+      {
+       "label": "Liquidity and already-incurred versus prospective investment"
+      }
+     ]
+    },
+    {
+     "label": "External risks",
+     "children": [
+      {
+       "label": "Regulatory and safety requirements"
+      },
+      {
+       "label": "Geopolitical challenges"
+      },
+      {
+       "label": "Charging availability and customer adoption"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you help Mord get back on track?",
+   "release_when": "Read the prompt and provide requested background.",
+   "info_to_release": "Mord has $25 billion market capitalization, a fully owned supply chain and dealerships, and two EV models in development. The source contrasts a stagnating ICE market with EV growth of 10% CAGR. Secondary sales markets and licensee costs are outside scope.",
+   "exhibit_ids": [],
+   "expected_answer": "Prioritize market and product-mix growth, assessing EV segments, consumer demand, competitive prices and sales potential. Then test economics, manufacturing capabilities, capital and regulatory requirements. Do not spend the opening on historical profitability details that are not supplied or needed.",
+   "good_answer_signals": [
+    "Connects suburban migration to vehicle demand without assuming it guarantees EV sales.",
+    "Includes new-model fit and factory-switching requirements."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "Estimate the annual US retail EV market.",
+   "release_when": "Request a bottom-up approach. The source provides illustrative assumptions, not a unique empirically established market size.",
+   "info_to_release": "Example assumptions: 100 million households, 20% buying a new car annually based on five-year replacement, 20% choosing EVs, 75% economy at $40,000 and 25% luxury at $100,000. An alternative source approach starts with 320 million people and 2.5 people per household, with the same 25% luxury/75% economy and purchase assumptions.",
+   "exhibit_ids": [],
+   "expected_answer": "The first scenario gives 20 million annual car purchases, 4 million EVs, 3 million economy EVs worth $120 billion and 1 million luxury EVs worth $100 billion: $220 billion total. The alternative population approach implies 128 million households and 5.12 million EVs, totaling $281.6 billion, not the source table's roughly $270 billion. Different household assumptions explain the difference between approaches; the secondary table also truncates intermediate values. Ask what share Mord can serve and which models it has ready.",
+   "good_answer_signals": [
+    "Separates replacement purchases, EV preference and luxury/economy mix.",
+    "States assumptions and recognizes that the estimate is illustrative."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "Mord is short of cash and concerned about entering EVs. What should it consider?",
+   "release_when": "After market sizing, before the model exhibits.",
+   "info_to_release": "Two models are promising, but the recent downturn has constrained liquidity. The source includes contextual claims of about 607,600 US light-EV sales in 2021, approximately 83% above 2018, and a separate 19% electric-car CAGR forecast for 2022–2028; these are separate source context, not inputs to the household estimate.",
+   "exhibit_ids": [],
+   "expected_answer": "Structure financial considerations (funding, fixed/variable costs, factory changes and training), market fit (competitors and differentiation such as autonomous features), consumer preferences (ESG, price sensitivity and charging access), and external approvals/safety. Compare product positioning and the ability to fund launch, rather than treating a large hypothetical market as sufficient evidence for entry.",
+   "good_answer_signals": [
+    "Uses financial and nonfinancial buckets.",
+    "Connects geography and charging access to demand.",
+    "Distinguishes unrelated forecasts and sizing assumptions."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Mord can fund production of only one model. What do the predicted prices, sales and costs suggest?",
+   "release_when": "Give candidate Exhibits 1 and 2. Clarify cost bases only when asked.",
+   "info_to_release": "Candidate costs: X raw materials $115,000 and labor/assembly $10,000 per unit; annual distribution $50 million, marketing $40 million and SG&A $10 million; incurred R&D $250 million. Y raw materials $30,000 and labor/assembly $10,000 per unit; annual distribution $40 million, marketing $30 million and SG&A $10 million; incurred R&D $50 million. Candidate chart indicates X about $160,000 and 10,000 annual units, Y about $50,000 and 30,000. Both R&D amounts have already been incurred; Mord seeks earliest breakeven.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "X has $35,000 unit contribution and $350 million annual contribution, less $100 million annual costs, yielding $250 million operating profit. Revenue is $1.6 billion, not the guide's mislabeled $350 million contribution. Y has $10,000 unit contribution and $300 million contribution, less $80 million annual costs, yielding $220 million profit on $1.5 billion revenue. Do not copy the guide's $200 million profit, which uses a changed distribution cost. X is a high-price, lower-volume position; Y is more affordable and could have volume upside, but neither forecast is established by competitor dots alone.",
+   "good_answer_signals": [
+    "Reads chart axes correctly and distinguishes contribution from revenue.",
+    "Uses candidate-facing costs rather than the inconsistent solution.",
+    "Treats unlabeled competitor positions qualitatively."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "How do the models compare on breakeven and the production decision?",
+   "release_when": "After annual profits. The book asks candidates to consider recovery of the R&D already spent on both models.",
+   "info_to_release": "Both models' R&D has been incurred: $250 million for X and $50 million for Y. The guide's requested combined recovery pool is therefore $300 million. No additional production-launch investment is specified.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Historical recovery of the common $300 million pool is 1.2 years with X and 1.3636 years with Y using candidate inputs. Recovering only each model's own past R&D would be 1 year for X and 0.2273 years for Y. Neither is a prospective investment-payback calculation: sunk R&D should not determine the incremental choice. X currently has the higher modeled annual profit, $250 million versus $220 million, but prospective funding needs and risk-adjusted demand must be checked. The source's Y figures of 1.5 years combined and 0.50 years own-R&D are not supported by candidate data; even its own $200 million profit implies 0.25, not 0.50, years for $50 million R&D.",
+   "good_answer_signals": [
+    "Separates historical cost recovery from forward-looking economics.",
+    "Checks both models on a consistent basis.",
+    "Does not infer missing prospective capital requirements."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Lenry Mord approaches after tennis. What is your recommendation on the company's outlook?",
+   "release_when": "After model economics and risk discussion.",
+   "info_to_release": "No additional decision inputs. The closing slide separately quotes global passenger-EV sales rising from 3.1 million in 2020 to 14 million in 2025, approximately 16% of passenger vehicle sales; do not combine this with the earlier US hypothetical estimate.",
+   "exhibit_ids": [],
+   "expected_answer": "Prioritize X if choosing on the supplied annual economics: $250 million operating profit versus Y's corrected $220 million and historical combined-R&D recovery of 1.2 versus 1.364 years. The source also accepts a Y recommendation based on lower-price positioning and volume upside, but that case requires validation rather than incorrect solution numbers. Both diversify the stagnant business; X could strengthen the luxury brand. Pressure-test demand and pricing with consumer research, assess EV production capabilities and financing, and optimize production costs over time. Do not let sunk R&D substitute for an incremental investment appraisal.",
+   "good_answer_signals": [
+    "Uses corrected numbers in a concise recommendation.",
+    "Addresses concentrated EV competition and capability risk.",
+    "Links research and forecast validation to the chosen model's uncertainty."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Costs",
+   "page": 325,
+   "kind": "table",
+   "description": "Candidate-facing costs. The interviewer clarifies that materials and labor are per unit, distribution/marketing/SG&A are annual and R&D is already incurred.",
+   "data": {
+    "columns": [
+     "Cost",
+     "Model X (USD)",
+     "Model Y (USD)",
+     "Basis"
+    ],
+    "rows": [
+     [
+      "Raw materials",
+      115000,
+      30000,
+      "per unit"
+     ],
+     [
+      "Labor and assembly",
+      10000,
+      10000,
+      "per unit"
+     ],
+     [
+      "Distribution",
+      50000000,
+      40000000,
+      "annual"
+     ],
+     [
+      "Marketing",
+      40000000,
+      30000000,
+      "annual"
+     ],
+     [
+      "SG&A",
+      10000000,
+      10000000,
+      "annual"
+     ],
+     [
+      "R&D",
+      250000000,
+      50000000,
+      "one-time, already incurred"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-mord-motor-co/p325.webp",
+   "image_has_answers": false,
+   "key_insight": "Y's candidate distribution cost is $40 million, not the later guide's $60 million; cost timing matters.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Predicted Sales and Prices",
+   "page": 326,
+   "kind": "other",
+   "description": "Scatter plot of predicted annual sales in thousands against price in USD thousands. Highlighted model positions are read approximately from the chart and confirmed by page 328's model labels; unlabelled competitor coordinates are not transcribed as exact values.",
+   "data": {
+    "columns": [
+     "Model",
+     "Approximate price (USD thousands)",
+     "Approximate annual units (thousands)"
+    ],
+    "rows": [
+     [
+      "X",
+      160,
+      10
+     ],
+     [
+      "Y",
+      50,
+      30
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-mord-motor-co/p326.webp",
+   "image_has_answers": false,
+   "key_insight": "X is high-price/low-volume and Y lower-price/higher-volume. Page 327 reverses Y's price and volume; the candidate chart and page 328 agree on 50/30.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What does the primary household-based EV sizing example imply?",
+   "givens": [
+    "100 million households; 20% buy a new car annually; 20% choose EV",
+    "75% economy at $40,000; 25% luxury at $100,000"
+   ],
+   "steps": [
+    "Annual new cars = 100 million × 20% = 20 million; EVs = 20 million × 20% = 4 million.",
+    "Economy revenue = 3 million × $40,000 = $120 billion.",
+    "Luxury revenue = 1 million × $100,000 = $100 billion; total = $220 billion."
+   ],
+   "answer": "$220 billion annually under the illustrative assumptions.",
+   "answer_value": 220000000000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What does the alternative population-based sizing imply without truncation?",
+   "givens": [
+    "320 million people; 2.5 people per household",
+    "25% luxury/75% economy; 20% annual car purchase; 20% EV",
+    "$100,000 luxury and $40,000 economy"
+   ],
+   "steps": [
+    "Luxury/economy households = 80 million/2.5 = 32 million and 240 million/2.5 = 96 million.",
+    "Annual car purchases = 6.4 million and 19.2 million; EV purchases = 1.28 million and 3.84 million.",
+    "Luxury EV value = $128 billion; economy = $153.6 billion; total = $281.6 billion."
+   ],
+   "answer": "$281.6 billion under the alternative assumptions; the two sizing approaches use different household totals.",
+   "answer_value": 281600000000,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "The alternative table prints 1.2 million luxury and 3.8 million economy EVs, $120 billion and approximately $150 billion, then $270 billion total. Exact calculation from its population and household assumptions gives 1.28/3.84 million and $281.6 billion."
+  },
+  {
+   "id": "m3",
+   "question": "What are Model X revenue, contribution and annual profit?",
+   "givens": [
+    "Price $160,000; annual sales 10,000",
+    "Materials $115,000 and labor $10,000 per unit",
+    "Annual distribution $50 million, marketing $40 million, SG&A $10 million"
+   ],
+   "steps": [
+    "Revenue = 160,000 × 10,000 = $1.6 billion.",
+    "Unit variable cost = $125,000; unit contribution = $35,000.",
+    "Annual contribution = $350 million; annual fixed costs = $100 million.",
+    "Operating profit = $250 million."
+   ],
+   "answer": "$250 million annual operating profit on $1.6 billion revenue.",
+   "answer_value": 250000000,
+   "unit": "USD/year operating profit",
+   "verified": false,
+   "book_answer_if_different": "The guide's $250 million profit matches, but its 'Revenue $350M' row is contribution after unit costs. Actual revenue is $1.6 billion."
+  },
+  {
+   "id": "m4",
+   "question": "What are Model Y revenue, contribution and annual profit using candidate inputs?",
+   "givens": [
+    "Candidate chart: $50,000 price and 30,000 annual units",
+    "Materials $30,000 and labor $10,000 per unit",
+    "Candidate annual costs: distribution $40 million, marketing $30 million, SG&A $10 million"
+   ],
+   "steps": [
+    "Revenue = 50,000 × 30,000 = $1.5 billion.",
+    "Unit cost = $40,000; unit contribution = $10,000; annual contribution = $300 million.",
+    "Annual costs = $80 million; annual operating profit = 300 − 80 = $220 million."
+   ],
+   "answer": "$220 million annual operating profit, not $200 million.",
+   "answer_value": 220000000,
+   "unit": "USD/year operating profit",
+   "verified": false,
+   "book_answer_if_different": "Page 327 says Y price $30K and volume 50K, reversing the candidate plot. Page 328 uses the correct $50K/30K but changes distribution from $40M to $60M, giving $100M annual costs and $200M profit. Its $300M 'Revenue' is contribution, not the actual $1.5B revenue."
+  },
+  {
+   "id": "m5",
+   "question": "How quickly would operating profits recover the past R&D costs?",
+   "givens": [
+    "Already-incurred R&D: X $250 million and Y $50 million",
+    "Annual operating profits: X $250 million and Y $220 million"
+   ],
+   "steps": [
+    "Common historical pool = $300 million.",
+    "Combined-cost recovery: X = 300/250 = 1.2 years; Y = 300/220 = 1.363636 years.",
+    "Own-model recovery: X = 250/250 = 1 year; Y = 50/220 = 0.227273 years.",
+    "These are recovery metrics for past costs. Prospective launch investment is unspecified, and sunk R&D should not be charged again to the incremental choice."
+   ],
+   "answer": "Historical combined-R&D recovery is 1.2 years for X versus 1.364 for Y; prospective investment payback cannot be determined from the supplied capital data.",
+   "verified": false,
+   "book_answer_if_different": "The book gives combined recovery of 1.2/1.5 years and own-model recovery of 1/0.50 years for X/Y. Correct candidate costs yield Y 1.364/0.227 years. Even the guide's changed $200M Y profit makes $50M R&D recovery 0.25 years, not 0.50. Its instruction to include sunk R&D is a historical-recovery convention, not sound incremental-investment logic."
+  }
+ ],
+ "synthesis": "X leads on the supplied annual operating economics: $250 million profit versus corrected $220 million for Y, with historical recovery of the common $300 million R&D pool in 1.2 versus 1.364 years. This is not prospective payback because both R&D costs are sunk and new launch capital is unspecified. A defensible Y recommendation would need evidence for lower risk or greater volume upside. Validate consumer preferences, prices, volumes, production capability and financing before committing. Keep the illustrative $220 billion primary market estimate separate from the corrected $281.6 billion alternative and from external forecasts printed in the case.",
+ "what_great_looks_like": [
+  "Segments EV sizing into economy and luxury demand.",
+  "Recognizes the distinction between unit, annual and sunk costs.",
+  "Reads price and volume axes correctly.",
+  "Uses candidate exhibit figures when solution pages conflict.",
+  "Connects the recommendation to forecast validation and EV production capability."
+ ],
+ "common_pitfalls": [
+  "Reversing Model Y's price and sales axes.",
+  "Copying the solution's changed distribution cost.",
+  "Calling contribution after unit costs revenue.",
+  "Treating sunk R&D as incremental launch expenditure.",
+  "Using a large illustrative market as proof of attainable sales.",
+  "Mixing US household estimates with unrelated global forecasts."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (model coordinates are approximate chart readings; exact unlabeled competitor coordinates omitted)",
+   "math[4].answer (prospective launch capital not supplied)"
+  ],
+  "math_verified": false,
+  "notes": "Candidate pages 325/326 govern all economics. Guide 327 reverses Y price/volume; guide 328 changes Y distribution from $40M to $60M and mislabels contribution as revenue. Correct annual profits are X $250M and Y $220M. Historical all-R&D recovery is 1.2/1.364 years and own-model recovery 1/0.227; guide Y own recovery of 0.50 is also wrong even on its own changed assumptions. R&D is already incurred, so these are not prospective paybacks. Secondary sizing exact result is $281.6B, not its truncated $270B. Primary $220B sizing is internally correct under different assumptions. Contextual 10% CAGR, 19% CAGR, 2021 US sales and global 2025 forecast describe different source claims and are not harmonized into one model. No outside current-market or legal claims are made. Model coordinates align approximately with the intended 50/30 and 160/10 readings; competitors are qualitative. Both candidate images are clean and remain visible. Difficulty uses max(7,8), Python round(8/2) = 4. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type mappings",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls"
+  ]
+ }
+}

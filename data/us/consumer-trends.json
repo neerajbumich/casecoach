@@ -1,0 +1,201 @@
+{
+  "id": "consumer-trends",
+  "section": "consumer",
+  "order": 6,
+  "title": "Consumer Trends 2024-2026",
+  "summary": "The themes reshaping US consumer demand right now, each with who it hits and how it shows up in a case. Use these to form a hypothesis fast when a client's sales move and the cause isn't operational.",
+  "blocks": [
+    {
+      "type": "table",
+      "title": "Value, inflation and spending mix",
+      "columns": [
+        "Trend",
+        "What's happening",
+        "Who it affects",
+        "Case angle"
+      ],
+      "rows": [
+        [
+          "Value-seeking & private label",
+          "Store brands hit a record ~$283B in 2025, ~21% of dollar and ~24% of unit sales (PLMA/Circana); growing faster than national brands",
+          "CPG brands; grocers win margin",
+          "Brand losing share: check private-label price gaps before blaming marketing"
+        ],
+        [
+          "Inflation hangover",
+          "Annual food price increases have slowed (~2% for groceries in 2025) but price levels stay well above 2020, and restaurant prices keep rising faster",
+          "Lower- and middle-income households; QSRs",
+          "Traffic down despite stable prices: consumers anchor on pre-2021 prices; value menus and bundles return"
+        ],
+        [
+          "K-shaped spending",
+          "Top 10% of earners ~half of spending (Moody's, 2025)",
+          "Mass-market vs premium brands diverge",
+          "Split the customer base by income before forecasting"
+        ],
+        [
+          "Experiences over goods",
+          "Services are ~69% of US consumer spending (BEA, mid-2026)",
+          "Travel, live events, dining vs durable goods",
+          "Retailers compete with concerts and trips for discretionary dollars"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Health and lifestyle",
+      "columns": [
+        "Trend",
+        "What's happening",
+        "Who it affects",
+        "Case angle"
+      ],
+      "rows": [
+        [
+          "GLP-1 drugs",
+          "~12% of adults were taking a GLP-1 (KFF, late 2025); households with a user cut grocery spend ~5% and savory snacks ~10% (Cornell/Numerator)",
+          "Snacks, sweets, fast food, alcohol; helps protein, yogurt, fresh",
+          "Snack volume decline: model GLP-1 adoption; consider smaller packs and high-protein lines"
+        ],
+        [
+          "Health & wellness",
+          "US wellness market ~$500B+, growing ~4-5% a year; most consumers call wellness a priority (McKinsey, 2025)",
+          "Food, beverage, fitness, supplements, beauty",
+          "Reposition products on protein, gut health, sleep, functional benefits"
+        ],
+        [
+          "Younger adults drinking less",
+          "Only ~54% of adults drink, a record low; ~50% of 18-34s (Gallup, 2025)",
+          "Beer, wine, spirits; bars",
+          "Alcohol volume decline is structural; growth in non-alcoholic and premium 'drink less, better'"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Channels and digital",
+      "columns": [
+        "Trend",
+        "What's happening",
+        "Who it affects",
+        "Case angle"
+      ],
+      "rows": [
+        [
+          "Convenience & delivery",
+          "E-commerce ~17% of retail sales (Q2 2026, Census); delivery and pickup are routine for many households",
+          "Grocers, restaurants, pharmacies",
+          "Fees, basket size and density decide profitability"
+        ],
+        [
+          "Subscriptions & fatigue",
+          "Households average ~4 paid streaming services at ~$69/month; ~39% canceled one in six months (Deloitte, 2025)",
+          "Streaming, meal kits, software, memberships",
+          "Churn-and-return; ad-supported tiers and bundles to hold users"
+        ],
+        [
+          "Social commerce",
+          "US social commerce ~$87B in 2025, TikTok Shop ~20% of it (eMarketer)",
+          "Beauty, fashion, small brands",
+          "Creator-led launches; live shopping; watch return rates and margins"
+        ],
+        [
+          "AI in shopping",
+          "Generative AI traffic to US retail sites rose several-fold in the 2025 holidays and converted better than other traffic (Adobe)",
+          "Retailers, brands, search ads",
+          "Be visible in AI answers; product data quality becomes marketing"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Sustainability: say vs do",
+      "body": "Surveys consistently show many shoppers say they prefer sustainable products and would pay more, but at the shelf price and convenience usually win, especially for lower-income households. Evidence is mixed rather than zero: a McKinsey-NielsenIQ study found products with ESG claims grew ~28% vs ~20% for others over 2017-2022. Durable takeaway: sustainability works best as a tie-breaker at near-parity price, not as a premium most buyers will pay."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Start with the trend checklist",
+      "body": "When a consumer client's numbers move, run a quick external scan before diving into operations: income segment (K-shape), price gap to private label, channel shift to online/social, health trends (GLP-1, alcohol), and seasonality. Naming one or two relevant trends with a test you'd run sounds senior."
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Trends are uneven",
+      "body": "Don't apply a national trend uniformly. GLP-1 use, delivery adoption and social shopping vary by age, income and geography. Ask 'how much of this client's customer base is exposed?' and size the effect, rather than treating any trend as a market-wide shock."
+    },
+    {
+      "type": "list",
+      "title": "Quick reads on each trend for interviews",
+      "items": [
+        "Trading down is selective: shoppers cut in staples while keeping a few treats ('lipstick effect').",
+        "BNPL and credit help sustain spending for stretched households but add risk if delinquencies rise.",
+        "GLP-1 effects concentrate in higher-income households, where grocery cuts exceed 8% (Cornell).",
+        "Ad-supported streaming tiers now reach most subscribers, shifting economics toward advertising.",
+        "AI shopping assistants raise the bar on product data, reviews and price transparency."
+      ]
+    }
+  ],
+  "in_a_case": [
+    "Snack maker's volumes falling: test GLP-1 adoption among core buyers and private-label substitution before cutting marketing spend.",
+    "Casual-dining traffic decline: inflation hangover plus lower-income pullback; value bundles and loyalty offers vs further price increases.",
+    "Beer company growth strategy: structural decline in young-adult drinking points to non-alcoholic, low-ABV and adjacent categories.",
+    "Streaming platform profitability: model churn-and-return and ad-tier mix rather than a fixed subscriber lifetime.",
+    "A DTC beauty brand: social commerce and creators as an acquisition channel, with attention to returns and platform fees."
+  ],
+  "flashcards": [
+    {
+      "front": "US private label share (2025)",
+      "back": "~21% of dollar sales, ~24% of units; record ~$283B (PLMA/Circana)."
+    },
+    {
+      "front": "Share of US adults currently taking a GLP-1 (late 2025)",
+      "back": "~12% (KFF); ~18% have ever taken one."
+    },
+    {
+      "front": "Grocery spending change in households with a GLP-1 user",
+      "back": "~-5% within six months; savory snacks ~-10% (Cornell/Numerator)."
+    },
+    {
+      "front": "Share of US adults who drink alcohol (2025)",
+      "back": "~54%, a record low; ~50% of 18-34s (Gallup)."
+    },
+    {
+      "front": "E-commerce share of US retail sales (Q2 2026)",
+      "back": "~17% (Census)."
+    },
+    {
+      "front": "Services share of US consumer spending (mid-2026)",
+      "back": "~69% (BEA PCE)."
+    },
+    {
+      "front": "US social commerce size (2025) and TikTok Shop share",
+      "back": "~$87B; TikTok Shop ~20% (eMarketer)."
+    },
+    {
+      "front": "Average US household streaming spend (2025)",
+      "back": "~$69/month across ~4 paid services (Deloitte)."
+    },
+    {
+      "front": "Sustainability say-do gap: durable takeaway",
+      "back": "Many say they'll pay more; few do. Works best as a tie-breaker at similar price."
+    }
+  ],
+  "sources": [
+    "https://www.plma.com/article/us-private-label-industry-reached-2828-billion-sales-2025",
+    "https://www.ers.usda.gov/data-products/food-price-outlook/summary-findings?os=av",
+    "https://www.marketplace.org/story/2025/09/17/top-10-of-earners-make-up-half-of-us-retail-spending",
+    "https://fred.stlouisfed.org/series/PCES",
+    "https://fred.stlouisfed.org/series/PCE",
+    "https://www.kff.org/public-opinion/poll-1-in-8-adults-say-they-are-currently-taking-a-glp-1-drug-for-weight-loss-diabetes-or-another-condition-even-as-half-say-the-drugs-are-difficult-to-afford/",
+    "https://www.eurekalert.org/news-releases/1110869",
+    "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends",
+    "https://news.gallup.com/poll/693362/drinking-rate-new-low-alcohol-concerns-surge.aspx",
+    "https://www.census.gov/retail/ecommerce.html",
+    "https://www.deloitte.com/us/en/insights/industry/technology/digital-media-trends-consumption-habits-survey/2025.html",
+    "https://www.retaildive.com/news/tiktok-shop-drives-social-commerce-growth/807665/",
+    "https://www.digitalcommerce360.com/2026/01/13/generative-ai-online-holiday-shopping-traffic-2025/",
+    "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/consumers-care-about-sustainability-and-back-it-up-with-their-wallets"
+  ],
+  "checked": "2026-10"
+}

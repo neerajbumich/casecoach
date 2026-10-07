@@ -1,0 +1,412 @@
+{
+ "id": "stern-2022-take-your-pills",
+ "title": "Take Your Pills!",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  262,
+  271
+ ],
+ "author": "Kai Fei (Stern '22)",
+ "case_type": [
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Revenue growth",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Pharmaceutical",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 9; Structure: 7 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "revenue-growth",
+  "patient-adherence",
+  "patient-persistence",
+  "cohort-analysis",
+  "campaign-economics",
+  "orphan-drug",
+  "monopoly"
+ ],
+ "concepts_tested": [
+  "Profitability",
+  "Brainstorming",
+  "Creativity"
+ ],
+ "client_type": "for-profit",
+ "geography": "United States",
+ "prompt": "Your client, Foci Pharmaceuticals, a leading rare disease pharmaceutical company, has seen US sales growth slow down over the past year. Your firm has been hired to determine the cause of this slowdown and recommend ways to reverse the trend.",
+ "clarifying_info": [
+  {
+   "question_topic": "Competition and market",
+   "answer": "There are no direct competitors; the client is the market."
+  },
+  {
+   "question_topic": "Product concentration",
+   "answer": "All revenue comes from Nalparcin, treating a rare type of muscular dystrophy. It launched in 2017 and is classified in the case as an orphan drug, treating a disease affecting fewer than 200,000 people in the US."
+  },
+  {
+   "question_topic": "Exclusivity",
+   "answer": "The source says Nalparcin's exclusivity lasts through the end of 2024, during which FDA will not approve a generic version of the same drug."
+  },
+  {
+   "question_topic": "Patients and pricing",
+   "answer": "Only 30,000 US patients are eligible. Full-year treatment costs $500,000 per patient and the price has not changed. Nalparcin is taken daily."
+  },
+  {
+   "question_topic": "Drug type, rarely asked",
+   "answer": "Nalparcin is a small-molecule drug. The case describes low molecular weight as allowing entry into cells and interaction with molecules such as proteins, unlike larger molecules that do not readily enter cells. Its generic explanatory example mentions possible cancer-cell death; that is not a claim that Nalparcin treats cancer."
+  }
+ ],
+ "interviewer_notes": "Let the candidate drive both diagnosis and solution. Give clarifications only on request, Exhibit 1 only for a specific request for revenue/financial data, and Exhibit 2 when adherence or persistence is raised. If those concepts do not arise, ask about revenue from each daily pill. The case assumes missed pills reduce future purchases and revenue. Encourage structured brainstorming before presenting the campaign. In the math, immediately give the percentage-point improvements and campaign cost, but provide patient counts and margin only on request. The source explicitly encourages rounding the baseline average existing patients from 2,812.5 down to 2,800; both rounded and exact economics are recorded. Either supported final recommendation is allowed, but the campaign does not break even in 2021 alone.",
+ "suggested_framework": {
+  "summary": "In a single-product monopoly, diagnose patient acquisition, retention and daily adherence before evaluating targeted growth initiatives.",
+  "tree": {
+   "label": "Diagnose slowdown and reverse it",
+   "children": [
+    {
+     "label": "Revenue and patient funnel",
+     "children": [
+      {
+       "label": "Eligible patients and new treatment starts"
+      },
+      {
+       "label": "Persistence of existing cohorts"
+      },
+      {
+       "label": "Daily adherence and price per treatment year"
+      }
+     ]
+    },
+    {
+     "label": "Causes of treatment shortfalls",
+     "children": [
+      {
+       "label": "Patient behavior and socioeconomic barriers"
+      },
+      {
+       "label": "Disease condition and experience"
+      },
+      {
+       "label": "Coverage, providers, side effects and concurrent medication"
+      }
+     ]
+    },
+    {
+     "label": "Intervention economics",
+     "children": [
+      {
+       "label": "Incremental revenue by cohort"
+      },
+      {
+       "label": "Product margin and campaign cost"
+      },
+      {
+       "label": "Longer-term benefits and forecast uncertainty"
+      }
+     ]
+    },
+    {
+     "label": "Execution and alternatives",
+     "children": [
+      {
+       "label": "Validate root causes and campaign content"
+      },
+      {
+       "label": "Alternative adherence/persistence support"
+      },
+      {
+       "label": "Other indications or drugs and rollout plan"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose Foci's slowing US sales growth?",
+   "release_when": "Read the prompt and answer requested clarifications only.",
+   "info_to_release": "No direct competitors. All revenue is from daily Nalparcin treatment, launched in 2017 for a rare muscular dystrophy. Eligible US patients total 30,000. Annual treatment price is $500,000, unchanged. Source exclusivity lasts through 2024.",
+   "exhibit_ids": [],
+   "expected_answer": "Focus on revenue levers in this monopoly: eligible population and new starts, ongoing patient persistence, daily adherence and realized price. Keep both objectives in view: identify the slowdown's cause and recommend a remedy. Request revenue and patient data before asserting a cause.",
+   "good_answer_signals": [
+    "Adapts the framework to a single-drug monopoly.",
+    "Separates starting treatment, staying on treatment and taking daily doses."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do the revenue and patient data suggest?",
+   "release_when": "Give Exhibit 1 only when financial/revenue data are requested. Give Exhibit 2 only once adherence or persistence is mentioned; otherwise prompt with revenue per daily pill.",
+   "info_to_release": "Exhibit 1: revenues are $0.9 billion in 2017, $1.2 billion in 2018, $1.35 billion in 2019 and $1.425 billion in 2020; 4,000 new patients each year. If asked, price remains $500,000 per full year. Exhibit 2: first-year patient adherence 60%, existing-patient adherence 40%; annual persistence 50% for both groups.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Revenue growth slows despite constant new-patient acquisition and unchanged pricing. Low daily adherence and 50% annual persistence limit revenue retained from successive cohorts. Half of patients discontinue each year, while continuing patients also miss doses. Under the case's purchase assumption, each missed daily dose represents more than $1,000 in lost revenue, approximately $1,370 on a 365-day basis. Continued growth cannot rely solely on adding the same number of new patients indefinitely.",
+   "good_answer_signals": [
+    "Distinguishes adherence from persistence.",
+    "Uses the daily-dose clue and stable price to investigate patient behavior.",
+    "Pushes toward causes without waiting for another prompt."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What might cause low adherence and persistence, and how could those issues be addressed?",
+   "release_when": "After the candidate identifies adherence and persistence as the revenue problem; allow them to initiate this discussion.",
+   "info_to_release": "No actual root-cause research is supplied. Possible categories in the source are patient, condition, health system and drug factors.",
+   "exhibit_ids": [],
+   "expected_answer": "Structure hypotheses around patient behavior, demographics and socioeconomic conditions; disease severity and experience; insurance coverage and provider characteristics; and side effects or concurrent medications. Then propose interventions matched to validated causes, rather than assuming an information campaign will solve every barrier. The book expects ideas to improve adherence or persistence but does not identify a confirmed underlying cause.",
+   "good_answer_signals": [
+    "Uses distinct cause categories.",
+    "Connects potential solutions to the mechanism they would address.",
+    "Recognizes the absence of evidence about actual causes."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "The Chief Patient Officer proposes an informational campaign for patients and doctors. What would 2021 revenue be with and without it?",
+   "release_when": "Introduce the proposal after brainstorming. Immediately release improvements and cost; patient counts and margin only when asked.",
+   "info_to_release": "Campaign cost $300 million. Adherence increases by 5 percentage points across both groups (40% to 45% for existing patients and 60% to 65% for new patients). Persistence increases by 10 percentage points, from 50% to 60%. On request: 3,750 existing patients at the start of 2021; 4,000 new patients, all acquired at the start of the year for simplicity; product margin 80%. Average beginning- and end-year counts. The source encourages rounding the baseline existing-patient average down from 2,812.5 to 2,800.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Without the campaign, existing patients end at 1,875 and average 2,812.5, giving $562.5 million revenue; new patients end at 2,000 and average 3,000, giving $900 million. Exact baseline is $1.4625 billion. With the authorized rounding, existing revenue is $560 million and baseline $1.46 billion. With the campaign, existing patients end at 2,250, average 3,000 and yield $675 million; new patients end at 2,400, average 3,200 and yield $1.04 billion. Total is $1.715 billion.",
+   "good_answer_signals": [
+    "Keeps existing and new cohorts separate.",
+    "Applies percentage-point, not relative-percent, improvements.",
+    "Uses average in-year counts rather than only beginning or ending counts."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "Is the campaign financially worthwhile based on the projected 2021 impact?",
+   "release_when": "After the two revenue scenarios are computed; release 80% product margin if the candidate has not already requested it.",
+   "info_to_release": "Product margin is 80%; campaign costs $300 million. No quantified later-year benefits or root-cause research are available.",
+   "exhibit_ids": [],
+   "expected_answer": "Using exact cohort averages, revenue rises $252.5 million, or 17.265%; margin benefit is $202 million and net after campaign cost is negative $98 million. Using the book's authorized baseline rounding, uplift is $255 million, or 17.466%; contribution benefit is $204 million and net is negative $96 million. The book loosely calls the revenue increase nearly 20%; neither approach makes the campaign break even in the first year. Better persistence could create later benefits, but their magnitude is not supplied.",
+   "good_answer_signals": [
+    "Applies margin to incremental revenue, not all revenue.",
+    "Subtracts campaign cost rather than calling the gross benefit profit.",
+    "Separates first-year economics from unquantified longer-term upside."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is causing the slowdown, and what should Foci do?",
+   "release_when": "After interpreting campaign economics.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Low adherence and persistence erode revenue from patient cohorts despite steady acquisition. The $300 million campaign does not pay back in 2021: exact net impact is negative $98 million, or negative $96 million using the book's permitted rounding. Either a conditional go based on patient and longer-term benefits or a no-go on current economics can be defended. Validate the forecast and the actual causes before committing; without those, campaign content may be ineffective. Explore alternative interventions and use of funds, including other indications or new drugs, then define an evidence-based rollout.",
+   "good_answer_signals": [
+    "Answers both diagnosis and action questions.",
+    "Does not invent a quantified health or multiyear benefit.",
+    "Acknowledges the large upfront cost and uncertain campaign mechanism."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Foci Pharma Annual Revenue and New Patients",
+   "page": 270,
+   "kind": "bar",
+   "description": "Annual revenue in USD billions and new patients acquired in each year. These are supplied historical inputs, not candidate-calculated results.",
+   "data": {
+    "columns": [
+     "Year",
+     "Annual revenue (USD billions)",
+     "New patients"
+    ],
+    "rows": [
+     [
+      2017,
+      0.9,
+      4000
+     ],
+     [
+      2018,
+      1.2,
+      4000
+     ],
+     [
+      2019,
+      1.35,
+      4000
+     ],
+     [
+      2020,
+      1.425,
+      4000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-take-your-pills/p270.webp",
+   "image_has_answers": false,
+   "key_insight": "Revenue increments shrink even as new-patient acquisition remains constant.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Patient Adherence and Annual Persistence",
+   "page": 271,
+   "kind": "bar",
+   "description": "Adherence and persistence by years since starting treatment: first-year new patients versus existing patients in their second or later year.",
+   "data": {
+    "columns": [
+     "Patient group",
+     "Adherence (%)",
+     "Annual persistence (%)"
+    ],
+    "rows": [
+     [
+      "1 year: new patients",
+      60,
+      50
+     ],
+     [
+      "2+ years: existing patients",
+      40,
+      50
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-take-your-pills/p271.webp",
+   "image_has_answers": false,
+   "key_insight": "Half of each cohort discontinues annually, and existing patients take fewer scheduled doses than new patients.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What revenue corresponds to one daily pill?",
+   "givens": [
+    "$500,000 full-year treatment price",
+    "Daily dosing",
+    "365-day year used as an explicit calendar convention"
+   ],
+   "steps": [
+    "Revenue per daily dose = 500,000 / 365 = $1,369.8630."
+   ],
+   "answer": "Approximately $1,370, consistent with the source's statement of more than $1,000 per missed pill under its purchase assumption.",
+   "answer_value": 1369.86301369863,
+   "unit": "USD/daily dose",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is baseline 2021 revenue without the campaign?",
+   "givens": [
+    "3,750 existing and 4,000 new patients at beginning of year",
+    "50% annual persistence for both",
+    "40% existing and 60% new adherence",
+    "$500,000 annual price",
+    "Average beginning/end counts; source explicitly permits rounding existing average to 2,800"
+   ],
+   "steps": [
+    "Existing end count = 3,750 × 50% = 1,875; average = (3,750 + 1,875) / 2 = 2,812.5.",
+    "Existing exact revenue = 2,812.5 × 40% × 500,000 = $562,500,000.",
+    "New end count = 4,000 × 50% = 2,000; average = 3,000; revenue = 3,000 × 60% × 500,000 = $900,000,000.",
+    "Exact total = $1,462,500,000.",
+    "Authorized rounded existing revenue = 2,800 × 40% × 500,000 = $560,000,000; rounded total = $1,460,000,000."
+   ],
+   "answer": "$1.4625 billion exact; $1.46 billion under the book's explicitly permitted rounding.",
+   "answer_value": 1462500000,
+   "unit": "USD in 2021",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is 2021 revenue with the campaign?",
+   "givens": [
+    "Same beginning counts: 3,750 existing and 4,000 new",
+    "60% persistence for both groups",
+    "45% existing and 65% new adherence",
+    "$500,000 annual price"
+   ],
+   "steps": [
+    "Existing end count = 3,750 × 60% = 2,250; average = (3,750 + 2,250) / 2 = 3,000.",
+    "Existing revenue = 3,000 × 45% × 500,000 = $675,000,000.",
+    "New end count = 4,000 × 60% = 2,400; average = (4,000 + 2,400) / 2 = 3,200.",
+    "New revenue = 3,200 × 65% × 500,000 = $1,040,000,000.",
+    "Total = 675,000,000 + 1,040,000,000 = $1,715,000,000."
+   ],
+   "answer": "$1.715 billion revenue in 2021 with the campaign.",
+   "answer_value": 1715000000,
+   "unit": "USD in 2021",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is incremental first-year benefit after margin and campaign cost?",
+   "givens": [
+    "Exact baseline $1.4625 billion; authorized rounded baseline $1.46 billion",
+    "Campaign revenue $1.715 billion",
+    "80% product margin",
+    "$300 million campaign cost"
+   ],
+   "steps": [
+    "Exact revenue uplift = 1,715 − 1,462.5 = $252.5 million; growth = 252.5 / 1,462.5 = 17.265%.",
+    "Exact contribution benefit = 252.5 × 80% = $202 million; net = 202 − 300 = −$98 million.",
+    "Using the permitted rounded baseline: revenue uplift = $255 million; growth = 255 / 1,460 = 17.466%.",
+    "Rounded contribution benefit = 255 × 80% = $204 million, matching the source; net = 204 − 300 = −$96 million."
+   ],
+   "answer": "Negative $98 million exact first-year net impact, or negative $96 million with authorized rounding. Neither breaks even.",
+   "answer_value": -98000000,
+   "unit": "USD incremental net impact in 2021",
+   "verified": true
+  }
+ ],
+ "synthesis": "The slowdown stems from low patient adherence and persistence, not price reductions or fewer new patient starts. The proposed campaign raises modeled 2021 revenue to $1.715 billion but does not cover its $300 million cost: exact incremental net impact is negative $98 million, or negative $96 million under the source's authorized rounding. A supported recommendation can go either way if it clearly distinguishes first-year economics from potential longer-term and patient benefits. Validate the actual barriers and forecast before committing, compare alternative interventions and investments, and build a rollout plan only once the campaign content addresses demonstrated causes.",
+ "what_great_looks_like": [
+  "Drives both diagnosis and solution without losing the main objectives.",
+  "Uses a case-specific revenue tree for a monopolistic daily-treatment drug.",
+  "Keeps new and existing cohorts, persistence and adherence organized.",
+  "Recognizes that first-year economics do not quantify all future or patient benefits.",
+  "Questions campaign content when actual causes are unknown."
+ ],
+ "common_pitfalls": [
+  "Confusing persistence with daily adherence.",
+  "Treating a 5-point increase as a 5% relative increase.",
+  "Applying new-patient adherence to existing patients.",
+  "Using only year-end patients rather than the specified annual average.",
+  "Comparing revenue uplift directly with campaign cost without applying margin.",
+  "Claiming unquantified later benefits prove a positive return."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All math agrees once the source's explicit rounding of baseline average existing patients from 2,812.5 to 2,800 is honored. Exact baseline is $1.4625 billion versus rounded $1.46 billion; exact benefit is $202 million versus rounded $204 million, and net campaign impact is negative $98 million versus negative $96 million. These are permitted rounding differences, not book errors. The source's nearly 20% growth statement is loose rounding of 17.466% on its rounded baseline; exact growth is 17.265%. Improvements are percentage points as the source examples make clear. Per-pill illustration explicitly assumes a 365-day year. Historical and forecast results use the case's simplifying average-patient and missed-pill-purchase model, not an external clinical or legal claim. No root cause or quantified multiyear benefit is supplied. Candidate exhibit pages 270/271 are used instead of guidance pages 264/265. Difficulty uses max(9,7), Python round(9/2) = 4. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework",
+   "math[0].givens (365-day calendar convention)",
+   "common_pitfalls"
+  ]
+ }
+}

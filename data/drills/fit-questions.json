@@ -1,0 +1,692 @@
+{
+  "competencies": [
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "blurb": "Whether you set direction, mobilized people without relying on title, and owned the outcome."
+    },
+    {
+      "id": "teamwork",
+      "label": "Teamwork & Inclusion",
+      "blurb": "How you build on others' ideas, bring quieter or different voices in, and make the whole team better."
+    },
+    {
+      "id": "drive",
+      "label": "Impact & Drive",
+      "blurb": "Whether you set ambitious goals and kept pushing through obstacles to deliver measurable results."
+    },
+    {
+      "id": "resilience",
+      "label": "Overcoming a Challenge",
+      "blurb": "How you respond when things go wrong: composure, adaptability, and persistence under pressure."
+    },
+    {
+      "id": "failure",
+      "label": "Failure & Learning",
+      "blurb": "Whether you own mistakes honestly, extract real lessons, and show changed behavior afterward."
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict & Difficult People",
+      "blurb": "How you handle disagreement with empathy and directness while preserving the relationship and the goal."
+    },
+    {
+      "id": "influence",
+      "label": "Persuasion & Influence",
+      "blurb": "How you changed someone's mind or a group's direction, especially without formal authority."
+    },
+    {
+      "id": "analytical",
+      "label": "Analytical Problem Solving",
+      "blurb": "How you broke down an ambiguous problem, used data and judgment, and reached a sound recommendation."
+    },
+    {
+      "id": "integrity",
+      "label": "Ethics & Integrity",
+      "blurb": "Whether you do the right thing when it is costly, uncomfortable, or unobserved."
+    },
+    {
+      "id": "initiative",
+      "label": "Entrepreneurial Initiative",
+      "blurb": "Whether you spot opportunities no one asked you to pursue and build something from nothing."
+    }
+  ],
+  "firm_frameworks": [
+    {
+      "firm": "McKinsey",
+      "name": "Personal Experience Interview (PEI)",
+      "dimensions": [
+        "Personal impact",
+        "Entrepreneurial drive",
+        "Inclusive leadership",
+        "Courageous change"
+      ],
+      "note": "Each interview typically goes deep on one story tied to one dimension, with the interviewer probing your specific actions, reasoning and others' reactions for 10-15 minutes. McKinsey advises preparing two examples per dimension and focusing on your specific role and key actions.",
+      "source": "https://www.mckinsey.com/careers/our-roles/tech-and-ai/client-facing-roles (also https://www.mckinsey.com/careers/interviewing/fr-CA)"
+    },
+    {
+      "firm": "BCG",
+      "name": "Behavioral / fit questions within case interviews",
+      "dimensions": [
+        "Integrity",
+        "Intellectual curiosity",
+        "Creative thinking",
+        "Collaborative mindset",
+        "Drive"
+      ],
+      "note": "BCG says it reviews responses against its values and core competencies; behavioral questions usually open or close case interviews and explore your experience, skills and motivation for joining BCG. Relate answers back to the job.",
+      "source": "https://careers.bcg.com/global/en/interview-process"
+    },
+    {
+      "firm": "Bain",
+      "name": "Experience / behavioral interview",
+      "dimensions": [
+        "Past experience (personal, academic, professional)",
+        "Curiosity and entrepreneurial mindset",
+        "Why Bain specifically",
+        "Fit with Bain's operating principles and the role"
+      ],
+      "note": "Bain describes behavioral questions as a conversational chat with future colleagues, sometimes a dedicated interview and sometimes woven into case rounds; no fixed named dimensions are published, so expect broad fit, team orientation and 'why Bain' probing.",
+      "source": "https://www.bain.com/careers/hiring-process/interviewing/"
+    }
+  ],
+  "questions": [
+    {
+      "id": "tmay",
+      "q": "Tell me about yourself.",
+      "competencies": [
+        "drive"
+      ],
+      "type": "resume",
+      "follow_ups": [
+        "What thread connects your career moves?",
+        "Which experience are you proudest of?",
+        "What would your last manager say about you?"
+      ],
+      "tip": "Keep it to 90 seconds: past, pivot, present, and why you are in this room."
+    },
+    {
+      "id": "walk-resume",
+      "q": "Walk me through your resume, focusing on the decisions you made.",
+      "competencies": [
+        "drive",
+        "initiative"
+      ],
+      "type": "resume",
+      "follow_ups": [
+        "Why did you leave that role when you did?",
+        "What did you learn there that you could not have learned elsewhere?",
+        "What would you do differently?"
+      ],
+      "tip": "Narrate choices, not job descriptions; each transition should have a clear 'why'."
+    },
+    {
+      "id": "why-consulting",
+      "q": "Why consulting, and why now?",
+      "competencies": [
+        "drive"
+      ],
+      "type": "motivation",
+      "follow_ups": [
+        "What else are you considering?",
+        "What do you think you will dislike about the job?",
+        "How do you know consulting fits your working style?"
+      ],
+      "tip": "Anchor in something concrete from your past work, not generic 'learning curve' language."
+    },
+    {
+      "id": "why-firm",
+      "q": "Why this firm rather than its peers?",
+      "competencies": [
+        "teamwork"
+      ],
+      "type": "motivation",
+      "follow_ups": [
+        "Who have you spoken with here?",
+        "What surprised you in those conversations?",
+        "If you got offers from all three, how would you decide?"
+      ],
+      "tip": "Cite specific people and specific moments; generic culture claims sound interchangeable."
+    },
+    {
+      "id": "why-mba",
+      "q": "Why did you decide to pursue an MBA, and why at this point in your career?",
+      "competencies": [
+        "drive"
+      ],
+      "type": "motivation",
+      "follow_ups": [
+        "What gap were you trying to close?",
+        "What have you done so far to close it?",
+        "What would you have done without the MBA?"
+      ],
+      "tip": "Show a deliberate decision, then link it to the consulting goal."
+    },
+    {
+      "id": "strengths",
+      "q": "What are your greatest strengths? Give me evidence for one.",
+      "competencies": [
+        "drive"
+      ],
+      "type": "resume",
+      "follow_ups": [
+        "How would a peer describe that strength?",
+        "When has that strength backfired?",
+        "How will it show up on a client team?"
+      ],
+      "tip": "Name two or three, then prove one with a quick story."
+    },
+    {
+      "id": "weakness",
+      "q": "What is a genuine development area for you, and what are you doing about it?",
+      "competencies": [
+        "failure"
+      ],
+      "type": "resume",
+      "follow_ups": [
+        "When did it last cost you something?",
+        "How do you measure progress?",
+        "What feedback prompted you to notice it?"
+      ],
+      "tip": "Pick a real, non-disqualifying weakness and show active, recent steps to fix it."
+    },
+    {
+      "id": "why-tech",
+      "q": "Why are you interested in product or tech roles?",
+      "competencies": [
+        "initiative"
+      ],
+      "type": "motivation",
+      "follow_ups": [
+        "What product do you admire and why?",
+        "How would you improve it?",
+        "Why not stay in consulting long term?"
+      ],
+      "tip": "Tie interest to a product you actually built or shipped, and show user empathy."
+    },
+    {
+      "id": "tech-product-launch",
+      "q": "Tell me about a product or feature you took from idea to launch.",
+      "competencies": [
+        "initiative",
+        "analytical"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you decide what to cut from scope?",
+        "What metric told you it worked?",
+        "What did engineering push back on?"
+      ],
+      "tip": "Separate what you decided from what the team built; quantify adoption or impact."
+    },
+    {
+      "id": "lead-direction",
+      "q": "Tell me about a time you had to change a group's direction.",
+      "competencies": [
+        "leadership",
+        "influence"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you know the group was on the wrong path?",
+        "Who resisted most and why?",
+        "What did you say in the key conversation?"
+      ],
+      "tip": "PEI-style: expect the interviewer to zoom in on one conversation, so remember specifics."
+    },
+    {
+      "id": "lead-no-authority",
+      "q": "Describe a time you led a team where you had no formal authority.",
+      "competencies": [
+        "leadership",
+        "influence"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you get people to commit?",
+        "What happened when someone did not deliver?",
+        "What would the team say about your role?"
+      ],
+      "tip": "Emphasize how you earned buy-in, not the title you lacked."
+    },
+    {
+      "id": "lead-develop",
+      "q": "Tell me about a time you developed someone else's capabilities.",
+      "competencies": [
+        "leadership",
+        "teamwork"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you diagnose what they needed?",
+        "What feedback did you give that was hard to hear?",
+        "Where are they now?"
+      ],
+      "tip": "Show patience and specific coaching actions, and the person's outcome."
+    },
+    {
+      "id": "lead-crisis",
+      "q": "Tell me about a time you had to take charge when things were falling apart.",
+      "competencies": [
+        "leadership",
+        "resilience"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What did you do in the first hour?",
+        "What did you delegate and why?",
+        "How did you keep people calm?"
+      ],
+      "tip": "Show structure under pressure: triage, clear roles, communication."
+    },
+    {
+      "id": "team-inclusion",
+      "q": "Tell me about a time you brought out the best in a diverse team.",
+      "competencies": [
+        "teamwork",
+        "leadership"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you notice someone was not contributing?",
+        "What did you change in how the team worked?",
+        "What was the result?"
+      ],
+      "tip": "McKinsey frames this as inclusive leadership; show concrete actions that drew in different voices."
+    },
+    {
+      "id": "team-difficult-member",
+      "q": "Describe working with a teammate who was not pulling their weight.",
+      "competencies": [
+        "teamwork",
+        "conflict"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What did you assume at first and were you right?",
+        "How did you raise it?",
+        "How did the relationship end up?"
+      ],
+      "tip": "Seek to understand before judging; avoid blaming the teammate."
+    },
+    {
+      "id": "team-sacrifice",
+      "q": "Tell me about a time you put the team's success ahead of your own.",
+      "competencies": [
+        "teamwork"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What did it cost you?",
+        "Did anyone notice?",
+        "Would you do it again?"
+      ],
+      "tip": "Make the trade-off real and the team outcome specific."
+    },
+    {
+      "id": "team-perspective",
+      "q": "Tell me about a time a teammate's perspective changed your approach.",
+      "competencies": [
+        "teamwork",
+        "failure"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Why did you initially disagree?",
+        "What convinced you?",
+        "How did you give them credit?"
+      ],
+      "tip": "Shows openness; name what you changed specifically."
+    },
+    {
+      "id": "drive-goal",
+      "q": "Tell me about your most significant accomplishment.",
+      "competencies": [
+        "drive"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Why was it hard?",
+        "What would have happened without you?",
+        "How do you know it mattered?"
+      ],
+      "tip": "Pick the story with the clearest personal impact, not the biggest team result."
+    },
+    {
+      "id": "drive-ambitious",
+      "q": "Tell me about a time you set a goal others thought was unrealistic.",
+      "competencies": [
+        "drive",
+        "initiative"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Why did you set it that high?",
+        "When did you nearly give up?",
+        "What did you hit versus plan?"
+      ],
+      "tip": "Quantify the gap between baseline, target and outcome."
+    },
+    {
+      "id": "drive-impact",
+      "q": "Tell me about a time you made a significant impact on an organization.",
+      "competencies": [
+        "drive",
+        "influence"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you measure it?",
+        "Who else could claim credit?",
+        "Is the change still in place?"
+      ],
+      "tip": "Personal impact dimension: be explicit about what you, not we, did."
+    },
+    {
+      "id": "resil-setback",
+      "q": "Tell me about a time you faced a major setback. How did you respond?",
+      "competencies": [
+        "resilience"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you feel in the moment?",
+        "What was your first move?",
+        "What support did you seek?"
+      ],
+      "tip": "Show emotional honesty plus a concrete recovery plan."
+    },
+    {
+      "id": "resil-ambiguity",
+      "q": "Describe a time you had to deliver with very little information or guidance.",
+      "competencies": [
+        "resilience",
+        "analytical"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you decide where to start?",
+        "What assumptions did you make?",
+        "How did you validate them?"
+      ],
+      "tip": "Show a structured approach to ambiguity, mirroring how you work on a case."
+    },
+    {
+      "id": "resil-pressure",
+      "q": "Tell me about a time you juggled competing high-stakes priorities.",
+      "competencies": [
+        "resilience",
+        "drive"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you prioritize?",
+        "What did you drop and who did you tell?",
+        "What would you do differently?"
+      ],
+      "tip": "Name the explicit prioritization logic and how you communicated trade-offs."
+    },
+    {
+      "id": "fail-mistake",
+      "q": "Tell me about a time you failed.",
+      "competencies": [
+        "failure"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What was your specific role in the failure?",
+        "What did you do right after?",
+        "Where have you applied the lesson since?"
+      ],
+      "tip": "Pick a real failure you caused; the reflection and later application matter most."
+    },
+    {
+      "id": "fail-feedback",
+      "q": "Tell me about the toughest feedback you have received.",
+      "competencies": [
+        "failure",
+        "resilience"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Did you agree at first?",
+        "What did you change?",
+        "How did the person see you afterward?"
+      ],
+      "tip": "Show you took it seriously and changed observable behavior."
+    },
+    {
+      "id": "fail-wrong-call",
+      "q": "Describe a decision you made that turned out to be wrong.",
+      "competencies": [
+        "failure",
+        "analytical"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What information did you have at the time?",
+        "Was it a bad decision or a bad outcome?",
+        "How do you decide differently now?"
+      ],
+      "tip": "Distinguish decision quality from outcome; show updated judgment."
+    },
+    {
+      "id": "conflict-manager",
+      "q": "Tell me about a time you disagreed with your manager or a senior stakeholder.",
+      "competencies": [
+        "conflict",
+        "influence"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you raise it?",
+        "What did you do when they did not agree?",
+        "What was the outcome?"
+      ],
+      "tip": "Show respectful directness and willingness to commit once a decision is made."
+    },
+    {
+      "id": "conflict-client",
+      "q": "Describe a time you dealt with a difficult client or customer.",
+      "competencies": [
+        "conflict",
+        "resilience"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What was really driving their behavior?",
+        "What did you concede and what did you hold firm on?",
+        "How did the relationship end up?"
+      ],
+      "tip": "Diagnose the underlying interest; consulting interviewers love this for client readiness."
+    },
+    {
+      "id": "conflict-peers",
+      "q": "Tell me about a time you resolved a conflict between two other people.",
+      "competencies": [
+        "conflict",
+        "teamwork",
+        "leadership"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you get involved?",
+        "What did each side want?",
+        "How did you stay neutral?"
+      ],
+      "tip": "Show facilitation: separating positions from interests."
+    },
+    {
+      "id": "influence-skeptic",
+      "q": "Tell me about a time you persuaded a skeptical audience.",
+      "competencies": [
+        "influence"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What was their main objection?",
+        "How did you tailor your argument?",
+        "What did you do when data was not enough?"
+      ],
+      "tip": "Show you adapted to the audience, not just repeated your case louder."
+    },
+    {
+      "id": "influence-senior",
+      "q": "Describe a time you convinced someone much more senior to change course.",
+      "competencies": [
+        "influence",
+        "leadership"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you get time with them?",
+        "What was the pivotal moment?",
+        "What was the risk to you?"
+      ],
+      "tip": "Courageous change: show you took a personal risk and managed it smartly."
+    },
+    {
+      "id": "influence-change",
+      "q": "Tell me about a time you drove change people resisted.",
+      "competencies": [
+        "influence",
+        "initiative"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Why did people resist?",
+        "Who did you win over first?",
+        "How did you make it stick?"
+      ],
+      "tip": "Maps to McKinsey's courageous change; show a sequence of actions over time."
+    },
+    {
+      "id": "analytic-complex",
+      "q": "Tell me about the most complex problem you have solved.",
+      "competencies": [
+        "analytical"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you structure it?",
+        "What data was missing and how did you handle that?",
+        "How did you communicate the answer?"
+      ],
+      "tip": "Walk through your structure explicitly; this is a mini-case in story form."
+    },
+    {
+      "id": "analytic-quick",
+      "q": "Tell me about a time you had to make a decision quickly with incomplete data.",
+      "competencies": [
+        "analytical",
+        "resilience"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What was the cost of waiting?",
+        "What did you do to limit downside?",
+        "How did it turn out?"
+      ],
+      "tip": "Show judgment and risk mitigation, not recklessness."
+    },
+    {
+      "id": "analytic-insight",
+      "q": "Tell me about an insight you found that others had missed.",
+      "competencies": [
+        "analytical",
+        "initiative"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "How did you spot it?",
+        "Why had others missed it?",
+        "What action did it lead to?"
+      ],
+      "tip": "Tie the insight to a concrete business decision and outcome."
+    },
+    {
+      "id": "ethics-pressure",
+      "q": "Tell me about a time you were pressured to do something you felt was wrong.",
+      "competencies": [
+        "integrity",
+        "conflict"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Who applied the pressure?",
+        "What did you say?",
+        "What were the consequences for you?"
+      ],
+      "tip": "Show calm firmness and a clear escalation path; a story from a controls, audit or compliance setting works well."
+    },
+    {
+      "id": "ethics-owned",
+      "q": "Describe a time you had to deliver bad news or admit an error to a client or manager.",
+      "competencies": [
+        "integrity",
+        "failure"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Why not just fix it quietly?",
+        "How did they react?",
+        "What happened to trust afterward?"
+      ],
+      "tip": "Show you surfaced it early and came with a fix."
+    },
+    {
+      "id": "ethics-grey",
+      "q": "Tell me about a time the right thing to do was not clear-cut.",
+      "competencies": [
+        "integrity",
+        "analytical"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "What options did you consider?",
+        "Who did you consult?",
+        "Would you decide the same today?"
+      ],
+      "tip": "Show a principled reasoning process rather than a tidy answer."
+    },
+    {
+      "id": "init-built",
+      "q": "Tell me about something you started from scratch.",
+      "competencies": [
+        "initiative",
+        "drive"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Why did no one do it before?",
+        "How did you get resources?",
+        "What happened after you left?"
+      ],
+      "tip": "Entrepreneurial drive: stress that you spotted the gap unprompted and owned it end to end."
+    },
+    {
+      "id": "init-beyond-role",
+      "q": "Describe a time you went well beyond your job description.",
+      "competencies": [
+        "initiative",
+        "drive"
+      ],
+      "type": "story",
+      "follow_ups": [
+        "Why did you take it on?",
+        "What did you deprioritize?",
+        "How was it recognized?"
+      ],
+      "tip": "Show judgment about when stepping beyond scope was worth it."
+    }
+  ],
+  "star_guide": [
+    "Situation and task in 20-30 seconds: just enough context (who, what, stakes) for the interviewer to follow.",
+    "Spend about 60% of the time on your actions: say 'I', name specific steps, conversations and decisions, and why you chose them.",
+    "Surface the obstacle or tension early so the story has stakes; interviewers remember conflict and turning points.",
+    "Quantify the result (%, $, time, people) and say what would have happened without you.",
+    "Close with a one-line reflection: what you learned and how you have applied it since.",
+    "Aim for about 2 minutes on the first pass, then let the interviewer steer; PEI follow-ups can go 10-15 minutes deep on one story.",
+    "Prepare 8-10 flexible stories mapped across competencies, with at least two per McKinsey PEI dimension, and keep details (names, numbers, dialogue) memorable but not scripted."
+  ]
+}

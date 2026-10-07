@@ -1,0 +1,389 @@
+{
+ "id": "fuqua-2023-activist-action",
+ "title": "Activist Action",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  168,
+  176
+ ],
+ "case_type": [
+  "Other",
+  "Cost Reduction/Operations",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Decision Analysis",
+ "industry": "cpg",
+ "industry_source_label": "Consumer Goods",
+ "geography": "Approximately 70 countries, with a large North American business",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Difficult; Qualitative: Difficult",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "activist-investor",
+  "shareholder-value",
+  "divestiture",
+  "npv",
+  "outsourcing",
+  "ebitda-multiple",
+  "time-horizon"
+ ],
+ "prompt": "Your client is a large CPG company with multiple business units including snacks, beauty, and home cleaning products. Your client is under pressure from a high-profile activist investor that has built a 7% stake in the company. The client has asked you to help predict the new investor's likely demands that could increase stock price or company performance. What are your ideas to deliver short-term and long-term value back to the shareholder?",
+ "clarifying_info": [
+  {
+   "question_topic": "Activist investor",
+   "answer": "An individual or group buying substantial shares and/or seeking board seats to cause major change, benefiting from stock-price gains or dividends. This investor likely influences the board and cannot be ignored; likely horizon is 1–2 years."
+  },
+  {
+   "question_topic": "Company scale",
+   "answer": "Large North American business and operations in about 70 countries. Revenue: snacks $19B, beauty $31B, home $29B. EBITDA $24B."
+  },
+  {
+   "question_topic": "Target",
+   "answer": "The book gives a $10B target, initially called savings and later treated as cash value returned to shareholders."
+  }
+ ],
+ "interviewer_notes": "Use interviewer guidance, with less direction for advanced candidates. Test both investor and company perspectives: quick stock-price improvement versus durable operating success. Evaluate supply restructuring, then outsourcing, then divestiture. Encourage approximate NPV interpretation rather than lengthy discounting. The supply project has positive value but benefits arrive too late for the activist. For valuation, provide 3.5x FV/EBITDA on request; redirect a perpetuity valuation to this multiple. Do not equate one-off sale value with recurring savings. The final slide says $10.8B for Silky Sweets, but inputs and the preceding solution give $10.5B.",
+ "suggested_framework": {
+  "summary": "Balance immediate shareholder value with long-term operating health and executable options.",
+  "tree": {
+   "label": "Respond to activist pressure",
+   "children": [
+    {
+     "label": "Short-term value",
+     "children": [
+      {
+       "label": "Divest a business, brand or geography"
+      },
+      {
+       "label": "Delayer the organization or close plants where justified"
+      },
+      {
+       "label": "Assess cash generation and potential shareholder returns"
+      }
+     ]
+    },
+    {
+     "label": "Long-term value",
+     "children": [
+      {
+       "label": "Restructure product supply"
+      },
+      {
+       "label": "Evaluate lower-cost sourcing without weakening innovation or customers"
+      }
+     ]
+    },
+    {
+     "label": "Execution and alignment",
+     "children": [
+      {
+       "label": "Timing, NPV and feasibility"
+      },
+      {
+       "label": "Board/activist communication and strategic fit"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What demands might the activist make, and how can the client create short- and long-term value?",
+   "release_when": "After the prompt, with scope, financials and target available on request.",
+   "expected_answer": "Consider near-term divestiture, delayering and plant closures, alongside longer-term supply restructuring and sourcing changes. Evaluate timing and operating consequences: an activist focused on 1–2 years may seek actions management rejects because of longer-term damage. Align with the board and activist rather than ignoring a 7% shareholder.",
+   "good_answer_signals": [
+    "Separates short-term shareholder returns from long-term business health."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Manufacturing has proposed supply-chain restructuring. Is it viable for both the activist and client?",
+   "release_when": "Show Exhibit 1 after the initial discussion. Allow approximate analysis; the reference calculation assumes 10% discount rate with 2016 as time zero.",
+   "info_to_release": "2016–2021 costs in $M: 500/2000/2500/700/200/0. Savings: 0/0/1000/1500/7500/15000. Depreciation and working-capital effects are included. Reference discount rate 10%.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Net cash flows are −$500M, −$2000M, −$1500M, +$800M, +$7300M and +$15000M. NPV is about $11.343B, so the project may create long-term value. However, meaningful savings arrive too late for a 1–2-year activist horizon; use this as a secondary long-term strategy and seek a near-term action.",
+   "good_answer_signals": [
+    "Does not mistake positive NPV for satisfaction of the investor's timing needs."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "Other companies moved functions to lower-cost countries such as India, China or Brazil. Could these options meet the snacks business's needs?",
+   "release_when": "After rejecting supply restructuring as the immediate activist response; show Exhibit 2.",
+   "info_to_release": "Projected savings NPV: marketing $8.2B, R&D $12.3B, manufacturing $21.7B and sales $3.6B.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Do not select the largest theoretical savings without testing feasibility. The book argues that marketing/R&D support innovation and North American market knowledge, and raises talent-access concerns; treat these as diligence questions, not universal claims about countries. Long-distance snack shipping is inefficient, outsourcing may affect brand trust, and manufacturing changes take time. Sales teams must serve major local customers such as Walmart, Target and Kroger, with relatively low savings. These broad moves risk long-term operations and do not provide a convincing immediate solution.",
+   "good_answer_signals": [
+    "Uses operational and customer requirements to challenge financial projections."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Value the non-core brands that might be divested. What additional information do you need?",
+   "release_when": "After recognizing that other savings are needed. Provide the comparable multiple when asked; redirect a C/(r−g) approach to the multiple.",
+   "info_to_release": "Exhibit 3 contains regional brand revenue, five-year CAGR and EBITDA margins. Comparable firms trade at FV/EBITDA = 3.5x. Target cash value is $10B.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Sum regional revenues and multiply by margin and 3.5x. Values: Beauty by Gina $20.825B, Jose's Chips $4.83B, Tina's Hair Brand $7.875B, Silky Sweets $10.5B, Clearly Clean $13.86B. Silky meets the target at low 2% growth, preserving faster-growing businesses. Beauty also has low growth (−1%) and exceeds the target, so the exhibit does not uniquely prove Silky is optimal; discuss strategic fit and the scope of divestiture. The source's preferred choice is Silky.",
+   "good_answer_signals": [
+    "Requests the multiple, distinguishes revenue from EBITDA and considers growth sacrificed.",
+    "Recognizes additional diligence is needed to choose among feasible divestitures."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What course of action should the client take?",
+   "expected_answer": "Prepare to divest Silky Sweets, with indicative value $10.5B, to meet the $10B cash target while limiting disruption to other brands. This is sale value, not recurring operating savings. Validate net cash proceeds and strategic fit, and communicate immediately with the activist to align goals. Keep supply restructuring as a longer-term option and assess selective delayering. Risks are market-dependent sale prices, uncertain stock response and differing activist demands. Identify buyers with financial advisers and conduct sale diligence.",
+   "good_answer_signals": [
+    "Connects cash timing and strategic consequences, and corrects the final-slide valuation typo."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Supply-chain restructuring",
+   "page": 170,
+   "kind": "line",
+   "description": "Cost and savings schedule in USD millions; depreciation and working-capital effects included. The image also plots calculated discounted cash flow, so it is marked as containing answers; the data table holds only inputs.",
+   "data": {
+    "columns": [
+     "Year",
+     "Cost ($M)",
+     "Savings ($M)"
+    ],
+    "rows": [
+     [
+      2016,
+      500,
+      0
+     ],
+     [
+      2017,
+      2000,
+      0
+     ],
+     [
+      2018,
+      2500,
+      1000
+     ],
+     [
+      2019,
+      700,
+      1500
+     ],
+     [
+      2020,
+      200,
+      7500
+     ],
+     [
+      2021,
+      0,
+      15000
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-activist-action/p170.webp",
+   "image_has_answers": true,
+   "key_insight": "Positive long-run value does not solve the activist's near-term objective.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Projected outsourcing savings NPVs",
+   "page": 172,
+   "kind": "table",
+   "description": "Supplied estimates of savings NPVs, not calculations the candidate must reproduce; feasibility is the issue.",
+   "data": {
+    "columns": [
+     "Function",
+     "Projected savings NPV ($B)"
+    ],
+    "rows": [
+     [
+      "Marketing",
+      8.2
+     ],
+     [
+      "R&D",
+      12.3
+     ],
+     [
+      "Manufacturing",
+      21.7
+     ],
+     [
+      "Sales",
+      3.6
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-activist-action/p172.webp",
+   "key_insight": "Large projected savings can be unattractive once operating capability, logistics and customer proximity are considered.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Potential divestiture brands",
+   "page": 174,
+   "kind": "table",
+   "description": "Regional revenue in $B, brand growth and EBITDA margin. The separate printed regional CAGRs are NA 2%, LA 4%, Asia 11%, Europe 1%; an overall 3.6% is also supplied, with no underlying derivation.",
+   "data": {
+    "columns": [
+     "Brand",
+     "NA revenue ($B)",
+     "LA revenue ($B)",
+     "Asia revenue ($B)",
+     "Europe revenue ($B)",
+     "5-year CAGR (%)",
+     "EBITDA margin (%)"
+    ],
+    "rows": [
+     [
+      "Beauty by Gina",
+      8,
+      5,
+      1,
+      3,
+      -1,
+      35
+     ],
+     [
+      "Jose's Chips",
+      2,
+      3,
+      0,
+      1,
+      12,
+      23
+     ],
+     [
+      "Tina's Hair Brand",
+      1,
+      3,
+      2,
+      3,
+      10,
+      25
+     ],
+     [
+      "Silky Sweets",
+      5,
+      1,
+      3,
+      3,
+      2,
+      25
+     ],
+     [
+      "Clearly Clean",
+      7,
+      1,
+      2,
+      1,
+      5,
+      36
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-activist-action/p174.webp",
+   "key_insight": "Silky Sweets is a low-growth candidate whose indicative sale value exceeds $10B, though Beauty by Gina also warrants consideration.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the restructuring project's NPV?",
+   "givens": [
+    "Exhibit 1 cost and saving schedules",
+    "10% discount rate in the reference solution",
+    "2016 time zero, 2021 year five"
+   ],
+   "steps": [
+    "Savings minus costs = −500, −2000, −1500, 800, 7300, 15000 ($M).",
+    "Discount each by 1.1^t for t=0..5: approximately −500, −1818.182, −1239.669, 601.052, 4985.998, 9313.820 ($M).",
+    "Sum gives approximately $11,343.019M."
+   ],
+   "answer": "Approximately $11.343B positive NPV, but most benefits arrive after the activist's 1–2-year horizon.",
+   "answer_value": 11343.0186711042,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are the brand values at 3.5x EBITDA?",
+   "givens": [
+    "Exhibit 3 regional revenues and EBITDA margins",
+    "3.5x FV/EBITDA"
+   ],
+   "steps": [
+    "Beauty by Gina: (8+5+1+3) × 35% = $5.95B EBITDA; ×3.5 = $20.825B.",
+    "Jose's Chips: (2+3+0+1) ×23% = $1.38B EBITDA; ×3.5 = $4.83B.",
+    "Tina's Hair Brand: (1+3+2+3) ×25% = $2.25B EBITDA; ×3.5 = $7.875B.",
+    "Silky Sweets: (5+1+3+3) ×25% = $3B EBITDA; ×3.5 = $10.5B.",
+    "Clearly Clean: (7+1+2+1) ×36% = $3.96B EBITDA; ×3.5 = $13.86B."
+   ],
+   "answer": "Silky Sweets has indicative value $10.5B, meeting the $10B target; other values are $20.825B, $4.83B, $7.875B and $13.86B.",
+   "answer_value": 10.5,
+   "unit": "USD billions",
+   "verified": false,
+   "book_answer_if_different": "Page 176 says '$10.8B savings'. The correct Silky Sweets valuation is $10.5B, matching page 175. Sale proceeds are not recurring savings."
+  }
+ ],
+ "synthesis": "Prepare a Silky Sweets divestiture at an indicative $10.5B valuation to address the activist's $10B cash objective while preserving other operations. Validate actual net proceeds and strategic fit, including comparison with other feasible divestitures. Supply restructuring has about $11.343B NPV but benefits arrive too late to be the primary near-term response. Broad outsourcing risks key operations; selective delayering merits evaluation. Engage buyers/advisers and communicate with the activist immediately, recognizing sale-price and stock-response uncertainty.",
+ "what_great_looks_like": [
+  "Balances investor timing and long-run operations.",
+  "Recognizes the difference between positive NPV and timely cash generation.",
+  "Challenges outsourcing feasibility and requests a valuation multiple.",
+  "Distinguishes firm value from distributable cash and one-off proceeds from savings."
+ ],
+ "common_pitfalls": [
+  "Selecting the largest NPV without considering timing or operational damage.",
+  "Applying a sales multiple when the given multiple is EBITDA-based.",
+  "Repeating $10.8B instead of the computed $10.5B.",
+  "Treating the preferred brand as uniquely proven optimal by incomplete strategic data."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "synthesis (sale-value-to-distributable-cash adjustments unspecified)",
+   "stages[3].expected_answer (strategic basis for preferring Silky over Beauty is incomplete)"
+  ],
+  "math_verified": false,
+  "notes": "Fuqua Classic from 2015–2016. Corrected final-slide Silky value $10.8B to $10.5B, consistent with the prior answer table. The source shifts between $10B savings and $10B cash returned to shareholders; no taxes, debt or transaction adjustments are supplied. Beauty by Gina is slower-growing and also meets the cash threshold, so Silky is the book's preferred but not uniquely established choice. Exhibit 1 contains a discounted-cash-flow answer curve and is hidden in practice while preserving input data. The 10% rate/time-zero convention comes from the guidance. Difficulty Difficult maps to 4 in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "case_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "stages[3].expected_answer (alternative-divestiture caveat)"
+  ]
+ }
+}

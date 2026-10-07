@@ -1,0 +1,409 @@
+{
+ "id": "stern-2022-ggc-health",
+ "title": "GGC Health",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  149,
+  157
+ ],
+ "author": "Jenna Charles, David Sedgwick, Jonathan (Yoni) Farber (Stern ’18)",
+ "case_type": [
+  "Growth/Revenue",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Revenue growth",
+ "industry": "healthcare-providers",
+ "sub_industry": "clinics-outpatient",
+ "industry_source_label": "Healthcare",
+ "geography": "US East Coast; Charlotte, Indianapolis and Nashville expansion candidates",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 6; Structure: 8 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "revenue-growth",
+  "market-entry",
+  "physician-mix",
+  "reimbursement",
+  "same-site-growth",
+  "service-expansion"
+ ],
+ "concepts_tested": [
+  "Brainstorming",
+  "Revenue computation",
+  "Growth strategy"
+ ],
+ "prompt": "Our client, GGC Health, operates eight Ambulatory Surgical Centers (ASC) on the east coast. GGC Health has consistently been a profitable organization, but over the past two years, their ASCs’ cumulative revenues have been flat at $400 million/year. The CEO of GGC Health is concerned about this and has hired your firm to increase revenues by 15%.",
+ "clarifying_info": [
+  {
+   "question_topic": "ASC business",
+   "answer": "ASCs provide same-day surgical care, including diagnostic and preventive procedures, as a convenient alternative to hospital outpatient care."
+  },
+  {
+   "question_topic": "Referral decision",
+   "answer": "Physicians can operate at hospitals or ASCs and generally determine where surgery is performed."
+  },
+  {
+   "question_topic": "Revenue model",
+   "answer": "Revenue is the number of procedures multiplied by expected reimbursement per procedure."
+  },
+  {
+   "question_topic": "Timing and scope",
+   "answer": "Growth is needed as soon as possible. Price increases are not possible; cost analysis is outside this case’s immediate scope."
+  },
+  {
+   "question_topic": "Expansion capacity",
+   "answer": "Management can open only one new ASC immediately."
+  }
+ ],
+ "interviewer_notes": "Keep the focus on revenue growth: dismiss cost questions during the core analysis and rule out price increases. The candidate should drive toward more patients through existing-site volume or a new ASC. Introduce the three expansion cities when external expansion is raised. Give Exhibit 1 for specialty mix; the candidate should make a city-by-specialty doctor-count table and may eliminate Nashville early. Provide patients per doctor when asked, and give reimbursement rates when requested. Probe if the candidate fails to recognize that Indianapolis alone misses the $60 million incremental target. After calculating 1,536 annual urology patients, explicitly ask the candidate to round to 1,500. Urology expansion applies only to the existing 8 ASCs, not the new Indianapolis facility. Costs and operational feasibility return as risks and next steps.",
+ "suggested_framework": {
+  "summary": "Increase revenue through existing-center volume and specialty mix, or expand into a new market with attractive physician and reimbursement economics.",
+  "tree": {
+   "label": "Add 15% revenue",
+   "children": [
+    {
+     "label": "Existing ASCs",
+     "children": [
+      {
+       "label": "Patients per physician"
+      },
+      {
+       "label": "Physicians per center"
+      },
+      {
+       "label": "Procedure volume and new surgery types"
+      },
+      {
+       "label": "Patient and reimbursement mix"
+      }
+     ]
+    },
+    {
+     "label": "New ASC markets",
+     "children": [
+      {
+       "label": "Physician-group and hospital partnerships"
+      },
+      {
+       "label": "Patient demographics for common surgeries"
+      }
+     ]
+    },
+    {
+     "label": "Competition",
+     "children": [
+      {
+       "label": "Existing ASCs"
+      },
+      {
+       "label": "Hospital and physician-group strength and reputation"
+      }
+     ]
+    },
+    {
+     "label": "Regulation and technology",
+     "children": [
+      {
+       "label": "Health-plan reimbursement criteria and payment model"
+      },
+      {
+       "label": "Technology and service expectations"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you help GGC Health achieve the revenue-growth target?",
+   "release_when": "After the prompt; clarify the business and constraints when asked.",
+   "info_to_release": "There are 8 existing ASCs with $400 million annual revenue. Target growth is 15%, as soon as possible. Prices cannot increase. Physicians generally choose the facility for a patient’s surgery.",
+   "exhibit_ids": [],
+   "expected_answer": "The goal is $60 million in additional annual revenue, bringing revenue to $460 million. Explore more patients and physicians, procedure and reimbursement mix at existing sites, and new centers. For new markets, assess physician partnerships, patient demand, competition and reimbursement/service requirements. Keep the quantitative focus on revenue, not cost reduction.",
+   "good_answer_signals": [
+    "Quantifies the incremental target immediately.",
+    "Recognizes physicians as important drivers of procedure location."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "We can open only one ASC immediately. Which of Charlotte, Indianapolis and Nashville looks most attractive?",
+   "release_when": "When the candidate raises external expansion, provide city doctor totals and Exhibit 1.",
+   "info_to_release": "Charlotte would have 30 doctors, Indianapolis 25 and Nashville 16. Specialty shares for orthopedic/neurology/gastroenterology are Charlotte 80%/10%/10%, Indianapolis 40%/40%/20%, Nashville 50%/25%/25%.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Counts by orthopedic/neurology/gastroenterology are Charlotte 24/3/3; Indianapolis 10/10/5; Nashville 8/4/4. Nashville is dominated by Indianapolis, which has more doctors in every specialty under common specialty productivity and rates. Do not rank Charlotte first solely because it has more total doctors; request procedure volume and reimbursement by specialty.",
+   "good_answer_signals": [
+    "Builds an organized 3-by-3 count table.",
+    "Eliminates Nashville efficiently.",
+    "Distinguishes doctor count from revenue contribution."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What annual revenue would each expansion location generate?",
+   "release_when": "Give monthly patient volumes when asked; show Exhibit 2 when reimbursement is requested.",
+   "info_to_release": "Patients per doctor per month: orthopedic 15, neurology 10, gastroenterology 12. Reimbursement per patient: dermatology $4,000; gastroenterology $15,000; neurology $25,000; orthopedic $5,000; pain management $6,000; urology $8,000.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Annual revenue per doctor is $900,000 orthopedic, $3 million neurology and $2.16 million gastroenterology. Charlotte generates $21.6 million + $9 million + $6.48 million = $37.08 million. Indianapolis generates $9 million + $30 million + $10.8 million = $49.8 million. Nashville generates $7.2 million + $12 million + $8.64 million = $27.84 million. Select Indianapolis, but its $49.8 million leaves a $10.2 million gap to the $60 million incremental goal.",
+   "good_answer_signals": [
+    "Annualizes patient volumes before applying rates.",
+    "Identifies the remaining gap without prompting."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could GGC increase revenue at its existing 8 ASCs to close the remaining gap?",
+   "release_when": "After the candidate recognizes Indianapolis alone is insufficient; probe until that shortfall is clear.",
+   "info_to_release": "Price increases remain unavailable. The source describes the remaining need as approximately $10 million; the exact gap is $10.2 million.",
+   "exhibit_ids": [],
+   "expected_answer": "Increase patients brought by each doctor by improving physician control, scheduling, efficiency and outcomes; recruit high-volume doctors and improve outreach. Add physicians and procedure types, or shift toward higher-reimbursement surgeries and payer mix. The source also proposes higher physician profit shares for hitting targets; any real implementation would need appropriate compliance and patient-care review. Organize ideas around patients per physician, physician count, procedure mix and reimbursement mix rather than price increases.",
+   "good_answer_signals": [
+    "Produces a structured, healthcare-specific brainstorm.",
+    "Returns to existing-site levers after assessing expansion."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What additional revenue would adding 2 urologists at each current ASC generate?",
+   "release_when": "After same-site brainstorming. Supply patient volume only when requested; after the patient calculation, tell the candidate to round to 1,500 as the book directs.",
+   "info_to_release": "Add 2 urologists to each of the 8 existing centers only. Each brings 8 patients monthly. Urology reimbursement is $8,000 per patient from Exhibit 2. After calculating annual patients, round the total to 1,500 for the source’s simplified revenue calculation.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "There would be 16 urologists and 16 × 8 × 12 = 1,536 annual patients. Exact incremental revenue is $12.288 million. With the instructed rounding to 1,500 patients, revenue is $12 million. Combined with Indianapolis, the source-rounded increase is $61.8 million, above the $60 million target; the exact calculation gives $62.088 million. Do not add urologists to the new site in this calculation.",
+   "good_answer_signals": [
+    "Reuses the provided urology rate.",
+    "Retains the exact calculation before applying authorized rounding.",
+    "Checks the combined result against the target."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should GGC do, and what needs validation before implementation?",
+   "release_when": "At the end of the case.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Open an Indianapolis ASC for $49.8 million annual revenue and add urology at existing sites for approximately $12 million, a combined $61.8 million increase using the source rounding. This exceeds the $60 million goal. Costs have not been assessed, Indianapolis is an unfamiliar non-East-Coast market, current sites may lack capacity, and forecast market share or physician patient volumes may not materialize. Conduct a cost/benefit analysis before construction, add urology as feasible, and consider further procedures and locations later.",
+   "good_answer_signals": [
+    "Combines external and same-site growth.",
+    "Does not confuse a revenue forecast with an investment return."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Physician Group Membership by City",
+   "page": 156,
+   "kind": "bar",
+   "description": "Specialty shares within each proposed physician group; doctor totals are supplied verbally.",
+   "data": {
+    "columns": [
+     "City",
+     "Orthopedic (%)",
+     "Neurology (%)",
+     "Gastroenterology (%)"
+    ],
+    "rows": [
+     [
+      "Charlotte",
+      80,
+      10,
+      10
+     ],
+     [
+      "Indianapolis",
+      40,
+      40,
+      20
+     ],
+     [
+      "Nashville",
+      50,
+      25,
+      25
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-ggc-health/p156.webp",
+   "key_insight": "Specialty composition changes revenue potential; Indianapolis has a larger neurology mix than Charlotte.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Average Reimbursement Rates per Patient by Specialty",
+   "page": 157,
+   "kind": "table",
+   "description": "Reimbursement assumptions for six specialties. This is called Exhibit 2 in the case instructions but its printed page heading repeats Exhibit 1.",
+   "data": {
+    "columns": [
+     "Specialty",
+     "USD per patient"
+    ],
+    "rows": [
+     [
+      "Dermatology",
+      4000
+     ],
+     [
+      "Gastroenterology",
+      15000
+     ],
+     [
+      "Neurology",
+      25000
+     ],
+     [
+      "Orthopedic",
+      5000
+     ],
+     [
+      "Pain management",
+      6000
+     ],
+     [
+      "Urology",
+      8000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-ggc-health/p157.webp",
+   "key_insight": "Neurology has the highest reimbursement among the three opening-market specialties; the urology rate is already available for the later growth option.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are the specialty doctor counts by city?",
+   "givens": [
+    "Charlotte 30 doctors with 80%/10%/10% mix",
+    "Indianapolis 25 doctors with 40%/40%/20% mix",
+    "Nashville 16 doctors with 50%/25%/25% mix",
+    "Order is orthopedic, neurology, gastroenterology"
+   ],
+   "steps": [
+    "Charlotte = 30 × (0.8, 0.1, 0.1) = (24, 3, 3).",
+    "Indianapolis = 25 × (0.4, 0.4, 0.2) = (10, 10, 5).",
+    "Nashville = 16 × (0.5, 0.25, 0.25) = (8, 4, 4); the neurology multiplication must use 16, not 25."
+   ],
+   "answer": "Charlotte 24/3/3; Indianapolis 10/10/5; Nashville 8/4/4. Nashville’s neurology count is 4 from 16 × 25%.",
+   "verified": false,
+   "book_answer_if_different": "The source prints Nashville neurology as '25*.25=4'. That expression equals 6.25; the correct input is 16 doctors, and 16 × 25% = 4, matching the count used downstream."
+  },
+  {
+   "id": "m2",
+   "question": "What annual revenues do the candidate cities generate?",
+   "givens": [
+    "Monthly patients per doctor: orthopedic 15, neurology 10, gastroenterology 12",
+    "Rates $5,000, $25,000 and $15,000 respectively",
+    "Doctor counts Charlotte 24/3/3; Indianapolis 10/10/5; Nashville 8/4/4"
+   ],
+   "steps": [
+    "Annual patients per doctor = 180, 120, 144; annual revenues per doctor = $900,000, $3,000,000, $2,160,000.",
+    "Charlotte = 24 × $900,000 + 3 × $3,000,000 + 3 × $2,160,000 = $37,080,000.",
+    "Indianapolis = 10 × $900,000 + 10 × $3,000,000 + 5 × $2,160,000 = $49,800,000.",
+    "Nashville = 8 × $900,000 + 4 × $3,000,000 + 4 × $2,160,000 = $27,840,000."
+   ],
+   "answer": "Indianapolis leads at $49.8 million annually, versus Charlotte $37.08 million and Nashville $27.84 million.",
+   "answer_value": 49800000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What revenue gap remains after Indianapolis?",
+   "givens": [
+    "Current annual revenue $400 million",
+    "Growth goal 15%",
+    "Indianapolis revenue $49.8 million"
+   ],
+   "steps": [
+    "Incremental target = $400 million × 15% = $60 million; total target $460 million.",
+    "Gap = $60 million − $49.8 million = $10.2 million, approximately the source’s $10 million."
+   ],
+   "answer": "$10.2 million additional annual revenue remains necessary.",
+   "answer_value": 10200000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "How much revenue does adding urology generate, and does the combined plan meet the target?",
+   "givens": [
+    "8 existing sites; 2 urologists per site",
+    "8 patients per doctor monthly",
+    "$8,000 per patient",
+    "Source instructs rounding 1,536 annual patients to 1,500",
+    "$49.8 million Indianapolis revenue"
+   ],
+   "steps": [
+    "Urologists = 8 × 2 = 16; patients = 16 × 8 × 12 = 1,536 annually.",
+    "Exact revenue = 1,536 × $8,000 = $12,288,000.",
+    "With authorized rounding: 1,500 × $8,000 = $12,000,000.",
+    "Combined increase = $49.8 million + $12 million = $61.8 million; without rounding it is $62.088 million. Both exceed $60 million."
+   ],
+   "answer": "$12 million source-rounded urology revenue and $61.8 million combined growth; exact values are $12.288 million and $62.088 million.",
+   "answer_value": 61800000,
+   "unit": "source-rounded incremental USD/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Choose Indianapolis and add 2 urologists to each of the existing 8 ASCs. Projected annual growth is $49.8 million plus $12 million using the book’s authorized rounding, totaling $61.8 million against the $60 million target. Exact unrounded growth is $62.088 million. Validate costs, site capacity, physician patient volumes, attainable market share and management’s ability to enter an unfamiliar Midwest market before construction. Consider other procedures and more locations subsequently.",
+ "what_great_looks_like": [
+  "Keeps the $60 million incremental goal visible.",
+  "Eliminates Nashville quickly using specialty counts.",
+  "Recognizes the remaining revenue gap and returns to the framework independently.",
+  "Brainstorms broad, structured existing-site growth levers.",
+  "Distinguishes the source’s explicit rounding from an arithmetic error."
+ ],
+ "common_pitfalls": [
+  "Choosing the city with the most total doctors without considering specialty economics.",
+  "Failing to annualize monthly patient counts.",
+  "Stopping at Indianapolis despite missing the target.",
+  "Adding urology to the new center when the source limits it to existing sites.",
+  "Treating revenue growth as proven profitability.",
+  "Copying the source’s erroneous Nashville neurology multiplication."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Dedup returned NEW. Source arithmetic typo on page 151 prints Nashville neurology '25*.25=4'; correct multiplication is 16 × 25% = 4, and all later city revenue figures use that correct count. This internally inconsistent expression is flagged with medium confidence. The source explicitly directs rounding 1,536 urology patients to 1,500, so $12 million is valid authorized rounding; exact revenue is $12.288 million. The approximate $10 million gap is exactly $10.2 million. Reimbursement page 157 is mislabeled Exhibit 1, but the instructions call it Exhibit 2; IDs follow that intended sequence. All exhibit images are candidate pages. Financial growth levers are recorded as hypothetical source content, not clinical or legal guidance. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry",
+   "sub_industry",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "stages[3].expected_answer compliance caveat",
+   "common_pitfalls"
+  ]
+ }
+}

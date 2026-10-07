@@ -1,0 +1,176 @@
+{
+ "id": "pricing",
+ "name": "Pricing",
+ "category": "core",
+ "summary": "Triangulate a price from three angles: cost-based (floor), competitor-based (market reference) and value-based (customer willingness to pay, the ceiling). Then choose a strategy based on objectives.",
+ "opening_line": "I'd triangulate price from three angles: our costs set the floor, customers' willingness to pay sets the ceiling, and competitors' prices show where the market sits. Then I'd pick a point based on the client's objective.",
+ "when_to_use": [
+  "Setting the price for a new product",
+  "Considering a price change",
+  "Responding to a competitor's price move (with competitive response)"
+ ],
+ "when_not_to_use": [
+  "When price isn't the lever that matters (e.g. the market is shrinking): start with profitability or growth"
+ ],
+ "tree": {
+  "label": "Set the price",
+  "children": [
+   {
+    "label": "Objectives",
+    "children": [
+     {
+      "label": "Profit vs share vs positioning"
+     },
+     {
+      "label": "Short vs long term"
+     }
+    ]
+   },
+   {
+    "label": "Cost-based (floor)",
+    "children": [
+     {
+      "label": "Unit cost: variable + allocated fixed"
+     },
+     {
+      "label": "Target margin"
+     },
+     {
+      "label": "Breakeven volume"
+     }
+    ]
+   },
+   {
+    "label": "Competitor-based",
+    "children": [
+     {
+      "label": "Competitor prices & positioning"
+     },
+     {
+      "label": "Substitutes"
+     },
+     {
+      "label": "Likely reaction"
+     }
+    ]
+   },
+   {
+    "label": "Value-based (ceiling)",
+    "children": [
+     {
+      "label": "Customer benefit / savings"
+     },
+     {
+      "label": "Willingness to pay by segment"
+     },
+     {
+      "label": "Price elasticity"
+     }
+    ]
+   },
+   {
+    "label": "Strategy & implementation",
+    "children": [
+     {
+      "label": "Skimming vs penetration"
+     },
+     {
+      "label": "Tiers / bundles / discounts"
+     },
+     {
+      "label": "Channel & contract terms"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Objectives",
+   "questions": [
+    "Maximise profit, gain share, or build a premium position?"
+   ],
+   "data_to_ask": [
+    "Client's goal and time horizon"
+   ]
+  },
+  {
+   "name": "Cost-based",
+   "questions": [
+    "What's the unit cost?",
+    "At what price and volume do we break even?"
+   ],
+   "data_to_ask": [
+    "Fixed and variable costs",
+    "Expected volume"
+   ]
+  },
+  {
+   "name": "Competitor-based",
+   "questions": [
+    "What do alternatives cost?",
+    "How differentiated are we?"
+   ],
+   "data_to_ask": [
+    "Competitor price list",
+    "Feature comparison"
+   ]
+  },
+  {
+   "name": "Value-based",
+   "questions": [
+    "How much value does the product create for each segment?",
+    "How price-sensitive are they?"
+   ],
+   "data_to_ask": [
+    "Customer survey / conjoint",
+    "Savings or benefits quantified"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "tech-saas",
+   "note": "Per-seat vs usage vs tiered pricing. Value is measured in time and money saved. Watch expansion revenue and discounting at renewal."
+  },
+  {
+   "industry": "pharma",
+   "note": "Value-based on clinical benefit (QALYs), set against payer reimbursement and access. Price varies by country."
+  },
+  {
+   "industry": "airlines",
+   "note": "Dynamic pricing / yield management across fare classes; ancillary unbundling."
+  },
+  {
+   "industry": "cpg",
+   "note": "Retailer margins sit between you and the consumer. Price-pack architecture and promotions drive realised price."
+  }
+ ],
+ "common_mistakes": [
+  "Using only cost-plus and leaving money on the table",
+  "Ignoring different willingness to pay across segments",
+  "Forgetting competitor reaction and cannibalisation",
+  "Not checking the volume impact of the price change (elasticity)"
+ ],
+ "related": [
+  "breakeven",
+  "customer-segmentation",
+  "competitive-response",
+  "supply-demand"
+ ],
+ "match": {
+  "case_types": [
+   "Pricing"
+  ],
+  "tags": [
+   "pricing",
+   "pricing-strategy",
+   "price-elasticity",
+   "willingness-to-pay"
+  ],
+  "keywords": [
+   "price",
+   "pricing"
+  ]
+ }
+}

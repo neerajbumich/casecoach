@@ -1,0 +1,72 @@
+{
+  "id": "hospitality",
+  "name": "Hospitality (Hotels & Lodging)",
+  "group": "Travel & transport",
+  "one_liner": "Hotels, resorts, and alternative lodging whose economics hinge on occupancy and room rates against high fixed costs, with major brands increasingly asset-light.",
+  "how_it_makes_money": "Hotel owners earn room, food and beverage, and ancillary revenue, while major brands earn franchise and management fees tied to hotel revenue and profit. Loyalty programs and co-branded credit cards add fee income, and platforms like Airbnb earn commissions on stays.",
+  "value_chain": [
+    "Real estate development and ownership",
+    "Brand franchising and management",
+    "Distribution (direct, OTAs, corporate)",
+    "Revenue management and pricing",
+    "On-property operations",
+    "Loyalty and guest experience"
+  ],
+  "revenue_formula": [
+    "Room revenue = rooms available × occupancy × average daily rate (ADR) × days",
+    "RevPAR = occupancy × ADR",
+    "Brand fee revenue = system room revenue × franchise fee rate + incentive management fees"
+  ],
+  "cost_structure": [
+    "Labor: housekeeping, front desk, and food service staff",
+    "Property costs: maintenance, utilities, and property taxes",
+    "Distribution costs: OTA commissions and franchise fees",
+    "Food and beverage costs",
+    "Capital expenditure for renovations",
+    "Sales and marketing"
+  ],
+  "margins": "Asset-light franchisors earn high margins on fee revenue, while owners face moderate hotel-level margins that swing with occupancy due to high operating leverage. Location, segment (luxury vs economy), and distribution mix drive profitability.",
+  "key_metrics": [
+    {"name": "RevPAR", "what": "Revenue per available room, the primary performance metric."},
+    {"name": "Occupancy rate", "what": "Share of rooms sold."},
+    {"name": "Average daily rate (ADR)", "what": "Average price per occupied room."},
+    {"name": "GOPPAR", "what": "Gross operating profit per available room, a profitability view of RevPAR."},
+    {"name": "Net unit growth", "what": "Growth in rooms in the brand's system, the key driver of fee income."},
+    {"name": "Direct booking share", "what": "Share of bookings through the brand's channels, reducing OTA commissions."}
+  ],
+  "trends": [
+    "Leisure travel strong while business travel recovers more slowly",
+    "Luxury and upper-upscale segments outperforming economy",
+    "Brand proliferation as chains launch new sub-brands to grow unit count",
+    "Short-term rentals competing in leisure markets, with city regulation limiting them",
+    "Direct booking push through loyalty to reduce OTA dependence",
+    "AI-driven pricing and guest personalization"
+  ],
+  "key_players": [
+    "Marriott",
+    "Hilton",
+    "Hyatt",
+    "IHG",
+    "Accor",
+    "Wyndham",
+    "Choice Hotels",
+    "Airbnb",
+    "Booking Holdings",
+    "Expedia"
+  ],
+  "case_angles": [
+    {"question": "A hotel chain's RevPAR is falling; diagnose and recommend actions.", "framework_id": "profitability"},
+    {"question": "Should a hotel company launch a new midscale extended-stay brand?", "framework_id": "new-product-gtm"},
+    {"question": "Should an owner renovate or sell a resort property?", "framework_id": "investment-npv"},
+    {"question": "How should a hotel chain respond to Airbnb's growth in leisure markets?", "framework_id": "competitive-response"}
+  ],
+  "interview_hooks": [
+    "Is the asset-light franchising model always superior for hotel brands?",
+    "Can hotel brands reduce their reliance on OTAs?",
+    "Will short-term rentals continue to take share from hotels as regulation tightens?"
+  ],
+  "news": {
+    "keywords": ["hotel", "hotels", "revpar", "occupancy", "hotelier", "resort", "short-term rental", "lodging", "hospitality industry"],
+    "companies": ["Marriott", "Hilton", "Hyatt", "IHG", "Accor", "Wyndham", "Choice Hotels", "Airbnb", "Booking Holdings", "Expedia"]
+  }
+}

@@ -1,0 +1,259 @@
+{
+ "id": "booth-2024-smart-cards",
+ "title": "Smart Cards",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  290,
+  296
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Turnaround"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "tech-saas",
+ "sub_industry": "hardware-devices",
+ "industry_source_label": "Technology",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey & Co",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2, Quant 1, Creativity 3 (1-3 scale); Quant Level - LIGHT",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "smart-cards",
+  "transportation-payments",
+  "customer-segmentation",
+  "platform-market",
+  "reliability",
+  "divestiture",
+  "tier-2"
+ ],
+ "concepts_tested": [
+  "chart interpretation",
+  "structured brainstorming",
+  "segment prioritization",
+  "purchase drivers",
+  "exit decision"
+ ],
+ "fit_question": "Tell me about a time you managed ambiguity. Alternatively, describe a difficult work situation and how you maintained stakeholder support.",
+ "prompt": "Electronics Inc. is a diversified electronic-components manufacturer. Its Smart Cards business makes passenger cards and card readers for US transport authorities and was entered three years ago. Revenue growth is low, customers have complained, and the CEO is considering a spin-off or sale. What areas should the company explore?",
+ "clarifying_info": [
+  {
+   "question_topic": "Products and customers",
+   "answer": "The client manufactures smart cards and readers, primarily for US transport authorities, and also makes chips and custom electronic components."
+  },
+  {
+   "question_topic": "Performance",
+   "answer": "The business has low revenue growth and recent customer complaints."
+  },
+  {
+   "question_topic": "Strategic options",
+   "answer": "The CEO is considering a spin-off or sale."
+  }
+ ],
+ "interviewer_notes": "Run this as a command-and-control sequence while expecting active candidate participation. Lead from transport-authority segmentation to Exhibit 1, purchase drivers, reliability, the $10M upgrade decision, Tier-2 research, and a recommendation. The case is not a traditional profitability exercise; the key insight is that this is a winner-takes-all platform market in saturated Tier-1 geographies.",
+ "suggested_framework": {
+  "summary": "Assess market segments and adoption, competitive position, product reliability and support, strategic fit, and exit alternatives.",
+  "tree": {
+   "label": "What should Electronics Inc. do with Smart Cards?",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size, growth, customer segments, adoption, and technology trends"
+      }
+     ]
+    },
+    {
+     "label": "Competition",
+     "children": [
+      {
+       "label": "Share, substitutes, capabilities, and platform effects"
+      }
+     ]
+    },
+    {
+     "label": "Product and support",
+     "children": [
+      {
+       "label": "Price, package economics, reader and card reliability, security, integration, maintenance, and service"
+      }
+     ]
+    },
+    {
+     "label": "Corporate options",
+     "children": [
+      {
+       "label": "Synergies with chips and components"
+      },
+      {
+       "label": "Invest, target Tier 2, separate cards, spin off, or sell"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What areas would you explore to diagnose the Smart Cards business?",
+   "expected_answer": "Evaluate market growth and adoption, transport-authority segments, competitors and substitutes, the client's value chain and corporate synergies, and product price, reliability, security, integration, delivery, maintenance, and service. Compare investing for growth with spin-off or sale.",
+   "good_answer_signals": [
+    "Uses an industry and competitive framework",
+    "Includes both cards and readers",
+    "Keeps exit options open"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "How would you segment transport authorities, and what does Exhibit 1 show?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Segment by revenue, margin, or geography; the book emphasizes Tier 1 large cities versus Tier 2 midsized cities. Tier 1 has 100% smart-card penetration across 10 customers, with Electronics Inc. at only 15% versus 40% and 45% for competitors. Tier 2 has 70 customers but only 10% penetration; the client has no share. Tier 1 is saturated and concentrated, while Tier 2 may offer growth but could be uneconomic.",
+   "good_answer_signals": [
+    "Identifies the client as a weak third player",
+    "Sees Tier-2 white space",
+    "Questions why incumbents have not pursued Tier 2"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are the key purchase drivers for transport authorities?",
+   "info_to_release": "All suppliers are at parity on purchase drivers except reliability.",
+   "expected_answer": "Prioritize total package cost for readers and cards, replacement and upgrade cost, reader reliability, security, customer service, proven adoption, contract switching costs, and integration with other systems. Reader reliability is the leading driver because reader failure can interrupt an entire transit network, whereas individual cards are replaceable.",
+   "good_answer_signals": [
+    "Ranks rather than merely lists drivers",
+    "Treats package pricing and reader reliability as central",
+    "Includes switching and integration"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "What do the reliability figures imply?",
+   "info_to_release": "Electronics Inc.: reader 90%, card 75%. Competitor A: reader 98%, card 60%. Competitor B: reader 99%, card 70%. Some current customers are considering switching.",
+   "expected_answer": "The client's 90% reader reliability is materially worse than both competitors and threatens system integrity, explaining complaints and churn. Its modest card-reliability advantage is less valuable because cards are easily replaced. The client could explore selling cards separately, but the bundled system lacks a differentiated value proposition.",
+   "good_answer_signals": [
+    "Weights reader reliability more heavily",
+    "Connects reliability to customer losses",
+    "Recognizes possible unbundling of cards"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "Reader reliability can reach 99% for a $10M investment. What should the client do?",
+   "info_to_release": "Upgrading reader quality to 99% reliability requires a $10M investment.",
+   "expected_answer": "Do not invest automatically. Tier 1 is saturated, the client has only 15% share, and incumbents already offer 98%-99% reliability with demand- and supply-side scale advantages. Investigate a profitable Tier-2 lite offering first; absent a differentiated and economic solution, sell the card and reader assets to Competitor A or B and exit.",
+   "good_answer_signals": [
+    "Does not demand an invented cost-benefit calculation",
+    "Recognizes winner-takes-all geography",
+    "Makes Tier-2 viability the gating question"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "How would you determine whether Tier 2 is viable, and what is your recommendation?",
+   "expected_answer": "Interview non-adopting Tier-2 authorities to identify barriers, needs, budgets, integration requirements, and willingness to pay. Test whether a cheaper functional lite system can be profitable and superior to competitor alternatives. Unless that research supports a viable offer, exit and sell the assets. The principal risk is entering an unprofitable segment; mitigate it through customer discovery and pilot economics before further investment.",
+   "good_answer_signals": [
+    "Proposes direct customer research",
+    "Defines a testable lite-product hypothesis",
+    "Answers the original keep-or-exit question"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Smart-card market segment penetration",
+   "page": 293,
+   "kind": "table",
+   "description": "Smart-card penetration and supplier share among Tier-1 and Tier-2 transport authorities.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Customers",
+     "Smart-card penetration",
+     "Electronics Inc. share",
+     "Competitor A",
+     "Competitor B",
+     "Others"
+    ],
+    "rows": [
+     [
+      "Tier 1",
+      "10",
+      "100%",
+      "15%",
+      "40%",
+      "45%",
+      "0%"
+     ],
+     [
+      "Tier 2",
+      "70",
+      "10%",
+      "0%",
+      "2%",
+      "8%",
+      "0%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-smart-cards/p293.webp",
+   "image_has_answers": false,
+   "key_insight": "Tier 1 is fully penetrated and dominated by two incumbents; Tier 2 is mostly unpenetrated but its economics are unproven.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [],
+ "synthesis": "Investigate a lower-cost Tier-2 offer, but otherwise exit and sell the Smart Cards assets. Electronics Inc. is a weak third player in saturated Tier 1, its reader reliability is far below incumbents, and a $10M upgrade only achieves parity. Customer research should establish why Tier 2 has not adopted, whether a lite product meets needs, and whether it earns an acceptable margin before any investment.",
+ "what_great_looks_like": [
+  "Segments customers before recommending growth",
+  "Recognizes Tier-2 profitability uncertainty",
+  "Prioritizes reader reliability over card reliability",
+  "Understands platform and scale effects",
+  "Recommends exit if the Tier-2 hypothesis fails"
+ ],
+ "common_pitfalls": [
+  "Treating Tier-2 white space as proven demand",
+  "Spending $10M merely to match a competitor",
+  "Weighting card reliability like reader reliability",
+  "Using a generic profitability tree",
+  "Avoiding the counterintuitive exit recommendation"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The case contains no arithmetic calculation; the $10M reliability upgrade is a decision input, not a requested quantitative exercise. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "pharma",
+  "name": "Pharmaceuticals",
+  "group": "Healthcare",
+  "one_liner": "Pharma companies discover, develop and sell drugs, spending heavily on risky R&D and earning high margins during a limited patent-protected window before generics or biosimilars arrive.",
+  "how_it_makes_money": "Branded drugs sell at premium prices while protected by patents and exclusivity, generating most industry profit. Net revenue is list price minus rebates and discounts negotiated with PBMs, insurers and government programs; generic makers compete on low cost and volume.",
+  "value_chain": [
+    "Drug discovery and research",
+    "Clinical trials (Phase I-III)",
+    "Regulatory approval (FDA)",
+    "Manufacturing and supply",
+    "Commercialization and market access",
+    "Lifecycle and patent management"
+  ],
+  "revenue_formula": [
+    "Drug revenue = treated patients × days of therapy × net price",
+    "Treated patients = disease prevalence × diagnosis rate × treatment rate × market share",
+    "Net price = list price - rebates, discounts and government concessions"
+  ],
+  "cost_structure": [
+    "R&D: often roughly 15-25% of revenue for large pharma, including many failed programs",
+    "Selling, general and administrative: sales reps, marketing, market access",
+    "Cost of goods sold: manufacturing, relatively low for small molecules",
+    "Licensing and acquisitions: in-licensed assets, milestones and royalties",
+    "Regulatory, quality and compliance"
+  ],
+  "margins": "Large branded pharma typically earns high gross margins (often ~70-80%) and strong operating margins, while generics run much thinner; the spread depends on patent protection, pipeline productivity and pricing pressure.",
+  "key_metrics": [
+    {
+      "name": "Probability of technical and regulatory success (PTRS)",
+      "what": "Likelihood a candidate reaches approval; drives risk-adjusted pipeline value."
+    },
+    {
+      "name": "Risk-adjusted NPV (rNPV)",
+      "what": "Value of a drug program weighted by phase success odds; the standard asset valuation tool."
+    },
+    {
+      "name": "Peak sales",
+      "what": "Expected maximum annual revenue of a drug; frames commercial potential."
+    },
+    {
+      "name": "Gross-to-net discount",
+      "what": "Gap between list and net price; shows rebate and pricing pressure."
+    },
+    {
+      "name": "Loss of exclusivity (LOE) exposure",
+      "what": "Revenue facing generic or biosimilar competition soon; the 'patent cliff' risk."
+    },
+    {
+      "name": "R&D as % of sales",
+      "what": "Research intensity; balanced against pipeline output."
+    }
+  ],
+  "trends": [
+    "GLP-1 obesity and diabetes drugs reshaping the industry and driving capacity build-outs",
+    "Medicare drug price negotiation under the Inflation Reduction Act",
+    "Large patent cliffs later this decade driving M&A for new assets",
+    "US policy pressure on drug pricing, including most-favored-nation proposals and tariffs",
+    "Growing in-licensing of drug candidates from China-based biotechs",
+    "AI applied to drug discovery and clinical trial design"
+  ],
+  "key_players": [
+    "Eli Lilly",
+    "Novo Nordisk",
+    "Johnson & Johnson",
+    "Pfizer",
+    "Merck",
+    "AbbVie",
+    "AstraZeneca",
+    "Roche",
+    "Novartis",
+    "Bristol Myers Squibb"
+  ],
+  "case_angles": [
+    {
+      "question": "A pharma company's blockbuster loses patent protection in three years. How should it prepare?",
+      "framework_id": "growth-strategy"
+    },
+    {
+      "question": "How should a company price a new drug for a rare disease?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "Should the company acquire a biotech with a promising Phase II asset?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "Estimate the US market for a new migraine drug.",
+      "framework_id": "market-sizing"
+    }
+  ],
+  "interview_hooks": [
+    "Will government price negotiation reduce drug innovation, or just redirect it?",
+    "Can supply and pricing of GLP-1s keep up with demand, and who will pay?",
+    "Is buying innovation through M&A more productive than internal R&D?"
+  ],
+  "news": {
+    "keywords": [
+      "drugmaker",
+      "pharmaceutical",
+      "fda approval",
+      "clinical trial",
+      "patent cliff",
+      "generic drugs",
+      "drug pricing",
+      "glp-1",
+      "biosimilar",
+      "blockbuster drug",
+      "phase 3"
+    ],
+    "companies": [
+      "Eli Lilly",
+      "Novo Nordisk",
+      "Pfizer",
+      "Merck",
+      "AbbVie",
+      "Johnson & Johnson",
+      "AstraZeneca",
+      "Roche",
+      "Novartis",
+      "Bristol Myers Squibb",
+      "Sanofi",
+      "GSK"
+    ]
+  }
+}

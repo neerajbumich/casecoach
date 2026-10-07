@@ -1,0 +1,237 @@
+{
+ "id": "booth-2024-breast-cancer-surgery",
+ "title": "Breast Cancer Surgery",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  75,
+  79
+ ],
+ "case_type": [
+  "Profitability",
+  "Pricing"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "medtech",
+ "sub_industry": "devices",
+ "industry_source_label": "Life Science, MedTech",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "L.E.K. Consulting",
+  "Round 1"
+ ],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 1/3; Quant 1/3; Creativity 1/3",
+ "quant_intensity": "L",
+ "estimated_minutes": 25,
+ "tags": [
+  "medical-device",
+  "pricing",
+  "revenue-maximization",
+  "adoption",
+  "willingness-to-pay"
+ ],
+ "fit_question": "Tell me about a time you navigated ambiguity in the workplace. Tell me about a time you demonstrated initiative.",
+ "prompt": "A large medical-device corporation developed a disposable device to assist surgeons in breast-conservation surgery, the partial removal of cancerous breast tissue. It wants a revenue-maximizing US pricing strategy. What should it charge?",
+ "clarifying_info": [
+  {
+   "question_topic": "Market and use",
+   "answer": "There are 100,000 US breast-conservation surgeries annually; the device applies to every procedure and a new disposable device is required each time."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "It is FDA-approved, has no R&D quality concern, and has a 100% success rate."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are no competitors; it is the only product of its kind."
+  }
+ ],
+ "interviewer_notes": "Candidate-led case. The candidate must size the market and use clinician willingness-to-pay data to maximize revenue. Costs are not provided, so distinguish revenue maximization from profit maximization.",
+ "suggested_framework": {
+  "summary": "Book framework covering market potential, provider and insurer adoption, product differentiation and regulation.",
+  "tree": {
+   "label": "BCS device pricing",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Surgery volume and growth"
+      },
+      {
+       "label": "Applicability and repeat use"
+      }
+     ]
+    },
+    {
+     "label": "Adoption and revenue",
+     "children": [
+      {
+       "label": "Clinician willingness to pay"
+      },
+      {
+       "label": "Relationships and insurance coverage"
+      }
+     ]
+    },
+    {
+     "label": "Product",
+     "children": [
+      {
+       "label": "Innovation, efficacy, quality and useful life"
+      },
+      {
+       "label": "FDA, patent and substitutes"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you set a revenue-maximizing price?",
+   "expected_answer": "Size eligible surgeries, determine units per procedure, map clinician adoption at each price, calculate price × adopted procedures, and consider provider relationships, insurance, differentiation and regulation.",
+   "good_answer_signals": [
+    "Separates market size from adoption",
+    "Recognizes disposable repeat use"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What is the annual market potential?",
+   "expected_answer": "100,000 devices annually because all 100,000 procedures are eligible and each requires one disposable device.",
+   "good_answer_signals": [
+    "Uses all procedures",
+    "Uses one device per surgery"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Which tested price maximizes revenue?",
+   "release_when": "Show Exhibit 1 after market sizing.",
+   "info_to_release": "Adoption at $0/$300/$600/$1,000 is 90%/75%/50%/10%; annual market is 100,000 surgeries.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue is $0, $22.5M, $30M and $10M. Charge $600, yielding 50,000 adopted procedures and $30M maximum potential revenue.",
+   "good_answer_signals": [
+    "Calculates every point",
+    "Does not equate maximum adoption with maximum revenue",
+    "Notes costs are needed for profit-maximizing price"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How would you reach 50% adoption?",
+   "expected_answer": "Use existing physician sales relationships, target large hospital networks, and advertise through TV, social media and specialty websites. Protect entry barriers with patents and clinician exclusivity.",
+   "good_answer_signals": [
+    "Targets clinicians and systems",
+    "Includes defensibility"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation?",
+   "expected_answer": "Price at $600 to maximize revenue at $30M and target 50% adoption through physicians and hospital networks. Next calculate costs to find the profit-maximizing price and pursue patent and exclusivity protection. Main risks are imitation and confusing revenue with profit optimization.",
+   "good_answer_signals": [
+    "Leads with $600 and $30M",
+    "Names the missing cost analysis"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Clinician Adoption by Potential Price Point",
+   "page": 78,
+   "kind": "line",
+   "description": "Candidate-facing willingness-to-adopt curve at four tested prices.",
+   "data": {
+    "columns": [
+     "Price",
+     "Adoption"
+    ],
+    "rows": [
+     [
+      "$0",
+      "90%"
+     ],
+     [
+      "$300",
+      "75%"
+     ],
+     [
+      "$600",
+      "50%"
+     ],
+     [
+      "$1,000",
+      "10%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-breast-cancer-surgery/p078.webp",
+   "key_insight": "The $600 midpoint produces more revenue than higher adoption at $300 or higher price at $1,000.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which price maximizes annual revenue?",
+   "givens": [
+    "100,000 procedures",
+    "Adoption 90%/75%/50%/10% at $0/$300/$600/$1,000"
+   ],
+   "steps": [
+    "$0: $0",
+    "$300:100,000×75%×$300=$22.5M",
+    "$600:100,000×50%×$600=$30M",
+    "$1,000:100,000×10%×$1,000=$10M"
+   ],
+   "answer": "$600 per device, generating $30 million annual revenue",
+   "answer_value": 30,
+   "unit": "USD millions/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Charge $600 per disposable device. At 50% adoption across 100,000 annual surgeries, revenue is $30M, the maximum among tested prices. Use physician relationships and hospital networks to reach adoption, secure patents and exclusivity, and add cost analysis before claiming this is the profit-maximizing price.",
+ "what_great_looks_like": [
+  "Sizes the addressable procedures",
+  "Calculates every price-adoption point",
+  "Distinguishes revenue from profit"
+ ],
+ "common_pitfalls": [
+  "Chooses the highest adoption",
+  "Chooses the highest price",
+  "Calls $600 profit maximizing without costs"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Exhibit page 78 is candidate-facing; page 79 contains the worked answer and is not used as the image. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

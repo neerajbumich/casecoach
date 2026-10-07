@@ -1,0 +1,476 @@
+{
+ "id": "ross-2024-spice-up-your-life",
+ "title": "Spice Up Your Life",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  143,
+  153
+ ],
+ "case_type": [
+  "Investment/PE due diligence",
+  "M&A/Acquisition"
+ ],
+ "case_type_source_label": "M&A, Valuation, Chart Analysis",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "Private Equity, Food/Retail",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 1, Overall - 2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "private-equity",
+  "moic",
+  "ebitda",
+  "free-cash-flow",
+  "cost-optimization",
+  "exit-multiple",
+  "product-mix"
+ ],
+ "concepts_tested": [
+  "investment thesis",
+  "benchmarking",
+  "cost savings",
+  "four-year value build",
+  "MOIC decision"
+ ],
+ "prompt": "Seasoned Investors (SI), a private equity firm, has launched a fund focused on food-industry investments. For its first investment, SI is considering acquiring Favored Flavors (FF), a spice company specializing in premium organic spices. Favored Flavors is asking $75 million, and the offer is final. Should Seasoned Investors pursue the acquisition?",
+ "clarifying_info": [
+  {
+   "question_topic": "Financial target",
+   "answer": "SI requires a 2.0x Multiple of Invested Capital, meaning it wants twice its investment value by the end of the holding period. MOIC does not use time value of money, so no discounted-cash-flow analysis is needed."
+  },
+  {
+   "question_topic": "Holding period and exit",
+   "answer": "SI will hold the company for four years and is confident it can sell FF at 10× EBITDA."
+  },
+  {
+   "question_topic": "Debt",
+   "answer": "FF has no debt."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "FF sells primarily to grocery-store wholesalers."
+  },
+  {
+   "question_topic": "SI capabilities",
+   "answer": "Several SI managing directors have significant industry experience, but SI has no other food-and-beverage portfolio companies."
+  }
+ ],
+ "interviewer_notes": "The case tests quantitative organization because insights must be carried across exhibits. A strong candidate sets up the decision rule 2 × purchase price ≤ cumulative free cash flow + exit value, benchmarks FF's cost structure, finds packaging and saffron savings, and applies the improved economics to projected revenue. The source has an arithmetic inconsistency: $50M revenue - $33M COGS - 23%×$50M SG&A equals $5.5M EBITDA, not the printed $5M. Corrected math is used below and the book's rounded answer is retained for review.",
+ "suggested_framework": {
+  "summary": "Book-provided PE framework covering company cash flows, sponsor value-creation levers, market attractiveness, and entry-to-exit valuation.",
+  "tree": {
+   "label": "Favored Flavors acquisition",
+   "children": [
+    {
+     "label": "Company economics",
+     "children": [
+      {
+       "label": "Revenue: price and volume"
+      },
+      {
+       "label": "Variable costs: raw material, packaging, shipping"
+      },
+      {
+       "label": "Fixed costs: plant, labor, SG&A"
+      },
+      {
+       "label": "Leadership and capabilities"
+      }
+     ]
+    },
+    {
+     "label": "SI value creation",
+     "children": [
+      {
+       "label": "Bolt-on acquisitions"
+      },
+      {
+       "label": "Investment-light growth"
+      },
+      {
+       "label": "Cost optimization"
+      },
+      {
+       "label": "Industry expertise and financing"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size, growth, and competition"
+      },
+      {
+       "label": "Ethical sourcing and sustainable packaging"
+      },
+      {
+       "label": "Exotic-food, healthy-eating, and online-grocery trends"
+      },
+      {
+       "label": "Trade and import/export regulation"
+      }
+     ]
+    },
+    {
+     "label": "Valuation",
+     "children": [
+      {
+       "label": "Free cash flow during four-year hold"
+      },
+      {
+       "label": "Exit EBITDA and multiple"
+      },
+      {
+       "label": "Total value versus 2.0x MOIC hurdle"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether SI should acquire Favored Flavors for $75 million?",
+   "expected_answer": "Assess FF's current and improvable cash flows, SI's value-creation capabilities, market growth and risk, and exit value. The quantitative hurdle is cumulative four-year free cash flow plus sale proceeds of at least $150M, equal to 2× the $75M purchase price.",
+   "good_answer_signals": [
+    "States the MOIC equation explicitly",
+    "Includes operating improvement and exit value",
+    "Covers company, sponsor, market, and risk factors"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What insights do you draw from FF's 2020 income statement and the industry benchmark?",
+   "release_when": "Hand out Exhibit 1 after the framework.",
+   "info_to_release": "FF reports $50M revenue, $33M COGS, SG&A equal to 23% of revenue, $5M stated EBITDA, and free cash flow equal to 62.5% of EBITDA. The industry benchmark is 14% EBITDA (11% EBIT plus 3% D&A), 58% COGS, and approximately 28% SG&A; industry COGS consists of 90% raw material and 10% packaging.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "FF's stated 10% EBITDA margin trails the 14% industry benchmark. Its COGS is 66% of revenue, about eight percentage points above the 58% benchmark, making product and packaging cost the priority. FF's 23% SG&A is below the approximately 28% benchmark. The printed income statement is internally inconsistent: $50M - $33M - $11.5M equals $5.5M EBITDA, not $5M.",
+   "good_answer_signals": [
+    "Calculates cost and margin percentages",
+    "Prioritizes COGS diligence",
+    "Notices the internal EBITDA arithmetic issue"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What cost savings are available in FF's product mix, and what would they do to EBITDA and free cash flow?",
+   "release_when": "Provide Exhibit 2 when the candidate asks to understand COGS.",
+   "info_to_release": "Revenue mix by product is black pepper 26%, cloves 6%, coriander 11%, cumin 8%, oregano 15%, paprika 4%, saffron 5%, sage 6%, thyme 11%, other 8%. Cost mix is 20%, 5%, 7%, 8%, 12%, 5%, 9%, 4%, 8%, 6%, and packaging 16%. SI believes saffron cost can be reduced by one-third. Industry packaging is 10% of COGS.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Reducing packaging from 16% to 10% of $33M COGS saves $1.98M. Reducing saffron's 9% cost share by one-third saves $0.99M, for total savings of $2.97M. Correcting the starting arithmetic gives EBITDA of $5.5M, so improved EBITDA is $8.47M (16.94% of revenue) and FCF at 62.5% is $5.29375M (10.5875% of revenue). The book rounds from its printed $5M EBITDA to $8M and $5M FCF.",
+   "good_answer_signals": [
+    "Finds both packaging and saffron savings",
+    "Uses COGS—not revenue—as the savings base",
+    "Flows savings through EBITDA and FCF",
+    "Flags rather than hides the book inconsistency"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Using projected revenue and a 10× EBITDA exit, what total value will SI receive over four years, and does it clear the 2× MOIC hurdle?",
+   "release_when": "Provide Exhibit 3 once the candidate has established the value equation and improved margins.",
+   "info_to_release": "Projected revenue is $55M in 2021, $61M in 2022, $69M in 2023, and $80M in 2024. The exit multiple is 10× 2024 EBITDA. No discounting is required.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Using the corrected 16.94% EBITDA margin and 10.5875% FCF margin, four-year FCF is approximately $28.06M and exit value is $135.52M, for total projected value of about $163.58M and a 2.18× MOIC. This clears the $150M hurdle. The book instead uses rounded 16% EBITDA and 10% FCF margins to obtain $26.5M FCF + $128M exit value = $154.5M, or 2.06×.",
+   "good_answer_signals": [
+    "Adds all four years of FCF and the exit value",
+    "Uses 2024 EBITDA for the 10× terminal value",
+    "Compares total value with $150M",
+    "Does not discount cash flows"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Seasoned Investors acquire Favored Flavors?",
+   "expected_answer": "Proceed, subject to diligence on the inconsistent income statement and achievability of packaging and saffron savings. Corrected economics imply about $163.6M total value and a 2.18× MOIC, above the $150M hurdle; even the book's conservative rounded case produces $154.5M and 2.06×. Key risks are consumer and channel shifts, sustainable-sourcing requirements, trade restrictions, interest rates and exit conditions, and failure to execute the cost plan. Next steps are financial-quality review, customer and market research, and a post-acquisition cost-reduction plan.",
+   "good_answer_signals": [
+    "Makes a clear acquire recommendation tied to MOIC",
+    "Treats cost savings and source-data quality as diligence conditions",
+    "Names market, macro, and execution risks",
+    "Proposes a concrete post-close plan"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "FF Income Statement and Industry Benchmark",
+   "page": 147,
+   "kind": "bar",
+   "description": "FF's 2020 income statement beside an industry-average cost breakdown.",
+   "data": {
+    "columns": [
+     "Metric",
+     "FF 2020",
+     "Industry benchmark"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      "$50M",
+      ""
+     ],
+     [
+      "COGS",
+      "$33M / 66% of revenue",
+      "58% of revenue"
+     ],
+     [
+      "SG&A",
+      "23% of revenue / $11.5M",
+      "approximately 28%"
+     ],
+     [
+      "EBITDA",
+      "$5M stated / 10%",
+      "14%"
+     ],
+     [
+      "Free cash flow",
+      "62.5% of EBITDA",
+      ""
+     ],
+     [
+      "COGS packaging share",
+      "See Exhibit 2",
+      "10%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-spice-up-your-life/p147.webp",
+   "key_insight": "FF's main benchmark gap is COGS, while SG&A is comparatively lean; the stated EBITDA does not reconcile to the listed revenue and costs.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Revenue and Cost by Product Mix",
+   "page": 149,
+   "kind": "bar",
+   "description": "Percentage mix of FF's $50M revenue and $33M COGS by spice, with packaging separately identified in the cost mix.",
+   "data": {
+    "columns": [
+     "Category",
+     "Revenue mix",
+     "Cost mix"
+    ],
+    "rows": [
+     [
+      "Black pepper",
+      "26%",
+      "20%"
+     ],
+     [
+      "Cloves",
+      "6%",
+      "5%"
+     ],
+     [
+      "Coriander",
+      "11%",
+      "7%"
+     ],
+     [
+      "Cumin",
+      "8%",
+      "8%"
+     ],
+     [
+      "Oregano",
+      "15%",
+      "12%"
+     ],
+     [
+      "Paprika",
+      "4%",
+      "5%"
+     ],
+     [
+      "Saffron",
+      "5%",
+      "9%"
+     ],
+     [
+      "Sage",
+      "6%",
+      "4%"
+     ],
+     [
+      "Thyme",
+      "11%",
+      "8%"
+     ],
+     [
+      "Other",
+      "8%",
+      "6%"
+     ],
+     [
+      "Packaging",
+      "",
+      "16%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-spice-up-your-life/p149.webp",
+   "key_insight": "Packaging exceeds the 10% industry share and saffron costs exceed saffron revenue, producing $2.97M of identified savings.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Projected Revenue Growth",
+   "page": 151,
+   "kind": "line",
+   "description": "Projected FF revenue from 2020 through the 2024 exit year.",
+   "data": {
+    "columns": [
+     "Year",
+     "Revenue (USD M)"
+    ],
+    "rows": [
+     [
+      2020,
+      50
+     ],
+     [
+      2021,
+      55
+     ],
+     [
+      2022,
+      61
+     ],
+     [
+      2023,
+      69
+     ],
+     [
+      2024,
+      80
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-spice-up-your-life/p151.webp",
+   "key_insight": "Revenue is projected to reach $80M by exit, supporting both rising interim cash flow and a larger EBITDA-based sale value.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is FF's current EBITDA from the printed revenue and cost lines?",
+   "givens": [
+    "Revenue $50M",
+    "COGS $33M",
+    "SG&A 23% of revenue = $11.5M"
+   ],
+   "steps": [
+    "SG&A = 23% × $50M = $11.5M",
+    "EBITDA = $50M - $33M - $11.5M = $5.5M"
+   ],
+   "answer": "$5.5 million EBITDA",
+   "answer_value": 5.5,
+   "unit": "USD millions",
+   "verified": false,
+   "book_answer_if_different": "The book prints EBITDA of $5M, but its stated formula and line items calculate to $5.5M."
+  },
+  {
+   "id": "m2",
+   "question": "What are the identified cost savings and corrected improved EBITDA and FCF?",
+   "givens": [
+    "COGS $33M",
+    "Packaging share 16% versus 10% benchmark",
+    "Saffron cost share 9%, reducible by one-third",
+    "Corrected starting EBITDA $5.5M",
+    "FCF is 62.5% of EBITDA"
+   ],
+   "steps": [
+    "Packaging savings = (16%-10%) × $33M = $1.98M",
+    "Saffron savings = 9% × one-third × $33M = $0.99M",
+    "Total savings = $2.97M",
+    "Improved EBITDA = $5.5M + $2.97M = $8.47M",
+    "Improved FCF = 62.5% × $8.47M = $5.29375M"
+   ],
+   "answer": "$2.97 million savings, $8.47 million improved EBITDA, and $5.29375 million FCF",
+   "answer_value": 5.29375,
+   "unit": "USD millions FCF",
+   "verified": false,
+   "book_answer_if_different": "The book rounds savings to $3M, adds them to its printed $5M EBITDA to obtain $8M, and calculates $5M FCF. Correcting the starting EBITDA and retaining exact savings yields $8.47M EBITDA and $5.29375M FCF."
+  },
+  {
+   "id": "m3",
+   "question": "What is the corrected total projected value and MOIC?",
+   "givens": [
+    "Revenue 2021-2024: $55M, $61M, $69M, $80M",
+    "Corrected EBITDA margin 16.94%",
+    "Corrected FCF margin 10.5875%",
+    "Exit at 10× 2024 EBITDA",
+    "Purchase price $75M"
+   ],
+   "steps": [
+    "Four-year FCF = 10.5875% × ($55M+$61M+$69M+$80M) = $28.056875M",
+    "2024 EBITDA = 16.94% × $80M = $13.552M",
+    "Exit value = 10 × $13.552M = $135.52M",
+    "Total projected value = $28.056875M + $135.52M = $163.576875M",
+    "MOIC = $163.576875M ÷ $75M = 2.18×"
+   ],
+   "answer": "Approximately $163.58 million total value and 2.18× MOIC",
+   "answer_value": 163.576875,
+   "unit": "USD millions",
+   "verified": false,
+   "book_answer_if_different": "The book uses rounded 10% FCF and 16% EBITDA margins: $26.5M total FCF + $128M exit value = $154.5M total projected value, or 2.06× MOIC."
+  }
+ ],
+ "synthesis": "Seasoned Investors should acquire Favored Flavors, conditional on financial diligence and a credible cost-reduction plan. Correcting the book's EBITDA arithmetic and applying the identified $1.98M packaging and $0.99M saffron savings yields approximately $163.58M of four-year cash flow plus exit value, or 2.18× the $75M purchase price. Even the book's rounded case clears the hurdle at $154.5M and 2.06×. SI should verify the source financials, validate the 10× exit multiple, research customers and market trends, and prepare the packaging and saffron initiatives before close. Risks include cost-savings underdelivery, trade restrictions, channel and consumer shifts, sustainability expectations, higher financing costs, and weaker exit conditions.",
+ "what_great_looks_like": [
+  "Sets up the 2× MOIC decision equation before calculating",
+  "Carries information accurately across three exhibits",
+  "Finds packaging and saffron savings from the correct COGS base",
+  "Catches and transparently handles the printed EBITDA inconsistency",
+  "Combines cash flow and exit value and gives a conditional investment recommendation"
+ ],
+ "common_pitfalls": [
+  "Uses DCF despite the explicit MOIC instruction",
+  "Benchmarks SG&A before investigating the larger COGS gap",
+  "Calculates packaging savings from revenue instead of COGS",
+  "Forgets to include all four years of FCF",
+  "Applies the exit multiple to revenue or FCF rather than 2024 EBITDA",
+  "Silently adopts the book's incorrect $5M EBITDA"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "The source contains a material arithmetic inconsistency: $50M revenue - $33M COGS - $11.5M SG&A = $5.5M, not the printed $5M EBITDA. Corrected results are used in answer fields and the book's $154.5M valuation is quoted in book_answer_if_different. The investment decision is unchanged. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

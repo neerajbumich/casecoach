@@ -1,0 +1,544 @@
+{
+ "id": "stern-2022-cups",
+ "title": "Cups",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  197,
+  211
+ ],
+ "author": "Kamini Khanjee (Stern ’20) & Connie Meltzer (Stern ’20)",
+ "case_type": [
+  "New Product/GTM",
+  "Pricing",
+  "Profitability"
+ ],
+ "case_type_source_label": "Product Launch, Profitability",
+ "industry": "cpg",
+ "sub_industry": "personal-care",
+ "industry_source_label": "Consumer Packaged Goods",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 7 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "market-sizing",
+  "cannibalization",
+  "pricing",
+  "willingness-to-pay",
+  "product-launch",
+  "sustainability",
+  "complementary-products"
+ ],
+ "concepts_tested": [
+  "Market Sizing",
+  "Profitability",
+  "Pricing"
+ ],
+ "prompt": "Your client is Proctor & Gamble, which owns Tampax and Always, leading menstrual product brands in the US. With the rise in sustainability-focused products, P&G’s in-house R&D team has developed a hypoallergenic and eco-friendly high-grade silicone material for use in upcoming product launches. They are interested in using the material to make menstrual cups to add to their line of consumer care products. Should they sell the silicone menstrual cups?",
+ "clarifying_info": [
+  {
+   "question_topic": "Success criteria",
+   "answer": "P&G will manufacture and sell if at least 10% of customers interested in purchasing cups are willing to pay the required price and cannibalization does not negatively affect sales."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Standalone brands include Diva Cup, Softcup, Blossom, Saalt and Lena."
+  },
+  {
+   "question_topic": "Product life and investment",
+   "answer": "The cup is environmentally friendly and lasts an average of 5 years before recycling. R&D investment is $12 million. The compound discount rate for the entire 5-year period is 10%."
+  },
+  {
+   "question_topic": "Existing brands",
+   "answer": "P&G owns Tampax tampons and Always pads, so switching may cannibalize its existing sales."
+  }
+ ],
+ "interviewer_notes": "The case builds sequentially from market sizing to survey interpretation, cannibalization pricing, willingness to pay and marketing. Allow rounded market math. Use candidate Exhibit A on page 207, not its guidance copy on page 201. Assume each captured customer buys all products in the old or complementary basket. Redirect to 16.5 million addressable customers and 10% first-year capture if needed. After the candidate acknowledges discounting, the source directs giving $675 million cannibalized PV and $637.5 million complementary PV. Preserve both; page 203 mistakenly says to acknowledge 5%, although its formula and the initial clarification use a 10% compound rate over the whole 5-year period. The book’s simplified discount convention is not an annual 10% annuity. Exhibit D totals and population definitions are inconsistent; retain printed numbers but assess the labeled bars separately. The calculation protects revenue plus R&D recovery, not fully modeled manufacturing profit.",
+ "suggested_framework": {
+  "summary": "Assess adoption and market size, set a price that offsets lost legacy sales net of complements, then test demand and launch execution.",
+  "tree": {
+   "label": "Launch a P&G menstrual cup?",
+   "children": [
+    {
+     "label": "Market and demand",
+     "children": [
+      {
+       "label": "Eligible population and willingness to switch"
+      },
+      {
+       "label": "Willingness to pay and competitor prices"
+      },
+      {
+       "label": "Market capture and saturation"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Legacy product cannibalization"
+      },
+      {
+       "label": "Complementary product revenue"
+      },
+      {
+       "label": "Cup price, lifespan, R&D and manufacturing costs"
+      }
+     ]
+    },
+    {
+     "label": "Marketing",
+     "children": [
+      {
+       "label": "Sustainability and lifetime consumer savings"
+      },
+      {
+       "label": "Target segments, portability and ease of use"
+      },
+      {
+       "label": "Retail and direct channels"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Adoption and purchasing-frequency assumptions"
+      },
+      {
+       "label": "Competitive entry and alternative material uses"
+      },
+      {
+       "label": "Revenue protection versus actual profitability"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess whether P&G should launch the cup?",
+   "release_when": "After the prompt; provide success criteria and product information on request.",
+   "info_to_release": "The product lasts 5 years, R&D is $12 million and the total compound discount rate for that 5-year period is 10%. At least 10% of interested customers must accept the price, and cannibalization must not reduce sales.",
+   "exhibit_ids": [],
+   "expected_answer": "Estimate the potential market and adoption, compare consumer willingness to pay and competitor pricing, then offset lost legacy sales with cup and complementary-product revenue. Account for the reusable product’s lifetime and R&D. Assess manufacturing economics, marketing, channel fit and competitor response before final commitment.",
+   "good_answer_signals": [
+    "Recognizes that sustainability can both attract buyers and displace existing P&G purchases.",
+    "Distinguishes revenue protection from profit breakeven."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "Calculate the US market size for the cup.",
+   "release_when": "Provide sizing assumptions as requested; rounding is permitted.",
+   "info_to_release": "US population 330 million; female population 165 million. Assume ages evenly distributed from 0 to 80 and menstruation from 10 to 50. Initial willingness to use is 10%. Comparable cup price is $40. First-year capture scenarios are aggressive 10% and conservative 5%.",
+   "exhibit_ids": [],
+   "expected_answer": "The 40-year age span represents half of 165 million, or 82.5 million potential users. At 10% adoption, 8.25 million are willing to use cups. At $40 each, this is a $330 million one-cup market opportunity; first-year revenue at 10% or 5% capture is $33 million or $16.5 million. Do not treat the whole reusable-cup market value as recurring annual replacement sales.",
+   "good_answer_signals": [
+    "Separates eligible users, willing users and captured buyers.",
+    "Uses the stated lifespan when interpreting the market value."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "How should Exhibit A change the market estimate?",
+   "release_when": "After the initial sizing, show the clean candidate survey exhibit.",
+   "info_to_release": "The survey was sent to about 64 million US women aged 18–50; 3.2 million responded, a 5% response rate. P&G considers it representative. Responses are 30% not at all likely, 20% unlikely, 40% neutral, 5% likely and 5% very likely. P&G believes it can convert one quarter of neutral respondents and capture 10% of the resulting market in year 1.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Already willing users are 10%; converting 25% of the 40% neutral group adds 10 percentage points, for 20% willingness. Under the book’s extrapolation to the earlier 82.5 million population, the addressable base becomes 16.5 million and market value $660 million. First-year revenue at the comparable $40 price is $66 million at 10% capture or $33 million at 5%. Note that applying an 18–50 survey to the earlier 10–50 sizing group is an assumption, not demonstrated representativeness.",
+   "good_answer_signals": [
+    "Adds a quarter of neutral responses rather than all neutral respondents.",
+    "Distinguishes the 20% willingness rate from 10% company capture."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibits B and C, what cup price offsets cannibalized sales and R&D after complementary-product revenue?",
+   "release_when": "Show both product tables. Give the source PV amounts only after the candidate raises discounting.",
+   "info_to_release": "Use 16.5 million addressable customers and 10% capture, or 1.65 million buyers. Assume each buys every listed basket product. Legacy annual purchase frequencies are tampons 10, pads 2, liners 1; complementary frequencies are discs 2, wash 4, wipes 4. Round prices as the source does: legacy annual spend $90, complementary spend $85. Gross up over 5 years. The source directs release of $675 million cannibalized PV and $637.5 million complementary PV. Its page 203 instruction mentions 5%, inconsistently with the stated 10% period rate. Include $12 million R&D.",
+   "exhibit_ids": [
+    "exB",
+    "exC"
+   ],
+   "expected_answer": "Rounded annual old-product spending is $70 + $14 + $6 = $90; complementary spending is $30 + $28 + $27 = $85. At 1.65 million users, annual amounts are $148.5 million and $140.25 million. Five-year totals are $742.5 million and $701.25 million; divide each by 1.10 under the source’s compound-period convention to obtain the supplied $675 million and $637.5 million. Required cup receipts are $675 million + $12 million − $637.5 million = $49.5 million, or $30 per cup. Exact unrounded exhibit prices imply $29.6818; $30 is consistent with authorized rounding. This is a sales-offset price, not a proven profit price because cup production and selling costs are absent.",
+   "good_answer_signals": [
+    "Uses pack purchase prices and annual purchase frequency, not per-piece prices.",
+    "Preserves both complementary revenue and cannibalized revenue in the comparison.",
+    "Flags the inconsistent 5% instruction instead of changing supplied PV values silently."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Does Exhibit D show enough customers willing to pay the required price?",
+   "release_when": "Show Exhibit D after the pricing calculation.",
+   "info_to_release": "The exhibit labels respondent counts in thousands and prints total respondents of 1,620, with a 5% response rate. All respondents in a price band will pay any price within that band. Include bands $21–30, $31–40 and $40+ at a $30 price. Convert 25% of neutral respondents. The source threshold is 10% of 1,620 thousand, or 162,000.",
+   "exhibit_ids": [
+    "exD"
+   ],
+   "expected_answer": "Eligible neutral respondents are 260 + 156 + 104 = 520 thousand; one quarter is 130 thousand. Likely respondents total 40 + 24 + 16 = 80 thousand and very likely 40 + 32 + 16 = 88 thousand. Expected buyers total 298,000, above the source’s 162,000 threshold. However, all labeled bars sum to 1,612,000, not 1,620,000; the corrected 10% threshold from those bars is 161,200, also passed. Expected buyers represent 18.49% of the bar-sum sample. The second survey’s relationship to the earlier 3.2 million respondent sample is not explained, so retain that limitation rather than inventing a reconciliation.",
+   "good_answer_signals": [
+    "Includes the entire $21–30 band under the source’s explicit within-band assumption.",
+    "Converts only one quarter of neutrals.",
+    "Checks the inconsistent sample total and confirms it does not change the decision."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "How should P&G market the cup and incorporate sustainability into its other menstrual products?",
+   "release_when": "After evaluating launch feasibility.",
+   "info_to_release": "Consumers are increasingly interested in sustainability. Consider both cup and non-cup products.",
+   "exhibit_ids": [],
+   "expected_answer": "For cups, organize around the four Ps: emphasize ease of use and new material; price using willingness to pay and the sales-offset calculation; sell through pharmacies and direct-to-consumer channels; promote sustainability, lifetime savings and influencers. For non-cup products, consider biodegradable materials, less packaging, ingredient transparency and organic offerings; maintain familiar quality and price positioning; use pharmacies, online retailers and grocery stores; and build sustainability-focused campaigns.",
+   "good_answer_signals": [
+    "Separates reusable-cup promotion from changes to existing products.",
+    "Connects messaging to the neutral group’s conversion opportunity."
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "Should P&G sell the cup, at what price, and with what next steps?",
+   "release_when": "At the end; require a clear evidence-based position.",
+   "info_to_release": "No manufacturing-cost or additional margin data is supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "Support a conditional launch at approximately $30, which offsets modeled cannibalized sales and R&D after complementary sales. The adjusted willing-user market is 16.5 million and the captured cohort 1.65 million. The willingness-to-pay calculation gives 298,000 expected purchasers in the exhibited sample, exceeding both the printed 162,000 and corrected 161,200 thresholds. Validate survey consistency, age extrapolation, adoption, complement purchases and manufacturing economics before committing. Risks include excessive cannibalization, inaccurate frequencies, lower capture and more profitable uses of the silicone material. Develop production and marketing plans, retailer promotions and shelf placement; consider additional markets and the source’s one-for-one donation idea.",
+   "good_answer_signals": [
+    "States price, adoption basis and caveats together.",
+    "Does not equate a revenue-offset model with established profit."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Customer Willingness to Change to a Menstrual Cup",
+   "page": 207,
+   "kind": "pie",
+   "description": "Five response categories; survey response rate 5%. The clean candidate page excludes the guidance shown on page 201.",
+   "data": {
+    "columns": [
+     "Response",
+     "Share (%)"
+    ],
+    "rows": [
+     [
+      "Not at all likely",
+      30
+     ],
+     [
+      "Unlikely",
+      20
+     ],
+     [
+      "Neither likely nor unlikely",
+      40
+     ],
+     [
+      "Likely",
+      5
+     ],
+     [
+      "Very likely",
+      5
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-cups/p207.webp",
+   "key_insight": "The neutral 40% is the key marketing opportunity; converting a quarter doubles the initially willing share.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exB",
+   "title": "Current Menstrual Care Product Sales",
+   "page": 208,
+   "kind": "table",
+   "description": "Pack prices, quantities, displayed per-piece rates and annual purchase frequencies for the existing product basket.",
+   "data": {
+    "columns": [
+     "Product",
+     "Pack price (USD)",
+     "Units/pack",
+     "Displayed price/unit (USD)",
+     "Annual purchase frequency"
+    ],
+    "rows": [
+     [
+      "Tampons",
+      6.99,
+      28,
+      0.25,
+      10
+     ],
+     [
+      "Pads",
+      6.99,
+      46,
+      0.15,
+      2
+     ],
+     [
+      "Liners",
+      5.99,
+      100,
+      0.06,
+      1
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-cups/p208.webp",
+   "key_insight": "Annual spending is purchase frequency times pack price, not the rounded per-piece rate.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Estimated Complementary Product Sales",
+   "page": 209,
+   "kind": "table",
+   "description": "Inputs for single-use discs, wash and wipes sold alongside the reusable cup.",
+   "data": {
+    "columns": [
+     "Product",
+     "Pack price (USD)",
+     "Units/pack",
+     "Displayed price/unit (USD)",
+     "Annual purchase frequency"
+    ],
+    "rows": [
+     [
+      "Single-use discs",
+      14.99,
+      12,
+      1.25,
+      2
+     ],
+     [
+      "Wash",
+      6.99,
+      1,
+      6.99,
+      4
+     ],
+     [
+      "Wipes",
+      6.75,
+      10,
+      0.68,
+      4
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-cups/p209.webp",
+   "key_insight": "The model assumes every captured user buys the whole complementary basket; realizing this revenue is important to the price result.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exD",
+   "title": "Customer Willingness to Pay for Menstrual Cup",
+   "page": 210,
+   "kind": "bar",
+   "description": "Counts are in thousands. The source footnote prints total survey respondents 1,620 and a 5% response rate; labeled bars actually sum to 1,612 thousand. The printed aggregate is excluded from the input table.",
+   "data": {
+    "columns": [
+     "Price band (USD)",
+     "Neutral (thousands)",
+     "Likely (thousands)",
+     "Very likely (thousands)"
+    ],
+    "rows": [
+     [
+      "$10–20",
+      780,
+      80,
+      64
+     ],
+     [
+      "$21–30",
+      260,
+      40,
+      40
+     ],
+     [
+      "$31–40",
+      156,
+      24,
+      32
+     ],
+     [
+      "$40+",
+      104,
+      16,
+      16
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-cups/p210.webp",
+   "image_has_answers": false,
+   "key_insight": "At $30, the top three price bands provide enough projected purchasers even after only 25% of neutrals convert; the printed sample total is inconsistent.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the initial market opportunity?",
+   "givens": [
+    "165 million females uniformly aged 0–80",
+    "Eligible ages 10–50",
+    "10% willingness",
+    "$40 comparable price",
+    "10% or 5% capture"
+   ],
+   "steps": [
+    "Eligible population = 165 million × 40/80 = 82.5 million.",
+    "Willing users = 82.5 million × 10% = 8.25 million.",
+    "One-cup market = 8.25 million × $40 = $330 million; first-year captured revenue $33 million or $16.5 million."
+   ],
+   "answer": "8.25 million initially willing users and a $330 million one-cup market opportunity.",
+   "answer_value": 330000000,
+   "unit": "USD market opportunity",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How does neutral conversion change the market?",
+   "givens": [
+    "82.5 million eligible users",
+    "10% initially likely/very likely",
+    "40% neutral; convert 25%",
+    "$40 price",
+    "10% or 5% company capture"
+   ],
+   "steps": [
+    "Willingness = 10% + 40% × 25% = 20%.",
+    "Willing users = 82.5 million × 20% = 16.5 million; market = $660 million.",
+    "10% capture = 1.65 million users and $66 million first-year revenue; 5% capture gives $33 million."
+   ],
+   "answer": "16.5 million willing users and $660 million potential one-cup sales under the source extrapolation.",
+   "answer_value": 16500000,
+   "unit": "willing users",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the PV of displaced legacy sales?",
+   "givens": [
+    "Rounded basket $7 × 10 tampons, $7 × 2 pads, $6 × 1 liners",
+    "1.65 million captured users",
+    "5 years",
+    "10% compound discount over the entire period"
+   ],
+   "steps": [
+    "Rounded annual spending = $70 + $14 + $6 = $90.",
+    "Annual sales = 1.65 million × $90 = $148.5 million; 5-year sales = $742.5 million.",
+    "Source-convention PV = $742.5 million / 1.10 = $675 million.",
+    "Exact pack prices give $89.87 annually and $674.025 million PV; rounding is explicitly authorized."
+   ],
+   "answer": "$675 million source-rounded displaced-sales PV.",
+   "answer_value": 675000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is complementary revenue PV and the resulting cup price?",
+   "givens": [
+    "Rounded complementary basket: $15 × 2 discs, $7 × 4 wash, $6.75 × 4 wipes",
+    "1.65 million buyers",
+    "5-year life and 10% total-period discount",
+    "$675 million displaced PV and $12 million R&D"
+   ],
+   "steps": [
+    "Annual complementary spending = $30 + $28 + $27 = $85; annual revenue = $140.25 million.",
+    "Five-year revenue = $701.25 million; PV = $701.25 million / 1.10 = $637.5 million.",
+    "Required cup receipts = $675 million + $12 million − $637.5 million = $49.5 million.",
+    "Price = $49.5 million / 1.65 million = $30.",
+    "Exact complementary spending is $84.94, PV $637.05 million; using exact legacy prices too gives a $29.681818 price, consistent with rounding to $30."
+   ],
+   "answer": "$30 per cup under authorized rounded inputs. The $637.5 million PV uses 10%, not the conflicting 5% wording in one interviewer note.",
+   "answer_value": 30,
+   "unit": "USD/cup",
+   "verified": false,
+   "book_answer_if_different": "Page 203 instructs acknowledging a '5% discount rate' while supplying $637.5M. Its own equation and the initial clarification use 10% for the five-year period. The supplied PV and $30 answer are retained under that coherent 10% convention; the 5% instruction is inconsistent."
+  },
+  {
+   "id": "m5",
+   "question": "Does willingness to pay exceed the required share?",
+   "givens": [
+    "Bands at $21 or higher: neutral 260/156/104 thousand; likely 40/24/16 thousand; very likely 40/32/16 thousand",
+    "Neutral conversion 25%",
+    "Required fraction 10%",
+    "Source printed total 1,620 thousand; all bar values are in Exhibit D"
+   ],
+   "steps": [
+    "Converted neutrals = (260 + 156 + 104) × 25% = 130 thousand.",
+    "Likely = 80 thousand; very likely = 88 thousand; expected buyers = 298 thousand.",
+    "Printed-total threshold = 1,620 × 10% = 162 thousand.",
+    "All labeled bars sum to 1,612 thousand; corrected threshold = 161.2 thousand; expected buyer fraction = 298/1,612 × 100 = 18.486352%.",
+    "298 thousand exceeds either threshold, so the source launch test still passes."
+   ],
+   "answer": "298,000 projected purchasers exceed the corrected 161,200 threshold and the source’s 162,000 threshold.",
+   "answer_value": 298000,
+   "unit": "projected purchasers in survey",
+   "verified": false,
+   "book_answer_if_different": "Exhibit D and the solution use 1,620 thousand total respondents and a 162 thousand threshold. The labeled bars sum to 1,612 thousand, implying a 161.2 thousand threshold. The 298 thousand purchaser calculation is correct."
+  }
+ ],
+ "synthesis": "Conditionally launch at about $30 under the source’s simplified sales-offset model. The adjusted willing-user base is 16.5 million, with 1.65 million captured users assumed. Cannibalized-sales PV of $675 million plus $12 million R&D, less $637.5 million complementary-sales PV, requires $49.5 million cup receipts. The survey projects 298,000 purchasers, exceeding the corrected 161,200 threshold as well as the printed 162,000. Reconcile the sample inconsistency and age extrapolation, validate complementary purchases and manufacturing economics, and develop a sustainability-focused marketing and retail plan. This does not establish full profit breakeven because production and selling costs are absent.",
+ "what_great_looks_like": [
+  "Carries each earlier result into the next stage with organized math.",
+  "Separates willingness to use from company capture and willingness to pay.",
+  "Accounts for cannibalization and complementary products over the cup’s life.",
+  "Identifies source inconsistencies without hiding the given numbers.",
+  "Develops creative sustainability marketing for both cup and legacy products."
+ ],
+ "common_pitfalls": [
+  "Counting every neutral respondent as a buyer.",
+  "Using per-piece price instead of pack price with purchase frequency.",
+  "Treating the total-period 10% discount as an annual annuity rate without changing the source convention explicitly.",
+  "Confusing thousands of survey responses with individual responses.",
+  "Using the printed survey total without checking its bars.",
+  "Calling the revenue-offset price a complete profitability result."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Dedup returned NEW. Candidate Exhibit A is page 207, not guidance page 201; other exhibits are pages 208–210. The source permits price rounding, yielding $30 versus $29.681818 with exact pack prices. Initial clarification explicitly defines a 10% compound rate for the full five-year period, so dividing totals by 1.10 follows that convention; page 203's 5% instruction conflicts and is preserved in release information. Exhibit D bar counts total 1.612 million, not printed 1.620 million; corrected threshold 161,200 versus printed 162,000 does not change the 298,000 purchaser decision. Its relationship to the earlier 3.2 million survey is unexplained, and ages 18–50 are extrapolated to ages 10–50. The total-bearing Exhibit D image is conservatively flagged; data contains only bar inputs. Source success criterion is revenue protection plus R&D, with no complete manufacturing-margin model. These inconsistencies warrant medium confidence. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry",
+   "sub_industry",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework grouping",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis conditional-launch and profitability caveats"
+  ]
+ }
+}

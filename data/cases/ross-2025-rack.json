@@ -1,0 +1,529 @@
+{
+ "id": "ross-2025-rack",
+ "title": "Rack+",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  109,
+  119
+ ],
+ "variant_group_id": "ross-2025-rack",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Entertainment & Media | Profitability / Cost Optimization",
+ "industry": "media-streaming",
+ "sub_industry": "sports-media",
+ "industry_source_label": "Entertainment & Media",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 2, Overall - 2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "avod",
+  "svod",
+  "monetization-model",
+  "media-streaming",
+  "profitability",
+  "market-expansion",
+  "cpm-fill-rate"
+ ],
+ "concepts_tested": [
+  "revenue modeling",
+  "cost structure comparison",
+  "qualitative market comparison"
+ ],
+ "prompt": "Rack+ is a newly launched venture that recently secured exclusive streaming rights to professional pickleball tournaments from the USA Pickleball Association. Pickleball has experienced explosive growth in the US over the past five years, and the company is eager to capitalize on this momentum by launching a new streaming platform focused on showcasing pickleball content. With distribution being a critical success factor, Rack+ is evaluating two potential monetization models: AVOD (Advertising Video-On-Demand): A free, ad-supported model similar to YouTube; SVOD (Subscription Video-On-Demand): A paid subscription model, akin to Netflix. In addition, the company is also considering expanding into other sports as a way to scale its platform and accelerate growth. The CEO of Rack+ has hired your consulting firm to help answer two key questions: Which monetization model would best position the company for long-term profitability and growth? Should Rack+ pursue expansion into other sports today? If so, which sport?",
+ "clarifying_info": [
+  {
+   "question_topic": "Primary goal of Rack+",
+   "answer": "Rack+ is focused on driving long-term profitability, with success being the ability to generate the highest net profit within the next two years."
+  },
+  {
+   "question_topic": "Target region",
+   "answer": "Rack+ is only focused on the U.S. region for now."
+  },
+  {
+   "question_topic": "AVOD/SVOD definitions",
+   "answer": "AVOD stands for Advertising Video On-Demand, where users can watch content for free with ads. SVOD stands for Subscription Video On-Demand, where users must pay a subscription to access content."
+  },
+  {
+   "question_topic": "Other sports under consideration",
+   "answer": "Rack+ is interested in exploring Tennis, Cricket, and Rugby."
+  },
+  {
+   "question_topic": "How Rack+ acquires sports content",
+   "answer": "Rack+'s strategy is to secure exclusive streaming rights through direct licensing agreements with event organizers or governing bodies, structured through upfront fees for exclusive access or Revenue Sharing Deals."
+  }
+ ],
+ "interviewer_notes": "A strong candidate should understand the objectives, then dive into the key questions at hand: AVOD vs SVOD profitability and the sports expansion strategy. The case tests structured revenue/cost comparison of two monetization models plus a qualitative market-attractiveness comparison for expansion.",
+ "suggested_framework": {
+  "summary": "Assess the current streaming market, compare AVOD vs SVOD profitability, then evaluate sports expansion strategy.",
+  "tree": {
+   "label": "Rack+ Monetization & Expansion",
+   "children": [
+    {
+     "label": "Current Streaming Market",
+     "children": [
+      {
+       "label": "Competitive Landscape",
+       "children": [
+        {
+         "label": "AVOD vs. SVOD players in niche sports streaming"
+        }
+       ]
+      },
+      {
+       "label": "Consumer Behavior & Trends",
+       "children": [
+        {
+         "label": "Demographics of streaming audiences"
+        },
+        {
+         "label": "Willingness to pay for streaming services"
+        }
+       ]
+      },
+      {
+       "label": "Content Consumption Channels",
+       "children": [
+        {
+         "label": "Viewership habits"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "AVOD vs SVOD Profitability",
+     "children": [
+      {
+       "label": "Revenue Potential",
+       "children": [
+        {
+         "label": "Market size for pickleball"
+        },
+        {
+         "label": "AVOD revenue (impressions, CPM, fill rate)"
+        },
+        {
+         "label": "SVOD revenue (subscription price, churn, LTV)"
+        }
+       ]
+      },
+      {
+       "label": "Expected Costs",
+       "children": [
+        {
+         "label": "User acquisition cost"
+        },
+        {
+         "label": "Tech costs"
+        },
+        {
+         "label": "Content acquisition costs"
+        },
+        {
+         "label": "SG&A"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Sports Expansion Strategy",
+     "children": [
+      {
+       "label": "Market Attractiveness",
+       "children": [
+        {
+         "label": "Size and growth of potential target sports"
+        },
+        {
+         "label": "Rights availability, costs, and competition"
+        }
+       ]
+      },
+      {
+       "label": "Strategic Fit & Synergies",
+       "children": [
+        {
+         "label": "Revenue synergies"
+        },
+        {
+         "label": "Cost synergies"
+        }
+       ]
+      },
+      {
+       "label": "Risk Assessment",
+       "children": [
+        {
+         "label": "Dilution/cannibalization"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Lay out how you would approach evaluating AVOD vs SVOD profitability and the sports expansion decision.",
+   "expected_answer": "Candidate structures around: current streaming market (competitive landscape, consumer behavior, content consumption), AVOD vs SVOD profitability (revenue potential, expected costs), and sports expansion strategy (market attractiveness, strategic fit/synergies, risk assessment).",
+   "good_answer_signals": [
+    "MECE structure separating the two core questions",
+    "identifies revenue and cost drivers for each monetization model",
+    "considers qualitative market factors for expansion"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Ask the candidate for their thoughts on Exhibit 1 (Digital Ad Spending in the US) when they request market data.",
+   "release_when": "When candidate asks about the digital advertising market or AVOD market context",
+   "info_to_release": "Exhibit 1: US digital ad spending growing from $309.31B (2024, +15.1% Y/Y) to $460.46B (2028, +9.2% Y/Y), with Y/Y growth rate decelerating but still near double digits through 2028.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidates should recognize the growth of Digital Ad Spending as favorable. While the growth rate is slowing slightly Y/Y, it is still growing at/near double-digits rate for the next four years. This is favorable for an AVOD monetization model.",
+   "good_answer_signals": [
+    "notes deceleration but still-strong absolute growth",
+    "connects trend to AVOD viability"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "clarify",
+   "interviewer_asks": "Provide additional streaming-market and AVOD/SVOD metric context only if probed.",
+   "release_when": "Only if probed by interviewer",
+   "info_to_release": "Currently there are no pickleball streaming competitors in the US market (Rack+ has exclusive rights). There are 40M US population in the Pickleball Ecosystem today (growth rate not provided). AVOD Revenue = Impressions x (CPM / 1,000) x Fill Rate. SVOD Revenue = Subscribers x Monthly Price. Fill Rate = % of ad requests resulting in a successful ad serving. CPM = Cost Per Mille, earnings per 1,000 impressions.",
+   "expected_answer": "Candidate incorporates the addressable market size (40M) and the revenue formulas into their analysis when relevant.",
+   "good_answer_signals": [
+    "asks about competitive landscape before assuming",
+    "asks for the revenue formulas before starting math"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What initial factors would you consider when evaluating AVOD vs. SVOD? Can you think of some benefits and disadvantages for each?",
+   "expected_answer": "AVOD Benefits: larger potential audience reach, lower user acquisition cost, faster user growth potential, leverages digital ad spend trends. AVOD Drawbacks: higher churn risk, CPM volatility, dependency on ad demand. SVOD Benefits: higher ARPU, avoids ad-related churn, increased stability. SVOD Drawbacks: higher user acquisition cost, price sensitivity/cancellation risk, high content expectations, lower reach & scale.",
+   "good_answer_signals": [
+    "structures AVOD and SVOD separately with benefits/drawbacks",
+    "ties points back to Rack+'s stated goal of maximizing 2-year net profit"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What is the profitability of AVOD vs. SVOD after 2 years? (Revenue side first)",
+   "info_to_release": "AVOD: Avg Year 1 MAU 1M, Avg Year 1 Impressions per MAU 20, CPM $20, Year 1 Fill Rate 80%, Expected Avg MAU Increase (Y/Y) 50%, Expected Impression per MAU Increase (Y/Y) 0%, Expected CPM Increase (Y/Y) 25%, Year 2 Fill Rate 80%. SVOD: Avg Year 1 Monthly Subscribers 50K, Avg Year 1 Subscription Price Per Month $8, Y/Y Avg Monthly Subscriber Increase 30K, Y/Y Churn % (from Avg Yr 1 Subscribers) 20%, Y/Y Subscription Price Increase 0%. Formulas provided only if asked: AVOD Revenue = Impressions x (CPM/1000) x Fill Rate; SVOD Revenue = Subscribers x Monthly Price.",
+   "exhibit_ids": [],
+   "expected_answer": "AVOD: Year 1 Revenue $3.84M, Year 2 Revenue $7.2M. SVOD: Year 1 Revenue $4.8M, Year 2 Revenue $6.72M (using 70K net subscribers in Year 2 = 50K + 30K growth - 10K churn).",
+   "good_answer_signals": [
+    "correctly nets churn against subscriber growth for SVOD",
+    "correctly compounds MAU and CPM growth for AVOD"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Now let's assume startup costs are the same for both models. Here are the operational costs for each (provided verbally). What is total profit for each model in Year 1 and Year 2?",
+   "info_to_release": "AVOD Costs (Year 1): User Acquisition $800K, SG&A $1.1M, Tech Stack $600K, Content Acquisition $1M (UA +12.5% and SG&A +$300K in Year 2, tech stack assumed flat). SVOD Costs (Year 1): User Acquisition $1.5M, SG&A $1.2M, Tech Stack $700K, Content Acquisition $1.6M (UA +33%, SG&A +25%, Content Acquisition +25% in Year 2, tech stack assumed flat).",
+   "expected_answer": "Book's stated solution: AVOD Year 1 Cost $3.4M, Year 2 Cost $3.9M, giving Total Profit of $0.44M (Yr1) and $3.2M (Yr2). SVOD Year 1 Cost $5.0M, Year 2 Cost $6.2M, giving Total Profit of ($0.2M) loss (Yr1) and $0.52M (Yr2).",
+   "good_answer_signals": [
+    "sums all four cost line items for each model/year",
+    "compares AVOD profitability advantage in both years",
+    "flags that SVOD starts at a loss in Year 1"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "exhibit",
+   "interviewer_asks": "Ask the candidate to evaluate Exhibit 2 (Alternative sports opportunities: Tennis, Cricket, Rugby) and recommend whether/which sport to expand into.",
+   "release_when": "When candidate reaches the sports-expansion question",
+   "info_to_release": "Exhibit 2: Tennis - Market Size $16B, Competition Medium, U.S. Interest 3/4 dots, Similarity to Pickleball 4/4 dots. Cricket - Market Size $3.5B, Competition Low, U.S. Interest 1/4 dots, Similarity to Pickleball 1/4 dots. Rugby - Market Size $3B, Competition Low, U.S. Interest 2/4 dots, Similarity to Pickleball 2/4 dots.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "There is no single correct answer; the goal is for candidates to read the chart, form a hypothesis, and support a recommendation based on tradeoffs. Tennis stands out with the largest market size (~$16B), high U.S. interest, and strong Pickleball affinity, making it the most natural extension for short-term growth. Strong candidates should also raise: content acquisition costs (tennis likely pricier), seasonality (tennis year-round vs. rugby seasonal), international growth potential of cricket/rugby (though Rack+ is US-only for now), platform brand strategy (tennis reinforces racquet-sports focus), and competitive landscape for each sport.",
+   "good_answer_signals": [
+    "forms a clear hypothesis using the exhibit's four dimensions",
+    "raises at least one additional consideration beyond the table (cost, seasonality, brand fit, competition)",
+    "recognizes the US-only scope limits the value of geographic diversification"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the Rack+ CEO?",
+   "expected_answer": "Pursue an AVOD-first monetization model and expand into Tennis as the first adjacent sport. AVOD is financially the better starting point, delivering positive profitability in Year 1 ($0.44M vs. a ($0.2M) loss for SVOD) and stronger scaling by Year 2 ($3.2M profit vs. $0.52M under SVOD); it also supports faster user acquisition by reducing friction to join. On expansion, the decision to add a new sport should be conditional on achieving early platform adoption goals; if initial traction is strong, Tennis is the logical next move given its large market, strong U.S. interest, and high affinity with Pickleball users.",
+   "good_answer_signals": [
+    "leads with a clear recommendation",
+    "supports with the Year 1/Year 2 profit comparison",
+    "makes sport expansion conditional rather than immediate"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Digital Ad Spending in the US",
+   "page": 112,
+   "kind": "bar",
+   "description": "Bar chart of US digital ad spending in billions from 2024-2028 with a Y/Y % change line overlay.",
+   "data": {
+    "columns": [
+     "Year",
+     "Digital Ad Spend ($B)",
+     "Y/Y % Change"
+    ],
+    "rows": [
+     [
+      "2024",
+      309.31,
+      "15.1%"
+     ],
+     [
+      "2025",
+      347.84,
+      "12.5%"
+     ],
+     [
+      "2026",
+      384.43,
+      "10.5%"
+     ],
+     [
+      "2027",
+      421.75,
+      "9.7%"
+     ],
+     [
+      "2028",
+      460.46,
+      "9.2%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-rack/p112.webp",
+   "key_insight": "Digital ad spending keeps growing at/near double-digit rates through 2028 despite decelerating Y/Y growth, favoring an AVOD monetization model.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Alternative sports opportunities",
+   "page": 117,
+   "kind": "table",
+   "description": "Comparison table of Tennis, Cricket, and Rugby across market size, competition, U.S. interest (dot scale), and similarity to Pickleball (dot scale).",
+   "data": {
+    "columns": [
+     "Sport",
+     "Market Size",
+     "Competition",
+     "U.S. Interest (of 4)",
+     "Similarity to Pickleball (of 4)"
+    ],
+    "rows": [
+     [
+      "Tennis",
+      "$16B",
+      "Medium",
+      3,
+      4
+     ],
+     [
+      "Cricket",
+      "$3.5B",
+      "Low",
+      1,
+      1
+     ],
+     [
+      "Rugby",
+      "$3B",
+      "Low",
+      2,
+      2
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-rack/p117.webp",
+   "key_insight": "Tennis has the largest market size, highest U.S. interest, and greatest similarity to Pickleball, making it the strongest expansion candidate among the three options.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "AVOD Year 1 and Year 2 revenue",
+   "givens": [
+    "Avg Year 1 MAU 1M",
+    "Avg Year 1 Impressions per MAU 20",
+    "CPM $20",
+    "Year 1 Fill Rate 80%",
+    "MAU Y/Y increase 50%",
+    "Impressions per MAU Y/Y increase 0%",
+    "CPM Y/Y increase 25%",
+    "Year 2 Fill Rate 80%"
+   ],
+   "steps": [
+    "Year 1: Revenue = MAU x Impressions/MAU x (CPM/1000) x Fill Rate x 12 months = 1M x 20 x ($20/1000) x 80% x 12",
+    "Year 1 = 20,000,000 impressions/mo x $0.02 x 0.8 x 12 = $3.84M",
+    "Year 2 MAU = 1M x 1.5 = 1.5M; CPM = $20 x 1.25 = $25",
+    "Year 2 = 1.5M x 20 x ($25/1000) x 80% x 12 = $7.2M"
+   ],
+   "answer": "Year 1 AVOD Revenue = $3.84M; Year 2 AVOD Revenue = $7.2M",
+   "answer_value": 7.2,
+   "unit": "$M (Year 2); Year 1 = $3.84M",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "SVOD Year 1 and Year 2 revenue",
+   "givens": [
+    "Avg Year 1 Monthly Subscribers 50K",
+    "Subscription Price $8/mo",
+    "Y/Y Avg Monthly Subscriber Increase 30K",
+    "Y/Y Churn 20% of Avg Yr1 Subscribers",
+    "Subscription price increase 0%"
+   ],
+   "steps": [
+    "Year 1: Revenue = 50K x $8 x 12 = $4.8M",
+    "Year 2 net subscribers = 50K + 30K growth - (20% x 50K churn = 10K) = 70K",
+    "Year 2: Revenue = 70K x $8 x 12 = $6.72M"
+   ],
+   "answer": "Year 1 SVOD Revenue = $4.8M; Year 2 SVOD Revenue = $6.72M",
+   "answer_value": 6.72,
+   "unit": "$M (Year 2); Year 1 = $4.8M",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "AVOD Year 1 operating costs",
+   "givens": [
+    "User Acquisition $800K/Yr",
+    "SG&A $1.1M/Yr",
+    "Tech Stack $600K/Yr",
+    "Content Acquisition $1M/Yr"
+   ],
+   "steps": [
+    "Sum all Year 1 AVOD cost line items using the cost table: $800K + $1.1M + $600K + $1M = $3.5M"
+   ],
+   "answer": "Year 1 AVOD Costs = $3.5M",
+   "answer_value": 3.5,
+   "unit": "$M",
+   "verified": false,
+   "book_answer_if_different": "Book states $3.4M, using a breakdown of $800K + $1.1M + $500K + $1M — the $500K figure is inconsistent with the $600K/Yr Tech Stack cost given in the cost table (Year 2's breakdown correctly uses $600K), so this appears to be a typo in the book."
+  },
+  {
+   "id": "m4",
+   "question": "AVOD Year 2 operating costs",
+   "givens": [
+    "Year 1 UA $800K increasing 12.5%",
+    "Year 1 SG&A $1.1M increasing by $300K",
+    "Tech Stack $600K/Yr (no stated change)",
+    "Content Acquisition $1M/Yr (no stated change)"
+   ],
+   "steps": [
+    "UA: $800K x 1.125 = $900K",
+    "SG&A: $1.1M + $300K = $1.4M",
+    "Tech Stack and Content Acquisition assumed flat at $600K and $1M",
+    "Total = $900K + $1.4M + $600K + $1M = $3.9M"
+   ],
+   "answer": "Year 2 AVOD Costs = $3.9M",
+   "answer_value": 3.9,
+   "unit": "$M",
+   "verified": true
+  },
+  {
+   "id": "m5",
+   "question": "SVOD Year 1 and Year 2 operating costs",
+   "givens": [
+    "Year 1: UA $1.5M, SG&A $1.2M, Tech Stack $700K, Content Acquisition $1.6M",
+    "Year 2: UA +33%, SG&A +25%, Content Acquisition +25%, Tech Stack flat"
+   ],
+   "steps": [
+    "Year 1 Total = $1.5M + $1.2M + $700K + $1.6M = $5.0M",
+    "Year 2 UA = $1.5M x 1.33 ≈ $2.0M",
+    "Year 2 SG&A = $1.2M x 1.25 = $1.5M",
+    "Year 2 Content Acquisition = $1.6M x 1.25 = $2.0M",
+    "Year 2 Total = $2.0M + $1.5M + $700K + $2.0M = $6.2M"
+   ],
+   "answer": "Year 1 SVOD Costs = $5.0M; Year 2 SVOD Costs = $6.2M",
+   "answer_value": 6.2,
+   "unit": "$M (Year 2); Year 1 = $5.0M",
+   "verified": true
+  },
+  {
+   "id": "m6",
+   "question": "Total profit by model and year (Revenue - Costs)",
+   "givens": [
+    "AVOD Revenue: Y1 $3.84M, Y2 $7.2M",
+    "AVOD Costs (recomputed): Y1 $3.5M, Y2 $3.9M",
+    "SVOD Revenue: Y1 $4.8M, Y2 $6.72M",
+    "SVOD Costs: Y1 $5.0M, Y2 $6.2M"
+   ],
+   "steps": [
+    "AVOD Y1 Profit = $3.84M - $3.5M = $0.34M",
+    "AVOD Y2 Profit = $7.2M - $3.9M = $3.3M",
+    "SVOD Y1 Profit = $4.8M - $5.0M = -$0.2M",
+    "SVOD Y2 Profit = $6.72M - $6.2M = $0.52M"
+   ],
+   "answer": "AVOD: Y1 profit $0.34M, Y2 profit $3.3M. SVOD: Y1 loss $0.2M, Y2 profit $0.52M. AVOD outperforms SVOD in both years.",
+   "answer_value": 3.3,
+   "unit": "$M (AVOD Year 2 profit)",
+   "verified": false,
+   "book_answer_if_different": "Book states AVOD Year 1 Profit = $0.44M (from its $3.4M cost figure) and AVOD Year 2 Profit = $3.2M (though its own $7.2M revenue - $3.9M cost = $3.3M, not $3.2M — a small arithmetic inconsistency in the book). SVOD figures ($0.2M loss, $0.52M) match."
+  }
+ ],
+ "synthesis": "Pursue an AVOD-first monetization model and expand into Tennis as the first adjacent sport. AVOD is the better starting point financially, delivering positive profitability in Year 1 ($0.44M vs. a ($0.2M) loss for SVOD) and stronger scaling by Year 2 ($3.2M profit vs. $0.52M under SVOD); it also supports faster user acquisition by reducing friction to join. On expansion, the decision to add a new sport should be conditional on achieving early platform adoption goals. If initial traction is strong, Tennis is the logical next move: it offers the largest global market (~$16B), strong U.S. interest, and high affinity with Pickleball users.",
+ "what_great_looks_like": [
+  "Builds a MECE structure that clearly separates the monetization-model question from the expansion question",
+  "Asks for the AVOD/SVOD revenue formulas before diving into math rather than guessing",
+  "Correctly nets subscriber growth against churn for SVOD Year 2",
+  "Sanity-checks that AVOD's Year 1 profitability advantage stems from lower cost, not just higher revenue",
+  "Uses Exhibit 2's multiple dimensions (not just market size) to form a sport-expansion hypothesis",
+  "Makes the expansion recommendation conditional on platform traction rather than automatic"
+ ],
+ "common_pitfalls": [
+  "Confusing AVOD and SVOD revenue formulas",
+  "Forgetting to net churn against subscriber growth when computing SVOD Year 2 subscribers",
+  "Recommending expansion into a sport based on market size alone, ignoring competition, seasonality, or cost",
+  "Not tying the recommendation back to Rack+'s stated objective of maximizing 2-year net profit"
+ ],
+ "follow_ups": [
+  "How might Rack+ eventually blend AVOD and SVOD into a hybrid model?",
+  "What risks does exclusivity on pickleball rights pose if a competitor undercuts on price for a new sport?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[1].data (U.S. Interest and Similarity dot counts read from icons)"
+  ],
+  "math_verified": false,
+  "notes": "Book's own solution appears to contain two internal arithmetic inconsistencies: (1) Year 1 AVOD cost breakdown sums to $3.4M using a $500K tech-stack figure that contradicts the $600K/Yr tech stack cost given in the cost table (and used correctly in the Year 2 breakdown); recomputing with the table's $600K gives $3.5M and a Year 1 AVOD profit of $0.34M rather than the book's $0.44M. (2) The book's Year 2 AVOD profit of $3.2M does not equal its own $7.2M revenue minus $3.9M cost ($3.3M). Both are flagged in math[2] and math[5] with corrected values; the overall AVOD-over-SVOD recommendation direction is unaffected.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "sub_industry"
+  ]
+ }
+}

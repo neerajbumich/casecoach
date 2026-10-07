@@ -1,0 +1,102 @@
+{
+ "id": "customer-segmentation",
+ "name": "Customer segmentation",
+ "category": "tool",
+ "summary": "Split customers into groups with different needs, value and behaviour (demographic, needs-based, behavioural, B2B firmographics), size and value each segment, then choose targets and positioning (STP).",
+ "opening_line": "I'd segment customers by the dimension that most changes their needs or value, size each segment and its profitability, and then decide which ones to target.",
+ "when_to_use": [
+  "Targeting, positioning and marketing questions",
+  "When averages hide differences (profitability by customer, pricing by segment)"
+ ],
+ "when_not_to_use": [
+  "When the customer base is homogeneous and the question is operational"
+ ],
+ "tree": {
+  "label": "Who to target",
+  "children": [
+   {
+    "label": "Segment",
+    "children": [
+     {
+      "label": "Demographic / firmographic"
+     },
+     {
+      "label": "Needs-based"
+     },
+     {
+      "label": "Behavioural: usage, loyalty"
+     }
+    ]
+   },
+   {
+    "label": "Evaluate",
+    "children": [
+     {
+      "label": "Size & growth"
+     },
+     {
+      "label": "Profitability / willingness to pay"
+     },
+     {
+      "label": "Accessibility & competition"
+     }
+    ]
+   },
+   {
+    "label": "Target & position",
+    "children": [
+     {
+      "label": "Priority segments"
+     },
+     {
+      "label": "Value proposition per segment"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Evaluate",
+   "questions": [
+    "Which segments are biggest, most profitable and most winnable?"
+   ],
+   "data_to_ask": [
+    "Revenue and margin by segment",
+    "Survey data"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "banking",
+   "note": "Segment by wealth tier (mass, mass affluent, affluent, HNW, UHNW) with very different profitability."
+  },
+  {
+   "industry": "beauty",
+   "note": "Needs and price tier (mass vs prestige), channel preference."
+  }
+ ],
+ "common_mistakes": [
+  "Segmenting on a dimension that doesn't change behaviour",
+  "Not sizing or valuing the segments"
+ ],
+ "related": [
+  "pricing",
+  "new-product-gtm",
+  "growth-strategy",
+  "three-cs"
+ ],
+ "match": {
+  "case_types": [],
+  "tags": [
+   "customer-segmentation",
+   "segmentation",
+   "targeting"
+  ],
+  "keywords": [
+   "segment",
+   "customer"
+  ]
+ }
+}

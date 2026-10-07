@@ -1,0 +1,376 @@
+{
+ "id": "ross-2024-let-s-vroom",
+ "title": "Let's Vrooom",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  120,
+  129
+ ],
+ "case_type": [
+  "Profitability",
+  "Pricing"
+ ],
+ "case_type_source_label": "Profitability, Pricing",
+ "industry": "sports",
+ "sub_industry": "events",
+ "industry_source_label": "Sports",
+ "geography": "Chicago, United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 3, Qual - 2, Overall - 2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "profitability",
+  "pricing",
+  "fixed-cost-allocation",
+  "contribution-margin",
+  "occupancy",
+  "ticketing",
+  "sports-events"
+ ],
+ "concepts_tested": [
+  "race-format profitability",
+  "direct versus allocated costs",
+  "pricing headroom",
+  "revenue and cost levers"
+ ],
+ "prompt": "Your client is Race Co, a racing-track company in Chicago. It holds three kinds of races at its track: small, medium, and big. The client believes it should stop the small-race format because it has struggled with profitability for the last three years. What would you recommend?",
+ "clarifying_info": [
+  {
+   "question_topic": "Business scope and competition",
+   "answer": "Race Co hosts only racing events at its track, and there is no other racing track in Chicago."
+  },
+  {
+   "question_topic": "Land and lease",
+   "answer": "The land is leased under long-term rental contracts."
+  },
+  {
+   "question_topic": "Race classification",
+   "answer": "Small, medium, and large races are classified by the popularity of the participating drivers; more popular contestants are grouped into large races."
+  },
+  {
+   "question_topic": "Business model and channels",
+   "answer": "Spectators buy single-race tickets through Race Co's website or inside the stadium."
+  },
+  {
+   "question_topic": "Decision criterion",
+   "answer": "The client wants to decide whether to continue the small-race format."
+  }
+ ],
+ "interviewer_notes": "Start by asking the candidate to brainstorm revenue and cost lines for each race format. The key is distinguishing direct costs from the allocated fixed lease. Exhibit 1 shows that small races have a negative accounting profit but a positive operating contribution; eliminating them would reduce overall company profitability because the long-term lease remains. Exceptional candidates use the 100% occupancy signal to investigate pricing and then use Exhibit 2's resale prices to re-price small races.",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering revenue, variable and fixed costs, and industry trends, with explicit attention to allocated lease cost.",
+  "tree": {
+   "label": "Race-format decision",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Ticket revenue"
+      },
+      {
+       "label": "Concessions"
+      },
+      {
+       "label": "Advertising"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Variable: salaries, concessions, SG&A, marketing"
+      },
+      {
+       "label": "Fixed: long-term track lease"
+      },
+      {
+       "label": "Direct versus allocated cost treatment"
+      }
+     ]
+    },
+    {
+     "label": "Industry and demand",
+     "children": [
+      {
+       "label": "Booming industry and rising demand"
+      },
+      {
+       "label": "Alternative sports in Chicago"
+      },
+      {
+       "label": "No competing Chicago racing track"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate whether Race Co should discontinue small races?",
+   "expected_answer": "Compare revenue streams—tickets, concessions, and advertising—with direct race costs—salaries, concession cost, SG&A, and marketing—and separately assess the long-term fixed lease. Also examine occupancy, customer demand, price elasticity, industry growth, and alternatives to closure such as repricing.",
+   "good_answer_signals": [
+    "Separates direct and allocated fixed costs",
+    "Includes all three revenue streams",
+    "Considers demand and pricing before closure"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Analyze the income statement for each race format. Should small races be stopped?",
+   "release_when": "Provide Exhibit 1 after the candidate has identified the revenue and cost buckets.",
+   "info_to_release": "The track has 2,000 seats. Small/medium/big formats run 50/30/20 races per year at 100%/75%/65% occupancy. Revenue per ticket is $15/$40/$60, concessions per person are $10/$20/$30, and ad revenue per race is $5,000/$20,000/$35,000. Annual allocated rent is $1,000,000/$450,000/$260,000; salaries per race are $25,000/$30,000/$45,000; concession cost is 40%; SG&A per race is $2,000/$2,500/$3,000; marketing per race is $5,000/$8,000/$10,000.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Small races generate $2.75M revenue and $2.00M direct costs, so their operating contribution before allocated rent is +$750,000. Their reported net loss is -$250,000 only after $1.00M of allocated lease cost. Because the lease is long-term and remains if small races stop, eliminating them would forfeit $750,000 of contribution and make the company worse off. Medium and big races earn $1.275M and $1.308M net profit, respectively.",
+   "good_answer_signals": [
+    "Recomputes the format economics accurately",
+    "Identifies the $750,000 positive small-race contribution",
+    "Explains why allocated fixed rent is not avoidable"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "If Race Co retains small races, how could it improve their profitability?",
+   "expected_answer": "Revenue levers include higher ticket prices, higher concession prices, new sales channels such as StubHub, multi-race passes, and long-term revenue partnerships. Cost levers include targeted digital marketing, renegotiated concession contracts or higher-margin items, automation of ticket sales and validation, and revisiting accounting allocations.",
+   "good_answer_signals": [
+    "Generates both revenue and cost ideas",
+    "Prioritizes ticket pricing given full occupancy",
+    "Suggests specific channel, marketing, concession, and automation actions"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What do ticket prices suggest, and how would raising the small-race price affect profitability?",
+   "release_when": "Hand out Exhibit 2 after the candidate has proposed pricing as a lever.",
+   "info_to_release": "Website ticket prices are $15 for small, $40 for medium, and $60 for large races. StubHub prices are $25, $45, and $65, respectively. Small races currently sell out all 2,000 seats across 50 races per year.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "The $25 StubHub price and 100% occupancy indicate substantial pricing headroom for small races. If Race Co raises the small-race price from $15 to $25 with no volume loss, incremental revenue is $10 × 2,000 seats × 50 races = $1.0M. Small-race net profit rises from -$250,000 to +$750,000. Price increases for the other formats may also be possible, but Race Co should test elasticity because they are not sold out.",
+   "good_answer_signals": [
+    "Uses both sell-out demand and resale pricing",
+    "Calculates the $1.0M revenue uplift and $750,000 new net profit",
+    "Flags demand elasticity"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to Race Co?",
+   "expected_answer": "Do not stop small races. They contribute $750,000 before the unavoidable long-term lease allocation, so closure would reduce company profit. Instead, test an increase in the small-race ticket price toward the $25 StubHub level; at unchanged demand, this would add $1.0M and turn the format's net result to +$750,000. Manage the risk of channel-volume decline with staged pricing, demand testing, targeted marketing, and potential partnerships with additional ticket platforms.",
+   "good_answer_signals": [
+    "Rejects closure based on avoidable economics",
+    "Quantifies the repricing upside",
+    "Pairs recommendation with elasticity risk and a test plan"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Income Statement by Race Format",
+   "page": 124,
+   "kind": "table",
+   "description": "Operating assumptions, revenue rates, costs, allocated annual rent, and reported net profit for small, medium, and big races; the track has 2,000 seats.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Small race",
+     "Medium race",
+     "Big race"
+    ],
+    "rows": [
+     [
+      "Races per year",
+      50,
+      30,
+      20
+     ],
+     [
+      "Occupancy",
+      "100%",
+      "75%",
+      "65%"
+     ],
+     [
+      "Revenue per ticket",
+      "$15",
+      "$40",
+      "$60"
+     ],
+     [
+      "Concessions per person",
+      "$10",
+      "$20",
+      "$30"
+     ],
+     [
+      "Ad revenue per race",
+      "$5,000",
+      "$20,000",
+      "$35,000"
+     ],
+     [
+      "Annual allocated rental",
+      "$1,000,000",
+      "$450,000",
+      "$260,000"
+     ],
+     [
+      "Salaries per race",
+      "$25,000",
+      "$30,000",
+      "$45,000"
+     ],
+     [
+      "Concession cost",
+      "40%",
+      "40%",
+      "40%"
+     ],
+     [
+      "SG&A per race",
+      "$2,000",
+      "$2,500",
+      "$3,000"
+     ],
+     [
+      "Marketing per race",
+      "$5,000",
+      "$8,000",
+      "$10,000"
+     ],
+     [
+      "Net profit",
+      "-$250,000",
+      "$1,275,000",
+      "$1,308,000"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-let-s-vroom/p124.webp",
+   "key_insight": "Small races are sold out and have a positive $750,000 contribution before the allocated lease; the apparent loss is caused by a fixed cost that will not disappear with closure.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Ticket Pricing",
+   "page": 127,
+   "kind": "table",
+   "description": "Website and StubHub ticket prices for the three race formats.",
+   "data": {
+    "columns": [
+     "Race type",
+     "Website price",
+     "StubHub price"
+    ],
+    "rows": [
+     [
+      "Small",
+      "$15",
+      "$25"
+     ],
+     [
+      "Medium",
+      "$40",
+      "$45"
+     ],
+     [
+      "Large",
+      "$60",
+      "$65"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-let-s-vroom/p127.webp",
+   "key_insight": "The $10 resale premium for sold-out small races signals materially more pricing headroom than the $5 premium for medium and large races.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are the annual revenue, direct costs, operating contribution, and net profit for each race format?",
+   "givens": [
+    "2,000 seats",
+    "All operating assumptions in Exhibit 1",
+    "Concession cost is 40% of concession revenue",
+    "Rental cost is allocated by viewers"
+   ],
+   "steps": [
+    "Small revenue = 50 × [2,000×($15+$10)+$5,000] = $2,750,000; direct costs = 50 × [$25,000+$2,000+$5,000+(40%×2,000×$10)] = $2,000,000; contribution = $750,000; net = $750,000-$1,000,000 = -$250,000",
+    "Medium revenue = 30 × [1,500×($40+$20)+$20,000] = $3,300,000; direct costs = $1,575,000; contribution = $1,725,000; net = $1,275,000",
+    "Big revenue = 20 × [1,300×($60+$30)+$35,000] = $3,040,000; direct costs = $1,472,000; contribution = $1,568,000; net = $1,308,000"
+   ],
+   "answer": "Small: -$250,000 net but +$750,000 operating contribution; Medium: $1,275,000 net; Big: $1,308,000 net",
+   "answer_value": 750000,
+   "unit": "USD small-race operating contribution",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the effect of increasing the small-race ticket price from $15 to $25 at unchanged attendance?",
+   "givens": [
+    "$10 price increase",
+    "2,000 attendees per race",
+    "50 small races per year",
+    "Current small-race net profit: -$250,000"
+   ],
+   "steps": [
+    "Incremental annual revenue = $10 × 2,000 × 50 = $1,000,000",
+    "Revised net profit = -$250,000 + $1,000,000 = $750,000"
+   ],
+   "answer": "$1.0 million incremental revenue and $750,000 revised small-race net profit",
+   "answer_value": 750000,
+   "unit": "USD revised annual net profit",
+   "verified": true
+  }
+ ],
+ "synthesis": "Race Co should retain small races. Although the format reports a $250,000 net loss after allocated rent, it produces $750,000 of operating contribution; because the track lease is long-term, shutting the format would lose that contribution while leaving the lease cost. Small races are also sold out, and the $25 StubHub price versus Race Co's $15 price points to pricing headroom. Raising the price to $25 at unchanged demand would add $1 million annually and produce $750,000 of small-race net profit. Race Co should test the increase in stages, monitor elasticity and formal-channel sales, and consider new ticket-platform partnerships and targeted marketing.",
+ "what_great_looks_like": [
+  "Separates operating contribution from allocated fixed-cost accounting",
+  "Recomputes all three format economics accurately",
+  "Recognizes that closure makes overall company profit worse",
+  "Uses occupancy and secondary-market prices to diagnose underpricing",
+  "Quantifies the repricing impact and discusses elasticity"
+ ],
+ "common_pitfalls": [
+  "Treats allocated rent as avoidable",
+  "Recommends closure solely from the reported -$250,000 net profit",
+  "Misses concession and advertising revenue",
+  "Raises price without considering demand elasticity or channel effects",
+  "Fails to connect 100% occupancy with pricing power"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The book title page renders the title as 'Let's Vrooom'; that spelling is retained. All Exhibit 1 net-profit figures and the repricing calculation were independently recomputed. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "id": "kellogg-2024-vitality-insurance",
+ "title": "Vitality Insurance",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  361,
+  370
+ ],
+ "author": "Peter Manoogian (Kellogg 2012); edited by Matthew Heintz (Kellogg 2016), Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Y07 Profitability",
+ "industry": "insurance",
+ "sub_industry": "life",
+ "industry_source_label": "X06 Financial Services",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "profitability",
+  "sales-incentives",
+  "commission-structure",
+  "cost-trends",
+  "gaming-metrics",
+  "customer-acquisition-vs-retention"
+ ],
+ "concepts_tested": [
+  "Organizational changes"
+ ],
+ "fit_question": "What role do you typically play in a team? Give me an example of this.",
+ "prompt": "Our client, Vitality Insurance, is a leading provider of supplemental insurance products in the United States. Vitality agents partner with companies to offer their employees optional, supplemental insurance for such conditions as life, long-term disability, etc. Vitality has undergone fairly steady growth in the past two years, but profit margin is decreasing. What should they do about it?",
+ "clarifying_info": [
+  {
+   "question_topic": "Client / sales model",
+   "answer": "Vitality is the category leader with over 10,000 field sales agents (FSAs). All policies are sold through FSAs, who are compensated solely on a percentage commission of total new premium (premium from new customers or up-sell of additional premium from existing policyholders). Short-term priorities are also communicated through sales contests targeting a particular customer segment or activity, which pay a bonus on top of standard commission. Major costs are sales, G&A, and advertising."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Few competitors in this mature market, all growing at similar rates. Vitality is the category leader; competition is not the focus of this case."
+  },
+  {
+   "question_topic": "Industry",
+   "answer": "Agent turnover is very high on a yearly basis (though it was lower during the recessionary period)."
+  }
+ ],
+ "interviewer_notes": "Problem: How can Vitality improve its profit margins? Problem-solving steps: (1) identify cost trends, (2) determine the root cause of the change in sales costs, (3) examine misaligned incentive programs, (4) provide a client recommendation.",
+ "suggested_framework": {
+  "summary": "Profitability framework focused on the cost side, drilling from aggregate cost trends into the sales-incentive structure that is driving the abnormal cost increase.",
+  "tree": {
+   "label": "Declining profit margin",
+   "children": [
+    {
+     "label": "Revenue / premium growth",
+     "children": [
+      {
+       "label": "New accounts converted"
+      },
+      {
+       "label": "Premium per policyholder"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "G&A"
+      },
+      {
+       "label": "Advertising"
+      },
+      {
+       "label": "Sales",
+       "children": [
+        {
+         "label": "Base commissions"
+        },
+        {
+         "label": "Sales contests / bonuses",
+         "children": [
+          {
+           "label": "Acquire new accounts"
+          },
+          {
+           "label": "Keep accounts active"
+          },
+          {
+           "label": "Upsell active accounts"
+          },
+          {
+           "label": "Produce results (total premium)"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you approach figuring out why Vitality's profit margin is declining despite steady growth?",
+   "expected_answer": "Candidate should lay out a profitability framework covering both revenue/premium growth and the cost base (G&A, advertising, sales/commissions), and note that since growth is steady, the decline is more likely on the cost side -- particularly sales costs, given the commission-based, contest-driven sales model.",
+   "good_answer_signals": [
+    "Builds a profit = revenue - costs framework tailored to an agent-commission sales model",
+    "Flags sales/commission costs as a likely area to dig into given steady top-line growth"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do the cost trends look like?",
+   "release_when": "Once the interviewee asks for cost information.",
+   "info_to_release": "Exhibit A: 2008-2010 accounts converted, policyholders enrolled, total premium, and costs (G&A, Sales, Advertising) with profit margin by year.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "All cost lines and premium grow roughly steadily from 2008 to 2009, but sales costs spike abnormally from 2009 to 2010 (see math step) while premium growth stays at 10%. Profit margin falls meaningfully from 2009 (9.4%) to 2010 (8.5%), suggesting the jump in sales costs is not paying off in proportional revenue.",
+   "good_answer_signals": [
+    "Notices sales costs grow far faster in 2010 than other cost lines or premium",
+    "Connects the sales-cost spike to the profit margin decline rather than treating them separately",
+    "Calculates the growth rates rather than eyeballing them"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "How much did sales costs actually grow year over year, versus premium?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Sales costs grew ~10% from 2008 to 2009 (in line with premium growth), but grew ~45% from 2009 to 2010, even though premium growth stayed at 10% -- a clear, abnormal divergence worth investigating (see math step m1)."
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "What's driving the spike in sales costs in 2010?",
+   "release_when": "If the interviewee asks about the value chain or sales process.",
+   "info_to_release": "Exhibit B: the insurance sales process (hire agents -> acquire new accounts -> keep accounts active / upsell active accounts / reactivate dormant accounts -> produce premium results), with a table of sales contests run against each leverage point in 2008, 2009, and 2010. If asked about new contests focused on premium: Vitality launched a contest called 'Sweeps Week' aimed at driving premium in traditionally low-volume weeks, paying an extra 10% bonus on all premium booked in those two weeks; agents thought it was a great contest. Assume contest types in 2008 and 2009 were similar.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidate should notice the shift in contest mix from 2008/09 to 2010: contests on 'keeping accounts active' dropped from 4 to 0, while contests on 'acquiring new accounts' and 'producing results' (total premium) doubled from 2 to 4 each. Combined with the 'Sweeps Week' contest, this shows Vitality shifted its sales-incentive focus in 2010 toward driving total premium and new accounts.",
+   "good_answer_signals": [
+    "Reads the contest-count table correctly and spots the mix shift",
+    "Connects the mix shift to the introduction of 'Sweeps Week' and the cost spike"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "Was 'Sweeps Week' actually effective?",
+   "release_when": "Only after the interviewee recognizes the shift in contest mix and asks about the effectiveness of 'Sweeps Week' (do not share before then).",
+   "info_to_release": "Exhibit C: weekly premium 2008-2010, indexed as a ratio to each year's average weekly premium, with the two 2010 'Sweeps Week' periods (weeks ~4 and ~20) highlighted. If asked, confirm agents can influence enrollment timing by up to one week when 'booking' a sale.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "The 'Sweeps Week' weeks show clear premium spikes (well above 2008/2009 levels at the same weeks), but the weeks immediately surrounding each Sweeps Week are correspondingly depressed. This implies agents are 'gaming' the system -- pushing and pulling sales into the bonus week rather than generating incremental business -- so the contest is not creating real incremental premium, just relocating it (and costing extra bonus dollars to do so). A strong candidate also notes that, even without direct data, the 2010 shift toward acquiring new accounts likely hurts margin further, since acquiring a new customer costs more than retaining or upselling an existing one.",
+   "good_answer_signals": [
+    "Identifies the pre/post dip around each Sweeps Week as evidence of timing manipulation, not incremental sales",
+    "Concludes Sweeps Week is largely shifting the timing of existing sales rather than creating new premium",
+    "Independently raises that new-account-focused contests are structurally more expensive than retention-focused ones"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to Vitality?",
+   "expected_answer": "Vitality overspent on the 'Sweeps Week' contest in 2010, hurting profitability: it encouraged agents to push/pull sales into the bonus weeks (undesirable selling behavior) rather than generate genuinely new premium, and its goal (driving new premium) was duplicative of the existing main commission structure, so it added little incremental value. Recommend eliminating 'Sweeps Week' for 2011 and potentially redirecting those funds to an incentive that targets something not already covered by the base commission plan. It is less clear whether the increased contests on new-account acquisition should also be removed, since that could reflect a deliberate, still-unclear new customer-growth strategy.",
+   "good_answer_signals": [
+    "Recommendation is specific (eliminate Sweeps Week) and tied to the evidence in Exhibit C",
+    "Distinguishes between the clearly wasteful Sweeps Week spend and the more ambiguous new-account contest increase",
+    "Notes the duplicative nature of Sweeps Week versus the base commission plan"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Results and Costs",
+   "page": 364,
+   "kind": "table",
+   "description": "Annual table (2008-2010, figures in '000s except where noted) of accounts converted, total policyholders enrolled, total premium from policyholders, total costs (G&A, Sales, Advertising), and profit margin.",
+   "data": {
+    "columns": [
+     "Line item",
+     "2008",
+     "2009",
+     "2010"
+    ],
+    "rows": [
+     [
+      "Accounts converted ('000s)",
+      500,
+      550,
+      605
+     ],
+     [
+      "Total policyholders enrolled ('000s)",
+      1500,
+      1650,
+      1815
+     ],
+     [
+      "Total premium from policyholders",
+      "$2,500,000",
+      "$2,750,000",
+      "$3,025,000"
+     ],
+     [
+      "General and Administrative ($'000s)",
+      50,
+      55,
+      58
+     ],
+     [
+      "Sales ($'000s)",
+      250,
+      275,
+      400
+     ],
+     [
+      "Advertising ($'000s)",
+      25,
+      28,
+      30
+     ],
+     [
+      "Profit margin",
+      "9.50%",
+      "9.40%",
+      "8.50%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-vitality-insurance/p364.webp",
+   "key_insight": "Premium and most costs grow at a steady ~10%/year, but Sales costs spike from $275K to $400K (+45%) in 2010 while profit margin drops from 9.4% to 8.5% -- the sales-cost spike is the standout anomaly behind the margin decline.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Insurance sales process",
+   "page": 365,
+   "kind": "text",
+   "description": "Process diagram of the sales value chain (hire new agents -> acquire new accounts -> keep accounts active / upsell active accounts / reactivate dormant accounts -> produce premium results), paired with a table counting how many sales contests targeted each leverage point in 2008, 2009, and 2010.",
+   "data": {
+    "columns": [
+     "Year",
+     "New Agents",
+     "Acquire new accounts",
+     "Keep accounts active",
+     "Upsell active accounts",
+     "Produce results (premium $)"
+    ],
+    "rows": [
+     [
+      2008,
+      "n/a",
+      2,
+      4,
+      1,
+      2
+     ],
+     [
+      2009,
+      "n/a",
+      2,
+      4,
+      1,
+      2
+     ],
+     [
+      2010,
+      "n/a",
+      4,
+      0,
+      1,
+      4
+     ]
+    ]
+   },
+   "key_insight": "The 2010 contest mix shifts sharply: 'keep accounts active' contests drop from 4 to 0, while 'acquire new accounts' and 'produce results' (total premium) contests each double from 2 to 4 -- Vitality re-weighted its sales incentives toward new premium and new accounts in 2010.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-vitality-insurance/p365.webp"
+  },
+  {
+   "id": "ex3",
+   "title": "Snapshot of 'Sweeps Week' contest results",
+   "page": 366,
+   "kind": "line",
+   "description": "Weekly premium for Jan-Jun, 2008-2010, indexed as a ratio to that year's average weekly premium, with the two 2010 'Sweeps Week' periods (around weeks 4 and 20) shaded.",
+   "image_path": "exhibits/kellogg-2024-vitality-insurance/p366.webp",
+   "key_insight": "Both 2010 'Sweeps Week' periods show a large premium spike (up to ~150-165% of average weekly premium) but are immediately preceded and/or followed by below-normal weeks, indicating agents are shifting the timing of sales into the bonus weeks rather than generating incremental premium.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much did sales costs grow from 2008 to 2009, and from 2009 to 2010, versus premium growth?",
+   "givens": [
+    "Sales cost: $250K (2008), $275K (2009), $400K (2010)",
+    "Premium: $2.5M (2008), $2.75M (2009), $3.025M (2010)"
+   ],
+   "steps": [
+    "2008-2009 sales cost growth: 275/250 - 1 = 10.0%",
+    "2009-2010 sales cost growth: 400/275 - 1 = 45.5%",
+    "Premium growth both periods: 10% each year",
+    "Sales costs track premium growth in 2009 but far outpace it in 2010"
+   ],
+   "answer": "Sales costs grew ~10% in 2009 (in line with premium) but ~45% in 2010 (versus 10% premium growth).",
+   "answer_value": 45.5,
+   "unit": "% growth in 2010 sales cost",
+   "verified": true
+  }
+ ],
+ "synthesis": "Vitality overspent on the 2010 'Sweeps Week' sales contest, and this is what hurt profitability. Exhibit C shows the contest pushed/pulled sales agents into undesirable selling practices -- shifting the timing of sales into the bonus weeks rather than generating truly incremental premium -- while also being duplicative with the existing commission structure's focus on driving new premium, so it added little real value for its extra cost. Recommendation: eliminate 'Sweeps Week' for 2011, and consider repurposing those funds toward an incentive that targets something not already covered by the main commission structure. It remains unclear whether the increased contests on acquiring new accounts should also be scaled back, since that shift could reflect an intentional, not-yet-understood new-customer strategy.",
+ "what_great_looks_like": [
+  "Ties the profit margin decline specifically to the abnormal 2009-2010 sales cost increase rather than treating all cost growth as equally suspect",
+  "Recognizes the sales-contest mix in Exhibit B is effectively Vitality's marketing mix, since the agent channel is the main marketing channel",
+  "Reads Exhibit C correctly as evidence of gaming/timing-shifting rather than genuine incremental sales",
+  "Independently raises that a shift toward new-account acquisition is inherently more costly than retention/upsell, even without a supporting exhibit"
+ ],
+ "common_pitfalls": [
+  "Treating all three cost lines (G&A, Sales, Advertising) as growing at a uniform, unremarkable rate instead of isolating the sales-cost anomaly",
+  "Reading Exhibit C's spikes as pure contest success without noticing the offsetting dips in adjacent weeks",
+  "Recommending removal of all 2010 contest changes rather than distinguishing the clearly wasteful Sweeps Week from the more ambiguous new-account contest increase"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[ex3].data (weekly premium ratio values read visually off an unlabeled line chart; no data table transcribed, values described qualitatively in key_insight instead)"
+  ],
+  "math_verified": true,
+  "notes": "Exhibit A's 'figures in \\'000s' header appears to apply to the cost lines, not to total premium (already given in full dollars); profit margin in the exhibit therefore can't be reproduced simply as (premium - shown costs)/premium (likely reflects additional unshown costs such as claims), so profit margin figures are reported as given rather than independently recomputed.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "case_type (secondary: Cost Reduction/Operations)"
+  ]
+ }
+}

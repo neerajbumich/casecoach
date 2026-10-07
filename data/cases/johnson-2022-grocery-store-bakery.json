@@ -1,0 +1,296 @@
+{
+ "id": "johnson-2022-grocery-store-bakery",
+ "title": "Grocery Store Bakery",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  44,
+  49
+ ],
+ "case_type": [
+  "Profitability",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "retail",
+ "sub_industry": "grocery",
+ "industry_source_label": "Retail / Consumer",
+ "client_type": "for-profit",
+ "geography": "Chicago, United States",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "L.E.K. Quant – Generalist"
+ ],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Simple; Quant: Medium; Analysis: Low",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "incremental-profit",
+  "unit-conversion",
+  "fixed-variable-costs",
+  "bakery",
+  "spoilage",
+  "cannibalization",
+  "private-label"
+ ],
+ "prompt": "Our client, Fresh Foods, is an independent grocery store in Chicago and is thinking about opening an in-store bakery and providing fresh baked artisan bread to its customers. However, they need to decide if offering fresh baked artisan bread is a good idea. Assume artisan breads are generally small-batch produced, with fewer ingredients and no preservatives. They tend to be baked 80–90% in a local bakery, frozen, and shipped to retailers with in-store bakeries. Bread is then finished off in the store with the last 10 minutes of baking so that customers get fresh baked bread daily. Since Fresh Foods moved into an existing store location, they have a kitchen and all the equipment needed to finish baking in-store. What costs and revenue items should Fresh Foods consider? Would this be a profitable idea? What would the impact per month be for Fresh Foods?",
+ "clarifying_info": [
+  {
+   "question_topic": "Incremental fixed costs",
+   "answer": "Labor costs $10 per hour and requires 6 hours per day. Additional utilities cost $1,200 per month."
+  },
+  {
+   "question_topic": "Variable costs",
+   "answer": "Bread costs $0.40 per loaf; one bag per loaf costs $0.02. Freight costs $3 per pallet and storage $2 per pallet. Assume 20 pounds per pallet and 0.55 pounds per loaf."
+  },
+  {
+   "question_topic": "Revenue",
+   "answer": "Bread price is $3.50 per loaf. The source also lists bags under revenue at $0.02 per bag, one per loaf."
+  }
+ ],
+ "interviewer_notes": "Test whether the candidate can combine the provided inputs to calculate monthly bakery profitability and connect the result to strategy. Release costs and pricing when requested. Page 47 supplies 1,350 loaves per month and a 30-day month through the worked calculation; give these assumptions before asking for a numeric monthly result. No candidate exhibit is provided: the information and calculation pages contain worked answers. Preserve the source's $0.02 bag revenue input despite its omission from the solution. With that charge, corrected monthly profit is $999.375; without a separate bag charge it is $972.375, approximately the book's $973 after its component rounding. Clarify the intended bag charge rather than silently dropping it. If time permits, push for more risks and opportunities and ask how ideas would be implemented. The L.E.K. scorecard values organized, fast calculations, composure with new information, proactive strategic questions and business judgment.",
+ "suggested_framework": {
+  "summary": "Estimate incremental bakery profit from bread and bag revenue less fixed and variable costs, then assess operating risks and store-wide effects.",
+  "tree": {
+   "label": "Artisan bread",
+   "children": [
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Fixed: labor and utilities"
+      },
+      {
+       "label": "Variable: bread, bags, freight and storage"
+      }
+     ]
+    },
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Bread price and quantity"
+      },
+      {
+       "label": "Bag charges"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Cost fluctuations and capacity constraints"
+      },
+      {
+       "label": "Unsold volume and cannibalization"
+      },
+      {
+       "label": "Liability, product diversification and assumption feasibility"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What costs and revenue items should Fresh Foods consider?",
+   "release_when": "After reading the prompt, release clarifying cost and pricing information only as requested.",
+   "info_to_release": "Fresh Foods already has the kitchen and equipment. Artisan bread arrives frozen after 80–90% baking and needs the last 10 minutes in-store. Labor is $10 per hour for 6 hours daily, utilities $1,200 monthly, bread $0.40 per loaf, bags $0.02 each, freight $3 per pallet and storage $2 per pallet. Bread sells for $3.50; the revenue section also lists $0.02 per bag.",
+   "exhibit_ids": [],
+   "expected_answer": "Separate incremental fixed labor and utilities from variable bread, bag, freight and storage costs. Build bread and bag revenue from price and volume. Existing equipment does not require invented new capital spending. Ask for monthly volume and convert pallet costs to a per-loaf basis before evaluating profitability.",
+   "good_answer_signals": [
+    "Structures the calculation before multiplying numbers.",
+    "Identifies the need for consistent units and a monthly volume.",
+    "Notices both the bag cost and stated bag revenue."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What are freight and storage costs per loaf?",
+   "release_when": "When the candidate requests logistics conversion assumptions.",
+   "info_to_release": "Assume 20 pounds per pallet and 0.55 pounds per loaf. Freight is $3 per pallet and storage $2 per pallet.",
+   "exhibit_ids": [],
+   "expected_answer": "Freight is $3 / 20 = $0.15 per pound, or $0.15 × 0.55 = $0.0825 per loaf. Storage is $2 / 20 = $0.10 per pound, or $0.055 per loaf. Use these continuous per-loaf allocations, as in the source; no whole-pallet billing rule is given.",
+   "good_answer_signals": [
+    "Tracks dollars per pallet, pounds per pallet and pounds per loaf.",
+    "Avoids rounding per-loaf costs before the monthly calculation."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Would the bakery be profitable, and what is the monthly impact?",
+   "release_when": "After the candidate identifies the required inputs; provide the volume and operating-days assumptions used in the book's calculation.",
+   "info_to_release": "Use 1,350 loaves sold per month and 30 operating days. Labor is $10 per hour for 6 hours each day; utilities $1,200 monthly. Bread costs $0.40 and bags $0.02 per loaf. Retain freight $3 and storage $2 per 20-pound pallet at 0.55 pounds per loaf. Revenue inputs remain $3.50 per loaf and $0.02 per bag, one bag per loaf.",
+   "exhibit_ids": [],
+   "expected_answer": "Labor costs $1,800, utilities $1,200, bread $540, bags $27, freight $111.375 and storage $74.25. Exact monthly cost is $3,752.625. Bread revenue is $4,725 and the stated bag charge adds $27, so total revenue is $4,752 and profit $999.375, or about $999.38. The book prints bread cost as $54 instead of $540 and omits bag revenue in its $4,725 total. If bags are not separately charged, profit is $972.375; rounding freight and storage to the source's $111 and $74 yields its $973. Either interpretation produces only a modest profit and requires risk assessment.",
+   "good_answer_signals": [
+    "Corrects $0.40 × 1,350 to $540.",
+    "Flags the inconsistent bag-revenue treatment.",
+    "Separates exact arithmetic from the book's rounding.",
+    "Explains why a positive baseline is not sufficient for an automatic launch decision."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What else should Fresh Foods consider before investing? What are the key risks and opportunities?",
+   "release_when": "After the monthly-profit result.",
+   "info_to_release": "Consider the economics of offering more than 1 bread type as well as the single-product base case.",
+   "exhibit_ids": [],
+   "expected_answer": "Risks include wheat, flour, sugar, labor, storage and freight cost changes; extra labor if demand exceeds capacity; unsold bread; cannibalization of center-aisle bread and packaged snacks; contamination liability under Fresh Foods branding; the profitability of a broader assortment; and unrealistic volume or cost assumptions. Opportunities include private-label margins, loyalty from differentiated products and fresh bread drawing shoppers to nearby deli and bakery products while improving the store's fresh image.",
+   "good_answer_signals": [
+    "Distinguishes direct bakery profit from store-wide effects.",
+    "Considers spoilage and cannibalization, not just input-price risk.",
+    "Explains how an opportunity would affect profit rather than merely listing ideas."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your initial assessment of the bakery opportunity?",
+   "release_when": "At the end of the economics and strategic discussion.",
+   "info_to_release": "No further numerical assumptions are supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "The supplied operating case is modestly profitable: about $999.38 monthly if the listed bag revenue is charged, or $972.38 without it. This is not an automatic win. Validate pricing, demand, spoilage, capacity and costs and assess cannibalization against private-label, loyalty and cross-selling benefits before committing. Existing kitchen equipment helps, but the book provides no final unconditional launch decision.",
+   "good_answer_signals": [
+    "Makes a conditional recommendation grounded in the corrected economics.",
+    "Prioritizes validation of the disputed bag charge and operational assumptions."
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are per-loaf logistics costs?",
+   "givens": [
+    "Freight $3 per pallet",
+    "Storage $2 per pallet",
+    "20 pounds per pallet",
+    "0.55 pounds per loaf"
+   ],
+   "steps": [
+    "Freight: $3 / 20 × 0.55 = $0.0825 per loaf.",
+    "Storage: $2 / 20 × 0.55 = $0.055 per loaf."
+   ],
+   "answer": "$0.0825 freight and $0.055 storage per loaf.",
+   "answer_value": 0.0825,
+   "unit": "USD freight per loaf",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are monthly bakery costs?",
+   "givens": [
+    "1,350 loaves monthly; 30 days",
+    "Labor $10/hour for 6 hours/day; utilities $1,200/month",
+    "Bread $0.40 and bag $0.02 per loaf",
+    "Freight $0.0825 and storage $0.055 per loaf"
+   ],
+   "steps": [
+    "Labor: $10 × 6 × 30 = $1,800.",
+    "Utilities: $1,200.",
+    "Bread: $0.40 × 1,350 = $540.",
+    "Bags: $0.02 × 1,350 = $27.",
+    "Freight: $0.0825 × 1,350 = $111.375.",
+    "Storage: $0.055 × 1,350 = $74.25.",
+    "Total = $3,752.625."
+   ],
+   "answer": "$3,752.625 monthly costs, approximately $3,752.63; bread costs $540, not $54.",
+   "answer_value": 3752.625,
+   "unit": "USD/month",
+   "verified": false,
+   "book_answer_if_different": "Page 47 prints bread cost '$0.40 / loaf × 1,350 loaves / month = $54'. Correct bread cost is $540. Its $3,752 total is consistent with using $540 and rounding freight/storage to $111/$74, not with the printed $54."
+  },
+  {
+   "id": "m3",
+   "question": "What is monthly revenue using every stated revenue input?",
+   "givens": [
+    "1,350 loaves per month",
+    "Bread price $3.50 per loaf",
+    "Page 45 revenue section lists $0.02 per bag, one per loaf"
+   ],
+   "steps": [
+    "Bread revenue: $3.50 × 1,350 = $4,725.",
+    "Bag revenue: $0.02 × 1,350 = $27.",
+    "Total revenue: $4,725 + $27 = $4,752."
+   ],
+   "answer": "$4,752 if bags carry the separately stated charge; $4,725 only if there is no separate bag charge.",
+   "answer_value": 4752,
+   "unit": "USD/month",
+   "verified": false,
+   "book_answer_if_different": "Page 47 gives total revenue as $4,725, omitting the $0.02 per bag explicitly listed under Revenue on page 45. The source framework also lists bags as revenue."
+  },
+  {
+   "id": "m4",
+   "question": "What is monthly profit?",
+   "givens": [
+    "Revenue including the stated bag charge $4,752",
+    "Exact costs $3,752.625",
+    "Revenue without a separate bag charge $4,725"
+   ],
+   "steps": [
+    "With bag revenue: $4,752 − $3,752.625 = $999.375.",
+    "Without bag revenue: $4,725 − $3,752.625 = $972.375.",
+    "Source's no-bag-revenue result after rounding logistics costs: $4,725 − $3,752 = $973."
+   ],
+   "answer": "About $999.38 monthly under all stated revenue inputs; about $972.38 if bags are not charged separately. Clarify the source inconsistency before treating either as a final business forecast.",
+   "answer_value": 999.375,
+   "unit": "USD/month",
+   "verified": false,
+   "book_answer_if_different": "The book reports $973 per month. This uses no bag revenue and rounded logistics costs; following the revenue section's bag charge gives $999.375 before rounding."
+  }
+ ],
+ "synthesis": "The bakery is modestly profitable under the supplied assumptions, at about $999.38 monthly including the source's stated bag charge, or $972.38 without it. The book's $973 reflects omitted bag revenue and rounded logistics costs; bread cost is $540, not the printed $54. Do not treat this as an automatic launch decision. Validate demand, cost assumptions and bag pricing; examine waste, capacity, cannibalization and private-label liability alongside loyalty, margin and cross-selling opportunities. The source supports further strategic evaluation rather than an unconditional go decision.",
+ "what_great_looks_like": [
+  "Works through an organized framework and performs calculations quickly and accurately.",
+  "Reacts calmly to new information and follow-up questions.",
+  "Proactively identifies strategic factors and information still needed.",
+  "Shows business judgment about spoilage, cannibalization and cross-selling instead of stopping at a positive profit.",
+  "Identifies the bread-cost typo and inconsistent treatment of bag revenue."
+ ],
+ "common_pitfalls": [
+  "Using $54 rather than $540 as bread cost.",
+  "Silently dropping the stated bag revenue.",
+  "Confusing pallet, pound and loaf units.",
+  "Inventing equipment investment despite the existing kitchen.",
+  "Ignoring waste and store-wide cannibalization when recommending launch."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[3].answer: source does not reconcile stated bag revenue with its solution"
+  ],
+  "math_verified": false,
+  "notes": "Dedup verdict NEW. All pages 44–49 read and visually inspected. No candidate-facing exhibit is present; page 45 includes worked unit conversions and page 47 is an answer page, so neither is exposed as an exhibit image. Keep all source cost and revenue inputs in clarifying_info and info_to_release. Bread cost is $540, not the printed $54. Source total cost $3,752 already appears to use the correct $540 and rounded logistics; unrounded cost is $3,752.625. The source explicitly lists bag revenue $0.02 on page 45 and in the framework, then omits it on page 47. The primary answer honors that input, giving $999.375 profit; alternative without bag revenue is $972.375, matching approximately the source's rounded $973. This unresolved source contradiction is marked medium confidence and flagged for review. The volume of 1,350 and 30 days appear only in the worked solution and are explicitly released as source assumptions before calculation. Pallet quantity is allocated continuously, as the book does; no whole-pallet rounding rule is invented. Synthesis is reconstructed from the source's modest-profit caution and brainstorm, as there is no separate recommendation slide. Simple difficulty maps in code to 2. Quant intensity H reflects the multi-step model rather than source Medium arithmetic difficulty. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages[2].release_when for solution-only volume assumptions",
+   "stages.good_answer_signals",
+   "stages[4] synthesis phase",
+   "synthesis",
+   "what_great_looks_like final error-detection point",
+   "common_pitfalls"
+  ]
+ }
+}

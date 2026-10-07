@@ -1,0 +1,324 @@
+{
+ "id": "booth-2024-consumer-products-strategy",
+ "title": "Consumer Products Strategy",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  114,
+  120
+ ],
+ "case_type": [
+  "Market Entry",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "cpg",
+ "sub_industry": "household-products",
+ "industry_source_label": "CPG / Consumer Products",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 2/3; Creativity 3/3",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "low-income",
+  "pricing",
+  "pack-size",
+  "market-share",
+  "consumer-segmentation",
+  "channel-strategy"
+ ],
+ "fit_question": "What kind of a leader are you? Tell me about a time when someone on your team challenged you.",
+ "prompt": "A large multinational consumer-products company has historically sold premium-priced products in the United States. Low-income households, defined as families at or below the poverty level, are growing twice as quickly as other segments. The client wants to know whether it should develop a low-income strategy, what tactics it should use, and what risks it may face.",
+ "clarifying_info": [
+  {
+   "question_topic": "Channels",
+   "answer": "Low-income consumers purchase largely in smaller local shops."
+  },
+  {
+   "question_topic": "Preferences",
+   "answer": "They may indulge on shampoo and spend more on baby food to protect their children; valid generics compete with the client's cold medicine."
+  }
+ ],
+ "interviewer_notes": "Candidate-led market-entry case combining a tailored low-income consumer framework, share and incremental-revenue calculations, and product/channel brainstorming. Show Exhibit 1 when products are discussed and Exhibit 2 after the candidate identifies diapers as the largest relevant share gap.",
+ "suggested_framework": {
+  "summary": "Assess low-income customer needs, category economics, competition and the client's capabilities and risks.",
+  "tree": {
+   "label": "Low-income strategy",
+   "children": [
+    {
+     "label": "Market and customers",
+     "children": [
+      {
+       "label": "Segment size, growth and demographics"
+      },
+      {
+       "label": "Needs, willingness to pay and channels"
+      }
+     ]
+    },
+    {
+     "label": "Category economics",
+     "children": [
+      {
+       "label": "Share, price and volume opportunity"
+      },
+      {
+       "label": "Manufacturing, packaging, distribution and marketing costs"
+      }
+     ]
+    },
+    {
+     "label": "Company and competition",
+     "children": [
+      {
+       "label": "Capabilities and product portfolio"
+      },
+      {
+       "label": "Low-cost rivals, response and execution risks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether the client should develop a low-income strategy?",
+   "expected_answer": "Examine the segment's size and growth, consumers' category needs and price sensitivity, competitors and channels; quantify revenue and profitability by category; and test client capabilities, access, cannibalization, brand and response risks.",
+   "good_answer_signals": [
+    "Tailors the approach to low-income consumers",
+    "Includes both economics and risks"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do you make of the client's key-product data in Exhibit 1? If it achieved its fair share of the low-income segment, how much additional revenue would it generate?",
+   "expected_answer": "The client over-indexes with low-income buyers in shampoo, roughly matches in baby food, and under-indexes in cold medicine and diapers. Matching overall category share would add $7.5M of cold-medicine revenue and $25M of diaper revenue, or $32.5M total.",
+   "good_answer_signals": [
+    "Calculates overall and low-income shares",
+    "Prioritizes the $25M diaper gap"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Customer research says low-income consumers are interested in buying diapers. What in Exhibit 2 may explain why they are not buying the client's diapers?",
+   "expected_answer": "The client's $0.50 price per diaper equals competitors, but its 40-pack requires a $20 cash outlay versus $16 for a 32-pack. A 20-pack would preserve unit price while lowering the checkout price to $10.",
+   "good_answer_signals": [
+    "Separates unit price from package outlay",
+    "Proposes a smaller pack rather than an unnecessary unit-price cut"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What else should the client consider, and what are the risks?",
+   "expected_answer": "Use smaller packs, consider a discount brand, enter neighborhood shops, tailor marketing and build on strong shampoo and baby-food positions. Risks include brand dilution, cannibalization, added packaging and distribution cost, access challenges and competitive price response.",
+   "good_answer_signals": [
+    "Organizes ideas by product, customer and company",
+    "Connects tactics to low-income cash constraints"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What do you recommend?",
+   "expected_answer": "Pursue a low-income strategy led by diapers, where matching overall share could add $25M. Pilot a 20-pack at $10 while retaining $0.50 per diaper, expand relevant local channels and monitor brand, cannibalization, cost and competitor risks.",
+   "good_answer_signals": [
+    "Answers all three client questions",
+    "Quantifies the diaper opportunity"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exhibit-1",
+   "title": "Consumer Spend by Product Category",
+   "page": 117,
+   "kind": "table",
+   "image_has_answers": false,
+   "description": "US category sales and client sales overall and among low-income consumers, in US$M.",
+   "image_path": "exhibits/booth-2024-consumer-products-strategy/p117.webp",
+   "key_insight": "The client under-indexes most sharply with low-income diaper buyers.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Product/category",
+     "Total category sales (US$M)",
+     "Client category sales (US$M)",
+     "Total LI consumer spend on category (US$M)",
+     "LI consumer spend on client (US$M)"
+    ],
+    "rows": [
+     [
+      "Shampoo",
+      400,
+      100,
+      90,
+      30
+     ],
+     [
+      "Cold Medicine",
+      250,
+      50,
+      75,
+      7.5
+     ],
+     [
+      "Diapers",
+      300,
+      150,
+      100,
+      25
+     ],
+     [
+      "Baby food",
+      300,
+      100,
+      100,
+      30
+     ]
+    ]
+   }
+  },
+  {
+   "id": "exhibit-2",
+   "title": "Product Packaging and Price by Category",
+   "page": 119,
+   "kind": "table",
+   "image_has_answers": false,
+   "description": "Client and competitor package sizes and prices.",
+   "image_path": "exhibits/booth-2024-consumer-products-strategy/p119.webp",
+   "key_insight": "The client's diaper unit price matches competitors, but its larger pack requires a higher cash outlay.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Product/category",
+     "Client package size",
+     "Average competitor package size",
+     "Client price",
+     "Average price of top 5 competitors"
+    ],
+    "rows": [
+     [
+      "Shampoo",
+      "10 oz bottle",
+      "12 oz bottle",
+      "$4",
+      "$3"
+     ],
+     [
+      "Cold Medicine",
+      "6 oz bottle",
+      "6.5 oz bottle",
+      "$6",
+      "$3"
+     ],
+     [
+      "Diapers",
+      "40-pack",
+      "32-pack",
+      "$20",
+      "$16"
+     ],
+     [
+      "Baby food",
+      "6 oz jar",
+      "6 oz jar",
+      "$2",
+      "$1.50"
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are the client's overall and low-income shares by category?",
+   "givens": [
+    "Exhibit 1 sales data"
+   ],
+   "steps": [
+    "Shampoo: 100/400=25%; 30/90=33.3%",
+    "Cold medicine: 50/250=20%; 7.5/75=10%",
+    "Diapers: 150/300=50%; 25/100=25%",
+    "Baby food: 100/300=33.3%; 30/100=30%"
+   ],
+   "answer": "Overall versus low-income shares: shampoo 25% vs 33.3%; cold medicine 20% vs 10%; diapers 50% vs 25%; baby food 33.3% vs 30%.",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much incremental revenue would fair low-income share create?",
+   "givens": [
+    "Cold medicine overall share 20%, low-income share 10%, low-income spend $75M",
+    "Diapers overall share 50%, low-income share 25%, low-income spend $100M"
+   ],
+   "steps": [
+    "Cold medicine=(20%-10%)×$75M=$7.5M",
+    "Diapers=(50%-25%)×$100M=$25M",
+    "Total=$7.5M+$25M=$32.5M"
+   ],
+   "answer": "$32.5M incremental annual revenue, of which $25M is diapers",
+   "answer_value": 32.5,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What smaller diaper pack preserves the client's price per diaper while lowering the cash outlay?",
+   "givens": [
+    "40-pack costs $20",
+    "Competitor 32-pack costs $16"
+   ],
+   "steps": [
+    "Client price per diaper=$20/40=$0.50",
+    "A 20-pack at $0.50 per diaper costs $10"
+   ],
+   "answer": "A 20-pack priced at $10",
+   "answer_value": 10,
+   "unit": "USD/package",
+   "verified": true
+  }
+ ],
+ "synthesis": "Pursue a low-income strategy led by diapers: matching the client's 50% overall share among low-income buyers could add $25M in annual revenue. Pilot a 20-pack at $10 to reduce cash outlay without cutting the $0.50 unit price, expand neighborhood distribution and tailored marketing, and monitor brand dilution, cannibalization, added packaging and distribution cost, and competitive response.",
+ "what_great_looks_like": [
+  "Tailors the analysis to low-income consumers",
+  "Finds the $25M diaper opportunity",
+  "Recognizes package outlay rather than unit price as the diaper barrier"
+ ],
+ "common_pitfalls": [
+  "Treats every category the same",
+  "Confuses overall category sales with low-income spend",
+  "Cuts per-diaper price despite equal unit economics"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Both exhibits are candidate-facing pages and contain inputs only. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

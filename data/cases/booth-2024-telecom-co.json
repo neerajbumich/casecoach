@@ -1,0 +1,429 @@
+{
+ "id": "booth-2024-telecom-co",
+ "title": "Telecom Co.",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  376,
+  384
+ ],
+ "case_type": [
+  "Market Entry",
+  "Investment/PE due diligence",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "telecom",
+ "sub_industry": "wireless-carriers",
+ "industry_source_label": "Telecommunications",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain & Company"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 3, Creativity 2 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 40,
+ "tags": [
+  "WiMAX",
+  "broadband",
+  "market-entry",
+  "network-capacity",
+  "base-stations",
+  "breakeven",
+  "triple-play"
+ ],
+ "concepts_tested": [
+  "competitive dynamics",
+  "market sizing",
+  "breakeven analysis",
+  "build-versus-lease",
+  "network economics"
+ ],
+ "fit_question": "Tell me about a time you convinced someone with an opposing viewpoint. Alternatively, tell me about a time you overcame adversity.",
+ "prompt": "Telecom Co. provides national satellite-TV service. Telcos and cable companies are threatening its customer base with triple-play bundles. Telecom Co. is considering deploying a WiMAX wireless network to add broadband internet. Should it enter the WiMAX business?",
+ "clarifying_info": [],
+ "interviewer_notes": "Drive first to cost structure, then spectrum and base-station choices, followed by market sizing and revenue. Exhibit 1 says initial SG&A is minimal. For spectrum, explicitly give the candidate the source's instructed $500M assumed average even though the plotted historical values average about $493M. Lease base stations at $150K each. The source rounds annual revenue to $1.4B; exact arithmetic is $1.44B. Its recommendation not to invest is not established by the supplied economics because operating costs, timing, margins, asset life, and protected DBS revenue are missing.",
+ "suggested_framework": {
+  "summary": "Size broadband demand and price, engineer network capacity and investment, compare build-versus-lease, and value entry including operating costs and defense of the core TV base.",
+  "tree": {
+   "label": "Enter WiMAX broadband?",
+   "children": [
+    {
+     "label": "Market and revenue",
+     "children": [
+      {
+       "label": "Households, adoption/share, price, churn, bundles, and competitor response"
+      }
+     ]
+    },
+    {
+     "label": "Network and cost",
+     "children": [
+      {
+       "label": "Spectrum, stations, CPE, coverage, capacity, SG&A, maintenance, and upgrades"
+      }
+     ]
+    },
+    {
+     "label": "Entry model",
+     "children": [
+      {
+       "label": "Build versus lease, partnerships, rollout geography, and time-to-market"
+      }
+     ]
+    },
+    {
+     "label": "Returns and risk",
+     "children": [
+      {
+       "label": "Cash flow, payback, NPV, technology/regulation, execution, and core-retention value"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether Telecom Co. should enter WiMAX?",
+   "expected_answer": "Estimate addressable households, achievable share, broadband price, bundle effects, and protected DBS revenue. Build the full network cost from spectrum, base stations, CPE, SG&A, maintenance, leases, and upgrades. Compare build, lease, and partnership models, then assess cash flow, payback/NPV, coverage, technology, regulation, time-to-market, and competitive response.",
+   "good_answer_signals": [
+    "Includes strategic defense of satellite TV",
+    "Uses network capacity rather than only population",
+    "Requests ongoing costs and investment horizon"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What costs matter?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Initial network cost comprises spectrum, base stations, and customer-premise equipment, while SG&A is assumed minimal at first. A full decision must later add ongoing maintenance, tower/backhaul leases, customer service, sales and marketing, technology upgrades, and subscriber acquisition.",
+   "good_answer_signals": [
+    "Uses the cost tree",
+    "Distinguishes upfront and ongoing costs",
+    "Does not treat minimal initial SG&A as zero forever"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "What spectrum assumption should we use?",
+   "info_to_release": "Use $500M as the spectrum price for the final calculation.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Historical auctions range from $240M to $1.1B and average roughly $493M from the plotted observations, so the interviewer-provided $500M is a reasonable rounded planning assumption. Sensitize the decision because auction outcomes vary widely.",
+   "good_answer_signals": [
+    "Preserves the handed $500M input",
+    "Recognizes dispersion",
+    "Proposes sensitivity analysis"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Should Telecom Co. build or lease base stations?",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Lease for the base case: $150K per station versus $380K to build, with lower upfront capital and faster time-to-market. Building offers footprint control and access to prime sites but costs more and takes longer. Leasing risks unavailable tower locations and coverage gaps, so verify capacity, coverage, contract escalators, and service levels.",
+   "good_answer_signals": [
+    "Recommends lease with rationale",
+    "Notes control and coverage tradeoffs",
+    "Uses $150K in the calculation"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "How many base stations are required, and what will they cost?",
+   "info_to_release": "Use a US population of 300M and 2.5 people per household. Management expects 5% market share. Each base station has 80,000 kbps capacity; each connected household requires 320 kbps; 50% of households connect concurrently. Lease cost is $150K per station.",
+   "expected_answer": "The US has 300M/2.5=120M households; 5% share is 6M. A station supports 80,000/320=250 simultaneous households, or 250/50%=500 subscribed households at 50% concurrency. Required stations are 6M/500=12,000. At $150K each, station cost is $1.8B.",
+   "good_answer_signals": [
+    "Gets 120M and 6M households",
+    "Divides by 50% rather than multiplying capacity incorrectly",
+    "Gets 12,000 stations and $1.8B"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Calculate total initial cost and annual broadband revenue.",
+   "info_to_release": "CPE costs $150 per household and two-thirds can be passed through to customers. Broadband price is $20 per month. Use the handed $500M spectrum assumption.",
+   "expected_answer": "Net CPE cost is 6M x $150 x one-third = $300M. Initial cost is $500M spectrum + $1.8B station leases + $300M CPE = $2.6B. Annual revenue is 6M x $20 x 12 = $1.44B exactly, rather than the source's rounded $1.4B. The simple upfront-cost-to-revenue ratio is about 1.81 years, but this is not a profit payback because ongoing cost is missing.",
+   "good_answer_signals": [
+    "Passes through two-thirds of CPE",
+    "Gets $2.6B cost",
+    "Gets exact $1.44B revenue",
+    "Does not call revenue profit"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Telecom Co. enter WiMAX?",
+   "expected_answer": "Do not approve a nationwide rollout yet, but the supplied data do not justify abandoning WiMAX. Initial cost is $2.6B and exact annual revenue is $1.44B at 5% share, implying a 1.81-year revenue payback before ongoing costs. Run a regional lease-based pilot and obtain maintenance, backhaul, SG&A, churn, margin, rollout timing, asset life, and protected satellite-TV revenue to calculate NPV. If economics fail, pursue partnerships or other bundle defenses.",
+   "good_answer_signals": [
+    "Makes a cautious decision rather than repeating the book conclusion",
+    "Quantifies the economics",
+    "Identifies missing information and a staged next step"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Total cost structure",
+   "page": 379,
+   "kind": "other",
+   "description": "Network and SG&A cost tree for WiMAX entry.",
+   "data": {
+    "columns": [
+     "Cost category",
+     "Components",
+     "Initial treatment"
+    ],
+    "rows": [
+     [
+      "Network",
+      "Spectrum, base stations, customer-premise equipment",
+      "Focus of initial estimate"
+     ],
+     [
+      "SG&A",
+      "Sales, marketing, support and related overhead",
+      "Assume minimal initially"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-telecom-co/p379.webp",
+   "image_has_answers": false,
+   "key_insight": "The initial estimate focuses on spectrum, stations, and CPE, but a full investment case needs ongoing SG&A and operating costs.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Historic spectrum auction prices",
+   "page": 380,
+   "kind": "bar",
+   "description": "Selected US carrier auction prices in millions of dollars from 2005-2007.",
+   "data": {
+    "columns": [
+     "Date",
+     "Carrier",
+     "Price ($M)"
+    ],
+    "rows": [
+     [
+      "May 2005",
+      "Verizon",
+      1100
+     ],
+     [
+      "Oct 2005",
+      "T-Mobile",
+      480
+     ],
+     [
+      "Dec 2005",
+      "Comcast",
+      250
+     ],
+     [
+      "Feb 2006",
+      "Verizon",
+      450
+     ],
+     [
+      "Apr 2006",
+      "AT&T",
+      340
+     ],
+     [
+      "Aug 2006",
+      "Verizon",
+      750
+     ],
+     [
+      "Nov 2006",
+      "T-Mobile",
+      350
+     ],
+     [
+      "Mar 2007",
+      "Verizon",
+      240
+     ],
+     [
+      "Apr 2007",
+      "AT&T",
+      620
+     ],
+     [
+      "Jun 2007",
+      "AT&T",
+      520
+     ],
+     [
+      "Sep 2007",
+      "Verizon",
+      320
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-telecom-co/p380.webp",
+   "image_has_answers": false,
+   "key_insight": "Prices are volatile; the instructed $500M assumption is a rounded approximation to the plotted $492.7M average.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Build or lease a base station",
+   "page": 381,
+   "kind": "bar",
+   "description": "Per-station build and lease costs with major components.",
+   "data": {
+    "columns": [
+     "Option",
+     "Total per station",
+     "Components"
+    ],
+    "rows": [
+     [
+      "Build/own/operate",
+      "$380K",
+      "Electronics, planning and design, cabling/misc., maintenance"
+     ],
+     [
+      "Lease",
+      "$150K",
+      "Tower lease, backhaul lease, electronics, cabling/misc., maintenance"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-telecom-co/p381.webp",
+   "image_has_answers": false,
+   "key_insight": "Leasing is $230K cheaper per station and faster, but may constrain coverage and control.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many target households and base stations are required?",
+   "givens": [
+    "300M population",
+    "2.5 people/household",
+    "5% share",
+    "80,000 kbps/station",
+    "320 kbps/connected household",
+    "50% concurrency"
+   ],
+   "steps": [
+    "Households=300M/2.5=120M",
+    "Subscribers=120Mx5%=6M",
+    "Simultaneous capacity=80,000/320=250 households",
+    "Subscribed capacity=250/50%=500 households/station",
+    "Stations=6M/500=12,000"
+   ],
+   "answer": "6M target households requiring 12,000 base stations",
+   "answer_value": 12000,
+   "unit": "base stations",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is initial network cost?",
+   "givens": [
+    "$500M handed spectrum assumption",
+    "12,000 stations at $150K",
+    "6M CPE units at $150 with two-thirds passed through"
+   ],
+   "steps": [
+    "Stations=12,000x$150K=$1.8B",
+    "Net CPE=6Mx$150x1/3=$300M",
+    "Total=$500M+$1.8B+$300M=$2.6B"
+   ],
+   "answer": "$2.6B",
+   "answer_value": 2.6,
+   "unit": "USD billions",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is annual broadband revenue?",
+   "givens": [
+    "6M subscribers",
+    "$20/month",
+    "12 months"
+   ],
+   "steps": [
+    "6Mx$20x12=$1.44B"
+   ],
+   "answer": "$1.44B per year",
+   "answer_value": 1.44,
+   "unit": "USD billions per year",
+   "verified": false,
+   "book_answer_if_different": "$1.4B per year (rounded in the source)"
+  },
+  {
+   "id": "m4",
+   "question": "What is the simple upfront-cost-to-revenue ratio?",
+   "givens": [
+    "$2.6B initial cost",
+    "$1.44B annual revenue"
+   ],
+   "steps": [
+    "$2.6B/$1.44B=1.8056 years"
+   ],
+   "answer": "Approximately 1.81 years before operating costs",
+   "answer_value": 1.8056,
+   "unit": "years of revenue",
+   "verified": true
+  }
+ ],
+ "synthesis": "Do not commit to a nationwide WiMAX rollout yet, but do not reject it on the supplied data. At 5% share, 12,000 leased stations plus spectrum and net CPE cost $2.6B, while annual revenue is exactly $1.44B, a 1.81-year revenue—not profit—payback. Pilot regionally and gather operating cost, rollout, churn, retention, asset-life, and margin data for NPV; use partnerships or alternate bundles if the full economics fail.",
+ "what_great_looks_like": [
+  "Sizes capacity using concurrency",
+  "Preserves the interviewer-provided $500M assumption",
+  "Separates revenue from profit",
+  "Corrects $1.4B to $1.44B",
+  "Challenges the unsupported go/no-go conclusion constructively"
+ ],
+ "common_pitfalls": [
+  "Using population rather than households",
+  "Forgetting the 5% share",
+  "Multiplying rather than dividing by 50% concurrency",
+  "Charging the full CPE cost to Telecom Co.",
+  "Treating 1.81 years as a profit payback",
+  "Ignoring protected satellite-TV value"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "All capacity and cost arithmetic was independently verified. The source rounds 6M x $20 x 12 to $1.4B; the exact result is $1.44B. The instructed $500M spectrum figure is retained in info_to_release and calculations even though the 11 plotted auctions average $492.7M. The source's 'do not invest' recommendation is not supported without operating costs, investment horizon, margin, rollout timing, or core-retention value; the synthesis explicitly treats this as a diligence gap. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

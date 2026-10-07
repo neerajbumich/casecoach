@@ -1,0 +1,52 @@
+{
+  "id": "lek",
+  "name": "L.E.K. Consulting",
+  "tier": "Tier 2",
+  "one_liner": "Independent global strategy firm known for private equity due diligence, life sciences, and short, analytically heavy projects.",
+  "at_a_glance": [
+    "Founded over 40 years ago in London; independent strategy consultancy.",
+    "About 2,300+ employees across ~27 offices.",
+    "200+ partners and 2,000+ cases per year (approximate).",
+    "Known for private equity, life sciences, and M&A work."
+  ],
+  "interview_process": {
+    "rounds": [
+      "First round: ~2 case interviews with fit.",
+      "Final round: ~2 case interviews plus, often, a written case presentation."
+    ],
+    "case_style": "Candidate-led, quantitatively heavy strategy cases. The written case gives a slide pack to analyze in about an hour, then present and take questions.",
+    "fit_style": "Behavioral questions within case interviews, focused on motivation, teamwork, and how you handle pressure.",
+    "assessments": "None standard as far as public sources show."
+  },
+  "what_they_look_for": [
+    "Methodical, structured problem solving",
+    "Using data to reach and defend conclusions",
+    "Curiosity and asking for the information you need",
+    "Willingness to rethink with new data",
+    "Authenticity"
+  ],
+  "culture": [
+    "Described as humble, down-to-earth, and collaborative.",
+    "Shorter cases and a generalist model give broad exposure and early responsibility.",
+    "Smaller offices build close community with limited travel."
+  ],
+  "why_us_angles": [
+    "Does the fast pace of PE due diligence projects appeal to you?",
+    "How do shorter cases and a generalist model fit your learning goals?",
+    "Which L.E.K. sector (e.g., consumer, healthcare, tech) matches your background?"
+  ],
+  "prep_tips": [
+    "Practice a timed written case: about an hour to digest ~30 slides into a short deck.",
+    "Drill quantitative market-sizing and due diligence cases.",
+    "Paraphrase the question back before structuring.",
+    "Show flexibility by updating hypotheses when new data arrives."
+  ],
+  "practice_mode": "tier2",
+  "sources": [
+    "https://www.lek.com/careers/apply/interview-preparation",
+    "https://www.lek.com/about-lek",
+    "https://www.lek.com/careers/lek-difference",
+    "https://www.myconsultingoffer.org/case-study-interview-prep/lek-written-case/"
+  ],
+  "checked": "2026-09"
+}

@@ -1,0 +1,431 @@
+{
+ "id": "booth-2024-craft-co",
+ "title": "Craft Co.",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  370,
+  375
+ ],
+ "case_type": [
+  "Profitability",
+  "Growth/Revenue",
+  "Competitive Response"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "retail",
+ "sub_industry": "department-specialty",
+ "industry_source_label": "Consumer Product Goods",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "EY-Parthenon"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 1, Quant 2, Creativity 1 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "subscription",
+  "craft-kits",
+  "subscriber-decline",
+  "unit-economics",
+  "marketing",
+  "pricing"
+ ],
+ "concepts_tested": [
+  "chart clearing",
+  "profitability calculation",
+  "subscription economics",
+  "competitive positioning"
+ ],
+ "fit_question": "Tell me about a time you failed. Alternatively, discuss a project whose results made you proud and why.",
+ "prompt": "Craft Co. is a US subscription service that sends adult crafting and DIY kits. It grew rapidly during COVID-19 but has declined in recent quarters as competitors entered. How has it performed recently, and what can it do to grow profitability and regain share over the next three to five years?",
+ "clarifying_info": [
+  {
+   "question_topic": "Customers",
+   "answer": "Products are typically marketed to young adults ages 18-35."
+  },
+  {
+   "question_topic": "Competition and timing",
+   "answer": "Craft Co. was the first major player; new competitors entered by late 2020. Management prioritizes strategies with impact in the next one to three years."
+  },
+  {
+   "question_topic": "Footprint and objective",
+   "answer": "Craft Co. operates only in the US and has no explicit ROI hurdle for this analysis."
+  }
+ ],
+ "interviewer_notes": "After the framework, ask for profitability ideas, then provide Exhibit 1 for the Q4 2020 profit calculation and subscriber trend. The one-kit tier breaks even before fixed costs, so only the two-kit tier contributes. Exhibit 2 shows strong perceived price and quality but weak delivery speed and convenience/time. The intended insight is that high quality and low relative price may create room to raise price, while retention requires differentiation and improved experience.",
+ "suggested_framework": {
+  "summary": "Assess subscriber, price, tier mix, and cost economics; benchmark customer value drivers; then prioritize near-term pricing, retention, product, and marketing actions.",
+  "tree": {
+   "label": "Restore Craft Co. growth and profit",
+   "children": [
+    {
+     "label": "Performance",
+     "children": [
+      {
+       "label": "Subscribers, churn, acquisition, tier mix, price, revenue, and profit"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Kit materials, shipping, operating cost, marketing, and CAC efficiency"
+      }
+     ]
+    },
+    {
+     "label": "Market and customers",
+     "children": [
+      {
+       "label": "Share, entrants, preferences, price sensitivity, quality, delivery, and convenience"
+      }
+     ]
+    },
+    {
+     "label": "Actions",
+     "children": [
+      {
+       "label": "Pricing, loyalty, differentiation, adjacent kits, channels, marketing optimization, and acquisition"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess recent performance and growth options?",
+   "expected_answer": "Decompose revenue into average subscribers, tier mix, price, and retention; split costs into kit-level variable cost, operations, and marketing; track acquisition, churn, and contribution by tier. Then compare market share, competitors, customer value drivers, and product fit, and evaluate pricing, loyalty, differentiation, adjacencies, channels, and marketing efficiency over the one-to-three-year priority window.",
+   "good_answer_signals": [
+    "Uses subscription unit economics",
+    "Includes churn and CAC",
+    "Focuses on near-term executable levers"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Craft Co. improve profitability?",
+   "expected_answer": "Increase revenue from existing subscribers through price, upgrades, add-ons, or retention; acquire new segments through children's or cooking kits and new channels; enter attractive geographies selectively; and reduce cost by optimizing marketing mix, kit procurement, fulfillment, and shipping without increasing churn.",
+   "good_answer_signals": [
+    "Covers price, volume, and cost",
+    "Tailors ideas to subscriptions",
+    "Mentions marketing effectiveness"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 1, estimate Q4 2020 revenue, cost, and profit.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Average monthly subscribers are 75K: 45K buy one kit and 30K buy two. Monthly revenue is 45Kx$50 + 30Kx$80 = $4.65M; quarterly revenue is $13.95M. Monthly variable cost is 45Kx$50 + 30Kx$60 = $4.05M; quarterly variable cost is $12.15M. Adding $2M operating and $8M marketing costs gives $22.15M total cost and an $8.2M quarterly loss. The one-kit tier has zero contribution; the two-kit tier contributes $1.8M per quarter, far below $10M fixed/marketing spend.",
+   "good_answer_signals": [
+    "Uses three months",
+    "Weights the two tiers",
+    "Gets an $8.2M loss",
+    "Identifies marketing as the largest avoidable burden"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "Describe the subscriber pattern in Exhibit 1.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Subscribers rose from 60K in Q1 2019 to 100K in Q1 2020, about 66.7%, then fell every quarter to 75K in Q4 2020, a 25% decline. Early growth may reflect heavy marketing, first-mover advantage, and pandemic demand; later decline coincides with new competition despite continued interest in crafts.",
+   "good_answer_signals": [
+    "Separates growth and decline periods",
+    "Gets roughly +67% and -25%",
+    "Forms testable causal hypotheses"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "What does Exhibit 2 suggest?",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Craft Co. substantially outperforms competitors on price (4.3 versus 2.4) and modestly on quality (3.7 versus 3.2), but underperforms on delivery speed (2.5 versus 3.8), time/convenience (2.3 versus 3.1), and variety of craft types (3.4 versus 3.6). Strong price and quality perceptions suggest potential to test a price increase or premium positioning, while service and convenience gaps likely contribute to churn.",
+   "good_answer_signals": [
+    "Prioritizes important factors",
+    "Sees pricing headroom",
+    "Connects delivery and convenience to retention"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "How can Craft Co. stabilize subscribers?",
+   "expected_answer": "Differentiate kits and brand, add loyalty and pause options, improve delivery reliability and time-to-complete, personalize difficulty and categories, optimize marketing to retention/LTV rather than gross adds, and consider acquiring a competitor if integration economics are attractive. Pilot price changes by cohort and protect the value proposition.",
+   "good_answer_signals": [
+    "Balances acquisition and retention",
+    "Addresses weak service factors",
+    "Uses cohort tests"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "What should management do?",
+   "expected_answer": "Craft Co. lost $8.2M in Q4 2020: $13.95M revenue versus $22.15M cost, driven by $8M marketing and a one-kit tier with zero contribution. Subscribers also fell 25% from Q1 to Q4 2020. Immediately test a modest price increase or tier redesign, cut low-return marketing, and improve delivery and convenience while adding loyalty and differentiated kits. Track churn, CAC, LTV, contribution by tier, and price elasticity before scaling.",
+   "good_answer_signals": [
+    "Quantifies loss and subscriber decline",
+    "Prioritizes pricing/tier and marketing economics",
+    "Links actions to survey weaknesses"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Q4 2020 economics and subscriber trend",
+   "page": 373,
+   "kind": "other",
+   "description": "Tier prices, variable costs, quarterly operating and marketing costs, and average monthly subscribers by quarter.",
+   "data": {
+    "columns": [
+     "Input type",
+     "Item",
+     "Value 1",
+     "Value 2",
+     "Value 3"
+    ],
+    "rows": [
+     [
+      "Tier",
+      "1 kit/month",
+      "$50 price",
+      "60% of subscribers",
+      "$50 variable cost"
+     ],
+     [
+      "Tier",
+      "2 kits/month",
+      "$80 price",
+      "40% of subscribers",
+      "$60 variable cost"
+     ],
+     [
+      "Quarterly cost",
+      "Operating",
+      "$2M",
+      "",
+      ""
+     ],
+     [
+      "Quarterly cost",
+      "Marketing",
+      "$8M",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q1 2019",
+      "60",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q2 2019",
+      "70",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q3 2019",
+      "90",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q4 2019",
+      "85",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q1 2020",
+      "100",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q2 2020",
+      "95",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q3 2020",
+      "85",
+      "",
+      ""
+     ],
+     [
+      "Subscribers (000s)",
+      "Q4 2020",
+      "75",
+      "",
+      ""
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-craft-co/p373.webp",
+   "image_has_answers": false,
+   "key_insight": "Subscriber decline and weak tier contribution cannot support the $10M quarterly operating and marketing burden.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Performance on service-selection factors",
+   "page": 374,
+   "kind": "table",
+   "description": "Consumer survey comparison of Craft Co. and competitor-average performance on a 1-5 scale.",
+   "data": {
+    "columns": [
+     "Factor",
+     "Importance",
+     "Craft Co.",
+     "Average of others"
+    ],
+    "rows": [
+     [
+      "Price",
+      "High",
+      4.3,
+      2.4
+     ],
+     [
+      "Delivery speed",
+      "High",
+      2.5,
+      3.8
+     ],
+     [
+      "Craft kit quality",
+      "High",
+      3.7,
+      3.2
+     ],
+     [
+      "Time required for craft",
+      "Medium",
+      2.3,
+      3.1
+     ],
+     [
+      "Variety of craft types",
+      "Medium",
+      3.4,
+      3.6
+     ],
+     [
+      "Variety of experience levels",
+      "Low",
+      3.1,
+      3.0
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-craft-co/p374.webp",
+   "image_has_answers": false,
+   "key_insight": "Craft Co. wins on price and quality but loses on delivery speed and convenience, supporting a paired pricing-and-service response.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What was Q4 2020 profit?",
+   "givens": [
+    "75K average monthly subscribers",
+    "60% at $50 price/$50 cost",
+    "40% at $80 price/$60 cost",
+    "3 months",
+    "$2M operating cost",
+    "$8M marketing cost"
+   ],
+   "steps": [
+    "One-kit subscribers=45K; two-kit=30K",
+    "Quarterly revenue=3x(45Kx$50+30Kx$80)=$13.95M",
+    "Quarterly variable cost=3x(45Kx$50+30Kx$60)=$12.15M",
+    "Total cost=$12.15M+$2M+$8M=$22.15M",
+    "Profit=$13.95M-$22.15M=-$8.2M"
+   ],
+   "answer": "$8.2M quarterly loss",
+   "answer_value": -8.2,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How did subscribers change around 2020?",
+   "givens": [
+    "60K in Q1 2019",
+    "100K in Q1 2020",
+    "75K in Q4 2020"
+   ],
+   "steps": [
+    "Growth=(100-60)/60=66.67%",
+    "Decline=(75-100)/100=-25%"
+   ],
+   "answer": "Up 66.7% through Q1 2020, then down 25% by Q4 2020",
+   "answer_value": -25,
+   "unit": "percent Q1-Q4 2020 subscriber change",
+   "verified": true
+  }
+ ],
+ "synthesis": "Craft Co. is structurally unprofitable at current economics: Q4 revenue was $13.95M versus $22.15M cost, an $8.2M loss, while subscribers fell 25% from the Q1 2020 peak. The one-kit tier contributes nothing, marketing costs $8M per quarter, and customers see price/quality strength but delivery and convenience weakness. Test price and tier redesign, cut low-return marketing, improve fulfillment, and introduce loyalty and differentiated kits with cohort-level churn, CAC, LTV, and contribution targets.",
+ "what_great_looks_like": [
+  "Weights tiers correctly",
+  "Uses three months",
+  "Identifies zero contribution in the one-kit tier",
+  "Reads survey importance with performance",
+  "Prioritizes measurable near-term actions"
+ ],
+ "common_pitfalls": [
+  "Using 75K subscribers for the whole quarter without multiplying by three",
+  "Ignoring subscriber mix",
+  "Calling revenue growth profitable growth",
+  "Raising price without testing elasticity",
+  "Cutting marketing without considering acquisition effects"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Q4 revenue, cost, loss, and subscriber growth calculations were independently recomputed. The source supplies qualitative rather than exact numeric importance symbols in Exhibit 2; they are encoded as high/medium/low based on the filled circles. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

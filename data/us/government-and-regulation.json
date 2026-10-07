@@ -1,0 +1,116 @@
+{
+  "id": "government-and-regulation",
+  "section": "business",
+  "order": 3,
+  "title": "Government and Regulation",
+  "summary": "How federal, state and local government split the work and the money, which regulators matter for which industries, and how tariffs work. Regulation is often the hidden constraint in a US case, and public-sector cases follow different rules.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Three layers, real power at each",
+      "body": "The US is a federation: states are not administrative arms of Washington. They set their own taxes, minimum wages, licensing, insurance rules and much of healthcare and education policy. Counties and cities run schools (via school districts), police, zoning and local roads. A national rollout can therefore hit 50 different rulebooks. Always ask which level of government controls the lever in your case."
+    },
+    {
+      "type": "table",
+      "title": "Who funds what",
+      "columns": ["Area", "Main funder", "Notes"],
+      "rows": [
+        ["K-12 schools", "State + local", "~87% state/local, ~13% federal (FY2023, NCES); property taxes matter locally"],
+        ["Medicaid", "Federal + state", "Federal share ~65% overall (FY2024); 50-77% by state, 90% for ACA expansion adults"],
+        ["Medicare", "Federal", "Payroll taxes, premiums, general revenue"],
+        ["Interstate highways", "Federal + state", "Federal grants, states build and maintain"],
+        ["Local roads, transit", "State + local", "Fuel taxes, sales taxes, fares"],
+        ["Defense", "Federal", "Largest discretionary federal category"],
+        ["Police, fire, zoning", "Local", "City and county budgets"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Key federal regulators",
+      "columns": ["Agency", "Oversees", "Shows up in cases about"],
+      "rows": [
+        ["FTC", "Antitrust, consumer protection", "Mergers, pricing practices, advertising claims"],
+        ["DOJ Antitrust", "Antitrust, criminal cartels", "Large mergers, monopolization suits"],
+        ["FDA", "Drugs, devices, food safety", "Drug launches, approval timelines, recalls"],
+        ["EPA", "Air, water, emissions", "Manufacturing, energy, autos"],
+        ["SEC", "Securities markets, public disclosure", "IPOs, reporting, investor claims"],
+        ["FCC", "Telecom, spectrum, broadcast", "Wireless, cable, satellite"],
+        ["FAA", "Aviation safety, airspace", "Airlines, aircraft makers, drones"],
+        ["CFPB", "Consumer financial products", "Lending, cards, fintech fees"],
+        ["CMS", "Medicare and Medicaid payment rules", "Hospitals, insurers, pharma"]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Antitrust basics for M&A cases",
+      "items": [
+        "Large deals must be notified to the FTC and DOJ before closing (Hart-Scott-Rodino review).",
+        "Regulators look at market concentration and effects on prices, quality and innovation.",
+        "Remedies include blocking the deal, suing, or requiring divestitures of overlapping businesses.",
+        "Enforcement intensity shifts with each administration; build approval risk and timing into synergy cases."
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Private vs public-sector cases",
+      "left": "Private-sector client",
+      "right": "Public-sector client",
+      "rows": [
+        ["Objective", "Profit, shareholder value", "Mission outcomes, service levels, equity"],
+        ["Budget", "Flexible with ROI", "Appropriated by legislature, fiscal-year bound"],
+        ["Decision makers", "CEO, board", "Elected officials, agency heads, legislators, public"],
+        ["Buying", "Negotiate freely", "Formal procurement and competitive bidding"],
+        ["Constraints", "Market, regulation", "Statute, union contracts, transparency rules"],
+        ["Success metric", "EBITDA, growth", "Cost per outcome, wait times, coverage"]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Tariffs and trade basics",
+      "items": [
+        "A tariff is a tax on imports, paid by the US importer of record and collected by Customs and Border Protection.",
+        "Who bears it economically depends on pass-through: importer margin, supplier price cuts, or consumer prices.",
+        "Section 232: national-security tariffs (e.g. steel, aluminum, autos). Section 301: response to unfair trade practices.",
+        "In February 2026 the Supreme Court ruled IEEPA emergency powers do not authorize tariffs; other authorities were then used.",
+        "The US ran a goods and services trade deficit of ~$900B in 2025, with a services surplus (BEA)."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Model tariffs as a scenario",
+      "body": "US trade policy changed repeatedly in 2025-26. In a sourcing or pricing case, avoid assuming one rate. Show a base and high-tariff scenario, ask what share of COGS is imported and from where, and discuss levers: re-sourcing, pass-through pricing, supplier cost sharing, and USMCA-qualifying supply."
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "State rules are not footnotes",
+      "body": "Insurance, alcohol sales, car dealerships, professional licensing, data privacy and many healthcare rules vary by state. A strategy that works in Texas may be illegal or uneconomic in California. Ask which states the client operates in before assuming a national answer."
+    }
+  ],
+  "in_a_case": [
+    "M&A case between two large competitors: raise FTC/DOJ review early, estimate timeline risk, and identify assets that might need divesting.",
+    "State Medicaid agency cost case: remember the federal match; a state dollar saved can mean losing more than a dollar of federal funds.",
+    "Manufacturer facing tariffs: split COGS by country of origin, then test pass-through, re-sourcing and supplier negotiations under scenarios.",
+    "School district or city client: budget is fixed by fiscal year and appropriation; prioritize low-capex, quick-win operational fixes and stakeholder buy-in.",
+    "Drug or device launch: FDA approval timing drives the revenue curve; CMS coverage rules then drive uptake."
+  ],
+  "flashcards": [
+    {"front": "Who mainly funds US K-12 schools?", "back": "States and localities: ~87%; federal ~13% (FY2023, NCES)."},
+    {"front": "Medicaid federal matching range", "back": "50% to 77% by state income; 90% for ACA expansion adults. Federal share ~65% overall (FY2024)."},
+    {"front": "Which agencies review mergers?", "back": "FTC and DOJ Antitrust Division, via Hart-Scott-Rodino premerger notification."},
+    {"front": "FDA regulates", "back": "Drugs, medical devices, biologics and food safety."},
+    {"front": "CFPB regulates", "back": "Consumer financial products: lending, credit cards, payments, fintech."},
+    {"front": "Who pays a US tariff at the border?", "back": "The US importer of record, collected by Customs and Border Protection."},
+    {"front": "Section 232 vs Section 301", "back": "232: national-security tariffs (steel, aluminum, autos). 301: response to unfair trade practices."},
+    {"front": "2026 Supreme Court tariff ruling", "back": "IEEPA does not authorize the President to impose tariffs (February 2026)."},
+    {"front": "How does a public-sector client buy services?", "back": "Formal procurement with competitive bids, within an appropriated fiscal-year budget."}
+  ],
+  "sources": [
+    "https://ies.ed.gov/ies/2025/04/revenues-and-expenditures-public-elementary-and-secondary-education-school-year-2022-23-fiscal-year",
+    "https://www.kff.org/medicaid/medicaid-financing-the-basics/",
+    "https://www.bakerdonelson.com/trade-policy-shifts-ieepa-tariffs-end-section-122-begins-and-sections-301-and-232-activity-grows",
+    "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-december-and-annual-2025"
+  ],
+  "checked": "2026-10"
+}

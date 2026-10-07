@@ -1,0 +1,478 @@
+{
+ "id": "johnson-2022-bonnie-blithe",
+ "title": "Bonnie & Blithe",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  30,
+  37
+ ],
+ "case_type": [
+  "Profitability",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "beauty",
+ "sub_industry": "cosmetics",
+ "industry_source_label": "Retail / Consumer",
+ "client_type": "for-profit",
+ "geography": "20 countries; pilot choices United States, Brazil, Poland and China",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Simple; Quant: Low; Analysis: Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "digital-transformation",
+  "salesforce-productivity",
+  "channel-strategy",
+  "incremental-profit",
+  "implementation-risk",
+  "pilot-market",
+  "social-media"
+ ],
+ "prompt": "Bonnie and Blithe is an international direct selling beauty company. B&B is known for the high quality and value of their beauty products, primarily skincare and makeup. The firm operates in 20 countries and has 1 million sales reps that sell B&B's products directly to consumers. Last year, the company made $1.4 billion in revenue. Due to changing customer preferences, including an increased interest in digital technology and a decreased preference for face-to-face interactions, B&B's sales decreased by 7%. The firm is considering several options to increase profitability moving forward through a digital transformation. How would you evaluate Bonnie and Blithe's options?",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Increase profitability."
+  },
+  {
+   "question_topic": "Time horizon",
+   "answer": "In the next year."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Products are sold exclusively through licensed sales representatives."
+  }
+ ],
+ "interviewer_notes": "This is a profitability case disguised as digital transformation. Ask the candidate to keep two solutions and eliminate two using Exhibit 1, then select a pilot geography with Exhibit 2. The book favors social media tools because they support the representative-led model and can be implemented in 6 months. Retain ecommerce for further evaluation, but its 12-month implementation and high delay risk create a first-year-benefit caveat. The recommendation page mistakenly attributes ecommerce's $300 million gross profit to social media. Keep that $300 million as the ecommerce assumption, not a social-media benefit. Exact launch-year cash flow cannot be determined without implementation and ramp timing assumptions.",
+ "suggested_framework": {
+  "summary": "Assess digital options through revenue, implementation and operating costs, and risks to the representative-led business model.",
+  "tree": {
+   "label": "Profitability",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Number of sales representatives"
+      },
+      {
+       "label": "Product mix"
+      },
+      {
+       "label": "Price and quantity"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Acquiring new representatives"
+      },
+      {
+       "label": "R&D, packaging and distribution"
+      },
+      {
+       "label": "Labor and marketing"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Customers accustomed to representatives may reduce purchases"
+      },
+      {
+       "label": "Need to acquire digital customers"
+      },
+      {
+       "label": "Loss of target segment"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess the digital transformation options?",
+   "release_when": "Read the prompt and release clarifications when asked.",
+   "info_to_release": "B&B operates in 20 countries with 1 million representatives, had $1.4 billion revenue last year and a 7% sales decline. On request: improve profitability in the next year; sales currently occur exclusively through licensed representatives.",
+   "exhibit_ids": [],
+   "expected_answer": "Evaluate changes in representative count and productivity, product mix and pricing, then subtract implementation and operating costs. Include implementation timing and risks to customers who prefer representative-led selling. Do not assume a digital project is attractive solely because it grows sales.",
+   "good_answer_signals": [
+    "Recognizes profitability as the objective.",
+    "Clarifies the one-year horizon and existing channel model."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "Identify two solutions to keep and two to eliminate, explaining your reasoning.",
+   "release_when": "After the framework, provide Exhibit 1.",
+   "info_to_release": "2017 baseline: 1 million reps, each pictogram representing 100,000; full-time / part-time / for-fun productivity 500 / 100 / 20 units. B&B sells to reps for $10 per unit, costs $9 and earns $1 per unit. Segment revenues are $1.0 / $0.3 / $0.1 billion. Ecommerce: 12 months, high delay risk, $25 million implementation, $150 million annual additional operating cost, $300 million additional annual gross profit with baseline KPIs unchanged, direct-to-consumer sales. Loyalty: 24 months, medium delay risk, $24 million implementation, $10 million annual operating cost, no new reps, additional 50 / 20 / 5 units per rep by tier. Social media: 6 months, low delay risk, $8 million implementation, $4 million annual operating cost, 50,000 new full-time reps, 250 extra units per full-time rep; access only for full-time reps, developed for the top 3 platforms. Phones: immediate, low delay risk, $200 per rep, no listed additional operating cost, 250,000 new reps across all types, no per-rep unit increase.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Keep social media and ecommerce for further evaluation. Social media fits the representative model, has a 6-month implementation and low delay risk. Ecommerce's $300 million annual gross profit is attractive, but 12 months to implement leaves no assured operating period within the next-year objective. Eliminate loyalty because 24 months exceeds the horizon. Eliminate hardware because equipping the existing 1 million reps alone costs $200 million; the source does not specify the mix of 250,000 added reps or whether their phones also incur this cost.",
+   "good_answer_signals": [
+    "Screens timing as well as economic benefits.",
+    "Identifies ecommerce's channel and launch-timing risks.",
+    "Distinguishes existing-rep hardware cost from unspecified new-rep spending."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Quantify the social-media opportunity and compare the retained options on a consistent cost basis.",
+   "release_when": "Use Exhibit 1 after the option screen; ask the candidate to show calculations.",
+   "info_to_release": "Use Exhibit 1's $1 profit per incremental unit, 50,000 new full-time reps and 250 extra units per full-time rep. Ecommerce's $300 million annual gross profit is a supplied assumption calculated outside the representative model, not something to derive from rep counts. All listed implementation and annual operating costs still apply.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Baseline full-time reps are $1 billion / ($10 × 500) = 200,000. Social media raises the count to 250,000 and productivity to 750 units. Existing reps add $50 million and new reps $37.5 million, giving $87.5 million annual incremental gross profit, not $300 million. After $4 million annual operating cost, the annual run-rate benefit is $83.5 million; charging the $8 million setup cost against a full operating year gives $75.5 million. Ecommerce gives $150 million annual net operating benefit or $125 million after setup against a full operating year. These are not first-calendar-year forecasts: 6- and 12-month implementations require explicit ramp and cost-timing assumptions. Social media remains the book's preferred feasible near-term pilot, not the largest steady-state benefit.",
+   "good_answer_signals": [
+    "Applies the 250-unit uplift to both existing and new full-time reps.",
+    "Subtracts operating and setup costs without mislabeling gross profit as net profit.",
+    "Does not transfer ecommerce's $300 million assumption to social media."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Which geography should host the pilot?",
+   "release_when": "After selecting social media, show Exhibit 2.",
+   "info_to_release": "United States / Brazil / Poland / China: computer literacy 77% / 45% / 72% / 36%; social-media hours per day 1.8 / 3.2 / 1.4 / 1.5; direct-selling beauty market size $4.2 / $5.9 / $0.6 / $5.1 billion; B&B share 4% / 16% / 24% / 1%. The exhibit also shows platform mix and 2015–2017 market-growth trends. Exact unlabeled platform shares and intermediate growth points are not supplied as precise numbers.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Choose Brazil: the highest social-media usage at 3.2 hours/day, largest displayed direct-selling beauty market at $5.9 billion and positive, increasing market growth. Facebook is its leading platform. The US market is shrinking, Poland's market is only $0.6 billion, and China has low B&B share at 1% and relatively low social-media use at 1.5 hours/day. Consider Brazil's lower computer literacy in execution planning.",
+   "good_answer_signals": [
+    "Combines market scale, growth and channel engagement.",
+    "Identifies Facebook as the initial Brazilian platform."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should B&B do next?",
+   "release_when": "After the pilot-market discussion.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Pilot social-media tools in Brazil, starting with Facebook. The program supports the representative model, can be implemented in 6 months and offers $87.5 million annual incremental gross profit before $4 million annual operating cost and $8 million setup cost. Do not promise the source's erroneous $300 million social-media benefit or a full run-rate benefit during the launch year. Brazil combines high usage and the largest growing market among the options. Mitigate implementation delays with a detailed roadmap and buffers; work with marketing to design the program and advertisements.",
+   "good_answer_signals": [
+    "Uses corrected, clearly labeled financial support.",
+    "Connects delay risk to timeline buffers and a marketing next step."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "2017 Select Financial Data and Solution Comparison",
+   "page": 33,
+   "kind": "other",
+   "description": "Baseline representative economics and four digital initiatives. Values below are original candidate inputs, not computed project returns. Dashes mean no listed increment. The rep pictogram clearly identifies the full-time group but does not clearly distinguish the other two groups; use the legible revenue and productivity labels for arithmetic.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Full-time / Ecommerce",
+     "Part-time / Loyalty",
+     "For fun / Social media",
+     "Hardware or shared value"
+    ],
+    "rows": [
+     [
+      "Baseline category",
+      "Full-time",
+      "Part-time",
+      "For fun",
+      "1 million total reps; icon = 100,000"
+     ],
+     [
+      "Units per rep",
+      500,
+      100,
+      20,
+      ""
+     ],
+     [
+      "Revenue by rep type (USD billion)",
+      1,
+      0.3,
+      0.1,
+      ""
+     ],
+     [
+      "Selling price / cost / profit per unit (USD)",
+      "",
+      "",
+      "",
+      "10 / 9 / 1"
+     ],
+     [
+      "Solution",
+      "Ecommerce",
+      "Loyalty",
+      "Social media",
+      "Hardware"
+     ],
+     [
+      "Implementation time",
+      "12 months",
+      "24 months",
+      "6 months",
+      "Immediate"
+     ],
+     [
+      "Delay risk",
+      "High",
+      "Medium",
+      "Low",
+      "Low"
+     ],
+     [
+      "One-time implementation cost",
+      "$25 million",
+      "$24 million",
+      "$8 million",
+      "$200 per rep"
+     ],
+     [
+      "Additional annual operating cost",
+      "$150 million",
+      "$10 million",
+      "$4 million",
+      "—"
+     ],
+     [
+      "Incremental reps",
+      "Baseline KPIs unchanged",
+      "—",
+      "+0.05 million full-time",
+      "+0.25 million all types"
+     ],
+     [
+      "Incremental full-time units per rep",
+      "Baseline KPIs unchanged",
+      50,
+      250,
+      "—"
+     ],
+     [
+      "Incremental part-time units per rep",
+      "Baseline KPIs unchanged",
+      20,
+      "—",
+      "—"
+     ],
+     [
+      "Incremental for-fun units per rep",
+      "Baseline KPIs unchanged",
+      5,
+      "—",
+      "—"
+     ],
+     [
+      "Additional annual gross profit, supplied assumption",
+      "$300 million; outside rep model",
+      "Not supplied",
+      "Not supplied",
+      "Not supplied"
+     ],
+     [
+      "Other considerations",
+      "Direct-to-consumer products",
+      "",
+      "Only full-time reps; top 3 platforms",
+      ""
+     ]
+    ]
+   },
+   "image_path": "exhibits/johnson-2022-bonnie-blithe/p033.webp",
+   "image_has_answers": false,
+   "key_insight": "Social media fits the existing channel and near-term timeline; ecommerce has higher supplied gross profit but greater operating cost, delay risk and a 12-month launch.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Geography: Digital Readiness and Direct-Selling Beauty Markets",
+   "page": 35,
+   "kind": "other",
+   "description": "Six charts comparing the US, Brazil, Poland and China. Transcribed table preserves all explicitly labeled country metrics. Platform-share bars and growth-series points are not individually labeled; exact percentages are omitted, while the candidate image preserves their qualitative information.",
+   "data": {
+    "columns": [
+     "Country",
+     "Computer literacy (%)",
+     "Social media (hours/day)",
+     "Market size (USD billion)",
+     "B&B share (%)"
+    ],
+    "rows": [
+     [
+      "US",
+      77,
+      1.8,
+      4.2,
+      4
+     ],
+     [
+      "Brazil",
+      45,
+      3.2,
+      5.9,
+      16
+     ],
+     [
+      "Poland",
+      72,
+      1.4,
+      0.6,
+      24
+     ],
+     [
+      "China",
+      36,
+      1.5,
+      5.1,
+      1
+     ]
+    ]
+   },
+   "image_path": "exhibits/johnson-2022-bonnie-blithe/p035.webp",
+   "image_has_answers": false,
+   "key_insight": "Brazil combines the highest engagement and largest displayed beauty market with growth; Facebook leads its platform mix. The US market is contracting.",
+   "data_confidence": "low"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What annual incremental gross profit do social-media tools generate?",
+   "givens": [
+    "Full-time revenue $1 billion",
+    "$10 per unit; 500 baseline units per full-time rep",
+    "50,000 new full-time reps; 250 extra units per full-time rep",
+    "$1 profit per unit"
+   ],
+   "steps": [
+    "Existing full-time reps = $1 billion / ($10 × 500) = 200,000.",
+    "New count = 200,000 + 50,000 = 250,000; new productivity = 500 + 250 = 750.",
+    "Existing-rep uplift = 200,000 × 250 × $1 = $50 million.",
+    "New-rep benefit = 50,000 × 750 × $1 = $37.5 million.",
+    "Total = $87.5 million annually."
+   ],
+   "answer": "$87.5 million annual incremental gross profit, matching page 34, not the $300 million attributed to social media on page 37.",
+   "answer_value": 87500000,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "Page 37 recommends social media because of a one-year timeline and '$300M gross profit'. Page 33 assigns $300 million to ecommerce; social-media arithmetic on page 34 correctly gives $87.5 million."
+  },
+  {
+   "id": "m2",
+   "question": "What is social media's benefit after project costs?",
+   "givens": [
+    "Annual incremental gross profit $87.5 million",
+    "Additional annual operating cost $4 million",
+    "One-time implementation $8 million"
+   ],
+   "steps": [
+    "Annual operating benefit = $87.5 million − $4 million = $83.5 million.",
+    "A full operating year's benefit after one-time setup = $83.5 million − $8 million = $75.5 million.",
+    "This full-year comparison is not a launch-year forecast; the 6-month implementation and ramp are not modeled by the book."
+   ],
+   "answer": "$83.5 million annual net operating benefit, or $75.5 million for a full operating year charged with setup cost. Calendar first-year benefit is unspecified.",
+   "answer_value": 75500000,
+   "unit": "USD, full operating year after setup cost",
+   "verified": false,
+   "book_answer_if_different": "Page 34 calls $87.5 million the 'total profit increase' without deducting the $4 million annual operating and $8 million one-time costs printed in Exhibit 1. It is the incremental gross contribution, not the all-in project profit."
+  },
+  {
+   "id": "m3",
+   "question": "What is ecommerce's benefit on the same full-operating-year basis?",
+   "givens": [
+    "Supplied annual incremental gross profit $300 million",
+    "Additional annual operating cost $150 million",
+    "One-time implementation $25 million",
+    "12-month implementation"
+   ],
+   "steps": [
+    "Annual operating benefit = $300 million − $150 million = $150 million.",
+    "After setup charged to a full operating year = $150 million − $25 million = $125 million.",
+    "A 12-month implementation does not establish that this benefit will arrive within the next-year objective."
+   ],
+   "answer": "$150 million annual net operating benefit and $125 million after setup on a full-operating-year basis; actual launch-year profit cannot be calculated from the supplied timing information.",
+   "answer_value": 125000000,
+   "unit": "USD, full operating year after setup cost",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "How much does hardware cost for the existing salesforce?",
+   "givens": [
+    "1 million existing reps",
+    "$200 per rep"
+   ],
+   "steps": [
+    "$200 × 1,000,000 = $200,000,000.",
+    "The source does not specify whether the 250,000 added reps also require paid hardware."
+   ],
+   "answer": "$200 million for existing reps alone, matching the source's rejection rationale.",
+   "answer_value": 200000000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "Pilot social-media tools in Brazil, beginning with Facebook. The 6-month, low-delay-risk program supports the licensed-representative model, and Brazil leads the displayed markets in social-media use and direct-selling beauty market size. Correct annual incremental gross profit is $87.5 million, not the recommendation page's $300 million; annual operating benefit after additional costs is $83.5 million, or $75.5 million for a full operating year charged with setup. These are run-rate economics, not a promised first-year result. Keep ecommerce under evaluation, reject the 24-month loyalty program and costly hardware option, build a roadmap with buffers and engage marketing on program design.",
+ "what_great_looks_like": [
+  "Treats digital transformation as an incremental-profit and timing decision.",
+  "Separates new-rep growth from existing-rep productivity improvement.",
+  "Identifies the mistaken transfer of ecommerce gross profit to social media.",
+  "Chooses Brazil using engagement, market scale and growth, with Facebook as the leading platform.",
+  "Flags that annual run-rate economics are not calendar first-year cash flow."
+ ],
+ "common_pitfalls": [
+  "Attributing ecommerce's $300 million gross profit to social media.",
+  "Ignoring implementation and additional operating costs.",
+  "Giving new full-time reps only the incremental 250 units instead of all 750 units.",
+  "Assuming a 12-month implementation delivers a full year of benefits within 12 months.",
+  "Choosing the US for computer literacy while overlooking its shrinking market."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data: exact unlabeled platform shares and market-growth points omitted"
+  ],
+  "math_verified": false,
+  "notes": "Dedup verdict NEW. Read and visually inspected pages 30–37, including a higher-resolution check of Exhibit 1. Both candidate exhibits remain visible: original $300 million ecommerce assumption and unit profit are candidate inputs, not answer leakage. Page 37 incorrectly attributes ecommerce's $300 million gross profit to social media; corrected to $87.5 million annual gross uplift. Page 34 calls that uplift total profit while omitting $4 million annual operating and $8 million setup cost; explicit net comparisons added. Ecommerce's $300 million remains in info_to_release as instructed by the exhibit. The book treats 12-month ecommerce implementation as fitting a next-year objective without accounting for benefit timing; exact launch-year results are not invented. Added full-operating-year comparisons are explicitly labeled and not claimed as launch-year outcomes. Exhibit 2 platform bars and growth lines lack numeric point labels, so only labeled country metrics are tabulated; qualitative trends and original image are retained. The pictogram on page 33 does not clearly distinguish part-time and for-fun reps, so no unsupported count split is stored as an input; the full-time count is independently derivable from labeled revenue and productivity. 'Blythe' in the final prompt sentence is normalized to title spelling 'Blithe'. Overall Simple maps in code to 2; source Low quant difficulty is distinct from our H multi-step quant intensity. Beauty/cosmetics specializes the source Retail / Consumer label. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "math[1] corrected net comparisons",
+   "math[2] supplementary net comparison",
+   "stages timing caveats",
+   "synthesis timing caveats",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

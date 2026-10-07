@@ -1,0 +1,173 @@
+{
+  "id": "networking-norms",
+  "section": "culture",
+  "order": 3,
+  "title": "Networking norms",
+  "summary": "How US recruiting relationships work, from cold outreach to coffee chats, thank-you notes, and referrals, especially at MBB. Networking in US MBA recruiting is expected and visible to firms, so how you do it shapes outcomes.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "How it works in US MBA recruiting",
+      "body": "Firms like McKinsey, BCG, and Bain recruit heavily from target MBA programs through company presentations, coffee chats, and office events in the fall. Consultants you meet, especially alumni, may share impressions with the recruiting team. Networking will not get you an offer on its own, but it signals genuine interest, helps you pick an office, and can affect who gets interview invites. Quality of conversations matters more than the count."
+    },
+    {
+      "type": "table",
+      "title": "Typical first-year timeline (consulting internships, general)",
+      "columns": [
+        "When",
+        "What usually happens"
+      ],
+      "rows": [
+        [
+          "Aug - Oct",
+          "Company presentations, coffee chats, club events; start case practice"
+        ],
+        [
+          "Oct - Dec",
+          "Office-specific events and deeper conversations; resume and cover letter reviews"
+        ],
+        [
+          "Nov - Dec",
+          "Applications for summer internships (deadlines vary by firm and school)"
+        ],
+        [
+          "Jan",
+          "First-round and final-round interviews, often within a few weeks"
+        ],
+        [
+          "Jan - Feb",
+          "Offers; other industries (tech, etc.) continue into spring"
+        ]
+      ],
+      "note": "Check your career center and each firm's site for exact dates; they shift every year."
+    },
+    {
+      "type": "list",
+      "title": "Coffee chat playbook (20-30 min)",
+      "items": [
+        "Prepare three to four questions about their work, office culture, and path; skip anything on the website.",
+        "Open with rapport, then let them talk; aim for them to speak 60% of the time.",
+        "Have a crisp 60-second 'about me' ready: background, why consulting, why this firm.",
+        "Respect the time box; offer to end on time even if it is going well.",
+        "Close by asking, 'Is there anyone else you'd suggest I speak with?'",
+        "Take notes afterward: names, details, advice; you will reference them later."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Cold email / LinkedIn templates",
+      "items": [
+        "Subject: [School] MBA student, question about [Firm] [Office]",
+        "Hi [Name], I'm a first-year MBA at [School]. Before business school I [one line on your background, e.g. built products at a quick-commerce company in India].",
+        "I'm exploring consulting and noticed your work in consumer retail. Would you have 15-20 minutes for a call in the next few weeks?",
+        "Happy to work around your schedule. Thank you, [Your name]",
+        "LinkedIn note (300 characters): 'Hi [Name], fellow [School] alum here; I'd love 15 min to hear about your path to [Firm] [Office]. Thank you!'"
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Thank-you notes",
+      "body": "Send a short email within 24 hours: thank them, reference one specific thing they said, and mention a next step if relevant. Three to five sentences is enough. After interviews, follow the firm's norms; some prefer no thank-yous. Never send a generic note; specificity shows you listened."
+    },
+    {
+      "type": "list",
+      "title": "Follow-up etiquette",
+      "items": [
+        "If no reply to a cold email, one polite follow-up after about a week is fine; then move on.",
+        "Update people later if their advice helped: 'I applied to the Chicago office, thanks to our chat.'",
+        "Do not ask for a referral in the first message; let the relationship come first.",
+        "If you get an offer, close the loop and thank those who helped."
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Networking: India vs US (tendencies)",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Cold outreach",
+          "Can feel presumptuous; warm introductions preferred",
+          "Common and accepted when brief and specific"
+        ],
+        [
+          "Referrals",
+          "Personal connections can carry significant weight",
+          "Referral flags you to recruiters but rarely replaces the process"
+        ],
+        [
+          "Formality",
+          "Titles and formal tone with seniors",
+          "First names, warm but concise; short emails"
+        ],
+        [
+          "Follow-up",
+          "Repeated follow-ups can be normal",
+          "One follow-up, then wait; persistence beyond that reads as pushy"
+        ],
+        [
+          "Asking directly",
+          "Indirect requests preferred",
+          "Clear, specific ask (15 minutes, one question) is appreciated"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "What not to do",
+      "body": "Don't ask 'Can you get me an interview?' or questions answered on the firm's website. Don't send long messages, attach your resume unasked, or contact many people at one office on the same day with identical notes. Don't treat chats as casual; be on time and prepared. Don't badmouth other firms."
+    },
+    {
+      "type": "text",
+      "title": "Referrals and advocates",
+      "body": "At MBB, a 'referral' usually means a consultant tells recruiting they enjoyed speaking with you. It can help your application get a closer look, but interviews decide offers. Advocates emerge naturally when someone sees your curiosity and preparation across a couple of conversations. Alumni from your school and people with shared backgrounds (for example, others who moved from India) are often the most willing to help."
+    }
+  ],
+  "in_a_case": [
+    "Your 'why this firm, why this office' answer should cite real people and conversations from your networking.",
+    "Interviewers sometimes know who you met; consistent, thoughtful impressions across chats reinforce your candidacy.",
+    "Coffee chats are a low-stakes place to practice the structured, concise communication cases reward.",
+    "Ask consultants what a typical case looks like in their office to prepare for the interview style.",
+    "After final rounds, a short, specific thank-you keeps you top of mind without pressuring anyone."
+  ],
+  "flashcards": [
+    {
+      "front": "Ideal coffee chat length",
+      "back": "About 20-30 minutes; respect the time box."
+    },
+    {
+      "front": "When to send a thank-you note",
+      "back": "Within 24 hours; three to five sentences with one specific detail."
+    },
+    {
+      "front": "Follow-up rule for cold emails",
+      "back": "One polite follow-up after about a week, then move on."
+    },
+    {
+      "front": "What does a referral at MBB usually mean?",
+      "back": "A consultant tells recruiting they had a good impression; it helps visibility but interviews decide offers."
+    },
+    {
+      "front": "When do first-year MBA consulting interviews usually happen?",
+      "back": "Generally January, after fall networking and late-fall applications."
+    },
+    {
+      "front": "Best closing question in a coffee chat",
+      "back": "'Is there anyone else you'd suggest I speak with?'"
+    },
+    {
+      "front": "Cold email essentials",
+      "back": "Who you are, why them specifically, a small ask (15-20 min), flexible on timing; under 100 words."
+    },
+    {
+      "front": "Top networking don't",
+      "back": "Asking 'Can you get me an interview?' or questions answered on the firm's website."
+    }
+  ],
+  "sources": [
+    "https://www.gmac.com/resources/learners/how-to-apply/application-guidance/consulting-recruiting-timeline"
+  ],
+  "checked": "2026-10"
+}

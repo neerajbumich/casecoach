@@ -1,0 +1,130 @@
+{
+  "id": "banking",
+  "name": "Banking",
+  "group": "Financial services",
+  "one_liner": "Banks take deposits and lend or invest them, earning the spread between asset yields and funding costs while managing credit, liquidity and capital constraints.",
+  "how_it_makes_money": "The core engine is net interest income: interest earned on loans and securities minus interest paid on deposits and borrowings. Fee income adds card interchange, account and overdraft fees, wealth and asset management, and, at investment banks, advisory, underwriting and trading revenue.",
+  "value_chain": [
+    "Deposit and funding gathering",
+    "Credit underwriting and origination",
+    "Loan servicing and collections",
+    "Payments and treasury services",
+    "Capital markets and advisory",
+    "Wealth and asset management"
+  ],
+  "revenue_formula": [
+    "Revenue = net interest income + non-interest (fee) income",
+    "Net interest income = average earning assets × net interest margin",
+    "Fee income = customers × products per customer × fee per product"
+  ],
+  "cost_structure": [
+    "Interest expense: the cost of deposits and wholesale funding, highly sensitive to rate moves",
+    "Personnel: salaries and bonuses, the largest non-interest expense, especially in investment banking",
+    "Credit losses: loan-loss provisions that swing sharply with the economic cycle",
+    "Technology and operations: core systems, digital channels, cybersecurity",
+    "Branch network and occupancy: shrinking as customers shift to digital",
+    "Regulatory and compliance: AML/KYC, stress testing, reporting"
+  ],
+  "margins": "Well-run banks earn a return on equity of roughly 10-15% and efficiency ratios around 50-60%; the spread is driven by deposit franchise strength, credit discipline, scale, and fee mix.",
+  "key_metrics": [
+    {
+      "name": "Net interest margin (NIM)",
+      "what": "Net interest income as a share of earning assets; the core profitability of the lending business."
+    },
+    {
+      "name": "Efficiency ratio",
+      "what": "Non-interest expense divided by revenue; lower means a leaner bank."
+    },
+    {
+      "name": "Return on equity / tangible equity (ROE / ROTCE)",
+      "what": "Profit relative to shareholder capital; the headline measure investors compare against the cost of equity."
+    },
+    {
+      "name": "CET1 ratio",
+      "what": "Core equity capital over risk-weighted assets; the main regulatory measure of a bank's loss-absorbing cushion."
+    },
+    {
+      "name": "Net charge-off rate (NCO)",
+      "what": "Loans written off net of recoveries as a share of loans; shows realized credit quality."
+    },
+    {
+      "name": "Loan-to-deposit ratio (LDR)",
+      "what": "How much of the deposit base is lent out; signals liquidity and balance-sheet usage."
+    },
+    {
+      "name": "Deposit beta",
+      "what": "How much of a policy-rate change the bank passes on to depositors; drives NIM through rate cycles."
+    }
+  ],
+  "trends": [
+    "Deposit competition and funding costs remain a focus after the 2023 regional bank failures",
+    "Evolving capital rules (Basel III endgame) shape balance-sheet strategy for large banks",
+    "Consolidation among regional and community banks seeking scale",
+    "Digital-first challengers and embedded finance pressure retail economics",
+    "Generative AI adoption in operations, compliance and customer service",
+    "Private credit funds competing with banks for corporate lending"
+  ],
+  "key_players": [
+    "JPMorgan Chase",
+    "Bank of America",
+    "Wells Fargo",
+    "Citigroup",
+    "Goldman Sachs",
+    "Morgan Stanley",
+    "U.S. Bancorp",
+    "PNC",
+    "Capital One",
+    "Truist"
+  ],
+  "case_angles": [
+    {
+      "question": "A regional bank's profits have fallen despite loan growth. Why, and what should it do?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a mid-size bank acquire a neighboring regional bank?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "How should a retail bank reduce its branch network cost while protecting deposits?",
+      "framework_id": "cost-reduction"
+    },
+    {
+      "question": "How should an incumbent bank respond to a digital-only bank winning young customers?",
+      "framework_id": "competitive-response"
+    }
+  ],
+  "interview_hooks": [
+    "Do branches still matter for gathering low-cost deposits, or is digital enough?",
+    "Is the shift of corporate lending to private credit a threat or a partnership opportunity for banks?",
+    "Should mid-size banks face the same capital and liquidity rules as the largest banks?"
+  ],
+  "news": {
+    "keywords": [
+      "bank",
+      "banks",
+      "net interest margin",
+      "deposits",
+      "loan losses",
+      "fdic",
+      "federal reserve",
+      "stress test",
+      "basel",
+      "regional bank",
+      "lender",
+      "capital requirements"
+    ],
+    "companies": [
+      "JPMorgan",
+      "Bank of America",
+      "Wells Fargo",
+      "Citigroup",
+      "Goldman Sachs",
+      "Morgan Stanley",
+      "U.S. Bancorp",
+      "PNC",
+      "Capital One",
+      "Truist"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "beauty",
+  "name": "Beauty & Personal Care",
+  "group": "Consumer & retail",
+  "one_liner": "Skincare, cosmetics, fragrance, and haircare brands with high gross margins, whose economics are defined by brand heat, marketing intensity, and channel mix across prestige and mass.",
+  "how_it_makes_money": "Brands sell through specialty beauty retailers, department stores, drugstores, mass merchants, and their own DTC sites, earning high gross margins on low-cost formulations. Prestige brands command premium prices through brand equity, while mass brands rely on volume and broad distribution.",
+  "value_chain": [
+    "R&D and formulation",
+    "Contract or in-house manufacturing",
+    "Brand marketing and influencers",
+    "Retail and wholesale distribution",
+    "In-store sampling and consultation",
+    "DTC and loyalty programs"
+  ],
+  "revenue_formula": [
+    "Revenue = doors × sales per door, plus DTC revenue",
+    "Revenue = customers × purchase frequency × units per purchase × average price",
+    "Brand growth = new customer acquisition + repeat purchase + price-mix"
+  ],
+  "cost_structure": [
+    "Advertising and promotion: very high, often a quarter or more of sales for prestige brands",
+    "Cost of goods: low relative to price, dominated by packaging",
+    "Retailer margin and in-store staff (beauty advisors and counters)",
+    "Influencer, creator, and sampling programs",
+    "Distribution and SG&A"
+  ],
+  "margins": "Gross margins are typically high, roughly 60-80% for prestige brands, but heavy marketing spend brings operating margins down to roughly the mid-teens to low twenties for leaders. The spread depends on brand strength, channel mix, and marketing efficiency.",
+  "key_metrics": [
+    {"name": "Organic sales growth", "what": "Growth excluding acquisitions and currency, showing underlying brand momentum."},
+    {"name": "A&P as % of sales", "what": "Advertising and promotion intensity, the key investment lever."},
+    {"name": "Sell-through vs sell-in", "what": "Consumer purchases versus shipments to retailers, flagging inventory loading."},
+    {"name": "Repeat purchase rate", "what": "Share of customers who rebuy, critical for consumable categories like skincare."},
+    {"name": "Share of prestige vs mass", "what": "Channel position, which drives pricing and margin."},
+    {"name": "Earned media value", "what": "Value of social buzz and creator content, a gauge of brand heat."}
+  ],
+  "trends": [
+    "Social media and creator-driven brand launches accelerating the rise and fall of brands",
+    "Fragrance and 'dupes' culture shaping demand at both prestige and mass price points",
+    "Slowdown in China and travel retail hurting prestige players",
+    "Big conglomerates acquiring founder-led and celebrity brands",
+    "Science-backed skincare, dermatologist brands, and wellness positioning",
+    "Specialty retailers like Sephora and Ulta expanding through partnerships and smaller formats"
+  ],
+  "key_players": [
+    "L'Oréal",
+    "Estée Lauder",
+    "Procter & Gamble",
+    "Unilever",
+    "Shiseido",
+    "Coty",
+    "LVMH",
+    "e.l.f. Beauty",
+    "Ulta Beauty",
+    "Sephora"
+  ],
+  "case_angles": [
+    {"question": "A prestige skincare brand's sales are falling in Asia; diagnose and recommend a response.", "framework_id": "profitability"},
+    {"question": "Should a beauty conglomerate acquire a fast-growing, influencer-driven makeup brand?", "framework_id": "mergers-acquisitions"},
+    {"question": "A mass beauty brand wants to launch a premium line; how should it go to market?", "framework_id": "new-product-gtm"},
+    {"question": "Which customer segments should a haircare brand prioritize for growth?", "framework_id": "customer-segmentation"}
+  ],
+  "interview_hooks": [
+    "Is the rapid, social-driven brand cycle a threat to large beauty conglomerates or an acquisition opportunity?",
+    "Can prestige pricing hold as dupes and affordable brands improve quality?",
+    "Should beauty brands prioritize DTC or double down on specialty retail partners?"
+  ],
+  "news": {
+    "keywords": ["beauty", "cosmetics", "skincare", "fragrance", "makeup", "prestige beauty", "beauty retailer", "haircare", "dupes"],
+    "companies": ["L'Oréal", "Estée Lauder", "Shiseido", "Coty", "e.l.f. Beauty", "Ulta Beauty", "Sephora", "Kenvue", "Olaplex", "Puig"]
+  }
+}

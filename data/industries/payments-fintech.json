@@ -1,0 +1,126 @@
+{
+  "id": "payments-fintech",
+  "name": "Payments & Fintech",
+  "group": "Financial services",
+  "one_liner": "Payments and fintech firms move money and extend financial services through software, earning small fees on very large volumes where scale and network effects dominate.",
+  "how_it_makes_money": "Most payments revenue is a take rate on transaction volume, split among card networks, issuers (interchange), acquirers and processors. Fintechs also earn from lending spreads, subscriptions, interest on customer balances, and software fees.",
+  "value_chain": [
+    "Consumer and issuing bank",
+    "Card network or payment rail",
+    "Acquirer and processor",
+    "Payment gateway or PSP",
+    "Merchant and point of sale"
+  ],
+  "revenue_formula": [
+    "Payments revenue = total payment volume (TPV) × take rate",
+    "TPV = active users or merchants × transactions per user × average ticket",
+    "Fintech lending revenue = loan balances × (yield - funding cost - credit losses)"
+  ],
+  "cost_structure": [
+    "Transaction costs: interchange and network fees passed through to issuers and networks",
+    "Customer acquisition: marketing, incentives and sales teams",
+    "Technology and engineering: platform, reliability, security",
+    "Fraud and credit losses: chargebacks and loan defaults",
+    "Compliance and risk: licensing, AML/KYC, bank partnerships"
+  ],
+  "margins": "Card networks run very high operating margins (often ~50%+) thanks to asset-light scale, while processors, acquirers and many fintechs earn thin margins on net revenue; the spread is driven by scale, pricing power, and loss rates.",
+  "key_metrics": [
+    {
+      "name": "Total payment volume (TPV)",
+      "what": "Dollar value of transactions processed; the core scale measure."
+    },
+    {
+      "name": "Take rate",
+      "what": "Net revenue as a share of TPV; shows pricing power and value added per transaction."
+    },
+    {
+      "name": "Transaction margin",
+      "what": "Revenue minus transaction and loss costs; the true unit economics after pass-throughs."
+    },
+    {
+      "name": "Customer acquisition cost (CAC) / LTV",
+      "what": "Cost to win a user versus the lifetime profit they generate; tests growth efficiency."
+    },
+    {
+      "name": "Active users / merchants",
+      "what": "Accounts transacting in a period; drives network effects and cross-sell."
+    },
+    {
+      "name": "Fraud and loss rate",
+      "what": "Losses as a share of volume; small changes swing profitability."
+    }
+  ],
+  "trends": [
+    "Real-time payments rails (FedNow, RTP) and account-to-account payments challenging cards",
+    "Embedded finance letting software platforms offer payments, lending and cards",
+    "Consolidation and profitability focus after the fintech funding boom",
+    "Buy now, pay later expanding and drawing regulatory attention",
+    "Scrutiny of bank-fintech partnerships and ongoing interchange debates",
+    "Stablecoins and tokenized money gaining traction in payments"
+  ],
+  "key_players": [
+    "Visa",
+    "Mastercard",
+    "American Express",
+    "PayPal",
+    "Stripe",
+    "Block (Square, Cash App)",
+    "Fiserv",
+    "Adyen",
+    "Affirm",
+    "Chime"
+  ],
+  "case_angles": [
+    {
+      "question": "A payment processor's take rate is declining. What is driving it and what should it do?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a vertical SaaS company launch embedded payments for its customers?",
+      "framework_id": "new-product-gtm"
+    },
+    {
+      "question": "Estimate the annual transaction volume of mobile wallet payments in the US.",
+      "framework_id": "market-sizing"
+    },
+    {
+      "question": "How should a card network respond to real-time account-to-account payments?",
+      "framework_id": "competitive-response"
+    }
+  ],
+  "interview_hooks": [
+    "Will account-to-account payments ever meaningfully displace cards in the US?",
+    "Is the take rate for payments a durable moat or destined to compress toward zero?",
+    "Should fintechs get bank charters or keep partnering with banks?"
+  ],
+  "news": {
+    "keywords": [
+      "fintech",
+      "payments",
+      "payment processor",
+      "interchange",
+      "swipe fees",
+      "buy now, pay later",
+      "bnpl",
+      "digital wallet",
+      "fednow",
+      "stablecoin",
+      "neobank",
+      "card network"
+    ],
+    "companies": [
+      "Visa",
+      "Mastercard",
+      "American Express",
+      "PayPal",
+      "Stripe",
+      "Block",
+      "Fiserv",
+      "Adyen",
+      "Affirm",
+      "Klarna",
+      "Chime",
+      "Toast"
+    ]
+  }
+}

@@ -1,0 +1,483 @@
+{
+ "id": "kellogg-2024-chicouver-cycle",
+ "title": "Chicouver Cycle",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  106,
+  117
+ ],
+ "author": "John Ng (Kellogg 2018); edited by Michael Eidem (Kellogg 2020)",
+ "case_type": [
+  "Market Entry",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Y04 New product / Market entry",
+ "industry": "automotive-ev",
+ "sub_industry": "mobility-rideshare",
+ "industry_source_label": "X15 Transportation & Logistics",
+ "geography": "Chicouver (fictional city)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "market-entry",
+  "new-product",
+  "bikeshare",
+  "sharing-economy",
+  "profitability",
+  "cost-analysis",
+  "operating-model-comparison",
+  "unit-economics"
+ ],
+ "concepts_tested": [
+  "Z12 Creativity (1)",
+  "Z02 Net Present Value (2)",
+  "Z03 Breakeven analysis (3)"
+ ],
+ "fit_question": "You're interviewing for a generalist role, however, are there particular industries or functions that you're especially interested in?",
+ "prompt": "Our client, Chicouver Cycle (pronounced 'Chai-cover'), is a bikesharing startup. Like other bikeshare operators in cities around the world, Chicouver Cycle owns bicycles and rents them out to users one trip at a time. Chicouver Cycle wants to know how they should launch operations in the city of Chicouver. They have specifically asked us to recommend one or more of Chicouver's neighborhoods to enter.",
+ "clarifying_info": [
+  {
+   "question_topic": "Customers",
+   "answer": "Chicouver residents are avid bicyclists. The city is also a popular tourist destination."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "There is currently no existing bikeshare system in Chicouver."
+  },
+  {
+   "question_topic": "Company goals",
+   "answer": "Our client wants to generate cash from initial launch to fund further growth. Profitability is important."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "Most bikeshare systems charge $1 per trip; our client will charge the same. The client is choosing between two operating models: docking and dockless."
+  },
+  {
+   "question_topic": "Other context",
+   "answer": "Chicouver has worked with other sharing-economy platforms before, so permitting will not be an issue. The city has reasonable weather for biking all year round."
+  }
+ ],
+ "interviewer_notes": "This case tests the interviewee's ability to move beyond the typical market-entry framework to consider practical issues of launching a sharing-economy business. Key case steps: (1) develop a structure identifying factors for comparing neighborhoods as potential launching grounds, (2) analyze cost and revenue drivers for different neighborhoods and trip types, (3) compute profitability for different operating models (docking vs. dockless), (4) provide client recommendation.",
+ "suggested_framework": {
+  "summary": "A new-venture/market-entry framework focused specifically on which neighborhood(s) to launch in first, covering overall market, the client itself, profitability drivers, and location-specific factors.",
+  "tree": {
+   "label": "Which Chicouver neighborhood(s) should Chicouver Cycle launch in first?",
+   "children": [
+    {
+     "label": "Overall market",
+     "children": [
+      {
+       "label": "Target customers and preferences"
+      },
+      {
+       "label": "Competitive landscape (substitutes, even with no direct bikeshare competitors)"
+      },
+      {
+       "label": "City economic trends and impact on the sharing economy"
+      }
+     ]
+    },
+    {
+     "label": "Our client",
+     "children": [
+      {
+       "label": "Core competencies"
+      },
+      {
+       "label": "Prior launch experience in other cities"
+      },
+      {
+       "label": "Current brand/image"
+      },
+      {
+       "label": "Desired leanness at initial launch"
+      },
+      {
+       "label": "Future aspirations (other products/services)"
+      }
+     ]
+    },
+    {
+     "label": "Profitability",
+     "children": [
+      {
+       "label": "Expected costs (marketing, bikes, docking equipment, labor, technology)"
+      },
+      {
+       "label": "Expected revenue (user volume, ride frequency, price/payment structure)"
+      }
+     ]
+    },
+    {
+     "label": "Location choice",
+     "children": [
+      {
+       "label": "Population density"
+      },
+      {
+       "label": "Neighborhood uses"
+      },
+      {
+       "label": "Household income"
+      },
+      {
+       "label": "Topography (critical for bikeshare)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem of which neighborhood(s) Chicouver Cycle should launch in first.",
+   "release_when": "Only after candidate asks — release clarifying information (customers, competitive dynamics, company goals, product/pricing, permitting/weather context) on request.",
+   "info_to_release": "Clarifying information: avid-cyclist, tourist-friendly city; no existing bikeshare competitor; client wants early cash generation and profitability; $1/trip pricing across docking and dockless model options being considered; permitting is a non-issue and weather is favorable year-round.",
+   "expected_answer": "A structure covering overall market (target customers, substitute competition, city economic trends), the client (competencies, prior launch experience, brand, desired scale, future aspirations), profitability (cost and revenue drivers), and location choice (population density, neighborhood uses, household income, and topography — called out as critical for a bikeshare business).",
+   "good_answer_signals": [
+    "Goes beyond a generic market-entry framework to include location-specific factors relevant to bikeshare (topography especially)",
+    "Explicitly separates the 'which neighborhood' question from the general market-entry structure rather than only doing the latter"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "How should we evaluate which neighborhood(s) to enter, and what are the different trip types happening in the city?",
+   "release_when": "After the initial framework discussion, when the candidate raises questions about how to evaluate neighborhoods, provide Exhibit A & B; then provide Exhibit C once trip-type differences come up.",
+   "info_to_release": "Exhibit A (Chicouver's neighborhoods — population density, uses, and residents of each) and Exhibit B (Chicouver's topography). Context: 3 residential neighborhoods (Swanville, Bayside Heights, and the ritzy Capitol Hill) commute to the CBD for work; after work, residents travel from the CBD to the recreation and nightlife districts; tourists mostly stay within the Historic District. Terrain affects both revenue and cost (flat is easier to bike than hilly). Then Exhibit C (projected trips per week, bikes needed, and utilization by trip type: commuting, tourism, recreation, nightlife).",
+   "exhibit_ids": [
+    "exA",
+    "exB",
+    "exC"
+   ],
+   "expected_answer": "Candidate should connect neighborhood characteristics (density, use, income, terrain) to attractiveness for bikeshare, and recognize four distinct types of trips occurring within/between neighborhoods (commuting, tourism, recreation, nightlife) rather than treating the city as one uniform market. From Exhibit C: commuting and nightlife have the most trips but require many bikes to serve them, leading to low utilization (4% and 7%); tourism and recreation have far fewer trips but much higher utilization (24% and 22%) since fewer bikes are needed to meet demand. No calculations are required yet, but the candidate should proactively raise the need to look at revenue ($1/trip, told if asked) and brainstorm major cost items (bikes, docking infrastructure, distribution/redistribution of bikes, labor, etc.).",
+   "good_answer_signals": [
+    "Identifies that the city has multiple distinct trip 'markets' rather than one blended demand pool",
+    "Connects utilization (trips relative to bikes needed) to potential asset-efficiency differences across trip types",
+    "Proactively brainstorms cost categories before being prompted, including bike distribution/rebalancing costs"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Calculate revenue and costs for each distinct trip type, under both a docking and a dockless operating model, to determine which neighborhood(s)/trip type(s) should be targeted.",
+   "release_when": "Provide Exhibit D & E once the candidate raises the need to look at costs and revenues for the operating model comparison.",
+   "info_to_release": "Exhibit D (docking vs. dockless system descriptions) and Exhibit E (projected annual costs per bike, per docking station, and distribution cost per bike by terrain, for each system). Formulas: Revenue = $1 x (# trips/week, in thousands) x 50 weeks/year; Bike cost = $200 x (# bikes, in thousands); Number of stations = (# bikes, in thousands x 1000) / 20; Station cost = $10,000 x (# stations); Distribution cost = (per-bike distribution cost for the terrain) x (# bikes).",
+   "exhibit_ids": [
+    "exD",
+    "exE"
+   ],
+   "expected_answer": "Commute (flat terrain, 50K bikes): Revenue $25M; Bike cost $10M; 2,500 stations, station cost $25M; distribution cost $5M (docking) / $10M (dockless); Profit = -$15M (docking) / $5M (dockless). Tourism (very hilly, 5K bikes): Revenue $20M; Bike cost $1M; 250 stations, station cost $2.5M; distribution cost $10M (docking) / $20M (dockless); Profit = $6.5M (docking) / -$1M (dockless). Recreation (moderately hilly, 4K bikes): Revenue $15M; Bike cost $0.8M; 200 stations, station cost $2M; distribution cost $2M (docking) / $4M (dockless); Profit = $10.2M (docking) / $10.2M (dockless — tied). Nightlife (flat, 30K bikes): Revenue $30M; Bike cost $6M; 1,500 stations, station cost $15M; distribution cost $3M (docking) / $6M (dockless); Profit = $6M (docking) / $18M (dockless). Nightlife-dockless is the standout: highest absolute profit ($18M) of any trip-type/model combination.",
+   "good_answer_signals": [
+    "Correctly derives number of stations from bikes needed (bikes/20) before costing stations",
+    "Matches each trip type to the correct terrain-based distribution cost tier",
+    "Notices Commute is unprofitable under docking (-$15M) due to high station costs relative to trip volume, and only marginally profitable dockless",
+    "Identifies Nightlife-dockless as the clear profit leader and explains why (high volume + flat terrain keeps distribution costs low, and dropping stations removes a large fixed cost)"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the client?",
+   "expected_answer": "Chicouver Cycle should launch a dockless system in the nightlife district: this generates $18M in profit per year, driven by the district's high volume of projected bikeshare trips. Going dockless saves $15M in station costs in exchange for doubling distribution costs to $6M, which stay relatively low thanks to the nightlife district's flat terrain. Going forward, a dockless system will also entail lower costs and higher profits than docking as Chicouver Cycle expands to other neighborhoods/trip types, so choosing the right operating infrastructure with an eye to future growth matters. Next steps: explore increasing utilization of nightlife-district bikes by serving additional trip types with the same bikes, especially recreation trips (geographically adjacent to nightlife); investigate ways to reduce distribution costs, e.g. incentivizing users to end trips in specific locations that don't require manual redistribution; and build customer loyalty/switching costs to protect against future entrants, including other bikeshare companies.",
+   "good_answer_signals": [
+    "Recommendation names both the specific neighborhood and the specific operating model, with the quantified profit figure",
+    "Explains the docking-vs-dockless trade-off (station cost savings vs. higher distribution cost) rather than just stating the winner",
+    "Next steps connect back to the case's own data (e.g., recreation district's geographic adjacency to nightlife, low nightlife utilization)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Chicouver's Neighborhoods",
+   "page": 109,
+   "kind": "other",
+   "description": "A map of Chicouver's neighborhoods with a population-density gradient and text callouts describing each area's residents/use: Swanville (mid-income residential, working adults), Capitol Hill (ritzy residential, home to Chicouver's business titans), Historic District (main tourist district), Nightlife District (popular with locals Monday-Saturday), Bayside Heights (newly gentrified residential, young professionals), Recreation District (gyms, museums, nature parks used by locals after work), CBD (business district where residents commute to work), and Wetlands (undeveloped).",
+   "image_path": "exhibits/kellogg-2024-chicouver-cycle/p109.webp",
+   "key_insight": "Three residential neighborhoods (Swanville, Bayside Heights, Capitol Hill) feed commuter trips into the CBD; after work, residents fan out to the Recreation and Nightlife districts; tourists concentrate in the Historic District — this maps directly onto the four trip types analyzed later.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "exB",
+   "title": "Chicouver's Topography",
+   "page": 110,
+   "kind": "other",
+   "description": "A map of the same neighborhoods shaded by terrain: Wetlands, Swanville, CBD, and Nightlife District are flat; Bayside Heights and Recreation District are moderately hilly; Capitol Hill and Historic District are very hilly.",
+   "data": {
+    "columns": [
+     "Neighborhood",
+     "Terrain"
+    ],
+    "rows": [
+     [
+      "Wetlands",
+      "Flat"
+     ],
+     [
+      "Swanville",
+      "Flat"
+     ],
+     [
+      "CBD",
+      "Flat"
+     ],
+     [
+      "Nightlife District",
+      "Flat"
+     ],
+     [
+      "Bayside Heights",
+      "Moderately hilly"
+     ],
+     [
+      "Recreation District",
+      "Moderately hilly"
+     ],
+     [
+      "Capitol Hill",
+      "Very hilly"
+     ],
+     [
+      "Historic District",
+      "Very hilly"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-chicouver-cycle/p110.webp",
+   "key_insight": "Terrain is 'critical for bikeshare' per the framework — it directly sets the distribution-cost tier used in the Part 3 profitability model (flat/moderate/very hilly), and explains why the tourist-heavy Historic District trip type is costly to serve despite lower bike needs.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Projections by Type of Bikeshare Trip",
+   "page": 111,
+   "kind": "table",
+   "description": "Table of the four trip types (commuting, tourism, recreation, nightlife) with expected trips per week (thousands), number of bikes needed to meet demand (thousands), and resulting utilization % (hours bike is used per week / total hours in a week).",
+   "data": {
+    "columns": [
+     "Trip Type",
+     "Expected trips/week (K)",
+     "Bikes needed to meet demand (K)",
+     "Utilization (%)"
+    ],
+    "rows": [
+     [
+      "Commuting",
+      500,
+      50,
+      "4%"
+     ],
+     [
+      "Tourism",
+      400,
+      5,
+      "24%"
+     ],
+     [
+      "Recreation",
+      300,
+      4,
+      "22%"
+     ],
+     [
+      "Nightlife",
+      600,
+      30,
+      "7%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-chicouver-cycle/p111.webp",
+   "key_insight": "Commuting and nightlife have the highest trip volumes but need disproportionately many bikes to serve them, driving utilization down to just 4-7%, while tourism and recreation achieve much higher utilization (22-24%) with far fewer bikes.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exD",
+   "title": "Bikeshare Systems (Docking vs. Dockless)",
+   "page": 112,
+   "kind": "text",
+   "description": "Side-by-side description of the two candidate operating models: a Docking system, where users must start and end trips at a docking station, and a Dockless system, where users pick up any available bike and end a trip anywhere within the service area.",
+   "image_path": "exhibits/kellogg-2024-chicouver-cycle/p112.webp",
+   "key_insight": "Docking requires fixed station infrastructure (an added cost) but tends to keep bikes concentrated (lower distribution/redistribution cost); dockless removes station costs but roughly doubles distribution cost per bike in every terrain tier.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exE",
+   "title": "Projected Costs",
+   "page": 113,
+   "kind": "table",
+   "description": "Table of annual cost per bike, annual cost per docking station (docking system only; each station holds 20 bikes), and annual distribution cost per bike by terrain tier (flat, moderately hilly, very hilly), for both the docking and dockless systems.",
+   "data": {
+    "columns": [
+     "Cost item",
+     "Docking System",
+     "Dockless System"
+    ],
+    "rows": [
+     [
+      "Annual cost per bike",
+      "$200",
+      "$200"
+     ],
+     [
+      "Annual cost per docking station",
+      "$10,000",
+      "n/a"
+     ],
+     [
+      "Distribution cost per bike — Flat",
+      "$100",
+      "$200"
+     ],
+     [
+      "Distribution cost per bike — Moderately hilly",
+      "$500",
+      "$1,000"
+     ],
+     [
+      "Distribution cost per bike — Very hilly",
+      "$2,000",
+      "$4,000"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-chicouver-cycle/p113.webp",
+   "key_insight": "Dockless distribution costs are exactly double docking distribution costs at every terrain tier, so the docking-vs-dockless choice is really a trade-off between station costs (docking only) and doubled distribution costs (dockless) — which system wins depends on how many bikes/stations a trip type needs.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "commute-profitability",
+   "question": "What are the annual revenue, costs, and profit for the Commuting trip type, under both docking and dockless models?",
+   "givens": [
+    "500K trips/week, 50 weeks/year, $1/trip",
+    "50K bikes needed",
+    "Terrain treated as flat",
+    "Docking: $200/bike, $10,000/station (20 bikes/station), $100/bike distribution (flat)",
+    "Dockless: $200/bike, $200/bike distribution (flat), no stations"
+   ],
+   "steps": [
+    "Revenue = $1 x 500K x 50 = $25M",
+    "Bike cost = $200 x 50,000 = $10M",
+    "Stations = 50,000 / 20 = 2,500; Station cost = $10,000 x 2,500 = $25M",
+    "Docking distribution cost = $100 x 50,000 = $5M; Dockless distribution cost = $200 x 50,000 = $10M",
+    "Docking profit = 25 - 10 - 25 - 5 = -$15M",
+    "Dockless profit = 25 - 10 - 10 = $5M"
+   ],
+   "answer": "Docking: -$15M (loss); Dockless: $5M profit.",
+   "answer_value": 5,
+   "unit": "$M (dockless profit; docking = -$15M)",
+   "verified": true
+  },
+  {
+   "id": "tourism-profitability",
+   "question": "What are the annual revenue, costs, and profit for the Tourism trip type, under both docking and dockless models?",
+   "givens": [
+    "400K trips/week, 50 weeks/year, $1/trip",
+    "5K bikes needed",
+    "Terrain: very hilly",
+    "Docking: $200/bike, $10,000/station, $2,000/bike distribution (very hilly)",
+    "Dockless: $200/bike, $4,000/bike distribution (very hilly), no stations"
+   ],
+   "steps": [
+    "Revenue = $1 x 400K x 50 = $20M",
+    "Bike cost = $200 x 5,000 = $1M",
+    "Stations = 5,000 / 20 = 250; Station cost = $10,000 x 250 = $2.5M",
+    "Docking distribution cost = $2,000 x 5,000 = $10M; Dockless distribution cost = $4,000 x 5,000 = $20M",
+    "Docking profit = 20 - 1 - 2.5 - 10 = $6.5M",
+    "Dockless profit = 20 - 1 - 20 = -$1M"
+   ],
+   "answer": "Docking: $6.5M profit; Dockless: -$1M (loss).",
+   "answer_value": 6.5,
+   "unit": "$M (docking profit; dockless = -$1M)",
+   "verified": true
+  },
+  {
+   "id": "recreation-profitability",
+   "question": "What are the annual revenue, costs, and profit for the Recreation trip type, under both docking and dockless models?",
+   "givens": [
+    "300K trips/week, 50 weeks/year, $1/trip",
+    "4K bikes needed",
+    "Terrain: moderately hilly",
+    "Docking: $200/bike, $10,000/station, $500/bike distribution (moderate)",
+    "Dockless: $200/bike, $1,000/bike distribution (moderate), no stations"
+   ],
+   "steps": [
+    "Revenue = $1 x 300K x 50 = $15M",
+    "Bike cost = $200 x 4,000 = $0.8M",
+    "Stations = 4,000 / 20 = 200; Station cost = $10,000 x 200 = $2M",
+    "Docking distribution cost = $500 x 4,000 = $2M; Dockless distribution cost = $1,000 x 4,000 = $4M",
+    "Docking profit = 15 - 0.8 - 2 - 2 = $10.2M",
+    "Dockless profit = 15 - 0.8 - 4 = $10.2M"
+   ],
+   "answer": "Docking and Dockless are tied at $10.2M profit each.",
+   "answer_value": 10.2,
+   "unit": "$M (both models)",
+   "verified": true
+  },
+  {
+   "id": "nightlife-profitability",
+   "question": "What are the annual revenue, costs, and profit for the Nightlife trip type, under both docking and dockless models?",
+   "givens": [
+    "600K trips/week, 50 weeks/year, $1/trip",
+    "30K bikes needed",
+    "Terrain: flat",
+    "Docking: $200/bike, $10,000/station, $100/bike distribution (flat)",
+    "Dockless: $200/bike, $200/bike distribution (flat), no stations"
+   ],
+   "steps": [
+    "Revenue = $1 x 600K x 50 = $30M",
+    "Bike cost = $200 x 30,000 = $6M",
+    "Stations = 30,000 / 20 = 1,500; Station cost = $10,000 x 1,500 = $15M",
+    "Docking distribution cost = $100 x 30,000 = $3M; Dockless distribution cost = $200 x 30,000 = $6M",
+    "Docking profit = 30 - 6 - 15 - 3 = $6M",
+    "Dockless profit = 30 - 6 - 6 = $18M"
+   ],
+   "answer": "Docking: $6M profit; Dockless: $18M profit — the best result of any trip-type/model combination.",
+   "answer_value": 18,
+   "unit": "$M (dockless profit; docking = $6M)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Chicouver Cycle should launch a dockless system in the nightlife district. This will generate $18M in profit per year, driven by the nightlife district's high volume of projected bikeshare trips. Going dockless saves $15M in station costs in exchange for doubling distribution costs to $6M, which are relatively low thanks to the nightlife district's flat terrain. Going forward, a dockless system will also entail lower costs and higher profits than a docking system as Chicouver Cycle expands to other neighborhoods and trip types, so choosing the right operating infrastructure with an eye to future growth is important for a bikeshare system.",
+ "what_great_looks_like": [
+  "Structures the problem around neighborhood/trip-type comparison rather than a generic market-entry checklist",
+  "Recognizes the four distinct trip types (commuting, tourism, recreation, nightlife) and treats each as its own mini business case",
+  "Works through the full revenue/cost/profit build for each trip type under both operating models without needing every formula spelled out",
+  "Names the specific winning combination (nightlife + dockless) with the dollar figure, and explains the underlying station-cost-vs-distribution-cost trade-off",
+  "Offers concrete, case-grounded next steps (e.g., using nightlife bikes for adjacent recreation trips) rather than generic next steps"
+ ],
+ "common_pitfalls": [
+  "Treating the city as a single homogeneous market instead of four distinct trip types with different economics",
+  "Forgetting docking systems incur station costs (bikes/20 x $10,000) in addition to bike and distribution costs",
+  "Mismatching a trip type to the wrong terrain-based distribution cost tier",
+  "Concluding docking or dockless is universally better instead of noting the answer depends on trip volume and terrain (e.g., Recreation is a tie)",
+  "Recommending purely on revenue rather than profit, missing that Commute is unprofitable under docking despite having the second-highest revenue"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[exA] — no page render available for page 109; description reconstructed from the text layer's scattered callouts"
+  ],
+  "math_verified": true,
+  "notes": "The book's printed revenue formula for Recreation and Nightlife both mistakenly show '500K' as the trip count (apparently copy-pasted from the Commute row), but the final dollar answers shown (15M and 30M) are correct for the actual 300K and 600K trip volumes given in Exhibit C; this extraction uses the correct trip counts throughout and preserves the book's correct final figures.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "common_pitfalls"
+  ]
+ }
+}

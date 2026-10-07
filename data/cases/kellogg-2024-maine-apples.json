@@ -1,0 +1,271 @@
+{
+ "id": "kellogg-2024-maine-apples",
+ "title": "Maine Apples",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  254,
+  259
+ ],
+ "author": "Adam Borchert and Joep Knijn (Tuck 2004); edited by Peter Manoogian (Kellogg 2012), Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "maine-apples",
+ "is_canonical_variant": true,
+ "case_type": [
+  "New Product/GTM",
+  "Profitability"
+ ],
+ "case_type_source_label": "Y04 New product / Market entry; Y06 Opportunity assessment; Y07 Profitability",
+ "industry": "agriculture",
+ "sub_industry": "agri-inputs",
+ "industry_source_label": "X02 Agriculture & Food",
+ "geography": "Maine, US (test market)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "market-sizing",
+  "value-based-pricing",
+  "cost-savings",
+  "yield-improvement",
+  "agriculture",
+  "b2b-input-product"
+ ],
+ "concepts_tested": [
+  "Z08 Market sizing",
+  "Z14 Pricing strategy",
+  "Z15 Supply/value chain"
+ ],
+ "fit_question": "Analysis is not always perfect. Tell me a time when the analysis wasn't perfect but you still had to use it.",
+ "prompt": "Our client is a Korean conglomerate named Danut that has acquired a small Boston-based biotechnology firm. The biotech firm has developed a chemical that helps control the ripening of produce. After testing, this chemical appears to work especially well with apples: it allows apple orchards to harvest earlier and it improves the overall quality of the harvest. Danut traditionally uses a test market to determine commercialization. Given Danut's proximity to Boston and average apple yields, Maine has been chosen. Danut would like to know if they should attempt to commercialize this chemical.",
+ "clarifying_info": [
+  {
+   "question_topic": "Product benefits",
+   "answer": "Reduced costs through earlier harvesting; improved apple yields; improved juice yields (with higher-quality apples)."
+  },
+  {
+   "question_topic": "Client characteristics",
+   "answer": "Only concerned about a 'test-market' in the state of Maine."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "No other competitive products on the market currently."
+  },
+  {
+   "question_topic": "Industry",
+   "answer": "Growing at the rate of GDP."
+  }
+ ],
+ "interviewer_notes": "Problem: Is the market size large enough and the estimated profitability high enough for Danut to commercialize this chemical? Key case steps: 1) Confirm market attractiveness (size), 2) Quantify cost savings from earlier harvests, 3) Quantify revenue growth from improved yields, 4) Project farmers' margins and pricing for Danut, 5) Provide a recommendation and highlight risks. No case-provided framework diagram; case data is released as bulleted facts 'when asked' rather than through separate numbered exhibits.",
+ "suggested_framework": {
+  "summary": "A market-attractiveness plus value-based-pricing structure: size the Maine test market, quantify the value created for farmers (cost savings + revenue growth), then determine how much of that value Danut can capture through pricing.",
+  "tree": {
+   "label": "Should Danut commercialize the ripening-control chemical?",
+   "children": [
+    {
+     "label": "Market Size",
+     "children": [
+      {
+       "label": "Number of orchards"
+      },
+      {
+       "label": "Average orchard revenue and acreage"
+      }
+     ]
+    },
+    {
+     "label": "Value Created for Farmers",
+     "children": [
+      {
+       "label": "Cost savings",
+       "children": [
+        {
+         "label": "Earlier harvest reduces crop-maintenance nights needed"
+        }
+       ]
+      },
+      {
+       "label": "Revenue growth",
+       "children": [
+        {
+         "label": "Improved apple yield/quality (whole apple sales)"
+        },
+        {
+         "label": "Improved sweetness (juice sales)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Value Capture / Pricing",
+     "children": [
+      {
+       "label": "Farmer's margin at $0 product cost"
+      },
+      {
+       "label": "What share of farmer value can Danut capture in price?"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Differentiation, environmental backlash, patenting, test-market representativeness, strategic fit"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "market-sizing",
+   "interviewer_asks": "How large is the Maine apple-orchard market Danut would be selling into?",
+   "release_when": "When asked, provide: Maine has 200 orchards; average annual orchard revenue is $30K/acre; average orchard has 100 acres of land; only one apple harvest per year.",
+   "expected_answer": "Market size = $30K/acre x 200 orchards x 100 acres/orchard = $600M. This is a significant market and warrants further investigation.",
+   "good_answer_signals": [
+    "Correctly multiplies revenue per acre x acres per orchard x number of orchards",
+    "Recognizes $600M is large enough to justify continuing the analysis"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How much cost savings does the chemical create for farmers through earlier harvesting?",
+   "release_when": "When asked to quantify the improvements, provide: it costs $1.5K/night to maintain crops for a 100-acre orchard; with the chemical, farmers can harvest 10 days sooner.",
+   "expected_answer": "Cost savings per year = ($1.5K/night x 10 days) / 100 acres = $150/acre/year.",
+   "good_answer_signals": [
+    "Correctly converts the avoided maintenance nights into a per-acre annual savings figure"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "How much additional revenue does the chemical create for farmers through improved yields and quality?",
+   "release_when": "When asked to quantify additional revenue, provide: the product improves consistency of red apples and increases the selling price by 10%; the sweetness factor increases the selling price of juice by 5%; 25% of revenue comes from whole apple sales, 75% from juice sales.",
+   "expected_answer": "Improved yield (whole apple sales): $30K/acre x 25% x 10% = $750/acre/year. Improved sweetness (juice sales): $30K/acre x 75% x 5% = $1,125/acre/year. Total improvement including the earlier-harvest cost savings = $150 + $750 + $1,125 = $2,025/acre/year.",
+   "good_answer_signals": [
+    "Applies each price increase only to its relevant revenue share (whole apples vs. juice)",
+    "Sums cost savings and both revenue improvements into one total per-acre benefit figure"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What should Danut charge for the product, and will Danut make a profit?",
+   "release_when": "When asked about product pricing, provide: Danut's product costs $100K per 200-acre farm.",
+   "expected_answer": "Danut's product cost = $100K / 200 acres = $500/acre. If the product were free, the farmer's profit margin on the $2,025/acre benefit would be ($2,025-$500)/$2,025 = ~75% (i.e. $1,525/acre) -- an extremely high margin, signaling a significant profit opportunity for Danut. The interviewee should propose capturing 25-50% of the farmer's created value in price (anything above 50% should be questioned given the product's novelty and lack of social proof); a 50% capture rate is realistic, if anything a little low, and still leaves the farmer with a 50% margin. At an assumed price of $1,000/acre, Danut's own gross margin = ($1,000-$500)/$1,000 = 50%, so yes, Danut will make a profit.",
+   "good_answer_signals": [
+    "Recognizes the $500/acre product cost is against Danut, not the farmer's cost basis for the value-capture calculation",
+    "Proposes a value-based price in the 25-50% capture range rather than cost-plus pricing",
+    "Separately checks that the proposed price also yields Danut a healthy margin"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation, and what risks should Danut consider?",
+   "expected_answer": "Danut should commercialize the chemical and price it at approximately $1,000/acre to capture a 50% margin (for both Danut and the farmer). Risks/next steps: differentiation/positioning; environmental backlash or regulatory risk; whether Danut has the operational resources to execute; patenting (of the product and/or the manufacturing process); whether the Maine test market is representative of other states (e.g. does it cost less to cover apples elsewhere?); and whether this opportunity is strategically significant enough relative to Danut's size.",
+   "good_answer_signals": [
+    "Gives a specific price recommendation, not just a directional 'go' recommendation",
+    "Surfaces value-based pricing explicitly as the reasoning behind the price, not cost-plus",
+    "Raises several of the qualitative risks (patenting, regulation, representativeness, strategic fit)"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the size of the Maine apple-orchard market?",
+   "givens": [
+    "200 orchards in Maine",
+    "Average annual orchard revenue = $30K/acre",
+    "Average orchard = 100 acres"
+   ],
+   "steps": [
+    "Market size = $30K/acre x 200 orchards x 100 acres/orchard"
+   ],
+   "answer": "$600 million",
+   "answer_value": 600000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the total annual per-acre value (cost savings + revenue growth) the chemical creates for a farmer?",
+   "givens": [
+    "Crop maintenance cost = $1.5K/night for a 100-acre orchard; chemical allows harvest 10 days sooner",
+    "Price of whole apples rises 10% (25% of revenue is whole apple sales)",
+    "Price of juice rises 5% (75% of revenue is juice sales)",
+    "Average orchard revenue = $30K/acre"
+   ],
+   "steps": [
+    "Cost savings = ($1.5K x 10 days) / 100 acres = $150/acre/year",
+    "Improved-yield revenue (whole apples) = $30K x 25% x 10% = $750/acre/year",
+    "Improved-sweetness revenue (juice) = $30K x 75% x 5% = $1,125/acre/year",
+    "Total improvement = $150 + $750 + $1,125"
+   ],
+   "answer": "$2,025 per acre per year",
+   "answer_value": 2025,
+   "unit": "USD/acre/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "At a price of $1,000/acre, what margin does Danut earn, and what margin is left for the farmer?",
+   "givens": [
+    "Danut's product costs $100K per 200-acre farm",
+    "Total farmer value created = $2,025/acre/year",
+    "Proposed price = $1,000/acre"
+   ],
+   "steps": [
+    "Danut's product cost = $100,000 / 200 acres = $500/acre",
+    "Farmer's margin if product were free = ($2,025-$500)/$2,025 = ~75% ($1,525/acre)",
+    "Danut's gross margin at $1,000/acre price = ($1,000-$500)/$1,000"
+   ],
+   "answer": "Danut's gross margin = 50% at a $1,000/acre price; farmer keeps roughly half of the $2,025/acre value created after paying for the product",
+   "answer_value": 50,
+   "unit": "% (Danut gross margin)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Overall, Danut should commercialize the chemical and price it at approximately $1,000 per acre, which captures about 50% of the value created for farmers while still leaving them a healthy margin, and gives Danut a 50% gross margin of its own. Key risks and next steps include differentiation/positioning, potential environmental backlash or regulation, whether Danut has the operational resources to execute, patenting the product or its manufacturing process, whether the Maine test market is representative of other regions, and whether the opportunity is strategically significant enough relative to Danut's overall size.",
+ "what_great_looks_like": [
+  "Recognizes this as a value-based pricing problem and quantifies the total value created for farmers before discussing price",
+  "Correctly separates the whole-apple and juice revenue streams when applying their respective price increases",
+  "Proposes a value-capture percentage (25-50%) instead of simple cost-plus pricing, and sanity-checks it against both Danut's and the farmer's resulting margins",
+  "Surfaces qualitative risks (patenting, regulation, test-market representativeness, strategic fit) alongside the quantitative recommendation"
+ ],
+ "common_pitfalls": [
+  "Applying both the 10% and 5% price increases to total revenue instead of splitting them across whole-apple (25%) and juice (75%) revenue shares",
+  "Forgetting to include the earlier-harvest cost savings in the total per-acre value created",
+  "Proposing a value-capture rate above 50% without questioning whether that's credible for a brand-new, unproven product",
+  "Stopping at a 'go' recommendation without proposing a specific price"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "No render_pages/exhibit images for this case; all case data is released as bulleted facts directly in the interviewer guide rather than through labeled exhibits, so the exhibits array is empty and information is instead captured in each stage's info_to_release / release_when fields.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "suggested_framework.tree",
+   "case_type (mapped from Y04/Y06/Y07 to taxonomy)"
+  ]
+ }
+}

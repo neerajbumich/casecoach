@@ -1,0 +1,128 @@
+{
+  "id": "real-estate",
+  "name": "Real Estate",
+  "group": "Public & services",
+  "one_liner": "Real estate owners, developers and service firms create value from land and buildings, with economics driven by rents, occupancy, financing costs and property values.",
+  "how_it_makes_money": "Owners and REITs earn rental income and capture appreciation when values rise; developers profit from building or repositioning assets and selling or leasing them up. Service firms such as brokers and property managers earn commissions and fees on transactions and managed space.",
+  "value_chain": [
+    "Land acquisition and entitlement",
+    "Financing and capital raising",
+    "Development and construction",
+    "Leasing and sales",
+    "Property and asset management",
+    "Disposition or refinancing"
+  ],
+  "revenue_formula": [
+    "Rental revenue = rentable square feet (or units) × occupancy × average rent",
+    "Net operating income (NOI) = rental and other revenue - property operating expenses",
+    "Property value = NOI / cap rate"
+  ],
+  "cost_structure": [
+    "Interest expense: financing costs, highly sensitive to rates",
+    "Property operating expenses: maintenance, utilities, staffing",
+    "Property taxes and insurance: rising insurance costs in climate-exposed markets",
+    "Capital expenditures: tenant improvements, leasing commissions, renovations",
+    "Development costs: land, construction and soft costs for developers"
+  ],
+  "margins": "Stabilized properties typically convert a large share of revenue to NOI, and returns depend heavily on leverage, entry cap rate and rent growth; the spread across sectors reflects demand for each property type.",
+  "key_metrics": [
+    {
+      "name": "Net operating income (NOI)",
+      "what": "Property income after operating costs but before financing; the basis for valuation."
+    },
+    {
+      "name": "Capitalization rate (cap rate)",
+      "what": "NOI divided by property value; the market's required yield, moving with interest rates."
+    },
+    {
+      "name": "Occupancy rate",
+      "what": "Share of space leased; drives revenue and signals demand."
+    },
+    {
+      "name": "Funds from operations (FFO)",
+      "what": "REIT earnings adding back depreciation; the standard REIT profitability measure."
+    },
+    {
+      "name": "Loan-to-value (LTV)",
+      "what": "Debt relative to property value; measures leverage and refinancing risk."
+    },
+    {
+      "name": "Weighted average lease term (WALT)",
+      "what": "Remaining lease duration; indicates income stability."
+    },
+    {
+      "name": "Same-store NOI growth",
+      "what": "NOI growth for properties owned in both periods; shows organic performance."
+    }
+  ],
+  "trends": [
+    "Office distress from hybrid work, with a gap between prime and older buildings",
+    "Higher interest rates pressuring valuations and triggering refinancing challenges",
+    "Strong demand for data centers driven by AI and cloud growth",
+    "Housing affordability and supply shortages shaping residential and build-to-rent",
+    "Office-to-residential conversions being explored in many cities",
+    "Rising insurance costs and climate risk affecting property economics"
+  ],
+  "key_players": [
+    "Prologis",
+    "American Tower",
+    "Equinix",
+    "Simon Property Group",
+    "Blackstone Real Estate",
+    "Brookfield",
+    "CBRE",
+    "JLL",
+    "Public Storage",
+    "(highly fragmented ownership)"
+  ],
+  "case_angles": [
+    {
+      "question": "A REIT's office portfolio is losing tenants. What should it do?",
+      "framework_id": "turnaround"
+    },
+    {
+      "question": "Should a developer convert an empty office tower into apartments?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "Should a real estate investor enter the data center market?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "How should a property owner set rents for a new multifamily building?",
+      "framework_id": "pricing"
+    }
+  ],
+  "interview_hooks": [
+    "Is the downtown office a structurally impaired asset class or a cyclical trough?",
+    "What would it take to meaningfully increase US housing supply?",
+    "Are data centers a real estate play or an infrastructure/energy play?"
+  ],
+  "news": {
+    "keywords": [
+      "real estate",
+      "reit",
+      "commercial real estate",
+      "office vacancy",
+      "cap rates",
+      "landlord",
+      "mortgage rates",
+      "housing starts",
+      "home sales",
+      "data center",
+      "multifamily"
+    ],
+    "companies": [
+      "Prologis",
+      "American Tower",
+      "Equinix",
+      "Simon Property Group",
+      "Blackstone",
+      "Brookfield",
+      "CBRE",
+      "JLL",
+      "Vornado",
+      "Zillow"
+    ]
+  }
+}

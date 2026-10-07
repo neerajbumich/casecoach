@@ -1,0 +1,346 @@
+{
+ "id": "fuqua-2023-oat-about-it",
+ "title": "Oat About It",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  28,
+  36
+ ],
+ "author": "Madeline Johnson (Fuqua '24)",
+ "case_type": [
+  "Growth/Revenue",
+  "Market Entry",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Growth",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "Consumer",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG"
+ ],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Easy; Qualitative: Easy",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "growth-strategy",
+  "oat-milk",
+  "grocery-entry",
+  "new-product",
+  "channel-expansion",
+  "unit-economics"
+ ],
+ "concepts_tested": [
+  "market attractiveness",
+  "market-entry brainstorming",
+  "revenue and profit sizing",
+  "channel strategy"
+ ],
+ "prompt": "Oat Co. is a certified US B-Corp that exclusively produces Standard Barista Oat, the leading alternative milk used by baristas in US coffee shops. It has remained profitable, but revenue has stagnated. How should Oat Co. revitalize growth?",
+ "clarifying_info": [
+  {
+   "question_topic": "Target",
+   "answer": "Increase 2022 revenue of $450K by 20% to at least $540K by 2026, three years from now."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "Oat milk competes with other non-dairy milks such as soy, nut, and pea milk and can be used in coffee, recipes, baking, or by itself."
+  },
+  {
+   "question_topic": "Production",
+   "answer": "Oat Co. has plants in upstate New York and California and considers current Standard Barista Oat production and shipping costs optimized, so it is focused on revenue."
+  },
+  {
+   "question_topic": "Channels",
+   "answer": "The primary channel is B2B through coffee shops and some restaurants using food distributors, plus a small direct online store."
+  }
+ ],
+ "interviewer_notes": "Use Exhibit 1 to steer the candidate toward the large, fragmented grocery/retail channel where Oat Co. has little presence. After a structured market-entry brainstorm, provide Exhibit 2 and ask for revenue, cartons, and profit for Oat Lite and Oat Organic. The source contains a visible arithmetic inconsistency: its Oat Lite carton row says 30K, but $480K/$12 is 40K and the subsequent $320K profit correctly uses 40K.",
+ "suggested_framework": {
+  "summary": "Evaluate growth of the current product, new products and channels, inorganic options, market dynamics, and execution risks.",
+  "tree": {
+   "label": "Grow Oat Co. revenue",
+   "children": [
+    {
+     "label": "Current product",
+     "children": [
+      {
+       "label": "Price, volume, new customers, and geographic expansion"
+      }
+     ]
+    },
+    {
+     "label": "New product/channel",
+     "children": [
+      {
+       "label": "Customer segment, revenue, launch cost, grocery, retail, and restaurants"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size by channel, competitors and prices, dietary trends, animal rights, and organic positioning"
+      }
+     ]
+    },
+    {
+     "label": "Feasibility and risks",
+     "children": [
+      {
+       "label": "Capacity, distribution, marketing, certification, cannibalization, supply stability, and retailer power"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How should Oat Co. find growth?",
+   "expected_answer": "Consider price and volume growth for Standard Barista Oat, new products and customer segments, new channels such as grocery, retail, and restaurants, and acquisitions. Evaluate channel size, competition, customer trends, capabilities, launch economics, and risks including capacity, distribution, certification, cannibalization, and competitive response.",
+   "good_answer_signals": [
+    "Recognizes current leadership may limit further coffee-shop growth",
+    "Includes product and channel expansion",
+    "Frames options against the $90K incremental target"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Where should Oat Co. focus?",
+   "release_when": "Hand out Exhibit 1 after the framework.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Grocery/retail is the largest projected 2026 channel at $1.2M, versus $0.4M for coffee shops and $0.2M for commercial restaurants. Oat Co. has about 70% share in coffee shops but only about 5% in grocery, which is highly fragmented. Enter grocery/retail rather than the smaller restaurant channel.",
+   "good_answer_signals": [
+    "Compares channel size and Oat Co. share",
+    "Notices fragmentation",
+    "Recommends grocery/retail"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What should Oat Co. consider before entering grocery and retail?",
+   "expected_answer": "Financially assess product development, capacity, placement fees, marketing, distribution, and online cannibalization. Operationally test formulas and flavor, confirm plant capacity and supply, secure grocery distributors, staffing, certification, and shelf life. Commercially evaluate retailer terms, consumer education, competitor retaliation, and the B-Corp/organic value proposition.",
+   "good_answer_signals": [
+    "Structures financial and nonfinancial factors",
+    "Includes grocery placement and distribution",
+    "Addresses formula testing and cannibalization"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Compare Oat Lite and Oat Organic for grocery entry.",
+   "release_when": "Provide Exhibit 2 after the entry brainstorm.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Oat Lite captures 40% of the $1.2M grocery market, or $480K revenue. At $12 per carton it sells 40K cartons—not the 30K shown in one source row—and earns ($12-$4)x40K=$320K profit. Oat Organic captures 35%, or $420K; at $14 it sells 30K cartons and earns ($14-$4)x30K=$300K. Both exceed the $90K incremental-revenue requirement; Lite has $60K more revenue and $20K more profit.",
+   "good_answer_signals": [
+    "Calculates $4 cost per carton",
+    "Corrects Lite to 40K cartons",
+    "Gets $320K versus $300K profit"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the CEO and chief strategy officer do?",
+   "expected_answer": "Launch Oat Lite in grocery/retail. The channel is large ($1.2M), fragmented, and underpenetrated by Oat Co.; Lite should generate $480K revenue and $320K profit over three years, slightly outperforming Organic. Both options clear the $90K incremental target, so Organic can follow if consumer testing supports it. Validate preferences, capacity, distributor contracts, marketing, cannibalization, and competitive response.",
+   "good_answer_signals": [
+    "Recommends Lite with quantified support",
+    "Recognizes Organic is also viable",
+    "Sets concrete launch diligence"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Alternative milk market in the US",
+   "page": 31,
+   "kind": "other",
+   "description": "Projected 2026 channel revenue and competitor share by channel.",
+   "data": {
+    "columns": [
+     "Channel",
+     "Projected revenue",
+     "Oat Co. share",
+     "Market observation"
+    ],
+    "rows": [
+     [
+      "Coffee shops",
+      "$0.4M",
+      "70%",
+      "Oat Co. leads"
+     ],
+     [
+      "Grocery/retail",
+      "$1.2M",
+      "5%",
+      "Largest and highly fragmented"
+     ],
+     [
+      "Commercial restaurants",
+      "$0.2M",
+      "40%",
+      "Smallest channel"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-oat-about-it/p031.webp",
+   "image_has_answers": false,
+   "key_insight": "Grocery/retail is three times the coffee-shop market and Oat Co. has minimal share there.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Grocery product options",
+   "page": 34,
+   "kind": "table",
+   "description": "Price, anticipated three-year grocery-market share, and production cost for two proposed products.",
+   "data": {
+    "columns": [
+     "Input",
+     "Oat Lite",
+     "Oat Organic"
+    ],
+    "rows": [
+     [
+      "Sales price",
+      "$12/carton",
+      "$14/carton"
+     ],
+     [
+      "Anticipated market share over 3 years",
+      "40%",
+      "35%"
+     ],
+     [
+      "Production cost",
+      "$24/palette",
+      "$24/palette"
+     ],
+     [
+      "Cartons per palette",
+      6,
+      6
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-oat-about-it/p034.webp",
+   "image_has_answers": false,
+   "key_insight": "Lite trades a lower price for enough additional share to produce slightly higher revenue and profit.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What revenue is needed in 2026?",
+   "givens": [
+    "2022 revenue $450K",
+    "20% growth target"
+   ],
+   "steps": [
+    "Target=$450Kx1.20=$540K",
+    "Increment=$540K-$450K=$90K"
+   ],
+   "answer": "$540K total revenue, a $90K increase",
+   "answer_value": 540000,
+   "unit": "USD revenue target",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are Oat Lite's revenue, volume, and profit?",
+   "givens": [
+    "$1.2M grocery market",
+    "40% share",
+    "$12/carton",
+    "$24 per 6-carton palette"
+   ],
+   "steps": [
+    "Revenue=$1.2Mx40%=$480K",
+    "Cartons=$480K/$12=40K",
+    "Unit cost=$24/6=$4",
+    "Profit=40Kx($12-$4)=$320K"
+   ],
+   "answer": "$480K revenue, 40K cartons, $320K profit",
+   "answer_value": 320000,
+   "unit": "USD profit over 3 years",
+   "verified": false,
+   "book_answer_if_different": "One source row says 30K Oat Lite cartons, although its later profit calculation correctly uses 40K."
+  },
+  {
+   "id": "m3",
+   "question": "What are Oat Organic's revenue, volume, and profit?",
+   "givens": [
+    "$1.2M grocery market",
+    "35% share",
+    "$14/carton",
+    "$4/carton cost"
+   ],
+   "steps": [
+    "Revenue=$420K",
+    "Cartons=$420K/$14=30K",
+    "Profit=30Kx($14-$4)=$300K"
+   ],
+   "answer": "$420K revenue, 30K cartons, $300K profit",
+   "answer_value": 300000,
+   "unit": "USD profit over 3 years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Launch Oat Lite into grocery/retail: the $1.2M channel is large, fragmented, and underpenetrated, and Lite produces $480K revenue and $320K profit over three years versus Organic's $420K and $300K. Both exceed the $90K incremental-revenue goal, so Organic remains a follow-on option. Validate consumers, capacity, distributors, marketing, certification, and cannibalization.",
+ "what_great_looks_like": [
+  "Identifies grocery through both size and low share",
+  "Structures entry considerations",
+  "Corrects the 40K-carton arithmetic",
+  "Separates revenue from profit",
+  "Recognizes both products clear the target"
+ ],
+ "common_pitfalls": [
+  "Choosing restaurants despite the small market",
+  "Using $24 as carton cost",
+  "Repeating 30K Lite cartons",
+  "Calling $320K revenue",
+  "Ignoring distributor dependence and online cannibalization"
+ ],
+ "follow_ups": [
+  "What additional considerations could change the choice between Oat Lite and Oat Organic?"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Deduplication verdict was NEW. The source's Oat Lite volume row says $480K/$12=30K cartons, but the correct answer is 40K; its subsequent $320K profit calculation uses 40K. The recommendation also calls $320K potential revenue, but it is profit; structured answers retain $480K revenue and $320K profit. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "case_type mapping",
+   "format",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "id": "stern-2022-steel-co",
+ "title": "Steel Co.",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  142,
+  148
+ ],
+ "author": "Adapted by Arati Venkatram (Stern ’20)",
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Cost Saving",
+ "industry": "mining",
+ "sub_industry": "metals",
+ "industry_source_label": "Industrial Goods",
+ "geography": "Netherlands; more than 100 countries internationally",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG First Round"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 7; Structure: 7 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "capacity-utilization",
+  "logistics",
+  "inventory-management",
+  "transport-mode",
+  "cost-reduction",
+  "operating-kpis"
+ ],
+ "concepts_tested": [
+  "Capacity Optimization",
+  "Operations"
+ ],
+ "prompt": "Our client is a steel manufacturing company in the Netherlands. They are considering investing in an advanced analytics tool that will help them better predict inventory schedule. They are also looking at immediate methods to save costs and would like your help with the following: A) Steel coils are currently transported from the factory to customers via railways, trucks, vessels and barges. They would like us to analyze these four methods and suggest any opportunities for cost saving. B) Suggest any alternative techniques to save cost in the immediate future.",
+ "clarifying_info": [
+  {
+   "question_topic": "Geographic scope",
+   "answer": "The company operates internationally in more than 100 countries."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "Customers are mainly large B2B manufacturers on short- and long-term contracts."
+  },
+  {
+   "question_topic": "Products",
+   "answer": "Assume steel is manufactured only as coils."
+  },
+  {
+   "question_topic": "Goal",
+   "answer": "Identify savings; there is no specific numerical target."
+  },
+  {
+   "question_topic": "Utilization",
+   "answer": "Utilization is the percentage of vehicle capacity used for steel coils; the rest is empty."
+  }
+ ],
+ "interviewer_notes": "The candidate should lead a steel-specific logistics analysis, focus on cost rather than a broad generic profitability diagnosis, and cover both transport optimization and alternative immediate actions. Exhibit 1 supports the book’s capacity-cost calculation. Curiosity about high truck usage should lead to Exhibit 2. Cross-reference vessel departures every 14 days with daily truck departures, then discuss inventory and dispatch KPIs. Source savings use a simplified assumption that the unused-capacity percentage can be removed from current transport spending. Clarify the contract and volume basis before presenting these as realizable savings. Exhibit 2’s total volume is stated, but most bar values are unlabeled; do not invent exact weekly counts.",
+ "suggested_framework": {
+  "summary": "Assess transport utilization and rates, diagnose inventory-driven truck use, and identify immediate operating changes alongside analytics investment.",
+  "tree": {
+   "label": "Reduce steel-coil logistics cost",
+   "children": [
+    {
+     "label": "Transport economics",
+     "children": [
+      {
+       "label": "Deliveries, tonnage and cost per ton by mode"
+      },
+      {
+       "label": "Empty capacity and consolidation opportunities"
+      },
+      {
+       "label": "Contract charging basis and avoidable cost"
+      }
+     ]
+    },
+    {
+     "label": "Inventory and scheduling",
+     "children": [
+      {
+       "label": "Vessel departure frequency versus daily trucks"
+      },
+      {
+       "label": "Coils left at the pier"
+      },
+      {
+       "label": "Demand forecasting and inventory analytics"
+      }
+     ]
+    },
+    {
+     "label": "Immediate operating levers",
+     "children": [
+      {
+       "label": "Dispatch KPIs and loading thresholds"
+      },
+      {
+       "label": "Gradual truck reductions and rate renegotiation"
+      },
+      {
+       "label": "Customer service and route constraints"
+      }
+     ]
+    },
+    {
+     "label": "Implementation risks",
+     "children": [
+      {
+       "label": "Accuracy of average utilization"
+      },
+      {
+       "label": "Union and contract restrictions"
+      },
+      {
+       "label": "Consistent time periods and overlapping savings"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you identify immediate logistics savings while assessing the value of better inventory analytics?",
+   "release_when": "After the prompt; release business scope on request.",
+   "info_to_release": "The company operates in more than 100 countries, serves large manufacturers on short- and long-term contracts, and produces only steel coils for this case. There is no numerical savings target.",
+   "exhibit_ids": [],
+   "expected_answer": "Compare cost, volume, utilization and dispatch schedules across rail, truck, barge and vessel. Identify consolidation and cheaper-mode opportunities, then investigate whether inventory timing forces expensive trucking. Include immediate KPI, contract and scheduling changes as well as the longer-term analytics tool.",
+   "good_answer_signals": [
+    "Addresses both parts of the prompt.",
+    "Connects the framework to heavy steel-coil transportation."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 1, what does the current transport mix imply about costs and utilization savings?",
+   "release_when": "Provide Exhibit 1 when the candidate requests transport economics. Clarify utilization if asked.",
+   "info_to_release": "For rail/truck/barge/vessel respectively: deliveries per week 10/20/4/3; volume per delivery 40,000/20,000/50,000/100,000 tons; utilization 67%/75%/80%/100%; cost per ton $25/$30/$25/$10; frequency 5/1/20/14 days. Utilization means occupied vehicle capacity, with the remainder empty.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Using the book’s method, weekly volume bases are 400,000, 400,000, 200,000 and 300,000 tons; weekly cost bases are $10 million, $12 million, $5 million and $3 million. Multiplying each by its unused-capacity fraction gives potential savings of $3.3 million, $3 million, $1 million and zero, totaling $7.3 million per week. This is conditional on transport spending being reducible in proportion to unused capacity. If charges are strictly per ton actually carried, filling vehicles alone does not establish those savings. Clarify whether the volume field means actual load or billed capacity, and whether fewer trips reduce cost. Investigate why trucking remains so heavily used.",
+   "good_answer_signals": [
+    "Compares utilization and unit cost across modes.",
+    "Questions the charging basis before treating spare capacity as guaranteed cash savings.",
+    "Asks about the high truck use to unlock the next exhibit."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Exhibit 2 suggest about why coils move from the pier to trucks?",
+   "release_when": "Provide Exhibit 2 after the candidate investigates truck usage.",
+   "info_to_release": "The chart covers weeks 1–21 and states total volume for delivery of 5,700 coils, with 10 tons per coil. The source reads weeks 1 and 2 together as 3,000 coils requiring truck delivery. Vessels are loaded every 14 days while trucks depart daily. The source assumes week 3 onward can be managed better through inventory planning.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "The mismatch between 2-week vessel departures and daily trucking creates an inventory-management opportunity. The first 3,000 coils remain truck-bound under the source assumptions. The remaining 2,700 coils could shift from trucks to vessels if better planning makes this operationally feasible. The source also identifies a 100% vessel-loading KPI: considering 95% instead could avoid holding shipments at the pier, but this requires testing departure economics and service needs.",
+   "good_answer_signals": [
+    "Connects the two exhibits rather than reading the chart in isolation.",
+    "Separates required near-term trucking from potentially avoidable trucking."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What savings could better inventory management produce, and can we combine the two savings estimates?",
+   "release_when": "After interpreting the pier inventory chart.",
+   "info_to_release": "Use the stated 5,700 coils, 3,000 initially truck-bound coils, 10 tons per coil, $30 per ton by truck and $10 per ton by vessel.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Savings for the stated volume are (5,700 − 3,000) × 10 × ($30 − $10) = $540,000. Do not call $7.3 million + $540,000 = $7.84 million a validated combined-period saving: the first number is derived from weekly deliveries, while the second applies to the chart’s total volume across a multiweek display, without a matching weekly recurrence. Preserve the two estimates separately until periods and potential overlap are reconciled. Both also depend on route and scheduling feasibility.",
+   "good_answer_signals": [
+    "Converts coils to tons before applying the cost difference.",
+    "Checks time bases and double counting before adding savings."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What immediate actions could reduce costs, and what risks would you manage?",
+   "release_when": "After the quantitative diagnosis; ensure part B is covered.",
+   "info_to_release": "Current vessel labor KPIs require 100% loading. Truck drivers may be unionized, and contracts may constrain truck reductions.",
+   "exhibit_ids": [],
+   "expected_answer": "Test a 95% vessel-utilization dispatch KPI instead of waiting for 100%, improve inventory scheduling, gradually reduce truck use through consolidation and mode shifts, and renegotiate cost per ton where possible. Continue developing analytics because inventory management is a cost driver. Validate utilization assumptions and check union and contractual requirements before reducing truck capacity.",
+   "good_answer_signals": [
+    "Explains the mechanism behind KPI changes.",
+    "Acknowledges that lower vessel utilization can have a cost trade-off."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What would you recommend to Steel Co.?",
+   "release_when": "At the end of the case.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Prioritize capacity consolidation and better inventory scheduling. The source’s conditional capacity formula gives $7.3 million per week, and its stated pier volume yields a separate $540,000 mode-shift opportunity; the asserted $7.84 million combined figure lacks an aligned time basis. Verify charging terms, load definitions and overlap before committing savings. Pilot the 95% vessel dispatch threshold, reduce trucks gradually, renegotiate rates and continue the analytics tool. Manage inaccurate utilization estimates and union/contract constraints.",
+   "good_answer_signals": [
+    "Reports conditional component opportunities without overstating a total.",
+    "Provides an actionable sequence and identifies validation needs."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Transport Mode Economics",
+   "page": 144,
+   "kind": "table",
+   "description": "Deliveries, stated volume per delivery, utilization, unit rate and frequency by transport mode. Volume and contract charging definitions need clarification before realizing savings.",
+   "data": {
+    "columns": [
+     "Mode",
+     "Deliveries/week",
+     "Volume/delivery (tons)",
+     "Utilization (%)",
+     "Cost (USD/ton)",
+     "Frequency (days)"
+    ],
+    "rows": [
+     [
+      "Rail",
+      10,
+      40000,
+      67,
+      25,
+      5
+     ],
+     [
+      "Truck",
+      20,
+      20000,
+      75,
+      30,
+      1
+     ],
+     [
+      "Barge",
+      4,
+      50000,
+      80,
+      25,
+      20
+     ],
+     [
+      "Vessel",
+      3,
+      100000,
+      100,
+      10,
+      14
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-steel-co/p144.webp",
+   "key_insight": "Truck transport has the highest unit rate; vessels are cheapest but have a longer departure interval. Spare capacity alone does not establish avoidable spending.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Transfer of Goods from Pier to Trucks",
+   "page": 146,
+   "kind": "bar",
+   "description": "Coil counts plotted across weeks 1–21, concentrated in early weeks. The chart states 5,700 total coils and 10 tons per coil. Exact unlabeled bar values are not transcribed; the solution supplies 3,000 combined coils for the first 2 weeks.",
+   "data": {
+    "columns": [
+     "Explicit chart input",
+     "Value",
+     "Unit"
+    ],
+    "rows": [
+     [
+      "Total volume for delivery",
+      5700,
+      "steel coils"
+     ],
+     [
+      "Weight per coil",
+      10,
+      "tons"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-steel-co/p146.webp",
+   "key_insight": "Align inventory and vessel departures to avoid transferring later coils to expensive daily trucks.",
+   "data_confidence": "low"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What capacity savings does the source’s simplified formula produce?",
+   "givens": [
+    "Rail/truck/barge/vessel: 10/20/4/3 weekly deliveries",
+    "40,000/20,000/50,000/100,000 tons per delivery",
+    "$25/$30/$25/$10 per ton",
+    "67%/75%/80%/100% utilization",
+    "Source assumes savings equal cost times unused-capacity fraction"
+   ],
+   "steps": [
+    "Weekly volume bases = 400,000; 400,000; 200,000; 300,000 tons.",
+    "Weekly spending bases = $10 million; $12 million; $5 million; $3 million, totaling $30 million.",
+    "Conditional savings = $10 million × 33% + $12 million × 25% + $5 million × 20% + $3 million × 0%.",
+    "Total = $3.3 million + $3 million + $1 million + $0 = $7.3 million per week."
+   ],
+   "answer": "$7.3 million per week under the book’s proportional avoidable-capacity-cost assumption; realized savings require a compatible billing and consolidation model.",
+   "answer_value": 7300000,
+   "unit": "conditional USD/week",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the mode-shift opportunity for the stated pier volume?",
+   "givens": [
+    "5,700 total coils",
+    "3,000 coils in the first 2 weeks remain truck-bound in the source solution",
+    "10 tons per coil",
+    "$30 per ton trucking versus $10 per ton vessel"
+   ],
+   "steps": [
+    "Potentially shiftable coils = 5,700 − 3,000 = 2,700.",
+    "Shiftable tonnage = 2,700 × 10 = 27,000 tons.",
+    "Savings = 27,000 × ($30 − $10) = $540,000."
+   ],
+   "answer": "$540,000 for the stated volume, assuming it can move by vessel rather than truck.",
+   "answer_value": 540000,
+   "unit": "USD for stated volume",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Can the source’s two savings estimates support a single combined figure?",
+   "givens": [
+    "Capacity opportunity $7.3 million per week",
+    "Inventory opportunity $540,000 for the stated 5,700-coil chart volume",
+    "Exhibit 2 displays weeks 1–21 without establishing weekly repetition of that total"
+   ],
+   "steps": [
+    "The arithmetic $7,300,000 + $540,000 = $7,840,000 is correct as a bare sum.",
+    "The first amount has a weekly basis and the second a different, unspecified recurring basis; align time periods and remove overlap before combining.",
+    "Retain the component opportunities separately because no defensible single-period total can be computed from the supplied information."
+   ],
+   "answer": "No supported combined-period total: report conditional $7.3 million/week separately from $540,000 for the stated inventory volume.",
+   "verified": false,
+   "book_answer_if_different": "The recommendation claims approximately $7.84 million savings by adding $7.3 million from weekly capacity calculations and $540,000 from the multiweek inventory chart without reconciling periods or overlap."
+  }
+ ],
+ "synthesis": "Improve transport consolidation and inventory scheduling, while continuing the analytics tool. The book’s capacity formula yields a conditional $7.3 million weekly opportunity and its pier-volume assumptions yield $540,000 from shifting later coils to vessels. Do not promise the book’s $7.84 million total until time bases, charging terms and overlap are resolved. Test a 95% vessel-loading dispatch KPI, reduce trucks gradually, renegotiate rates and verify union/contract constraints. Validate the utilization averages and whether volume denotes actual load or paid capacity.",
+ "what_great_looks_like": [
+  "Drives the analysis without losing the immediate-cost-saving part of the prompt.",
+  "Links expensive truck use to vessel schedules and inventory.",
+  "Identifies the effect of the full-load KPI.",
+  "Uses operations knowledge to propose practical changes.",
+  "Tests whether savings assumptions are economically realizable."
+ ],
+ "common_pitfalls": [
+  "Ignoring departure frequency while comparing unit rates.",
+  "Treating unused capacity as guaranteed avoidable cost under per-ton billing.",
+  "Forgetting to convert coils into tons.",
+  "Adding weekly savings to a multiweek volume saving without alignment.",
+  "Assuming all utilization improvements and mode shifts are independent.",
+  "Guessing exact unlabeled chart values."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (exact weekly bar values not labeled)",
+   "math[2].answer (no aligned period for combined savings)"
+  ],
+  "math_verified": false,
+  "notes": "Dedup returned NEW. Candidate images are pages 144 and 146, not solution pages 145 and 147. Formula arithmetic matches $7.3 million and $540,000, but source $7.84 million combines a weekly estimate with an unaligned multiweek-volume estimate and may overlap truck savings. No unsupported replacement aggregate is invented. Capacity savings also assume spending is avoidable in proportion to unused capacity, which is not established by the per-ton labels; actual-load versus capacity volume is ambiguous. Source weekly deliveries and frequency fields are preserved without forcing them into one route schedule. Exhibit 2 lacks numeric bar labels, so only explicitly printed inputs are tabulated; the source’s 3,000 first-two-week interpretation is preserved in release information. Metals taxonomy is a product-based mapping for a steel manufacturer, not a claim that it mines ore. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "industry and sub_industry mapping",
+   "case_type mapping",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis time-basis and billing caveats"
+  ]
+ }
+}

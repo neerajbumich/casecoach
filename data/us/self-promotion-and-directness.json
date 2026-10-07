@@ -1,0 +1,187 @@
+{
+  "id": "self-promotion-and-directness",
+  "section": "culture",
+  "order": 2,
+  "title": "Self-promotion and directness",
+  "summary": "How US interviewers expect you to talk about your own impact, disagree, and carry yourself, in person and on video. Many strong international candidates undersell themselves by US standards; this chapter shows how to calibrate.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "The core norm",
+      "body": "US interviewers evaluate you, not your team. They expect you to state clearly what you did, why it mattered, and what changed because of you, with numbers where possible. This is not seen as bragging when it is specific and factual. Understatement is often read as low ownership or low confidence rather than modesty. Credit the team briefly, then be precise about your own role."
+    },
+    {
+      "type": "table",
+      "title": "'I' vs 'we' in fit stories",
+      "columns": [
+        "Instead of",
+        "Say"
+      ],
+      "rows": [
+        [
+          "We launched a new delivery slot",
+          "I proposed and built the case for a 10-minute slot, then led the pilot with ops"
+        ],
+        [
+          "The team found the audit issue",
+          "I spotted the revenue recognition gap and walked the client CFO through it"
+        ],
+        [
+          "We grew orders",
+          "I owned the pricing test that lifted orders in three cities; the team scaled it"
+        ],
+        [
+          "I was part of the project",
+          "I was responsible for the supply model; my analysis set the dark-store count"
+        ],
+        [
+          "I helped my manager",
+          "I drafted the recommendation my manager presented to leadership"
+        ]
+      ],
+      "note": "Use 'we' for the team's result, 'I' for your decisions and actions."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Confidence vs arrogance",
+      "body": "Confident: specific claims backed by evidence, owning mistakes, giving others credit, asking good questions. Arrogant: superlatives without proof ('I was the best analyst'), dismissing others, interrupting, never admitting uncertainty. A useful test: could a colleague verify every sentence you said about yourself?"
+    },
+    {
+      "type": "list",
+      "title": "Pushing back respectfully",
+      "items": [
+        "In a case, it is expected: 'I see it slightly differently. If margins are already thin, a price cut may hurt more than help.'",
+        "Lead with the data, not the person: 'Looking at exhibit 2, the growth seems to come from one region.'",
+        "Acknowledge, then add: 'That makes sense for the US; I wonder whether rural demand behaves differently.'",
+        "Ask a question to open a disagreement: 'What would we need to believe for that to work?'",
+        "If the interviewer pushes on your answer, defend it with logic once; change it if new data justifies it."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "'Tell me about a weakness'",
+      "items": [
+        "Pick a real, work-relevant weakness that is not core to the job (not 'bad with numbers' for consulting).",
+        "Show a concrete example of it, briefly.",
+        "Spend most of the answer on what you changed and evidence it is improving.",
+        "Avoid disguised strengths like 'I work too hard'; US interviewers see through them.",
+        "Example theme: hesitating to push back on senior people, and how you now raise concerns early with data."
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Workplace communication: India vs US (tendencies, vary by company and person)",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Hierarchy",
+          "Seniority shapes who speaks and when; deference to seniors is common",
+          "Flatter in tone; juniors expected to share views in meetings"
+        ],
+        [
+          "Disagreement",
+          "Often indirect or offline to preserve harmony",
+          "Expected openly but politely, focused on ideas"
+        ],
+        [
+          "Saying no",
+          "'I'll try' or 'let me see' can mean no",
+          "A clear 'no, but here's what I can do' is respected"
+        ],
+        [
+          "Credit",
+          "Team-first framing; self-praise can feel awkward",
+          "Individual contribution stated plainly"
+        ],
+        [
+          "Feedback",
+          "Often softened or delivered privately",
+          "Direct but cushioned; 'one thing to consider...'"
+        ],
+        [
+          "Names",
+          "Sir/Ma'am, titles",
+          "First names for everyone, including partners"
+        ],
+        [
+          "Time",
+          "Meeting starts can be flexible in some settings",
+          "Start and end on time; late means 'tell them in advance'"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Body language and in-person basics",
+      "items": [
+        "Handshake: firm, brief, with eye contact and a smile; not crushing, not limp.",
+        "Eye contact: steady but natural; look away briefly while thinking, then return.",
+        "Posture: sit upright, lean slightly forward, hands visible on the table.",
+        "Nod and use short verbal cues ('right', 'got it') to show you are following.",
+        "Pause before answering; 'Let me take ten seconds to structure this' is perfectly normal."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Video-interview etiquette",
+      "items": [
+        "Camera at eye level, face lit from the front, neutral background, laptop plugged in.",
+        "Look at the camera when making key points, not at your own video.",
+        "Join two to three minutes early; test audio, keep notifications off.",
+        "Keep paper and pen ready; say aloud when you are writing so silence is not awkward.",
+        "If the connection drops, rejoin calmly and summarize where you were."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Directness is not bluntness",
+      "body": "US directness is clear content wrapped in polite framing. 'That's wrong' sounds harsh; 'I'm not sure that holds, because...' is direct and respectful. Likewise, saying 'I don't know, but here is how I'd figure it out' is valued over guessing confidently."
+    }
+  ],
+  "in_a_case": [
+    "When the interviewer challenges your hypothesis, defend it once with logic, then adjust if the data says so; caving immediately reads as low conviction.",
+    "Fit questions ('a time you led a team') are scored on your individual actions; use 'I' for decisions and quantify impact.",
+    "Synthesize with a clear recommendation ('The client should enter, because...') rather than 'it depends'.",
+    "On video cases, narrate your structure and math aloud so the interviewer can follow without seeing your page.",
+    "End-of-interview: a confident, specific question about their work signals peer-level comfort."
+  ],
+  "flashcards": [
+    {
+      "front": "'I' or 'we' in fit stories?",
+      "back": "'We' for the team's outcome, 'I' for your own decisions, actions, and impact."
+    },
+    {
+      "front": "Confidence vs arrogance test",
+      "back": "Could a colleague verify every claim you made about yourself? Specific and evidenced = confident."
+    },
+    {
+      "front": "Structure for the weakness question",
+      "back": "Real, non-core weakness; a short example; most of the time on what you changed and evidence of progress."
+    },
+    {
+      "front": "How to disagree in a case",
+      "back": "Lead with data or logic, acknowledge their point, then add yours: 'I see it slightly differently, because...'"
+    },
+    {
+      "front": "How to say no in a US workplace",
+      "back": "Clearly, with an alternative: 'I can't do both by Friday; I can finish X Friday and Y Tuesday.'"
+    },
+    {
+      "front": "Video interview: where to look?",
+      "back": "At the camera for key points; camera at eye level, front lighting."
+    },
+    {
+      "front": "Handshake norm",
+      "back": "Firm, brief, with eye contact and a smile."
+    },
+    {
+      "front": "Is pausing to think acceptable?",
+      "back": "Yes: 'Let me take a moment to structure my thoughts' is normal and expected."
+    }
+  ],
+  "sources": [],
+  "checked": "2026-10"
+}

@@ -1,0 +1,357 @@
+{
+ "id": "darden-2023-jane-dardens-ranch",
+ "title": "Jane Darden's Ranch",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  64,
+  73
+ ],
+ "case_type": [
+  "Market Entry",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "hospitality",
+ "sub_industry": "hotels",
+ "industry_source_label": "Hospitality",
+ "geography": "Montana, United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2; Quantitative 2; Qualitative 2 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-entry",
+  "payback",
+  "opportunity-cost",
+  "hotel-occupancy",
+  "capital-investment",
+  "execution-risk"
+ ],
+ "fit_question": "Give me an example of a time you used data to solve a problem at work.",
+ "prompt": "Your client is Jane Darden, a longtime owner and operator of the Wahoo Cattle Ranch, which has been in the family since 1883. However, since the early 2000s, the Montana economy has experienced a dramatic shift in its local businesses and consumers. The ranch is now surrounded by high-end resorts, fine dining, and a burgeoning outdoor mall, which have increased the cost of property taxes and tightened the Wahoo Cattle Ranch profit margins. Concerned about the outlook of her ranch, Jane Darden has approached our team to determine whether she should enter the hospitality industry or not.",
+ "clarifying_info": [
+  {
+   "question_topic": "Current business",
+   "answer": "The ranch sells beef and milk and offers horseback riding, fly fishing and hiking tours."
+  },
+  {
+   "question_topic": "Investment hurdle",
+   "answer": "Jane requires breakeven at most 3 years after construction begins."
+  },
+  {
+   "question_topic": "Primary objective",
+   "answer": "Maximize long-term annual net income."
+  }
+ ],
+ "interviewer_notes": "Third prize, Darden Case-a-thon 2023. Tests payback; suggested after 5–10 completed cases. Push the candidate to identify at least two entry modes, including acquisition or building an operation, before Exhibit 1. For a build recommendation, ask for further quantitative and qualitative considerations. Give investment requirements only on request. For Exhibit 2, provide 360 days/year and simple payback without time value of money if asked. Either resort recommendation can be accepted with adequate reasoning. The source's financial model has limitations: ranch revenue is treated as lost profit and construction duration is not provided; these must qualify the answer.",
+ "suggested_framework": {
+  "summary": "Assess market attractiveness, entry options, incremental finances and execution fit.",
+  "tree": {
+   "label": "Should Jane enter hospitality?",
+   "children": [
+    {
+     "label": "Montana hospitality market",
+     "children": [
+      {
+       "label": "Population, tourism market size, disposable income and consumption"
+      },
+      {
+       "label": "Growth and competitors"
+      }
+     ]
+    },
+    {
+     "label": "Finance",
+     "children": [
+      {
+       "label": "Investment, incremental revenue and variable/fixed costs"
+      },
+      {
+       "label": "Synergies and lost ranch income"
+      }
+     ]
+    },
+    {
+     "label": "Options",
+     "children": [
+      {
+       "label": "Acquire a resort, build a resort, keep the farm or sell to a hotel chain"
+      }
+     ]
+    },
+    {
+     "label": "Other considerations",
+     "children": [
+      {
+       "label": "Regulation, competitive response, workforce and brand alignment"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How should Jane evaluate hospitality entry, and what entry options exist?",
+   "release_when": "After the prompt; provide clarifications when requested.",
+   "info_to_release": "Jane wants to maximize long-term annual net income, with payback within 3 years from construction start. The ranch currently sells beef and milk and runs horseback riding, fly fishing and hiking tours.",
+   "expected_answer": "Assess the tourism market, economics, capabilities and risks. Identify at least two entry routes, such as buying an existing resort or building a new one; also consider a partnership, selling the ranch or retaining the existing business.",
+   "good_answer_signals": [
+    "Distinguishes the net-income objective from the payback constraint."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Which of Jane's available options would you recommend, and what else should she consider?",
+   "release_when": "Show Exhibit 1 after the candidate identifies at least two entry routes.",
+   "info_to_release": "Four options: sell to XYZ, partner with XYZ as passive investor, buy old resort ABC and sell the ranch, or build a hotel. The Harvey balls rate operating revenue and margin favorability, not numerical percentages. If asked, only building requires an initial investment, and only selling outright produces an upfront cash inflow.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Building has the strongest displayed operating-revenue and margin ratings and best supports long-term income, but requires capital and execution. Selling eliminates ongoing operating income; partnership sacrifices control and margin; the old resort has low revenue favorability but a three-quarter-filled margin rating on the exhibit. Consider investment, IRR/NPV, payback, execution, cash/debt capacity, control, experience, brand and family. Lost ranch income is omitted from the qualitative chart. The guidance's statement that the old resort has a low margin conflicts with the visible rating; use the exhibit.",
+   "good_answer_signals": [
+    "Uses a structured pros-and-cons comparison.",
+    "Does not mistake Harvey-ball fill for an actual profit-margin percentage."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Which new resort would meet Jane's three-year payback requirement?",
+   "release_when": "Show Exhibit 2 after discussing the build option. Release day-count and payback assumptions on request.",
+   "info_to_release": "Holiday: 400 rooms, 80% utilization, $300/night, $10 million investment, $15 million fixed costs, 10% variable cost. Prime: 300 rooms, 75% utilization, $500/night, $30 million investment, $15 million fixed costs, 15% variable cost. Existing ranch annual revenue is $7 million. If asked, assume 360 days/year and simple payback without discounting. The source calculation treats the entire $7 million as lost income.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Holiday sells 115,200 room-nights, producing $34.56 million revenue, $3.456 million variable costs and $16.104 million operating profit. Prime sells 81,000 room-nights, producing $40.5 million revenue, $6.075 million variable costs and $19.425 million operating profit. Under the source assumption of subtracting $7 million lost income, incremental profits are $9.104 million and $12.425 million, and operating paybacks are 1.098 and 2.414 years. The book's explicitly rounded model gives $9.5 million/$12 million incremental profit and roughly 1.05/2.5 years. Both operating paybacks are below 3 years, and Prime maximizes modeled annual income. However, $7 million is labeled revenue, not ranch profit, and construction/ramp-up time is missing; compliance measured from construction start is not established.",
+   "good_answer_signals": [
+    "Includes the lost ranch business in incremental economics while questioning revenue versus profit.",
+    "Prefers long-term income rather than automatically choosing the fastest payback.",
+    "Flags the missing construction timeline."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Aside from profit and payback, what should Jane consider?",
+   "release_when": "After the financial comparison.",
+   "info_to_release": "No further numerical assumptions are supplied.",
+   "expected_answer": "External risks include competitor price wars, other ranch owners' responses, zoning/licensing/tax differences and hospitality volatility. Internal issues include retraining or replacing ranch employees, execution and revenue ramp-up, and family resistance to changing the business. Revisit the financial assumptions rather than treating the projected steady state as guaranteed.",
+   "good_answer_signals": [
+    "Structures internal versus external risks.",
+    "Connects execution and timing to the financial hurdle."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "We are meeting Jane shortly. What should we recommend?",
+   "release_when": "After the qualitative risk discussion.",
+   "info_to_release": "No new information.",
+   "expected_answer": "Conditionally favor Wahoo Prime Resort for its higher annual modeled operating profit of $19.425 million. Under the book's $7 million lost-income assumption, that is a $12.425 million increase and 2.414-year operating payback, compared with Holiday's $16.104 million profit and 1.098-year payback. Confirm actual ranch profit and construction/ramp-up timing before asserting the 3-year construction-start hurdle is met. Develop a workforce transition plan, perform zoning/regulatory diligence and assess competitive pricing. Holiday is defensible if lower investment and execution risk outweigh the income advantage.",
+   "good_answer_signals": [
+    "Leads with a conditional recommendation tied to the objective.",
+    "Gives a concrete mitigation for a key risk."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Four entry options",
+   "page": 67,
+   "kind": "table",
+   "description": "Qualitative Harvey-ball favorability ratings. Fill levels are ordinal visuals, not operating-margin percentages.",
+   "data": {
+    "columns": [
+     "Proposal",
+     "Revenue favorability (ball fill)",
+     "Profit-margin favorability (ball fill)"
+    ],
+    "rows": [
+     [
+      "Sell ranch to hotel chain XYZ",
+      "Empty",
+      "Empty"
+     ],
+     [
+      "Partner with XYZ as passive investor",
+      "Three-quarter filled",
+      "Quarter filled"
+     ],
+     [
+      "Buy existing old resort ABC and sell ranch",
+      "Quarter filled",
+      "Three-quarter filled"
+     ],
+     [
+      "Build new hotel",
+      "Full",
+      "Full"
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-jane-dardens-ranch/p067.webp",
+   "key_insight": "Building ranks highest on both measures but the chart omits capital requirements and loss of ranch income.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Financial projection of the new resort",
+   "page": 69,
+   "kind": "table",
+   "description": "Room capacity, utilization, pricing, initial capital and operating-cost inputs. Footnote: existing ranch annual revenue is $7 million.",
+   "data": {
+    "columns": [
+     "Resort",
+     "Rooms",
+     "Utilization (%)",
+     "Rate (USD/night)",
+     "Initial investment (USD million)",
+     "Annual fixed costs (USD million)",
+     "Variable costs (% revenue)"
+    ],
+    "rows": [
+     [
+      "Wahoo Holiday Resort",
+      400,
+      80,
+      300,
+      10,
+      15,
+      10
+     ],
+     [
+      "Wahoo Prime Resort",
+      300,
+      75,
+      500,
+      30,
+      15,
+      15
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-jane-dardens-ranch/p069.webp",
+   "key_insight": "Prime earns higher annual operating income; Holiday needs less capital. Neither table resolves foregone ranch profit or construction timing.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is Holiday's annual operating profit?",
+   "givens": [
+    "400 rooms; 80% utilization; 360 days; $300/night",
+    "10% variable costs; $15 million fixed costs"
+   ],
+   "steps": [
+    "400 × 360 × 80% = 115,200 occupied room-nights.",
+    "115,200 × $300 = $34.56 million revenue.",
+    "Variable costs = $3.456 million.",
+    "Profit = $34.56m − $3.456m − $15m = $16.104 million."
+   ],
+   "answer": "$16.104 million operating profit; the book rounds revenue to $35 million and consequently profit to $16.5 million.",
+   "answer_value": 16.104,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is Prime's annual operating profit?",
+   "givens": [
+    "300 rooms; 75% utilization; 360 days; $500/night",
+    "15% variable costs; $15 million fixed costs"
+   ],
+   "steps": [
+    "300 × 360 × 75% = 81,000 occupied room-nights.",
+    "81,000 × $500 = $40.5 million revenue.",
+    "Variable costs = $6.075 million.",
+    "Profit = $40.5m − $6.075m − $15m = $19.425 million."
+   ],
+   "answer": "$19.425 million operating profit; the book rounds revenue to $40 million and profit to $19 million.",
+   "answer_value": 19.425,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is Holiday's incremental profit and payback?",
+   "givens": [
+    "Operating profit $16.104 million",
+    "Ranch revenue $7 million, treated by the book as lost income",
+    "$10 million initial investment"
+   ],
+   "steps": [
+    "Conditional incremental profit = $16.104m − $7m = $9.104 million.",
+    "Conditional operating payback = $10m / $9.104m = 1.098418 years.",
+    "True increment equals resort profit minus foregone ranch profit; ranch costs and construction duration are missing."
+   ],
+   "answer": "1.098 years of steady-state operations under the book's lost-income assumption, not a verified construction-start payback.",
+   "answer_value": 1.0984182777,
+   "unit": "years",
+   "verified": false,
+   "book_answer_if_different": "Book: 'Net profit after loss of income' $9.5M and '$10 M paid back in just over 1 year.' Rounding explains the numeric difference, but the book deducts $7M of revenue as profit and omits construction time."
+  },
+  {
+   "id": "m4",
+   "question": "What is Prime's incremental profit and payback?",
+   "givens": [
+    "Operating profit $19.425 million",
+    "Ranch revenue $7 million, treated as lost income",
+    "$30 million initial investment"
+   ],
+   "steps": [
+    "Conditional incremental profit = $19.425m − $7m = $12.425 million.",
+    "Conditional operating payback = $30m / $12.425m = 2.414487 years.",
+    "A construction-start test additionally requires construction/ramp-up timing and actual foregone ranch profit."
+   ],
+   "answer": "2.414 years of steady-state operations under the source assumption; the 3-year construction-start hurdle is unproven.",
+   "answer_value": 2.4144869215,
+   "unit": "years",
+   "verified": false,
+   "book_answer_if_different": "Book: '$12 M' incremental profit, '$30 million paid back in ~2.5 years', and recommendation 'accomplish a breakeven within the 3-year timeline.' Rounded arithmetic is consistent, but ranch revenue/profit and construction timing are unresolved."
+  }
+ ],
+ "synthesis": "Conditionally favor Prime for the higher modeled annual operating profit: $19.425 million versus Holiday's $16.104 million. With the book's assumption that $7 million ranch revenue is foregone income, Prime adds $12.425 million annually and has a 2.414-year operating payback. Do not claim construction-start payback within 3 years until construction/ramp-up time and actual ranch profit are confirmed. Address workforce capability, zoning and competitive response; Holiday remains defensible for its smaller capital commitment.",
+ "what_great_looks_like": [
+  "Keeps long-term net income as the objective and payback as a constraint.",
+  "Notices the chart excludes lost ranch income.",
+  "Questions revenue-versus-profit treatment and steady-state timing.",
+  "Structures risks and proposes an actionable mitigation."
+ ],
+ "common_pitfalls": [
+  "Choosing the shortest payback regardless of long-term income.",
+  "Interpreting Harvey-ball fill as numerical margin.",
+  "Treating ranch revenue as proven net profit.",
+  "Ignoring construction time even though the hurdle starts at construction."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[2].answer (conditional payback)",
+   "math[3].answer (conditional payback)"
+  ],
+  "math_verified": false,
+  "notes": "Candidate exhibits visually reviewed; all math recomputed in math-darden-jane.py. Source explicitly rounds Holiday revenue $34.56M to $35M and Prime $40.5M to $40M; those are allowed approximations, not arithmetic errors. Exact figures retained. Internal inconsistency: Exhibit 2 labels $7M as ranch revenue while the solution subtracts it as income and treats it as prior profit. Ranch costs are absent, so actual incremental net income cannot be determined. Construction duration and ramp-up are also absent despite a 3-year hurdle starting at construction. Exhibit 1 shows old-resort margin as three-quarter filled, while guidance calls it low; candidate exhibit prevails. Guidance also occasionally calls the goal revenue, but the explicit clarification specifies net income. Fixed costs include depreciation, so profit-based payback is the book's simplified proxy rather than a full cash-flow model. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "stages[2].good_answer_signals",
+   "stages[4].expected_answer (conditional qualifications)"
+  ]
+ }
+}

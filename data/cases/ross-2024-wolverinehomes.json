@@ -1,0 +1,383 @@
+{
+ "id": "ross-2024-wolverinehomes",
+ "title": "WolverineHomes",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  199,
+  209
+ ],
+ "case_type": [
+  "Profitability",
+  "Other"
+ ],
+ "case_type_source_label": "Sustainability",
+ "industry": "real-estate",
+ "sub_industry": "residential-re",
+ "industry_source_label": "Energy, Utilities, and Mining",
+ "geography": "Ann Arbor, Ypsilanti, and Jackson, Michigan",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 2, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "climate-risk",
+  "residential-real-estate",
+  "expected-value",
+  "tenant-retention",
+  "resilience",
+  "capital-investment"
+ ],
+ "concepts_tested": [
+  "revenue-at-risk",
+  "scenario-weighted loss",
+  "portfolio relocation",
+  "resilience investment"
+ ],
+ "prompt": "WolverineHomes owns and manages more than 200 single-family homes around Ann Arbor, Ypsilanti, and Jackson. Severe weather has caused power outages, poor tenant experiences, damaging reviews, tenant departures, and lost revenue. How can WolverineHomes create a better tenant experience as severe storms worsen?",
+ "clarifying_info": [
+  {
+   "question_topic": "Customer objective",
+   "answer": "Raise its rating from 3.0 to 4.5 stars."
+  },
+  {
+   "question_topic": "Recent loss",
+   "answer": "Twenty unreplaced tenants left over the last year; rent averages $4,000 per month. Assume they were vacant for six months on average and one tenant equals one home."
+  },
+  {
+   "question_topic": "Climate analysis",
+   "answer": "The company has not analyzed the increasing likelihood of severe events."
+  }
+ ],
+ "interviewer_notes": "Ensure the candidate establishes a measurable revenue goal. The case compares expected climate loss, relocation economics, and battery-backed appliances. The source's relocation solution contains an arithmetic error; corrected results are used and the printed figures are quoted.",
+ "suggested_framework": {
+  "summary": "Book framework assessing property risk, resilience technology, portfolio relocation and tenant compensation.",
+  "tree": {
+   "label": "Weather-resilient tenant experience",
+   "children": [
+    {
+     "label": "Risk",
+     "children": [
+      {
+       "label": "Exposure by property and scenario"
+      },
+      {
+       "label": "Expected tenant and revenue loss"
+      }
+     ]
+    },
+    {
+     "label": "Resilience options",
+     "children": [
+      {
+       "label": "Battery appliances and generators"
+      },
+      {
+       "label": "Insurance, utilities, and local partnerships"
+      }
+     ]
+    },
+    {
+     "label": "Portfolio and tenant options",
+     "children": [
+      {
+       "label": "Sell and repurchase in safer areas"
+      },
+      {
+       "label": "Credits or free rent after long outages"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "clarify",
+   "interviewer_asks": "What is the recent revenue impact of tenant departures?",
+   "info_to_release": "20 tenants, $4,000 monthly rent, six months average vacancy.",
+   "expected_answer": "20×$4,000×6=$480,000 of revenue was lost in the past year.",
+   "good_answer_signals": [
+    "Quantifies the baseline problem",
+    "Asks about rating and revenue goals"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "structure",
+   "interviewer_asks": "How would you identify a solution?",
+   "expected_answer": "Quantify scenario-weighted future loss, compare resilience technology, relocation, insurance and tenant-support options, and evaluate cost, effectiveness, execution and customer impact.",
+   "good_answer_signals": [
+    "Starts with risk exposure",
+    "Compares alternatives on economics and experience"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What is expected five-year revenue loss under the climate scenarios?",
+   "release_when": "Show Exhibit 1 after the candidate asks for event likelihood and tenant loss.",
+   "info_to_release": "200 homes earn $4,000 monthly. Baseline has 50% probability and 10% tenant loss; lower impact has 10% probability and 0% loss; higher impact has 40% probability and 30% loss.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Baseline five-year loss is 200×$4,000×10%×12×5=$4.8M. Higher-impact loss is $14.4M. Expected loss is 50%×$4.8M + 10%×$0 + 40%×$14.4M = $8.16M.",
+   "good_answer_signals": [
+    "Calculates scenario losses",
+    "Weights by probability",
+    "Keeps the zero-loss lower scenario"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What options could address the projected loss?",
+   "expected_answer": "Battery appliances, generators, selling exposed homes, insurance, outage discounts or credits, local-business support for tenants, and collaboration with utilities.",
+   "good_answer_signals": [
+    "Includes technology and non-technology options",
+    "Addresses both outage resilience and tenant retention"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Should Wolverine sell all 90 Ann Arbor homes and replace them with 90 Jackson homes?",
+   "release_when": "Show Exhibit 2; assume sale and repurchase prices break even.",
+   "info_to_release": "Current annual revenue and homes: Ann Arbor $6.5M/90, Ypsilanti $2.5M/70, Jackson $0.7M/40. Monthly rents are $6,000, $3,000, and $1,200. After the move, Jackson has 130 homes and Ann Arbor zero.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Current annual revenue is $9.7M. New revenue is 70×$3,000×12 + 130×$1,200×12 = $4.392M. Correct annual loss is $5.308M and five-year loss is $26.54M, far worse than the $8.16M expected climate loss. Do not relocate the portfolio.",
+   "good_answer_signals": [
+    "Rebuilds revenue from rent and homes",
+    "Compares with expected climate loss",
+    "Rejects relocation"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Are battery-backed appliances an attractive solution?",
+   "release_when": "Show Exhibit 3, then provide incentives and installation cost.",
+   "info_to_release": "The battery-backed range costs approximately $6,000. Government tax credit is $2,000 and installation is $1,000 per home. Equip 90 Ann Arbor and 70 Ypsilanti homes.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Net installed cost is $6,000-$2,000+$1,000=$5,000 per home. Across 160 homes, investment is $800,000, much lower than the $8.16M expected loss it may mitigate.",
+   "good_answer_signals": [
+    "Nets the tax credit",
+    "Uses 160 at-risk homes",
+    "Compares investment with loss at risk"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "What should WolverineHomes do?",
+   "expected_answer": "Pilot battery-backed appliances in a representative subset, then scale across 160 Ann Arbor and Ypsilanti homes if tenant testing confirms value. The full $800K investment is modest versus $8.16M expected loss, while relocation destroys about $26.54M over five years. Diligence appliance quality, repair cost and outage effectiveness, survey tenants, and compare competing suppliers.",
+   "good_answer_signals": [
+    "Quantifies all options",
+    "Recommends a pilot",
+    "Names technology and adoption risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Risk Assessment on Revenue in Next Five Years",
+   "page": 203,
+   "kind": "table",
+   "description": "Climate scenarios with occurrence probability and projected tenant loss.",
+   "data": {
+    "columns": [
+     "Scenario",
+     "Chance",
+     "Tenant loss"
+    ],
+    "rows": [
+     [
+      "Baseline",
+      "50%",
+      "10%"
+     ],
+     [
+      "Lower impact",
+      "10%",
+      "0%"
+     ],
+     [
+      "Higher impact",
+      "40%",
+      "30%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-wolverinehomes/p203.webp",
+   "key_insight": "A 40% chance of 30% tenant loss drives most expected revenue risk.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Portfolio Revenue and Homes",
+   "page": 206,
+   "kind": "bar",
+   "description": "Current annual revenue and home count by Ann Arbor, Ypsilanti, and Jackson, plus monthly rents.",
+   "data": {
+    "columns": [
+     "City",
+     "Annual revenue",
+     "Homes",
+     "Monthly rent"
+    ],
+    "rows": [
+     [
+      "Ann Arbor",
+      "$6.5M",
+      90,
+      "$6,000"
+     ],
+     [
+      "Ypsilanti",
+      "$2.5M",
+      70,
+      "$3,000"
+     ],
+     [
+      "Jackson",
+      "$0.7M",
+      40,
+      "$1,200"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-wolverinehomes/p206.webp",
+   "key_insight": "Moving Ann Arbor homes to much lower-rent Jackson would destroy more revenue than climate risk is expected to cost.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Battery-Backed Induction Range",
+   "page": 208,
+   "kind": "other",
+   "description": "Candidate-facing product page for a battery-equipped induction range that can power cooking and another appliance during outages.",
+   "data": {
+    "columns": [
+     "Input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Purchase price",
+      "$5,999 (use $6,000)"
+     ],
+     [
+      "Power",
+      "Standard 120V plug"
+     ],
+     [
+      "Outage capability",
+      "Cook and run a fridge or other appliance"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-wolverinehomes/p208.webp",
+   "key_insight": "A battery appliance directly addresses outage experience without relocating properties.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is expected five-year climate loss?",
+   "givens": [
+    "200 homes",
+    "$4,000/month",
+    "Scenario probabilities and losses"
+   ],
+   "steps": [
+    "Baseline loss = $4.8M",
+    "Higher loss = $14.4M",
+    "Expected = .5×$4.8M + .1×$0 + .4×$14.4M"
+   ],
+   "answer": "$8.16 million",
+   "answer_value": 8.16,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is five-year revenue loss from relocating Ann Arbor homes?",
+   "givens": [
+    "Current revenue $9.7M",
+    "70 Ypsilanti homes at $3,000/month",
+    "130 Jackson homes at $1,200/month"
+   ],
+   "steps": [
+    "New revenue = $2.52M+$1.872M=$4.392M",
+    "Annual loss = $9.7M-$4.392M=$5.308M",
+    "Five-year loss = $26.54M"
+   ],
+   "answer": "$26.54 million over five years",
+   "answer_value": 26.54,
+   "unit": "USD millions",
+   "verified": false,
+   "book_answer_if_different": "The book prints annual loss of $5.184M and five-year loss of $25.92M; its displayed inputs calculate to $5.308M and $26.54M."
+  },
+  {
+   "id": "m3",
+   "question": "What is the battery-appliance investment?",
+   "givens": [
+    "$6,000 purchase",
+    "$2,000 tax credit",
+    "$1,000 installation",
+    "160 homes"
+   ],
+   "steps": [
+    "Net installed cost = $5,000/home",
+    "Investment = 160×$5,000"
+   ],
+   "answer": "$800,000",
+   "answer_value": 800000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "WolverineHomes should pilot and then deploy battery-backed appliances across the 160 Ann Arbor and Ypsilanti homes if tenants confirm the benefit. The $800K investment is small relative to $8.16M expected five-year climate-driven revenue loss. Selling Ann Arbor homes and repurchasing in Jackson is unattractive: corrected math shows $26.54M of five-year revenue loss. Diligence equipment quality, lifetime and repair costs; compare vendors; and measure ratings and retention in a test segment.",
+ "what_great_looks_like": [
+  "Quantifies recent and expected loss",
+  "Uses probability-weighted scenarios",
+  "Compares relocation and technology economically",
+  "Catches the relocation arithmetic error",
+  "Recommends testing with tenants"
+ ],
+ "common_pitfalls": [
+  "Uses the worst case as expected loss",
+  "Ignores rent differences when relocating",
+  "Forgets tax credit or installation",
+  "Assumes appliances solve churn without testing"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Industry classified as residential real estate rather than the book's Energy, Utilities, and Mining label because the client owns and rents homes. The relocation solution contains a material arithmetic error, explicitly corrected. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "industry",
+   "sub_industry"
+  ]
+ }
+}

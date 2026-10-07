@@ -1,0 +1,350 @@
+{
+ "id": "kellogg-2024-zoo-co",
+ "title": "Zoo Co",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  406,
+  414
+ ],
+ "author": "Aneri Jambusaria (Kellogg 2011); edited by Ron Mantel (Kellogg 2015), Matthew Heintz (Kellogg 2016), Michael Eidem (Kellogg 2020)",
+ "case_type": [
+  "Investment/PE due diligence",
+  "M&A/Acquisition"
+ ],
+ "case_type_source_label": "Y03 Mergers & Acquisitions",
+ "industry": "hospitality",
+ "sub_industry": "leisure-entertainment",
+ "industry_source_label": "X06 Financial Services",
+ "geography": "United States",
+ "client_type": "non-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "npv",
+  "breakeven-analysis",
+  "expected-value",
+  "sensitivity-analysis",
+  "risk-hedging",
+  "insurance-option",
+  "perpetuity"
+ ],
+ "concepts_tested": [
+  "Creativity",
+  "Net Present Value",
+  "Breakeven analysis"
+ ],
+ "fit_question": "Talk about a time when you had to influence someone who initially disagreed with you.",
+ "prompt": "Our client is a zoo that is thinking about acquiring a famous zebra from an African preserve. It's a huge investment, but they believe the new zebra would be a great contribution to their animal community. You have been engaged to help decide whether this is a good idea. What would you consider when trying to help your client make this decision?",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "The zoo's primary concern is whether the zebra acquisition would be profitable. There's no specific timeline, but zebras do have a finite lifespan."
+  },
+  {
+   "question_topic": "Client characteristics",
+   "answer": "A major zoo within the US; the majority of revenue is generated through admission sales to daily zoo visitors."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "No other zoo exists within the local market."
+  }
+ ],
+ "interviewer_notes": "Though the client is a zoo, the process resembles underwriting an insurance policy -- the case tests basic financial-assessment concepts across many calculations. Problem-solving steps: (1) develop a structure to address the problem, (2) walk through the investment valuation of the asset, (3) run a breakeven analysis to determine the revenue increase needed for a positive NPV, (4) assess risk (should the zoo use an insurance contract to hedge downside risk?), (5) provide a CEO recommendation. Note: rounding is generally fine but should not be taken to extremes, as it will alter the results.",
+ "suggested_framework": {
+  "summary": "A typical M&A-style framework applied to the zebra 'acquisition': market context, target (zebra) financial and non-financial evaluation, transition/synergies, and deal execution.",
+  "tree": {
+   "label": "Should the zoo acquire the zebra?",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Local competitive landscape (incl. leisure substitutes)"
+      },
+      {
+       "label": "Zoo attendance trends"
+      },
+      {
+       "label": "Target customer priorities"
+      }
+     ]
+    },
+    {
+     "label": "Target (the zebra)",
+     "children": [
+      {
+       "label": "Financial evaluation",
+       "children": [
+        {
+         "label": "Costs: purchase, transport, maintenance, habitat"
+        },
+        {
+         "label": "Revenue: attendance, ticket price, merchandise"
+        }
+       ]
+      },
+      {
+       "label": "Non-financial evaluation",
+       "children": [
+        {
+         "label": "Age / expected lifespan"
+        },
+        {
+         "label": "Why the zebra is famous, and whether that matters"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Transition",
+     "children": [
+      {
+       "label": "Cost/revenue synergies with existing animals"
+      },
+      {
+       "label": "Marketing the new acquisition"
+      },
+      {
+       "label": "Brand fit"
+      }
+     ]
+    },
+    {
+     "label": "Deal execution",
+     "children": [
+      {
+       "label": "Payment structure"
+      },
+      {
+       "label": "Buy vs. lease from another zoo"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What would you consider when trying to help the zoo decide whether to acquire this zebra?",
+   "expected_answer": "Candidate should build an M&A-style framework focused on whether the acquisition is a smart financial decision: market context (competitive landscape including leisure substitutes, attendance trends, target customer priorities), target evaluation (financial: purchase/transport/maintenance/habitat costs vs. attendance/ticket/merchandise revenue; non-financial: the zebra's age, lifespan, and fame), transition considerations (cost/revenue synergies with existing animals, marketing, brand fit), and deal execution (payment structure, buy vs. lease).",
+   "good_answer_signals": [
+    "Explicitly borrows an M&A-style structure (market / target / transition / deal execution) rather than a generic profitability tree",
+    "Separates financial from non-financial target evaluation",
+    "Raises synergies and buy-vs-lease as distinct considerations"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Walk me through the valuation process for this asset -- what is the NPV of acquiring the zebra?",
+   "release_when": "Provide the revenue and cost data when the interviewee asks for more detail on expected revenues and costs.",
+   "info_to_release": "Revenue: 300K annual visitors, $15 admission; a comparable zoo that acquired a similar zebra saw an 8% attendance increase. Costs: acquisition $235K, new facilities $850K, transportation $110K (all immediate); annual maintenance (food, health, trainers) $90K. Discount rate 20%; immediate costs paid today, annual costs/benefits begin next year and are assumed to continue into perpetuity (even though the zebra itself won't live forever).",
+   "expected_answer": "NPV = -$1.195M upfront costs + (($360K annual benefit - $90K annual cost) / 20%) = -$1,195K + $1,350K = +$155K (see math step m1). Takeaway: the acquisition is NPV-positive, so financially (assuming the assumptions hold) it looks like a smart decision.",
+   "good_answer_signals": [
+    "Correctly totals the three immediate cost components before treating them as a single upfront outflow",
+    "Correctly capitalizes the perpetual net annual benefit by dividing by the discount rate rather than summing a finite number of years",
+    "States the NPV result and its sign clearly before drawing a conclusion"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Zoo Co is worried about using the other zoo's 8% attendance increase as a proxy, since their own increase could be lower. What analysis would you perform, and what is the breakeven attendance increase required?",
+   "expected_answer": "Candidate should propose a breakeven / sensitivity analysis. Solving NPV = 0 for the required additional annual revenue gives $329,000 (see math step m2), which translates to a required attendance increase of ~7.3% (using the $4.5M current-revenue base). Since the 8% assumption is only barely above this 7.3% breakeven, a miss of even ~1 percentage point in the attendance assumption could flip the investment to NPV-negative -- the decision is much more fragile than the base-case NPV suggested.",
+   "good_answer_signals": [
+    "Sets NPV = 0 and solves algebraically for the breakeven revenue, rather than guessing",
+    "Converts the breakeven dollar figure into a breakeven attendance percentage using the same revenue base as the 8% case",
+    "Draws out the fragility implication -- that the 8% base case is close to the breakeven line"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Since the zoo is risk-averse, an insurance company has offered a contract: if attendance increases by 5% or less, the insurer tops up revenue to a guaranteed $250K increase, in exchange for a premium of 1% of the zoo's total annual revenue. Is this a good deal?",
+   "release_when": "The interviewee should first recognize that more information (a market research study of likely attendance outcomes) is needed; provide Exhibit A once they identify this.",
+   "info_to_release": "Exhibit A: market research on possible attendance increases (3%/5%/7%/9%) with associated annual revenue and probability, plus expected additional and total annual revenue.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Using Exhibit A's probabilities, the annual cost of the insurance is 1% x $4,752,000 = $47,520, while the annual expected benefit (payouts only apply in the <=5% attendance-increase scenarios) is ($250K-$225K)x40% + ($250K-$135K)x20% = $10,000 + $23,000 = $33,000 (see math step m3). Since expected cost ($47,520) exceeds expected benefit ($33,000), this is not a good deal for the zoo.",
+   "good_answer_signals": [
+    "Correctly identifies that a market-research/probability-based analysis is needed before judging the insurance deal",
+    "Only includes the 3% and 5% scenarios in the expected-benefit calculation, since the contract only pays out at attendance increases <=5%",
+    "Compares expected annual cost to expected annual benefit and draws the correct 'not a good deal' conclusion"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the zoo's CEO?",
+   "expected_answer": "It's unlikely the zebra acquisition is a good idea given the information available: while other zoos have seen substantial attendance gains from a new zebra, the market research suggests it's less likely Zoo Co can hit the breakeven attendance increase, and the insurance contract offered to hedge downside risk is too expensive to create value. Other considerations: try negotiating with the insurer for a lower premium or higher revenue guarantee to make the deal more attractive, and explore other creative ways to drive zebra-related revenue (merchandise) or cut costs (a less expensive zebra). Excellent candidates note the other-zoo attendance figure was only ever a proxy, and that Exhibit A shows it's unlikely attendance will rise enough to break even; outstanding candidates further note the insurance contract's premium and payout both move with attendance (so if attendance is consistently above 5%, the zoo pays the premium every year but never collects a benefit) and recognize the contract is structurally an option, suggesting a different contract structure could serve the zoo better.",
+   "good_answer_signals": [
+    "Gives a clear overall recommendation (likely don't proceed as structured) grounded in the NPV/breakeven/insurance findings",
+    "Proposes concrete next steps (renegotiate insurance terms, alternative revenue/cost levers)",
+    "References at least one 'excellent' or 'outstanding' insight: the proxy-attendance caveat, the option-like/asymmetric nature of the insurance contract, or the always-above-5% scenario where premiums are paid with no payout"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Market Research Findings",
+   "page": 409,
+   "kind": "table",
+   "description": "Probability-weighted scenarios for possible attendance increases (3%, 5%, 7%, 9%) with corresponding annual revenue increase and probability, plus expected additional annual revenue, current annual revenue, and expected total annual revenue.",
+   "data": {
+    "columns": [
+     "Possible attendance increase",
+     "Annual revenue",
+     "Probability"
+    ],
+    "rows": [
+     [
+      "3% Increase",
+      "$135,000",
+      "20%"
+     ],
+     [
+      "5% Increase",
+      "$225,000",
+      "40%"
+     ],
+     [
+      "7% Increase",
+      "$315,000",
+      "30%"
+     ],
+     [
+      "9% Increase",
+      "$405,000",
+      "10%"
+     ],
+     [
+      "Expected additional annual revenue",
+      "$252,000",
+      ""
+     ],
+     [
+      "Plus: current annual revenue",
+      "$4,500,000",
+      ""
+     ],
+     [
+      "Expected total annual revenue",
+      "$4,752,000",
+      ""
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-zoo-co/p409.webp",
+   "key_insight": "The probability-weighted (expected) attendance revenue increase is only $252,000, well below the ~$329,000 breakeven revenue figure, and there's a combined 60% probability (3% or 5% scenarios) that the increase lands at or below 5%, where the insurance contract would actually pay out -- both facts drive the 'don't proceed as-is' recommendation.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the NPV of acquiring the zebra?",
+   "givens": [
+    "300,000 annual visitors x $15 admission x 8% attendance increase = annual benefit",
+    "Upfront costs: $235K acquisition + $850K facilities + $110K transportation",
+    "Annual maintenance cost = $90K",
+    "Discount rate = 20%; annual net benefit treated as a perpetuity starting next year"
+   ],
+   "steps": [
+    "Annual benefit = 300,000 x $15 x 8% = $360,000",
+    "Upfront costs = $235K + $850K + $110K = $1,195,000",
+    "NPV = -$1,195,000 + (($360,000 - $90,000) / 0.20)",
+    "NPV = -$1,195,000 + ($270,000 / 0.20) = -$1,195,000 + $1,350,000 = $155,000"
+   ],
+   "answer": "NPV of the zebra acquisition is approximately +$155,000 (NPV-positive).",
+   "answer_value": 155000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What additional annual revenue (and corresponding attendance increase) is required to break even (NPV = 0)?",
+   "givens": [
+    "Upfront costs = $1,195,000",
+    "Annual maintenance cost = $90,000",
+    "Discount rate = 20%",
+    "Current annual revenue base = $4,500,000 (300K visitors x $15)"
+   ],
+   "steps": [
+    "Set NPV = 0: 0 = -$1,195,000 + ((revenue - $90,000) / 0.20)",
+    "$1,195,000 x 0.20 = revenue - $90,000",
+    "$239,000 = revenue - $90,000 -> revenue = $329,000",
+    "Required attendance increase = $329,000 / $4,500,000 = 7.3%"
+   ],
+   "answer": "Breakeven requires ~$329,000 in additional annual revenue, equivalent to a ~7.3% attendance increase -- only slightly below the 8% base-case assumption.",
+   "answer_value": 7.3,
+   "unit": "% attendance increase",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Is the insurance company's hedging contract (1% of total revenue premium for a guaranteed $250K revenue increase when attendance growth is <=5%) a good deal for the zoo?",
+   "givens": [
+    "Premium = 1% of total annual zoo revenue = 1% x $4,752,000",
+    "Payout = top-up to $250,000 total revenue increase, only when attendance increase <=5%",
+    "Exhibit A: 20% probability of 3% increase ($135K revenue), 40% probability of 5% increase ($225K revenue)"
+   ],
+   "steps": [
+    "Annual cost to zoo = 1% x $4,752,000 = $47,520",
+    "Expected benefit = ($250,000 - $225,000) x 40% + ($250,000 - $135,000) x 20%",
+    "Expected benefit = ($25,000 x 0.40) + ($115,000 x 0.20) = $10,000 + $23,000 = $33,000",
+    "Compare: $47,520 (cost) > $33,000 (expected benefit)"
+   ],
+   "answer": "Expected annual cost ($47,520) exceeds expected annual benefit ($33,000), so the insurance contract is not a good deal for the zoo as structured.",
+   "answer_value": -14520,
+   "unit": "USD (expected benefit minus expected cost)",
+   "verified": true
+  }
+ ],
+ "synthesis": "It's unlikely the zebra acquisition is a good idea for the zoo to undertake given the information available. While attendance has risen substantially at other zoos after acquiring a similar zebra (the 8% figure used as a proxy), the market research in Exhibit A suggests it's less likely Zoo Co can reach the ~7.3% breakeven attendance increase -- the base case is only barely above breakeven, so the investment is fragile to a modest miss on attendance. The insurance contract offered to hedge downside risk is too expensive relative to its expected benefit ($47,520 cost vs. $33,000 benefit) to create value as structured. Other considerations: negotiate with the insurer for a lower premium or a higher guaranteed revenue benefit to make the deal more attractive, and explore other ways to drive zebra-related revenue (merchandise) or reduce cost (a less expensive zebra). The best candidates also note that the insurance contract's cost and benefit both move with attendance -- if attendance consistently exceeds 5%, the zoo pays the premium every year with no payout -- and recognize the contract is structurally an option, so a different contract design could serve the zoo better.",
+ "what_great_looks_like": [
+  "Structures the case as an M&A-style evaluation (market, target, transition, deal execution) rather than a generic profitability tree",
+  "Correctly treats the annual net benefit as a perpetuity when computing NPV, rather than summing a finite number of years",
+  "Solves algebraically for the breakeven revenue/attendance rather than guessing, and recognizes how close the base case sits to that breakeven",
+  "Recognizes that a probability-weighted (expected-value) analysis, not a single-point estimate, is needed to judge the insurance contract",
+  "Identifies the option-like, asymmetric structure of the insurance contract and its implication if attendance is consistently above the 5% threshold"
+ ],
+ "common_pitfalls": [
+  "Treating the annual benefit as a one-time or finite-year cash flow instead of a perpetuity when computing NPV",
+  "Solving for breakeven attendance using the wrong revenue base (e.g., total expected revenue instead of current revenue)",
+  "Including all four attendance scenarios (3/5/7/9%) in the insurance expected-benefit calculation instead of only the <=5% scenarios that actually trigger a payout",
+  "Concluding the acquisition is a clear 'go' from the base-case NPV alone without probing how sensitive that NPV is to the attendance assumption"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book tags this case's primary sector as 'X06 Financial Services,' likely reflecting the insurance-underwriting analogy taught in the interviewer guide rather than the client's actual industry; industry was classified as 'hospitality / leisure-entertainment' to reflect the zoo itself, with the book's label preserved in industry_source_label. Book does not give a difficulty rating; difficulty was inferred as high given the density of NPV, breakeven, and expected-value calculations. client_type set to 'non-profit' as an inference, since most major US zoos operate as non-profits, though the book does not state this explicitly.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "industry (mapped from book's 'Financial Services' label to the zoo's actual leisure/hospitality business)",
+   "client_type"
+  ]
+ }
+}

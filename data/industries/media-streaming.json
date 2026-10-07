@@ -1,0 +1,123 @@
+{
+  "id": "media-streaming",
+  "name": "Media & Streaming",
+  "group": "Tech & media",
+  "one_liner": "Studios, networks, and streaming services that monetize content through subscriptions and advertising, with economics driven by content spend and subscriber retention.",
+  "how_it_makes_money": "Streamers earn monthly subscription fees, increasingly supplemented by ad-supported tiers, while traditional networks earn carriage fees from cable distributors plus advertising. Studios also license content to third parties, sell theatrical tickets, and monetize franchises through merchandise and theme parks.",
+  "value_chain": [
+    "Content development and rights",
+    "Production",
+    "Aggregation and programming",
+    "Distribution (streaming, cable, theaters)",
+    "Marketing and discovery",
+    "Monetization (subs, ads, licensing)"
+  ],
+  "revenue_formula": [
+    "Subscription revenue = subscribers × ARPU",
+    "Ad revenue = hours viewed × ad load × fill rate × CPM",
+    "Subscribers = prior subs + gross adds − churned subs"
+  ],
+  "cost_structure": [
+    "Content: original production and licensed rights, including costly sports rights, is the dominant cost",
+    "Marketing: subscriber acquisition and title launches",
+    "Technology and delivery: streaming platform, CDN, and product development",
+    "Talent and residual payments to creators and unions",
+    "Overhead from legacy linear businesses"
+  ],
+  "margins": "Scaled leaders can earn operating margins of roughly 20-30%, while subscale streamers have struggled to break even. Scale, content efficiency, churn, and ad monetization drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Subscribers",
+      "what": "Paid accounts; the headline measure of reach, though some companies now de-emphasize it."
+    },
+    {
+      "name": "ARPU",
+      "what": "Average revenue per subscriber; reflects price increases, ad-tier mix, and geography."
+    },
+    {
+      "name": "Churn",
+      "what": "Share of subscribers cancelling each month; high churn inflates acquisition costs."
+    },
+    {
+      "name": "Engagement (hours viewed)",
+      "what": "Time spent watching; drives retention and ad inventory."
+    },
+    {
+      "name": "Content spend efficiency",
+      "what": "Viewing or subscriber gains per dollar of content; tests programming decisions."
+    },
+    {
+      "name": "CPM",
+      "what": "Price advertisers pay per thousand impressions; key to ad-tier economics."
+    }
+  ],
+  "trends": [
+    "Streamers shifting from subscriber growth to profitability through price increases and password-sharing crackdowns",
+    "Ad-supported tiers becoming a core growth driver",
+    "Accelerating cord-cutting eroding linear TV carriage and ad revenue",
+    "Consolidation, bundling, and spin-offs of legacy cable network assets",
+    "Live sports moving to streaming platforms",
+    "Competition for attention from YouTube, short-form video, and creators; generative AI entering production"
+  ],
+  "key_players": [
+    "Netflix",
+    "Disney",
+    "Warner Bros. Discovery",
+    "Comcast (NBCUniversal)",
+    "Paramount",
+    "Amazon Prime Video",
+    "YouTube",
+    "Apple TV+",
+    "Spotify",
+    "Roku"
+  ],
+  "case_angles": [
+    {
+      "question": "A streaming service's subscriber growth has stalled; how can it return to profitable growth?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a streamer launch a cheaper ad-supported tier?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "Should a media company bid for a major sports league's streaming rights?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "Should two legacy media companies merge?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Is streaming consolidation inevitable, and who survives as a standalone?",
+    "Does live sports justify its escalating rights costs?",
+    "Is YouTube the real winner of the streaming wars?"
+  ],
+  "news": {
+    "keywords": [
+      "streaming",
+      "streaming service",
+      "cord-cutting",
+      "box office",
+      "ad-supported tier",
+      "linear tv",
+      "sports rights",
+      "subscribers",
+      "hollywood",
+      "password sharing"
+    ],
+    "companies": [
+      "Netflix",
+      "Disney",
+      "Warner Bros. Discovery",
+      "Paramount",
+      "NBCUniversal",
+      "Peacock",
+      "Hulu",
+      "YouTube",
+      "Roku",
+      "Spotify"
+    ]
+  }
+}

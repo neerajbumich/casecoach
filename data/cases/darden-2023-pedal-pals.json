@@ -1,0 +1,429 @@
+{
+ "id": "darden-2023-pedal-pals",
+ "title": "Pedal Pals",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  33,
+  42
+ ],
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Profitability"
+ ],
+ "case_type_source_label": "Cost Improvement",
+ "industry": "hospitality",
+ "sub_industry": "fitness",
+ "industry_source_label": "Technology",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 1 / Qual 1 / Overall 1 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "cost-reduction",
+  "activist-investor",
+  "outsourcing",
+  "workforce-planning",
+  "profit-margin",
+  "fixed-costs"
+ ],
+ "fit_question": "Can you walk me through a time when you had to quickly adapt to a new work environment or team? What did you do to ensure your success?",
+ "prompt": "Pedal Pals is an interactive fitness platform with millions of members, offering connected, technology-enabled fitness classes that utilize its proprietary hardware, the Pedal Pal stationary bicycle. Recently the company has been challenged by a large, activist investor. The activist investor is citing the plummeting stock price impacting shareholder returns. The activist has attributed the issue directly to poor cost control throughout Pedal Pals. Pedal Pals CEO has hired your organization to determine how to manage its cost issue.",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Cut costs to achieve a 5% profit margin. Failure to restore annual profit creates a high risk of an activist-led leveraged buyout."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Member subscriptions, stationary-bicycle hardware sales and branded fitness gear."
+  },
+  {
+   "question_topic": "Timeline",
+   "answer": "Investors want cost decreases in the next two quarters to meet year-end goals."
+  },
+  {
+   "question_topic": "Supply chain and distribution",
+   "answer": "International parts suppliers across multiple countries. Distribution through the company's website and company-owned retail stores."
+  }
+ ],
+ "interviewer_notes": "Pure cost case, suitable after 5+ practice cases. Ask for a clear path to identify cost drivers, determine the reduction needed for 5% margin and assess feasibility before Exhibit 1. Ignore revenue-growth initiatives. If asked about 2024, say revenue/costs are similar to 2023, but preserve the candidate exhibit's explicit prediction that revenue equals expense in 2024. The answer key inconsistently instead carries forward the 2023 $125M loss and targets $375M cuts. Use the exhibit's breakeven forecast as the primary baseline and keep the $375M/1,000-person branch as a conditional comparison, not a silent replacement.",
+ "suggested_framework": {
+  "summary": "Identify internal cost levers while testing external effects and implementation risks.",
+  "tree": {
+   "label": "Restore profit without destroying value",
+   "children": [
+    {
+     "label": "Labor and finance",
+     "children": [
+      {
+       "label": "Benefits, overtime, cross-training, layoffs and early retirement"
+      },
+      {
+       "label": "Geographic consolidation and remote work"
+      },
+      {
+       "label": "Overhead, payment terms and asset liquidation"
+      }
+     ]
+    },
+    {
+     "label": "Production",
+     "children": [
+      {
+       "label": "Manufacturing facilities, recording/live-class space and inventory"
+      },
+      {
+       "label": "Automation, renegotiation and outsourcing"
+      }
+     ]
+    },
+    {
+     "label": "External impacts",
+     "children": [
+      {
+       "label": "Existing customer willingness to pay and new-customer acquisition"
+      },
+      {
+       "label": "Technology, competitors and gym-going trends"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Retention, morale and service/product quality"
+      },
+      {
+       "label": "Competitive response and implementation feasibility"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you address Pedal Pals' cost issue?",
+   "release_when": "After the prompt; do not provide financials until the candidate has a clear approach.",
+   "expected_answer": "Identify large and fast-growing costs, calculate savings needed for the 5% margin, and evaluate feasibility and consequences. Focus on costs rather than revenue growth; consider labor, production/facilities and overhead while protecting customers and the brand.",
+   "good_answer_signals": [
+    "Quantifies the target before choosing levers."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What cost reduction is needed for 5% profit in 2024, and where should cuts be focused?",
+   "release_when": "Show Exhibit 1 after the approach. On growth questions, say 2024 levels are similar to 2023; keep the exhibit's breakeven forecast explicit.",
+   "info_to_release": "2023 revenue $5B and reported net loss $125M. The exhibit explicitly says revenues and expenses are expected to be equal in 2024. Target margin 5%. The answer-key calculation instead uses $5.125B of 2023 expense and calls for $375M savings.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "At the candidate exhibit's 2024 breakeven forecast and approximately $5B revenue, target profit is $250M and target costs $4.75B; required incremental cuts are $250M. If the 2023 $5.125B expense base were carried forward instead, cuts would be $375M. Resolve the conflicting baseline. Focus on connected-fitness product costs, manufacturing, real estate and G&A, which are substantial and have grown sharply.",
+   "good_answer_signals": [
+    "Separates the stated forecast from historical loss.",
+    "Prioritizes material cost categories."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What percentage of the workforce must be reduced after switching manufacturer and closing offices?",
+   "release_when": "Show Exhibit 2 after cost areas are identified. The source follow-on asks for $375M savings; retain that as its explicit scenario while distinguishing the corrected forecast-consistent target.",
+   "info_to_release": "Alternative manufacturer annual saving $210M. Close 30 of 90 offices; each saves utilities $30K, rent $170K and management $300K annually. Workforce 20,000 FTEs. Each affected employee has $130K salary, $40K benefits and $20K severance. The source question uses a $375M savings target.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Office savings are $500K × 30=$15M; manufacturer plus offices save $225M. First-year net saving per FTE is $130K+$40K−$20K=$150K. Against the exhibit-consistent $250M target, remaining savings are $25M: 166.67 FTEs, rounded up to 167, or 0.835% of 20,000. Against the separately stated $375M scenario, remaining savings are $150M and 1,000 FTEs (5%) is correct. These are annualized/full-year calculations, not proof that two quarters of implementation deliver a full year's savings.",
+   "good_answer_signals": [
+    "Subtracts severance from first-year savings.",
+    "Rounds required headcount up and checks which target is being used."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What concerns about layoffs should Pedal Pals consider before moving forward?",
+   "release_when": "After the quantitative plan; ask the candidate to weigh the two-quarter goal against risks.",
+   "expected_answer": "Internal: fairness, timing, support for affected employees, financial costs, culture and productivity. External: legal requirements/liabilities, country/industry rules, reputation, economic conditions, competition and customer impacts. Meeting an activist's target may create new media/shareholder pressure. Consider whether the benefits justify the tradeoffs.",
+   "good_answer_signals": [
+    "Structures internal and external consequences and addresses implementation timing."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should we recommend to the CEO?",
+   "expected_answer": "Validate the 2024 baseline first. With the candidate exhibit's breakeven forecast, aim for $250M incremental savings: $210M manufacturing, $15M from 30 offices and about $25M through 167 FTE reductions under full-year assumptions. The source's 1,000-FTE/$375M plan applies only if the 2023 loss persists. Evaluate service/brand and morale impacts, outsourcing quality/IP/compliance risks and possible revenue loss. Build an execution timeline, confirm realized savings within two quarters and manage employees and shareholder expectations.",
+   "good_answer_signals": [
+    "Does not recommend excess layoffs merely to reproduce an inconsistent key.",
+    "Flags annualized-versus-in-year timing and customer impact."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Pedal Pals trend and financial statement",
+   "page": 36,
+   "kind": "table",
+   "description": "2021–2023 income-statement inputs in $M and a five-year chart. Derived totals and profit rows are omitted from data. The image contains worked totals and is hidden in practice. Footnote: revenue and expenses are expected to be equal in 2024.",
+   "data": {
+    "columns": [
+     "Input ($M)",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "rows": [
+     [
+      "Connected fitness revenue",
+      1462,
+      3150,
+      3313
+     ],
+     [
+      "Subscription revenue",
+      364,
+      872,
+      1687
+     ],
+     [
+      "Connected fitness cost of revenue",
+      833,
+      2237,
+      2242
+     ],
+     [
+      "Subscription cost of revenue",
+      156,
+      331,
+      335
+     ],
+     [
+      "Manufacturing expense",
+      477,
+      728,
+      1190
+     ],
+     [
+      "Real estate and office expense",
+      351,
+      662,
+      839
+     ],
+     [
+      "G&A expense",
+      90,
+      253,
+      478
+     ],
+     [
+      "Other income (negative means expense)",
+      12,
+      -10,
+      -21
+     ],
+     [
+      "Tax expense (negative means benefit)",
+      3,
+      -9,
+      20
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-pedal-pals/p036.webp",
+   "image_has_answers": true,
+   "key_insight": "Cost growth and recent losses warrant action, but the 2024 breakeven footnote changes the savings baseline.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Cost-reduction inputs",
+   "page": 38,
+   "kind": "table",
+   "description": "Manufacturer saving, office closures and employee economics. Severance is a cost despite the table's generic savings heading.",
+   "data": {
+    "columns": [
+     "Input",
+     "Value",
+     "Unit"
+    ],
+    "rows": [
+     [
+      "Alternative manufacturer saving",
+      210,
+      "$M/year"
+     ],
+     [
+      "Offices to close",
+      30,
+      "offices"
+     ],
+     [
+      "Current offices",
+      90,
+      "offices"
+     ],
+     [
+      "Utilities saving per office",
+      30000,
+      "$/year"
+     ],
+     [
+      "Rent saving per office",
+      170000,
+      "$/year"
+     ],
+     [
+      "Management saving per office",
+      300000,
+      "$/year"
+     ],
+     [
+      "Current workforce",
+      20000,
+      "FTE"
+     ],
+     [
+      "Salary per FTE",
+      130000,
+      "$/year"
+     ],
+     [
+      "Benefits per FTE",
+      40000,
+      "$/year"
+     ],
+     [
+      "Severance per FTE",
+      20000,
+      "$ one-time"
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-pedal-pals/p038.webp",
+   "key_insight": "Calculate non-labor savings first, then divide residual target by first-year net FTE savings.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What savings meet a 5% margin on the supplied 2024 forecast?",
+   "givens": [
+    "2024 revenue approximately $5000M",
+    "Candidate exhibit: 2024 revenue equals expense",
+    "5% margin target",
+    "Source alternatively uses 2023 expenses $5125M"
+   ],
+   "steps": [
+    "Target profit = 5000 × 5% = $250M; target expense = 5000 × 95% = $4750M.",
+    "Forecast-consistent savings = 5000−4750 = $250M.",
+    "Historical-loss scenario savings = 5125−4750 = $375M."
+   ],
+   "answer": "$250M from the explicit 2024 breakeven forecast; $375M only if the historical loss persists instead.",
+   "answer_value": 250,
+   "unit": "USD millions",
+   "verified": false,
+   "book_answer_if_different": "Page 37 calculates $375M using the 2023 $125M loss, despite repeating the candidate exhibit's forecast that 2024 revenues and expenses will be equal."
+  },
+  {
+   "id": "m2",
+   "question": "How much do the office closures and each layoff save?",
+   "givens": [
+    "30 offices; utilities/rent/management $30K/$170K/$300K per office",
+    "FTE salary $130K, benefits $40K, severance $20K"
+   ],
+   "steps": [
+    "Per office = 30K+170K+300K = $500K; 30 × $500K = $15M.",
+    "First-year net per FTE = 130K+40K−20K = $150K."
+   ],
+   "answer": "$15M office savings and $150K first-year net saving per FTE.",
+   "answer_value": 150000,
+   "unit": "USD/FTE first year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "How many FTE reductions are needed?",
+   "givens": [
+    "Corrected target $250M; source alternate target $375M",
+    "Manufacturer $210M; offices $15M",
+    "$0.15M first-year saving per FTE",
+    "20,000 FTE workforce"
+   ],
+   "steps": [
+    "Corrected residual = 250−210−15 = $25M.",
+    "25/0.15 = 166.6667 FTE; round up to 167.",
+    "167/20000 × 100 = 0.835%; total savings = 210+15+167×0.15 = $250.05M.",
+    "Source branch: (375−210−15)/0.15 = 1000 FTE; 1000/20000 = 5%."
+   ],
+   "answer": "167 FTEs (0.835%) under the candidate forecast; 1,000 (5%) under the book's conflicting historical-loss scenario.",
+   "answer_value": 167,
+   "unit": "FTE",
+   "verified": false,
+   "book_answer_if_different": "The book recommends 1,000 layoffs, 5% of the workforce, because it uses the inconsistent $375M target rather than the $250M implied by the candidate-facing breakeven forecast."
+  },
+  {
+   "id": "m4",
+   "question": "Do the historical printed financial subtotals reconcile?",
+   "givens": [
+    "Individual line items in Exhibit 1"
+   ],
+   "steps": [
+    "2021 row-input net income = 1826−833−156−477−351−90+12−3 = −$72M.",
+    "2022 row-input net income = 4022−2237−331−728−662−253−10+9 = −$190M.",
+    "2023 row-input net income = 5000−2242−335−1190−839−478−21−20 = −$125M."
+   ],
+   "answer": "2021 rows imply a $72M loss versus the printed $71M; 2022 and 2023 final net losses reconcile, although some intermediate subtotals differ by $1M.",
+   "answer_value": -72,
+   "unit": "USD millions (2021)",
+   "verified": false,
+   "book_answer_if_different": "Printed 2021 net loss is $71M; its cost-of-revenue total 988 differs from 833+156=989. Other $1M subtotal differences suggest rounded underlying financials but no explicit rounding reconciliation is provided."
+  }
+ ],
+ "synthesis": "Resolve the source's inconsistent baseline before approving cuts. The explicit 2024 breakeven forecast requires $250M savings for 5% margin: $210M manufacturer savings, $15M office savings and about 167 FTE reductions on full-year economics. The book's $375M/1,000-FTE plan is conditional on retaining the prior loss. Confirm the two-quarter realization schedule, transition costs and revenue effects; manage morale, legal risk, outsourcing quality/IP exposure and shareholder expectations.",
+ "what_great_looks_like": [
+  "Finds large cost drivers and quantifies the margin target.",
+  "Challenges the forecast-versus-history inconsistency.",
+  "Includes severance and rounds headcount up.",
+  "Balances speed against people, customer and execution risks."
+ ],
+ "common_pitfalls": [
+  "Adding the 2023 loss to a 2024 forecast that already breaks even.",
+  "Treating severance as a saving.",
+  "Equating full-year annual savings with savings realized in two quarters.",
+  "Ignoring brand-driven revenue loss or transition risk."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "stages[2].expected_answer (implementation timing and tax effects unspecified)",
+   "math[3] (unexplained financial subtotal rounding)"
+  ],
+  "math_verified": false,
+  "notes": "Primary correction follows candidate exhibit: 2024 revenue equals expense, so $250M cuts achieve 5% at $5B revenue, not the key's $375M. Preserved the source's $375M follow-on scenario in info_to_release and calculated its 1,000-FTE result conditionally; corrected forecast-consistent need is 167 FTEs. Historical statement has $1M subtotal discrepancies, including 2021 row-derived loss $72M versus printed $71M. All annualized savings assume full-year realization; the source's two-quarter deadline is not reconciled. Classified by fitness service rather than broad Technology. Printed internal slide numbers reset; PDF pages are used. Overall 1/3 maps to 2 in Python. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "format",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "math[3]",
+   "synthesis (baseline correction and timing caveat)"
+  ]
+ }
+}

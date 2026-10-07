@@ -1,0 +1,353 @@
+{
+ "id": "ross-2025-desert-city",
+ "title": "Desert City",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  76,
+  82
+ ],
+ "variant_group_id": "ross-2025-desert-city",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Investment/PE due diligence",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Water & Utilities | Investment Decision",
+ "industry": "utilities",
+ "sub_industry": "water",
+ "industry_source_label": "Water & Utilities",
+ "geography": "Middle East (fictional new city)",
+ "client_type": "PE/investor",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 1, Overall - 2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "investment-decision",
+  "water-utility",
+  "market-sizing",
+  "demand-forecasting",
+  "infrastructure",
+  "due-diligence",
+  "middle-east"
+ ],
+ "concepts_tested": [
+  "project valuation framework (cost/benefit/feasibility)",
+  "risk identification for infrastructure investment",
+  "bottom-up demand estimation using proxy growth rates"
+ ],
+ "prompt": "Our client is an investment firm that is looking to invest in a project in the Middle East. An interested target is a Middle Eastern government's plan to construct a new city in the country that attracts new industries, business, and residents. The nearest existing city to this site is 25 kilometers away. The government wants our client to jointly invest in a for-profit water utility company that is going to serve the new city. You are hired to determine whether it should make the investment.",
+ "clarifying_info": [
+  {
+   "question_topic": "Characteristics of the country",
+   "answer": "This country is extremely wealthy but has a lack of water given its arid climate. It recently underwent severe financial distress during a financial crisis, which led to recent political unrest."
+  },
+  {
+   "question_topic": "Does the investment firm have experience in similar investments?",
+   "answer": "The investment firm has other investments in water and utilities, so we can assume they have expertise/knowledge in this space."
+  },
+  {
+   "question_topic": "Is there a particular goal or target the investment firm is looking to achieve?",
+   "answer": "Nothing in particular. We can assume they just want a positive return on their investment."
+  },
+  {
+   "question_topic": "Are there alternative investments to consider?",
+   "answer": "No."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led case (described in the book as 'a typical McKinsey-led case'). Interviewer should ask questions and prompt interviewees when needed, ask questions in sequence, and provide numbers only when asked. Ratings: Quant - 2, Qual - 1, Overall - 2 (book's own scale).",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering project valuation (cost, benefit, feasibility) and risks and considerations for the water utility investment.",
+  "tree": {
+   "label": "Water utility investment in new desert city",
+   "children": [
+    {
+     "label": "Project Valuation",
+     "children": [
+      {
+       "label": "Cost",
+       "children": [
+        {
+         "label": "Investment Costs"
+        },
+        {
+         "label": "Ongoing costs"
+        }
+       ]
+      },
+      {
+       "label": "Benefit",
+       "children": [
+        {
+         "label": "Projected demand"
+        },
+        {
+         "label": "Revenue"
+        }
+       ]
+      },
+      {
+       "label": "Feasibility",
+       "children": [
+        {
+         "label": "Supply source"
+        },
+        {
+         "label": "Pipeline construction"
+        },
+        {
+         "label": "Distribution"
+        },
+        {
+         "label": "Timeline"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Risks and Considerations",
+     "children": [
+      {
+       "label": "Supply risk",
+       "children": [
+        {
+         "label": "Long term water supply"
+        }
+       ]
+      },
+      {
+       "label": "Construction Risk",
+       "children": [
+        {
+         "label": "Risk linked to construction of the project, affiliated infrastructure and city itself"
+        }
+       ]
+      },
+      {
+       "label": "Economic Risk",
+       "children": [
+        {
+         "label": "Can the proposed city attract enough business and residents (demand of water)"
+        }
+       ]
+      },
+      {
+       "label": "Political Risk",
+       "children": [
+        {
+         "label": "Political stability; public opinion on running water utility for profit"
+        }
+       ]
+      },
+      {
+       "label": "Risk of not doing it"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Please walk me through your framework.",
+   "expected_answer": "A framework covering Project Valuation (cost: investment and ongoing costs; benefit: projected demand and revenue; feasibility: supply source, pipeline construction, distribution, timeline) and Risks and Considerations (supply risk, construction risk, economic risk, political risk, and the risk of not doing the project at all).",
+   "good_answer_signals": [
+    "Separates valuation from feasibility and risk",
+    "Includes 'risk of not doing it' as a counterfactual consideration"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What are your thoughts on Exhibit 1? How do the demand figures and remarks column impact cost and feasibility?",
+   "info_to_release": "Exhibit 1: Estimated water demand by sector (Industrial: Construction, Manufacturing, Agriculture, Airport; Commercial: Hospital, Office, School, Tourism; Residential: unknown) for year 3 and year 10, with a remarks column noting quality/treatment requirements.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "The majority of demand in year 3 is from industrial (construction in particular), but demand growth from the commercial (and likely residential) sector is much faster than industrial. Demand from construction will peak within the next 10 years, while demand from non-construction activities will continue to grow. On specification, different sectors need different water quality: wastewater treatment capability is needed for construction and office use, and commercial/residential sectors tend to require higher quality water — both of which affect cost (treatment infrastructure) and feasibility (need to design for multiple quality tiers).",
+   "good_answer_signals": [
+    "Notices industrial (especially construction) dominates near-term demand but is temporary/peaking, while commercial/residential demand compounds",
+    "Connects the quality/treatment remarks to added infrastructure cost and design complexity, not just volume"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "market-sizing",
+   "interviewer_asks": "Estimate residential water demand in the 3rd year and 10th year.",
+   "info_to_release": "Provided only if asked: the city is expected to have 70,000 workers by the 10th year; average family size is 3; on average 1.2 members per family will work; each person consumes about 5 L of water per day. Guidance: using Exhibit 1, school demand grows 8x from year 3 to year 10; assume number of students correlates with number of families (school size proportional to number of teachers/students, teachers proportional to students), so population is assumed to grow 8x from year 3 to year 10 as well.",
+   "release_when": "Only when the interviewee asks specifically for this information",
+   "expected_answer": "10th year: Number of families = 70,000 / 1.2 = 58,333. Total population = 58,333 × 3 = 175,000. Total water demand per day = 175,000 × 5 L = 875,000 L. Per year demand = 875,000 × 365 = 319 million L (319 ML). 3rd year: using the assumption that population (and thus residential water demand) grows 8x from year 3 to year 10 (mirroring the school demand growth pattern in Exhibit 1), 3rd year residential demand = 319 ML / 8 ≈ 40 ML.",
+   "good_answer_signals": [
+    "Proactively asks for the workers, family size, working-members-per-family, and per-person-consumption data points needed",
+    "Correctly converts workers to families to population to daily to annual demand",
+    "Uses the school demand growth rate in Exhibit 1 as a reasonable proxy to back-calculate 3rd year residential demand from the 10th year estimate, and explains why (population correlates with school size)"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the investment firm?",
+   "expected_answer": "The firm should consider (1) the financial return of the project, and (2) the feasibility of the project. The projected water demand indicates healthy growth in the future, a positive sign. However, serious due diligence on various risks needs to be conducted, including but not limited to: (1) risk to security of water supply in a remote location, (2) risk associated with construction of the city itself (the editor notes Masdar City as a case in point), (3) macroeconomic risk, especially the inflow of talent and businesses, (4) political risk, and (5) the risk of not doing this project. Next steps should focus on addressing the risks outlined above.",
+   "good_answer_signals": [
+    "Balances the positive demand-growth signal against the need for further risk due diligence rather than giving an unconditional yes/no",
+    "Names concrete risk categories to investigate further (supply, construction, macroeconomic, political, opportunity cost of not investing)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Estimated Water Demand",
+   "page": 79,
+   "kind": "table",
+   "description": "Table of estimated water demand by sector and sub-sector (Industrial: Construction, Manufacturing, Agriculture, Airport; Commercial: Hospital, Office, School, Tourism; Residential) for year 3 and year 10, with remarks on water quality/treatment needs.",
+   "data": {
+    "columns": [
+     "Category",
+     "Sub-sector",
+     "3rd year",
+     "10th year",
+     "Remarks"
+    ],
+    "rows": [
+     [
+      "Industrial",
+      "Construction",
+      23550,
+      18000,
+      "Wastewater treatment needed"
+     ],
+     [
+      "Industrial",
+      "Manufacturing",
+      10550,
+      19000,
+      "Various qualities needed"
+     ],
+     [
+      "Industrial",
+      "Agriculture",
+      8000,
+      12000,
+      "No additives"
+     ],
+     [
+      "Industrial",
+      "Airport",
+      1340,
+      2450,
+      ""
+     ],
+     [
+      "Commercial",
+      "Hospital",
+      40,
+      100,
+      "High quality"
+     ],
+     [
+      "Commercial",
+      "Office",
+      30,
+      130,
+      "Wastewater treatment needed"
+     ],
+     [
+      "Commercial",
+      "School",
+      20,
+      160,
+      "High quality"
+     ],
+     [
+      "Commercial",
+      "Tourism",
+      1200,
+      16000,
+      ""
+     ],
+     [
+      "Residential",
+      "Residential",
+      "Unknown",
+      "Unknown",
+      "High quality"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-desert-city/p079.webp",
+   "key_insight": "Construction dominates near-term (year 3) demand but is expected to shrink by year 10 as the city is built out, while commercial demand (especially tourism, up ~13x, and school, up 8x) grows much faster — signaling a shift from temporary construction-driven demand to durable, quality-sensitive commercial and residential demand.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Estimate residential water demand in the 10th year and 3rd year.",
+   "givens": [
+    "70,000 workers expected by the 10th year",
+    "Average family size: 3",
+    "1.2 working members per family on average",
+    "Each person consumes about 5 L of water per day",
+    "School water demand grows 8x from 3rd year to 10th year (from Exhibit 1: 20 to 160)"
+   ],
+   "steps": [
+    "Number of families (10th year) = 70,000 / 1.2 = 58,333",
+    "Total population (10th year) = 58,333 × 3 = 175,000",
+    "Total water demand per day (10th year) = 175,000 × 5 L = 875,000 L",
+    "Per year demand (10th year) = 875,000 × 365 = 319,375,000 L ≈ 319 million L (319 ML)",
+    "Assume residential population growth mirrors school demand growth (8x from year 3 to year 10), since school size correlates with number of families/population",
+    "3rd year residential demand = 319 ML / 8 ≈ 40 ML"
+   ],
+   "answer": "10th year residential water demand ≈ 319 million L/year; 3rd year residential water demand ≈ 40 million L/year",
+   "answer_value": 40,
+   "unit": "million L/year (3rd year); 319 million L/year (10th year)",
+   "verified": true
+  }
+ ],
+ "synthesis": "The firm should consider (1) the financial return of the project, and (2) the feasibility of the project. The projected water demand indicates a healthy growth of water demand in the future, a positive sign. However, serious due diligence on various risks needs to be conducted, including the risk of water supply security in a remote location, risk associated with construction of the city itself, macroeconomic risk (inflow of talent and businesses), political risk, and the risk of not doing this project.",
+ "what_great_looks_like": [
+  "Separates the durable, quality-sensitive commercial/residential demand trend from the temporary construction-driven demand spike in Exhibit 1",
+  "Proactively asks for the specific inputs (workers, family size, working members, per-person consumption) needed to size residential demand",
+  "Uses a sensible proxy (school demand growth) to extrapolate 3rd-year residential demand from the 10th-year estimate, and explains the underlying assumption",
+  "Balances the positive demand signal against a clear list of risks requiring further due diligence rather than giving an unconditional recommendation"
+ ],
+ "common_pitfalls": [
+  "Treating total year-3 demand (dominated by temporary construction water use) as representative of steady-state city demand",
+  "Skipping the family-size/working-members conversion and using total worker count directly as population",
+  "Giving an unconditional go/no-go recommendation without flagging the need for further risk due diligence",
+  "Not addressing the quality/treatment remarks in Exhibit 1 as a cost and feasibility factor, only looking at volume"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (units of measurement for demand figures are not specified in the book, presumed cubic meters or a comparable volume unit per period)"
+  ],
+  "math_verified": true,
+  "notes": "The exhibit's demand figures have no stated unit in the book; the math stage uses liters as stated explicitly in the interviewer information ('5 L water per day'), consistent with the book's own $319ML/8=40ML$ calculation.",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

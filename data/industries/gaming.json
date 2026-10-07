@@ -1,0 +1,125 @@
+{
+  "id": "gaming",
+  "name": "Video Games",
+  "group": "Tech & media",
+  "one_liner": "Developers, publishers, and platforms monetizing interactive entertainment, a hit-driven business increasingly built on live services and in-game spending.",
+  "how_it_makes_money": "Revenue comes from full-price game sales, in-game purchases in free-to-play and live-service titles, subscriptions such as Game Pass, and platform fees on third-party sales. Console makers often sell hardware near cost and profit from software royalties and digital store commissions.",
+  "value_chain": [
+    "Game development studios",
+    "Publishing and marketing",
+    "Platforms (console, PC, mobile)",
+    "Digital storefronts and app stores",
+    "Players and live operations",
+    "Esports and streaming ecosystem"
+  ],
+  "revenue_formula": [
+    "Revenue = players × payer conversion × ARPPU",
+    "Premium revenue = units sold × average net price",
+    "Live-service revenue = DAU × ARPDAU × days"
+  ],
+  "cost_structure": [
+    "Development: large teams and multi-year cycles, with AAA budgets rising sharply",
+    "Marketing and user acquisition: especially heavy for mobile games",
+    "Platform fees: storefronts commonly take ~30% of digital sales",
+    "Live operations: servers, content updates, and community management",
+    "Hardware costs for console makers"
+  ],
+  "margins": "Operating margins vary widely, from losses for failed titles to roughly 25-35%+ for publishers with hit franchises and live services. Franchise strength, live-service engagement, and platform-fee exposure drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Daily / monthly active users (DAU/MAU)",
+      "what": "Size and stickiness of the player base; the foundation of live-service revenue."
+    },
+    {
+      "name": "ARPDAU / ARPPU",
+      "what": "Revenue per daily active user or per paying user; measures monetization depth."
+    },
+    {
+      "name": "Payer conversion",
+      "what": "Share of players who spend money; often a small minority in free-to-play."
+    },
+    {
+      "name": "Retention (D1/D7/D30)",
+      "what": "Share of new players still active after 1, 7, or 30 days; predicts lifetime value."
+    },
+    {
+      "name": "Net bookings",
+      "what": "Sales and in-game spending before deferral accounting; the industry's preferred top line."
+    },
+    {
+      "name": "Player acquisition cost (CPI)",
+      "what": "Cost to acquire an installed player; must be below lifetime value."
+    }
+  ],
+  "trends": [
+    "Consolidation and acquisitions of major publishers alongside widespread layoffs and studio closures",
+    "Rising AAA development costs pushing publishers toward proven franchises and live services",
+    "Challenges to app-store fees opening alternative payment and distribution routes on mobile",
+    "Subscription and cross-platform play spreading across console, PC, and mobile",
+    "Generative AI tools entering asset creation and game development",
+    "Platforms like Roblox and Fortnite growing user-generated content economies"
+  ],
+  "key_players": [
+    "Microsoft (Xbox, Activision Blizzard)",
+    "Sony PlayStation",
+    "Nintendo",
+    "Tencent",
+    "Electronic Arts",
+    "Take-Two",
+    "Roblox",
+    "Epic Games",
+    "Valve",
+    "Ubisoft"
+  ],
+  "case_angles": [
+    {
+      "question": "A publisher's flagship live-service game is losing players; how do we restore revenue?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a console maker launch its games on PC and mobile?",
+      "framework_id": "growth-strategy"
+    },
+    {
+      "question": "How should a free-to-play game design its pricing and in-game store?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "Should a large publisher acquire a mobile game studio?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Are 30% platform fees justified, and will regulation break them?",
+    "Is the future of gaming subscriptions, free-to-play, or premium releases?",
+    "Can AI meaningfully reduce the cost and risk of AAA development?"
+  ],
+  "news": {
+    "keywords": [
+      "video game",
+      "gaming",
+      "console",
+      "game studio",
+      "esports",
+      "free-to-play",
+      "game pass",
+      "live-service",
+      "app store fees",
+      "playstation",
+      "xbox"
+    ],
+    "companies": [
+      "Microsoft",
+      "Sony",
+      "Nintendo",
+      "Tencent",
+      "Electronic Arts",
+      "Take-Two",
+      "Roblox",
+      "Epic Games",
+      "Valve",
+      "Ubisoft",
+      "Activision Blizzard"
+    ]
+  }
+}

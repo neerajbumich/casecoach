@@ -1,0 +1,273 @@
+{
+ "id": "booth-2024-french-beauty-co",
+ "title": "French Beauty Co",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  157,
+  162
+ ],
+ "case_type": [
+  "M&A/Acquisition",
+  "Cost Reduction/Operations",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Operating Model",
+ "industry": "beauty",
+ "sub_industry": "cosmetics",
+ "industry_source_label": "Retail & Apparel / Beauty Products Company",
+ "geography": "France / global",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Accenture",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 1/3; Creativity 2/3",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "beauty",
+  "post-merger-integration",
+  "sales-organization",
+  "centralization",
+  "walmart",
+  "accessible-luxury"
+ ],
+ "fit_question": "Tell me about the largest impact you have ever had on a team. How would you handle a project outside your industry expertise?",
+ "prompt": "A $2B French luxury-fragrance manufacturer, marketer and seller has acquired an accessible skincare and cosmetics company. Manufacturing has been combined, but sales units remain separate because their customers differ. Determine whether a leveraged centralized or decentralized sales organization would create more value.",
+ "clarifying_info": [
+  {
+   "question_topic": "Market",
+   "answer": "A recession is approaching; developed beauty markets are maturing while emerging markets are growing rapidly."
+  },
+  {
+   "question_topic": "Terminology",
+   "answer": "A leveraged organization means a centralized organization."
+  },
+  {
+   "question_topic": "Capability",
+   "answer": "The client can pivot its manufacturing and marketing talent to accessible fragrances."
+  }
+ ],
+ "interviewer_notes": "Candidate-led operating-model case with qualitative brainstorming and one revenue calculation. After the framework, require pros and cons of centralized and decentralized sales. Then disclose that the board wants 5% added value this year and show the candidate-facing exhibit on page 161.",
+ "suggested_framework": {
+  "summary": "Compare revenue and cost synergies, organizational fit and integration risks under centralized versus decentralized sales.",
+  "tree": {
+   "label": "Sales operating model",
+   "children": [
+    {
+     "label": "Value creation",
+     "children": [
+      {
+       "label": "Cross-selling, channels, price and volume"
+      },
+      {
+       "label": "Staff, SG&A and purchasing synergies"
+      }
+     ]
+    },
+    {
+     "label": "Organization and fit",
+     "children": [
+      {
+       "label": "Leadership, culture and accountability"
+      },
+      {
+       "label": "Brand positioning and customer differences"
+      }
+     ]
+    },
+    {
+     "label": "Execution",
+     "children": [
+      {
+       "label": "Process, training and integration cost"
+      },
+      {
+       "label": "Decision speed, shelf access and recession risk"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide between a centralized and decentralized sales organization?",
+   "expected_answer": "Quantify cross-selling, channel, pricing and cost synergies; compare accountability, decision speed, customer knowledge and brand control; and assess cultural, leadership, process and integration risks.",
+   "good_answer_signals": [
+    "Covers both revenue and cost value",
+    "Includes brand and organizational fit"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are the advantages and disadvantages of each model?",
+   "expected_answer": "Centralization can remove duplication, share talent and best practices, reduce cost and align brands, but may create bureaucracy, culture disruption and unfamiliar processes. Decentralization preserves speed, role familiarity and customer knowledge, but can duplicate cost, weaken accountability and common goals, and create brand confusion.",
+   "good_answer_signals": [
+    "Gives balanced pros and cons",
+    "Uses operating-model mechanisms rather than labels"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "The board requires 5% added value above current $2B revenue this year. What opportunity do you see in the exhibit?",
+   "expected_answer": "Walmart sells about $400M of fragrance—more than the client's existing fragrance retailers—and is already served by the acquired salesforce for skincare and cosmetics. Centralization could use that relationship to introduce an accessible fragrance.",
+   "good_answer_signals": [
+    "Identifies Walmart as the largest untapped fragrance channel",
+    "Links the opportunity to the acquired team's relationship"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "If the client can capture 25% of Walmart's fragrance revenue, is that enough to meet the board's goal?",
+   "expected_answer": "The goal is 5%×$2B=$100M. Capturing 25%×$400M also yields $100M, exactly 5% of current revenue, so it meets the goal.",
+   "good_answer_signals": [
+    "Calculates both target and opportunity",
+    "States that the target is met exactly"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other levers could create the required value?",
+   "expected_answer": "Reduce duplicative costs, pursue fast-growing emerging markets, improve advertising, find more retailers and customers, and add product lines while protecting luxury brand equity.",
+   "good_answer_signals": [
+    "Returns to revenue and cost branches",
+    "Accounts for recession and emerging-market trends"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the COO do?",
+   "expected_answer": "Centralize sales selectively to use the acquired team's Walmart relationship and launch accessible fragrance. A 25% share of Walmart's $400M fragrance business would add $100M and meet the 5% goal. Protect luxury positioning, secure shelf space and manage culture, process and decision-speed risks with a staged integration.",
+   "good_answer_signals": [
+    "Quantifies the central synergy",
+    "Proposes mitigations for integration and brand risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Retailer Revenue by Product Line and Sales-Unit Coverage",
+   "page": 161,
+   "kind": "bar",
+   "description": "Annual retailer revenue from fragrance and skincare/cosmetics, plus the outlets and products served by each sales unit.",
+   "image_path": "exhibits/booth-2024-french-beauty-co/p161.webp",
+   "image_has_answers": false,
+   "key_insight": "Walmart is the largest fragrance retailer shown and is already a customer of the acquired sales unit, creating a cross-selling opportunity.",
+   "data_confidence": "medium",
+   "data": {
+    "columns": [
+     "Retailer",
+     "Fragrance revenue ($M, chart)",
+     "Skincare & cosmetics revenue ($M, chart)"
+    ],
+    "rows": [
+     [
+      "Bloomingdale's",
+      250,
+      75
+     ],
+     [
+      "Macy's",
+      250,
+      75
+     ],
+     [
+      "Neiman Marcus",
+      325,
+      85
+     ],
+     [
+      "Saks",
+      350,
+      80
+     ],
+     [
+      "Nordstrom",
+      325,
+      85
+     ],
+     [
+      "Walmart",
+      400,
+      550
+     ],
+     [
+      "Walgreens",
+      85,
+      350
+     ],
+     [
+      "CVS",
+      80,
+      90
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Would entering Walmart fragrance meet the board's 5% added-revenue goal?",
+   "givens": [
+    "Current revenue $2B",
+    "Goal 5%",
+    "Walmart fragrance revenue $400M",
+    "Expected capture 25%"
+   ],
+   "steps": [
+    "Board target=5%×$2B=$100M",
+    "Walmart opportunity=25%×$400M=$100M",
+    "$100M/$2B=5%"
+   ],
+   "answer": "Yes—$100M of revenue, exactly 5% of current revenue",
+   "answer_value": 100,
+   "unit": "USD millions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Adopt a selectively centralized sales model to combine customer relationships and launch accessible fragrance through Walmart. Capturing 25% of Walmart's $400M fragrance revenue adds $100M, exactly meeting the board's 5% goal. Stage the integration, protect the luxury brand, secure shelf space and actively manage culture, process and bureaucracy risks.",
+ "what_great_looks_like": [
+  "Balances centralization and decentralization tradeoffs",
+  "Spots the Walmart cross-sell",
+  "Ties the operating model to a quantified value target"
+ ],
+ "common_pitfalls": [
+  "Focuses only on headcount savings",
+  "Ignores luxury-brand dilution",
+  "Assumes an existing skincare relationship guarantees fragrance shelf space"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[0].data non-Walmart chart values"
+  ],
+  "math_verified": true,
+  "notes": "The exhibit is candidate-facing and contains no answers. Walmart's $400M fragrance value is explicit in the solution; other chart values are read visually and marked medium confidence. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "geography",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "id": "kellogg-2024-wildcat-wings",
+ "title": "Wildcat Wings",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  371,
+  380
+ ],
+ "author": "Adam J. Louras (Kellogg 2011, formerly 'A+ Airlines'); edited by Deepika Singh (Kellogg '16), Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "New Product/GTM",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Y06 Opportunity assessment; Y05 Operations",
+ "industry": "airlines",
+ "sub_industry": "passenger-airlines",
+ "industry_source_label": "X01 Aerospace & Defense; X15 Transportation & Logistics",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "market-sizing",
+  "payment-methods",
+  "working-capital",
+  "time-value-of-money",
+  "cost-benefit",
+  "brainstorming"
+ ],
+ "concepts_tested": [
+  "Market sizing",
+  "Creativity",
+  "Vertical integration"
+ ],
+ "fit_question": "Tell me about a time someone convinced you to take a different approach.",
+ "prompt": "Our client is Wildcat Wings, the third largest airline in the United States by passengers carried. This week, the CEO flew with our primary competitor, Phoenix Air, and she noticed something interesting: Phoenix has stopped accepting cash for in-flight food and beverage services and they now only accept major credit cards. The CEO of Wildcat Wings wants to know why Phoenix Air switched to Card only, and if Wildcat Wings should follow them.",
+ "clarifying_info": [
+  {
+   "question_topic": "Card use",
+   "answer": "Roughly 99% of consumers purchase their airline tickets with a credit card -- i.e., essentially all passengers on a plane have a credit card available to them."
+  },
+  {
+   "question_topic": "Items sold",
+   "answer": "Only food and alcoholic beverage items are sold on Wildcat flights."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "Phoenix is the only airline that has made the switch so far; all other airlines are evaluating it."
+  },
+  {
+   "question_topic": "Competitors",
+   "answer": "For purposes of this case, Phoenix and Wildcat should be considered identical in every regard."
+  }
+ ],
+ "interviewer_notes": "Problem: Should Wildcat Wings go cashless for in-flight purchases? Problem-solving steps: (1) develop a structure to address the problem, (2) analyze current in-flight purchases, (3) explore cost impacts of switching to card-only, (4) brainstorm additional benefits, (5) provide a client recommendation.",
+ "suggested_framework": {
+  "summary": "Before-and-after comparison of switching from Cash & Card to Card-only, spanning revenue, cost, and cash-flow/working-capital changes.",
+  "tree": {
+   "label": "Should Wildcat go card-only?",
+   "children": [
+    {
+     "label": "Revenue changes",
+     "children": [
+      {
+       "label": "Loss of cash-only customers"
+      },
+      {
+       "label": "Increase in credit card customers"
+      }
+     ]
+    },
+    {
+     "label": "Cost changes",
+     "children": [
+      {
+       "label": "Cash management cost removed (benefit)"
+      },
+      {
+       "label": "Incremental credit card fee (cost)"
+      }
+     ]
+    },
+    {
+     "label": "Cash flow changes",
+     "children": [
+      {
+       "label": "Interest / time value of money from faster collection"
+      },
+      {
+       "label": "Working capital impact"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you think about whether Wildcat Wings should switch to card-only for in-flight purchases?",
+   "expected_answer": "Candidate should structure the problem as a before-and-after comparison of Cash & Card versus Card-only, covering: revenue changes (loss of cash-only customers vs. gain in credit-card customers), cost changes (cash-management cost removed vs. incremental credit-card fee), and cash-flow changes (time value of money and working-capital impact from faster collection).",
+   "good_answer_signals": [
+    "Explicitly frames it as a before/after comparison",
+    "Covers revenue, cost, and cash-flow/TVM buckets, not just revenue and cost"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What is the total market size, in dollars, for food and beverage purchases on an average flight? How much revenue would we lose from cash-only customers if we go card-only?",
+   "release_when": "Provide Exhibit A once the interviewee asks about market sizing. When asked, state that Wildcat will lose 1/3 of cash customers when it moves to card-only.",
+   "info_to_release": "Exhibit A: seat/cabin mix, traveler-type purchase rates and average purchase values, and current cash/card payment split for an average Wildcat Wings flight.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate should size total in-flight F&B spend per average flight (~$515) using the cabin/traveler-type mix and purchase rates, split it into cash (~$103) and card (~$412) at the given 20%/80% split, and then estimate lost revenue as the fraction of cash-paying customers (1/3) who will not switch to card and are lost -- about $34-35 per flight (see math steps).",
+   "good_answer_signals": [
+    "Correctly builds passenger counts by cabin and traveler type before applying purchase rate and value",
+    "Splits total spend into cash vs. card before applying the 1/3 loss factor",
+    "States the answer per flight, matching the unit of the exhibit"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "What cost changes would result from switching to card-only?",
+   "release_when": "Provide Exhibit B once the candidate has brainstormed on cash and credit-card processing costs. When asked, explain that total per-flight savings from eliminating cash-management overhead is $35/flight.",
+   "info_to_release": "Cash management and credit card processing both carry a 2% fee, so that portion is a wash. Cash management requires additional overhead of 7 total employees per airport (5 cash handlers + 2 onsite cash-processing staff) that could be eliminated for further savings.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidate should recognize the 2% processing fee is roughly the same for cash and card (a wash), but eliminating the cash-management process removes real overhead, worth $35/flight in savings -- which almost exactly offsets the ~$35 revenue loss from lost cash-only customers. A strong candidate notes that the $35 in savings drops straight to the bottom line, while the $35 in lost revenue is a top-line loss (with associated margin), so the net financial impact favors the switch.",
+   "good_answer_signals": [
+    "Identifies the 2% fee comparison as a wash rather than a real differentiator",
+    "Quantifies the $35 cost savings and directly compares it to the ~$35 revenue loss from stage 2",
+    "Distinguishes bottom-line savings from top-line revenue loss"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Beyond the direct revenue and cost impact, what other benefits or considerations should we think about?",
+   "release_when": "If the candidate does not raise time value of money on their own, prompt them about the benefits of collecting payment earlier.",
+   "expected_answer": "Candidate should raise: (1) Time value of money -- Wildcat collects cash ~30 days sooner (24 hours vs. 31 days for the cash process), which could be invested, used to pay suppliers early for discounts, or used to pay down credit lines faster; (2) Working capital improvement -- eliminating the $50/flight in change carried, plus reduced losses from theft/damage of cash; (3) Happier customers -- faster order placement and fulfillment on the plane, which can also increase sales.",
+   "good_answer_signals": [
+    "Explicitly connects the 31-day vs. 24-hour cycle time difference to a time-value-of-money benefit",
+    "Raises the $50/flight change elimination as a working-capital benefit",
+    "Notes a plausible link between faster service and higher sales/satisfaction"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the CEO?",
+   "expected_answer": "Recommend switching to credit-card-only for in-flight food and beverage. Quantitatively, the ~$35/flight revenue loss from losing 1/3 of cash-only customers is roughly offset by the ~$35/flight in cash-management overhead savings, and since the savings hit the bottom line directly while the lost revenue is a top-line (lower-margin) impact, the net effect favors the switch. Qualitatively, Wildcat also gains from faster cash collection (time value of money), improved working capital (less cash/change tied up, less theft/damage risk), and likely happier, faster-served customers. Outstanding candidates additionally note that purchase probability and average purchase size for both segments may rise in the 'after' state (faster transactions reduce abandoned purchases, and customers without cash spend more freely without the 'cash guilt' effect of a dual-payment option), and should creatively flag new costs to consider, like wifi/connectivity costs for card verification and increased fraud exposure.",
+   "good_answer_signals": [
+    "Recommendation is clearly stated and grounded in the $35-vs-$35 comparison plus the qualitative benefits",
+    "Notes savings are bottom-line while lost revenue is top-line, so the switch is net favorable",
+    "References at least one 'outstanding' insight: higher purchase probability/size post-switch, or new costs like wifi/fraud"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Flight economics",
+   "page": 374,
+   "kind": "table",
+   "description": "Average Wildcat Wings flight (Boeing 737-800, 200 total seats, fleet size 50): cabin share of seats, traveler type mix, and seat utilization by cabin (First Class, Economy); purchase rate and average purchase value by traveler type (Business, Leisure); and the current cash/card payment method split.",
+   "data": {
+    "columns": [
+     "Metric",
+     "First Class",
+     "Economy"
+    ],
+    "rows": [
+     [
+      "Cabin share of seats",
+      "25%",
+      "75%"
+     ],
+     [
+      "Business traveler share",
+      "100%",
+      "50%"
+     ],
+     [
+      "Leisure traveler share",
+      "0%",
+      "50%"
+     ],
+     [
+      "Seat utilization",
+      "100%",
+      "80%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-wildcat-wings/p374.webp",
+   "key_insight": "Combining cabin mix, traveler type, seat utilization, purchase rate ($10/40% for Business, $5/25% for Leisure), and the 20%/80% cash/card split yields total F&B spend of ~$515/flight, of which ~$103 is currently cash.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Cash and Credit Card management processes",
+   "page": 375,
+   "kind": "text",
+   "description": "Two parallel process diagrams: the Wildcat Wings cash management process (flight attendant collects cash and issues change in-flight -> cash handler collects lockbox -> onsite cash processing center -> armored car service reconciles for counterfeit -> deposit to bank; end-to-end 31 days) versus the credit card process (flight attendant swipes card in-flight -> merchant service processes transaction with a 2% fee -> deposit to bank; end-to-end 24 hours). Notes 5 cash handlers and 2 onsite cash-processing employees per airport.",
+   "key_insight": "The credit card process is both faster (24 hours vs. 31 days end-to-end) and requires far less dedicated overhead (7 cash-handling/processing staff per airport can be eliminated), while the 2% processing fee is comparable across both payment types.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-wildcat-wings/p375.webp"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the total market size ($) for food and beverage purchases on an average Wildcat Wings flight?",
+   "givens": [
+    "200 total seats; First Class 25% of seats, 100% business, 100% utilization",
+    "Economy 75% of seats, 50% business/50% leisure, 80% utilization",
+    "Business: 40% purchase rate, $10 average purchase value",
+    "Leisure: 25% purchase rate, $5 average purchase value"
+   ],
+   "steps": [
+    "First Class business passengers = 200 x 25% x 100% utilization x 100% business = 50",
+    "Economy business passengers = 200 x 75% x 80% utilization x 50% business = 60",
+    "Economy leisure passengers = 200 x 75% x 80% utilization x 50% leisure = 60",
+    "Business spend = (50 + 60) business passengers x 40% purchase rate x $10 = $440",
+    "Leisure spend = 60 leisure passengers x 25% purchase rate x $5 = $75",
+    "Total F&B spend per flight = $440 + $75 = $515"
+   ],
+   "answer": "~$515 in food and beverage spend per average flight.",
+   "answer_value": 515,
+   "unit": "USD per flight",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much revenue is lost per flight from switching to card-only, given 1/3 of cash customers will not switch?",
+   "givens": [
+    "Total F&B spend per flight = $515",
+    "Current payment split: 20% cash, 80% card",
+    "1/3 of cash customers are lost when card-only is introduced"
+   ],
+   "steps": [
+    "Cash payments = $515 x 20% = $103",
+    "Card payments = $515 x 80% = $412",
+    "Lost revenue = 1/3 x $103 = $34.33, rounds to ~$35 per flight"
+   ],
+   "answer": "~$35 in lost revenue per flight (book rounds $34.33 up to ~$35).",
+   "answer_value": 34.33,
+   "unit": "USD per flight",
+   "verified": true,
+   "book_answer_if_different": "Book states ~$35; exact calculation is $34.33, which the book itself rounds to ~$35 -- not a substantive discrepancy."
+  }
+ ],
+ "synthesis": "Wildcat Wings should switch to credit-card-only for in-flight food and beverage. Quantitatively, the ~$35/flight revenue loss from cash-only customers who won't switch (3 business + 1 economy customer, roughly) is offset by ~$35/flight in savings from eliminating the cash-management process -- and because the savings drop straight to the bottom line while the lost revenue is a top-line loss, the net financial case favors switching. Qualitatively, Wildcat will collect payment ~30 days sooner, improving cash flow (can be used to earn interest, pay down credit lines, or take early-payment supplier discounts); working capital improves from eliminating the $50/flight in change carried and reducing cash theft/damage losses; and customers should be happier and faster-served, which may itself lift sales. Outstanding candidates would also flag that purchase probability and average purchase size likely rise post-switch (faster transactions reduce abandoned purchases; no-cash consumers spend more freely without a cash option's 'guilt' effect), and would creatively note new costs to weigh, such as wifi/connectivity costs for card verification and increased fraud exposure.",
+ "what_great_looks_like": [
+  "Frames the analysis as an explicit before/after comparison across revenue, cost, and cash-flow buckets",
+  "Builds the market-sizing calculation methodically by cabin, traveler type, and purchase behavior before splitting into cash vs. card",
+  "Independently connects the $35 cost savings and $35 revenue loss, and notes the bottom-line vs. top-line distinction",
+  "Surfaces time value of money and working capital benefits proactively, or quickly once prompted",
+  "Goes beyond the given numbers to flag second-order effects (higher purchase probability/size) and new cost categories (wifi, fraud) in the recommendation"
+ ],
+ "common_pitfalls": [
+  "Forgetting to split total F&B spend into cash vs. card before applying the 1/3 cash-customer loss factor",
+  "Treating the 2% processing fee as a new incremental cost rather than recognizing it's roughly equivalent to the existing cash-handling fee",
+  "Stopping at the quantitative $35-vs-$35 comparison without raising any qualitative (TVM, working capital, customer experience) benefits",
+  "Missing that cost savings are bottom-line while lost revenue is top-line, so a simple 'they cancel out' framing understates the case for switching"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book does not give a difficulty rating; difficulty was inferred. Fixed a typo in the printed fit question ('differnet' -> 'different'). Case type 'Y06 Opportunity assessment' has no exact match in the schema's fixed case_type list; mapped to 'New Product/GTM' as the closest fit.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "case_type (mapped from book's own 'Opportunity assessment' / 'Operations' labels)"
+  ]
+ }
+}

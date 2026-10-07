@@ -1,0 +1,368 @@
+{
+ "id": "booth-2024-student-health-insurance",
+ "title": "Student Health Insurance",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  297,
+  308
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "health-insurance",
+ "sub_industry": "payers",
+ "industry_source_label": "Financial Services & Insurance",
+ "geography": "United States higher education",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Deloitte",
+  "Round 2"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2, Quant 2, Creativity 3 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 40,
+ "tags": [
+  "student-insurance",
+  "growth-strategy",
+  "small-schools",
+  "operating-margin",
+  "product-penetration",
+  "direct-to-consumer",
+  "health-reform"
+ ],
+ "concepts_tested": [
+  "operating margin",
+  "competitive dynamics",
+  "market penetration",
+  "opportunity prioritization",
+  "business-model innovation"
+ ],
+ "fit_question": "When did you make a lasting impact on a team? Alternatively, what would your last manager say is a reason not to hire you?",
+ "prompt": "A business unit of a national health insurer sells medical, prescription-drug, and dental insurance to students at large universities. It leads the market with about 500,000 customers and $500M revenue in a 2.5M-customer, $2.2B potential market. Sales require winning a campus health center and then students, sometimes through a broker. Operating margin has fallen from 25% five years ago to 9%, competition is aggressive, budgets are shrinking, students through age 26 may remain on parents' plans, and insurers must spend 80% of revenue on medical expenses. Identify and prioritize profitable growth opportunities for the next three years.",
+ "clarifying_info": [],
+ "interviewer_notes": "Run the six questions sequentially as mini-cases; do not request a traditional framework. The case tests structured brainstorming and synthesis across dense exhibits. Growth options include the core market, small schools, new products, and new business models. Before providing Data Sheet 2, require the candidate to identify inputs needed for operating margin. None of the four small-school scenarios reaches the current 9% margin, so a different cost structure or direct-to-student model is required.",
+ "suggested_framework": {
+  "summary": "Generate growth options across current and new customers and products, then prioritize on strategic impact, economics, required investment, and feasibility.",
+  "tree": {
+   "label": "Profitable three-year growth",
+   "children": [
+    {
+     "label": "Existing products and markets",
+     "children": [
+      {
+       "label": "Improve pricing, sales, differentiation, and large-school share"
+      }
+     ]
+    },
+    {
+     "label": "Existing products in new markets",
+     "children": [
+      {
+       "label": "Small colleges, secondary schools, uninsured students, and direct sales"
+      }
+     ]
+    },
+    {
+     "label": "New products and models",
+     "children": [
+      {
+       "label": "Tuition, electronics, auto, renters, mental-health, wellness, billing, and digital care"
+      }
+     ]
+    },
+    {
+     "label": "Screening",
+     "children": [
+      {
+       "label": "Market size, margin, fit, investment, capability, complexity, and partners"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "brainstorm",
+   "interviewer_asks": "What potential growth avenues should the student-health business consider?",
+   "expected_answer": "Defend and grow large schools through pricing, sales effectiveness, and differentiation; enter small schools, secondary schools, or reach students directly; sell adjacent insurance such as tuition, electronics, auto, and renters; add mental-health, wellness, billing, or remote-care services; and design stripped-down coverage for cost-conscious uninsured students.",
+   "good_answer_signals": [
+    "Uses existing/new product and customer buckets",
+    "Covers both institutional and student purchasers",
+    "Includes business-model innovation"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What trends in Data Sheet 1 suggest growth opportunities?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Schools below 10,000 students contain 42% of students and nearly 90% of schools, yet large schools generate 93% of client revenue, indicating small-school white space and concentration risk. Medical insurance provides 99% of product revenue, while dental, discount cards, and student assistance total only 1%. Low school and student penetration of ancillary products suggests meaningful cross-sell opportunity.",
+   "good_answer_signals": [
+    "Combines school distribution with revenue concentration",
+    "Identifies both small-school and cross-sell opportunities",
+    "Avoids treating white space as automatically profitable"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What criteria should the client use to assess the small-school market?",
+   "expected_answer": "Quantify schools, students, insurance requirements, premiums, growth, share, win rates, margin scenarios, investment, and sensitivity. Qualitatively assess buying behavior, reform trends, competition, strategic fit, required capabilities, customer needs, cost versus differentiation, and likely penetration. Use interviews, focus groups, competitor research, and capability-gap analysis.",
+   "good_answer_signals": [
+    "Covers size, growth, competition, fit, capabilities, profitability, and penetration",
+    "Includes qualitative and quantitative evidence",
+    "Links entry attractiveness to operating model"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Using Data Sheet 2, calculate operating margin for each product and customer scenario.",
+   "release_when": "Provide Data Sheet 2 only after the candidate requests price, students per school, medical and selling expense, setup cost, and administration cost.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Option A, Plus at a large school: 500 students and $945K cost on $1M revenue, giving 5.5%. B, Standard large: 1,000 students and $970K cost, giving 3.0%. C, Plus small: 250 students and $497.5K cost on $500K, giving 0.5%. D, Standard small: 500 students and $510K cost, giving -2.0%. Larger customers absorb fixed setup cost better, and Plus halves per-student administration cost because the same premium revenue comes from half as many students.",
+   "good_answer_signals": [
+    "Derives student counts from premium revenue and price",
+    "Treats setup as fixed per school",
+    "Gets 5.5%, 3.0%, 0.5%, and -2.0%"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "Should the client pursue small schools, and under what model?",
+   "expected_answer": "Do not use the current model unchanged: even the best 5.5% scenario is below the business's 9% margin. Price increases and lower medical spending are constrained by reform, so reduce selling, setup, and administrative cost through process redesign and contract changes. The strongest option is an online direct-to-student model that bypasses schools and brokers, subject to acquisition-cost, compliance, service, and conversion tests.",
+   "good_answer_signals": [
+    "Benchmarks scenarios against 9%",
+    "Respects the 80% medical-cost constraint",
+    "Proposes a specific alternative model"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "How would you prioritize core share, small schools, and new products?",
+   "expected_answer": "Score each on strategic differentiation and unmet need; revenue, margin, cost avoidance, and downside; capital and operating investment; and implementation complexity, capabilities, and partner availability. Protect the profitable core first, pursue ancillary-product cross-sell because the base is underpenetrated, and pilot direct-to-student small-school entry only if it can exceed the 9% margin. Sequence larger or more disruptive bets behind evidence from pilots.",
+   "good_answer_signals": [
+    "Creates an explicit prioritization framework",
+    "Balances impact and feasibility",
+    "Uses case evidence to sequence opportunities"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Student health market and product penetration",
+   "page": 302,
+   "kind": "other",
+   "description": "Four charts show school-size distribution, revenue by school size, product revenue contribution, and school/student penetration of ancillary products.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Students at schools >20K",
+      "32%"
+     ],
+     [
+      "Students at schools 10K-20K",
+      "26%"
+     ],
+     [
+      "Students at schools 5K-10K",
+      "20%"
+     ],
+     [
+      "Students at schools 1K-5K",
+      "20%"
+     ],
+     [
+      "Students at schools <1K",
+      "2%"
+     ],
+     [
+      "Revenue from large schools >$1M",
+      "93%"
+     ],
+     [
+      "Revenue from small schools <$1M",
+      "7%"
+     ],
+     [
+      "Medical insurance revenue contribution",
+      "99%"
+     ],
+     [
+      "Dental revenue contribution",
+      "0.6%"
+     ],
+     [
+      "Discount-card revenue contribution",
+      "0.2%"
+     ],
+     [
+      "Student-assistance revenue contribution",
+      "0.2%"
+     ],
+     [
+      "Dental penetration: school / student",
+      "42.0% / 6.6%"
+     ],
+     [
+      "Discount-card penetration: school / student",
+      "52.3% / 19.5%"
+     ],
+     [
+      "Student-assistance penetration: school / student",
+      "7.5% / 100.0%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-student-health-insurance/p302.webp",
+   "image_has_answers": false,
+   "key_insight": "Revenue is concentrated in large schools and medical insurance despite substantial small-school and ancillary-product white space.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Historical financials and small-school scenario inputs",
+   "page": 305,
+   "kind": "table",
+   "description": "Historical revenue and pretax operating income plus product price, school revenue, and cost assumptions for four customer-product scenarios.",
+   "data": {
+    "columns": [
+     "Input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "2006 revenue / operating income",
+      "$373M / $88M"
+     ],
+     [
+      "2007",
+      "$398M / $70M"
+     ],
+     [
+      "2008",
+      "$462M / $58M"
+     ],
+     [
+      "2009",
+      "$487M / $42M"
+     ],
+     [
+      "2010",
+      "$518M / $44M"
+     ],
+     [
+      "Plus premium per student",
+      "$2,000"
+     ],
+     [
+      "Standard premium per student",
+      "$1,000"
+     ],
+     [
+      "Large-school annual premium revenue",
+      "$1,000,000"
+     ],
+     [
+      "Small-school annual premium revenue",
+      "$500,000"
+     ],
+     [
+      "Selling expense",
+      "7% of premium revenue"
+     ],
+     [
+      "Setup cost",
+      "$50,000 per school"
+     ],
+     [
+      "Administration",
+      "$50 per student"
+     ],
+     [
+      "Medical cost",
+      "80% of premium revenue"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-student-health-insurance/p305.webp",
+   "image_has_answers": false,
+   "key_insight": "The fixed per-school setup cost and per-student administration burden make smaller and lower-priced accounts structurally less profitable.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is operating margin in the four product/customer scenarios?",
+   "givens": [
+    "Plus $2,000/student; Standard $1,000/student",
+    "Large school $1M revenue; small school $500K",
+    "Medical 80%, selling 7%, setup $50K/school, admin $50/student"
+   ],
+   "steps": [
+    "A Plus-large: 500 students; costs $800K+$70K+$50K+$25K=$945K; margin $55K/$1M=5.5%",
+    "B Standard-large: 1,000 students; costs $800K+$70K+$50K+$50K=$970K; margin 3.0%",
+    "C Plus-small: 250 students; costs $400K+$35K+$50K+$12.5K=$497.5K; margin $2.5K/$500K=0.5%",
+    "D Standard-small: 500 students; costs $400K+$35K+$50K+$25K=$510K; margin -$10K/$500K=-2.0%"
+   ],
+   "answer": "5.5%, 3.0%, 0.5%, and -2.0% for Options A-D",
+   "answer_value": 5.5,
+   "unit": "percent for Option A",
+   "verified": true
+  }
+ ],
+ "synthesis": "Prioritize defending the large-school core and cross-selling underpenetrated ancillary products. Do not enter small schools with the current two-stage model: all four scenarios fall below the current 9% margin. Pilot a direct online student model that removes intermediaries and lowers selling, setup, and administration cost, then scale only if unit economics, compliance, service, and acquisition performance clear the margin threshold.",
+ "what_great_looks_like": [
+  "Structures ambiguous growth options",
+  "Extracts combined insights from multiple charts",
+  "Calculates all four margins accurately",
+  "Benchmarks against the current 9% margin",
+  "Proposes and prioritizes a direct business model"
+ ],
+ "common_pitfalls": [
+  "Assuming small-school white space is profitable",
+  "Forgetting to derive student counts",
+  "Treating setup cost as variable per student",
+  "Suggesting lower medical cost despite the 80% requirement",
+  "Listing opportunities without prioritization"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All four margin scenarios were independently recomputed and match the source. Option C total cost is exactly $497.5K; the source displays the rounded $498K while retaining the correct 0.5% margin. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

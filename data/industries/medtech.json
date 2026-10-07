@@ -1,0 +1,124 @@
+{
+  "id": "medtech",
+  "name": "Medical Devices & Medtech",
+  "group": "Healthcare",
+  "one_liner": "Medtech companies design and sell devices, implants, diagnostics and equipment to providers, with economics shaped by clinical evidence, hospital purchasing and reimbursement.",
+  "how_it_makes_money": "Revenue comes from selling capital equipment, implants and single-use devices to hospitals and clinics, often with recurring consumables, service contracts and razor-and-blade models. Adoption depends on regulatory clearance, reimbursement codes, surgeon preference and group purchasing contracts.",
+  "value_chain": [
+    "R&D and engineering",
+    "Clinical evidence and FDA clearance",
+    "Manufacturing and sterilization",
+    "Distribution and GPO contracting",
+    "Sales reps and clinical support",
+    "Service and consumables"
+  ],
+  "revenue_formula": [
+    "Revenue = procedures × device utilization per procedure × average selling price",
+    "Capital + consumables revenue = installed base × procedures per system × consumable revenue per procedure + new system sales"
+  ],
+  "cost_structure": [
+    "Cost of goods sold: materials and precision manufacturing",
+    "Sales and marketing: large field sales forces and clinical specialists",
+    "R&D: typically high single digits to low teens as a share of revenue",
+    "Regulatory and quality: FDA submissions, clinical trials, quality systems",
+    "Distribution and inventory: consigned inventory and loaner kits at hospitals"
+  ],
+  "margins": "Established device makers often earn gross margins of roughly 60-70% and solid operating margins; differentiated innovators do better than commoditized categories exposed to hospital price pressure.",
+  "key_metrics": [
+    {
+      "name": "Procedure volume",
+      "what": "Number of relevant surgeries or tests; the underlying demand driver."
+    },
+    {
+      "name": "Average selling price (ASP)",
+      "what": "Price per device; tracks pricing power against hospital purchasing pressure."
+    },
+    {
+      "name": "Installed base and utilization",
+      "what": "Systems in the field and how intensively they are used; drives recurring revenue."
+    },
+    {
+      "name": "Recurring revenue share",
+      "what": "Portion from consumables and service; makes revenue more predictable."
+    },
+    {
+      "name": "Organic growth",
+      "what": "Growth excluding acquisitions and currency; shows underlying demand."
+    },
+    {
+      "name": "Gross margin",
+      "what": "Revenue minus product costs; reflects differentiation and manufacturing scale."
+    }
+  ],
+  "trends": [
+    "Robotic surgery expanding into more procedures and competitors",
+    "Procedures moving to ambulatory surgery centers, changing buyers and price points",
+    "Portfolio reshaping through spin-offs and tuck-in acquisitions",
+    "Remote monitoring, wearables and AI-enabled diagnostics",
+    "Tariffs and supply chain resilience affecting cost and sourcing",
+    "Tighter hospital capital budgets lengthening equipment sales cycles"
+  ],
+  "key_players": [
+    "Medtronic",
+    "Abbott",
+    "Johnson & Johnson MedTech",
+    "Stryker",
+    "Boston Scientific",
+    "Intuitive Surgical",
+    "Siemens Healthineers",
+    "GE HealthCare",
+    "Becton Dickinson",
+    "Edwards Lifesciences"
+  ],
+  "case_angles": [
+    {
+      "question": "Should a device company launch a surgical robot to compete with the market leader?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "How should a medtech firm price a new device that shortens hospital stays?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "Estimate the US market for continuous glucose monitors.",
+      "framework_id": "market-sizing"
+    },
+    {
+      "question": "An orthopedic implant maker faces falling prices. How do you restore margins?",
+      "framework_id": "profitability"
+    }
+  ],
+  "interview_hooks": [
+    "Can challengers break into robotic surgery given the incumbent's installed base?",
+    "Does the shift to ambulatory surgery centers help or hurt device makers?",
+    "Should medtech firms sell outcomes and services rather than devices?"
+  ],
+  "news": {
+    "keywords": [
+      "medical device",
+      "medtech",
+      "fda clearance",
+      "device recall",
+      "surgical robot",
+      "implant",
+      "diagnostics",
+      "glucose monitor",
+      "pacemaker",
+      "orthopedic",
+      "510(k)"
+    ],
+    "companies": [
+      "Medtronic",
+      "Abbott",
+      "Stryker",
+      "Boston Scientific",
+      "Intuitive Surgical",
+      "Siemens Healthineers",
+      "GE HealthCare",
+      "Becton Dickinson",
+      "Edwards Lifesciences",
+      "Dexcom",
+      "Zimmer Biomet"
+    ]
+  }
+}

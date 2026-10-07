@@ -1,0 +1,470 @@
+{
+ "id": "booth-2024-project-gargoyle",
+ "title": "Project Gargoyle",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  251,
+  260
+ ],
+ "case_type": [
+  "Investment/PE due diligence",
+  "Profitability"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "beauty",
+ "sub_industry": "cosmetics",
+ "industry_source_label": "Hair Care Products",
+ "geography": "United States",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain & Company",
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 2, Creativity 3 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 40,
+ "tags": [
+  "private-equity",
+  "due-diligence",
+  "ebitda",
+  "channel-expansion",
+  "breakeven",
+  "brand-perception",
+  "hair-care"
+ ],
+ "concepts_tested": [
+  "breakeven analysis",
+  "chart interpretation",
+  "channel profitability",
+  "customer research",
+  "investment recommendation"
+ ],
+ "fit_question": "What are your major strengths? Alternatively, describe a time you dealt with a challenging situation.",
+ "prompt": "Your client, a private equity fund, is evaluating the potential acquisition of Gargoyle, a premium, fashion-forward hair-care products brand sold in the United States. Gargoyle has grown quickly over the past five years and management forecasts strong top-line growth. The fund has little industry experience and wants EBITDA to grow every year during the investment horizon with minimal capital expenditure. How should you evaluate the opportunity, and should the fund invest in Gargoyle?",
+ "clarifying_info": [
+  {
+   "question_topic": "Recent performance",
+   "answer": "Gargoyle has grown quickly, especially in the most recent period, but its EBITDA margin declined and EBITDA dollars were flat."
+  },
+  {
+   "question_topic": "Investment objective",
+   "answer": "Profitable annual EBITDA growth with minimal capital expenditure is the key criterion."
+  }
+ ],
+ "interviewer_notes": "This is a PE investment go/no-go case. Begin with historical revenue and EBITDA, then diagnose the margin decline through market and channel exhibits, calculate drugstore breakeven, and finish with salon brand research. If the candidate asks about the company before the market, show Exhibit 3 before Exhibit 2 and later return to the market. The candidate should ultimately reject the investment because apparent growth comes from a zero-profit drugstore channel that may damage the core salon franchise, while Gargoyle underperforms peers on salon priorities.",
+ "suggested_framework": {
+  "summary": "Test sustainable EBITDA growth through market attractiveness, company positioning, channel economics, brand strength, and investment feasibility.",
+  "tree": {
+   "label": "Should the fund acquire Gargoyle?",
+   "children": [
+    {
+     "label": "Market attractiveness",
+     "children": [
+      {
+       "label": "Size, growth, channels, competitors, and substitutes"
+      },
+      {
+       "label": "Salon, drugstore, and grocery dynamics"
+      }
+     ]
+    },
+    {
+     "label": "Gargoyle performance",
+     "children": [
+      {
+       "label": "Revenue by volume, price, mix, and channel"
+      },
+      {
+       "label": "Variable and fixed costs; EBITDA dollars and margin"
+      },
+      {
+       "label": "Share, customer loyalty, leadership, and culture"
+      }
+     ]
+    },
+    {
+     "label": "Investment case",
+     "children": [
+      {
+       "label": "Acquisition funding, capex, and cash-flow growth"
+      },
+      {
+       "label": "Breakeven, payback, NPV, and alternative use of capital"
+      },
+      {
+       "label": "Portfolio fit and synergies"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate whether the fund should acquire Gargoyle?",
+   "expected_answer": "Assess market size, growth, channel structure, competition, and substitutes; Gargoyle's share, segments, channels, loyalty, management, and culture; revenue and cost drivers behind EBITDA; and the investment's capital needs, breakeven, payback or NPV, portfolio fit, and alternatives. The decisive test is sustainable annual EBITDA growth with limited capex.",
+   "good_answer_signals": [
+    "Includes a profit tree",
+    "Separates market, company, and deal considerations",
+    "Anchors the analysis on EBITDA rather than revenue alone"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Gargoyle's historical performance in Exhibit 1 tell you?",
+   "release_when": "Show Exhibit 1 after the framework when the candidate asks for financial performance.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue doubled from $100M in 2006 to $200M in 2010 and accelerated by $50M in the last year. EBITDA rose from $10M to $30M through 2009, but stayed at $30M in 2010 because margin fell from 20% to 15%. Recent growth is therefore not profitable growth and requires a channel or cost diagnosis.",
+   "good_answer_signals": [
+    "Calculates EBITDA dollars rather than reading margins only",
+    "Identifies flat 2009-2010 EBITDA",
+    "Requests market and channel data to explain the decline"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What do Exhibits 2 and 3 reveal about the market and Gargoyle's growth?",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "The total hair-products market grows only from $434M in 2008 to $460M in 2010. Salons have 0% CAGR, drugstores 2%, and grocery 5%. Gargoyle sold 20M bottles entirely through salons in 2009. In 2010 salon volume stayed at 20M while 10M drugstore bottles created all incremental volume. At $7.50 per salon bottle and $5 per drugstore bottle, revenue is $150M plus $50M = $200M. The new growth comes from a lower-priced channel in an otherwise stagnant core segment.",
+   "good_answer_signals": [
+    "Recognizes unattractive overall and salon growth",
+    "Connects all incremental units to drugstores",
+    "Identifies lower drugstore pricing as a mix headwind"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 4, what drugstore volume and revenue are required to break even?",
+   "release_when": "Show Exhibit 4 after the candidate asks for drugstore cost information.",
+   "exhibit_ids": [
+    "ex4"
+   ],
+   "expected_answer": "Drugstore price is $5 per bottle and variable cost is $4.50, producing a $0.50 contribution margin. With $5M of incremental fixed cost, breakeven volume is $5M / $0.50 = 10M bottles, equivalent to $50M of revenue. Gargoyle's 2010 drugstore business sells exactly 10M bottles, so it contributes zero profit and explains why EBITDA stayed flat.",
+   "good_answer_signals": [
+    "Uses contribution margin rather than revenue",
+    "Gets 10M bottles and $50M revenue",
+    "Links breakeven to flat EBITDA"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the salon research in Exhibit 5 imply for the Gargoyle brand?",
+   "release_when": "Show Exhibit 5 after concluding the drugstore economics are unattractive.",
+   "exhibit_ids": [
+    "ex5"
+   ],
+   "expected_answer": "Salon buyers rank performance and exclusivity as the two most important attributes, at 4.7 and 4.5. Gargoyle trails Brands A and B on both and on most other needs. Drugstore distribution threatens the exclusivity that salons value, so channel expansion may weaken the core customer base rather than create durable value.",
+   "good_answer_signals": [
+    "Uses importance scores to prioritize the diagnosis",
+    "Compares Gargoyle with both peers qualitatively",
+    "Connects mass distribution to salon exclusivity risk"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should the private equity fund invest in Gargoyle?",
+   "expected_answer": "Do not invest. Gargoyle's $50M revenue growth in 2010 came entirely from a drugstore channel that merely broke even, leaving EBITDA flat at $30M and lowering margin to 15%. The core salon market is not growing, Gargoyle underperforms peers on performance and exclusivity, and drugstore expansion may alienate salons. If reconsidered, first improve salon product performance and exclusivity, test whether drugstore margins can exceed breakeven, and evaluate alternative targets. Risks include missing a turnaround opportunity or a strategic portfolio rationale.",
+   "good_answer_signals": [
+    "Leads with a no-invest recommendation",
+    "Integrates financial, market, and customer evidence",
+    "Provides concrete conditions and next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Gargoyle historical performance",
+   "page": 255,
+   "kind": "bar",
+   "description": "Annual revenue and EBITDA margin from 2006 through 2010.",
+   "data": {
+    "columns": [
+     "Year",
+     "Revenue ($M)",
+     "EBITDA margin"
+    ],
+    "rows": [
+     [
+      "2006",
+      "100",
+      "10%"
+     ],
+     [
+      "2007",
+      "120",
+      "15%"
+     ],
+     [
+      "2008",
+      "135",
+      "18%"
+     ],
+     [
+      "2009",
+      "150",
+      "20%"
+     ],
+     [
+      "2010",
+      "200",
+      "15%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-project-gargoyle/p255.webp",
+   "image_has_answers": false,
+   "key_insight": "Revenue accelerates in 2010, but the margin decline leaves EBITDA dollars flat at $30M.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Hair-products market by channel",
+   "page": 256,
+   "kind": "bar",
+   "description": "Total US hair-product sales for 2008-2010 and 2008-2010 CAGR by salons, drugstores, and grocery.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Value"
+    ],
+    "rows": [
+     [
+      "2008 total sales",
+      "$434M"
+     ],
+     [
+      "2009 total sales",
+      "$447M"
+     ],
+     [
+      "2010 total sales",
+      "$460M"
+     ],
+     [
+      "Salon CAGR 2008-2010",
+      "0%"
+     ],
+     [
+      "Drugstore CAGR 2008-2010",
+      "2%"
+     ],
+     [
+      "Grocery CAGR 2008-2010",
+      "5%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-project-gargoyle/p256.webp",
+   "image_has_answers": false,
+   "key_insight": "The market grows slowly; Gargoyle's core salon channel is flat while grocery grows fastest.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Gargoyle sales by distribution channel",
+   "page": 257,
+   "kind": "bar",
+   "description": "Bottle volume and channel mix for 2009 and 2010, with average price by channel.",
+   "data": {
+    "columns": [
+     "Year",
+     "Salon bottles",
+     "Drugstore bottles",
+     "Salon price",
+     "Drugstore price"
+    ],
+    "rows": [
+     [
+      "2009",
+      "20M",
+      "0",
+      "$7.50",
+      "$5.00"
+     ],
+     [
+      "2010",
+      "20M",
+      "10M",
+      "$7.50",
+      "$5.00"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-project-gargoyle/p257.webp",
+   "image_has_answers": false,
+   "key_insight": "All 10M incremental bottles in 2010 come from lower-priced drugstores; salon volume is unchanged.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex4",
+   "title": "Cost to serve drugstores",
+   "page": 258,
+   "kind": "bar",
+   "description": "Total variable cost per bottle and incremental fixed cost for the drugstore channel, with component labels but no component amounts.",
+   "data": {
+    "columns": [
+     "Cost category",
+     "Total",
+     "Components"
+    ],
+    "rows": [
+     [
+      "Variable cost per bottle",
+      "$4.50",
+      "COGS; packaging; distribution"
+     ],
+     [
+      "Incremental fixed cost",
+      "$5.0M",
+      "Sales and marketing; general and administration; warehouse"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-project-gargoyle/p258.webp",
+   "image_has_answers": false,
+   "key_insight": "A $5 selling price leaves only $0.50 contribution per bottle to recover $5M of fixed cost.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex5",
+   "title": "Salon interviews: importance and brand performance",
+   "page": 259,
+   "kind": "line",
+   "description": "Salon importance scores for six attributes and comparative performance lines for Brand A, Brand B, and Gargoyle.",
+   "data": {
+    "columns": [
+     "Attribute",
+     "Importance score",
+     "Gargoyle relative performance"
+    ],
+    "rows": [
+     [
+      "Performance",
+      "4.7",
+      "Below both peers"
+     ],
+     [
+      "Exclusivity",
+      "4.5",
+      "Below both peers"
+     ],
+     [
+      "Price",
+      "3.7",
+      "Approximately tied with Brand A; below Brand B"
+     ],
+     [
+      "Trendiness",
+      "3.2",
+      "Above both peers"
+     ],
+     [
+      "Direct incentives",
+      "3.2",
+      "Below Brand B; around Brand A"
+     ],
+     [
+      "Natural ingredients",
+      "2.5",
+      "Below both peers"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-project-gargoyle/p259.webp",
+   "image_has_answers": false,
+   "key_insight": "Gargoyle is weakest on the attributes salons value most, especially performance and exclusivity.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What was Gargoyle's EBITDA in each year?",
+   "givens": [
+    "Revenue 2006-2010: $100M, $120M, $135M, $150M, $200M",
+    "EBITDA margins: 10%, 15%, 18%, 20%, 15%"
+   ],
+   "steps": [
+    "2006 = $100M x 10% = $10M",
+    "2007 = $120M x 15% = $18M",
+    "2008 = $135M x 18% = $24.3M",
+    "2009 = $150M x 20% = $30M",
+    "2010 = $200M x 15% = $30M"
+   ],
+   "answer": "$10M, $18M, $24.3M, $30M, and $30M",
+   "answer_value": 30,
+   "unit": "USD millions in 2010",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What drugstore sales level breaks even?",
+   "givens": [
+    "$5.00 price per bottle",
+    "$4.50 variable cost per bottle",
+    "$5M incremental fixed cost"
+   ],
+   "steps": [
+    "Contribution per bottle = $5.00 - $4.50 = $0.50",
+    "Breakeven volume = $5M / $0.50 = 10M bottles",
+    "Breakeven revenue = 10M x $5 = $50M",
+    "2010 drugstore profit = 10M x $0.50 - $5M = $0"
+   ],
+   "answer": "10M bottles or $50M revenue; 2010 drugstore profit is $0",
+   "answer_value": 10000000,
+   "unit": "bottles",
+   "verified": true
+  }
+ ],
+ "synthesis": "The fund should not acquire Gargoyle. Revenue increased to $200M in 2010, but EBITDA stayed at $30M as the margin fell to 15%. All growth came from 10M drugstore bottles, and that channel only breaks even at its current $50M revenue. The salon market is flat, Gargoyle underperforms peers on salons' most important needs, and mass distribution threatens exclusivity. Reconsider only after proof of improved salon perception or profitable channel economics.",
+ "what_great_looks_like": [
+  "Converts revenue and margin into EBITDA dollars",
+  "Finds the channel-mix cause of margin decline",
+  "Calculates drugstore breakeven and links it to flat EBITDA",
+  "Uses importance-weighted customer research",
+  "Rejects attractive top-line growth when cash flow is unsustainable"
+ ],
+ "common_pitfalls": [
+  "Equating rapid revenue growth with value creation",
+  "Ignoring the flat salon channel",
+  "Calculating breakeven on revenue instead of contribution margin",
+  "Missing the exclusivity conflict between salons and drugstores",
+  "Recommending investment without addressing the fund's annual EBITDA-growth requirement"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All calculations were independently recomputed and match the source. Exhibit 5 prints importance scores but not exact brand-performance line values; the data table therefore records only qualitative relative positions, and that exhibit is medium confidence. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

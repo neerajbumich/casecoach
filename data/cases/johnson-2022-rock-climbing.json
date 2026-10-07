@@ -1,0 +1,441 @@
+{
+ "id": "johnson-2022-rock-climbing",
+ "title": "Rock Climbing",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  19,
+  29
+ ],
+ "case_type": [
+  "Other",
+  "Market Entry",
+  "Profitability"
+ ],
+ "case_type_source_label": "Other",
+ "industry": "hospitality",
+ "sub_industry": "fitness",
+ "industry_source_label": "Leisure",
+ "geography": "United States; Oregon recommended",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Simple; Quant: Low; Analysis: Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "career-choice",
+  "market-entry",
+  "revenue-per-location",
+  "competitive-supply",
+  "cash-flow",
+  "capital-investment",
+  "opportunity-cost"
+ ],
+ "prompt": "Looking into the future, I am trying to determine which path I should take professionally. Should I look toward re-joining the consulting world where my salary could be anywhere from $125K to $175K? Or should I look to pursue my hobby and attempt to open either one or a chain of rock-climbing gyms throughout the United States? Can you help me make up my mind?",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective and horizon",
+   "answer": "I only care about money and want the best return over a 10-year timeframe."
+  },
+  {
+   "question_topic": "Location",
+   "answer": "I have no specific location in mind. Select the location with the highest return potential."
+  },
+  {
+   "question_topic": "Capital",
+   "answer": "I have access to capital sources and am not too concerned about financing."
+  },
+  {
+   "question_topic": "Personal expenses, taxes and distributions",
+   "answer": "Ignore personal expenses and taxes for both opportunities. All excess cash from gym profits flows to me as income."
+  }
+ ],
+ "interviewer_notes": "This is a candidate-led, non-traditional career-choice case. The candidate must evaluate both options and make a recommendation; assist if they become sidetracked. Introduce gym types and Exhibit 1 when they explore the gym option, then Exhibits 2 and 3 to select a location. Supply the explicit investment, revenue and cost assumptions on page 28 for the final comparison. Do not show guide or calculation pages. The source consulting upper-bound total is erroneous; use $1.75 million over 10 years, not $1.7 million. No discount rate, salary growth, terminal value or chain-expansion economics are supplied.",
+ "suggested_framework": {
+  "summary": "Compare 10-year consulting income with gym cash earnings after startup investment, then assess location and competitive risks.",
+  "tree": {
+   "label": "Professional path",
+   "children": [
+    {
+     "label": "Consulting",
+     "children": [
+      {
+       "label": "Salary over 10 years"
+      }
+     ]
+    },
+    {
+     "label": "Rock climbing",
+     "children": [
+      {
+       "label": "Initial investment"
+      },
+      {
+       "label": "Day passes, annual passes and customer volumes"
+      },
+      {
+       "label": "Fixed costs: marketing, insurance and utilities"
+      }
+     ]
+    },
+    {
+     "label": "Other considerations",
+     "children": [
+      {
+       "label": "Location for both options"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate these two professional paths?",
+   "release_when": "Read the prompt; provide clarifications only when asked.",
+   "info_to_release": "Consulting salary is $125,000–$175,000 annually. On request, clarify that only money matters, the horizon is 10 years, location is flexible, capital is available, personal expenses and taxes are ignored, and gym profits flow to the owner.",
+   "exhibit_ids": [],
+   "expected_answer": "Compare consulting salary over 10 years with gym revenue less operating costs and initial investment over the same horizon. Explore day and annual passes, customer demand, marketing, insurance and utilities. Select the gym format and location before estimating its economics.",
+   "good_answer_signals": [
+    "Clarifies the financial objective rather than assuming lifestyle dominates.",
+    "Uses a common horizon and includes startup investment."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What types of climbing gym could the client open?",
+   "release_when": "When the candidate explores gym format, hand over Exhibit 1 and describe both types.",
+   "info_to_release": "Bouldering gyms are traditionally smaller than sport gyms, a newer concept, located in suburban warehouse districts, have lower revenue per climber and do not use ropes. Sport gyms are nearer city centers, typically serve customers aged 15 or older, have higher revenue per customer and significantly higher development costs, and use ropes.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Compare the lower-development-cost bouldering concept with higher-revenue-per-customer sport climbing. Request market supply and revenue data before choosing the format and state.",
+   "good_answer_signals": [
+    "Distinguishes revenue per climber from revenue per gym.",
+    "Connects format choice to investment requirements."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the supply of climbing gyms suggest?",
+   "release_when": "Provide Exhibit 2 after discussing the formats.",
+   "info_to_release": "Bouldering / sport / total gyms: Oregon 8 / 32 / 40; Colorado 10 / 65 / 75; Texas 10 / 115 / 125; New York 8 / 92 / 100; Other 15 / 135 / 150.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Bouldering has substantially fewer gyms than sport climbing. Texas has the most gyms among individually named states and Oregon the fewest; Other is an aggregate, not a state. Lower supply alone does not establish attractiveness, so obtain the revenue exhibit.",
+   "good_answer_signals": [
+    "Does not confuse the Other aggregate with a single state.",
+    "Seeks demand information before recommending the least competitive location."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Which state and gym format appear most attractive?",
+   "release_when": "Provide Exhibit 3 after the supply discussion.",
+   "info_to_release": "State revenue and bouldering / sport shares: Texas $18 million and 50% / 50%; Colorado $7.5 million and 67% / 33%; Oregon $10 million and 80% / 20%; New York $5 million and 80% / 20%; Other $15 million and 50% / 50%.",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "Bouldering generates a majority of aggregate market revenue despite its lower gym count. Divide bouldering revenue by bouldering gyms, not total gyms: Oregon gives $10 million × 80% / 8 = $1 million per gym, versus Texas $900,000, Colorado $502,500 using the printed 67%, New York $500,000 and Other $500,000. Select Oregon bouldering for the investment analysis.",
+   "good_answer_signals": [
+    "Combines both exhibits with matching segment denominators.",
+    "Does not equate Texas's largest total market with the highest revenue per gym."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Compare the Oregon bouldering gym with consulting over 10 years.",
+   "release_when": "After the candidate selects Oregon bouldering, supply the operating and investment assumptions as needed.",
+   "info_to_release": "Prefabricated and equipped gym costs $30 per square foot and requires 100,000 square feet. Day passes cost $20 with 85 customers per day and 25 operating days per month. Annual passes cost $1,000 with 490 pass holders. Variable costs are 25% of revenue. Annual marketing is $25,000, insurance $50,000 and utilities $75,000. Use the prompt's $125,000–$175,000 annual consulting salary and a 10-year horizon.",
+   "exhibit_ids": [],
+   "expected_answer": "Initial investment is $3 million. Day-pass revenue is $20 × 85 × 25 × 12 = $510,000 per year; annual passes add $490,000, totaling $1 million. Variable costs are $250,000 and fixed costs $150,000, so annual profit is $600,000. Ten-year gym cash earnings after investment are $600,000 × 10 − $3 million = $3 million. Consulting yields $1.25–$1.75 million, not the book's $1.25–$1.7 million. The gym is financially superior under the given assumptions.",
+   "good_answer_signals": [
+    "Annualizes monthly day-pass revenue with 12 months.",
+    "Subtracts initial investment once and separates it from annual costs.",
+    "Uses the original salary range consistently."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Which path should the client take, and what should happen next?",
+   "release_when": "After the financial comparison.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Open a bouldering gym in Oregon: projected 10-year cash earnings after the initial investment are $3 million versus $1.25–$1.75 million from consulting. More bouldering gyms could enter and dilute returns. Build the brand and consider partnerships to mitigate competitive entry, then work with a commercial real estate agent to find suitable Oregon space.",
+   "good_answer_signals": [
+    "Gives an answer-first, quantified recommendation.",
+    "Connects competitive-entry risk to a practical mitigation and real estate next step."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Examples of Rock Climbing Gyms",
+   "page": 23,
+   "kind": "other",
+   "description": "Candidate-facing photographs of a bouldering gym and a sport climbing gym. The qualitative comparison is supplied verbally on page 22.",
+   "data": {
+    "columns": [
+     "Gym type",
+     "Candidate photograph"
+    ],
+    "rows": [
+     [
+      "Bouldering",
+      "Shorter climbing walls without ropes"
+     ],
+     [
+      "Sport Climbing",
+      "Taller climbing walls with rope systems"
+     ]
+    ]
+   },
+   "image_path": "exhibits/johnson-2022-rock-climbing/p023.webp",
+   "image_has_answers": false,
+   "key_insight": "The formats have different space, development-cost and customer-economics profiles.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Number of Rock Climbing Gyms by State in Domestic US Market",
+   "page": 25,
+   "kind": "table",
+   "description": "Gym supply by state and format, including the original printed total-gym column.",
+   "data": {
+    "columns": [
+     "State",
+     "Bouldering gyms",
+     "Sport gyms",
+     "Total gyms (printed)"
+    ],
+    "rows": [
+     [
+      "Oregon",
+      8,
+      32,
+      40
+     ],
+     [
+      "Colorado",
+      10,
+      65,
+      75
+     ],
+     [
+      "Texas",
+      10,
+      115,
+      125
+     ],
+     [
+      "New York",
+      8,
+      92,
+      100
+     ],
+     [
+      "Other",
+      15,
+      135,
+      150
+     ]
+    ]
+   },
+   "image_path": "exhibits/johnson-2022-rock-climbing/p025.webp",
+   "image_has_answers": false,
+   "key_insight": "Bouldering supply is much smaller. Oregon has the fewest gyms among the named states, while Texas has the most.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Rock Climbing Gym Revenues by State in Domestic US Market",
+   "page": 27,
+   "kind": "other",
+   "description": "Mekko chart with total state revenue above each column and bouldering and sport revenue shares inside it.",
+   "data": {
+    "columns": [
+     "State",
+     "Total revenue (USD)",
+     "Bouldering share (%)",
+     "Sport share (%)"
+    ],
+    "rows": [
+     [
+      "Texas",
+      18000000,
+      50,
+      50
+     ],
+     [
+      "Colorado",
+      7500000,
+      67,
+      33
+     ],
+     [
+      "Oregon",
+      10000000,
+      80,
+      20
+     ],
+     [
+      "New York",
+      5000000,
+      80,
+      20
+     ],
+     [
+      "Other",
+      15000000,
+      50,
+      50
+     ]
+    ]
+   },
+   "image_path": "exhibits/johnson-2022-rock-climbing/p027.webp",
+   "image_has_answers": false,
+   "key_insight": "Combining segment revenue with segment gym counts favors Oregon bouldering, at $1 million revenue per existing gym.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which market has the highest bouldering revenue per gym?",
+   "givens": [
+    "Gym counts from Exhibit 2",
+    "State revenues and segment shares from Exhibit 3"
+   ],
+   "steps": [
+    "Oregon: $10,000,000 × 80% / 8 = $1,000,000.",
+    "Texas: $18,000,000 × 50% / 10 = $900,000.",
+    "Colorado: $7,500,000 × 67% / 10 = $502,500.",
+    "New York: $5,000,000 × 80% / 8 = $500,000.",
+    "Other: $15,000,000 × 50% / 15 = $500,000."
+   ],
+   "answer": "Oregon bouldering yields the highest revenue per gym, $1 million, followed by Texas at $900,000.",
+   "answer_value": 1000000,
+   "unit": "USD per gym",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What initial investment does the gym require?",
+   "givens": [
+    "$30 per square foot",
+    "100,000 square feet, prefabricated with equipment"
+   ],
+   "steps": [
+    "$30 × 100,000 = $3,000,000."
+   ],
+   "answer": "$3 million initial investment.",
+   "answer_value": 3000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is annual gym revenue?",
+   "givens": [
+    "Day passes: $20, 85 customers per day, 25 days per month",
+    "Annual passes: $1,000, 490 holders"
+   ],
+   "steps": [
+    "Day passes: $20 × 85 × 25 × 12 = $510,000 annually.",
+    "Annual passes: $1,000 × 490 = $490,000.",
+    "Total: $510,000 + $490,000 = $1,000,000."
+   ],
+   "answer": "$1 million per year, comprising $510,000 from day passes and $490,000 from annual passes.",
+   "answer_value": 1000000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What are annual profit and 10-year earnings after investment?",
+   "givens": [
+    "Annual revenue $1 million",
+    "Variable costs 25% of revenue",
+    "Annual marketing $25,000, insurance $50,000, utilities $75,000",
+    "Initial investment $3 million",
+    "Horizon 10 years"
+   ],
+   "steps": [
+    "Variable costs: $1,000,000 × 25% = $250,000.",
+    "Fixed costs: $25,000 + $50,000 + $75,000 = $150,000.",
+    "Annual profit: $1,000,000 − $250,000 − $150,000 = $600,000.",
+    "10-year cash earnings: $600,000 × 10 − $3,000,000 = $3,000,000."
+   ],
+   "answer": "$600,000 annual operating profit and $3 million cumulative earnings after the initial investment over 10 years.",
+   "answer_value": 3000000,
+   "unit": "USD over 10 years",
+   "verified": true
+  },
+  {
+   "id": "m5",
+   "question": "What would consulting pay over 10 years?",
+   "givens": [
+    "Prompt salary $125,000–$175,000 annually",
+    "10 years"
+   ],
+   "steps": [
+    "Lower bound: $125,000 × 10 = $1,250,000.",
+    "Upper bound: $175,000 × 10 = $1,750,000."
+   ],
+   "answer": "$1.25–$1.75 million, below the gym's $3 million cumulative earnings.",
+   "answer_value": 1750000,
+   "unit": "USD, upper bound over 10 years",
+   "verified": false,
+   "book_answer_if_different": "Page 28 says: Consulting pays $1.25 to $1.7M. The $175,000 annual salary in the prompt implies $1.75 million, not $1.7 million."
+  }
+ ],
+ "synthesis": "Open an Oregon bouldering gym. Its projected $3 million in 10-year cash earnings after startup investment exceeds consulting's corrected $1.25–$1.75 million. Oregon has the highest bouldering revenue per existing gym at $1 million. New competitors could erode returns; emphasize branding and consider partnerships. Next, engage a commercial real estate agent to identify Oregon space. The comparison follows the book's undiscounted, stable-operating assumptions, not a fully financed investment valuation.",
+ "what_great_looks_like": [
+  "Clarifies that the client prioritizes money over 10 years.",
+  "Uses both supply and revenue exhibits to select Oregon bouldering.",
+  "Accounts for startup investment and annualizes the day-pass stream correctly.",
+  "Concludes with a quantified choice, competitive risk, branding mitigation and a real estate next step."
+ ],
+ "common_pitfalls": [
+  "Choosing Texas solely because it has the most gyms or largest revenue among named states.",
+  "Dividing bouldering revenue by all gyms rather than bouldering gyms.",
+  "Comparing consulting income with gym revenue instead of profit after startup investment.",
+  "Omitting the 12-month factor for day passes.",
+  "Repeating the source's incorrect $1.7 million consulting upper bound."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Dedup verdict NEW. All pages 19–29 read and visually inspected. Candidate exhibits are pages 23, 25 and 27, not their preceding guide pages; original printed totals remain visible. The book's consulting upper bound on page 28 is $1.7 million, inconsistent with $175,000 × 10 = $1.75 million; corrected in expected answers, math and synthesis, with the original salary retained in releases. The printed day-pass formula omits × 12 but its $510,000 annual result is correct; the missing annualization factor is explicit in our steps. Source confidence is medium because of the consulting inconsistency. Colorado's printed 67% is used as given, not replaced by an assumed two-thirds. Simple is the lowest of the book's three ordered overall categories, normalized in code to 2. Quant intensity is H under the extraction rubric despite the source's Low arithmetic-difficulty label. Client is an individual, so no client_type is forced. The book supplies no salary growth, discount rate, financing terms or multi-gym rollout; these are not invented. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary labels",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "synthesis model limitations"
+  ]
+ }
+}

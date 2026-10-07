@@ -1,0 +1,130 @@
+{
+  "id": "asset-management-pe",
+  "name": "Asset Management & Private Equity",
+  "group": "Financial services",
+  "one_liner": "Asset managers and private equity firms invest other people's money for fees and performance-based carry, so their economics hinge on assets under management and the fee rate per dollar.",
+  "how_it_makes_money": "Traditional asset managers charge a management fee as a percentage of assets under management, with passive funds far cheaper than active. Private equity and other alternatives typically charge a management fee on committed capital (classically ~2%) plus carried interest (classically ~20% of profits above a hurdle), and some earn transaction and monitoring fees.",
+  "value_chain": [
+    "Fundraising from LPs and investors",
+    "Sourcing and underwriting deals",
+    "Portfolio construction and trading",
+    "Ownership and value creation",
+    "Exit and distribution of returns",
+    "Distribution and client service"
+  ],
+  "revenue_formula": [
+    "Management fees = AUM (or committed capital) × fee rate, where AUM change = net flows + market performance",
+    "Carried interest = (exit proceeds - invested capital - hurdle) × carry %",
+    "LBO equity return = EBITDA growth + multiple expansion + debt paydown"
+  ],
+  "cost_structure": [
+    "Compensation: investment professionals' salaries, bonuses and carry, the dominant cost",
+    "Distribution: fees to platforms, advisors and placement agents",
+    "Technology and data: trading systems, research data, risk tools",
+    "Fund and operating expenses: legal, compliance, fund administration",
+    "In LBOs, interest on acquisition debt is borne by the portfolio company"
+  ],
+  "margins": "Scaled asset managers often earn operating margins of roughly 30-40%, with passive giants relying on volume and active managers under fee pressure; PE firms' fee-related earnings are steady while carry is lumpy and tied to exits.",
+  "key_metrics": [
+    {
+      "name": "Assets under management (AUM)",
+      "what": "Total assets managed; the base on which fees are charged."
+    },
+    {
+      "name": "Net flows",
+      "what": "New money in minus redemptions; the clearest sign of client demand."
+    },
+    {
+      "name": "Fee rate (bps)",
+      "what": "Revenue per dollar of AUM; captures product mix and pricing power."
+    },
+    {
+      "name": "Internal rate of return (IRR)",
+      "what": "Annualized return on a fund's cash flows; the headline PE performance measure."
+    },
+    {
+      "name": "Multiple on invested capital (MOIC / TVPI)",
+      "what": "Total value returned relative to capital invested; complements IRR."
+    },
+    {
+      "name": "Dry powder",
+      "what": "Committed but uninvested capital; signals deployment pressure and future fees."
+    },
+    {
+      "name": "Fee-related earnings (FRE)",
+      "what": "Profit from recurring management fees, valued more highly than volatile carry."
+    }
+  ],
+  "trends": [
+    "Continued shift from active to passive and ETF products, compressing fees",
+    "Private credit growing rapidly as alternatives managers lend in place of banks",
+    "Alternatives firms targeting wealthy individuals and retirement savings",
+    "Slow exit markets leading to continuation funds and pressure on distributions",
+    "Industry consolidation as managers seek scale and multi-asset breadth",
+    "Higher financing costs shifting PE value creation toward operational improvement"
+  ],
+  "key_players": [
+    "BlackRock",
+    "Vanguard",
+    "Fidelity",
+    "State Street",
+    "Blackstone",
+    "KKR",
+    "Apollo",
+    "Carlyle",
+    "Brookfield",
+    "Ares"
+  ],
+  "case_angles": [
+    {
+      "question": "A PE fund is considering buying a manufacturing company. Is it a good LBO investment?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "An active asset manager faces years of outflows. How should it turn things around?",
+      "framework_id": "turnaround"
+    },
+    {
+      "question": "Should a traditional asset manager enter private credit?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "Should two mid-size asset managers merge?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Can active management justify its fees against low-cost passive funds?",
+    "Is opening private markets to retail investors good for those investors?",
+    "Is private credit a structural shift or a risk building outside the banking system?"
+  ],
+  "news": {
+    "keywords": [
+      "private equity",
+      "asset manager",
+      "buyout",
+      "leveraged buyout",
+      "private credit",
+      "hedge fund",
+      "etf",
+      "fundraising",
+      "assets under management",
+      "limited partners",
+      "dry powder",
+      "continuation fund"
+    ],
+    "companies": [
+      "BlackRock",
+      "Vanguard",
+      "Fidelity",
+      "State Street",
+      "Blackstone",
+      "KKR",
+      "Apollo",
+      "Carlyle",
+      "Brookfield",
+      "Ares",
+      "TPG"
+    ]
+  }
+}

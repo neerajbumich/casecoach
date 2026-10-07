@@ -1,0 +1,380 @@
+{
+ "id": "johnson-2022-quick-package-co",
+ "title": "Quick Package Co",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  78,
+  86
+ ],
+ "case_type": [
+  "Other",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Investment",
+ "industry": "logistics-3pl",
+ "sub_industry": "parcel-delivery",
+ "industry_source_label": "Transportation",
+ "client_type": "for-profit",
+ "geography": "United States",
+ "format": "interviewer-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Medium; Quant: Medium; Analysis: Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "fleet-investment",
+  "electric-vehicles",
+  "total-cost-of-ownership",
+  "payback",
+  "maintenance-labor",
+  "useful-life",
+  "charging-operations"
+ ],
+ "prompt": "Our client is a major delivery company in the United States. Quick Package Co. (QPC) is a national player with reach across the nation. QPC completes routine residential and commercial package delivery, like FedEx and UPS. Competing is a costly business these days and the company is facing a major decision about its vehicle fleet: should it invest in internal-combustion-engine gas trucks or electric vans? Our client is looking for your guidance. Assume the physical size and capacity of the two kinds of vans are equivalent.",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Determine which van type the company should pursue."
+  },
+  {
+   "question_topic": "Routes",
+   "answer": "These vans are for urban and local deliveries, not long-haul trucking."
+  },
+  {
+   "question_topic": "Existing fleet",
+   "answer": "QPC recently invested in electric trucks for interstate logistics."
+  }
+ ],
+ "interviewer_notes": "This is an investment decision centered on the time required for EV operating savings to recover its purchase premium. The source says there are no exhibits and all data must be read verbally; input tables here have no images. After fuel calculations, ask for a maintenance brainstorm before releasing costs. Initially the EV lasts 3 years; only later reveal a battery breakthrough extending life to 4 years. The book expects a switch from gas to EV after that reveal, but its $6,000 EV maintenance-labor calculation is wrong: 8 × 8 × $25 × 4 = $6,400. Correct annual cost is $26,000, saving $9,880 rather than a rounded $10,000 against gas. Exact simple payback is 4.0486 years, so 4 years alone does not justify an automatic economic switch. Preserve the source's 4-year life input and distinguish its intended rounded answer from the corrected decision. No charging capital, residual values or replacement-cycle economics are quantified.",
+ "suggested_framework": {
+  "summary": "Compare purchase and operating costs over useful life, then assess charging operations, fleet synergies and regulatory considerations.",
+  "tree": {
+   "label": "Van type decision",
+   "children": [
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Van acquisition, charging/repair equipment and tax incentives"
+      },
+      {
+       "label": "Fuel, maintenance and labor"
+      }
+     ]
+    },
+    {
+     "label": "Operations",
+     "children": [
+      {
+       "label": "Interior volume and modular organization"
+      },
+      {
+       "label": "Gas or charging access"
+      },
+      {
+       "label": "Refueling speed and downtime"
+      }
+     ]
+    },
+    {
+     "label": "Other considerations",
+     "children": [
+      {
+       "label": "Centralized charging synergies with existing EV trucks"
+      },
+      {
+       "label": "Alignment with public net-zero goals"
+      },
+      {
+       "label": "State or federal fleet-efficiency mandates"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you compare gas and electric delivery vans?",
+   "release_when": "Read the prompt; provide clarifications when requested.",
+   "info_to_release": "Van size and capacity are equivalent. The decision concerns urban and local routes. QPC already invested in EV trucks for interstate logistics.",
+   "exhibit_ids": [],
+   "expected_answer": "Compare acquisition cost plus fuel, maintenance and labor over each vehicle's useful life. Ask about charging equipment, downtime, capacity and possible synergies with the existing EV fleet, along with incentives, emissions objectives and regulations. Drive toward recovery of the EV purchase premium.",
+   "good_answer_signals": [
+    "Separates the local-van decision from the interstate fleet.",
+    "Evaluates lifetime economics, not just fuel prices."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Calculate annual fuel cost for each van type.",
+   "release_when": "After the structure, read the vehicle and usage data aloud only.",
+   "info_to_release": "Electric purchase price is $160,000, with $24 per charge and 300 miles per charge. Gas purchase price is $120,000, with $3 per gallon and 5 miles per gallon. Both travel 45,000 miles per year.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "EVs need 45,000 / 300 = 150 charges annually, costing $3,600. Gas vans use 45,000 / 5 = 9,000 gallons, costing $27,000. EV fuel savings are substantial, but its $40,000 purchase premium must be compared with all annual costs.",
+   "good_answer_signals": [
+    "Keeps charge, gallon and mileage units consistent.",
+    "Does not recommend EV before adding maintenance and labor."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What maintenance information would you need?",
+   "release_when": "Before revealing maintenance data.",
+   "info_to_release": "No additional numbers yet.",
+   "exhibit_ids": [],
+   "expected_answer": "Ask about mileage between maintenance events, tools required and vehicle life. For labor, ask how many people work on each event, hours required, needed skills and hourly rates. Explain how these determine annual maintenance expense and downtime.",
+   "good_answer_signals": [
+    "Separates event frequency from cost per event.",
+    "Distinguishes maintenance fees from separately specified labor."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Calculate total annual cost and whether EV savings recover the purchase premium within its life.",
+   "release_when": "After the brainstorm, read maintenance inputs verbally; prompt for frequency, fees and labor if needed.",
+   "info_to_release": "EV maintenance occurs every 11,000 miles, costs $4,000 per event and requires 8 people for 8 hours each at $25 per hour. Initial EV life is 3 years. Gas maintenance occurs every 15,000 miles, costs $2,000 per event and requires 8 people for 8 hours each at $15 per hour. Gas life is 5 years. The source permits approximating 45,000 / 11,000 = 4.09 EV services as 4 annually.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Using the source's 4-event EV convention, maintenance fees are $16,000 and labor is $6,400, not $6,000. EV annual cost is $3,600 + $16,000 + $6,400 = $26,000. Gas has 3 services, $6,000 fees and $2,880 labor, totaling $35,880 annually. Savings are $9,880; the $40,000 EV premium pays back in 4.0486 years, beyond the original 3-year life. Choose gas under the initial assumptions. Keeping the unrounded 4.0909 maintenance frequency gives EV annual cost about $26,509.09 and payback about 4.27 years, reinforcing the initial result.",
+   "good_answer_signals": [
+    "Correctly multiplies technicians by hours, rate and event count.",
+    "Uses net annual operating savings to recover only the purchase-price difference.",
+    "Treats frequency rounding as an explicit convention."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "A battery breakthrough increases EV life to 4 years. Does this change your recommendation?",
+   "release_when": "Only after the initial recommendation.",
+   "info_to_release": "The electric van's useful life increases from 3 years to 4 years due to improved battery technology. No other cost input changes.",
+   "exhibit_ids": [],
+   "expected_answer": "The EV becomes close to cost parity, but the corrected figures do not support an automatic switch. Four years of $9,880 savings recover $39,520 of the $40,000 premium, leaving $480 unrecovered. Four-year purchase-plus-operating costs are EV $264,000 and gas $263,520, even before considering the gas van's longer life. The book's rounded $26,000 versus $36,000 annual costs imply exactly 4-year payback and drive its intended EV recommendation. An EV choice needs validated charging synergies, incentives or other benefits; it is not established by the life change alone.",
+   "good_answer_signals": [
+    "Rechecks the threshold instead of mechanically changing the answer.",
+    "Distinguishes approximate parity from a proven cost advantage.",
+    "Does not invent a residual value or quantify unspecified synergies."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should QPC do, and what execution issues matter?",
+   "release_when": "After discussing the battery breakthrough.",
+   "info_to_release": "No extra quantified benefits or supplier terms are provided.",
+   "exhibit_ids": [],
+   "expected_answer": "Retain gas on the supplied exact cost-only comparison, while evaluating EVs as a near-parity strategic option after the 4-year breakthrough. The book's intended final EV choice depends on rounding; corrected payback is 4.0486 years with its 4-service convention. If charging synergies or negotiated terms close the remaining gap, EV adoption may be justified. Charging downtime is the main operational risk; schedule charging overnight or before/after local routes. The source's implementation next step for an EV choice is to select suppliers and negotiate terms.",
+   "good_answer_signals": [
+    "Uses the corrected economics consistently.",
+    "Preserves the source's charging mitigation and supplier next step without pretending EV is already the cheaper option."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Vehicle and Usage Inputs — Read Aloud",
+   "page": 81,
+   "kind": "table",
+   "description": "Verbal-only inputs from the source. No page image or worked fuel-cost results are exposed.",
+   "data": {
+    "columns": [
+     "Type",
+     "Purchase cost (USD)",
+     "Fuel price",
+     "Efficiency",
+     "Miles/year"
+    ],
+    "rows": [
+     [
+      "Electric",
+      160000,
+      "$24/charge",
+      "300 miles/charge",
+      45000
+     ],
+     [
+      "Gas",
+      120000,
+      "$3/gallon",
+      "5 miles/gallon",
+      45000
+     ]
+    ]
+   },
+   "key_insight": "EV has lower fuel cost but a higher purchase price, requiring a full-cost payback comparison.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Maintenance Inputs — Read Aloud",
+   "page": 83,
+   "kind": "table",
+   "description": "Initial maintenance and useful-life assumptions, supplied verbally. The later 4-year EV life is a separate reveal and is not included in this initial table.",
+   "data": {
+    "columns": [
+     "Type",
+     "Miles between services",
+     "Fee per service (USD)",
+     "People per service",
+     "Hours per person",
+     "Hourly labor cost (USD)",
+     "Initial life (years)"
+    ],
+    "rows": [
+     [
+      "Electric",
+      11000,
+      4000,
+      8,
+      8,
+      25,
+      3
+     ],
+     [
+      "Gas",
+      15000,
+      2000,
+      8,
+      8,
+      15,
+      5
+     ]
+    ]
+   },
+   "key_insight": "Higher EV maintenance and labor costs offset part of its fuel advantage; life limits premium recovery.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are annual fuel costs?",
+   "givens": [
+    "45,000 miles/year for both",
+    "EV 300 miles/charge at $24",
+    "Gas 5 miles/gallon at $3"
+   ],
+   "steps": [
+    "EV: 45,000 / 300 × $24 = $3,600/year.",
+    "Gas: 45,000 / 5 × $3 = $27,000/year."
+   ],
+   "answer": "$3,600 for EV and $27,000 for gas annually.",
+   "answer_value": 3600,
+   "unit": "USD/year, EV fuel",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are maintenance fees and labor costs?",
+   "givens": [
+    "EV every 11,000 miles; $4,000 fee; 8 people × 8 hours × $25/hour",
+    "Gas every 15,000 miles; $2,000 fee; 8 people × 8 hours × $15/hour",
+    "45,000 miles/year; source rounds EV frequency to 4 events"
+   ],
+   "steps": [
+    "EV frequency = 45,000 / 11,000 = 4.0909, rounded to 4 as the source allows; gas frequency = 3.",
+    "EV fees = 4 × $4,000 = $16,000; labor = 8 × 8 × $25 × 4 = $6,400.",
+    "Gas fees = 3 × $2,000 = $6,000; labor = 8 × 8 × $15 × 3 = $2,880."
+   ],
+   "answer": "EV maintenance costs $22,400 including $6,400 labor; gas costs $8,880 including $2,880 labor, under the source event-count convention.",
+   "answer_value": 6400,
+   "unit": "USD/year, EV maintenance labor",
+   "verified": false,
+   "book_answer_if_different": "Page 84 prints 8 people × 8 hours × $25 × 4 services = $6,000/year. Correct multiplication gives $6,400/year."
+  },
+  {
+   "id": "m3",
+   "question": "When do annual savings recover the EV purchase premium?",
+   "givens": [
+    "Purchase costs EV $160,000 and gas $120,000",
+    "Annual fuel EV $3,600 and gas $27,000",
+    "Annual maintenance including labor EV $22,400 and gas $8,880"
+   ],
+   "steps": [
+    "EV annual operating cost = $3,600 + $22,400 = $26,000.",
+    "Gas annual operating cost = $27,000 + $8,880 = $35,880.",
+    "Annual saving = $35,880 − $26,000 = $9,880.",
+    "Purchase premium = $40,000; payback = $40,000 / $9,880 = 4.048583 years.",
+    "Sensitivity using 45,000 / 11,000 unrounded EV services: annual EV cost = $3,600 + (45,000 / 11,000) × ($4,000 + 8 × 8 × $25) = $26,509.0909; payback = 4.268529 years."
+   ],
+   "answer": "About 4.05 years using the source's rounded 4-service convention, exceeding initial 3-year EV life. Unrounded maintenance-frequency sensitivity gives about 4.27 years.",
+   "answer_value": 4.048582996,
+   "unit": "years",
+   "verified": false,
+   "book_answer_if_different": "Page 84 gives EV cost $25,600 before rounding to $26,000, gas $35,880 rounded to $36,000, and about $10,000 annual savings / 4-year payback. Correct EV labor makes its cost $26,000 exactly; unrounded gas cost leaves only $9,880 savings and a payback slightly beyond 4 years."
+  },
+  {
+   "id": "m4",
+   "question": "Does a 4-year EV life establish a cost advantage?",
+   "givens": [
+    "Breakthrough EV life 4 years",
+    "EV purchase $160,000 and annual operating cost $26,000",
+    "Gas purchase $120,000 and annual operating cost $35,880"
+   ],
+   "steps": [
+    "EV four-year spending = $160,000 + 4 × $26,000 = $264,000.",
+    "Gas four-year spending = $120,000 + 4 × $35,880 = $263,520.",
+    "EV remains $480 more expensive; 4 × $9,880 = $39,520 saves less than its $40,000 premium."
+   ],
+   "answer": "No automatic switch: EV remains $480 more costly over four years under the source's rounded maintenance convention. Additional strategic benefits may justify EVs but are unquantified.",
+   "answer_value": 480,
+   "unit": "USD, EV excess four-year cost",
+   "verified": false,
+   "book_answer_if_different": "Page 85 says the 4-year battery breakthrough 'should flip the recommendation to Electric', repeated on page 86. That relies on rounded parity rather than the corrected exact inputs; no strict EV cost advantage is demonstrated."
+  }
+ ],
+ "synthesis": "Gas is the defensible choice on the supplied cost-only figures. EV's corrected annual operating cost is $26,000 versus $35,880 for gas, so its $40,000 premium takes about 4.05 years to recover. The battery breakthrough to 4 years makes EV close to parity, but not automatically cheaper: four-year spending is still $480 higher using the book's rounded maintenance frequency. This qualifies the book's intended final EV recommendation. Verify maintenance timing, charging synergies, supplier terms and residual/replacement economics before switching. If EV is selected for validated strategic benefits, manage charging downtime overnight or around local routes, then select suppliers and negotiate terms.",
+ "what_great_looks_like": [
+  "Builds fuel, service-fee and labor costs separately.",
+  "Compares the incremental purchase premium with annual cost savings.",
+  "Corrects the EV labor error and does not let rounding decide a borderline recommendation.",
+  "Keeps the 4-year technology reveal separate from the initial 3-year case.",
+  "Relates charging operations to predictable local routes and existing EV infrastructure."
+ ],
+ "common_pitfalls": [
+  "Calculating 8 × 8 × $25 × 4 as $6,000.",
+  "Ignoring labor or counting it inside the separately supplied fee.",
+  "Comparing fuel costs alone.",
+  "Treating rounded four-year parity as proof of an EV advantage.",
+  "Inventing residual values or incentive amounts to force the source recommendation."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-05",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Dedup verdict NEW. Pages 78–86 read; rendered pages 79–86 visually inspected. The source explicitly requires verbal-only data: two input tables retained without images; no calculated answers in data. EV maintenance labor on page 84 is $6,400, not $6,000. Correct annual EV cost is $26,000; exact gas cost is $35,880, so $9,880 savings imply 4.0486-year payback using the source's allowed 4-event maintenance approximation. Unrounded frequency sensitivity gives $26,509.09 and 4.2685 years. Page 85's 4-year life remains unchanged in info_to_release, but the purported automatic switch to EV is corrected: over four years EV costs $480 more even under the source's favorable rounding convention. The book's rounded $26,000/$36,000 inputs would give parity, not a demonstrated cost advantage. Medium confidence reflects source arithmetic and conclusion inconsistency. No unsupported charging capital, incentives, residual value or replacement model is invented. Source Investment mapped to Other / Cost Reduction/Operations for an operating-fleet capital choice. Overall Medium normalized in code to 3. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type taxonomy mapping",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "math[2] unrounded-frequency sensitivity",
+   "math[3] corrected four-year comparison",
+   "synthesis corrected conditional recommendation",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "three-cs",
+ "name": "3Cs (Company, Customers, Competitors)",
+ "category": "tool",
+ "summary": "A quick strategic scan: what customers need, what competitors offer, and what the company can uniquely deliver. The strategy sits where the three overlap.",
+ "opening_line": "I'd start with a quick scan of customers, competitors and our own company, looking for where customer needs, our strengths and competitors' gaps overlap.",
+ "when_to_use": [
+  "Early scoping of a broad strategy question",
+  "Positioning / differentiation questions",
+  "A sub-bucket in market entry or new product cases"
+ ],
+ "when_not_to_use": [
+  "Numbers-driven questions (profit, breakeven)",
+  "As a full structure for MBB cases: tailor it instead"
+ ],
+ "tree": {
+  "label": "Strategic position",
+  "children": [
+   {
+    "label": "Customers",
+    "children": [
+     {
+      "label": "Segments & needs"
+     },
+     {
+      "label": "Buying behaviour"
+     }
+    ]
+   },
+   {
+    "label": "Competitors",
+    "children": [
+     {
+      "label": "Offerings & positioning"
+     },
+     {
+      "label": "Strengths / weaknesses"
+     }
+    ]
+   },
+   {
+    "label": "Company",
+    "children": [
+     {
+      "label": "Capabilities & assets"
+     },
+     {
+      "label": "Cost position"
+     },
+     {
+      "label": "Brand"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Overlap",
+   "questions": [
+    "Which customer need can we serve better than competitors?"
+   ],
+   "data_to_ask": [
+    "Customer research",
+    "Competitor comparison"
+   ]
+  }
+ ],
+ "industry_adaptations": [],
+ "common_mistakes": [
+  "Staying descriptive with no 'so what'",
+  "Too generic for the specific case"
+ ],
+ "related": [
+  "market-entry",
+  "porters-five-forces",
+  "customer-segmentation"
+ ],
+ "match": {
+  "case_types": [],
+  "tags": [
+   "positioning",
+   "differentiation"
+  ],
+  "keywords": [
+   "customer",
+   "competitor",
+   "company"
+  ]
+ }
+}

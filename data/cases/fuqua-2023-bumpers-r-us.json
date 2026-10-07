@@ -1,0 +1,326 @@
+{
+ "id": "fuqua-2023-bumpers-r-us",
+ "title": "Bumpers R Us",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  37,
+  45
+ ],
+ "author": "Helen Birdsong (Fuqua '24)",
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Operations",
+ "industry": "automotive-ev",
+ "sub_industry": "auto-parts",
+ "industry_source_label": "Manufacturing",
+ "geography": "Southeastern United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Kearney"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Easy; Qualitative: Medium",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "lead-time",
+  "manufacturing",
+  "bottleneck",
+  "process-improvement",
+  "capital-allocation",
+  "automotive-supplier"
+ ],
+ "concepts_tested": [
+  "process mapping",
+  "lead-time calculation",
+  "root-cause analysis",
+  "initiative selection"
+ ],
+ "prompt": "Bumpers-R-Us is a southeastern US manufacturer of plastic automotive bumpers and a Tier-1 supplier to global OEM CNW. It imports raw materials, manufactures bumpers, and trucks them 360 miles to CNW. During the past six months, delivery lead time increased, and CNW warned of fines and lost contracts unless prior performance is restored. Find the source and fix it quickly.",
+ "clarifying_info": [
+  {
+   "question_topic": "Business scope",
+   "answer": "The domestic supplier buys materials globally and sells only to the local CNW plant."
+  },
+  {
+   "question_topic": "Financials",
+   "answer": "Last year's profit was $25M with $10M of costs."
+  },
+  {
+   "question_topic": "Process",
+   "answer": "The stages are molding, painting, bonding/assembly, and transportation."
+  },
+  {
+   "question_topic": "Target and budget",
+   "answer": "Lead time before the recent deterioration was 29 hours; the general manager allocated up to $5M to fix it."
+  }
+ ],
+ "interviewer_notes": "This interviewer-led case diagnoses a process delay. Discuss internal and external causes, then use Exhibit 1 to calculate a current 37-hour lead time and identify painting as the longest stage. After an improvement brainstorm, read the five initiatives aloud and require a combination that restores 29 hours within the $5M budget.",
+ "suggested_framework": {
+  "summary": "Diagnose internal process, labor, external demand/supply, and market changes before selecting improvements against time and budget targets.",
+  "tree": {
+   "label": "Restore CNW delivery lead time",
+   "children": [
+    {
+     "label": "Internal process",
+     "children": [
+      {
+       "label": "Stage times, machines, downtime, queues, quality/rework, and bottlenecks"
+      }
+     ]
+    },
+    {
+     "label": "Labor",
+     "children": [
+      {
+       "label": "Headcount, shifts, skills, incentives, and absenteeism"
+      }
+     ]
+    },
+    {
+     "label": "External",
+     "children": [
+      {
+       "label": "CNW demand/mix, suppliers, raw-material availability/prices, and transportation"
+      }
+     ]
+    },
+    {
+     "label": "Solution economics",
+     "children": [
+      {
+       "label": "Hours saved, investment, implementation delay, reliability, and $5M cap"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose the lead-time increase?",
+   "expected_answer": "Examine each process stage, its machines, queues, downtime and rework; labor levels and shifts; CNW order volume and mix; supplier and raw-material changes; and transport capacity, traffic, and distance. Compare current stage times with the historical 29-hour process, then assess remedies by hours saved, cost, and implementation risk.",
+   "good_answer_signals": [
+    "Covers internal and external drivers",
+    "Requests stage and machine data",
+    "Uses target and budget as constraints"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What is current total lead time, and where would you focus?",
+   "release_when": "Provide Exhibit 1 once the candidate focuses on the process.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Transport time is 360 miles / 60 mph = 6 hours. Total lead time is 9 hours molding + 16 painting + 6 assembly + 6 transport = 37 hours, eight above the historical 29. Painting is the longest stage and has four machines, making it the logical focus; transport has the most individual assets but only six hours total.",
+   "good_answer_signals": [
+    "Calculates transport time",
+    "Gets 37 hours and an eight-hour gap",
+    "Focuses on painting"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What initiatives could improve the manufacturing process?",
+   "expected_answer": "For machines, replace or add equipment and update software or maintenance. For labor, add workers or shifts, train staff, and use output incentives. Consider outsourcing selected work, reducing queues and changeovers, improving scheduling, and preventing rework, while checking whether implementation downtime offsets gains.",
+   "good_answer_signals": [
+    "Structures machine and labor levers",
+    "Includes outsourcing and process changes",
+    "Considers implementation downtime"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Which initiatives should the general manager choose?",
+   "info_to_release": "1) Replace oldest paint-line robot: 3-hour reduction, $3.5M; robot is 8 years old versus up to 10-year norm. 2) Upgrade robot software: 5-hour reduction, $1.5M; current version is three years old and second-most-recent. 3) Add paint robot: 4-hour reduction, $5M; space is available. 4) Add third paint shift: 8-hour reduction, $6.5M; no third shift exists elsewhere and much time clears prior-shift inventory. 5) Outsource partial painting: 2-hour reduction, $2M.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Choose robot replacement plus software upgrade. Together they cost exactly $5M and save 8 hours, reducing lead time from 37 to the 29-hour target. The third shift saves eight hours but exceeds budget; a new robot uses the full budget but leaves lead time at 33; other feasible combinations save fewer than eight hours.",
+   "good_answer_signals": [
+    "Tests combinations",
+    "Meets both target and budget",
+    "Acknowledges the selected robot is not yet beyond normal life"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the general manager do?",
+   "expected_answer": "Replace the oldest paint robot and upgrade paint-line software. Painting drives the delay, and the two initiatives save eight hours for exactly $5M, restoring the historical 29-hour lead time. Before committing, confirm vendor quotes, installation timing, software compatibility, downtime, and maintenance risk, then track stage-level lead time after implementation.",
+   "good_answer_signals": [
+    "Recommends both initiatives",
+    "Quantifies 29 hours and $5M",
+    "Addresses implementation risk"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Manufacturing process",
+   "page": 40,
+   "kind": "other",
+   "description": "Four-stage process with times, machine/truck counts, distance, and truck speed.",
+   "data": {
+    "columns": [
+     "Stage",
+     "Time/input",
+     "Assets"
+    ],
+    "rows": [
+     [
+      "Molding",
+      "9 hours",
+      "5 machines"
+     ],
+     [
+      "Painting",
+      "16 hours",
+      "4 machines"
+     ],
+     [
+      "Bonding/assembly",
+      "6 hours",
+      "4 machines"
+     ],
+     [
+      "Transportation",
+      "360 miles at 60 mph",
+      "6 trucks"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-bumpers-r-us/p040.webp",
+   "image_has_answers": false,
+   "key_insight": "Painting is the longest stage, and current total lead time is 37 hours.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Strategic initiatives",
+   "page": 43,
+   "kind": "table",
+   "description": "Potential lead-time reductions, costs, and context read aloud by the interviewer.",
+   "data": {
+    "columns": [
+     "Initiative",
+     "Lead-time reduction",
+     "Cost"
+    ],
+    "rows": [
+     [
+      "Replace oldest paint robot",
+      "3 hours",
+      "$3.5M"
+     ],
+     [
+      "Upgrade paint-robot software",
+      "5 hours",
+      "$1.5M"
+     ],
+     [
+      "Add paint robot",
+      "4 hours",
+      "$5M"
+     ],
+     [
+      "Add third paint shift",
+      "8 hours",
+      "$6.5M"
+     ],
+     [
+      "Outsource partial painting",
+      "2 hours",
+      "$2M"
+     ]
+    ]
+   },
+   "key_insight": "Only replacement plus software upgrade reaches the eight-hour target within $5M.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is current lead time?",
+   "givens": [
+    "Molding 9 hours",
+    "Painting 16",
+    "Assembly 6",
+    "360 miles at 60 mph"
+   ],
+   "steps": [
+    "Transport=360/60=6 hours",
+    "Total=9+16+6+6=37 hours",
+    "Gap=37-29=8 hours"
+   ],
+   "answer": "37 hours, eight above target",
+   "answer_value": 37,
+   "unit": "hours",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What initiative combination reaches target within budget?",
+   "givens": [
+    "Replace: 3 hours/$3.5M",
+    "Software: 5 hours/$1.5M",
+    "$5M budget"
+   ],
+   "steps": [
+    "Time saved=3+5=8 hours",
+    "Cost=$3.5M+$1.5M=$5M",
+    "New lead time=37-8=29 hours"
+   ],
+   "answer": "Replace robot and upgrade software; $5M cost and 29-hour lead time",
+   "answer_value": 29,
+   "unit": "hours after improvement",
+   "verified": true
+  }
+ ],
+ "synthesis": "Replace the oldest paint robot and upgrade its software. Painting is the 16-hour bottleneck, and the paired initiatives reduce the 37-hour process by eight hours to the 29-hour target for exactly the $5M budget. Confirm vendor quotes, installation downtime, compatibility, and maintenance before execution and track stage-level timing afterward.",
+ "what_great_looks_like": [
+  "Calculates transport rather than treating miles as time",
+  "Finds the painting bottleneck",
+  "Tests combinations against both constraints",
+  "Notes implementation downtime",
+  "Gives a measurable recommendation"
+ ],
+ "common_pitfalls": [
+  "Forgetting transport time",
+  "Choosing the third shift despite budget",
+  "Choosing a new robot despite insufficient reduction",
+  "Assuming every initiative can be stacked without checking",
+  "Ignoring installation delays"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Deduplication verdict was NEW. Both calculations were independently recomputed and match the source. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "case_type mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

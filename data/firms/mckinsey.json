@@ -1,0 +1,57 @@
+{
+  "id": "mckinsey",
+  "name": "McKinsey & Company",
+  "tier": "MBB",
+  "one_liner": "The largest of the MBB firms, known for top-management strategy work, a one-firm global partnership, and a highly structured, interviewer-led recruiting process.",
+  "at_a_glance": [
+    "Founded 1926; headquartered in New York.",
+    "Roughly 38,000+ employees across 130+ cities in 65+ countries.",
+    "Employee-owned private firm run as a single global partnership.",
+    "Alumni network of 50,000+ former colleagues, prominent in senior corporate roles.",
+    "Known research and capability arms include the McKinsey Global Institute and QuantumBlack (AI)."
+  ],
+  "interview_process": {
+    "rounds": [
+      "Screen: online Solve assessment for most consultant applicants.",
+      "First round: ~2 interviews, each combining a Personal Experience Interview story and a problem-solving case.",
+      "Final round: ~2-3 interviews with partners, same PEI + case structure, often with deeper PEI probing."
+    ],
+    "case_style": "Interviewer-led problem-solving interview: the interviewer asks a sequence of questions (structure, exhibit reading, math, creative brainstorm, synthesis) rather than you steering.",
+    "fit_style": "Personal Experience Interview (PEI): one deep story per interview, probed in detail. McKinsey names four qualities: personal impact, entrepreneurial drive, inclusive leadership and courageous change.",
+    "assessments": "Solve, a gamified digital problem-solving assessment; McKinsey says no specific preparation is needed. Length is stated in your invitation."
+  },
+  "what_they_look_for": [
+    "Structured problem solving under ambiguity",
+    "Personal impact: influencing people and outcomes",
+    "Entrepreneurial drive: ambitious goals, persistence through obstacles",
+    "Inclusive leadership: bringing diverse people together",
+    "Clear, top-down communication of insights"
+  ],
+  "culture": [
+    "Strong 'obligation to dissent' norm: juniors are expected to voice disagreement.",
+    "'One firm' model: offices share one global P&L and staffing is fluid across geographies.",
+    "Heavy investment in formal training and feedback; apprenticeship culture on teams."
+  ],
+  "why_us_angles": [
+    "Which McKinsey Global Institute or QuantumBlack work connects to problems you care about, and why?",
+    "How does the one-firm, globally staffed model fit any interest you have in cross-border work?",
+    "Which of your PEI-style stories shows impact you would want to scale at McKinsey?",
+    "Which McKinsey practice or industry group matches your industry background?"
+  ],
+  "prep_tips": [
+    "Build 4+ PEI stories with rich detail: your specific actions, others' reactions, obstacles, and measurable result.",
+    "Practice interviewer-led cases: answer only the question asked, then pause for the next prompt.",
+    "Drill fast exhibit reading and clean mental math, stating the 'so what' after every number.",
+    "Prepare for a creative brainstorm question: generate a structured, MECE list quickly.",
+    "Take Solve seriously but calmly; follow tutorials and manage time within each task.",
+    "Practice McKinsey's public sample cases (e.g., Beautify, Diconsa) to calibrate the format."
+  ],
+  "practice_mode": "mckinsey",
+  "sources": [
+    "https://www.mckinsey.com/careers/interviewing",
+    "https://www.mckinsey.com/careers/mckinsey-digital-assessment",
+    "https://www.mckinsey.com/locations",
+    "https://www.mckinsey.com/careers/our-roles/tech-and-ai/client-facing-roles"
+  ],
+  "checked": "2026-09"
+}

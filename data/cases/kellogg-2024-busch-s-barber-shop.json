@@ -1,0 +1,505 @@
+{
+ "id": "kellogg-2024-busch-s-barber-shop",
+ "title": "Busch's Barber Shop",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  75,
+  85
+ ],
+ "author": "Michael Eidem (Kellogg 2020); edited by Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "Market Entry",
+  "Pricing"
+ ],
+ "case_type_source_label": "Y04 Market entry; Y06 Opportunity assessment",
+ "industry": "beauty",
+ "sub_industry": "salons-services",
+ "industry_source_label": "X09 Hospitality & Leisure",
+ "geography": "Evanston, IL, USA",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-entry",
+  "market-sizing",
+  "unit-economics",
+  "location-comparison",
+  "loyalty-program",
+  "pricing",
+  "small-business",
+  "break-even"
+ ],
+ "concepts_tested": [
+  "Z08 Market sizing (2)",
+  "Z12 Creativity (5)"
+ ],
+ "fit_question": "Tell me something about yourself that is not on your resume.",
+ "prompt": "Your friend, a current MBA student, has his heart set on starting a barbershop in Evanston after graduation. There are plenty of barbershops and salons near the Northwestern campus, but your eager friend argues they are either (A) vastly overpriced or (B) cheap, but really low quality. He wants your help coming up with a plan.",
+ "clarifying_info": [
+  {
+   "question_topic": "Customers",
+   "answer": "For this analysis, your friend wants to focus solely on a target market of the male population of Evanston."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "Highly competitive, segmented into two distinct groups (high price & low price). Friend believes there is a profitable space in between these two segments."
+  },
+  {
+   "question_topic": "Market growth",
+   "answer": "Growing at GDP over the past five years."
+  },
+  {
+   "question_topic": "Your friend",
+   "answer": "No specific experience in the cosmetology area; has enough savings to fund initial upfront costs and early ongoing costs. Profitability is the main goal in the short term — wants to be profitable in year one to justify not taking a high-paying consulting job."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "Barbershop only intends to initially sell haircut service. Any other additional products or services can be considered in the future."
+  }
+ ],
+ "interviewer_notes": "Problem: develop a market entry strategy for Busch's Barber Shop. Key case steps: (1) develop a structure, (2) confirm market attractiveness/size, (3) calculate revenue and costs for two potential locations, (4) evaluate profitability of a potential loyalty program, (5) brainstorm other areas of consideration, (6) provide client recommendation.",
+ "suggested_framework": {
+  "summary": "A sample structure covering client goals, market size/growth/competition, profitability (volume, pricing, costs), go-to-market strategy, barriers, and risks.",
+  "tree": {
+   "label": "Should my friend start Busch's Barber Shop?",
+   "children": [
+    {
+     "label": "Client",
+     "children": [
+      {
+       "label": "Specific goals, strengths, capabilities, resources"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size"
+      },
+      {
+       "label": "Growth"
+      },
+      {
+       "label": "Competition"
+      },
+      {
+       "label": "Customer segmentation"
+      }
+     ]
+    },
+    {
+     "label": "Profitability",
+     "children": [
+      {
+       "label": "Expected customer volume, target customers"
+      },
+      {
+       "label": "Price elasticity, pricing method (e.g. loyalty), service mix"
+      },
+      {
+       "label": "Costs: fixed (rent, equipment, merchandise, advertising) and variable (labor)"
+      }
+     ]
+    },
+    {
+     "label": "Go-to strategy",
+     "children": [
+      {
+       "label": "Build, acquire, or partner with additional co-owner"
+      }
+     ]
+    },
+    {
+     "label": "Barriers",
+     "children": [
+      {
+       "label": "Capital"
+      },
+      {
+       "label": "Local regulations"
+      },
+      {
+       "label": "Attracting talent"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Competitive response"
+      },
+      {
+       "label": "No differentiation"
+      },
+      {
+       "label": "Opportunity cost"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a framework for how to approach this new venture.",
+   "release_when": "Only after candidate asks — release the clarifying information (target customer, competitive dynamics, market growth, friend's constraints, product scope) on request.",
+   "info_to_release": "Clarifying information: male-only target market; two-segment, highly competitive market with a perceived middle-ground opportunity; market growing at GDP; friend has savings but no cosmetology experience and wants year-one profitability; haircuts-only product initially.",
+   "expected_answer": "A structure covering Client (goals/resources), Market (size, growth, competition, segmentation), Profitability (volume, pricing/service mix, fixed and variable costs), Go-to-market strategy (build/acquire/partner), Barriers (capital, regulation, talent), and Risks (competitive response, differentiation, opportunity cost).",
+   "good_answer_signals": [
+    "Structure is MECE and tailored to a small-business market-entry decision, not just a generic profitability tree",
+    "Explicitly separates fixed vs. variable costs",
+    "Surfaces the friend's personal constraints (capital, no experience) as a distinct bucket"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "Following discussion of the framework, briefly market-size the adult men's haircut market in Evanston.",
+   "expected_answer": "There is no single correct answer. A good approach walks through: city population (~60k), male/female ratio (~50/50), % of men who pay for haircuts, % who get cut in Evanston vs. downtown Chicago, average annual haircuts per person, and price segmentation (high-end vs. low-end average prices and the split between them) — ending in a total annual dollar amount spent on haircuts by Evanston men.",
+   "good_answer_signals": [
+    "Makes clearly-labeled, defensible assumptions rather than guessing silently",
+    "Moves quickly since this sizing is not the primary purpose of the case",
+    "Shows structure and intuition rather than aiming for a single 'right' number"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Your friend thinks there is a profitable middle ground between the low-cost/low-quality cut and the high-cost/high-quality cut markets. Calculate the revenue and costs for two potential locations to determine the optimal choice.",
+   "release_when": "After market sizing is complete.",
+   "info_to_release": "Exhibits A & B, plus: an average Evanston male pays for 10 haircuts/year; the shop is open 10 hours/day, 360 days/year; customers stay with the same barbershop once they choose (no switching back and forth); the survey underlying the customer-steal projections described the new shop as in-between quality at a $30 price point.",
+   "exhibit_ids": [
+    "exA-pie",
+    "exA-bar",
+    "exB"
+   ],
+   "expected_answer": "Adult male customers: low-end segment = 60k x 50% x 2/3 ≈ 20k; high-end segment = 60k x 50% x 1/3 ≈ 10k. Customers stolen: Downtown = 20k x 10% + 10k x 5% = 2.5k; Not Downtown = 20k x 5% + 10k x 5% = 1.5k. Revenue (customers x 10 cuts/yr x $30): Downtown = $750k; Not Downtown = $450k. Costs: Downtown = $50k upfront + $48k rent (annualized) + $216k labor = $314k; Not Downtown = $55k upfront + $12k rent (annualized) + $108k labor = $175k. Year-1 profit: Downtown = $436k; Not Downtown = $275k. Downtown has higher projected first-year profit and is the recommended location.",
+   "good_answer_signals": [
+    "Correctly applies the 2/3 low-end / 1/3 high-end population split",
+    "Annualizes labor correctly using hours/day x days/year",
+    "Compares profit, not just revenue, across the two locations",
+    "Optionally raises other location factors (long-term plans, proximity, visibility, layout, capacity for growth, demographic fit) if asked"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Your friend (having chosen the downtown location) is considering a loyalty program: give customers their 10th haircut free, projected to increase total first-year customers by 10%. Is this a profitable decision?",
+   "release_when": "After the location decision is made.",
+   "info_to_release": "Costs are assumed to remain constant (no marginal cost per haircut since employees are hourly and no additional hires are needed).",
+   "expected_answer": "New customer count = 2,500 x 110% = 2,750. Expected revenue with the loyalty program = 2,750 customers x (10 - 1) paid haircuts x $30 = $742.5k, versus $750k without the program. Since costs don't change, this is a small net revenue decline (~1%) and not a profitable decision as modeled — though the decline is minimal, so it's worth asking whether other benefits (building customer base in year one, upselling additional products/services to the larger base) could still justify it.",
+   "good_answer_signals": [
+    "Correctly subtracts the one free haircut when computing paid haircuts per customer (9, not 10)",
+    "Notices costs are assumed flat and states why",
+    "Goes beyond the yes/no answer to note the decline is small and could be justified by other strategic benefits"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "(Optional) What changes could be made to make the loyalty program profitable? What are the pros and cons of a membership-based pricing model (a flat monthly fee for unlimited haircuts) instead, and how would you think about setting its price? What are some ways to attract and retain quality talent without paying as much as high-end competitors?",
+   "expected_answer": "Loyalty fix ideas: decrease the frequency of free cuts, or make the reward 50% off instead of fully free, etc. Membership pros: more predictable revenue, more customer data, differentiation. Membership cons: adverse selection (only heavy users sign up), potentially unhappy employees if tips fall under the new payment scheme. Talent ideas: more flexible schedules, end-of-year profit sharing to build ownership, recruiting rising stars from the low-end market before they move up.",
+   "good_answer_signals": [
+    "Generates multiple distinct ideas per sub-question rather than one",
+    "Flags adverse selection as a specific risk of membership pricing",
+    "Ties talent strategy back to the shop's cost structure (avoiding high-end base wages)"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your client recommendation.",
+   "expected_answer": "Your friend should choose the downtown location for starting his new barbershop, without the loyalty program (projected first-year profit ≈$430k+; implementing the free-10th-haircut program decreases revenue under current growth expectations). Risks: the numbers assume immediate customer acquisition, which is unrealistic without an effective marketing campaign; competitive response is possible but the projected steal from the high-end segment is only 5%, unlikely to cause a drastic reaction; customers may not perceive enough of a quality increase to justify a higher price vs. other low-end options; and there are opportunity costs (other uses of capital, other locations, or buying an existing shop instead of starting new). Next steps: due diligence on buying an existing shop; more extensive customer surveys to confirm projections; research hiring qualified barbers; sign lease, purchase equipment, bring on an advisor, and develop a marketing strategy; revisit changes to the loyalty program to improve its profitability.",
+   "good_answer_signals": [
+    "Recommendation is specific (location + no loyalty program) and quantified",
+    "Risk list goes beyond generic 'competition' to reference the actual projected steal percentages",
+    "Next steps are concrete and sequenced"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA-pie",
+   "title": "Where do men in Evanston get their haircut? (price-tier split)",
+   "page": 78,
+   "kind": "pie",
+   "description": "Pie chart splitting the existing Evanston men's haircut market by price tier: low-end ($) vs. high-end ($$$).",
+   "data": {
+    "columns": [
+     "Price tier",
+     "Share of market"
+    ],
+    "rows": [
+     [
+      "Low-end ($, avg price $20)",
+      "67%"
+     ],
+     [
+      "High-end ($$$, avg price $50)",
+      "33%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-busch-s-barber-shop/p078.webp",
+   "key_insight": "Two-thirds of the existing market is low-end (cheap, low quality) and one-third is high-end (overpriced), consistent with the friend's premise that a mid-market gap exists.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exA-bar",
+   "title": "Competitors' market share by segment",
+   "page": 78,
+   "kind": "bar",
+   "description": "Two stacked bar charts (100% each) showing the market-share split among existing competitors within the low-end segment and within the high-end segment.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Competitor share layer 1",
+     "Competitor share layer 2",
+     "Competitor share layer 3",
+     "Competitor share layer 4",
+     "Competitor share layer 5"
+    ],
+    "rows": [
+     [
+      "Low-end",
+      30,
+      30,
+      20,
+      10,
+      10
+     ],
+     [
+      "High-end",
+      40,
+      35,
+      25,
+      null,
+      null
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-busch-s-barber-shop/p078.webp",
+   "key_insight": "The low-end segment is more fragmented (five competitors) while the high-end segment is more concentrated (three competitors), which is context for how much customer 'steal' a new entrant might realistically capture.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exB",
+   "title": "Market Entry Projections (two candidate locations)",
+   "page": 79,
+   "kind": "table",
+   "description": "Table comparing two potential locations (Downtown vs. Not Downtown) on expected customer steal from the low-end and high-end segments, upfront costs (equipment, advertising), and ongoing costs (rent, labor).",
+   "data": {
+    "columns": [
+     "Location",
+     "Description",
+     "Customer steal from low-end",
+     "Customer steal from high-end",
+     "Equipment (upfront)",
+     "Advertising (upfront)",
+     "Rent (monthly)",
+     "Labor"
+    ],
+    "rows": [
+     [
+      "Location #1",
+      "Downtown",
+      "10%",
+      "5%",
+      "$30k",
+      "$20k",
+      "$4k",
+      "4 workers, $15/hr"
+     ],
+     [
+      "Location #2",
+      "Not Downtown",
+      "5%",
+      "5%",
+      "$30k",
+      "$25k",
+      "$1k",
+      "2 workers, $15/hr"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-busch-s-barber-shop/p079.webp",
+   "key_insight": "Downtown has a higher expected customer steal and higher rent/advertising, while Not Downtown is cheaper to run but captures fewer customers — the tradeoff the location math resolves.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "segment-population",
+   "question": "How many adult male customers are in the low-end and high-end segments?",
+   "givens": [
+    "Evanston adult population = 60k, 50% male",
+    "Low-end share of market ≈ 67% (2/3)",
+    "High-end share of market ≈ 33% (1/3)"
+   ],
+   "steps": [
+    "Adult males = 60k x 50% = 30k",
+    "Low-end = 30k x 2/3 = 20k",
+    "High-end = 30k x 1/3 = 10k"
+   ],
+   "answer": "Low-end ≈ 20k adult male customers; High-end ≈ 10k adult male customers.",
+   "unit": "customers",
+   "verified": true
+  },
+  {
+   "id": "downtown-revenue",
+   "question": "What is projected annual revenue for the Downtown location?",
+   "givens": [
+    "Downtown steals 10% of low-end (20k) and 5% of high-end (10k) customers",
+    "10 haircuts/person/year",
+    "$30 price per haircut"
+   ],
+   "steps": [
+    "Customers = 20k x 10% + 10k x 5% = 2,000 + 500 = 2,500",
+    "Revenue = 2,500 x 10 x $30 = $750,000"
+   ],
+   "answer": "$750k annual revenue",
+   "answer_value": 750000,
+   "unit": "$/year",
+   "verified": true
+  },
+  {
+   "id": "not-downtown-revenue",
+   "question": "What is projected annual revenue for the Not Downtown location?",
+   "givens": [
+    "Not Downtown steals 5% of low-end (20k) and 5% of high-end (10k) customers",
+    "10 haircuts/person/year",
+    "$30 price per haircut"
+   ],
+   "steps": [
+    "Customers = 20k x 5% + 10k x 5% = 1,000 + 500 = 1,500",
+    "Revenue = 1,500 x 10 x $30 = $450,000"
+   ],
+   "answer": "$450k annual revenue",
+   "answer_value": 450000,
+   "unit": "$/year",
+   "verified": true
+  },
+  {
+   "id": "downtown-costs",
+   "question": "What are total year-1 costs for the Downtown location?",
+   "givens": [
+    "Upfront: $30k equipment + $20k advertising",
+    "Rent: $4k/month",
+    "Labor: 4 workers x $15/hr x 10 hr/day x 360 days/year"
+   ],
+   "steps": [
+    "Upfront = 30k + 20k = $50k",
+    "Annual rent = $4k x 12 = $48k",
+    "Labor = 4 x 15 x 10 x 360 = $216,000",
+    "Total = 50k + 48k + 216k = $314k"
+   ],
+   "answer": "$314k total year-1 cost",
+   "answer_value": 314000,
+   "unit": "$",
+   "verified": true
+  },
+  {
+   "id": "not-downtown-costs",
+   "question": "What are total year-1 costs for the Not Downtown location?",
+   "givens": [
+    "Upfront: $30k equipment + $25k advertising",
+    "Rent: $1k/month",
+    "Labor: 2 workers x $15/hr x 10 hr/day x 360 days/year"
+   ],
+   "steps": [
+    "Upfront = 30k + 25k = $55k",
+    "Annual rent = $1k x 12 = $12k",
+    "Labor = 2 x 15 x 10 x 360 = $108,000",
+    "Total = 55k + 12k + 108k = $175k"
+   ],
+   "answer": "$175k total year-1 cost",
+   "answer_value": 175000,
+   "unit": "$",
+   "verified": true
+  },
+  {
+   "id": "profit-comparison",
+   "question": "Which location has higher projected first-year profit?",
+   "givens": [
+    "Downtown: revenue $750k, cost $314k",
+    "Not Downtown: revenue $450k, cost $175k"
+   ],
+   "steps": [
+    "Downtown profit = 750k - 314k = $436k",
+    "Not Downtown profit = 450k - 175k = $275k"
+   ],
+   "answer": "Downtown location wins with ≈$436k year-1 profit vs. $275k for Not Downtown.",
+   "answer_value": 436000,
+   "unit": "$ (Downtown year-1 profit)",
+   "verified": true
+  },
+  {
+   "id": "loyalty-program-check",
+   "question": "Is the proposed loyalty program (free 10th haircut, +10% total customers) a profitable decision for the Downtown location?",
+   "givens": [
+    "Baseline Downtown customers = 2,500",
+    "Projected customer increase = +10%",
+    "Under the program, customers pay for only 9 of every 10 haircuts",
+    "Price = $30",
+    "Costs assumed constant (no marginal cost per cut)"
+   ],
+   "steps": [
+    "New customer count = 2,500 x 1.10 = 2,750",
+    "Revenue with program = 2,750 x 9 x $30 = $742,500",
+    "Compare to baseline revenue of $750,000: 742,500 - 750,000 = -$7,500"
+   ],
+   "answer": "Revenue falls by ≈$7.5k (from $750k to $742.5k); since costs are unchanged, this is not a profitable decision as modeled, though the decline is small (~1%).",
+   "answer_value": -7500,
+   "unit": "$ (change in annual revenue)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Your friend should choose the downtown location for starting his new barbershop, without the loyalty program — projected first-year profits of ~$430k. Implementing the free-10th-haircut loyalty program results in decreased revenue at current growth expectations. Key risks: the numbers assume immediate customer acquisition, which is unrealistic without an effective marketing campaign; possible competitive response from high-end stores, though unlikely to be drastic given only 5% projected steal from that segment; customers may not perceive enough quality increase to justify the price versus other low-end options; and there are opportunity costs (other uses of capital, other possible locations, or buying an existing shop instead of starting new).",
+ "what_great_looks_like": [
+  "Builds a tailored, MECE framework rather than reciting a generic profitability tree",
+  "Moves quickly and confidently through the market-sizing exercise, since it is a secondary check rather than the core of the case",
+  "Compares profit (not just revenue) across the two locations and correctly annualizes monthly rent and hourly labor",
+  "Catches the '9 paid haircuts, not 10' nuance in the loyalty-program math",
+  "Surfaces real business risks and concrete next steps in the final recommendation, not just a location choice"
+ ],
+ "common_pitfalls": [
+  "Spending too long on the market-sizing exercise instead of moving quickly as instructed",
+  "Forgetting to annualize the monthly rent figure before comparing it to annual revenue",
+  "Counting 10 paid haircuts instead of 9 in the loyalty-program revenue calculation",
+  "Recommending purely on revenue rather than profit when comparing the two locations",
+  "Treating the loyalty program's small revenue decline as automatically disqualifying without considering strategic upside"
+ ],
+ "follow_ups": [
+  "What other factors should be considered when choosing a potential shop location (long-term plans, proximity, transportation, visibility, layout, capacity for growth, demographic preference)?",
+  "What changes could make the loyalty program profitable?",
+  "What are the pros/cons of membership-based pricing, and how would you set its price?",
+  "How would you attract and retain quality talent without paying high-end wages?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[exA-bar].data — stacked bar segment values read visually from the chart image, not given as a text table"
+  ],
+  "math_verified": true,
+  "notes": "Rent figures in Exhibit B ($4k / $1k) are treated as monthly, since only x12 annualization reproduces the book's stated $48k / $12k annual rent costs in the Part 3 calculation; the exhibit itself does not label the period explicitly.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "common_pitfalls",
+   "industry (mapped 'Hospitality & Leisure' cover label to the closer 'beauty/salons-services' taxonomy slug)"
+  ]
+ }
+}

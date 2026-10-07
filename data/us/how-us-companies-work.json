@@ -1,0 +1,125 @@
+{
+  "id": "how-us-companies-work",
+  "section": "business",
+  "order": 1,
+  "title": "How US Companies Work",
+  "summary": "Ownership, reporting and governance basics that shape every US client's priorities: public vs private, quarterly earnings, activists, boards and private equity. Knowing who the client answers to tells you which answer they can actually accept.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Who owns the client changes the question",
+      "body": "A US public company answers to thousands of shareholders and reports every quarter. A family-owned private firm can think in decades. A PE-owned company has a sponsor with a fixed holding period and a lot of debt. The same 'grow profits' prompt means a different time horizon, risk appetite and cash constraint for each. Ask about ownership early; it frames every recommendation."
+    },
+    {
+      "type": "table",
+      "title": "Ownership types at a glance",
+      "columns": ["Type", "Who calls the shots", "Time horizon", "Typical case flavor"],
+      "rows": [
+        ["Public (NYSE/Nasdaq)", "Board on behalf of shareholders", "Quarterly pressure, multi-year strategy", "Margin improvement, growth story, M&A"],
+        ["Private, family/founder", "Owners directly", "Long; less disclosure", "Succession, professionalizing, expansion"],
+        ["PE-owned (LBO)", "PE sponsor via the board", "~3-7 years to exit", "Cost-out, pricing, add-on acquisitions, exit readiness"],
+        ["VC-backed startup", "Founders + investors", "Next funding round", "Growth vs burn, unit economics"],
+        ["Nonprofit (e.g. many hospitals)", "Board of trustees", "Mission + solvency", "Margin to reinvest, community obligations"]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "The public-company reporting rhythm",
+      "items": [
+        "10-Q: quarterly financial report filed with the SEC; 10-K: annual report with audited financials and risk factors.",
+        "8-K: filed for material events between reports (CEO exit, big acquisition, guidance change).",
+        "Earnings call: CEO and CFO present results, then analysts ask questions live; stock can move sharply the next day.",
+        "Guidance: management's forecast for next quarter or year; missing your own guidance hurts more than missing analyst estimates.",
+        "Consensus: the average of sell-side analyst estimates; 'beat' or 'miss' is judged against it."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "How US CEOs and CFOs talk",
+      "items": [
+        "EPS (earnings per share): the headline number; buybacks raise EPS by shrinking share count even with flat profit.",
+        "Margins: gross, operating and EBITDA margin; 'margin expansion' is a favorite promise.",
+        "Same-store / comparable sales: growth from existing locations, stripping out new openings.",
+        "Free cash flow: cash after capex; funds dividends, buybacks and M&A.",
+        "'Returning capital to shareholders': dividends plus share repurchases.",
+        "Adjusted / non-GAAP figures: exclude one-offs; always ask what was adjusted out."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Short-termism is real but not the whole story",
+      "body": "Quarterly pressure can push managers to cut R&D or marketing to hit a number. But markets also reward credible long-term plans (think large tech capex cycles). In a case, flag the tension: a recommendation that dents next year's EPS needs a clear payback story the board can defend to investors."
+    },
+    {
+      "type": "text",
+      "title": "Boards and activist investors",
+      "body": "The board hires, pays and can fire the CEO, approves big deals and represents shareholders. NYSE and Nasdaq rules generally require a majority of independent directors. Activist hedge funds buy a stake, then push publicly for change: sell a division, cut costs, return cash, replace directors. A proxy fight is when the activist asks shareholders to vote its nominees onto the board. Activist pressure often triggers consulting work on portfolio and cost."
+    },
+    {
+      "type": "list",
+      "title": "Private equity and LBOs in one minute",
+      "items": [
+        "LBO: buy a company using mostly borrowed money secured on its own cash flows; equity is the smaller slice.",
+        "Value creation levers: EBITDA growth, multiple expansion at exit, and paying down debt.",
+        "The sponsor plans an exit (sale to strategic buyer, another PE fund, or IPO) within a set window.",
+        "High debt means cash flow and covenants matter; capex-heavy or slow-payback ideas are hard to sell.",
+        "Commercial due diligence (CDD) for PE buyers is a large source of consulting work."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Fiscal years and the Fortune 500",
+      "items": [
+        "Many firms use the calendar year, but not all: big retailers often end around late January, after holiday returns.",
+        "Microsoft's fiscal year ends June 30; Apple's ends late September. Always check which quarter is 'Q4'.",
+        "The US federal government's fiscal year runs October 1 to September 30.",
+        "Fortune 500: US companies ranked by annual revenue. The 2026 list needed ~$7.5B revenue to qualify; combined revenue was ~$21T.",
+        "Amazon topped the 2026 list, ending Walmart's long run at No. 1."
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "India vs US: corporate context",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        ["Typical large-company owner", "Promoter families and business groups often hold controlling stakes", "Widely held; institutional investors (index funds, pensions) dominate"],
+        ["Reporting cadence", "Quarterly results under SEBI rules", "Quarterly 10-Q, annual 10-K, earnings calls with live analyst Q&A"],
+        ["Activism", "Growing but less common", "Established; activist campaigns are routine news"],
+        ["Private equity", "Mostly minority growth stakes", "Control buyouts with leverage are mainstream"],
+        ["Fiscal year", "April to March for most firms", "Mostly calendar year, with notable exceptions"]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Use the vocabulary naturally",
+      "body": "When you size an initiative, translate it: 'This adds ~$40M of EBITDA, about 2 points of margin, which the CEO can put in front of analysts.' Linking operations to EPS, margin or exit multiple shows you understand what a US executive is actually judged on."
+    }
+  ],
+  "in_a_case": [
+    "PE-owned client: anchor on the exit. Prioritize moves that lift EBITDA within the hold period and avoid long-payback capex; ask how much leverage and when the sponsor plans to sell.",
+    "Public company with flat stock price: check whether an activist is circling; portfolio pruning, cost-out and capital return become likely asks.",
+    "Retail client 'Q4' result: confirm the fiscal calendar before comparing quarters; a retailer's Q4 may include the holidays and January.",
+    "If your recommendation hurts near-term EPS, pair it with a payback timeline and investor narrative the board can defend on the earnings call.",
+    "Fit conversation: tying your Indian audit or startup work to US terms (EPS, EBITDA, guidance) signals you can talk to US executives on day one."
+  ],
+  "flashcards": [
+    {"front": "10-K vs 10-Q vs 8-K", "back": "10-K: annual report with audited financials. 10-Q: quarterly report. 8-K: filed for material events between reports."},
+    {"front": "What is 'guidance'?", "back": "Management's own forecast for the next quarter or year; missing it is a credibility hit."},
+    {"front": "How do buybacks affect EPS?", "back": "They reduce shares outstanding, so EPS rises even if total profit is flat."},
+    {"front": "Three value levers in an LBO", "back": "EBITDA growth, multiple expansion at exit, and debt paydown."},
+    {"front": "Typical PE holding period", "back": "Roughly 3-7 years before exit via sale or IPO."},
+    {"front": "What is a proxy fight?", "back": "An activist asks shareholders to vote its nominees onto the board, against management's slate."},
+    {"front": "US federal fiscal year", "back": "October 1 to September 30."},
+    {"front": "What is the Fortune 500?", "back": "US companies ranked by annual revenue; the 2026 cutoff was ~$7.5B and combined revenue ~$21T."},
+    {"front": "Same-store (comparable) sales", "back": "Growth from locations open at least a year, excluding new openings."},
+    {"front": "Who does a public-company board represent?", "back": "Shareholders; it hires and can fire the CEO and approves major decisions."}
+  ],
+  "sources": [
+    "https://www.investor.gov/introduction-investing/investing-basics/glossary/form-10-k",
+    "https://fortunemedia.mediaroom.com/2026-06-03-Amazon-Claims-No-1-Spot-on-the-Fortune-500"
+  ],
+  "checked": "2026-10"
+}

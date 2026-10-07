@@ -1,0 +1,410 @@
+{
+ "id": "ross-2025-mahogany-wonders",
+ "title": "Mahogany Wonders",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  167,
+  175
+ ],
+ "variant_group_id": "ross-2025-mahogany-wonders",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Retail & CPG | Sustainability",
+ "industry": "retail",
+ "sub_industry": "home-furnishing",
+ "industry_source_label": "Retail & CPG",
+ "geography": "Costa Rica (manufacturing), exports to Europe",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 3, Qual - 3, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "sustainability",
+  "emissions-reduction",
+  "supply-chain",
+  "cost-benefit-analysis",
+  "efficiency-metric",
+  "capital-budgeting",
+  "value-chain-diagnosis"
+ ],
+ "concepts_tested": [
+  "value-chain emissions diagnosis",
+  "unit conversion for quick comparison",
+  "efficiency-based ($/ton) ranking of competing investments under a budget/time constraint"
+ ],
+ "prompt": "Maderas is a Costa Rican premium furniture company, specializing in mahogany wood-based products exported to high-end retailers in Europe. Recently, Maderas' largest European clients commissioned an audit of the company's environmental footprint and have raised concerns about Maderas' environmental practices. The company's leadership is exploring how to respond to these concerns and has asked your team for a strategic recommendation. How should Maderas respond to its customers' sustainability demands?",
+ "clarifying_info": [
+  {
+   "question_topic": "European customer profile and expectations",
+   "answer": "These customers represent approximately 80% of Maderas' profits. Clients expect at least a 20% reduction in emissions and broader ecological improvements within 5 years. With no change, Maderas is expected to generate 5,000 metric tons of CO2 over the next five years, but would face consequences if they emit more than 4,000."
+  },
+  {
+   "question_topic": "Budget",
+   "answer": "Maderas has $17M cash available for this project; multiple initiatives may be pursued if they stay within this budget."
+  },
+  {
+   "question_topic": "Operations and product",
+   "answer": "Sourcing and logistics are mostly outsourced; manufacturing and warehousing are internal. Mahogany represents the bulk of volume and is a key competitive differentiator due to quality and cost. Maderas sources pre-cleaned mahogany wood from multiple local suppliers. Other core functions include product design, R&D, and marketing."
+  }
+ ],
+ "interviewer_notes": "Candidates should diagnose emissions across the value chain, quantify controllable emissions, identify sourcing as the area to study further, then evaluate a shortlist of sourcing initiatives on cost-effectiveness (net cost per ton of CO2 reduced within the required timeframe) subject to budget and time constraints.",
+ "suggested_framework": {
+  "summary": "Diagnose emissions across the value chain, generate sustainability initiatives by value-chain stage, then assess each initiative's upfront investment, implementation time, ROI/breakeven, and emissions impact against the budget.",
+  "tree": {
+   "label": "Maderas Sustainability Response",
+   "children": [
+    {
+     "label": "Value Chain Diagnosis",
+     "children": [
+      {
+       "label": "Sourcing: transport emissions, supplier emissions (deforestation)"
+      },
+      {
+       "label": "Manufacturing: production process/waste emissions, equipment efficiency & energy sources"
+      },
+      {
+       "label": "Warehousing: energy efficiency & sources, HVAC use"
+      },
+      {
+       "label": "Packaging: materials type, recyclability, overpacking"
+      },
+      {
+       "label": "Distribution: shipping modes, route optimization"
+      }
+     ]
+    },
+    {
+     "label": "Sustainability Initiatives",
+     "children": [
+      {
+       "label": "Sourcing: contract reform, evaluate sourcing mix, transport optimization, verticalize own plantation"
+      },
+      {
+       "label": "Manufacturing: process optimization, waste circularity, change energy sources"
+      },
+      {
+       "label": "Warehousing: solar/battery storage, smart energy management, relocation"
+      },
+      {
+       "label": "Packaging: biodegradable materials, change suppliers"
+      },
+      {
+       "label": "Distribution: emissions-efficient routing"
+      }
+     ]
+    },
+    {
+     "label": "Impact Assessment",
+     "children": [
+      {
+       "label": "Upfront investment"
+      },
+      {
+       "label": "Implementation time"
+      },
+      {
+       "label": "Financial performance: ROI or breakeven period"
+      },
+      {
+       "label": "Potential emissions reduction"
+      },
+      {
+       "label": "Fit within investment budget"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you approach helping Maderas respond to its customers' sustainability demands?",
+   "expected_answer": "Candidate proposes a framework covering value-chain emissions diagnosis, generating sustainability initiatives by value-chain stage, and assessing impact (investment, time, ROI, emissions reduction, budget fit).",
+   "good_answer_signals": [
+    "structure is MECE across the value chain (sourcing, manufacturing, warehousing, packaging, distribution)",
+    "explicitly plans to quantify emissions before brainstorming initiatives"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do you see in Exhibit 1 (Results of CO2 Emissions Audit)?",
+   "release_when": "When candidate asks for emissions data by value-chain stage",
+   "info_to_release": "Exhibit 1: emission intensity (kg CO2/ton wood), wood input/output (tons/year), and possible reduction % by process: Sourcing (400 kg/ton, 1500 tons/yr, 40% reduction possible); Manufacturing/Cutting/Assembly (250 kg/ton, 800 tons/yr, 80%); Packaging (80 kg/ton, 800 tons/yr, 60%); Warehousing (20 kg/ton, 800 tons/yr, 70%); Distribution (150 kg/ton, 800 tons/yr, 50%).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate should convert units to compare consistently (kg CO2/ton x tons/year = kg CO2 produced), calculate total emissions by stage and the feasible reduction per stage, and total controllable emissions. Good candidates note that total controllable emissions (~509-510 tons) are significantly greater than the 5-year emissions reduction demanded by clients, and should propose studying sourcing further since it alone can account for all the required reduction — though excellent candidates note sourcing is outside Maderas' direct control and could create additional problems.",
+   "good_answer_signals": [
+    "converts kg to tons (or vice versa) before comparing across rows",
+    "computes total controllable emissions and compares it to the client-mandated reduction",
+    "identifies sourcing as the area with the largest reduction potential while flagging the control risk"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Calculate total CO2 emissions by process and the total feasible ('controllable') emissions reduction from Exhibit 1.",
+   "expected_answer": "Sourcing: 400 x 1,500 = 600,000 kg (600t), reducible 40% = 240t. Manufacturing: 250 x 800 = 200,000 kg (200t), reducible 80% = 160t. Packaging: 80 x 800 = 64,000 kg (64t), reducible 60% = 38.4t. Warehousing: 20 x 800 = 16,000 kg (16t), reducible 70% = 11.2t. Distribution: 150 x 800 = 120,000 kg (120t), reducible 50% = 60t. Total emissions = 1,000,000 kg (1,000t/year). Total controllable (reducible) emissions ≈ 509-510 tons/year, well above the reduction Maderas needs to satisfy its clients.",
+   "good_answer_signals": [
+    "arrives at ~1,000 tons total annual emissions and ~509-510 tons of controllable/reducible emissions",
+    "recognizes sourcing alone (240t reducible) could satisfy the required reduction"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Which sustainability initiative should Maderas pursue? Here is the impact evaluation of supplier/sourcing initiatives (Exhibit 2).",
+   "release_when": "After candidate identifies sourcing as the area to study further",
+   "info_to_release": "Exhibit 2: five sourcing initiatives — A) Supplier Incentive Program ($5M, 2 yrs, 80 tons/yr CO2 reduction, $1.2M/yr savings); B) Supplier Consolidation & Re-negotiation ($4M, 1.5 yrs, 60 tons/yr, $1M/yr savings); C) Traceability Tech Implementation ($3M, 1 yr, 40 tons/yr, $0.6M/yr savings); D) Invest in Local Plantation Partnerships ($8M, 3 yrs, 70 tons/yr, $0.9M/yr savings); E) Switch to International Suppliers ($10M, 3 yrs, 120 tons/yr, $1.5M/yr savings).",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidates should calculate net cost (cost minus savings) for each initiative, then compute total emissions reduction achievable within the 5-year window (accounting for implementation time), and use a $/ton-of-CO2-reduced efficiency metric to rank options. Maderas will need to pursue 3 of the 4 viable initiatives (given the $17M budget constraint) since not all can be funded simultaneously. Good candidates immediately rule out Option D for taking too long to implement relative to its payoff, and land on Options A, B, and C as the most cost-efficient. Excellent candidates mock Option E as absurdly expensive per ton reduced.",
+   "good_answer_signals": [
+    "computes net cost (cost - savings) before ranking",
+    "uses a $/ton metric rather than raw cost or raw reduction alone",
+    "rules out D for its long implementation timeline / poor return",
+    "selects A, B, C as the recommended set"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Rank the five initiatives by net cost per ton of CO2 reduced within the required timeframe, and recommend which to pursue.",
+   "info_to_release": "Interviewer guidance table: net cost, reduction achieved within the 5-year window (CO2 reduction/yr x years remaining after implementation), and $/ton reduced for each initiative.",
+   "expected_answer": "Net Cost: A = $5M - $1.2M = $3.8M; B = $4M - $1M = $3M; C = $3M - $0.6M = $2.4M; D = $8M - $0.9M = $7.1M; E = $10M - $1.5M = $8.5M. Reduction within the 5-year timeframe (annual reduction x years of operation remaining after implementation): A ≈ 360 tons, B ≈ 315 tons, C ≈ 380 tons, D ≈ 0 tons (implementation alone consumes the full 5-year window), E ≈ 380 tons. $/ton reduced: A ≈ $10,555; B ≈ $9,523; C ≈ $6,315; D = infinite (no reduction achieved in time — 'very bad'); E ≈ $22,368. Option D should be ruled out immediately (too slow, worst efficiency). Options A, B, and C are the most cost-efficient and together cost $9.2M (well within the $17M budget), while E is far too expensive per ton to justify despite its larger raw reduction.",
+   "good_answer_signals": [
+    "correctly computes net cost for each initiative",
+    "ranks by $/ton rather than by raw cost or raw CO2 reduction",
+    "recommends A, B, and C as the selected set within budget"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are the risks associated with the sustainability initiatives we've identified for Maderas?",
+   "expected_answer": "Operational risks: supplier non-compliance (small/remote suppliers are hard to monitor; cost incentives don't guarantee compliance), implementation complexity (harder to run custom reduction plans across many suppliers than centrally), supply chain disruption, timeline risk (5-year reduction projections are sensitive to actual time operating; supplier reluctance can delay progress). Financial risks: upfront capital expenditures, cost overruns, inefficient spending. Reputational risks: greenwashing exposure (shifting initiatives to Scope III could be seen as offloading responsibility), stakeholder backlash (shifting obligations upstream could anger local partners), unmet commitments, competitive parity concerns.",
+   "good_answer_signals": [
+    "covers operational, financial, and reputational risk categories distinctly",
+    "raises the greenwashing/Scope III framing as a nuanced reputational risk"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to Maderas?",
+   "expected_answer": "Maderas should focus initially on reductions in the sourcing scope of emissions and pursue Options A (Supplier Incentive Program), B (Supplier Consolidation & Re-negotiation), and C (Traceability Tech Implementation). Together these achieve the needed reduction within the client-demanded timeframe while prioritizing cost effectiveness, and stay comfortably within the $17M budget. Key risks: supplier pushback on traceability/emissions requirements; cost pressures from upfront investment with slow payback if client loyalty weakens; data limitations from lack of emissions measurement/traceability; execution risk from sequencing and cross-supplier coordination. Next steps: engage clients early to co-design (and potentially co-fund) reforms such as plantation partnerships; negotiate performance-based contracts with current suppliers to incentivize compliance; invest in LCA tools and supplier audit frameworks to baseline and track carbon over time; monitor pilot performance (cost, emissions, client perception) and adapt the rollout accordingly.",
+   "good_answer_signals": [
+    "names Options A, B, and C explicitly",
+    "ties the recommendation back to both the reduction target and cost-effectiveness",
+    "gives concrete, case-specific next steps rather than generic ones"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Results of CO2 Emissions Audit",
+   "page": 170,
+   "kind": "table",
+   "description": "Table of Maderas' CO2 emissions audit by process: emission intensity (kg CO2/ton wood), wood input/output (tons/year), and possible reduction % by process.",
+   "data": {
+    "columns": [
+     "Process",
+     "Emission Intensity (kg CO2/ton wood)",
+     "Wood Input/Output (tons/year)",
+     "Reduction % Possible"
+    ],
+    "rows": [
+     [
+      "Sourcing",
+      400,
+      1500,
+      "40%"
+     ],
+     [
+      "Manufacturing (Cutting, Assembly)",
+      250,
+      800,
+      "80%"
+     ],
+     [
+      "Packaging",
+      80,
+      800,
+      "60%"
+     ],
+     [
+      "Warehousing",
+      20,
+      800,
+      "70%"
+     ],
+     [
+      "Distribution",
+      150,
+      800,
+      "50%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-mahogany-wonders/p170.webp",
+   "key_insight": "Sourcing dominates total emissions (600 of ~1,000 tons/year) due to high wood volume and the highest emission intensity, and its 40% reduction potential (240 tons) alone can satisfy the client's required emissions cut.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Impact Evaluation of suppliers/sourcing initiatives",
+   "page": 172,
+   "kind": "table",
+   "description": "Table of five candidate sourcing/supplier sustainability initiatives with cost, implementation time, annual CO2 reduction, and annual savings, as originally presented to the candidate.",
+   "data": {
+    "columns": [
+     "Initiative",
+     "Cost ($M)",
+     "Time to Implement (yrs)",
+     "CO2 Reduction (tons/yr)",
+     "Annual Savings ($M)"
+    ],
+    "rows": [
+     [
+      "A) Supplier Incentive Program",
+      5,
+      2,
+      80,
+      1.2
+     ],
+     [
+      "B) Supplier Consolidation & Re-negotiation",
+      4,
+      1.5,
+      60,
+      1
+     ],
+     [
+      "C) Traceability Tech Implementation",
+      3,
+      1,
+      40,
+      0.6
+     ],
+     [
+      "D) Invest in Local Plantation Partnerships",
+      8,
+      3,
+      70,
+      0.9
+     ],
+     [
+      "E) Switch to International Suppliers",
+      10,
+      3,
+      120,
+      1.5
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-mahogany-wonders/p172.webp",
+   "key_insight": "Raw cost and raw CO2 reduction alone are misleading; net cost (cost minus savings) and a $/ton-reduced efficiency metric are needed to correctly rank the initiatives once time-to-implement is also factored in.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are total emissions and total controllable (reducible) emissions across the value chain, per Exhibit 1?",
+   "givens": [
+    "Sourcing: 400 kg/ton x 1,500 tons/yr, 40% reducible",
+    "Manufacturing: 250 kg/ton x 800 tons/yr, 80% reducible",
+    "Packaging: 80 kg/ton x 800 tons/yr, 60% reducible",
+    "Warehousing: 20 kg/ton x 800 tons/yr, 70% reducible",
+    "Distribution: 150 kg/ton x 800 tons/yr, 50% reducible"
+   ],
+   "steps": [
+    "Sourcing: 400 x 1,500 = 600,000 kg = 600t; reducible = 0.4 x 600t = 240t",
+    "Manufacturing: 250 x 800 = 200,000 kg = 200t; reducible = 0.8 x 200t = 160t",
+    "Packaging: 80 x 800 = 64,000 kg = 64t; reducible = 0.6 x 64t = 38.4t",
+    "Warehousing: 20 x 800 = 16,000 kg = 16t; reducible = 0.7 x 16t = 11.2t",
+    "Distribution: 150 x 800 = 120,000 kg = 120t; reducible = 0.5 x 120t = 60t",
+    "Total emissions = 600 + 200 + 64 + 16 + 120 = 1,000t/year",
+    "Total controllable emissions = 240 + 160 + 38.4 + 11.2 + 60 = 509.6t/year"
+   ],
+   "answer": "Total emissions ≈ 1,000 tons/year; total controllable (reducible) emissions ≈ 509.6 tons/year (book rounds to 509 tons)",
+   "answer_value": 509.6,
+   "unit": "tons/year controllable emissions",
+   "verified": true,
+   "book_answer_if_different": "Book states 509,000 kg (509t); recomputing from the exact reduction percentages gives 509.6t, a negligible rounding difference."
+  },
+  {
+   "id": "m2",
+   "question": "What is the net cost, 5-year-window reduction, and $/ton reduced for each of the five sourcing initiatives, per the interviewer's Exhibit 2 Guidance solution?",
+   "givens": [
+    "Cost and Annual Savings per Exhibit 2",
+    "Price/efficiency ranking should use net cost and reduction achieved within a 5-year window (reduction/yr x years remaining after implementation)",
+    "Note: the guidance solution table's per-initiative Time-to-Implement and CO2-Reduction/yr figures for several initiatives differ from the values originally shown in Exhibit 2 (see extraction notes) — this step follows the guidance table's own figures since that is what the interviewer uses to drive the recommendation"
+   ],
+   "steps": [
+    "Net Cost = Cost - Annual Savings: A = $5M - $1.2M = $3.8M; B = $4M - $1M = $3M; C = $3M - $0.6M = $2.4M; D = $8M - $0.9M = $7.1M; E = $10M - $1.5M = $8.5M",
+    "Reduction within 5-yr timeframe = CO2 reduction/yr x (5 - time to implement): A = 120 x (5-2) = 360t; B = 90 x (5-1.5) = 315t; C = 95 x (5-1) = 380t; D = 80 x (5-5) = 0t; E = 190 x (5-3) = 380t",
+    "$/ton reduced = Net Cost / Reduction within timeframe: A = $3.8M/360t ≈ $10,555; B = $3M/315t ≈ $9,523; C = $2.4M/380t ≈ $6,315; D = $7.1M/0t = infinite (non-viable); E = $8.5M/380t ≈ $22,368"
+   ],
+   "answer": "Ranked by cost-efficiency: C ($6,315/ton) < B ($9,523/ton) < A ($10,555/ton) < E ($22,368/ton); D is non-viable (0 reduction achieved within the timeframe). Recommended set: A, B, C (net cost $9.2M, well within the $17M budget).",
+   "answer_value": 9.2,
+   "unit": "$M combined net cost of recommended initiatives (A+B+C)",
+   "verified": true,
+   "book_answer_if_different": "The book's own Exhibit 2 Guidance table matches these figures exactly (net costs 3.8/3/2.4/7.1/8.5, reductions 360/315/380/0/380, $/ton 10,555/9,523/6,315/infinite/22,368), so this step is internally verified against the book. However, the guidance table's per-initiative Time-to-Implement (esp. Option D: 5 yrs vs. 3 yrs in the original Exhibit 2) and CO2-Reduction/yr figures (120/90/95/80/190 vs. 80/60/40/70/120 in the original Exhibit 2) do not match the initiative data as originally presented to candidates in Exhibit 2 — see extraction.notes."
+  }
+ ],
+ "synthesis": "Maderas should focus initially on reductions in the sourcing scope of emissions, since this single area can account for all of the emissions reduction its clients require and is well within Maderas' controllable emissions. Within sourcing, Maderas should pursue Options A (Supplier Incentive Program), B (Supplier Consolidation & Re-negotiation), and C (Traceability Tech Implementation) — ruling out D (Invest in Local Plantation Partnerships) for being too slow to deliver any reduction within the 5-year window, and E (Switch to International Suppliers) for being by far the least cost-efficient per ton reduced. Options A, B, and C together achieve the needed reduction within the client-demanded timeframe while prioritizing cost effectiveness, at a combined net cost of $9.2M — comfortably within the $17M budget. Key risks: supplier pushback on traceability/emissions requirements, cost pressures from slow payback if client loyalty weakens, data limitations from insufficient emissions measurement, and execution risk from cross-supplier coordination. Next steps: engage clients early to co-design and potentially co-fund reforms, negotiate performance-based supplier contracts, invest in LCA tools and audit frameworks, and monitor pilot performance to adapt the rollout.",
+ "what_great_looks_like": [
+  "Converts units consistently (kg vs. tons) before comparing emissions across value-chain stages",
+  "Quantifies total controllable emissions and compares it directly against the client-mandated reduction before brainstorming initiatives",
+  "Recognizes sourcing as the highest-leverage area while also flagging that it's outside Maderas' direct control (a nuance beyond just picking the biggest number)",
+  "Uses a net-cost-per-ton-reduced efficiency metric (not raw cost or raw reduction) to rank the five initiatives",
+  "Immediately screens out Option D for its long implementation timeline eating into the reduction window",
+  "Selects a portfolio (A, B, C) that satisfies both the reduction target and the budget constraint, rather than picking a single 'best' initiative"
+ ],
+ "common_pitfalls": [
+  "Ranking initiatives by raw cost or raw CO2 reduction instead of a net-cost-per-ton efficiency metric",
+  "Forgetting that implementation time eats into the 5-year reduction window (e.g., missing that Option D delivers zero reduction within the timeframe)",
+  "Recommending Option E based on its large raw CO2 reduction without noticing its poor cost efficiency",
+  "Treating the case as a single-initiative choice rather than a portfolio selection under a budget constraint",
+  "Not flagging that outsourced/upstream sourcing initiatives carry execution risk despite being outside Maderas' direct control"
+ ],
+ "follow_ups": [
+  "How might Maderas structure supplier contracts to reduce the compliance risk raised in the brainstorm?",
+  "If the client's timeline were relaxed to 7 years instead of 5, would Option D become viable?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[1] (Exhibit 2 Guidance table's per-initiative CO2-Reduction/yr and Option D's Time-to-Implement do not match the original Exhibit 2 values shown to candidates)",
+   "exhibits[1].data (transcribed from the original Exhibit 2 slide, which differs from the Exhibit 2 Guidance slide's implied inputs)"
+  ],
+  "math_verified": true,
+  "notes": "Two inconsistencies were found in the source material. (1) Budget: the case prompt's clarifying information states Maderas has '$17M cash available,' but the Potential Framework slide's Impact Assessment column asks whether initiatives fit 'within the company's $25M investment budget' — a different figure. This extraction uses the $17M figure from the prompt's clarifying information as authoritative since it is specific to this case (the $25M appears to be generic framework boilerplate). (2) Exhibit 2 data: the original Exhibit 2 table (page 172) gives CO2 Reduction (tons/yr) of 80/60/40/70/120 for initiatives A-E and a Time-to-Implement of 3 years for Option D, while the Exhibit 2 Guidance solution table (page 173) uses different CO2 Reduction/yr figures (120/90/95/80/190) and a 5-year implementation time for Option D — and the guidance table's own 'Totals' row for CO2 Reduction (370) matches the ORIGINAL exhibit's row sum (80+60+40+70+120=370), not its own displayed row values (which sum to 575), while its 'Reduction Within Timeframe' total (1,435) IS consistent with its own displayed row values. This suggests a data-entry/version mismatch in the book between the two slides. This extraction transcribes Exhibit 2 (ex2) faithfully with the original values shown to candidates, but reports the net-cost/$-per-ton math (m2) using the guidance table's own figures since that is what the interviewer's solution is actually built on, and flags the discrepancy here rather than silently reconciling it.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "sub_industry",
+   "concepts_tested"
+  ]
+ }
+}

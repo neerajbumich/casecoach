@@ -1,0 +1,331 @@
+{
+ "id": "booth-2024-sueno-mattress",
+ "title": "Sueno Mattress",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  348,
+  353
+ ],
+ "case_type": [
+  "Profitability",
+  "Competitive Response"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "cpg",
+ "sub_industry": "household-products",
+ "industry_source_label": "Consumer Products",
+ "geography": "United States and global",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "KPMG"
+ ],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 1, Quant 1, Creativity 2 (1-3 scale); Quant Level - LIGHT",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "profitability",
+  "channel-mix",
+  "direct-to-consumer",
+  "average-selling-price",
+  "geographic-growth",
+  "consumer-trends"
+ ],
+ "concepts_tested": [
+  "chart clearing",
+  "structured brainstorming",
+  "soliciting relevant data",
+  "market analysis"
+ ],
+ "fit_question": "Describe your ideal team environment. Alternatively, tell me about a time you made a decision without all the information you wanted.",
+ "prompt": "Sueno Mattress is a top-five US mattress manufacturer. It has grown steadily but missed profit targets for the past three quarters, and its stock price is slipping. What should the CEO do?",
+ "clarifying_info": [
+  {
+   "question_topic": "Products",
+   "answer": "Sueno has a varied line that can be summarized as Good, Better, and Best SKUs."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "The $30B global market grows 7% annually; online direct-to-consumer entrants have lowered prices and willingness to pay."
+  },
+  {
+   "question_topic": "Costs and list pricing",
+   "answer": "Product mix, own-store pricing, COGS, and operating costs have not changed materially."
+  }
+ ],
+ "interviewer_notes": "Steer the candidate from a broad profitability diagnosis to geographic growth, then Sueno's volume/revenue/average-price trend, and finally channel-mix data. Sueno distributes through furniture stores, mattress stores, and 300 branded North American stores. Average channel prices are $1,000, $850, and $1,150 respectively. The source describes 2017 average revenue per unit as '$980+'; exact division is $980.",
+ "suggested_framework": {
+  "summary": "Decompose profit into volume, price/mix, and cost, then connect performance to regional growth, channel migration, consumer behavior, and strategic options.",
+  "tree": {
+   "label": "Restore Sueno profitability",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Regional size/growth, competitors, DTC shift, and willingness to pay"
+      }
+     ]
+    },
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Volume, price, product mix, channel mix, region, and customer segment"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "COGS, retail footprint, channel economics, fixed cost, and investment needs"
+      }
+     ]
+    },
+    {
+     "label": "Actions",
+     "children": [
+      {
+       "label": "DTC product, brand repositioning, geographic expansion, store optimization, and channel policy"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose the missed profit targets?",
+   "expected_answer": "Start with profit as revenue minus cost. Split revenue into volume and average realized price, then by product, channel, geography, and customer. Test market growth, share, competitors, DTC substitution, and willingness to pay. Examine COGS, overhead, retail footprint, and channel margins before selecting actions and risks.",
+   "good_answer_signals": [
+    "Uses price-volume-mix",
+    "Segments by channel and geography",
+    "Connects consumer shift to realized price"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What does the market context suggest?",
+   "info_to_release": "Global market is $30B growing 7%. Asia grows 12%, the US 5%, and rest of world 8%. Sueno is primarily US-focused.",
+   "expected_answer": "Sueno is concentrated in the slowest-growing region. Its home market grows 5% versus 12% in Asia and 8% in the rest of world, creating a geographic-growth headwind and making faster-growth markets worth assessing.",
+   "good_answer_signals": [
+    "Compares regional growth rates",
+    "Avoids equating growth with attractiveness",
+    "Requests market size and entry economics"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Analyze Sueno's 2016-2017 sales performance.",
+   "info_to_release": "2016: 3.0M mattresses and $3.0B revenue. 2017: 3.15M mattresses and $3.09B revenue.",
+   "expected_answer": "Volume grew (3.15-3.0)/3.0=5%, in line with the US market. Revenue grew ($3.09-$3.0)/$3.0=3%, so price/mix deteriorated. Average realized price fell from $1,000 to exactly $980, a 2% decline. The gap between 5% volume and 3% revenue growth explains pressure despite growth.",
+   "good_answer_signals": [
+    "Gets 5% volume and 3% revenue growth",
+    "Calculates $1,000 and $980",
+    "Identifies price/mix as the issue"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "Analyze the channel trend data and connect it to profitability.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "info_to_release": "Sueno's average prices are $1,150 in branded stores, $1,000 in furniture stores, and $850 in mattress stores. Its channel mix is broadly in line with major competitors.",
+   "expected_answer": "Across regions, DTC emerges and furniture/luxury channels generally lose share while mattress stores gain or remain large. In the US, furniture falls from 49% to 39%, luxury from 17% to 16%, mattress stores rise from 34% to 40%, and DTC reaches 5%. Because mattress stores have Sueno's lowest stated average price, the mix shift pulls down realized price and margin even when list prices and costs are unchanged.",
+   "good_answer_signals": [
+    "Reads the US share changes",
+    "Links channel mix to stated prices",
+    "Recognizes DTC as both threat and opportunity"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What actions could restore profitability, and what are their risks?",
+   "expected_answer": "Options include a lower-cost DTC product, repositioning around premium customers, expanding selectively into faster-growth geographies, closing weak branded stores, limiting discounting, or reducing availability in low-price channels. Test cannibalization, brand dilution, unit economics, price elasticity, retailer power, market-entry costs, and whether the brand can pull customers to higher-priced channels.",
+   "good_answer_signals": [
+    "Offers both growth and mix actions",
+    "Quantifies hypotheses before committing",
+    "Addresses cannibalization and brand risk"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Sueno do next?",
+   "expected_answer": "Profit pressure is driven by price/channel mix, not declining units or rising costs: volume grew 5%, revenue only 3%, and average realized price fell from $1,000 to $980 as sales shifted toward lower-priced mattress stores and DTC. Pilot a differentiated DTC offer with protected margins, optimize underperforming branded stores, and evaluate selective expansion into Asia or other faster-growth markets. Validate channel-level margin, cannibalization, elasticity, and investment requirements before scaling.",
+   "good_answer_signals": [
+    "Leads with the diagnosed cause",
+    "Uses the $980 result",
+    "Prioritizes actions and tests"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Market segmentation by channel and region, 2012 versus 2017",
+   "page": 352,
+   "kind": "pie",
+   "description": "Channel shares for the US, China, and rest of world, plus market size and CAGR.",
+   "data": {
+    "columns": [
+     "Region",
+     "Size",
+     "CAGR",
+     "Year",
+     "Luxury branded",
+     "Furniture stores",
+     "Mattress stores",
+     "Direct-to-consumer"
+    ],
+    "rows": [
+     [
+      "US",
+      "$30B",
+      "5%",
+      "2012",
+      "17%",
+      "49%",
+      "34%",
+      "0%"
+     ],
+     [
+      "US",
+      "$30B",
+      "5%",
+      "2017",
+      "16%",
+      "39%",
+      "40%",
+      "5%"
+     ],
+     [
+      "China",
+      "$8B",
+      "12%",
+      "2012",
+      "19%",
+      "50%",
+      "31%",
+      "0%"
+     ],
+     [
+      "China",
+      "$8B",
+      "12%",
+      "2017",
+      "16%",
+      "50%",
+      "33%",
+      "1%"
+     ],
+     [
+      "Rest of world",
+      "$12B",
+      "8%",
+      "2012",
+      "13%",
+      "47%",
+      "40%",
+      "0%"
+     ],
+     [
+      "Rest of world",
+      "$12B",
+      "8%",
+      "2017",
+      "11%",
+      "43%",
+      "42%",
+      "4%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-sueno-mattress/p352.webp",
+   "image_has_answers": true,
+   "key_insight": "The US is the largest but slowest-growing region, and its mix shifts sharply from furniture toward lower-priced mattress stores plus emerging DTC.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What were 2016-2017 volume and revenue growth?",
+   "givens": [
+    "Units 3.0M to 3.15M",
+    "Revenue $3.0B to $3.09B"
+   ],
+   "steps": [
+    "Volume growth=0.15/3.0=5%",
+    "Revenue growth=$0.09B/$3.0B=3%"
+   ],
+   "answer": "Volume grew 5%; revenue grew 3%",
+   "answer_value": 3,
+   "unit": "percent revenue growth",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How did average realized price change?",
+   "givens": [
+    "2016 $3.0B/3.0M units",
+    "2017 $3.09B/3.15M units"
+   ],
+   "steps": [
+    "2016 ASP=$1,000",
+    "2017 ASP=$980 exactly",
+    "Decline=$20/$1,000=2%"
+   ],
+   "answer": "Average realized price fell from $1,000 to $980, or 2%",
+   "answer_value": 980,
+   "unit": "USD per mattress in 2017",
+   "verified": false,
+   "book_answer_if_different": "The source states '$980+'; exact division equals $980."
+  }
+ ],
+ "synthesis": "Sueno's problem is adverse price/channel mix: 2017 unit growth matched the US market at 5%, but revenue grew only 3% and average realized price fell exactly 2% to $980. The US mix is moving away from furniture and luxury channels toward $850 mattress stores and DTC. Pilot a margin-protected DTC product, improve branded-store productivity, and evaluate selective faster-growth geographies after validating channel margins, cannibalization, elasticity, and investment needs.",
+ "what_great_looks_like": [
+  "Diagnoses price/mix from the growth gap",
+  "Calculates the exact $980 ASP",
+  "Connects channel shares to channel prices",
+  "Uses regional size and growth together",
+  "Prioritizes testable actions"
+ ],
+ "common_pitfalls": [
+  "Blaming cost despite unchanged costs",
+  "Calling 5% volume growth weak versus the US market",
+  "Missing channel mix",
+  "Treating DTC only as a threat",
+  "Recommending geographic expansion on CAGR alone"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Growth calculations were independently verified. The source's '$980+' for 2017 average price is imprecise: $3.09B/3.15M equals exactly $980. The channel exhibit appears on a page that also contains worked calculations and answer guidance, so image_has_answers is true while structured exhibit data contains inputs only. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

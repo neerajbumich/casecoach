@@ -1,0 +1,114 @@
+{
+ "id": "public-sector-social-impact",
+ "name": "Public sector & social impact",
+ "category": "core",
+ "summary": "Replace 'profit' with the mission. Assess impact (outcomes per dollar), stakeholders and political feasibility, financial sustainability (funding and cost), and implementation capacity and risk.",
+ "opening_line": "Since the objective isn't profit, I'd define success as impact on the mission, then assess the options on impact per dollar, stakeholder support, financial sustainability and ease of implementation.",
+ "when_to_use": [
+  "Government agencies, non-profits, NGOs, universities",
+  "Social-impact or policy questions"
+ ],
+ "when_not_to_use": [
+  "For-profit clients, where the standard frameworks apply"
+ ],
+ "tree": {
+  "label": "Best option for the mission",
+  "children": [
+   {
+    "label": "Impact",
+    "children": [
+     {
+      "label": "Outcomes & beneficiaries"
+     },
+     {
+      "label": "Cost-effectiveness"
+     }
+    ]
+   },
+   {
+    "label": "Stakeholders",
+    "children": [
+     {
+      "label": "Citizens / beneficiaries"
+     },
+     {
+      "label": "Politicians & regulators"
+     },
+     {
+      "label": "Funders & partners"
+     }
+    ]
+   },
+   {
+    "label": "Financial sustainability",
+    "children": [
+     {
+      "label": "Funding sources"
+     },
+     {
+      "label": "Costs & budget"
+     }
+    ]
+   },
+   {
+    "label": "Implementation",
+    "children": [
+     {
+      "label": "Capacity & timeline"
+     },
+     {
+      "label": "Risks"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Impact",
+   "questions": [
+    "What outcome matters, and how do we measure it?"
+   ],
+   "data_to_ask": [
+    "Programme metrics",
+    "Budget"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "education",
+   "note": "Outcomes: attainment, graduation rates; stakeholders: teachers, unions, parents."
+  },
+  {
+   "industry": "utilities",
+   "note": "Public energy planning: reliability, cost to citizens, emissions and energy security."
+  }
+ ],
+ "common_mistakes": [
+  "Forcing a profit framework on a non-profit",
+  "Ignoring stakeholders and politics"
+ ],
+ "related": [
+  "investment-npv",
+  "market-entry"
+ ],
+ "match": {
+  "case_types": [
+   "Public Sector/Social Impact"
+  ],
+  "tags": [
+   "public-sector",
+   "non-profit",
+   "social-impact",
+   "government"
+  ],
+  "keywords": [
+   "government",
+   "public",
+   "non-profit",
+   "city",
+   "mission"
+  ]
+ }
+}

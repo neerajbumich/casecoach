@@ -1,0 +1,308 @@
+{
+ "id": "fuqua-2023-lonely-lodge",
+ "title": "Lonely Lodge",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  133,
+  140
+ ],
+ "author": "Revised and updated by Darian Aghili (Fuqua '24); origin: Fuqua Casebook 2018–2019",
+ "case_type": [
+  "Profitability"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "gaming",
+ "sub_industry": "video-games",
+ "industry_source_label": "Media and Entertainment",
+ "geography": "Global",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Easy; Qualitative: Medium",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "profitability",
+  "gaming",
+  "microtransactions",
+  "item-trading",
+  "customer-preferences",
+  "monetization"
+ ],
+ "prompt": "Our client is the designer and publisher of Day Fort, a free-to-play multiplayer shooting game. Over the past 5 years, Day Fort has broken both revenue and profit records for the gaming industry. However, the client's profitability has declined recently. Your client has hired you to help them improve the profitability of Day Fort.",
+ "clarifying_info": [
+  {
+   "question_topic": "Monetization",
+   "answer": "Sells customizable character skins and seasonal battle passes that unlock skins through play."
+  },
+  {
+   "question_topic": "Skin sourcing",
+   "answer": "Players create skins for free."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "Computer players around the world. The guidance says they purchase the game, although the prompt explicitly calls it free-to-play."
+  },
+  {
+   "question_topic": "Timing and goal",
+   "answer": "As soon as possible; no specific profitability target."
+  }
+ ],
+ "interviewer_notes": "Show Exhibit 1 after requests for competitor profitability; focus on visual insights rather than calculations. Show Exhibit 2 when customer preferences are raised, again without unnecessary math. Once the candidate recommends item trading, release current and trading-enabled unit economics. The chart does not support the guidance's precise 10% client decline and 10% industry increase in 2017–2018; retain the directional client-specific diagnosis and avoid grading against those claims.",
+ "suggested_framework": {
+  "summary": "Compare market/customer trends, monetization drivers and fixed/variable costs.",
+  "tree": {
+   "label": "Improve Day Fort profitability",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Similar games, potential entrants and gaming share"
+      },
+      {
+       "label": "Customer sentiment and purchase criteria for games and microtransactions"
+      },
+      {
+       "label": "Addressable market"
+      }
+     ]
+    },
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Skin and battle-pass prices and volumes"
+      },
+      {
+       "label": "Future microtransactions, exclusive access and bundles"
+      },
+      {
+       "label": "Assess any paid-game ideas against the free-to-play model"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Employees, servers, office and rent"
+      },
+      {
+       "label": "New skins, battle passes and game updates"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose and improve Day Fort's declining profitability?",
+   "release_when": "After the prompt; clarify monetization and skin sourcing if asked.",
+   "expected_answer": "Separate revenue and costs, compare competitor trends, and understand user preferences. Focus monetization analysis on skins, passes and potential transactions rather than assuming sales of a game that is free-to-play.",
+   "good_answer_signals": [
+    "Clarifies how a free game makes money."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the competitor profit-pool chart suggest?",
+   "release_when": "When the candidate asks about competitor profitability. Do not require calculations.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Day Fort's profit drops between 2017 and 2018 while competitors' plotted profit bands do not visibly decline. The overall pool has grown across the full period but appears approximately flat in the final year. This points toward a client-specific issue and warrants customer research. The guidance's exact −10%/+10% final-year claim is not supported by the graphic.",
+   "good_answer_signals": [
+    "Distinguishes overall multi-year growth from the final-year trend.",
+    "Moves toward customer preferences instead of overcalculating an unlabelled chart."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the customer research suggest Day Fort should change?",
+   "release_when": "When customer preferences are raised.",
+   "info_to_release": "Survey scores for Day Fort/CS: Stop/Day G are: item trading 0/8/9; gameplay 9/10/6; community 9/8/6; new features 8/5/5. The printed scale is 1–10 although Day Fort's trading score is shown as 0.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Day Fort performs at or near the top in every dimension except item trading. Recommend allowing item trading and assess the profit implications. Do not mistake the scores for purchase rates.",
+   "good_answer_signals": [
+    "Identifies the single conspicuous competitive gap."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How does allowing trading change annual profitability?",
+   "release_when": "Only after the candidate recommends enabling item trading.",
+   "info_to_release": "125M players. Current: 1% purchase items, $10 average annual spend and 100% profit margin. With trading: 10% purchase items, $3 average annual spend and 50% profit margin.",
+   "expected_answer": "Current profit is 125M × 1% × $10 × 100% = $12.5M. Trading-enabled profit is 125M × 10% × $3 × 50% = $18.75M. Incremental annual profit is $6.25M, a 50% increase. Increased participation outweighs lower spend and margin.",
+   "good_answer_signals": [
+    "Applies both participation and margin changes.",
+    "Explains the source of the improvement."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "The CEO is about to enter. What is your recommendation?",
+   "expected_answer": "Enable item trading to close Day Fort's feature gap and increase modeled annual profit by $6.25M to $18.75M, a 50% improvement. Risks include adverse community response and licensing effective patented trading systems. Work with developers to build the system and assess competitor practices and licensing needs.",
+   "good_answer_signals": [
+    "Links competitive differentiation to the quantified profit uplift and execution risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Online multiplayer games profit pool, 2014–2018",
+   "page": 136,
+   "kind": "other",
+   "description": "Stacked-area profit chart in USD millions for Day Fort, CS: Stop, PUB A, Day G and Other. Individual points are not labelled; exact annual series are intentionally not inferred from pixels.",
+   "image_path": "exhibits/fuqua-2023-lonely-lodge/p136.webp",
+   "key_insight": "Day Fort loses profit in the final year while competitors do not visibly decline. The final-year total appears flat, contrary to the guidance's claimed 10% increase.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex2",
+   "title": "Online multiplayer game market-research scores",
+   "page": 138,
+   "kind": "bar",
+   "description": "Importance/performance survey: 10 is excellent/most important and 1 poor/least important. An explicit zero is shown for Day Fort item trading.",
+   "data": {
+    "columns": [
+     "Criterion",
+     "Day Fort",
+     "CS: Stop",
+     "Day G"
+    ],
+    "rows": [
+     [
+      "Item trading allowed",
+      0,
+      8,
+      9
+     ],
+     [
+      "Gameplay",
+      9,
+      10,
+      6
+     ],
+     [
+      "Community",
+      9,
+      8,
+      6
+     ],
+     [
+      "New features",
+      8,
+      5,
+      5
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-lonely-lodge/p138.webp",
+   "key_insight": "Item trading is the clear competitive weakness; other dimensions are strong.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is current annual profit?",
+   "givens": [
+    "125M players",
+    "1% purchase",
+    "$10/year spend",
+    "100% margin"
+   ],
+   "steps": [
+    "125M × 1% = 1.25M paying players.",
+    "1.25M × $10 × 100% = $12.5M."
+   ],
+   "answer": "$12.5M annual profit.",
+   "answer_value": 12.5,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is annual profit with trading and the resulting improvement?",
+   "givens": [
+    "125M players",
+    "10% purchase",
+    "$3/year spend",
+    "50% margin",
+    "Current profit $12.5M"
+   ],
+   "steps": [
+    "125M × 10% = 12.5M paying players.",
+    "Revenue = 12.5M × $3 = $37.5M.",
+    "Profit = 37.5 × 50% = $18.75M.",
+    "Increment = 18.75 − 12.5 = $6.25M; growth = 6.25 / 12.5 = 50%."
+   ],
+   "answer": "$18.75M annual profit, up $6.25M or 50%.",
+   "answer_value": 6.25,
+   "unit": "USD millions/year incremental profit",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Does the chart support the claimed 10% Day Fort profit decline?",
+   "givens": [
+    "Chart shows approximately $15M in 2017",
+    "2018 chart is around $12.5M, consistent with the later current-profit inputs"
+   ],
+   "steps": [
+    "Approximate change = (12.5 / 15 − 1) × 100 = −16.67%."
+   ],
+   "answer": "Approximately a 16.7% decline if the visually indicated values are used; the exact chart series is not labelled.",
+   "answer_value": -16.6666666667,
+   "unit": "%",
+   "verified": false,
+   "book_answer_if_different": "Page 137 states that client profitability decreased 10% and industry profitability increased 10% during 2017–2018. The displayed chart suggests about a 16.7% client decline and an approximately flat total pool."
+  }
+ ],
+ "synthesis": "Allow in-game item trading. Customer research shows this is Day Fort's main competitive gap, and the supplied economics imply $18.75M annual profit versus $12.5M currently: a $6.25M, 50% improvement. Manage community reaction and trading-system patent/licensing constraints. Partner with development on implementation and study competitor systems.",
+ "what_great_looks_like": [
+  "Recognizes a client-specific performance issue from the charts without unnecessary arithmetic.",
+  "Prioritizes item trading over dimensions where Day Fort already performs well.",
+  "Models conversion, spend and margin changes together."
+ ],
+ "common_pitfalls": [
+  "Assuming free-to-play means no monetization.",
+  "Omitting the reduction to 50% margin under trading.",
+  "Treating survey scores as percentages of paying users.",
+  "Repeating unsupported precise historical growth claims from the answer slide."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (unlabelled historical series omitted)",
+   "math[2].givens (visual estimates)"
+  ],
+  "math_verified": false,
+  "notes": "Fuqua Classic from 2018–2019. The core unit-economics calculation verifies exactly. Historical chart guidance's −10% client/+10% market assertions conflict with the displayed approximately −16.7%/flat final-year trend, so the visual uncertainty is explicit. The free-to-play prompt conflicts with references to customers purchasing the game and framework game-sales volume; no paid-game revenue is invented. Exhibit 2 labels a 1–10 scale but shows zero trading score. Classified the business as gaming/video-games. Difficulty is max(Easy=2, Medium=3), calculated in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "format",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls",
+   "math[2]"
+  ]
+ }
+}

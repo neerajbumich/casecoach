@@ -1,0 +1,261 @@
+{
+ "id": "booth-2024-telco-talks",
+ "title": "Telco Talks",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  334,
+  339
+ ],
+ "case_type": [
+  "M&A/Acquisition",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Merger & Acquisition",
+ "industry": "telecom",
+ "sub_industry": "cable-broadband",
+ "industry_source_label": "Telecommunications",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Accenture"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2, Quant 2, Creativity 1 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "acquisition",
+  "synergies",
+  "customer-economics",
+  "perpetuity",
+  "attrition",
+  "national-expansion"
+ ],
+ "concepts_tested": [
+  "synergies",
+  "attrition",
+  "profit per customer",
+  "maximum purchase price",
+  "risk assessment"
+ ],
+ "fit_question": "What do you want me to know about you? Alternatively, describe your dream project at the firm.",
+ "prompt": "A large Midwestern telecom company provides phone, TV, and internet services. After several cost-cutting initiatives, it is exploring growth. WIT Co has offered to sell its assets and customer base, which would turn the client from a regional into a national player. Should the client acquire WIT Co's assets?",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Grow while maintaining profit margin on a per-customer basis."
+  },
+  {
+   "question_topic": "Target footprint and customers",
+   "answer": "WIT Co's assets are concentrated in California, New York, and Florida, serving residential and business customers."
+  }
+ ],
+ "interviewer_notes": "The candidate should assess target health, standalone and combined customer economics, synergies, purchase price, and national-expansion risk. Release the company financials after the framework. If the candidate sees that the unsynergized combination dilutes profit per customer, introduce $500M in annual cost synergies. For valuation, assume constant profitability in perpetuity, a 12% discount rate, and 2% growth.",
+ "suggested_framework": {
+  "summary": "Test strategic fit and target health, quantify standalone and synergized customer economics, value incremental cash flow, and diligence integration and retention risks.",
+  "tree": {
+   "label": "Decide whether to acquire WIT Co's assets",
+   "children": [
+    {
+     "label": "Target and market",
+     "children": [
+      {
+       "label": "Growth, position, assets, technology, customers, and geographic attractiveness"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Revenue, costs, profit per customer, synergies, price, and return"
+      }
+     ]
+    },
+    {
+     "label": "Strategic fit",
+     "children": [
+      {
+       "label": "National footprint, capabilities, cross-selling, scale, and infrastructure"
+      }
+     ]
+    },
+    {
+     "label": "Risks and execution",
+     "children": [
+      {
+       "label": "Attrition, antitrust, culture, integration, synergy delivery, and market assumptions"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess the acquisition?",
+   "expected_answer": "Evaluate WIT Co's market position, health, customer base, assets, and capabilities; compare standalone and combined financials on a total and per-customer basis; quantify revenue and cost synergies; determine an affordable price and return; and assess national infrastructure, antitrust, culture, integration, churn, and execution risk.",
+   "good_answer_signals": [
+    "Includes per-customer economics",
+    "Separates standalone value from synergies",
+    "Includes integration and attrition"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Calculate profit and profit per customer for the client, WIT Co, and the combination. Is the unsynergized deal attractive?",
+   "info_to_release": "Client: $8.5B revenue, $7.5B cost, 5M customers. WIT Co: $5B revenue, $4.55B cost, 3.6M customers.",
+   "expected_answer": "The client earns $1.0B, or $200 per customer. WIT Co earns $450M, or $125 per customer. Combined profit is $1.45B across 8.6M customers, or $168.60 per customer. The unsynergized acquisition increases total profit but dilutes the client's per-customer profit, so it does not meet the stated goal.",
+   "good_answer_signals": [
+    "Gets $200 and $125",
+    "Gets $168.60 combined",
+    "Distinguishes total growth from per-customer dilution"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What if the client can save $500M annually through a leaner labor force and existing contracts?",
+   "info_to_release": "The acquisition would reduce combined annual cost by $500M.",
+   "expected_answer": "Synergized cost is $12.05B - $0.5B = $11.55B, so profit is $13.5B - $11.55B = $1.95B. Across 8.6M customers that is $226.74 per customer, $26.74 above the client's current $200. With synergies, the acquisition meets the margin-per-customer goal.",
+   "good_answer_signals": [
+    "Gets $1.95B profit",
+    "Gets $226.74 per customer",
+    "Measures the $26.74 uplift against the current client"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What is the maximum price the client should pay for WIT Co's assets?",
+   "info_to_release": "Assume the incremental profit continues in perpetuity, a 12% discount rate, and 2% perpetual growth.",
+   "expected_answer": "Incremental annual profit is WIT Co's $450M plus $500M of synergies, or $950M. Using a growing-perpetuity capitalization rate of 12%-2%=10%, the value is $950M/10%=$9.5B. Treat $9.5B as a theoretical ceiling before execution risk and transaction costs; the bid should be lower to create value for the buyer.",
+   "good_answer_signals": [
+    "Uses incremental profit",
+    "Uses a 10% net capitalization rate",
+    "Gets $9.5B",
+    "Does not confuse maximum value with recommended bid"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What benefits and risks matter before a final recommendation?",
+   "expected_answer": "Benefits include a national footprint, scale, customer growth, cross-selling, stronger contracts, and new technology or capabilities. Risks include customer attrition from service changes, failure to realize $500M of synergies, integration and culture problems, added infrastructure needs, antitrust review, and sensitivity to the 2% growth and 12% discount assumptions.",
+   "good_answer_signals": [
+    "Highlights customer retention",
+    "Challenges synergy assumptions",
+    "Recognizes valuation sensitivity"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the CEO do?",
+   "expected_answer": "Proceed with the acquisition only at a price meaningfully below the $9.5B theoretical ceiling and after diligence. The deal adds $950M of annual profit including synergies and raises profit per customer from $200 to $226.74. Before bidding, validate retention, the $500M cost reduction, 2% growth, and the 12% discount rate, and build a post-merger integration plan with churn and synergy milestones.",
+   "good_answer_signals": [
+    "Recommends with conditions",
+    "Quantifies profit and customer uplift",
+    "Sets diligence and integration next steps"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are standalone and combined profit per customer before synergies?",
+   "givens": [
+    "Client revenue $8.5B, cost $7.5B, 5M customers",
+    "WIT revenue $5B, cost $4.55B, 3.6M customers"
+   ],
+   "steps": [
+    "Client profit=$1B; $1B/5M=$200/customer",
+    "WIT profit=$0.45B; $0.45B/3.6M=$125/customer",
+    "Combined profit=$1.45B; customers=8.6M; $1.45B/8.6M=$168.6047/customer"
+   ],
+   "answer": "Client $200; WIT $125; combined $168.60 per customer",
+   "answer_value": 168.6046512,
+   "unit": "USD per combined customer",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is combined profit per customer with synergies?",
+   "givens": [
+    "Combined revenue $13.5B",
+    "Combined pre-synergy cost $12.05B",
+    "$0.5B cost synergy",
+    "8.6M customers"
+   ],
+   "steps": [
+    "Cost=$12.05B-$0.5B=$11.55B",
+    "Profit=$13.5B-$11.55B=$1.95B",
+    "$1.95B/8.6M=$226.7442/customer"
+   ],
+   "answer": "$1.95B profit and $226.74 per customer",
+   "answer_value": 226.744186,
+   "unit": "USD per customer",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the maximum acquisition value?",
+   "givens": [
+    "WIT profit $450M",
+    "Synergies $500M",
+    "Discount rate 12%",
+    "Growth 2%"
+   ],
+   "steps": [
+    "Incremental profit=$450M+$500M=$950M",
+    "Capitalization rate=12%-2%=10%",
+    "$950M/0.10=$9.5B"
+   ],
+   "answer": "$9.5B theoretical maximum",
+   "answer_value": 9.5,
+   "unit": "USD billions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Acquire WIT Co only below the $9.5B theoretical value and after validating retention and synergies. With $500M of annual cost savings, combined profit reaches $1.95B and profit per customer rises from $200 to $226.74. The value depends heavily on preserving WIT's customers, delivering synergies, and sustaining the assumed 2% growth and 12% discount rate.",
+ "what_great_looks_like": [
+  "Uses profit per customer because it matches the client's goal",
+  "Identifies dilution before synergies",
+  "Values only incremental profit",
+  "Treats $9.5B as a ceiling",
+  "Challenges churn and synergy assumptions"
+ ],
+ "common_pitfalls": [
+  "Looking only at total profit",
+  "Forgetting WIT standalone profit in incremental value",
+  "Using 12% rather than 10% in the perpetuity denominator",
+  "Recommending a $9.5B bid with no buyer value",
+  "Ignoring attrition"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All standalone, combined, synergy, customer, and perpetuity calculations were independently recomputed and match the source. The source's recommendation rounds the uplift to approximately $26 per customer; the exact uplift is $26.74. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

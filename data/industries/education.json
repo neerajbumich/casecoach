@@ -1,0 +1,123 @@
+{
+  "id": "education",
+  "name": "Education",
+  "group": "Public & services",
+  "one_liner": "Schools, universities, and education companies delivering learning, a sector shaped by public funding, enrollment demographics, and a slow-to-change cost base.",
+  "how_it_makes_money": "Universities earn tuition, government funding, research grants, and endowment returns, while K-12 is mostly funded by state and local taxes. Education companies sell courseware, learning platforms, test prep, and online programs through institutional licenses, subscriptions, or revenue-share partnerships.",
+  "value_chain": [
+    "Curriculum and content",
+    "Faculty and instruction",
+    "Delivery (campus, online, hybrid)",
+    "Student recruitment and enrollment",
+    "Assessment and credentialing",
+    "Career outcomes and alumni"
+  ],
+  "revenue_formula": [
+    "Tuition revenue = enrolled students × sticker price × (1 − discount rate)",
+    "Enrollment = applicants × admit rate × yield",
+    "EdTech revenue = institutions or users × seats × price per seat"
+  ],
+  "cost_structure": [
+    "Faculty and staff compensation: typically the largest cost, often over half of spending",
+    "Facilities: campuses, housing, and maintenance",
+    "Student financial aid: institutional scholarships that offset tuition",
+    "Administration and student services",
+    "Technology and content development for online and EdTech providers"
+  ],
+  "margins": "Most universities and schools are nonprofit or public and aim to run near break-even, while for-profit education and EdTech firms range from losses to roughly 15-25% operating margins. Enrollment scale, discount rates, and delivery mix drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Enrollment",
+      "what": "Number of students; the main revenue driver and sensitive to demographics."
+    },
+    {
+      "name": "Tuition discount rate",
+      "what": "Share of sticker price given back as aid; rising rates erode net revenue."
+    },
+    {
+      "name": "Yield",
+      "what": "Share of admitted students who enroll; indicates brand strength and pricing power."
+    },
+    {
+      "name": "Retention and graduation rates",
+      "what": "Share of students persisting and completing; affects revenue, rankings, and funding."
+    },
+    {
+      "name": "Cost per student",
+      "what": "Spending per enrolled student; a key efficiency benchmark."
+    },
+    {
+      "name": "Student outcomes",
+      "what": "Job placement and earnings after completion; increasingly used to judge ROI."
+    }
+  ],
+  "trends": [
+    "Shrinking college-age population in the US pressuring smaller private colleges and leading to closures and mergers",
+    "Generative AI changing how students learn and how institutions assess work",
+    "Growth of skills-based credentials, bootcamps, and employer-sponsored learning",
+    "Scrutiny of higher-education ROI and student debt",
+    "Policy shifts in federal education funding, research grants, and international student visas",
+    "Consolidation in online program management and EdTech after the pandemic boom"
+  ],
+  "key_players": [
+    "Pearson",
+    "McGraw Hill",
+    "Coursera",
+    "2U",
+    "Chegg",
+    "Duolingo",
+    "Grand Canyon Education",
+    "Southern New Hampshire University",
+    "Arizona State University",
+    "(highly fragmented)"
+  ],
+  "case_angles": [
+    {
+      "question": "A private university faces declining enrollment and a budget deficit; what should it do?",
+      "framework_id": "turnaround"
+    },
+    {
+      "question": "Should a university launch a fully online degree program?",
+      "framework_id": "new-product-gtm"
+    },
+    {
+      "question": "How should an EdTech company respond to free AI tutoring tools?",
+      "framework_id": "competitive-response"
+    },
+    {
+      "question": "A state wants to improve its high-school graduation rates; how should it allocate funding?",
+      "framework_id": "public-sector-social-impact"
+    }
+  ],
+  "interview_hooks": [
+    "Is the four-year degree still worth the cost for most students?",
+    "Will AI tutors democratize education or widen gaps?",
+    "Should struggling colleges merge, close, or reinvent themselves?"
+  ],
+  "news": {
+    "keywords": [
+      "university",
+      "college enrollment",
+      "tuition",
+      "edtech",
+      "student loans",
+      "higher education",
+      "k-12",
+      "school district",
+      "online learning",
+      "department of education"
+    ],
+    "companies": [
+      "Pearson",
+      "McGraw Hill",
+      "Coursera",
+      "2U",
+      "Chegg",
+      "Duolingo",
+      "Grand Canyon Education",
+      "Instructure",
+      "Khan Academy",
+      "PowerSchool"
+    ]
+  }
+}

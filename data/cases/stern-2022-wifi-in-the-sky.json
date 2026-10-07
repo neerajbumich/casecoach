@@ -1,0 +1,379 @@
+{
+ "id": "stern-2022-wifi-in-the-sky",
+ "title": "WiFi in the Sky",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  242,
+  251
+ ],
+ "author": "Jasmine Dyba (Stern '18)",
+ "case_type": [
+  "Market Entry",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "airlines",
+ "sub_industry": "passenger-airlines",
+ "industry_source_label": "Airline",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 9; Structure: 7 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "breakeven",
+  "in-flight-connectivity",
+  "vendor-selection",
+  "revenue-models",
+  "customer-experience",
+  "take-rate",
+  "pilot-rollout"
+ ],
+ "concepts_tested": [
+  "New Product Launch",
+  "Breakeven"
+ ],
+ "client_type": "for-profit",
+ "geography": "Primarily continental United States; selected Canada, Mexico and Caribbean routes",
+ "prompt": "Your firm has won an RFP to help a domestic airline carrier examine their in-flight connectivity (IFC) strategy. With 80% of US-based aircraft already outfitted with IFC technology and competitive pressures rising, offering WiFi service is becoming table-stakes. Your client has yet to enter the game, but they know it's something they need to consider to stay competitive. What are some of the key things the client should think about when assessing their go-to-market strategy for IFC?",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective and fleet",
+   "answer": "The main objective is to stay competitive. The airline has 90 planes and about 30,000 flights per year."
+  },
+  {
+   "question_topic": "Routes",
+   "answer": "Primarily domestic continental-US routes, plus selected flights to Canada, Mexico and the Caribbean."
+  },
+  {
+   "question_topic": "Definitions and scope",
+   "answer": "RFP means request for proposal. IFC here means WiFi only. In-flight entertainment is delivered from a separate onboard server, although both systems can share one user experience."
+  },
+  {
+   "question_topic": "Vendor structure",
+   "answer": "Only when asked: outside vendors usually install and manage IFC, through a branded service such as GoGoAir or a wholesale white-label solution such as Row44. Contracts typically last more than 10 years. Technologies and quality vary by vendor."
+  },
+  {
+   "question_topic": "Bandwidth",
+   "answer": "Only when asked: passengers share total bandwidth, so more purchased sessions slow the service. Some carriers deliberately charge high prices to limit usage and protect quality."
+  },
+  {
+   "question_topic": "Session and aircraft definitions",
+   "answer": "One session provides connectivity for the entire flight. Wide-body aircraft have two passenger aisles; narrow-body aircraft have one."
+  }
+ ],
+ "interviewer_notes": "Most time may be spent on breakeven. Test understanding of business-model implications and creative use of data, not technical WiFi details. Exhibit 1 intentionally omits costs, technology, product features and entertainment interoperability; prompt beyond the table if necessary. For the math, wait for requests before providing capex and session margin. Strong candidates surface load factor and installation timing themselves. The take-rate brainstorm concerns possible correlations, not demonstrated causation. The title page labels this interviewer-led, taking precedence over the differing contents label. The closing guide mentions four questions, but the book contains three numbered questions plus recommendation; no missing fourth question is invented.",
+ "suggested_framework": {
+  "summary": "Assess demand and economics, vendor terms, product and technology quality, and the practical rollout needed to stay competitive.",
+  "tree": {
+   "label": "IFC go-to-market strategy",
+   "children": [
+    {
+     "label": "Demand and economics",
+     "children": [
+      {
+       "label": "Take rate and passenger segments"
+      },
+      {
+       "label": "Free, advertising, usage/time/speed pricing or subscriptions"
+      },
+      {
+       "label": "Upfront investment, ongoing cost and profitability"
+      }
+     ]
+    },
+    {
+     "label": "Vendor contract",
+     "children": [
+      {
+       "label": "Revenue model and investment/operating-cost split"
+      },
+      {
+       "label": "Branding and pricing control"
+      },
+      {
+       "label": "Contract length and technology choice"
+      }
+     ]
+    },
+    {
+     "label": "Product and technology",
+     "children": [
+      {
+       "label": "Screens versus passenger devices and entertainment integration"
+      },
+      {
+       "label": "Speed, shared bandwidth, latency and over-water availability"
+      },
+      {
+       "label": "Calling/texting add-ons and user experience"
+      }
+     ]
+    },
+    {
+     "label": "Launch execution",
+     "children": [
+      {
+       "label": "Aircraft prioritization and rollout timing"
+      },
+      {
+       "label": "Marketing, crew training and advertising sales"
+      },
+      {
+       "label": "Pilot testing and learning"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What should the airline consider in assessing its IFC go-to-market strategy?",
+   "release_when": "Read the prompt and provide clarifications as requested.",
+   "info_to_release": "80% of US-based aircraft already have IFC. The client has 90 planes and about 30,000 annual flights, primarily continental-US routes. Its main goal is competitiveness. Disclose typical 10-plus-year vendor contracts and shared-bandwidth constraints only if asked.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess demand, pricing options, capex and operating economics, vendor business model and control, technology and customer experience, and implementation. Separate WiFi from entertainment while considering integration. Staying competitive may justify strategic benefits beyond direct session profit, but those benefits are not yet quantified.",
+   "good_answer_signals": [
+    "Connects technology limitations to service quality and pricing.",
+    "Includes contract length and implementation complexity."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What are your thoughts on these two competitors' business models?",
+   "release_when": "Give Exhibit 1 after the framework.",
+   "info_to_release": "Competitor 1 is a major domestic/international carrier with 65% coverage, vendor branding, vendor-set prices averaging $25 per full-flight session, and revenue sharing. Competitor 2 is a domestic discount carrier with 90% coverage, airline branding, airline-set free access, and wholesale purchasing. Cost allocation, technology and other product features are not specified.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Vendor-branded revenue sharing can reduce airline operating burden and costs and support cross-airline subscription continuity, but limits pricing control and may conflict with the brand or frustrate customers. White-label wholesale gives pricing and experience control, integration potential and possibly better returns, but more operational responsibility and cost. These are examples, not the only models. Ask who funds installation and operating costs and consider other structures, fleet-specific approaches and unequal technology quality. Free consumer access is not free provision to the airline.",
+   "good_answer_signals": [
+    "Explains pros and cons of both models.",
+    "Asks for omitted costs and product features.",
+    "Does not assume the client must copy either competitor's exact price."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "The client has selected a white-label vendor for all 90 planes, sharing installation investment and paying a per-session operating fee. What percentage of passengers must purchase a session to break even in two years?",
+   "release_when": "Give Exhibit 2. Wait for the candidate to ask for capex and margin. Confirm occupancy and rollout assumptions when surfaced.",
+   "info_to_release": "Wide-body fleet: 10 planes, 300 seats each, 2,500 flights annually across that fleet. Narrow-body: 80 planes, 100 seats each, 27,500 flights annually across that fleet. On request: total capex $250,000 per plane, airline pays 40%; contribution margin $10 per session. Assume 100% seat occupancy and simultaneous installation on all planes. Advertising revenue is already included in the margin. One session covers the entire flight.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Airline investment is $100,000 per plane, or $9 million. Two-year passenger opportunities are 300 × 2,500 × 2 = 1.5 million wide-body and 100 × 27,500 × 2 = 5.5 million narrow-body, totaling 7 million. Required sessions are $9 million / $10 = 900,000. Take rate = 900,000 / 7 million = 12.857%, about 12.9%. Flight counts are already fleet totals, so do not multiply them again by aircraft counts. React to whether the required take rate is achievable.",
+   "good_answer_signals": [
+    "Uses the airline's investment share, not full vendor-plus-airline capex.",
+    "Uses contribution margin rather than competitor price.",
+    "Recognizes occupancy and installation timing assumptions."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Paid-connectivity take rates today are only 5–10%. What are the key drivers of IFC take rate?",
+   "release_when": "Disclose the market-research range after the candidate derives the breakeven threshold.",
+   "info_to_release": "Current paid-connectivity take rates are 5–10%, below the calculated two-year threshold. Brainstorm possible correlates, not proven causal effects.",
+   "exhibit_ids": [],
+   "expected_answer": "Organize hypotheses into flight attributes (duration, red-eye versus daytime, other entertainment), product attributes (price, speeds, reliability and connected-device allowance), and passenger attributes (age, gender, income, cabin and business versus leisure). Explain plausible directional effects and test them, rather than assuming demographic causality. The 12.9% threshold exceeds the observed range; lower load factors or delayed installation would further challenge the modeled payback. Higher usage also shares bandwidth more thinly, so take-rate maximization is not the sole goal.",
+   "good_answer_signals": [
+    "Groups drivers and hypothesizes direction.",
+    "Connects adoption to bandwidth and quality tradeoffs.",
+    "Treats demographic associations as hypotheses to validate."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the airline do next?",
+   "release_when": "After the take-rate discussion.",
+   "info_to_release": "No additional information.",
+   "exhibit_ids": [],
+   "expected_answer": "Partner with a wholesale white-label vendor to retain pricing and experience control, but pilot and roll out gradually rather than promise two-year breakeven from an immediate full-fleet deployment. The $9 million airline investment needs about 12.9% uptake at a $10 contribution, above current 5–10% benchmarks. Prioritize newer planes on high-potential routes, test pricing and experience, and negotiate vendor terms carefully because contracts can last more than 10 years. Main risks are technology quality, long lock-in, operational rollout and balancing revenue with shared-bandwidth performance.",
+   "good_answer_signals": [
+    "Preserves the source's strategic recommendation without claiming its payback target is proven.",
+    "Distinguishes the simultaneous-rollout math assumption from a staged implementation recommendation.",
+    "Links vendor selection, aircraft prioritization and pilot launch to the identified risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Competitive Benchmarking",
+   "page": 250,
+   "kind": "table",
+   "description": "Two competitor examples contrasting branding, pricing control and revenue model. Cost structures and technology are intentionally omitted.",
+   "data": {
+    "columns": [
+     "Attribute",
+     "Competitor 1",
+     "Competitor 2"
+    ],
+    "rows": [
+     [
+      "Airline description",
+      "Major domestic and international carrier; 65% fleet IFC coverage",
+      "Domestic discount carrier; 90% fleet IFC coverage"
+     ],
+     [
+      "IFC branding",
+      "Vendor-branded",
+      "Airline-branded"
+     ],
+     [
+      "Customer pricing",
+      "Vendor determines; average $25/session",
+      "Airline determines; free"
+     ],
+     [
+      "Revenue model",
+      "Revenue share",
+      "Wholesale"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-wifi-in-the-sky/p250.webp",
+   "image_has_answers": false,
+   "key_insight": "White-label control comes with more operational responsibility; competitor pricing does not establish the client's optimal model.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Air Fleet Statistics",
+   "page": 251,
+   "kind": "table",
+   "description": "Fleet counts, seats per aircraft and annual flights for each aircraft category. Annual flights are totals for each category, consistent with the client's 30,000-flight annual total.",
+   "data": {
+    "columns": [
+     "Input",
+     "Wide body",
+     "Narrow body"
+    ],
+    "rows": [
+     [
+      "Fleet size",
+      10,
+      80
+     ],
+     [
+      "Seats per aircraft",
+      300,
+      100
+     ],
+     [
+      "Flights per year",
+      2500,
+      27500
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-wifi-in-the-sky/p251.webp",
+   "image_has_answers": false,
+   "key_insight": "Combine seats with category-level flight totals, not fleet size again, to calculate passenger opportunities.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the airline's initial investment?",
+   "givens": [
+    "$250,000 capex per plane",
+    "Airline funds 40%",
+    "10 wide-body and 80 narrow-body planes"
+   ],
+   "steps": [
+    "Airline capex per plane = 250,000 × 40% = $100,000.",
+    "Wide-body investment = 10 × 100,000 = $1 million.",
+    "Narrow-body investment = 80 × 100,000 = $8 million.",
+    "Total = $9 million."
+   ],
+   "answer": "$9 million initial airline investment.",
+   "answer_value": 9000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many passenger opportunities are available over two years?",
+   "givens": [
+    "Wide body: 300 seats and 2,500 annual flights",
+    "Narrow body: 100 seats and 27,500 annual flights",
+    "100% occupancy; all aircraft equipped from the start; two years"
+   ],
+   "steps": [
+    "Wide-body opportunities = 300 × 2,500 × 2 = 1,500,000.",
+    "Narrow-body opportunities = 100 × 27,500 × 2 = 5,500,000.",
+    "Total = 7,000,000 passenger flight opportunities."
+   ],
+   "answer": "7 million passenger opportunities in two years, not necessarily unique customers.",
+   "answer_value": 7000000,
+   "unit": "passenger flight opportunities over two years",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What take rate gives two-year breakeven?",
+   "givens": [
+    "Airline investment $9 million",
+    "7 million passenger opportunities",
+    "$10 contribution per session, including advertising revenue"
+   ],
+   "steps": [
+    "Required sessions = 9,000,000 / 10 = 900,000.",
+    "Take rate = 900,000 / 7,000,000 = 0.1285714286.",
+    "Required uptake = 12.8571%, approximately 12.9%."
+   ],
+   "answer": "Approximately 12.9%, above the later 5–10% market benchmark.",
+   "answer_value": 12.857142857142856,
+   "unit": "% of passenger flight opportunities",
+   "verified": true
+  }
+ ],
+ "synthesis": "Pursue a wholesale white-label partnership for pricing and experience control, starting with a pilot and prioritizing newer aircraft on routes with high expected uptake. Do not promise the modeled two-year breakeven: a $9 million investment requires about 12.9% take rate under full occupancy and immediate full-fleet installation, versus today's 5–10% benchmark. Select and negotiate with vendors carefully given long contracts, variable technology quality and shared bandwidth. Use the pilot to optimize pricing and service quality before a gradual rollout.",
+ "what_great_looks_like": [
+  "Considers vendor economics, technology and brand control together.",
+  "Recognizes load-factor and installation-timing assumptions before relying on breakeven.",
+  "Completes the math efficiently enough to discuss adoption drivers and implementation.",
+  "Balances higher revenue against slower service as usage grows.",
+  "Recognizes that a favorable commercial contract may come with inferior technology."
+ ],
+ "common_pitfalls": [
+  "Multiplying category flight totals by fleet size again.",
+  "Using $25 competitor revenue instead of the client's $10 contribution.",
+  "Charging the airline the vendor's share of capex.",
+  "Adding advertising revenue again when it is already in margin.",
+  "Assuming white-label requires free customer access.",
+  "Treating adoption correlations as established causal relationships or the two-year target as achieved."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All calculations agree with the source's rounded 12.9% result. Candidate exhibits are pages 250 and 251, not the guide copies on 245 and 247. Format follows the title page's interviewer-led label rather than the contents' candidate-led label. The source mentions four questions in its closing guidance but provides three numbered questions plus recommendation; no extra question is invented. The recommended gradual rollout differs intentionally from the simultaneous-installation calculation assumption. Firm style is not printed and is omitted. Difficulty uses max(9,7), with Python round(9/2) = 4. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type secondary mapping",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls"
+  ]
+ }
+}

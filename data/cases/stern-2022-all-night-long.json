@@ -1,0 +1,409 @@
+{
+ "id": "stern-2022-all-night-long",
+ "title": "All Night Long",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  134,
+  141
+ ],
+ "author": "Justin Sable, Sam Knopf, Molly Joyce (Stern ’20)",
+ "case_type": [
+  "Profitability",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Cost-Benefit Analysis",
+ "industry": "hospitality",
+ "sub_industry": "leisure-entertainment",
+ "industry_source_label": "Entertainment/Media",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 7; Structure: 4 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "incremental-profit",
+  "capacity-utilization",
+  "customer-segmentation",
+  "pilot-launch",
+  "cannibalization",
+  "cost-benefit"
+ ],
+ "concepts_tested": [
+  "Profitability",
+  "Mental Math",
+  "Brainstorming"
+ ],
+ "prompt": "Your client is CNB Movies, a national movie theater company with $2 billion in annual revenue. In recent years, movie theaters have seen record high demand for Marvel and DC Comics movies, and CNB is considering ways to capitalize on this demand. One option is to offer 24-hour opening weekend screenings for these movies. The company has hired you to advise on the decision. Should they offer this experience?",
+ "clarifying_info": [
+  {
+   "question_topic": "Timing",
+   "answer": "CNB wants immediate implementation. Opening weekend begins Thursday night and ends Sunday at 11:59 PM; the calculation uses 3 overnight sessions."
+  },
+  {
+   "question_topic": "Rollout",
+   "answer": "Test one theater first, then roll out to all 400 US theaters if successful."
+  },
+  {
+   "question_topic": "Ticket prices",
+   "answer": "Adults pay $15; children and seniors pay $10."
+  },
+  {
+   "question_topic": "Competition and funding",
+   "answer": "No competitor currently offers this experience. CNB can finance it independently."
+  },
+  {
+   "question_topic": "Concessions",
+   "answer": "Average concession revenue is $10 per person."
+  }
+ ],
+ "interviewer_notes": "This is a math-heavy candidate-led case testing structure, mental arithmetic, ticket-price differences and the 3-night weekend. Let the candidate drive from ticket revenue to concessions, costs and profitability. After Exhibit 1, provide $10 average concession revenue per person if asked; if omitted, prompt for other revenue sources. After Exhibit 2, verbally provide the projected percentage increases. If time permits and the candidate has not raised broader issues, ask for additional factors. The source subtracts total new operating costs from added overnight revenue and incorrectly calls the result incremental profit. Correct that distinction in scoring: use only additional costs against additional revenue, subject to no cannibalization and unchanged existing business.",
+ "suggested_framework": {
+  "summary": "Estimate added ticket and concession revenue, incremental operating costs, and rollout risks before selecting a pilot and expansion plan.",
+  "tree": {
+   "label": "Evaluate 24-hour opening weekends",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Ticket volume by age group and showtime"
+      },
+      {
+       "label": "Concession purchases at overnight showings"
+      },
+      {
+       "label": "Potential premium ticket prices"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Cashiers, ticket checks, cleaning, operators and extra security"
+      },
+      {
+       "label": "Projector and concession-machine maintenance"
+      },
+      {
+       "label": "Utilities and concession COGS"
+      }
+     ]
+    },
+    {
+     "label": "Operating and financial risks",
+     "children": [
+      {
+       "label": "Projector reliability under continuous operation"
+      },
+      {
+       "label": "Higher capital maintenance and demand uncertainty"
+      },
+      {
+       "label": "Alternative uses of investment"
+      }
+     ]
+    },
+    {
+     "label": "Market and rollout",
+     "children": [
+      {
+       "label": "Cannibalization and competitor response"
+      },
+      {
+       "label": "Geographic and demographic fit"
+      },
+      {
+       "label": "Pilot validation and movie selection"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether CNB should offer this 24-hour experience?",
+   "release_when": "After the prompt; answer scope questions on request.",
+   "info_to_release": "CNB earns $2 billion annually and wants to launch immediately. It will test one theater before considering all 400 US locations. Opening weekend runs Thursday night through Sunday at 11:59 PM, with 3 overnight sessions. No competitor currently offers the service, and CNB can self-finance.",
+   "exhibit_ids": [],
+   "expected_answer": "Evaluate added ticket and concession revenue against added staffing, concession and maintenance costs. Consider continuous-operation reliability, premium pricing, cannibalization, demand variation, competitive response and alternative investments. Use the single-theater pilot to test the assumptions before a wider rollout.",
+   "good_answer_signals": [
+    "Frames the decision in incremental terms.",
+    "Includes concessions and operational risks without prompting."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What ticket revenue would the overnight showings generate per theater per night?",
+   "release_when": "Show Exhibit 1 when the candidate asks about attendance or utilization.",
+   "info_to_release": "Each theater has 300 seats. Tickets cost $15 for adults and $10 for children/seniors. At midnight, children occupy 30% of capacity, adults 60%, seniors 10%; at 3 AM, 10%, 40%, 10%; at 6 AM, 20%, 40%, 20%.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Midnight ticket revenue is 300 × (30% × $10 + 60% × $15 + 10% × $10) = $3,900. At 3 AM it is $2,400 and at 6 AM $3,000. Total ticket revenue is $9,300 per night. The stacked percentages represent shares of full seating capacity, not shares of only the occupied seats.",
+   "good_answer_signals": [
+    "Uses different prices by customer type.",
+    "Does not normalize partially occupied showings to 100%."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What other revenue should we include, and what is total added weekend revenue?",
+   "release_when": "Give concession spending when asked; otherwise prompt for another revenue stream.",
+   "info_to_release": "Average concession revenue is $10 per attendee. The experience runs for 3 nights.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Attendees per night are 300 at midnight, 180 at 3 AM and 240 at 6 AM, totaling 720. Concessions generate $7,200 per night. Added nightly revenue is $9,300 + $7,200 = $16,500; over 3 nights, revenue is $49,500 per theater before any displacement of existing sales.",
+   "good_answer_signals": [
+    "Separates nightly and weekend amounts.",
+    "Raises potential displacement rather than assuming all ticket sales are necessarily incremental in practice."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How do operating costs change, and what incremental profit would this produce?",
+   "release_when": "Give Exhibit 2 when costs are requested, then provide the percentage increases verbally.",
+   "info_to_release": "Current daily costs: staff $2,600, concessions $2,000, concession maintenance $400, projector maintenance $5,000. Under 24-hour operation these increase by 50%, 50%, 25% and 10% respectively. Staff includes cashiers, ticket collectors, film operators, maintenance/cleaning and security.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "New daily costs are $3,900 + $3,000 + $500 + $5,500 = $12,900, versus $10,000 currently. New total weekend costs are $38,700, but incremental weekend costs are ($12,900 − $10,000) × 3 = $8,700. Therefore added revenue of $49,500 less added costs of $8,700 gives $40,800 incremental profit, or 82.42% of added revenue, before cannibalization and omitted costs. The book’s $10,800 and about 22% come from subtracting all $38,700 of new-model costs, including $30,000 already incurred, from only overnight revenue. That is not incremental profit. Total theater profit cannot be determined without existing daytime revenue.",
+   "good_answer_signals": [
+    "Compares new costs with existing costs on the same time basis.",
+    "Identifies the source’s mixed incremental-versus-total calculation.",
+    "Keeps the corrected result conditional on the supplied operating model."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What additional factors should CNB consider before deciding?",
+   "release_when": "If the candidate has not volunteered broader considerations and time permits.",
+   "info_to_release": "The initial test is one theater; CNB may later expand nationally.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess cannibalization of current customers, upfront marketing costs, long-term word of mouth and market-share benefits, and whether rollout should cover all locations or a demographic/geographic subset. Analyze which blockbusters suit this offering, how rivals might respond, and whether failing to act would lose customers. Also test overnight concession behavior, projector reliability, maintenance exposure, premium pricing and alternative projects.",
+   "good_answer_signals": [
+    "Covers internal/external and short-/long-term factors.",
+    "Connects rollout choices to customer demographics and movie demand."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should CNB implement the experience, and how should it proceed?",
+   "release_when": "After the financial analysis and risk discussion.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Proceed with the proposed one-theater pilot. Correct incremental profit under the stated inputs is $40,800 per 3-night opening weekend, not the source’s $10,800. The opportunity may differentiate CNB for high-demand releases, but demand and cost projections require validation, results will vary by market, and movies may disappoint. Develop marketing, run demand and cost sensitivity analyses, measure cannibalization and omitted expenses, and set theater/movie selection criteria before scaling.",
+   "good_answer_signals": [
+    "Supports a pilot rather than assuming identical national performance.",
+    "States the corrected economics and the source discrepancy transparently."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Expected Seat Utilization per Showing",
+   "page": 136,
+   "kind": "bar",
+   "description": "Stacked shares of a 300-seat theater’s capacity by age group and overnight showtime.",
+   "data": {
+    "columns": [
+     "Showtime",
+     "Children (% of capacity)",
+     "Adults (% of capacity)",
+     "Seniors (% of capacity)"
+    ],
+    "rows": [
+     [
+      "12:00 AM",
+      30,
+      60,
+      10
+     ],
+     [
+      "3:00 AM",
+      10,
+      40,
+      10
+     ],
+     [
+      "6:00 AM",
+      20,
+      40,
+      20
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-all-night-long/p136.webp",
+   "key_insight": "Occupancy and adult ticket mix vary by showtime; calculate revenue separately at each time.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Daily Cost Structure per Theater",
+   "page": 138,
+   "kind": "table",
+   "description": "Current daily operating costs, before the verbally supplied increases for extended hours.",
+   "data": {
+    "columns": [
+     "Cost",
+     "Current USD per day"
+    ],
+    "rows": [
+     [
+      "Staff",
+      2600
+     ],
+     [
+      "Concessions",
+      2000
+     ],
+     [
+      "Concession maintenance",
+      400
+     ],
+     [
+      "Projector maintenance",
+      5000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-all-night-long/p138.webp",
+   "key_insight": "These are existing costs; only their increases should be charged against added overnight revenue in an incremental analysis.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is ticket revenue per night?",
+   "givens": [
+    "300 seats",
+    "$15 adult ticket; $10 child/senior ticket",
+    "Capacity shares (children/adults/seniors): midnight 30%/60%/10%; 3 AM 10%/40%/10%; 6 AM 20%/40%/20%"
+   ],
+   "steps": [
+    "Midnight = 300 × (0.3 × $10 + 0.6 × $15 + 0.1 × $10) = $3,900.",
+    "3 AM = 300 × (0.1 × $10 + 0.4 × $15 + 0.1 × $10) = $2,400.",
+    "6 AM = 300 × (0.2 × $10 + 0.4 × $15 + 0.2 × $10) = $3,000.",
+    "Total = $3,900 + $2,400 + $3,000 = $9,300."
+   ],
+   "answer": "$9,300 ticket revenue per night per theater.",
+   "answer_value": 9300,
+   "unit": "USD/night",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is total revenue over the 3 nights?",
+   "givens": [
+    "300 seats and total occupancy 100%, 60%, 80%",
+    "$10 concessions per attendee",
+    "$9,300 nightly ticket revenue",
+    "3 nights"
+   ],
+   "steps": [
+    "Nightly attendance = 300 + 180 + 240 = 720.",
+    "Nightly concession revenue = 720 × $10 = $7,200.",
+    "Total added revenue = ($9,300 + $7,200) × 3 = $49,500."
+   ],
+   "answer": "$49,500 added weekend revenue before cannibalization.",
+   "answer_value": 49500,
+   "unit": "USD per theater per weekend",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What are total new and incremental operating costs?",
+   "givens": [
+    "Current daily costs $2,600, $2,000, $400, $5,000",
+    "Increases 50%, 50%, 25%, 10%",
+    "3 days"
+   ],
+   "steps": [
+    "Current total = $10,000 daily.",
+    "New costs = $3,900, $3,000, $500 and $5,500; total $12,900 daily.",
+    "New weekend total = $12,900 × 3 = $38,700.",
+    "Incremental cost = ($12,900 − $10,000) × 3 = $8,700."
+   ],
+   "answer": "$38,700 total new-model weekend costs, of which $8,700 is incremental.",
+   "answer_value": 8700,
+   "unit": "incremental USD per theater per weekend",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is the actual incremental profit and margin on added revenue?",
+   "givens": [
+    "Added overnight revenue $49,500",
+    "New total weekend cost $38,700",
+    "Existing weekend cost $30,000",
+    "Unchanged existing business and no cannibalization in the numerical model"
+   ],
+   "steps": [
+    "Incremental weekend cost = $38,700 − $30,000 = $8,700.",
+    "Incremental profit = $49,500 − $8,700 = $40,800.",
+    "Margin on incremental revenue = $40,800 / $49,500 × 100 = 82.424242%.",
+    "The source instead computes $49,500 − $38,700 = $10,800 and $10,800 / $49,500 = 21.818182%, approximately 22%, mixing added revenue with total costs."
+   ],
+   "answer": "$40,800 incremental profit, equal to 82.42% of added revenue, before cannibalization and omitted costs; full-theater profit is not calculable from the supplied revenue data.",
+   "answer_value": 40800,
+   "unit": "incremental USD per theater per weekend",
+   "verified": false,
+   "book_answer_if_different": "The book states 'Incremental profits' of $10,800 and a 22% profit margin, using $49,500 − $38,700. It subtracts $30,000 of baseline costs again from only added overnight revenue."
+  }
+ ],
+ "synthesis": "Pilot the 24-hour opening-weekend experience at one theater. The supplied model supports $40,800 incremental profit over 3 nights after $8,700 incremental costs, assuming no displaced existing sales or omitted expenses. The book recommends proceeding but understates incremental profit as $10,800 by charging all new-model operating costs against only overnight revenue. Develop marketing, validate demand and costs through sensitivity analysis and the pilot, assess cannibalization and equipment reliability, and choose movies and markets before expanding toward 400 theaters.",
+ "what_great_looks_like": [
+  "Drives the case independently and organizes multi-step calculations.",
+  "Includes concessions without prompting.",
+  "Uses correct age-specific ticket prices and 3 nights.",
+  "Separates added costs from total costs.",
+  "Brainstorms internal, external, short-term and long-term considerations."
+ ],
+ "common_pitfalls": [
+  "Treating stacked utilization shares as percentages of occupied seats.",
+  "Charging adult prices to every customer.",
+  "Forgetting concessions or using the wrong number of nights.",
+  "Subtracting all existing operating costs from incremental revenue.",
+  "Extrapolating the pilot uniformly across 400 theaters without local demand evidence."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Dedup returned NEW before reading the full case. Candidate charts on pages 136 and 138 were visually inspected; solution pages 137 and 139 are not exhibit images. Ticket and concession math matches. Material source error: $10,800/22% is not incremental profit/margin because the source subtracts total new operating costs of $38,700 from only added revenue of $49,500. Correct incremental cost is $8,700 and profit $40,800 (82.42% of added revenue), conditional on unchanged baseline sales and no omitted costs. Full-theater profitability is undetermined without baseline revenue. The source's 3-night convention is preserved despite the broad Thursday-through-Sunday opening-weekend description. Medium confidence records internal inconsistency. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry",
+   "sub_industry",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework grouping",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis corrected incremental framing"
+  ]
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "id": "kellogg-2024-dark-sky",
+ "title": "Dark Sky",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  118,
+  128
+ ],
+ "author": "Sean Burrow (Kellogg 2011); edited by Eugene Kim (Kellogg 2015), Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "Growth/Revenue",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Y04 New product / Market entry",
+ "industry": "aerospace-defense",
+ "sub_industry": "defense",
+ "industry_source_label": "X01 Aerospace & Defense",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "growth-strategy",
+  "new-product",
+  "cannibalization",
+  "pricing",
+  "defense",
+  "government-contracting",
+  "revenue-forecast",
+  "market-entry"
+ ],
+ "concepts_tested": [
+  "Z12 Creativity (1)",
+  "Z05 Elasticity (2)",
+  "Z14 Pricing strategy (2)"
+ ],
+ "fit_question": "What is your greatest weakness? Tell me about a team experience when you were hampered by this weakness.",
+ "prompt": "Our client, Dark Sky, is a small manufacturer of unmanned (i.e. remotely piloted) data collection aircraft. Dark Sky produces the Assessor, an aircraft originally designed for unmanned weather exploration. In 2006, the United States military began purchasing Assessors for use in Intelligence, Surveillance and Reconnaissance (ISR) missions. The Assessor is profitable, but sales have stagnated and the client wishes to grow. What are some steps Dark Sky could take to achieve growth?",
+ "clarifying_info": [
+  {
+   "question_topic": "Customer/price",
+   "answer": "Dark Sky's only customer is the US Military, with which they have a Cost-Plus-Fixed-Fee contract. The contract has been extended in the past and is up for renegotiation; the Military has agreed to a marginal inflationary price increase."
+  },
+  {
+   "question_topic": "Company",
+   "answer": "Dark Sky has additional capacity to manufacture. They are too small to acquire competitors."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "Dark Sky designs a unique aircraft launched from a catapult device, deployable from ships at sea or harsh terrain (e.g. desert, mountains). Dark Sky currently only sells the Assessor, but has other prototypes designed."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are approximately 20 competitors that manufacture unmanned aircraft."
+  }
+ ],
+ "interviewer_notes": "This case intentionally uses terminology that may not be familiar to the typical MBA student, to challenge the interviewee to dismiss superfluous information and focus on the business problem. Key case steps: (1) analyze historical growth and brainstorm growth strategies, (2) explore attractiveness of prototype products, (3) brainstorm other product selection considerations, (4) provide client recommendation.",
+ "suggested_framework": {
+  "summary": "Book gives no single framework tree; the case proceeds through historical growth analysis, an organic-vs-inorganic growth brainstorm, then a quantitative new-product/cannibalization comparison.",
+  "tree": {
+   "label": "How should Dark Sky achieve growth?",
+   "children": [
+    {
+     "label": "Organic growth",
+     "children": [
+      {
+       "label": "Increase penetration with US military"
+      },
+      {
+       "label": "Product development — new products for the military"
+      },
+      {
+       "label": "New market entry — new markets or customers"
+      },
+      {
+       "label": "Increase/reduce prices based on demand elasticity"
+      }
+     ]
+    },
+    {
+     "label": "Inorganic growth",
+     "children": [
+      {
+       "label": "Joint venture — increase market accessibility or product offering"
+      },
+      {
+       "label": "M&A — add additional capacity and/or products"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "exhibit",
+   "interviewer_asks": "How many units were sold in 2019, and what was the growth rate from 2015 to 2019? How could Dark Sky grow?",
+   "release_when": "Provide Exhibit A when the interviewee asks about revenue. Only after candidate asks — release clarifying information (customer/contract, capacity, product, competition) on request.",
+   "info_to_release": "Exhibit A (historical revenue 2014-2019). The military started purchasing the Assessor in 2016 (note: the case prompt separately states 2006 — treat 2016 as the operative figure for this calculation per the interviewer guide). Price has remained constant at $100,000/unit historically. The Assessor has been Dark Sky's only revenue source.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "2019 units sold = $5,000K / $100K per unit = 50 units. Growth rate 2015 to 2019 = ($5,000K - $500K) / $500K x 100 = 900%. Growth strategies: Organic — increase penetration with the US military, develop new products for the military, enter new markets/customers, raise or lower price based on demand elasticity. Inorganic — joint venture to increase market accessibility or product offering, or M&A to add capacity/products (though Dark Sky is too small to acquire competitors).",
+   "good_answer_signals": [
+    "Correctly converts revenue to units using the given $100K/unit price",
+    "Computes growth rate as a percentage change, not a multiple",
+    "Organizes brainstorm cleanly into organic vs. inorganic levers"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Dark Sky has developed several aircraft prototypes for military missions and can continue producing the Assessor while introducing one new aircraft. To maximize short-term growth, which aircraft should Dark Sky produce? (Then: the new aircraft will cannibalize some existing Assessor sales — which aircraft should Dark Sky produce accounting for that?)",
+   "release_when": "Provide Exhibit B after the interviewee asks about new products. Provide Exhibit C only if the interviewee specifically asks about cannibalization.",
+   "info_to_release": "Exhibit B (2020 new-product sales forecast by branch and price per aircraft for SeaBird, SandBird, and JointBird). Assessor sales, if no new product launches, are 50 units at $110,000 per aircraft (the renegotiated/inflation-adjusted price). If asked about cannibalization, Exhibit C (the % of Assessor unit sales lost/cannibalized by each new product).",
+   "exhibit_ids": [
+    "exB",
+    "exC"
+   ],
+   "expected_answer": "Without cannibalization: New product revenue alone — SeaBird 50 x $220K = $11.0M; SandBird 60 x $210K = $12.6M; JointBird (38+52=90) x $180K = $16.2M — JointBird looks best even before considering cannibalization. With cannibalization: Assessor revenue falls from $5.5M (50 x $110K, no new product) to $3.3M with SeaBird (50 x (1-40%) = 30 units), $1.65M with SandBird (50 x (1-70%) = 15 units), or $0.55M with JointBird (50 x (1-90%) = 5 units). Total revenue: Assessor only = $5.5M; Assessor + SeaBird = $3.3M + $11.0M = $14.3M; Assessor + SandBird = $1.65M + $12.6M = $14.25M; Assessor + JointBird = $0.55M + $16.2M = $16.75M. JointBird still maximizes total forecasted 2020 revenue even after cannibalization.",
+   "good_answer_signals": [
+    "Proactively raises cannibalization as a consideration before being handed Exhibit C",
+    "Uses quick estimation shortcuts (e.g., 90 units is 100 minus 10%, so revenue is 18M minus 10%) to move fast",
+    "Compares total combined revenue (Assessor + new product), not just the new product's own revenue, across all three options"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "If the candidate doesn't already raise other considerations relevant to new-aircraft selection, ask them to brainstorm what else Dark Sky should consider.",
+   "expected_answer": "Development: how quickly could Dark Sky start manufacturing a third model (e.g., produce SandBird this year and both SandBird and SeaBird next year), and what would the revenue implications be? Costs: since Dark Sky has a Cost-Plus-Fixed-Fee contract, profitability is likely similar across aircraft models, so Dark Sky should focus on maximizing units sold rather than per-unit margin; also consider the payback period on manufacturing investment for each aircraft type. Portfolio: if producing JointBird, is the remaining $550K of Assessor revenue worth its associated production cost, or should those resources go elsewhere? Customer: potential benefits of having two customer bases (Navy and Army) for the new product.",
+   "good_answer_signals": [
+    "Recognizes the Cost-Plus-Fixed-Fee contract structure implies near-equal profitability across models, shifting focus to volume",
+    "Raises the possibility of eventually producing more than one new model",
+    "Questions whether the shrinking Assessor line is still worth running under the JointBird scenario"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the client?",
+   "expected_answer": "Based on 2020 forecasted revenue alone, Dark Sky should introduce the JointBird to the US Military to boost growth — among the three prototypes, it maximizes short-term revenue ($16.75M total vs. $14.3M for SeaBird and $14.25M for SandBird). However, several connected issues should still be considered: profitability (given the cost-plus contract), long-term revenue forecasts, and competitive response, among others.",
+   "good_answer_signals": [
+    "Gives a clear recommendation (JointBird) grounded in the calculated totals",
+    "Flags that the revenue-only lens is incomplete and names at least one additional factor that should be examined before finalizing",
+    "Excellent interviewees identify cannibalization as a consideration before beginning the revenue calculations, rather than after"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Historical revenue (2014-2019)",
+   "page": 121,
+   "kind": "line",
+   "description": "Line chart of Dark Sky's annual revenue ($ millions) from 2014 to 2019: roughly $0.3M (2014), $0.5M (2015), $2.0M (2016), $4.9M (2017), $4.85M (2018), $5.0M (2019) — steep growth 2015-2017, then a plateau.",
+   "data": {
+    "columns": [
+     "Year",
+     "Revenue ($M)"
+    ],
+    "rows": [
+     [
+      "2014",
+      0.3
+     ],
+     [
+      "2015",
+      0.5
+     ],
+     [
+      "2016",
+      2
+     ],
+     [
+      "2017",
+      4.9
+     ],
+     [
+      "2018",
+      4.85
+     ],
+     [
+      "2019",
+      5
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-dark-sky/p121.webp",
+   "key_insight": "Revenue exploded from 2015 to 2017 as the military ramped purchases, then flattened out from 2017-2019 — this plateau is the 'stagnated sales' the client wants to break out of.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "exB",
+   "title": "New product sales forecast (2020)",
+   "page": 122,
+   "kind": "table",
+   "description": "Table of forecasted 2020 unit sales by branch (Navy, Army) and price per aircraft for each of the three new prototype offerings: SeaBird, SandBird, and JointBird.",
+   "data": {
+    "columns": [
+     "New Product Offering",
+     "Navy units",
+     "Army units",
+     "Price per aircraft"
+    ],
+    "rows": [
+     [
+      "SeaBird",
+      50,
+      "--",
+      "$220,000"
+     ],
+     [
+      "SandBird",
+      "--",
+      60,
+      "$210,000"
+     ],
+     [
+      "JointBird",
+      38,
+      52,
+      "$180,000"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-dark-sky/p122.webp",
+   "key_insight": "JointBird is priced lowest per unit but sells to both branches and has the highest total unit volume (90), making it the revenue leader among the three new products even before cannibalization is considered.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Impact of new product on existing sales (2020)",
+   "page": 123,
+   "kind": "table",
+   "description": "Same table as Exhibit B, with an added column showing the % of existing Assessor unit sales cannibalized by each new product launch: SeaBird 40%, SandBird 70%, JointBird 90%.",
+   "data": {
+    "columns": [
+     "New Product Offering",
+     "Navy units",
+     "Army units",
+     "Price per aircraft",
+     "Assessor unit sales lost (cannibalized)"
+    ],
+    "rows": [
+     [
+      "SeaBird",
+      50,
+      "--",
+      "$220,000",
+      "40%"
+     ],
+     [
+      "SandBird",
+      "--",
+      60,
+      "$210,000",
+      "70%"
+     ],
+     [
+      "JointBird",
+      38,
+      52,
+      "$180,000",
+      "90%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-dark-sky/p123.webp",
+   "key_insight": "Cannibalization rises sharply with each option (40% -> 70% -> 90%), most severely for JointBird — but JointBird's much larger new-product revenue more than offsets its near-total loss of Assessor sales.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "2019-units-and-growth",
+   "question": "How many units were sold in 2019, and what was the revenue growth rate from 2015 to 2019?",
+   "givens": [
+    "2019 revenue = $5,000K",
+    "2015 revenue = $500K",
+    "Price per unit = $100,000 (constant historically)"
+   ],
+   "steps": [
+    "2019 units = $5,000K / $100K = 50 units",
+    "Growth rate = ($5,000K - $500K) / $500K x 100 = 900%"
+   ],
+   "answer": "50 units sold in 2019; 900% revenue growth from 2015 to 2019.",
+   "answer_value": 900,
+   "unit": "% growth (2015-2019); 50 units in 2019",
+   "verified": true
+  },
+  {
+   "id": "new-product-revenue-only",
+   "question": "What is the forecasted 2020 revenue from each new product alone (ignoring cannibalization)?",
+   "givens": [
+    "SeaBird: 50 units at $220,000",
+    "SandBird: 60 units at $210,000",
+    "JointBird: 38 + 52 = 90 units at $180,000"
+   ],
+   "steps": [
+    "SeaBird = 50 x $220,000 = $11,000,000",
+    "SandBird = 60 x $210,000 = $12,600,000",
+    "JointBird = 90 x $180,000 = $16,200,000"
+   ],
+   "answer": "SeaBird $11.0M; SandBird $12.6M; JointBird $16.2M in new-product revenue alone.",
+   "answer_value": 16200000,
+   "unit": "$ (JointBird new-product revenue; see steps for others)",
+   "verified": true
+  },
+  {
+   "id": "assessor-revenue-with-cannibalization",
+   "question": "What is Assessor revenue under each new-product scenario, accounting for cannibalization?",
+   "givens": [
+    "Baseline Assessor sales = 50 units at $110,000/unit",
+    "SeaBird cannibalizes 40% of Assessor units",
+    "SandBird cannibalizes 70%",
+    "JointBird cannibalizes 90%"
+   ],
+   "steps": [
+    "No new product: 50 x $110,000 = $5,500,000",
+    "With SeaBird: 50 x (1-40%) = 30 units; 30 x $110,000 = $3,300,000",
+    "With SandBird: 50 x (1-70%) = 15 units; 15 x $110,000 = $1,650,000",
+    "With JointBird: 50 x (1-90%) = 5 units; 5 x $110,000 = $550,000"
+   ],
+   "answer": "Assessor revenue: $5.5M (no new product), $3.3M (with SeaBird), $1.65M (with SandBird), $0.55M (with JointBird).",
+   "answer_value": 550000,
+   "unit": "$ (Assessor revenue with JointBird; see steps for others)",
+   "verified": true
+  },
+  {
+   "id": "total-revenue-comparison",
+   "question": "What is total forecasted 2020 revenue (Assessor + new product) under each scenario, and which should Dark Sky choose?",
+   "givens": [
+    "Assessor revenue: $5.5M / $3.3M / $1.65M / $0.55M (no product / SeaBird / SandBird / JointBird)",
+    "New product revenue: $0 / $11.0M / $12.6M / $16.2M"
+   ],
+   "steps": [
+    "Assessor only = $5,500,000",
+    "Assessor + SeaBird = 3,300,000 + 11,000,000 = $14,300,000",
+    "Assessor + SandBird = 1,650,000 + 12,600,000 = $14,250,000",
+    "Assessor + JointBird = 550,000 + 16,200,000 = $16,750,000"
+   ],
+   "answer": "JointBird maximizes total 2020 forecasted revenue at $16.75M, ahead of SeaBird ($14.3M) and SandBird ($14.25M).",
+   "answer_value": 16750000,
+   "unit": "$ (total 2020 revenue, JointBird scenario)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Based on 2020 forecasted revenue alone, Dark Sky should introduce the JointBird to the US Military in order to boost growth — among the three new prototype products, JointBird is forecasted to maximize short-term revenue. However, there are several connected issues Dark Sky should consider, including profitability (given its Cost-Plus-Fixed-Fee contract structure), long-term revenue forecasts, and competitive response, among others.",
+ "what_great_looks_like": [
+  "Correctly backs into 2019 unit sales and the 2015-2019 growth rate from the revenue chart and given unit price",
+  "Cleanly organizes the growth brainstorm into organic vs. inorganic levers",
+  "Identifies cannibalization as a consideration before beginning revenue calculations, rather than only after being handed Exhibit C",
+  "Uses fast estimation shortcuts (e.g., 90 units = 100 minus 10%) to move through the arithmetic quickly",
+  "Compares total combined revenue across all three new-product scenarios, not just each new product's standalone revenue"
+ ],
+ "common_pitfalls": [
+  "Picking the new product with the highest revenue on its own without accounting for cannibalized Assessor sales",
+  "Using the outdated $100,000 Assessor price instead of the renegotiated $110,000 price when calculating Part 2 Assessor revenue",
+  "Stopping at 'JointBird wins on revenue' without flagging that profitability, long-term trends, and competitive response still need review",
+  "Treating profitability as automatically different across aircraft models, missing that the cost-plus-fixed-fee contract structure tends to equalize margins"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[exA].data — line chart values for 2016-2018 are approximate reads from the chart image (2014, 2015, 2019 are confirmed by the text's own math)"
+  ],
+  "math_verified": true,
+  "notes": "The case prompt states the US military began purchasing the Assessor in 2006, but the Part 1 interviewer guide text says purchasing started in 2016; the growth-rate calculation (2015 to 2019) is unaffected either way, but this is a likely book inconsistency, preserved as-is rather than silently corrected.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "common_pitfalls"
+  ]
+ }
+}

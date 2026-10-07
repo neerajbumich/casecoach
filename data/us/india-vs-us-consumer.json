@@ -1,0 +1,247 @@
+{
+  "id": "india-vs-us-consumer",
+  "section": "consumer",
+  "order": 8,
+  "title": "India vs US Consumer",
+  "summary": "A side-by-side of the Indian and US consumer for someone whose instincts were built in India: payments, delivery economics, retail formats, price sensitivity, households and digital habits. Shows how to turn India experience into an interview edge without assuming the US works the same way.",
+  "blocks": [
+    {
+      "type": "compare",
+      "title": "Payments and credit",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Default payment",
+          "UPI: ~24.5B transactions in Aug 2026 alone (NPCI data)",
+          "Credit and debit cards; ~82% of adults hold a credit card (2025)"
+        ],
+        [
+          "Credit cards",
+          "~119M cards (Mar 2026, RBI) for 1.4B+ people",
+          "Ubiquitous; credit score shapes renting, loans, even jobs"
+        ],
+        [
+          "Who pays merchant cost",
+          "UPI largely zero-MDR for merchants",
+          "Merchant interchange fees fund card rewards"
+        ],
+        [
+          "Revolving debt",
+          "Less common; cards often paid in full",
+          "~45% of cardholders carried a balance in 2025; balances ~$1.26T"
+        ],
+        [
+          "Pay later",
+          "EMI culture on electronics, BNPL growing",
+          "BNPL used by ~16% of adults (2025)"
+        ],
+        [
+          "P2P",
+          "UPI everywhere, including street vendors",
+          "Zelle, Venmo, Cash App; cash still for tips/small vendors"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Delivery and quick commerce economics",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Density",
+          "~484 people/km²; dense metro neighborhoods",
+          "~37 people/km²; sprawling suburbs"
+        ],
+        [
+          "Rider cost",
+          "Low-cost two-wheeler fleet",
+          "High: e.g. NYC app delivery minimum ~$22/hr before tips (2026); federal minimum $7.25 but most markets pay far more"
+        ],
+        [
+          "Promise",
+          "10-20 min grocery is mainstream in metros",
+          "Same-day or 1-2 hour slots; 15-min mainly in dense cores"
+        ],
+        [
+          "Basket",
+          "Small, frequent top-ups",
+          "Larger, planned baskets; minimums and fees"
+        ],
+        [
+          "Economics lever",
+          "Order density per dark store, ad income",
+          "Fees, subscriptions (DashPass, Instacart+), tips, ads"
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Why 10-minute delivery is rarer in the US",
+      "body": "Three things break the Indian unit economics. Labor per hour costs several times more, and many cities set minimum pay for app couriers. Low density means fewer orders per square km, so a dark store sees fewer orders and riders travel farther, often by car. And US shoppers already stock up weekly with a car and a big pantry, so the 'forgot milk' occasion is smaller. Several US 15-minute grocery startups shrank or exited after 2022."
+    },
+    {
+      "type": "compare",
+      "title": "Retail formats, price and brands",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Dominant format",
+          "Kiranas plus growing modern trade and quick commerce",
+          "Supercenters (Walmart, Target), clubs (Costco), grocers, dollar stores"
+        ],
+        [
+          "Store brands",
+          "Small but growing",
+          "~21% of dollar sales (2025)"
+        ],
+        [
+          "Price sensitivity",
+          "High; sachets, small packs, MRP printed on pack",
+          "High in lower tiers; promotions, coupons, store brands; price excludes sales tax"
+        ],
+        [
+          "Haggling",
+          "Common in unorganized retail",
+          "Rare; fixed prices, but returns are easy and generous"
+        ],
+        [
+          "Brand loyalty",
+          "Strong for trusted legacy brands; growing D2C",
+          "Moderate; loyalty programs and convenience drive repeat"
+        ],
+        [
+          "Returns",
+          "Often limited",
+          "Liberal 30-90 day returns are expected"
+        ]
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Households and digital adoption",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Household structure",
+          "Larger households; joint and extended families common",
+          "~29% one-person households; ~18% multigenerational (2021)"
+        ],
+        [
+          "Decision-making",
+          "Often collective; family influences big purchases",
+          "More individual; couples decide jointly"
+        ],
+        [
+          "Urbanization (2025)",
+          "~36% urban",
+          "~80% urban (mostly suburban)"
+        ],
+        [
+          "Internet",
+          "~1.09B internet subscriptions (Mar 2026, TRAI; not unique users)",
+          "~91% of adults own a smartphone (2025)"
+        ],
+        [
+          "Mobile-first",
+          "Many users came online via mobile and UPI first",
+          "Desktop and card legacy; apps layered on top"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "How to use India experience as an advantage",
+      "items": [
+        "Lead with the mechanism, not the country: 'order density drives delivery cost per drop' travels; 'India does 10-minute delivery' does not.",
+        "Translate units: rupees to dollars, two-wheelers to cars, kirana to convenience store, before drawing a conclusion.",
+        "Flag the difference explicitly: labor cost, density and basket size, then say what would need to be true in the US.",
+        "Use India as a leading indicator for mobile-first payments, super-apps and low-price-point innovation.",
+        "Keep to one India example per answer; the interviewer wants your US judgment."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Example phrasings",
+      "items": [
+        "\"At a quick-commerce company in India, dark-store profitability hinged on orders per store per hour. In the US I'd first check whether this zip code has enough density to reach a similar number.\"",
+        "\"In India UPI made payments nearly free for merchants; in the US interchange funds rewards, so a payments product needs a different value proposition.\"",
+        "\"I've seen small packs widen reach in price-sensitive markets; for this US dollar-store case, I'd test smaller pack sizes for lower-income shoppers.\"",
+        "\"I'd be careful generalizing from India here: US labor costs and car-based shopping change the math, so let me size it bottom-up.\""
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Don't over-generalize either market",
+      "body": "India is not one market (metro vs tier-2 vs rural differ hugely), and neither is the US (Manhattan vs suburban Texas). Avoid 'Americans always…' or 'Indians always…'. Compare specific segments, and be clear about which differences are structural (density, labor cost) vs cultural or temporary."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Turn it into a fit story",
+      "body": "In fit interviews, frame India experience as range: you've built for consumers who are extremely price-sensitive and mobile-first, and you know how to question whether a model transfers. That signals adaptability and humility, which US consulting and tech interviewers value."
+    }
+  ],
+  "in_a_case": [
+    "US quick-commerce entry: walk through density, labor cost and basket size as the three gates; conclude it works only in select urban cores.",
+    "Payments or fintech case: contrast near-zero merchant cost UPI with US interchange-funded rewards to explain why consumers are attached to cards.",
+    "CPG pricing for lower-income US shoppers: borrow the small-pack/price-point idea from India, but test against US retailer shelf economics.",
+    "Fit question 'Why does your experience matter here?': give one mechanism you learned in India and how you'd adapt it, not a list of India facts.",
+    "Delivery app profitability: in the US, fees, subscriptions, tips and ads carry the economics that density alone carries in Indian metros."
+  ],
+  "flashcards": [
+    {
+      "front": "UPI monthly volume (Aug 2026)",
+      "back": "~24.5B transactions (NPCI data, record)."
+    },
+    {
+      "front": "Credit cards in India (Mar 2026)",
+      "back": "~119M (RBI). Compare: ~82% of US adults hold a credit card."
+    },
+    {
+      "front": "Three reasons 10-minute delivery is rare in the US",
+      "back": "High labor cost, low density, and car-based weekly stock-up habits."
+    },
+    {
+      "front": "NYC minimum pay for app delivery workers (2026)",
+      "back": "~$22.13/hour before tips (NYC DCWP)."
+    },
+    {
+      "front": "Population density India vs US",
+      "back": "~484 vs ~37 people per km² (World Bank, 2023)."
+    },
+    {
+      "front": "Urban share India vs US (2025)",
+      "back": "~36% vs ~80% (World Bank)."
+    },
+    {
+      "front": "How do US card rewards get funded?",
+      "back": "Mostly by merchant interchange fees paid on each swipe, unlike near-zero-MDR UPI."
+    },
+    {
+      "front": "Best way to use India experience in a US case",
+      "back": "Cite the transferable mechanism, flag structural differences, then size for the US."
+    }
+  ],
+  "sources": [
+    "https://www.business-standard.com/finance/news/upi-transactions-august-2026-record-volume-npci-126090100506_1.html",
+    "https://www.livemintmoney.com/personal-finance/credit-cards/total-number-of-credit-cards-hit-over-118-million-in-march-2026-shows-rbi-data-281777631894672.html",
+    "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+    "https://www.newyorkfed.org/newsevents/news/research/2026/20260811",
+    "https://api.worldbank.org/v2/country/IND;USA/indicator/EN.POP.DNST?format=json&mrv=1",
+    "https://api.worldbank.org/v2/country/IND;USA/indicator/SP.URB.TOTL.IN.ZS?format=json&mrv=1",
+    "https://www.nyc.gov/site/dca/workers/workersrights/food-delivery-worker-laws-faqs.page",
+    "https://www.dol.gov/agencies/whd/minimum-wage",
+    "https://techcrunch.com/2025/10/16/zepto-raises-450-million-at-7-billion-valuation-as-indian-quick-commerce-market-heats-up",
+    "https://www.plma.com/article/us-private-label-industry-reached-2828-billion-sales-2025",
+    "https://www.census.gov/newsroom/press-releases/2025/families-and-living-arrangements.html",
+    "https://www.pewresearch.org/social-trends/2022/03/24/the-demographics-of-multigenerational-households/",
+    "https://www.tribuneindia.com/news/business/indias-internet-base-crosses-1092-million-in-jan-mar-2026-broadband-grows-5-8-per-cent-qoq-trai/",
+    "https://www.pewresearch.org/internet/fact-sheet/mobile/"
+  ],
+  "checked": "2026-10"
+}

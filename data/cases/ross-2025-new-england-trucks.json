@@ -1,0 +1,461 @@
+{
+ "id": "ross-2025-new-england-trucks",
+ "title": "New England Trucks",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  176,
+  184
+ ],
+ "variant_group_id": "ross-2025-new-england-trucks",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Power & Utilities | Operations",
+ "industry": "utilities",
+ "sub_industry": "electric-grid",
+ "industry_source_label": "Power & Utilities",
+ "geography": "US (New England: Boston, Hartford, NYC hubs)",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 3, Qual - 3, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 45,
+ "tags": [
+  "route-optimization",
+  "labor-cost-reduction",
+  "breakeven-analysis",
+  "asset-utilization",
+  "workforce-planning",
+  "logistics",
+  "severance-cost"
+ ],
+ "concepts_tested": [
+  "route/schedule optimization under a driving-hour constraint",
+  "translating route efficiency into headcount and payroll savings",
+  "severance payback period",
+  "recognizing a freed-asset (truck) sale as an alternative to a breakeven calculation"
+ ],
+ "prompt": "Our client (Power Grid) is a power and utilities company with a national presence. The client has 3 hubs in the New England region where their maintenance activities are centered. Each hub is identical in size and operations. Maintenance operations run Monday-Saturday; Sunday is a day off with only one on-call driver and one engineer per hub for emergencies. Each hub operates a fleet of trucks that go on routine maintenance runs on a daily, bi-weekly (2x/week), or weekly basis. Each truck carries diagnostic equipment, replacement parts, and two other maintenance personnel, and starts at its base at 8AM, returning by 5PM. Power Grid is under investor pressure to reduce costs but faces a shortage of qualified truck drivers; to retain its workforce it has temporarily raised the hourly driver rate from $18/hour to $25/hour, which isn't sustainable long-term. The VP of Operations believes power generation/transmission costs are fully optimized and needs help finding further cost reductions.",
+ "clarifying_info": [
+  {
+   "question_topic": "Case style",
+   "answer": "This is a McKinsey-style, interviewer-led case; little clarification is needed beyond parts the candidate missed while the prompt was read."
+  }
+ ],
+ "interviewer_notes": "This case has a lot of detail and brainstorming; adjust pacing as needed in Question 2. If the candidate takes too long in Q2, ask them to find the optimal route for just Boston and Hartford, then push them to find the optimal case. Once the candidate finds the optimal route, give them the optimal number of drivers required.",
+ "suggested_framework": {
+  "summary": "Break down cost-reduction opportunities across hubs, trucks, maintenance, personnel/usage, assets, and new initiatives/technologies.",
+  "tree": {
+   "label": "Power Grid Cost Reduction",
+   "children": [
+    {
+     "label": "Needs",
+     "children": [
+      {
+       "label": "Hubs: number of hubs, stations served, operating hours"
+      },
+      {
+       "label": "Trucks: number of trucks, distance traveled, driving hours"
+      },
+      {
+       "label": "Maintenance: activities, time required per activity"
+      }
+     ]
+    },
+    {
+     "label": "Usage",
+     "children": [
+      {
+       "label": "Personnel: driver work hours, on-site engineer hours, hub employees, cost of engineer/driver/hub employees"
+      },
+      {
+       "label": "Assets: asset used per maintenance activity, cost per activity, vehicle age, fuel usage, maintenance requirements"
+      }
+     ]
+    },
+    {
+     "label": "New Initiatives",
+     "children": [
+      {
+       "label": "Change Routes: increase driving time by adding more stops per run"
+      },
+      {
+       "label": "Fuel Efficiency: fuel-efficient/EV vehicles, more efficient routes"
+      },
+      {
+       "label": "Hub Reduction: increase or decrease number of hubs"
+      },
+      {
+       "label": "Asset Allocation: right-size truck per trip"
+      }
+     ]
+    },
+    {
+     "label": "New Technologies (exceptional)",
+     "children": [
+      {
+       "label": "Autonomous vehicles"
+      },
+      {
+       "label": "Drones for diagnostics"
+      },
+      {
+       "label": "Sensors to monitor station health / condition-based maintenance"
+      }
+     ]
+    },
+    {
+     "label": "Risks (exceptional)",
+     "children": [
+      {
+       "label": "Layoffs may hurt company reputation"
+      },
+      {
+       "label": "Longer routes may hurt driver safety"
+      },
+      {
+       "label": "Reduced maintenance runs may increase risk of outages/fires"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you advise the VP of Operations to bring costs down further?",
+   "expected_answer": "Average performance: framework covering Hubs, Trucks, Maintenance (Needs) and Personnel, Assets (Usage). Exceptional performance additionally covers New Initiatives (change routes, fuel efficiency, hub reduction, asset allocation), New Technologies (autonomous vehicles, drones, sensors), and Risks (reputational, safety, outage risk).",
+   "good_answer_signals": [
+    "separates 'needs' (what work must be done) from 'usage' (how efficiently resources are used)",
+    "exceptional candidates proactively raise new technologies and risks without prompting"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "[Give Exhibit 1 and 2] Here is the current network of Power Grid and an overview of current staffing at each hub. Is there an opportunity to reduce costs here by changing the routes?",
+   "release_when": "At the start of Question 2; additional rules given only when asked",
+   "info_to_release": "Each driver may drive a maximum of 8 hours (government regulation), including the return trip. Daily stations require 30 minutes on-site; bi-weekly stations require 45 minutes; weekly stations require 1 hour. A driver who shows up to work is paid for the full 8AM-4PM shift regardless of actual route length. Exhibit 1 shows the hub/station network map with distance assumptions (daily station: 30 min from hub and from nearest daily station; bi-weekly station: 1 hr from nearest hub, 45 min from nearest bi-weekly station; weekly station: 1.5 hr from nearest hub, 60 min from nearest bi-weekly station; daily-to-weekly/bi-weekly station: 45 min; bi-weekly-to-weekly station: 45 min). Exhibit 2 shows the current driver staffing schedule and drivers on payroll by hub.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "If the candidate takes too long to determine the best routes, let them solve just Boston and Hartford. The optimal routing combines multiple stop types into single-driver trips within the 8-hour limit: Boston needs 2 trucks/2 drivers, Hartford needs 1 truck/1 driver, NYC needs 2 trucks/2 drivers to cover all daily, bi-weekly, and weekly stations across the week — fewer than the current per-day staffing levels in Exhibit 2.",
+   "good_answer_signals": [
+    "recognizes multiple stop types (daily/bi-weekly/weekly) can be combined into a single driver's day as long as total time stays under 8 hours",
+    "arrives at the reduced asset requirement (2 trucks/drivers Boston, 1 Hartford, 2 NYC) or gets close with interviewer guidance"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Work out the optimal daily/bi-weekly/weekly routes for each hub and confirm they fit within the 8-hour driving limit.",
+   "info_to_release": "Boston (H) daily route: H->B1->B2->B3->B4->B5->H = 5.5 hrs. Boston bi-weekly (Tue,Thu): H->B8->B7->B6->H = 6.25 hrs. Boston weekly: (Mon) H->B12->B11->H, (Wed) H->B10->B9->H, combined = 6.25 hrs (book figure; recompute below). Hartford daily: H->H1->H2->H3->H4->H = 4.5 hrs. Hartford bi-weekly (Mon): H->H1->H6->H2->H3->H4->H = 6.25 hrs; (Wed): H->H1->H2->H5->H3->H4->H = 6.25 hrs. NYC daily (Wed,Sat): H->N1->...->N7->H = 7.5 hrs; NYC bi-weekly (all 6 days): H->N8->N9->H = 2.5 hrs; NYC weekly (Mon,Thu): H->N1->N2->N3->N4->N10->H = 6.5 hrs; (Tue,Fri): H->N1->N2->N3->N4->N11->H = 6.5 hrs.",
+   "expected_answer": "All routes fit within the 8-hour driving limit (each is between 2.5 and 7.5 hours), confirming that Boston needs 2 trucks/drivers, Hartford needs 1, and NYC needs 2 to cover all required stops across the week.",
+   "good_answer_signals": [
+    "checks each computed route time against the 8-hour cap",
+    "recognizes weekly stations can be visited as part of a daily trip rather than requiring a dedicated run"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Given the optimized routes, what are the old vs. new weekly driver payroll costs and the resulting savings?",
+   "info_to_release": "Old schedule (Exhibit 2): Boston 19 driver-days/week, Hartford 13 driver-days/week, NYC 25 driver-days/week, all paid 8 hrs/day at $25/hr. New (optimized) schedule: Boston 10 driver-days/week, Hartford 7 driver-days/week, NYC 13 driver-days/week.",
+   "expected_answer": "Old cost: Boston = 19 x 8 x $25 = $3,800/week; Hartford = 13 x 8 x $25 = $2,600/week; NYC = 25 x 8 x $25 = $5,000/week; Total = $11,400/week. New cost: Boston = 10 x 8 x $25 = $2,000/week; Hartford = 7 x 8 x $25 = $1,400/week; NYC = 13 x 8 x $25 = $2,600/week; Total = $6,000/week. Savings = $11,400 - $6,000 = $5,400/week.",
+   "good_answer_signals": [
+    "correctly multiplies driver-days x 8 hours x $25/hr for both scenarios",
+    "arrives at $5,400/week in savings"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "For every driver laid off, the client pays $30K severance. How long would it take to break even on the cost of the layoffs?",
+   "info_to_release": "Layoffs by hub (baseline regular-weekday headcount minus new regular-weekday headcount): Boston 3->2 (1 layoff, $30K); Hartford 2->1 (1 layoff, $30K); NYC 4->2 (2 layoffs, $60K). Weekly savings from Question 2 = $5,400.",
+   "expected_answer": "Total severance payout = $30K + $30K + $60K = $120K. Time to breakeven = $120K / $5,400 per week ≈ 22 weeks.",
+   "good_answer_signals": [
+    "correctly totals severance across all 3 hubs (4 total layoffs)",
+    "divides total severance by weekly savings rather than annual savings"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "Exceptional candidates should recognize the client no longer needs the extra trucks without their drivers. Each truck currently sells for $30K — reconsider your breakeven calculation.",
+   "release_when": "Only after candidate computes the ~22-week breakeven, to see if they spot the freed-up truck asset",
+   "info_to_release": "4 trucks are freed up (one per laid-off driver) and each can be sold for $30K.",
+   "expected_answer": "4 trucks x $30K = $120K cash raised, which exactly offsets the $120K severance cost, meaning there is effectively no breakeven period — the layoffs pay for themselves immediately.",
+   "good_answer_signals": [
+    "independently connects 'drivers laid off' to 'trucks now redundant' without being told directly",
+    "recomputes using the truck sale proceeds instead of just the weekly savings rate"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "brainstorm",
+   "interviewer_asks": "The client is considering selling the current fleet and upgrading to a new fleet of trucks. How would this affect operations and costs?",
+   "expected_answer": "Cost increases: training cost/hiring new personnel, learning curve and initial failures, maintaining a new set of spare parts. Cost reductions: fuel efficiency, less truck maintenance, reduced downtime.",
+   "good_answer_signals": [
+    "balances one-time transition costs against ongoing efficiency savings",
+    "doesn't just list benefits without acknowledging the switching costs"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "brainstorm",
+   "interviewer_asks": "Is there anything else Power Grid could do to reduce costs further?",
+   "expected_answer": "Reduce frequency of maintenance; remote monitoring of station health; train the engineer to also drive the truck (send one cross-trained person instead of a separate driver and engineer).",
+   "good_answer_signals": [
+    "proposes cross-training/role consolidation as a genuinely novel idea beyond route optimization",
+    "connects ideas back to the earlier framework (new technologies, asset allocation)"
+   ]
+  },
+  {
+   "order": 9,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your overall recommendation to the VP of Operations?",
+   "expected_answer": "Power Grid should re-optimize driver routes to combine daily, bi-weekly, and weekly stops within the 8-hour driving limit, reducing weekly driver-days from 57 to 30 across the three hubs and saving $5,400/week ($2,000 Boston + $1,400 Hartford + $2,600 NYC vs. $3,800/$2,600/$5,000 previously). This supports laying off 4 drivers (1 Boston, 1 Hartford, 2 NYC) at a total severance cost of $120K; rather than waiting ~22 weeks to break even, Power Grid should sell the 4 now-redundant trucks at $30K each, raising $120K and eliminating the breakeven period entirely. Additional options to evaluate: fleet upgrade (weighing training/spare-parts costs against fuel efficiency and reduced downtime/maintenance), reduced maintenance frequency, remote station-health monitoring, and cross-training engineers to also drive.",
+   "good_answer_signals": [
+    "ties the route optimization, headcount reduction, and truck sale into one coherent recommendation",
+    "quantifies the total near-term cash impact ($5,400/week ongoing + $120K one-time from truck sales)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Power Grid network map and distance assumptions",
+   "page": 181,
+   "kind": "other",
+   "description": "Map of the New England region showing 3 hubs (Boston, Hartford, NYC) and their daily, bi-weekly, and weekly maintenance stations, plus stated travel-time assumptions between hubs and stations.",
+   "data": {
+    "columns": [
+     "Assumption"
+    ],
+    "rows": [
+     [
+      "Each daily station is 30 min from the hub and 30 min from the nearest daily station"
+     ],
+     [
+      "Each bi-weekly station is 1 hr from the nearest hub and 45 min from the nearest bi-weekly station"
+     ],
+     [
+      "Each weekly station is 1.5 hr from the nearest hub and 60 min from the nearest bi-weekly station"
+     ],
+     [
+      "Daily station to weekly or bi-weekly station takes 45 minutes"
+     ],
+     [
+      "Bi-weekly station to weekly station takes 45 minutes"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-new-england-trucks/p181.webp",
+   "key_insight": "The travel-time structure allows a single driver to combine multiple station visits (even across daily/bi-weekly/weekly types) into one round trip that stays under the 8-hour driving cap, which is the key insight that reduces total driver-days needed.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex2",
+   "title": "Current driver staffing schedule and payroll",
+   "page": 182,
+   "kind": "table",
+   "description": "Table of current daily driver headcount by hub and day of week, plus regular-weekday and Sunday on-call headcount on payroll per hub.",
+   "data": {
+    "columns": [
+     "Hub",
+     "Mon",
+     "Tue",
+     "Wed",
+     "Thu",
+     "Fri",
+     "Sat",
+     "Sun",
+     "Regular Weekday (payroll)",
+     "Sunday On-Call (payroll)"
+    ],
+    "rows": [
+     [
+      "Boston",
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      3,
+      1
+     ],
+     [
+      "Hartford",
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      1
+     ],
+     [
+      "NYC",
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      4,
+      1
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-new-england-trucks/p182.webp",
+   "key_insight": "Current staffing is flat across all 6 working days per hub (Boston 3/day, Hartford 2/day, NYC 4/day, plus 1 on-call Sunday), implying no route optimization has been applied to reduce driver-days.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Do the optimized Boston, Hartford, and NYC routes fit within the 8-hour driving limit, and how many trucks/drivers does each hub need?",
+   "givens": [
+    "Route segment times per Exhibit 1 assumptions and station visit durations (30/45/60 min by station type)",
+    "8-hour maximum driving time per driver (includes return trip)"
+   ],
+   "steps": [
+    "Boston daily route H->B1->B2->B3->B4->B5->H: 11 segments/stops x 30 min = 330 min = 5.5 hrs (fits)",
+    "Boston bi-weekly route (Tue,Thu) H->B8->B7->B6->H: 60+45+60+45+60+45+60 = 375 min = 6.25 hrs (fits)",
+    "Hartford daily route H->H1->H2->H3->H4->H: 9 x 30 min = 270 min = 4.5 hrs (fits)",
+    "Hartford bi-weekly routes (Mon and Wed variants): 30+30+45+45+45+30+30+30+30+30+30 = 375 min = 6.25 hrs each (fits)",
+    "NYC daily route (Wed,Sat) H->N1..N7->H: 15 x 30 min = 450 min = 7.5 hrs (fits, tightest route)",
+    "NYC bi-weekly route (all 6 days) H->N8->N9->H: 5 x 30 min = 150 min = 2.5 hrs (fits)",
+    "NYC weekly routes (Mon,Thu and Tue,Fri variants): 30x8 + 45x2 + 60 = 240+90+60 = 390 min = 6.5 hrs each (fits)",
+    "Since all distinct route/day combinations fit under 8 hours and weekly stations piggyback on daily runs, Boston needs 2 trucks/drivers, Hartford needs 1, and NYC needs 2"
+   ],
+   "answer": "All optimized routes fit within the 8-hour cap; required assets: Boston 2 trucks/2 drivers, Hartford 1 truck/1 driver, NYC 2 trucks/2 drivers",
+   "answer_value": 5,
+   "unit": "total optimized trucks/drivers across 3 hubs",
+   "verified": true
+  },
+  {
+   "id": "m1b",
+   "question": "What is the total time for the Boston weekly route combining the Monday (H->B12->B11->H) and Wednesday (H->B10->B9->H) trips?",
+   "givens": [
+    "Each weekly station is 1.5 hr (90 min) from the nearest hub",
+    "Weekly-station-to-weekly-station segment assumed 60 min (per the book's worked total; not independently specified as its own assumption in Exhibit 1)"
+   ],
+   "steps": [
+    "Monday trip H->B12->B11->H: 90 + 60 + 90 = 240 min",
+    "Wednesday trip H->B10->B9->H: 60 + 90 = 150 min",
+    "Combined total = 240 + 150 = 390 min = 6.5 hrs"
+   ],
+   "answer": "6.5 hours combined (Monday + Wednesday weekly trips)",
+   "answer_value": 6.5,
+   "unit": "hours",
+   "verified": false,
+   "book_answer_if_different": "The book labels this combined total as '6.25 Hrs,' but its own listed components (90+60+90+60+90) sum to 390 minutes = 6.5 hours, not 6.25 hours (375 minutes). This appears to be an arithmetic slip in the book; 6.5 hours is used here as the corrected value. Either way the route still fits within the 8-hour driving cap, so it does not change the case's conclusion."
+  },
+  {
+   "id": "m2",
+   "question": "What are the old vs. new weekly driver payroll costs, and what is the weekly savings?",
+   "givens": [
+    "Old driver-days/week: Boston 19, Hartford 13, NYC 25 (from Exhibit 2's daily schedule, 6 weekdays + 1 Sunday on-call each)",
+    "New (optimized) driver-days/week: Boston 10, Hartford 7, NYC 13",
+    "Pay rate: 8 hrs/day x $25/hr regardless of route length"
+   ],
+   "steps": [
+    "Old cost: Boston = 19 x 8 x $25 = $3,800; Hartford = 13 x 8 x $25 = $2,600; NYC = 25 x 8 x $25 = $5,000; Total = $11,400/week",
+    "New cost: Boston = 10 x 8 x $25 = $2,000; Hartford = 7 x 8 x $25 = $1,400; NYC = 13 x 8 x $25 = $2,600; Total = $6,000/week",
+    "Weekly savings = $11,400 - $6,000 = $5,400"
+   ],
+   "answer": "Weekly payroll drops from $11,400 to $6,000, saving $5,400/week",
+   "answer_value": 5400,
+   "unit": "$/week",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the total severance cost of the layoffs enabled by the route optimization, and the simple breakeven period?",
+   "givens": [
+    "Layoffs: Boston 1, Hartford 1, NYC 2 (4 total)",
+    "Severance = $30K per laid-off driver",
+    "Weekly savings = $5,400 (from m2)"
+   ],
+   "steps": [
+    "Total severance = (1 + 1 + 2) x $30K = 4 x $30K = $120K",
+    "Breakeven (weeks) = $120,000 / $5,400 per week ≈ 22.2 weeks"
+   ],
+   "answer": "≈22 weeks to break even on severance costs using weekly payroll savings alone",
+   "answer_value": 22,
+   "unit": "weeks",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "If the 4 now-redundant trucks (one per laid-off driver) are sold at $30K each, how does that change the breakeven calculation?",
+   "givens": [
+    "4 trucks freed up by the layoffs",
+    "Each truck sells for $30K",
+    "Total severance cost = $120K (from m3)"
+   ],
+   "steps": [
+    "Truck sale proceeds = 4 x $30K = $120,000",
+    "Compare to total severance cost of $120,000"
+   ],
+   "answer": "Truck sale proceeds ($120K) exactly offset the severance cost ($120K), eliminating the breakeven period entirely — the layoffs pay for themselves immediately rather than in ~22 weeks.",
+   "answer_value": 0,
+   "unit": "weeks (effective breakeven period after truck sales)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Power Grid should re-optimize driver routes across its three hubs to combine daily, bi-weekly, and weekly station visits within the 8-hour driving limit. This cuts weekly driver-days from 57 to 30 total, reducing weekly payroll from $11,400 to $6,000 — a $5,400/week savings — and supports laying off 4 drivers (1 Boston, 1 Hartford, 2 NYC) at a total severance cost of $120K. Rather than waiting the roughly 22 weeks it would take to recoup that severance from payroll savings alone, Power Grid should sell the 4 trucks freed up by the layoffs at $30K each, raising $120K in cash that exactly offsets the severance cost and eliminates the breakeven period. Additional levers to evaluate: whether to upgrade the fleet (weighing training and spare-parts costs against fuel efficiency and reduced maintenance/downtime), reducing maintenance frequency, remote station-health monitoring, and cross-training engineers to also drive trucks.",
+ "what_great_looks_like": [
+  "Structures the initial framework around both 'needs' (hubs, trucks, maintenance) and 'usage' (personnel, assets) before jumping to routes",
+  "Correctly combines multiple station types into a single route within the 8-hour driving cap rather than assuming one trip per station type",
+  "Computes both old and new weekly driver-day totals and converts them into payroll dollars, not just qualitative 'fewer drivers'",
+  "Independently connects the driver layoffs to now-redundant trucks and asks about (or is prompted to consider) selling them, rather than stopping at the ~22-week breakeven",
+  "Balances the fleet-upgrade brainstorm with both cost increases and cost reductions, not just the reductions"
+ ],
+ "common_pitfalls": [
+  "Assuming a separate driver/truck is needed for each station type (daily, bi-weekly, weekly) instead of combining them into one route",
+  "Forgetting that a driver is paid for the full 8-hour shift regardless of actual route length, when computing costs",
+  "Stopping at the ~22-week breakeven without recognizing the freed-up trucks can be sold immediately for cash",
+  "Treating fleet upgrade as a pure cost saving without acknowledging training, learning-curve, and spare-parts cost increases"
+ ],
+ "follow_ups": [
+  "How might driver morale or union relations be affected by combining routes and reducing headcount?",
+  "What would change in the recommendation if the driver shortage worsens and Power Grid instead needs to retain drivers rather than lay them off?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (Boston's new/optimized daily staffing schedule on page 180 has no rendered image; the per-day breakdown transcribed from text.txt sums to 11 driver-days, but the book's own downstream cost calculation uses 10 driver-days for Boston — the exact daily numbers for the new Boston schedule are uncertain; the aggregate driver-day totals of 10/7/13 used in the cost math are treated as authoritative since they drive all downstream figures that check out internally)",
+   "math[1] and math[1b] (exact station-to-station distances depend on an unlabeled map in Exhibit 1; totals are taken from the book's own worked equations and verified only by arithmetic re-summation, not by independently deriving each route's geography)"
+  ],
+  "math_verified": false,
+  "notes": "Two inconsistencies found: (1) page 180 (no rendered image) shows a 'new' Boston staffing schedule whose 7 daily values as transcribed from text.txt sum to 11 driver-days, but the cost calculation on the same page states '10 Drivers Days x 8 hours per day x $25 per hour = $2000 per week' (10 x 8 x 25 = 2,000, and this 10-driver-day figure is also required to make the total new cost ($6,000) and total savings ($5,400) match the book's stated totals). This extraction uses the book's own driver-day totals (10/7/13) throughout since they are what all downstream figures (savings, severance breakeven) are built on. (2) The Boston weekly-route combined time is labeled '6.25 Hrs' on page 179, but its own listed components (90+60+90+60+90 minutes) sum to 390 minutes = 6.5 hours, not 375 minutes = 6.25 hours; flagged in math[1b] with the corrected value, which does not change any downstream conclusion since the route still fits within the 8-hour cap either way.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "concepts_tested"
+  ]
+ }
+}

@@ -1,0 +1,316 @@
+{
+ "id": "darden-2023-seven-flags",
+ "title": "Seven Flags",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  43,
+  52
+ ],
+ "case_type": [
+  "Pricing",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Pricing",
+ "industry": "hospitality",
+ "sub_industry": "leisure-entertainment",
+ "industry_source_label": "Entertainment",
+ "geography": "Richmond, Virginia, United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 1; Quantitative 2; Qualitative 1 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "pricing-strategy",
+  "cannibalization",
+  "incremental-revenue",
+  "payback",
+  "capital-investment",
+  "price-elasticity"
+ ],
+ "fit_question": "Tell me about a time when you faced an ethical dilemma. Tell me about a time you helped a team overcome a problem.",
+ "prompt": "Our client is a mid-size amusement park chain, with 10 parks around the U.S. serving over 10 million visitors each year. In their Richmond, VA park, it operates both a traditional thrill-ride section, as well as an animal experience. Currently, the two sections are covered under one entry ticket price. However, management is considering offering a separate ticket for only the animal experience section. They have come to us to determine if this is a good idea.",
+ "clarifying_info": [
+  {
+   "question_topic": "Financial objective",
+   "answer": "Management wants a payback period of less than 10 years. Payback is investment divided by ongoing annual profit."
+  },
+  {
+   "question_topic": "Current ticket",
+   "answer": "The current $20 ticket covers both sections. Adults and children pay the same price, and all rides are included. Merchandise, food and drinks cost extra."
+  },
+  {
+   "question_topic": "Richmond scale",
+   "answer": "Richmond is an average-sized park in the portfolio."
+  }
+ ],
+ "interviewer_notes": "Show the park map with the prompt. This refreshed case tests cannibalization and incremental economics and is recommended for candidates with 0–10 completed cases. The candidate should drive the analysis. Prompt for ticket pricing, cannibalization or recovery of new fixed investment if these are missing. Ask for pricing approaches before showing the price-demand exhibit. Release investment and margin only when requested. There is no single required final recommendation: a well-supported rejection based on the risks is acceptable.",
+ "suggested_framework": {
+  "summary": "Evaluate incremental profit and investment recovery, then competitive and broader demand risks.",
+  "tree": {
+   "label": "Should Seven Flags introduce an animal-only ticket?",
+   "children": [
+    {
+     "label": "Incremental economics",
+     "children": [
+      {
+       "label": "Ticket price and visitors, including cannibalization of full-price tickets"
+      },
+      {
+       "label": "Food, drink and merchandise revenue"
+      },
+      {
+       "label": "Maintenance, animal care, labor and cost of goods"
+      },
+      {
+       "label": "New entrance, wall and parking investment; payback"
+      }
+     ]
+    },
+    {
+     "label": "Competitive alternatives",
+     "children": [
+      {
+       "label": "Zoos and petting zoos"
+      },
+      {
+       "label": "Museums, cinemas, fairs and other family activities"
+      }
+     ]
+    },
+    {
+     "label": "Market conditions",
+     "children": [
+      {
+       "label": "Disposable income"
+      },
+      {
+       "label": "Weather"
+      },
+      {
+       "label": "Entertainment preferences"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate introducing an animal-only ticket?",
+   "release_when": "Show the map with the prompt; provide clarifications if asked.",
+   "info_to_release": "The chain has 10 U.S. parks and over 10 million annual visitors. Richmond is average-sized. The current combined ticket is $20. Management requires payback in less than 10 years. The map shows adjacent ride and animal sections, one entrance, and parking.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Separate new visitor revenue from revenue lost when existing visitors switch to a cheaper ticket. Consider new entrance, separation wall and parking investment, ongoing costs, competitive attractions and demand risks. Assess incremental profit against the payback target.",
+   "good_answer_signals": [
+    "Raises cannibalization without prompting.",
+    "Uses the physical layout to identify investment needs."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could management decide what price to charge?",
+   "release_when": "Before sharing the price-demand exhibit.",
+   "info_to_release": "No additional numerical information at this point.",
+   "expected_answer": "Discuss approaches to setting ticket prices and the implications for volume and cannibalization. The book asks for this discussion but does not prescribe a detailed pricing-method answer; the next exhibit supplies price-dependent demand.",
+   "good_answer_signals": [
+    "Connects pricing to incremental revenue rather than ticket volume alone."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Which animal-only ticket price produces the most incremental revenue?",
+   "release_when": "After the pricing discussion.",
+   "info_to_release": "At prices of $10, $12, $14 and $16, expected daily animal-only visitors are 1,300, 1,100, 700 and 500 respectively. Fifty percent would otherwise have purchased the $20 combined ticket. The park opens 350 days annually.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "For each option, incremental daily revenue equals price times all animal-only visitors minus $20 times the cannibalized half. At $10 it is $0; at $12, $2,200; at $14, $2,800; at $16, $3,000. Annual amounts are $0, $770,000, $980,000 and $1,050,000. Choose $16 among the listed prices. Using approximately 1 million Richmond visitors and $20 per ticket implies roughly $20 million baseline ticket revenue; the gain is 5.25%, approximately the book's 5%.",
+   "good_answer_signals": [
+    "Subtracts the lost full ticket only for existing visitors.",
+    "Distinguishes incremental revenue from gross animal-only sales."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other revenues and costs should we consider?",
+   "release_when": "After selecting the ticket price, before calculating payback.",
+   "info_to_release": "There are no additional quantified ancillary revenue estimates.",
+   "expected_answer": "Additional revenue opportunities include food and beverages, merchandise, parking, and individual or family annual passes. New costs include an entrance, a wall separating the sections, parking, and staff for higher traffic. Return to the investment-payback objective and ask for investment and profit margin.",
+   "good_answer_signals": [
+    "Separates capital costs from ongoing operating costs.",
+    "Recognizes that ancillary spending could improve the business case."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Does the proposal meet management's payback requirement?",
+   "release_when": "Only when the candidate asks for investment and profitability data.",
+   "info_to_release": "The new entrance, wall and parking require $2 million. Consider ticket revenue only. The incremental profit margin is 20%.",
+   "expected_answer": "Annual incremental profit is $1,050,000 × 20% = $210,000. Simple payback is $2,000,000 / $210,000 = 9.5238 years, or about 9.5 years. It narrowly meets the less-than-10-year target.",
+   "good_answer_signals": [
+    "Uses profit, not revenue, in the payback denominator.",
+    "Notes the limited cushion against adverse assumptions."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What would you recommend to management?",
+   "release_when": "Once the candidate has evaluated the economics and risks.",
+   "info_to_release": "No new information.",
+   "expected_answer": "Introduce the animal-only ticket at $16 if the demand and cannibalization assumptions are reliable. It adds $1.05 million annual ticket revenue, roughly 5% of estimated current Richmond ticket revenue, and $210,000 annual profit, paying back the $2 million investment in about 9.5 years. Test sensitivity to cannibalization and consider opportunity cost versus higher-return investments. Quantify food, beverage and merchandise upside next. A reasoned rejection based on the narrow payback margin is also acceptable.",
+   "good_answer_signals": [
+    "Leads with a clear decision and numerical support.",
+    "Links risks directly to a barely satisfied financial hurdle."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Park map",
+   "page": 45,
+   "kind": "other",
+   "description": "Candidate-facing map of adjacent thrill-ride and animal sections with one entrance and nearby parking.",
+   "image_path": "exhibits/darden-2023-seven-flags/p045.webp",
+   "key_insight": "A separate animal ticket requires physical access control and potentially new entrance and parking infrastructure.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Animal-only ticket price and demand",
+   "page": 47,
+   "kind": "table",
+   "description": "Daily visitors at alternative animal-only prices; 50% cannibalization and 350 operating days annually.",
+   "data": {
+    "columns": [
+     "Animal-only ticket price (USD)",
+     "Expected visitors per day"
+    ],
+    "rows": [
+     [
+      10,
+      1300
+     ],
+     [
+      12,
+      1100
+     ],
+     [
+      14,
+      700
+     ],
+     [
+      16,
+      500
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-seven-flags/p047.webp",
+   "key_insight": "The highest-volume option does not maximize incremental revenue because half of its visitors switch from the $20 ticket.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which price maximizes incremental annual ticket revenue?",
+   "givens": [
+    "Combined ticket $20",
+    "50% cannibalization",
+    "350 days/year",
+    "$10: 1,300 visitors/day; $12: 1,100; $14: 700; $16: 500"
+   ],
+   "steps": [
+    "Incremental daily revenue = visitors × price − visitors × 50% × $20.",
+    "$10: $13,000 − $13,000 = $0/day = $0/year.",
+    "$12: $13,200 − $11,000 = $2,200/day = $770,000/year.",
+    "$14: $9,800 − $7,000 = $2,800/day = $980,000/year.",
+    "$16: $8,000 − $5,000 = $3,000/day = $1,050,000/year."
+   ],
+   "answer": "$16 produces the largest annual incremental revenue, $1.05 million.",
+   "answer_value": 1050000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How large is the revenue gain relative to Richmond's current ticket revenue?",
+   "givens": [
+    "Over 10 million annual visitors across 10 parks",
+    "Richmond is average-sized",
+    "$20 current ticket",
+    "$1.05 million incremental annual revenue"
+   ],
+   "steps": [
+    "Approximate Richmond visitors as 10 million / 10 = 1 million.",
+    "Approximate baseline ticket revenue = 1 million × $20 = $20 million.",
+    "$1.05 million / $20 million × 100 = 5.25%, approximately 5%."
+   ],
+   "answer": "Approximately 5% growth; 5.25% using the rounded 1-million-visitor baseline.",
+   "answer_value": 5.25,
+   "unit": "%",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the simple investment payback?",
+   "givens": [
+    "$1,050,000 incremental annual ticket revenue",
+    "20% margin",
+    "$2 million investment",
+    "Target less than 10 years"
+   ],
+   "steps": [
+    "Annual profit = $1,050,000 × 20% = $210,000.",
+    "Payback = $2,000,000 / $210,000 = 9.5238095 years."
+   ],
+   "answer": "Approximately 9.5 years, narrowly below the 10-year limit.",
+   "answer_value": 9.5238095238,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Offer the animal-only ticket at $16: it generates $1.05 million incremental annual ticket revenue and $210,000 annual profit. The $2 million investment pays back in about 9.5 years, satisfying management's less-than-10-year requirement with little cushion. Validate cannibalization assumptions and compare alternative investments; quantify ancillary food, beverage and merchandise revenue. A risk-based rejection can also be defensible.",
+ "what_great_looks_like": [
+  "Identifies cannibalization before requesting the demand data.",
+  "Optimizes incremental rather than gross revenue.",
+  "Calculates payback using incremental profit and acknowledges its narrow margin.",
+  "Considers ancillary spending and alternative uses of capital."
+ ],
+ "common_pitfalls": [
+  "Counting all animal-only customers as new visitors.",
+  "Choosing $10 because it attracts the largest crowd.",
+  "Dividing investment by revenue rather than profit.",
+  "Treating the approximate 5% revenue gain as a precise forecast."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The price-demand page is labeled Exhibit 1 although guidance calls it Exhibit 2; assigned ex2 after the park map. Revenue growth uses an approximate 1 million Richmond visitors because chain attendance is stated as over 10 million; the book's 5% is consistent rounding, not an arithmetic error. All calculations recomputed in math-darden-seven.py. Candidate-facing map and pricing pages visually reviewed. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "stages[1].good_answer_signals"
+  ]
+ }
+}

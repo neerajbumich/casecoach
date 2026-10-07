@@ -1,0 +1,187 @@
+{
+  "id": "generations",
+  "section": "consumer",
+  "order": 4,
+  "title": "Generations",
+  "summary": "The five consumer generations, their size, wealth, media habits and what they expect from brands. Interviewers use generational shorthand constantly; this lets you use it precisely and avoid lazy stereotypes.",
+  "blocks": [
+    {
+      "type": "table",
+      "title": "The generations at a glance",
+      "columns": [
+        "Generation",
+        "Born",
+        "Age in 2026",
+        "US population (2025)",
+        "Where they are in life"
+      ],
+      "rows": [
+        [
+          "Baby Boomers",
+          "1946-1964",
+          "~62-80",
+          "~64M",
+          "Retiring; hold the most wealth; heavy healthcare, travel, grandparent spending"
+        ],
+        [
+          "Gen X",
+          "1965-1980",
+          "~46-61",
+          "~65M",
+          "Peak earning; teens/college kids at home, aging parents"
+        ],
+        [
+          "Millennials",
+          "1981-1996",
+          "~30-45",
+          "~74M (largest)",
+          "Family formation, first homes, young kids"
+        ],
+        [
+          "Gen Z",
+          "1997-2012",
+          "~14-29",
+          "~71M",
+          "Students and early career; fastest-growing spending power"
+        ],
+        [
+          "Gen Alpha",
+          "~2013 onward",
+          "~0-13",
+          "~51M",
+          "Kids; influence parents' spending via YouTube, gaming"
+        ]
+      ],
+      "note": "Boomer/Gen X/Millennial ranges per Pew and the Federal Reserve. Pew starts Gen Z in 1997; 2012 is the common end year. Gen Alpha is not formally defined by Pew. Population estimates are Census-based, via Visual Capitalist."
+    },
+    {
+      "type": "text",
+      "title": "Spending power vs wealth",
+      "body": "Population size and wealth are not the same. Boomers held ~51% of US household wealth in 2025, while Millennials and Gen Z together held only ~10% despite being the largest cohorts (Fed Distributional Financial Accounts). Younger households out-earn their parents at the same age, but older households own the homes and stock portfolios. A multi-decade 'great wealth transfer' to heirs is a recurring theme in wealth-management and luxury cases."
+    },
+    {
+      "type": "list",
+      "title": "Channel and media habits",
+      "items": [
+        "YouTube (~84% of adults) and Facebook (~71%) are the only platforms used by a majority of every age group (Pew, 2025).",
+        "About 8 in 10 adults aged 18-29 use Instagram vs ~19% of those 65+.",
+        "Roughly half of 18-29 year-olds visit TikTok daily, vs ~5% of adults 65+ (Pew, 2025).",
+        "Facebook usage peaks among 30-49 year-olds (~80%), making it a Millennial and Gen X channel.",
+        "Boomers still over-index on linear TV, email and physical stores; Gen Z discovers products via creators and search on social."
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Brand expectations by generation",
+      "columns": [
+        "Generation",
+        "What wins them",
+        "Watch-outs"
+      ],
+      "rows": [
+        [
+          "Boomers",
+          "Quality, service, trust, clear value; phone and in-store help",
+          "Clunky digital journeys; ageist marketing"
+        ],
+        [
+          "Gen X",
+          "Practicality, reliability, time savings for busy households",
+          "Often under-targeted despite high earnings"
+        ],
+        [
+          "Millennials",
+          "Convenience, reviews, loyalty programs, family-friendly value",
+          "Price fatigue on subscriptions and delivery fees"
+        ],
+        [
+          "Gen Z",
+          "Authenticity, creators, community, wellness, value for money",
+          "Low loyalty; quick to churn and to call out brands"
+        ],
+        [
+          "Gen Alpha",
+          "Gaming, YouTube, characters; parents decide",
+          "Children's privacy and advertising rules"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Behaviors worth knowing",
+      "items": [
+        "Gen Z and Millennials are ~36% of US adults but ~41% of wellness spending (McKinsey, 2025).",
+        "Over half of Gen Z and Millennials canceled a streaming service within six months (Deloitte, 2025); churn-and-return is normal.",
+        "Adults 18-34 report drinking alcohol at ~50%, and two-thirds view moderate drinking as unhealthy (Gallup, 2025).",
+        "Gen Z is the most racially and ethnically diverse adult generation so far (Pew)."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Generations are a proxy, not a cause",
+      "body": "Much 'generational' behavior is really life stage (students rent, parents buy minivans) or income. In a case, say 'younger consumers at this life stage' and check whether the effect holds as they age. Avoid sweeping claims like 'Gen Z doesn't care about price'; surveys show they are very price-aware."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Use cohort size plus wallet",
+      "body": "When asked which generation to target, compare cohort size, spend per person in the category, and growth. Boomers win on wealth today, Millennials on household formation, Gen Z on future value and influence. Saying this trade-off explicitly signals structured thinking."
+    }
+  ],
+  "in_a_case": [
+    "A legacy apparel brand losing share: check whether its core buyers are aging Boomers/Gen X while Gen Z discovers rivals on TikTok and Instagram.",
+    "Wealth management growth: the transfer of Boomer wealth to Gen X and Millennial heirs is a retention risk and opportunity.",
+    "Beverage or alcohol strategy: lower drinking among young adults pushes non-alcoholic and functional drinks.",
+    "Streaming or subscription cases: young households churn more, so model lifetime value with churn-and-return, not a fixed lifespan.",
+    "Kids' products: Gen Alpha influences purchases but parents pay; marketing must work for both and respect children's privacy rules."
+  ],
+  "flashcards": [
+    {
+      "front": "Pew birth years for Millennials",
+      "back": "1981-1996."
+    },
+    {
+      "front": "Pew birth years for Gen X and Boomers",
+      "back": "Gen X 1965-1980; Boomers 1946-1964."
+    },
+    {
+      "front": "Gen Z birth years",
+      "back": "Pew starts Gen Z in 1997; 2012 is the commonly used end year."
+    },
+    {
+      "front": "Largest US generation by population (2025)",
+      "back": "Millennials, ~74M, just ahead of Gen Z (~71M)."
+    },
+    {
+      "front": "Share of US household wealth held by Boomers (2025)",
+      "back": "~51%; Millennials + Gen Z ~10% (Fed DFA)."
+    },
+    {
+      "front": "Most widely used social platforms in the US (2025)",
+      "back": "YouTube ~84% and Facebook ~71% of adults (Pew)."
+    },
+    {
+      "front": "TikTok daily use: 18-29 vs 65+",
+      "back": "~Half vs ~5% (Pew, 2025)."
+    },
+    {
+      "front": "Young adults (18-34) who drink alcohol, 2025",
+      "back": "~50% (Gallup), lowest of any age group."
+    }
+  ],
+  "sources": [
+    "https://www.pewresearch.org/short-reads/2019/01/17/where-millennials-end-and-generation-z-begins/",
+    "https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far/",
+    "https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/chart/",
+    "https://www.visualcapitalist.com/charted-u-s-population-by-generation/",
+    "https://www.visualcapitalist.com/americas-wealth-distriution-by-generation/",
+    "https://www.stlouisfed.org/open-vault/2025/june/the-state-of-us-household-wealth",
+    "https://www.pewresearch.org/internet/fact-sheet/social-media/",
+    "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf",
+    "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends",
+    "https://www.deloitte.com/us/en/insights/industry/technology/digital-media-trends-consumption-habits-survey/2025.html",
+    "https://news.gallup.com/poll/693362/drinking-rate-new-low-alcohol-concerns-surge.aspx"
+  ],
+  "checked": "2026-10"
+}

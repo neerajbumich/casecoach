@@ -1,0 +1,421 @@
+{
+ "id": "kellogg-2024-chic-cosmetology",
+ "title": "Chic Cosmetology",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  97,
+  105
+ ],
+ "author": "Peter Manoogian (Kellogg 2012); edited by Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "Market Entry"
+ ],
+ "case_type_source_label": "Y04 Market entry",
+ "industry": "education",
+ "sub_industry": "higher-ed",
+ "industry_source_label": "X09 Hospitality & Leisure",
+ "geography": "Chicagoland, IL, USA (prospective new campus); existing CCU campuses across 10 US metros",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "market-entry",
+  "breakeven-analysis",
+  "market-sizing",
+  "market-share",
+  "for-profit-education",
+  "unit-economics",
+  "amortization"
+ ],
+ "concepts_tested": [
+  "Z03 Breakeven analysis (1)",
+  "Z12 Creativity (2)",
+  "Z07 Market share (3)"
+ ],
+ "fit_question": "What would be the hardest part about starting at our firm?",
+ "prompt": "Our client is a for-profit, specialty college named Chic Cosmetology University (CCU). Founded in 2005, CCU is a program for high school graduates seeking their professional cosmetology license. CCU is currently the market leader for cosmetology education, with campuses in ten major metropolitan areas in the US. CCU has capital to invest in a new campus and is considering Chicagoland as a location — should they do it?",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Achieve positive operating profit for the new campus two years after opening."
+  },
+  {
+   "question_topic": "Format",
+   "answer": "Enrolled students take classes at a physical campus for one school year to earn their degree (fiscal year begins 9/1)."
+  },
+  {
+   "question_topic": "Reputation",
+   "answer": "CCU has the best campuses and equipment in the industry, and boasts strong job placement into top local salons."
+  },
+  {
+   "question_topic": "Growth",
+   "answer": "CCU and industry enrollments are growing at 5% per year."
+  },
+  {
+   "question_topic": "Competitors",
+   "answer": "2-3 other large specialty colleges, plus lower-cost community colleges."
+  },
+  {
+   "question_topic": "Industry entry requirements",
+   "answer": "A high school diploma and a cosmetology degree are required to enter the field."
+  },
+  {
+   "question_topic": "Students",
+   "answer": "98% of cosmetologists are women."
+  }
+ ],
+ "interviewer_notes": "Problem: will CCU be able to enroll enough students to offset the initial investment and achieve positive profit? Key case steps: (1) evaluate CCU revenue and cost structures, (2) brainstorm CCU customers, (3) project CCU's market share, (4) provide client recommendation. Note: it is critical that the interviewee lands on the figures presented (or is course-corrected toward them) before proceeding to the next part.",
+ "suggested_framework": {
+  "summary": "Book gives no explicit framework tree; the case proceeds directly through revenue/cost economics, customer brainstorm, and market share to reach a breakeven-vs-projected-enrollment comparison.",
+  "tree": {
+   "label": "Should CCU open a new Chicagoland campus?",
+   "children": [
+    {
+     "label": "Revenue & cost structure",
+     "children": [
+      {
+       "label": "Revenue per enrollment"
+      },
+      {
+       "label": "Fixed campus costs (existing + new investment amortization)"
+      },
+      {
+       "label": "Variable cost per student"
+      },
+      {
+       "label": "Breakeven enrollments"
+      }
+     ]
+    },
+    {
+     "label": "Customer base",
+     "children": [
+      {
+       "label": "Target high schools"
+      },
+      {
+       "label": "Potential students per high school"
+      },
+      {
+       "label": "HS vs. adult-market mix"
+      }
+     ]
+    },
+    {
+     "label": "Market share / competition",
+     "children": [
+      {
+       "label": "Presence of competitors in market"
+      },
+      {
+       "label": "Achievable share in year 1"
+      }
+     ]
+    },
+    {
+     "label": "Recommendation & qualitative factors",
+     "children": [
+      {
+       "label": "Scholarships/conversion"
+      },
+      {
+       "label": "Alternative cities/second campuses"
+      },
+      {
+       "label": "Cost reduction options"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "math",
+   "interviewer_asks": "How many students will CCU need to enroll to break even in year 1 at the new Chicagoland campus?",
+   "release_when": "Provide Exhibit A after the interviewee asks about revenues or costs. If asked, share the new-campus investment details.",
+   "info_to_release": "Exhibit A (CCU 2010 financials across all 10 campuses). If asked: the initial Chicagoland campus investment is $4.5M in building renovation costs, amortized evenly over 3 years; assume fixed costs remain flat per year.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Average revenue per enrollment = $150M / 10,000 = $15K. Total variable cost per student = $80M / 10,000 = $8K. Gross profit per student = $15K - $8K = $7K. Per-campus fixed cost = $48M / 10 campuses = $4.8M. New campus total annual fixed cost = $4.8M existing-level fixed cost + $1.5M amortized investment ($4.5M / 3 years) = $6.3M. Breakeven enrollments = $6.3M / $7K per student = 900 students/year.",
+   "good_answer_signals": [
+    "Correctly averages revenue/cost per student using all-campus totals divided by 10 (campuses) or 10,000 (students)",
+    "Correctly amortizes the $4.5M one-time investment over 3 years before adding it to annual fixed costs",
+    "States the breakeven figure (900 students) clearly before moving on, since the case is built to require landing on this number"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What types of schools and students do you think CCU targets?",
+   "release_when": "After a few relevant criteria are noted by the candidate.",
+   "info_to_release": "CCU has identified 1,000 targeted high schools in the Chicagoland area, and market research estimates an average of 6 students per high school have 'potential' for CCU enrollment.",
+   "expected_answer": "Schools: public schools (private HS grads more likely to go to 4-year university), high schools in middle-class cities (affordability issues with lower-income areas), and schools closest to the campus (geography). Students: female high school graduates, not attending 4-year college, interested in cosmetology.",
+   "good_answer_signals": [
+    "Generates distinct criteria for both schools and students rather than a single blended list",
+    "Ties criteria back to plausible conversion likelihood (e.g., income, proximity) rather than generic demographics"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What is the highest share we could expect the CCU Chicago campus to capture in year 1?",
+   "release_when": "Provide Exhibit B to the interviewee for this part.",
+   "info_to_release": "Exhibit B (CCU and major competitor campus locations and 2010 market shares). 80% of enrolled students come directly from high school, the other 20% come from the 'Adult' market. Campuses with competitors present tend to have lower share (10%) than those without (15%); however, more than one competitor does not further reduce share (Boston has 8% share with only one competitor). Interviewee should assume a projected 10% share for the Chicago campus (which will have one competitor).",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Total potential students = (1,000 high schools x 6 potential students/HS) / 80% (since HS students are 80% of the pipeline) = 6,000 / 0.8 = 7,500 total potential students. At a 10% market share, enrollments = 7,500 x 10% = 750 students. Takeaway: 750 is below the 900 needed to break even, so CCU cannot break even on this enrollment estimate.",
+   "good_answer_signals": [
+    "Correctly grosses up the 6,000 HS-sourced potential students to 7,500 total potential students using the 80% HS-mix assumption, rather than applying share directly to 6,000",
+    "Compares the resulting 750 enrollments back to the 900 breakeven figure from Part 1 without being prompted"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the client?",
+   "expected_answer": "CCU should NOT enter the Chicago market under the current cost structure. Even with a 10% market share assumption in year 1, the Chicago campus would enroll only 750 students — 150 fewer than the 900 needed to break even. Qualitative considerations: offer scholarships to increase the number of potential students and/or the conversion rate; consider other cities without a current CCU presence, or add a second campus in a high-share, potentially capacity-constrained city like NYC; perform market research in other cities to see if there's greater potential per target high school; consider ways to reduce fixed costs (e.g., sharing equipment/materials transport from under-capacity campuses).",
+   "good_answer_signals": [
+    "Recommendation is a clear no-go tied directly back to the 750-vs-900 enrollment gap",
+    "Raises multiple qualitative levers (scholarships, alternate cities, cost reduction) rather than stopping at the quantitative no",
+    "Recognizes that the 10% market share benchmark applies to campuses established for at least three years, so Chicago is unlikely to hit 10% share in years 1-2 — which also rules out any follow-up proposal to shrink the one-time investment from $4.5M to $300K as a way to make the numbers work"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "CCU 2010 financials (31-Aug-2010)",
+   "page": 100,
+   "kind": "table",
+   "description": "Summary income-statement-style table across all 10 existing CCU campuses: total student enrollments, revenue from enrollments, total fixed campus costs (buildings/equipment; recruiting, general and administrative), total variable campus costs (instructors; student supplies), and operating profit. All figures are in $'000s except enrollments (also in '000s, i.e., 10 = 10,000 students).",
+   "data": {
+    "columns": [
+     "Metric",
+     "Value ($'000s, or '000s students)"
+    ],
+    "rows": [
+     [
+      "Student enrollments (all campuses)",
+      10
+     ],
+     [
+      "Revenue from enrollments",
+      150000
+     ],
+     [
+      "Total fixed campus costs",
+      48000
+     ],
+     [
+      "  Buildings and equipment",
+      32000
+     ],
+     [
+      "  Recruiting, general, and administrative",
+      16000
+     ],
+     [
+      "Total variable campus costs",
+      80000
+     ],
+     [
+      "  Instructors",
+      40000
+     ],
+     [
+      "  Student supplies",
+      40000
+     ],
+     [
+      "Operating profit",
+      22000
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-chic-cosmetology/p100.webp",
+   "key_insight": "Dividing through by 10,000 students and 10 campuses gives the per-student and per-campus unit economics ($15K revenue/student, $8K variable cost/student, $4.8M fixed cost/campus) needed to build the new campus's breakeven case.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exB",
+   "title": "CCU and major competitor locations (31-Aug-2010)",
+   "page": 101,
+   "kind": "table",
+   "description": "A US map plotting CCU campus locations and major competitor campus locations, alongside a table of each CCU campus's 2010 market share (measured as share of total 'potential' students, as defined by CCU).",
+   "data": {
+    "columns": [
+     "Campus",
+     "2010 share"
+    ],
+    "rows": [
+     [
+      "San Francisco, CA",
+      "8%"
+     ],
+     [
+      "Los Angeles, CA",
+      "14%"
+     ],
+     [
+      "Minneapolis, MN",
+      "15%"
+     ],
+     [
+      "Dallas, TX",
+      "14%"
+     ],
+     [
+      "Houston, TX",
+      "10%"
+     ],
+     [
+      "Atlanta, GA",
+      "16%"
+     ],
+     [
+      "Miami, FL",
+      "12%"
+     ],
+     [
+      "Philadelphia, PA",
+      "12%"
+     ],
+     [
+      "New York City, NY",
+      "16%"
+     ],
+     [
+      "Boston, MA",
+      "8%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-chic-cosmetology/p101.webp",
+   "key_insight": "Campuses facing a competitor tend to hold only ~10% share vs. ~15% for campuses without one, but an extra competitor doesn't lower share further (Boston sits at 8% with just one competitor) — supporting the assumption of ~10% share for the single-competitor Chicago market.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "unit-economics",
+   "question": "What is the gross profit per student enrollment?",
+   "givens": [
+    "Revenue from enrollments = $150,000K across 10,000 students",
+    "Total variable campus costs = $80,000K across 10,000 students"
+   ],
+   "steps": [
+    "Average revenue per enrollment = 150,000 / 10,000 = $15K",
+    "Variable cost per student = 80,000 / 10,000 = $8K",
+    "Gross profit per student = 15 - 8 = $7K"
+   ],
+   "answer": "$7K gross profit per student enrollment.",
+   "answer_value": 7000,
+   "unit": "$/student",
+   "verified": true
+  },
+  {
+   "id": "new-campus-fixed-costs",
+   "question": "What are the new Chicagoland campus's total annual fixed costs?",
+   "givens": [
+    "Total fixed campus costs across all 10 campuses = $48,000K",
+    "New campus investment = $4.5M, amortized evenly over 3 years",
+    "Assume fixed costs remain flat per year"
+   ],
+   "steps": [
+    "Per-campus fixed cost = 48,000K / 10 = $4.8M",
+    "Amortized investment = 4.5M / 3 years = $1.5M/year",
+    "Total annual fixed cost = 4.8M + 1.5M = $6.3M"
+   ],
+   "answer": "$6.3M total annual fixed costs for the new campus.",
+   "answer_value": 6300000,
+   "unit": "$/year",
+   "verified": true
+  },
+  {
+   "id": "breakeven-enrollments",
+   "question": "How many students must the new campus enroll per year to break even?",
+   "givens": [
+    "Total annual fixed costs = $6.3M",
+    "Gross profit per student = $7K"
+   ],
+   "steps": [
+    "Breakeven enrollments = 6,300,000 / 7,000 = 900 students"
+   ],
+   "answer": "900 students per year to break even.",
+   "answer_value": 900,
+   "unit": "students/year",
+   "verified": true
+  },
+  {
+   "id": "total-potential-students",
+   "question": "How many total potential students (HS + adult market) does the Chicago campus's target high schools imply?",
+   "givens": [
+    "1,000 targeted high schools",
+    "~6 potential students per high school",
+    "80% of enrolled students come directly from high school; 20% from the adult market"
+   ],
+   "steps": [
+    "HS-sourced potential students = 1,000 x 6 = 6,000",
+    "Since HS students are 80% of total potential enrollees: total potential = 6,000 / 0.80 = 7,500"
+   ],
+   "answer": "7,500 total potential students (HS + adult market).",
+   "answer_value": 7500,
+   "unit": "students",
+   "verified": true
+  },
+  {
+   "id": "projected-year1-enrollments",
+   "question": "How many students would the Chicago campus enroll in year 1 at the projected market share?",
+   "givens": [
+    "Total potential students = 7,500",
+    "Projected market share (one competitor present) = 10%"
+   ],
+   "steps": [
+    "Enrollments = 7,500 x 10% = 750 students"
+   ],
+   "answer": "750 projected year-1 enrollments — 150 short of the 900 needed to break even.",
+   "answer_value": 750,
+   "unit": "students",
+   "verified": true
+  }
+ ],
+ "synthesis": "Overall, our client should NOT enter the Chicago market under the current cost structure. Even with a 10% market share assumption in year 1, the Chicago campus will enroll only 750 students, 150 fewer than the 900 required to break even. The client should also consider several qualitative issues: offering scholarships to increase the number of potential students and/or the conversion rate; considering other cities beyond Chicagoland without a current CCU presence, or adding a second campus to a high-share city like NYC that may be capacity-constrained; performing market research in other cities to see if there's greater potential per target high school to increase ROI; and considering ways to reduce fixed costs (e.g., sharing equipment/materials transport from campuses not at capacity).",
+ "what_great_looks_like": [
+  "Lands cleanly on the key figures (gross profit per student, breakeven enrollments, total potential students, projected enrollments) without needing much course correction",
+  "Proactively compares the 750 projected enrollments against the 900 breakeven figure to reach the no-go conclusion",
+  "Raises multiple concrete qualitative levers in the recommendation, not just the quantitative verdict",
+  "Recognizes the 10% share benchmark applies to campuses open 3+ years, so it likely overstates what Chicago could achieve in years 1-2 — and uses that to rule out a follow-up proposal to shrink the investment to $300K"
+ ],
+ "common_pitfalls": [
+  "Applying the 10% market share directly to the 6,000 HS-sourced students instead of grossing up to the 7,500 total potential pool first",
+  "Forgetting to amortize the $4.5M investment over 3 years before adding it to annual fixed costs",
+  "Not comparing year-1 projected enrollments back to the breakeven figure calculated in Part 1",
+  "Treating the case as purely quantitative and skipping the qualitative recommendation levers in Part 4"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[exB] — map markers (CCU vs. competitor campus, and which cities have how many competitors) are not individually legible/labeled beyond the specific examples the book calls out (Chicago: one competitor; Boston: one competitor)"
+  ],
+  "math_verified": true,
+  "notes": "",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "common_pitfalls",
+   "suggested_framework.tree (book gives case steps but no explicit framework tree)"
+  ]
+ }
+}

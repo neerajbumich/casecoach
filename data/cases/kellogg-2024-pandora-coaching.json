@@ -1,0 +1,293 @@
+{
+ "id": "kellogg-2024-pandora-coaching",
+ "title": "Pandora Coaching",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  427,
+  437
+ ],
+ "author": "Jake Zellner (Kellogg 2024); edited by David King (Kellogg 2024)",
+ "case_type": [
+  "Market Entry",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "New product / Market entry; Opportunity assessment",
+ "industry": "education",
+ "sub_industry": "higher-ed",
+ "industry_source_label": "Education Services",
+ "geography": "United Kingdom",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-sizing",
+  "segmentation",
+  "market-entry",
+  "competitive-landscape",
+  "pricing-strategy",
+  "brainstorming",
+  "brand-dilution"
+ ],
+ "concepts_tested": [
+  "Creativity",
+  "Market sizing",
+  "Pricing strategy",
+  "New market entry"
+ ],
+ "fit_question": "What does a successful internship look like to you?",
+ "prompt": "Our client, Pandora Coaching, is an admissions advisory firm. Pandora specializes in MBA coaching for business school applicants. Since the COVID pandemic, profits have stagnated, and the founders are considering changing Pandora's business model and/or target customers. What are some steps Pandora Coaching could explore to turn around their business?",
+ "clarifying_info": [
+  {
+   "question_topic": "Business model / products",
+   "answer": "Pandora offers an ultra-premium service with 2 coaches per applicant (leading the market in coach-to-applicant ratio) and a comprehensive 'one size fits all' approach priced 2-3x above competitors, supporting customers through as many applications as they want. Provide this even if the candidate doesn't ask."
+  },
+  {
+   "question_topic": "Company",
+   "answer": "Pandora is UK-based and has operated for ~20 years. All coaches are full-time (unlike competitors, who mostly use part-time coaches). It is owned by two founders."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "About 5 major competitors service hundreds of applicants per year, plus a long tail of small competitors (in-house corporate coaching, freelancers consulting 1-2 applicants/year, etc.)."
+  },
+  {
+   "question_topic": "Projections",
+   "answer": "Inquiries are down significantly this year; Pandora expects revenue to fall marginally or stay flat."
+  }
+ ],
+ "interviewer_notes": "This case starts intentionally vague to encourage creativity before narrowing into a market entry problem, letting the candidate weave in personal anecdotes about an industry they may know. Excellent candidates ask clarifying questions to realize Pandora is a premium-only provider. Flow: (1) drive/help pivot to the key question -- should Pandora enter the mass MBA admissions coaching market?, (2) market segmentation analysis of the MBA consulting landscape, (3) competitive landscaping, (4) provide a client recommendation.",
+ "suggested_framework": {
+  "summary": "Growth-centric framework spanning the admissions consulting market, Pandora's own financials, and a set of strategic options to explore, converging on the mass-market entry question.",
+  "tree": {
+   "label": "How can Pandora turn around its business?",
+   "children": [
+    {
+     "label": "Admissions consulting market",
+     "children": [
+      {
+       "label": "Size and growth forecasts"
+      },
+      {
+       "label": "Key competitors by segment"
+      },
+      {
+       "label": "Customer willingness to pay / segmentation"
+      }
+     ]
+    },
+    {
+     "label": "Pandora's financials",
+     "children": [
+      {
+       "label": "Revenue: services, pricing, add-ons"
+      },
+      {
+       "label": "Costs: coach ratio, full-time vs. part-time, overhead, rent"
+      },
+      {
+       "label": "Cash position (capacity to acquire another firm)"
+      }
+     ]
+    },
+    {
+     "label": "Strategies to explore",
+     "children": [
+      {
+       "label": "Launch a down-market service"
+      },
+      {
+       "label": "Decrease coach ratio / cut prices"
+      },
+      {
+       "label": "Cap applications per customer"
+      },
+      {
+       "label": "Acquire a down-market competitor"
+      },
+      {
+       "label": "Partner with other firms or employers"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What are some steps Pandora Coaching could explore to turn around their business?",
+   "expected_answer": "Candidate should build a growth-centric structure covering the admissions consulting market (size, growth, competitors, willingness to pay), Pandora's own financials (revenue mix/pricing, cost structure including its high coach ratio, cash position), and a set of preliminary strategic ideas. A good candidate picks up on the fact that Pandora currently serves only the highest-priced segment of the market and could consider other segments.",
+   "good_answer_signals": [
+    "Recognizes Pandora only serves the ultra-premium segment, opening the door to other segments",
+    "Covers market, financials, and strategic options as distinct buckets",
+    "Generates preliminary growth ideas rather than only diagnostic questions"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "Pandora has learned that most prospects who chose a competitor cited price as the reason. Pandora wants to explore a lighter-touch service to capture more of the market. When thinking about the market for MBA applicants, how could we segment it?",
+   "expected_answer": "Any MECE segmentation is acceptable at this stage (no sizing needed yet); good candidates break the market into up-market and down-market (or similar) segments, consistent with the guidance already given about Pandora's premium positioning.",
+   "good_answer_signals": [
+    "Produces a MECE segmentation rather than an unstructured list",
+    "Segmentation naturally distinguishes a premium tier from a more price-sensitive mass tier"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "market-sizing",
+   "interviewer_asks": "We actually just received a segmentation report on the MBA applicant market. Preliminary research found four groups of applicants: Non-Consultant Users (40% of market, spend $0), Users of Piecemeal Services (30%, average spend $600), 'Mass Market' Full Package Users (27%, average spend $7,000), and Ultra-Premium Full Package Users (3%, average spend $18,000), out of 50,000 total MBA applicants per year. What are the relative sizes of this market?",
+   "expected_answer": "Candidate should compute segment value = applicants x share x average spend for each group and sum them to a total market size of ~$130.5M/year, of which the ultra-premium segment Pandora serves is only ~$27M (~20% of the total) -- see math step m1. The mass market ($94.5M) is over 3x the size of Pandora's current ultra-premium market. Excellent candidates push further to ask whether mass-market customers want something different than what Pandora currently offers, and how much competitive whitespace exists in the mass market.",
+   "good_answer_signals": [
+    "Correctly computes each segment's dollar value (applicants x share x spend) and sums to $130.5M total",
+    "Independently notes the mass market is roughly 3x the size of the ultra-premium segment",
+    "Proactively asks about whitespace/competitive intensity in the mass market, and whether customer needs differ, rather than stopping at the sizing number"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the competitive landscape look like in these two segments?",
+   "release_when": "Provide Exhibit A when the interviewee asks about the competitive landscape.",
+   "info_to_release": "Exhibit A: market share charts for the Mass Market (split among ~6 named competitors, e.g. Ryan Coaches, Dearborn Associates, Inspiring Grounds & Co., MBAllen, AdmitKrew, and other competitors) versus the Ultra-Premium Market (Pandora ~90%, other competitors ~10%).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate should recognize Pandora effectively controls the ultra-premium market against small 'mom and pop' competitors, while the mass market -- despite being larger -- is fragmented, with no single player holding more than ~20% share. This implies the mass market is competitive with limited whitespace for an easy, low-risk entry.",
+   "good_answer_signals": [
+    "Contrasts Pandora's near-monopoly in ultra-premium with the mass market's fragmentation",
+    "Concludes limited whitespace in the mass market rather than assuming entry would be easy given its larger size"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "How well-positioned is Pandora to compete for mass-market customers?",
+   "release_when": "Provide Exhibit B when the interviewee asks about competitor/Pandora strengths or customer preferences -- or, if they don't ask, provide it anyway.",
+   "info_to_release": "Exhibit B: a (deliberately dense) chart combining survey results on how important four characteristics (Success Record, Responsiveness, Amount of Touchpoints, Price) are to Mass Market vs. Ultra-Premium Market respondents, plus separate customer-satisfaction ratings for Pandora and three named competitors (Ryan Coaches, Dearborn Associates, MBAllen) on those same four characteristics.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidate should conclude that Pandora is on-track or exceeding expectations in the ultra-premium market, and that mass-market competitors are already largely meeting mass-market customers' preferences -- meaning Pandora would be significantly 'overdelivering' (at ultra-premium cost) if it tried to serve the mass market with its current offering as-is. Great candidates notice Pandora overachieves on every characteristic except price (where it satisfies customers the least), suggesting Pandora could water down its ultra-premium service somewhat to cut costs without losing much of what customers actually value.",
+   "good_answer_signals": [
+    "Correctly reads that Pandora is already strong across most attributes for its current segment",
+    "Specifically isolates price as Pandora's weakest satisfaction attribute",
+    "Connects the price weakness to a concrete strategic idea (trim service intensity to cut cost) rather than stopping at description"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "If Pandora were to enter the mass market, it could launch a 'lighter touch' service. What key considerations should they make when exploring this?",
+   "expected_answer": "Operational (internal): whether current full-time coaches would move down-market or new (possibly part-time) staff are needed; the founders' risk appetite; how much existing software/materials can be reused. Market (external): whether to launch under the current brand or a new one to avoid dilution; risk of a competitive response or price war; whether mass-market competitors offer services Pandora lacks (e.g. GMAT prep); and how mass-market pricing typically works (fixed-fee vs. per-application).",
+   "good_answer_signals": [
+    "Splits considerations into internal/operational vs. external/market buckets",
+    "Explicitly raises brand dilution risk and the build-vs-reuse question for staff and materials",
+    "Asks about the mass market's typical pricing model rather than assuming it mirrors Pandora's own"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "Joel McMannus, Founder and Co-CEO of Pandora, is about to walk into the room and wants to hear your thoughts. Do you recommend changing Pandora's business model? If so, how?",
+   "expected_answer": "This case has no single correct answer. A good candidate structures their view around one of two directions: (1) Enter the mass market -- it's ~3x the size of the ultra-premium segment where Pandora already holds ~90% share and has little room left to grow; risks include competitive price cuts, brand dilution in the ultra-premium segment, and the need to hire largely new staff; next steps include assessing whether current infrastructure/staff can serve the new segment and conducting due diligence on mass-market competitors. (2) Don't enter the mass market; instead adjust the ultra-premium offering -- since Pandora overachieves on success record, responsiveness, and touchpoints, it could spread coaches thinner (e.g., 1.5 per customer) to cut costs; risks include employee backlash, ceding ultra-premium share to smaller competitors, and the opportunity cost of skipping the larger mass-market opportunity; next steps include polling employees and using marketing to grow (or defend) the ultra-premium category.",
+   "good_answer_signals": [
+    "Picks one clear direction and supports it with the market-sizing and competitive evidence gathered earlier",
+    "Surfaces genuine, non-generic risks specific to the chosen path",
+    "Proposes concrete, testable next steps tied to the recommendation"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Market Shares",
+   "page": 436,
+   "kind": "bar",
+   "description": "Two 100%-stacked bar charts: Mass Market share split among roughly six named competitors (Ryan Coaches, Dearborn Associates, Inspiring Grounds & Co., MBAllen, AdmitKrew, and other competitors), each holding a modest, fairly similar slice; and Ultra-Premium Market share, split almost entirely between Pandora (~90%) and other competitors (~10%).",
+   "image_path": "exhibits/kellogg-2024-pandora-coaching/p436.webp",
+   "key_insight": "Pandora dominates the ultra-premium segment (~90% share), while the larger mass market is fragmented with no single competitor holding more than roughly 20% share -- the mass market's size is attractive, but it is a genuinely competitive segment, not empty whitespace.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex2",
+   "title": "MBA Applicant Polls",
+   "page": 437,
+   "kind": "other",
+   "description": "Combination chart (intentionally dense/hard-to-read): bar series show how important four characteristics (Success Record, Responsiveness, Amount of Touchpoints, Price) are to Mass Market vs. Ultra-Premium Market respondents (0-5 scale); overlaid dot series show customer satisfaction (%) with Pandora, Ryan Coaches, Dearborn Associates, and MBAllen on those same four characteristics.",
+   "image_path": "exhibits/kellogg-2024-pandora-coaching/p437.webp",
+   "key_insight": "Ultra-Premium customers rate Success Record and Responsiveness far more important than Mass Market customers do, while Mass Market customers rate Price much more important; Pandora's own satisfaction dot is the highest of all four firms on every characteristic except Price, where it is the lowest -- Pandora is over-delivering (and over-charging) relative to what a mass-market customer values.",
+   "data_confidence": "low"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the total size of the MBA admissions consulting market, and how does Pandora's current (ultra-premium) segment compare to the mass market?",
+   "givens": [
+    "50,000 total MBA applicants/year",
+    "Non-Consultant Users: 40% of market, $0 average spend",
+    "Users of Piecemeal Services: 30% of market, $600 average spend",
+    "Mass Market Full Package Users: 27% of market, $7,000 average spend",
+    "Ultra-Premium Full Package Users: 3% of market, $18,000 average spend"
+   ],
+   "steps": [
+    "Non-Consultant: 50,000 x 40% = 20,000 applicants x $0 = $0",
+    "Piecemeal: 50,000 x 30% = 15,000 applicants x $600 = $9M",
+    "Mass Market Full Package: 50,000 x 27% = 13,500 applicants x $7,000 = $94.5M",
+    "Ultra-Premium Full Package: 50,000 x 3% = 1,500 applicants x $18,000 = $27M",
+    "Total market size = $0 + $9M + $94.5M + $27M = $130.5M",
+    "Ultra-premium (Pandora's segment) = $27M, about 20.7% (~20%) of the total; Mass Market ($94.5M) is ~3.5x the size of ultra-premium"
+   ],
+   "answer": "Total addressable market is ~$130.5M/year; Pandora's current ultra-premium segment is only ~$27M (~20% of the total), while the mass-market full-package segment is ~$94.5M, over 3x the size of ultra-premium.",
+   "answer_value": 130500000,
+   "unit": "USD total market size per year",
+   "verified": true
+  }
+ ],
+ "synthesis": "This case has no single correct recommendation; a strong answer commits to one of two well-supported directions. Option 1: Pandora should enter the mass market, since it is roughly 3x the size of the ultra-premium segment Pandora already dominates (~90% share, leaving little room to grow further there) -- while managing the risks of a competitive price response, brand dilution of the ultra-premium name, and the need to largely rebuild staffing for a lower-cost model; next steps include assessing whether current infrastructure and coaches can flex into the new segment and diligencing mass-market competitors. Option 2: Pandora should stay in ultra-premium and adjust its own model instead -- since it already overachieves on success record, responsiveness, and touchpoints (per Exhibit B) but underdelivers on price, it could thin its coach ratio (e.g., 1.5 coaches/customer) to cut costs while retaining most of what customers value -- while managing risks of employee backlash, ceding ultra-premium share to smaller rivals, and the opportunity cost of skipping the larger mass-market opportunity; next steps include polling employees and using marketing to grow or defend the ultra-premium category.",
+ "what_great_looks_like": [
+  "Recognizes early, from the clarifying information alone, that Pandora only serves the priciest slice of the market",
+  "Builds a MECE up-market/down-market style segmentation before being handed the formal market-sizing report",
+  "Correctly sizes each of the four applicant segments and lands on the ~3x mass-vs-ultra-premium comparison without prompting",
+  "Pushes past the raw market-size numbers to ask about competitive whitespace and whether mass-market customers actually want what Pandora offers",
+  "Extracts the 'overachieving on everything except price' insight from a deliberately dense exhibit and turns it into a concrete strategic idea"
+ ],
+ "common_pitfalls": [
+  "Jumping straight to 'the mass market is bigger, so enter it' without examining fragmentation/whitespace in Exhibit A",
+  "Misreading Exhibit B's dual-axis, multi-series design and missing that Pandora underperforms specifically (and only) on price",
+  "Treating market size as the only decision criterion and ignoring brand-dilution or staffing risk in the final recommendation",
+  "Giving a wishy-washy 'it depends' recommendation instead of committing to one direction with clear supporting logic"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[ex1].data (mass-market competitor shares are approximate visual reads off a stacked bar chart with no printed values; omitted as a data table since the exact percentages are illegible)",
+   "exhibits[ex2].data (chart is explicitly described in the book as 'on purpose a tricky, hard-to-read chart'; values are approximate visual reads on a dual-axis combo chart and are described qualitatively rather than transcribed as exact figures)"
+  ],
+  "math_verified": true,
+  "notes": "Book does not give a difficulty rating for this case; difficulty was inferred. Pages 438-439 of the source page range are the casebook's general credits/copyright pages, not case content, and were excluded from extraction.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "client_type",
+   "case_type (mapped from book's own 'New product / Market entry; Opportunity assessment' labels)"
+  ]
+ }
+}

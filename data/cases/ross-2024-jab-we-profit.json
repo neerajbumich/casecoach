@@ -1,0 +1,384 @@
+{
+ "id": "ross-2024-jab-we-profit",
+ "title": "Jab We Profit",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  189,
+  198
+ ],
+ "case_type": [
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "New Product",
+ "industry": "telecom",
+ "sub_industry": "wireless-carriers",
+ "industry_source_label": "Telecom",
+ "geography": "India",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 2, Overall - 2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "new-product",
+  "telecom",
+  "market-sizing",
+  "breakeven",
+  "cannibalization",
+  "fixed-cost",
+  "pricing"
+ ],
+ "concepts_tested": [
+  "revenue build",
+  "five-year cost model",
+  "cannibalization",
+  "investment timing"
+ ],
+ "prompt": "Telecom Co, a large Indian telecom provider, has a new CEO determined to revive the struggling company. He proposes an unlimited long-distance-minutes plan called Geet to attract new customers. The launch is a major strategic risk while the company faces scrutiny from shareholders and the public. Should Telecom Co launch Geet?",
+ "clarifying_info": [
+  {
+   "question_topic": "Scope",
+   "answer": "Telecom Co operates only in India and treats B2B and B2C subscriptions as one pool."
+  },
+  {
+   "question_topic": "Current offer",
+   "answer": "It has no unlimited-minutes plan; long-distance calls are paid per minute."
+  },
+  {
+   "question_topic": "Business",
+   "answer": "Mobile data and minutes are the core; television and home internet are minor."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are several Indian telecom players and Telecom Co is fourth largest."
+  },
+  {
+   "question_topic": "Hurdle",
+   "answer": "The investment must break even by the end of year two."
+  }
+ ],
+ "interviewer_notes": "Drive the candidate to a financial evaluation: market size, share, $4 annual price, fixed and maintenance costs, and breakeven. All values are US dollars and inflation is ignored. The source charts do not label every plotted share value, so those transcriptions are medium confidence.",
+ "suggested_framework": {
+  "summary": "Book framework combining revenue, cost and breakeven with market, competition, cannibalization and alternative investments.",
+  "tree": {
+   "label": "Geet launch",
+   "children": [
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Market size × share × annual price"
+      },
+      {
+       "label": "Fixed, variable and overhead costs"
+      },
+      {
+       "label": "Two-year breakeven"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Demand and growth"
+      },
+      {
+       "label": "Competitors and substitute technologies"
+      }
+     ]
+    },
+    {
+     "label": "Risks and alternatives",
+     "children": [
+      {
+       "label": "Cannibalization and competitive copying"
+      },
+      {
+       "label": "Core improvement or adjacent growth"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate the Geet launch?",
+   "expected_answer": "Build revenue from addressable consumers, expected share and price; build fixed and ongoing costs; compare cumulative cash flow with the two-year hurdle; and assess demand, competition, cannibalization, substitutes and alternative investments.",
+   "good_answer_signals": [
+    "Centers on breakeven",
+    "Includes cannibalization",
+    "Considers market evolution and alternatives"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What inputs are needed to estimate Geet revenue?",
+   "expected_answer": "Revenue equals consumer population × mobile-subscription penetration × share using long-distance plans × Telecom Co's Geet share × $4 annual price. Focus only on B2C plans.",
+   "good_answer_signals": [
+    "Builds a multiplicative market-size equation",
+    "Asks for price, market size and share"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Estimate annual Geet revenue over five years.",
+   "release_when": "Show Exhibits 1 and 2 and provide the $4 annual price.",
+   "info_to_release": "Population Y1-Y5 is 1,000M, 1,050M, 1,100M, 1,150M and 1,200M. Mobile penetration is approximately 60%, 65%, 70%, 75% and 75%; long-distance plans are 30%. Expected company share is approximately 7%, 13%, 20%, 28% and 32%. Existing-product cannibalization is 3% in Y1, 2% in Y2 and 1% in Y3.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "After cannibalization, effective shares are 4%, 11%, 19%, 28% and 32%. Revenue is approximately $28.8M, $90.09M, $175.56M, $289.8M and $345.6M, totaling $929.85M.",
+   "good_answer_signals": [
+    "Applies every market funnel percentage",
+    "Subtracts cannibalization in years 1-3",
+    "Keeps units in millions"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What are total costs and when does the product break even?",
+   "release_when": "Provide Exhibit 3 when the candidate asks about costs.",
+   "info_to_release": "Five-year bandwidth lease is $500M, five-year operating cost is $125M, and maintenance is $7.5M per year for five years.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Five-year cost is $500M+$125M+5×$7.5M=$662.5M. Cumulative revenue after two years is only $118.89M, far below $640M of fixed plus two-year maintenance cost, so the CEO's two-year hurdle is missed. Cumulative revenue first exceeds cumulative cost in year five; five-year surplus is about $267.35M.",
+   "good_answer_signals": [
+    "Treats the large lease and operating commitments as fixed",
+    "Tests year two explicitly",
+    "Finds year-five breakeven"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "If Telecom Co does not launch Geet, what else could revive the company?",
+   "expected_answer": "Improve the core by reducing cost, stealing competitor share through price, service or convenience, and targeting first-time mobile users; or expand to home internet, streaming, new geographies, and electronics such as laptops, TVs and appliances.",
+   "good_answer_signals": [
+    "Separates core improvement from adjacencies",
+    "Offers both cost and growth ideas"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should the CEO launch Geet?",
+   "expected_answer": "Do not launch if the two-year breakeven requirement is firm: cumulative revenue is only about $118.9M after two years against more than $625M of fixed commitment. The product can be profitable over five years, but that does not meet the promised quick win. Pursue core share and cost improvements or adjacencies instead. Risks include easy competitor imitation and long-distance calling becoming obsolete through Skype, Zoom or FaceTime.",
+   "good_answer_signals": [
+    "Ties recommendation to the two-year hurdle",
+    "Notes medium-term profitability",
+    "Explains that the fixed-cost gap is too large for small assumption changes"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Five-Year Projection of India's Telecom Market",
+   "page": 194,
+   "kind": "other",
+   "description": "Population, mobile-subscription penetration and long-distance-plan share for years 1-5.",
+   "data": {
+    "columns": [
+     "Year",
+     "Population (M)",
+     "Mobile penetration",
+     "Long-distance-plan share"
+    ],
+    "rows": [
+     [
+      1,
+      1000,
+      "60%",
+      "30%"
+     ],
+     [
+      2,
+      1050,
+      "65%",
+      "30%"
+     ],
+     [
+      3,
+      1100,
+      "70%",
+      "30%"
+     ],
+     [
+      4,
+      1150,
+      "75%",
+      "30%"
+     ],
+     [
+      5,
+      1200,
+      "75%",
+      "30%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-jab-we-profit/p194.webp",
+   "key_insight": "The addressable market grows through both population and mobile penetration.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex2",
+   "title": "Company Market Share Projection",
+   "page": 195,
+   "kind": "line",
+   "description": "Expected Geet share by year and cannibalization from existing products in years 1-3.",
+   "data": {
+    "columns": [
+     "Year",
+     "Expected share",
+     "Cannibalization"
+    ],
+    "rows": [
+     [
+      1,
+      "~7%",
+      "3%"
+     ],
+     [
+      2,
+      "~13%",
+      "2%"
+     ],
+     [
+      3,
+      "~20%",
+      "1%"
+     ],
+     [
+      4,
+      "~28%",
+      "0%"
+     ],
+     [
+      5,
+      "~32%",
+      "0%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-jab-we-profit/p195.webp",
+   "key_insight": "Share grows rapidly but early cannibalization reduces truly incremental revenue.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Five-Year Cost Inputs",
+   "page": 196,
+   "kind": "text",
+   "description": "Fixed bandwidth and operating commitments plus annual maintenance.",
+   "data": {
+    "columns": [
+     "Cost",
+     "Amount"
+    ],
+    "rows": [
+     [
+      "Bandwidth lease, 5 years",
+      "$500M"
+     ],
+     [
+      "Operating cost, 5 years",
+      "$125M"
+     ],
+     [
+      "Maintenance",
+      "$7.5M/year for 5 years"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-jab-we-profit/p196.webp",
+   "key_insight": "The $625M fixed commitment makes a two-year payback impossible under projected revenue.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is projected five-year revenue?",
+   "givens": [
+    "Exhibits 1-2",
+    "$4 annual price"
+   ],
+   "steps": [
+    "Effective shares = 4%, 11%, 19%, 28%, 32%",
+    "Annual revenue = population×mobile penetration×30%×effective share×$4",
+    "Results = $28.8M, $90.09M, $175.56M, $289.8M, $345.6M",
+    "Total = $929.85M"
+   ],
+   "answer": "$929.85 million over five years",
+   "answer_value": 929.85,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is cost and breakeven timing?",
+   "givens": [
+    "$500M bandwidth",
+    "$125M operations",
+    "$7.5M/year maintenance"
+   ],
+   "steps": [
+    "Five-year cost = $662.5M",
+    "Year-2 cumulative revenue = $118.89M versus $640M cumulative cost",
+    "Year-4 cumulative revenue = $584.25M versus $655M cost",
+    "Year-5 cumulative revenue = $929.85M versus $662.5M cost"
+   ],
+   "answer": "Breakeven occurs in year five; five-year surplus is $267.35 million",
+   "answer_value": 267.35,
+   "unit": "USD millions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Geet should not launch under the CEO's firm two-year breakeven requirement. It generates only about $118.9M in the first two years against a $625M fixed commitment plus maintenance. It becomes profitable in year five, with about $267.35M cumulative surplus, but that is not the required quick win. Telecom Co should instead improve core costs and share or invest in home internet, streaming, new geographies or electronics, while monitoring competitor imitation and substitution by internet calling.",
+ "what_great_looks_like": [
+  "Builds the full market funnel",
+  "Adjusts for cannibalization",
+  "Tests cumulative cash flow at year two",
+  "Recognizes fixed costs dominate the decision",
+  "Offers structured alternatives"
+ ],
+ "common_pitfalls": [
+  "Uses total population as customers",
+  "Forgets long-distance-plan share",
+  "Adds cannibalization",
+  "Calls the product attractive based only on five-year profit"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data plotted percentages",
+   "exhibits[1].data plotted market shares"
+  ],
+  "math_verified": true,
+  "notes": "The charts do not print point labels; percentages are read from axis-aligned plotted points and are therefore medium confidence. Candidate-facing pages 194-196 are used. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

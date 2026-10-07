@@ -1,0 +1,88 @@
+{
+ "id": "porters-five-forces",
+ "name": "Porter's Five Forces",
+ "category": "tool",
+ "summary": "Industry attractiveness = the combined pressure of rivalry, threat of new entrants, threat of substitutes, buyer power and supplier power. Useful inside market entry and M&A market assessments.",
+ "opening_line": "To judge how attractive this industry is, I'd look at rivalry, entry barriers, substitutes, and the bargaining power of buyers and suppliers.",
+ "when_to_use": [
+  "Assessing industry attractiveness or profitability potential",
+  "The 'market' branch of market entry, M&A or investment cases"
+ ],
+ "when_not_to_use": [
+  "As a whole case structure: interviewers see it as generic. Use it inside a bucket",
+  "Company-specific operational problems"
+ ],
+ "tree": {
+  "label": "Industry attractiveness",
+  "children": [
+   {
+    "label": "Rivalry among competitors"
+   },
+   {
+    "label": "Threat of new entrants"
+   },
+   {
+    "label": "Threat of substitutes"
+   },
+   {
+    "label": "Buyer power"
+   },
+   {
+    "label": "Supplier power"
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Rivalry",
+   "questions": [
+    "How concentrated? Growth rate? Price competition?"
+   ],
+   "data_to_ask": [
+    "Market shares"
+   ]
+  },
+  {
+   "name": "Entry & substitutes",
+   "questions": [
+    "Capital, regulatory or brand barriers? Alternatives customers could switch to?"
+   ],
+   "data_to_ask": []
+  },
+  {
+   "name": "Buyers & suppliers",
+   "questions": [
+    "Are customers or suppliers concentrated? Switching costs?"
+   ],
+   "data_to_ask": []
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "airlines",
+   "note": "Classic low-attractiveness industry: high rivalry, powerful suppliers (Boeing/Airbus, labour), commoditised product."
+  }
+ ],
+ "common_mistakes": [
+  "Using it as the entire framework",
+  "Listing forces without concluding what they mean for the client"
+ ],
+ "related": [
+  "market-entry",
+  "three-cs",
+  "mergers-acquisitions"
+ ],
+ "match": {
+  "case_types": [],
+  "tags": [
+   "industry-analysis",
+   "competition"
+  ],
+  "keywords": [
+   "competitor",
+   "supplier",
+   "substitute",
+   "barrier"
+  ]
+ }
+}

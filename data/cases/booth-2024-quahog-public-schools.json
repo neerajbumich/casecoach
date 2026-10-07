@@ -1,0 +1,234 @@
+{
+ "id": "booth-2024-quahog-public-schools",
+ "title": "Quahog Public Schools",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  266,
+  271
+ ],
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Non-traditional Problem",
+ "industry": "education",
+ "sub_industry": "k12",
+ "industry_source_label": "Non-profit / Education",
+ "geography": "Quahog, Rhode Island",
+ "client_type": "public sector",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey & Co",
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3, Quant 2, Creativity 3 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "public-schools",
+  "student-performance",
+  "textbook-shortage",
+  "resource-allocation",
+  "structured-brainstorming",
+  "social-impact"
+ ],
+ "concepts_tested": [
+  "chart interpretation",
+  "root-cause structuring",
+  "resource brainstorming",
+  "weighted impact calculation",
+  "executive synthesis"
+ ],
+ "fit_question": "Tell me about a time you persuaded teammates to support your idea. Alternatively, describe a disagreement with a colleague and how you handled it.",
+ "prompt": "Our client is the superintendent of a system of schools in Quahog, Rhode Island. He is concerned because students at these schools repeatedly perform below the national mean on standardized tests. He has asked us to determine what to do about it.",
+ "clarifying_info": [
+  {
+   "question_topic": "System of schools",
+   "answer": "A system of schools is a district-level organization, such as Chicago Public Schools."
+  },
+  {
+   "question_topic": "Standardized tests",
+   "answer": "These are exams administered at a defined point in the school year for a grade level and developed by a district, state, or other large education agency, such as end-of-course exams or the SAT."
+  },
+  {
+   "question_topic": "Subpar performance",
+   "answer": "On average, Quahog students score below the national student mean on the same assessment."
+  },
+  {
+   "question_topic": "Teachers",
+   "answer": "Teachers and the teaching environment are on par with other schools."
+  },
+  {
+   "question_topic": "Student demographics",
+   "answer": "Students come from low- to middle-income households."
+  },
+  {
+   "question_topic": "Books",
+   "answer": "Schools provide books to students, but early findings identify a shortage as a major performance issue."
+  }
+ ],
+ "interviewer_notes": "This non-profit case tests adaptation, creativity, and structured brainstorming. Show Exhibit 1 before the framework. Explore students, teachers, resources, and the teaching environment, then guide the candidate to the book shortage. Probe repeatedly for additional ideas and encourage roughly three solution buckets. Finish with the Grade 6 impact calculation and a hallway-style recommendation to the superintendent.",
+ "suggested_framework": {
+  "summary": "Diagnose student, teacher, resource, and learning-environment drivers before prioritizing the book shortage and feasible interventions.",
+  "tree": {
+   "label": "Improve Quahog standardized-test performance",
+   "children": [
+    {
+     "label": "Students",
+     "children": [
+      {
+       "label": "Attendance, safety, family obligations, income, language, and special needs"
+      }
+     ]
+    },
+    {
+     "label": "Teachers",
+     "children": [
+      {
+       "label": "Recruitment, training, retention, and instructional quality"
+      }
+     ]
+    },
+    {
+     "label": "Resources",
+     "children": [
+      {
+       "label": "Curriculum rigor, books, teaching materials, technology, libraries, and laboratories"
+      }
+     ]
+    },
+    {
+     "label": "Learning environment",
+     "children": [
+      {
+       "label": "Safety, administrative support, cleanliness, facilities, arts, music, and health services"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Exhibit 1 establish, and how would you diagnose the performance gap?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "The exhibit shows Quahog's score distribution centered below the national distribution, establishing a systematic mean gap rather than a single outlier. Diagnose student attendance and demographics, teacher quality and retention, curriculum and physical resources, and school safety and administrative environment. Compare each driver with peer systems and across Quahog schools and grades.",
+   "good_answer_signals": [
+    "Interprets the two distributions correctly",
+    "Creates three or four causal dimensions",
+    "Requests disaggregated evidence rather than assuming one cause"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "Early findings identify book shortages as a major contributor. How could Quahog address them?",
+   "expected_answer": "Raise money through grants, donations, fundraising, or charging students who can pay; obtain books without cash through in-kind gifts, borrowing from other districts, and partnerships with Amazon or other retailers for used books; and stretch existing inventory through coordinated sharing, scanning, or copying where legally permitted.",
+   "good_answer_signals": [
+    "Uses fundraising, no-cash acquisition, and inventory-management buckets",
+    "Generates multiple options in each bucket",
+    "Considers affordability for low- and middle-income families"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What is the total impact of the Amazon partnership and coordinated book sharing?",
+   "info_to_release": "Grade 6 has an 8,000-book math and science shortage. Math is 60% and science 40%. Amazon can reduce the math shortage by 70%, while coordinated sharing independently reduces the science shortage by 20%.",
+   "expected_answer": "Math shortage is 8,000 x 60% = 4,800 books, of which Amazon supplies 70% or 3,360. Science shortage is 8,000 x 40% = 3,200, of which sharing covers 20% or 640. Together the plans address 4,000 books, exactly 50% of the shortage, leaving 4,000.",
+   "good_answer_signals": [
+    "Splits the shortage by subject first",
+    "Applies each solution only to its relevant subject",
+    "States both books and percentage impact"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "You meet the superintendent in the hallway. What have you found so far?",
+   "expected_answer": "Book shortage is the leading identified contributor to low scores. Quahog can combine fundraising, no-cash acquisition, and better sharing; immediately, Amazon and coordinated sharing can eliminate 4,000 of the 8,000 missing Grade 6 math and science books. Develop a plan for the remaining 4,000, estimate how additional book access changes scores, and continue testing teacher, curriculum, attendance, and learning-environment causes. The main risk is that books improve access but do not sufficiently improve performance.",
+   "good_answer_signals": [
+    "Delivers an answer-first hallway summary",
+    "Quantifies 50% impact and remaining gap",
+    "Treats the book finding as preliminary rather than the only cause"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Quahog student performance relative to national performance",
+   "page": 268,
+   "kind": "other",
+   "description": "Two stylized score distributions show Quahog students centered below the national performance distribution; no numeric scale is provided.",
+   "image_path": "exhibits/booth-2024-quahog-public-schools/p268.webp",
+   "image_has_answers": false,
+   "key_insight": "Quahog's mean performance is below the national mean, consistent with a system-level gap requiring root-cause diagnosis.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many books do the Amazon and sharing initiatives provide?",
+   "givens": [
+    "8,000-book shortage",
+    "60% math; 40% science",
+    "Amazon covers 70% of math shortage",
+    "Sharing covers 20% of science shortage"
+   ],
+   "steps": [
+    "Math shortage = 8,000 x 60% = 4,800",
+    "Amazon benefit = 4,800 x 70% = 3,360",
+    "Science shortage = 8,000 x 40% = 3,200",
+    "Sharing benefit = 3,200 x 20% = 640",
+    "Total benefit = 3,360 + 640 = 4,000, or 50%"
+   ],
+   "answer": "4,000 books, reducing the shortage by 50%",
+   "answer_value": 4000,
+   "unit": "books",
+   "verified": true
+  }
+ ],
+ "synthesis": "Treat the book shortage as the leading preliminary driver and implement the Amazon and coordinated-sharing initiatives, which together cover 4,000 of 8,000 missing Grade 6 books. Pursue fundraising, donations, borrowing, and inventory management for the remaining shortage, quantify the effect on test outcomes, and continue investigating curriculum, attendance, teacher retention, and the school environment. The intervention may not translate one-for-one into higher scores.",
+ "what_great_looks_like": [
+  "Adapts a diagnostic framework to a public-school system",
+  "Organizes book solutions into clear buckets",
+  "Calculates subject-specific benefits accurately",
+  "Connects 4,000 books to a 50% reduction",
+  "Gives a concise executive recommendation while preserving uncertainty"
+ ],
+ "common_pitfalls": [
+  "Assuming teachers are the problem after learning they are at peer level",
+  "Applying both interventions to all 8,000 books",
+  "Stopping at a book count without stating the percentage",
+  "Treating correlation between shortages and scores as proven causation",
+  "Ignoring the remaining 4,000-book gap"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The book-impact calculation was independently recomputed and matches exactly. Exhibit 1 is a conceptual distribution comparison without numeric values, so no data table is included. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "id": "fuqua-2023-dollar-pizza-parlor",
+ "title": "Dollar Pizza Parlor",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  85,
+  92
+ ],
+ "author": "Darian Aghili (Fuqua '24) and Vann Vicente (Fuqua '24)",
+ "case_type": [
+  "Investment/PE due diligence",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Private Equity",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "Services / Private Equity",
+ "geography": "United States",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain",
+  "LEK"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Medium; Qualitative: Difficult",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "private-equity",
+  "ebitda-multiple",
+  "synergies",
+  "subscriptions",
+  "location-expansion",
+  "value-creation"
+ ],
+ "prompt": "Our client, Fuqua Capital, is a private equity firm that is considering buying Dollar Pizza Parlor (DPP), a national pizza brand in the United States. The company's current ownership has engaged in discussions with Fuqua Capital to initiate the sales process, and Fuqua Capital would like us to conduct the due diligence process for them to better understand: Dollar Pizza Parlor's price; if this investment should be made.",
+ "clarifying_info": [
+  {
+   "question_topic": "Fund structure",
+   "answer": "The asset will go into a newly initiated fund with no hold constraints."
+  },
+  {
+   "question_topic": "Objective",
+   "answer": "Maximize value for exit within 5 years."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "DPP currently operates 55 slice shops and distributes in major retail stores across the country. The historical exhibit separately reports 20, 25 and 25 locations for 2020–2022."
+  },
+  {
+   "question_topic": "Geography and timing",
+   "answer": "U.S. based; pursue the opportunity as soon as possible."
+  }
+ ],
+ "interviewer_notes": "Guide the candidate toward valuation using three-year average EBITDA. If they propose DCF, explain that a comparable multiple is available. Provide 13x only when asked. The book accepts rounding average EBITDA to $1.5M or $1.6M. After stand-alone valuation, the candidate should ask about synergies; prompt if necessary. Then conduct two structured brainstorms: value creation and location expansion. Encourage concrete, feasible ideas beyond simply adding products and tailor expansion to pizza customers and local demand.",
+ "suggested_framework": {
+  "summary": "Assess target value, the pizza market and the fund's investment requirements.",
+  "tree": {
+   "label": "Should Fuqua Capital buy DPP?",
+   "children": [
+    {
+     "label": "Value assessment",
+     "children": [
+      {
+       "label": "Retail pizza and subscription volumes and prices"
+      },
+      {
+       "label": "COGS, operating costs, capex and asking price"
+      },
+      {
+       "label": "Valuation method and cost/revenue synergies"
+      }
+     ]
+    },
+    {
+     "label": "Pizza market",
+     "children": [
+      {
+       "label": "Major-city demand, growth, trends and subscription interest"
+      },
+      {
+       "label": "Customer demographics"
+      },
+      {
+       "label": "Chains, local restaurants and retail/frozen competitors"
+      }
+     ]
+    },
+    {
+     "label": "Fund structure",
+     "children": [
+      {
+       "label": "Investment thesis and committed capital"
+      },
+      {
+       "label": "Hurdle rates, industry scope and portfolio fit"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine DPP's value and whether Fuqua Capital should invest?",
+   "release_when": "After the prompt; release fund and business-model clarifications if asked.",
+   "expected_answer": "Understand the fund's five-year value-creation objective, estimate standalone earnings and valuation, investigate synergies, and assess pizza demand, competition and scalable growth opportunities.",
+   "good_answer_signals": [
+    "Includes both price and a credible value-creation plan."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Use the historical operating information to estimate the value of DPP.",
+   "release_when": "When the candidate asks for financial performance; provide the comparable multiple on request. Redirect a proposed DCF to the comparable approach.",
+   "info_to_release": "For 2020/2021/2022, Exhibit 1 gives subscribers 10,000/15,000/22,000 at $10 per month; locations 20/25/25; monthly orders per location 2,500/3,000/4,400; average order $3/$3/$4; annual COGS $1.5M/$2.25M/$3.96M and SG&A $0.6M/$0.9M/$1.584M. The comparable multiple is 13 times the three-year average EBITDA.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Monthly subscription revenue is $0.1M/$0.15M/$0.22M and monthly shop sales $0.15M/$0.225M/$0.44M. Annual combined revenue is $3M/$4.5M/$7.92M. EBITDA is $0.9M/$1.35M/$2.376M; the three-year average is $1.542M. At 13x, standalone value is $20.046M, or about $20M. The book accepts rounding average EBITDA to $1.5M or $1.6M.",
+   "good_answer_signals": [
+    "Keeps monthly revenue separate from annual expenses.",
+    "Uses average EBITDA rather than only the latest year."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "How would potential synergies affect the value?",
+   "release_when": "After standalone valuation, when the candidate asks about synergies; prompt if needed.",
+   "info_to_release": "Synergies would reduce average annual SG&A by approximately $0.5M.",
+   "expected_answer": "Average EBITDA increases from $1.542M to $2.042M, making value $26.546M at 13x. The book rounds EBITDA to approximately $2M and valuation to approximately $26M. Synergies add $6.5M of modeled value, but should not automatically all be paid to the seller.",
+   "good_answer_signals": [
+    "Applies the saving once to average annual EBITDA.",
+    "Separates standalone purchase price from the buyer's synergy value."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other ways can we add value to Dollar Pizza Parlor?",
+   "release_when": "After valuation and synergies; guide toward location expansion for the next discussion.",
+   "expected_answer": "Marketing options include a broader product range, food-brand partnerships, spin-off stores or online offerings, and new campaigns. Operational options include supply-chain optimization, a better technology platform, franchising and additional locations. Structure ideas and explain how each creates value rather than only listing products.",
+   "good_answer_signals": [
+    "Suggests feasible operational as well as commercial levers."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What should you consider when entering a new market for DPP?",
+   "release_when": "When location expansion arises in the value-creation brainstorm.",
+   "expected_answer": "Assess revenue potential through demographics, proximity to schools and bars, local competition, late-night culture and franchise fees if relevant. Evaluate rent, utilities, state/city business taxes, and food/equipment transport costs. A strong answer identifies specific pizza demand drivers, such as college students and complementary nearby venues.",
+   "good_answer_signals": [
+    "Organizes around local revenue potential and costs.",
+    "Tailors site selection to DPP's customers and consumption occasions."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Fuqua Capital's general partners are on the line. What do you recommend?",
+   "expected_answer": "Proceed with a purchase at a maximum of approximately $20M, subject to diligence. Standalone value is $20.046M and synergies support about $26.546M of value before other growth initiatives. Locations, scaling and other value-creation ideas offer upside. Risks are that subscriptions fail to scale and larger competitors copy the model. Conduct competitive analysis and expert calls, validate synergy realization and identify attractive expansion cities.",
+   "good_answer_signals": [
+    "States a maximum purchase price rather than paying away all modeled upside.",
+    "Links growth risk to the subscription model and competitive differentiation."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "DPP operating inputs, 2020–2022",
+   "page": 88,
+   "kind": "table",
+   "description": "Subscription and shop-sales drivers plus annual COGS and SG&A. Contains inputs only, not the calculated revenue and EBITDA on the guidance page.",
+   "data": {
+    "columns": [
+     "Input",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "rows": [
+     [
+      "Subscribers",
+      10000,
+      15000,
+      22000
+     ],
+     [
+      "Subscription price ($/month)",
+      10,
+      10,
+      10
+     ],
+     [
+      "Locations",
+      20,
+      25,
+      25
+     ],
+     [
+      "Monthly orders per location",
+      2500,
+      3000,
+      4400
+     ],
+     [
+      "Average order ($)",
+      3,
+      3,
+      4
+     ],
+     [
+      "Annual COGS ($)",
+      1500000,
+      2250000,
+      3960000
+     ],
+     [
+      "Annual SG&A ($)",
+      600000,
+      900000,
+      1584000
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-dollar-pizza-parlor/p088.webp",
+   "key_insight": "Annualize both subscription and shop revenue before subtracting annual expenses, then average EBITDA across all three years.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are annual revenue and EBITDA in each year?",
+   "givens": [
+    "Subscribers 10000/15000/22000 at $10 monthly",
+    "Locations 20/25/25, monthly orders 2500/3000/4400, order value $3/$3/$4",
+    "Annual COGS $1.5M/$2.25M/$3.96M; SG&A $0.6M/$0.9M/$1.584M"
+   ],
+   "steps": [
+    "Monthly subscription revenue = subscribers × $10 = $100000/$150000/$220000.",
+    "Monthly shop revenue = locations × monthly orders × order value = $150000/$225000/$440000.",
+    "Annual revenue = 12 × combined monthly revenue = $3M/$4.5M/$7.92M.",
+    "EBITDA = revenue − COGS − SG&A = $0.9M/$1.35M/$2.376M."
+   ],
+   "answer": "2020/2021/2022 EBITDA is $0.9M/$1.35M/$2.376M.",
+   "answer_value": 2.376,
+   "unit": "USD millions (2022 EBITDA)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is standalone value at 13x three-year average EBITDA?",
+   "givens": [
+    "EBITDA $0.9M, $1.35M and $2.376M",
+    "13x multiple"
+   ],
+   "steps": [
+    "Average EBITDA = (0.9 + 1.35 + 2.376) / 3 = $1.542M.",
+    "Value = 1.542 × 13 = $20.046M."
+   ],
+   "answer": "$20.046M, approximately the book's $20M.",
+   "answer_value": 20.046,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is value including SG&A synergies?",
+   "givens": [
+    "Average EBITDA $1.542M",
+    "Annual average SG&A saving approximately $0.5M",
+    "13x multiple"
+   ],
+   "steps": [
+    "Synergy-adjusted EBITDA = 1.542 + 0.5 = $2.042M.",
+    "Value = 2.042 × 13 = $26.546M.",
+    "Incremental value = 0.5 × 13 = $6.5M."
+   ],
+   "answer": "$26.546M including synergies; the book's approximately $26M uses rounded $2M EBITDA.",
+   "answer_value": 26.546,
+   "unit": "USD millions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Buy DPP for no more than approximately $20M, subject to diligence. Historical earnings support $20.046M standalone value and the stated SG&A synergies increase modeled value to $26.546M. Expansion and scaling offer further upside. Validate whether subscriptions work in new markets and whether competitors can copy the proposition. Conduct expert calls and competitive analysis, validate synergies, and select cities with suitable demand and economics.",
+ "what_great_looks_like": [
+  "Proactively requests the valuation multiple and potential synergies.",
+  "Structures value creation beyond product additions.",
+  "Tailors expansion to college students, schools, bars and late-night demand."
+ ],
+ "common_pitfalls": [
+  "Subtracting annual costs from monthly revenue.",
+  "Using only 2022 EBITDA instead of the three-year average.",
+  "Paying the full synergy-inclusive value despite the book's $20M maximum recommendation.",
+  "Using the overview's current 55 shops to replace the historical exhibit's location counts."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Classified by the pizza target as restaurants/qsr rather than the broad Services / Private Equity label. The overview says 55 current shops while the historical exhibit ends at 25 in 2022; the date difference may explain this, but the book does not reconcile it. The recommendation calls the asking price favorable without independently specifying an asking price; the $20M is therefore a recommended maximum, not a stated seller quote. Exact synergy-inclusive value is $26.546M; the book explicitly rounds EBITDA to about $2M and value to about $26M, so this is not treated as an arithmetic error. Difficulty uses the higher of Medium (3) and Difficult (4), calculated in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls",
+   "stages[2].expected_answer (do not pay all synergy value to seller)"
+  ]
+ }
+}

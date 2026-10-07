@@ -1,0 +1,403 @@
+{
+ "id": "fuqua-2023-born-for-beauty",
+ "title": "Born for Beauty",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  18,
+  27
+ ],
+ "author": "Vann Vicente (Fuqua '24)",
+ "case_type": [
+  "Growth/Revenue",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Growth",
+ "industry": "beauty",
+ "sub_industry": "cosmetics",
+ "industry_source_label": "Retail",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain"
+ ],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Easy; Qualitative: Easy",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "growth-strategy",
+  "ecommerce",
+  "beauty",
+  "product-portfolio",
+  "competitive-benchmarking",
+  "product-launch"
+ ],
+ "concepts_tested": [
+  "competitive benchmarking",
+  "portfolio mix",
+  "structured brainstorming",
+  "revenue sizing"
+ ],
+ "prompt": "Your client is BFB, or Born for Beauty, a leading Korean beauty marketplace that sells Korean makeup, skincare, haircare, and fragrances. Its largest market is the United States, with additional sales in Latin America, Europe, and Australia. Despite being the US market leader, growth has slowed and BFB risks losing its position. CEO Sunny Jung asks how BFB should retain market leadership and increase sales over the next few years.",
+ "clarifying_info": [
+  {
+   "question_topic": "Channel and scope",
+   "answer": "BFB is primarily e-commerce with a handful of physical stores; this growth exercise focuses on the US."
+  },
+  {
+   "question_topic": "Business model and sourcing",
+   "answer": "BFB is a distributor rather than a manufacturer and sources 90% of products from Korea and 10% from Japan."
+  },
+  {
+   "question_topic": "Financial goal",
+   "answer": "Global annual revenue is $90M, growing 4%; management wants to double the growth rate."
+  }
+ ],
+ "interviewer_notes": "Use Exhibit 1 to identify BFB's product-range and shopper-experience gaps, then focus on the product range. Exhibit 2 should reveal an over-weighting to makeup and under-weighting to skincare relative to competitors and the market. After a product-selection brainstorm, read the three supplier options aloud and ask the candidate to size incremental sales against the $3.6M growth target.",
+ "suggested_framework": {
+  "summary": "Consider organic and inorganic growth while grounding choices in competitor, category, and consumer trends.",
+  "tree": {
+   "label": "Restore BFB growth",
+   "children": [
+    {
+     "label": "Organic growth",
+     "children": [
+      {
+       "label": "Expand range, private label, pricing, promotions, target demographics, platform, fulfillment, and service"
+      }
+     ]
+    },
+    {
+     "label": "Inorganic growth",
+     "children": [
+      {
+       "label": "Acquire smaller stores or brands; joint ventures with competitors, beauty brands, or media"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "K-beauty competitors, Sephora and social sellers; skincare/organic trends and media influence"
+      }
+     ]
+    },
+    {
+     "label": "Economics and execution",
+     "children": [
+      {
+       "label": "Revenue target, supplier terms, availability, launch timing, marketing, and risks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How should BFB approach improving growth?",
+   "info_to_release": "If not already requested after the framework: annual global revenue is $90M at 4% growth, and the goal is to double the growth rate.",
+   "expected_answer": "Assess organic levers such as product range, private label, pricing, marketing, channels, fulfillment, and service; inorganic levers such as acquisitions and joint ventures; and market factors including competitors, category trends, and consumer preferences. Prioritize options by incremental revenue, strategic fit, feasibility, and speed.",
+   "good_answer_signals": [
+    "Tailors ideas to a beauty marketplace",
+    "Includes both product and experience",
+    "Uses the $3.6M incremental-growth requirement"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the site-ratings survey suggest?",
+   "release_when": "Hand out Exhibit 1 after the framework.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "BFB leads on brand reputation and is competitive on quality and support, but trails on product range (3.8 versus 4.6 and 4.4) and shopper experience (4.0 versus Lovely X-Change's 4.4). Product range is its lowest rating and the clearest gap versus both competitors, so investigate portfolio mix first.",
+   "good_answer_signals": [
+    "Identifies both gaps",
+    "Prioritizes product range",
+    "Avoids focusing only on strengths"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "How does BFB's US product mix compare with competitors and the market?",
+   "release_when": "Provide Exhibit 2 once the candidate asks about product range.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "BFB's $80M US assortment is heavily weighted to makeup and has only about one-fifth skincare, while Lovely X-Change, Hallyu Depot, and other stores derive a majority of mix from skincare. Those competitors also grow faster—7%, 9%, and 8% CAGR versus BFB's 4%—supporting an expansion of skincare.",
+   "good_answer_signals": [
+    "Links mix to growth",
+    "Recognizes skincare is underrepresented",
+    "Recommends exploring added skincare products"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What factors should BFB use to choose skincare products?",
+   "expected_answer": "Evaluate formulation quality, effectiveness, allergens and skin-type fit, certifications such as non-GMO or cruelty-free, compatibility and bundling, brand recognition, and price. Operationally assess product availability, supplier breadth and shipping efficiency, shelf/space needs, expiry, cooling, and stockout risk.",
+   "good_answer_signals": [
+    "Structures product and operational factors",
+    "Includes skincare-specific concerns",
+    "Considers suppliers and availability"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Which supplier products should BFB add to meet its incremental revenue target?",
+   "info_to_release": "SM Cosmetics: 30 skincare products, 4,000 estimated yearly sales per product, $15 average price. YG Skin Co.: 15 products, 3,000 yearly sales each, $20 average price. JYP Care: 20 products, 1,500 yearly sales each, $40 average price. BFB revenue is $90M at 4% growth and wants to double that growth rate.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "The added annual revenue target is $90M x 4% = $3.6M. SM contributes 30 x 4,000 x $15 = $1.8M; YG contributes 15 x 3,000 x $20 = $0.9M; JYP contributes 20 x 1,500 x $40 = $1.2M. All three together generate $3.9M; no one- or two-supplier combination reaches $3.6M, so add all three.",
+   "good_answer_signals": [
+    "Derives $3.6M target",
+    "Calculates all three suppliers",
+    "Checks combinations rather than choosing only the largest"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Sunny Jung do?",
+   "expected_answer": "Add all three suppliers' skincare products. BFB's biggest competitive weakness is product range, and its portfolio is underweight skincare relative to faster-growing competitors. The launches are estimated to add $3.9M annually, exceeding the $3.6M incremental target. Validate demand and skin-type fit, negotiate availability, position the products on the digital storefront, and launch a focused marketing campaign; act quickly because forecasts may miss and competitors may move first.",
+   "good_answer_signals": [
+    "Answers first",
+    "Uses the $3.9M versus $3.6M comparison",
+    "Includes validation, positioning, and timing risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Site ratings",
+   "page": 21,
+   "kind": "bar",
+   "description": "Ratings from 1,000 qualified customers who purchased from all three marketplaces.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Born for Beauty",
+     "Lovely X-Change",
+     "Hallyu Depot"
+    ],
+    "rows": [
+     [
+      "Fulfillment",
+      4.1,
+      4.3,
+      3.5
+     ],
+     [
+      "Product quality",
+      4.6,
+      4.5,
+      4.6
+     ],
+     [
+      "Product range",
+      3.8,
+      4.6,
+      4.4
+     ],
+     [
+      "Customer support",
+      4.2,
+      3.7,
+      3.9
+     ],
+     [
+      "Shopper experience",
+      4.0,
+      4.4,
+      3.5
+     ],
+     [
+      "Brand reputation",
+      4.6,
+      4.3,
+      3.9
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-born-for-beauty/p021.webp",
+   "image_has_answers": false,
+   "key_insight": "Product range is BFB's lowest score and the only major area where both competitors outperform it.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Korean beauty product mix in the US",
+   "page": 23,
+   "kind": "bar",
+   "description": "Approximate product-category mix, US sales, and CAGR for BFB, two rivals, and other stores.",
+   "data": {
+    "columns": [
+     "Seller",
+     "US sales",
+     "CAGR",
+     "Skincare share",
+     "Portfolio observation"
+    ],
+    "rows": [
+     [
+      "Born for Beauty",
+      "$80M",
+      "4%",
+      "approximately 19%",
+      "Makeup-heavy"
+     ],
+     [
+      "Lovely X-Change",
+      "$57M",
+      "7%",
+      "approximately 61%",
+      "Skincare-majority"
+     ],
+     [
+      "Hallyu Depot",
+      "$52M",
+      "9%",
+      "approximately 56%",
+      "Skincare-majority"
+     ],
+     [
+      "Other stores",
+      "$111M",
+      "8%",
+      "approximately 63%",
+      "Skincare-majority"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-born-for-beauty/p023.webp",
+   "image_has_answers": false,
+   "key_insight": "BFB has the smallest skincare mix and slowest growth among the displayed groups.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Skincare supplier launch options",
+   "page": 26,
+   "kind": "table",
+   "description": "Product counts, estimated sales per product, and average prices read aloud to the candidate.",
+   "data": {
+    "columns": [
+     "Company",
+     "Skincare products",
+     "Estimated yearly sales per product",
+     "Average price"
+    ],
+    "rows": [
+     [
+      "SM Cosmetics",
+      30,
+      4000,
+      "$15"
+     ],
+     [
+      "YG Skin Co.",
+      15,
+      3000,
+      "$20"
+     ],
+     [
+      "JYP Care",
+      20,
+      1500,
+      "$40"
+     ]
+    ]
+   },
+   "key_insight": "Only the combined launch of all three suppliers clears the incremental revenue target.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What incremental annual revenue is needed to double growth?",
+   "givens": [
+    "$90M annual revenue",
+    "Current growth 4%",
+    "Target growth 8%"
+   ],
+   "steps": [
+    "Incremental growth needed=8%-4%=4%",
+    "$90Mx4%=$3.6M"
+   ],
+   "answer": "$3.6M incremental annual revenue",
+   "answer_value": 3.6,
+   "unit": "USD millions per year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much revenue would each supplier add, and which combination reaches the target?",
+   "givens": [
+    "SM: 30x4,000x$15",
+    "YG: 15x3,000x$20",
+    "JYP: 20x1,500x$40"
+   ],
+   "steps": [
+    "SM=$1.8M",
+    "YG=$0.9M",
+    "JYP=$1.2M",
+    "Total=$3.9M",
+    "Largest two-supplier combination is $3.0M, below $3.6M"
+   ],
+   "answer": "Add all three for $3.9M annual sales",
+   "answer_value": 3.9,
+   "unit": "USD millions per year",
+   "verified": true
+  }
+ ],
+ "synthesis": "BFB should add all three suppliers' skincare lines. Product range is its clearest competitive weakness, and its portfolio is markedly underweight skincare versus faster-growing competitors. The combined launches add an estimated $3.9M annually, above the $3.6M incremental-growth target. Validate demand and skin compatibility, secure supply, optimize digital placement, and market the expanded range quickly.",
+ "what_great_looks_like": [
+  "Prioritizes the most consequential rating gap",
+  "Connects portfolio mix with competitor growth",
+  "Structures skincare product-selection criteria",
+  "Checks all supplier combinations",
+  "Recommends a practical launch plan"
+ ],
+ "common_pitfalls": [
+  "Focusing only on shopper experience",
+  "Assuming BFB should manufacture products",
+  "Confusing total target growth with incremental growth",
+  "Choosing only SM because it has the largest revenue",
+  "Ignoring supplier availability and skin compatibility"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[1].data category shares are approximate because the stacked chart does not label percentages."
+  ],
+  "math_verified": true,
+  "notes": "Deduplication verdict was NEW. All revenue calculations were independently recomputed and match the book. Exhibit 2 category shares are visually estimated from unlabeled stack boundaries; the printed sales totals and CAGRs are exact. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry/sub_industry mapping",
+   "format",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

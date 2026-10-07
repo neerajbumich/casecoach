@@ -1,0 +1,315 @@
+{
+ "id": "wharton-2005-s-software",
+ "title": "S Software",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  35,
+  37
+ ],
+ "variant_group_id": "s-software",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Market Entry",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "two-fold offshoring and market-entry question",
+ "industry": "tech-saas",
+ "sub_industry": "it-services",
+ "industry_source_label": "US software engineering/design company",
+ "geography": "US / India",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "BCG, 2nd Round"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "offshoring",
+  "market-entry",
+  "india",
+  "cost-arbitrage",
+  "competitive-advantage",
+  "customer-segmentation",
+  "internationalization"
+ ],
+ "concepts_tested": [
+  "scoping a two-part strategic question",
+  "cost-arbitrage vs. market-access motives for offshoring",
+  "comparative competitive-advantage analysis (incumbent vs. local players)",
+  "linking customer trends to strategic timing"
+ ],
+ "prompt": "An US software company wants to offshore its engineering/designing unit to India, as well as to penetrate into the India software engineering market. Should they do it?",
+ "clarifying_info": [
+  {
+   "question_topic": "Market share",
+   "answer": "The company is the industry leader in the US, with close followers chasing behind."
+  },
+  {
+   "question_topic": "Profitability",
+   "answer": "Declining, for an unknown reason — increasing labor costs is a reasonable assumption."
+  },
+  {
+   "question_topic": "Capability",
+   "answer": "Strong engineering department in the US."
+  },
+  {
+   "question_topic": "Cost",
+   "answer": "R&D is the major cost; Indian engineers are estimated to cost about 1/4 of US engineers with the same technical capability."
+  },
+  {
+   "question_topic": "Customer",
+   "answer": "Strong existing customer base in the US. Customers care about quality of service but are also increasingly considering lowering cost in the long run."
+  },
+  {
+   "question_topic": "Customer segmentation",
+   "answer": "Most clients are medium-to-large US companies. The most profitable clients are large companies in developed countries, where S Software already has a strong base. S Software has no international presence yet."
+  },
+  {
+   "question_topic": "US competition",
+   "answer": "Key US competitors are all offshoring in order to lower costs."
+  },
+  {
+   "question_topic": "International competition",
+   "answer": "The international market is growing much faster than the more mature, stable US market. Key competitors are aggressively expanding their international business. India is one of the fastest-growing international markets and also the one with the largest market size."
+  }
+ ],
+ "interviewer_notes": "The interview style is pleasant but reserved — the candidate must draw out all information by asking appropriate questions. Since this is a two-fold question (offshore R&D? enter the India market?), a strong candidate will begin by laying out a clear scope relating the two decisions before gathering information. A strong candidate should also proactively follow up with questions about customer segmentation, and should ultimately compare the competitive advantages of large US off-shoring companies versus local Indian players.",
+ "suggested_framework": {
+  "summary": "Scope the two-fold decision (offshore R&D to India? enter the India market?) using a 2x2 on whether offshoring is critical to accessing the local market and whether offshoring has other significant benefits, then evaluate cost, customer, and competitive evidence to reach a combined recommendation.",
+  "tree": {
+   "label": "Should S Software offshore to India and enter the India market?",
+   "children": [
+    {
+     "label": "Scoping matrix",
+     "children": [
+      {
+       "label": "Offshoring critical to access local market = Yes, other offshoring benefits significant → Definitely offshore, evaluate India market independently"
+      },
+      {
+       "label": "Offshoring critical = Yes, other benefits minor → Offshore, evaluate India market independently (market, customer, competition)"
+      },
+      {
+       "label": "Offshoring critical = No, other benefits significant → Offshore but also find other critical factors to enter India"
+      },
+      {
+       "label": "Offshoring critical = No, other benefits minor → Stay in current market and strengthen competitiveness"
+      }
+     ]
+    },
+    {
+     "label": "Company situation",
+     "children": [
+      {
+       "label": "Market share & profitability"
+      },
+      {
+       "label": "Capability"
+      },
+      {
+       "label": "Cost structure"
+      }
+     ]
+    },
+    {
+     "label": "Customer",
+     "children": [
+      {
+       "label": "Existing base & segmentation"
+      },
+      {
+       "label": "Evolving cost sensitivity"
+      }
+     ]
+    },
+    {
+     "label": "Competition",
+     "children": [
+      {
+       "label": "US competitors offshoring"
+      },
+      {
+       "label": "International market growth & India's position"
+      }
+     ]
+    },
+    {
+     "label": "Competitive advantage comparison",
+     "children": [
+      {
+       "label": "US companies' strengths"
+      },
+      {
+       "label": "Indian players' strengths"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "An US software company wants to offshore its engineering/design unit to India, and also to penetrate the India software engineering market. Should they do it?",
+   "expected_answer": "Candidate recognizes this is a two-fold question and lays out a clear scope for how the two decisions relate — e.g., whether offshoring is critical to accessing the local Indian market, and whether offshoring offers other significant benefits (cost) — before gathering company, customer, and competitive information.",
+   "good_answer_signals": [
+    "Explicitly separates the offshoring decision from the market-entry decision",
+    "Proposes a framework connecting the two before requesting data"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "clarify",
+   "interviewer_asks": "Tell me about the company's market position, profitability, capability, and cost structure.",
+   "release_when": "Only as the candidate asks",
+   "info_to_release": "Industry leader in the US with close followers; declining profitability (increasing labor cost a reasonable assumption); strong US engineering department; R&D is the major cost, and Indian engineers cost about 1/4 of US engineers at comparable technical capability.",
+   "expected_answer": "Candidate identifies that declining profitability plus a large labor-cost gap (Indian engineers ~1/4 the cost) makes offshoring R&D an attractive lever, while noting the company's engineering strength is an asset to protect.",
+   "good_answer_signals": [
+    "Connects the profitability decline to the labor cost data",
+    "Recognizes the ~4x cost differential as a meaningful lever, not just a minor detail"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "clarify",
+   "interviewer_asks": "What do you know about the customer base, and how might it be segmented?",
+   "release_when": "Only as the candidate asks; a strong candidate proactively asks about segmentation",
+   "info_to_release": "Strong existing US customer base; customers value quality but are increasingly cost-conscious long-term. Most clients are medium-to-large US companies; the most profitable clients are large companies in developed countries where S Software already has a strong base; S Software has no international presence yet.",
+   "expected_answer": "Candidate proactively probes customer segmentation and notes that even loyal, quality-focused customers are trending toward cost sensitivity — meaning offshoring R&D could help retain the current base, while the lack of international presence is a gap relative to growth markets.",
+   "good_answer_signals": [
+    "Proactively asks a follow-up question about customer segmentation without prompting",
+    "Connects customers' emerging cost sensitivity to the case for offshoring"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "What's happening competitively, both in the US and internationally?",
+   "info_to_release": "Key US competitors are all offshoring to lower costs. The international market is growing much faster than the mature, stable US market; key competitors are expanding internationally aggressively; India is one of the fastest-growing international markets and has the largest market size among them.",
+   "expected_answer": "Candidate concludes that entering the international market, especially India, is critical both to meet customers' emerging cost-saving needs (via offshored R&D) and to capture future growth, since competitors are already moving in this direction on both fronts.",
+   "good_answer_signals": [
+    "Ties together the offshoring and market-entry threads into one strategic imperative",
+    "Notes competitors are already acting on both fronts, raising urgency"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "How would you compare the competitive advantages of large US off-shoring companies versus local Indian players?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate lays out that US companies (like S Software) have the edge on customization, service quality, and access to the most profitable (developed-market) clients, while Indian players have the edge on cost, local market knowledge, and local client/government/supply-chain relationships; legal risk is low for both.",
+   "good_answer_signals": [
+    "Correctly attributes each advantage to the right side (US vs. Indian players)",
+    "Uses the comparison to inform how S Software should enter (e.g., partner/hire locally to fill gaps) rather than just listing facts"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "So, should S Software offshore to India and enter the India market?",
+   "expected_answer": "Yes. Even loyal current customers will eventually look for cheaper alternatives, so S Software should offshore R&D to India while keeping its US customer service team to preserve service quality. Developed-market clients are more profitable today, but their market growth is limited, whereas India's market is large and fast-growing, so even a modest share there can be very profitable. S Software's lack of local Indian market knowledge can be offset by its strong CRM skills, large existing customer base, and deep understanding of customer needs, plus hiring local talent or partnering with local companies. Legal and political risk in India can be considered low.",
+   "good_answer_signals": [
+    "Gives a clear 'yes' recommendation",
+    "Integrates the offshoring rationale, the India growth rationale, and a mitigation plan for S Software's local-knowledge gap into one coherent answer",
+    "Notes legal/political risk is low, removing a common objection"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "US companies vs. Indian players: competitive advantage comparison",
+   "page": 36,
+   "kind": "table",
+   "description": "Compares where large US off-shoring software companies hold an advantage versus where local Indian players hold an advantage, across seven factors.",
+   "data": {
+    "columns": [
+     "Factor",
+     "US companies",
+     "Indian players"
+    ],
+    "rows": [
+     [
+      "Ability to fulfill customized needs",
+      "Yes",
+      ""
+     ],
+     [
+      "High quality services",
+      "Yes",
+      ""
+     ],
+     [
+      "Access to most profitable clients",
+      "Yes",
+      ""
+     ],
+     [
+      "Cost advantage",
+      "",
+      "Yes"
+     ],
+     [
+      "Local market knowledge",
+      "",
+      "Yes"
+     ],
+     [
+      "Local client / government / supply chain relationships",
+      "",
+      "Yes"
+     ],
+     [
+      "Low legal risks",
+      "Yes",
+      "Yes"
+     ]
+    ]
+   },
+   "key_insight": "US incumbents like S Software win on customization, quality, and access to the most profitable clients, while Indian players win on cost and local knowledge/relationships — implying S Software's best path is to combine its own strengths with local hiring or partnerships rather than compete head-on with Indian players on their home turf.",
+   "data_confidence": "high",
+   "image_path": "exhibits/wharton-2005-s-software/p036.webp",
+   "image_has_answers": true
+  }
+ ],
+ "math": [],
+ "synthesis": "Yes, S Software should both offshore its engineering/design work to India and enter the India market. Offshoring R&D to India (at roughly 1/4 the cost of US engineers) addresses the company's declining profitability and gets ahead of customers' emerging cost sensitivity, while keeping US-based customer service preserves the service quality current clients value. Separately, India's software market is large and among the fastest-growing internationally, offering substantial upside even from a modest share — more attractive than the US's mature, slower-growing market. S Software's lack of local market knowledge can be mitigated by leveraging its strong CRM capabilities and large existing customer base, and by hiring local talent or partnering with local firms; legal and political risk in India is low, removing a major objection to entry.",
+ "what_great_looks_like": [
+  "Explicitly separates and then re-links the two decisions (offshore R&D? enter India market?) rather than treating them as one question",
+  "Proactively asks about customer segmentation without being prompted",
+  "Connects the cost-arbitrage rationale (offshoring) to the market-growth rationale (India entry) into a single coherent strategic story",
+  "Uses the US-vs-Indian competitive advantage comparison to propose a concrete entry approach (e.g., local hiring/partnership) rather than just reciting the facts",
+  "Reaches a clear 'yes' recommendation that addresses the obvious objection (lack of local market knowledge)"
+ ],
+ "common_pitfalls": [
+  "Treats offshoring and India market entry as two unrelated questions instead of connecting them",
+  "Fails to ask about customer segmentation, missing the insight that the most profitable clients are in slow-growing developed markets",
+  "Recommends entry without addressing how S Software's lack of local Indian knowledge would be mitigated",
+  "Ignores that key competitors are already offshoring and expanding internationally, which raises the urgency/risk of inaction"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "This case has no numeric calculations for the candidate to perform (the 1/4 cost ratio is given, not derived), so math is empty, consistent with a qualitative BCG-style case. The book's own 2x2 scoping matrix (offshoring-critical-to-market-access x other-offshoring-benefits) is reproduced in suggested_framework.tree rather than as a data exhibit, since it functions as the interviewer's analytical framework rather than information released to the candidate. Page 37 (rendered as p037.png) contains only continuation text of the conclusion bullets already captured verbatim in the synthesis/stage 6 content — no chart or diagram. Exhibit image audit 2026-09-28: pages that also show interviewer notes are flagged image_has_answers.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "geography"
+  ]
+ }
+}

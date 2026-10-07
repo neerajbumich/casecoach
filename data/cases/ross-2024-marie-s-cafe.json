@@ -1,0 +1,370 @@
+{
+ "id": "ross-2024-marie-s-cafe",
+ "title": "Marie's Café",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  166,
+  176
+ ],
+ "case_type": [
+  "Profitability"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "restaurants",
+ "sub_industry": "coffee-cafes",
+ "industry_source_label": "Food",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "BCG-style"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 2, Qual - 3, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "profitability",
+  "product-mix",
+  "capacity",
+  "staffing",
+  "process-improvement",
+  "payback",
+  "coffee-shop"
+ ],
+ "concepts_tested": [
+  "weighted unit profit",
+  "hourly capacity",
+  "labor scheduling",
+  "equipment payback",
+  "product diversification"
+ ],
+ "prompt": "Marie's Café is a small local coffee shop that has operated for decades and is known for high-quality drinks and a cozy atmosphere. Profits have declined over the last few quarters, and the owner has hired you to increase them.",
+ "clarifying_info": [
+  {
+   "question_topic": "Competition",
+   "answer": "Two nearby coffee shops sell coffee and pastries; no further competitor information is available."
+  },
+  {
+   "question_topic": "Menu",
+   "answer": "Marie's sells coffee and lattes in 8-, 12-, and 16-ounce sizes."
+  }
+ ],
+ "interviewer_notes": "This interviewer-led BCG-style case uses internal and external profitability levers. Strong candidates compare product profits, optimize barista staffing by time of day, consider food diversification and process efficiency, and evaluate a faster espresso machine. Use the rounded $1.50 average beverage profit per customer in subsequent book calculations.",
+ "suggested_framework": {
+  "summary": "Book framework covering external market and competition and internal customer, process, capacity, product, price, and brand levers.",
+  "tree": {
+   "label": "Marie's profit improvement",
+   "children": [
+    {
+     "label": "External factors",
+     "children": [
+      {
+       "label": "Market growth and preferences"
+      },
+      {
+       "label": "Coffee-shop and substitute competition"
+      }
+     ]
+    },
+    {
+     "label": "Company operations",
+     "children": [
+      {
+       "label": "Foot traffic"
+      },
+      {
+       "label": "Order time and labor efficiency"
+      },
+      {
+       "label": "Cafe capacity"
+      }
+     ]
+    },
+    {
+     "label": "Product and customer offer",
+     "children": [
+      {
+       "label": "Mix, size, and price sensitivity"
+      },
+      {
+       "label": "Food and complementary services"
+      },
+      {
+       "label": "Quality and brand image"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you identify ways to increase Marie's profits?",
+   "expected_answer": "Examine external demand and competitors plus internal traffic, pricing and product mix, unit economics, labor and service capacity, diversification, and brand implications.",
+   "good_answer_signals": [
+    "Covers revenue and operational efficiency",
+    "Includes product mix and capacity",
+    "Considers competition and brand"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How much beverage profit does Marie's earn per customer?",
+   "release_when": "Show Exhibit 1 when the candidate asks about prices or costs.",
+   "info_to_release": "Each customer buys one drink. Prices and purchase shares: 8/12/16 oz coffee $1/$1.50/$2 at 15% each; 8/12/16 oz latte $3/$4/$5 at 20%/20%/15%. Cup costs are $0.30/$0.40/$0.50; each 4 oz coffee costs $0.10 and each 4 oz latte costs $0.50. Food and packaging costs are separate.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Unit profits are $0.50, $0.80, and $1.10 for coffee and $1.70, $2.10, and $2.50 for lattes. Purchase-share weighting gives $1.495, rounded to $1.50 profit per customer. Larger sizes yield more gross profit, supporting upselling, a 20-ounce size, or removing 8-ounce sizes.",
+   "good_answer_signals": [
+    "Builds ingredient costs by ounces",
+    "Weights by purchase share",
+    "Draws the larger-size insight"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What is current daily profit, and how should staffing change by time of day?",
+   "release_when": "Show Exhibit 2 and provide operating assumptions after unit profit is calculated.",
+   "info_to_release": "Demand per hour for five three-hour blocks is 100, 80, 60, 40, and 15 from 7am-10pm. Two baristas work at all times, earn $15/hour, and each order takes two minutes. Customers leave if not served quickly. The cafe operates Monday-Friday.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Each barista serves 30 customers/hour, so two serve at most 60. Current customers served per hour are 60, 60, 60, 40, and 15: 705 per day. At $1.50 contribution, gross profit is $1,057.50; labor is $450; daily profit is $607.50. Optimal staffing is 4, 3, 2, 2, and 1 baristas by block, serving all 885 customers with $540 labor and $787.50 profit. Evening hours lose money under the two-barista schedule.",
+   "good_answer_signals": [
+    "Applies capacity before demand",
+    "Calculates labor by hours",
+    "Varies staffing by demand rather than using a flat level"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What should Marie consider before buying an oven and adding pastries?",
+   "expected_answer": "Assess pastry demand and coffee cross-selling; oven, maintenance, display, storage and advertising costs; ingredients and staff training; physical and labor capacity; quality and brand impact; competitor price and quality; and the alternative of sourcing pastries from a wholesaler.",
+   "good_answer_signals": [
+    "Covers revenue, fixed and variable costs",
+    "Includes capacity and brand",
+    "Considers wholesale instead of making pastries"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "A $2,000 espresso machine reduces average order time from two minutes to 90 seconds. How quickly does it pay back?",
+   "info_to_release": "Use optimal staffing and the same demand and $1.50 contribution per customer.",
+   "expected_answer": "At 90 seconds, each barista serves 40/hour. Staffing can be 3, 2, 2, 1, and 1 across the blocks while serving all demand. Labor falls to $405 and daily profit becomes $922.50, $135 above the $787.50 optimized baseline. Payback is $2,000÷$135 = 14.8 operating days.",
+   "good_answer_signals": [
+    "Recomputes per-barista capacity",
+    "Optimizes staff in each block",
+    "Uses incremental profit for payback"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation?",
+   "expected_answer": "Increase larger-size sales, align staffing with hourly demand, and buy the faster espresso machine because it pays back in 14.8 days. Explore food through wholesale sourcing before buying an oven, and consider complementary services such as Wi-Fi carefully because longer stays may consume capacity. Risks include brand dilution, pastry quality, and service bottlenecks.",
+   "good_answer_signals": [
+    "Combines product, staffing, and process levers",
+    "Quantifies daily profit and payback",
+    "Flags capacity and brand risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Products, Costs, and Customer Splits",
+   "page": 170,
+   "kind": "table",
+   "description": "Candidate-facing prices, purchase shares, cup costs, and ingredient costs for six beverages.",
+   "data": {
+    "columns": [
+     "Product",
+     "Price",
+     "Purchase share"
+    ],
+    "rows": [
+     [
+      "Coffee 8 oz",
+      "$1.00",
+      "15%"
+     ],
+     [
+      "Coffee 12 oz",
+      "$1.50",
+      "15%"
+     ],
+     [
+      "Coffee 16 oz",
+      "$2.00",
+      "15%"
+     ],
+     [
+      "Latte 8 oz",
+      "$3.00",
+      "20%"
+     ],
+     [
+      "Latte 12 oz",
+      "$4.00",
+      "20%"
+     ],
+     [
+      "Latte 16 oz",
+      "$5.00",
+      "15%"
+     ],
+     [
+      "Cup costs",
+      "$0.30 / $0.40 / $0.50",
+      "8 / 12 / 16 oz"
+     ],
+     [
+      "Ingredient cost",
+      "$0.10 coffee; $0.50 latte",
+      "per 4 oz"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-marie-s-cafe/p170.webp",
+   "key_insight": "Larger beverages produce greater absolute contribution per transaction.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Demand of Coffee per Hour",
+   "page": 172,
+   "kind": "table",
+   "description": "Average hourly demand in five three-hour operating blocks.",
+   "data": {
+    "columns": [
+     "Time",
+     "Average demand per hour"
+    ],
+    "rows": [
+     [
+      "7AM-10AM",
+      100
+     ],
+     [
+      "10AM-1PM",
+      80
+     ],
+     [
+      "1PM-4PM",
+      60
+     ],
+     [
+      "4PM-7PM",
+      40
+     ],
+     [
+      "7PM-10PM",
+      15
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-marie-s-cafe/p172.webp",
+   "key_insight": "Flat two-barista staffing loses peak demand and is excessive in the evening.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is weighted beverage profit per customer?",
+   "givens": [
+    "Unit profits $0.50, $0.80, $1.10, $1.70, $2.10, $2.50",
+    "Shares 15%, 15%, 15%, 20%, 20%, 15%"
+   ],
+   "steps": [
+    "Weighted profit = .15×.50 + .15×.80 + .15×1.10 + .20×1.70 + .20×2.10 + .15×2.50 = $1.495",
+    "Round to $1.50 as the book does"
+   ],
+   "answer": "$1.50 per customer",
+   "answer_value": 1.5,
+   "unit": "USD/customer",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are current and staffing-optimized daily profit?",
+   "givens": [
+    "Demand 100/80/60/40/15 per hour",
+    "Three hours per block",
+    "Two-minute orders",
+    "$15/hour labor",
+    "$1.50 contribution"
+   ],
+   "steps": [
+    "Two baristas serve 60/hour; daily served = 3×(60+60+60+40+15)=705",
+    "Current profit = 705×$1.50 - 2×15×$15 = $607.50",
+    "Optimal baristas = 4/3/2/2/1; all 885 demand served",
+    "Optimized profit = 885×$1.50 - 12 barista-blocks×3×$15 = $787.50"
+   ],
+   "answer": "$607.50 current and $787.50 staffing-optimized daily profit",
+   "answer_value": 787.5,
+   "unit": "USD/day",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is espresso-machine payback?",
+   "givens": [
+    "Machine $2,000",
+    "90-second orders",
+    "Optimized baseline $787.50/day"
+   ],
+   "steps": [
+    "Capacity becomes 40 orders per barista-hour",
+    "Staffing 3/2/2/1/1 serves all demand; labor = 9×3×$15 = $405",
+    "New profit = 885×$1.50-$405 = $922.50",
+    "Incremental profit = $135/day",
+    "Payback = $2,000÷$135 = 14.81 days"
+   ],
+   "answer": "14.8 operating days",
+   "answer_value": 14.8148,
+   "unit": "days",
+   "verified": true
+  }
+ ],
+ "synthesis": "Marie should raise contribution through larger drink sizes, replace flat staffing with demand-based staffing, and buy the $2,000 faster espresso machine. Demand-based staffing raises daily profit from $607.50 to $787.50; the machine raises it further to $922.50 and pays back in 14.8 operating days. Marie should test pastries, preferably through a wholesaler before committing to an oven, while protecting drink quality, brand and seating capacity.",
+ "what_great_looks_like": [
+  "Calculates weighted profit by product",
+  "Models service capacity and lost demand",
+  "Optimizes staffing by time block",
+  "Uses incremental profit for equipment payback",
+  "Balances diversification with brand and capacity"
+ ],
+ "common_pitfalls": [
+  "Uses demand rather than served customers",
+  "Omits labor cost",
+  "Keeps two baristas all day",
+  "Uses total machine-era profit rather than incremental profit for payback"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The exact weighted beverage contribution is $1.495; the book rounds to $1.50 before all daily calculations, which reproduces its answers. Candidate-facing exhibit pages 170 and 172 are used; guidance/solution pages are excluded. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,359 @@
+{
+ "id": "kellogg-2024-winter-olympics-bidding",
+ "title": "Winter Olympics Bidding",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  391,
+  398
+ ],
+ "author": "Chris Dupre (Kellogg 2003); edited by Uri Kalir (Kellogg 2012), Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Y06 Opportunity assessment",
+ "industry": "media-streaming",
+ "sub_industry": "sports-media",
+ "industry_source_label": "X05 Entertainment & Media",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "npv",
+  "bid-valuation",
+  "advertising-revenue",
+  "opportunity-cost",
+  "time-value-of-money",
+  "intangibles",
+  "media-rights"
+ ],
+ "concepts_tested": [
+  "Net Present Value",
+  "Creativity"
+ ],
+ "fit_question": "Why do you want to join our consultancy in particular?",
+ "prompt": "Our client, a major US television network, is trying to figure out how much to bid for the exclusive right to broadcast the Winter Olympics Games in four years' time. The Winter Olympics are a huge deal and will require a significant amount of capital to secure the rights, so our client has brought us in to help them figure out the right bid amount after considering all relevant factors.",
+ "clarifying_info": [
+  {
+   "question_topic": "Revenues",
+   "answer": "No subscription revenue, but the network keeps 100% of advertising revenue. Ad rates are $400k per 30-second ad in prime time (weekdays 1900-2300, and all weekend hours) and $200k per 30-second ad in non-prime time. Market research shows no more than 10 minutes of advertising can be included per broadcast hour."
+  },
+  {
+   "question_topic": "Costs",
+   "answer": "$482M of total production costs. Opportunity cost of airtime is $1M/hour. Time value of money: there is a 4-year lag between the bid now and receipt of revenue when the Games air."
+  }
+ ],
+ "interviewer_notes": "Very quantitative case requiring the candidate to run the numbers on an Olympics broadcast bid -- estimating ad revenue and costs, then NPV, to size the bid. The candidate must proactively ask for the information needed rather than waiting for the interviewer to volunteer it; nudge less finance-minded candidates through the math. Problem-solving steps: (1) develop a structure, (2) calculate NPV, (3) brainstorm intangible benefits and risks, (4) provide a client recommendation.",
+ "suggested_framework": {
+  "summary": "Cost-benefit / NPV framework: size ad revenue from the broadcast schedule, net out the three cost categories, discount to present value, then layer in intangible benefits and risks before recommending a bid.",
+  "tree": {
+   "label": "How much should we bid?",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Advertising revenue (prime vs. non-prime, ad minutes/hour)"
+      },
+      {
+       "label": "Other (product placements, etc.)"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Production costs"
+      },
+      {
+       "label": "Opportunity cost of airtime"
+      },
+      {
+       "label": "Time value of money (discount to present)"
+      }
+     ]
+    },
+    {
+     "label": "Intangibles",
+     "children": [
+      {
+       "label": "New viewers / audience growth"
+      },
+      {
+       "label": "Prestige"
+      },
+      {
+       "label": "Cross-promotion of other programming"
+      },
+      {
+       "label": "Product tie-ins / supplemental revenue"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you think about how much our client should bid for the Winter Olympics broadcast rights?",
+   "release_when": "Provide Exhibit A if the interviewee asks for the TV schedule or identifies ad revenue as part of their structure.",
+   "info_to_release": "Exhibit A: the 16-day Winter Olympics broadcast schedule (opening ceremony, 14 days of main events split between weekday and weekend programming, closing ceremony), showing which events air in which hour blocks.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate should identify this as a cost-benefit / NPV analysis: lay out potential revenue streams from hosting (ad revenue, product placements, etc.), and identify the three cost categories to net against revenue -- production costs, opportunity cost of the airtime, and time value of money (since revenue arrives 4 years after the bid is paid). The interviewer should be ready to nudge the candidate through the harder numbers/assumptions.",
+   "good_answer_signals": [
+    "Explicitly frames this as an NPV / cost-benefit problem, not just a revenue estimate",
+    "Identifies all three cost categories (production, opportunity cost, time value of money) rather than only production cost",
+    "Uses the broadcast schedule to structure how ad revenue will be estimated (prime vs. non-prime hours)"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Calculate the NPV of bidding for and broadcasting the Winter Olympics.",
+   "info_to_release": "Revenues: $400k/ad in prime time (M-F 7-11pm and all weekend), $200k/ad in non-prime time, 10 minutes of ads per hour. Costs: $482M production costs, $1M/hour opportunity cost, WACC 10%.",
+   "expected_answer": "Total ad revenue is ~$928M (see math step m1). Subtracting $482M in production costs and $146M in opportunity cost of airtime gives ~$300M in profit. Discounting that back 4 years at a 10% WACC (1.10^4 = 1.4641, rounded to 1.5) gives an NPV of ~$200M (see math step m2).",
+   "good_answer_signals": [
+    "Breaks ad revenue into the correct hour blocks (weekday prime/non-prime, weekend, opening/closing) rather than using one blended rate",
+    "Correctly nets out both production costs and opportunity cost before discounting",
+    "Applies the 4-year discount factor to get from profit to NPV"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "Beyond the NPV figure, what intangible benefits and risks should we consider?",
+   "release_when": "After finishing the intangibles discussion, ask the candidate for a recommendation.",
+   "expected_answer": "Candidate should raise: gaining access to new viewers, the prestige of hosting the event, the ability to use airtime to cross-promote other network programming, and opportunities for product tie-ins / supplemental revenue streams beyond straight ad sales.",
+   "good_answer_signals": [
+    "Generates multiple distinct intangible benefits, not just one",
+    "Connects at least one intangible back to a plausible dollar or strategic value (e.g., cross-promotion driving other-show viewership)"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What bid amount would you recommend, and why?",
+   "expected_answer": "The NPV of the project is ~$200M. Given the intangible benefits identified (new viewers, cross-promotion, prestige) are difficult to value precisely and roughly balance against the risks, most reasonable recommendations land at or near the $200M NPV figure. There is no single correct number; if a candidate's bid deviates meaningfully from $200M, they should provide in-depth justification and a concrete argument for the adjustment (e.g., valuing the intangibles explicitly, or factoring in competitive bidding dynamics/game theory for how rivals might bid).",
+   "good_answer_signals": [
+    "Anchors the recommendation to the $200M NPV rather than picking an arbitrary number",
+    "If deviating from $200M, gives a specific, well-reasoned justification rather than a vague gut call",
+    "Shows awareness that the actual winning bid may also depend on competitive dynamics beyond pure NPV"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Winter Olympics Schedule",
+   "page": 394,
+   "kind": "table",
+   "description": "16-day Olympics broadcast schedule by hour block: Day 1 (Friday) is the Opening Ceremony, Days 2-15 are main events split into weekday and weekend columns (events like Biathlon, Bobsleigh, Skating, Skiing, Curling, Ice Hockey, Luge across roughly 0900-2300), and Day 16 (Saturday) is the Closing Ceremony.",
+   "key_insight": "Weekday broadcasting runs roughly 0900-2300 (with 1900-2300 as prime time), while weekend broadcasting runs prime-time hours throughout; this hour breakdown by day-type is what the ad-revenue calculation in Part 2 is built on (10 weekdays, 4 weekend days, plus 2 ceremony days).",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-winter-olympics-bidding/p394.webp",
+   "data": {
+    "columns": [
+     "Time",
+     "Day 1 (Fri, Opening Ceremony)",
+     "Days 2-15 Weekday",
+     "Days 2-15 Weekend",
+     "Day 16 (Sat, Closing Ceremony)"
+    ],
+    "rows": [
+     [
+      "0800-0900",
+      "",
+      "",
+      "",
+      ""
+     ],
+     [
+      "0900-1000",
+      "",
+      "Biathlon",
+      "",
+      ""
+     ],
+     [
+      "1000-1100",
+      "",
+      "Bobsleigh",
+      "",
+      ""
+     ],
+     [
+      "1100-1200",
+      "",
+      "Skating / Skiing",
+      "Biathlon",
+      ""
+     ],
+     [
+      "1200-1300",
+      "",
+      "",
+      "Skiing",
+      ""
+     ],
+     [
+      "1300-1400",
+      "",
+      "",
+      "Skating",
+      ""
+     ],
+     [
+      "1400-1500",
+      "",
+      "Curling",
+      "Bobsleigh",
+      ""
+     ],
+     [
+      "1500-1600",
+      "",
+      "Ice Hockey",
+      "Skating",
+      ""
+     ],
+     [
+      "1600-1700",
+      "",
+      "Luge",
+      "Skiing",
+      ""
+     ],
+     [
+      "1700-1800",
+      "",
+      "",
+      "Ice Hockey",
+      ""
+     ],
+     [
+      "1800-1900",
+      "",
+      "",
+      "Skiing",
+      ""
+     ],
+     [
+      "1900-2000",
+      "",
+      "Skating",
+      "Luge",
+      ""
+     ],
+     [
+      "2000-2100",
+      "Opening commentary",
+      "Luge",
+      "Skiing",
+      "Closing commentary"
+     ],
+     [
+      "2100-2200",
+      "Opening ceremony",
+      "Skiing",
+      "",
+      "Closing speeches"
+     ],
+     [
+      "2200-2300",
+      "Opening speeches",
+      "Luge",
+      "",
+      "Closing ceremony"
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is total advertising revenue from broadcasting the Winter Olympics?",
+   "givens": [
+    "Prime time ad rate = $400,000/30-sec ad (weekdays 7-11pm, all weekend hours, plus opening/closing ceremony hours); non-prime weekday ad rate = $200,000/30-sec ad",
+    "10 minutes of ads allowed per broadcast hour = 20 x 30-second ad slots per hour",
+    "10 weekday main-event days, 4 weekend main-event days, 2 ceremony days"
+   ],
+   "steps": [
+    "Weekday prime time: 10 weekdays x 4 hrs/day (7-11pm) x 10 min/hr x 2 ads/min x $400,000 = $320M",
+    "Weekday non-prime time: 10 weekdays x 6 hrs/day x 10 min/hr x 2 ads/min x $200,000 = $240M",
+    "Weekend (all prime rate): 4 days x 10 hrs/day x 10 min/hr x 2 ads/min x $400,000 = $320M",
+    "Opening/Closing ceremonies: 2 days x 3 hrs/day x 10 min/hr x 2 ads/min x $400,000 = $48M",
+    "Total = $320M + $240M + $320M + $48M = $928M"
+   ],
+   "answer": "Total advertising revenue is approximately $928M.",
+   "answer_value": 928000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the NPV of the Winter Olympics broadcast opportunity?",
+   "givens": [
+    "Total ad revenue = $928M",
+    "Production costs = $482M",
+    "Opportunity cost = 2 days x 3 hrs x $1M/hr + 14 days x 10 hrs x $1M/hr",
+    "WACC = 10%, discounted over a 4-year lag to revenue"
+   ],
+   "steps": [
+    "Opportunity cost = (2 x 3 x $1M) + (14 x 10 x $1M) = $6M + $140M = $146M",
+    "Profit = $928M revenue - $482M production costs - $146M opportunity cost = $300M",
+    "Discount factor = 1.10^4 = 1.4641, rounded to 1.5",
+    "NPV = $300M / 1.5 = $200M"
+   ],
+   "answer": "NPV of the broadcast opportunity is approximately $200M.",
+   "answer_value": 200000000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "The NPV of the broadcast opportunity is roughly $200M, and since the identified intangibles (new viewers, cross-promotion of other programming, prestige) and risks are hard to price precisely and broadly offset each other, the recommended bid should be around $200M. There's no single correct number; most reasonable answers cluster near $200M, and any bid that deviates meaningfully from that figure should come with a concrete, well-argued justification (for example, explicitly monetizing an intangible, or factoring in how competitors are likely to bid). This case ultimately tests comfort with running the numbers plus judgment about how intangible factors and competitive/game-theoretic bidding dynamics can move the final bid away from a pure NPV number.",
+ "what_great_looks_like": [
+  "Frames the problem as an NPV / cost-benefit analysis from the outset, not just a revenue forecast",
+  "Uses the broadcast schedule to build a structured, hour-by-hour ad revenue estimate rather than a single blended rate",
+  "Correctly identifies and nets out all three cost categories (production, opportunity cost, time value of money)",
+  "Anchors the final bid recommendation to the calculated NPV, and justifies any deviation from it with a specific argument (intangibles, competitive dynamics)"
+ ],
+ "common_pitfalls": [
+  "Forgetting to split ad time into prime vs. non-prime rate tiers and using one blended ad rate",
+  "Omitting the opportunity cost of airtime or the time-value-of-money discount, and treating raw profit as the final answer",
+  "Picking an arbitrary bid number in the recommendation without connecting it back to the $300M profit / $200M NPV figures",
+  "Listing intangibles without any attempt to explain how they should move the bid up or down from the NPV baseline"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book does not give a difficulty rating; difficulty inferred as high given the case is explicitly described as 'very quantitative.' Case type 'Y06 Opportunity assessment' has no exact match in the fixed case_type list; mapped to 'Investment/PE due diligence' given the bid-valuation/NPV framing. Page 394 (Exhibit A) was not among the rendered page images for this bundle, only page 397 was. | Exhibit A schedule transcribed from page image during review.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "case_type (mapped from book's own 'Opportunity assessment' label)"
+  ]
+ }
+}

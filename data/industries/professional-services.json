@@ -1,0 +1,125 @@
+{
+  "id": "professional-services",
+  "name": "Professional Services",
+  "group": "Public & services",
+  "one_liner": "Consulting, accounting, legal, and staffing firms that sell expert time and judgment, where profits come from leverage, utilization, and pricing of people.",
+  "how_it_makes_money": "Most firms sell hours or projects of expert work, priced as time-and-materials, fixed fees, retainers, or occasionally outcome-based fees tied to results. Consulting firms staff each project with a pyramid (a partner selling and steering, a manager running the work, several junior consultants doing analysis), so profit comes from billing junior hours at rates well above their cost. Accounting firms add recurring audit and tax work, law firms bill by the hour, and staffing firms earn a markup on each placed worker's pay.",
+  "value_chain": [
+    "Talent recruiting and training",
+    "Business development and relationships",
+    "Scoping and proposals",
+    "Project delivery by teams",
+    "Knowledge and IP reuse",
+    "Follow-on work and alumni networks"
+  ],
+  "revenue_formula": [
+    "Revenue = billable headcount × available hours × utilization × realized bill rate",
+    "Profit per partner = margin × (revenue per professional) × leverage (professionals per partner)",
+    "Staffing gross profit = hours billed × (bill rate − pay rate)"
+  ],
+  "cost_structure": [
+    "People: salaries, bonuses, and benefits are the dominant cost, often ~50-70% of revenue",
+    "Recruiting and training: heavy campus hiring and development for a high-turnover pyramid",
+    "Travel and client expenses, often partly billed back",
+    "Offices, technology, and knowledge management",
+    "Business development: partner time spent selling, proposals, and marketing"
+  ],
+  "margins": "Operating margins typically range from low single digits for staffing firms to roughly 10-20% for large consulting and accounting firms, with elite strategy and law partnerships earning much more per partner. Pricing power, leverage, and utilization drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Utilization",
+      "what": "Share of available hours billed to clients; each point directly lifts margin in a fixed-salary model."
+    },
+    {
+      "name": "Leverage (pyramid ratio)",
+      "what": "Junior staff per partner; more leverage spreads partner cost and raises profit per partner."
+    },
+    {
+      "name": "Realization",
+      "what": "Share of standard rates actually billed and collected; exposes discounting and write-offs."
+    },
+    {
+      "name": "Revenue per professional",
+      "what": "Productivity measure combining rates, utilization, and mix."
+    },
+    {
+      "name": "Profit per partner (PPP)",
+      "what": "The core scorecard for partnerships; drives partner retention and recruiting."
+    },
+    {
+      "name": "Attrition",
+      "what": "Annual staff turnover; the pyramid depends on up-or-out, but excess churn raises hiring cost."
+    }
+  ],
+  "trends": [
+    "Generative AI automating junior tasks like research, slide building, document review, and first-pass audit work, pressuring the traditional pyramid",
+    "Shift from hourly and time-based billing toward fixed-fee, subscription, and outcome-based pricing",
+    "Firms building AI products and platforms, blending advisory with software and managed services",
+    "Softer demand for discretionary strategy work alongside strong demand for AI, cloud, and transformation work",
+    "Private equity investing in accounting and advisory firms, testing the traditional partnership model",
+    "Slower campus hiring and flatter pyramids as firms rethink leverage"
+  ],
+  "key_players": [
+    "McKinsey",
+    "Boston Consulting Group",
+    "Bain & Company",
+    "Accenture",
+    "Deloitte",
+    "PwC",
+    "EY",
+    "KPMG",
+    "Kirkland & Ellis",
+    "Randstad"
+  ],
+  "case_angles": [
+    {
+      "question": "A consulting firm's profits per partner have fallen despite revenue growth; what is happening?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "How should a consulting firm redesign its staffing pyramid and pricing in response to generative AI?",
+      "framework_id": "growth-strategy"
+    },
+    {
+      "question": "Should a Big Four firm split its audit and consulting businesses?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "Should a law firm move from hourly billing to fixed fees for routine work?",
+      "framework_id": "pricing"
+    }
+  ],
+  "interview_hooks": [
+    "Will AI flatten the consulting pyramid, and what happens to entry-level roles?",
+    "Should firms price on value delivered rather than time spent?",
+    "Can audit independence coexist with large advisory businesses under one roof?"
+  ],
+  "news": {
+    "keywords": [
+      "consulting firm",
+      "management consulting",
+      "big four",
+      "accounting firm",
+      "law firm",
+      "staffing firm",
+      "billable hours",
+      "partner promotions",
+      "audit firm",
+      "consultants"
+    ],
+    "companies": [
+      "McKinsey",
+      "Boston Consulting Group",
+      "Bain & Company",
+      "Accenture",
+      "Deloitte",
+      "PwC",
+      "EY",
+      "KPMG",
+      "Kirkland & Ellis",
+      "Randstad",
+      "Robert Half",
+      "ManpowerGroup"
+    ]
+  }
+}

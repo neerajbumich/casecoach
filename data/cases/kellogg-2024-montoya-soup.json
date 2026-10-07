@@ -1,0 +1,430 @@
+{
+ "id": "kellogg-2024-montoya-soup",
+ "title": "Montoya Soup",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  267,
+  278
+ ],
+ "author": "Nico Montoya (Kellogg 2016); edited by Michael Eidem (Kellogg 2020)",
+ "variant_group_id": "kellogg-2024-montoya-soup",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Pricing",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Y01 Cost Reduction; Y07 Profitability",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "X02 Agriculture & Food; X12 Retail & CPG",
+ "geography": "US (grocery retail)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "pricing-strategy",
+  "cannibalization",
+  "price-elasticity",
+  "profitability",
+  "product-mix",
+  "contribution-margin",
+  "cpg",
+  "portfolio-strategy"
+ ],
+ "concepts_tested": [
+  "Z14 Pricing strategy",
+  "Z10 Customer marketing strategy"
+ ],
+ "fit_question": "Tell me about your favorite class at business school thus far.",
+ "prompt": "In F14, Montoya Soup, a business unit of Izzy's Healthy Foods, grew revenue and increased the contribution margins on their traditional and light soups. However, a spike in fixed costs caused them to see a dip in profitability. To offset this effect in F15, they launched a line of premium soups to increase volume and generate economies of scale. Though they felt the new launch was a success, their profitability dropped again in F15. They have hired you to diagnose the problem and propose a solution for F16.",
+ "clarifying_info": [
+  {
+   "question_topic": "Client / business model",
+   "answer": "Montoya sells cases of soup to buyers at grocery retailers, who mark up the units inside to sell to end consumers."
+  },
+  {
+   "question_topic": "Product portfolio",
+   "answer": "Traditional, Light, and Premium are the only product lines in Montoya Soup Co.'s portfolio."
+  },
+  {
+   "question_topic": "General note",
+   "answer": "There is limited clarifying info up front; the interviewee must be comfortable making assumptions and drawing on inherent knowledge of the grocery industry. The prompt hints that revenue is up and fixed costs haven't increased in F15, so the candidate should think about variable costs right away — though this is really a portfolio pricing-strategy case disguised as a cost-reduction case, and a strong candidate might recognize that."
+  }
+ ],
+ "interviewer_notes": "Problem: determine what is causing Montoya's profitability decrease and analyze/recommend a method for improving it. Key case steps: (1) develop a structure to address the problem, (2) deep dive — why did profitability decline?, (3) deep dive — how do we fix profitability (pricing strategy and potential cost reductions)?, (4) provide client recommendation.",
+ "suggested_framework": {
+  "summary": "Book-provided framework: has revenue changed (volume/price), have costs gone up (fixed/variable), have there been market changes (industry, customers, competition), plus a risk check.",
+  "tree": {
+   "label": "Why is profitability down and what to do about it?",
+   "children": [
+    {
+     "label": "Has Revenue decreased?",
+     "children": [
+      {
+       "label": "Volume — mix of products sold, new customer types (restaurants, convenience stores, etc.)"
+      },
+      {
+       "label": "Price — has price changed, price elasticity, competitive pricing"
+      }
+     ]
+    },
+    {
+     "label": "Have Costs gone up?",
+     "children": [
+      {
+       "label": "Fixed — facilities, R&D, marketing spend, distribution systems"
+      },
+      {
+       "label": "Variable — raw soup materials, labor, packaging"
+      }
+     ]
+    },
+    {
+     "label": "Have there been changes in the Market?",
+     "children": [
+      {
+       "label": "Is the soup market / grocery channel growing or shrinking?"
+      },
+      {
+       "label": "Customers — shifting tastes, fresh vs. packaged soup"
+      },
+      {
+       "label": "Competition — new entrants, substitute products"
+      }
+     ]
+    },
+    {
+     "label": "Risks to consider when making changes",
+     "children": [
+      {
+       "label": "Competitive response"
+      },
+      {
+       "label": "Cannibalization of other product lines"
+      },
+      {
+       "label": "Upsetting major grocery-chain customers"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a framework for how to approach this problem: why is profitability down and what should be done about it?",
+   "expected_answer": "A structure that checks revenue (volume and price), costs (fixed and variable), and market changes (industry, customers, competition), plus a note on risks (competitive response, cannibalization, channel relationships) when considering changes.",
+   "good_answer_signals": [
+    "Separates fixed vs. variable cost drivers",
+    "Considers product mix/cannibalization as a possible driver, not just raw cost inflation",
+    "Flags risk considerations upfront"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What trends do you see with regard to top-line growth? What happened with fixed costs in F15? Variable costs? What could have driven up variable costs?",
+   "release_when": "When the candidate asks about revenue/cost trends",
+   "info_to_release": "Exhibit A performance metrics. Input prices for traditional & light lines are unchanged from F14, with no added wastage or formulation change.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue grew significantly in F15 (faster than any recent year) and outpaced volume growth, meaning average price also rose. Fixed costs were flat at $1.3B in F15 (Gross Margin − Contribution Margin = Fixed Costs), so the profit decline must be driven by an increase in variable costs. Since input prices/formulation/wastage were unchanged for Traditional & Light, the variable-cost increase must come from product mix — i.e., cannibalization of higher-margin products by the lower-margin Premium line.",
+   "good_answer_signals": [
+    "Derives Fixed Costs = Gross Margin − Contribution Margin and notices they are flat at $1.3B",
+    "Concludes the driver must be variable costs / product mix, not fixed costs",
+    "Asks for product-line-level data (Exhibit B) to dig into mix"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "How can profitability be down if revenue is up, fixed costs are flat, and input costs haven't changed? What info do you need to look into fixing the product mix to optimize profitability?",
+   "release_when": "When the candidate probes product-line economics",
+   "info_to_release": "Exhibit B (wholesale prices, F14/F15 volumes by line, and variable cost components per case). Contribution margin is $10/case on Traditional & Light, $6/case on Premium (price minus sum of variable costs).",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Assuming no change in formulation or wastage, the issue must be cannibalization of higher-margin Traditional/Light volume by the lower-margin Premium line. Candidate should want to look at each line's price, COGS/variable cost, elasticity, and cannibalization rates next."
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How much profit do we make per case of Premium, Traditional, and Light? What is the optimum price for profitability? What are the long-run effects on customers of changing packaging, reducing meat/veg costs, or raising prices?",
+   "release_when": "When appropriate, after mix issue is identified",
+   "info_to_release": "Exhibit C (price elasticity & cannibalization data) and Exhibit D (stakeholder/consumer feedback). Competitors aren't playing in the 'premium' space, only 'value' and 'super-premium'. If both price and packaging change simultaneously, distribution would be lost.",
+   "exhibit_ids": [
+    "ex2",
+    "ex3",
+    "ex4"
+   ],
+   "expected_answer": "Candidate computes contribution margin ($6 Premium, $10 Traditional/Light) and net profit for each option, netting Premium's own profit against cannibalized Traditional/Light profit: Last year net profit was −$10M; moving packaging from cartons to cans would still net −$2M (gains $3/case margin but cuts demand 20% and spikes Traditional cannibalization to 75%); reducing meat/vegetable content nets +$110M (gains $3/case margin with no demand change); raising Premium price to $33 nets +$160M (gains $3/case margin, demand falls to 20M cases, but cannibalization rates fall sharply). Raising price is both the most profitable option and avoids degrading product quality/brand equity, unlike the cost-reduction options.",
+   "good_answer_signals": [
+    "Correctly computes net profit for each scenario using premium profit minus cannibalized Traditional/Light profit",
+    "Identifies price increase as both most profitable and lowest brand/quality risk",
+    "Recognizes cost-cutting options erode the value proposition that drove Premium's success"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are the long-run effects on customers of the different options, and what risks should we weigh?",
+   "expected_answer": "Customers are willing to pay for a pricier, higher-quality product (per Exhibit D feedback), but reducing variable costs (and thereby quality) is not a viable long-run strategy and would hurt the brand. Risks include competitive response (a lower-priced premium entrant), upsetting buyers/losing distribution from a price increase, and the opportunity cost of not instead phasing out older lines in favor of Premium."
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "Profits declined because the Premium line, while a volume success, is margin-dilutive and cannibalized higher-margin Traditional/Light sales. Recommend raising the Premium price to $33/case, which more than quadruples gross profit versus last year, increases margins (despite lower volume) and substantially reduces cannibalization; other cost-reduction levers hurt the value proposition and risk long-run brand equity. Risks: no analysis of competitive response (a cheaper premium entrant could pressure the category); raising prices could upset buyers and cost distribution; opportunity cost of not instead keeping prices low and phasing out older lines while ramping Premium. Next steps: due diligence on long-term consumer preference forecasts; launch an advertising campaign to justify higher prices and defend against competitors; look to reduce high fixed costs to protect against price-aggressive competitors or rising commodity costs.",
+   "good_answer_signals": [
+    "Clear recommendation (raise Premium price to $33) with supporting math",
+    "Explicitly weighs risks including competitive response and distribution",
+    "Concrete, case-specific next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Performance Metrics",
+   "page": 270,
+   "kind": "table",
+   "description": "Bar chart (F11–F15) of year-over-year % change in sales volume, sales revenue, contribution margin, and gross margin, plus an underlying table of sales volume, sales revenue, contribution margin, and gross margin (F10–F15).",
+   "data": {
+    "columns": [
+     "Metric",
+     "F10",
+     "F11",
+     "F12",
+     "F13",
+     "F14",
+     "F15"
+    ],
+    "rows": [
+     [
+      "Sales Vol. (M of cases)",
+      126.5,
+      130.4,
+      131.7,
+      136.5,
+      140,
+      155
+     ],
+     [
+      "Sales Rev. ($M)",
+      3282,
+      3366,
+      3409,
+      3560,
+      3680,
+      4200
+     ],
+     [
+      "Contribution Margin ($M)",
+      1165,
+      1212,
+      1261,
+      1264,
+      1360,
+      1356
+     ],
+     [
+      "Gross Margin ($M)",
+      65.2,
+      61.9,
+      61.4,
+      63.9,
+      60,
+      56
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-montoya-soup/p270.webp",
+   "key_insight": "F15 revenue growth (+14.1%) far outpaces volume growth (+10.7%), so average price also rose; yet gross margin fell to $56M from $60M in F14, even as contribution margin roughly held ($1,356M vs $1,360M) — implying fixed costs (Gross Margin − Contribution Margin ≈ $1.3B) stayed flat and the real driver of the profit dip is a shift in variable-cost/product mix, not fixed costs.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Exhibit B – Product Lines",
+   "page": 271,
+   "kind": "table",
+   "description": "Wholesale price and F14/F15 volume by product line (Traditional, Light, Premium), plus a stacked bar chart of variable input cost per case broken into Broth, Meat, Vegetables, Spices, Packaging, and Wages. A supplier/company quote explains Premium was deliberately launched at lower margin, higher volume to chase economies of scale.",
+   "data": {
+    "columns": [
+     "Product",
+     "Wholesale Price ($)",
+     "F14 Vol. (M cases)",
+     "F15 Vol. (M cases)"
+    ],
+    "rows": [
+     [
+      "Traditional",
+      28,
+      80,
+      60
+     ],
+     [
+      "Light",
+      24,
+      60,
+      55
+     ],
+     [
+      "Premium",
+      30,
+      null,
+      40
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-montoya-soup/p271.webp",
+   "key_insight": "Contribution margin (price minus variable cost) is $10/case for Traditional and Light but only $6/case for Premium (implying variable cost per case of $18 Traditional, $14 Light, $24 Premium) — Premium is structurally lower-margin, so any volume it takes from Traditional/Light directly hurts blended profitability.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Exhibit C – Demand Analysis",
+   "page": 272,
+   "kind": "table",
+   "description": "Management commentary on two cost-reduction levers (moving Premium from cartons to cans; reducing meat/vegetable content) and their demand effects, plus a price-elasticity & cannibalization table comparing last year's Premium pricing to a price increase.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Last Year",
+     "Increase Price"
+    ],
+    "rows": [
+     [
+      "Premium Price",
+      "$30",
+      "$33"
+     ],
+     [
+      "Premium Demand (M cases)",
+      40,
+      20
+     ],
+     [
+      "Traditional Cannibalization Rate",
+      "50%",
+      "10%"
+     ],
+     [
+      "Light Cannibalization Rate",
+      "12.5%",
+      "0%"
+     ]
+    ]
+   },
+   "key_insight": "Moving to cans gains $3/case margin but cuts Premium demand 20% and spikes Traditional cannibalization to 75% — a net value destroyer. Raising price to $33 gains the same $3/case margin, roughly halves Premium demand, but sharply reduces cannibalization of Traditional (50%→10%) and eliminates Light cannibalization — a much better trade.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-montoya-soup/p272.webp"
+  },
+  {
+   "id": "ex4",
+   "title": "Exhibit D – Stakeholder Input",
+   "page": 273,
+   "kind": "text",
+   "description": "Qualitative retailer/customer feedback and consumer focus-group excerpts on the Premium launch: retailers report the launch brought new consumers to the category and are giving Montoya more shelf space in F16; consumers cite health concerns about canned/BPA packaging, perceived value (more meat/vegetables for the price), and improved brand perception versus competitors.",
+   "key_insight": "Consumers and retailers value Premium specifically for its quality/packaging (not just price), so cost-cutting moves that erode that quality (can packaging, less meat/veg) risk undoing the brand equity that made the launch successful — reinforcing that raising price is safer than cutting costs.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-montoya-soup/p273.webp"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Net profit impact of moving Premium from cartons to cans (gains $3/case margin, cuts Premium demand 20%, spikes Traditional cannibalization to 75%, Light cannibalization unchanged at 12.5%).",
+   "givens": [
+    "Baseline (last year): Premium margin $6/case, volume 40M cases, Traditional cannibalization 20M cases at $10/case margin, Light cannibalization 5M cases at $10/case margin → baseline net profit = 240 − 200 − 50 = −$10M",
+    "Packaging change: Premium margin becomes $6+$3=$9/case; volume falls 20% to 32M cases; Traditional cannibalization rate rises to 75% of volume; Light cannibalization unchanged at 5M cases"
+   ],
+   "steps": [
+    "Premium profit = $9 × 32M = $288M",
+    "Traditional cases cannibalized = 75% × 32M = 24M; profit lost = 24M × $10 = $240M",
+    "Light profit lost (unchanged) = 5M × $10 = $50M",
+    "Net total profit = $288M − $240M − $50M = −$2M"
+   ],
+   "answer": "Net profit of −$2M (an improvement over last year's −$10M, but still a loss) — not a strong option",
+   "answer_value": -2,
+   "unit": "$M net profit",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "Net profit impact of reducing meat/vegetable content to Traditional-level (gains $3/case margin, no change in demand or cannibalization rates).",
+   "givens": [
+    "Baseline: Premium margin $6/case, volume 40M cases, Traditional cannibalization 20M cases at $10/case, Light cannibalization 5M cases at $10/case",
+    "Meat/veg reduction: Premium margin becomes $9/case; volume unchanged at 40M cases (consumers shouldn't notice in the short run); cannibalization unchanged"
+   ],
+   "steps": [
+    "Premium profit = $9 × 40M = $360M",
+    "Traditional profit lost = 20M × $10 = $200M",
+    "Light profit lost = 5M × $10 = $50M",
+    "Net total profit = $360M − $200M − $50M = $110M"
+   ],
+   "answer": "Net profit of $110M",
+   "answer_value": 110,
+   "unit": "$M net profit",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Net profit impact of raising Premium price from $30 to $33 (per Exhibit C elasticity/cannibalization data).",
+   "givens": [
+    "Baseline: Premium margin $6/case, volume 40M cases",
+    "Price increase: Premium margin becomes $9/case; Premium demand falls to 20M cases; Traditional cannibalization rate falls to 10% of Premium volume; Light cannibalization falls to 0%"
+   ],
+   "steps": [
+    "Premium profit = $9 × 20M = $180M",
+    "Traditional cases cannibalized = 10% × 20M = 2M; profit lost = 2M × $10 = $20M",
+    "Light profit lost = 0M × $10 = $0",
+    "Net total profit = $180M − $20M − $0 = $160M"
+   ],
+   "answer": "Net profit of $160M — the best of the four scenarios (last year, packaging change, meat/veg reduction, price increase)",
+   "answer_value": 160,
+   "unit": "$M net profit",
+   "verified": true
+  }
+ ],
+ "synthesis": "Profits declined because the Premium line, though a volume success, is margin-dilutive and cannibalized higher-margin Traditional and Light sales. Recommend raising Premium's price to $33/case: net profit rises to $160M (versus −$10M last year), margins increase despite lower Premium volume, and cannibalization of Traditional/Light drops substantially. Cost-reduction levers (cheaper packaging, less meat/veg) net far less ($−2M and $110M respectively) and erode the value proposition that made Premium successful. Risks: no read on competitive response to a price increase; risk of upsetting buyers/losing distribution; opportunity cost of not instead holding price and phasing out older lines while ramping Premium. Next steps: diligence long-term consumer preference forecasts, launch advertising to justify and defend the higher price, and look to reduce high fixed costs as a buffer against future competitive or commodity pressure.",
+ "what_great_looks_like": [
+  "Derives that fixed costs are flat (Gross Margin − Contribution Margin) before concluding the driver must be variable-cost/mix, rather than assuming costs rose",
+  "Recognizes early that this is really a pricing/cannibalization problem dressed up as a cost problem",
+  "Runs the cannibalization math correctly for each option and picks the price-increase option on both profit and brand-risk grounds",
+  "Surfaces distribution and competitive-response risk in the final recommendation unprompted"
+ ],
+ "common_pitfalls": [
+  "Assuming rising costs (rather than product mix/cannibalization) explain the profit decline, given the prompt's framing as a cost problem",
+  "Calculating each scenario's incremental profit without netting out cannibalized Traditional/Light profit",
+  "Recommending a cost-cutting option without weighing the long-run brand/quality erosion it creates"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (Exhibit B's stacked variable-cost-per-case chart components were not reliably transcribable from the text layer and no page render exists for page 271; only the clearly legible wholesale-price/volume table is captured, with per-case variable-cost totals derived from the stated $10/$10/$6 contribution margins instead)"
+  ],
+  "math_verified": true,
+  "notes": "No page render was available for pages 271-273 (Exhibits B, C, D); meta.json only lists p270 as a rendered page. All four scenarios in the Part 3 math table (last year, packaging change, meat/veg reduction, price increase) were independently recomputed and matched the book's figures exactly.",
+  "fields_inferred": [
+   "difficulty",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

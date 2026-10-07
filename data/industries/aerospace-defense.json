@@ -1,0 +1,125 @@
+{
+  "id": "aerospace-defense",
+  "name": "Aerospace & Defense",
+  "group": "Industrials",
+  "one_liner": "Designing and building commercial aircraft, engines, defense systems and space hardware, a long-cycle industry defined by huge R&D bets, backlogs and aftermarket profits.",
+  "how_it_makes_money": "Commercial OEMs sell aircraft to airlines and lessors, often at deep discounts, and engine and component makers earn most profit from decades of aftermarket parts and service. Defense contractors sell to governments under cost-plus or fixed-price contracts, with budgets set by national defense spending. Space companies earn from launches, satellites and government programs.",
+  "value_chain": [
+    "Raw materials and forgings",
+    "Tier 2-3 component suppliers",
+    "Tier 1 systems and engines",
+    "OEM final assembly",
+    "Airlines, lessors and governments",
+    "Maintenance, repair and overhaul (MRO)"
+  ],
+  "revenue_formula": [
+    "Commercial OEM revenue = aircraft deliveries × net price per aircraft",
+    "Aftermarket revenue = installed fleet × flight hours × revenue per flight hour",
+    "Defense revenue = contract value × % completed (recognized over time)"
+  ],
+  "cost_structure": [
+    "Materials and purchased components: a large share given long supplier chains",
+    "Skilled labor in engineering and assembly",
+    "R&D: new aircraft programs cost billions and take years",
+    "Program learning curve costs early in production",
+    "Quality, certification and regulatory compliance"
+  ],
+  "margins": "Defense primes typically earn around high single to low double digit operating margins, with fixed-price programs riskier. Commercial engine and aftermarket players earn strong margins, while new aircraft programs often lose money early. Aftermarket mix, contract type and program maturity drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Backlog",
+      "what": "Orders not yet delivered; for OEMs it can span many years of production."
+    },
+    {
+      "name": "Deliveries",
+      "what": "Aircraft handed to customers, driving revenue and cash."
+    },
+    {
+      "name": "Production rate",
+      "what": "Aircraft built per month, key for ramping economics."
+    },
+    {
+      "name": "Book-to-bill ratio",
+      "what": "New orders versus revenue, signaling demand."
+    },
+    {
+      "name": "Aftermarket revenue share",
+      "what": "Higher share means steadier, higher-margin revenue."
+    },
+    {
+      "name": "Free cash flow",
+      "what": "Closely watched given heavy working capital and program costs."
+    }
+  ],
+  "trends": [
+    "Supply chain and quality problems constraining aircraft production ramps",
+    "Strong commercial aircraft demand and long order backlogs",
+    "Rising defense budgets from geopolitical tension in Europe and Asia",
+    "Commercialization of space, with reusable rockets and satellite constellations",
+    "Drones, autonomy and software-defined defense attracting new entrants",
+    "Sustainable aviation fuel and next-generation engine technology"
+  ],
+  "key_players": [
+    "Boeing",
+    "Airbus",
+    "Lockheed Martin",
+    "RTX",
+    "Northrop Grumman",
+    "General Dynamics",
+    "GE Aerospace",
+    "Safran",
+    "SpaceX",
+    "L3Harris"
+  ],
+  "case_angles": [
+    {
+      "question": "An aircraft OEM's production ramp is stalling; how do you increase output?",
+      "framework_id": "operations-capacity"
+    },
+    {
+      "question": "Should a jet engine maker offer power-by-the-hour service contracts?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "Should a defense contractor enter the drone market?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "Should a supplier acquire a struggling tier-2 parts maker to secure supply?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Is the Boeing-Airbus duopoly at risk from new entrants like COMAC?",
+    "Should defense procurement shift toward new software-driven entrants?",
+    "Are fixed-price defense contracts a good deal for taxpayers or for contractors?"
+  ],
+  "news": {
+    "keywords": [
+      "aerospace",
+      "defense contractor",
+      "pentagon",
+      "aircraft deliveries",
+      "jet engine",
+      "fighter jet",
+      "defense budget",
+      "satellite",
+      "faa",
+      "missile",
+      "rocket launch"
+    ],
+    "companies": [
+      "Boeing",
+      "Airbus",
+      "Lockheed Martin",
+      "RTX",
+      "Northrop Grumman",
+      "General Dynamics",
+      "GE Aerospace",
+      "Safran",
+      "SpaceX",
+      "L3Harris",
+      "Anduril"
+    ]
+  }
+}

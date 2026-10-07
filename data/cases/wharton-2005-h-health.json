@@ -1,0 +1,328 @@
+{
+ "id": "wharton-2005-h-health",
+ "title": "H Health",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  38,
+  40
+ ],
+ "variant_group_id": "h-health",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "profit decline diagnosis",
+ "industry": "health-insurance",
+ "sub_industry": "payers",
+ "industry_source_label": "US health care provider (contracted physician network)",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey, 1st Round"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "profitability-diagnosis",
+  "referral-cost",
+  "managed-care",
+  "incentive-program",
+  "breakeven",
+  "cost-benefit-analysis",
+  "population-estimation"
+ ],
+ "concepts_tested": [
+  "profit equation decomposition",
+  "competitor benchmarking",
+  "bottom-up demand/referral estimation",
+  "incentive program breakeven and multi-year savings analysis"
+ ],
+ "prompt": "A US health care provider suffered a profit decline last year. You are hired to solve this problem.",
+ "clarifying_info": [
+  {
+   "question_topic": "Background",
+   "answer": "Key revenues come from commissions. H Health signs contracts with patients and provides medical services. H Health has 300 contracted physicians. A 'referral' (to an outside specialist) is necessary if a certain medical treatment/service can't be provided by H Health's own contracted physicians."
+  }
+ ],
+ "interviewer_notes": "Basic information should be given as the candidate asks for it, but the rest of the interview is very directive — the candidate should follow the interviewer's direction and do the math confidently. The interview style is pleasant and helpful.",
+ "suggested_framework": {
+  "summary": "Decompose the profit decline (Profit = Revenue − Cost = #patients×(unit price − variable cost) − fixed cost), benchmark referral cost against a competitor, quantify a specific cost driver (cardiology referrals), then evaluate a concrete incentive program's breakeven and savings.",
+  "tree": {
+   "label": "Why did H Health's profit decline, and how can it be fixed?",
+   "children": [
+    {
+     "label": "Revenue decline drivers",
+     "children": [
+      {
+       "label": "Fewer patients"
+      },
+      {
+       "label": "Lower unit price"
+      },
+      {
+       "label": "Competitors gaining share"
+      }
+     ]
+    },
+    {
+     "label": "Cost increase drivers",
+     "children": [
+      {
+       "label": "Variable cost",
+       "children": [
+        {
+         "label": "More visits (e.g. flu outbreak)"
+        },
+        {
+         "label": "Higher per-visit cost"
+        },
+        {
+         "label": "Higher referral cost"
+        }
+       ]
+      },
+      {
+       "label": "Fixed cost",
+       "children": [
+        {
+         "label": "Physician salary increases"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Deep-dive: referral cost",
+     "children": [
+      {
+       "label": "Competitor benchmarking"
+      },
+      {
+       "label": "Cardiology referral estimate vs. actual"
+      },
+      {
+       "label": "Incentive program economics"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you approach this problem?",
+   "expected_answer": "Profit = Revenue − Cost = number of patients × (unit price − variable cost) − fixed cost. Candidate should creatively brainstorm reasons revenue could have declined (fewer patients, lower unit price, competitors gaining share) and reasons cost could have increased (variable: more visits e.g. a major flu season, higher per-person cost e.g. medicine cost, higher referral cost; fixed: physician salary increases).",
+   "good_answer_signals": [
+    "States the profit equation correctly",
+    "Generates multiple plausible revenue and cost drivers on both sides"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Competitor analysis — why is our referral cost higher than the competitor's?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate should creatively propose reasons, such as: the competitor (Sunshine) benefits from economies of scale (more patients), has lower administration costs, or has more contracted physicians (reducing the need for outside referrals).",
+   "good_answer_signals": [
+    "Connects Sunshine's larger patient base to potential scale economies",
+    "Proposes multiple plausible explanations, not just one"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Assuming none of the contracted physicians have a cardiology specialty, estimate the number of cardiology referrals per year.",
+   "info_to_release": "Number of patients: 300,000. 20% of the population is >65 years old, and 30% of them need cardiology treatment. For the rest of the population, there's a 10% chance of needing treatment. The treatment usually requires 5 visits to the doctor per year.",
+   "expected_answer": ">65 years needing treatment = 300,000 × 20% × 30% = 18,000. <65 years needing treatment = 300,000 × 80% × 10% = 24,000. Total needing treatment = 42,000; referral-visits per year = 42,000 × 5 = 210,000.",
+   "good_answer_signals": [
+    "Splits the population into the two age bands before applying each probability",
+    "Multiplies through by visits/year to get an annual referral-visit estimate"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "The actual number of referrals is 300,000 — well above your estimate of 210,000. Why might that be?",
+   "expected_answer": "Candidate should creatively propose reasons, such as: H Health's actual client base doesn't have the same age-weighting assumed in the estimate; the visits-per-year assumption was underestimated; more demanding patients push for referrals even without a real need; or physicians refer even non-cardiology-qualifying patients out of risk-aversion or lack of motivation to treat them in-house.",
+   "good_answer_signals": [
+    "Questions the assumptions behind the estimate rather than the actual figure",
+    "Considers both demand-side (patient behavior) and supply-side (physician behavior) explanations"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "How much would the number of referrals need to decrease to justify the following incentive plan meant to encourage contracted physicians to be more responsible?",
+   "info_to_release": "Incentive plan: a $100,000/year bonus to the top 10 physicians with the lowest referral rate, plus $1,000,000 in training. Referral cost is $200 per referral; current number of referrals is 300,000.",
+   "expected_answer": "Total program cost = (10 × $100,000) + $1,000,000 = $2,000,000. Breakeven reduction in referrals = $2,000,000 / $200 = 10,000 referrals.",
+   "good_answer_signals": [
+    "Correctly totals bonus and training costs before dividing",
+    "Frames the answer as a breakeven number of referrals, matching what was asked"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "If the incentive plan reduces referrals by 5% in year one and 2% in year two (off the reduced base), what is the total saving over the two years?",
+   "expected_answer": "Year 1 reduction = 300,000 × 5% = 15,000. Year 2 reduction = (300,000 − 15,000) × 2% = 5,700. Total referral-cost savings = (15,000 + 5,700) × $200 = $4,140,000. Net of the $2,000,000/year program cost over 2 years ($4,000,000 total): Total saving = $4,140,000 − $4,000,000 = $140,000.",
+   "good_answer_signals": [
+    "Applies the year-two percentage to the already-reduced base, not the original 300,000",
+    "Nets the referral-cost savings against the full two-year program cost, not just one year"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "brainstorm",
+   "interviewer_asks": "Apart from cardiology, how can H Health improve the number of referrals in general?",
+   "expected_answer": "Candidate should generate ideas such as: increase training to improve physician capability; extend the incentive program to other departments; improve relationship quality/trust with patients; improve or remove physicians who are outliers with extremely high referral rates; increase the number of contracted physicians; or partner with other healthcare providers to lower referral cost.",
+   "good_answer_signals": [
+    "Generates a broad set of ideas spanning training, incentives, patient relationships, physician network size, and partnerships"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "synthesis",
+   "interviewer_asks": "So how should H Health improve its profitability overall?",
+   "expected_answer": "Based on the cardiology example, H Health should improve profitability primarily by lowering referral cost — either by reducing the number of referrals (via incentives, training, better physician coverage, trust-building) and/or by reducing the cost per referral (e.g., partnering with other providers).",
+   "good_answer_signals": [
+    "Generalizes the cardiology finding into a company-wide two-lever conclusion (fewer referrals and/or cheaper referrals)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "H Health vs. Sunshine: patients and referral cost",
+   "page": 39,
+   "kind": "table",
+   "description": "Compares H Health and competitor Sunshine on number of patients and referral cost per member per month.",
+   "data": {
+    "columns": [
+     "Metric",
+     "H Health",
+     "Sunshine"
+    ],
+    "rows": [
+     [
+      "Number of patients",
+      300000,
+      500000
+     ],
+     [
+      "Referral cost (per member, per month)",
+      "$20",
+      "$15"
+     ]
+    ]
+   },
+   "key_insight": "Sunshine has both more patients and a lower per-member referral cost, suggesting scale economies, lower administrative overhead, or a broader physician network are helping it hold down referral costs relative to H Health.",
+   "data_confidence": "high",
+   "image_path": "exhibits/wharton-2005-h-health/p039.webp",
+   "image_has_answers": true
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many cardiology referral-visits per year should be expected, given the population assumptions?",
+   "givens": [
+    "300,000 patients",
+    "20% of population >65 years old; 30% of them need cardiology treatment",
+    "For the remaining population, 10% chance of needing treatment",
+    "Treatment requires 5 visits/year"
+   ],
+   "steps": [
+    ">65 needing treatment = 300,000 × 20% × 30% = 18,000",
+    "<65 needing treatment = 300,000 × 80% × 10% = 24,000",
+    "Total patients needing treatment = 18,000 + 24,000 = 42,000",
+    "Referral-visits/year = 42,000 × 5 = 210,000"
+   ],
+   "answer": "210,000 referral-visits per year",
+   "answer_value": 210000,
+   "unit": "visits/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many fewer referrals are needed to break even on the proposed incentive plan?",
+   "givens": [
+    "Bonus: $100,000/year × 10 physicians = $1,000,000",
+    "Training: $1,000,000",
+    "Referral cost: $200/referral"
+   ],
+   "steps": [
+    "Total program cost = $1,000,000 (bonus) + $1,000,000 (training) = $2,000,000",
+    "Breakeven referral reduction = $2,000,000 / $200 = 10,000"
+   ],
+   "answer": "10,000 fewer referrals needed to break even",
+   "answer_value": 10000,
+   "unit": "referrals",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the total net saving over 2 years if the incentive plan reduces referrals by 5% (year 1) and 2% (year 2, off the reduced base)?",
+   "givens": [
+    "Current referrals: 300,000",
+    "Year 1 reduction: 5%",
+    "Year 2 reduction: 2% (applied to the year-1-reduced base)",
+    "Referral cost: $200/referral",
+    "Program cost: $2,000,000/year for 2 years"
+   ],
+   "steps": [
+    "Year 1 reduction = 300,000 × 5% = 15,000",
+    "Year 2 reduction = (300,000 − 15,000) × 2% = 5,700",
+    "Total referral-cost savings = (15,000 + 5,700) × $200 = $4,140,000",
+    "Total program cost (2 years) = $2,000,000 × 2 = $4,000,000",
+    "Net saving = $4,140,000 − $4,000,000 = $140,000"
+   ],
+   "answer": "$140,000 net saving over 2 years",
+   "answer_value": 140000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "H Health's profit decline is best addressed by attacking referral cost, which the cardiology deep-dive shows is running well above what population-based estimates would predict (300,000 actual vs. ~210,000 estimated referral-visits). H Health should pursue both levers: reduce the number of referrals (via physician incentives/training, better patient-relationship management, addressing outlier physicians, and growing the contracted-physician network) and reduce the cost per referral (e.g., by partnering with other healthcare providers). The proposed incentive program (bonuses + training, $2,000,000/year) breaks even at a 10,000-referral reduction and, under a 5%-then-2% reduction scenario, nets about $140,000 in savings over 2 years — a modest but positive return that could be extended to other departments beyond cardiology.",
+ "what_great_looks_like": [
+  "States the profit equation correctly and uses it to structure brainstorming on both the revenue and cost sides",
+  "Generates multiple, creative hypotheses at each open brainstorming question rather than settling for the first idea",
+  "Carries the population-based estimate through cleanly (age-banding, probabilities, visit frequency) and gets the right order of magnitude",
+  "Questions the estimate's assumptions, not just the actual number, when reconciling the two",
+  "Handles the multi-step incentive-program economics (breakeven, then two-year net savings with a shrinking base) accurately",
+  "Generalizes the cardiology-specific finding into a company-wide two-lever recommendation"
+ ],
+ "common_pitfalls": [
+  "Forgets to split the population into age bands before applying the two different treatment probabilities",
+  "Applies the year-two reduction percentage to the original 300,000 instead of the year-one-reduced base",
+  "Nets the incentive plan's savings against only one year of program cost instead of both years",
+  "Treats the actual-vs-estimate referral gap as evidence the estimate approach is wrong, rather than probing which specific assumption was off"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All book math (m1, m2, m3) independently recomputed and matches exactly. Industry classified as health-insurance/payers rather than healthcare-providers because H Health's revenue model (commissions, per-member-per-month referral cost, contracted physician network) reads as a managed-care/payer structure rather than a direct care provider. Exhibit image audit 2026-09-28: pages that also show interviewer notes are flagged image_has_answers.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "industry",
+   "sub_industry"
+  ]
+ }
+}

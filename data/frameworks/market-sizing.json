@@ -1,0 +1,125 @@
+{
+ "id": "market-sizing",
+ "name": "Market sizing",
+ "category": "tool",
+ "summary": "Estimate a market top-down (population → segments → penetration → frequency → price) or bottom-up (units × usage × price from the supply side), then sanity-check with a second method.",
+ "opening_line": "I'll size this top-down from population: segment it, apply penetration and usage, and multiply by price. Then I'll sanity-check it bottom-up.",
+ "when_to_use": [
+  "'How big is the market for X?' guesstimates",
+  "Sizing the prize inside a market entry or new product case"
+ ],
+ "when_not_to_use": [
+  "When the interviewer gives you the market size: don't re-derive it"
+ ],
+ "tree": {
+  "label": "Market size",
+  "children": [
+   {
+    "label": "Top-down (demand)",
+    "children": [
+     {
+      "label": "Population / households / businesses"
+     },
+     {
+      "label": "Relevant segment %"
+     },
+     {
+      "label": "Penetration / adoption"
+     },
+     {
+      "label": "Frequency / units per user"
+     },
+     {
+      "label": "Price"
+     }
+    ]
+   },
+   {
+    "label": "Bottom-up (supply)",
+    "children": [
+     {
+      "label": "Number of sellers / locations"
+     },
+     {
+      "label": "Capacity or sales per seller"
+     },
+     {
+      "label": "Utilisation"
+     }
+    ]
+   },
+   {
+    "label": "Sanity check",
+    "children": [
+     {
+      "label": "Compare methods"
+     },
+     {
+      "label": "Benchmarks (per-capita spend, % of GDP)"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Clarify",
+   "questions": [
+    "Units or dollars? Which geography and year?"
+   ],
+   "data_to_ask": []
+  },
+  {
+   "name": "Segment",
+   "questions": [
+    "What segmentation drives usage differences (age, income, B2B size)?"
+   ],
+   "data_to_ask": []
+  },
+  {
+   "name": "Compute & check",
+   "questions": [
+    "Round numbers, state assumptions, and sanity-check the result"
+   ],
+   "data_to_ask": []
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "cpg",
+   "note": "Households × consumption per household × price; segment by household type."
+  },
+  {
+   "industry": "tech-saas",
+   "note": "Number of target businesses by size × seats × price per seat."
+  },
+  {
+   "industry": "healthcare-providers",
+   "note": "Population × prevalence × diagnosis rate × treatment rate × cost per treatment."
+  }
+ ],
+ "common_mistakes": [
+  "Not clarifying units or scope",
+  "Too many steps with made-up numbers",
+  "No segmentation where usage clearly differs",
+  "No sanity check at the end"
+ ],
+ "related": [
+  "market-entry",
+  "new-product-gtm"
+ ],
+ "match": {
+  "case_types": [
+   "Market Sizing/Guesstimate"
+  ],
+  "tags": [
+   "market-sizing"
+  ],
+  "keywords": [
+   "size",
+   "sizing",
+   "estimate",
+   "how many"
+  ]
+ }
+}

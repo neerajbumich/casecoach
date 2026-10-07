@@ -1,0 +1,161 @@
+{
+ "id": "new-product-gtm",
+ "name": "New product / go-to-market (4Ps)",
+ "category": "core",
+ "summary": "Should we launch, and how? Validate the customer need and market, check the economics, then design the launch with the 4Ps (product, price, place, promotion) and a plan for risks such as cannibalisation.",
+ "opening_line": "I'd first confirm there's a real customer need and a big enough market, then check the product economics, and finally lay out the go-to-market plan: product, price, channels and promotion.",
+ "when_to_use": [
+  "Launching a new product or service",
+  "Designing a go-to-market or commercialisation plan",
+  "Expanding an existing product to new customers or channels"
+ ],
+ "when_not_to_use": [
+  "Entering a new geography with an existing product: use market entry",
+  "An existing product losing money: use profitability"
+ ],
+ "tree": {
+  "label": "Launch the product?",
+  "children": [
+   {
+    "label": "Customer & market",
+    "children": [
+     {
+      "label": "Target segments & need"
+     },
+     {
+      "label": "Market size & growth"
+     },
+     {
+      "label": "Competitive alternatives"
+     }
+    ]
+   },
+   {
+    "label": "Economics",
+    "children": [
+     {
+      "label": "Price & volume"
+     },
+     {
+      "label": "Costs & investment"
+     },
+     {
+      "label": "Breakeven / NPV"
+     },
+     {
+      "label": "Cannibalisation"
+     }
+    ]
+   },
+   {
+    "label": "Go-to-market (4Ps)",
+    "children": [
+     {
+      "label": "Product: features, positioning"
+     },
+     {
+      "label": "Price"
+     },
+     {
+      "label": "Place: channels, partners"
+     },
+     {
+      "label": "Promotion: awareness, launch"
+     }
+    ]
+   },
+   {
+    "label": "Capabilities & risks",
+    "children": [
+     {
+      "label": "Can we build / supply it?"
+     },
+     {
+      "label": "Regulatory"
+     },
+     {
+      "label": "Execution & timing"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Customer & market",
+   "questions": [
+    "Who is the customer, and what problem does it solve?",
+    "How big is that segment?"
+   ],
+   "data_to_ask": [
+    "Customer research",
+    "Market size"
+   ]
+  },
+  {
+   "name": "Economics",
+   "questions": [
+    "What price and volume, and when do we break even?",
+    "How much will it cannibalise existing products?"
+   ],
+   "data_to_ask": [
+    "Unit costs",
+    "Launch investment"
+   ]
+  },
+  {
+   "name": "4Ps",
+   "questions": [
+    "Which channels reach the target customer best?",
+    "What launch promotion?"
+   ],
+   "data_to_ask": [
+    "Channel economics",
+    "Marketing budget"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "cpg",
+   "note": "Retail distribution (slotting fees, shelf space) and trial / repeat rates drive success."
+  },
+  {
+   "industry": "tech-saas",
+   "note": "GTM motion: product-led vs sales-led; CAC payback; freemium conversion."
+  },
+  {
+   "industry": "automotive-ev",
+   "note": "Long development cycles; dealer vs direct sales; charging infrastructure and incentives."
+  }
+ ],
+ "common_mistakes": [
+  "Jumping to the 4Ps before proving demand and economics",
+  "Ignoring cannibalisation of existing products",
+  "No launch KPIs or success criteria"
+ ],
+ "related": [
+  "market-entry",
+  "pricing",
+  "customer-segmentation",
+  "breakeven",
+  "market-sizing"
+ ],
+ "match": {
+  "case_types": [
+   "New Product/GTM"
+  ],
+  "tags": [
+   "new-product",
+   "new-product-launch",
+   "channel-strategy",
+   "go-to-market"
+  ],
+  "keywords": [
+   "launch",
+   "product",
+   "channel",
+   "promotion"
+  ]
+ }
+}

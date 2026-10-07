@@ -1,0 +1,214 @@
+{
+ "id": "booth-2024-deepwater-inc",
+ "title": "Deepwater Inc.",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  131,
+  136
+ ],
+ "case_type": [
+  "Investment/PE due diligence",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "oil-gas",
+ "sub_industry": "downstream",
+ "industry_source_label": "Energy",
+ "geography": "Not specified",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3/3; Quant 1/3; Creativity 3/3",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "oil-refining",
+  "filter",
+  "payback",
+  "capital-investment",
+  "process-flow",
+  "sensitivity"
+ ],
+ "fit_question": "Why did you decide to come to Booth? Describe the best team you have ever had—what defined your experience?",
+ "prompt": "Deepwater, an oil-refining company, is considering a filtering unit that would transform residual oil into useful feedstock for gasoline production. Determine whether it should invest in the filter.",
+ "clarifying_info": [
+  {
+   "question_topic": "Process",
+   "answer": "Crude oil is the primary input; feedstock and fuel are secondary inputs; Oil 6 and residual are byproducts. Residual is waste without the filter, while the filter converts it to cracker feedstock."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "Gasoline has sufficient demand at a competitive market price; there is no outside market for Oil 6 or feedstock, though residual can be sold."
+  },
+  {
+   "question_topic": "Competition and environment",
+   "answer": "Many competitors have installed similar filters, and no significant environmental concern is currently identified."
+  }
+ ],
+ "interviewer_notes": "Candidate-led investment case that tests interpretation of an unfamiliar refinery flow. Have the candidate explain Exhibit 1 before discussing filter economics. Release investment, operating-cost, incremental-output and contribution inputs only when requested.",
+ "suggested_framework": {
+  "summary": "Compare refinery economics with and without the filter, then assess market and strategic risks.",
+  "tree": {
+   "label": "Filter investment",
+   "children": [
+    {
+     "label": "Without filter",
+     "children": [
+      {
+       "label": "Gasoline and residual revenue"
+      },
+      {
+       "label": "Crude, purchased fuel and conversion costs"
+      }
+     ]
+    },
+    {
+     "label": "With filter",
+     "children": [
+      {
+       "label": "Incremental gasoline contribution"
+      },
+      {
+       "label": "Capital, operating cost and foregone residual sales"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Gasoline, residual and fuel price volatility"
+      },
+      {
+       "label": "Regulation, environment and customer relationships"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "exhibit",
+   "interviewer_asks": "Walk through the refinery process in Exhibit 1 and explain what changes with the filter.",
+   "expected_answer": "Crude is distilled into gasoline and Oil 6; a second distillation produces feedstock for the cracker plus residual. Without the filter, residual is sold, discarded or used as fuel. The filter converts residual into additional cracker feedstock and fuel, increasing gasoline output.",
+   "good_answer_signals": [
+    "Identifies every input, byproduct and output",
+    "Explains the filter's incremental pathway"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether to invest?",
+   "expected_answer": "Compare incremental gasoline contribution with filter capital and operating costs and the opportunity cost of residual; compare residual sale value with purchased-fuel cost; then assess useful life, payback, price volatility, regulation and strategic risks.",
+   "good_answer_signals": [
+    "Frames with-versus-without economics",
+    "Includes opportunity cost and sensitivity"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "When should Deepwater burn residual rather than sell it and buy outside fuel?",
+   "expected_answer": "Use residual as fuel when the avoided cost of purchased fuel exceeds the residual sale price, after adjusting for handling or conversion differences. Otherwise sell the residual and buy fuel.",
+   "good_answer_signals": [
+    "Uses opportunity cost",
+    "Recognizes fuel price and availability risk"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "The filter costs $40M, lasts 20 years, costs $4M annually to operate, and produces 5,000 additional barrels per day at $4 contribution per barrel for 350 days per year. What are annual profit and payback?",
+   "expected_answer": "Incremental contribution is 5,000×$4×350=$7M annually. Cash operating profit is $7M-$4M=$3M, so simple payback is $40M/$3M=13.33 years. Straight-line depreciation is $2M annually, leaving $1M accounting profit after depreciation.",
+   "good_answer_signals": [
+    "Separates cash profit from depreciation",
+    "Computes 13.33-year payback"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Deepwater invest?",
+   "expected_answer": "The base case supports investment because $3M annual cash profit pays back the $40M within the 20-year useful life, but the 13.33-year payback is long. Proceed only after sensitivity-testing gasoline, residual and fuel prices, taxes, operating performance and environmental changes and confirming lost residual customers are manageable.",
+   "good_answer_signals": [
+    "States a conditional decision",
+    "Highlights the narrow, long-duration return"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Deepwater Refinery Operations",
+   "page": 133,
+   "kind": "other",
+   "description": "Process-flow diagram linking crude, two distillers, residual, the proposed filter, fuel, feedstock, the cracker and gasoline.",
+   "image_path": "exhibits/booth-2024-deepwater-inc/p133.webp",
+   "image_has_answers": false,
+   "key_insight": "The filter turns residual into additional cracker feedstock and fuel, enabling more gasoline output.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are the filter's annual economics and simple payback period?",
+   "givens": [
+    "$40M investment",
+    "20-year life",
+    "$4M annual operating cost",
+    "5,000 incremental barrels/day",
+    "$4 contribution/barrel",
+    "350 operating days/year"
+   ],
+   "steps": [
+    "Annual contribution=5,000×$4×350=$7M",
+    "Annual cash operating profit=$7M-$4M=$3M",
+    "Payback=$40M/$3M=13.33 years",
+    "Annual depreciation=$40M/20=$2M",
+    "Accounting profit after depreciation=$3M-$2M=$1M"
+   ],
+   "answer": "$3M annual cash operating profit, $1M accounting profit after depreciation, and 13.33-year simple payback",
+   "answer_value": 13.3333,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "The filter creates $7M of annual contribution and $3M of cash operating profit, producing a 13.33-year simple payback within its 20-year life and $1M annual accounting profit after depreciation. Invest only after sensitivity tests confirm the economics under gasoline, residual and fuel-price volatility, taxes, operating underperformance and environmental change.",
+ "what_great_looks_like": [
+  "Explains the refinery flow clearly",
+  "Uses incremental with-versus-without economics",
+  "Treats the long payback as a risk rather than an automatic yes"
+ ],
+ "common_pitfalls": [
+  "Counts depreciation as a cash outflow in payback",
+  "Ignores foregone residual sales",
+  "Recommends investment without sensitivity analysis"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Exhibit 1 is candidate-facing and contains no worked answer. The book rounds 13.33 years to approximately 13 years, which is reasonable; no substantive book error was identified. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "geography",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

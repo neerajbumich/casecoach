@@ -1,0 +1,72 @@
+{
+  "id": "automotive-ev",
+  "name": "Automotive & Electric Vehicles",
+  "group": "Travel & transport",
+  "one_liner": "Vehicle manufacturers and their suppliers, a capital-intensive, cyclical industry being reshaped by electrification, software, and shifting trade policy.",
+  "how_it_makes_money": "Automakers sell vehicles through franchised dealers (or directly, in the case of Tesla and some EV startups), earning margin on each unit plus captive financing income. Parts and service, software, and regulatory credits are additional revenue streams.",
+  "value_chain": [
+    "Raw materials and battery cells",
+    "Tier 1 and Tier 2 suppliers",
+    "Vehicle design and engineering",
+    "Assembly and manufacturing",
+    "Dealer or direct sales",
+    "Financing, service, and aftermarket"
+  ],
+  "revenue_formula": [
+    "Revenue = units sold × average transaction price (ATP) − incentives",
+    "Profit = units × (ATP − variable cost per unit) − fixed costs",
+    "Lifetime revenue = vehicle sale + financing + parts and service + software subscriptions"
+  ],
+  "cost_structure": [
+    "Materials and components: the dominant cost, with batteries a large share of EV cost",
+    "Labor: often unionized manufacturing workforce",
+    "R&D and engineering",
+    "Capital expenditure for plants and tooling",
+    "Warranty and recall costs",
+    "Marketing and dealer incentives"
+  ],
+  "margins": "Traditional automakers typically earn mid-single-digit operating margins, with trucks and SUVs far more profitable than small cars. Many EV programs remain less profitable than gas equivalents due to battery costs, while scale, product mix, and pricing discipline drive differences.",
+  "key_metrics": [
+    {"name": "Units sold / deliveries", "what": "Volume of vehicles sold, the primary scale metric."},
+    {"name": "Average transaction price (ATP)", "what": "Average price paid, reflecting mix and pricing power."},
+    {"name": "Incentive spend per unit", "what": "Discounts needed to move vehicles, a sign of demand strength."},
+    {"name": "Days supply of inventory", "what": "How many days of sales dealers hold, signaling demand-supply balance."},
+    {"name": "Battery cost per kWh", "what": "Key driver of EV cost competitiveness."},
+    {"name": "Capacity utilization", "what": "How fully plants are used, driving fixed-cost absorption."}
+  ],
+  "trends": [
+    "EV adoption slower than expected in the US, with automakers scaling back targets and pivoting to hybrids",
+    "Chinese automakers such as BYD gaining global share with low-cost EVs",
+    "Tariffs and trade policy reshaping supply chains and plant locations",
+    "Software-defined vehicles and driver assistance as future revenue sources",
+    "Battery supply chain localization and new chemistries",
+    "Robotaxi and autonomous driving commercialization efforts"
+  ],
+  "key_players": [
+    "Toyota",
+    "Volkswagen Group",
+    "General Motors",
+    "Ford",
+    "Stellantis",
+    "Hyundai-Kia",
+    "Tesla",
+    "BYD",
+    "Honda",
+    "Rivian"
+  ],
+  "case_angles": [
+    {"question": "A traditional automaker's EV division is losing money; what should it do?", "framework_id": "profitability"},
+    {"question": "Should an automaker build a new battery plant in the US?", "framework_id": "investment-npv"},
+    {"question": "How should a US automaker respond to low-cost Chinese EVs entering its markets?", "framework_id": "competitive-response"},
+    {"question": "Estimate the number of EV charging stations needed in the US by 2035.", "framework_id": "market-sizing"}
+  ],
+  "interview_hooks": [
+    "Should legacy automakers slow their EV investments or push through the slowdown?",
+    "Is the franchised dealer model sustainable versus direct-to-consumer sales?",
+    "Can Western automakers compete on cost with Chinese EV makers?"
+  ],
+  "news": {
+    "keywords": ["automaker", "electric vehicle", "ev sales", "auto tariffs", "car sales", "hybrid vehicles", "ev charging", "battery plant", "auto industry", "robotaxi"],
+    "companies": ["Tesla", "General Motors", "Ford", "Stellantis", "Toyota", "Volkswagen", "Hyundai", "BYD", "Honda", "Rivian", "Lucid"]
+  }
+}

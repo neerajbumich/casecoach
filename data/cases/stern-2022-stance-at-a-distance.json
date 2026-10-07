@@ -1,0 +1,511 @@
+{
+ "id": "stern-2022-stance-at-a-distance",
+ "title": "Stance at a Distance",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  68,
+  81
+ ],
+ "author": "Natalie Ashbridge, Cortne Edmonds, Stan Tunstall (Stern '21)",
+ "case_type": [
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Reducing Costs",
+ "industry": "education",
+ "sub_industry": "k12",
+ "industry_source_label": "Education (Public Sector)",
+ "geography": "Philadelphia, United States",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 4/10; Structure 7/10; higher dimension 7 mapped using round(7/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "cost-reduction",
+  "education",
+  "staffing",
+  "benchmarking",
+  "funding-gap",
+  "implementation-risk",
+  "digital-learning"
+ ],
+ "prompt": "Our firm has just wrapped up a project with The Stance School, which offers K-12 education in Philadelphia, to help them with developing two major strategic initiatives. The first initiative, which is the priority, is an e-learning platform for their students to facilitate remote learning, in response to a global pandemic that resulted in students having to take classes from home for the last few months of the school year. The other initiative is a professional development tool to help the teachers with developing and effectively providing a remote curriculum to the students. The team that worked on the strategic planning determined that the cost would be $1M. You are now tasked with determining how these initiatives will be funded within the next year and whether or not the school should move forward with this project.",
+ "clarifying_info": [
+  {
+   "question_topic": "Timing",
+   "answer": "The case is set in first-half 2020. Launch at the start of 2020–2021 school year. Latest income statement is FY2018."
+  },
+  {
+   "question_topic": "School and students",
+   "answer": "Stance is a private lower/upper K–12 school in a major U.S. city, with 1,000 mostly middle-to-upper-middle-class students. Approximately 10% receive scholarships."
+  },
+  {
+   "question_topic": "Funding constraints",
+   "answer": "Do not separately model ongoing program costs: the source says $1m annual savings should cover ongoing run-rate. Endowment is earmarked for specific purposes and long-term security and is unavailable for these initiatives."
+  }
+ ],
+ "interviewer_notes": "Can also be administered interviewer-led in the supplied sequence. Guide toward revenue/expenses and internal funding, given the short deadline. Give Exhibits 1 and 2 together only when requested, then staffing Exhibit 3 and ratio Exhibit 4. Exhibit 3 is qualitative prioritization, not a demand to total every salary. If asked why payroll differs from the income statement, explain that salary/wages/benefits includes benefits typically about 50% of salary. If scholarships are proposed for cuts, warn that grant revenue would fall materially. After savings, prompt structured layoff-risk and gap-funding brainstorms if not volunteered. Source rewards at least 9 ideas with 1–2 creative examples but does not itself supply that many; do not invent required source answers. Either proceed or defer is acceptable with consistent reasoning.",
+ "suggested_framework": {
+  "summary": "Explore external funding and internal cash generation or cost reductions, respecting restricted funds.",
+  "tree": {
+   "label": "Fund the $1m initiatives within one year",
+   "children": [
+    {
+     "label": "External public sources",
+     "children": [
+      {
+       "label": "Appropriations and grants, subject to eligibility"
+      }
+     ]
+    },
+    {
+     "label": "External private sources",
+     "children": [
+      {
+       "label": "Donations and loans"
+      },
+      {
+       "label": "Endowment excluded after clarification because restricted"
+      }
+     ]
+    },
+    {
+     "label": "Internal revenue",
+     "children": [
+      {
+       "label": "Tuition and alumni giving"
+      }
+     ]
+    },
+    {
+     "label": "Internal savings",
+     "children": [
+      {
+       "label": "Capital spending and operating expenses"
+      },
+      {
+       "label": "Staffing efficiency without harming students"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How could Stance fund these initiatives within the next year?",
+   "release_when": "After the prompt; clarifications on request.",
+   "info_to_release": "$1m funding need; priority student platform plus teacher development.1,000 students, about 10% on scholarships. Private K–12 school; case dateH1 2020 and launch 2020–2021. Endowment unavailable; no separate ongoing-program-cost calculation needed.",
+   "expected_answer": "Consider internal revenue/savings and external public/private support. Given timing, investigate existing revenue and expenses first. Tuition, giving, grants, appropriations and loans are possible branches, but constraints must be checked; do not use restricted endowment.",
+   "good_answer_signals": [
+    "Connects funding options to timing and restrictions."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What do financial and enrollment benchmarks imply?",
+   "release_when": "Provide Exhibits 1 and 2 together when the candidate asks to evaluate finances.",
+   "info_to_release": "FY2018 line items and tuition/enrollment charts are supplied. Stance receives 100% of eligible grants; grants are not allocated to school expenses. Compare expense shares of tuition and fees. If scholarship cuts arise, explain that they would materially reduce grant funding.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Stance has the highest tuition and declining enrollment, making further tuition hikes risky; additional eligible grants are exhausted. Normalize expenses to tuition/fees: Stance student services 15%, pay/benefits 35%, scholarships 30%, maintenance 20%; Rittenhouse 15%/25%/40%/20%; Chestnut 12%/23%/40%/25%. Pay/benefits is the largest Stance expense and disproportionate to peers. Investigate roles, salaries, headcount and staffing growth versus enrollment rather than compare absolute costs alone.",
+   "good_answer_signals": [
+    "Normalizes for different school sizes.",
+    "Uses revenue constraints to justify cost focus."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Which staffing categories warrant closer examination?",
+   "release_when": "Give Exhibit 3 after identifying salaries as the priority.",
+   "info_to_release": "Role salaries, Stance headcounts and competitor average headcounts are in Exhibit 3. If asked about income-statement reconciliation, benefits typically add approximately 50% to salaries.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Several non-teaching categories are above peers: administrative assistants, custodians, guidance counselors, IT technicians and librarians; teacher aides are also above peers. Teachers are below peers. Prioritize further investigation of roles with potentially lower academic disruption, not simply the largest gross savings. Request student-to-role benchmarks and assess effects on student support before reducing headcount. A guidance counselor or librarian is not automatically non-student-facing.",
+   "good_answer_signals": [
+    "Balances efficiency with educational and mental-health impact."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What annual savings result from meeting Exhibit 4's student-to-staff ratios?",
+   "release_when": "Provide Exhibit 4 after the staffing discussion.",
+   "info_to_release": "1,000 students. Assistant: salary $45k,3 staff,500 students/staff. Custodian:$40k,17 staff,100/staff. Counselor:$65k,15 staff,100/staff. IT:$60k,6 staff,200/staff. Librarian:$50k,8 staff,250/staff. Exhibit 3 separately listed librarian salary $60k; use the specific Exhibit 4 calculation input $50k while flagging the conflict.",
+   "exhibit_ids": [
+    "ex4"
+   ],
+   "expected_answer": "Target headcounts 2,10,10,5,4 imply reductions 1,7,5,1,4, totaling 18 positions across 5 role categories. Salary savings are $45k+$280k+$325k+$60k+$200k=$910k annually. Gap to $1m is $90k before transition costs. This is salary-only: whether benefit costs are avoidable is not supplied, so do not automatically add 50% savings. Cutting 5 role categories does not mean eliminating every employee in those roles.",
+   "good_answer_signals": [
+    "Uses student ratios rather than competitor averages from the prior exhibit.",
+    "Distinguishes salary run-rate savings from first-year net savings."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What risks and costs accompany these reductions?",
+   "release_when": "After calculating savings; prompt if not volunteered.",
+   "info_to_release": "No quantified transition-cost data is provided.",
+   "expected_answer": "Financial risks include severance, pensions and union negotiations. Non-financial risks include timing of reductions and budget realization, adverse publicity, enrollment declines and student mental-health outcomes. Consider how reduced staffing affects implementation and services; structure the discussion rather than offering a laundry list.",
+   "good_answer_signals": [
+    "Connects implementation timing and enrollment risks to available funds."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Stance close the $90k salary-only funding gap?",
+   "release_when": "After the risk discussion.",
+   "info_to_release": "Baseline gap is $90k/year before transition effects or verified benefit savings.",
+   "expected_answer": "Options include lobbying for new appropriations, licensing the learning or training platform to other schools, paid remote tutoring or classes, donations from students/parents/alumni/others, and targeted high-net-worth gifts with naming opportunities. Existing grant eligibility is exhausted, so new appropriations or new programs should not be confused with unclaimed existing grants. Assess speed and feasibility before committing.",
+   "good_answer_signals": [
+    "Returns to the original framework for additional funding routes."
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "Should the school move forward?",
+   "release_when": "After funding, staffing and implementation analysis.",
+   "info_to_release": "No new information.",
+   "expected_answer": "Proceed conditionally if staffing changes are educationally acceptable and the $90k gap plus transition effects can be financed. The source identifies $910k annual salary savings from 18 positions in 5 categories. Validate benefits, severance, timing, enrollment and service effects; review contracts, confirm next-school-year savings and secure alternative support. Deferral is also defensible if reliable funding or student safeguards cannot be established, but consider the cost of missing needed remote-learning technology.",
+   "good_answer_signals": [
+    "Gives a reasoned decision without claiming the full $1m is already secured."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "FY2018 income statement line items",
+   "page": 76,
+   "kind": "table",
+   "description": "Values in USD thousands. Stance receives all eligible grants; grants are not allocated to school expenses. Table contains supplied line items, not calculated ratios.",
+   "data": {
+    "columns": [
+     "Line item",
+     "Stance",
+     "Rittenhouse Prep",
+     "Chestnut Hill Day"
+    ],
+    "rows": [
+     [
+      "Tuition and fees",
+      35000,
+      14500,
+      29000
+     ],
+     [
+      "Grant revenue",
+      5250,
+      2175,
+      4350
+     ],
+     [
+      "Student services",
+      5250,
+      2175,
+      3480
+     ],
+     [
+      "Salaries wages benefits",
+      12250,
+      3625,
+      6670
+     ],
+     [
+      "Scholarships fellowships",
+      10500,
+      5800,
+      11600
+     ],
+     [
+      "Maintenance",
+      7000,
+      2900,
+      7250
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-stance-at-a-distance/p076.webp",
+   "key_insight": "Salary expense is unusually high relative to tuition; restricted grants do not provide an obvious unrestricted surplus.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Tuition and enrollment trends versus peers",
+   "page": 77,
+   "kind": "line",
+   "description": "Two unlabeled-point line charts for 2015–2019. Stance tuition rises from about $30k to $35k and is highest; its enrollment falls toward 1,000 while peers rise. Exact intermediate data points are not printed and are omitted rather than guessed.",
+   "data": {
+    "columns": [
+     "School",
+     "Tuition trend",
+     "Enrollment trend"
+    ],
+    "rows": [
+     [
+      "Stance",
+      "Highest and increasing",
+      "Declining"
+     ],
+     [
+      "Rittenhouse Prep",
+      "Increasing below Stance",
+      "Increasing"
+     ],
+     [
+      "Chestnut Hill Day",
+      "Increasing below Stance",
+      "Increasing"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-stance-at-a-distance/p077.webp",
+   "key_insight": "Higher tuition alongside falling enrollment limits confidence in further price increases.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Roles, salaries and peer headcount",
+   "page": 79,
+   "kind": "table",
+   "description": "Supplied salaries and headcount benchmarks; librarian salary here differs from Exhibit 4.",
+   "data": {
+    "columns": [
+     "Role",
+     "Salary (USD)",
+     "Stance headcount",
+     "Competitor average headcount"
+    ],
+    "rows": [
+     [
+      "Administrative assistant",
+      45000,
+      3,
+      2
+     ],
+     [
+      "After-school coordinator",
+      40000,
+      4,
+      5
+     ],
+     [
+      "Assistant dean",
+      80000,
+      2,
+      2
+     ],
+     [
+      "Custodian/maintenance",
+      40000,
+      17,
+      10
+     ],
+     [
+      "Dean",
+      90000,
+      1,
+      1
+     ],
+     [
+      "Food service specialist",
+      35000,
+      10,
+      12
+     ],
+     [
+      "Guidance counselor",
+      65000,
+      15,
+      9
+     ],
+     [
+      "IT technician",
+      60000,
+      6,
+      3
+     ],
+     [
+      "Librarian",
+      60000,
+      8,
+      5
+     ],
+     [
+      "Nurse",
+      50000,
+      4,
+      5
+     ],
+     [
+      "Teacher",
+      75000,
+      50,
+      55
+     ],
+     [
+      "Teacher aide",
+      40000,
+      25,
+      20
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-stance-at-a-distance/p079.webp",
+   "key_insight": "Investigate overrepresented roles alongside educational impact, not salary alone.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex4",
+   "title": "Student-to-headcount benchmark ratios",
+   "page": 81,
+   "kind": "table",
+   "description": "Specific savings-calculation inputs for five role categories. No target headcounts or computed savings are included.",
+   "data": {
+    "columns": [
+     "Role",
+     "Salary (USD)",
+     "Current headcount",
+     "Students per staff benchmark"
+    ],
+    "rows": [
+     [
+      "Administrative assistant",
+      45000,
+      3,
+      500
+     ],
+     [
+      "Custodian/maintenance",
+      40000,
+      17,
+      100
+     ],
+     [
+      "Guidance counselor",
+      65000,
+      15,
+      100
+     ],
+     [
+      "IT technician",
+      60000,
+      6,
+      200
+     ],
+     [
+      "Librarian",
+      50000,
+      8,
+      250
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-stance-at-a-distance/p081.webp",
+   "key_insight": "Divide 1,000 students by each ratio to determine retained staffing, then calculate salary savings.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How do expense ratios compare?",
+   "givens": [
+    "Exhibit 1 expenses and tuition/fees"
+   ],
+   "steps": [
+    "Stance:5250/35000=15%;12250/35000=35%;10500/35000=30%;7000/35000=20%.",
+    "Rittenhouse:2175/14500=15%;3625/14500=25%;5800/14500=40%;2900/14500=20%.",
+    "Chestnut:3480/29000=12%;6670/29000=23%;11600/29000=40%;7250/29000=25%."
+   ],
+   "answer": "Stance's pay/benefits ratio 35% exceeds peers 25% and 23%.",
+   "answer_value": 35,
+   "unit": "% of Stance tuition and fees",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much salary can be saved using Exhibit 4?",
+   "givens": [
+    "1,000 students and Exhibit 4 salary/headcount/ratio inputs"
+   ],
+   "steps": [
+    "Assistant target 1000/500=2; reduce 1×$45k=$45k.",
+    "Custodian target 1000/100=10; reduce 7×$40k=$280k.",
+    "Counselor target 1000/100=10; reduce 5×$65k=$325k.",
+    "IT target 1000/200=5; reduce 1×$60k=$60k.",
+    "Librarian target 1000/250=4; reduce 4×$50k=$200k.",
+    "Total 18 positions, annual salary savings $910k."
+   ],
+   "answer": "$910,000 annual salary savings using the dedicated calculation exhibit.",
+   "answer_value": 910000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What funding gap remains?",
+   "givens": [
+    "$1m objective",
+    "$910k annual salary savings"
+   ],
+   "steps": [
+    "$1,000,000−$910,000=$90,000."
+   ],
+   "answer": "$90,000 annual gap before transition costs and any separately verified avoidable benefits.",
+   "answer_value": 90000,
+   "unit": "USD/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Conditionally proceed if student services are protected and the remaining funding is secured. Exhibit 4 supports $910k annual salary savings from 18 positions across 5 categories, leaving $90k against the $1m target before transition costs. Confirm conflicting librarian salary data, avoidable benefits, contractual costs, timing and enrollment effects. Seek donations or appropriate platform-related revenue, review contracts and finalize next-year allocations. Deferral is reasonable if funding or educational safeguards remain unresolved.",
+ "what_great_looks_like": [
+  "Normalizes costs to tuition instead of comparing school totals.",
+  "Balances staffing efficiency with academic and student-support consequences.",
+  "Distinguishes 18 positions from 5 categories.",
+  "Returns to the funding framework when salary savings fall short."
+ ],
+ "common_pitfalls": [
+  "Using the restricted endowment.",
+  "Assuming grant headroom despite full eligibility utilization.",
+  "Using competitor headcount instead of the specific student ratios.",
+  "Adding 50% benefits to savings without establishing avoidability.",
+  "Treating run-rate salary savings as immediate first-year cash."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (exact unlabeled yearly chart points omitted)"
+  ],
+  "math_verified": true,
+  "notes": "All four candidate exhibits and two worked-answer pages visually inspected; images point only to candidate pages 76,77,79,81. Source inconsistency: librarian salary is $60k on Exhibit 3 but $50k on Exhibit 4; use the specific Exhibit 4 input for its requested savings, matching $910k/$90k source answers. Benefits are approximately 50% in a separate reconciliation note, but avoidable benefit savings are not specified. Exhibit 3 payroll totals $8.34m;50% uplift gives $12.51m versus $12.25m statement, consistent with approximate rather than exact 50% benefits. Source's 'eliminate 5 roles' means 18 positions across 5 categories, not every role-holder. School is explicitly private despite Public Sector label; client_type omitted because legal nonprofit/for-profit status is not stated. Source chart note says four schools though three are shown; no missing school invented. Difficulty uses higher rating 7 mapped to 4; math in math-stern-stance.py. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "difficulty (higher-dimension aggregation)",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "stages[3].expected_answer (benefit/timing caveat)",
+   "synthesis (conditional safeguards)"
+  ]
+ }
+}

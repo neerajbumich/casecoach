@@ -1,0 +1,124 @@
+{
+  "id": "ai-cloud",
+  "name": "AI & Cloud Computing",
+  "group": "Tech & media",
+  "one_liner": "Hyperscale providers renting compute, storage, and AI models on demand, an industry defined by massive capital spending and economies of scale.",
+  "how_it_makes_money": "Cloud providers charge on a pay-as-you-go or committed-spend basis for compute, storage, networking, databases, and managed services. AI revenue comes from renting GPU capacity, selling model access by token or API call, and subscriptions to AI assistants and enterprise AI products.",
+  "value_chain": [
+    "Chips and hardware",
+    "Data centers and power",
+    "Cloud infrastructure (IaaS)",
+    "Platforms and foundation models",
+    "AI applications and services",
+    "Enterprise and consumer users"
+  ],
+  "revenue_formula": [
+    "Cloud revenue = customers × committed or consumed spend per customer",
+    "Compute revenue = installed capacity × utilization × price per hour",
+    "Model API revenue = tokens processed × price per token"
+  ],
+  "cost_structure": [
+    "Capital expenditure: servers, GPUs, and data-center construction, depreciated over several years",
+    "Energy and cooling: a growing and strategically critical cost as AI workloads are power-hungry",
+    "Chips: accelerators (mostly NVIDIA GPUs, plus custom silicon) dominate AI capex",
+    "R&D and talent: model training runs and scarce, expensive AI researchers",
+    "Network and bandwidth: fiber, interconnects, and data transfer"
+  ],
+  "margins": "Mature hyperscale cloud businesses earn roughly 30-40%+ operating margins, while frontier AI model developers are typically loss-making because training and inference costs outpace revenue. Scale, utilization, and custom silicon drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Capital expenditure (capex)",
+      "what": "Spend on data centers and chips; signals capacity bets and future depreciation burden."
+    },
+    {
+      "name": "Cloud revenue growth",
+      "what": "Year-over-year growth of the cloud segment; the most watched indicator of demand."
+    },
+    {
+      "name": "Backlog / remaining performance obligations (RPO)",
+      "what": "Contracted future revenue; shows demand visibility beyond the current quarter."
+    },
+    {
+      "name": "Utilization",
+      "what": "Share of installed compute that is actively rented; the main lever on return on capital."
+    },
+    {
+      "name": "Cost per token / inference cost",
+      "what": "What it costs to serve a model response; determines AI product unit economics."
+    },
+    {
+      "name": "Power capacity (MW/GW)",
+      "what": "Secured electrical capacity for data centers; increasingly the binding constraint on growth."
+    }
+  ],
+  "trends": [
+    "Unprecedented AI data-center capex by hyperscalers, with investors debating the return on that spend",
+    "Power availability and grid connections becoming the bottleneck for new capacity",
+    "Custom AI chips from hyperscalers aiming to reduce dependence on NVIDIA",
+    "Rise of specialized GPU clouds (neoclouds) and large multi-year compute contracts with model labs",
+    "Rapidly falling price per unit of model capability, pushing competition toward applications and agents",
+    "Sovereign AI and data-residency rules driving regional cloud investment"
+  ],
+  "key_players": [
+    "Amazon Web Services",
+    "Microsoft Azure",
+    "Google Cloud",
+    "Oracle Cloud",
+    "OpenAI",
+    "Anthropic",
+    "Meta",
+    "NVIDIA",
+    "CoreWeave",
+    "Alibaba Cloud"
+  ],
+  "case_angles": [
+    {
+      "question": "A hyperscaler is deciding whether to build a new multi-billion-dollar AI data center; should it invest?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "How should an AI model provider price its API for enterprise customers?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "A traditional enterprise wants to migrate to the cloud and adopt AI; how should it prioritize?",
+      "framework_id": "growth-strategy"
+    },
+    {
+      "question": "Estimate the number of GPUs needed to serve a popular AI assistant.",
+      "framework_id": "market-sizing"
+    }
+  ],
+  "interview_hooks": [
+    "Is current AI infrastructure spending a sustainable build-out or an overinvestment cycle?",
+    "Where will value accrue in AI: chips, clouds, models, or applications?",
+    "Will open-weight models commoditize frontier model providers?"
+  ],
+  "news": {
+    "keywords": [
+      "hyperscaler",
+      "cloud computing",
+      "ai data center",
+      "gpu",
+      "large language model",
+      "generative ai",
+      "ai capex",
+      "inference",
+      "foundation model",
+      "ai chips",
+      "neocloud"
+    ],
+    "companies": [
+      "Amazon Web Services",
+      "Microsoft Azure",
+      "Google Cloud",
+      "Oracle",
+      "OpenAI",
+      "Anthropic",
+      "NVIDIA",
+      "CoreWeave",
+      "Meta",
+      "xAI"
+    ]
+  }
+}

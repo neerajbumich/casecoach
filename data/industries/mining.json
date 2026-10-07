@@ -1,0 +1,124 @@
+{
+  "id": "mining",
+  "name": "Mining & Metals",
+  "group": "Energy & resources",
+  "one_liner": "Extracting and processing minerals and metals, a price-taking, capital-intensive business where position on the cost curve determines survival.",
+  "how_it_makes_money": "Miners sell ore, concentrates or refined metal at global commodity prices, often benchmarked to exchanges such as the LME. Profits depend on the gap between price and all-in cost per unit, so low-cost, long-life assets are the prize. Some companies also earn processing, smelting or royalty and streaming income.",
+  "value_chain": [
+    "Exploration and resource definition",
+    "Mine development and permitting",
+    "Extraction (open-pit or underground)",
+    "Processing and concentration",
+    "Smelting and refining",
+    "Sales and trading"
+  ],
+  "revenue_formula": [
+    "Revenue = ore mined × grade × recovery rate × realized metal price",
+    "Revenue = tonnes sold × price per tonne (bulk commodities like iron ore and coal)"
+  ],
+  "cost_structure": [
+    "Labor: large workforce, often unionized",
+    "Energy and fuel: diesel for haul trucks and power for processing",
+    "Equipment and maintenance: haul trucks, shovels, mills",
+    "Consumables: explosives, reagents, tires",
+    "Royalties and taxes to governments",
+    "Sustaining and growth capex, plus closure and reclamation"
+  ],
+  "margins": "Very cyclical: low-cost producers can earn strong margins at the top of the cycle while high-cost mines lose money in downturns. Ore grade, cost curve position, jurisdiction and scale drive the spread.",
+  "key_metrics": [
+    {
+      "name": "All-in sustaining cost (AISC)",
+      "what": "Full cost per ounce or pound to maintain output, the standard gold and copper benchmark."
+    },
+    {
+      "name": "Cost curve position (quartile)",
+      "what": "Where a mine sits versus global supply; first-quartile assets survive downturns."
+    },
+    {
+      "name": "Ore grade",
+      "what": "Metal content per tonne of ore; declining grades raise costs."
+    },
+    {
+      "name": "Recovery rate",
+      "what": "Share of metal extracted from ore during processing."
+    },
+    {
+      "name": "Reserve life (years)",
+      "what": "How long current reserves last at present production."
+    },
+    {
+      "name": "Strip ratio",
+      "what": "Waste moved per tonne of ore, a key driver of open-pit costs."
+    }
+  ],
+  "trends": [
+    "Energy transition demand for copper, lithium, nickel and rare earths",
+    "Critical minerals policy and supply chain security, especially reducing reliance on China",
+    "Declining ore grades and long permitting times constraining new supply",
+    "Large-scale consolidation as majors buy copper exposure",
+    "Automation and electrification of mine fleets",
+    "ESG, community relations and tailings safety as license to operate"
+  ],
+  "key_players": [
+    "BHP",
+    "Rio Tinto",
+    "Glencore",
+    "Vale",
+    "Anglo American",
+    "Freeport-McMoRan",
+    "Newmont",
+    "Barrick",
+    "Albemarle",
+    "Nucor"
+  ],
+  "case_angles": [
+    {
+      "question": "A copper miner's costs are rising faster than peers; how do you fix it?",
+      "framework_id": "cost-reduction"
+    },
+    {
+      "question": "Should a diversified miner acquire a lithium producer?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "Should we develop a new mine given a 15-year commodity price outlook?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "How will EV adoption affect copper supply and demand?",
+      "framework_id": "supply-demand"
+    }
+  ],
+  "interview_hooks": [
+    "Will critical mineral shortages slow the energy transition?",
+    "Is vertical integration into refining worth it for Western miners?",
+    "Should miners chase growth through M&A or new projects?"
+  ],
+  "news": {
+    "keywords": [
+      "mining",
+      "miner",
+      "copper",
+      "lithium",
+      "iron ore",
+      "gold mine",
+      "rare earths",
+      "critical minerals",
+      "smelter",
+      "nickel",
+      "coal mine"
+    ],
+    "companies": [
+      "BHP",
+      "Rio Tinto",
+      "Glencore",
+      "Vale",
+      "Anglo American",
+      "Freeport-McMoRan",
+      "Newmont",
+      "Barrick",
+      "Albemarle",
+      "Teck"
+    ]
+  }
+}

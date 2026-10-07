@@ -1,0 +1,367 @@
+{
+ "id": "kellogg-2024-wine-co",
+ "title": "Wine & Co",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  381,
+  390
+ ],
+ "author": "Anil Goteti (Kellogg 2011); edited by Mauricio Atri (Kellogg 2012), Laura Mast (Kellogg 2020)",
+ "case_type": [
+  "New Product/GTM",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Y06 Opportunity assessment",
+ "industry": "cpg",
+ "sub_industry": "alcoholic-beverages",
+ "industry_source_label": "X02 Agriculture & Food",
+ "geography": "San Francisco Bay Area, United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "npv",
+  "perpetuity",
+  "time-value-of-money",
+  "rule-of-72",
+  "product-decision",
+  "marketing-strategy",
+  "land-use"
+ ],
+ "concepts_tested": [
+  "Net Present Value",
+  "Marketing strategy"
+ ],
+ "fit_question": "Tell me about a time when you faced conflict in a team setting.",
+ "prompt": "Wine & Co is a niche wine manufacturer in the San Francisco Bay area. Wine & Co recently acquired 12 acres of land outside San Francisco. The company wants to investigate opportunities to best use the land and needs a recommendation from you. What are the different ways in which Wine & Co can use the land?",
+ "clarifying_info": [
+  {
+   "question_topic": "Product",
+   "answer": "Wine & Co only manufactures red wines; the company does not sell any other products."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "The company serves only the local market (the San Francisco Bay area)."
+  },
+  {
+   "question_topic": "Company health",
+   "answer": "The company is currently very healthy and does not face any problems."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led case. Problem: How can Wine & Co maximize the value of its newly acquired land? Problem-solving steps: (1) develop a structure to address the problem, (2) identify the most profitable product, (3) determine the preferred product for manufacturing (accounting for aging/time value of money), (4) recommend a marketing strategy, (5) provide a client recommendation.",
+ "suggested_framework": {
+  "summary": "Options framework for the land (manufacture wine vs. adjacent products vs. alternative land uses), narrowing into a profitability and NPV comparison between two wine varietals.",
+  "tree": {
+   "label": "Best use of the 12 acres",
+   "children": [
+    {
+     "label": "Manufacture wine",
+     "children": [
+      {
+       "label": "Which varietal? (yield, price, margin)"
+      },
+      {
+       "label": "Aging / time-to-revenue by varietal"
+      }
+     ]
+    },
+    {
+     "label": "Adjacent products",
+     "children": [
+      {
+       "label": "Wine tasting tours"
+      }
+     ]
+    },
+    {
+     "label": "Alternative land uses",
+     "children": [
+      {
+       "label": "Commercial real estate"
+      },
+      {
+       "label": "Sell the land"
+      },
+      {
+       "label": "Other opportunity costs"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What are the different ways in which Wine & Co can use the land?",
+   "expected_answer": "Candidate should structure the range of options: manufacturing wine, creating adjacent products (e.g., wine tasting tours), or using the land for other purposes (commercial real estate, selling the land, or other opportunity costs). A strong candidate builds a detailed profitability framework for the manufacturing option (grape yield, cost per liter, etc.) and flags considerations like land usability for manufacturing or the company's competency in pursuing options unrelated to wine.",
+   "good_answer_signals": [
+    "Generates multiple distinct categories of land use, not just wine manufacturing",
+    "Customizes a profitability framework specifically for wine manufacturing (yield, cost/liter)",
+    "Flags feasibility/competency risks for options outside the company's core business"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Wine & Co has decided to use the land to manufacture wine. Each acre produces 1,000kg of grapes annually, and the company can manufacture either Merlot or Bordeaux. Which wine yields more profit annually?",
+   "release_when": "When asked, provide profit margins: 10% for Merlot, 15% for Bordeaux.",
+   "info_to_release": "Merlot grapes yield 2 liters/kg and sell for $20/liter; Bordeaux grapes yield 1 liter/kg and sell for $40/liter.",
+   "expected_answer": "Both wines generate $480,000 in annual revenue from the 12 acres, but Bordeaux's higher 15% margin yields $72,000 in annual profit versus Merlot's $48,000 at a 10% margin (see math step m1). A good candidate proactively asks for margins/costs, organizes the calculation in a table, and interprets the result -- a strong candidate recommends Bordeaux on profit alone while noting other factors to weigh (manufacturing competency, local demand, sensitivity to yields, customer reservation price) and a creative candidate flags that the two wines' aging times could change the picture.",
+   "good_answer_signals": [
+    "Correctly computes both wines land to the same $480,000 revenue",
+    "Correctly computes Bordeaux's higher annual profit ($72,000 vs. $48,000)",
+    "Proactively raises that aging/timing could change which wine is actually preferable"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Aging has an effect on revenues and profitability: Merlot must be stored for 6 years and Bordeaux for 12 years before revenue can be generated. Which wine would you choose for manufacturing now?",
+   "release_when": "When asked, provide the discount rate (12%) and note that costs are only incurred when revenue is realized after aging (no costs until year 6 for Merlot, year 12 for Bordeaux).",
+   "expected_answer": "Treating each wine's $48,000/$72,000 annual profit as a perpetuity starting once aging completes, the perpetuity value at year 6 for Merlot is $48,000/0.12 = $400,000, and at year 12 for Bordeaux is $72,000/0.12 = $600,000. Discounting Bordeaux's year-12 value back to year 6 (using the Rule of 72 approximation, since 72/12% = 6 years to double/halve value) gives ~$300,000. Since $400,000 (Merlot) > $300,000 (Bordeaux) on a comparable, present-value basis, the company should manufacture Merlot despite its lower raw annual profit -- because it starts generating cash flow 6 years sooner. Strong candidates interpret the result and raise factors like inventory costs or sensitivity to the discount rate.",
+   "good_answer_signals": [
+    "Correctly treats each wine's cash flow as a perpetuity and computes its value at the year revenue begins",
+    "Discounts the two wines' values to a common year before comparing them",
+    "Concludes Merlot despite its lower nominal annual profit, and explains why (earlier cash flow start)"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Wine & Co has decided to manufacture Merlot. How should they market this product in the San Francisco Bay area?",
+   "info_to_release": "The customer segment currently served by Wine & Co is niche wine enthusiasts.",
+   "expected_answer": "Candidate should ask which customer segments the company might target and propose a MECE set of marketing channels/strategies: retail strategies, direct-to-consumer strategies (wine clubs, wine tasting), traditional media/print advertising, and online advertising.",
+   "good_answer_signals": [
+    "Confirms the target customer segment before brainstorming channels",
+    "Produces a MECE list of channels rather than a random assortment",
+    "Explicitly includes both traditional and digital/direct channels"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to Wine & Co?",
+   "expected_answer": "Recommend manufacturing Merlot, since its present value ($400,000 at year 6) exceeds Bordeaux's comparable present value (~$300,000), even though Bordeaux has the higher raw annual profit. Excellent candidates detail risks and next steps: market research, land usability testing, and evaluation of opportunity costs. Outstanding candidates additionally raise the opportunity cost of not selling/leasing the land given Bay Area/Napa land values, industry-specific issues like wine aging, time value of money/perpetuity considerations, risks like customer demand and land usability, and the potential benefit of diversifying the acreage across multiple grape varietals to hedge against shifts in consumer demand and broaden local market appeal.",
+   "good_answer_signals": [
+    "Recommends Merlot and ties the recommendation back to the year-6 PV comparison, not just raw annual profit",
+    "Proposes concrete next steps (market research, land testing, opportunity-cost analysis)",
+    "Raises at least one 'outstanding' consideration: land opportunity cost, discount-rate sensitivity, or acreage diversification"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Math working for Part 2 (profitability by varietal)",
+   "page": 386,
+   "kind": "table",
+   "description": "Step-by-step math table showing total grapes produced (12 acres x 1,000kg/acre = 12,000kg) and, for Merlot vs. Bordeaux, yield (liter/kg), total yield, price/liter, total revenue, profit margin, and total profit.",
+   "data": {
+    "columns": [
+     "Row",
+     "Description",
+     "Merlot",
+     "Bordeaux"
+    ],
+    "rows": [
+     [
+      "D",
+      "Yield (Liter/kg)",
+      2,
+      1
+     ],
+     [
+      "E",
+      "Total Yield (Liter) [C x D]",
+      24000,
+      12000
+     ],
+     [
+      "F",
+      "Price / Liter",
+      "$20",
+      "$40"
+     ],
+     [
+      "G",
+      "Total Revenue [E x F]",
+      "$480,000",
+      "$480,000"
+     ],
+     [
+      "H",
+      "Profit Margin",
+      "10%",
+      "15%"
+     ],
+     [
+      "I",
+      "Total Profit [G x H]",
+      "$48,000",
+      "$72,000"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-wine-co/p386.webp",
+   "key_insight": "Both wines generate identical $480,000 revenue from the 12 acres of grapes, but Bordeaux's higher margin gives it 50% more annual profit ($72,000 vs. $48,000) -- on a same-year basis, Bordeaux looks like the better product.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Math working for Part 3 (NPV comparison across aging periods)",
+   "page": 388,
+   "kind": "table",
+   "description": "Math table comparing Merlot and Bordeaux on a present-value basis given their different aging periods (6 years vs. 12 years) and a 12% discount rate, using perpetuity values and three equivalent methods (discount Bordeaux back to year 6; compound Merlot forward to year 12; Rule of 72 shortcut).",
+   "data": {
+    "columns": [
+     "Row",
+     "Description",
+     "Merlot",
+     "Bordeaux"
+    ],
+    "rows": [
+     [
+      "A",
+      "Annual Profit",
+      "$48,000",
+      "$72,000"
+     ],
+     [
+      "B",
+      "Years to Maturity",
+      6,
+      12
+     ],
+     [
+      "C",
+      "Discount Rate",
+      "12%",
+      "12%"
+     ],
+     [
+      "D",
+      "Merlot NPV once ripe (at year 6) = A/C",
+      "$400,000",
+      ""
+     ],
+     [
+      "E",
+      "Bordeaux NPV once ripe (at year 12) = A/C",
+      "",
+      "$600,000"
+     ],
+     [
+      "F",
+      "Bordeaux NPV at year 6 (discounted) = E/(1.12)^6",
+      "",
+      "$300,000"
+     ],
+     [
+      "H",
+      "Merlot NPV at year 12 (compounded) = D x (1.12)^6",
+      "$800,000",
+      ""
+     ],
+     [
+      "comparison at year 6",
+      "Merlot vs. Bordeaux",
+      "$400,000",
+      "$300,000"
+     ],
+     [
+      "comparison at year 12",
+      "Merlot vs. Bordeaux",
+      "$800,000",
+      "$600,000"
+     ]
+    ]
+   },
+   "key_insight": "Once each wine's perpetuity value is brought to a common year (either year 6 or year 12) using the 12% discount rate, Merlot is worth more than Bordeaux ($400,000 vs. $300,000 at year 6, or $800,000 vs. $600,000 at year 12) -- Merlot's 6-year head start on cash flow outweighs Bordeaux's higher margin and price.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-wine-co/p388.webp"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which wine (Merlot or Bordeaux) yields more annual profit from the 12 acres, before considering aging?",
+   "givens": [
+    "12 acres x 1,000 kg grapes/acre = 12,000 kg grapes total",
+    "Merlot: yield 2 L/kg, price $20/L, margin 10%",
+    "Bordeaux: yield 1 L/kg, price $40/L, margin 15%"
+   ],
+   "steps": [
+    "Merlot total yield = 12,000 kg x 2 L/kg = 24,000 L; Revenue = 24,000 x $20 = $480,000; Profit = $480,000 x 10% = $48,000",
+    "Bordeaux total yield = 12,000 kg x 1 L/kg = 12,000 L; Revenue = 12,000 x $40 = $480,000; Profit = $480,000 x 15% = $72,000"
+   ],
+   "answer": "Both wines generate $480,000 in revenue, but Bordeaux generates more annual profit: $72,000 vs. Merlot's $48,000.",
+   "answer_value": 72000,
+   "unit": "USD annual profit (Bordeaux)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "Accounting for aging (Merlot: 6 years to first revenue; Bordeaux: 12 years) and a 12% discount rate, which wine has the higher present value?",
+   "givens": [
+    "Merlot: $48,000/year starting year 6",
+    "Bordeaux: $72,000/year starting year 12",
+    "Discount rate = 12%",
+    "Costs incurred only once revenue begins (perpetuity from that year onward)"
+   ],
+   "steps": [
+    "Merlot value at year 6 (perpetuity) = $48,000 / 0.12 = $400,000",
+    "Bordeaux value at year 12 (perpetuity) = $72,000 / 0.12 = $600,000",
+    "Discount Bordeaux's year-12 value back to year 6 using the Rule of 72 (72/12% = 6 years to double/halve): $600,000 / 2 = $300,000",
+    "Compare at year 6: Merlot $400,000 vs. Bordeaux $300,000 -> Merlot wins"
+   ],
+   "answer": "Merlot has the higher present value ($400,000 vs. Bordeaux's ~$300,000 at year 6), so the company should manufacture Merlot.",
+   "answer_value": 400000,
+   "unit": "USD present value at year 6 (Merlot)",
+   "verified": true,
+   "book_answer_if_different": "Book uses the Rule of 72 approximation to get exactly $300,000 for Bordeaux's year-6 value; precise compounding (600,000 / 1.12^6) gives ~$303,984 -- a ~1% difference from rounding, not a substantive error, and doesn't change the conclusion that Merlot wins."
+  }
+ ],
+ "synthesis": "Manufacture Merlot. Although Bordeaux generates more annual profit once production is up and running ($72,000 vs. $48,000), Bordeaux requires 12 years of aging before any revenue is realized versus 6 years for Merlot. Valuing each wine's profit stream as a perpetuity and bringing both to a common point in time at the 12% discount rate, Merlot is worth $400,000 versus Bordeaux's ~$300,000 -- Merlot's six-year head start on cash flow outweighs Bordeaux's higher margin and price. Excellent candidates lay out risks and next steps (market research on local demand, land usability testing, evaluation of opportunity costs of alternative land uses). Outstanding candidates further note the opportunity cost of not selling or leasing the land given Bay Area/Napa land values, the importance of wine-aging dynamics generally, sensitivity of the recommendation to the discount rate, and the potential benefit of diversifying the acreage across multiple grape varietals to hedge consumer-demand shifts and broaden local appeal.",
+ "what_great_looks_like": [
+  "Builds a MECE structure of land-use options before narrowing to wine manufacturing",
+  "Proactively requests profit margins and organizes the profitability comparison in a table",
+  "Recognizes on their own that aging/timing could flip the preferred product before being told to consider it",
+  "Correctly frames each wine's future profit as a perpetuity and discounts/compounds to a common comparison year",
+  "Ties the final recommendation to concrete next steps and at least one 'outstanding' consideration (land opportunity cost, discount-rate sensitivity, diversification)"
+ ],
+ "common_pitfalls": [
+  "Recommending Bordeaux based on Part 2's higher annual profit alone, without adjusting for its longer 12-year aging period",
+  "Comparing the two wines' perpetuity values at different points in time instead of discounting/compounding to a common year",
+  "Treating the marketing-strategy brainstorm (Part 4) as unrelated to the earlier analysis, rather than tailoring channels to the niche wine-enthusiast segment already identified",
+  "Omitting the opportunity cost of the land itself (its value if sold or leased) from the final recommendation"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book explicitly labels this case 'Interviewer-led' on its cover page, overriding the default candidate-led assumption for this batch. Book does not give a difficulty rating; difficulty was inferred as relatively high given the multi-step NPV/perpetuity math. Case type 'Y06 Opportunity assessment' has no exact match in the fixed case_type list; mapped to 'New Product/GTM' (primary) and 'Investment/PE due diligence' (secondary, given the NPV-based product-choice decision).",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "case_type (mapped from book's own 'Opportunity assessment' label)"
+  ]
+ }
+}

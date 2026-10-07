@@ -1,0 +1,429 @@
+{
+ "id": "stern-2022-is-teleconferencing-a-good-call",
+ "title": "Is Teleconferencing a Good Call?",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  170,
+  178
+ ],
+ "author": "Yang Liu, Wilson Keng (Stern ’20)",
+ "case_type": [
+  "Cost Reduction/Operations",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "IT, Cost Analysis",
+ "industry": "banking",
+ "sub_industry": "wealth-management",
+ "industry_source_label": "Financial Services",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 7 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "cost-benefit",
+  "payback",
+  "make-or-buy",
+  "technology-adoption",
+  "travel-costs",
+  "client-experience",
+  "data-validation"
+ ],
+ "concepts_tested": [
+  "Exhibits",
+  "Brainstorming",
+  "Structured Math"
+ ],
+ "prompt": "Your client is a national wealth management firm within a larger bank. The current CIO has created a test pilot of a cutting-edge virtual conferencing software in the NYC office. The firm currently employs many Wealth Advisors who meet clients at satellite offices around the country and is deciding whether to roll-out this software across all locations. The aim is to reduce Advisor travel costs, which is currently borne by the firm, at cost. How should the client proceed?",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective and timing",
+   "answer": "Reduce costs as soon as possible. Revenue growth is outside scope."
+  },
+  {
+   "question_topic": "Office footprint",
+   "answer": "Advisors are in NYC, Houston, Chicago and San Francisco. Satellite offices across the Midwest and southern US require frequent travel to current and prospective clients."
+  },
+  {
+   "question_topic": "Current client contact",
+   "answer": "Meetings are primarily in person, with occasional phone/email. Virtual conferencing is used only in the NYC pilot, launched 6 months ago."
+  },
+  {
+   "question_topic": "Software capabilities",
+   "answer": "Instant messaging, video chat, screen sharing/shared control, conference calling and forwarding calls to mobile phones."
+  },
+  {
+   "question_topic": "Competitors",
+   "answer": "Competitor practices are unknown."
+  }
+ ],
+ "interviewer_notes": "This is interviewer-led. Test creative data requests, capital-investment cost/benefit analysis and qualitative purchasing considerations. Guide the initial brainstorm toward travel costs and software costs, but credit requests for organizational structure, meeting procedures, locations, planned capex, IT budget and satisfaction surveys. Remind candidates to read the advisor-count footnote and to annualize monthly software charges if needed. Inter-company billing remains a departmental cost. If prompted, the book instructs the interviewer to state a 10% travel reduction and $4,820,000 savings; retain that statement but explain that its dollar figure is inconsistent with candidate Exhibit 1. The source’s conclusion that options have similar short paybacks is not supported by corrected exhibit arithmetic. Do not penalize a candidate for finding the negative-savings result.",
+ "suggested_framework": {
+  "summary": "Compare travel costs with technology ownership costs, validate adoption and savings, and assess client, compliance and implementation trade-offs.",
+  "tree": {
+   "label": "Choose a cost-reduction approach",
+   "children": [
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Travel frequency, trip costs and advisor counts"
+      },
+      {
+       "label": "Development, implementation and ongoing software costs"
+      },
+      {
+       "label": "Net savings, payback and alternative investments"
+      }
+     ]
+    },
+    {
+     "label": "Operating alternatives",
+     "children": [
+      {
+       "label": "External vendor versus in-house build"
+      },
+      {
+       "label": "Hybrid meetings or revised travel reimbursement"
+      },
+      {
+       "label": "Relocating advisors to satellite offices"
+      }
+     ]
+    },
+    {
+     "label": "Client and employee impact",
+     "children": [
+      {
+       "label": "Experience and advisor relationships"
+      },
+      {
+       "label": "Training, adoption and possible staffing changes"
+      }
+     ]
+    },
+    {
+     "label": "Risk and controls",
+     "children": [
+      {
+       "label": "Confidentiality and cybersecurity"
+      },
+      {
+       "label": "Recorded-conversation and complaint compliance"
+      },
+      {
+       "label": "Internal technical capability and multi-office support"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "brainstorm",
+   "interviewer_asks": "What would you include in a data request to evaluate this decision?",
+   "release_when": "After the prompt and scope clarification; use this to lead toward the two exhibits.",
+   "info_to_release": "The goal is cost reduction, not revenue growth. Advisors serve satellite offices through travel. The NYC pilot began 6 months ago.",
+   "exhibit_ids": [],
+   "expected_answer": "Request organization and advisor counts, office locations, meeting and sales-call procedures, current travel costs, software use cases and implementation/operating costs. Ask about current/planned capital projects, this and next year’s IT budgets, and employee/client satisfaction. Assess alternative uses of capital and hybrid or relocation options along with vendor versus internal development.",
+   "good_answer_signals": [
+    "Requests enough data to compare both upfront and recurring costs.",
+    "Includes client and employee evidence, not financial data alone."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How much is spent on travel annually and per advisor, and what drives the differences?",
+   "release_when": "Provide Exhibit 1 after travel data is requested; remind the candidate of the headcount footnote if needed.",
+   "info_to_release": "NYC: 2 trips weekly for 10 weeks, $600 round trip and $50 M&E, 10 advisors. Houston: 2 trips weekly for 25 weeks, $500 plus $40, 5 advisors. San Francisco: 3 trips weekly for 20 weeks, $700 plus $50, 10 advisors. Chicago: 3 trips weekly for 30 weeks, $600 plus $30, 10 advisors. M&E means meals and entertainment.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Add the two per-trip dollar costs, then multiply by trips, traveled weeks and headcount. Annual city totals are $130,000 NYC, $135,000 Houston, $450,000 San Francisco and $567,000 Chicago: $1,282,000 total. Across 35 advisors, mean annual cost is $36,628.57. City-level per-advisor costs are $13,000, $27,000, $45,000 and $56,700 respectively. Chicago is highest because of frequent travel over more weeks. The source instead multiplies the trip fare by the M&E dollar amount, producing an invalid $48.2 million total and approximately $1.3 million per advisor.",
+   "good_answer_signals": [
+    "Adds costs in the same units rather than multiplying them.",
+    "Uses the traveled weeks rather than all calendar weeks.",
+    "Separates total city costs from cost per advisor."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What are the upfront and annual operating costs of the two technology options?",
+   "release_when": "Provide Exhibit 2 when software costs are requested. Clarify that monthly charges are per user.",
+   "info_to_release": "External vendor implementation is $11 million and monthly subscription $2,000 per user, with no separate development or maintenance amount shown. In-house development is $500,000 plus $8.5 million implementation, monthly maintenance $1,500 per user and monthly subscription/inter-company billing $500 per user. Use 35 advisors, and include inter-company billing as a departmental cost.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Both options cost $2,000 per user monthly, so each has $2,000 × 35 × 12 = $840,000 annual run-rate expense. Upfront vendor cost is $11 million; in-house cost is $500,000 + $8.5 million = $9 million. Include development rather than using implementation alone. The internal transfer remains a departmental expense even though it is inter-company billing.",
+   "good_answer_signals": [
+    "Notices equal monthly costs and calculates the run rate once.",
+    "Separates one-time investment from recurring cost."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How much net travel-related saving would the options generate, and when would they break even?",
+   "release_when": "If prompted for travel reduction, give the book’s stated assumption verbatim in substance, then reconcile it with Exhibit 1.",
+   "info_to_release": "The interviewer is instructed to assume the solution reduces travel expenses by 10% ($4,820,000). That dollar amount is supplied by the book but conflicts with the travel exhibit. No other quantified benefits are given.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Using the candidate exhibit’s corrected $1,282,000 travel base, a 10% reduction saves $128,200 gross annually. After $840,000 recurring technology expense, both options increase annual costs by $711,800 before upfront investment, so neither has a finite positive payback from these savings. If the explicitly supplied $4.82 million is treated as a separate override scenario, net annual saving is $3.98 million: vendor payback is $11 million / $3.98 million = 2.764 years (33.17 months), and in-house is $9 million / $3.98 million = 2.261 years (27.14 months). The book’s roughly 2.8 and 2.1 months are wrong units and its internal calculation omits $500,000 development cost.",
+   "good_answer_signals": [
+    "Reconciles contradictory inputs rather than silently choosing whichever supports rollout.",
+    "Subtracts ongoing technology expense from gross travel savings.",
+    "Uses consistent annual units and includes all upfront costs."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other factors should inform the choice?",
+   "release_when": "After the financial comparison; ask for organized buckets if needed.",
+   "info_to_release": "Consider both the vendor and in-house alternatives as well as other ways to reduce travel.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess compliance for telecommunications and recorded conversations, cybersecurity, confidentiality, client experience and advisor-client relationships, staff training, large upfront capital needs and internal support capacity. A vendor reduces internal maintenance staffing needs but has a larger explicit subscription fee. In-house offers customization and design control but needs more maintenance resources across offices. Overall ongoing departmental cost is equal on the supplied figures, so do not confuse subscription price alone with total ownership cost. Also consider hybrid meetings, revised travel reimbursement and moving advisors nearer clients.",
+   "good_answer_signals": [
+    "Connects qualitative trade-offs to this wealth-management setting.",
+    "Separates vendor subscription charges from total recurring expense."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "How should the client proceed?",
+   "release_when": "At the end; require a defensible choice while allowing the corrected data to change the source recommendation.",
+   "info_to_release": "No additional quantified benefits are supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "Do not roll out either option on the corrected exhibit-based cost case: both add $711,800 annually before $11 million vendor or $9 million in-house upfront spending. Reconcile the travel data and the claimed $4.82 million savings first. Conduct employee/client studies and assess internal versus vendor capability. If the larger savings figure is independently validated, in-house has the shorter full-cost payback, but weigh customization and support demands against vendor convenience, cybersecurity and relationship risks. Consider cheaper or hybrid alternatives rather than forcing a choice between two uneconomic implementations.",
+   "good_answer_signals": [
+    "Leads with the corrected economics.",
+    "Makes any alternative-scenario choice conditional on validating the contradictory savings figure."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Travel Cost per Advisor",
+   "page": 174,
+   "kind": "table",
+   "description": "Trips, traveled weeks and separately listed fare and meals/entertainment costs. Advisor counts are the exhibit footnote as of May 1, 2019.",
+   "data": {
+    "columns": [
+     "City",
+     "Trips/week",
+     "Weeks traveled/year",
+     "Round-trip cost (USD)",
+     "M&E per trip (USD)",
+     "Advisors"
+    ],
+    "rows": [
+     [
+      "New York",
+      2,
+      10,
+      600,
+      50,
+      10
+     ],
+     [
+      "Houston",
+      2,
+      25,
+      500,
+      40,
+      5
+     ],
+     [
+      "San Francisco",
+      3,
+      20,
+      700,
+      50,
+      10
+     ],
+     [
+      "Chicago",
+      3,
+      30,
+      600,
+      30,
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-is-teleconferencing-a-good-call/p174.webp",
+   "key_insight": "Trip fare and M&E must be added. Travel frequency and weeks create the main geographic cost differences.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Cost Comparisons: Outside Vendor versus Build In-House",
+   "page": 176,
+   "kind": "table",
+   "description": "Upfront and per-user monthly charges. Dashes mean no separate amount is shown. The source’s NA savings/payback placeholders are omitted from the input table.",
+   "data": {
+    "columns": [
+     "Option",
+     "Development (USD)",
+     "Implementation (USD)",
+     "Monthly maintenance per user (USD)",
+     "Monthly subscription per user (USD)"
+    ],
+    "rows": [
+     [
+      "Outside vendor",
+      "—",
+      11000000,
+      "—",
+      2000
+     ],
+     [
+      "Build in-house",
+      500000,
+      8500000,
+      1500,
+      500
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-is-teleconferencing-a-good-call/p176.webp",
+   "key_insight": "Both options have the same monthly total per user; internal development adds to the upfront implementation bill. The $500 internal subscription is inter-company billing.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is actual annual travel spending from Exhibit 1?",
+   "givens": [
+    "NY: 2 trips × 10 weeks; $600 fare + $50 M&E; 10 advisors",
+    "Houston: 2 × 25; $500 + $40; 5 advisors",
+    "SF: 3 × 20; $700 + $50; 10 advisors",
+    "Chicago: 3 × 30; $600 + $30; 10 advisors"
+   ],
+   "steps": [
+    "NY = 2 × 10 × ($600 + $50) × 10 = $130,000.",
+    "Houston = 2 × 25 × ($500 + $40) × 5 = $135,000.",
+    "SF = 3 × 20 × ($700 + $50) × 10 = $450,000.",
+    "Chicago = 3 × 30 × ($600 + $30) × 10 = $567,000.",
+    "Total = $1,282,000; average over 35 advisors = $36,628.57 annually."
+   ],
+   "answer": "$1,282,000 annual travel spending and $36,628.57 per advisor on average, treating separately listed M&E as additional to fare.",
+   "answer_value": 1282000,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "The solution gives NY $6,000,000, Houston $5,000,000, SF $21,000,000 and Chicago $16,200,000, totaling $48,200,000 and roughly $1.3 million per advisor. These figures multiply the fare dollar amount by the M&E dollar amount instead of adding them."
+  },
+  {
+   "id": "m2",
+   "question": "What do the technology options cost?",
+   "givens": [
+    "35 users",
+    "Vendor $2,000 monthly subscription per user",
+    "In-house $1,500 monthly maintenance plus $500 subscription per user",
+    "Vendor upfront $11 million",
+    "In-house $500,000 development plus $8.5 million implementation"
+   ],
+   "steps": [
+    "Both annual run rates = $2,000 × 35 × 12 = $840,000.",
+    "Vendor upfront = $11,000,000.",
+    "In-house upfront = $500,000 + $8,500,000 = $9,000,000."
+   ],
+   "answer": "Each option costs $840,000 annually; upfront costs are $11 million vendor and $9 million in-house.",
+   "answer_value": 840000,
+   "unit": "USD/year per option",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What net saving and payback follow from a 10% reduction in exhibit-based travel spending?",
+   "givens": [
+    "Corrected annual travel $1,282,000",
+    "10% reduction",
+    "$840,000 annual technology cost per option",
+    "Upfront vendor $11 million and internal $9 million"
+   ],
+   "steps": [
+    "Gross saving = $1,282,000 × 10% = $128,200.",
+    "Net annual saving = $128,200 − $840,000 = −$711,800.",
+    "Negative recurring saving means neither positive upfront investment has a finite positive payback under these inputs."
+   ],
+   "answer": "Both options increase annual costs by $711,800 before upfront investment and never pay back from the modeled travel savings.",
+   "answer_value": -711800,
+   "unit": "net USD saved/year",
+   "verified": false,
+   "book_answer_if_different": "The book instructs release of '10% ($4,820,000)' and gives $3,980,000 annual net savings. Its dollar savings use the erroneous $48.2 million travel base; 10% of the candidate exhibit’s corrected $1.282 million is $128,200."
+  },
+  {
+   "id": "m4",
+   "question": "If the source’s $4.82 million gross saving were independently validated, what would payback be?",
+   "givens": [
+    "Separate source-supplied scenario: $4,820,000 gross annual travel saving",
+    "$840,000 annual run rate",
+    "$11 million vendor upfront",
+    "$9 million in-house upfront including development"
+   ],
+   "steps": [
+    "Net saving = $4,820,000 − $840,000 = $3,980,000 annually.",
+    "Vendor payback = $11,000,000 / $3,980,000 = 2.763819 years = 33.165829 months.",
+    "In-house payback = $9,000,000 / $3,980,000 = 2.261307 years = 27.135678 months."
+   ],
+   "answer": "Only under this override scenario: vendor about 2.76 years (33.17 months), in-house about 2.26 years (27.14 months).",
+   "verified": false,
+   "book_answer_if_different": "The solution gives approximately 2.8 months for vendor and 2.1 months for in-house. Dividing upfront dollars by annual savings yields years, not months; the in-house figure also omits its $500,000 development cost."
+  }
+ ],
+ "synthesis": "Do not approve either rollout from the candidate exhibit’s cost data: 10% travel savings are $128,200 annually, below $840,000 recurring technology cost, so each option raises annual costs by $711,800 and has no payback before considering upfront spending. The source’s favorable savings case is driven by multiplying fare by M&E. Reconcile the travel baseline and claimed $4.82 million gross savings. If that separate claim is validated, full-cost paybacks are 2.76 years for vendor and 2.26 years for in-house, not months. Use client/employee studies, cybersecurity and compliance review, internal-capability assessment and alternative approaches to guide a revised decision.",
+ "what_great_looks_like": [
+  "Makes a broad, targeted data request.",
+  "Notices equal monthly costs and avoids duplicate arithmetic.",
+  "Reads advisor-count and inter-company billing footnotes.",
+  "Checks units and reconciles inconsistent savings inputs.",
+  "Defends a choice using both economics and client/operating implications."
+ ],
+ "common_pitfalls": [
+  "Multiplying two dollar-denominated per-trip costs.",
+  "Ignoring the advisor headcount or traveled weeks.",
+  "Confusing monthly and annual software costs.",
+  "Omitting internal development or departmental inter-company billing.",
+  "Reporting years of payback as months.",
+  "Using the source’s savings override without disclosing its conflict with the exhibit."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Dedup returned NEW. Material source errors: travel solution multiplies fare dollars by M&E dollars; corrected additive spending is $1.282 million, not $48.2 million. This assumes M&E is additional to separately listed trip fare; if the 'total cost per round-trip' already included M&E, cost would be lower, not higher, and the no-payback conclusion still holds. Preserve the interviewer-mandated '10% ($4,820,000)' in release information, but use $128,200 gross saving and −$711,800 net annual saving for the candidate-exhibit case. The override scenario is analyzed separately. Source payback units should be years, and full in-house investment includes $500,000 development; corrected override paybacks are 2.76 and 2.26 years. Candidate pages 174 and 176 are used, not worked-answer pages. The source's qualitative vendor-versus-build discussion is retained, but corrected economics overturn unconditional rollout. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry",
+   "sub_industry",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework grouping",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis corrected no-rollout conclusion"
+  ]
+ }
+}

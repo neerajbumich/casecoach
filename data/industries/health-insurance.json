@@ -1,0 +1,127 @@
+{
+  "id": "health-insurance",
+  "name": "Health Insurance (US Payers)",
+  "group": "Healthcare",
+  "one_liner": "US health insurers collect premiums from employers, individuals and government programs and pay medical claims, earning thin margins on large volumes through managed care.",
+  "how_it_makes_money": "Payers earn premiums for fully insured members and administrative fees for self-insured employer plans, then manage medical costs through provider networks, negotiated rates, utilization management and care management. Many are vertically integrated with PBMs, which earn from drug-plan administration, rebate retention and spread, and mail-order and specialty pharmacy.",
+  "value_chain": [
+    "Employers, government and individuals buy coverage",
+    "Plan design and pricing",
+    "Provider network contracting",
+    "Claims processing and utilization management",
+    "PBM and pharmacy benefits",
+    "Care management and member services"
+  ],
+  "revenue_formula": [
+    "Premium revenue = members × per-member-per-month (PMPM) premium × 12",
+    "Underwriting margin = premiums - medical costs (medical loss ratio) - administrative costs",
+    "PBM revenue = prescriptions × (spread + admin fee) + retained rebates + specialty pharmacy sales"
+  ],
+  "cost_structure": [
+    "Medical claims: hospital, physician and drug costs, roughly 80-90% of premiums",
+    "Administrative costs: claims processing, customer service, IT",
+    "Sales and broker commissions: acquiring employer and individual members",
+    "Care management: nurse lines, disease management, prior authorization"
+  ],
+  "margins": "Insurers typically earn low-to-mid single-digit net margins because the ACA sets minimum medical loss ratios (80% individual/small group, 85% large group); scale, medical cost trend, and Medicare Advantage risk-coding drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Medical loss ratio (MLR) / medical cost ratio",
+      "what": "Medical costs as a share of premiums; the core profitability gauge for payers."
+    },
+    {
+      "name": "Members / lives covered",
+      "what": "Enrollment by segment; drives scale and bargaining power."
+    },
+    {
+      "name": "Per member per month (PMPM)",
+      "what": "Premium or cost normalized per member; the standard unit for pricing and cost trend."
+    },
+    {
+      "name": "Medical cost trend",
+      "what": "Annual growth in cost per member; must be priced into premiums."
+    },
+    {
+      "name": "Star ratings",
+      "what": "CMS quality ratings for Medicare Advantage plans; drive bonus payments and enrollment."
+    },
+    {
+      "name": "Administrative expense ratio",
+      "what": "Admin costs over revenue; measures operating efficiency."
+    },
+    {
+      "name": "Generic dispensing rate",
+      "what": "Share of prescriptions filled with generics; a key PBM cost lever."
+    }
+  ],
+  "trends": [
+    "Elevated medical utilization pressuring Medicare Advantage and commercial margins",
+    "Tighter Medicare Advantage payment rates and scrutiny of risk-adjustment coding",
+    "Medicaid redeterminations and funding changes shifting enrollment and acuity",
+    "PBM reform efforts targeting rebate practices and spread pricing",
+    "GLP-1 drug costs straining employer and payer pharmacy budgets",
+    "Vertical integration of insurers with PBMs, clinics and home health, under regulatory scrutiny"
+  ],
+  "key_players": [
+    "UnitedHealth Group (Optum)",
+    "Elevance Health",
+    "CVS Health (Aetna, Caremark)",
+    "Cigna (Express Scripts)",
+    "Humana",
+    "Centene",
+    "Molina Healthcare",
+    "Blue Cross Blue Shield plans",
+    "Kaiser Permanente"
+  ],
+  "case_angles": [
+    {
+      "question": "A Medicare Advantage insurer's medical costs are rising faster than premiums. What should it do?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a regional health insurer enter the ACA individual exchange market in a new state?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "How should an insurer respond to employers leaving for a new tech-enabled competitor?",
+      "framework_id": "competitive-response"
+    },
+    {
+      "question": "Should a payer acquire a primary care provider group?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Does vertical integration of payers, PBMs and providers lower costs or entrench market power?",
+    "Is Medicare Advantage good value for taxpayers compared with traditional Medicare?",
+    "Should PBMs be restructured or have their rebate model banned?"
+  ],
+  "news": {
+    "keywords": [
+      "health insurer",
+      "health insurers",
+      "medicare advantage",
+      "medical costs",
+      "medical loss ratio",
+      "pbm",
+      "pharmacy benefit manager",
+      "aca exchange",
+      "prior authorization",
+      "managed care",
+      "medicaid"
+    ],
+    "companies": [
+      "UnitedHealth",
+      "Optum",
+      "Elevance",
+      "Aetna",
+      "CVS Health",
+      "Cigna",
+      "Express Scripts",
+      "Humana",
+      "Centene",
+      "Molina",
+      "Oscar Health"
+    ]
+  }
+}

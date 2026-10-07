@@ -1,0 +1,125 @@
+{
+  "id": "agriculture",
+  "name": "Agriculture & Agribusiness",
+  "group": "Energy & resources",
+  "one_liner": "Producing, processing and trading crops and livestock, a weather- and commodity-exposed system whose value pools sit mostly with inputs and traders rather than farmers.",
+  "how_it_makes_money": "Farmers sell crops and livestock at commodity prices, supplemented by crop insurance and government programs. Input suppliers sell seeds, crop protection, fertilizer and equipment, often at attractive margins due to IP and brand. Traders and processors earn thin spreads on buying, storing, moving and converting commodities into food, feed and fuel.",
+  "value_chain": [
+    "Inputs (seed, fertilizer, chemicals, equipment)",
+    "Farm production",
+    "Storage and trading",
+    "Processing and milling",
+    "Food manufacturing and retail"
+  ],
+  "revenue_formula": [
+    "Farm revenue = acres planted × yield per acre × price per bushel",
+    "Input revenue = acres treated × application rate × price per unit",
+    "Trader margin = volume handled × spread per tonne"
+  ],
+  "cost_structure": [
+    "Land: rent or ownership, a major fixed cost for farmers",
+    "Seed, fertilizer and crop protection inputs",
+    "Machinery and fuel",
+    "Labor, especially in specialty crops and livestock",
+    "Feed: the largest cost in livestock production",
+    "Interest and working capital"
+  ],
+  "margins": "Farm-level margins are thin and volatile with weather and prices, while seed, crop protection and equipment makers earn higher, steadier margins. Traders and processors run on thin margins but large volumes. IP, scale, and exposure to commodity cycles drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Yield per acre",
+      "what": "Output per unit of land, the core farm productivity measure."
+    },
+    {
+      "name": "Crop prices (corn, soybeans, wheat)",
+      "what": "Drive farm income and input spending."
+    },
+    {
+      "name": "Farm income",
+      "what": "Aggregate farmer profitability, which drives equipment and input demand."
+    },
+    {
+      "name": "Crush / processing margin",
+      "what": "Spread between raw crop and processed products like meal and oil."
+    },
+    {
+      "name": "Input cost per acre",
+      "what": "Total spending per acre, used to assess farmer breakeven."
+    },
+    {
+      "name": "Stocks-to-use ratio",
+      "what": "Inventory relative to consumption, a key price signal."
+    }
+  ],
+  "trends": [
+    "Precision agriculture, autonomy and data-driven farming",
+    "Trade tensions and tariffs disrupting export markets like soybeans",
+    "Renewable diesel and biofuels boosting demand for vegetable oils",
+    "Climate volatility increasing yield and price risk",
+    "Consolidation in seeds, crop protection and farm operations",
+    "Regenerative agriculture and sustainability demands from food companies"
+  ],
+  "key_players": [
+    "Deere & Company",
+    "Corteva",
+    "Bayer Crop Science",
+    "Nutrien",
+    "Cargill (private)",
+    "ADM",
+    "Bunge",
+    "Tyson Foods",
+    "CF Industries",
+    "Syngenta"
+  ],
+  "case_angles": [
+    {
+      "question": "Should a farm equipment maker launch a subscription for autonomy software?",
+      "framework_id": "new-product-gtm"
+    },
+    {
+      "question": "A grain trader's margins shrank; what's happening?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a crop protection company enter the biologicals market?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "Size the US market for agricultural drones.",
+      "framework_id": "market-sizing"
+    }
+  ],
+  "interview_hooks": [
+    "Who captures the value from precision agriculture: equipment makers, input suppliers or farmers?",
+    "How should agribusinesses respond to trade war exposure?",
+    "Can regenerative agriculture scale without hurting yields?"
+  ],
+  "news": {
+    "keywords": [
+      "farmers",
+      "crop",
+      "corn",
+      "soybeans",
+      "wheat",
+      "fertilizer",
+      "grain",
+      "usda",
+      "harvest",
+      "agribusiness",
+      "farm bill"
+    ],
+    "companies": [
+      "Deere",
+      "Corteva",
+      "Bayer",
+      "Nutrien",
+      "Cargill",
+      "ADM",
+      "Bunge",
+      "Tyson Foods",
+      "CF Industries",
+      "Syngenta",
+      "Mosaic"
+    ]
+  }
+}

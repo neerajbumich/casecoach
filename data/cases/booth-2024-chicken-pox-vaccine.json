@@ -1,0 +1,244 @@
+{
+ "id": "booth-2024-chicken-pox-vaccine",
+ "title": "Chicken Pox Vaccine",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  87,
+  93
+ ],
+ "case_type": [
+  "Investment/PE due diligence",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Pharmaceutical/Healthcare",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3/3; Quant 3/3; Creativity 2/3",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "vaccine",
+  "market-sizing",
+  "pricing",
+  "breakeven",
+  "approval-risk",
+  "willingness-to-pay"
+ ],
+ "fit_question": "Walk me through your resume. Why this firm?",
+ "prompt": "A pharmaceutical company has completed phase two testing of a chicken-pox vaccine. Phase three would last two years, cost $300M, and has a 95% approval probability; production can begin immediately after approval. Should the company fund phase three?",
+ "clarifying_info": [
+  {
+   "question_topic": "Dose and population",
+   "answer": "One lifetime injection; US population 300M uniformly aged 0-75, with 4M entering and leaving annually; existing population can be vaccinated evenly over three years."
+  },
+  {
+   "question_topic": "Costs",
+   "answer": "Per injection: $1.50 distribution, $2.50 production and $5 SG&A. The $300M phase-three cost includes all other setup and is expensed over testing."
+  }
+ ],
+ "interviewer_notes": "Candidate-led, US-only. Key insight: after vaccinating the eligible existing population, volume falls to annual births. Show the two charts together but reveal willingness-to-pay only when pricing is requested.",
+ "suggested_framework": {
+  "summary": "Book framework covering market, economics and company fit.",
+  "tree": {
+   "label": "Vaccine investment",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Eligible existing population and births"
+      },
+      {
+       "label": "Competition, channels and growth"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Price, adoption and contribution"
+      },
+      {
+       "label": "Phase-three cost, risk and breakeven"
+      }
+     ]
+    },
+    {
+     "label": "Company fit",
+     "children": [
+      {
+       "label": "Portfolio and capability fit"
+      },
+      {
+       "label": "Opportunity cost"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether to fund phase three?",
+   "expected_answer": "Size eligible existing and future patients, choose price from willingness to pay, calculate contribution and payback against $300M, probability-adjust if appropriate, and assess competitors and strategic fit.",
+   "good_answer_signals": [
+    "Separates catch-up and recurring markets",
+    "Includes approval risk"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "How many people are initially addressable?",
+   "release_when": "Show Exhibit 1.",
+   "info_to_release": "Population is 300M evenly distributed ages 0-75; vaccinate people with less than 50% infection probability. Exposure reaches 50% at age nine and 100% by 18.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "There are 4M people per age. Ages 0-18 total 72M; the under-nine half is 36M and considered not yet infected, so 36M are addressable.",
+   "good_answer_signals": [
+    "Uses the 50% cutoff",
+    "Gets 36M"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "What price should the company charge?",
+   "release_when": "Show Exhibit 2.",
+   "info_to_release": "The willingness-to-pay curve remains high through $25 and is about 75% at $30 before dropping steeply.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Charge $30: it is the inflection point, retains 75% adoption and gains $5 versus $25 before elasticity steepens.",
+   "good_answer_signals": [
+    "Uses the curve's inflection",
+    "States 75% adoption"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What are profit, recurring profit and breakeven?",
+   "expected_answer": "Eligible adopters are 36M×75%=27M, treated 9M/year for three years. Births add 4M×75%=3M/year, so the first three years after approval deliver 12M injections/year. Contribution is $30-$9=$21, or $252M/year and $756M over three years. Recurring profit after catch-up is 3M×$21=$63M/year. Simple payback of $300M at $252M/year is 1.19 years, not the book's approximate 1.25.",
+   "good_answer_signals": [
+    "Adds births during catch-up",
+    "Uses contribution margin",
+    "Separates recurring annuity"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should the company invest?",
+   "expected_answer": "Yes. Price at $30, target ages 0-9, and fund phase three: post-approval contribution is $756M over three years, recurring profit $63M, and simple payback 1.19 years. Approval failure is 5%; protect rollout channels and monitor entry, although competitors face at least three years of earlier testing and miss the catch-up market.",
+   "good_answer_signals": [
+    "Quantifies returns",
+    "Includes failure risk and competitor timing"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Cumulative Distribution of Chicken Pox Exposure",
+   "page": 90,
+   "kind": "line",
+   "description": "Exposure rises from birth to 100% by age 18, crossing 50% near age nine.",
+   "image_path": "exhibits/booth-2024-chicken-pox-vaccine/p090.webp",
+   "key_insight": "Only the younger half of ages 0-18 is more likely uninfected than infected.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Parents' Willingness to Pay",
+   "page": 90,
+   "kind": "line",
+   "description": "Willingness to purchase by vaccine price, with about 75% at $30 and a sharp decline above it.",
+   "image_path": "exhibits/booth-2024-chicken-pox-vaccine/p090.webp",
+   "key_insight": "$30 is the price inflection point.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the addressable existing population?",
+   "givens": [
+    "300M population",
+    "75 age years",
+    "Under age nine eligible"
+   ],
+   "steps": [
+    "300M/75=4M per age",
+    "4M×18=72M ages 0-18",
+    "50% eligible=36M"
+   ],
+   "answer": "36 million",
+   "answer_value": 36,
+   "unit": "million people",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are profit and breakeven?",
+   "givens": [
+    "75% adoption",
+    "$30 price",
+    "$9 variable cost",
+    "$300M investment"
+   ],
+   "steps": [
+    "Existing adopters=27M, 9M/year",
+    "Birth adopters=3M/year",
+    "Contribution=$21",
+    "Profit=12M×$21=$252M/year",
+    "Three-year profit=$756M",
+    "Payback=$300M/$252M=1.19 years"
+   ],
+   "answer": "$756M three-year profit, $63M recurring annual profit, 1.19-year payback",
+   "answer_value": 1.1905,
+   "unit": "years",
+   "verified": false,
+   "book_answer_if_different": "The book reports approximately 1.25 years; its displayed $252M annual profit gives $300M/$252M=1.19 years."
+  }
+ ],
+ "synthesis": "Fund phase three and price at $30. The catch-up market produces $756M contribution over three years, recurring births produce $63M annually, and simple payback is 1.19 years. Plan rollout and channels, account for 5% approval failure, and exploit the three-year testing lead before competitors can enter.",
+ "what_great_looks_like": [
+  "Separates catch-up and recurring volume",
+  "Uses WTP inflection",
+  "Catches the payback error"
+ ],
+ "common_pitfalls": [
+  "Vaccinates already-infected adults",
+  "Omits annual births",
+  "Uses revenue instead of contribution"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Both candidate exhibits share page 90 and contain no answers. The printed 1.25-year payback is corrected to 1.19 years. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

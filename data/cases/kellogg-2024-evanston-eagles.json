@@ -1,0 +1,508 @@
+{
+ "id": "kellogg-2024-evanston-eagles",
+ "title": "Evanston Eagles",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  139,
+  151
+ ],
+ "author": "Drew Johnson (Kellogg 2023); edited by Aditi Kannan (Kellogg 2023)",
+ "case_type": [
+  "Other",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Y05 Operations",
+ "industry": "sports",
+ "sub_industry": "teams-leagues",
+ "industry_source_label": "X05 Entertainment & Media",
+ "geography": "Evanston (fictional professional basketball team, Chicago Conference of the Midwestern Basketball Association)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "decision-analysis",
+  "expected-value",
+  "probability-weighting",
+  "sports-management",
+  "risk-assessment",
+  "crisis-management",
+  "revenue-impact",
+  "creativity"
+ ],
+ "concepts_tested": [
+  "Z05 Elasticity",
+  "Z12 Creativity",
+  "Z13 Organizational changes"
+ ],
+ "fit_question": "Tell me about a time when you navigated a professional challenge by leveraging previous knowledge or experience from an unrelated domain.",
+ "prompt": "Our client is the general manager of the Evanston Eagles, Evanston's professional basketball team. It's halfway through the season and the Eagles' star player, Tripp Richmond, suffered a serious injury in last night's game — his left ankle buckled as he landed after collecting a rebound. Although the team physician initially suspected a sprained ankle, this morning's MRI delivered a more concerning diagnosis: Richmond tore his peroneus longus, a lateral ankle tendon. Richmond's presence on the court is essential to the team's success, so his injury puts the team at risk of missing the playoffs. In collaboration with medical staff, our task is to address Richmond's injury in the way that best allows the team to make the postseason. Additionally, the general manager is curious about the financial impact of the decision we recommend, as attendance and fan engagement generated when Richmond plays is substantial. With half of the 80-game regular season remaining, how should the Eagles react to Richmond's injury?",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Primary goal is for the Evanston Eagles to make the postseason this year; secondary goal is to articulate the financial impact of any decision recommended."
+  },
+  {
+   "question_topic": "Prognosis",
+   "answer": "Although peroneus longus tendon tears are uncommon, the Eagles' medical staff is confident Richmond will eventually return to play at full strength. How quickly he returns is uncertain and largely dependent on the chosen medical treatment."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "The Evanston Eagles are a perennial leader in the Chicago Conference of the Midwestern Basketball Association (MBA). They currently lead the conference standings and — prior to Richmond's injury — were favored to win the MBA championship."
+  }
+ ],
+ "interviewer_notes": "This case is intended to challenge the interviewee's creativity and critical thinking by presenting an unusual business problem relating to professional athlete injury management. Interviewees will likely acknowledge unfamiliarity with sports medicine; strong casers navigate this uncertainty with insightful questioning, strong logical thinking, and empathy for the athlete and his organization. Key case steps: (1) develop a structure, (2) assess the Eagles' competitive position, (3) brainstorm options for addressing the injury, (4) evaluate the competitive impact of possible medical treatments, (5) evaluate the financial impact of the recommendation, (6) provide client recommendation. Casing skills specifically tested: opening framework, creative idea organization, goal-focused case solutioning, and empathetic communication.",
+ "suggested_framework": {
+  "summary": "A four-bucket structure covering the team's competitive position/market, the injury response options, the financial impact of the chosen response, and other risks/considerations.",
+  "tree": {
+   "label": "How should the Eagles react to Richmond's injury?",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Team's current competitive position"
+      },
+      {
+       "label": "How the injury impacts competitive position"
+      },
+      {
+       "label": "Metric for postseason eligibility and performance level needed"
+      }
+     ]
+    },
+    {
+     "label": "Injury response",
+     "children": [
+      {
+       "label": "How might the Eagles respond? (internal e.g. medical treatment, external e.g. trade for a player)"
+      },
+      {
+       "label": "Expected competitive impact of each possible response"
+      }
+     ]
+    },
+    {
+     "label": "Financial impact",
+     "children": [
+      {
+       "label": "Cost of the recommended response"
+      },
+      {
+       "label": "Attendance impact of a star player's absence"
+      },
+      {
+       "label": "In-game spending impact"
+      },
+      {
+       "label": "Financial impact of making vs. missing the playoffs"
+      }
+     ]
+    },
+    {
+     "label": "Other considerations & risks",
+     "children": [
+      {
+       "label": "Public/media perception"
+      },
+      {
+       "label": "Richmond's long-term future with the team"
+      },
+      {
+       "label": "Richmond's mental health during absence"
+      },
+      {
+       "label": "GM's reputation"
+      },
+      {
+       "label": "Locker-room morale"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem of how the Eagles should react to Richmond's injury.",
+   "release_when": "Only after candidate asks — release clarifying information (goals, prognosis, competitive standing) on request.",
+   "info_to_release": "Clarifying information: primary goal is making the postseason, secondary goal is quantifying financial impact; Richmond is expected to eventually fully recover but timing depends on treatment choice; Eagles currently lead their conference and were championship favorites before the injury.",
+   "expected_answer": "A structure covering: Market (current and post-injury competitive position, postseason-eligibility metric), Injury response (internal options like medical treatment, external options like trades/free agents, and each option's expected competitive impact), Financial impact (cost of the response, attendance/in-game spending effects, financial impact of making vs. missing the playoffs), and Other considerations/risks (media perception, Richmond's long-term future and mental health, GM reputation, locker-room morale).",
+   "good_answer_signals": [
+    "Explicitly separates internal (medical) from external (roster) response options",
+    "Includes both competitive/performance and financial dimensions rather than only one",
+    "Surfaces softer risk factors (morale, media perception, athlete well-being) reflecting the case's empathetic-communication skill focus"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "In a worst-case scenario where Richmond cannot return this season, how many games behind sixth place will the Eagles finish?",
+   "release_when": "Provide Exhibit A when the interviewee asks about the team's competitive positioning.",
+   "info_to_release": "Exhibit A (Chicago Conference standings through 40 games). The top six teams at season's end make the playoffs; analysts project the sixth-place team will finish with 52 wins; historically, when Richmond is absent the Eagles win 40% of games.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Eagles' wins in the remaining 40 games without Richmond = 40 x 40% = 16. Final win total = current 32 wins + 16 = 48. Games behind sixth place (52 wins) = 52 - 48 = 4 games. Without Richmond, the Eagles miss the playoffs by 4 games.",
+   "good_answer_signals": [
+    "Correctly adds the projected remaining-season wins to the current 32-8 record rather than recalculating from scratch",
+    "States the result as a specific, actionable number (4-game gap) that anchors the rest of the case",
+    "Proactively transitions into brainstorming ways to get Richmond back rather than stopping at the diagnosis"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "The general manager calls to hear your initial thoughts on how the team could react to Richmond's injury news to have a chance at making the playoffs. What do you tell her? (Optional follow-up: what are the pros and cons of each recommendation?)",
+   "expected_answer": "Internal/conservative options: rest, physical therapy, walking boot/crutches, ankle brace, therapeutic injections (e.g. steroids), regenerative injections (e.g. stem cells). Internal/surgical option: peroneus longus tendon repair surgery. External options: trade for a healthy player, promote a player from the minor/development league, sign a free agent.",
+   "good_answer_signals": [
+    "Organizes ideas along a clear axis (e.g., internal vs. external, or conservative vs. aggressive) rather than a flat list",
+    "Generates options across both medical and roster-management dimensions",
+    "Comments on relative pros/cons if asked, rather than just listing options"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "For each medical treatment option, how many additional wins can the Eagles expect, and which treatment should we recommend?",
+   "release_when": "Provide Exhibit B when the interviewee asks about medical treatment information. If asked about external options (trade, free agent), inform them no players of Richmond's caliber are currently available in the open market.",
+   "info_to_release": "Exhibit B (cost, games playable if treatment succeeds, and probability of success for each of 4 treatments). Reminders: win rate when Richmond plays = 80% (consistent with the current 32-8/40-game record); win rate when he doesn't play = 40%. The Eagles need to close a 4-win gap (from Part 2) to make the playoffs, so the interviewee should recommend any option with an expected win increase of at least 4. Cost should not factor into the treatment recommendation — the primary goal is making the playoffs.",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "For each treatment, over its 'games playable' window: expected wins if successful = games x 80%; expected wins if unsuccessful (Richmond still absent during that window) = games x 40%; the difference is multiplied by the treatment's probability of success to get expected additional wins. Walking boot: 25 x 80% = 20 vs. 25 x 40% = 10 → diff 10 wins x 35% = 3.5 expected additional wins. Physical therapy: 30 x 80% = 24 vs. 30 x 40% = 12 → diff 12 x 20% = 2.4. Regenerative injections: 20 x 80% = 16 vs. 20 x 40% = 8 → diff 8 x 10% = 0.8. Surgical repair: 15 x 80% = 12 vs. 15 x 40% = 6 → diff 6 x 80% = 4.8. Surgical repair is the only option with an expected win increase above the required 4, so it should be recommended, despite being the most expensive option.",
+   "good_answer_signals": [
+    "Understands the calculation is a probability-weighted (expected-value) comparison, not just picking the treatment most likely to succeed",
+    "Correctly multiplies the win-rate difference by the success probability rather than by the games-played count directly",
+    "Compares the result against the 4-win benchmark established in Part 2 to reach a clear recommendation",
+    "Explicitly sets cost aside, consistent with the stated primary goal of making the playoffs"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What is the expected regular-season revenue impact of treating Richmond's injury surgically compared to pursuing no treatment?",
+   "release_when": "Provide Exhibit C when the interviewee asks about the financial impact of the recommendation. If asked about revenue sources: major sources include ticket sales, concessions, and merchandise.",
+   "info_to_release": "Exhibit C (expected revenue per game, with vs. without Richmond playing).",
+   "exhibit_ids": [
+    "exC"
+   ],
+   "expected_answer": "Revenue difference per game Richmond plays = $1,470,000 - $1,170,000 = $300,000. Expected number of games Richmond plays if surgical repair is pursued = 15 games x 80% success probability = 12 games. Additional revenue = 12 games x $300,000 = $3,600,000. Net expected regular-season revenue increase = $3,600,000 - $50,000 (surgery cost) = $3,550,000. Strong interviewees note that making the playoffs also means additional (postseason) games and associated revenue, which does not need to be quantified.",
+   "good_answer_signals": [
+    "Uses the probability-weighted expected number of games (12, not 15) when calculating incremental revenue",
+    "Nets the treatment cost against the revenue gain to reach a true net financial impact",
+    "Flags additional, unquantified upside from playoff/postseason games without forcing a number onto it"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "The general manager just invited us to join her in the owner's luxury suite at tonight's home game and wants to talk over your final recommendation. What will you tell her?",
+   "expected_answer": "To give themselves the best chance of making the playoffs, the Evanston Eagles should pursue surgical repair of Tripp Richmond's torn ankle tendon. Exhibit A and the follow-on analysis show that if Richmond does not return this season, the Eagles will not make the playoffs (4-win shortfall). Exhibit B and the follow-on analysis show surgical repair yields an expected increase of 4.8 wins compared to Richmond missing the rest of the season — the only option clearing the 4-win bar. Exhibit C and the follow-on analysis show surgical repair results in an estimated $3.5M financial gain compared to doing nothing. Notable risks to flag: a 20% chance Richmond doesn't return this season even after surgery (next step: investigate profit-maximizing pricing/promotions at lower attendance); competitive decline making the team less attractive to future free agents (next step: ensure Richmond returns next season and reduce roster reliance on a single star); disagreement between management and Richmond on the right approach (next step: include Richmond or a proxy in the decision process); and fan/media criticism of the response and anticipated competitive decline (next step: work with internal communications on a media response).",
+   "good_answer_signals": [
+    "Leads with a clear, single recommendation (surgical repair) before laying out supporting evidence",
+    "Ties each supporting point back to a specific calculated figure (4-win gap, 4.8-win increase, $3.5M gain)",
+    "Proactively raises risks and pairs each with a concrete next step, rather than stopping at the recommendation",
+    "Communicates with appropriate empathy given the human/athlete-welfare dimension of the case"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Chicago conference standings through 40 games",
+   "page": 142,
+   "kind": "table",
+   "description": "Standings table for all 15 teams in the Chicago Conference through 40 games: rank, team name, win-loss record, and games back from first place. The Evanston Eagles lead at 32-8; a footnote notes Richmond has played in every game so far this season.",
+   "data": {
+    "columns": [
+     "Standing",
+     "Team",
+     "Record",
+     "Games Back"
+    ],
+    "rows": [
+     [
+      1,
+      "Evanston Eagles",
+      "32-8",
+      "--"
+     ],
+     [
+      2,
+      "Skokie Snails",
+      "28-12",
+      4
+     ],
+     [
+      3,
+      "Wilmette Wildcats",
+      "27-13",
+      5
+     ],
+     [
+      4,
+      "Naperville Ninjas",
+      "26-15",
+      6
+     ],
+     [
+      5,
+      "Glenview Geese",
+      "24-16",
+      8
+     ],
+     [
+      6,
+      "Schaumberg Snakes",
+      "21-19",
+      11
+     ],
+     [
+      7,
+      "Oak Park Owls",
+      "20-20",
+      12
+     ],
+     [
+      8,
+      "Joliet Jaguars",
+      "20-20",
+      12
+     ],
+     [
+      9,
+      "Rosemont Racers",
+      "19-21",
+      13
+     ],
+     [
+      10,
+      "Lincoln Park Lemurs",
+      "17-23",
+      15
+     ],
+     [
+      11,
+      "Des Plaines Dingoes",
+      "17-23",
+      15
+     ],
+     [
+      12,
+      "Elgin Elephants",
+      "14-16",
+      18
+     ],
+     [
+      13,
+      "Morton Grove Monkeys",
+      "13-17",
+      19
+     ],
+     [
+      14,
+      "Barrington Blue Devils",
+      "13-17",
+      19
+     ],
+     [
+      15,
+      "Hyde Park Hyenas",
+      "10-30",
+      22
+     ]
+    ]
+   },
+   "key_insight": "The Eagles' current 32-8 record (an 80% win rate, entirely with Richmond playing) is the anchor for both the 'worst case' projection without him and the 80% win-rate assumption used in the Part 4 treatment math.",
+   "data_confidence": "high",
+   "image_path": "exhibits/kellogg-2024-evanston-eagles/p142.webp"
+  },
+  {
+   "id": "exB",
+   "title": "Medical treatment options (from team physician)",
+   "page": 143,
+   "kind": "table",
+   "description": "Table of four mutually-exclusive medical treatment options for Richmond's injury: cost, number of games he could play (of the remaining 40) if the treatment is successful, and the treatment's probability of success.",
+   "data": {
+    "columns": [
+     "Treatment",
+     "Cost",
+     "Games Played if Successful",
+     "Probability of Success"
+    ],
+    "rows": [
+     [
+      "Walking boot",
+      "$200",
+      25,
+      "35%"
+     ],
+     [
+      "Physical therapy",
+      "$3,000",
+      30,
+      "20%"
+     ],
+     [
+      "Regenerative injections",
+      "$7,000",
+      20,
+      "10%"
+     ],
+     [
+      "Surgical repair",
+      "$50,000",
+      15,
+      "80%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-evanston-eagles/p143.webp",
+   "key_insight": "There's a clear inverse relationship between invasiveness/cost and both games-playable and success probability — surgical repair costs the most and lets Richmond play the fewest games, but has by far the highest probability of actually working, which is what makes its expected-win math come out ahead.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Revenue",
+   "page": 144,
+   "kind": "bar",
+   "description": "Bar chart of expected revenue per game under two conditions: without Richmond playing (~$1,170,000) and with Richmond playing (~$1,470,000).",
+   "data": {
+    "columns": [
+     "Playing condition",
+     "Expected revenue per game"
+    ],
+    "rows": [
+     [
+      "Without Richmond",
+      1170000
+     ],
+     [
+      "With Richmond",
+      1470000
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-evanston-eagles/p144.webp",
+   "key_insight": "Richmond's presence is worth $300,000 in incremental expected revenue per game, which is the key input for translating the Part 4 win-probability math into a dollar recommendation.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "worst-case-games-behind",
+   "question": "In a worst-case scenario where Richmond cannot return this season, how many games behind sixth place will the Eagles finish?",
+   "givens": [
+    "Current record: 32-8 through 40 games",
+    "40 games remain",
+    "Win rate without Richmond = 40%",
+    "Projected sixth-place win total = 52"
+   ],
+   "steps": [
+    "Wins in remaining games without Richmond = 40 x 40% = 16",
+    "Final win total = 32 + 16 = 48",
+    "Games behind sixth place = 52 - 48 = 4"
+   ],
+   "answer": "The Eagles would finish 4 games behind sixth place (and miss the playoffs) if Richmond does not return.",
+   "answer_value": 4,
+   "unit": "games behind 6th place",
+   "verified": true
+  },
+  {
+   "id": "treatment-expected-wins",
+   "question": "What is the expected increase in wins from each medical treatment option, and which clears the 4-win bar needed to make the playoffs?",
+   "givens": [
+    "Win rate with Richmond playing = 80%",
+    "Win rate without Richmond = 40%",
+    "Walking boot: 25 games playable, 35% success",
+    "Physical therapy: 30 games playable, 20% success",
+    "Regenerative injections: 20 games playable, 10% success",
+    "Surgical repair: 15 games playable, 80% success"
+   ],
+   "steps": [
+    "For each treatment: wins-if-successful = games x 80%; wins-if-unsuccessful = games x 40%; difference = games x 40%",
+    "Walking boot: 25 x 40% = 10-win difference x 35% success = 3.5 expected additional wins",
+    "Physical therapy: 30 x 40% = 12-win difference x 20% success = 2.4 expected additional wins",
+    "Regenerative injections: 20 x 40% = 8-win difference x 10% success = 0.8 expected additional wins",
+    "Surgical repair: 15 x 40% = 6-win difference x 80% success = 4.8 expected additional wins"
+   ],
+   "answer": "Only Surgical repair (4.8 expected additional wins) clears the 4-win bar; Walking boot (3.5), Physical therapy (2.4), and Regenerative injections (0.8) all fall short.",
+   "answer_value": 4.8,
+   "unit": "expected additional wins (surgical repair)",
+   "verified": true
+  },
+  {
+   "id": "revenue-per-game-difference",
+   "question": "What is the expected revenue difference per game between Richmond playing and not playing?",
+   "givens": [
+    "Expected revenue with Richmond = $1,470,000/game",
+    "Expected revenue without Richmond = $1,170,000/game"
+   ],
+   "steps": [
+    "Difference = 1,470,000 - 1,170,000 = $300,000 per game"
+   ],
+   "answer": "$300,000 more expected revenue per game Richmond plays.",
+   "answer_value": 300000,
+   "unit": "$/game",
+   "verified": true,
+   "book_answer_if_different": "The book's Part 5 text prints the subtraction as '$1,470,000 - $1,140,000 = $300,000', using $1,140,000 instead of Exhibit C's stated $1,170,000 'Without Richmond' figure; only $1,170,000 actually yields the stated $300,000 difference, so $1,140,000 appears to be a typo in the book."
+  },
+  {
+   "id": "surgical-net-revenue-impact",
+   "question": "What is the net expected regular-season revenue impact of pursuing surgical repair, compared to no treatment?",
+   "givens": [
+    "Surgical repair: 15 games playable if successful, 80% success probability",
+    "$300,000 incremental revenue per game Richmond plays",
+    "Surgical repair cost = $50,000"
+   ],
+   "steps": [
+    "Expected games played = 15 x 80% = 12 games",
+    "Additional revenue = 12 x $300,000 = $3,600,000",
+    "Net revenue increase = 3,600,000 - 50,000 (surgery cost) = $3,550,000"
+   ],
+   "answer": "≈$3.55M net expected regular-season revenue increase from pursuing surgical repair.",
+   "answer_value": 3550000,
+   "unit": "$",
+   "verified": true
+  }
+ ],
+ "synthesis": "To give themselves the best chance of making the playoffs, the Evanston Eagles should pursue surgical repair of Tripp Richmond's torn ankle tendon. Exhibit A and the follow-on analysis show that if Richmond does not return this season, the Eagles will not make the playoffs. Exhibit B and the follow-on analysis show surgical repair results in an expected increase of 4.8 wins compared to Richmond missing the remainder of the season — the only option sufficient to close the 4-win gap. Exhibit C and the follow-on analysis show pursuing surgical repair results in an estimated financial gain of $3.5M compared to doing nothing and letting Richmond sit out the remainder of the season. Notable risks: a 20% chance Richmond doesn't return this season even after surgery; competitive decline making the team a less desirable destination for top players/free agents; disagreement between management and Richmond on the right approach; and fan/media criticism of the response and anticipated competitive decline.",
+ "what_great_looks_like": [
+  "Handles an unfamiliar (sports medicine) domain with confident, structured questioning rather than getting stuck on unfamiliarity",
+  "Treats the treatment-selection question as an expected-value problem, correctly weighting outcomes by probability of success",
+  "Connects each analytical stage back to the prior one (competitive gap → treatment recommendation → financial impact) rather than treating them as separate exercises",
+  "Deliberately sets treatment cost aside when it conflicts with the primary goal (making the playoffs), while still surfacing cost transparently in the final recommendation",
+  "Recommends with appropriate empathy for the athlete, not just cold optimization",
+  "Surfaces qualitative risks (media perception, morale, athlete well-being, GM reputation) alongside the quantitative recommendation"
+ ],
+ "common_pitfalls": [
+  "Recommending the treatment most likely to succeed (e.g., surgery) or cheapest (e.g., walking boot) without running the expected-value math",
+  "Confusing 'games played if successful' with total games remaining, and failing to see that the non-treatment-window games cancel out of the win-rate comparison",
+  "Using the raw win/loss difference instead of weighting it by probability of success when picking a treatment",
+  "Forgetting to discount games played by the success probability when translating the recommendation into a revenue estimate",
+  "Not netting the treatment's cost against the revenue gain to reach a true financial impact"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "math[revenue-per-game-difference] — book's own printed subtraction contains a likely typo ($1,140,000 vs. Exhibit C's $1,170,000)"
+  ],
+  "math_verified": true,
+  "notes": "Part 5's printed formula uses '$1,140,000' where Exhibit C states '$1,170,000' for revenue without Richmond; only the $1,170,000 figure reproduces the book's own stated $300,000 difference, so this extraction uses $1,170,000 and flags the discrepancy in math[revenue-per-game-difference].book_answer_if_different rather than silently correcting it.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "luxury",
+  "name": "Luxury Goods",
+  "group": "Consumer & retail",
+  "one_liner": "High-end fashion, leather goods, jewelry, watches, and accessories whose economics rest on scarcity, brand heritage, and pricing power far above production cost.",
+  "how_it_makes_money": "Luxury houses sell at very high markups through tightly controlled directly operated stores, e-commerce, and selective wholesale. Pricing power, brand desirability, and control of distribution let leaders raise prices regularly without losing core demand.",
+  "value_chain": [
+    "Design and creative direction",
+    "Artisanal production and sourcing",
+    "Brand building and events",
+    "Directly operated boutiques",
+    "Selective wholesale and travel retail",
+    "Clienteling and after-sales service"
+  ],
+  "revenue_formula": [
+    "Revenue = number of boutiques × sales per boutique (clients × transactions × average ticket)",
+    "Revenue growth = price increases + volume + mix (leather goods, jewelry, ready-to-wear)",
+    "Revenue = top clients (VICs) × spend per client + aspirational buyers × spend"
+  ],
+  "cost_structure": [
+    "Retail network: prime-location boutique rents and staff",
+    "Marketing and brand events: runway shows, celebrity partnerships, flagships",
+    "Cost of goods: relatively small vs price, focused on materials and craftsmanship",
+    "Creative talent and design",
+    "Distribution and travel retail concessions"
+  ],
+  "margins": "Top houses earn gross margins of roughly 65-80% and operating margins that can exceed 30%, while weaker brands earn far less. Brand desirability, pricing power, and the share of directly operated retail drive the spread.",
+  "key_metrics": [
+    {"name": "Organic revenue growth", "what": "Growth excluding currency and acquisitions, showing brand momentum."},
+    {"name": "Like-for-like sales", "what": "Sales growth in existing stores, a gauge of demand."},
+    {"name": "Price vs volume contribution", "what": "Whether growth is from price increases or more buyers, important after years of hikes."},
+    {"name": "Retail vs wholesale mix", "what": "Share of direct sales, linked to brand control and margin."},
+    {"name": "Sales per square meter", "what": "Boutique productivity."},
+    {"name": "Share of sales from top clients", "what": "Concentration of revenue in VICs, which shows resilience."}
+  ],
+  "trends": [
+    "Slowdown after the post-pandemic boom, with aspirational buyers pulling back",
+    "China softness and shifting tourist spending patterns",
+    "Price increases testing consumer tolerance, with debate over 'luxury fatigue'",
+    "Creative director changes at major houses as brands seek renewal",
+    "Growth of resale and certified pre-owned luxury",
+    "Consolidation through conglomerate acquisitions of heritage brands"
+  ],
+  "key_players": [
+    "LVMH",
+    "Hermès",
+    "Kering",
+    "Chanel",
+    "Richemont",
+    "Prada",
+    "Moncler",
+    "Tapestry",
+    "Burberry",
+    "Rolex"
+  ],
+  "case_angles": [
+    {"question": "A European luxury brand's growth has stalled; what should it do?", "framework_id": "growth-strategy"},
+    {"question": "Should a luxury fashion house raise prices again this year?", "framework_id": "pricing"},
+    {"question": "Should a luxury conglomerate acquire a struggling heritage brand?", "framework_id": "mergers-acquisitions"},
+    {"question": "Should a luxury brand enter the resale market?", "framework_id": "market-entry"}
+  ],
+  "interview_hooks": [
+    "Has luxury over-relied on price increases at the expense of aspirational customers?",
+    "Should luxury brands pull back from wholesale to maintain exclusivity?",
+    "Is resale a threat to luxury brands or a way to strengthen them?"
+  ],
+  "news": {
+    "keywords": ["luxury", "luxury goods", "fashion house", "handbags", "haute couture", "leather goods", "watchmaker", "creative director", "high jewelry"],
+    "companies": ["LVMH", "Hermès", "Kering", "Gucci", "Chanel", "Richemont", "Prada", "Moncler", "Tapestry", "Burberry", "Louis Vuitton"]
+  }
+}

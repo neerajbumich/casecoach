@@ -1,0 +1,126 @@
+{
+  "id": "biotech",
+  "name": "Biotechnology",
+  "group": "Healthcare",
+  "one_liner": "Biotechs develop biologic and novel-modality therapies, typically burning cash for years on binary clinical bets funded by equity markets and pharma partnerships.",
+  "how_it_makes_money": "Most biotechs have no product revenue and fund themselves with venture capital, public equity and partnership payments (upfronts, milestones, royalties). Successful ones sell approved therapies at high prices, or are acquired by larger pharma companies.",
+  "value_chain": [
+    "Platform and target discovery",
+    "Preclinical research",
+    "Clinical development",
+    "Partnering or licensing",
+    "Approval and launch",
+    "Specialized manufacturing (CDMOs)"
+  ],
+  "revenue_formula": [
+    "Partnership revenue = upfront payment + milestones × probability of reaching them + royalty rate × partner sales",
+    "Product revenue = eligible patients × treatment rate × share × net price per patient",
+    "Asset value (rNPV) = Σ probability-weighted future cash flows discounted - remaining development cost"
+  ],
+  "cost_structure": [
+    "R&D: clinical trials and research, the bulk of spend for pre-revenue biotechs",
+    "Personnel: scientists and clinical staff",
+    "Manufacturing: complex biologics and cell/gene therapy production, often outsourced",
+    "General and administrative: IP, legal, public-company costs",
+    "Commercial build-out: launch and sales infrastructure if going it alone"
+  ],
+  "margins": "Most biotechs are unprofitable and measured by cash runway; the few commercial-stage leaders earn pharma-like margins, with outcomes driven by clinical success and pricing.",
+  "key_metrics": [
+    {
+      "name": "Cash runway",
+      "what": "Months of operation funded by current cash; determines financing timing and dilution risk."
+    },
+    {
+      "name": "Burn rate",
+      "what": "Net cash spent per period; the key operating discipline for pre-revenue firms."
+    },
+    {
+      "name": "Probability of success by phase",
+      "what": "Odds of advancing through each trial phase; historically low overall from Phase I."
+    },
+    {
+      "name": "Risk-adjusted NPV (rNPV)",
+      "what": "Probability-weighted value of the pipeline; underpins deals and valuations."
+    },
+    {
+      "name": "Enterprise value vs. cash",
+      "what": "How much the market values the pipeline beyond cash; signals investor sentiment."
+    },
+    {
+      "name": "Deal terms (upfront, milestones, royalties)",
+      "what": "Economics of licensing deals; shows how value is shared with partners."
+    }
+  ],
+  "trends": [
+    "Funding environment tightening and reopening in cycles, forcing pipeline prioritization",
+    "Big pharma acquiring biotechs to refill pipelines ahead of patent cliffs",
+    "Growth of new modalities such as cell and gene therapy, ADCs and RNA medicines",
+    "China-based biotechs emerging as a major source of licensed assets",
+    "AI-enabled drug discovery platforms attracting capital",
+    "FDA staffing and policy changes creating regulatory uncertainty"
+  ],
+  "key_players": [
+    "Amgen",
+    "Gilead Sciences",
+    "Regeneron",
+    "Vertex Pharmaceuticals",
+    "Biogen",
+    "Moderna",
+    "BioNTech",
+    "Alnylam",
+    "Argenx",
+    "(many small private and public firms)"
+  ],
+  "case_angles": [
+    {
+      "question": "A biotech has one Phase II asset and 18 months of cash. Should it partner, raise, or sell?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "Should a biotech commercialize its first approved drug itself or license it to pharma?",
+      "framework_id": "new-product-gtm"
+    },
+    {
+      "question": "How should a gene therapy with a one-time cure be priced?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "Should a biotech with a platform technology enter a new therapeutic area?",
+      "framework_id": "market-entry"
+    }
+  ],
+  "interview_hooks": [
+    "How should society pay for one-time, very high-priced cures?",
+    "Does AI meaningfully raise the odds of clinical success, or mainly speed discovery?",
+    "Is the rise of China-origin assets a threat or an opportunity for US biotech?"
+  ],
+  "news": {
+    "keywords": [
+      "biotech",
+      "biotechnology",
+      "gene therapy",
+      "cell therapy",
+      "phase 2",
+      "clinical data",
+      "orphan drug",
+      "mrna",
+      "antibody-drug conjugate",
+      "licensing deal",
+      "fda",
+      "xbi"
+    ],
+    "companies": [
+      "Amgen",
+      "Gilead",
+      "Regeneron",
+      "Vertex",
+      "Biogen",
+      "Moderna",
+      "BioNTech",
+      "Alnylam",
+      "Argenx",
+      "Sarepta",
+      "CRISPR Therapeutics"
+    ]
+  }
+}

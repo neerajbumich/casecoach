@@ -1,0 +1,334 @@
+{
+ "id": "darden-2023-opus-two",
+ "title": "Opus Two",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  126,
+  134
+ ],
+ "case_type": [
+  "Market Sizing/Guesstimate",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Market Sizing/Optimization",
+ "industry": "cpg",
+ "sub_industry": "alcoholic-beverages",
+ "industry_source_label": "Consumer",
+ "geography": "United States: Napa Valley, Finger Lakes, Albemarle County and Walla Walla Valley",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3; Quantitative 2; Qualitative 3 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "capacity",
+  "site-selection",
+  "yield",
+  "climate-risk",
+  "brand-reputation",
+  "asset-repurposing"
+ ],
+ "fit_question": "Tell me about a decision you made at work that showcased your integrity.",
+ "prompt": "Our client, Opus Two, is one of the most prestigious wineries in Napa Valley. The winery is renowned for crafting a single, exceptional wine—a Meritage Red Blend. Despite its reputation, Opus Two faces significant challenges due to climate change. Rising temperatures, extended droughts, and recent forest fires have made their location unsuitable for grape growing. As such, Opus Two is looking to relocate outside of Napa Valley and is seeking the firm's help in choosing a new region and wine to produce. What factors should be considered when selecting a new location for Opus Two?",
+ "clarifying_info": [
+  {
+   "question_topic": "Meritage",
+   "answer": "A Meritage Red Blend combines several grape varieties rather than one varietal such as Pinot Noir. Meritage combines merit and heritage to convey quality and tradition."
+  },
+  {
+   "question_topic": "Ownership and goal",
+   "answer": "A passion project owned by Darden's Wine and Cuisine Club and a Philadelphia sommelier. Preserve production, wine quality and brand reputation, rather than target a specific financial return."
+  },
+  {
+   "question_topic": "Sales",
+   "answer": "Annual production is 10,000 cases, or 120,000 bottles, sold for $500 per bottle to high-end restaurants worldwide and directly online and at the winery."
+  },
+  {
+   "question_topic": "Timing and locations",
+   "answer": "Move as soon as a new region and wine are identified. Potential sites will be supplied later in the analysis."
+  }
+ ],
+ "interviewer_notes": "McKinsey-style interviewer-led case for late preparation, after 20+ cases; tests sizing, optimization and creativity. Prioritize production capacity and quality rather than pure financial return. In sizing, let the candidate build an equation before supplying grape clusters per bottle, clusters per vine and vines per acre. If stuck, prompt for grapes needed per bottle and grapes produced per vine. Keep that equation for comparing sites. Do not show the worked sizing guidance as a candidate exhibit. Brainstorm alternate Napa uses consistent with its unsuitability for wine-grape growing. The case does not ultimately specify a new wine or establish post-move quality.",
+ "suggested_framework": {
+  "summary": "Preserve output and quality while protecting prestige and ensuring relocation feasibility.",
+  "tree": {
+   "label": "Choose a new winery location",
+   "children": [
+    {
+     "label": "Production and quality",
+     "children": [
+      {
+       "label": "Acreage and grape varietals"
+      },
+      {
+       "label": "Temperature, rainfall, seasonality, soil, altitude and land features"
+      },
+      {
+       "label": "Water, energy, climate change, disasters, wildlife and fungus"
+      }
+     ]
+    },
+    {
+     "label": "Regional perception",
+     "children": [
+      {
+       "label": "Reputation, recognition and customer preference"
+      },
+      {
+       "label": "Access to markets, transport and tourism"
+      }
+     ]
+    },
+    {
+     "label": "Feasibility",
+     "children": [
+      {
+       "label": "Customer/employee buy-in and regional expertise"
+      },
+      {
+       "label": "Revenue and land, labor and material costs"
+      },
+      {
+       "label": "Distribution, consumption and land-use rules; permits"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What factors should guide the new-location decision?",
+   "release_when": "After the prompt; clarifications if asked.",
+   "info_to_release": "Preserve 10,000 cases/120,000 bottles annually, wine quality and reputation. Price is $500 per bottle; there is no specific financial-return objective.",
+   "expected_answer": "Evaluate production and quality, regional prestige/customer acceptance and relocation feasibility. Production capacity is a logical starting point because maintaining output is an explicit goal, but acreage alone does not establish quality or reputation.",
+   "good_answer_signals": [
+    "Anchors the framework in the client's non-financial priorities."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "How many acres are required to produce 120,000 bottles annually?",
+   "release_when": "Let the candidate construct a sizing equation, then supply requested yield inputs verbally.",
+   "info_to_release": "One case contains 12 bottles; annual goal is 10,000 cases. Each bottle requires 10 grape clusters. Each vine produces 40 clusters annually. Density is 1,000 vines per acre.",
+   "expected_answer": "Required clusters = 120,000 × 10 = 1,200,000. Yield per acre = 40 × 1,000 = 40,000 clusters, so required land = 1,200,000 / 40,000 = 30 acres. Equivalently, one acre yields 4,000 bottles and 120,000 / 4,000 = 30 acres. Retain the structure for site comparison.",
+   "good_answer_signals": [
+    "Tracks clusters, vines, acres and bottles consistently.",
+    "Builds the equation before asking for inputs."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Which of the three candidate sites can maintain 120,000 bottles per year?",
+   "release_when": "Show Exhibit 1 after the initial sizing exercise.",
+   "info_to_release": "Finger Lakes: 36 acres by Lake Seneca, only 32 clusters per vine due to cool climate. Albemarle: 1,300,000 clusters annually before weather destroys 10%. Walla Walla: 40 acres, maximum 750 vines per acre under the case's state-law assumption. Other sizing inputs carry over, including 10 clusters per bottle.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Finger Lakes: 36 × 1,000 × 32 = 1,152,000 clusters, or 115,200 bottles, below target. Its 20% acreage increase does not offset a 20% yield decline: 1.2 × 0.8 = 0.96. Albemarle: 1.3m × 90% = 1.17m clusters, or 117,000 bottles, below target. Walla Walla: 40 × 750 × 40 = 1.2m clusters, or exactly 120,000 bottles. Only Walla Walla meets the modeled production constraint.",
+   "good_answer_signals": [
+    "Uses the original inputs only where the new site does not override them.",
+    "Avoids adding percentage changes with different bases."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What could Opus Two do with its original Napa location after moving?",
+   "release_when": "After selecting the capacity-feasible site.",
+   "info_to_release": "The original location is unsuitable for growing grapes for wine.",
+   "expected_answer": "Structure options into agriculture, new non-agricultural uses and disposal. Agriculture could include other fruits, vegetables, grains or olives; the source also suggests non-wine grape uses, whose viability would need checking against climate constraints. Alternatives include a hotel/restaurant, weddings/concerts, conferences/retreats, tourism, farmers' markets or hot-air-balloon activity. Selling or donating can create financial or philanthropic/PR value. Do not propose another wine varietal or selling to another winery as though the original growing problem disappears.",
+   "good_answer_signals": [
+    "Combines creative uses with case-specific constraints.",
+    "Distinguishes agriculture from tourism or event reuse."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "The WACC president wants an update. What do you recommend at this point?",
+   "release_when": "After the alternatives brainstorm.",
+   "info_to_release": "No additional facts.",
+   "expected_answer": "Recommend Walla Walla Valley as the only listed site meeting 120,000-bottle annual capacity. Relocation may cause customer pushback, lower perceived regional prestige or reduced wine quality. Survey existing customers and compare Walla Walla wineries with Napa peers to understand brand and quality impacts. Explore reuse of the Napa property. Production feasibility alone does not select the new wine or prove quality will be maintained.",
+   "good_answer_signals": [
+    "States capacity evidence without claiming it resolves every objective.",
+    "Proposes customer and competitive research as risk mitigation."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Wine regions",
+   "page": 130,
+   "kind": "table",
+   "description": "Three prospective vineyard sites, with different capacity constraints. All retain 10 grape clusters per bottle; unchanged inputs from the sizing exercise carry over.",
+   "data": {
+    "columns": [
+     "Site",
+     "Input",
+     "Value",
+     "Unit"
+    ],
+    "rows": [
+     [
+      "Finger Lakes, New York",
+      "Land",
+      36,
+      "acres"
+     ],
+     [
+      "Finger Lakes, New York",
+      "Cool-climate yield",
+      32,
+      "clusters/vine/year"
+     ],
+     [
+      "Albemarle County, Virginia",
+      "Pre-weather production",
+      1300000,
+      "clusters/year"
+     ],
+     [
+      "Albemarle County, Virginia",
+      "Weather loss",
+      10,
+      "% annually"
+     ],
+     [
+      "Walla Walla Valley, Washington",
+      "Land",
+      40,
+      "acres"
+     ],
+     [
+      "Walla Walla Valley, Washington",
+      "Maximum density",
+      750,
+      "vines/acre"
+     ],
+     [
+      "All sites",
+      "Bottle input",
+      10,
+      "clusters/bottle"
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-opus-two/p130.webp",
+   "key_insight": "Convert each site's different constraint into common annual cluster or bottle capacity.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What acreage supports current production at baseline yields?",
+   "givens": [
+    "10,000 cases × 12 bottles",
+    "10 clusters/bottle",
+    "40 clusters/vine/year",
+    "1,000 vines/acre"
+   ],
+   "steps": [
+    "Bottles = 120,000; required clusters = 1,200,000.",
+    "Clusters/acre = 40×1,000 = 40,000.",
+    "Required acres = 1,200,000/40,000 = 30."
+   ],
+   "answer": "30 acres at baseline yield and density.",
+   "answer_value": 30,
+   "unit": "acres",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What can Finger Lakes produce?",
+   "givens": [
+    "36 acres; 1,000 vines/acre; 32 clusters/vine; 10 clusters/bottle"
+   ],
+   "steps": [
+    "36×1,000×32 = 1,152,000 clusters.",
+    "1,152,000/10 = 115,200 bottles.",
+    "Relative capacity = 1.2×0.8 = 96% of required baseline."
+   ],
+   "answer": "115,200 bottles/year, below 120,000.",
+   "answer_value": 115200,
+   "unit": "bottles/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What can Albemarle produce after weather losses?",
+   "givens": [
+    "1.3m clusters/year before 10% loss",
+    "10 clusters/bottle"
+   ],
+   "steps": [
+    "Weather loss = 130,000 clusters.",
+    "Usable = 1,300,000−130,000 = 1,170,000 clusters.",
+    "Bottles = 117,000."
+   ],
+   "answer": "117,000 bottles/year, below target.",
+   "answer_value": 117000,
+   "unit": "bottles/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What can Walla Walla produce?",
+   "givens": [
+    "40 acres; 750 vines/acre; 40 clusters/vine; 10 clusters/bottle"
+   ],
+   "steps": [
+    "40×750 = 30,000 vines.",
+    "30,000×40 = 1,200,000 clusters.",
+    "1,200,000/10 = 120,000 bottles."
+   ],
+   "answer": "Exactly 120,000 bottles/year, meeting the target.",
+   "answer_value": 120000,
+   "unit": "bottles/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Select Walla Walla Valley for further relocation work: its 40 acres at 750 vines/acre and 40 clusters/vine support exactly 120,000 bottles annually. Finger Lakes and Albemarle fall short. Verify wine quality and customer acceptance through surveys and regional competitive analysis, and investigate new uses for the Napa property. The source provides no specific replacement wine selection.",
+ "what_great_looks_like": [
+  "Centers production, quality and reputation rather than maximizing profit.",
+  "Uses consistent units to compare sites with different constraints.",
+  "Recognizes a 20% yield decrease and 20% land increase do not cancel.",
+  "Proposes creative Napa uses without ignoring climate limitations."
+ ],
+ "common_pitfalls": [
+  "Choosing by acreage alone.",
+  "Forgetting the weather loss or density restriction.",
+  "Concluding capacity alone guarantees wine quality or brand prestige.",
+  "Suggesting another winery can use Napa without addressing its growing constraints."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Candidate exhibit visually reviewed and calculations recomputed in math-darden-opus.py. No math errors. Sizing numbers are released verbally from interviewer guidance, not shown with its worked answer. Case asks for region and wine, but the source answers only the site decision; no new varietal is invented. The source's non-wine-grape reuse suggestion may conflict with the broad prompt wording that the site is unsuitable for grape growing; retained with a feasibility caveat. Washington density rule is a supplied case assumption, not current legal guidance. Header case10 is out of contents order, where Opus follows Robots. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "stages[3].expected_answer (non-wine-grape feasibility caveat)",
+   "synthesis (scope limitation)"
+  ]
+ }
+}

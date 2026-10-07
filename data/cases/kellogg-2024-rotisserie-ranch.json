@@ -1,0 +1,255 @@
+{
+ "id": "kellogg-2024-rotisserie-ranch",
+ "title": "Rotisserie Ranch",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  308,
+  314
+ ],
+ "author": "Brian Fox (Kellogg 2004); edited by Adam Louras (Kellogg 2011), Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "kellogg-2024-rotisserie-ranch",
+ "is_canonical_variant": true,
+ "case_type": [
+  "New Product/GTM",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Y04 New product; Y06 Opportunity assessment",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "X02 Agriculture & Food; X12 Retail & CPG",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [],
+ "difficulty": 2,
+ "difficulty_inferred": true,
+ "quant_intensity": "L",
+ "estimated_minutes": 25,
+ "tags": [
+  "new-product-launch",
+  "market-testing",
+  "retailer-margin",
+  "b2b",
+  "food-cpg",
+  "pilot-test",
+  "channel-economics"
+ ],
+ "concepts_tested": [
+  "Z10 Customer marketing strategy"
+ ],
+ "fit_question": "Tell me about a time you had to deal with a difficult boss.",
+ "prompt": "Our client is Rotisserie Ranch, a poultry farming company that specializes in growing chickens for rotisserie roasting. Its primary customer segment is large grocery chains that buy chickens to fresh-roast in the meat departments of their grocery stores. Market research has revealed to Rotisserie Ranch that more and more consumers have begun buying flavored rotisserie chickens recently. Rotisserie Ranch is thinking of pre-flavoring some of its chickens for grocers — what would you consider in making this recommendation?",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry",
+   "answer": "Predicting demand for cooked chickens is difficult for grocers; any leftover cooked chickens at the end of the day are thrown out; unthawed chickens cannot be re-frozen."
+  },
+  {
+   "question_topic": "Client",
+   "answer": "The client has a patented process for sterilely packaging chicken so it stays fresh for 30 days, making freezing unnecessary. The client is currently the market-share leader in rotisserie-ready chicken."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "Four new 'flavored' products would be introduced concurrently: barbecue, lemon herb, tandoori, and teriyaki."
+  },
+  {
+   "question_topic": "Competitor",
+   "answer": "There is no competition in the new product market, due to the client's patented process."
+  }
+ ],
+ "interviewer_notes": "Problem: should Rotisserie Ranch pre-flavor its chickens? Problem-solving steps: (1) brainstorm value to customers of the new product, (2) analyze results of a market test, (3) provide client recommendation.",
+ "suggested_framework": {
+  "summary": "Interviewer-led brainstorm-then-test structure: assess the value proposition of pre-seasoned chicken to grocers, validate with a market test, then recommend.",
+  "tree": {
+   "label": "Should Rotisserie Ranch pre-flavor its chickens?",
+   "children": [
+    {
+     "label": "Value to grocers",
+     "children": [
+      {
+       "label": "Benefits (labor savings, economies of scale, product consistency)"
+      },
+      {
+       "label": "Drawbacks (loss of differentiation, less attuned to local tastes, added SKUs/inventory)"
+      }
+     ]
+    },
+    {
+     "label": "Validation via market test",
+     "children": [
+      {
+       "label": "Pilot test design with a control/comparison group"
+      },
+      {
+       "label": "Retailer profit comparison: standard vs. seasoned chicken"
+      }
+     ]
+    },
+    {
+     "label": "Recommendation",
+     "children": [
+      {
+       "label": "Market trend / competitive necessity"
+      },
+      {
+       "label": "Quantified benefit to grocers"
+      },
+      {
+       "label": "Scale benefits to the client over time"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "brainstorm",
+   "interviewer_asks": "Do you think that grocery retailers would be interested in pre-seasoned chickens from Rotisserie Ranch?",
+   "expected_answer": "A structured brainstorm of pros and cons for grocers. Pros: labor cost reduction (meat department workers don't need to season chickens themselves), economies of scale from centralized seasoning (lower cost), and product consistency (centrally managed, more R&D investment possible). Cons: loss of differentiation (grocery chains differentiate on their own value-added seasoning), being less attuned to local consumer tastes, and increased inventory/SKU complexity.",
+   "good_answer_signals": [
+    "Generates both benefits and drawbacks for the grocer, not just benefits",
+    "Distinguishes value to the grocer from value to Rotisserie Ranch"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "clarify",
+   "interviewer_asks": "After several interviews, grocers are interested in Rotisserie Ranch's proposed new product, but first they want to be sure the chickens will sell well. How would you make sure?",
+   "expected_answer": "The candidate should recognize that (a) a pilot/test-market launch should be run, and (b) the pilot needs a control or comparison group (e.g., standard chicken sold alongside seasoned chicken) so results can be attributed to the new product rather than other factors.",
+   "good_answer_signals": [
+    "Proposes a pilot/test market",
+    "Specifies the need for a control or comparison group"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "A test market launch for the new Rotisserie Ranch BBQ chicken was administered. What is the overall profit for both Store A and B, and for the BBQ test stores, from the test market?",
+   "release_when": "Once the candidate identifies the need for market testing",
+   "info_to_release": "Exhibit A (weekly sales, retail price, and retailer margin for standard-rotisserie Stores A/B and BBQ-seasoned-rotisserie Stores C/D).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Retailer profit = weekly sales × retailer margin. Standard chicken: Store A = $1,000 × 30% = $300; Store B = $2,000 × 30% = $600; total = $900/week. BBQ seasoned chicken: Store C = $1,600 × 25% = $400; Store D = $2,700 × 25% = $675; total = $1,075/week. The seasoned product generates $175/week more retailer profit than standard chicken.",
+   "good_answer_signals": [
+    "Correctly computes retailer profit as sales × margin for each store",
+    "Compares total standard vs. total seasoned retailer profit and quantifies the $175 difference"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "Rotisserie Ranch should launch the pre-seasoned BBQ chicken and test the other three flavors, because: (1) it's a competitive necessity — consumers are spending more on seasoned rotisserie chicken and the market is shifting that direction; (2) assuming the test market was representative, grocers can expect $175/week more gross profit using the client's seasoned product versus standard rotisserie chicken; (3) there are potential scale benefits to the client over time as more pre-seasoned chickens are sold.",
+   "good_answer_signals": [
+    "Ties the recommendation to the quantified $175 test-market benefit",
+    "Notes the market-trend/competitive-necessity rationale",
+    "Flags future scale benefits to the client"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Store sales",
+   "page": 311,
+   "kind": "table",
+   "description": "Test-market results comparing two stores selling standard rotisserie chicken (A, B) and two stores selling BBQ-seasoned rotisserie chicken (C, D): weekly sales, retail price, and retailer margin for each.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Store A (Standard)",
+     "Store B (Standard)",
+     "Store C (BBQ Seasoned)",
+     "Store D (BBQ Seasoned)"
+    ],
+    "rows": [
+     [
+      "Weekly Sales",
+      "$1,000",
+      "$2,000",
+      "$1,600",
+      "$2,700"
+     ],
+     [
+      "Retail Price",
+      "$3.33",
+      "$2.50",
+      "$4.00",
+      "$3.00"
+     ],
+     [
+      "Retailer Margin",
+      "30%",
+      "30%",
+      "25%",
+      "25%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-rotisserie-ranch/p311.webp",
+   "key_insight": "Even at a lower retailer margin (25% vs. 30%), the BBQ-seasoned stores generate substantially higher weekly retailer profit ($1,075 combined vs. $900 combined) because seasoned chicken drives higher weekly sales volume — the margin-rate cut is more than offset by the sales lift.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the total weekly retailer profit for the standard-rotisserie stores versus the BBQ-seasoned-rotisserie stores in the test market?",
+   "givens": [
+    "Retailer profit = Weekly Sales × Retailer Margin",
+    "Store A: $1,000 sales, 30% margin",
+    "Store B: $2,000 sales, 30% margin",
+    "Store C: $1,600 sales, 25% margin",
+    "Store D: $2,700 sales, 25% margin"
+   ],
+   "steps": [
+    "Store A profit = $1,000 × 30% = $300",
+    "Store B profit = $2,000 × 30% = $600",
+    "Standard total = $300 + $600 = $900/week",
+    "Store C profit = $1,600 × 25% = $400",
+    "Store D profit = $2,700 × 25% = $675",
+    "BBQ Seasoned total = $400 + $675 = $1,075/week",
+    "Difference = $1,075 − $900 = $175/week more for seasoned"
+   ],
+   "answer": "Standard chicken generates $900/week in retailer profit; BBQ-seasoned chicken generates $1,075/week — $175/week more",
+   "answer_value": 175,
+   "unit": "$/week additional retailer profit",
+   "verified": true
+  }
+ ],
+ "synthesis": "Rotisserie Ranch should launch the pre-seasoned BBQ chicken and test the other three flavors (lemon herb, tandoori, teriyaki). This is a competitive necessity given the market shift toward seasoned rotisserie chicken; assuming the test market is representative, grocers can expect $175/week more gross profit from the client's seasoned product versus standard rotisserie chicken; and there are potential scale benefits to the client over time as more pre-seasoned chickens are sold.",
+ "what_great_looks_like": [
+  "Brainstorms both benefits and drawbacks to the grocer, not just a one-sided pitch for the new product",
+  "Proactively proposes a controlled pilot test before being asked how to validate demand",
+  "Uses the test-market data to make an apples-to-apples retailer-profit comparison, correctly handling the different margin rates",
+  "Ties the final recommendation to the quantified test-market benefit rather than qualitative impressions alone"
+ ],
+ "common_pitfalls": [
+  "Proposing a market test without specifying a control/comparison group",
+  "Comparing raw weekly sales figures across stores instead of computing retailer profit (sales × margin)",
+  "Overlooking that the seasoned product's lower margin rate (25% vs. 30%) is offset by higher sales volume"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book's own figures ($300, $600, $400, $675, $900, $1,075, $175 difference) were independently recomputed and matched exactly.",
+  "fields_inferred": [
+   "suggested_framework.tree",
+   "difficulty",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

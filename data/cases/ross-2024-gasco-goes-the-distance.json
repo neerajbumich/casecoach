@@ -1,0 +1,346 @@
+{
+ "id": "ross-2024-gasco-goes-the-distance",
+ "title": "GasCo Goes the Distance",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  79,
+  87
+ ],
+ "case_type": [
+  "Market Entry",
+  "Profitability"
+ ],
+ "case_type_source_label": "Market Entry/Profitability",
+ "industry": "oil-gas",
+ "sub_industry": "downstream",
+ "industry_source_label": "Oil & Gas",
+ "geography": "United States, EMEA (Spain), and APAC (China)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 1, Qual - 3, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "international-expansion",
+  "market-entry",
+  "transportation-cost",
+  "unit-economics",
+  "pricing",
+  "competitive-response",
+  "tariffs"
+ ],
+ "concepts_tested": [
+  "market attractiveness",
+  "international market-entry risks",
+  "transport economics",
+  "qualitative brainstorming"
+ ],
+ "prompt": "Your client is GasCo, a US-based natural gas company. In the last year, natural gas prices in the US have declined while prices in APAC and EMEA have increased. GasCo has developed a new way to transport gas that significantly lowers transportation cost. Due to the new technology, GasCo would like to expand in the global market. GasCo would like to know if it should enter APAC, EMEA, or both regions. APAC means Asia Pacific and China; EMEA means Europe, the Middle East, and Africa.",
+ "clarifying_info": [
+  {
+   "question_topic": "Technology and competitive advantage",
+   "answer": "GasCo's technology is unique; no competitors have it. Gas normally must be shipped in large containers, but GasCo can liquefy it and transport it at significantly lower cost."
+  },
+  {
+   "question_topic": "Primary objective",
+   "answer": "GasCo's main concern is overall profitability. It wants to understand regional demand and which market is more profitable."
+  },
+  {
+   "question_topic": "Existing customers",
+   "answer": "GasCo has two major customers: one in China and one in Japan."
+  }
+ ],
+ "interviewer_notes": "This candidate-led case is based on a final-round interview with an oil-and-gas partner. It is intentionally qualitative and tests creativity in brainstorming. The candidate should compare EMEA and APAC using market attractiveness, transportation economics, customers, competitors, and entry risks. Exhibit 1 maps the proposed ports and supplies the quantitative inputs when requested.",
+ "suggested_framework": {
+  "summary": "Book-provided framework comparing financials, competition, and customers for the two entry regions.",
+  "tree": {
+   "label": "GasCo international market entry",
+   "children": [
+    {
+     "label": "Financials",
+     "children": [
+      {
+       "label": "Revenue",
+       "children": [
+        {
+         "label": "Market share"
+        },
+        {
+         "label": "Expected pricing"
+        }
+       ]
+      },
+      {
+       "label": "Costs",
+       "children": [
+        {
+         "label": "Transportation distance and days"
+        },
+        {
+         "label": "Storage, labor, stocking, and increased production"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Competition",
+     "children": [
+      {
+       "label": "Current competitors"
+      },
+      {
+       "label": "Expected new entrants and competitive response"
+      }
+     ]
+    },
+    {
+     "label": "Customers",
+     "children": [
+      {
+       "label": "Existing relationships and ability to build new ones"
+      },
+      {
+       "label": "Brand awareness"
+      },
+      {
+       "label": "Forecast demand"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine whether GasCo should enter APAC, EMEA, or both?",
+   "expected_answer": "Compare the regions on revenue potential and market share, achievable pricing, transportation and other entry costs, competitive intensity and likely response, customer relationships, brand awareness, and forecast demand. Keep profitability as the decision criterion while also testing whether GasCo can execute the entry.",
+   "good_answer_signals": [
+    "Uses profitability as the governing objective",
+    "Separates market attractiveness from GasCo's ability to win",
+    "Plans to compare the two regions consistently"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What can you gather from the map of the proposed EMEA and APAC entry points?",
+   "release_when": "Hand out Exhibit 1 after the candidate has structured the problem.",
+   "info_to_release": "The proposed EMEA port is in Spain, 5,000 miles from Texas; the proposed APAC port is in China, 10,000 miles away. Average natural-gas prices are $4 per gallon for GasCo in the US, $10 per gallon in EMEA, and $3 per gallon in APAC.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "EMEA is closer and currently has a much higher gas price, creating an opportunity to undercut suppliers amid European supply shortages. China is farther away and has a lower regional gas price, but its larger population may offer more volume. APAC also contains GasCo's two major customers in China and Japan, strengthening the strategic rationale for APAC.",
+   "good_answer_signals": [
+    "Recognizes the distance-price tradeoff",
+    "Connects European prices to the Russia-Ukraine supply disruption",
+    "Recalls GasCo's two APAC customers"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Estimate the transportation cost and potential revenue for shipping to Spain versus China.",
+   "release_when": "Provide the operating inputs only when the candidate asks for the data needed to calculate economics.",
+   "info_to_release": "Spain: 5,000 miles, $10 per mile, 7 days at sea, $750 per day, estimated sales of 120,000 gallons at $6 per gallon. China: 10,000 miles, $5.50 per mile, 20 days at sea, $550 per day, estimated sales of 250,000 gallons at $3 per gallon.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Spain transportation cost is 5,000×$10 + 7×$750 = $55,250, and potential revenue is 120,000×$6 = $720,000. China transportation cost is 10,000×$5.50 + 20×$550 = $66,000, and potential revenue is 250,000×$3 = $750,000. Before unprovided production and entry costs, the implied contribution is $664,750 for Spain and $684,000 for China, so China has a small numerical edge despite its longer journey.",
+   "good_answer_signals": [
+    "Includes both distance and time costs",
+    "Calculates revenue from units and price",
+    "Does not mistake regional average price for GasCo's projected selling price"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What conditions might affect profitability when entering a foreign market?",
+   "expected_answer": "External factors include changes in natural-gas prices, a local competitor price war, tariffs or higher import taxes, and local development of similar transportation technology. Internal factors include whether GasCo has the sales team and other capabilities required to enter and serve the market. Strong answers cover both external and internal drivers.",
+   "good_answer_signals": [
+    "Separates external market risks from internal capability risks",
+    "Includes competitor and government responses",
+    "Considers technology imitation and demand shifts"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to GasCo?",
+   "expected_answer": "Either market is supportable with sound reasoning. APAC offers slightly higher implied contribution, two existing major customers in China and Japan, and greater long-term market-share potential, though it has longer shipping time and exposure to tariffs and competition. EMEA offers lower transportation cost, shorter travel time, and an immediate opportunity created by high European gas prices, though normalization after the Russia-Ukraine conflict could reduce prices. Next steps are a detailed competitive and demand assessment—especially in China—and formation of an internal market-entry team.",
+   "good_answer_signals": [
+    "Chooses a region and anchors the choice in both economics and strategic facts",
+    "Names competitor, government, demand, and geopolitical risks",
+    "Proposes a concrete market assessment and entry-planning next step"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Potential EMEA and APAC Market Entries",
+   "page": 83,
+   "kind": "other",
+   "description": "Map of shipping routes from Texas to Spain and China, with distances and average natural-gas prices.",
+   "data": {
+    "columns": [
+     "Market",
+     "Proposed port",
+     "Distance from Texas (miles)",
+     "Average natural-gas price per gallon"
+    ],
+    "rows": [
+     [
+      "GasCo US",
+      "Texas",
+      0,
+      "$4"
+     ],
+     [
+      "EMEA",
+      "Spain",
+      5000,
+      "$10"
+     ],
+     [
+      "APAC",
+      "China",
+      10000,
+      "$3"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-gasco-goes-the-distance/p083.webp",
+   "key_insight": "EMEA is half as far away and has a much higher prevailing gas price, while APAC may compensate with greater volume and existing customer relationships.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Spain and China Transportation Economics",
+   "page": 85,
+   "kind": "table",
+   "description": "Operating inputs for the proposed entries through Spain and China: distance, cost per mile, days at sea, cost per day, estimated unit sales and price. (The book's page also shows the worked totals, so the image is hidden until revealed.)",
+   "data": {
+    "columns": [
+     "Metric",
+     "Spain",
+     "China"
+    ],
+    "rows": [
+     [
+      "Distance (miles)",
+      5000,
+      10000
+     ],
+     [
+      "Cost per mile",
+      "$10",
+      "$5.50"
+     ],
+     [
+      "Days at sea",
+      7,
+      20
+     ],
+     [
+      "Cost per day",
+      "$750",
+      "$550"
+     ],
+     [
+      "Estimated unit sales",
+      120000,
+      250000
+     ],
+     [
+      "Projected GasCo price per gallon",
+      "$6",
+      "$3"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-gasco-goes-the-distance/p085.webp",
+   "key_insight": "China's greater volume produces slightly more revenue and implied contribution even though its transportation cost and journey length are higher.",
+   "data_confidence": "high",
+   "image_has_answers": true
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are the transportation costs to Spain and China?",
+   "givens": [
+    "Spain: 5,000 miles at $10/mile and 7 days at $750/day",
+    "China: 10,000 miles at $5.50/mile and 20 days at $550/day"
+   ],
+   "steps": [
+    "Spain distance cost = 5,000 × $10 = $50,000",
+    "Spain time cost = 7 × $750 = $5,250",
+    "Spain total transportation cost = $50,000 + $5,250 = $55,250",
+    "China distance cost = 10,000 × $5.50 = $55,000",
+    "China time cost = 20 × $550 = $11,000",
+    "China total transportation cost = $55,000 + $11,000 = $66,000"
+   ],
+   "answer": "$55,250 for Spain and $66,000 for China",
+   "answer_value": 55250,
+   "unit": "USD (Spain; China is USD 66,000)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are the potential revenues and implied contributions before other costs?",
+   "givens": [
+    "Spain: 120,000 gallons at $6/gallon and $55,250 transportation cost",
+    "China: 250,000 gallons at $3/gallon and $66,000 transportation cost"
+   ],
+   "steps": [
+    "Spain revenue = 120,000 × $6 = $720,000",
+    "Spain implied contribution = $720,000 - $55,250 = $664,750",
+    "China revenue = 250,000 × $3 = $750,000",
+    "China implied contribution = $750,000 - $66,000 = $684,000"
+   ],
+   "answer": "$720,000 revenue and $664,750 implied contribution for Spain; $750,000 revenue and $684,000 implied contribution for China",
+   "answer_value": 684000,
+   "unit": "USD (China implied contribution; Spain is USD 664,750)",
+   "verified": true
+  }
+ ],
+ "synthesis": "GasCo can justify either region, but APAC has a slight quantitative advantage and a stronger existing-customer rationale: after transportation cost, the provided figures imply $684,000 of contribution for China versus $664,750 for Spain, and GasCo already has major customers in China and Japan. EMEA remains attractive because Spain is closer, travel is shorter, and current European gas prices are unusually high. Before committing, GasCo should test demand and competitor response in China, assess tariffs and import taxes in both regions, and build an internal entry team. Key risks are a competitor price war, government action, technology imitation, alternative fuels, and lower European prices if Russian supply conditions normalize.",
+ "what_great_looks_like": [
+  "Maintains profitability as the core decision criterion",
+  "Uses the map to identify both distance and market-potential tradeoffs",
+  "Calculates distance cost, time cost, and revenue without confusing price inputs",
+  "Recalls that GasCo's two major customers are in APAC",
+  "Balances market, regulatory, competitive, technological, and internal execution risks"
+ ],
+ "common_pitfalls": [
+  "Recommends Europe solely because it is closer without considering volume or customers",
+  "Uses the regional average gas price instead of GasCo's projected selling price in the revenue calculation",
+  "Omits cost per day from transportation cost",
+  "Treats the supplied revenue-minus-transportation figure as full profit even though production and entry costs are not provided"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The book permits either APAC or EMEA as the recommendation if reasoning is sound. The case's transportation-cost table is complete and legible. Industry is classified as oil-gas/downstream because the client transports and markets natural gas internationally. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

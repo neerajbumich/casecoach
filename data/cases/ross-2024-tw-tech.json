@@ -1,0 +1,313 @@
+{
+ "id": "ross-2024-tw-tech",
+ "title": "TW Tech",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  210,
+  218
+ ],
+ "case_type": [
+  "Market Entry"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "tech-saas",
+ "sub_industry": "consumer-internet",
+ "industry_source_label": "Technology",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 1, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "market-entry",
+  "video-conferencing",
+  "market-sizing",
+  "breakeven",
+  "network-effects",
+  "competition",
+  "subscription"
+ ],
+ "concepts_tested": [
+  "B2B-to-B2C expansion",
+  "market sizing",
+  "revenue-share breakeven",
+  "competitive feasibility"
+ ],
+ "prompt": "TW Tech is a technology conglomerate with a strong enterprise hardware brand. Over three years it built a video-conferencing platform with a 60% gross margin. Facing fierce B2B competition, the CEO is considering entering B2C video conferencing. How would you advise her?",
+ "clarifying_info": [
+  {
+   "question_topic": "Portfolio",
+   "answer": "Hardware includes network products and wireless systems; software is the video-conferencing platform."
+  },
+  {
+   "question_topic": "Strategic context",
+   "answer": "The global video-conferencing market grew 120% across B2B and B2C after the pandemic; B2B competition is strong."
+  },
+  {
+   "question_topic": "Financial goal",
+   "answer": "Positive profitability; guide toward a one-year breakeven goal because the market is fast-moving and the existing product should enter a new segment faster than the three years needed to build it."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Three major competitors exist: one is B2B-only and two operate in B2B and B2C."
+  }
+ ],
+ "interviewer_notes": "This qualitative market-entry case tests how the same product's go-to-market changes between enterprise and consumer users. The candidate should size B2B and B2C, infer TW Tech's current share, calculate first-year breakeven share, and judge whether customer acquisition is feasible given network effects and concentrated competition.",
+ "suggested_framework": {
+  "summary": "Book framework covering market attractiveness, financial analysis, risks and entry plan.",
+  "tree": {
+   "label": "TW Tech B2C entry",
+   "children": [
+    {
+     "label": "Market attractiveness",
+     "children": [
+      {
+       "label": "B2C size and growth"
+      },
+      {
+       "label": "Competitors, differentiation, switching costs and network effects"
+      }
+     ]
+    },
+    {
+     "label": "Financial analysis",
+     "children": [
+      {
+       "label": "Subscription pricing and adoption"
+      },
+      {
+       "label": "R&D, infrastructure, salary, acquisition and maintenance costs"
+      },
+      {
+       "label": "Hardware cross-sell synergies"
+      }
+     ]
+    },
+    {
+     "label": "Risks and entry",
+     "children": [
+      {
+       "label": "Privacy regulation and opportunity cost"
+      },
+      {
+       "label": "Build, acquire or partner"
+      },
+      {
+       "label": "Pilot roadmap"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether TW Tech should enter B2C video conferencing?",
+   "expected_answer": "Assess B2C size and growth, competition and network effects, differentiation and acquisition; build subscription economics and synergies; evaluate privacy, opportunity cost and competitive response; then choose an entry method and pilot.",
+   "good_answer_signals": [
+    "Distinguishes B2C behavior from B2B",
+    "Includes network effects",
+    "Connects market attractiveness to economics"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What factors belong in a global video-conferencing market-size estimate?",
+   "expected_answer": "Segment users by individuals, SME and enterprise, industry and geography; distinguish subscription, freemium conversion, usage-based and on-premise pricing; and include maintenance and service fees, lifecycle and maintenance frequency.",
+   "good_answer_signals": [
+    "Segments customers and geography",
+    "Includes pricing model and conversion",
+    "Does not limit the estimate to B2C"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What is the global market size and B2C portion?",
+   "release_when": "Show Exhibit 1 after the candidate proposes a sizing approach.",
+   "info_to_release": "One billion annual subscription plans: 20% corporate and 80% consumer freemium; 10% of freemium users convert. Corporate price is $160 and converted consumer price is $100. The market-share chart shows Z-chat 45%, M Tech 24%, GoTo Call 12%, TW Tech 10%, Goo 7%, and others 2%.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Corporate paid plans are 200M, worth $32B. Converted consumer plans are 1,000M×80%×10%=80M, worth $8B. Total market is $40B and B2C is 20% of the total (the book describes $8B as approximately 25% of $40B, which is arithmetically incorrect). TW Tech currently has 10% global share, all from B2B.",
+   "good_answer_signals": [
+    "Applies freemium conversion",
+    "Separates B2B and B2C value",
+    "Reads TW Tech's 10% share",
+    "Notices concentration above 80% among the top three"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What global market share must TW Tech win to break even in year one, and is that feasible?",
+   "info_to_release": "B2C annual price is $120 per plan, variable cost is $60, and fixed cost is $480M.",
+   "expected_answer": "Contribution is $60 per plan, so breakeven requires 8M plans. Revenue is $960M, equal to 2.4% of the $40B global market or 12% of the $8B B2C market. Adding 2.4 points to the current 10% global share is roughly 24% share growth in one year. This is aggressive against major B2C competitors, and the new 50% gross margin trails TW Tech's existing 60% software margin.",
+   "good_answer_signals": [
+    "Calculates plans before share",
+    "Expresses both global and B2C share",
+    "Evaluates competition, timing and margin"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should TW Tech enter B2C?",
+   "expected_answer": "A defensible recommendation is not to enter immediately because winning 12% of B2C in one year is aggressive in a concentrated, network-effect market and the 50% gross margin dilutes the existing 60% margin. Instead improve B2B differentiation, interoperability and hardware bundling. A go recommendation is acceptable only if TW Tech believes its resources make 12% B2C share feasible and commits to a pilot, consumer acquisition, differentiation and cross-sell plan.",
+   "good_answer_signals": [
+    "Takes a position",
+    "Uses breakeven and competitive feasibility",
+    "Provides risks and concrete next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Global Video-Conferencing Market",
+   "page": 215,
+   "kind": "table",
+   "description": "Candidate-facing market inputs and global revenue-share chart.",
+   "data": {
+    "columns": [
+     "Input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Annual subscription plans",
+      "1,000M"
+     ],
+     [
+      "Corporate plans",
+      "20%"
+     ],
+     [
+      "Consumer freemium plans",
+      "80%"
+     ],
+     [
+      "Freemium conversion",
+      "10%"
+     ],
+     [
+      "Corporate price",
+      "$160"
+     ],
+     [
+      "Converted consumer price",
+      "$100"
+     ],
+     [
+      "Z-chat share",
+      "45%"
+     ],
+     [
+      "M Tech share",
+      "24%"
+     ],
+     [
+      "GoTo Call share",
+      "12%"
+     ],
+     [
+      "TW Tech share",
+      "10%"
+     ],
+     [
+      "Goo share",
+      "7%"
+     ],
+     [
+      "Others",
+      "2%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-tw-tech/p215.webp",
+   "key_insight": "B2C is an $8B pool, but leading incumbents control most of the total market and TW Tech's current 10% share is B2B-only.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are B2B, B2C and total market size?",
+   "givens": [
+    "1,000M plans",
+    "20% corporate at $160",
+    "80% freemium, 10% conversion at $100"
+   ],
+   "steps": [
+    "B2B = 1,000M×20%×$160=$32B",
+    "B2C = 1,000M×80%×10%×$100=$8B",
+    "Total=$40B",
+    "B2C share=$8B÷$40B=20%"
+   ],
+   "answer": "$32B B2B, $8B B2C, $40B total; B2C is 20%",
+   "answer_value": 40,
+   "unit": "USD billions total",
+   "verified": false,
+   "book_answer_if_different": "The book correctly gives $8B B2C and $40B total but calls B2C approximately 25%; $8B/$40B is 20%."
+  },
+  {
+   "id": "m2",
+   "question": "What first-year share is required to break even?",
+   "givens": [
+    "Price $120",
+    "Variable cost $60",
+    "Fixed cost $480M",
+    "$40B total market",
+    "$8B B2C market"
+   ],
+   "steps": [
+    "Contribution=$60",
+    "Plans=$480M÷$60=8M",
+    "Revenue=8M×$120=$960M",
+    "Global revenue share=$960M÷$40B=2.4%",
+    "B2C revenue share=$960M÷$8B=12%"
+   ],
+   "answer": "8 million plans, 2.4% global share or 12% B2C share",
+   "answer_value": 2.4,
+   "unit": "% global revenue share",
+   "verified": true
+  }
+ ],
+ "synthesis": "TW Tech should not enter B2C immediately unless consumer research demonstrates a credible path to 12% B2C share in one year. Breakeven requires 8M paid plans and $960M revenue, or 2.4% of the global market, in a concentrated market dominated by incumbents with network effects. The new offer's 50% gross margin also trails TW Tech's current 60%. TW Tech should first strengthen B2B differentiation and interoperability, bundle software with hardware, and test B2C through a limited pilot.",
+ "what_great_looks_like": [
+  "Segments paid corporate and converted freemium users",
+  "Calculates global and B2C breakeven shares",
+  "Evaluates network effects and concentration",
+  "Compares new and existing margins",
+  "Makes a conditional, testable recommendation"
+ ],
+ "common_pitfalls": [
+  "Counts all freemium users as paid",
+  "Uses 2.4% without translating it to 12% of B2C",
+  "Ignores competitor response",
+  "Accepts the book's incorrect 25% B2C share"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "The book's statement that $8B is approximately 25% of a $40B market is wrong; the corrected share is 20%. Exhibit page 215 is candidate-facing; guidance page 216 is not used. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,295 @@
+{
+ "id": "wharton-2005-maldovian-coffins",
+ "title": "Maldovian Coffins",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  15,
+  19
+ ],
+ "variant_group_id": "maldovian-coffins",
+ "is_canonical_variant": true,
+ "case_type": [
+  "M&A/Acquisition",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "command and control case",
+ "industry": "industrials-manufacturing",
+ "industry_source_label": "coffin manufacturing",
+ "geography": "Maldovia (fictional Eastern European country)",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey, 1st Round"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "market-sizing",
+  "valuation",
+  "perpetuity",
+  "rule-of-72",
+  "real-estate-appreciation",
+  "cost-structure",
+  "industry-profitability",
+  "technology-investment"
+ ],
+ "concepts_tested": [
+  "market sizing",
+  "DCF/perpetuity valuation",
+  "asset valuation",
+  "competitive dynamics of non-proprietary technology"
+ ],
+ "prompt": "Our client is a coffin maker in the Eastern European country of Maldovia. He has seen substantial change in his market in recent years and is contemplating the future of his business. Up until now, he has been in the business of building high-quality, hand-crafted coffins largely by hand with a skilled labor force. Recently, however, he has become aware of technology that would allow him to build machine-made coffins with much less labor. Should he invest in this new technology, and should he even remain in the coffin business in the first place?",
+ "clarifying_info": [
+  {
+   "question_topic": "Market size approach",
+   "answer": "Candidate should brainstorm ≥4 approaches (population growth/birth rate; death records; obituary sampling; population/life expectancy), then compute: Population 4M, growth 0%, avg life expectancy 75 years, flat age distribution, 75% of deaths buried in coffins → 40,000 coffins purchased/year."
+  },
+  {
+   "question_topic": "Price",
+   "answer": "Coffins are priced at $5,000 for a hand-made coffin."
+  },
+  {
+   "question_topic": "Costs",
+   "answer": "Material is 10% of direct cost, labor is 90%. COGS is $4,800/coffin. Fixed costs are $700,000/year. Assume all assets fully depreciated; ignore taxes."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Maldovian Coffins has 10% market share and relative market share of about 1."
+  },
+  {
+   "question_topic": "Market trends/regulation",
+   "answer": "Assume the market continues as it currently is; no exogenous changes."
+  },
+  {
+   "question_topic": "Land/asset valuation approach",
+   "answer": "Candidate should brainstorm ≥3 approaches (comparable real estate sale prices; comparable commercial rent discounted; appreciation rate applied to book value), then use: Book value of land $20,000, improvements $80,000, held 48 years, average real estate appreciation 6%/year."
+  },
+  {
+   "question_topic": "New technology investment",
+   "answer": "Investment costs $1M. Material costs stay the same; labor costs are reduced 50%. The technology is non-proprietary — the supplier holds the patent and will sell to competitors too. It is unknown whether competitors have acquired or plan to acquire it. Customers are indifferent between hand-made and machine-made coffin quality/appearance. Assume brand impact is negligible."
+  }
+ ],
+ "interviewer_notes": "This is a McKinsey-style 'command and control' case: let the candidate drive initially to brainstorm possible routes, then firmly take control of each module below and move the candidate through all of them — only candidates who complete every section are considered strong. The case tests mental horsepower and the ability to move to conclusions quickly.",
+ "suggested_framework": {
+  "summary": "Decide (1) whether to stay in the coffin business at all, and (2) if so, whether to invest in the new machine technology — by comparing going-concern value, liquidation value, and post-investment value.",
+  "tree": {
+   "label": "Strategic alternatives for the owner",
+   "children": [
+    {
+     "label": "Option 1: Sell the business to a third party"
+    },
+    {
+     "label": "Option 2: Sell the assets of the company and shut it down"
+    },
+    {
+     "label": "Option 3: Keep operating as is"
+    },
+    {
+     "label": "Option 4: Keep operating and invest in the new technology"
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What strategic alternatives should the owner consider?",
+   "expected_answer": "Candidate should lay out that the owner must first decide whether to stay in business at all, and if so, whether to adopt the new technology: (1) sell the business to a third party, (2) sell the assets and shut down, (3) keep operating as is, (4) keep operating and invest in the new technology.",
+   "good_answer_signals": [
+    "Frames the two-level decision (stay vs. exit; if stay, invest or not)",
+    "Names all four concrete options"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "How would you figure out the current value of the business? What is the size of the market?",
+   "release_when": "Only if the candidate asks for market-size or cost/price data clearly and directly",
+   "info_to_release": "Population of Maldovia 4M; population growth 0%; avg life expectancy 75 years; flat age distribution; 75% of deaths buried in coffins.",
+   "expected_answer": "Candidate brainstorms ≥4 ways to size the market, then calculates: 1/75th of the population dies each year (flat age distribution), so 4,000,000/75 ≈ 53,333 deaths/year × 75% buried = 40,000 coffins purchased/year.",
+   "good_answer_signals": [
+    "Proposes multiple market-sizing methods before calculating",
+    "Recognizes flat age distribution implies 1/75th of population dies per year"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Now calculate the current value of the business.",
+   "info_to_release": "Price $5,000/coffin; COGS $4,800/coffin (90% labor, 10% material); fixed costs $700,000/year; 10% market share; assume a 10% discount rate (or any reasonable, consistent rate).",
+   "exhibit_ids": [],
+   "expected_answer": "Contribution margin = $200/coffin × 40,000 total coffins × 10% share = $800,000; Profit = $800,000 − $700,000 fixed costs = $100,000; valued as a perpetuity at 10% discount rate = $100,000/0.10 = $1,000,000.",
+   "good_answer_signals": [
+    "Computes contribution margin correctly",
+    "Applies market share to total market volume",
+    "Uses perpetuity formula for valuation"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "So now what is the value of the company if it were shut down and the assets were sold?",
+   "release_when": "Only if the candidate asks for the value of the land/assets",
+   "info_to_release": "Book value of land $20,000, improvements $80,000; held 48 years; average real estate appreciation 6%/year.",
+   "expected_answer": "Candidate brainstorms ≥3 valuation approaches, then uses the rule of 72 (72/6 = 12-year doubling period; 48 years = 4 doublings) to get $100,000 × 2^4 = $1,600,000. Since $1.6M (liquidation) exceeds $1M (going concern), liquidating and selling the assets is more attractive.",
+   "good_answer_signals": [
+    "Proposes multiple asset-valuation approaches",
+    "Applies the rule of 72 correctly",
+    "Compares liquidation value to going-concern value and draws the right conclusion"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What would the value of the company be if he invests in the new technology?",
+   "release_when": "Only if the candidate asks for investment cost, cost savings, or competitive/customer details",
+   "info_to_release": "Investment costs $1M; material costs unchanged, labor costs reduced 50%; technology is non-proprietary (patent held by a machine-tool supplier who will also sell to competitors); unknown if competitors are acquiring it; customers indifferent to hand-made vs. machine-made quality; assume negligible brand impact.",
+   "expected_answer": "Because the technology is non-proprietary, competitors are likely to acquire it too, lowering the industry cost structure and, with it, price, as firms compete on share. If the industry holds its ~4% gross margin (=$200/$5,000) on the new, lower cost base (new COGS = $2,160 labor + $480 material = $2,640), the resulting price and contribution margin make the business unprofitable at current volume, once fixed costs are covered — i.e., the new, non-proprietary technology is likely to make the whole industry (and this business) less profitable, not more, absent some form of price support (branding, collusion, etc.).",
+   "good_answer_signals": [
+    "Recognizes non-proprietary technology diffuses industry-wide",
+    "Connects diffusion to falling prices/margins rather than treating cost savings as pure upside",
+    "Attempts to quantify the resulting margin/profit impact"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "[With ~3 minutes left] The owner just called and said he has an offer to buy his business. He needs to know whether he should take it right now.",
+   "expected_answer": "Given the credible threat that the new technology will make the industry unprofitable, the owner should look to sell the company as soon as possible — the assets alone (real estate) are worth around $1.6M, above the ~$1M present value of the going-concern cash flows. If he can't sell right away, he should continue operating as a cash cow without further investment, expect profitability to erode as the industry mechanizes, and eventually sell the assets and close the firm.",
+   "good_answer_signals": [
+    "Gives a clear, time-bound recommendation without being prompted",
+    "Grounds the recommendation in the $1.6M liquidation value vs. $1M going-concern value",
+    "Notes the fallback plan (operate as cash cow, exit later) if no immediate sale"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many coffins are purchased in Maldovia per year (market size)?",
+   "givens": [
+    "Population 4,000,000",
+    "Population growth 0%",
+    "Average life expectancy 75 years",
+    "Flat (uniform) age distribution",
+    "75% of deaths are buried in coffins"
+   ],
+   "steps": [
+    "With a flat age distribution and 75-year life expectancy, 1/75th of the population dies each year",
+    "Deaths/year = 4,000,000 / 75 ≈ 53,333",
+    "Coffins/year = 53,333 deaths × 75% buried in coffins = 40,000"
+   ],
+   "answer": "40,000 coffins purchased per year",
+   "answer_value": 40000,
+   "unit": "coffins/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the current value of Maldovian Coffins as a going concern?",
+   "givens": [
+    "Price $5,000/coffin",
+    "COGS $4,800/coffin",
+    "Total market 40,000 coffins/year",
+    "10% market share",
+    "Fixed costs $700,000/year",
+    "Discount rate 10% (perpetuity)"
+   ],
+   "steps": [
+    "Contribution margin = $5,000 − $4,800 = $200/coffin",
+    "Company volume = 40,000 × 10% market share = 4,000 coffins",
+    "Total contribution = 4,000 × $200 = $800,000",
+    "Profit = $800,000 − $700,000 fixed costs = $100,000",
+    "PV as a perpetuity at 10% discount rate = $100,000 / 0.10 = $1,000,000"
+   ],
+   "answer": "$1,000,000",
+   "answer_value": 1000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the current value of the company's land and improvements if liquidated?",
+   "givens": [
+    "Book value of land $20,000",
+    "Book value of improvements $80,000",
+    "Held 48 years",
+    "Average real estate appreciation 6%/year"
+   ],
+   "steps": [
+    "Total book value = $20,000 + $80,000 = $100,000",
+    "Rule of 72: doubling period = 72 / 6 = 12 years",
+    "Number of doublings in 48 years = 48 / 12 = 4",
+    "Current value = $100,000 × 2^4 = $100,000 × 16 = $1,600,000"
+   ],
+   "answer": "$1,600,000 (exceeds the $1,000,000 going-concern value, so liquidation is preferable)",
+   "answer_value": 1600000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "If the owner invests in the new technology, what happens to price, margin, and profit once competitors also adopt the (non-proprietary) technology?",
+   "givens": [
+    "New labor cost = ($4,800 × 90%) × 50% = $2,160",
+    "Material cost unchanged = $4,800 × 10% = $480",
+    "New COGS = $2,160 + $480 = $2,640",
+    "Assume industry holds the prior 4% gross margin ($200/$5,000)",
+    "Company volume ≈ 4,000 coffins/year (10% share)",
+    "Fixed costs $700,000/year"
+   ],
+   "steps": [
+    "New COGS = $2,160 (labor) + $480 (material) = $2,640",
+    "Solve for the price implied by holding a 4% gross margin: Price = COGS / (1 − 4%) = $2,640 / 0.96 = $2,750",
+    "Contribution margin = Price − COGS = $2,750 − $2,640 = $110/coffin",
+    "Loss = CM × volume − fixed costs = $110 × 4,000 − $700,000 = −$260,000/year"
+   ],
+   "answer": "The business becomes unprofitable, with an estimated loss on the order of −$260,000/year once industry pricing adjusts to the lower, shared cost base",
+   "answer_value": -260000,
+   "unit": "USD/year",
+   "verified": false,
+   "book_answer_if_different": "Book states price $2,718 (vs. recomputed $2,750), contribution margin $78/coffin (vs. recomputed $110), and loss −$388,000/year (vs. recomputed −$260,000/year); the book's own $2,718 price appears internally inconsistent with its stated 4% margin off a $2,640 COGS."
+  }
+ ],
+ "synthesis": "Given the credible threat that the new, non-proprietary manufacturing technology will erode industry profitability, the owner should sell or liquidate the business — the real estate assets alone are worth roughly $1.6M, versus about $1M as a going concern — rather than invest in the new technology. If an immediate sale isn't available, he should run the business as a cash cow without further investment and plan to exit as the industry mechanizes and margins compress.",
+ "what_great_looks_like": [
+  "Lays out the two-level decision (stay vs. exit; if stay, invest or not) and all four concrete options up front",
+  "Drives market sizing with multiple methods before calculating",
+  "Correctly applies the perpetuity formula to value the going concern",
+  "Recognizes and applies the rule of 72 for the real-estate appreciation shortcut",
+  "Sees that a non-proprietary technology will diffuse to competitors and pressure industry pricing, not just cut this firm's own costs",
+  "Delivers a clear, well-reasoned recommendation without prompting as time runs low"
+ ],
+ "common_pitfalls": [
+  "Jumps to valuing the business only via DCF/perpetuity and never considers liquidation value",
+  "Misses the rule-of-72 shortcut and gets bogged down in a full compounding calculation",
+  "Treats the technology investment as automatically value-creating without considering that competitors can buy the same technology",
+  "Fails to structure the four strategic alternatives before diving into numbers"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[3].answer"
+  ],
+  "math_verified": false,
+  "notes": "The book's technology-investment math (m4) appears internally inconsistent: it states a price of $2,718 despite a stated new COGS of $2,640 and a target 4% gross margin, which implies a price of $2,750, not $2,718; the book's downstream contribution margin ($78) and loss (−$388,000) both flow from the unexplained $2,718 figure. Recomputed the step independently per extraction rule 4 and flagged verified=false with the book's figures preserved in book_answer_if_different.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "industry"
+  ]
+ }
+}

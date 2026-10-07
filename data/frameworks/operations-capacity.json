@@ -1,0 +1,140 @@
+{
+ "id": "operations-capacity",
+ "name": "Operations & capacity",
+ "category": "core",
+ "summary": "Map the process end to end, find the bottleneck (the step with the lowest capacity), then raise throughput or cut cost: add capacity, improve utilisation and scheduling, or reduce variability.",
+ "opening_line": "I'd map the process step by step with each step's capacity, find the bottleneck, and then look at ways to raise capacity or utilisation at that step, weighing cost and service levels.",
+ "when_to_use": [
+  "Throughput, wait times, delivery or service-level problems",
+  "Capacity decisions (build a plant, add staff, add trucks)",
+  "Supply-chain and logistics cases"
+ ],
+ "when_not_to_use": [
+  "Strategic questions like entry, pricing or M&A"
+ ],
+ "tree": {
+  "label": "Improve operations",
+  "children": [
+   {
+    "label": "Process map",
+    "children": [
+     {
+      "label": "Steps & flow"
+     },
+     {
+      "label": "Capacity per step"
+     },
+     {
+      "label": "Bottleneck"
+     }
+    ]
+   },
+   {
+    "label": "Demand",
+    "children": [
+     {
+      "label": "Volume & peaks"
+     },
+     {
+      "label": "Service-level targets"
+     }
+    ]
+   },
+   {
+    "label": "Levers",
+    "children": [
+     {
+      "label": "Add capacity (people, machines, shifts)"
+     },
+     {
+      "label": "Utilisation & scheduling"
+     },
+     {
+      "label": "Reduce variability / rework"
+     },
+     {
+      "label": "Outsource / network redesign"
+     }
+    ]
+   },
+   {
+    "label": "Economics",
+    "children": [
+     {
+      "label": "Cost per unit"
+     },
+     {
+      "label": "Investment & payback"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Diagnose",
+   "questions": [
+    "What's each step's capacity and utilisation?",
+    "Where do queues form?"
+   ],
+   "data_to_ask": [
+    "Process times",
+    "Demand by hour / day"
+   ]
+  },
+  {
+   "name": "Fix",
+   "questions": [
+    "Cheapest way to lift the bottleneck?",
+    "Can demand be smoothed?"
+   ],
+   "data_to_ask": [
+    "Cost of each option"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "logistics-3pl",
+   "note": "Network design: routes, hub-and-spoke, fleet utilisation, driver schedules."
+  },
+  {
+   "industry": "healthcare-providers",
+   "note": "OR / bed utilisation, patient flow, staff rostering."
+  },
+  {
+   "industry": "aerospace-defense",
+   "note": "Launch or production capacity, payload/weight constraints, schedule risk."
+  }
+ ],
+ "common_mistakes": [
+  "Adding capacity at a non-bottleneck step",
+  "Ignoring peaks and variability (averages hide queues)",
+  "Not costing the options"
+ ],
+ "related": [
+  "cost-reduction",
+  "value-chain",
+  "supply-demand"
+ ],
+ "match": {
+  "case_types": [
+   "Capacity/Supply Chain",
+   "Cost Reduction/Operations"
+  ],
+  "tags": [
+   "capacity",
+   "capacity-constraint",
+   "operations",
+   "supply-chain",
+   "logistics"
+  ],
+  "keywords": [
+   "capacity",
+   "throughput",
+   "schedule",
+   "supply chain",
+   "logistics"
+  ]
+ }
+}

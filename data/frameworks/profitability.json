@@ -1,0 +1,205 @@
+{
+ "id": "profitability",
+ "name": "Profitability tree",
+ "category": "core",
+ "summary": "Profit = (Price × Volume) − (Fixed + Variable costs). Split the decline into revenue vs cost, then drill to the driver that moved, and always check whether the problem is company-specific or industry-wide.",
+ "opening_line": "Profits fell, so I'd first check whether this is a revenue or a cost problem, and whether competitors are seeing the same thing. Then I'd drill into the specific driver that moved.",
+ "when_to_use": [
+  "Profits, margins or ROI have declined or missed a target",
+  "Client asks 'how do we improve profitability?'",
+  "Post-merger results miss expectations (combine with M&A synergies)"
+ ],
+ "when_not_to_use": [
+  "The question is whether to enter / launch / acquire. Profitability is one branch there, not the whole structure",
+  "Pure revenue growth with no margin problem: use the growth framework",
+  "Non-profits and public sector, where the objective isn't profit"
+ ],
+ "tree": {
+  "label": "Profit",
+  "children": [
+   {
+    "label": "Revenue",
+    "children": [
+     {
+      "label": "Price",
+      "children": [
+       {
+        "label": "List price"
+       },
+       {
+        "label": "Discounts / mix"
+       }
+      ]
+     },
+     {
+      "label": "Volume",
+      "children": [
+       {
+        "label": "Market size & growth"
+       },
+       {
+        "label": "Market share"
+       }
+      ]
+     },
+     {
+      "label": "Revenue mix by product / segment / channel"
+     }
+    ]
+   },
+   {
+    "label": "Costs",
+    "children": [
+     {
+      "label": "Fixed",
+      "children": [
+       {
+        "label": "Rent / PP&E"
+       },
+       {
+        "label": "Overhead / SG&A"
+       }
+      ]
+     },
+     {
+      "label": "Variable",
+      "children": [
+       {
+        "label": "COGS / materials"
+       },
+       {
+        "label": "Labour"
+       },
+       {
+        "label": "Distribution"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "External context",
+    "children": [
+     {
+      "label": "Industry-wide trend?"
+     },
+     {
+      "label": "Competitor moves"
+     },
+     {
+      "label": "Customer shifts"
+     },
+     {
+      "label": "Regulation"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Revenue",
+   "questions": [
+    "Did price, volume or mix change?",
+    "Which products, segments, channels or regions drove it?",
+    "Is the market shrinking, or are we losing share?"
+   ],
+   "data_to_ask": [
+    "Revenue by segment over 3–5 years",
+    "Price and units sold",
+    "Market size and share trend"
+   ]
+  },
+  {
+   "name": "Costs",
+   "questions": [
+    "Which cost lines grew faster than revenue?",
+    "Fixed or variable? Per-unit or total?",
+    "Is it input prices, efficiency, or scale?"
+   ],
+   "data_to_ask": [
+    "Cost breakdown by line item over time",
+    "Per-unit costs vs competitors"
+   ]
+  },
+  {
+   "name": "External context",
+   "questions": [
+    "Are competitors' margins falling too?",
+    "New entrants, substitutes, customer preference shifts?",
+    "Any regulatory or input-cost shock?"
+   ],
+   "data_to_ask": [
+    "Competitor margins",
+    "Industry trends"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "airlines",
+   "note": "Revenue = ASMs × load factor × yield (+ ancillaries). Costs are CASM: fuel, labour, aircraft ownership. Fixed-cost heavy, so load factor drives profit."
+  },
+  {
+   "industry": "tech-saas",
+   "note": "Revenue = customers × ARPU (ARR). Watch churn / net revenue retention and CAC vs LTV. COGS is hosting and support; the big costs are S&M and R&D."
+  },
+  {
+   "industry": "retail",
+   "note": "Revenue = stores × traffic × conversion × basket size (+ e-com). Watch same-store sales vs new stores, gross margin (mix, shrink, markdowns) and rent / labour per sq ft."
+  },
+  {
+   "industry": "restaurants",
+   "note": "Revenue = covers (or tickets) × average check × days. Prime cost = food + labour, usually ~60% of sales. Watch table turns and delivery-platform commissions."
+  },
+  {
+   "industry": "healthcare-providers",
+   "note": "Revenue = volume × reimbursement by payer mix (commercial vs Medicare / Medicaid). Watch length of stay, bed occupancy and labour (nursing) costs."
+  },
+  {
+   "industry": "banking",
+   "note": "Revenue = net interest income (balances × NIM) + fees. Costs = opex (efficiency ratio) + credit losses (provisions)."
+  },
+  {
+   "industry": "industrials-manufacturing",
+   "note": "Revenue = units × price. Costs: materials, direct labour, overhead absorbed by utilisation. Low capacity utilisation inflates unit cost."
+  },
+  {
+   "industry": "telecom",
+   "note": "Revenue = subscribers × ARPU. Watch churn, acquisition cost and network capex / depreciation (largely fixed)."
+  }
+ ],
+ "common_mistakes": [
+  "Listing revenue and costs generically without asking what actually changed",
+  "Forgetting the external check: is the whole industry down?",
+  "Not segmenting (products, customers, channels), so the culprit hides in an average",
+  "Jumping to cost-cutting ideas before diagnosing the cause"
+ ],
+ "related": [
+  "cost-reduction",
+  "growth-strategy",
+  "pricing",
+  "breakeven",
+  "turnaround"
+ ],
+ "match": {
+  "case_types": [
+   "Profitability",
+   "Turnaround"
+  ],
+  "tags": [
+   "profitability",
+   "unit-economics",
+   "margin",
+   "cost-structure",
+   "fixed-vs-variable-cost",
+   "contribution-margin"
+  ],
+  "keywords": [
+   "profit",
+   "margin",
+   "revenue",
+   "cost"
+  ]
+ }
+}

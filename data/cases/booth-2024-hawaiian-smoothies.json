@@ -1,0 +1,251 @@
+{
+ "id": "booth-2024-hawaiian-smoothies",
+ "title": "Hawaiian Smoothies",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  183,
+  188
+ ],
+ "case_type": [
+  "Market Entry",
+  "Investment/PE due diligence",
+  "Profitability"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "restaurants",
+ "sub_industry": "coffee-cafes",
+ "industry_source_label": "Restaurants, Food & Beverage / Investor",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG",
+  "Round 2"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 2/3; Creativity 2/3",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "smoothies",
+  "startup",
+  "breakeven",
+  "payback",
+  "restaurant",
+  "franchising"
+ ],
+ "fit_question": "Tell me about a time you struggled as a leader and what you would change. Tell me about a time you persuaded someone who initially disagreed with you.",
+ "prompt": "In 1990, entrepreneur Jim asks Dan to invest $30,000 for 50% of a new suburban smoothie shop and half of its profits or losses. Jim hopes to franchise the concept after a successful first store. Dan will invest only if he can recover his money within two years and wants to understand the longer-term opportunity.",
+ "clarifying_info": [
+  {
+   "question_topic": "Timing",
+   "answer": "Jim plans to open as soon as he finds a co-investor."
+  },
+  {
+   "question_topic": "Investment objective",
+   "answer": "Dan requires payback within two years and also values long-term growth potential."
+  }
+ ],
+ "interviewer_notes": "Candidate-led breakeven case. Release cost and revenue inputs only when the candidate identifies their underlying drivers. The $20K equipment payment is due at the end of year one and reduces first-year cash profit. Correct the source's final unit label and payback timing: breakeven is about 11.1 smoothies per hour, and Dan recovers his investment about 7.75 months into year two.",
+ "suggested_framework": {
+  "summary": "Test Dan's two-year payback hurdle through store economics, then assess market response, scalability and risks.",
+  "tree": {
+   "label": "Smoothie investment",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Traffic, conversion, hours and price"
+      },
+      {
+       "label": "Mix, food, add-ons and future stores"
+      }
+     ]
+    },
+    {
+     "label": "Costs and returns",
+     "children": [
+      {
+       "label": "Rent, equipment and marketing"
+      },
+      {
+       "label": "Labor, ingredients, profit share and payback"
+      }
+     ]
+    },
+    {
+     "label": "Market and risk",
+     "children": [
+      {
+       "label": "Customer demand and health trends"
+      },
+      {
+       "label": "Competitors, imitation and franchising capability"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What should Dan consider before investing?",
+   "expected_answer": "Calculate store revenue and contribution, fixed costs, equipment cash flow, Dan's 50% share and payback; then test smoothie demand, location, competition, differentiation, execution and franchise growth potential.",
+   "good_answer_signals": [
+    "Centers the two-year payback hurdle",
+    "Uses smoothie-specific revenue and cost drivers"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What are annual store profit and Dan's returns at 15 smoothies per hour?",
+   "info_to_release": "Open 10 hours/day and 360 days/year; $5 price; $1.50 ingredients; $7,200 monthly rent; two workers at $6/hour; $10,800 annual advertising; $20,000 equipment payment at year-end.",
+   "expected_answer": "Volume is 150/day. Daily contribution is 150×$3.50=$525. Daily fixed operating cost is $240 rent+$120 labor+$30 advertising=$390, leaving $135/day or $48,600/year before equipment. Year-one store cash profit is $28,600; Dan receives $14,300. From year two he receives $24,300 annually.",
+   "good_answer_signals": [
+    "Converts annual and monthly costs to daily",
+    "Applies the equipment payment and 50% ownership"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Does Dan recover $30,000 within two years?",
+   "expected_answer": "After $14,300 in year one, $15,700 remains. At $24,300 per year or $2,025 per month, that takes 7.75 months of year two. Payback is about 1.65 years, within the two-year hurdle but not within the first half of year two.",
+   "good_answer_signals": [
+    "Tracks investor rather than store cash flows",
+    "Computes payback timing correctly"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What minimum sales rate covers daily operating expenses?",
+   "expected_answer": "Daily cost is $390 and contribution per smoothie is $3.50, so breakeven is 390/3.50=111.43 smoothies per day, or 11.14 per hour over ten hours. Since expected sales are 15 per hour, the cushion is 3.86 per hour.",
+   "good_answer_signals": [
+    "Uses contribution margin",
+    "Reports both daily volume and hourly rate with correct units"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How else could the store increase revenue?",
+   "expected_answer": "Open for breakfast, add food and other beverages, offer sizes and premium boosters, sell athletic supplements, raise prices selectively, partner with gyms and franchise once the unit model is proven.",
+   "good_answer_signals": [
+    "Separates same-store and external growth",
+    "Links ideas to target customers"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Dan invest?",
+   "expected_answer": "Invest, subject to validating demand. Base-case payback is about 1.65 years and ongoing annual cash to Dan is $24,300. Sales of 15 per hour exceed the 11.14-per-hour operating breakeven. Test price, traffic and competitive downside and secure first-mover advantages before franchising.",
+   "good_answer_signals": [
+    "Quantifies return and sales cushion",
+    "Notes sensitivity and imitation risk"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are base-case store profit and Dan's annual cash flows?",
+   "givens": [
+    "15 smoothies/hour",
+    "10 hours/day",
+    "360 days/year",
+    "$5 price",
+    "$1.50 ingredients",
+    "$7,200 monthly rent",
+    "2 employees at $6/hour",
+    "$10,800 annual advertising",
+    "$20K year-one equipment payment",
+    "50% ownership"
+   ],
+   "steps": [
+    "Volume=15×10=150/day",
+    "Contribution=(5-1.5)×150=$525/day",
+    "Operating cost=$240+$120+$30=$390/day",
+    "Annual operating profit=($525-$390)×360=$48,600",
+    "Year-one cash profit=$48,600-$20,000=$28,600",
+    "Dan receives $14,300 in year one and $24,300 annually thereafter"
+   ],
+   "answer": "$48,600 annual store operating profit; Dan receives $14,300 in year one and $24,300 per year thereafter",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "When does Dan recover his $30,000 investment?",
+   "givens": [
+    "$14,300 year-one distribution",
+    "$24,300 annual distribution thereafter"
+   ],
+   "steps": [
+    "Remaining after year one=$30,000-$14,300=$15,700",
+    "Monthly year-two distribution=$24,300/12=$2,025",
+    "Months in year two=$15,700/$2,025=7.753",
+    "Total payback=1+7.753/12=1.646 years"
+   ],
+   "answer": "About 1.65 years, or 7.75 months into year two",
+   "answer_value": 1.646,
+   "unit": "years",
+   "verified": false,
+   "book_answer_if_different": "The book says Dan recovers his investment during the first half of year two. The displayed cash flows leave $15,700 after year one and provide $2,025 per month in year two, so payback occurs about 7.75 months into year two, in its second half."
+  },
+  {
+   "id": "m3",
+   "question": "What sales rate covers daily operating expenses?",
+   "givens": [
+    "$390 daily operating cost",
+    "$3.50 contribution per smoothie",
+    "10-hour day"
+   ],
+   "steps": [
+    "Daily breakeven=$390/$3.50=111.43 smoothies",
+    "Hourly breakeven=111.43/10=11.14 smoothies/hour"
+   ],
+   "answer": "About 111.4 smoothies per day, or 11.14 per hour",
+   "answer_value": 11.1429,
+   "unit": "smoothies/hour",
+   "verified": false,
+   "book_answer_if_different": "The book's calculation correctly states about 111 smoothies per day or 11 per hour, but the final recommendation mistakenly says the store requires about 11 smoothies per day and expects 15 per day; both figures should be per hour."
+  }
+ ],
+ "synthesis": "Dan should invest, subject to demand validation. The base case repays his $30,000 in about 1.65 years and generates $24,300 annually thereafter. Expected sales of 15 smoothies per hour exceed the 11.14-per-hour operating breakeven. Test traffic and pricing downside, competitive imitation and franchise readiness before scaling.",
+ "what_great_looks_like": [
+  "Keeps store and investor cash flows separate",
+  "Includes the year-one equipment payment",
+  "Reports breakeven and payback with correct units and timing"
+ ],
+ "common_pitfalls": [
+  "Calculates payback on total store profit",
+  "Omits the equipment payment",
+  "Repeats the source's smoothies-per-day unit error"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "The case has no candidate exhibits. Two source errors are corrected: payback occurs 7.75 months into year two, and daily operating breakeven is 111.4 smoothies, equivalent to 11.14 per hour—not 11 per day. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "geography",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

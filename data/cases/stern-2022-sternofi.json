@@ -1,0 +1,385 @@
+{
+ "id": "stern-2022-sternofi",
+ "title": "Sternofi",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  190,
+  196
+ ],
+ "author": "Jeremy Russell ’21",
+ "case_type": [
+  "M&A/Acquisition",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "M&A",
+ "industry": "biotech",
+ "sub_industry": "therapeutics",
+ "industry_source_label": "Pharmaceutical",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "L.E.K. Consulting: Round 1 and Final"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 8; Structure: 6 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "acquisition",
+  "algebra",
+  "market-share",
+  "drug-development",
+  "payback",
+  "patent-life",
+  "synergies"
+ ],
+ "concepts_tested": [
+  "Algebra",
+  "Market sizing"
+ ],
+ "prompt": "Hamilton & Hamilton (H&H), a multinational pharmaceutical company, is considering acquiring Sternofi, a biotechnology company with a promising drug candidate in phase 2 clinical trials called Deanraghutumab. Should H&H go through with this acquisition?",
+ "clarifying_info": [
+  {
+   "question_topic": "Indication and efficacy",
+   "answer": "Deanraghutumab treats pancreatic cancer. Clinical data suggests it may be more efficacious than current standard care, but patients respond differently and it cannot treat all cases."
+  },
+  {
+   "question_topic": "Other assets",
+   "answer": "Sternofi has other pipeline drugs at earlier stages, but their success is too uncertain to forecast."
+  },
+  {
+   "question_topic": "Strategic fit and geography",
+   "answer": "Focus on the US. H&H has few oncology products and wants to expand in that therapeutic area."
+  },
+  {
+   "question_topic": "Patent protection",
+   "answer": "Deanraghutumab has 12 years of patent protection remaining from today. The financial projections apply during exclusivity."
+  },
+  {
+   "question_topic": "Acquisition objective",
+   "answer": "H&H wants to break even within 8 years of acquisition."
+  }
+ ],
+ "interviewer_notes": "Emulate the quantitative cases in both L.E.K. interview rounds. Encourage structured tabular recording of the dense market information. All frameworks should consider market size and composition; redirect there if omitted. Read the entire Question 1 information packet aloud. Repetition requests are welcome and test poise, but all quantitative relationships needed are already in that packet. Treat other companies as a single entity and use annual new diagnoses rather than all prevalent patients. Do not show the completed solution table on page 194 to the candidate. Ask for risk mitigations if not volunteered. The acquisition decision is deliberately ambiguous: either choice is acceptable if supported. The source directs treating all values as present values, so no extra discount rate should be invented.",
+ "suggested_framework": {
+  "summary": "Evaluate the treatment market and drug, strategic fit and synergies, acquisition economics, and development/commercial risks.",
+  "tree": {
+   "label": "Should H&H acquire Sternofi?",
+   "children": [
+    {
+     "label": "Market and indication",
+     "children": [
+      {
+       "label": "Efficacy versus existing care"
+      },
+      {
+       "label": "Patient segments and eligible population"
+      },
+      {
+       "label": "Treatment price relative to alternatives"
+      }
+     ]
+    },
+    {
+     "label": "Company and strategic benefits",
+     "children": [
+      {
+       "label": "Sales, development, safety and manufacturing synergies"
+      },
+      {
+       "label": "Entry into oncology"
+      },
+      {
+       "label": "New geographic opportunities"
+      }
+     ]
+    },
+    {
+     "label": "Deal economics",
+     "children": [
+      {
+       "label": "Expected revenue, costs and profits"
+      },
+      {
+       "label": "Purchase price and break-even timing"
+      },
+      {
+       "label": "Financing"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Drug and merger approvals"
+      },
+      {
+       "label": "Patent protection"
+      },
+      {
+       "label": "Reimbursement and overseas commercialization"
+      },
+      {
+       "label": "New competing treatments"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess this acquisition?",
+   "release_when": "After the prompt; clarify the indication, strategic fit and return goal when requested.",
+   "info_to_release": "The drug targets pancreatic cancer. Focus on the US; H&H has few oncology products. Other pipeline assets are too early to value confidently. The client targets break-even within 8 years, and the drug has 12 years of patent protection from today.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess the drug’s efficacy and addressable patient population, competitive prices and shares, expected profit and acquisition payback. Consider oncology portfolio fit, sales/development/manufacturing synergies, approval and reimbursement risks, patent life and rival drugs. Begin by understanding market composition.",
+   "good_answer_signals": [
+    "Links drug economics with strategic fit.",
+    "Asks about the investment hurdle and remaining patent life."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "Using these annual post-approval projections, what are Sternofi’s expected revenue and price per patient? Please first organize the patient shares.",
+   "release_when": "Read the entire packet in info_to_release aloud. Repeat portions on request; do not provide the worked table.",
+   "info_to_release": "Prices per newly diagnosed patient represent the expected present value of the course of treatment. Sternofi, A, B and C are the major companies; smaller companies form Other. A has 50% more patients than B. C has two thirds fewer patients than A. Sternofi expects twice B’s patients. Other has 15,000 annual patients out of 65,000 total new diagnoses. Other earns one fifth of the $1.5 billion annual market. C’s price equals Other’s average price. B charges 25% more than that, and A charges $10,000 less per treatment than C.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Let B’s patients be X. A is 1.5X, C is one third of A or 0.5X, and Sternofi is 2X. Thus 5X + 15,000 = 65,000, so X = 10,000. Patient counts are Sternofi 20,000; A 15,000; B 10,000; C 5,000; Other 15,000. Keep all quantities annual and carry this table into the revenue calculation.",
+   "good_answer_signals": [
+    "Interprets two thirds less as one third remaining.",
+    "Records the information in a table and asks calmly for repetition when needed."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Now derive prices and revenues and explain Sternofi’s market position.",
+   "release_when": "Continue the same question after patient counts; all required facts have already been read aloud.",
+   "info_to_release": "Other earns one fifth of the $1.5 billion market from 15,000 patients. C has the same price, B is 25% higher and A is $10,000 lower than C.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Other revenue is $300 million, so its price is $20,000 per patient. C also charges $20,000; B charges $25,000; A charges $10,000. Their revenues are $100 million, $250 million and $150 million respectively. Subtract these and Other’s $300 million from $1.5 billion to get Sternofi revenue of $700 million. Dividing by 20,000 patients gives $35,000 per patient. Sternofi leads in revenue at 46.67% and patients at 30.77%, approximately half of revenue and 30% of patients. Different patient responses prevent treating the entire market.",
+   "good_answer_signals": [
+    "Solves from the known Other segment, then uses residual market revenue.",
+    "Explains the business implications of the calculated shares."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What risks face Sternofi after acquisition, and how could H&H mitigate them?",
+   "release_when": "After the market calculation; explicitly ask for mitigation if omitted.",
+   "info_to_release": "The drug is still in phase 2 development, and projections are for approval and patent exclusivity.",
+   "exhibit_ids": [],
+   "expected_answer": "Consider drug-approval risk, merger approval, remaining patent life, overseas commercialization, insurance reimbursement and new competing therapies. Mitigation ideas include reviewing trial evidence and regulatory plans, legal and patent diligence, testing reimbursement assumptions and monitoring competitor pipelines. Do not assume regulatory success or attach an invented success probability. Assess integration and synergy feasibility alongside clinical and commercial risks.",
+   "good_answer_signals": [
+    "Pairs risks with concrete diligence or mitigation actions.",
+    "Keeps approval uncertainty separate from the conditional revenue forecast."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Sternofi will sell for $2.3 billion in cash. Does the acquisition meet H&H’s break-even requirement?",
+   "release_when": "Provide the acquisition price and development/cost assumptions after risks; supply the 8-year objective and patent information if requested.",
+   "info_to_release": "Price is $2.3 billion. H&H can finance it. Development takes 4 more years at $50 million annually with no revenue. Post-approval annual revenue is $700 million with 0% growth, fixed cost $20 million and variable cost $4,000 per treatment for 20,000 treatments. Target payback is 8 years from acquisition. Patent protection lasts 12 years from today. Treat the source values as present values; no further discount rate is given.",
+   "exhibit_ids": [],
+   "expected_answer": "Years 1–4 each lose $50 million. Annual post-launch profit is $700 million − $20 million − 20,000 × $4,000 = $600 million. By year 8, cumulative operating profit net of development is 4 × $600 million − 4 × $50 million = $2.2 billion, $100 million short of the price. Payback is 4 + ($2.3 billion + $200 million) / $600 million = 8.1667 years, slightly beyond target. There are 8 years of exclusivity after the 4-year development period, so this modeled payback occurs before patent expiry, but fails the stricter 8-year acquisition hurdle.",
+   "good_answer_signals": [
+    "Includes development losses and the development delay.",
+    "Does not count post-approval earnings from acquisition day.",
+    "Notes the source’s present-value convention without inventing extra discounting."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Would you acquire Sternofi, and what evidence supports your decision?",
+   "release_when": "At the end; both supported go and no-go answers are valid.",
+   "info_to_release": "The book allows either decision because the modeled payback is close to the target.",
+   "exhibit_ids": [],
+   "expected_answer": "A strict-hurdle recommendation is not to acquire at $2.3 billion on the standalone case: payback is 8.17 years and the year-8 shortfall is $100 million, before approval and commercial risks. A conditional go can be justified if credible synergies, overseas commercialization or earlier pipeline assets bridge that gap. The book suggests other drugs might be worth $100 million, but provides no valuation evidence, so treat this as potential upside rather than established value. Verify the drug’s evidence, approvals, reimbursement, exclusivity and synergy plan before committing.",
+   "good_answer_signals": [
+    "Makes a clear decision and acknowledges the numerical shortfall.",
+    "Avoids treating speculative pipeline or synergy value as guaranteed."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Read-Aloud Market Relationships",
+   "page": 193,
+   "kind": "text",
+   "description": "Question 1 inputs must be read aloud, not shown as the completed solution table on page 194. No candidate image is provided.",
+   "data": {
+    "columns": [
+     "Input",
+     "Stated value or relationship"
+    ],
+    "rows": [
+     [
+      "Annual new diagnoses",
+      "65,000"
+     ],
+     [
+      "Other annual patients",
+      "15,000"
+     ],
+     [
+      "Annual market revenue",
+      "$1.5 billion"
+     ],
+     [
+      "Other revenue share",
+      "One fifth"
+     ],
+     [
+      "A patient count",
+      "50% greater than B"
+     ],
+     [
+      "C patient count",
+      "Two thirds less than A"
+     ],
+     [
+      "Sternofi patient count",
+      "Twice B"
+     ],
+     [
+      "C price",
+      "Equal to average Other price"
+     ],
+     [
+      "B price",
+      "25% above C"
+     ],
+     [
+      "A price",
+      "$10,000 below C"
+     ]
+    ]
+   },
+   "key_insight": "Use patient-count algebra first and the known Other revenue and patient counts to solve prices; Sternofi revenue is the residual.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many annual patients does each company have?",
+   "givens": [
+    "65,000 total; 15,000 Other",
+    "A = 1.5 × B",
+    "C = one third of A",
+    "Sternofi = 2 × B"
+   ],
+   "steps": [
+    "Let B = X. Then A = 1.5X, C = 0.5X and Sternofi = 2X.",
+    "2X + 1.5X + X + 0.5X + 15,000 = 65,000; 5X = 50,000; X = 10,000.",
+    "Sternofi 20,000; A 15,000; B 10,000; C 5,000; Other 15,000."
+   ],
+   "answer": "Sternofi treats 20,000 annual new patients, 30.7692% of the 65,000-patient market.",
+   "answer_value": 20000,
+   "unit": "patients/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are Sternofi’s annual revenue and course-of-treatment price?",
+   "givens": [
+    "Total market $1.5 billion",
+    "Other revenue share one fifth and patients 15,000",
+    "C price equals Other average; B is 25% higher; A is $10,000 lower",
+    "Patient counts from m1"
+   ],
+   "steps": [
+    "Other revenue = $1.5 billion / 5 = $300 million; price = $300 million / 15,000 = $20,000.",
+    "Prices: C $20,000; B $25,000; A $10,000.",
+    "Revenues: C 5,000 × $20,000 = $100 million; B 10,000 × $25,000 = $250 million; A 15,000 × $10,000 = $150 million.",
+    "Sternofi revenue = $1,500 million − $300 million − $100 million − $250 million − $150 million = $700 million.",
+    "Sternofi price = $700 million / 20,000 = $35,000 per course; revenue share = $700 million / $1,500 million = 46.6667%."
+   ],
+   "answer": "$700 million annual revenue and $35,000 present-value course price per patient.",
+   "answer_value": 700000000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is acquisition payback including development?",
+   "givens": [
+    "Price $2.3 billion",
+    "4 years development at $50 million annually and zero revenue",
+    "Post-launch revenue $700 million annually, fixed cost $20 million and 20,000 treatments at $4,000 variable cost",
+    "0% growth",
+    "8-year target",
+    "12 years remaining patent life",
+    "Source directs use of supplied present-value amounts"
+   ],
+   "steps": [
+    "Annual post-launch profit = $700 million − $20 million − 20,000 × $4,000 = $600 million.",
+    "Cumulative profit through year 8 after development costs = 4 × $600 million − 4 × $50 million = $2,200 million.",
+    "Year-8 shortfall to purchase price = $2,300 million − $2,200 million = $100 million.",
+    "Post-launch recovery period = ($2,300 million + $200 million) / $600 million = 4.166667 years.",
+    "Total payback = 4 + 4.166667 = 8.166667 years; post-development exclusivity = 12 − 4 = 8 years."
+   ],
+   "answer": "Payback approximately 8.17 years, slightly longer than the 8-year requirement; $100 million short at year 8.",
+   "answer_value": 8.166666666666668,
+   "unit": "years from acquisition",
+   "verified": true
+  }
+ ],
+ "synthesis": "Standalone economics do not quite meet the target: the $2.3 billion acquisition pays back in 8.17 years, with a $100 million gap at year 8. A strict no-go is justified, especially given approval and commercial risks. A conditional go can also be defended if credible cost/revenue synergies, international expansion or pipeline value close the gap. Sternofi’s projected 20,000 patients, $35,000 course price and $700 million annual revenue are conditional on approval; do not treat early-stage assets or synergies as proven value. Validate the evidence, reimbursement, patent protection and integration case before purchase.",
+ "what_great_looks_like": [
+  "Organizes the verbal algebra in a clear table.",
+  "Asks for repetition confidently when needed.",
+  "Identifies leadership in both patient and revenue shares.",
+  "Pairs acquisition risks with mitigation ideas.",
+  "Includes both development cost and delay in payback.",
+  "Supports either acquisition decision with explicit conditions and evidence."
+ ],
+ "common_pitfalls": [
+  "Interpreting two thirds less as two thirds remaining.",
+  "Mixing annual new diagnoses with all existing patients.",
+  "Failing to treat Other as one combined segment.",
+  "Applying the full revenue forecast before approval.",
+  "Omitting development costs or the 4-year delay.",
+  "Treating hypothetical $100 million pipeline upside as a verified valuation."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup returned NEW. All arithmetic recomputed and matched. The quantitative packet is explicitly read aloud; its input-only data has no image, and the worked table on page 194 is not exposed as a candidate exhibit. A stray duplicated title word in the prompt text layer is omitted. Source financial assumptions are treated as supplied present values; no extra discounting or success probability is invented. The other-pipeline $100 million suggestion is speculative, not a released valuation. Source permits either go or no-go with support. Biotech/therapeutics classifies the target rather than the diversified pharmaceutical acquirer. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "industry and sub_industry mapping",
+   "case_type secondary label",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "stages question wording and release sequencing",
+   "stages[3].expected_answer mitigation examples",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "synthesis diligence next steps"
+  ]
+ }
+}

@@ -1,0 +1,345 @@
+{
+ "id": "stern-2022-fungicide",
+ "title": "Fungicide",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  212,
+  221
+ ],
+ "author": "Yuting Mao (Stern ’21)",
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Profitability and Operations",
+ "industry": "agriculture",
+ "sub_industry": "agri-inputs",
+ "industry_source_label": "Industrial Products",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 7; Structure: 9 (1–10); higher dimension converted with Python round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "process-yield",
+  "batch-production",
+  "capacity",
+  "step-costs",
+  "recycling",
+  "profitability",
+  "operations"
+ ],
+ "concepts_tested": [
+  "Conceptual Understanding",
+  "Operations"
+ ],
+ "prompt": "Funguy Corporation is a small producer and wholesaler of agricultural fungicides. After a yearly financial review, they find one of their proprietary products, Formula X, is likely to be operating at a loss. They ask you to quantify the exact loss and find options on how to return Formula X to profitability.",
+ "clarifying_info": [
+  {
+   "question_topic": "Market and competition",
+   "answer": "Large international competitors participate in all product markets. The overall market is mature and grows with inflation, while Formula X demand grows faster."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "Formula X is effective because fungi have not yet developed resistance; it is primarily used on soybeans and other legumes. Its patent has 10 years remaining."
+  },
+  {
+   "question_topic": "Company assets and contracts",
+   "answer": "Funguy is primarily a producer and wholesaler, owns a production plant and several distribution centers, and uses multiyear supplier and buyer contracts."
+  }
+ ],
+ "interviewer_notes": "Review the process carefully; the case tests understanding of unfamiliar technical information and structured operations arithmetic. The first two questions can fill a standard interview; the third and fourth are extensions. The interviewer may stop early and request a recommendation based on completed work. Read the process guide to the candidate and either show the clean Exhibit A diagram or ask them to draw the process from the verbal description. Do not show interviewer copy B with worked answers. Nudge minor arithmetic errors and allow per-batch or daily analysis. After brainstorming, reveal 5-year supplier/buyer contracts and that recycling needs significant capital currently unavailable; lead first to three batches. For the optional recycling analysis explicitly ignore retrofit capital cost and add only enough capacity to process the 150 kg reject pile per batch. Reject recycling is all-or-nothing for each pile; do not introduce partial recycling or additional rounds into the source scenario.",
+ "suggested_framework": {
+  "summary": "Diagnose product revenue and process costs, then identify feasible supplier, operating and buyer levers within contract and capital constraints.",
+  "tree": {
+   "label": "Restore Formula X profitability",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Price and sales volume"
+      },
+      {
+       "label": "Licensing the proprietary formulation"
+      }
+     ]
+    },
+    {
+     "label": "Costs and operations",
+     "children": [
+      {
+       "label": "Infrastructure, capital expenditure and insurance"
+      },
+      {
+       "label": "Raw materials, labor and other operating costs"
+      },
+      {
+       "label": "Yield losses, batch scheduling and scrubber cycles"
+      }
+     ]
+    },
+    {
+     "label": "Commercial constraints",
+     "children": [
+      {
+       "label": "Supplier and buyer contracts"
+      },
+      {
+       "label": "Competition, market growth and agriculture trends"
+      }
+     ]
+    },
+    {
+     "label": "Other considerations",
+     "children": [
+      {
+       "label": "Patent, legal and compliance issues"
+      },
+      {
+       "label": "Geography and cannibalization of other products"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine the loss and identify routes back to profitability?",
+   "release_when": "After the prompt; provide company and market clarifications when asked.",
+   "info_to_release": "Funguy owns its plant and distribution centers. Formula X has 10 years of patent protection left and faster demand growth than the mature market. Suppliers and buyers have multiyear contracts.",
+   "exhibit_ids": [],
+   "expected_answer": "Break revenue into price and saleable volume, and costs into ingredients, labor, infrastructure and operating expenses. Understand the manufacturing flow, yield losses and equipment constraints before choosing levers. Consider licensing, contracts, competitive response, patent life and cannibalization alongside production changes.",
+   "good_answer_signals": [
+    "Requests process details rather than assuming all input becomes saleable output.",
+    "Connects commercial feasibility with operating economics."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Quantify Formula X’s current operating loss using the process information.",
+   "release_when": "Read the process guide aloud; optionally show the clean candidate diagram. Keep worked interviewer copies hidden.",
+   "info_to_release": "There are 2 batches daily, each taking an 8-hour shift; the plant is at current batch capacity and cannot run a continuous process. Each batch uses 250 kg A and 1,000 kg B, both $100/kg. Hoppers feed liquid slurry to a mixer, then a granulator converts it to pellets and sends 20% of entering mass to the scrubber. Screens send 5% of entering mass to the scrubber and reject 15% for size; remaining product sells at $200/kg. Size rejects otherwise match the product. A scrubber cycle processes up to 500 kg and costs $20,000. All waste must be cleared by the end of each 24 hours: 500 kg needs one cycle, 501 kg needs two. Labor and miscellaneous costs are $20,000 per batch. Mass is conserved.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Inputs total 1,250 kg and $125,000 per batch. The granulator loses 250 kg and passes 1,000 kg to screens; screens lose 50 kg to the scrubber and reject 150 kg, leaving 800 kg saleable product. Revenue is $160,000. Waste is 300 kg per batch, or 600 kg daily, requiring 2 scrubber cycles costing $40,000 daily. Daily costs are $250,000 ingredients + $40,000 labor/miscellaneous + $40,000 scrubber = $330,000 versus $320,000 revenue. Loss is $10,000 daily, equivalent to $5,000 per batch on the daily allocation.",
+   "good_answer_signals": [
+    "Applies screen percentages to screen input, not original raw material.",
+    "Uses daily scrubber step-costs rather than a continuous cost per kg."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Funguy improve profitability?",
+   "release_when": "After baseline economics; then narrow options using contract and capital constraints.",
+   "info_to_release": "Supplier and buyer prices are locked in 5-year contracts. Reusing screen rejects requires significant capital the company does not currently have.",
+   "exhibit_ids": [],
+   "expected_answer": "Supplier ideas include price renegotiation, cheaper sources, bulk discounts and ingredients with less unusable content. Operations ideas include three batches, reject recycling, lower labor/miscellaneous cost and improved scrubber efficiency. Buyer ideas include price renegotiation, retail sales, target-market changes and advertising. Recognize current contract and capital restrictions; investigate adding a third shift first rather than assuming immediate price changes or a funded retrofit.",
+   "good_answer_signals": [
+    "Organizes ideas by supplier, operations and buyer.",
+    "Adapts recommendations after the constraints are revealed."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What would running 3 batches a day do to operating profit?",
+   "release_when": "After identifying increased batch frequency; ask the candidate to state feasibility assumptions.",
+   "info_to_release": "Third-batch labor/miscellaneous cost rises from $20,000 to $25,000. Ingredient quantities, yield and selling price are unchanged. Assume supply and buyer demand can support the volume and that operations can sustain 24 hours of batch production.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Three batches generate 900 kg waste, still within 2 scrubber cycles’ 1,000 kg capacity. The third batch adds $125,000 ingredients and $25,000 labor, with no extra scrubber cycle, for $150,000 incremental cost against $160,000 revenue. Its $10,000 contribution eliminates the current $10,000 daily loss. Total daily costs and revenue are both $480,000, so the plant breaks even. A 24-hour batch schedule is distinct from continuous processing and removes maintenance downtime.",
+   "good_answer_signals": [
+    "Identifies spare scrubber capacity as the reason marginal economics improve.",
+    "Explicitly tests demand, ingredients and 24-hour staffing feasibility."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "What is the long-term operating effect of recycling size rejects, and how many piles should be recycled daily?",
+   "release_when": "Optional extension after three-batch breakeven; prompt for further operating improvement if not volunteered.",
+   "info_to_release": "Ignore retrofit capital costs for this operating-margin question. Added infrastructure permits processing the 150 kg reject pile per batch. Reinject before the granulator, ideally at the mixer where material is liquid. Each pile is all-or-nothing. The three-batch base produces 900 kg scrubber waste daily, leaving 100 kg capacity within 2 cycles.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Recycling after the granulator would preserve the wrong pellet size, so return rejects to the liquid stage. A 150 kg pile yields 150 × 80% × 80% = 96 kg product worth $19,200, and creates 30 + 6 = 36 kg scrubber waste plus 18 kg further size rejects. Two piles add 72 kg waste, keeping daily waste at 972 kg and adding $38,400 daily operating profit to breakeven. A third pile raises waste to 1,008 kg, requiring a $20,000 extra scrubber cycle; its $19,200 revenue therefore reduces profit by $800. Recycle 2 piles daily under the source’s one-pass, no-extra-recurring-cost assumptions. This is not a full retrofit investment return.",
+   "good_answer_signals": [
+    "Understands the liquid-to-solid transition and both yield losses.",
+    "Checks stepwise scrubber cost before recycling a third pile.",
+    "Does not ignore the excluded capital requirement in the final recommendation."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Funguy do next?",
+   "release_when": "After completed questions; if ending early, limit the recommendation to analyzed options.",
+   "info_to_release": "The source highlights maintenance downtime, buyer/supplier bargaining, patent expiry and fungal resistance as risks.",
+   "exhibit_ids": [],
+   "expected_answer": "Move to 3 batches daily if supply, demand and staffing support it, eliminating the $10,000 daily loss. Explore a retrofit for two daily 150 kg reject piles, which could yield $38,400 daily operating profit before retrofit capital and any unmodeled costs. Do not recycle a third full pile under current scrubber economics. Hire the third-shift staff, confirm supplier and buyer volumes, and obtain retrofit quotes. Manage loss of maintenance downtime, contract power, the 10-year remaining patent and future fungal resistance.",
+   "good_answer_signals": [
+    "Separates an immediate operating change from an unfunded investment.",
+    "Quantifies the result and its limiting assumptions."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Formula X Process Diagram",
+   "page": 220,
+   "kind": "other",
+   "description": "Clean candidate flow diagram from ingredient hoppers through mixer, granulator and screens, with waste going to the scrubber and size rejects collected separately. Additional cost and mass inputs are read aloud, not taken from the worked diagram.",
+   "data": {
+    "columns": [
+     "Process split",
+     "Percentage of entering mass",
+     "Destination"
+    ],
+    "rows": [
+     [
+      "Mixer outflow",
+      100,
+      "Granulator"
+     ],
+     [
+      "Granulator loss",
+      20,
+      "Scrubber"
+     ],
+     [
+      "Screen unusables",
+      5,
+      "Scrubber"
+     ],
+     [
+      "Screen size rejects",
+      15,
+      "Reject pile"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-fungicide/p220.webp",
+   "key_insight": "Loss fractions have different input bases; recycled material must return before solid pellet formation, and scrubber cost changes only when another cycle is needed.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is current operating profit?",
+   "givens": [
+    "250 kg A and 1,000 kg B at $100/kg per batch",
+    "Granulator loss 20%; screen scrubber loss 5% and size rejects 15%",
+    "$200/kg product",
+    "2 daily batches",
+    "$20,000 labor/miscellaneous per batch",
+    "$20,000 scrubber cycle for up to 500 kg; clear daily"
+   ],
+   "steps": [
+    "Input = 1,250 kg; ingredient cost = $125,000 per batch.",
+    "Granulator output = 1,000 kg; screens produce 800 kg saleable, 50 kg waste and 150 kg rejects. Granulator waste is 250 kg.",
+    "Revenue = 800 × $200 = $160,000 per batch; daily waste = 2 × 300 = 600 kg, requiring 2 cycles.",
+    "Daily cost = 2 × $125,000 + 2 × $20,000 + 2 × $20,000 = $330,000.",
+    "Daily revenue = $320,000; profit = −$10,000, equivalent to −$5,000 per batch."
+   ],
+   "answer": "$10,000 daily operating loss, or $5,000 per batch on daily cost allocation.",
+   "answer_value": -10000,
+   "unit": "USD/day",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What happens with a third daily batch?",
+   "givens": [
+    "Same ingredients and product yield",
+    "Third-batch labor/miscellaneous $25,000",
+    "900 kg total waste versus 1,000 kg capacity in 2 scrubber cycles"
+   ],
+   "steps": [
+    "Third-batch incremental cost = $125,000 + $25,000 = $150,000; incremental revenue $160,000.",
+    "Daily cost = $330,000 + $150,000 = $480,000; revenue = 3 × $160,000 = $480,000.",
+    "Operating profit = $0."
+   ],
+   "answer": "Three batches reach daily operating breakeven.",
+   "answer_value": 0,
+   "unit": "USD/day",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is optimal full-pile recycling under the source assumptions?",
+   "givens": [
+    "150 kg reject pile reintroduced before granulator",
+    "20% granulator loss; then 5% scrubber loss and 15% reject at screens",
+    "$200/kg product",
+    "900 kg base daily waste",
+    "$20,000 per 500 kg scrubber cycle",
+    "Ignore retrofit capital; no additional recurring cost specified"
+   ],
+   "steps": [
+    "Product per recycled pile = 150 × 0.8 × 0.8 = 96 kg; revenue $19,200.",
+    "Added scrubber waste = 150 × 0.2 + 150 × 0.8 × 0.05 = 36 kg; further size rejects = 18 kg.",
+    "Two piles: daily waste = 900 + 72 = 972 kg; no extra cycle, operating profit = 2 × $19,200 = $38,400.",
+    "Three piles: daily waste = 1,008 kg; extra cycle costs $20,000, so profit = 3 × $19,200 − $20,000 = $37,600.",
+    "Third-pile incremental profit = $19,200 − $20,000 = −$800; choose two full piles."
+   ],
+   "answer": "$38,400 daily operating profit with two recycled piles; a third reduces profit by $800. Retrofit capital is excluded.",
+   "answer_value": 38400,
+   "unit": "USD/day",
+   "verified": true
+  }
+ ],
+ "synthesis": "Run three daily batches, subject to demand, supply and 24-hour operating feasibility, to eliminate the $10,000 daily loss. Investigate recycling two full reject piles per day before the granulator; under the source’s capital-excluding assumptions this produces $38,400 daily operating profit. Do not recycle a third full pile because it triggers an extra scrubber cycle and loses $800 incrementally. Confirm volumes, hire staff and obtain retrofit quotes before investing. Protect maintenance availability and account for contract restrictions, patent expiry and resistance risk.",
+ "what_great_looks_like": [
+  "Understands sequential yield bases and conserves mass.",
+  "Recognizes stepwise scrubber economics.",
+  "Adapts to contract and capital constraints.",
+  "Places recycling in the liquid stage and tests the third pile.",
+  "Gives operationally specific actions rather than generic cost-cutting advice."
+ ],
+ "common_pitfalls": [
+  "Applying every loss percentage to original input mass.",
+  "Confusing saleable product, size rejects and unusable scrubber waste.",
+  "Charging another scrubber cycle automatically for each new batch.",
+  "Assuming recycling after granulation fixes pellet size.",
+  "Calling capital-excluding operating profit a fully evaluated investment return.",
+  "Ignoring maintenance needs under a 24-hour batch schedule."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup returned NEW. All source arithmetic matches. Clean candidate diagram is page 220; interviewer copies 218–219 are not exposed as exhibit images. Process cost/mass facts are released verbally, while diagram data holds only candidate-visible splits. Recycling is the source’s one-pass all-or-nothing full-pile scenario: added capital is explicitly excluded and no extra recurring recycling cost is specified. The 18 kg further rejects per recycled pile are tracked for mass conservation but no additional recursive recycling is assumed. Initial 'at capacity' wording is treated as current batch loading; later third-shift analysis explicitly assumes feasible 24-hour batch operation, not continuous processing. Agricultural fungicide is mapped to agri-inputs rather than the broad Industrial Products label. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "industry and sub_industry mapping",
+   "case_type mapping",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework grouping",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "math[2] explicit residual mass and three-pile total"
+  ]
+ }
+}

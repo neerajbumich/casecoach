@@ -1,0 +1,467 @@
+{
+ "id": "stern-2022-green-dreamz",
+ "title": "Green Dreamz",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  294,
+  308
+ ],
+ "author": "Matthew Givner (Stern '22)",
+ "case_type": [
+  "Growth/Revenue",
+  "M&A/Acquisition"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "retail",
+ "sub_industry": "department-specialty",
+ "industry_source_label": "Cannabis Retail",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 9; Structure: 8 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "revenue-growth",
+  "retail",
+  "product-mix",
+  "profitability",
+  "acquisition",
+  "synergies",
+  "growing-perpetuity",
+  "regulation"
+ ],
+ "concepts_tested": [
+  "Chart reading",
+  "Profit computation",
+  "Brainstorming",
+  "Valuation"
+ ],
+ "client_type": "for-profit",
+ "geography": "Colorado, United States",
+ "prompt": "Your client is Green Dreamz, a vertically-integrated cannabis company based in Colorado, USA. Founded in 2011 as a medical cannabis business, Green Dreamz expanded into the recreational market following state-wide legalization in 2014. Green Dreamz has since become one of the largest players by store count in Colorado, where it competes with companies ranging from mom-and-pop shops to multi-state operators. Green Dreamz operates a cultivation facility in Denver and 12 dispensary locations: 3 medical-only, 4 recreational-only and 5 serving both. The locations are spread across the state: 5 in Denver, all serving both medical and recreational cannabis; 3 in Colorado Springs, which only allows medical cannabis; 2 in Fort Collins; 1 in Trinidad; and 1 in Cortez. Refer to Exhibit D for a map. Five of its 12 locations were acquired in 4 separate transactions between 2014 and 2018. As the cannabis industry has matured, the market in Colorado has become saturated and Green Dreamz's organic growth has slowed accordingly. Although Green Dreamz and other companies have invested more in brand-building, consumer preference is still driven primarily by price. Green Dreamz's CEO has hired your firm to help them find new opportunities for profitable growth.",
+ "clarifying_info": [
+  {
+   "question_topic": "Regulatory setting in the case",
+   "answer": "The source describes extensive restrictions on zoning, hours, packaging and advertising. It states daily limits of 2 ounces of medical flower or equivalent for registered Colorado patients aged 18+, and 1 ounce recreational for adults aged 21+. Medical infused products may have higher potency, including 100 mg or more THC. These are historical case assumptions, not a statement of current law."
+  },
+  {
+   "question_topic": "Financing and interstate constraints in the case",
+   "answer": "The source states that federal rules prohibit credit-card use, banks are generally unwilling to provide financing, and cannabis products cannot be advertised, shipped or sold across state lines. Preserve these as the case's historical constraints."
+  },
+  {
+   "question_topic": "Operating model",
+   "answer": "Green Dreamz sells all its internally grown flower through retail and buys additional wholesale flower, especially for recreational stores. It does not manufacture infused products such as edibles, lotions or vape cartridges, but retails third-party products. It sells trim, plant material not sold as consumer flower, to third parties that extract THC oil for infused products."
+  }
+ ],
+ "interviewer_notes": "Encourage clarifications about this industry and a case-specific framework. The case mixes calculations and brainstorming, beginning with profit and moving to revenue growth. At any point after the growth brainstorm (Question 3), the interviewer may move to final recommendation if time is short. Exhibit A is a dual-axis chart; give the candidate time to read it. For Exhibit B, provide the exact category shares from the guide if their visual estimate is close. Provide Exhibit C only when prices are requested. Give visits and costs when asked, and prompt for the omitted trim revenue if needed. Authorize rounding medical/recreational spend to $80/$55 and monthly revenue to $4 million as the source directs. Acquisition and valuation form an optional extension, not a prerequisite for an early growth recommendation.",
+ "suggested_framework": {
+  "summary": "Diagnose the regulated Colorado market and Green Dreamz's profit structure, then compare organic, geographic and acquisition-led growth.",
+  "tree": {
+   "label": "Profitable growth for Green Dreamz",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Colorado versus other states; size, growth and competition"
+      },
+      {
+       "label": "Supply/demand, pricing, brands, illicit market and home growers"
+      },
+      {
+       "label": "Product/packaging innovation, consolidation and online ordering"
+      },
+      {
+       "label": "Regulatory constraints"
+      }
+     ]
+    },
+    {
+     "label": "Profit structure",
+     "children": [
+      {
+       "label": "B2C and B2B revenues, medical versus recreational visits and spending"
+      },
+      {
+       "label": "Real estate, utilities, labor, COGS, R&D and SG&A"
+      },
+      {
+       "label": "Compliance, legal costs and taxes"
+      }
+     ]
+    },
+    {
+     "label": "Growth paths",
+     "children": [
+      {
+       "label": "Organic facilities, stores, products, merchandise and loyalty"
+      },
+      {
+       "label": "Acquire cultivation, dispensaries or infused-product businesses"
+      },
+      {
+       "label": "Out-of-state expansion subject to case restrictions"
+      },
+      {
+       "label": "Consulting services"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you identify opportunities for profitable growth?",
+   "release_when": "Read the prompt, offer Exhibit D as its geographic reference and answer requested clarifications.",
+   "info_to_release": "Green Dreamz has 12 stores: 3 medical-only, 4 recreational-only and 5 dual. Its Denver cultivation supplies some retail flower; other flower and infused products are purchased externally. Trim is sold to third-party manufacturers. Consumer preference remains price-driven. Use the historical regulatory and financing constraints in the case.",
+   "exhibit_ids": [
+    "exD"
+   ],
+   "expected_answer": "Assess market maturation, competitive pricing and regulation, then understand visits, mix, spend and costs across medical and recreational segments. Explore organic and acquisition-led growth without assuming interstate shipment or easy financing. Include trim as a B2B revenue stream and distinguish pre-tax profit from after-tax economics.",
+   "good_answer_signals": [
+    "Asks case-specific clarifications.",
+    "Considers both retail and trim revenue.",
+    "Keeps growth ideas within the source's constraints."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What can you infer about the Colorado market from Exhibit A?",
+   "release_when": "Give Exhibit A after the initial discussion.",
+   "info_to_release": "Lines use the left sales axis: medical at the bottom, recreational in the middle and total on top. Bars use the right axis for median wholesale recreational flower price per pound, not medical price. The chart spans 2014 through early 2021.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Recreational sales grew quickly after legalization through 2017, then moderated in 2017–2019, with summer seasonality. The large 2020 spike may reflect pandemic buying rather than durable growth; test that explanation. Medical sales were broadly flat initially, softened later and briefly increased in 2020. Wholesale recreational prices fell sharply from earlier levels and recovered without reaching prior highs. Hypotheses include saturation, less cannabis tourism, oversupply, compliance costs and illicit-market competition; the chart alone does not prove any cause.",
+   "good_answer_signals": [
+    "Reads the two axes correctly.",
+    "Separates trend observations from causal hypotheses.",
+    "Does not extrapolate the pandemic spike uncritically."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Calculate Green Dreamz's profitability.",
+   "release_when": "Start with Exhibit B. Give Exhibit C when prices are requested; give visits and then costs when requested. Before costs, prompt for other revenue streams if trim was missed.",
+   "info_to_release": "Medical mix: flower 50%, edibles 20%, concentrates 15%, vapes 10%, topicals 5%; recreational mix: 60%, 10%, 10%, 15%, 5%. Pre-tax category prices are in Exhibit C. Monthly visits per store: medical 1,500; recreational 9,500; dual 5,000, of which 90% recreational. Annual trim revenue $2 million. Annual costs: rent/utilities $10 million, labor $12 million, R&D $1 million, SG&A $6 million, legal $1 million and COGS 24% of revenue. Authorize spend rounding from $79.50/$54.50 to $80/$55 and monthly revenue from $3,887,500 to $4 million when asked.",
+   "exhibit_ids": [
+    "exB",
+    "exC"
+   ],
+   "expected_answer": "Using the source's mix-as-purchase-weight convention, average medical spend is $79.50 and recreational $54.50, rounded to $80/$55 as allowed. Rounded-spend monthly revenue is 3 × 1,500 × $80 + 4 × 9,500 × $55 + 5 × (4,500 × $55 + 500 × $80) = $3,887,500, rounded to $4 million. Annual retail revenue is then $48 million; add $2 million trim for $50 million total. Non-COGS costs total $30 million and COGS $12 million, giving $8 million pre-tax profit and 16% margin. Without either rounding step, total revenue is $48.245 million, profit $6.6662 million and margin 13.817%. The book's printed dual-store formula misplaces parentheses; both portions must be multiplied by five.",
+   "good_answer_signals": [
+    "Requests missing prices, visits and costs.",
+    "Applies the dual-store mix to every dual store.",
+    "Includes trim, percentage COGS and all annual costs.",
+    "Keeps the source's authorized rounding explicit."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Green Dreamz grow overall revenue?",
+   "release_when": "After profitability. The interviewer may proceed directly to a final growth recommendation after this stage if time is short.",
+   "info_to_release": "Focus on revenue growth, not primarily cost reduction. No new quantitative data.",
+   "exhibit_ids": [],
+   "expected_answer": "Organize by existing/new customers and products. Existing customers/products: loyalty, pack sizes, promotions and bundles. Existing customers/new products: merchandise, accessories, third-party additions, in-house infused products, new strains, facility tours or cooking classes. New customers/existing products: compliant marketing, partner/co-op campaigns, endorsements or placement, geographic stores, pre-ordering and event/tourism partnerships. New customers/new products: acquisitions, CBD-only offerings, packaging/distribution businesses, licensing, franchising or consulting. Consider organic versus inorganic, risk and timing, and screen all proposals against the case's legal constraints.",
+   "good_answer_signals": [
+    "Uses a clear customer/product matrix or equivalent structure.",
+    "Offers relevant ideas across several growth mechanisms.",
+    "Does not propose prohibited interstate product sales as an easy solution."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "How would you evaluate acquiring Treetops?",
+   "release_when": "Optional acquisition extension after the growth brainstorm.",
+   "info_to_release": "Treetops has a Pueblo cultivation facility producing recreational cannabis exclusively for its infused-products division, which makes branded concentrates and edibles sold in its own recreational dispensaries. It buys flower and other infused products wholesale for 4 stores: 1 medical-only in Colorado Springs, 1 recreational-only in Pueblo and 2 dual stores in Denver.",
+   "exhibit_ids": [
+    "exD"
+   ],
+   "expected_answer": "Use a mini-acquisition framework. Revenue synergies include Pueblo expansion, new customers, cross-selling, assortment, in-house infused products, potential B2B sales, R&D and marketing improvements. Cost opportunities include purchasing, distribution, back-office consolidation and proximity to southern stores. Risks include Denver/Colorado Springs cannibalization, slow medical growth, additional wholesale flower needs, unfamiliar infused-product operations, regulatory response and integration of the largest acquisition yet. Assess strategic fit, financial/operational capacity, alternatives and valuation before deciding.",
+   "good_answer_signals": [
+    "Uses the specific footprints and complementary product capabilities.",
+    "Does not assume Treetops' cultivation creates spare flower for retail.",
+    "Balances synergies against integration and cannibalization risks."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "What price should Green Dreamz bid for Treetops?",
+   "release_when": "Give Treetops financials only when requested; provide discount and growth rates after those are requested.",
+   "info_to_release": "Estimated Treetops revenue is 30% of Green Dreamz's revenue; estimated profit margin 18%. On request: discount rate 15% and growth rate 6%. The source explains higher capital costs through restricted financing and perceived risk, and notes 58% industry CAGR in 2013–2016 as a historical comparison.",
+   "exhibit_ids": [],
+   "expected_answer": "Using the authorized $50 million Green Dreamz revenue baseline, Treetops revenue is $15 million and annual profit $2.7 million. The source's growing-perpetuity proxy is $2.7 million / (15% − 6%) = $30 million, suggesting an indicative bid around that amount. Treetops' 18% margin exceeds Green Dreamz's rounded 16%, potentially because of in-house infused products. This is not a complete acquisition valuation: the source uses profit as cash flow and as the first forecast-period numerator, without debt, cash, reinvestment or synergy adjustments. Using the unrounded Green Dreamz baseline would imply $28.947 million under the same convention.",
+   "good_answer_signals": [
+    "Requests financials and both rates.",
+    "Uses discount rate minus growth rather than their sum.",
+    "Treats the estimate as a valuation proxy, not a proven maximum bid."
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "What do you recommend for profitable growth, including the acquisition if analyzed?",
+   "release_when": "After the valuation, or after the growth brainstorm if the optional extension was skipped.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Take a clear supported position; the book has no single required answer. An acquisition recommendation can emphasize new customers, infused-product capabilities and best-practice transfer, using approximately $30 million as the rounded-case starting valuation. A no-go can emphasize cannibalization, medical-store exposure, wholesale needs and integration risk, but must offer alternative growth ideas. Tie next steps to risks: validate synergies and sourcing needs, test geographic overlap and review earlier integrations before committing. Do not claim rounded pre-tax profit is after-tax cash flow.",
+   "good_answer_signals": [
+    "Makes a decisive recommendation consistent with the analysis.",
+    "Offers alternatives if rejecting the deal.",
+    "Links practical next steps to specific risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Colorado Cannabis Sales and Median Flower Prices",
+   "page": 305,
+   "kind": "other",
+   "description": "Dual-axis series from 2014 to early 2021. Left axis is sales dollars for medical, recreational and total; right axis is median wholesale recreational flower price per pound. Source: Colorado Department of Revenue. Exact monthly observations are unlabeled and are not invented.",
+   "image_path": "exhibits/stern-2022-green-dreamz/p305.webp",
+   "image_has_answers": false,
+   "key_insight": "Recreational growth moderated before a 2020 spike; medical demand was relatively flat; wholesale prices fell and later recovered without reaching earlier highs.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "exB",
+   "title": "Sales by Product Category",
+   "page": 306,
+   "kind": "bar",
+   "description": "Medical and recreational category mix. Exact percentages are supplied by the interviewer guide if needed. The source uses these as purchase weights in its average-spend model, although the chart labels only sales without defining units versus dollars.",
+   "data": {
+    "columns": [
+     "Category",
+     "Medical mix (%)",
+     "Recreational mix (%)"
+    ],
+    "rows": [
+     [
+      "Flower",
+      50,
+      60
+     ],
+     [
+      "Edibles",
+      20,
+      10
+     ],
+     [
+      "Concentrates",
+      15,
+      10
+     ],
+     [
+      "Vapes",
+      10,
+      15
+     ],
+     [
+      "Topicals",
+      5,
+      5
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-green-dreamz/p306.webp",
+   "image_has_answers": false,
+   "key_insight": "Mix alone cannot give revenue; request prices and visits, and clarify the mix basis for real-world use.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "Average Prices by Product Category",
+   "page": 307,
+   "kind": "table",
+   "description": "Pre-tax medical and recreational category prices in USD, supplied when prices are requested. Source: Green Dreamz.",
+   "data": {
+    "columns": [
+     "Category",
+     "Medical price (USD)",
+     "Recreational price (USD)"
+    ],
+    "rows": [
+     [
+      "Flower",
+      120,
+      75
+     ],
+     [
+      "Edibles",
+      45,
+      20
+     ],
+     [
+      "Concentrates",
+      35,
+      20
+     ],
+     [
+      "Vapes",
+      40,
+      30
+     ],
+     [
+      "Topicals",
+      25,
+      20
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-green-dreamz/p307.webp",
+   "image_has_answers": false,
+   "key_insight": "Medical prices are higher. The guide suggests supply constraints and potency differences; these should be investigated, not inferred as proven causes from price alone.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exD",
+   "title": "Colorado Map",
+   "page": 308,
+   "kind": "other",
+   "description": "Geographic reference showing Fort Collins, Boulder, Denver, Vail, Aspen, Grand Junction, Colorado Springs, Pueblo, Cortez and Trinidad. It does not label company store counts or distances.",
+   "image_path": "exhibits/stern-2022-green-dreamz/p308.webp",
+   "image_has_answers": false,
+   "key_insight": "Use the prompt's store locations to assess overlap and Pueblo's proximity to southern operations; do not infer that every mapped city contains a company store.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What average medical and recreational spend does the source model imply?",
+   "givens": [
+    "Medical mix 50/20/15/10/5% across flower/edibles/concentrates/vapes/topicals",
+    "Recreational mix 60/10/10/15/5%",
+    "Medical prices $120/$45/$35/$40/$25",
+    "Recreational prices $75/$20/$20/$30/$20",
+    "Source treats sales mix as purchase weights and permits spend rounding"
+   ],
+   "steps": [
+    "Medical = 120 × 0.50 + 45 × 0.20 + 35 × 0.15 + 40 × 0.10 + 25 × 0.05 = $79.50, rounded as permitted to $80.",
+    "Recreational = 75 × 0.60 + 20 × 0.10 + 20 × 0.10 + 30 × 0.15 + 20 × 0.05 = $54.50, rounded as permitted to $55."
+   ],
+   "answer": "$79.50 medical and $54.50 recreational, or the authorized $80/$55 for subsequent case math.",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is monthly store revenue and annual revenue including trim?",
+   "givens": [
+    "3 medical stores × 1,500 monthly visits",
+    "4 recreational stores × 9,500 monthly visits",
+    "5 dual stores × 5,000 monthly visits, 90% recreational",
+    "Authorized $80 medical/$55 recreational spend",
+    "$2 million annual trim revenue",
+    "Source permits monthly revenue rounding to $4 million"
+   ],
+   "steps": [
+    "Medical-only monthly revenue = 3 × 1,500 × 80 = $360,000.",
+    "Recreational-only monthly revenue = 4 × 9,500 × 55 = $2,090,000.",
+    "Dual monthly revenue = 5 × [(0.9 × 5,000 × 55) + (0.1 × 5,000 × 80)] = $1,437,500.",
+    "Monthly total = $3,887,500; round as directed to $4 million.",
+    "Rounded annual total = 12 × $4 million + $2 million trim = $50 million.",
+    "Without spend or monthly rounding, monthly retail is $3,853,750 and annual total with trim is $48,245,000."
+   ],
+   "answer": "$50 million annual revenue under the expressly rounded case convention; $48.245 million without rounding.",
+   "answer_value": 50000000,
+   "unit": "USD/year using source-authorized rounding",
+   "verified": false,
+   "book_answer_if_different": "Page 298 prints the dual-store portion as '[(0.9 * 5,000 visits * $55) + (0.1 * 5,000 visits * $80) * 5 Dual stores]', which applies five only to medical visits. Its reported $3,887,500 monthly result requires five times the entire medical-plus-recreational sum, as corrected here. The numerical total and explicitly allowed rounding are otherwise correct."
+  },
+  {
+   "id": "m3",
+   "question": "What pre-tax profit and margin follow from the revenues?",
+   "givens": [
+    "Rounded annual revenue $50 million; exact unrounded $48.245 million",
+    "Rent/utilities $10 million, labor $12 million, R&D $1 million, SG&A $6 million, legal $1 million",
+    "COGS 24% of total revenue"
+   ],
+   "steps": [
+    "Non-COGS annual costs = 10 + 12 + 1 + 6 + 1 = $30 million.",
+    "Rounded-case COGS = $50 million × 24% = $12 million; total costs = $42 million.",
+    "Rounded-case profit = $50 million − $42 million = $8 million; margin = 8/50 = 16%.",
+    "Unrounded COGS = $48.245 million × 24% = $11.5788 million; total costs = $41.5788 million.",
+    "Unrounded profit = $6.6662 million; margin = 6.6662/48.245 = 13.8174%."
+   ],
+   "answer": "$8 million and 16% pre-tax margin under authorized rounding; $6.6662 million and 13.8174% without rounding.",
+   "answer_value": 8000000,
+   "unit": "USD/year pre-tax profit, rounded case",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What indicative Treetops value follows from the source's perpetuity model?",
+   "givens": [
+    "Treetops revenue 30% of Green Dreamz's $50 million rounded revenue",
+    "Treetops profit margin 18%",
+    "Discount rate 15%, growth 6%",
+    "Source uses annual profit directly as first forecast-period cash flow in a growing perpetuity"
+   ],
+   "steps": [
+    "Treetops revenue = $50 million × 30% = $15 million.",
+    "Treetops profit = $15 million × 18% = $2.7 million.",
+    "Source value proxy = $2.7 million / (0.15 − 0.06) = $30 million.",
+    "Using unrounded Green Dreamz revenue instead gives Treetops revenue $14.4735 million, profit $2.60523 million and value $28.947 million under the same convention."
+   ],
+   "answer": "Approximately $30 million as the source's rounded-case indicative bid, not a complete cash-flow valuation.",
+   "answer_value": 30000000,
+   "unit": "USD indicative value",
+   "verified": true
+  }
+ ],
+ "synthesis": "Choose a clear growth direction grounded in the case; no single acquisition decision is required. Under the book's authorized rounding Green Dreamz earns $8 million pre-tax on $50 million revenue, versus $6.6662 million on $48.245 million without rounding. Treetops offers new geographic reach and infused-product capabilities, with an indicative $30 million value under the source's profit-perpetuity convention, but creates overlap, wholesale-sourcing and integration risks. If proceeding, validate synergies, margin assumptions, capital needs and integration capacity; if declining, prioritize specific alternatives from the customer/product growth matrix. Regulatory statements are historical case constraints, not current legal advice.",
+ "what_great_looks_like": [
+  "Reads sales and wholesale-price axes accurately and challenges pandemic extrapolation.",
+  "Requests missing pricing, visit and cost inputs and remembers trim revenue.",
+  "Keeps medical/recreational and dual-store calculations organized.",
+  "Builds a structured, case-specific growth brainstorm.",
+  "Uses a mini-framework for Treetops and connects recommendation to concrete risks."
+ ],
+ "common_pitfalls": [
+  "Confusing medical and recreational wholesale prices.",
+  "Applying the five dual-store multiplier only to medical visits.",
+  "Omitting trim or applying COGS only to an unintended revenue subset.",
+  "Treating authorized rounding differences as unacknowledged exact values.",
+  "Assuming an acquisition automatically removes wholesale purchasing needs.",
+  "Using pre-tax profit as proven distributable cash flow or ignoring the source's historical legal constraints."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (unlabeled monthly time-series values omitted)",
+   "math[0].givens (sales-mix unit basis is not defined; source purchase-weight convention retained)"
+  ],
+  "math_verified": false,
+  "notes": "The dual-store expression on page 298 misplaces the multiplier: five must apply to both medical and recreational portions. Its stated $3,887,500 result already reflects the corrected grouping; the equation inconsistency is flagged. Explicitly authorized rounding explains $50 million revenue, $8 million profit and $30 million target value. No-rounding equivalents are $48.245 million revenue, $6.6662 million profit and $28.947 million value. These are rounding sensitivities, not arithmetic errors. Exhibit B says sales mix without defining units versus revenue, while the answer uses purchase weights to infer per-visit spending; this assumption is retained explicitly. Valuation treats profit as first forecast-period cash flow without separate growth multiplication, reinvestment, debt/cash or synergy adjustments. Medium confidence reflects these model/notation limitations. Candidate clean pages 305–308 are used instead of guidance copies; exact unlabeled Exhibit A observations are omitted. Specialty retail is the nearest taxonomy sub-industry. All legal/medical statements are reproduced as historical case context, not current advice. Difficulty uses max(9,8), Python round(9/2) = 4. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type secondary mapping",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls"
+  ]
+ }
+}

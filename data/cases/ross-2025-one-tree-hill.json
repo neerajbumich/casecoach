@@ -1,0 +1,483 @@
+{
+ "id": "ross-2025-one-tree-hill",
+ "title": "One Tree Hill",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  156,
+  166
+ ],
+ "variant_group_id": "ross-2025-one-tree-hill",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Public Sector/Social Impact"
+ ],
+ "case_type_source_label": "Non Profits | Micro-Economics, Financing",
+ "industry": "public-sector",
+ "sub_industry": "non-profit",
+ "industry_source_label": "Non Profits",
+ "geography": "Global (reforestation projects in France, India, Ghana, Peru, Venezuela, Turkey, Brazil, Canada)",
+ "client_type": "non-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 3, Qual - 3, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "carbon-credits",
+  "unit-economics",
+  "breakeven-analysis",
+  "non-profit-financing",
+  "cost-benefit-analysis",
+  "esg",
+  "project-screening"
+ ],
+ "concepts_tested": [
+  "per-project cost-benefit / profitability screening",
+  "unit-economics shortcut for screening many options (breakeven per tree)",
+  "interpreting ambiguous qualitative data"
+ ],
+ "prompt": "The nonprofit organization, One Tree Hill (OTH), has a mission of restoring forest cover globally. They typically give grants (donations) to local NGOs, communities, or startups that reforest (i.e., plant trees) in a given area. Due to the limited supply of grant funds in recent times, and in order to enter a very lucrative market, OTH is looking for ways to fund some reforestation projects through the sale of carbon credits (CC), also called 'carbon financing'. They have a portfolio of projects in need of funding, and they would like to select a few for carbon financing. Should OTH pursue carbon financing, and if yes, for which projects?",
+ "clarifying_info": [
+  {
+   "question_topic": "What is a carbon credit",
+   "answer": "A carbon credit (CC) is a tradable certificate giving the holder the right to emit greenhouse gases, typically 1 ton of CO2 equivalents. Corporations and countries purchase carbon credits to offset emissions above allowable limits."
+  },
+  {
+   "question_topic": "Process for selling carbon credits",
+   "answer": "Shown in Exhibit 1 if asked; meant only to help understand the process, no insight expected from it."
+  },
+  {
+   "question_topic": "Funding target",
+   "answer": "There is no target amount to be raised; the case is about whether financing a project via generating and selling carbon credits is feasible. If feasible, OTH will proceed with that project."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "The customers are typically corporations or countries wanting to offset emissions from their operations."
+  },
+  {
+   "question_topic": "Scope",
+   "answer": "This is a forward-looking analysis for new projects only; ignore any past planted trees or projects."
+  }
+ ],
+ "interviewer_notes": "This case follows a Bain-style format. Strong candidates consistently identify the profitability threshold and use it as a waypoint for whether a project should proceed; even stronger candidates get into the nuances of why certain projects are or are not a good fit. A good candidate identifies that the carbon-credit process involves many costs and that the goal is to find which projects are 'profitable' — the framework should boil down to a cost-benefit analysis. An outstanding candidate also identifies other factors (timeline, national climate policy, etc.) and brings in real-world knowledge.",
+ "suggested_framework": {
+  "summary": "Evaluate carbon financing feasibility per project across financial, logistical, and legal/regulatory factors.",
+  "tree": {
+   "label": "OTH Carbon Financing Decision",
+   "children": [
+    {
+     "label": "Financial Factors",
+     "children": [
+      {
+       "label": "Cost of carbon financing",
+       "children": [
+        {
+         "label": "Certification costs"
+        },
+        {
+         "label": "External audit"
+        },
+        {
+         "label": "Commissions to CC issuing body"
+        },
+        {
+         "label": "Tree planting & maintenance costs"
+        },
+        {
+         "label": "Labor"
+        }
+       ]
+      },
+      {
+       "label": "Revenue generating potential",
+       "children": [
+        {
+         "label": "Price at which CCs are sold"
+        },
+        {
+         "label": "Demand for purchasing CCs"
+        },
+        {
+         "label": "Market trends (nascent vs. growing)"
+        }
+       ]
+      },
+      {
+       "label": "Opportunity cost",
+       "children": [
+        {
+         "label": "Precludes other funding/revenue sources (e.g., sustainable timber sales)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Logistical Factors",
+     "children": [
+      {
+       "label": "Resources & capacity to execute",
+       "children": [
+        {
+         "label": "Manpower, technical assistance, on-field resources for data collection & monitoring"
+        }
+       ]
+      },
+      {
+       "label": "Execution timeline"
+      }
+     ]
+    },
+    {
+     "label": "Legal & Regulation Factors",
+     "children": [
+      {
+       "label": "Geography-specific national policy on CCs / who can you sell to"
+      },
+      {
+       "label": "Unique taxation policies"
+      },
+      {
+       "label": "CC regulatory bodies (e.g., UNFCCC) and their role"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you think about whether OTH should pursue carbon financing, and for which projects?",
+   "expected_answer": "Candidate builds a framework covering financial factors (cost of carbon financing, revenue potential, opportunity cost), logistical factors (resources/capacity, timeline), and legal/regulatory factors (national policy, taxation, regulatory bodies like the UNFCCC).",
+   "good_answer_signals": [
+    "identifies the case boils down to a cost-benefit / profitability analysis per project",
+    "an outstanding candidate also raises timeline and national climate policy considerations"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "If asked about the process for selling carbon credits, show Exhibit 1.",
+   "release_when": "If candidate asks about the carbon-credit sale process",
+   "info_to_release": "Exhibit 1: Process flow - Reforestation projects identified -> Estimate carbon removal potential (CCs generated) -> External audit of estimates -> Carbon Credits (CCs) certified -> Sale of CCs to buyers. 1 ton of CO2 removed by trees = 1 carbon credit generated; certification done by external agencies/certification bodies.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate is not expected to draw deep insight from this exhibit; it's provided to orient them on how carbon credits are generated, audited, certified, and sold before diving into the cost-benefit math.",
+   "good_answer_signals": [
+    "moves on to ask for cost data after understanding the process, rather than over-analyzing the flowchart"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "clarify",
+   "interviewer_asks": "After the framework, provide cost data (Table 1) when the candidate asks for costs of the various steps.",
+   "release_when": "When candidate asks for cost data; if they don't ask, guide them toward thinking about how an organization generates, issues, and certifies carbon credits",
+   "info_to_release": "Table 1 (read aloud, not shown): Fixed costs (don't change with project size): Audit cost = $325,000; Project certification cost = $175,000 (total fixed cost = $500,000). Variable costs: Carbon Credit issuance fee = $2 per CC issued; Tree planting & maintenance cost = $5 per tree (over the tree's lifetime). Price of CC sold in the market: $10 per CC.",
+   "expected_answer": "Candidate should realize costs are largely variable (scale with project size) and should next ask for the number of trees and carbon credits generated per project, at which point Exhibit 2 is shown.",
+   "good_answer_signals": [
+    "recognizes fixed vs. variable cost distinction",
+    "proactively asks for per-project tree counts and CC yield rather than assuming uniform economics"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Show Exhibit 2 once the candidate asks for the number of trees and carbon credits generated by project.",
+   "release_when": "After candidate asks for per-project tree/CC data following the cost breakdown",
+   "info_to_release": "Exhibit 2: Carbon Credit potential per tree by species (CCs generated per tree over its 30-year lifetime, not annually): Oaks 1.0, Mangroves 0.75, Rubber 0.8, Alder 0.6, Maple 0.55, Acacia 0.5, Acai Palm 0.4, Apple 0.3. Project table: A = 3,000,000 Oaks trees (France); B = 7,000,000 Mangroves trees (India); C = 4,000,000 Acacia trees (Ghana); D = 3,000,000 Alder trees (Peru); E = 350,000 Rubber trees (Venezuela); F = 2,000,000 Apple trees (Turkey); G = 3,000,000 Acai Palm trees (Brazil); H = 4,000,000 Maple trees (Canada).",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidate uses tree count x CC potential per tree to get total CCs per project, then applies revenue ($10/CC) and cost ($2/CC + $5/tree + $500K fixed) to determine profitability. An efficient candidate instead solves for the breakeven CC-potential-per-tree (x) first: 2x + 5 = 10x -> x = 0.625, screening to only the 3 projects (A, B, E) with potential above that threshold before doing full P&L math on those three, finding Projects A and B profitable (E is essentially breakeven but slightly negative).",
+   "good_answer_signals": [
+    "proposes or is nudged toward the unit-economics breakeven shortcut instead of computing all 8 projects by brute force",
+    "correctly narrows to Projects A, B, and E as candidates above the 0.625 threshold",
+    "concludes A and B are profitable while E is roughly breakeven/slightly negative"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Calculate whether each project (or, more efficiently, the shortlisted projects) is profitable from carbon financing.",
+   "info_to_release": "Formulas: Total CCs = # trees x CC potential per tree. Revenue = Total CCs x $10. Variable cost = ($2 x Total CCs) + ($5 x # trees). Total cost = Variable cost + $500,000 fixed cost. Profit = Revenue - Total cost.",
+   "expected_answer": "Project A (3M Oaks, potential 1.0): CCs = 3M; Revenue = $30M; Variable cost = $2(3M) + $5(3M) = $21M; Total cost = $21.5M; Profit = $8.5M. Project B (7M Mangroves, potential 0.75): CCs = 5.25M; Revenue = $52.5M; Variable cost = $2(5.25M) + $5(7M) = $45.5M; Total cost = $46M; Profit = $6.5M. Project E (350K Rubber, potential 0.8): CCs = 280K; Revenue = $2.8M; Variable cost = $2(280K) + $5(350K) = $2.31M; Total cost = $2.81M; Profit = -$10,000 (essentially breakeven, slightly negative). Projects C, D, F, G, H are all unprofitable (below the 0.625 breakeven threshold). Projects A and B are the only clearly profitable options.",
+   "good_answer_signals": [
+    "arrives at the same profit figures for at least Projects A and B",
+    "recognizes Project E is a marginal/breakeven case rather than clearly profitable"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other factors would you consider when evaluating if OTH should proceed with carbon financing of Projects A & B?",
+   "expected_answer": "Legal ramifications of selling carbon credits generated in reforested areas; double counting of carbon credits against national reforestation commitments; availability of manpower to perform the required tasks; timeline of cash flows (when CC sale proceeds arrive vs. when funds are needed); availability of grant capital in the country (carbon financing may be more valuable where grants are scarce).",
+   "good_answer_signals": [
+    "raises the cash-flow timing issue (CC revenue arrives after certification, but trees need funding to plant now)",
+    "raises double-counting against national climate commitments, a real-world nuance"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "exhibit",
+   "interviewer_asks": "Once the candidate lists a few factors, show Exhibit 3 and ask for their thoughts on Projects A (France) and B (India).",
+   "release_when": "After candidate lists brainstorm factors",
+   "info_to_release": "Exhibit 3: A world map of share of global forest area (2020) marking Project A (France) and Project B (India). A 2x2-style comparison shows Project A has high availability of capital for grant funding and high strength of forest protection services, while Project B has low availability of grant capital but only moderate/partial strength of forest protection services.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "The exhibit is intentionally ambiguous — there is no single right conclusion. India (Project B) has lower grant-funding capital availability and so may need carbon financing more, but it also has weaker forest protection services, making implementation harder. Existing forest cover/density also differs between the two locations. Any reasonable, well-supported conclusion is accepted.",
+   "good_answer_signals": [
+    "notices the tension between India's greater need for alternative funding and its weaker implementation capability",
+    "draws a reasonable conclusion without overclaiming a single 'right' answer"
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to OTH?",
+   "expected_answer": "There can be multiple valid recommendations. Projects A and B are both financially profitable, but differ significantly on other factors (grant-capital availability, forest protection service strength, geography). Candidate can recommend proceeding with both projects or just one, as long as they give a sound justification referencing financial feasibility, geography, resource availability, and other framework/brainstorming factors. Risks: time value of money was ignored in the calculations; $8.5M in profit over a long project period may translate to very little on a yearly basis; revenue only comes from future CC sales, so OTH still needs upfront capital from other sources to plant the trees and start the project; regional policy risk. Next steps: source start-up capital to begin planting, work with French and/or Indian governments to understand carbon sale rights/policy/legal ramifications, and gauge interest from potential corporate customers for the carbon credits.",
+   "good_answer_signals": [
+    "gives a clear, justified recommendation rather than just restating the profit numbers",
+    "flags that upfront capital is still needed despite future CC profitability",
+    "proposes case-specific next steps (government engagement, customer interest)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Process for Selling Carbon Credits",
+   "page": 159,
+   "kind": "other",
+   "description": "Flowchart of the carbon credit process: reforestation projects identified -> estimate carbon removal potential -> external audit of estimates -> carbon credits certified -> sale of CCs to buyers.",
+   "image_path": "exhibits/ross-2025-one-tree-hill/p159.webp",
+   "key_insight": "1 ton of CO2 removed by trees equals 1 carbon credit, and certification is performed by external agencies — candidates aren't expected to draw quantitative insight from this exhibit, just to understand the process.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Data by Tree Type",
+   "page": 162,
+   "kind": "table",
+   "description": "Bar chart of carbon credit potential per tree by species (over a 30-year lifetime), plus a table of 8 candidate projects with number of trees, tree species, and location.",
+   "data": {
+    "columns": [
+     "Project",
+     "# of trees",
+     "Tree Species",
+     "Location",
+     "CC Potential per Tree"
+    ],
+    "rows": [
+     [
+      "A",
+      3000000,
+      "Oaks",
+      "France",
+      1
+     ],
+     [
+      "B",
+      7000000,
+      "Mangroves",
+      "India",
+      0.75
+     ],
+     [
+      "C",
+      4000000,
+      "Acacia",
+      "Ghana",
+      0.5
+     ],
+     [
+      "D",
+      3000000,
+      "Alder",
+      "Peru",
+      0.6
+     ],
+     [
+      "E",
+      350000,
+      "Rubber",
+      "Venezuela",
+      0.8
+     ],
+     [
+      "F",
+      2000000,
+      "Apple",
+      "Turkey",
+      0.3
+     ],
+     [
+      "G",
+      3000000,
+      "Acai Palm",
+      "Brazil",
+      0.4
+     ],
+     [
+      "H",
+      4000000,
+      "Maple",
+      "Canada",
+      0.55
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-one-tree-hill/p162.webp",
+   "key_insight": "CC potential per tree varies nearly 3-4x across species (0.3 to 1.0), which combined with the $0.625 per-tree breakeven threshold explains why most projects are unprofitable despite similar cost structures.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Global Forest Data",
+   "page": 165,
+   "kind": "other",
+   "description": "World map of share of global forest area (2020, Our World in Data) marking Project A (France) and Project B (India), alongside a 2x2-style comparison of resource availability: availability of capital for grant funding, and strength of forest protection services, for both projects.",
+   "image_path": "exhibits/ross-2025-one-tree-hill/p165.webp",
+   "key_insight": "Project A (France) has both higher grant-funding availability and stronger forest protection services, while Project B (India) has lower grant-funding availability (arguably making carbon financing more valuable there) but weaker forest protection services (making execution harder) — the exhibit is intentionally ambiguous with no single correct read.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the profit from carbon financing for Project A (3,000,000 Oaks trees, France)?",
+   "givens": [
+    "# trees = 3,000,000",
+    "CC potential per tree (Oaks) = 1.0",
+    "Price per CC = $10",
+    "CC issuance fee = $2/CC",
+    "Tree planting/maintenance = $5/tree",
+    "Fixed costs = $325,000 audit + $175,000 certification = $500,000"
+   ],
+   "steps": [
+    "Total CCs = 3,000,000 x 1.0 = 3,000,000",
+    "Revenue = 3,000,000 x $10 = $30,000,000",
+    "Variable cost = ($2 x 3,000,000 CCs) + ($5 x 3,000,000 trees) = $6,000,000 + $15,000,000 = $21,000,000",
+    "Total cost = $21,000,000 + $500,000 = $21,500,000",
+    "Profit = $30,000,000 - $21,500,000 = $8,500,000"
+   ],
+   "answer": "Project A profit = $8.5M",
+   "answer_value": 8500000,
+   "unit": "$",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the profit from carbon financing for Project B (7,000,000 Mangroves trees, India)?",
+   "givens": [
+    "# trees = 7,000,000",
+    "CC potential per tree (Mangroves) = 0.75",
+    "Price per CC = $10",
+    "CC issuance fee = $2/CC",
+    "Tree planting/maintenance = $5/tree",
+    "Fixed costs = $500,000"
+   ],
+   "steps": [
+    "Total CCs = 7,000,000 x 0.75 = 5,250,000",
+    "Revenue = 5,250,000 x $10 = $52,500,000",
+    "Variable cost = ($2 x 5,250,000) + ($5 x 7,000,000) = $10,500,000 + $35,000,000 = $45,500,000",
+    "Total cost = $45,500,000 + $500,000 = $46,000,000",
+    "Profit = $52,500,000 - $46,000,000 = $6,500,000"
+   ],
+   "answer": "Project B profit = $6.5M",
+   "answer_value": 6500000,
+   "unit": "$",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is the breakeven carbon-credit potential per tree (x), above which a project can be profitable?",
+   "givens": [
+    "CC issuance fee = $2/CC",
+    "Tree planting/maintenance = $5/tree",
+    "Price per CC = $10",
+    "x = CC potential per tree"
+   ],
+   "steps": [
+    "Per-tree cost = ($2 x CCs per tree) + $5 planting cost = 2x + 5",
+    "Per-tree revenue = $10 x CCs per tree = 10x",
+    "Breakeven: 2x + 5 = 10x",
+    "5 = 8x",
+    "x = 0.625"
+   ],
+   "answer": "Breakeven CC potential per tree = 0.625; only Projects A (1.0), B (0.75), and E (0.8) exceed this and are worth evaluating in full (fixed costs still apply on top).",
+   "answer_value": 0.625,
+   "unit": "CCs per tree",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is the profit from carbon financing for Project E (350,000 Rubber trees, Venezuela), the marginal case identified by the breakeven screen?",
+   "givens": [
+    "# trees = 350,000",
+    "CC potential per tree (Rubber) = 0.8",
+    "Price per CC = $10",
+    "CC issuance fee = $2/CC",
+    "Tree planting/maintenance = $5/tree",
+    "Fixed costs = $500,000"
+   ],
+   "steps": [
+    "Total CCs = 350,000 x 0.8 = 280,000",
+    "Revenue = 280,000 x $10 = $2,800,000",
+    "Variable cost = ($2 x 280,000) + ($5 x 350,000) = $560,000 + $1,750,000 = $2,310,000",
+    "Total cost = $2,310,000 + $500,000 = $2,810,000",
+    "Profit = $2,800,000 - $2,810,000 = -$10,000"
+   ],
+   "answer": "Project E profit = -$10,000 (essentially breakeven, slightly unprofitable once fixed costs are included)",
+   "answer_value": -10000,
+   "unit": "$",
+   "verified": true
+  }
+ ],
+ "synthesis": "There can be multiple valid recommendations for this case. Projects A and B are both financially profitable ($8.5M and $6.5M respectively over the trees' 30-year lifetime), while Project E is essentially breakeven and Projects C, D, F, G, and H are unprofitable. Candidates can recommend proceeding with both A and B, or with just one, as long as they give a sound justification covering financial feasibility, geography, resource availability (Exhibit 3), and other factors raised in the framework/brainstorming. Key risks: the analysis ignores time value of money, and $8.5M spread over a long project period may translate to modest annual returns; revenue only comes from future CC sales, so OTH still needs upfront capital from another source to plant trees and start the project; regional policy/legal risk around carbon credit rights. Next steps: source start-up capital to begin planting, work with French and/or Indian governments to understand carbon sale rights, policy, and legal ramifications, and gauge interest from potential corporate customers for the carbon credits.",
+ "what_great_looks_like": [
+  "Frames the case early as a cost-benefit/profitability screen across many candidate projects",
+  "Proposes or quickly adopts the unit-economics breakeven shortcut (solving for x) instead of computing full P&L for all 8 projects",
+  "Correctly narrows to Projects A, B, and E before doing detailed math, saving significant time",
+  "Recognizes Project E as a genuine marginal case rather than clearly profitable or unprofitable",
+  "Raises the cash-flow timing mismatch (upfront tree-planting costs vs. delayed CC sale revenue) as a real risk",
+  "Gives a justified, multi-factor recommendation rather than mechanically picking the two highest-profit projects"
+ ],
+ "common_pitfalls": [
+  "Computing full profitability math for all 8 projects instead of first screening with the breakeven CC-potential-per-tree shortcut",
+  "Mixing up which cost ($2 or $5) applies per carbon credit vs. per tree",
+  "Treating Project E as clearly profitable or clearly unprofitable instead of recognizing it as essentially breakeven",
+  "Over-interpreting Exhibit 3 as pointing to one 'correct' project choice when the case intends it to be ambiguous",
+  "Ignoring that upfront capital is still needed to start planting even though CC revenue only arrives later"
+ ],
+ "follow_ups": [
+  "How would the recommendation change if OTH could only fund one project due to limited execution capacity?",
+  "How would time value of money change the attractiveness of Projects A and B given the 30-year CC generation horizon?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[2].data (Exhibit 3's resource-availability pie/circle icons for Projects A and B are read qualitatively as high/low rather than exact percentages, per the source's intentionally ambiguous, non-numeric design)"
+  ],
+  "math_verified": true,
+  "notes": "The book's own worked example for Project A states the variable-cost formula as '$2 * Number of trees + $5 * CCs generated,' which is inverted relative to the cost definitions given in Table 1 ($2 per CC issued, $5 per tree planted); however, the dollar figure produced ($21M) and every other project's total in the Method 1 table are consistent with the correct formula ($2 x CCs + $5 x trees), so this extraction uses the correct formula throughout and treats the mislabeling as a wording slip rather than a computational error.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "concepts_tested"
+  ]
+ }
+}

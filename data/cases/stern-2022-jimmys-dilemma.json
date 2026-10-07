@@ -1,0 +1,405 @@
+{
+ "id": "stern-2022-jimmys-dilemma",
+ "title": "Jimmy's Dilemma",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  309,
+  319
+ ],
+ "author": "Paul Bentley & Ryan Pennock (Stern '20)",
+ "case_type": [
+  "Other"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "professional-services",
+ "sub_industry": "staffing",
+ "industry_source_label": "Recruiting",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Deloitte Round 2"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 9; Structure: 9 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "discounted-cash-flow",
+  "compensation",
+  "expected-value",
+  "career-choice",
+  "exit-opportunities",
+  "cash-flow-timing",
+  "decision-making"
+ ],
+ "concepts_tested": [
+  "Valuation (DCF)",
+  "Structured Math",
+  "Brainstorming"
+ ],
+ "prompt": "It is early October, and Jimmy Smith, an MBA2 at NYU Stern, has a decision to make. After a summer interning at Firm A, Jimmy received an offer to return full-time next year. However, Jimmy also decided to re-recruit and received a competing offer from Firm B. Jimmy now needs to decide which offer he should accept, and has looked to you, his best friend, for help.",
+ "clarifying_info": [
+  {
+   "question_topic": "Jimmy's objective and alternatives",
+   "answer": "Jimmy only cares about money and wants to maximize financial value. He is not considering other opportunities."
+  },
+  {
+   "question_topic": "Employment horizon",
+   "answer": "If asked, Jimmy intends to work at either firm for three years."
+  },
+  {
+   "question_topic": "Firm positioning",
+   "answer": "The firms compete in the same industry. Firm A is second-tier but increasingly competes with top-tier firms for talent. Firm B is more prestigious and top-tier."
+  },
+  {
+   "question_topic": "Discounting",
+   "answer": "When requested, provide a 10% discount rate. The interviewer guide explicitly permits simplified discount factors of 1 + 0.1 × year: 1.1, 1.2 and 1.3 for Years 1–3, instead of compounding. Suggest this approximation if the candidate does not use it."
+  }
+ ],
+ "interviewer_notes": "The candidate should request the offers and independent salary research; prompt if necessary, then show Exhibits 1 and 2. Emphasize timing and a cash-flow diagram. Use the explicit simplified discount convention printed in the image on page 311, which is absent from the text layer. Treat signing bonuses as Year 0 and salary/annual bonuses as end-of-year cash flows in the book's model; tuition reimbursement is at the end of Year 3. After the initial comparison, push for at least four additional financial/nonfinancial considerations, then lead to exit opportunities and Exhibit 3. A probability-weighted mean is the expected-value approach. The source also accepts medians if the candidate explains a skewness/typical-outcome rationale, but a median is not expected value. Full perpetuity analysis is unnecessary: the first exit year already changes the preferred offer.",
+ "suggested_framework": {
+  "summary": "Compare discounted compensation over the intended tenure and the financial value of exit opportunities, then test employment and fit risks.",
+  "tree": {
+   "label": "Which offer should Jimmy accept?",
+   "children": [
+    {
+     "label": "Direct compensation",
+     "children": [
+      {
+       "label": "Salary and raises"
+      },
+      {
+       "label": "Signing and annual bonuses"
+      },
+      {
+       "label": "Tuition reimbursement and timing"
+      }
+     ]
+    },
+    {
+     "label": "Valuation",
+     "children": [
+      {
+       "label": "Three-year cash-flow schedule"
+      },
+      {
+       "label": "Present-value discounting"
+      },
+      {
+       "label": "Expected exit compensation and growth"
+      }
+     ]
+    },
+    {
+     "label": "Additional considerations",
+     "children": [
+      {
+       "label": "Training and firm focus"
+      },
+      {
+       "label": "Firm performance and financial security"
+      },
+      {
+       "label": "Location, travel and culture"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you help Jimmy compare his offers?",
+   "release_when": "Read the prompt and provide objective, horizon and firm-positioning clarifications on request.",
+   "info_to_release": "Jimmy wants to maximize money and has only these two offers. If asked, he plans a three-year stay. Firm A is second-tier and Firm B top-tier in the same industry.",
+   "exhibit_ids": [],
+   "expected_answer": "Compare salary, salary growth, signing and recurring bonuses, reimbursement and their timing through DCF. Do not stop at the initial three-year package: exit opportunities can affect longer-term financial value. Request the detailed offers and relevant discount rate, while considering employment risk and nonfinancial factors as his friend.",
+   "good_answer_signals": [
+    "Separates immediate compensation from future career value.",
+    "Recognizes that timing matters before adding nominal amounts."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Using the offers and projected salaries, which offer has higher present value over three years?",
+   "release_when": "Give Exhibits 1 and 2 when the candidate requests compensation. On request provide 10%; explain the permitted simplified discounting if needed.",
+   "info_to_release": "Firm A salaries in Years 1–3: $91,000, $114,000, $126,000; signing bonus $30,000 before employment; annual bonus $30,000; tuition reimbursement $78,000 at end of Year 3. Firm B salaries: $97,000, $121,000, $147,000; signing $40,000; annual bonus $35,000; no tuition reimbursement. Annual bonuses remain constant. Use the source's Year 0 signing-bonus convention and simplified discount denominators 1.1, 1.2 and 1.3 at a 10% rate.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "Firm A cash flows in USD thousands are 30 now, 121 in Year 1, 144 in Year 2 and 234 in Year 3. Simplified PV is 30 + 121/1.1 + 144/1.2 + 234/1.3 = 440. Firm B flows are 40, 132, 156 and 182; simplified PV = 40 + 120 + 130 + 140 = 430. Firm A leads by $10,000 before exit opportunities. Standard compounding instead gives about $434,815.93 and $425,664.91, also favoring A; the book explicitly authorizes its simpler approximation.",
+   "good_answer_signals": [
+    "Creates a clear cash-flow timeline.",
+    "Places tuition reimbursement only in Year 3.",
+    "Distinguishes an authorized discount approximation from exact compound PV."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What else should Jimmy consider before accepting? Give at least four ideas beyond the initial framework.",
+   "release_when": "After calculating the two offer values.",
+   "info_to_release": "As Jimmy's friend, include both additional financial considerations and nonfinancial factors he should think about, even though his stated objective is money.",
+   "exhibit_ids": [],
+   "expected_answer": "Financial considerations include exit opportunities and firm performance/job security. Nonfinancial considerations include firm focus, location, travel time and culture. Training may improve later earnings. Explain how these factors can affect the realizability of the projected financial path, not merely list lifestyle preferences that override Jimmy's stated goal.",
+   "good_answer_signals": [
+    "Organizes financial and nonfinancial considerations.",
+    "Raises exit opportunities before being prompted."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What do the exit-opportunity data imply after Jimmy leaves either firm in three years?",
+   "release_when": "After the brainstorm, steer toward exit opportunities and give Exhibit 3, even if the candidate did not raise them.",
+   "info_to_release": "Exit salaries in USD thousands are 150, 175, 200, 225 and 250. Firm A/second-tier probabilities are 20%, 40%, 25%, 10%, 5%; Firm B/top-tier probabilities are 0%, 10%, 20%, 50%, 20%. Exit salaries then grow at 5% per year indefinitely. Continue the source's simplified discounting convention, using 1.4 for Year 4.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Expected exit salaries are $185,000 for A and $220,000 for B, a $35,000 Year 4 advantage to B. Its simplified PV is $35,000/1.4 = $25,000, exceeding A's initial $10,000 advantage and leaving B ahead by $15,000 after including Year 4. Median salaries are $175,000/$225,000 if a typical-outcome approach is explicitly justified; that $50,000 gap has PV $35,714.29 and similarly favors B. The source accepts either route, but expected value is the direct fit for an expected-money objective. Future 5% growth is not required to establish the result, and a perpetual-career model is unnecessary.",
+   "good_answer_signals": [
+    "Weights probabilities rather than averaging salary bands equally.",
+    "Discounts the exit advantage to the same reference time as the offer comparison.",
+    "Does not call median compensation the expected value."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Which offer should Jimmy accept, and what should he do before signing?",
+   "release_when": "After the exit-opportunity valuation.",
+   "info_to_release": "No further data.",
+   "exhibit_ids": [],
+   "expected_answer": "Choose Firm B on the supplied expected financial outcomes. A's three-year simplified PV is $440,000 versus B's $430,000, but B's expected first exit-year premium alone is worth $25,000 today and reverses the ranking. Risks include layoffs, underperformance preventing strong exits, and poor cultural fit causing early departure. Use A's offer to negotiate with B, investigate both firms' work and culture, and use recruiting events to gather information before the decision deadline. The source suggests waiting until the last minute; do not assume an actual offer deadline is provided.",
+   "good_answer_signals": [
+    "Explains why the short-term winner differs from the overall choice.",
+    "Links diligence to financial and fit risks.",
+    "Avoids treating expected exit outcomes as guaranteed."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Compensation Package by Firm",
+   "page": 317,
+   "kind": "table",
+   "description": "Offer components in USD thousands. Signing bonuses are paid before employment; tuition reimbursement is at the end of Year 3.",
+   "data": {
+    "columns": [
+     "Component",
+     "Firm A (USD thousands)",
+     "Firm B (USD thousands)"
+    ],
+    "rows": [
+     [
+      "Starting salary",
+      91,
+      97
+     ],
+     [
+      "Signing bonus",
+      30,
+      40
+     ],
+     [
+      "Expected annual bonus",
+      30,
+      35
+     ],
+     [
+      "Tuition reimbursement",
+      78,
+      0
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-jimmys-dilemma/p317.webp",
+   "image_has_answers": false,
+   "key_insight": "A's deferred reimbursement can outweigh B's higher near-term pay, so timing matters.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Projected Annual Salary",
+   "page": 318,
+   "kind": "bar",
+   "description": "Projected salaries in USD thousands for the three employment years. Annual bonuses remain constant and are separate from salaries.",
+   "data": {
+    "columns": [
+     "Year",
+     "Firm A salary (USD thousands)",
+     "Firm B salary (USD thousands)"
+    ],
+    "rows": [
+     [
+      1,
+      91,
+      97
+     ],
+     [
+      2,
+      114,
+      121
+     ],
+     [
+      3,
+      126,
+      147
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-jimmys-dilemma/p318.webp",
+   "image_has_answers": false,
+   "key_insight": "Firm B has higher and faster-growing salary, but the full offer includes bonuses and reimbursement.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Distribution of Expected Starting Salaries for Exit Opportunities",
+   "page": 319,
+   "kind": "bar",
+   "description": "Salary-outcome probabilities by firm tier; Firm A is second-tier and Firm B top-tier. Exact probabilities are confirmed by the interviewer guide. The exhibit assumes 5% subsequent annual salary growth indefinitely.",
+   "data": {
+    "columns": [
+     "Exit salary (USD thousands)",
+     "Second-tier/Firm A probability (%)",
+     "Top-tier/Firm B probability (%)"
+    ],
+    "rows": [
+     [
+      150,
+      20,
+      0
+     ],
+     [
+      175,
+      40,
+      10
+     ],
+     [
+      200,
+      25,
+      20
+     ],
+     [
+      225,
+      10,
+      50
+     ],
+     [
+      250,
+      5,
+      20
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-jimmys-dilemma/p319.webp",
+   "image_has_answers": false,
+   "key_insight": "Firm B's stronger exit distribution can outweigh its lower initial three-year offer PV.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the present value of each three-year offer?",
+   "givens": [
+    "Firm A salaries 91/114/126, annual bonus 30, signing 30 and Year 3 tuition 78, all USD thousands",
+    "Firm B salaries 97/121/147, annual bonus 35, signing 40 and no tuition, all USD thousands",
+    "10% discount rate; source explicitly permits denominator 1 + 0.1 × year"
+   ],
+   "steps": [
+    "A yearly cash flows in USD thousands: 30, 121, 144, 234.",
+    "A simplified PV = 30 + 121/1.1 + 144/1.2 + 234/1.3 = 30 + 110 + 120 + 180 = 440.",
+    "B cash flows: 40, 132, 156, 182; simplified PV = 40 + 120 + 130 + 140 = 430.",
+    "A advantage = $10,000.",
+    "For reference, compound discounting gives A $434,815.93 and B $425,664.91; the source intentionally uses approximate factors."
+   ],
+   "answer": "A $440,000 versus B $430,000 under the authorized simplified convention; A leads by $10,000.",
+   "answer_value": 10000,
+   "unit": "USD initial PV advantage for A",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are expected and median exit salaries?",
+   "givens": [
+    "Salary bands $150,000/$175,000/$200,000/$225,000/$250,000",
+    "A probabilities 20/40/25/10/5%",
+    "B probabilities 0/10/20/50/20%"
+   ],
+   "steps": [
+    "A expected salary = 150,000×20% + 175,000×40% + 200,000×25% + 225,000×10% + 250,000×5% = $185,000.",
+    "B expected salary = 150,000×0% + 175,000×10% + 200,000×20% + 225,000×50% + 250,000×20% = $220,000.",
+    "Expected B advantage = $35,000.",
+    "Cumulative probabilities put A's median at $175,000 and B's at $225,000; median difference = $50,000."
+   ],
+   "answer": "Expected salaries are $185,000/$220,000; medians are $175,000/$225,000 for A/B respectively.",
+   "answer_value": 35000,
+   "unit": "USD expected Year 4 salary advantage for B",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Does the first exit year reverse the offer ranking?",
+   "givens": [
+    "B expected Year 4 premium $35,000, or $50,000 using medians",
+    "Source simplified Year 4 discount divisor 1.4",
+    "A initial simplified PV advantage $10,000"
+   ],
+   "steps": [
+    "Expected premium PV = 35,000/1.4 = $25,000.",
+    "Net expected B advantage through Year 4 = 25,000 − 10,000 = $15,000.",
+    "Median-premium PV = 50,000/1.4 = $35,714.29; net after A's $10,000 advantage = $25,714.29.",
+    "Thus either source-accepted comparison favors B without valuing subsequent 5% growth."
+   ],
+   "answer": "Yes. The expected-value approach leaves B ahead by $15,000 after the first exit year under the source convention.",
+   "answer_value": 15000,
+   "unit": "USD net simplified PV advantage for B through Year 4",
+   "verified": true
+  }
+ ],
+ "synthesis": "Choose Firm B under the supplied expected financial outcomes. Firm A leads the first three years by $10,000 in simplified PV, but Firm B's $35,000 expected Year 4 salary premium has PV $25,000 and leaves B ahead by $15,000 even before later career growth. Validate job security, performance expectations, culture and exit assumptions; negotiate using the competing offer and use recruiting events for diligence. The advantage is expected, not guaranteed, and the simplified discounting is expressly authorized by the book.",
+ "what_great_looks_like": [
+  "Uses a cash-flow timeline and discounts rather than adding nominal pay.",
+  "Recognizes the value of exit opportunities before being led there.",
+  "Distinguishes expected value from a justified median comparison.",
+  "Explains why the initial three-year winner is not the overall recommendation.",
+  "Considers macroeconomic, performance and fit risks to the projected earnings."
+ ],
+ "common_pitfalls": [
+  "Placing tuition reimbursement at signing instead of the end of Year 3.",
+  "Discounting the signing bonus as an end-of-first-year payment.",
+  "Ignoring annual bonuses or confusing them with salary bars.",
+  "Averaging exit salary bands without probabilities.",
+  "Comparing a future salary premium directly to a present-value offer gap.",
+  "Treating the book's approved approximation as exact compound discounting."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The critical page 311 discounting instructions are an embedded image and were read visually. They explicitly supply 10% and authorize denominators 1.1, 1.2 and 1.3, extended to 1.4 in the exit solution. Therefore the $440,000/$430,000 offer values and $25,000 expected exit-premium PV are intentional approximations, not book errors. Standard compound PV is included only as a reference. The case treats signing as Year 0 despite an early-October decision and employment next year; exact calendar timing is not supplied, so no extra start-date discount is invented. Source accepts median analysis, but it is identified separately from expected value. A growing perpetuity is unnecessary. Client is an individual, so no incompatible client_type enum is assigned. Other case type and staffing taxonomy preserve the recruiting context without mislabeling it as corporate PE due diligence. Difficulty uses max(9,9), Python round(9/2) = 4. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls"
+  ]
+ }
+}

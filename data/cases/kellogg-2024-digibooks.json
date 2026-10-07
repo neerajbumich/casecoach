@@ -1,0 +1,368 @@
+{
+ "id": "kellogg-2024-digibooks",
+ "title": "DigiBooks",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  129,
+  138
+ ],
+ "author": "Shobhit Chugh (Kellogg '11); edited by Adam Louras (Kellogg 2011), Rohan Maini (Kellogg 2020)",
+ "case_type": [
+  "New Product/GTM",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Z04 New product / Market entry",
+ "industry": "tech-saas",
+ "sub_industry": "hardware-devices",
+ "industry_source_label": "X12 Retail & CPG; X13 Technology",
+ "geography": "Unnamed country (fictional international market); total population 76MM",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "market-entry",
+  "new-product",
+  "market-sizing",
+  "customer-segmentation",
+  "channel-strategy",
+  "pricing",
+  "willingness-to-pay",
+  "profitability"
+ ],
+ "concepts_tested": [
+  "Z10 Customer strategy (2)",
+  "Z10 Marketing strategy (3)",
+  "Z12 Creativity (3)",
+  "Z08 Market sizing (4)"
+ ],
+ "fit_question": "Tell me about a time that you led a team to meet an aggressive deadline.",
+ "prompt": "Our client, DigiBooks, is a manufacturer and seller of electronic book readers (tablets). DigiBooks also distributes e-books for the tablets through their website; the tablet is only compatible with books sold through the DigiBooks site. DigiBooks is planning the launch of its tablets in a country where no electronic book readers are currently sold. Only 1% of the population has ever used an electronic book reader, though 50% is aware of the concept. The Chief Marketing Officer of DigiBooks has come to you to help determine: what factors should DigiBooks consider when launching and marketing DigiBook tablets in this new country?",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry definition",
+   "answer": "An electronic book reader is a software, hardware and network platform that uses wireless connectivity to let users shop for, download, browse, and read e-books, newspapers, magazines, blogs, and other digital media."
+  },
+  {
+   "question_topic": "Client/product characteristics",
+   "answer": "DigiBook's tablet uses an e-ink electronic paper display with 16 shades of grey, giving it a 12-hour battery life and easy readability."
+  },
+  {
+   "question_topic": "Locations",
+   "answer": "DigiBooks has never sold a product outside of the US."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "No competitors in the e-book or tablet space plan to enter this country."
+  },
+  {
+   "question_topic": "Market characteristics",
+   "answer": "Total population of the country is 76MM, with a high literacy level."
+  }
+ ],
+ "interviewer_notes": "Problem: how should DigiBooks enter this new market? Key case steps: (1) develop a problem-solving structure, (2) analyze customer segments, (3) brainstorm market entry considerations, (4) estimate profits to identify the optimal sales channel, (5) provide CEO recommendation.",
+ "suggested_framework": {
+  "summary": "A marketing-mix (STP + 4Ps-style) structure tailored to launching a new hardware+content product in an unfamiliar market.",
+  "tree": {
+   "label": "How should DigiBooks launch and market tablets in this new country?",
+   "children": [
+    {
+     "label": "Segmentation, targeting and positioning",
+     "children": [
+      {
+       "label": "Which population segments are ideal customers?"
+      }
+     ]
+    },
+    {
+     "label": "Product",
+     "children": [
+      {
+       "label": "What capabilities are people looking for?"
+      },
+      {
+       "label": "Use existing product or develop a new one for this country?"
+      }
+     ]
+    },
+    {
+     "label": "Price",
+     "children": [
+      {
+       "label": "Tablet and e-book pricing"
+      },
+      {
+       "label": "Customer willingness to pay"
+      },
+      {
+       "label": "Low tablet price to capture market share, margin on e-books?"
+      }
+     ]
+    },
+    {
+     "label": "Promotion",
+     "children": [
+      {
+       "label": "How should tablets be marketed? What promotion mechanisms?"
+      }
+     ]
+    },
+    {
+     "label": "Place/distribution",
+     "children": [
+      {
+       "label": "Retail, internet, or other channels?"
+      }
+     ]
+    },
+    {
+     "label": "Selection of e-books",
+     "children": [
+      {
+       "label": "Is a wide selection of books available for this country?"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem of how DigiBooks should launch and market its tablets in this country.",
+   "release_when": "Only after candidate asks — release clarifying information (industry definition, product characteristics, prior international experience, competitive dynamics, market size/literacy) on request.",
+   "info_to_release": "Clarifying information: e-ink display with 16-hour... (12-hour) battery life; DigiBooks has never sold outside the US; no competitors plan to enter this country; population 76MM with high literacy; only 1% have used an e-reader though 50% are aware of the concept.",
+   "expected_answer": "A structure covering Segmentation/targeting/positioning (which segments are ideal customers), Product (desired capabilities; existing vs. new product), Price (tablet and e-book pricing, willingness to pay, low-price-tablet/margin-on-books strategy), Promotion (marketing mechanisms), Place/Distribution (retail vs. internet vs. other channels), and Selection of e-books (breadth of local book catalog).",
+   "good_answer_signals": [
+    "Uses a marketing-mix-style structure appropriate to a product+content launch rather than a generic profitability tree",
+    "Explicitly raises the tablet-as-loss-leader / e-book-margin pricing strategy question",
+    "Flags book catalog/localization as a distinct consideration, not just price and channel"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "We found several customer segments through research, but we're only able to target one with our product. Using a 3-year projection, which segment should DigiBooks target?",
+   "release_when": "Provide Exhibit A for this part.",
+   "info_to_release": "Exhibit A (population, books read per year, and e-reader willingness-to-pay by segment: Super Readers, Occasional Readers, Rare Readers). If unclear: answer based on revenue potential (ignore probability of purchase), assume all tablet sales happen immediately (ignore time value of money). Missing data: average e-book price is $10 across all segments, and e-books and tablets have the same margin.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "3-year revenue potential per segment = [(books/year x $10 x 3 years) + (tablet WTP x 1 tablet)] x segment population. Super Readers = [(15 x $10 x 3) + $200] x 8M = $5.2B. Occasional Readers = [(10 x $10 x 3) + $125] x 20M = $8.5B. Rare Readers = [(5 x $10 x 3) + $175] x 10M = $3.25B. Takeaway: target the Occasional Readers segment, with the highest revenue potential of $8.5B.",
+   "good_answer_signals": [
+    "Correctly combines 3-year book revenue with one-time tablet revenue per person before multiplying by population",
+    "Picks the segment with the highest total revenue potential (Occasional Readers) even though it has neither the highest per-person spend nor WTP",
+    "Notes the simplifying assumptions being used (ignoring purchase probability and time value of money) rather than treating the number as fully realistic"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "DigiBooks is now considering how to sell its e-book readers: through retail stores or through the internet. How would you go about evaluating this decision?",
+   "expected_answer": "Retail — pros: encourages trial of the product, retailers can help with joint marketing campaigns, retailers can help with customer service/returns; cons: lower margin due to value chain expansion, takes time/money to set up and adds training costs. Internet — pros: likely cheaper to establish and results in higher margins; cons: hard to encourage trial. Takeaway: DigiBooks should run a financial analysis to determine which channel is more attractive rather than deciding on qualitative factors alone.",
+   "good_answer_signals": [
+    "Generates distinct, non-overlapping pros/cons for each channel",
+    "Concludes that a quantitative comparison is still needed rather than picking a channel on qualitative grounds alone"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Based on revised market estimates, we've decided to price the e-reader at $100 and target the Occasional Reader segment. Using this and Exhibit B, can you estimate the profit potential of each sales channel? Which should we choose? What segment would you recommend to your client?",
+   "release_when": "Provide Exhibit B for this part.",
+   "info_to_release": "Exhibit B (reach %, e-book and e-reader gross margin %, penetration %, and overhead cost by channel: Retail and Internet). If unclear: use a 1-year profitability calculation per channel and subtract the upfront investment (overhead), ignoring all other costs. No data is missing, but the 20M-person Occasional Reader market size (from Exhibit A) and the $10 e-book price are both needed as inputs.",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Retail profit = [(10 books x $10/book x 50% margin) + ($100/tablet x 30% margin)] x (20M people x 50% reach x 40% penetration) = [$50 + $30] x 4M customers = $320M - $20M overhead = $300M. Internet profit = [(10 books x $10/book x 50% margin) + ($100/tablet x 60% margin)] x (20M people x 50% reach x 10% penetration, i.e. 1M customers) = [$50 + $60] x 1M = $110M - $10M overhead = $100M. Takeaway: choose the Retail channel, with $300M in profit, targeting the Occasional Reader segment.",
+   "good_answer_signals": [
+    "Correctly applies reach and penetration together to size the actual customer base per channel before multiplying by per-customer profit",
+    "Subtracts the channel's overhead/upfront investment to get to net profit, not just gross contribution",
+    "Notices Internet's higher per-customer margin is outweighed by its far lower penetration, leading to a lower total profit despite the 'cons' identified qualitatively in Part 3"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the CEO.",
+   "expected_answer": "DigiBooks should launch the e-book reader for the Occasional Reader segment through the Retail sales channel, expecting to earn a $300MM annual return. Other items to consider: what advertising mechanisms to use; whether to set up a manufacturing facility in the country or source from current facilities; and whether there are any prospects of competitors entering the market.",
+   "good_answer_signals": [
+    "Recommendation names both the segment and the channel with the quantified profit figure",
+    "Raises at least one of the 'other items to consider' proactively rather than stopping at the number",
+    "Strong interviewees notice nuances such as time value of money and probability-of-purchase/penetration effects on Exhibit A's simplified numbers; outstanding interviewees also flesh out marketing-strategy details for the launch"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Market segments",
+   "page": 132,
+   "kind": "bar",
+   "description": "Combo chart with three reader segments (Super Readers, Occasional Readers, Rare Readers): a bar series for books read per year (15, 10, 5) and a line series for e-reader willingness-to-pay ($200, $125, $175), plus a population row (8M, 20M, 10M).",
+   "data": {
+    "columns": [
+     "Segment",
+     "Population",
+     "Books per year",
+     "E-reader WTP"
+    ],
+    "rows": [
+     [
+      "Super Readers (SR)",
+      "8M",
+      15,
+      "$200"
+     ],
+     [
+      "Occasional Readers (OR)",
+      "20M",
+      10,
+      "$125"
+     ],
+     [
+      "Rare Readers (RR)",
+      "10M",
+      5,
+      "$175"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-digibooks/p132.webp",
+   "key_insight": "Occasional Readers have neither the highest per-person book consumption nor the highest tablet willingness-to-pay, but their much larger population (20M) makes them the highest total 3-year revenue-potential segment.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exB",
+   "title": "Channel decisions",
+   "page": 133,
+   "kind": "table",
+   "description": "Table comparing the Retail and Internet sales channels on reach (% of total potential market), e-book gross margin %, e-reader gross margin %, penetration %, and fixed overhead cost.",
+   "data": {
+    "columns": [
+     "Channel",
+     "Reach (% of total potential market)",
+     "E-book gross margin %",
+     "E-reader gross margin %",
+     "Penetration",
+     "Overheads"
+    ],
+    "rows": [
+     [
+      "Retail",
+      "50%",
+      "50%",
+      "30%",
+      "40%",
+      "$20M"
+     ],
+     [
+      "Internet",
+      "50%",
+      "50%",
+      "60%",
+      "10%",
+      "$10M"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-digibooks/p133.webp",
+   "key_insight": "Internet has a much higher e-reader margin (60% vs. 30%) and lower overhead than Retail, but its far lower penetration (10% vs. 40%) more than offsets that advantage, making Retail the more profitable channel overall.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "segment-revenue-potential",
+   "question": "What is the 3-year revenue potential of each reader segment?",
+   "givens": [
+    "E-book price = $10, same margin as tablets",
+    "Super Readers: 15 books/year, $200 tablet WTP, 8M population",
+    "Occasional Readers: 10 books/year, $125 tablet WTP, 20M population",
+    "Rare Readers: 5 books/year, $175 tablet WTP, 10M population",
+    "Assume immediate sale of one tablet per person, ignore time value of money and purchase probability"
+   ],
+   "steps": [
+    "SR = [(15 x $10 x 3) + $200] x 8M = [$450 + $200] x 8M = $650 x 8M = $5.2B",
+    "OR = [(10 x $10 x 3) + $125] x 20M = [$300 + $125] x 20M = $425 x 20M = $8.5B",
+    "RR = [(5 x $10 x 3) + $175] x 10M = [$150 + $175] x 10M = $325 x 10M = $3.25B"
+   ],
+   "answer": "Occasional Readers has the highest 3-year revenue potential at $8.5B (vs. $5.2B for Super Readers and $3.25B for Rare Readers).",
+   "answer_value": 8500000000,
+   "unit": "$ (Occasional Readers 3-year revenue potential)",
+   "verified": true
+  },
+  {
+   "id": "retail-channel-profit",
+   "question": "What is the estimated 1-year profit from selling through the Retail channel, targeting Occasional Readers at a $100 e-reader price?",
+   "givens": [
+    "Occasional Reader market = 20M people",
+    "Retail: 50% reach, 40% penetration, 50% e-book margin, 30% e-reader margin, $20M overhead",
+    "10 books/year at $10/book; e-reader price $100"
+   ],
+   "steps": [
+    "Actual customers reached = 20M x 50% x 40% = 4M",
+    "Per-customer contribution = (10 x $10 x 50%) + ($100 x 30%) = $50 + $30 = $80",
+    "Gross profit = $80 x 4M = $320M",
+    "Net profit = $320M - $20M overhead = $300M"
+   ],
+   "answer": "$300M net profit via the Retail channel.",
+   "answer_value": 300000000,
+   "unit": "$/year",
+   "verified": true
+  },
+  {
+   "id": "internet-channel-profit",
+   "question": "What is the estimated 1-year profit from selling through the Internet channel, targeting Occasional Readers at a $100 e-reader price?",
+   "givens": [
+    "Occasional Reader market = 20M people",
+    "Internet: 50% reach, 10% penetration, 50% e-book margin, 60% e-reader margin, $10M overhead",
+    "10 books/year at $10/book; e-reader price $100"
+   ],
+   "steps": [
+    "Actual customers reached = 20M x 50% x 10% = 1M",
+    "Per-customer contribution = (10 x $10 x 50%) + ($100 x 60%) = $50 + $60 = $110",
+    "Gross profit = $110 x 1M = $110M",
+    "Net profit = $110M - $10M overhead = $100M"
+   ],
+   "answer": "$100M net profit via the Internet channel.",
+   "answer_value": 100000000,
+   "unit": "$/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Overall, DigiBooks should launch the e-book reader for the Occasional Reader segment through the Retail sales channel, expecting to earn a $300MM annual return. Other items to consider: what advertising mechanisms to use in this launch, whether to set up a manufacturing facility in the country or source from current manufacturing facilities, and whether there are any prospects of competitors entering the market.",
+ "what_great_looks_like": [
+  "Builds a marketing-mix-appropriate structure rather than a generic profitability framework",
+  "Correctly combines recurring book revenue with one-time tablet revenue per person before scaling by segment population",
+  "Applies reach and penetration together (not just one or the other) to size each channel's actual customer base",
+  "Nets overhead/upfront investment against gross contribution to reach true channel profit",
+  "Notices Time Value of Money and probability-of-purchase/penetration are simplified away in Exhibit A, and flags this as a limitation",
+  "Details additional marketing-strategy elements for the launch (advertising, manufacturing sourcing, competitive entry risk)"
+ ],
+ "common_pitfalls": [
+  "Picking the segment with the highest willingness-to-pay or book consumption per person instead of highest total revenue potential",
+  "Forgetting to multiply by both reach and penetration when sizing each channel's actual customer base",
+  "Comparing channels on gross contribution only, without subtracting each channel's overhead investment",
+  "Letting the qualitative pros/cons from Part 3 (e.g., 'Internet has higher margin') drive the channel choice without running the numbers, missing that Retail actually wins on total profit"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The book's printed Internet profit formula shows '(10M People x 10% Penetration)' rather than spelling out the 20M x 50% reach step explicitly (as it does for Retail); this extraction makes that reach x penetration derivation explicit for consistency, without changing the book's final $100M answer.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "common_pitfalls"
+  ]
+ }
+}

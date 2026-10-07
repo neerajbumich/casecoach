@@ -1,0 +1,457 @@
+{
+ "id": "ross-2025-midwest-hospital",
+ "title": "Midwest Hospital",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  129,
+  140
+ ],
+ "variant_group_id": "ross-2025-midwest-hospital",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Turnaround"
+ ],
+ "case_type_source_label": "Healthcare | Profitability",
+ "industry": "healthcare-providers",
+ "sub_industry": "hospitals",
+ "industry_source_label": "Healthcare",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 3, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "marginal-cost",
+  "breakeven",
+  "patient-mix",
+  "competitive-benchmarking",
+  "fixed-vs-variable-cost",
+  "healthcare-profitability"
+ ],
+ "concepts_tested": [
+  "gross margin vs. net (fully-allocated) profit",
+  "marginal/contribution-margin decision-making",
+  "breakeven volume",
+  "competitive benchmarking"
+ ],
+ "prompt": "Midwest Hospital is a research-based hospital and takes pride in its joint replacement surgery department. Recently Midwest Hospital did a P&L analysis for all departments and found that the joint replacement surgery department is providing losses. The CEO has asked us to help out.",
+ "clarifying_info": [
+  {
+   "question_topic": "Financial targets",
+   "answer": "There are no financial targets."
+  },
+  {
+   "question_topic": "Scope of the case",
+   "answer": "Focus of this case is only on joint replacement surgery."
+  },
+  {
+   "question_topic": "Exhibit release",
+   "answer": "Exhibits are given only when the candidate asks for the relevant data; Exhibits 1 and 2 should be made available ahead of Question 1 and 2."
+  }
+ ],
+ "interviewer_notes": "This is a turnaround case: a loss-making department within a hospital. It requires understanding customer (payer) mix and competitive benchmarking. Strong candidates should identify competitors' competitive advantage and understand the difference between gross profit (marginal/contribution) and fully-allocated net profit to decide the way forward. The interviewer should take the lead near the start of the case (interviewer-led).",
+ "suggested_framework": {
+  "summary": "Break down the joint replacement department's profitability into revenue, cost, competition, and customer drivers.",
+  "tree": {
+   "label": "Midwest Hospital Joint Replacement Turnaround",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Number of surgeries"
+      },
+      {
+       "label": "Complexity of surgery"
+      },
+      {
+       "label": "Patient mix"
+      },
+      {
+       "label": "Price"
+      },
+      {
+       "label": "Other charges (bed, medicines)"
+      },
+      {
+       "label": "Post-surgery visits/medicines"
+      }
+     ]
+    },
+    {
+     "label": "Cost",
+     "children": [
+      {
+       "label": "Fixed costs",
+       "children": [
+        {
+         "label": "Hospital"
+        },
+        {
+         "label": "Doctors"
+        },
+        {
+         "label": "Equipment"
+        },
+        {
+         "label": "Insurance"
+        },
+        {
+         "label": "License"
+        }
+       ]
+      },
+      {
+       "label": "Variable costs",
+       "children": [
+        {
+         "label": "Visiting doctors/surgeons"
+        },
+        {
+         "label": "Government regulation"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Competition",
+     "children": [
+      {
+       "label": "Price"
+      },
+      {
+       "label": "Patient mix"
+      },
+      {
+       "label": "Better facilities/equipment"
+      }
+     ]
+    },
+    {
+     "label": "Customers",
+     "children": [
+      {
+       "label": "Age group"
+      },
+      {
+       "label": "Paying with insurance"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you think about why the joint replacement department is losing money and what to do about it?",
+   "expected_answer": "Candidate lays out a framework covering revenue drivers (volume, complexity, patient mix, price), cost drivers (fixed and variable), competitive positioning, and customer segmentation.",
+   "good_answer_signals": [
+    "separates fixed and variable costs early",
+    "raises patient/payer mix as a likely driver of the loss"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Would it be advisable to not cater to Medicare patients (assuming no backlash)? Show Exhibit 1 and 2.",
+   "release_when": "When candidate asks for patient mix and department financial data",
+   "info_to_release": "Exhibit 1 (Patient Mix): Commercial 100 surgeries at $40,000 list/$40,000 invoiced; Insurance 300 surgeries at $40,000 list/$20,000 invoiced; Medicare 600 surgeries at $40,000 list/$15,000 invoiced. Exhibit 2 (Joint Replacement Department P&L): Revenue $19M; Variable Cost = Physician $5M + Materials/Others $5M + $4M ($14M total... actually $5M+$5M+$4M=$14M) ; Fixed Cost = Facilities $3.5M + Others $3.5M ($7M total); Total Costs $21M; Profit ($2M).",
+   "exhibit_ids": [
+    "ex1",
+    "ex2"
+   ],
+   "expected_answer": "On a fully cost-allocated basis, Medicare patients are unprofitable, but they still pay $1k above the variable/marginal cost per surgery, which helps cover fixed costs. Total cost/surgery = $21M/1000 = $21,000; marginal (variable) cost/surgery = $14M/1000 = $14,000; revenue per Medicare patient = $15,000. Since $15,000 > $14,000 marginal cost, it is not recommended to stop conducting surgeries for Medicare patients.",
+   "good_answer_signals": [
+    "distinguishes marginal cost from fully-allocated cost",
+    "recognizes Medicare revenue still exceeds variable cost",
+    "concludes Medicare patients should be retained despite being 'unprofitable' on paper"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What is the number of surgeries that Midwest needs to conduct in a year to breakeven?",
+   "info_to_release": "Average revenue per surgery = $19,000; average variable cost per surgery = $14,000; fixed costs = $7M.",
+   "expected_answer": "Breakeven = Fixed Costs / (Revenue - Variable Cost per surgery) = $7M / ($19,000 - $14,000) = 1,400 surgeries. Assuming the same payer mix proportions as Exhibit 1 (10% Commercial, 30% Insurance, 60% Medicare), this requires 140 Commercial, 420 Insurance, and 840 Medicare patients.",
+   "good_answer_signals": [
+    "correctly computes contribution margin per surgery before dividing into fixed costs",
+    "applies the Exhibit 1 payer-mix percentages to the breakeven total"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "What is Competitor D able to [do] to stay profitable despite having fewer patients and an unfavorable patient mix? Show Exhibit 3 (Competitive Benchmark).",
+   "release_when": "When candidate asks for competitive data",
+   "info_to_release": "Exhibit 3 (Competitive Benchmark): Midwest Hospital - 1000 surgeries, 10% Commercial/30% HMO/60% Medicare, Not profitable. Comp A - 1200 surgeries, 20%/20%/40%, Profitable. Comp B - 800 surgeries, 30%/20%/50%, Profitable. Comp C - 900 surgeries, 10%/20%/70%, Profitable. Comp D - 1000 surgeries, 5%/25%/75%, Profitable.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Competitor D might have a lower cost structure or was able to negotiate better pricing from payers, since it has an even less favorable patient mix (75% Medicare, only 5% Commercial) than Midwest yet remains profitable.",
+   "good_answer_signals": [
+    "notices Comp D's patient mix is even worse than Midwest's yet it is profitable",
+    "hypothesizes cost structure or payer negotiation rather than assuming mix is the only lever"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "Evaluate potential risks to increasing the number of surgeries.",
+   "expected_answer": "There might not be enough market demand, so increasing surgeries would mean stealing market share from competitors. Competitors might respond by reducing price and entering a price war. Quality of surgery may be reduced, impacting reputation. Surgeons may resent a higher workload.",
+   "good_answer_signals": [
+    "identifies competitive response (price war) as a key risk",
+    "raises internal/operational risks (surgeon workload, quality) not just market risk"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the CEO?",
+   "expected_answer": "Increase the total number of patients treated, and change the patient mix to have a higher proportion of commercial and insured patients. See if the hospital can negotiate with insurers and Medicare for higher reimbursement. Risks include those raised in brainstorming (demand limits, price war, quality/workload issues). Next steps: analyze scope for cost reduction and price increases starting with competitive benchmarking, analyze profitability of post-care services, and start conversations with reimbursement providers. Excellent candidates note Competitor D has a similarly unfavorable mix yet is profitable, explain why Medicare patients should not be eliminated, and raise that the joint replacement department may be a loss leader providing synergies with other department offerings.",
+   "good_answer_signals": [
+    "gives a clear top-line recommendation (grow volume + shift mix + renegotiate reimbursement)",
+    "flags risks and concrete next steps",
+    "considers the loss-leader/cross-department synergy angle"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Patient Mix",
+   "page": 133,
+   "kind": "table",
+   "description": "Table of joint replacement surgery patient mix by payer type, showing number of surgeries, list price, and invoiced price.",
+   "data": {
+    "columns": [
+     "Payer Type",
+     "# Surgeries",
+     "List Price",
+     "Invoiced Price"
+    ],
+    "rows": [
+     [
+      "Commercial (Enterprises)",
+      100,
+      40000,
+      40000
+     ],
+     [
+      "Insurance",
+      300,
+      40000,
+      20000
+     ],
+     [
+      "Medicare (Government)",
+      600,
+      40000,
+      15000
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-midwest-hospital/p133.webp",
+   "key_insight": "Medicare makes up 60% of surgery volume but is invoiced at only $15,000 vs. a $40,000 list price, the steepest discount of the three payer types.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Joint Replacement Department P&L",
+   "page": 134,
+   "kind": "table",
+   "description": "Department-level P&L showing revenue, variable costs (physician, materials/others), fixed costs (facilities, others), total costs, and profit.",
+   "data": {
+    "columns": [
+     "Line Item",
+     "$M"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      19
+     ],
+     [
+      "Variable Cost - Physician",
+      5
+     ],
+     [
+      "Variable Cost - Materials/Others",
+      5
+     ],
+     [
+      "Variable Cost - (third component)",
+      4
+     ],
+     [
+      "Fixed Cost - Facilities",
+      3.5
+     ],
+     [
+      "Fixed Cost - Others",
+      3.5
+     ],
+     [
+      "Total Costs",
+      21
+     ],
+     [
+      "Profit",
+      -2
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-midwest-hospital/p134.webp",
+   "key_insight": "The department shows a ($2M) loss on a fully-allocated basis ($19M revenue vs. $21M total cost), but variable costs are only $14M, so the department covers its variable costs and contributes toward fixed costs.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Competitive Benchmark",
+   "page": 137,
+   "kind": "table",
+   "description": "Benchmark table comparing Midwest Hospital to four competitors on surgery volume, payer mix (Commercial/HMO/Medicare), and profitability status.",
+   "data": {
+    "columns": [
+     "Hospital",
+     "Surgeries",
+     "Commercial",
+     "HMO",
+     "Medicare",
+     "Profitable"
+    ],
+    "rows": [
+     [
+      "Midwest Hospital",
+      1000,
+      "10%",
+      "30%",
+      "60%",
+      "No"
+     ],
+     [
+      "Comp A",
+      1200,
+      "20%",
+      "20%",
+      "40%",
+      "Yes"
+     ],
+     [
+      "Comp B",
+      800,
+      "30%",
+      "20%",
+      "50%",
+      "Yes"
+     ],
+     [
+      "Comp C",
+      900,
+      "10%",
+      "20%",
+      "70%",
+      "Yes"
+     ],
+     [
+      "Comp D",
+      1000,
+      "5%",
+      "25%",
+      "75%",
+      "Yes"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-midwest-hospital/p137.webp",
+   "key_insight": "Comp D has an even less favorable payer mix than Midwest (75% Medicare, only 5% Commercial) yet remains profitable, implying its edge comes from cost structure or payer pricing negotiation rather than patient mix alone.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Should Midwest stop serving Medicare patients? Compare Medicare revenue per surgery to marginal and fully-allocated cost per surgery.",
+   "givens": [
+    "Total Costs = $21M",
+    "Variable (marginal) Costs = $5M + $5M + $4M = $14M",
+    "Total surgeries = 1000",
+    "Medicare invoiced price = $15,000/surgery"
+   ],
+   "steps": [
+    "Total cost per surgery = $21M / 1000 = $21,000",
+    "Marginal (variable) cost per surgery = $14M / 1000 = $14,000",
+    "Medicare revenue per surgery = $15,000, which exceeds the $14,000 marginal cost by $1,000"
+   ],
+   "answer": "Medicare patients pay $1,000 above marginal cost per surgery, so they should continue to be served despite being unprofitable on a fully-allocated basis.",
+   "answer_value": 1000,
+   "unit": "$ contribution per Medicare surgery above marginal cost",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the breakeven number of surgeries per year, and how does that split across payer types using the current mix?",
+   "givens": [
+    "Average revenue per surgery = $19,000 ($19M/1000)",
+    "Average variable cost per surgery = $14,000",
+    "Fixed costs = $7M ($3.5M + $3.5M)",
+    "Payer mix (Exhibit 1): 10% Commercial, 30% Insurance, 60% Medicare"
+   ],
+   "steps": [
+    "Contribution margin per surgery = $19,000 - $14,000 = $5,000",
+    "Breakeven surgeries = Fixed Costs / Contribution margin = $7M / $5,000 = 1,400 surgeries",
+    "Commercial = 10% x 1,400 = 140 surgeries",
+    "Insurance = 30% x 1,400 = 420 surgeries",
+    "Medicare = 60% x 1,400 = 840 surgeries"
+   ],
+   "answer": "1,400 total surgeries needed to break even: 140 Commercial, 420 Insurance, 840 Medicare.",
+   "answer_value": 1400,
+   "unit": "surgeries/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Increase the total number of patients treated to cover fixed costs, and change the patient mix to have a higher proportion of commercial and insured customers. See if the hospital can negotiate with insurers and Medicare for higher reimbursement. Do not stop serving Medicare patients — they still contribute $1,000 per surgery above marginal cost. Key risks include limited market demand (share must be taken from competitors), a potential price war if competitors respond, quality/reputation impact, and surgeon workload resentment. Next steps: analyze scope for cost reduction and price increases starting from competitive benchmarking (e.g., how Comp D stays profitable), analyze the profitability of post-care services, and start conversations with reimbursement providers.",
+ "what_great_looks_like": [
+  "Distinguishes marginal/contribution-margin cost from fully-allocated cost when deciding whether to drop Medicare patients",
+  "Correctly computes the breakeven surgery volume and translates it into a payer-mix breakdown",
+  "Notices that Competitor D has an even worse payer mix than Midwest yet is profitable, pointing to cost structure or negotiated pricing rather than mix alone",
+  "Raises the idea that the joint replacement department may be a strategic loss leader with cross-department synergies",
+  "Connects the risk brainstorm (price war, demand limits) back to the volume-growth recommendation"
+ ],
+ "common_pitfalls": [
+  "Recommending dropping Medicare patients based on the fully-allocated ($2M) loss without checking marginal cost",
+  "Computing breakeven using total cost per surgery instead of variable cost per surgery",
+  "Assuming patient mix alone explains Competitor D's profitability without considering cost structure or pricing negotiation",
+  "Recommending volume growth without acknowledging the competitive/price-war risk"
+ ],
+ "follow_ups": [
+  "How would you quantify the potential upside from renegotiating Medicare/insurance reimbursement rates?",
+  "What would you look at first if you wanted to reduce the department's cost structure to match Competitor D?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[1].data (Variable Cost third line item label not printed — value $4M shown but no line label distinguishing it from Physician/Materials)"
+  ],
+  "math_verified": true,
+  "notes": "Exhibit numbering is inconsistent in the book: the interviewer-info exhibit summary (page 130) lists 'Exhibit 3: Competitive Benchmark', but the rendered slide header on page 137 itself is mislabeled 'Exhibit 2' (duplicating the P&L exhibit's number from page 134). This extraction follows the exhibit summary and Question 3's own reference to 'Exhibit 3' and assigns the competitive benchmark table id ex3. Also, Exhibit 2's Variable Cost section lists three dollar figures ($5M, $5M, $4M) against only two labels ('Physician', 'Materials Others'), so the third line item's label is not legible in the source and is transcribed as an unlabeled component summing to the stated $14M variable cost total.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "concepts_tested"
+  ]
+ }
+}

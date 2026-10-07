@@ -1,0 +1,331 @@
+{
+ "id": "johnson-2022-surgical-robot",
+ "title": "Surgical Robot",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  50,
+  57
+ ],
+ "case_type": [
+  "Other",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "M&A",
+ "industry": "healthcare-providers",
+ "sub_industry": "hospitals",
+ "industry_source_label": "Healthcare",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Simple; Quant: Medium; Analysis: Low",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "capital-investment",
+  "payback",
+  "labor-savings",
+  "technology-adoption",
+  "equipment-life",
+  "stakeholder-preferences",
+  "competitive-risk"
+ ],
+ "prompt": "Your client is a privately owned hospital that offers high-tech surgical procedures. They would like to start using robots in their surgeries. Recently, a new surgical robot, Robot X, was developed and has now been on the market for six months. The robot is highly precise and drastically reduces human work in surgeries. Should your client acquire Robot X?",
+ "clarifying_info": [
+  {
+   "question_topic": "Technology horizon",
+   "answer": "Surgical robots generally have a technology replacement cycle of approximately 10 years. The exhibit gives model-specific durability."
+  },
+  {
+   "question_topic": "Hospital business",
+   "answer": "The hospital specializes in minimally invasive surgeries but has never employed a full robot."
+  },
+  {
+   "question_topic": "Surgical staff",
+   "answer": "Among staff authorized to perform surgery, 70% are technicians with bachelor's degrees and 30% are medical professionals with M.D. degrees."
+  },
+  {
+   "question_topic": "Financial benefit",
+   "answer": "Buying a robot allows the hospital to hire 5 fewer staff technicians per year. Each technician earns $60,000 annually. The hospital generates an extra $300 per surgery performed by a robot."
+  },
+  {
+   "question_topic": "Alternative products",
+   "answer": "There are only a few surgical robots on the market; Da Vinci is the market leader."
+  }
+ ],
+ "interviewer_notes": "This is a candidate-led equipment-investment case using simple payback, which the book calls breakeven. Provide Exhibit 1 when the candidate asks about costs and guide them toward payback if necessary. The source recommends not buying Robot X; it permits a purchase argument if supported by strong reasoning. Ask about alternatives to elicit a Da Vinci comparison, then broader stakeholder and competitive factors. Use the model-specific 10-year Robot X and 8-year Da Vinci durability in the exhibit rather than applying the approximate 10-year industry replacement cycle to both. The source's equations treat 5 avoided technician salaries as a constant $300,000 annual saving, not an additional cumulative 5-person reduction every year. If time permits, push for more brainstorm ideas and how the candidate would implement them.",
+ "suggested_framework": {
+  "summary": "Compare investment payback with each robot's useful life, then assess technical capability and adoption risks.",
+  "tree": {
+   "label": "Acquiring Robot X",
+   "children": [
+    {
+     "label": "Financial considerations",
+     "children": [
+      {
+       "label": "Potential gains and costs"
+      },
+      {
+       "label": "Breakeven/payback"
+      }
+     ]
+    },
+    {
+     "label": "Technical capabilities",
+     "children": [
+      {
+       "label": "Durability and ease of use"
+      },
+      {
+       "label": "Surgical capabilities"
+      },
+      {
+       "label": "Robot X versus Da Vinci"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Error rate"
+      },
+      {
+       "label": "Human capital"
+      },
+      {
+       "label": "Security breaches"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you decide whether to acquire Robot X?",
+   "release_when": "Read the prompt; provide clarifying facts only when requested.",
+   "info_to_release": "Robot X has been on the market for 6 months. On request: the hospital specializes in minimally invasive surgery and has no full robot; the approximate technology replacement cycle is 10 years. Surgical staff are 70% technicians and 30% medical professionals. A robot allows 5 fewer technicians to be hired per year at $60,000 annual salary each and generates $300 extra per robot surgery. Da Vinci leads a market with few alternatives.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess purchase and operating costs against labor savings and additional surgical income, compare payback with useful life, and evaluate durability, ease of use, surgical capabilities, errors, workforce implications and security. Investigate competing robots rather than treating Robot X as the only option.",
+   "good_answer_signals": [
+    "Requests a relevant investment horizon and alternatives.",
+    "Connects financial and technical considerations."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What is Robot X's payback period, and is the investment attractive?",
+   "release_when": "When the candidate asks about costs, hand over Exhibit 1 and encourage payback analysis if not proposed.",
+   "info_to_release": "Robot X costs $3.2 million upfront and $200,000 annually to maintain, provides 200 additional surgeries per year and lasts 10 years. The robot has 8 arms, is cleaned after every use, supports remote operations, measures 5 × 4 × 5 feet and has 98% precision. Apply the $300 extra per surgery and 5 avoided $60,000 salaries annually.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Annual labor savings are $300,000 and additional surgery income is $60,000, totaling $360,000. After maintenance, annual net benefit is $160,000. Payback is $3.2 million / $160,000 = 20 years, twice Robot X's 10-year durability. Reject Robot X on the source's simple-payback basis.",
+   "good_answer_signals": [
+    "Subtracts annual maintenance before dividing investment by annual benefits.",
+    "Compares payback to the model's actual life.",
+    "Does not treat avoided hiring as a growing staff reduction each year."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What other options could improve services? Evaluate Da Vinci.",
+   "release_when": "After the Robot X result, use the alternative column in Exhibit 1.",
+   "info_to_release": "Da Vinci costs $1.5 million upfront and $100,000 annually to maintain, provides 50 additional surgeries annually and lasts 8 years. It has 4 arms, is cleaned after each use, supports remote operations, measures 6 × 7 × 6 feet and has 95% precision. Apply the same $300 extra per surgery and 5 avoided $60,000 salaries.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Annual labor savings are $300,000 and additional surgery income $15,000, totaling $315,000. Subtract $100,000 maintenance to obtain $215,000 annual net benefit. Payback is $1.5 million / $215,000 = 6.9767 years, approximately 7. This is shorter than its 8-year life, but only narrowly, so the source also recommends against Da Vinci. That rejection is a risk judgment, not a claim that Da Vinci fails simple lifetime payback.",
+   "good_answer_signals": [
+    "Uses the alternative's 8-year life rather than the approximate 10-year industry horizon.",
+    "Recognizes the difference between passing nominal payback and having a comfortable investment cushion."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Apart from profitability, what factors influence the decision to invest in surgical robotics?",
+   "release_when": "After both payback calculations.",
+   "info_to_release": "Consider operators and patients, governance and competition.",
+   "exhibit_ids": [],
+   "expected_answer": "Consider operator ease of use and patient preferences for robotic versus human surgery. Examine board membership, ownership shares, voting and decision processes. Determine whether competitors are adopting robots and whether adoption or non-adoption affects competitive advantage. Relate these preferences to each robot's capabilities and risks.",
+   "good_answer_signals": [
+    "Structures the answer around stakeholders.",
+    "Explains how preferences would affect adoption rather than assuming higher precision alone settles the decision."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the hospital do?",
+   "release_when": "After the financial and non-financial discussion.",
+   "info_to_release": "No additional financial hurdles, discount rate or quantified strategic benefits are supplied.",
+   "exhibit_ids": [],
+   "expected_answer": "Do not buy Robot X: its 20-year payback exceeds its 10-year life. The book also advises against Da Vinci because roughly 7-year payback leaves little room within its 8-year durability, although a well-supported alternative recommendation can be considered. Competitors adopting robots create a strategic risk. Explore other service improvements to preserve competitive advantage, beginning with improvements to existing technology and equipment.",
+   "good_answer_signals": [
+    "States a clear answer supported by both payback and useful life.",
+    "Distinguishes the decisive Robot X rejection from the more judgment-dependent Da Vinci decision.",
+    "Includes competitive risk and a practical next step."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Features of Surgical Robots",
+   "page": 53,
+   "kind": "table",
+   "description": "Candidate-facing comparison of Robot X and Da Vinci technical features, incremental surgery capacity, maintenance and purchase price.",
+   "data": {
+    "columns": [
+     "Category",
+     "Robot X",
+     "Da Vinci Robot"
+    ],
+    "rows": [
+     [
+      "Number of arms",
+      8,
+      4
+     ],
+     [
+      "Cleaning",
+      "After every use",
+      "After every use"
+     ],
+     [
+      "Average durability (years)",
+      10,
+      8
+     ],
+     [
+      "Additional surgeries/year",
+      200,
+      50
+     ],
+     [
+      "Remote operations",
+      "Yes",
+      "Yes"
+     ],
+     [
+      "Size: length × width × height (feet)",
+      "5 × 4 × 5",
+      "6 × 7 × 6"
+     ],
+     [
+      "Precision (%)",
+      98,
+      95
+     ],
+     [
+      "Maintenance (USD/year)",
+      200000,
+      100000
+     ],
+     [
+      "Price (USD)",
+      3200000,
+      1500000
+     ]
+    ]
+   },
+   "image_path": "exhibits/johnson-2022-surgical-robot/p053.webp",
+   "image_has_answers": false,
+   "key_insight": "Robot X offers greater additional surgery capacity and higher precision but has much higher purchase and maintenance costs. Payback must be compared with model-specific durability.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How long would Robot X take to pay back?",
+   "givens": [
+    "5 avoided technicians at $60,000 annual salary",
+    "200 additional surgeries/year at $300 extra each",
+    "$200,000 annual maintenance",
+    "$3.2 million purchase price",
+    "10-year durability"
+   ],
+   "steps": [
+    "Labor savings = 5 × $60,000 = $300,000/year.",
+    "Surgery benefit = 200 × $300 = $60,000/year.",
+    "Gross annual benefit = $360,000.",
+    "Net annual benefit = $360,000 − $200,000 = $160,000.",
+    "Payback = $3,200,000 / $160,000 = 20 years, versus 10-year durability."
+   ],
+   "answer": "20 years, twice Robot X's useful life; reject on simple-payback grounds.",
+   "answer_value": 20,
+   "unit": "years",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How long would Da Vinci take to pay back?",
+   "givens": [
+    "5 avoided technicians at $60,000 annually",
+    "50 additional surgeries/year at $300 extra each",
+    "$100,000 annual maintenance",
+    "$1.5 million purchase price",
+    "8-year durability"
+   ],
+   "steps": [
+    "Labor savings = $300,000/year.",
+    "Surgery benefit = 50 × $300 = $15,000/year.",
+    "Gross annual benefit = $315,000.",
+    "Net annual benefit = $315,000 − $100,000 = $215,000.",
+    "Payback = $1,500,000 / $215,000 = 6.976744 years, approximately 7 years."
+   ],
+   "answer": "Approximately 7 years, only narrowly below Da Vinci's 8-year durability. The source recommends against investment because the cushion is small.",
+   "answer_value": 6.976744186,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Do not acquire Robot X: $160,000 annual net benefit implies 20-year payback against a 10-year useful life. Da Vinci provides $215,000 annual net benefit and approximately 7-year payback within an 8-year life; the book also rejects it because the cushion is narrow, though this is a judgment rather than a failed arithmetic threshold. Monitor competitors' adoption and protect service quality through other improvements, starting with existing equipment and technology. Consider a different purchase recommendation only with a well-supported strategic rationale.",
+ "what_great_looks_like": [
+  "Proposes payback without prompting and deducts annual maintenance.",
+  "Compares each robot with its own useful life.",
+  "Keeps the five-technician saving constant as in the source equations.",
+  "Explores operator, patient, governance and competitive factors.",
+  "Recognizes that Da Vinci's rejection is less mathematically decisive than Robot X's."
+ ],
+ "common_pitfalls": [
+  "Dividing purchase price by gross benefit before maintenance.",
+  "Using 10 years as Da Vinci's life despite the 8-year exhibit input.",
+  "Compounding five additional avoided salaries every year.",
+  "Claiming Da Vinci cannot pay back within its useful life.",
+  "Equating the book's M&A label with buying a company rather than equipment."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup verdict NEW. All pages 50–57 read and visually inspected. Image-only candidate exhibit page 53 was transcribed visually; no guide or answer page is exposed. Both payback calculations match the source, including its approximately 7-year Da Vinci rounding. The approximately 10-year industry replacement cycle is distinct from Da Vinci's explicit 8-year model durability. 'Hire 5 fewer staff technicians per year' is interpreted using the source's constant $300,000 annual savings equations, not a cumulative staffing reduction. Da Vinci passes nominal lifetime payback; the book's no-go is a qualitative risk judgment, retained without inventing a hurdle rate. Source M&A is retained as a label but mapped to Other / Cost Reduction/Operations because this is an equipment investment, not a corporate acquisition. Client_type is inferred from the privately owned hospital context. Overall Simple is the lowest category of a three-level scale, normalized in code to 2. No arithmetic errors found. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type taxonomy mapping",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "synthesis distinction between financial threshold and judgment",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

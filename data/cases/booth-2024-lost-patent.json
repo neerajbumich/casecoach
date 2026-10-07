@@ -1,0 +1,245 @@
+{
+ "id": "booth-2024-lost-patent",
+ "title": "Lost Patent",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  219,
+  223
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "Competitive Response"
+ ],
+ "case_type_source_label": "Revenue",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Pharmaceutical / Healthcare",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Kearney",
+  "Round 2"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2, Quant 1, Creativity 3 (1-3 scale); Quant Level - LIGHT",
+ "quant_intensity": "L",
+ "estimated_minutes": 25,
+ "tags": [
+  "patent-expiry",
+  "revenue-growth",
+  "salesforce",
+  "physician-targeting",
+  "generic-entry",
+  "advertising",
+  "compensation"
+ ],
+ "concepts_tested": [
+  "structured brainstorming",
+  "vague information handling",
+  "pre- and post-patent strategy",
+  "salesforce economics",
+  "competitive response"
+ ],
+ "fit_question": "Tell me about a time you made a decision based on incomplete information and how you approached it. Alternatively, explain how you would become involved in the firm's culture and initiatives.",
+ "prompt": "Your team has been working with a major drug company on its future strategy. Its patent on a blockbuster drug, Zewal, will expire in less than a year. Zewal currently generates half of company revenue, while ten other drugs generate the other half. The company's next blockbuster is more than five years from readiness, and mergers are not possible. How can we help the company?",
+ "clarifying_info": [
+  {
+   "question_topic": "Company efficiency",
+   "answer": "The company is efficient and well run. It has cut costs for the last several years and is competitive with industry cost standards."
+  },
+  {
+   "question_topic": "Mergers and acquisitions",
+   "answer": "Mergers are not possible."
+  },
+  {
+   "question_topic": "Strategic objective",
+   "answer": "The company needs to protect revenue before and after Zewal's patent expiry while bridging a pipeline gap of more than five years."
+  }
+ ],
+ "interviewer_notes": "The prompt is deliberately vague. The candidate should clarify what helping the company means, quickly recognize that additional cost reduction is unlikely, and focus on revenue. Probe customer, competition, and company capabilities. Redirect acquisition ideas because mergers are ruled out. This is an open-ended business-judgment case with no single right answer; strong performance weighs the incremental revenue from commercial changes against their incremental costs.",
+ "suggested_framework": {
+  "summary": "Maximize Zewal revenue before generic entry, defend the franchise after expiry, grow the other ten drugs, and align commercial capabilities with the transition.",
+  "tree": {
+   "label": "Bridge the Zewal patent cliff",
+   "children": [
+    {
+     "label": "Drug market",
+     "children": [
+      {
+       "label": "Disease incidence, end users, and Zewal effectiveness"
+      },
+      {
+       "label": "Competitor regimens and future generics"
+      },
+      {
+       "label": "Doctors, HMOs, hospitals, pharmacies, and patients"
+      }
+     ]
+    },
+    {
+     "label": "Revenue levers",
+     "children": [
+      {
+       "label": "Increase Zewal volume before and after expiry"
+      },
+      {
+       "label": "Grow the other ten drugs"
+      },
+      {
+       "label": "Launch an own generic or patent a dosage form"
+      }
+     ]
+    },
+    {
+     "label": "Commercial execution",
+     "children": [
+      {
+       "label": "Salesforce size, coverage, targeting, and compensation"
+      },
+      {
+       "label": "Samples, advertising, and direct-to-consumer marketing"
+      },
+      {
+       "label": "Expansion only while marginal revenue exceeds marginal cost"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you structure the company's response to the Zewal patent expiry?",
+   "info_to_release": "If the candidate focuses on cost cutting, explain that the company has cut costs for several years and is already competitive with industry standards.",
+   "expected_answer": "Focus on revenue rather than another broad cost program. Separate actions into maximizing Zewal before expiry, defending or extending its franchise after expiry, increasing sales of the other ten drugs, and improving salesforce and marketing effectiveness. Evaluate customers, competitors, substitutes, drug effectiveness, channels, and the incremental economics of each action.",
+   "good_answer_signals": [
+    "Clarifies the objective behind the vague prompt",
+    "Recognizes the patent cliff is mainly a revenue problem",
+    "Respects the constraint that mergers are unavailable"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What actions could increase sales of Zewal and the company's other drugs?",
+   "info_to_release": "The salesforce mainly sells to doctors. Twenty percent of doctors generate 80% of prescriptions, and the company maintains contact with major HMOs.",
+   "expected_answer": "Prioritize high-prescribing doctors, deepen HMO and hospital relationships, increase samples, expand coverage networks and pharmacy access, and improve targeted advertising. Before expiry, maximize Zewal pull; after expiry, consider an own generic, a patent on a specific dosage size, direct-to-consumer marketing, and cross-selling the other ten drugs.",
+   "good_answer_signals": [
+    "Uses the 20/80 prescribing concentration for targeting",
+    "Generates ideas for both before and after expiry",
+    "Includes the rest of the portfolio rather than only Zewal"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "How should the company decide how many salespeople to add?",
+   "info_to_release": "The dedicated salesforce has 150 people, each covering 100 doctors. The industry standard is one salesperson per 50 doctors. The rival's larger salesforce reaches 35% of US doctors, while the client reaches about 10%.",
+   "expected_answer": "Do not choose headcount from coverage benchmarks alone; add representatives until marginal revenue no longer exceeds marginal cost. The figures imply the client currently covers about 15,000 doctors. Holding reach constant but matching the one-per-50 standard would require 300 representatives, or 150 additions. Matching the rival's 35% reach at the same standard would imply roughly 1,050 representatives, or 900 additions, but that scale requires incremental revenue and cost data before approval.",
+   "good_answer_signals": [
+    "Uses marginal revenue versus marginal cost as the decision rule",
+    "Translates the coverage facts into useful scenarios",
+    "Does not automatically copy the rival's footprint"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How might the compensation structure affect sales during the patent transition?",
+   "info_to_release": "Salesperson compensation depends on the contribution margin of the drugs sold, and each salesperson carries a portfolio with varying margins. Zewal has the lowest contribution margin; historically strong customer pull meant it needed little sales push.",
+   "expected_answer": "The margin-based plan encourages representatives to favor higher-margin portfolio drugs and may underserve Zewal as the company tries to maximize its final protected year. The company could use temporary Zewal volume or account-penetration incentives, then shift incentives toward the other ten drugs as expiry approaches. Any lift must be compared with higher compensation and cannibalization costs.",
+   "good_answer_signals": [
+    "Identifies the incentive conflict created by Zewal's low margin",
+    "Designs a phased rather than permanent compensation change",
+    "Balances sales upside against program cost"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How should the company improve advertising given the competitive position?",
+   "info_to_release": "No single rival drug has Zewal's chemical composition, but doctors are trying a combination regimen from a competitor. After patent expiry, the client expects about six months before generic drug companies enter.",
+   "expected_answer": "Before expiry, emphasize Zewal's differentiated efficacy and simplicity versus a combination regimen, target high-prescribing doctors and patients, and support sampling and HMO access. Use the six-month generic window for continued branded sales and migration to a protected dosage or an own generic. Measure conversion, prescription lift, retention, and contribution after marketing spend.",
+   "good_answer_signals": [
+    "Builds messaging around the actual alternative regimen",
+    "Uses the six-month window explicitly",
+    "Proposes measurable targeted marketing rather than broad awareness spending"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the drug company do?",
+   "expected_answer": "In the final protected year, expand sales and marketing only where marginal revenue exceeds marginal cost, concentrate on the 20% of doctors producing 80% of prescriptions, improve advertising, sampling, and account coverage, and temporarily align incentives with Zewal. For the post-expiry period, pursue a protected dosage form, direct-to-consumer marketing, an own generic, and stronger selling of the other ten drugs. Analyze competitor capabilities and exclusive-supply opportunities with high-potential doctors and hospitals. Monitor commercial costs because generics may arrive early and expanded salesforce or incentives could destroy value.",
+   "good_answer_signals": [
+    "Separates immediate and post-expiry actions",
+    "Prioritizes rather than presenting an undifferentiated list",
+    "Includes risks, economics, and next steps"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What salesforce sizes are implied by the current coverage and industry staffing benchmark?",
+   "givens": [
+    "150 current representatives",
+    "100 doctors per current representative",
+    "Current reach is about 10% of US doctors",
+    "Industry standard is one representative per 50 doctors",
+    "Rival reaches 35% of US doctors"
+   ],
+   "steps": [
+    "Doctors currently covered = 150 x 100 = 15,000",
+    "Implied US doctor population = 15,000 / 10% = 150,000",
+    "Representatives for current reach at industry standard = 15,000 / 50 = 300, so 150 additions",
+    "Doctors at 35% reach = 150,000 x 35% = 52,500",
+    "Representatives for 35% reach at industry standard = 52,500 / 50 = 1,050, so 900 additions"
+   ],
+   "answer": "300 total representatives to maintain current reach at the industry ratio; 1,050 total to combine the industry ratio with 35% reach",
+   "answer_value": 300,
+   "unit": "sales representatives at current reach",
+   "verified": true
+  }
+ ],
+ "synthesis": "Treat the patent cliff as a revenue transition, not a cost-cutting exercise. Maximize Zewal's final protected year through targeted doctor coverage, samples, advertising, HMO access, and temporary incentives where marginal revenue exceeds marginal cost. Prepare the post-expiry bridge through a dosage patent, direct-to-consumer support, an own generic, and stronger sales of the other ten drugs. Validate competitor timing, account opportunities, and commercial economics; the chief risks are earlier generic entry and sales or incentive costs that exceed the revenue gained.",
+ "what_great_looks_like": [
+  "Quickly rules out generic cost reduction as the core answer",
+  "Creates distinct pre- and post-expiry plans",
+  "Uses doctor concentration and coverage data to prioritize effort",
+  "Applies marginal economics to salesforce growth",
+  "Handles incomplete information with explicit hypotheses and tests"
+ ],
+ "common_pitfalls": [
+  "Continuing to push cost cuts after learning the company is efficient",
+  "Suggesting an acquisition despite the prompt's constraint",
+  "Focusing only on Zewal and ignoring the other ten drugs",
+  "Matching competitor sales coverage without checking economics",
+  "Ignoring the six-month interval before generic entry"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The source provides no formal calculation answer. The salesforce scenarios are direct implications of the stated coverage and staffing facts and were independently recomputed; the book's decision rule remains marginal revenue greater than marginal cost. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type mapping",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "salesforce scenario math",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

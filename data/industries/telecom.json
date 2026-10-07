@@ -1,0 +1,124 @@
+{
+  "id": "telecom",
+  "name": "Telecom Carriers",
+  "group": "Tech & media",
+  "one_liner": "Wireless and broadband providers selling connectivity subscriptions, a mature, capital-heavy business built on network scale and subscriber retention.",
+  "how_it_makes_money": "Carriers earn recurring monthly service revenue from postpaid and prepaid wireless plans, home broadband, and business connectivity, plus equipment revenue from device sales often financed over installments. Growth levers include price increases, premium plan upgrades, bundling wireless with home internet, and fixed wireless access.",
+  "value_chain": [
+    "Spectrum licenses",
+    "Network build (towers, fiber, radios)",
+    "Network operations",
+    "Plans and bundles",
+    "Retail and digital distribution",
+    "Customer care and retention"
+  ],
+  "revenue_formula": [
+    "Service revenue = subscribers × ARPU (or ARPA) × months",
+    "Subscribers = prior subscribers + gross adds − churned subscribers",
+    "Broadband revenue = homes passed × penetration × ARPU"
+  ],
+  "cost_structure": [
+    "Network capex: 5G and fiber build-outs, often ~15-20% of revenue",
+    "Network operating costs: tower leases, backhaul, power, maintenance",
+    "Device costs: handsets sold near cost or subsidized through promotions",
+    "Customer acquisition and retention: marketing, dealer commissions, promotions",
+    "Spectrum: large upfront auction payments, amortized over time",
+    "Customer service and billing"
+  ],
+  "margins": "EBITDA margins are typically roughly 30-40% for scaled US carriers, but heavy capex and debt compress free cash flow. Scale, churn, network density, and pricing discipline drive the spread.",
+  "key_metrics": [
+    {
+      "name": "ARPU / ARPA",
+      "what": "Average revenue per user or account; the key measure of pricing and upsell success."
+    },
+    {
+      "name": "Churn",
+      "what": "Monthly share of subscribers leaving; low single-digit monthly churn is key to profitability."
+    },
+    {
+      "name": "Postpaid phone net adds",
+      "what": "Net new high-value subscribers; the most watched competitive scorecard each quarter."
+    },
+    {
+      "name": "Capex intensity",
+      "what": "Capital spend as a share of revenue; shows the ongoing cost of keeping the network competitive."
+    },
+    {
+      "name": "Broadband penetration",
+      "what": "Share of homes passed that subscribe; drives returns on fiber investment."
+    },
+    {
+      "name": "Free cash flow",
+      "what": "Cash left after capex; funds dividends and debt paydown in a mature industry."
+    }
+  ],
+  "trends": [
+    "Carriers pushing fiber and fixed wireless to converge mobile and home broadband bundles",
+    "Slowing subscriber growth shifting competition to price increases, premium plans, and switching incentives",
+    "Cable companies taking wireless share through MVNO offerings bundled with broadband",
+    "Monetizing 5G beyond phones through enterprise private networks and network slicing",
+    "Satellite-to-phone connectivity emerging as a coverage complement",
+    "Carriers selling or sharing tower and fiber assets to fund investment and reduce debt"
+  ],
+  "key_players": [
+    "Verizon",
+    "AT&T",
+    "T-Mobile",
+    "Comcast",
+    "Charter",
+    "Cox",
+    "Frontier",
+    "Vodafone",
+    "Deutsche Telekom",
+    "Reliance Jio"
+  ],
+  "case_angles": [
+    {
+      "question": "A wireless carrier is losing postpaid subscribers to a competitor; how should it respond?",
+      "framework_id": "competitive-response"
+    },
+    {
+      "question": "Should a carrier build fiber to a new region or partner with an existing provider?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "A carrier's profits are declining despite stable subscribers; why?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "How should a carrier price a new converged mobile-plus-home-internet bundle?",
+      "framework_id": "pricing"
+    }
+  ],
+  "interview_hooks": [
+    "Is convergence of wireless and broadband a real moat or just a discounting tool?",
+    "Can carriers ever earn a return on 5G beyond consumer phone plans?",
+    "Will cable MVNOs and fixed wireless permanently reshape US connectivity competition?"
+  ],
+  "news": {
+    "keywords": [
+      "wireless carrier",
+      "5g",
+      "postpaid",
+      "spectrum auction",
+      "fixed wireless",
+      "broadband",
+      "fiber rollout",
+      "mvno",
+      "subscriber churn",
+      "fcc"
+    ],
+    "companies": [
+      "Verizon",
+      "AT&T",
+      "T-Mobile",
+      "Comcast",
+      "Charter",
+      "Cox Communications",
+      "Frontier",
+      "Vodafone",
+      "Deutsche Telekom",
+      "US Cellular"
+    ]
+  }
+}

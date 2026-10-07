@@ -1,0 +1,124 @@
+{
+  "id": "renewables",
+  "name": "Renewable Energy",
+  "group": "Energy & resources",
+  "one_liner": "Generating power from solar, wind, storage and other low-carbon sources, where economics are dominated by upfront capital and financing costs rather than fuel.",
+  "how_it_makes_money": "Developers originate projects and sell them or hold them to earn power revenue. Owner-operators sell electricity under long-term power purchase agreements (PPAs) with utilities or corporates, or into wholesale markets, and monetize tax credits. Equipment makers sell panels, turbines, inverters and batteries, while installers earn margins on residential and commercial systems.",
+  "value_chain": [
+    "Equipment and component manufacturing",
+    "Project development and permitting",
+    "Financing and tax equity",
+    "Construction (EPC)",
+    "Operations and power sales"
+  ],
+  "revenue_formula": [
+    "Project revenue = installed capacity (MW) × capacity factor × 8,760 hours × PPA or market price per MWh",
+    "Manufacturer revenue = units shipped (GW) × average selling price per watt",
+    "Residential solar revenue = installs × system size (kW) × price per watt"
+  ],
+  "cost_structure": [
+    "Capital cost of equipment: panels, turbines, batteries, inverters",
+    "Balance of system and construction: labor, racking, civil works",
+    "Interconnection and grid upgrades: increasingly costly and slow",
+    "Financing costs: interest and tax equity returns, very sensitive to interest rates",
+    "Operations and maintenance: relatively small, no fuel cost",
+    "Land leases and permitting"
+  ],
+  "margins": "Operating assets under long-term PPAs earn stable, utility-like returns, while manufacturers and developers see thinner, more volatile margins. Interest rates, equipment prices, capacity factor and policy incentives drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Levelized cost of energy (LCOE)",
+      "what": "Lifetime cost per MWh of a project, used to compare technologies."
+    },
+    {
+      "name": "Capacity factor",
+      "what": "Actual output versus maximum possible; drives revenue per MW installed."
+    },
+    {
+      "name": "PPA price ($/MWh)",
+      "what": "Contracted sale price that anchors project revenue."
+    },
+    {
+      "name": "Cost per watt ($/W)",
+      "what": "Installed cost, the key input for project economics."
+    },
+    {
+      "name": "Development pipeline (GW)",
+      "what": "Projects in queue, signaling future growth."
+    },
+    {
+      "name": "Curtailment rate",
+      "what": "Share of potential output wasted due to grid limits or oversupply."
+    }
+  ],
+  "trends": [
+    "Policy uncertainty around US tax credits and incentives affecting project pipelines",
+    "Interconnection queue backlogs and transmission constraints slowing buildout",
+    "Battery storage scaling fast to firm intermittent solar and wind",
+    "Data center and AI-driven power demand boosting corporate PPAs",
+    "Tariffs and trade policy reshaping solar supply chains and onshoring",
+    "Offshore wind setbacks from cost inflation and permitting"
+  ],
+  "key_players": [
+    "NextEra Energy",
+    "Brookfield Renewable",
+    "Ørsted",
+    "Iberdrola",
+    "Enphase",
+    "First Solar",
+    "Vestas",
+    "Tesla Energy",
+    "AES",
+    "GE Vernova"
+  ],
+  "case_angles": [
+    {
+      "question": "Should a utility-scale developer enter the battery storage market?",
+      "framework_id": "market-entry"
+    },
+    {
+      "question": "Should a corporation sign a 15-year PPA for a new solar farm?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "A residential solar installer's profits collapsed; diagnose and fix it.",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Size the US market for home batteries.",
+      "framework_id": "market-sizing"
+    }
+  ],
+  "interview_hooks": [
+    "Is intermittency or transmission the real bottleneck for renewables?",
+    "How much does the renewables buildout depend on subsidies versus pure cost competitiveness?",
+    "Should the US onshore solar manufacturing even at higher cost?"
+  ],
+  "news": {
+    "keywords": [
+      "solar",
+      "wind farm",
+      "offshore wind",
+      "renewable energy",
+      "battery storage",
+      "clean energy",
+      "tax credit",
+      "power purchase agreement",
+      "photovoltaic",
+      "interconnection",
+      "inflation reduction act"
+    ],
+    "companies": [
+      "NextEra Energy",
+      "First Solar",
+      "Enphase",
+      "Orsted",
+      "Vestas",
+      "Brookfield Renewable",
+      "Sunrun",
+      "GE Vernova",
+      "Iberdrola",
+      "AES"
+    ]
+  }
+}

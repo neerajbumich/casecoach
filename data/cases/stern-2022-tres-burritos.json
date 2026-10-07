@@ -1,0 +1,415 @@
+{
+ "id": "stern-2022-tres-burritos",
+ "title": "Tres Burritos",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  107,
+  115
+ ],
+ "author": "Emily Glaser, Morgan Miller, Kristen Whyte (Stern ’21)",
+ "case_type": [
+  "Profitability",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "Restaurant",
+ "geography": "New York City, United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 5; Structure: 8 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "profitability",
+  "crisis-response",
+  "delivery",
+  "fixed-variable-costs",
+  "brand-risk",
+  "scenario-analysis"
+ ],
+ "concepts_tested": [
+  "Profitability",
+  "Brainstorming"
+ ],
+ "prompt": "Your client is a national burrito chain with 100 locations. There has been a widespread flu virus growing in the U.S. which has the potential to hurt their business. They need your help deciding how they should respond to the virus in NYC specifically, and what the implications will be for their brand.",
+ "clarifying_info": [
+  {
+   "question_topic": "NYC footprint",
+   "answer": "There are 10 locations in NYC."
+  },
+  {
+   "question_topic": "Products",
+   "answer": "The restaurants sell 3 types of burritos, guacamole, salsa and other sides."
+  },
+  {
+   "question_topic": "Sales channels",
+   "answer": "All sales are grab-and-go takeout. Tres Burritos does not currently offer delivery."
+  },
+  {
+   "question_topic": "Objective",
+   "answer": "Maintain net positive profit while considering the effects of the New York response on the national brand."
+  },
+  {
+   "question_topic": "Duration",
+   "answer": "The virus is projected to last 3 months."
+  },
+  {
+   "question_topic": "Other cities",
+   "answer": "We do not know how Tres Burritos is responding in other cities."
+  }
+ ],
+ "interviewer_notes": "Test the ability to respond to an external event with financial and reputational consequences. First identify response options, then assess profitability, then brainstorm non-financial considerations. Guide the candidate beyond a binary open/close choice to include modified hours or services. A pro/con matrix is one acceptable structure. In the quantitative stage, introduce the governor’s delivery-only restriction. Give Exhibits 1, 2 and 3 when current revenue and costs are requested; Exhibits 2 and 3 are extraneous to the calculation. Read the projected revenue, COGS and setup-cost changes aloud only when requested. The candidate should remember the 3-month horizon and distinguish the initial month from later months. The book measures the objective using EBITDA rather than a full net-income calculation.",
+ "suggested_framework": {
+  "summary": "Compare response options, model revenue and cost changes, and assess public-health and national-brand consequences.",
+  "tree": {
+   "label": "Respond to the virus in NYC",
+   "children": [
+    {
+     "label": "Profitability",
+     "children": [
+      {
+       "label": "Current product mix, orders and average check"
+      },
+      {
+       "label": "Lost sales and stores closing"
+      },
+      {
+       "label": "Fixed rent, equipment, SG&A and marketing"
+      },
+      {
+       "label": "Variable labor and COGS"
+      }
+     ]
+    },
+    {
+     "label": "Operating options",
+     "children": [
+      {
+       "label": "Stay open"
+      },
+      {
+       "label": "Close"
+      },
+      {
+       "label": "Modify: delivery, curbside pickup, shorter hours or selected closures"
+      }
+     ]
+    },
+    {
+     "label": "External considerations",
+     "children": [
+      {
+       "label": "Virus duration, spread and geography"
+      },
+      {
+       "label": "Competitor and NYC population responses"
+      },
+      {
+       "label": "Company actions elsewhere and national reputation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What should Tres Burritos consider in responding to the virus?",
+   "release_when": "After the prompt; answer clarifying questions as requested.",
+   "info_to_release": "The chain has 100 locations nationally and 10 in NYC. All current orders are grab-and-go takeout; delivery is not offered. The virus is projected to last 3 months. The client wants positive profit and protection of its national brand.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess profitability through current revenue drivers, lost sales and closure effects, plus fixed and variable costs. Consider staying open, closing, or modifying services and hours, including delivery, curbside pickup or selected closures. Examine virus duration and spread, competitors, local behavior, and how the client is responding elsewhere.",
+   "good_answer_signals": [
+    "Balances financial and reputational considerations.",
+    "Includes modified operations rather than only open or close."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "How would you evaluate the options for responding to the virus?",
+   "release_when": "Before introducing the delivery-only restriction.",
+   "info_to_release": "Consider staying open, closing, and modifying hours or services. Responses in other cities are unknown.",
+   "exhibit_ids": [],
+   "expected_answer": "Staying open sustains sales, community service and loyalty, but exposes the chain to safety and reputation risks and both fixed and variable costs. Closing removes variable costs and operating exposure to spreading the virus, but sacrifices sales, leaves fixed costs, may require layoffs and may send customers to competitors. Modified services preserve some sales and can add delivery or curbside revenue, but retain fixed and some variable costs, safety risks, and uncertain customer demand. Ask for the economics before deciding.",
+   "good_answer_signals": [
+    "Uses a structured pro/con comparison.",
+    "Recognizes that closing does not eliminate fixed costs."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Governor Andy Hamilton says restaurants may offer delivery only. What will the virus’s impact be on profitability per location?",
+   "release_when": "Give all 3 exhibits when the candidate asks for current revenue and costs. Read the changes aloud once projected impacts are requested.",
+   "info_to_release": "Monthly revenue per restaurant is $100,000; COGS $10,000; wages $35,000; SG&A $5,000; fixed overhead $20,000. Exhibit 1 also states current EBITDA of $30,000. Revenue will drop by 10%, COGS will increase by 10%, and launching delivery costs $20,000 once. The virus is projected to last 3 months. The source leaves wages, SG&A and overhead unchanged.",
+   "exhibit_ids": [
+    "ex1",
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "Revenue becomes $90,000 monthly and COGS $11,000. Other monthly costs remain $60,000. Month 1 costs $91,000 including setup, yielding a $1,000 EBITDA loss. Months 2 and 3 each cost $71,000 and yield $19,000 EBITDA. Total EBITDA is −$1,000 + 2 × $19,000 = $37,000, versus $90,000 over 3 normal months. The decline is $53,000, or 58.89%, approximately the book’s 60%. Delivery remains positive over the full horizon even though the first month is negative; the residential mix and national footprint do not enter this calculation.",
+   "good_answer_signals": [
+    "Applies setup cost once, not monthly.",
+    "Uses the full 3-month horizon.",
+    "Does not confuse a 10% increase in total COGS with an increase in its revenue percentage."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "What does this imply for all NYC stores, and how does delivery compare with closing?",
+   "release_when": "After the per-location calculation; scaling to all NYC stores is a bonus observation.",
+   "info_to_release": "There are 10 NYC restaurants. Closing would eliminate sales and variable costs but leave fixed costs.",
+   "exhibit_ids": [],
+   "expected_answer": "At 10 stores, delivery yields $370,000 EBITDA over 3 months versus $900,000 at the current run rate, a $530,000 reduction of about 60%. The source favors delivery over shutting all stores because delivery yields positive EBITDA while closure leaves fixed costs without revenue. A precise closure EBITDA is not supplied and should not be invented.",
+   "good_answer_signals": [
+    "Scales both baseline and new EBITDA consistently.",
+    "Distinguishes EBITDA from unprovided net income or cash-flow measures."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could the chain improve EBITDA while offering delivery?",
+   "release_when": "After establishing delivery profitability.",
+   "info_to_release": "The delivery setup is currently assumed to cost $20,000 per restaurant.",
+   "exhibit_ids": [],
+   "expected_answer": "Increase revenue by selling kitchen ingredients as groceries, partnering with local restaurants, raising prices, or using third-party delivery apps such as Seamless to reach customers. Reduce costs through staffing reductions, selective closures, a smaller menu, or a delivery partner such as Seamless or Caviar instead of building delivery independently. The source also credits discounts to stimulate demand and selling ingredients to local families. Evaluate each idea’s brand and demand effects rather than assuming every action increases profit.",
+   "good_answer_signals": [
+    "Separates revenue and cost levers.",
+    "Provides creative, case-specific alternatives and identifies trade-offs."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the client do, and what are the risks and next steps?",
+   "release_when": "At the end of the case.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Offer delivery: projected EBITDA is $37,000 per restaurant and $370,000 across NYC over 3 months, about 60% below baseline but still positive. Risks include greater-than-expected revenue declines, customers permanently switching to competitors, disease-spread concerns involving food or delivery staff, and nationwide reputational damage from delivery problems. Find a delivery partner, plan launch logistics, explore lower costs and learn what the company and competitors are doing in other cities.",
+   "good_answer_signals": [
+    "Quantifies the recommendation and states the time horizon.",
+    "Addresses safety and national-brand risk as well as profit."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Income Statement: Monthly per Restaurant",
+   "page": 113,
+   "kind": "table",
+   "description": "Baseline monthly revenue and expense inputs. The source image also prints the computed baseline EBITDA of $30,000, which is kept out of the input table.",
+   "data": {
+    "columns": [
+     "Line item",
+     "USD per restaurant per month"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      100000
+     ],
+     [
+      "COGS",
+      10000
+     ],
+     [
+      "Wages",
+      35000
+     ],
+     [
+      "SG&A",
+      5000
+     ],
+     [
+      "Fixed overhead",
+      20000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-tres-burritos/p113.webp",
+   "image_has_answers": true,
+   "key_insight": "The baseline costs distinguish recurring expenses from the new one-time delivery investment.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "NYC Customers’ Place of Residence",
+   "page": 114,
+   "kind": "pie",
+   "description": "Residential distribution of customers at NYC restaurants; extraneous to the supplied profit calculation.",
+   "data": {
+    "columns": [
+     "Residence",
+     "Customer share (%)"
+    ],
+    "rows": [
+     [
+      "Manhattan",
+      15
+     ],
+     [
+      "NYC Borough",
+      30
+     ],
+     [
+      "Tri-State Suburb",
+      30
+     ],
+     [
+      "Tourist",
+      25
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-tres-burritos/p114.webp",
+   "key_insight": "Do not substitute geographic customer assumptions for the explicit 10% revenue decline.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Restaurant Footprint as of June 2020",
+   "page": 115,
+   "kind": "other",
+   "description": "US map with 8 location-count markers. Cities are not named on the map; labels below identify marker positions only.",
+   "data": {
+    "columns": [
+     "Marker position on map",
+     "Restaurant count"
+    ],
+    "rows": [
+     [
+      "Upper western coast",
+      15
+     ],
+     [
+      "Lower western coast",
+      32
+     ],
+     [
+      "Central-southern marker",
+      15
+     ],
+     [
+      "Southeastern Texas-area marker",
+      5
+     ],
+     [
+      "Florida-area marker",
+      8
+     ],
+     [
+      "Middle Atlantic coastal marker",
+      5
+     ],
+     [
+      "Great Lakes-area marker",
+      10
+     ],
+     [
+      "Northeastern coastal marker",
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-tres-burritos/p115.webp",
+   "key_insight": "The footprint supplies national context but is extraneous to the per-restaurant calculation; the NYC count is separately given as 10.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are baseline and delivery EBITDA per restaurant over the outbreak?",
+   "givens": [
+    "Monthly revenue $100,000 and COGS $10,000",
+    "Wages $35,000, SG&A $5,000, fixed overhead $20,000 monthly",
+    "Revenue decreases 10%; total COGS increases 10%",
+    "$20,000 one-time delivery setup",
+    "3-month duration"
+   ],
+   "steps": [
+    "Baseline monthly costs = $10,000 + $35,000 + $5,000 + $20,000 = $70,000; EBITDA = $30,000.",
+    "New revenue = $100,000 × 0.9 = $90,000; new COGS = $10,000 × 1.1 = $11,000.",
+    "Recurring other costs = $35,000 + $5,000 + $20,000 = $60,000.",
+    "Month 1 cost = $11,000 + $60,000 + $20,000 = $91,000; EBITDA = −$1,000.",
+    "Months 2 and 3 each cost $71,000 and generate $19,000 EBITDA.",
+    "Total delivery EBITDA = −$1,000 + $19,000 + $19,000 = $37,000; baseline = 3 × $30,000 = $90,000."
+   ],
+   "answer": "$37,000 EBITDA per location over 3 months, with a $1,000 first-month loss and $19,000 in each later month.",
+   "answer_value": 37000,
+   "unit": "USD per location over 3 months",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the EBITDA decline and total for NYC?",
+   "givens": [
+    "Baseline 3-month EBITDA $90,000 per store",
+    "Delivery 3-month EBITDA $37,000 per store",
+    "10 NYC stores"
+   ],
+   "steps": [
+    "Per-store decline = $90,000 − $37,000 = $53,000.",
+    "Percentage decline = $53,000 / $90,000 × 100 = 58.8889%, approximately 60%.",
+    "NYC delivery EBITDA = 10 × $37,000 = $370,000; baseline = $900,000; decline = $530,000."
+   ],
+   "answer": "NYC EBITDA is $370,000 over 3 months, down $530,000 or 58.89% (approximately 60%).",
+   "answer_value": 370000,
+   "unit": "USD across NYC over 3 months",
+   "verified": true
+  }
+ ],
+ "synthesis": "Launch delivery to generate $37,000 EBITDA per NYC location, or $370,000 across 10 locations over the projected 3-month outbreak. That is a 58.89% reduction, approximately the source’s 60%, but remains positive despite a first-month loss. Guard against weaker demand, customer defection, safety concerns and damage to the national brand. Choose a delivery partner, plan logistics, reduce launch and ongoing costs where feasible, and coordinate with the company’s other markets.",
+ "what_great_looks_like": [
+  "Recognizes that the 3-month horizon makes the first month different from subsequent months.",
+  "Evaluates modified operations as well as staying open or closing.",
+  "Scales the result to all 10 NYC locations.",
+  "Offers creative ideas such as ingredient sales and delivery partnerships.",
+  "Balances profitability with safety and reputation."
+ ],
+ "common_pitfalls": [
+  "Charging the setup cost in every month.",
+  "Concluding the plan fails solely because month 1 is negative.",
+  "Using the customer-location and national-footprint exhibits to override explicit financial assumptions.",
+  "Treating EBITDA as fully specified net profit.",
+  "Inventing a numerical closure scenario without avoidable-cost details."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup returned NEW. All calculations agree; 58.8889% rounds to the stated approximately 60% decline. The prompt’s positive-profit objective is evaluated with EBITDA in the source, not a full net-income statement. Exhibit 1 points to candidate page 113, but its image is flagged because it prints a computed baseline EBITDA; that total is excluded from data and preserved in release information and math. Map markers are transcribed by position without inventing city names. No source math errors found. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry",
+   "sub_industry",
+   "client_type",
+   "difficulty aggregation across source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "stages question wording and release sequencing",
+   "stages.good_answer_signals",
+   "exhibits[2].data positional marker labels",
+   "common_pitfalls"
+  ]
+ }
+}

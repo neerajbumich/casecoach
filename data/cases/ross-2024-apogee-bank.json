@@ -1,0 +1,369 @@
+{
+ "id": "ross-2024-apogee-bank",
+ "title": "Apogee Bank",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  154,
+  165
+ ],
+ "case_type": [
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "banking",
+ "sub_industry": "retail-banking",
+ "industry_source_label": "Financial Services",
+ "geography": "US Midwest",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 2, Qual - 2, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "customer-churn",
+  "retail-banking",
+  "fintech",
+  "wealth-management",
+  "payback",
+  "acquisition",
+  "digital-banking"
+ ],
+ "concepts_tested": [
+  "revenue root cause",
+  "ARPA versus account volume",
+  "churn diagnosis",
+  "partner-versus-buy economics"
+ ],
+ "prompt": "Apogee Bank, a regional bank with 700 branches in the US Midwest, has seen revenues decline over the past two years. CEO Blake Moran has hired you to identify the reasons for falling revenue and recommend ways to grow it.",
+ "clarifying_info": [
+  {
+   "question_topic": "Products",
+   "answer": "Apogee offers checking and savings accounts and personal, mortgage, and auto loans."
+  },
+  {
+   "question_topic": "Revenue model",
+   "answer": "The bank earns service charges and account-maintenance fees on checking and savings accounts and interest on loans."
+  },
+  {
+   "question_topic": "Channels",
+   "answer": "Services are available through brick-and-mortar branches and online applications."
+  }
+ ],
+ "interviewer_notes": "The case tests understanding of a retail bank and the ability to derive second- and third-level exhibit insights. Keep the discussion focused on revenue. Exhibit 1 should lead from falling product revenue and stable ARPA to declining account volume and customer churn. Exhibit 2 diagnoses digital personal-finance and wealth-management gaps. Exhibit 3 compares partnering with WizardTech against acquiring Finvest.",
+ "suggested_framework": {
+  "summary": "Book framework separating internal revenue drivers, external market change, and organic or inorganic growth options.",
+  "tree": {
+   "label": "Apogee revenue decline",
+   "children": [
+    {
+     "label": "Internal revenue drivers",
+     "children": [
+      {
+       "label": "ARPA: transaction volume and product mix"
+      },
+      {
+       "label": "Account and customer count"
+      },
+      {
+       "label": "Experience, online capability, trust, and rewards"
+      }
+     ]
+    },
+    {
+     "label": "External market dynamics",
+     "children": [
+      {
+       "label": "Competitor rates and consolidation"
+      },
+      {
+       "label": "Digital and challenger-bank preferences"
+      },
+      {
+       "label": "Regulation and onboarding friction"
+      }
+     ]
+    },
+    {
+     "label": "Growth options",
+     "children": [
+      {
+       "label": "Pricing, acquisition, cross-sell, and new products"
+      },
+      {
+       "label": "Acquire a fintech or bank"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you diagnose Apogee's revenue decline and identify growth options?",
+   "expected_answer": "Decompose revenue into customer or account volume and revenue per account, examine product mix and usage, test internal experience and capability issues against external competition and regulation, then develop organic and inorganic growth options.",
+   "good_answer_signals": [
+    "Recognizes this as a revenue problem",
+    "Separates price or ARPA from volume",
+    "Includes customer churn and digital competition"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the product revenue and ARPA history say about the root cause?",
+   "release_when": "Hand out Exhibit 1 after the candidate focuses on revenue.",
+   "info_to_release": "From 2016-2020, checking/savings, loan, and other-product revenue is flat through 2018 and falls in 2019-2020, while each product's ARPA remains broadly stable. Accounts per customer and transaction mix and volume within each account type have remained almost unchanged for five years.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue is declining because account volume is falling, not because ARPA or usage per account is deteriorating. Because accounts per customer are stable, the bank is losing customers: churn is the primary root cause.",
+   "good_answer_signals": [
+    "Uses the footnote",
+    "Connects stable ARPA to lower accounts",
+    "Connects stable accounts per customer to customer churn"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What does the churn survey reveal, and what response does it suggest?",
+   "release_when": "Provide Exhibit 2 after a brief brainstorm on ways to identify churn causes.",
+   "info_to_release": "Of 780 respondents, 478 switched to digital banks, 195 to national banks, 78 to competing regional banks, and 29 elsewhere. The reasons chart compares deposit rates, digital capability, service, fees, wealth-management access, financial-health advice, and banker access.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Most churn goes to digital banks. Their switchers strongly value digital platforms, low fees, wealth-management products, and financial-health advice; traditional banker access matters much more to national-bank switchers. Apogee should add digitally delivered investment and personal-finance products.",
+   "good_answer_signals": [
+    "Prioritizes the 478 digital-bank switchers",
+    "Synthesizes several related needs",
+    "Recommends a digital wealth-management proposition"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Should Apogee partner with WizardTech or acquire Finvest? Compare payback periods.",
+   "release_when": "Hand out Exhibit 3 after the candidate recommends adding investment products.",
+   "info_to_release": "WizardTech: $2.8M setup, $750K annual maintenance, $14 per onboarded user, $23 ARPU, 125K users. Finvest: $5M price, $800K annual revenue, $150K fixed cost, $4 contribution margin, 100K current users plus 125K new users. Acquisition saves 6% of fixed cost and improves contribution margin by 5% immediately.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "WizardTech earns $2.875M revenue and incurs $2.5M annual cost, for $375K annual profit and 7.47-year payback. Finvest has $8 unit revenue, post-deal contribution margin $4.20 and variable cost $3.80; on 225K users, revenue is $1.8M, variable cost $855K, fixed cost $141K, and profit $804K. The $5M purchase pays back in 6.22 years, so buying is financially superior.",
+   "good_answer_signals": [
+    "Realizes both synergies",
+    "Separates fixed and variable cost",
+    "Compares payback consistently"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other pros and cons does acquiring Finvest have versus partnering?",
+   "expected_answer": "Pros include customers, employees, assets and IP; lower entry barriers; higher long-run profit and market power; and tax advantages. Cons include high upfront capital, integration and retention risk, overpayment, management distraction and slower implementation, and regulatory constraints.",
+   "good_answer_signals": [
+    "Covers capabilities and customers",
+    "Includes integration and valuation risk",
+    "Includes regulatory and implementation concerns"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Apogee do?",
+   "expected_answer": "Acquire Finvest for $5M because its 6.22-year payback beats WizardTech's 7.47 years, and extend its investment products to Apogee customers. Confirm funding, financial quality, customer adoption and retention; then plan a phased integration and seek further synergies. Key risks are integration failure, inexperience selling wealth products, employee or customer loss, and slow adoption.",
+   "good_answer_signals": [
+    "Leads with buy and quantified payback",
+    "Connects the deal to the churn diagnosis",
+    "Names integration risks and steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Average Revenue Per Account by Product",
+   "page": 158,
+   "kind": "other",
+   "description": "Bars show total product revenue and lines show ARPA from 2016-2020 for checking/savings, loans, and other products.",
+   "image_path": "exhibits/ross-2024-apogee-bank/p158.webp",
+   "key_insight": "Revenue falls while ARPA and usage remain stable, proving the decline is driven by customer and account loss.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Churning Customers Survey Summary",
+   "page": 160,
+   "kind": "bar",
+   "description": "Destination counts for 780 churners and a comparison of their reasons for switching.",
+   "data": {
+    "columns": [
+     "Destination",
+     "Respondents"
+    ],
+    "rows": [
+     [
+      "Digital banks",
+      478
+     ],
+     [
+      "National banks",
+      195
+     ],
+     [
+      "Competitor regional banks",
+      78
+     ],
+     [
+      "Other institutions",
+      29
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-apogee-bank/p160.webp",
+   "key_insight": "Digital banks capture most churn, driven by digital capability, low fees, and digital wealth and advice products.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Partner with WizardTech or Buy Finvest",
+   "page": 162,
+   "kind": "table",
+   "description": "Candidate-facing financial inputs for the partner and acquisition options.",
+   "data": {
+    "columns": [
+     "Metric",
+     "WizardTech partner",
+     "Finvest acquisition"
+    ],
+    "rows": [
+     [
+      "Initial cost",
+      "$2,800,000",
+      "$5,000,000"
+     ],
+     [
+      "Annual maintenance/fixed cost",
+      "$750,000",
+      "$150,000"
+     ],
+     [
+      "Per-user charge",
+      "$14",
+      ""
+     ],
+     [
+      "ARPU/annual revenue",
+      "$23",
+      "$800,000"
+     ],
+     [
+      "Contribution margin",
+      "",
+      "$4"
+     ],
+     [
+      "Current users",
+      "",
+      100000
+     ],
+     [
+      "Estimated new users",
+      125000,
+      125000
+     ],
+     [
+      "Synergies",
+      "",
+      "6% fixed-cost saving; 5% contribution-margin improvement"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-apogee-bank/p162.webp",
+   "key_insight": "Finvest's synergies and installed users yield a shorter payback despite the larger upfront cost.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is WizardTech's annual profit and payback?",
+   "givens": [
+    "Setup $2.8M",
+    "Maintenance $750K",
+    "$14 per user",
+    "$23 ARPU",
+    "125K users"
+   ],
+   "steps": [
+    "Revenue = $23×125,000 = $2,875,000",
+    "Cost = $750,000 + $14×125,000 = $2,500,000",
+    "Profit = $375,000",
+    "Payback = $2,800,000÷$375,000 = 7.47 years"
+   ],
+   "answer": "$375,000 annual profit and 7.47-year payback",
+   "answer_value": 7.4667,
+   "unit": "years",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is Finvest's post-synergy annual profit and payback?",
+   "givens": [
+    "Price $5M",
+    "$800K revenue on 100K users",
+    "$4 contribution margin",
+    "225K total users",
+    "6% fixed-cost saving",
+    "5% contribution-margin improvement"
+   ],
+   "steps": [
+    "Unit revenue = $800,000÷100,000 = $8",
+    "New contribution margin = $4×1.05 = $4.20; variable cost = $8-$4.20 = $3.80",
+    "Revenue = $8×225,000 = $1,800,000",
+    "Variable cost = $3.80×225,000 = $855,000",
+    "Fixed cost = $150,000×94% = $141,000",
+    "Profit = $804,000",
+    "Payback = $5,000,000÷$804,000 = 6.22 years"
+   ],
+   "answer": "$804,000 annual profit and 6.22-year payback",
+   "answer_value": 6.2189,
+   "unit": "years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Apogee's falling revenue is customer churn: product ARPA and usage are stable while account volume falls. Survey evidence shows customers moving primarily to digital banks for digital, low-fee, wealth-management and advice capabilities. Apogee should acquire Finvest for $5M and roll its products out across the bank; post-synergy annual profit is $804K and payback is 6.22 years versus 7.47 years for WizardTech. The bank should verify funding and Finvest's financials, retain key people and customers, and execute a phased integration.",
+ "what_great_looks_like": [
+  "Uses ARPA and the footnote to isolate churn",
+  "Synthesizes survey evidence into a product gap",
+  "Calculates both options including synergies",
+  "Connects acquisition recommendation to the original revenue problem"
+ ],
+ "common_pitfalls": [
+  "Focuses on cost reduction",
+  "Confuses ARPA stability with revenue stability",
+  "Ignores Finvest's existing users",
+  "Applies the 5% improvement to variable cost instead of contribution margin"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-29",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Exhibit pages point to candidate-facing pages 158, 160, and 162; solution page 163 is not used as an image. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

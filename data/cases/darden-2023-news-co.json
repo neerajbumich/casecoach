@@ -1,0 +1,435 @@
+{
+  "id": "darden-2023-news-co",
+  "title": "NewsCo.",
+  "school": "Darden",
+  "edition": "2023-2024",
+  "year": 2023,
+  "source_file": "Darden/Darden Case Book 2023-24.pdf",
+  "page_range": [
+    135,
+    144
+  ],
+  "case_type": [
+    "Other",
+    "Profitability"
+  ],
+  "case_type_source_label": "Diagnosis/Profitability",
+  "industry": "media-streaming",
+  "sub_industry": "video-streaming",
+  "industry_source_label": "Media",
+  "geography": "United States",
+  "client_type": "for-profit",
+  "format": "interviewer-led",
+  "difficulty": 4,
+  "difficulty_inferred": false,
+  "difficulty_source_label": "Overall 3; Quantitative 3; Qualitative 3 (1–3 scale)",
+  "quant_intensity": "H",
+  "estimated_minutes": 40,
+  "tags": [
+    "trust",
+    "root-cause-analysis",
+    "programming-mix",
+    "advertising-revenue",
+    "non-financial-objectives",
+    "correlation",
+    "reputation"
+  ],
+  "fit_question": "Tell me about an important skill you developed. What was it and how did you go about developing it?",
+  "prompt": "NewsCo. is a TV network that offers live news and pre-recorded entertainment programming. They're concerned about a recent survey showing a decline in viewers' trust. This is particularly worrisome because NewsCo. prides itself on high-quality journalism and uses the tagline 'News You Can Trust.' Our team was hired to identify the root causes and provide recommendations.",
+  "clarifying_info": [
+    {
+      "question_topic": "Survey",
+      "answer": "A U.S. consumer-intelligence agency compared major networks across dimensions. NewsCo. performed well in most, but only 46% considered it trustworthy, ranking fourth of six. In 2018, over 75% considered it trustworthy and it ranked first. Respondents assessed: 'NewsCo. is a reliable and trustworthy news source.'"
+    },
+    {
+      "question_topic": "Scope",
+      "answer": "NewsCo. also operates a website, but management is focused on television programming."
+    },
+    {
+      "question_topic": "Objective",
+      "answer": "Identify causes of the low trustworthiness score and actions to improve it."
+    },
+    {
+      "question_topic": "Revenue model",
+      "answer": "Most revenue comes from TV advertising; other sources are cable subscriptions, website advertising and prepackaged content sold to airports, hotels and other third parties."
+    }
+  ],
+  "interviewer_notes": "First prize, Darden Case-a-thon 2023. Tests creative frameworks and non-revenue goals; recommended after 20+ cases. Start with the societal-trust brainstorm before the framework. Do not accept a financial bucket as the primary diagnostic framework; ask how it would identify declining trust. Financial consequences matter later but are not the client objective. Exhibit 1 is primarily qualitative; bonus calculations may contextualize trends. Candidate should hypothesize an opinion-programming trade-off and request show-level trust data. For Exhibit 2, prompt daily advertising-revenue calculations if needed; precise revenue shares are optional. End with a preliminary recommendation, acknowledging revenue consequences without subordinating trust to them.",
+  "suggested_framework": {
+    "summary": "Diagnose content, organization and external influences on television viewers' trust.",
+    "tree": {
+      "label": "Why has trust in NewsCo. fallen?",
+      "children": [
+        {
+          "label": "Content",
+          "children": [
+            {
+              "label": "Accuracy, credible sources, timeliness and relevance"
+            },
+            {
+              "label": "Bias and sensationalism"
+            },
+            {
+              "label": "Fact-based versus opinion/entertainment mix and diversity of perspectives"
+            }
+          ]
+        },
+        {
+          "label": "Organization",
+          "children": [
+            {
+              "label": "Talent authority and diversity, including executives"
+            },
+            {
+              "label": "Scandals and organizational culture"
+            },
+            {
+              "label": "Untrusted acquisitions/partners and interference with editorial oversight"
+            }
+          ]
+        },
+        {
+          "label": "External environment",
+          "children": [
+            {
+              "label": "Misinformation, polarization and changing definitions of trust"
+            },
+            {
+              "label": "Competitor speed/accuracy and online alternatives"
+            },
+            {
+              "label": "AI and deepfakes blurring genuine information"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "stages": [
+    {
+      "order": 1,
+      "kind": "brainstorm",
+      "interviewer_asks": "Before addressing the client, how does trust in news networks affect society?",
+      "release_when": "Immediately after prompt and clarifications, before the diagnostic framework.",
+      "info_to_release": "Focus on society rather than the broadcaster's finances.",
+      "expected_answer": "Political effects include voter decisions, perceived election fairness, accountability of public figures and policy discourse. Social effects include misinformation/polarization, public safety and health, awareness of civil rights and diversity, and informed business/financial decisions. Use distinct categories and multiple perspectives.",
+      "good_answer_signals": [
+        "Avoids turning a societal question into a business-profit answer."
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "structure",
+      "interviewer_asks": "How should we approach NewsCo.'s decline in trust?",
+      "release_when": "After the societal brainstorm; allow a couple of minutes to structure.",
+      "info_to_release": "Trust is now 46%, fourth of six networks, versus over 75% and first place in 2018. Focus on television.",
+      "expected_answer": "Investigate content quality, tone and programming mix; organizational talent, culture and editorial decisions; and external misinformation, competitors and technology. Ask what changed in operations/programming since the earlier survey. Do not center the framework on revenue or costs.",
+      "good_answer_signals": [
+        "Uses the 2018 benchmark to identify changes worth investigating."
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "exhibit",
+      "interviewer_asks": "What do you see in nine years of programming and viewership data?",
+      "release_when": "Show Exhibit 1 after the framework.",
+      "info_to_release": "Airtime totals have not changed since 2014. Stacked bars show show-type airtime shares for 2014–2022; the line shows average daily viewers in thousands.",
+      "exhibit_ids": [
+        "ex1"
+      ],
+      "expected_answer": "Newsdesk and documentaries declined while opinion and travel increased. Opinion rose from 6% to 23% airtime, about 3.83 times; newsdesk fell from 60% to 46%, about 23.3% relatively. Since the 2018 survey, opinion rose from 10% to 23% and documentaries fell from 9% to 3%. Viewership increased overall by over 200,000 daily viewers, roughly 25–30%, though it fluctuated. Opinion airtime and audience appear positively associated. Hypothesize that opinion attracts viewers but may weaken trust, and ask for show-specific trust data; correlation alone is not proof of causation.",
+      "good_answer_signals": [
+        "Anchors changes to the prior survey rather than only the chart's start.",
+        "Connects trends to a testable trust hypothesis."
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "math",
+      "interviewer_asks": "What value does each show type contribute across trust, viewers and ad revenue?",
+      "release_when": "Show Exhibit 2 after the candidate requests evidence on trust by show type.",
+      "info_to_release": "Daily viewers (thousands) and ad revenue per viewer: newsdesk 509.0/$4.50; business 110.7/$3; documentary 22.1/$2.50; travel 166.1/$3.50; opinion 254.6/$6; food 45.3/$5. The vertical axis ranks perceived trust: documentary highest, opinion lowest, newsdesk high, food above travel.",
+      "exhibit_ids": [
+        "ex2"
+      ],
+      "expected_answer": "Exact daily ad revenue: newsdesk $2,290,500; business $332,100; documentary $55,250; travel $581,350; opinion $1,527,600; food $226,500. Total is $5,013,300. Newsdesk contributes about 46% and opinion about 30%. Opinion is second-largest by viewers, highest in revenue per viewer and lowest in trust, supporting the proposed trade-off. Food has higher trust and $1.50 more daily revenue per viewer than travel, offering a possible programming substitution. Without cost data, these are revenue comparisons, not established profit margins.",
+      "good_answer_signals": [
+        "Multiplies thousands of viewers by per-viewer revenue with consistent units.",
+        "Combines financial incentives with the client's trust objective.",
+        "Does not assume unchanged audiences after reallocating airtime."
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "synthesis",
+      "interviewer_asks": "Summarize our findings and preliminary recommendations.",
+      "release_when": "After combining both exhibits.",
+      "info_to_release": "No new information.",
+      "expected_answer": "The shift toward low-trust opinion programming is the source's leading explanation for declining trust, despite attracting viewers and advertising. Reduce opinion airtime and test ways to increase newsdesk engagement and ad revenue. Consider shifting travel to food to help offset lost revenue, since food has higher trust and higher ad revenue per viewer. Audience and advertising may fall with reduced opinion. Conduct focus groups and test programming changes; the data support a hypothesis, not a quantified causal forecast.",
+      "good_answer_signals": [
+        "Protects trust while acknowledging financial trade-offs.",
+        "Gives specific, testable next steps."
+      ]
+    }
+  ],
+  "exhibits": [
+    {
+      "id": "ex1",
+      "title": "Airtime allocation and annual viewership",
+      "page": 139,
+      "kind": "bar",
+      "description": "Airtime-share stacked bars with an average-daily-viewership line, 2014–2022. Total airtime is unchanged. Line values are not labeled and are retained visually rather than invented as precise observations.",
+      "data": {
+        "columns": [
+          "Year",
+          "Newsdesk (%)",
+          "Business (%)",
+          "Documentary (%)",
+          "Travel (%)",
+          "Opinion (%)",
+          "Food (%)"
+        ],
+        "rows": [
+          [
+            2014,
+            60,
+            14,
+            9,
+            7,
+            6,
+            4
+          ],
+          [
+            2015,
+            60,
+            15,
+            10,
+            5,
+            5,
+            5
+          ],
+          [
+            2016,
+            57,
+            11,
+            8,
+            7,
+            12,
+            5
+          ],
+          [
+            2017,
+            59,
+            11,
+            9,
+            5,
+            10,
+            6
+          ],
+          [
+            2018,
+            57,
+            12,
+            9,
+            6,
+            10,
+            6
+          ],
+          [
+            2019,
+            54,
+            11,
+            6,
+            10,
+            14,
+            5
+          ],
+          [
+            2020,
+            49,
+            10,
+            5,
+            13,
+            20,
+            3
+          ],
+          [
+            2021,
+            50,
+            11,
+            4,
+            13,
+            18,
+            4
+          ],
+          [
+            2022,
+            46,
+            10,
+            3,
+            14,
+            23,
+            5
+          ]
+        ]
+      },
+      "image_path": "exhibits/darden-2023-news-co/p139.webp",
+      "key_insight": "Opinion airtime rises sharply after the 2018 trust benchmark while fact-based programming loses share; viewership rises overall, suggesting a trade-off worth testing.",
+      "data_confidence": "high"
+    },
+    {
+      "id": "ex2",
+      "title": "2022 market intelligence report",
+      "page": 141,
+      "kind": "other",
+      "description": "Bubble chart: x-axis daily ad revenue per viewer, y-axis perceived trust on a 0–10 axis, bubble size/labeled values daily viewers in thousands. Trust values below are approximate visual readings, not printed numeric scores.",
+      "data": {
+        "columns": [
+          "Show type",
+          "Daily viewers (thousands)",
+          "Daily ad revenue/viewer (USD)",
+          "Approximate visual trust score"
+        ],
+        "rows": [
+          [
+            "Newsdesk",
+            509.0,
+            4.5,
+            "About 8"
+          ],
+          [
+            "Business",
+            110.7,
+            3,
+            "About 6.5"
+          ],
+          [
+            "Documentary",
+            22.1,
+            2.5,
+            "About 9"
+          ],
+          [
+            "Travel",
+            166.1,
+            3.5,
+            "About 4.2"
+          ],
+          [
+            "Opinion",
+            254.6,
+            6,
+            "About 2"
+          ],
+          [
+            "Food",
+            45.3,
+            5,
+            "About 5.5"
+          ]
+        ]
+      },
+      "image_path": "exhibits/darden-2023-news-co/p141.webp",
+      "key_insight": "Opinion is lucrative but low-trust; newsdesk combines scale and trust, and food outperforms travel on per-viewer revenue and trust.",
+      "data_confidence": "high"
+    }
+  ],
+  "math": [
+    {
+      "id": "m1",
+      "question": "How has opinion airtime changed?",
+      "givens": [
+        "Opinion share 6% in 2014, 10% in 2018, 23% in 2022",
+        "Newsdesk 60% in 2014, 46% in 2022",
+        "Total airtime unchanged"
+      ],
+      "steps": [
+        "Opinion 2022/2014 = 23/6 = 3.8333 times.",
+        "Opinion 2022/2018 = 23/10 = 2.3 times.",
+        "Newsdesk relative decline = (46/60−1)×100 = −23.3333%."
+      ],
+      "answer": "Opinion airs about four times as much as in 2014 and more than twice as much as in 2018; newsdesk airtime falls about a quarter.",
+      "answer_value": 3.8333333333,
+      "unit": "times 2014 opinion airtime",
+      "verified": true
+    },
+    {
+      "id": "m2",
+      "question": "What is exact daily ad revenue by show type?",
+      "givens": [
+        "Exhibit 2 viewer counts and per-viewer daily ad revenue"
+      ],
+      "steps": [
+        "Newsdesk: 509,000×4.5 = $2,290,500.",
+        "Business: 110,700×3 = $332,100.",
+        "Documentary: 22,100×2.5 = $55,250.",
+        "Travel: 166,100×3.5 = $581,350.",
+        "Opinion: 254,600×6 = $1,527,600.",
+        "Food: 45,300×5 = $226,500.",
+        "Total = $5,013,300."
+      ],
+      "answer": "$5,013,300 per day across all categories; the source explicitly rounds viewer counts and obtains about $4.995m.",
+      "answer_value": 5013300,
+      "unit": "USD/day",
+      "verified": true
+    },
+    {
+      "id": "m3",
+      "question": "What proportion of daily advertising comes from each category?",
+      "givens": [
+        "Exact category revenue in m2; total $5,013,300"
+      ],
+      "steps": [
+        "Newsdesk 45.69%; business 6.62%; documentary 1.10%; travel 11.60%; opinion 30.47%; food 4.52%."
+      ],
+      "answer": "Newsdesk supplies roughly 46% and opinion roughly 30%, by far the largest categories.",
+      "answer_value": 30.4709472802,
+      "unit": "% opinion share of ad revenue",
+      "verified": true
+    },
+    {
+      "id": "m4",
+      "question": "How do food/travel and opinion/newsdesk compare per viewer?",
+      "givens": [
+        "Food $5; travel $3.50; opinion $6; newsdesk $4.50 daily ad revenue per viewer"
+      ],
+      "steps": [
+        "Food−travel = $5−$3.50 = $1.50.",
+        "Opinion−newsdesk = $6−$4.50 = $1.50."
+      ],
+      "answer": "Both differences are $1.50 per viewer per day; aggregate impact depends on retained audiences.",
+      "answer_value": 1.5,
+      "unit": "USD/viewer/day",
+      "verified": true
+    }
+  ],
+  "synthesis": "Increasing opinion programming is the leading source hypothesis for declining trust: its airtime more than doubled since 2018, and it has the lowest trust score despite generating about 30% of daily ad revenue. Reduce opinion airtime and develop more engaging newsdesk programming. Test replacing some travel with food to support revenue while improving trust. Use focus groups and controlled programming tests because lower opinion airtime may reduce audience and advertising; causal effects and replacement audiences are not established by these exhibits.",
+  "what_great_looks_like": [
+    "Builds a trust-focused framework rather than a generic profitability tree.",
+    "Uses the 2018 survey timing to sharpen the diagnosis.",
+    "Links opinion's audience and revenue incentives to trust concerns.",
+    "Acknowledges financial implications without abandoning the stated trust objective."
+  ],
+  "common_pitfalls": [
+    "Recommending that the client ignore trust and maximize ad revenue.",
+    "Ignoring revenue losses from cutting opinion programming.",
+    "Treating association between opinion airtime and viewership as proven causation.",
+    "Confusing revenue per viewer with profit per viewer."
+  ],
+  "extraction": {
+    "model": "codex/gpt-6.1-sol",
+    "extracted_at": "2026-10-03",
+    "confidence": "high",
+    "low_confidence_fields": [],
+    "math_verified": true,
+    "notes": "Both candidate-facing exhibits visually reviewed and math recomputed in math-darden-news.py. Source explicitly rounds viewer counts; exact daily revenues differ within that stated rounding, not arithmetic errors. Its rounded category values are $2,295,000/$330,000/$50,000/$595,000/$1,500,000/$225,000. Exhibit 1's2022 percentages sum to 101%, consistent with rounded shares; preserved as given, not normalized. Viewership is not literally steadily increasing as guidance claims: the line dips in 2015, 2017 and 2021; the overall increase is clear. Source calls opinion more profitable per viewer, but only ad revenue is supplied, so profitability is not established. Trust coordinates are approximate visual readings. Primary case type Other reflects a trust diagnosis, while Profitability retains the source's secondary financial component; taxonomy video-streaming is used as the available video-media category, although the actual scope is television. Causal recommendation is qualified as a hypothesis. Reviewed and accepted by Claude 2026-10-03.",
+    "fields_inferred": [
+      "estimated_minutes",
+      "quant_intensity",
+      "tags",
+      "common_pitfalls",
+      "stages[4].expected_answer (causal qualification)",
+      "synthesis (testing qualification)"
+    ]
+  }
+}

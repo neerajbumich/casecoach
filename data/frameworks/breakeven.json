@@ -1,0 +1,94 @@
+{
+ "id": "breakeven",
+ "name": "Breakeven & unit economics",
+ "category": "tool",
+ "summary": "Breakeven volume = Fixed costs ÷ (Price − Variable cost per unit). Payback = Investment ÷ annual profit. Use it to test whether a decision pays off and how many units or years it takes.",
+ "opening_line": "The quickest test is breakeven: fixed costs divided by contribution margin per unit, compared with the volume we can realistically sell.",
+ "when_to_use": [
+  "Any launch, investment or pricing decision with fixed costs",
+  "Checking whether a target is achievable (payback within N years)"
+ ],
+ "when_not_to_use": [
+  "As the whole structure. It's a tool inside market entry, pricing or investment frameworks"
+ ],
+ "tree": {
+  "label": "Does it pay off?",
+  "children": [
+   {
+    "label": "Contribution margin per unit",
+    "children": [
+     {
+      "label": "Price"
+     },
+     {
+      "label": "Variable cost"
+     }
+    ]
+   },
+   {
+    "label": "Fixed costs & investment"
+   },
+   {
+    "label": "Breakeven volume = Fixed ÷ CM"
+   },
+   {
+    "label": "Compare with achievable volume / time"
+   },
+   {
+    "label": "Payback = Investment ÷ annual profit"
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Inputs",
+   "questions": [
+    "Price, variable cost, fixed costs, upfront investment?"
+   ],
+   "data_to_ask": [
+    "Unit price and cost",
+    "Fixed costs"
+   ]
+  },
+  {
+   "name": "Test",
+   "questions": [
+    "Is the breakeven volume realistic vs market size and share?"
+   ],
+   "data_to_ask": [
+    "Market size"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "restaurants",
+   "note": "Covers per day needed = fixed costs ÷ (average check − food & variable labour per cover)."
+  }
+ ],
+ "common_mistakes": [
+  "Mixing up per-unit and total costs",
+  "Forgetting time (no discounting) for long paybacks",
+  "Not comparing the breakeven with what's achievable"
+ ],
+ "related": [
+  "pricing",
+  "investment-npv",
+  "market-entry"
+ ],
+ "match": {
+  "case_types": [],
+  "tags": [
+   "breakeven",
+   "breakeven-analysis",
+   "payback",
+   "contribution-margin",
+   "unit-economics"
+  ],
+  "keywords": [
+   "breakeven",
+   "break-even",
+   "payback"
+  ]
+ }
+}

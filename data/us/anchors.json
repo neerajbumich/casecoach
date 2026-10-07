@@ -1,0 +1,802 @@
+[
+  {
+    "id": "us-population",
+    "category": "People & households",
+    "label": "US population",
+    "value": "~342M",
+    "interview_value": "340M",
+    "note": "Census July 2025 estimate 341.8M; growth slowed sharply in 2025 as net immigration fell. Use 340M (or 330M for easy math).",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2025
+  },
+  {
+    "id": "us-adults",
+    "category": "People & households",
+    "label": "US adults (18+)",
+    "value": "~270M",
+    "interview_value": "270M",
+    "note": "~79% of the population is 18+ (21% under 18); 0.79 x 342M = ~270M. Older shortcut of 260M is now low.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2025
+  },
+  {
+    "id": "us-under-18",
+    "category": "People & households",
+    "label": "Children under 18",
+    "value": "~72M",
+    "interview_value": "70M",
+    "note": "~21% of population. Roughly 4M per single year of age.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2025
+  },
+  {
+    "id": "us-under-5",
+    "category": "People & households",
+    "label": "Children under 5",
+    "value": "~18M",
+    "interview_value": "20M",
+    "note": "~5.4% of population; ~3.6M births a year x 5 years.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2025
+  },
+  {
+    "id": "us-65-plus",
+    "category": "People & households",
+    "label": "Adults 65 and over",
+    "value": "~65M",
+    "interview_value": "65M",
+    "note": "~19% of population and rising as Boomers age; key for healthcare, Medicare, senior-living cases.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2025
+  },
+  {
+    "id": "us-working-age",
+    "category": "People & households",
+    "label": "Population aged 18-64",
+    "value": "~205M",
+    "interview_value": "200M",
+    "note": "Derived: 100% - 21% (<18) - 19% (65+) = ~60% of 342M.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2025
+  },
+  {
+    "id": "us-households",
+    "category": "People & households",
+    "label": "US households",
+    "value": "~129M",
+    "interview_value": "130M",
+    "note": "ACS 2020-2024 average; population / household size ~ 342M / 2.5.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2024
+  },
+  {
+    "id": "household-size",
+    "category": "People & households",
+    "label": "Average persons per household",
+    "value": "~2.5",
+    "interview_value": "2.5",
+    "note": "2.53 per ACS; use 2.5 to convert people to households.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2024
+  },
+  {
+    "id": "births-per-year",
+    "category": "People & households",
+    "label": "Births per year",
+    "value": "~3.6M",
+    "interview_value": "3.6M",
+    "note": "2024 final data: 3.63M births, ~10.7 per 1,000 people. Roughly 1% of population per year.",
+    "source": "https://www.cdc.gov/nchs/fastats/births.htm",
+    "year": 2024
+  },
+  {
+    "id": "deaths-per-year",
+    "category": "People & households",
+    "label": "Deaths per year",
+    "value": "~3.1M",
+    "interview_value": "3M",
+    "note": "3.07M in 2024; heart disease and cancer ~1.3M combined.",
+    "source": "https://www.cdc.gov/nchs/fastats/deaths.htm",
+    "year": 2024
+  },
+  {
+    "id": "life-expectancy",
+    "category": "People & households",
+    "label": "Life expectancy at birth",
+    "value": "~79 years",
+    "interview_value": "80",
+    "note": "79.0 in 2024. 80 is fine as a round case number; know it is slightly below.",
+    "source": "https://www.cdc.gov/nchs/fastats/deaths.htm",
+    "year": 2024
+  },
+  {
+    "id": "foreign-born-share",
+    "category": "People & households",
+    "label": "Foreign-born share of population",
+    "value": "~14%",
+    "interview_value": "1 in 7",
+    "note": "ACS 2020-2024: 14.1% born outside the US.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2024
+  },
+  {
+    "id": "bachelors-share",
+    "category": "People & households",
+    "label": "Adults 25+ with a bachelor's degree or higher",
+    "value": "~36%",
+    "interview_value": "1 in 3",
+    "note": "ACS 2020-2024: 35.7%.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2024
+  },
+  {
+    "id": "veterans",
+    "category": "People & households",
+    "label": "US veterans",
+    "value": "~16M",
+    "interview_value": "16M",
+    "note": "ACS 2020-2024: 16.2M; ~6% of adults.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2024
+  },
+  {
+    "id": "median-household-income",
+    "category": "Spending & income",
+    "label": "Median household income",
+    "value": "~$84K",
+    "interview_value": "$80K",
+    "note": "CPS 2024: $83,730 (ACS 5-yr shows ~$81K). Use $80K for quick math.",
+    "source": "https://www.census.gov/newsroom/press-releases/2025/income-poverty-health-insurance-coverage.html",
+    "year": 2024
+  },
+  {
+    "id": "poverty-rate",
+    "category": "Spending & income",
+    "label": "Official poverty rate",
+    "value": "~10.6%",
+    "interview_value": "~10%",
+    "note": "35.9M people in 2024; Supplemental Poverty Measure is higher at ~12.9%.",
+    "source": "https://www.census.gov/newsroom/press-releases/2025/income-poverty-health-insurance-coverage.html",
+    "year": 2024
+  },
+  {
+    "id": "us-gdp",
+    "category": "Spending & income",
+    "label": "US nominal GDP",
+    "value": "~$31T",
+    "interview_value": "$30T",
+    "note": "$30.8T in 2025 (BEA via FRED). GDP per person ~$90K.",
+    "source": "https://fred.stlouisfed.org/series/GDPA",
+    "year": 2025
+  },
+  {
+    "id": "pce-share-gdp",
+    "category": "Spending & income",
+    "label": "Consumer spending share of GDP",
+    "value": "~68%",
+    "interview_value": "70%",
+    "note": "Personal consumption expenditures = 68.1% of GDP in 2025; the consumer is ~2/3 of the economy.",
+    "source": "https://fred.stlouisfed.org/series/DPCERE1A156NBEA",
+    "year": 2025
+  },
+  {
+    "id": "pce-total",
+    "category": "Spending & income",
+    "label": "Total consumer spending (PCE)",
+    "value": "~$21T",
+    "interview_value": "$20T",
+    "note": "$21.0T in 2025; ~$60K per person, ~$160K per household (includes spending made on households' behalf, e.g., employer health insurance).",
+    "source": "https://fred.stlouisfed.org/series/PCECA",
+    "year": 2025
+  },
+  {
+    "id": "avg-hourly-earnings",
+    "category": "Spending & income",
+    "label": "Average hourly earnings, private payrolls",
+    "value": "~$38/hr",
+    "interview_value": "$40/hr",
+    "note": "$37.75 in Aug 2026. x 2,000 hrs/yr = ~$75K full-time equivalent.",
+    "source": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "year": 2026
+  },
+  {
+    "id": "retail-sales",
+    "category": "Food & retail",
+    "label": "Annual retail sales (ex food service)",
+    "value": "~$8T",
+    "interview_value": "$8T",
+    "note": "Q2 2026 quarterly retail sales ~$2.0T (seasonally adjusted) x 4.",
+    "source": "https://www.census.gov/retail/ecommerce.html",
+    "year": 2026
+  },
+  {
+    "id": "ecommerce-share",
+    "category": "Food & retail",
+    "label": "E-commerce share of retail sales",
+    "value": "~17%",
+    "interview_value": "1/6",
+    "note": "17.1% in Q2 2026, growing ~1 pt a year; ~$340B per quarter.",
+    "source": "https://www.census.gov/retail/ecommerce.html",
+    "year": 2026
+  },
+  {
+    "id": "total-food-spend",
+    "category": "Food & retail",
+    "label": "Total US food spending",
+    "value": "~$2.5T",
+    "interview_value": "$2.5T",
+    "note": "$2.51T in 2025 (USDA ERS), at home + away from home.",
+    "source": "https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-prices-and-spending",
+    "year": 2025
+  },
+  {
+    "id": "grocery-spend",
+    "category": "Food & retail",
+    "label": "Food-at-home (grocery) spending",
+    "value": "~$1.1T",
+    "interview_value": "$1T",
+    "note": "44% of food spend in 2025; ~$8.5K per household per year.",
+    "source": "https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-prices-and-spending",
+    "year": 2025
+  },
+  {
+    "id": "food-away-share",
+    "category": "Food & retail",
+    "label": "Food-away-from-home share of food spend",
+    "value": "~56%",
+    "interview_value": "55%",
+    "note": "$1.41T in 2025; eating out passed groceries years ago (opposite of India).",
+    "source": "https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-prices-and-spending",
+    "year": 2025
+  },
+  {
+    "id": "food-share-income",
+    "category": "Food & retail",
+    "label": "Share of disposable income spent on food",
+    "value": "~10%",
+    "interview_value": "10%",
+    "note": "9.7% in 2025; much higher (~1/3) for the lowest-income households.",
+    "source": "https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-prices-and-spending",
+    "year": 2025
+  },
+  {
+    "id": "restaurant-sales",
+    "category": "Food & retail",
+    "label": "Restaurant & foodservice sales",
+    "value": "~$1.55T",
+    "interview_value": "$1.5T",
+    "note": "NRA 2026 projection; ~$4.5K per person per year.",
+    "source": "https://restaurant.org/research-and-media/media/press-releases/persistent-cost-increases-and-enduring-demand-will-shape-the-restaurant-industry-in-2026/",
+    "year": 2026
+  },
+  {
+    "id": "restaurant-count",
+    "category": "Food & retail",
+    "label": "Restaurants & drinking places (establishments)",
+    "value": "~730K",
+    "interview_value": "700K",
+    "note": "BLS QCEW Q1 2026: ~728K food service & drinking-place establishments; ~1 per 470 people.",
+    "source": "https://www.bls.gov/iag/tgs/iag722.htm",
+    "year": 2026
+  },
+  {
+    "id": "restaurant-employment",
+    "category": "Food & retail",
+    "label": "Restaurant & foodservice workforce",
+    "value": "~15.8M",
+    "interview_value": "15M",
+    "note": "NRA 2026 projection (broader than BLS's ~12.4M food services & drinking places payroll count).",
+    "source": "https://restaurant.org/research-and-media/media/press-releases/persistent-cost-increases-and-enduring-demand-will-shape-the-restaurant-industry-in-2026/",
+    "year": 2026
+  },
+  {
+    "id": "mcdonalds-us",
+    "category": "Food & retail",
+    "label": "McDonald's US restaurants",
+    "value": "~13.7K",
+    "interview_value": "14K",
+    "note": "13,706 at end-2025; ~95% franchised. ~1 per 25K people.",
+    "source": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Restaurants%20by%20Market%202025.pdf",
+    "year": 2025
+  },
+  {
+    "id": "starbucks-us",
+    "category": "Food & retail",
+    "label": "Starbucks US stores",
+    "value": "~16.9K",
+    "interview_value": "17K",
+    "note": "16,864 company-operated + licensed at FY2025 end (Sep 2025), after ~500 closures.",
+    "source": "https://investor.starbucks.com/news/financial-releases/news-details/2025/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2025-Results/default.aspx",
+    "year": 2025
+  },
+  {
+    "id": "convenience-stores",
+    "category": "Food & retail",
+    "label": "Convenience stores",
+    "value": "~152K",
+    "interview_value": "150K",
+    "note": "NACS 2026 count 151,975; ~1 per 2,250 people.",
+    "source": "https://www.convenience.org/stay-current/convenience-store-fast-facts-and-stats/industrystorecount",
+    "year": 2026
+  },
+  {
+    "id": "registered-vehicles",
+    "category": "Transport & energy",
+    "label": "Registered motor vehicles",
+    "value": "~298M",
+    "interview_value": "300M",
+    "note": "FHWA 2024: 297.5M incl. trucks, motorcycles, buses; roughly 1 per licensed driver+.",
+    "source": "https://www.fhwa.dot.gov/policyinformation/statistics/2024/mv1.cfm",
+    "year": 2024
+  },
+  {
+    "id": "vehicles-per-household",
+    "category": "Transport & energy",
+    "label": "Vehicles per household",
+    "value": "~2.3",
+    "interview_value": "2",
+    "note": "Derived: ~298M vehicles / ~129M households. Use ~2 cars per household.",
+    "source": "https://www.fhwa.dot.gov/policyinformation/statistics/2024/mv1.cfm",
+    "year": 2024
+  },
+  {
+    "id": "light-truck-dominance",
+    "category": "Transport & energy",
+    "label": "Trucks (incl. SUVs, pickups) vs cars registered",
+    "value": "~190M vs ~97M",
+    "interview_value": "2/3 trucks",
+    "note": "FHWA 'trucks' include SUVs, pickups and vans; sedans are now the minority.",
+    "source": "https://www.fhwa.dot.gov/policyinformation/statistics/2024/mv1.cfm",
+    "year": 2024
+  },
+  {
+    "id": "licensed-drivers",
+    "category": "Transport & energy",
+    "label": "Licensed drivers",
+    "value": "~238M",
+    "interview_value": "240M",
+    "note": "FHWA 2023: 237.7M; ~85% of driving-age population.",
+    "source": "https://www.fhwa.dot.gov/policyinformation/statistics/2023/dl20.cfm",
+    "year": 2023
+  },
+  {
+    "id": "new-vehicle-sales",
+    "category": "Transport & energy",
+    "label": "New light-vehicle sales per year",
+    "value": "~16-17M",
+    "interview_value": "16M",
+    "note": "BEA SAAR 17.2M in Aug 2026; annual sales typically 15-17M. Fleet / sales ~ 18-year turnover.",
+    "source": "https://fred.stlouisfed.org/series/TOTALSA",
+    "year": 2026
+  },
+  {
+    "id": "vehicle-miles",
+    "category": "Transport & energy",
+    "label": "Vehicle miles traveled per year",
+    "value": "~3.3T",
+    "interview_value": "3T",
+    "note": "3.28T in 2024, first year above 2019. ~9,600 miles per person; ~11K per vehicle.",
+    "source": "https://enotrans.org/article/americans-drove-1-0-percent-more-in-2024/",
+    "year": 2024
+  },
+  {
+    "id": "fueling-stations",
+    "category": "Transport & energy",
+    "label": "Retail fueling stations",
+    "value": "~145K",
+    "interview_value": "150K",
+    "note": "~123K c-stores sell fuel + ~13K kiosks + ~7K big-box + ~6K traditional stations. C-stores sell ~80% of fuel.",
+    "source": "https://www.convenience.org/topics/fuels-and-energy/who-sells-americas-fuel",
+    "year": 2026
+  },
+  {
+    "id": "fuel-gallons-day",
+    "category": "Transport & energy",
+    "label": "Motor fuel sold per day",
+    "value": "~370M gallons",
+    "interview_value": "370M gal",
+    "note": "~8.9M barrels/day; a typical station sells ~2,500 gal/day.",
+    "source": "https://www.convenience.org/topics/fuels-and-energy/who-sells-americas-fuel",
+    "year": 2026
+  },
+  {
+    "id": "ev-charging-locations",
+    "category": "Transport & energy",
+    "label": "Public EV charging locations",
+    "value": "~77K",
+    "interview_value": "75K",
+    "note": "76,725 public charging locations as of Jan 2026 per NACS; each location typically has several ports.",
+    "source": "https://www.convenience.org/topics/fuels-and-energy/who-sells-americas-fuel",
+    "year": 2026
+  },
+  {
+    "id": "airline-passengers",
+    "category": "Transport & energy",
+    "label": "Airline passengers per year (US carriers)",
+    "value": "~980M",
+    "interview_value": "1B",
+    "note": "BTS 2025: ~982M systemwide, ~848M domestic. ~2.7M per day.",
+    "source": "https://www.bts.gov/newsroom/december-2025-us-airline-traffic-data-down-26-same-month-last-year",
+    "year": 2025
+  },
+  {
+    "id": "commute-time",
+    "category": "Transport & energy",
+    "label": "Mean one-way commute",
+    "value": "~26 min",
+    "interview_value": "25 min",
+    "note": "ACS 2020-2024: 26.4 minutes; most commute by car.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2024
+  },
+  {
+    "id": "household-electricity",
+    "category": "Transport & energy",
+    "label": "Electricity per household",
+    "value": "~10,800 kWh/yr",
+    "interview_value": "900 kWh/mo",
+    "note": "EIA 2022: 10,791 kWh/yr, ~900 kWh/month; higher in the hot South, lowest in Hawaii.",
+    "source": "https://www.eia.gov/tools/faqs/faq.php?id=97&t=3",
+    "year": 2022
+  },
+  {
+    "id": "health-spend",
+    "category": "Health",
+    "label": "National health expenditure",
+    "value": "~$5.3T",
+    "interview_value": "$5T",
+    "note": "2024 NHE, +7.2% YoY; largest single sector of the economy.",
+    "source": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+    "year": 2024
+  },
+  {
+    "id": "health-share-gdp",
+    "category": "Health",
+    "label": "Healthcare share of GDP",
+    "value": "~18%",
+    "interview_value": "1/6",
+    "note": "18.0% in 2024, vs ~10% typical in other rich countries.",
+    "source": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+    "year": 2024
+  },
+  {
+    "id": "health-spend-per-person",
+    "category": "Health",
+    "label": "Health spending per person",
+    "value": "~$15.5K",
+    "interview_value": "$15K",
+    "note": "$15,474 in 2024.",
+    "source": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+    "year": 2024
+  },
+  {
+    "id": "hospital-spend",
+    "category": "Health",
+    "label": "Hospital care spending",
+    "value": "~$1.6T",
+    "interview_value": "~30% of NHE",
+    "note": "$1.63T in 2024; physician & clinical services ~$1.1T; Rx drugs ~$0.47T.",
+    "source": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+    "year": 2024
+  },
+  {
+    "id": "medicare-spend",
+    "category": "Health",
+    "label": "Medicare spending",
+    "value": "~$1.1T",
+    "interview_value": "$1T",
+    "note": "2024, 21% of NHE; Medicaid ~$0.93T (18%); private insurance ~$1.65T (31%).",
+    "source": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+    "year": 2024
+  },
+  {
+    "id": "hospitals",
+    "category": "Health",
+    "label": "US hospitals",
+    "value": "~6,100",
+    "interview_value": "6,000",
+    "note": "AHA 2024 survey: 6,100 total, 5,121 community hospitals; ~900K staffed beds.",
+    "source": "https://www.aha.org/statistics/fast-facts-us-hospitals",
+    "year": 2024
+  },
+  {
+    "id": "hospital-admissions",
+    "category": "Health",
+    "label": "Hospital admissions per year",
+    "value": "~36M",
+    "interview_value": "35M",
+    "note": "AHA 2024: 35.7M; ~1 per 10 people per year.",
+    "source": "https://www.aha.org/statistics/fast-facts-us-hospitals",
+    "year": 2024
+  },
+  {
+    "id": "physicians",
+    "category": "Health",
+    "label": "Active physicians",
+    "value": "~1.03M",
+    "interview_value": "1M",
+    "note": "AAMC 2024: 1.03M active, ~304 per 100K people; ~1/4 trained abroad.",
+    "source": "https://www.aamc.org/data-reports/data/2025-key-findings",
+    "year": 2024
+  },
+  {
+    "id": "uninsured-rate",
+    "category": "Health",
+    "label": "Uninsured rate (all ages)",
+    "value": "~8%",
+    "interview_value": "8%",
+    "note": "CDC NHIS 2025: 8.3% (28M people); ~92% insured. Employer coverage is the largest source.",
+    "source": "https://www.cdc.gov/nchs/pressroom/releases/20260528.html",
+    "year": 2025
+  },
+  {
+    "id": "labor-force",
+    "category": "Work & business",
+    "label": "Civilian labor force",
+    "value": "~170M",
+    "interview_value": "170M",
+    "note": "BLS Aug 2026: 169.8M (16+); participation ~62%.",
+    "source": "https://fred.stlouisfed.org/series/CLF16OV",
+    "year": 2026
+  },
+  {
+    "id": "payroll-jobs",
+    "category": "Work & business",
+    "label": "Nonfarm payroll jobs",
+    "value": "~159M",
+    "interview_value": "160M",
+    "note": "BLS Aug 2026: 159.1M; excludes self-employed and farm workers.",
+    "source": "https://fred.stlouisfed.org/series/PAYEMS",
+    "year": 2026
+  },
+  {
+    "id": "unemployment-rate",
+    "category": "Work & business",
+    "label": "Unemployment rate",
+    "value": "~4%",
+    "interview_value": "4%",
+    "note": "4.1% in Aug 2026; ~7M unemployed.",
+    "source": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "year": 2026
+  },
+  {
+    "id": "small-businesses",
+    "category": "Work & business",
+    "label": "Small businesses",
+    "value": "~36M",
+    "interview_value": "35M",
+    "note": "SBA Advocacy: 36.2M, 99.9% of firms; ~30M have no employees; employ ~46% of private workers.",
+    "source": "https://advocacy.sba.gov/wp-content/uploads/2026/02/FINAL_FAQsAboutSmallBusiness_2026_012826.pdf",
+    "year": 2022
+  },
+  {
+    "id": "employer-firms",
+    "category": "Work & business",
+    "label": "Small businesses with employees",
+    "value": "~6.4M",
+    "interview_value": "6M",
+    "note": "SBA Advocacy; the rest (~30M) are nonemployer (sole proprietor / gig) firms.",
+    "source": "https://advocacy.sba.gov/wp-content/uploads/2026/02/FINAL_FAQsAboutSmallBusiness_2026_012826.pdf",
+    "year": 2022
+  },
+  {
+    "id": "employer-establishments",
+    "category": "Work & business",
+    "label": "Employer establishments (locations)",
+    "value": "~8.4M",
+    "interview_value": "8M",
+    "note": "Census CBP 2023: 8.36M physical locations with paid employees.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2023
+  },
+  {
+    "id": "fortune500-revenue",
+    "category": "Work & business",
+    "label": "Fortune 500 combined revenue",
+    "value": "~$21T",
+    "interview_value": "$20T",
+    "note": "2026 list (FY2025): $21T revenue, $2.1T profit, 30.5M employees.",
+    "source": "https://fortune.com/2026/06/19/fortune-500-employment-profits-revenue-hiring-jobs-ai/",
+    "year": 2025
+  },
+  {
+    "id": "fortune500-employees",
+    "category": "Work & business",
+    "label": "Fortune 500 employees",
+    "value": "~30.5M",
+    "interview_value": "30M",
+    "note": "~1 in 5 payroll jobs; revenue per employee ~$690K.",
+    "source": "https://fortune.com/2026/06/19/fortune-500-employment-profits-revenue-hiring-jobs-ai/",
+    "year": 2025
+  },
+  {
+    "id": "work-from-home",
+    "category": "Work & business",
+    "label": "Workers doing some work at home on workdays",
+    "value": "~35%",
+    "interview_value": "1/3",
+    "note": "BLS ATUS 2025; full-time workers average ~8.1 hours on days worked.",
+    "source": "https://www.bls.gov/news.release/atus.nr0.htm",
+    "year": 2025
+  },
+  {
+    "id": "smartphone-ownership",
+    "category": "Tech & media",
+    "label": "Adults owning a smartphone",
+    "value": "~91%",
+    "interview_value": "90%",
+    "note": "Pew 2025; 98% own some cellphone. ~16% are smartphone-only (no home broadband).",
+    "source": "https://www.pewresearch.org/internet/fact-sheet/mobile/",
+    "year": 2025
+  },
+  {
+    "id": "internet-use",
+    "category": "Tech & media",
+    "label": "Adults using the internet",
+    "value": "~96%",
+    "interview_value": "95%",
+    "note": "Pew 2025.",
+    "source": "https://www.pewresearch.org/internet/fact-sheet/internet-broadband/",
+    "year": 2025
+  },
+  {
+    "id": "home-broadband-adults",
+    "category": "Tech & media",
+    "label": "Adults with home broadband",
+    "value": "~78%",
+    "interview_value": "80%",
+    "note": "Pew 2025 (adults). Census ACS says ~91% of households have a broadband subscription of any type, incl. cellular data.",
+    "source": "https://www.pewresearch.org/internet/fact-sheet/internet-broadband/",
+    "year": 2025
+  },
+  {
+    "id": "households-computer",
+    "category": "Tech & media",
+    "label": "Households with a computer",
+    "value": "~95%",
+    "interview_value": "95%",
+    "note": "ACS 2020-2024: 95.5% (includes smartphones/tablets).",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2024
+  },
+  {
+    "id": "youtube-reach",
+    "category": "Tech & media",
+    "label": "Adults who use YouTube",
+    "value": "~84%",
+    "interview_value": "85%",
+    "note": "Pew 2025; Facebook 71%, Instagram 50%, TikTok 37%.",
+    "source": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/",
+    "year": 2025
+  },
+  {
+    "id": "streaming-share-tv",
+    "category": "Tech & media",
+    "label": "Streaming share of TV viewing",
+    "value": "~47%",
+    "interview_value": "~half",
+    "note": "Nielsen Gauge Dec 2025 record 47.5%; broadcast ~21%, cable ~20%. Netflix ~9% of all TV time.",
+    "source": "https://www.newscaststudio.com/2026/01/20/streaming-gains-in-share-of-tv-viewing-in-december-nielsen-reports/",
+    "year": 2025
+  },
+  {
+    "id": "tv-hours-per-day",
+    "category": "Tech & media",
+    "label": "TV watching per day",
+    "value": "~2.6 hrs",
+    "interview_value": "2.5 hrs",
+    "note": "BLS ATUS 2025: about half of the ~5.2 hours of daily leisure.",
+    "source": "https://www.bls.gov/news.release/atus.nr0.htm",
+    "year": 2025
+  },
+  {
+    "id": "homeownership-rate",
+    "category": "Home & pets",
+    "label": "Homeownership rate",
+    "value": "~65%",
+    "interview_value": "2/3",
+    "note": "Census HVS Q2 2026: 65.0%; ~1/3 of households rent.",
+    "source": "https://www.census.gov/housing/hvs/current/index.html",
+    "year": 2026
+  },
+  {
+    "id": "rental-vacancy",
+    "category": "Home & pets",
+    "label": "Rental vacancy rate",
+    "value": "~7%",
+    "interview_value": "7%",
+    "note": "Census HVS Q2 2026: 7.3%; homeowner vacancy ~1.2%.",
+    "source": "https://www.census.gov/housing/hvs/current/index.html",
+    "year": 2026
+  },
+  {
+    "id": "housing-units",
+    "category": "Home & pets",
+    "label": "Housing units",
+    "value": "~148M",
+    "interview_value": "150M",
+    "note": "Census July 2025 estimate; more units than households because of vacant and seasonal homes.",
+    "source": "https://www.census.gov/quickfacts/fact/table/US/PST045224",
+    "year": 2025
+  },
+  {
+    "id": "pet-households",
+    "category": "Home & pets",
+    "label": "Households with a pet",
+    "value": "~95M",
+    "interview_value": "~70% of HHs",
+    "note": "APPA 2026 report (2025 data).",
+    "source": "https://www.petage.com/appa-pet-industry-2025/",
+    "year": 2025
+  },
+  {
+    "id": "dog-households",
+    "category": "Home & pets",
+    "label": "Households with a dog",
+    "value": "~71M",
+    "interview_value": "70M",
+    "note": "APPA: 53% of households.",
+    "source": "https://www.petage.com/appa-pet-industry-2025/",
+    "year": 2025
+  },
+  {
+    "id": "cat-households",
+    "category": "Home & pets",
+    "label": "Households with a cat",
+    "value": "~53M",
+    "interview_value": "50M",
+    "note": "APPA: 39% of households; cat ownership growing fastest among Gen Z / Millennials.",
+    "source": "https://www.petage.com/appa-pet-industry-2025/",
+    "year": 2025
+  },
+  {
+    "id": "pet-industry-spend",
+    "category": "Home & pets",
+    "label": "Pet industry spending",
+    "value": "~$158B",
+    "interview_value": "$150B",
+    "note": "APPA 2025; projected ~$165B for 2026. Food is the largest category.",
+    "source": "https://www.petage.com/appa-pet-industry-2025/",
+    "year": 2025
+  },
+  {
+    "id": "k12-public-students",
+    "category": "Time & misc",
+    "label": "Public K-12 students",
+    "value": "~50M",
+    "interview_value": "50M",
+    "note": "NCES fall 2022: 49.6M; projected to drift down. Private schools add ~5.5M.",
+    "source": "https://nces.ed.gov/programs/coe/indicator/cga/public-school-enrollment",
+    "year": 2022
+  },
+  {
+    "id": "public-schools",
+    "category": "Time & misc",
+    "label": "Public schools",
+    "value": "~99K",
+    "interview_value": "100K",
+    "note": "NCES 2020-21: 98,577; plus ~30K private schools.",
+    "source": "https://nces.ed.gov/fastfacts/display.asp?id=84",
+    "year": 2021
+  },
+  {
+    "id": "college-enrollment",
+    "category": "Time & misc",
+    "label": "College & grad students",
+    "value": "~19.4M",
+    "interview_value": "20M",
+    "note": "National Student Clearinghouse fall 2025: 16.2M undergrad + 3.2M grad.",
+    "source": "https://nscresearchcenter.org/final-fall-enrollment-trends/",
+    "year": 2025
+  },
+  {
+    "id": "k12-spend-per-pupil",
+    "category": "Time & misc",
+    "label": "Public K-12 spending per student",
+    "value": "~$15.6K",
+    "interview_value": "$15K",
+    "note": "NCES 2021-22 current expenditures; total ~$770B.",
+    "source": "https://nces.ed.gov/fastfacts/display.asp?id=372",
+    "year": 2022
+  }
+]

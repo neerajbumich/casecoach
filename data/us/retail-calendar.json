@@ -1,0 +1,122 @@
+{
+  "id": "retail-calendar",
+  "section": "consumer",
+  "order": 2,
+  "title": "The US retail calendar",
+  "summary": "The American consumer year month by month, plus the retail fiscal-year conventions behind company results. Knowing the calendar lets you explain a quarterly swing in seconds instead of inventing an operational problem.",
+  "blocks": [
+    {
+      "type": "table",
+      "title": "The consumer year, month by month",
+      "columns": ["Month", "Key moments", "What moves"],
+      "rows": [
+        ["January", "Returns and gift-card redemption; New Year resolutions", "Gyms, diet foods, organizers, clearance; spending dips after holidays"],
+        ["February", "Super Bowl (early Feb); Valentine's Day; tax refunds start", "Snacks, beer, big-screen TVs; jewelry, flowers, candy, dining"],
+        ["March", "Tax-refund season peaks; spring break; Easter some years", "Cars, furniture, electronics bought with refunds; travel"],
+        ["April", "Tax Day (~Apr 15); Easter some years", "Candy, apparel, ham; refund spending tapers"],
+        ["May", "Mother's Day; Memorial Day (last Monday)", "Flowers, brunch; grills, mattresses, outdoor gear; summer kickoff"],
+        ["June", "Father's Day; graduations; weddings", "Tools, grills, gifts; travel demand rising"],
+        ["July", "July 4th; Amazon Prime Day; back-to-school begins", "Fireworks, BBQ, beer; online deal frenzy across retailers"],
+        ["August", "Back-to-school and back-to-college peak", "Apparel, shoes, laptops, dorm furnishings, supplies"],
+        ["September", "Labor Day (first Monday); end of summer", "Mattress, appliance and car sales; summer driving season ends"],
+        ["October", "Halloween; Amazon's fall deal event; holiday early-buys", "Candy, costumes, decor; retailers start holiday promotions"],
+        ["November", "Thanksgiving (4th Thursday); Black Friday; Cyber Monday", "Turkey and groceries, then electronics, toys, apparel deals"],
+        ["December", "Holiday season; last shipping days; post-Christmas sales", "Gifts, gift cards, travel, parties; highest sales month for most retailers"]
+      ],
+      "note": "Easter moves between late March and late April, shifting sales between Q1 and Q2 and distorting year-on-year comparisons."
+    },
+    {
+      "type": "list",
+      "title": "Size of the big moments (recent NRF / Adobe / IRS data)",
+      "items": [
+        "Holiday season (Nov-Dec) 2025: retail sales passed ~$1 trillion for the first time, up ~4% (NRF / CNBC Retail Monitor).",
+        "Thanksgiving weekend 2025 (Thursday to Cyber Monday): a record ~203M shoppers, more online than in-store (NRF).",
+        "Cyber Monday 2025: ~$14B of US online spend, the biggest online day of the year (Adobe).",
+        "Prime Day 2025 (four days in July): ~$24B of US online spend across all retailers, not just Amazon (Adobe).",
+        "Halloween 2025: a record ~$13B, split roughly evenly across costumes, decorations and candy (NRF).",
+        "Valentine's Day 2026: a record ~$29B forecast, ~$200 per celebrant (NRF).",
+        "Back-to-school 2026: ~$147B forecast, ~$43B K-12 and ~$104B college (NRF).",
+        "Tax season 2026: average refund ~$3,400 through mid-April, up ~11% on 2025 (IRS)."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Tax-refund season is a real spending wave",
+      "body": "Most US tax filers over-withhold during the year and get a lump-sum refund between February and April. For many lower- and middle-income households, it is the biggest cheque of the year. Retailers of cars, furniture, electronics and apparel see a visible bump, and dollar stores and discounters feel it when refunds arrive late or shrink. Refunds that include the Earned Income Tax Credit start flowing from late February."
+    },
+    {
+      "type": "text",
+      "title": "Retail fiscal years and the 4-5-4 calendar",
+      "body": "Most US retailers end their fiscal year around January 31 (Walmart, Target, Kroger, Dollar General), so the full holiday season and January returns land in one year. Watch naming: Walmart's 'fiscal 2026' ended January 2026. Costco's year ends around August 31; Amazon uses the calendar year. Retailers report in 4-5-4 months (weeks per month in each quarter) so every period has the same number of weekends."
+    },
+    {
+      "type": "list",
+      "title": "4-5-4 essentials",
+      "items": [
+        "Each quarter is 13 weeks split 4-5-4; the year is 52 weeks and starts in early February (NRF calendar).",
+        "A 53rd week is added roughly every five to six years (most recently 2023), inflating that year's sales.",
+        "Comparisons are week-aligned: 'comparable sales' compares the same retail weeks, not calendar dates.",
+        "Thanksgiving's date (Nov 22-28) changes how many shopping days fall between it and Christmas."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Q4 is not the same quarter everywhere",
+      "body": "For a January-year-end retailer, Q4 is November to January and holds the holiday peak. For Costco, Q4 is June to August; for Amazon it is October to December. Before comparing two companies' 'Q4,' map each to actual months, and check for a 53rd week or an Easter shift."
+    },
+    {
+      "type": "compare",
+      "title": "India vs US: the shopping year",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        ["Peak season", "Navratri-Diwali festive season (Sep-Nov, lunar dates)", "Thanksgiving to Christmas (Nov-Dec, fixed dates)"],
+        ["Mega sale events", "Flipkart Big Billion Days, Amazon Great Indian Festival", "Black Friday, Cyber Monday, Prime Day"],
+        ["Lump-sum cash", "Festive bonuses; harvest income in rural areas", "Tax refunds (Feb-Apr), year-end bonuses"],
+        ["Big-ticket timing", "Auspicious days (Dhanteras, Akshaya Tritiya) for gold, cars", "Holiday weekends (Memorial Day, Labor Day) for cars, mattresses, appliances"],
+        ["Fiscal year", "April to March for most companies", "Calendar year for most; retailers end around Jan 31"],
+        ["Seasonal food", "Festival sweets, mangoes in summer", "Turkey at Thanksgiving, candy at Halloween/Easter, BBQ in summer"]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Ask about timing before diagnosing",
+      "body": "When a case shows a sales drop or spike, ask: which months, which fiscal calendar, and how does it compare with the same period last year? Then check holidays (Easter, Thanksgiving date), weather, tax refunds and promotional events. Saying 'Q1 is seasonally weak after holiday pull-forward' early shows commercial instinct."
+    }
+  ],
+  "in_a_case": [
+    "A grocer's Q1 dip: post-holiday hangover plus January budget resets; check the calendar before blaming operations.",
+    "A toy or electronics retailer: a large share of annual sales sits in Nov-Dec, so inventory planning and holiday returns dominate the economics.",
+    "A discounter's weak February: late or smaller tax refunds hit lower-income shoppers' spending.",
+    "Comparing two retailers' 'Q4': align fiscal calendars and adjust for any 53rd week before drawing conclusions.",
+    "A promotion-timing question: anchor around tentpoles (Prime Day in July, Black Friday, back-to-school) when competitors also discount."
+  ],
+  "flashcards": [
+    {"front": "When do most US retailers end their fiscal year?", "back": "Around January 31, so the holiday season and January returns sit in one year"},
+    {"front": "What is the 4-5-4 calendar?", "back": "NRF retail calendar: 13-week quarters split into 4-, 5- and 4-week months; year starts early Feb"},
+    {"front": "How often is a 53rd week added?", "back": "Roughly every five to six years (most recently 2023)"},
+    {"front": "US holiday (Nov-Dec) retail sales, 2025?", "back": "Passed ~$1 trillion for the first time, up ~4% (NRF)"},
+    {"front": "Biggest US online shopping day?", "back": "Cyber Monday (~$14B in 2025, Adobe)"},
+    {"front": "When is US tax-refund season and why does it matter?", "back": "Feb-Apr; average refund ~$3,400 in 2026; lifts autos, furniture, electronics, discount retail"},
+    {"front": "When is Memorial Day vs Labor Day?", "back": "Last Monday of May (summer kickoff) vs first Monday of September (summer end)"},
+    {"front": "When does Thanksgiving fall?", "back": "Fourth Thursday of November; Black Friday is the next day"},
+    {"front": "Prime Day 2025 US online spend?", "back": "~$24B over four days in July, across all retailers (Adobe)"},
+    {"front": "Back-to-school 2026 spending forecast?", "back": "~$147B (~$43B K-12, ~$104B college) per NRF"}
+  ],
+  "sources": [
+    "https://fashionunited.com/news/business/nrf-report-holiday-sales-grow-4-1-percent-driven-by-consumer-spending-surge/2026011369970",
+    "https://nkytribune.com/2025/12/national-retail-federation-reports-thanksgiving-weekend-drew-record-203-million-shoppers/",
+    "https://news.adobe.com/news/2025/12/adobe-cyber-monday-hits-record",
+    "https://business.adobe.com/blog/prime-day-event-drove-24-billion-in-online-spend-across-us-retailers",
+    "https://nrf.com/media-center/press-releases/nrf-consumer-survey-finds-halloween-spending-to-reach-record-13-1-billion",
+    "https://www.globenewswire.com/news-release/2026/02/05/3233065/0/en/NRF-Forecasts-Record-29-1B-in-Valentine-s-Day-Spending.html",
+    "https://www.retaildive.com/news/back-to-school-record-high-forecast-nrf/825458/",
+    "https://www.irs.gov/newsroom/filing-season-statistics-for-week-ending-april-10-2026",
+    "https://www.toolio.com/post/retail-calendar-explained-the-4-5-4-guide",
+    "https://www.sec.gov/Archives/edgar/data/29534/000110465926032325/dg-20260130x10k.htm",
+    "https://talkbusiness.net/2026/02/walmart-annual-revenue-up-almost-5-net-income-up-12-6/"
+  ],
+  "checked": "2026-10"
+}

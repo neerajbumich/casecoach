@@ -1,0 +1,169 @@
+{
+ "id": "investment-npv",
+ "name": "Investment decision / PE due diligence",
+ "category": "core",
+ "summary": "Should we invest? Assess the market, the company or project, the financials (cash flows, NPV, IRR, payback), the exit or value-creation plan, and the risks against the investor's hurdle.",
+ "opening_line": "I'd evaluate the investment on the market, the asset itself, the financial returns against the investor's hurdle rate, and the key risks. For a PE deal I'd add the value-creation plan and exit.",
+ "when_to_use": [
+  "PE / investor considering buying a company",
+  "Capital project decisions (build a plant, bid for an event, a public project)",
+  "Go/no-go decisions with a return hurdle or payback target"
+ ],
+ "when_not_to_use": [
+  "A strategic acquirer with synergies: use M&A (with this for valuation)"
+ ],
+ "tree": {
+  "label": "Invest?",
+  "children": [
+   {
+    "label": "Market",
+    "children": [
+     {
+      "label": "Size & growth"
+     },
+     {
+      "label": "Competitive position"
+     },
+     {
+      "label": "Cyclicality / trends"
+     }
+    ]
+   },
+   {
+    "label": "Asset / company",
+    "children": [
+     {
+      "label": "Revenue quality & margins"
+     },
+     {
+      "label": "Management"
+     },
+     {
+      "label": "Capex needs"
+     }
+    ]
+   },
+   {
+    "label": "Financial returns",
+    "children": [
+     {
+      "label": "Cash flows"
+     },
+     {
+      "label": "NPV / IRR vs hurdle"
+     },
+     {
+      "label": "Payback"
+     },
+     {
+      "label": "Exit multiple & timing"
+     }
+    ]
+   },
+   {
+    "label": "Value creation",
+    "children": [
+     {
+      "label": "Revenue growth"
+     },
+     {
+      "label": "Cost / margin improvement"
+     },
+     {
+      "label": "Capital structure"
+     }
+    ]
+   },
+   {
+    "label": "Risks",
+    "children": [
+     {
+      "label": "Downside scenarios"
+     },
+     {
+      "label": "Regulatory"
+     },
+     {
+      "label": "Execution"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Market & asset",
+   "questions": [
+    "Is it a good business in a good market?"
+   ],
+   "data_to_ask": [
+    "Financials, market data"
+   ]
+  },
+  {
+   "name": "Returns",
+   "questions": [
+    "What are the cash flows, NPV/IRR and payback vs the hurdle?"
+   ],
+   "data_to_ask": [
+    "Investment, cash flows, discount rate, exit multiple"
+   ]
+  },
+  {
+   "name": "Risks",
+   "questions": [
+    "What breaks the thesis? What's the downside case?"
+   ],
+   "data_to_ask": [
+    "Sensitivities"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "asset-management-pe",
+   "note": "LBO lens: entry multiple, leverage, EBITDA growth, exit multiple → IRR / MOIC (e.g. 3× in 5 years ≈ 25% IRR)."
+  },
+  {
+   "industry": "utilities",
+   "note": "Long-lived, regulated returns: capacity, demand growth, tariff / PPA prices."
+  },
+  {
+   "industry": "sports",
+   "note": "Event bids: upfront cost vs tourism, broadcast, sponsorship and long-term legacy value."
+  }
+ ],
+ "common_mistakes": [
+  "Ignoring the time value of money",
+  "No hurdle rate or benchmark to compare against",
+  "Forgetting the exit or terminal value",
+  "No downside scenario"
+ ],
+ "related": [
+  "mergers-acquisitions",
+  "breakeven",
+  "market-entry"
+ ],
+ "match": {
+  "case_types": [
+   "Investment/PE due diligence"
+  ],
+  "tags": [
+   "npv",
+   "private-equity",
+   "due-diligence",
+   "valuation",
+   "perpetuity",
+   "time-value-of-money",
+   "expected-value",
+   "irr",
+   "growing-perpetuity"
+  ],
+  "keywords": [
+   "invest",
+   "npv",
+   "return",
+   "payback"
+  ]
+ }
+}

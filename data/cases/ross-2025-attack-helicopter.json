@@ -1,0 +1,298 @@
+{
+ "id": "ross-2025-attack-helicopter",
+ "title": "Attack Helicopter",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  149,
+  155
+ ],
+ "variant_group_id": "ross-2025-attack-helicopter",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Market Entry",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Defense | Market Entry",
+ "industry": "aerospace-defense",
+ "sub_industry": "defense",
+ "industry_source_label": "Defense",
+ "geography": "Multi-country (US, Brazil, France)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 3/3 (Quant - 3, Qual - 2, Overall - 3)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "site-selection",
+  "profitability-analysis",
+  "export-controls",
+  "five-year-profit",
+  "market-sizing",
+  "international-expansion"
+ ],
+ "concepts_tested": [
+  "5-year profit comparison across plant locations",
+  "impact of export-control restrictions on addressable revenue",
+  "certification cost as an added variable cost for imports",
+  "qualitative risk assessment of an emerging-market site"
+ ],
+ "prompt": "Our client is a US defense contractor and one of its divisions manufactures attack helicopters for military operations. The company is considering setting up a new plant to meet increasing demand in the attack helicopter space. These helicopters are fully equipped with guns and ammo when delivered to the end customer. Our client has considered three sites to setup operations: Brazil, France, and the US. How would you make this decision, and where should our client set up the plant based on that analysis?",
+ "clarifying_info": [
+  {
+   "question_topic": "Existing plant footprint",
+   "answer": "Our client has 3 plants in the US; 2 in Kansas and 1 in Michigan."
+  },
+  {
+   "question_topic": "Current capacity utilization",
+   "answer": "The plants operate at full capacity today."
+  },
+  {
+   "question_topic": "US expansion option",
+   "answer": "One of the US plants can accommodate an additional assembly line at a cost of $500M; the other 2 are landlocked in residential areas and cannot be expanded."
+  }
+ ],
+ "interviewer_notes": "Candidate should structure a framework to evaluate the three countries, then start with a financial analysis (nudge them toward this if they don't). If the candidate does not mention examples of variable and fixed costs, prompt them to do so before revealing the financials.",
+ "suggested_framework": {
+  "summary": "Evaluate the three candidate sites (US, Brazil, France) on profitability, customers, suppliers, and logistics.",
+  "tree": {
+   "label": "Attack Helicopter Plant Site Selection",
+   "children": [
+    {
+     "label": "Profitability Analysis of Each Site",
+     "children": [
+      {
+       "label": "Costs",
+       "children": [
+        {
+         "label": "Variable Costs: materials, hourly labor, ship/distribution"
+        },
+        {
+         "label": "Fixed Costs: PP&E, utilities, SG&A, initial cost"
+        }
+       ]
+      },
+      {
+       "label": "Revenues",
+       "children": [
+        {
+         "label": "Price per helicopter"
+        },
+        {
+         "label": "# of helicopters/year"
+        },
+        {
+         "label": "Replacement frequency"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Customers",
+     "children": [
+      {
+       "label": "Customer location / proximity for design inputs"
+      },
+      {
+       "label": "Additional customer points"
+      },
+      {
+       "label": "Government preference for domestic suppliers"
+      },
+      {
+       "label": "Custom designs per country"
+      },
+      {
+       "label": "Proprietary info / building for two countries at once"
+      },
+      {
+       "label": "Private security market beyond military"
+      }
+     ]
+    },
+    {
+     "label": "Suppliers",
+     "children": [
+      {
+       "label": "Adequate local supply base"
+      },
+      {
+       "label": "Assembly inputs: spare parts, raw materials"
+      },
+      {
+       "label": "Local regulations on imports"
+      }
+     ]
+    },
+    {
+     "label": "Logistics",
+     "children": [
+      {
+       "label": "Getting product to the customer"
+      },
+      {
+       "label": "Labor availability (skilled managers & technicians)"
+      },
+      {
+       "label": "Export control restrictions"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you structure your analysis of where to set up the new plant?",
+   "expected_answer": "Candidate builds a framework covering profitability (costs and revenues) of each site, plus customers, suppliers, and logistics considerations, then leads with a financial analysis.",
+   "good_answer_signals": [
+    "leads with or quickly pivots to a financial/profitability analysis",
+    "names specific variable and fixed cost categories before financials are revealed"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Here is the cost, sales, and market size information for each site.",
+   "release_when": "After candidate has proposed a financial framework and named example variable/fixed costs",
+   "info_to_release": "Initial plant setup cost: $500M (US), $2B (Brazil), $3B (France). Fixed cost: $100M annually in all three countries. Variable cost: $15M (US), $20M (Brazil), $25M (France) per helicopter. Each helicopter sells for $100M/unit; if imported into the US, the US government requires certification costing $15M/unit. The US and France each have export control restrictions prohibiting sale of attack helicopters to other countries — so a US-built plant can only sell to the US government (no exports). Defense budgets for the next 5 years: $100B (US), $15B (Brazil), $10B (France). % of each defense budget expected to be spent on our helicopters: 20% (US), 50% (Brazil), 15% (France).",
+   "expected_answer": "Candidate should recognize that a US-based plant can only sell domestically (due to US export restrictions), while a Brazil-based plant can sell both into Brazil and export to the US (paying the $15M/unit certification cost), since Brazil has no export restriction. France should be quickly ruled out as unattractive: it shares the same cost structure as Brazil but has a much smaller addressable revenue and also carries export restrictions.",
+   "good_answer_signals": [
+    "identifies that US-built helicopters cannot be exported due to export controls",
+    "identifies that Brazil-built helicopters can serve both the Brazilian and US markets",
+    "quickly screens out France due to small revenue base plus its own export restriction"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Calculate 5-year profit for a plant in the US versus a plant in Brazil.",
+   "info_to_release": "Once candidate proposes a profitability calculation, nudge them to calculate profit over the next 5 years.",
+   "expected_answer": "US plant: Revenue = 20% x $100B = $20B; # helicopters = $20B/$100M = 200; Variable Cost = 200 x $15M = $3B; Fixed Cost over 5 years = $100M x 5 = $500M; Initial Cost = $500M; Profit = $20B - $3B - $500M - $500M = $16B. Brazil plant: US-bound revenue = 20% x $100B = $20B; Brazil-bound revenue = 50% x $15B = $7.5B; Total revenue = $27.5B; # US-bound helicopters = $20B/$100M = 200; # Brazil-bound helicopters = $7.5B/$100M = 75; total 275 helicopters manufactured; Variable (manufacturing) cost = 275 x $20M = $5.5B; Certification cost (only on the 200 US-bound units) = 200 x $15M = $3B; combined variable-type costs = $8.5B; Fixed Cost over 5 years = $500M; Initial/start-up cost = $2B; Profit = $27.5B - $8.5B - $500M - $2B = $16.5B. Brazil generates $500M more profit than the US over 5 years.",
+   "good_answer_signals": [
+    "correctly limits US-plant revenue to the US market only",
+    "correctly identifies Brazil can address both the Brazil and US markets",
+    "correctly applies the $15M/unit certification cost only to the US-bound helicopters manufactured in Brazil",
+    "arrives at Brazil's $500M profit advantage over 5 years"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "Evaluate the potential risks of manufacturing helicopters in Brazil. (Ask this if the candidate doesn't raise it unprompted.)",
+   "expected_answer": "Political stability; product quality; robustness of supply chain; cultural customs differing and affecting business relationships; know-how relative to other countries; brand image and trust in the helicopters; national security concerns since defense equipment would be manufactured outside the US.",
+   "good_answer_signals": [
+    "raises risks proactively without being prompted",
+    "includes at least one risk beyond generic 'political risk' (e.g., national security/manufacturing defense equipment abroad)"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation?",
+   "expected_answer": "Brazil is the more attractive site for the new plant: profits over 5 years are higher by $500M, and the company won't be entirely dependent on a single country (US) for sales. Risks include those raised in brainstorming (political stability, quality, supply chain, cultural, national security). Next steps: assess potential to sell helicopters outside these 3 countries to the global market, gauge labor's reaction at the existing US plants, and evaluate whether US-Brazil relations are likely to stay cordial over the next 5 years to preserve favorable export/certification conditions.",
+   "good_answer_signals": [
+    "leads with the $500M profit advantage as the primary driver",
+    "raises diversification away from single-country dependence as a secondary benefit",
+    "proposes concrete, case-specific next steps rather than generic ones"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the 5-year profit from building the new plant in the US?",
+   "givens": [
+    "US revenue over 5 years = 20% x $100B defense budget",
+    "Price per helicopter = $100M",
+    "Variable cost (US) = $15M/helicopter",
+    "Fixed cost = $100M/year for 5 years",
+    "Initial plant cost = $500M",
+    "US-built helicopters cannot be exported (export control restriction)"
+   ],
+   "steps": [
+    "Revenue = 20% x $100B = $20B",
+    "# of helicopters = $20B / $100M = 200",
+    "Variable Cost = 200 x $15M = $3B",
+    "Fixed Cost (5 years) = $100M x 5 = $500M",
+    "Initial Cost = $500M",
+    "Profit = Revenue - Variable Cost - Fixed Cost - Initial Cost = $20B - $3B - $500M - $500M = $16B"
+   ],
+   "answer": "$16B profit over 5 years for a US plant",
+   "answer_value": 16,
+   "unit": "$B",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the 5-year profit from building the new plant in Brazil?",
+   "givens": [
+    "US-bound revenue = 20% x $100B = $20B",
+    "Brazil-bound revenue = 50% x $15B",
+    "Price per helicopter = $100M",
+    "Variable manufacturing cost (Brazil) = $20M/helicopter",
+    "Certification cost for US-bound units = $15M/helicopter",
+    "Fixed cost = $100M/year for 5 years",
+    "Start-up cost = $2B",
+    "Brazil has no export restriction, so it can serve both the Brazilian and US markets"
+   ],
+   "steps": [
+    "US-bound revenue = 20% x $100B = $20B; Brazil-bound revenue = 50% x $15B = $7.5B; Total revenue = $27.5B",
+    "# US-bound helicopters = $20B / $100M = 200; # Brazil-bound helicopters = $7.5B / $100M = 75; Total manufactured = 275",
+    "Variable manufacturing cost = 275 x $20M = $5.5B",
+    "Certification cost (only 200 US-bound units) = 200 x $15M = $3B",
+    "Combined variable-type costs = $5.5B + $3B = $8.5B",
+    "Fixed Cost (5 years) = $100M x 5 = $500M",
+    "Profit = Revenue - Combined Variable-type Costs - Fixed Cost - Start-up Cost = $27.5B - $8.5B - $500M - $2B = $16.5B"
+   ],
+   "answer": "$16.5B profit over 5 years for a Brazil plant, $500M higher than the US option",
+   "answer_value": 16.5,
+   "unit": "$B",
+   "verified": true
+  }
+ ],
+ "synthesis": "Based on the financials, Brazil appears to be the more attractive candidate for setting up the new plant: 5-year profits are higher by $500M ($16.5B vs. $16B), and the company won't be entirely dependent on a single country (the US) for sales, since Brazil can serve both the Brazilian and US markets while the US plant can only serve the US market due to export control restrictions. France is not attractive: it shares the same cost structure as Brazil but has significantly smaller revenue potential and its own export restrictions. Risks of a Brazil plant include political stability, product quality, supply-chain robustness, cultural differences, and national-security concerns from manufacturing defense equipment outside the US. Next steps: assess the potential to sell helicopters outside these 3 countries to the global market, gauge labor's reaction at the existing US plants, and evaluate whether US-Brazil relations are likely to remain cordial enough over the next 5 years to preserve favorable export/certification conditions.",
+ "what_great_looks_like": [
+  "Quickly rules out France due to smaller revenue base and shared export restriction, without needing full math",
+  "Recognizes that US export-control restrictions cap a US-built plant's revenue to the domestic market only",
+  "Recognizes Brazil has no such export restriction and can serve both Brazil and the (certified) US market",
+  "Correctly applies the $15M/unit certification cost only to helicopters destined for the US, not to all 275 units",
+  "Frames the $500M profit edge alongside the strategic diversification benefit of not relying on a single market",
+  "Proactively raises Brazil-specific risks (political, quality, supply chain, national security) without being prompted"
+ ],
+ "common_pitfalls": [
+  "Applying the US-bound certification cost to all 275 Brazil-manufactured helicopters instead of only the 200 US-bound units",
+  "Failing to rule out France early despite it having identical costs to Brazil but far less revenue potential",
+  "Assuming a US-built plant can export to Brazil or elsewhere, ignoring the stated export control restriction",
+  "Computing profit for only a single year rather than over the 5-year horizon the case calls for"
+ ],
+ "follow_ups": [
+  "How would the recommendation change if the US eased its export control restrictions?",
+  "What would happen to Brazil's profit advantage if the US government raised the certification cost per unit?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "No page images were rendered for this case (render_pages is empty in meta.json); all financial data comes from text.txt, which presents it as a labeled table/list rather than a numbered 'Exhibit', so no exhibits array entries were created despite the structured financial data.",
+  "fields_inferred": [
+   "what_great_looks_like",
+   "common_pitfalls",
+   "follow_ups",
+   "estimated_minutes",
+   "quant_intensity",
+   "sub_industry",
+   "concepts_tested"
+  ]
+ }
+}

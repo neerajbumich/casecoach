@@ -1,0 +1,124 @@
+{
+  "id": "rail-trucking",
+  "name": "Rail & Trucking",
+  "group": "Travel & transport",
+  "one_liner": "Moving freight over land by railroad and truck, where rail wins on long-haul bulk cost efficiency and trucking wins on speed and flexibility.",
+  "how_it_makes_money": "Railroads charge per carload or container, with pricing power from a concentrated network of few Class I carriers. Truckload carriers charge per mile, less-than-truckload (LTL) carriers charge per hundredweight for consolidated shipments, and both add fuel surcharges. Revenue mixes contract rates with more volatile spot rates.",
+  "value_chain": [
+    "Shipper tendering and brokerage",
+    "First-mile pickup and drayage",
+    "Line-haul by rail or truck",
+    "Terminal and intermodal transfer",
+    "Final delivery"
+  ],
+  "revenue_formula": [
+    "Rail revenue = carloads × revenue per carload",
+    "Truckload revenue = trucks × loaded miles per truck × rate per mile",
+    "LTL revenue = shipments × weight per shipment × revenue per hundredweight"
+  ],
+  "cost_structure": [
+    "Labor: drivers and crews; the largest cost for trucking",
+    "Fuel: partially passed through via surcharges",
+    "Equipment: tractors, trailers, locomotives, railcars",
+    "Track and network maintenance (rail): large fixed capex",
+    "Insurance and claims: rising for trucking",
+    "Terminals and yards"
+  ],
+  "margins": "Class I railroads typically run operating ratios around roughly 60-65%, one of the most profitable transport modes. Truckload carriers earn thin, cyclical margins in a fragmented market, while LTL is more consolidated and more profitable. Network density and freight cycle drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Operating ratio (OR)",
+      "what": "Operating expenses divided by revenue; lower is better and it is the headline metric for rails and truckers."
+    },
+    {
+      "name": "Revenue per loaded mile",
+      "what": "Pricing measure for truckload carriers."
+    },
+    {
+      "name": "Revenue per carload",
+      "what": "Pricing measure for railroads."
+    },
+    {
+      "name": "Deadhead / empty miles",
+      "what": "Share of miles driven without cargo, a key efficiency drag."
+    },
+    {
+      "name": "Asset utilization (miles per tractor)",
+      "what": "How productively fleet capital is used."
+    },
+    {
+      "name": "Train velocity and dwell time",
+      "what": "Rail network speed and service quality."
+    }
+  ],
+  "trends": [
+    "Prolonged freight recession with excess truck capacity pressuring rates",
+    "Rail consolidation, including the proposed Union Pacific and Norfolk Southern merger",
+    "Precision scheduled railroading and debates over service levels",
+    "Intermodal competing to win long-haul truck freight",
+    "Driver shortages, autonomous trucking pilots and electrification",
+    "Nearshoring driving cross-border freight with Mexico"
+  ],
+  "key_players": [
+    "Union Pacific",
+    "BNSF (Berkshire Hathaway)",
+    "CSX",
+    "Norfolk Southern",
+    "Canadian National",
+    "CPKC",
+    "J.B. Hunt",
+    "Old Dominion",
+    "Knight-Swift",
+    "Schneider"
+  ],
+  "case_angles": [
+    {
+      "question": "A trucking company's operating ratio worsened; how do you fix it?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should two Class I railroads merge?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "How can a railroad win more freight from trucks?",
+      "framework_id": "growth-strategy"
+    },
+    {
+      "question": "Should a truckload carrier invest in autonomous trucks?",
+      "framework_id": "investment-npv"
+    }
+  ],
+  "interview_hooks": [
+    "Does precision scheduled railroading create long-term value or just short-term margin at the expense of service?",
+    "Will a transcontinental railroad merger help or hurt shippers?",
+    "When will autonomous trucking become economically meaningful?"
+  ],
+  "news": {
+    "keywords": [
+      "railroad",
+      "freight rail",
+      "trucking",
+      "truckload",
+      "ltl",
+      "intermodal",
+      "class i",
+      "truck drivers",
+      "freight rates",
+      "spot rates",
+      "locomotive"
+    ],
+    "companies": [
+      "Union Pacific",
+      "BNSF",
+      "CSX",
+      "Norfolk Southern",
+      "Canadian National",
+      "CPKC",
+      "J.B. Hunt",
+      "Old Dominion",
+      "Knight-Swift",
+      "Schneider"
+    ]
+  }
+}

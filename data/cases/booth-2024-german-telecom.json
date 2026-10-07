@@ -1,0 +1,209 @@
+{
+ "id": "booth-2024-german-telecom",
+ "title": "German Telecom",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  163,
+  168
+ ],
+ "case_type": [
+  "Profitability",
+  "Market Entry",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "telecom",
+ "sub_industry": "wireless-carriers",
+ "industry_source_label": "Telecommunications / Telecom Company",
+ "geography": "United Kingdom",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 2/3; Creativity 1/3",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "4g",
+  "spectrum-auction",
+  "sealed-bid",
+  "market-entry",
+  "breakeven-bid",
+  "telecom"
+ ],
+ "fit_question": "Tell me about a time you faced a challenge as part of a team. Tell me about a time when you led a team to elevate its performance.",
+ "prompt": "A large German telecom company is considering bidding in a sealed auction for one of five licenses to operate a new 4G mobile network in the United Kingdom. Determine whether the market is attractive and recommend an auction strategy.",
+ "clarifying_info": [
+  {
+   "question_topic": "Auction",
+   "answer": "The five-year licenses go to the five highest simultaneous sealed bids, one per bidder. One license is reserved for a new entrant; the other four are open to incumbents and entrants."
+  },
+  {
+   "question_topic": "Client",
+   "answer": "The client leads Germany, has a broad European presence but no UK operations, has stagnant growth and can fund both the bid and network build, but does not want to overpay."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Four UK incumbents split the current market roughly equally and can reuse networks and retail outlets."
+  },
+  {
+   "question_topic": "Technology",
+   "answer": "4G offers up to five times advanced-3G speed and greater capacity; the government will phase out older networks over three years."
+  }
+ ],
+ "interviewer_notes": "Heavily candidate-led case with two decisions: estimate the five-year value of the license, then translate value into a sealed-bid ceiling and practical bid. Use zero discount rate as instructed. The realistic competitive set is other new entrants because incumbents have lower build costs and four unrestricted licenses are available.",
+ "suggested_framework": {
+  "summary": "Value the license from customers, price and operating economics, then design a bid using competition, uncertainty and strategic fit.",
+  "tree": {
+   "label": "4G auction",
+   "children": [
+    {
+     "label": "Market and revenue",
+     "children": [
+      {
+       "label": "Market size, growth, adoption and share"
+      },
+      {
+       "label": "Price, services and competitive pressure"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Network build and annual fixed cost"
+      },
+      {
+       "label": "Variable cost and five-year cash flow"
+      }
+     ]
+    },
+    {
+     "label": "Bid strategy",
+     "children": [
+      {
+       "label": "Value ceiling and target return"
+      },
+      {
+       "label": "Entrant competition, sealed-bid uncertainty and regulation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine the auction strategy?",
+   "expected_answer": "Estimate five-year customers, price and revenue; subtract network build, operating and variable costs; then set a bid below the resulting value based on required return, entry disadvantage, competitor willingness to pay and regulatory uncertainty.",
+   "good_answer_signals": [
+    "Separates license value from bid price",
+    "Includes sealed-bid competition and uncertainty"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What makes the UK 4G opportunity attractive or risky for this client?",
+   "expected_answer": "Attractions include a growing market, higher-value services, capacity demand and mandated technology transition. Risks include no installed base, costly network and retail build, weaker share than incumbents, uncertain willingness to pay, aggressive entrants and incumbents, and future licensing or regulation changes.",
+   "good_answer_signals": [
+    "Recognizes the new-entrant disadvantage",
+    "Balances technology upside with price competition"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Assume the market grows from 30M to 40M customers, the client gets 1/8 share, price is £50 per month, the network build costs £740M, and annual network and variable costs are £50M each. With a zero discount rate, what is the five-year license value?",
+   "expected_answer": "The client serves 5M customers. Annual revenue is 5M×£50×12=£3B, or £15B over five years. Costs are £740M+5×£50M+5×£50M=£1.24B. Pre-license cash flow is £13.76B, the break-even bid ceiling before a required return or risk adjustment.",
+   "good_answer_signals": [
+    "Annualizes monthly ARPU",
+    "Subtracts both recurring cost categories across five years"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How should the client translate £13.76B of value into a sealed bid?",
+   "expected_answer": "Never exceed £13.76B under the stated assumptions, because that yields zero profit. Bid below it to preserve a target return and downside cushion, informed by entrant competition. Incumbents may value licenses more because they can reuse infrastructure, so focus on the entrant-reserved license and scenario-test share, price and costs.",
+   "good_answer_signals": [
+    "Treats £13.76B as a ceiling, not a recommendation",
+    "Focuses on the reserved license"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What do you recommend?",
+   "expected_answer": "Pursue the entrant-reserved license, but bid materially below the £13.76B break-even ceiling to earn a return and protect against share, price and cost downside. Research other entrants, validate 1/8 share and £50 ARPU, and prepare for licensing and technology-policy changes.",
+   "good_answer_signals": [
+    "Provides a conditional go decision",
+    "Quantifies and correctly frames the bid ceiling"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the five-year pre-license value and break-even bid ceiling?",
+   "givens": [
+    "40M market customers",
+    "1/8 client share",
+    "£50/customer/month",
+    "5-year license",
+    "£740M build",
+    "£50M annual network cost",
+    "£50M annual variable cost",
+    "0% discount rate"
+   ],
+   "steps": [
+    "Customers=40M/8=5M",
+    "Annual revenue=5M×£50×12=£3B",
+    "Five-year revenue=£15B",
+    "Total costs=£740M+5×£50M+5×£50M=£1.24B",
+    "Value=£15B-£1.24B=£13.76B"
+   ],
+   "answer": "£13.76B pre-license cash flow and break-even bid ceiling",
+   "answer_value": 13.76,
+   "unit": "GBP billions",
+   "verified": true
+  }
+ ],
+ "synthesis": "Bid for the new-entrant-reserved license only if the client can preserve an acceptable return below the £13.76B break-even ceiling. That value assumes 5M customers, £50 monthly ARPU and £1.24B of five-year cost with no discounting. Validate share and willingness to pay, assess rival entrants, and build downside scenarios for cost and regulation before setting a sealed bid.",
+ "what_great_looks_like": [
+  "Builds the five-year value from operating drivers",
+  "Distinguishes value ceiling from a profit-making bid",
+  "Recognizes incumbents' infrastructure advantage and the entrant-reserved license"
+ ],
+ "common_pitfalls": [
+  "Uses £50 as annual rather than monthly revenue",
+  "Bids the full £13.76B while claiming the venture is profitable",
+  "Assumes equal economics for incumbents and entrants"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The case has no candidate exhibits. The source math is correct; £13.76B is explicitly a maximum break-even bid, so a value-preserving bid must be lower. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

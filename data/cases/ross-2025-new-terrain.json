@@ -1,0 +1,304 @@
+{
+ "id": "ross-2025-new-terrain",
+ "title": "New Terrain",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  47,
+  55
+ ],
+ "variant_group_id": "ross-2025-new-terrain",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Market Entry",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Auto & Mobility | New Product / Market Entry",
+ "industry": "automotive-ev",
+ "sub_industry": "motorcycles-powersports",
+ "industry_source_label": "Auto & Mobility",
+ "geography": "United States (client HQ Nigeria)",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 1/3 (Quant - 1, Qual - 2, Overall - 1)",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "market-entry",
+  "new-product",
+  "pricing",
+  "tariffs",
+  "positioning",
+  "gross-profit",
+  "brand-equity",
+  "dealer-channel"
+ ],
+ "concepts_tested": [
+  "gross profit calculation with tariffs and channel margin",
+  "competitive positioning / stuck-in-the-middle analysis",
+  "differentiation strategy"
+ ],
+ "prompt": "ABC Motors, a market leader in motorcycle manufacturing, is headquartered in Nigeria with a strong presence across India and Southeast Asia. Recently, ABC expanded operations into Italy as part of its broader European growth strategy. ABC Motors is known for being an exceptional, high-quality manufacturer. Following the success of its three-wheeled vehicles (used as tuktuks) in India, ABC Motors is considering entering the U.S. market — but not with motorcycles, as they are certain they can't compete in this space in the U.S. Instead, they are evaluating whether to manufacture and sell snowmobiles, capitalizing on growing demand for winter outdoor recreation across the northern United States. ABC plans to launch only one model initially, a four-seat recreational snowmobile, and to sell through U.S. dealers, who will take a standard margin. Fleet sales to rental operators or resorts are not being considered. ABC believes it can competitively position itself between premium U.S. and Canadian brands (Polaris, Ski-Doo, Yamaha) and the lower-end Chinese brands, which flooded the U.S. market with aggressively priced snowmobiles pre-COVID, but have faced severe supply and reliability issues since then. You have been hired to help ABC Motors evaluate whether to pursue this U.S. snowmobile market entry.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective and timing",
+   "answer": "ABC Motors plans to make a go/no-go decision within 3 months. If approved, the launch would occur in the next winter season (~12–15 months from today)."
+  },
+  {
+   "question_topic": "Market focus",
+   "answer": "ABC's proposed model is designed for recreational use by individual buyers, not rental fleets or commercial operators. The target market includes northern U.S. states with active winter recreation (e.g., Minnesota, Michigan, Maine, Vermont)."
+  },
+  {
+   "question_topic": "Go-to-market strategy",
+   "answer": "Sales will occur exclusively through U.S. dealers; ABC will not pursue direct-to-consumer distribution. ABC has no current U.S. dealer relationships. Dealers typically only carry one or two established brands and are cautious about onboarding unknown international players."
+  },
+  {
+   "question_topic": "Brand and operations",
+   "answer": "Brand recognition is extremely low in the U.S.; ABC has no current customer awareness in this category or geography. Manufacturing will initially remain overseas, leveraging ABC's existing production capabilities."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "The U.S. snowmobile market is highly consolidated, with Polaris, Ski-Doo, and Yamaha controlling the vast majority of share. Chinese brands previously disrupted the market with aggressive low-price entries, though many suffered major reliability and delivery issues during COVID. Several Chinese brands have relocated production to the U.S., improving speed, reliability, and brand perception, regaining share."
+  }
+ ],
+ "interviewer_notes": "Candidate-led case (interviewee led) testing market entry evaluation combining a gross profit calculation (with tariffs and dealer margin), a differentiation brainstorm, and a positioning-chart interpretation exercise. Ratings: Quant - 1, Qual - 2, Overall - 1 (book's own scale).",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering market attractiveness, customer preferences, and financial viability of the U.S. snowmobile entry.",
+  "tree": {
+   "label": "U.S. Snowmobile Market Entry",
+   "children": [
+    {
+     "label": "Market Attractiveness",
+     "children": [
+      {
+       "label": "Size and growth rate of the U.S. recreational snowmobile market"
+      },
+      {
+       "label": "Seasonal demand patterns and regional concentration"
+      },
+      {
+       "label": "Long-term demand trends (e.g., weather shifts, outdoor recreation habits)"
+      },
+      {
+       "label": "Market share and positioning of Polaris, Ski-Doo, Yamaha"
+      },
+      {
+       "label": "Risk of incumbent retaliation (e.g., pricing, dealer lockouts, lobbying)"
+      }
+     ]
+    },
+    {
+     "label": "Customer Preferences",
+     "children": [
+      {
+       "label": "Purchase drivers for individual buyers (brand trust, safety, price)"
+      },
+      {
+       "label": "Dealer willingness to carry new brands; exclusivity norms"
+      },
+      {
+       "label": "Importance of service, parts availability, and warranty expectations"
+      }
+     ]
+    },
+    {
+     "label": "Financial Viability",
+     "children": [
+      {
+       "label": "Net revenue after dealer cut and full cost stack"
+      },
+      {
+       "label": "Sensitivity to tariffs, seasonality, and lower-than-expected sales"
+      },
+      {
+       "label": "Margin headroom to support marketing, service, and incentives"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate whether ABC Motors should pursue this U.S. snowmobile market entry?",
+   "expected_answer": "A framework spanning market attractiveness (size/growth, seasonality, incumbent positioning and retaliation risk), customer preferences (purchase drivers, dealer willingness to onboard new brands, service/warranty expectations), and financial viability (net revenue after dealer cut and full cost stack, sensitivity to tariffs/seasonality, margin headroom).",
+   "good_answer_signals": [
+    "Structures around market, customer, and financial dimensions",
+    "Surfaces ABC's lack of U.S. brand equity and dealer relationships as a key consideration up front"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "ABC Motors projects selling 2,000 units in Year 1 at a retail price of $12,000 per unit. What is ABC's projected Year 1 gross profit?",
+   "info_to_release": "Dealer Margin: 20% of retail price. Manufacturing Cost: $5,000 per unit. Transportation Cost: $800 per unit. U.S. Assembly Cost: $400 per unit. Tariff: 25% tariff applies to the manufacturing cost upon import.",
+   "release_when": "Additional information provided only if asked by the interviewee.",
+   "expected_answer": "Dealer margin = 20% × $12,000 = $2,400, so net revenue to ABC = $12,000 - $2,400 = $9,600. Tariff = 25% × $5,000 = $1,250. Total cost per unit = $5,000 + $800 + $400 + $1,250 = $7,450. Gross profit per unit = $9,600 - $7,450 = $2,150. Total Year 1 gross profit = 2,000 × $2,150 = $4.3M.",
+   "good_answer_signals": [
+    "Proactively asks what information is needed to calculate profit before receiving all data",
+    "Correctly nets out dealer margin from retail price to get ABC's net revenue",
+    "Applies the tariff only to manufacturing cost, not the full cost stack"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "ABC Motors is looking to differentiate itself against both premium brands and low-cost Chinese brands. How could they do this?",
+   "expected_answer": "Against premium brands (Polaris, Ski-Doo, Yamaha): offer longer warranties (e.g., 5 years full coverage), include smart features standard (app connectivity, navigation assist), introduce creative ownership models (subscription, winter-only leasing), sponsor regional winter events to build brand recognition. Against low-cost Chinese brands: emphasize consistent delivery timelines and post-sale support, highlight third-party safety testing and certifications, offer dealer-friendly programs (higher margins, co-op marketing), launch eco-friendly variants (quieter engines, lower emissions).",
+   "good_answer_signals": [
+    "Gives a structured, two-sided response (vs. premium, vs. low-cost) rather than a single undifferentiated list"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Take a look at this chart. Based on the positioning of the current competitors, what challenges would ABC Motors face if they were to enter the U.S. snowmobile market?",
+   "info_to_release": "Exhibit 1: U.S. Snowmobile Market Position — a bubble chart of retail price vs. growth rate, bubble size/label = market share, for Polaris, Ski-Doo, Yamaha, Chinese Brand 1, Chinese Brand 2, and Other Chinese Brands.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "ABC is planning to enter at a price point ($12k) that sits between the low-cost Chinese brands (~$6,500-$7,500) and the premium players like Polaris and Ski-Doo (~$13,000-$14,500). There's no meaningful brand presence in that middle space, despite high growth in the value tier and dominance (82% combined share) in the premium tier. The market appears bifurcated: customers either want trusted, high-end brands or low-cost utility, not something in between. ABC risks being stuck in the middle — not cheap enough to win price-sensitive buyers, not trusted enough to steal from Polaris or Ski-Doo.",
+   "good_answer_signals": [
+    "Notices $12k sits in an empty middle segment of the price/growth map",
+    "Articulates the 'stuck in the middle' risk rather than only describing the chart",
+    "Asks about ABC's projected market share/growth (interviewer notes these projections don't yet exist)"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to ABC Motors?",
+   "expected_answer": "Despite healthy projected Year 1 gross profit at a $12k price point, ABC Motors should not pursue a full-scale U.S. launch at this time. The U.S. snowmobile market is bifurcated: customers overwhelmingly choose between premium, trusted brands and low-cost imports, and ABC is aiming for a middle ground that no brand currently occupies, likely for good reason. Instead, ABC should consider a limited regional pilot to test brand receptivity, dealer interest, and serviceability before broader investment — or reconsider its pricing strategy. Risks: brand trust gap, dealer resistance, margin sensitivity to cost/discounting/delay, category expertise gap (no cold-weather powersport experience). Next steps: research to quantify mid-price demand, a small-scale regional pilot with ~10 dealers, and investment in local service/parts network.",
+   "good_answer_signals": [
+    "Reconciles the positive unit economics with the structural positioning risk rather than treating them independently",
+    "Recommends a staged/pilot approach rather than an outright go or no-go",
+    "Names concrete risks and next steps tied to the case's earlier findings"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "U.S. Snowmobile Market Position",
+   "page": 53,
+   "kind": "bar",
+   "description": "Bubble chart plotting retail price (x-axis, $6,000-$15,000) against growth rate (y-axis, 0-16%) for six competitors, with bubble size and label showing market share: Polaris (~$14,300, ~3% growth, 35% share), Ski-Doo (~$13,700, ~5% growth, 29% share), Yamaha (~$13,000, ~1.5% growth, 18% share), Chinese Brand 1 (~$6,900, 14% growth, 7% share), Chinese Brand 2 (~$6,500, 13% growth, 4% share), Other Chinese Brands (~$7,500, 12% growth, 7% share).",
+   "data": {
+    "columns": [
+     "Brand",
+     "Retail Price",
+     "Growth Rate",
+     "Market Share"
+    ],
+    "rows": [
+     [
+      "Polaris",
+      "$14,300",
+      "3%",
+      "35%"
+     ],
+     [
+      "Ski-Doo",
+      "$13,700",
+      "5%",
+      "29%"
+     ],
+     [
+      "Yamaha",
+      "$13,000",
+      "1.5%",
+      "18%"
+     ],
+     [
+      "Chinese Brand 1",
+      "$6,900",
+      "14%",
+      "7%"
+     ],
+     [
+      "Chinese Brand 2",
+      "$6,500",
+      "13%",
+      "4%"
+     ],
+     [
+      "Other Chinese Brands",
+      "$7,500",
+      "12%",
+      "7%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-new-terrain/p053.webp",
+   "key_insight": "There is a clear gap in the $8,000-$12,000 price band: no competitor occupies the mid-price space where ABC plans to enter at $12,000, and the market is bifurcated between a high-growth low-price tier and a low-growth high-share premium tier.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is ABC's projected Year 1 gross profit on 2,000 units at $12,000 retail?",
+   "givens": [
+    "2,000 units",
+    "$12,000 retail price per unit",
+    "Dealer margin: 20% of retail price",
+    "Manufacturing cost: $5,000 per unit",
+    "Transportation cost: $800 per unit",
+    "U.S. assembly cost: $400 per unit",
+    "Tariff: 25% on manufacturing cost upon import"
+   ],
+   "steps": [
+    "Dealer margin = 20% × $12,000 = $2,400",
+    "Net revenue to ABC per unit = $12,000 - $2,400 = $9,600",
+    "Tariff per unit = 25% × $5,000 = $1,250",
+    "Total cost per unit = $5,000 (manufacturing) + $800 (transportation) + $400 (assembly) + $1,250 (tariff) = $7,450",
+    "Gross profit per unit = $9,600 - $7,450 = $2,150",
+    "Total Year 1 gross profit = 2,000 × $2,150 = $4,300,000"
+   ],
+   "answer": "$4.3M total Year 1 gross profit ($2,150 per unit)",
+   "answer_value": 4300000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "Despite healthy projected gross profit in Year 1, ABC Motors should not pursue a full-scale U.S. launch at this time with a price point of $12k. The U.S. snowmobile market is bifurcated: customers overwhelmingly choose between premium, trusted brands and low-cost imports. ABC is aiming for a middle ground that no brand currently occupies, and the market structure suggests that's for good reason. Instead, ABC should consider a limited regional pilot to test brand receptivity, dealer interest, and serviceability before making broader investments — or reconsider its pricing strategy.",
+ "what_great_looks_like": [
+  "Asks what data is needed before attempting the gross profit calculation",
+  "Correctly separates dealer margin (revenue side) from the tariff and cost stack (cost side)",
+  "Connects the positioning-chart finding (empty middle segment) to a 'stuck in the middle' strategic risk rather than just describing the chart",
+  "Recommends a staged pilot rather than a binary go/no-go, reconciling positive unit economics with market-structure risk"
+ ],
+ "common_pitfalls": [
+  "Applying the tariff to the full cost stack instead of just manufacturing cost",
+  "Treating the positive $4.3M gross profit as sufficient justification without addressing brand trust and dealer access risk",
+  "Missing that dealers typically carry only one or two established brands, which is a major barrier to distribution given ABC's zero U.S. brand equity"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[0].data (bubble positions read visually from chart, precise values approximate)"
+  ],
+  "math_verified": true,
+  "notes": "",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

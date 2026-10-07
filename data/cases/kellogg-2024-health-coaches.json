@@ -1,0 +1,324 @@
+{
+ "id": "kellogg-2024-health-coaches",
+ "title": "Health Coaches",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  170,
+  179
+ ],
+ "author": "David Wellner (Kellogg 2011); edited by Craig DePriester (Kellogg 2012), Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "health-coaches",
+ "is_canonical_variant": true,
+ "case_type": [
+  "New Product/GTM",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Y05 Operations; Y06 Opportunity assessment",
+ "industry": "health-insurance",
+ "sub_industry": "payers",
+ "industry_source_label": "X08 Healthcare",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "new-program-launch",
+  "market-sizing",
+  "segmentation",
+  "profitability",
+  "disease-management",
+  "unit-economics"
+ ],
+ "concepts_tested": [
+  "Z10 Customer strategy",
+  "Z08 Market sizing",
+  "Z12 Creativity"
+ ],
+ "fit_question": "Tell me about a project where you used your problem solving skills.",
+ "prompt": "Our client is a large national healthcare payer (health insurance company, think Aetna) exploring the launch of a new disease management ('DM') program to better serve its 5 million members. The idea is to hire and train a team of 'Health Coaches' to manage a portfolio of patients to reduce the costs of overall health expenditures (e.g. reminders to take drugs, provide limited medical advice, suggested diet, exercise etc). Studies show that once a month contact with each patient reduces health spending by 5% on average. Should our client launch the program? If so, what steps should it take?",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry",
+   "answer": "The whole industry is under pressure to innovate new products that will control spending."
+  },
+  {
+   "question_topic": "Company",
+   "answer": "Assume client is first to market."
+  },
+  {
+   "question_topic": "Operations",
+   "answer": "Past attempts to purely automate DM have yielded minimal savings."
+  },
+  {
+   "question_topic": "Health Coaches",
+   "answer": "All activity conducted remotely via phone/email, typically by a nurse that wants to work from home."
+  },
+  {
+   "question_topic": "Patients",
+   "answer": "It's difficult to actually reach patients, so Coaches can contact 8 members per day (assume 25 days per month)."
+  },
+  {
+   "question_topic": "Costs",
+   "answer": "Annual costs per Coach: $60K salary + 20% other (training, benefits, laptop, etc.). There are no other program costs."
+  }
+ ],
+ "interviewer_notes": "Problem: Are the costs associated with the DM program justified by the savings? Problem solving steps: 1) Develop a structure to address the problem, 2) Explore market segmentation, 3) Calculate program profitability, 4) Brainstorm other ideas to boost profitability, 5) Provide client recommendation. Lead with Exhibit A (segmentation); if the interviewee leads with profitability, steer them to first think about customer segmentation. Provide Exhibit B when the interviewee asks about medical costs.",
+ "suggested_framework": {
+  "summary": "The interviewee should drive toward quantifying savings vs. costs of the DM program while also considering qualitative risks.",
+  "tree": {
+   "label": "Should the client launch the Health Coach program?",
+   "children": [
+    {
+     "label": "Program Savings",
+     "children": [
+      {
+       "label": "Customer segmentation by disease area and cost per member"
+      }
+     ]
+    },
+    {
+     "label": "Program Costs",
+     "children": [
+      {
+       "label": "Communication systems"
+      },
+      {
+       "label": "Health Coach salary"
+      },
+      {
+       "label": "Training"
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Assumption accuracy"
+      },
+      {
+       "label": "Competitive response"
+      },
+      {
+       "label": "Regulatory, liabilities"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem: should the client launch the Health Coach program, and if so what steps should it take?",
+   "expected_answer": "The interviewee should drive towards quantifying the savings from the program versus its costs, structured around Program Savings (driven by customer segmentation by disease area and cost per member), Program Costs (communication systems, Health Coach salary, training), and Risks (assumption accuracy, competitive response, regulatory/liability issues). Consideration of qualitative issues is ideal.",
+   "good_answer_signals": [
+    "Frames the decision as savings vs. costs",
+    "Surfaces qualitative risks alongside the quantitative structure"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Which disease area should we look at first?",
+   "release_when": "Provide Exhibit A when the interviewee asks about segments or disease areas",
+   "info_to_release": "Group are employer-sponsored plans, Individual are non-group plans (e.g. private contractors, unemployed). 65+ is a separate segment.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "Interviewee should choose to focus on the 65+ segment (sickest patients on average, likely to drive higher costs, so highest benefit for DM) and on lifestyle diseases (make up the largest portion of sick members and, being behavior-driven, are most likely to benefit from DM). Number of 65+ lifestyle members = 20% segment share x 40% lifestyle share x 5,000,000 members = 400,000.",
+   "good_answer_signals": [
+    "Justifies prioritizing 65+ and lifestyle diseases with logic, not just guessing",
+    "Correctly sizes the target segment at 400,000 members"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What can we do with this information? (i.e. work out whether the program is profitable for the 65+ lifestyle segment)",
+   "release_when": "Provide Exhibit B when the interviewee asks about medical costs. Note: lead with Exhibit A; if the interviewee leads with profitability, steer them to think about customer segmentation first.",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Cost per Coach = $60k base + 20% = $72k. Size of portfolio = 8 patients/day x 25 days/month = 200 patients. Savings for one portfolio = $1,200 PMPM (65+ lifestyle cost) x 12 months x 5% average savings x 200 patients = $144k. Overall savings = ($144k savings - $72k cost) x 2,000 coaches (400,000 members / 200 per coach) = $144m profit per year. Takeaway: profit is $72K per Health Coach, double the cost of a coach. Based on the PMPM data, the Individual segment is break-even (50% less savings than 65+) and the Group segment is a loss.",
+   "good_answer_signals": [
+    "Correctly computes cost per coach, portfolio size, and per-portfolio savings",
+    "Draws the comparison across Individual/Group/65+ segments using the PMPM cost table"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "There are 650,000 Group members with lifestyle diseases left 'uncoached.' Is there a way to make the segment profitable?",
+   "expected_answer": "More efficient DM program: coaching at work, bi-monthly contact, automated correspondence, better training for Health Coaches. Seek additional revenue sources: employers might pay a fee to enroll in the service, government support as a state-approved or sponsored program. Client selection: target members who will respond with savings well above 5%.",
+   "good_answer_signals": [
+    "Generates ideas across program efficiency, new revenue, and customer selection",
+    "Ties ideas back to closing the Group-segment profitability gap"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "As first to the market, client plans to expand Health Coach program externally. Who should they target, and what is your overall recommendation?",
+   "expected_answer": "Client should launch the Health Coaching program, first focusing on lifestyle diseases in the 65+ segment: launch a pilot to prove out assumptions (5% cost reduction, Coach portfolio capacity, etc.), then expand to the entire 65+ lifestyle segment given its strong return, and consider introducing the program to the Individual lifestyle segment despite break-even economics (customer retention, moral rationale). The program yields the greatest savings in the 65+ lifestyle segment; more lifestyle members will still increase overall healthcare costs considerably even after savings. As an alternative, the client could sell its Health Coach service to other payers.",
+   "good_answer_signals": [
+    "Makes a clear go/no-go recommendation with a phased rollout",
+    "Uses common sense to make reasonable assumptions before required inputs are provided",
+    "Keeps track of all units from a math perspective"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Client's member segmentation by disease type",
+   "page": 173,
+   "kind": "bar",
+   "description": "Stacked 100% bar chart showing the client's 5 million members split into three segments (Individual, Group, 65+) and, within each, the mix of disease types (Healthy, Lifestyle, Hereditary, Degenerative, Other). Segment sizes are labeled numerically; disease-type shares within each bar are shown visually but not numerically labeled, except that the text elsewhere implies the 65+ segment is 40% lifestyle.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Segment size (% of 5m members)"
+    ],
+    "rows": [
+     [
+      "Individual",
+      "15%"
+     ],
+     [
+      "Group",
+      "65%"
+     ],
+     [
+      "65+",
+      "20%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-health-coaches/p173.webp",
+   "key_insight": "The 65+ segment is smallest by size but sickest, and lifestyle diseases are the largest disease category overall -- pointing the candidate toward prioritizing the 65+ lifestyle-disease sub-segment.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "exB",
+   "title": "Average cost data (PMPM)",
+   "page": 174,
+   "kind": "table",
+   "description": "Average medical cost per member per month (PMPM) by segment (Individual, Group, 65+) and disease type (Lifestyle, Hereditary, Degenerative).",
+   "data": {
+    "columns": [
+     "Segment",
+     "Lifestyle",
+     "Hereditary",
+     "Degenerative"
+    ],
+    "rows": [
+     [
+      "Individual",
+      "$600",
+      "$150",
+      "$150"
+     ],
+     [
+      "Group",
+      "$400",
+      "$100",
+      "$100"
+     ],
+     [
+      "65+",
+      "$1,200",
+      "$300",
+      "$300"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-health-coaches/p174.webp",
+   "key_insight": "65+ Lifestyle has by far the highest PMPM cost ($1,200), making it the segment where a 5% savings from coaching yields the largest dollar benefit relative to the fixed cost of a Health Coach.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many members are in the 65+ / lifestyle-disease target segment?",
+   "givens": [
+    "65+ segment = 20% of members",
+    "Lifestyle disease share within 65+ = 40%",
+    "Total members = 5,000,000"
+   ],
+   "steps": [
+    "Number of 65+ lifestyle members = 20% x 40% x 5,000,000"
+   ],
+   "answer": "400,000 members",
+   "answer_value": 400000,
+   "unit": "members",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the annual profit from the Health Coach program for the 65+ lifestyle segment?",
+   "givens": [
+    "Cost per Coach = $60k salary + 20% other costs",
+    "Each Coach contacts 8 patients/day, 25 days/month (200-patient portfolio)",
+    "65+ Lifestyle PMPM cost = $1,200",
+    "Program reduces spending by 5% on average",
+    "Target segment size = 400,000 members (2,000 coaches needed at 200 patients each)"
+   ],
+   "steps": [
+    "Cost per Coach = $60,000 x 1.2 = $72,000",
+    "Savings per portfolio = $1,200 PMPM x 12 months x 5% x 200 patients = $144,000",
+    "Profit per Coach = $144,000 savings - $72,000 cost = $72,000",
+    "Number of Coaches needed = 400,000 members / 200 patients per Coach = 2,000",
+    "Overall annual profit = $72,000 profit per Coach x 2,000 Coaches"
+   ],
+   "answer": "$144,000,000 annual profit (2x return on cost per Coach)",
+   "answer_value": 144000000,
+   "unit": "USD/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Client should launch the Health Coaching program, and first focus on lifestyle diseases in the 65+ segment: launch a pilot program to prove out assumptions (e.g. 5% cost reduction, Coach portfolio capacity), then expand to the entire 65+ lifestyle segment ($144M per year in savings, a 2x return on each Health Coach), and consider introducing the program to the Individual lifestyle segment despite break-even economics (customer retention, moral rationale). As first to market, the client could also consider selling its Health Coach service to other payers.",
+ "what_great_looks_like": [
+  "Uses common sense to make reasonable assumptions before the interviewer provides required inputs",
+  "Keeps track of all units (per day, per month, per year, per coach, per member) throughout the math",
+  "Justifies segment prioritization with logic (sickest + highest-cost + behavior-driven) rather than picking arbitrarily"
+ ],
+ "common_pitfalls": [
+  "Diving into profitability math before establishing which segment to analyze",
+  "Losing track of unit conversions (daily contact rate to monthly portfolio size to annual savings)",
+  "Ignoring qualitative risks such as assumption accuracy, competitive response, and regulatory/liability issues"
+ ],
+ "follow_ups": [
+  "As first to market, client plans to expand Health Coach program externally -- who should they target?"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (disease-type percentages within each segment bar are not numerically labeled in the chart)"
+  ],
+  "math_verified": true,
+  "notes": "Book states portfolio size as '8 patients per day x 25 days per month = 200 patients per year' -- this is really a monthly/standing portfolio size (200 patients under a coach's management), not an annual count; the downstream $144k and $144m calculations are internally consistent with treating it as portfolio size, so figures were kept as printed. The book's closing line ('$144M per year savings per coach') appears to conflate total program profit ($144M across 2,000 coaches) with per-coach profit ($72K); recorded as printed with this note rather than silently corrected.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "suggested_framework.tree",
+   "client_type",
+   "geography",
+   "case_type (mapped from Y05/Y06 to taxonomy)"
+  ]
+ }
+}

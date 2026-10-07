@@ -1,0 +1,83 @@
+{
+ "id": "value-chain",
+ "name": "Value chain",
+ "category": "tool",
+ "summary": "Break the business into steps (e.g. R&D → sourcing → production → distribution → sales & marketing → service), then find where cost, value, margin or risk concentrates. Useful for cost, sustainability and integration questions.",
+ "opening_line": "I'd walk the value chain from sourcing through production, distribution and sales, and see where the costs, the value and the problems concentrate.",
+ "when_to_use": [
+  "Cost reduction: where is money spent?",
+  "Sustainability / emissions footprint",
+  "Vertical integration or outsourcing decisions",
+  "Where to capture value in an industry"
+ ],
+ "when_not_to_use": [
+  "Pure demand-side questions like market sizing"
+ ],
+ "tree": {
+  "label": "Value chain",
+  "children": [
+   {
+    "label": "Inbound: R&D, sourcing"
+   },
+   {
+    "label": "Operations: production"
+   },
+   {
+    "label": "Outbound: distribution & logistics"
+   },
+   {
+    "label": "Sales & marketing"
+   },
+   {
+    "label": "Service / after-sales"
+   },
+   {
+    "label": "Support: IT, HR, finance"
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Concentration",
+   "questions": [
+    "Which step has the biggest cost, margin, emissions or risk?"
+   ],
+   "data_to_ask": [
+    "Cost / emissions by step"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "retail",
+   "note": "Sourcing → DC → store → customer; shrink and last-mile costs."
+  },
+  {
+   "industry": "luxury",
+   "note": "Sustainability: raw-material sourcing is often the largest share of the emissions footprint."
+  }
+ ],
+ "common_mistakes": [
+  "Listing steps without quantifying where the issue sits"
+ ],
+ "related": [
+  "cost-reduction",
+  "operations-capacity",
+  "mergers-acquisitions"
+ ],
+ "match": {
+  "case_types": [],
+  "tags": [
+   "value-chain",
+   "sustainability",
+   "vertical-integration",
+   "outsourcing"
+  ],
+  "keywords": [
+   "value chain",
+   "supplier",
+   "sourcing",
+   "sustainab"
+  ]
+ }
+}

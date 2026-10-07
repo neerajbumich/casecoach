@@ -1,0 +1,462 @@
+{
+ "id": "stern-2022-toto-foundation",
+ "title": "Toto Foundation",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  232,
+  241
+ ],
+ "author": "Justin Nuckles, Louie Guan & David Wilmerding (Stern '21)",
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Opportunity assessment",
+ "industry": "public-sector",
+ "sub_industry": "non-profit",
+ "industry_source_label": "Non-Profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "BCG Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 7; Structure: 8 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "social-impact",
+  "market-selection",
+  "budget-constraints",
+  "drones",
+  "vaccine-delivery",
+  "operating-costs",
+  "nonprofit-strategy"
+ ],
+ "concepts_tested": [
+  "Market Entry",
+  "Profitability",
+  "Math"
+ ],
+ "client_type": "non-profit",
+ "geography": "Africa; Rwanda, Tanzania, Senegal, Guinea and Central African Republic",
+ "prompt": "Our client, the Toto Foundation, is a new non-profit arm of a well-known drone manufacturing and logistics company that is exploring aid projects in Africa. Our client is seeking your expertise to determine where and how to deploy their technology to have the maximum impact.",
+ "clarifying_info": [
+  {
+   "question_topic": "Parent company and experience",
+   "answer": "The parent manufactures and sells drones, with extensive commercial experience in the United States. Commercial applications include transporting light packages and limited military and defense uses."
+  },
+  {
+   "question_topic": "Funding",
+   "answer": "The grant provides $4 million upfront and $1 million per year thereafter. No additional funding sources are available. The grant applies only to projects in Africa."
+  },
+  {
+   "question_topic": "Objectives",
+   "answer": "Maximize impact on human lives within budget. Safety is a primary concern. Success in this phase will prompt future investment, but that is not funding for the current project."
+  }
+ ],
+ "interviewer_notes": "Challenge the specificity of the framework and keep human lives, not commercial profit, at the center. Have the candidate choose a project, brainstorm country-selection criteria before showing Exhibit 2, then compare the two shortlisted countries' annual costs and delivery impact. Alternative country choices may be discussed, but challenge their assumptions and steer toward Senegal and Guinea. Encourage requests for country-specific costs and rollout data. The country guide mistakenly calls Senegal and Guinea lower-poverty markets; their bars are higher than Rwanda's. Preserve the candidate exhibit and do not assign exact values to unlabeled bars.",
+ "suggested_framework": {
+  "summary": "Match the foundation's capabilities and grant constraints to unmet needs, then assess operational feasibility and lives impacted.",
+  "tree": {
+   "label": "Where and how should Toto deploy drones?",
+   "children": [
+    {
+     "label": "Foundation considerations",
+     "children": [
+      {
+       "label": "Drone capabilities and US deployment expertise"
+      },
+      {
+       "label": "Upfront and annual funding constraints"
+      },
+      {
+       "label": "Lives impacted and safety priorities"
+      },
+      {
+       "label": "Personnel and existing partnerships"
+      }
+     ]
+    },
+    {
+     "label": "Target-market needs",
+     "children": [
+      {
+       "label": "Food, medicine, agriculture and security"
+      },
+      {
+       "label": "Existing solutions and unmet needs"
+      },
+      {
+       "label": "Political instability and changing needs"
+      }
+     ]
+    },
+    {
+     "label": "Deployment feasibility",
+     "children": [
+      {
+       "label": "Infrastructure and local partners"
+      },
+      {
+       "label": "Regulatory approval and constraints"
+      },
+      {
+       "label": "Safety and flight risks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine where and how Toto can have the greatest impact?",
+   "release_when": "Read the prompt; provide funding, objectives and capabilities on clarification.",
+   "info_to_release": "Upfront grant $4 million; annual grant $1 million thereafter; no other funding. Africa only. Maximize human impact within budget, prioritizing safety. Parent expertise is commercial US drone manufacture and logistics, including light packages and limited defense use.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess unmet needs and impact relative to current solutions, match them to drone capabilities and partnerships, screen both upfront and annual budgets, and test safety, infrastructure and regulatory feasibility. Future funding depends on success and cannot close today's budget gap.",
+   "good_answer_signals": [
+    "Keeps lives impacted rather than profit as the goal.",
+    "Distinguishes upfront and ongoing constraints."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Which proposed project is most attractive for the foundation?",
+   "release_when": "Give Exhibit 1 after the initial structure.",
+   "info_to_release": "Exhibit 1 gives expertise, need and impact scores from 1 to 5, plus upfront deployment costs. Impact is relative to existing solutions. Blood/plasma costs $11.5 million; crop monitoring $1 million; vaccines/general medicine $3.8 million; dry food $3.7 million; poacher monitoring $1 million; insulin $6.5 million.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Eliminate blood/plasma and insulin because they exceed $4 million upfront. Crop and poacher monitoring score only 1 for expertise and carry operational challenges. Vaccines/general medicine and dry food both score 4 for expertise and have similar deployment costs, but medicine has need/impact scores of 5/5 versus food's 3/2. Choose vaccines/general medicine, leaving $200,000 upfront headroom. Lightweight payloads fit drones; test fragility, temperature control and shortages rather than assuming delivery alone solves access.",
+   "good_answer_signals": [
+    "Screens constraints before comparing attractiveness.",
+    "Explains product fit and risks, not just the highest scores."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What factors should determine which two of the five countries to analyze further?",
+   "release_when": "Require the brainstorm before handing over Exhibit 2.",
+   "info_to_release": "The client has identified five potential countries for vaccines and general medicinal delivery. Do not yet release their comparison data.",
+   "exhibit_ids": [],
+   "expected_answer": "Group population factors (size, density, demographics), health factors (vaccination coverage and preventable deaths), and safety/feasibility factors (crime, worker safety, doing business). Lower density can increase drones' value; sufficient population supports investment; susceptible demographics and low vaccination indicate need. Link each metric to impact or feasibility rather than listing unrelated criteria.",
+   "good_answer_signals": [
+    "Combines need with ability to serve safely.",
+    "Explains how the criteria inform selection."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Using the country data, which two markets should Toto select?",
+   "release_when": "Give Exhibit 2 after the country-criteria brainstorm.",
+   "info_to_release": "Exhibit 2 compares ease of doing business, vaccination, poverty, danger to nonprofits and roads. Its table gives population, density as printed and country size. Compare Rwanda, Tanzania, Senegal, Guinea and Central African Republic. No country-specific cost or rollout assumptions are available until the next exhibit.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Shortlist Senegal and Guinea: lower vaccination and road quality than Rwanda/Tanzania, substantial poverty, and relatively low danger to nonprofit workers. Rwanda's high vaccination and roads reduce incremental need. Tanzania has greater worker danger. Central African Republic has major need but high danger and very low ease of doing business. Consider geography, population and density, while requesting specific costs and rollout data. Do not repeat the solution's incorrect description of Senegal/Guinea as lower-poverty markets.",
+   "good_answer_signals": [
+    "Balances need, safety and feasibility.",
+    "Recognizes that the exhibit alone cannot establish rollout economics.",
+    "Uses qualitative bar comparisons without inventing exact unlabeled scores."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Calculate annual costs and impact for both target countries.",
+   "release_when": "Give Exhibit 3 after shortlisting Senegal and Guinea.",
+   "info_to_release": "Senegal: 100 vials per flight; 250 roundtrip miles per delivery; $0.80 fuel/maintenance per mile; 300 flying days; 10 flights daily; $400,000 annual ground/regulatory cost. Guinea: 80 vials; 500 roundtrip miles; $1 per mile; 300 days; 5 flights daily; $250,000 annual ground/regulatory cost. Drones are included in upfront deployment costs. A biotech firm donates medication; no product purchases or sales occur.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Senegal costs $200 per flight, $2,000 daily and $600,000 annually in flight operations; with $400,000 fixed annual costs it totals $1 million. Guinea costs $500 per flight, $2,500 daily and $750,000 annually in flight operations; with $250,000 fixed costs it also totals $1 million. Each fits the annual grant individually. Senegal delivers 100 × 10 × 300 = 300,000 vials annually, versus 80 × 5 × 300 = 120,000 in Guinea, 2.5 times as many for the same budget. Senegal's lower variable cost helps scalability. These are delivered vials, not independently demonstrated lives saved.",
+   "good_answer_signals": [
+    "Does not double the already-roundtrip mileage.",
+    "Includes fixed annual costs and excludes donated product cost.",
+    "Calculates impact as well as cost and does not claim both countries fit one annual grant."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Toto do, and what risks and next steps should it consider?",
+   "release_when": "After the annual cost and impact comparison.",
+   "info_to_release": "No further data.",
+   "exhibit_ids": [],
+   "expected_answer": "Launch a vaccine/general medicine delivery pilot in Senegal: $3.8 million upfront and $1 million annually fit the grant, while estimated annual delivery is 300,000 vials, versus 120,000 for Guinea at the same annual cost. Risks include the first international deployment, untested donation partnership and estimates, regulation, political instability and uncertain ability to administer delivered vaccines. Pilot to confirm costs, obtain approvals, expand partnerships and set a rollout timeline. Explore broader infrastructure needs while acknowledging that extra infrastructure projects are outside this budget.",
+   "good_answer_signals": [
+    "Supports the choice with impact and budget numbers.",
+    "Links next steps to specific risks.",
+    "Maintains safety and human-impact priorities throughout."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Project Proposals",
+   "page": 235,
+   "kind": "table",
+   "description": "Scores run from 1 (lowest) to 5 (highest). Impact is scored relative to existing solutions. Upfront costs are in USD millions.",
+   "data": {
+    "columns": [
+     "Project",
+     "Expertise",
+     "Need",
+     "Impact",
+     "Upfront deployment cost (USD millions)"
+    ],
+    "rows": [
+     [
+      "Blood and plasma delivery",
+      3,
+      4,
+      4,
+      11.5
+     ],
+     [
+      "Crop monitoring",
+      1,
+      3,
+      4,
+      1
+     ],
+     [
+      "Vaccine and general medicinal delivery",
+      4,
+      5,
+      5,
+      3.8
+     ],
+     [
+      "Dry food delivery",
+      4,
+      3,
+      2,
+      3.7
+     ],
+     [
+      "Poacher monitoring",
+      1,
+      3,
+      5,
+      1
+     ],
+     [
+      "Insulin delivery",
+      4,
+      5,
+      5,
+      6.5
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-toto-foundation/p235.webp",
+   "image_has_answers": false,
+   "key_insight": "Vaccine/general medicine delivery combines expertise and high need/impact within the upfront cap.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Target Country",
+   "page": 238,
+   "kind": "other",
+   "description": "Country map, demographic table and grouped bars for ease of doing business, vaccination rate, poverty, danger to nonprofits and road quality. The chart has a 0–100 axis but no exact bar labels; exact scores are omitted. Density unit is reproduced as printed, pop/km, without an assumed squared unit or reconciliation to area.",
+   "data": {
+    "columns": [
+     "Country",
+     "Population (millions)",
+     "Density (pop/km, as printed)",
+     "Country size (square miles)"
+    ],
+    "rows": [
+     [
+      "Rwanda",
+      20,
+      500,
+      10000
+     ],
+     [
+      "Tanzania",
+      50,
+      60,
+      400000
+     ],
+     [
+      "Senegal",
+      20,
+      90,
+      150000
+     ],
+     [
+      "Guinea",
+      10,
+      50,
+      100000
+     ],
+     [
+      "Central African Republic",
+      5,
+      10,
+      250000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-toto-foundation/p238.webp",
+   "image_has_answers": false,
+   "key_insight": "Senegal and Guinea balance need with relatively low danger. Their poverty bars are not lower than Rwanda's, contrary to the guide's wording. Central African Republic has need but serious safety and business-environment constraints.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex3",
+   "title": "Annual Cost Calculation",
+   "page": 240,
+   "kind": "table",
+   "description": "Country-specific flight and annual fixed-cost inputs. Drones are included in upfront deployment cost. Medication is donated by a biotech firm with no buying or selling of product.",
+   "data": {
+    "columns": [
+     "Input",
+     "Senegal",
+     "Guinea"
+    ],
+    "rows": [
+     [
+      "Vials per flight",
+      100,
+      80
+     ],
+     [
+      "Roundtrip miles per delivery",
+      250,
+      500
+     ],
+     [
+      "Fuel and maintenance USD per mile",
+      0.8,
+      1
+     ],
+     [
+      "Flying days per year",
+      300,
+      300
+     ],
+     [
+      "Flights per day",
+      10,
+      5
+     ],
+     [
+      "Annual regulatory and ground facility cost (USD)",
+      400000,
+      250000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-toto-foundation/p240.webp",
+   "image_has_answers": false,
+   "key_insight": "Equal annual budgets support substantially more deliveries in Senegal because of its shorter flights and larger vial payload.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Does vaccine/general medicine delivery fit the upfront budget?",
+   "givens": [
+    "Upfront grant $4 million",
+    "Deployment cost $3.8 million"
+   ],
+   "steps": [
+    "Remaining upfront budget = $4 million − $3.8 million = $0.2 million."
+   ],
+   "answer": "Yes; $200,000 remains within the upfront cap, before any unprovided extra costs.",
+   "answer_value": 200000,
+   "unit": "USD upfront headroom",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is annual operating cost in each shortlisted country?",
+   "givens": [
+    "Senegal: 250 miles × $0.80 per mile; 10 flights daily; 300 days; $400,000 annual fixed costs",
+    "Guinea: 500 miles × $1 per mile; 5 flights daily; 300 days; $250,000 annual fixed costs",
+    "Annual grant $1 million; roundtrip miles already provided"
+   ],
+   "steps": [
+    "Senegal flight cost = 250 × 0.8 = $200; daily flight cost = 200 × 10 = $2,000.",
+    "Senegal annual total = 2,000 × 300 + 400,000 = $1,000,000.",
+    "Guinea flight cost = 500 × 1 = $500; daily flight cost = 500 × 5 = $2,500.",
+    "Guinea annual total = 2,500 × 300 + 250,000 = $1,000,000."
+   ],
+   "answer": "Each country independently uses the full $1 million annual budget.",
+   "answer_value": 1000000,
+   "unit": "USD/year per country",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "How does annual medication-delivery impact compare?",
+   "givens": [
+    "Senegal: 100 vials per flight and 10 flights per day",
+    "Guinea: 80 vials per flight and 5 flights per day",
+    "300 flying days annually in both countries"
+   ],
+   "steps": [
+    "Senegal daily vials = 100 × 10 = 1,000; annual = 1,000 × 300 = 300,000.",
+    "Guinea daily vials = 80 × 5 = 400; annual = 400 × 300 = 120,000.",
+    "Delivery ratio = 300,000 / 120,000 = 2.5."
+   ],
+   "answer": "Senegal delivers 300,000 vials per year versus Guinea's 120,000, or 2.5 times as many at equal annual cost.",
+   "answer_value": 300000,
+   "unit": "vials/year in Senegal",
+   "verified": true
+  }
+ ],
+ "synthesis": "Launch vaccine and general medicinal delivery in Senegal. It fits the $4 million upfront grant at $3.8 million and the $1 million annual grant, delivering an estimated 300,000 vials annually versus 120,000 in Guinea for the same annual spending. Keep the focus on human impact and safety, recognizing that vials delivered are only a proxy for lives helped. Pilot to validate cost and donation assumptions, obtain regulatory approvals, build partnerships and set a rollout timeline. Assess local administration infrastructure and political risk; do not fund additional infrastructure projects from an already fully used annual budget without a separate plan.",
+ "what_great_looks_like": [
+  "Eliminates infeasible projects before comparing need and impact.",
+  "Connects country criteria to need, safety and ease of serving that need.",
+  "Recognizes lower variable cost and higher delivery volume in Senegal.",
+  "Maintains nonprofit priorities and budget constraints throughout.",
+  "Asks how delivered vaccines will actually be administered."
+ ],
+ "common_pitfalls": [
+  "Optimizing commercial profit instead of human impact.",
+  "Assuming future investment is available for this phase.",
+  "Choosing Central African Republic on need alone despite safety constraints.",
+  "Doubling roundtrip distance or charging for donated medication.",
+  "Equating delivered vials with independently verified lives saved.",
+  "Treating the country chart's unlabeled bars as exact numerical data."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (exact unlabeled bar values omitted; demographic table transcribed as printed)"
+  ],
+  "math_verified": true,
+  "notes": "All operating-cost and delivery calculations agree with the book. The page 237 guide describes Senegal and Guinea as having lower poverty rates, but candidate Exhibit 2 shows higher poverty than Rwanda and similar poverty to Tanzania; the qualitative answer is corrected without inventing exact bar values. Exhibit 2's density unit is printed pop/km and its population/area/density columns are not reconciled; use the supplied comparisons rather than treating them as verified real-world demographics. These source limitations support medium confidence. Candidate pages 235, 238 and 240 contain no answers. Quantitative impact is vials delivered, not a modeled lives-saved estimate. Difficulty uses max(7,8) and Python round(8/2) = 4. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls"
+  ]
+ }
+}

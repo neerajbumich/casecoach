@@ -1,0 +1,220 @@
+{
+ "id": "booth-2024-katrina",
+ "title": "Katrina",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  201,
+  205
+ ],
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Market Sizing/Guesstimate",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Non-traditional",
+ "industry": "education",
+ "sub_industry": "k12",
+ "industry_source_label": "Non-profit / Education / School System",
+ "geography": "New Orleans, Louisiana",
+ "client_type": "public sector",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 1/3; Creativity 2/3",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "hurricane-katrina",
+  "schools",
+  "capacity",
+  "education-quality",
+  "rebuilding",
+  "public-sector"
+ ],
+ "fit_question": "Tell me about a time when you did not meet a goal and how you responded. What three adjectives would coworkers use to describe you?",
+ "prompt": "Two years after Hurricane Katrina devastated New Orleans and displaced most students, families are returning. The school district must decide how many schools to reopen in the next few months and how to improve educational quality in a system that was previously among the country's lowest-performing and near bankruptcy.",
+ "clarifying_info": [
+  {
+   "question_topic": "Pre-storm system",
+   "answer": "The district had 64 schools and 64,000 students; fewer than 6 of every 10 enrolled students graduated, and only 2 of those graduates enrolled in college."
+  },
+  {
+   "question_topic": "Current recovery",
+   "answer": "Eighteen schools have reopened, 24,000 students have returned and 1,600 more return each month."
+  },
+  {
+   "question_topic": "Capacity assumption",
+   "answer": "Use the pre-storm average of 1,000 students per school."
+  }
+ ],
+ "interviewer_notes": "Candidate-led public-sector case combining capacity math and structured brainstorming. The source question says 'by the end of next month' but the solution adds two monthly return cohorts. Require the candidate to state the time convention: one future month requires 8 new schools; two full months requires 10.",
+ "suggested_framework": {
+  "summary": "Forecast returning enrollment and required capacity, then improve education through teachers, school environment and community support.",
+  "tree": {
+   "label": "School-system recovery",
+   "children": [
+    {
+     "label": "Capacity",
+     "children": [
+      {
+       "label": "Current students, returns and migration"
+      },
+      {
+       "label": "Open schools, seats per school and timing"
+      }
+     ]
+    },
+    {
+     "label": "Education quality",
+     "children": [
+      {
+       "label": "Teachers, curriculum and leadership"
+      },
+      {
+       "label": "Safety, facilities, supports and class size"
+      }
+     ]
+    },
+    {
+     "label": "Feasibility",
+     "children": [
+      {
+       "label": "Funding, staff and construction pace"
+      },
+      {
+       "label": "Community, nonprofits, media and accountability"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you answer both questions?",
+   "expected_answer": "Forecast students over the specified horizon and compare them with usable school capacity, then address education quality through teachers and curriculum, leadership and school environment, student support and community involvement, subject to funding and reopening feasibility.",
+   "good_answer_signals": [
+    "Covers capacity and quality separately",
+    "Clarifies the exact timing horizon"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "How many schools must reopen by the end of next month?",
+   "expected_answer": "Current capacity is 18×1,000=18,000 versus 24,000 returned students, a 6,000-seat shortfall. If 'end of next month' means one future month, enrollment reaches 25,600 and the shortfall is 7,600, requiring 8 schools. If the intended horizon is the current month plus next month, as the book assumes, enrollment reaches 27,200 and the 9,200-seat shortfall requires 10 schools.",
+   "good_answer_signals": [
+    "Uses a ceiling for whole schools",
+    "States the timing interpretation explicitly"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "How many additional schools are needed each month thereafter?",
+   "expected_answer": "At 1,600 returning students per month and 1,000 seats per school, average demand is 1.6 schools per month. Operationally, plan about two openings per month or batch openings while managing a capacity buffer and uncertain returns.",
+   "good_answer_signals": [
+    "Gets 1.6-school average demand",
+    "Recognizes the need for whole schools and uncertainty"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What can improve educational quality?",
+   "expected_answer": "Recruit, develop, retain and reward strong teachers and principals; strengthen standards, coaching and relevant academic and vocational curriculum; improve safety, facilities, student-teacher ratios and health and emotional supports; test accountable charter or autonomous models; engage parents, nonprofits and employers; and benchmark outcomes.",
+   "good_answer_signals": [
+    "Structures ideas across people, environment and community",
+    "Connects reforms to graduation and college outcomes"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the district do?",
+   "expected_answer": "Reopen 8 schools for a literal one-month horizon or 10 for the book's two-month interpretation, then plan roughly two per month while updating the return forecast. Pair capacity expansion with teacher and leader quality, safer supportive schools, relevant curriculum and community funding, and protect quality from a rushed rollout.",
+   "good_answer_signals": [
+    "Makes the timing assumption transparent",
+    "Balances speed, funding and educational quality"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many schools must reopen by the end of next month?",
+   "givens": [
+    "18 schools open",
+    "1,000 students/school",
+    "24,000 students currently returned",
+    "1,600 students return per month"
+   ],
+   "steps": [
+    "Current capacity=18×1,000=18,000",
+    "Current shortfall=24,000-18,000=6,000",
+    "One-month shortfall=6,000+1,600=7,600",
+    "Schools=ceil(7,600/1,000)=8",
+    "Under a two-month interpretation: shortfall=6,000+2×1,600=9,200 and schools=10"
+   ],
+   "answer": "8 new schools for one future month; 10 if the intended horizon is two full months",
+   "answer_value": 8,
+   "unit": "schools",
+   "verified": false,
+   "book_answer_if_different": "The book answers 10 by adding 2×1,600 students for 'current month + next month,' although the question asks for the end of next month. A literal one-month-forward interpretation requires 8 schools; 10 is correct only if the intended interval contains two complete monthly return cohorts."
+  },
+  {
+   "id": "m2",
+   "question": "What ongoing opening rate matches monthly returns?",
+   "givens": [
+    "1,600 returning students/month",
+    "1,000 students/school"
+   ],
+   "steps": [
+    "Average schools/month=1,600/1,000=1.6",
+    "Whole-school operating plan≈2 openings/month, with periodic capacity adjustment"
+   ],
+   "answer": "1.6 schools per month on average, operationally about 2 per month",
+   "answer_value": 1.6,
+   "unit": "schools/month",
+   "verified": true
+  }
+ ],
+ "synthesis": "Clarify the horizon before committing: the literal end-of-next-month requirement is 8 additional schools, while the source's two-month interpretation requires 10. Thereafter, plan capacity at roughly two schools per month and refresh the forecast. Use rebuilding to improve teacher and leader quality, curriculum, student supports, accountability and community funding without sacrificing quality for speed.",
+ "what_great_looks_like": [
+  "Clarifies the ambiguous month count",
+  "Rounds capacity up to whole schools",
+  "Treats rebuilding as both a capacity and quality transformation"
+ ],
+ "common_pitfalls": [
+  "Answers only the capacity question",
+  "Uses 64 schools without deriving per-school capacity",
+  "Repeats 10 schools without stating the two-month timing assumption"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "time horizon for 'end of next month'"
+  ],
+  "math_verified": false,
+  "notes": "The case has no candidate exhibits. The source's 10-school solution assumes two monthly return cohorts despite singular 'next month'; both interpretations are documented. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

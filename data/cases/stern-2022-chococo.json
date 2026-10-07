@@ -1,0 +1,279 @@
+{
+ "id": "stern-2022-chococo",
+ "title": "Chococo",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  43,
+  47
+ ],
+ "author": "Justin Sable, Sam Knopf, Molly Joyce (Stern '20)",
+ "case_type": [
+  "Market Entry",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "Consumer Goods",
+ "geography": "Lima, Peru; United States expansion",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 4/10; Structure 6/10; higher dimension 6 mapped with round(6/2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 25,
+ "tags": [
+  "market-entry",
+  "market-sizing",
+  "premium-chocolate",
+  "distribution-channels",
+  "market-share",
+  "implementation-risk"
+ ],
+ "prompt": "Chococo is a premium chocolate company based in Lima, Peru. The company has been operating profitably in its first few years of business and is now looking to expand into the United States. What should Chococo consider before launching this expansion?",
+ "clarifying_info": [
+  {
+   "question_topic": "Timing",
+   "answer": "Chococo wants to enter the U.S. immediately."
+  },
+  {
+   "question_topic": "Operations",
+   "answer": "It currently operates only in Peru and sells chocolate only in stores."
+  },
+  {
+   "question_topic": "Pricing",
+   "answer": "It sells bars at the same price as competitors."
+  },
+  {
+   "question_topic": "Financial scale",
+   "answer": "Revenue was $100 million in the past year."
+  },
+  {
+   "question_topic": "Market growth",
+   "answer": "Premium chocolate has grown strongly, over 10% in each of the past few years."
+  }
+ ],
+ "interviewer_notes": "The first section sizes the U.S. premium chocolate market; subsequent sections brainstorm entry risks and distribution. The sizing model is an example, not a set of mandatory candidate assumptions. Accept alternatives such as age cohorts and gently pressure-test estimates materially different from roughly $4bn. Strong answers discuss market growth. If risks were already covered or time remains, request more, assess severity or discuss mitigations. Push for an exhaustive channel list and prioritized recommendation. The source explicitly has no final overall recommendation question; the last stage closes on channel selection.",
+ "suggested_framework": {
+  "summary": "Assess market opportunity, Chococo's readiness and how to enter distinctively.",
+  "tree": {
+   "label": "Expand premium chocolate into the U.S.?",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Premium chocolate size, growth, competition and preferences"
+      }
+     ]
+    },
+    {
+     "label": "Capabilities",
+     "children": [
+      {
+       "label": "Manufacturing capacity, inputs and financial resources"
+      },
+      {
+       "label": "Distribution and marketing operations"
+      }
+     ]
+    },
+    {
+     "label": "Entry strategy",
+     "children": [
+      {
+       "label": "Differentiation through quality, ingredients, organic or fair-trade positioning"
+      },
+      {
+       "label": "Stores, online, white-label gifts and subscriptions"
+      },
+      {
+       "label": "FDA/regulatory requirements, competitor response and alternative-country opportunity cost"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What should Chococo evaluate before U.S. expansion?",
+   "release_when": "After the prompt; clarifications only if requested.",
+   "info_to_release": "Entry is immediate. Current operations and store-only sales are in Peru. Last-year revenue was $100m. Prices match competitors. Premium chocolate grew more than 10% annually in recent years.",
+   "expected_answer": "Assess premium-market size and preferences, competition, production and distribution capabilities, funding and differentiation. Consider regulatory requirements, channel choices and competitor response; stronger answers include alternative-country opportunity cost and unconventional channels such as white-label gifts or subscriptions.",
+   "good_answer_signals": [
+    "Connects market demand with operational readiness."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What is the size of the U.S. premium chocolate industry?",
+   "release_when": "After the framework. Let the candidate propose assumptions; the source model is interviewer guidance, not a handout.",
+   "info_to_release": "No fixed assumptions must be supplied initially. For guided use of the source model: population 320m, equally split men/women; chocolate-purchase rates 30%/60%; premium share among chocolate buyers 20%/33%; annual bars 5/10; price $10 for both. These are illustrative sizing assumptions, not observed demographic facts.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Using the printed assumptions, male demand is 160m×30%×20%×5×$10=$480m. Female demand is 160m×60%×33%×10×$10=$3.168bn. Total=$3.648bn, reasonably ballparked near $4bn. The book's female subtotal $3.2bn implicitly uses one-third rather than exact 33%. Accept other coherent approaches and consider continued premium-market growth.",
+   "good_answer_signals": [
+    "Uses conditional purchase shares and consistent units.",
+    "Pressure-tests assumptions instead of treating the sample as the only answer."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "analysis",
+   "interviewer_asks": "Chococo is comfortable moving ahead if it reaches $100m revenue by year 2. Should it continue?",
+   "release_when": "After sizing the market.",
+   "info_to_release": "U.S. revenue hurdle is $100m by year 2.",
+   "expected_answer": "Required share is $100m/$3.648bn=2.741%, roughly 3%. With the rounded $4bn market it is 2.5%, also loosely described as 3% by the source. Evaluate whether the brand and channels can realistically capture that share; sizing alone cannot establish feasibility. Historical growth suggests a larger future market but no precise year 2 forecast assumption is supplied.",
+   "good_answer_signals": [
+    "Translates the revenue target into an achievable-share question."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What risks could undermine U.S. entry?",
+   "release_when": "After the share discussion; deepen risks already raised as necessary.",
+   "info_to_release": "No additional figures.",
+   "expected_answer": "Competition includes saturation and difficulty building awareness/differentiation. Implementation risks include shipping connections, potentially costly/time-consuming approvals and capacity in materials, labor, facilities and storage. Relationships with customers and vendors must be built. Financial risks include financing, exchange rates and liquidity. Rank severity and discuss mitigations such as distinctive packaging or taste.",
+   "good_answer_signals": [
+    "Prioritizes high/medium/low risks with tailored mitigations."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "Through which channels should Chococo enter, and how would you prioritize them?",
+   "release_when": "Final source question; prompt for a channel recommendation if absent or time permits.",
+   "info_to_release": "No new data; the source supplies no single preferred channel.",
+   "expected_answer": "Generate own website/Amazon, grocery or specialty retail, coffee shops, branded stores, partnerships and subscriptions. Rank using startup and ongoing implementation effort, margin and consumers reached/converted. Give a reasoned channel priority or rollout sequence, without claiming the source mandates a particular winner.",
+   "good_answer_signals": [
+    "Provides an exhaustive list before prioritizing against explicit criteria.",
+    "Ends with a defensible channel recommendation rather than only options."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Illustrative premium-chocolate sizing assumptions",
+   "page": 45,
+   "kind": "table",
+   "description": "Interviewer-only example assumptions, not a required candidate handout. The source page contains worked market totals and guidance, so its image is hidden. Population 320m split 50/50; the data excludes calculated segment populations and answer totals.",
+   "data": {
+    "columns": [
+     "Assumption",
+     "Male segment",
+     "Female segment"
+    ],
+    "rows": [
+     [
+      "Population share (%)",
+      50,
+      50
+     ],
+     [
+      "Chocolate purchasers (%)",
+      30,
+      60
+     ],
+     [
+      "Premium purchasers among chocolate buyers (%)",
+      20,
+      33
+     ],
+     [
+      "Bars per buyer per year",
+      5,
+      10
+     ],
+     [
+      "USD per bar",
+      10,
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-chococo/p045.webp",
+   "image_has_answers": true,
+   "key_insight": "Population, purchase propensity, premium conversion, frequency and price must all enter the estimate.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What market size follows from the printed sample assumptions?",
+   "givens": [
+    "320m population, equal split",
+    "Chocolate buyers 30% male/60% female",
+    "Premium buyers 20%/33%",
+    "Annual bars 5/10",
+    "$10/bar"
+   ],
+   "steps": [
+    "Male:320m×50%×30%×20%×5×10=$480m.",
+    "Female:320m×50%×60%×33%×10×10=$3,168m.",
+    "Total=$480m+$3,168m=$3,648m."
+   ],
+   "answer": "$3.648bn from literal inputs, approximately $4bn for sizing purposes.",
+   "answer_value": 3648,
+   "unit": "USD millions/year",
+   "verified": false,
+   "book_answer_if_different": "Book shows female market '$3,200,000,000' with a33% premium share. Exact 33% gives $3,168,000,000; $3.2bn corresponds to one-third. Book uses roughly $4bn as its benchmark."
+  },
+  {
+   "id": "m2",
+   "question": "What market share supports $100m year 2 revenue?",
+   "givens": [
+    "$100m revenue hurdle",
+    "$3.648bn literal sample market or $4bn rounded market"
+   ],
+   "steps": [
+    "100/3648×100=2.741228%.",
+    "100/4000×100=2.5%, which the source loosely rounds to about 3%."
+   ],
+   "answer": "Approximately 3% share; exact literal-input estimate 2.741%.",
+   "answer_value": 2.7412280702,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "The sample sizing suggests a roughly $4bn U.S. premium-chocolate opportunity; literal printed assumptions yield $3.648bn. Reaching $100m revenue requires roughly 3% share, which needs competitive and channel validation. Compare entry channels on implementation effort, margin and customer reach while addressing capacity, regulation, relationships and financing. The source does not prescribe an overall go/no-go or a single winning channel.",
+ "what_great_looks_like": [
+  "Uses coherent sizing assumptions and considers growth.",
+  "Tests whether roughly 3% share is feasible rather than equating market size with success.",
+  "Ranks risks and proposes differentiation-based mitigations.",
+  "Prioritizes channels using implementation, margins and customer conversion."
+ ],
+ "common_pitfalls": [
+  "Treating every chocolate buyer as a premium buyer.",
+  "Claiming illustrative demographic assumptions are established market facts.",
+  "Ignoring capacity and distribution when recommending immediate entry.",
+  "Presenting an unsupported mandatory channel winner."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Source model table visually reviewed; worked-answer image flagged hidden. Exact 33% yields female demand $3.168bn rather than book $3.2bn, likely implicit one-third approximation. Correct total $3.648bn still supports the source's approximate $4bn sizing. Source explicitly has no final overall recommendation; synthesis summarizes evidence without inventing a decision. Separate book ratings Quant 4/10 and Structure 6/10 aggregated by taking the higher dimension, then mapped in math-stern-chococo.py to 3. Aggregation is an extraction convention, not a printed overall rating. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "difficulty (higher-dimension aggregation)",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "synthesis",
+   "common_pitfalls"
+  ]
+ }
+}

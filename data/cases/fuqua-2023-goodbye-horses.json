@@ -1,0 +1,366 @@
+{
+ "id": "fuqua-2023-goodbye-horses",
+ "title": "Goodbye Horses",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  152,
+  160
+ ],
+ "author": "Revised by Vann Vicente (Fuqua '24); origin: Fuqua Casebook 2016–2017",
+ "case_type": [
+  "Investment/PE due diligence",
+  "Other"
+ ],
+ "case_type_source_label": "Decision Analysis",
+ "industry": "biotech",
+ "sub_industry": "therapeutics",
+ "industry_source_label": "Healthcare",
+ "geography": "United States; one proposed R&D project in China",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Medium; Qualitative: Difficult",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "divestiture",
+  "capital-allocation",
+  "npv",
+  "capital-rationing",
+  "valuation",
+  "portfolio-strategy"
+ ],
+ "prompt": "Your client is the CFO of Aperture Laboratories, a leading US biopharmaceutical company with a market cap >$150B. Aperture develops and manufactures a diversified range of products and in particular prides itself on saving millions of human lives every year. The company is under investor pressure because of its slow firm value growth over the next 10 years. Investors are very anxious to see significant changes announced at the firm in the next quarter. The CFO has already identified and evaluated several high-growth, promising, but capital-intensive projects, and she does not have enough cash to invest in any of these opportunities. What does she need to do next?",
+ "clarifying_info": [
+  {
+   "question_topic": "Investment status",
+   "answer": "Promising projects have already been identified and evaluated. The immediate issue is raising capital, not diagnosing current profitability or restarting project evaluation."
+  },
+  {
+   "question_topic": "Sale taxes",
+   "answer": "If asked during divestiture valuation, JP Morgan has structured the deal to be tax-free."
+  },
+  {
+   "question_topic": "Project NPV",
+   "answer": "If asked, the listed NPVs already include capital investment."
+  }
+ ],
+ "interviewer_notes": "The ambiguous prompt tests whether candidates recognize the financing need. Probe candidates who only build a profit tree or evaluate already-selected projects. Optionally run as a conversational partner-style case with no written framework. Encourage pros/cons of equity, debt, divestiture and reallocating existing budgets; operating improvements alone are too slow for next-quarter investor demands. Steer toward divestiture and animal health if necessary, but let the candidate drive buyer identification, valuation and reinvestment. The final slide's $4.7B proceeds is a typo; correct proceeds are $14.7B.",
+ "suggested_framework": {
+  "summary": "Choose a capital-raising route, allocate funds to attractive projects and consider industry context.",
+  "tree": {
+   "label": "Fund Aperture's growth",
+   "children": [
+    {
+     "label": "Capital raising",
+     "children": [
+      {
+       "label": "Equity financing"
+      },
+      {
+       "label": "Debt financing"
+      },
+      {
+       "label": "Divestiture"
+      },
+      {
+       "label": "Reallocate or cancel existing projects; compare pros and cons"
+      }
+     ]
+    },
+    {
+     "label": "Investment opportunities",
+     "children": [
+      {
+       "label": "Build versus buy, capital requirements and projected NPV"
+      },
+      {
+       "label": "Synergies, core competence, implementation and timing"
+      },
+      {
+       "label": "Management buy-in"
+      }
+     ]
+    },
+    {
+     "label": "Pharmaceutical market",
+     "children": [
+      {
+       "label": "Peer activity and regional competition"
+      },
+      {
+       "label": "Emerging diseases and research trends"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What should the CFO do next?",
+   "release_when": "After the prompt. Clarify the immediate financing need if the candidate focuses only on project evaluation or current operating profit.",
+   "expected_answer": "Raise capital for already-identified growth opportunities through equity, debt, divestiture or reallocation. Discuss tradeoffs and management buy-in. Revenue growth or cost cuts alone are unlikely to raise sufficient capital quickly enough for the next-quarter announcement. Explore a business divestiture.",
+   "good_answer_signals": [
+    "Answers the financing question directly.",
+    "Drives the discussion without waiting for every next step."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Which business would you consider divesting, and why?",
+   "release_when": "After divestiture is raised; provide Exhibit 1 and allow verbal analysis.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Animal health has low growth, the lowest specialization requirement, $4.2B sales and weak fit with the stated human-health mission. Lower specialization broadens the buyer pool. Established products also grow slowly but are more specialized and human-health aligned. Move proactively to identifying buyers and estimating proceeds.",
+   "good_answer_signals": [
+    "Combines strategic fit, growth and saleability rather than choosing solely the largest segment."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Business development has retained JP Morgan, which expects a 3.5x enterprise-value-to-sales multiple for animal health. What would you do next?",
+   "release_when": "Once the candidate drives toward sale proceeds and buyers. Do not over-prompt the next step.",
+   "info_to_release": "Animal health sales are $4.2B; likely EV/sales multiple 3.5x. If asked, the deal is structured tax-free.",
+   "expected_answer": "Indicative value is $4.2B × 3.5 = $14.7B. The case treats that as available capital, with no debt or transaction adjustments supplied. Begin deciding how to invest it; ask for project details.",
+   "good_answer_signals": [
+    "Requests tax treatment and transitions naturally from raising capital to deploying it."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Which projects maximize value within the available capital?",
+   "release_when": "When the candidate discusses reinvestment; show Exhibit 2. Clarify on request that NPV includes capital investment.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "info_to_release": "NPV/capital in $B: respiratory-product license 10/9; newly approved GLP-1 agonist acquisition 10/6; new formulations for current portfolio 7/5; China R&D center 5/4; U.S. plant cost-cutting 5/3; sales-force rationalization 3/3. Capital budget $14.7B.",
+   "expected_answer": "NPV/capital ratios are 1.11, 1.67, 1.40, 1.25, 1.67 and 1.00. Select projects 2, 3 and 5: capital $6B+$5B+$3B=$14B and NPV $10B+$7B+$5B=$22B, the maximum feasible whole-project combination. Do not subtract capex from the supplied NPV again. Consider timing and synergies, and propose a use for the remaining $0.7B such as buybacks, dividends or small investments.",
+   "good_answer_signals": [
+    "Uses ratios as a guide but verifies the feasible combination maximizes total NPV.",
+    "Considers qualitative implementation factors and residual cash."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "The CFO is at lunch and the CEO asks what you have been working on. What do you say?",
+   "expected_answer": "Divest the low-growth, low-specialization animal-health business, weakly aligned with the human-health mission, for an indicative $14.7B. Allocate $14B to GLP-1 acquisition, new formulations and U.S. plant cost-cutting for $22B combined NPV, leaving $0.7B. Risks are a lower realized sale price, delayed closing and project failure. Identify buyers and validate pricing, sequence the deal and projects, perform diligence and consider other opportunities.",
+   "good_answer_signals": [
+    "Connects the divestiture rationale, capital proceeds and specific investments."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Aperture business segments",
+   "page": 155,
+   "kind": "other",
+   "description": "Bubble chart of five-year CAGR against increasing specialization, with printed sales labels in $B. Exact unlabeled CAGR values and specialization scores are not invented.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Sales ($B)",
+     "Growth position (qualitative)",
+     "Specialization (relative)"
+    ],
+    "rows": [
+     [
+      "Animal health",
+      4.2,
+      "Low positive",
+      "Lowest"
+     ],
+     [
+      "Consumer health",
+      3.1,
+      "Below 10%",
+      "Low"
+     ],
+     [
+      "Nutrition",
+      2.1,
+      "Above 10%",
+      "Low to middle"
+     ],
+     [
+      "Emerging market drugs",
+      9.3,
+      "Between 5% and 10%",
+      "Middle"
+     ],
+     [
+      "Established products",
+      9.2,
+      "Around zero",
+      "Middle to high"
+     ],
+     [
+      "Primary care pharmaceuticals",
+      22.7,
+      "Low positive",
+      "High"
+     ],
+     [
+      "Specialty care pharmaceuticals",
+      15.2,
+      "Below 5%",
+      "Highest"
+     ],
+     [
+      "Oncology drugs",
+      1.3,
+      "Between 10% and 15%",
+      "Highest"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-goodbye-horses/p155.webp",
+   "key_insight": "Animal health is slow-growing, relatively easy for buyers to operate and least aligned with saving human lives.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Investment opportunities",
+   "page": 158,
+   "kind": "bar",
+   "description": "NPVs and required capital in USD billions. The supplied NPVs are inputs and already net of capital investment.",
+   "data": {
+    "columns": [
+     "Project",
+     "NPV ($B)",
+     "Required capital ($B)"
+    ],
+    "rows": [
+     [
+      "License respiratory products from competitor",
+      10,
+      9
+     ],
+     [
+      "Acquire newly approved GLP-1 agonist",
+      10,
+      6
+     ],
+     [
+      "Research new formulations for existing portfolio",
+      7,
+      5
+     ],
+     [
+      "Build R&D center in China",
+      5,
+      4
+     ],
+     [
+      "Cost-cutting in U.S. manufacturing plants",
+      5,
+      3
+     ],
+     [
+      "Sales-force rationalization",
+      3,
+      3
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-goodbye-horses/p158.webp",
+   "key_insight": "Projects 2, 3 and 5 maximize combined NPV within the sale-proceeds constraint.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much capital does the animal-health sale provide under case assumptions?",
+   "givens": [
+    "Sales $4.2B",
+    "3.5x EV/sales",
+    "Tax-free structure; no other sale adjustments supplied"
+   ],
+   "steps": [
+    "4.2 × 3.5 = $14.7B."
+   ],
+   "answer": "$14.7B, treated by the case as available capital.",
+   "answer_value": 14.7,
+   "unit": "USD billions",
+   "verified": false,
+   "book_answer_if_different": "Page 160 says '$4.7B raised'; pages 157 and 159 correctly use $14.7B. The final-slide number omits the leading 1."
+  },
+  {
+   "id": "m2",
+   "question": "What are the NPV-to-capital ratios?",
+   "givens": [
+    "Project NPVs 10,10,7,5,5,3",
+    "Capital requirements 9,6,5,4,3,3, all $B"
+   ],
+   "steps": [
+    "Divide each NPV by capital: 10/9=1.1111; 10/6=1.6667; 7/5=1.4; 5/4=1.25; 5/3=1.6667; 3/3=1."
+   ],
+   "answer": "Projects 2 and 5 rank first, followed by 3, 4, 1 and 6.",
+   "answer_value": 1.6666666667,
+   "unit": "NPV/capital ratio (projects 2 and 5)",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Which whole-project portfolio maximizes NPV within $14.7B?",
+   "givens": [
+    "Exhibit 2 NPVs/capital",
+    "$14.7B budget",
+    "Whole projects as implied by the case"
+   ],
+   "steps": [
+    "Check feasible combinations against the capital constraint; Python enumeration confirms projects 2,3,5 maximize NPV.",
+    "Capital = 6+5+3 = $14B.",
+    "NPV = 10+7+5 = $22B.",
+    "Residual = 14.7−14 = $0.7B."
+   ],
+   "answer": "Invest $14B in GLP-1 acquisition, new formulations and plant cost-cutting for $22B NPV, leaving $700M.",
+   "answer_value": 22,
+   "unit": "USD billions NPV",
+   "verified": true
+  }
+ ],
+ "synthesis": "Sell animal health to fund higher-growth opportunities. Its low growth, limited specialization and weaker human-health fit favor divestiture. At 3.5x sales, proceeds are $14.7B, not the final slide's $4.7B. Invest $14B in GLP-1 acquisition, new formulations and U.S. plant cost-cutting for $22B combined NPV, retaining $700M for another investment or shareholder returns. Validate buyers and price, plan deal/project timing and perform diligence on execution and failure risks.",
+ "what_great_looks_like": [
+  "Recognizes capital raising as the immediate need.",
+  "Discusses financing tradeoffs and leads the conversation.",
+  "Combines strategic fit and saleability in choosing the divestiture.",
+  "Checks total portfolio NPV and proposes a use for residual cash."
+ ],
+ "common_pitfalls": [
+  "Re-evaluating projects before solving the cash constraint.",
+  "Subtracting capex twice from NPV.",
+  "Assuming ratio ranking alone always solves a whole-project allocation problem.",
+  "Repeating the $4.7B typo or assuming enterprise value equals cash proceeds outside the case's simplified assumptions."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Fuqua Classic from 2016–2017. Corrected the final recommendation's $4.7B proceeds to $14.7B. All project arithmetic matches and the optimal combination was verified by enumeration. EV is treated as available sale capital by the source; no debt, fees or working-capital adjustments are supplied. Exact unlabelled growth percentages were omitted in favor of visible qualitative positions. Classified as biotech/therapeutics with investment allocation and Other (capital raising/divestiture) rather than generic Healthcare. Difficulty uses max(Medium=3,Difficult=4) in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "case_type",
+   "format",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls",
+   "math[2].givens (whole-project interpretation)"
+  ]
+ }
+}

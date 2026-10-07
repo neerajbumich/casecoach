@@ -1,0 +1,130 @@
+{
+  "id": "oil-gas",
+  "name": "Oil & Gas",
+  "group": "Energy & resources",
+  "one_liner": "Finding, producing, moving and refining hydrocarbons, a capital-heavy commodity business whose profits swing with oil and gas prices.",
+  "how_it_makes_money": "Upstream producers sell crude oil and natural gas at market prices, so earnings track commodity prices minus lifting and development costs. Midstream companies earn largely fee-based, volume-driven tolls on pipelines, storage and processing. Downstream refiners earn the crack spread between crude input costs and product prices, and marketers add retail fuel margins.",
+  "value_chain": [
+    "Exploration and appraisal",
+    "Drilling and production",
+    "Gathering, pipelines and storage",
+    "Refining and petrochemicals",
+    "Distribution and retail fuel"
+  ],
+  "revenue_formula": [
+    "Upstream revenue = production volume (boe/day) × days × realized price per boe",
+    "Refining gross margin = throughput (bbl/day) × utilization × crack spread",
+    "Midstream revenue = contracted/throughput volume × tariff per unit"
+  ],
+  "cost_structure": [
+    "Capex (drilling, completions, facilities): the dominant spend; sustaining capex needed just to offset decline",
+    "Lease operating / lifting costs: per-barrel cost to keep wells producing",
+    "Royalties and production taxes: paid to landowners and governments as a share of revenue",
+    "Crude feedstock: the largest cost for refiners, typically the vast majority of refinery costs",
+    "Depreciation, depletion and amortization: large non-cash charge on capitalized reserves",
+    "Transportation and gathering fees: cost to move barrels to market"
+  ],
+  "margins": "Highly cyclical: upstream margins can swing from losses to very high returns across the price cycle, while midstream is steadier and refining depends on crack spreads. The spread is driven by breakeven cost per barrel, asset quality and capital discipline.",
+  "key_metrics": [
+    {
+      "name": "Barrels of oil equivalent per day (boe/d)",
+      "what": "Production volume, the core output measure for upstream companies."
+    },
+    {
+      "name": "Breakeven price ($/bbl)",
+      "what": "The oil price needed to cover costs and capex; low-breakeven assets survive downturns."
+    },
+    {
+      "name": "Lifting cost ($/boe)",
+      "what": "Operating cost to produce each barrel, a key efficiency benchmark."
+    },
+    {
+      "name": "Reserve replacement ratio (RRR)",
+      "what": "New reserves added versus production; below 100% means the reserve base is shrinking."
+    },
+    {
+      "name": "Crack spread",
+      "what": "Difference between refined product prices and crude cost, the main refining margin driver."
+    },
+    {
+      "name": "Refinery utilization",
+      "what": "Share of refining capacity in use, which drives fixed-cost absorption."
+    },
+    {
+      "name": "Decline rate",
+      "what": "How fast output from existing wells falls, especially steep for shale."
+    }
+  ],
+  "trends": [
+    "Capital discipline and shareholder returns (buybacks, dividends) prioritized over volume growth",
+    "Consolidation in US shale as large players buy acreage and scale",
+    "LNG export build-out linking US gas to global markets",
+    "Methane reduction, emissions targets and carbon capture as license-to-operate issues",
+    "Majors balancing oil and gas cash flows against low-carbon investments",
+    "Geopolitics and OPEC+ supply decisions driving price volatility"
+  ],
+  "key_players": [
+    "ExxonMobil",
+    "Chevron",
+    "Shell",
+    "BP",
+    "TotalEnergies",
+    "ConocoPhillips",
+    "Saudi Aramco",
+    "EOG Resources",
+    "Kinder Morgan",
+    "Marathon Petroleum"
+  ],
+  "case_angles": [
+    {
+      "question": "An E&P company's profits fell sharply despite stable production; what happened and what should it do?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should an oil major acquire a mid-size shale producer?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "Should a company invest in a new LNG export terminal?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "How can a refinery cut operating costs by 10%?",
+      "framework_id": "cost-reduction"
+    }
+  ],
+  "interview_hooks": [
+    "Should oil majors return cash to shareholders or invest aggressively in renewables?",
+    "Will US shale remain a swing producer or has capital discipline changed its role?",
+    "How long will oil demand keep growing given EV adoption?"
+  ],
+  "news": {
+    "keywords": [
+      "crude oil",
+      "brent",
+      "wti",
+      "opec",
+      "shale",
+      "oil price",
+      "lng",
+      "refinery",
+      "natural gas",
+      "drilling",
+      "rig count",
+      "upstream"
+    ],
+    "companies": [
+      "ExxonMobil",
+      "Chevron",
+      "Shell",
+      "BP",
+      "TotalEnergies",
+      "ConocoPhillips",
+      "Saudi Aramco",
+      "Occidental",
+      "EOG Resources",
+      "Halliburton",
+      "Schlumberger"
+    ]
+  }
+}

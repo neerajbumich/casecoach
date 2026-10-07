@@ -1,0 +1,300 @@
+{
+ "id": "booth-2024-contact-lenses",
+ "title": "Contact Lenses",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  121,
+  130
+ ],
+ "case_type": [
+  "Profitability",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "medtech",
+ "sub_industry": "devices",
+ "industry_source_label": "CPG / Contact Lens Provider",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2/3; Quant 2/3; Creativity 2/3",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "contact-lenses",
+  "channel-mix",
+  "pricing",
+  "salesforce",
+  "profit-margin",
+  "call-frequency"
+ ],
+ "fit_question": "Tell me about a time you turned around a team. Tell me about a time when you did not accomplish a professional goal and what you learned from it.",
+ "prompt": "BB is a well-known contact-lens manufacturer and distributor in the United States. Although it is one of the largest players and has been for years, management believes it is not performing as well as its main competitor. Determine what the problem is and recommend a solution.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "The subjective phrase 'not doing as well' should be clarified as a profitability problem."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "US-only demand grows about 3% annually; BB and its main competitor each sell about 10 million lenses per year."
+  },
+  {
+   "question_topic": "Industry",
+   "answer": "The mature, high-barrier market is dominated by BB and one broadly comparable competitor."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led profitability case. Costs, product and total volume are broadly comparable, so guide the candidate toward revenue and channel mix. Exhibit 1 shows channel volume mix; Exhibit 2 shows per-box economics. The sales-rep optimization is per representative before scaling to the five-person team.",
+ "suggested_framework": {
+  "summary": "Compare revenue and cost drivers with the competitor, then isolate channel mix and salesforce productivity.",
+  "tree": {
+   "label": "Profit gap",
+   "children": [
+    {
+     "label": "Revenue",
+     "children": [
+      {
+       "label": "Price, volume and product mix"
+      },
+      {
+       "label": "Promotion and channel/customer mix"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Materials, labor and distribution"
+      },
+      {
+       "label": "R&D, plant, overhead and marketing"
+      }
+     ]
+    },
+    {
+     "label": "Actions and risks",
+     "children": [
+      {
+       "label": "Reallocate sales effort and add channels"
+      },
+      {
+       "label": "Cannibalization, logistics, fatigue and competitor response"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you structure the problem, and where would you prioritize the investigation?",
+   "expected_answer": "Clarify that performance means profitability, compare revenue and cost drivers with the competitor, and prioritize price and sales/channel mix because commoditized inputs, fixed costs and total volume are comparable.",
+   "good_answer_signals": [
+    "Clarifies the objective",
+    "Uses hypotheses to eliminate unlikely branches"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does Exhibit 1 say about BB's customer mix?",
+   "expected_answer": "Both companies put 8% through big-box discounters, but BB sells only 63% through doctors versus the competitor's 75% and compensates with 29% through optical retailers versus 18%. The key question is whether doctor offices are more profitable.",
+   "good_answer_signals": [
+    "Notes equal total volume",
+    "Focuses on the doctor-office gap"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Calculate profit and margin by customer using Exhibit 2. What should BB do?",
+   "expected_answer": "Per six-lens box, profit is $1.50 at big box, $16 at doctor offices and $8.50 at optical retailers, with margins of 9.1%, 57.1% and 38.6%. BB should shift volume and sales effort toward doctor offices while considering direct-to-consumer or subscriptions and their risks.",
+   "good_answer_signals": [
+    "Calculates profit and margin",
+    "Links channel mix to the profit gap"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Each of five reps has 100 doctor accounts. A call takes 30 minutes; reps work 20 eight-hour days and spend three hours daily on non-call work. Every account must receive one monthly call. Two monthly calls lift account revenue 5%; three lift it 15%. Baseline monthly revenue is $100 per account. What should BB do?",
+   "expected_answer": "Each rep can make 200 calls. After 100 required calls, use the other 100 to give two extra calls to 50 accounts. Per-rep revenue becomes 50×$100+50×$115=$10,750, better than $10,500 from calling all 100 accounts twice. Across five reps, revenue is $53,750 per month, a $3,750 or 7.5% lift over baseline.",
+   "good_answer_signals": [
+    "Optimizes incremental calls",
+    "Distinguishes per-rep from team revenue"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation?",
+   "expected_answer": "Shift sales toward high-margin doctor offices and have each rep call 50 accounts once and 50 three times per month. This raises team monthly revenue from $50,000 to $53,750. Rotate intensively called accounts and monitor customer fatigue, cannibalization, logistics and competitor response.",
+   "good_answer_signals": [
+    "Quantifies the recommendation",
+    "Provides risk mitigations"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Sales Volume by Customer",
+   "page": 125,
+   "kind": "bar",
+   "description": "Percentage of annual sales volume through three customer channels for BB and its competitor.",
+   "image_path": "exhibits/booth-2024-contact-lenses/p125.webp",
+   "image_has_answers": false,
+   "key_insight": "BB has less doctor-office volume and more optical-retailer volume than its competitor.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Customer channel",
+     "BB share of sales",
+     "Competitor share of sales"
+    ],
+    "rows": [
+     [
+      "Big Box Discounters",
+      "8%",
+      "8%"
+     ],
+     [
+      "Doctor's Offices",
+      "63%",
+      "75%"
+     ],
+     [
+      "Optical Retailers",
+      "29%",
+      "18%"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ex2",
+   "title": "Profitability by Customer",
+   "page": 127,
+   "kind": "table",
+   "description": "Revenue and costs per box of six lenses by customer channel.",
+   "image_path": "exhibits/booth-2024-contact-lenses/p127.webp",
+   "image_has_answers": false,
+   "key_insight": "Doctor offices have the highest price and lowest sales/distribution cost.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Per box of six lenses",
+     "Big Box Discounter",
+     "Doctor's Office",
+     "Optical Retailer"
+    ],
+    "rows": [
+     [
+      "Revenue",
+      "$16.50",
+      "$28.00",
+      "$22.00"
+     ],
+     [
+      "COGS",
+      "$8.00",
+      "$8.00",
+      "$8.00"
+     ],
+     [
+      "Sale, Distribution",
+      "$5.00",
+      "$2.00",
+      "$3.50"
+     ],
+     [
+      "Other Fixed Costs",
+      "$2.00",
+      "$2.00",
+      "$2.00"
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are profit and profit margin per box by channel?",
+   "givens": [
+    "Exhibit 2 revenue and cost inputs"
+   ],
+   "steps": [
+    "Big box profit=$16.50-$8-$5-$2=$1.50; margin=$1.50/$16.50=9.1%",
+    "Doctor profit=$28-$8-$2-$2=$16; margin=$16/$28=57.1%",
+    "Optical profit=$22-$8-$3.50-$2=$8.50; margin=$8.50/$22=38.6%"
+   ],
+   "answer": "$1.50 and 9.1% at big box; $16 and 57.1% at doctors; $8.50 and 38.6% at optical retailers",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How should each sales rep allocate monthly calls, and what is the revenue impact?",
+   "givens": [
+    "5 selling hours/day",
+    "20 days/month",
+    "0.5 hour/call",
+    "100 accounts/rep",
+    "$100 baseline/account",
+    "5% lift at two calls",
+    "15% lift at three calls"
+   ],
+   "steps": [
+    "Capacity=5/0.5×20=200 calls/rep/month",
+    "Required first calls=100, leaving 100",
+    "All twice: 100×$105=$10,500/rep",
+    "50 once and 50 three times: 50×$100+50×$115=$10,750/rep",
+    "Team revenue=5×$10,750=$53,750; lift=$3,750 or 7.5%"
+   ],
+   "answer": "Call 50 accounts once and 50 three times; $10,750 per rep and $53,750 for the five-rep team per month",
+   "answer_value": 53750,
+   "unit": "USD/month",
+   "verified": true
+  }
+ ],
+ "synthesis": "BB should shift volume toward doctor offices, where profit is $16 per box and margin is 57.1%, versus $8.50 and 38.6% at optical retailers. Reallocate each rep's 200-call capacity so 50 accounts receive one call and 50 receive three, raising five-rep monthly revenue from $50,000 to $53,750. Rotate the high-frequency group and monitor fatigue, cannibalization, logistics and competitor response.",
+ "what_great_looks_like": [
+  "Clarifies profitability before structuring",
+  "Finds channel mix as the driver",
+  "Optimizes call frequency using incremental returns"
+ ],
+ "common_pitfalls": [
+  "Assumes the problem is market share",
+  "Compares channel revenue without costs",
+  "Reports $10,750 as total team revenue rather than per rep"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Both exhibits are candidate-facing and contain inputs only. Competitor channel percentages total 101%, apparently due to rounding; they are preserved as printed. The recommendation's $10,750/month is interpreted as per rep because the calculation uses one rep's 100 accounts. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

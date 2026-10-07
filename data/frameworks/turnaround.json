@@ -1,0 +1,125 @@
+{
+ "id": "turnaround",
+ "name": "Turnaround",
+ "category": "core",
+ "summary": "A business in distress. Stabilise first (cash, liquidity, stop the bleeding), diagnose root causes (usually a mix of revenue, cost and management), then execute a recovery plan with quick wins and structural fixes.",
+ "opening_line": "In a turnaround I'd first secure short-term survival (cash runway and quick wins), then diagnose the root causes across revenue, costs and operations, and finally build the longer-term recovery plan.",
+ "when_to_use": [
+  "Loss-making business, cash crunch, near-bankruptcy",
+  "Rescue after a failed strategy"
+ ],
+ "when_not_to_use": [
+  "Healthy business with a mild margin dip: use profitability"
+ ],
+ "tree": {
+  "label": "Turn it around",
+  "children": [
+   {
+    "label": "Stabilise",
+    "children": [
+     {
+      "label": "Cash runway & liquidity"
+     },
+     {
+      "label": "Stop losses: quick wins"
+     },
+     {
+      "label": "Stakeholders: lenders, staff"
+     }
+    ]
+   },
+   {
+    "label": "Diagnose",
+    "children": [
+     {
+      "label": "Revenue decline causes"
+     },
+     {
+      "label": "Cost / efficiency gaps"
+     },
+     {
+      "label": "Portfolio: which units lose money"
+     },
+     {
+      "label": "Management & organisation"
+     }
+    ]
+   },
+   {
+    "label": "Recover",
+    "children": [
+     {
+      "label": "Fix or exit loss-making units"
+     },
+     {
+      "label": "Cost restructuring"
+     },
+     {
+      "label": "Revenue relaunch"
+     }
+    ]
+   },
+   {
+    "label": "Execute",
+    "children": [
+     {
+      "label": "Milestones & KPIs"
+     },
+     {
+      "label": "Funding"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Stabilise",
+   "questions": [
+    "How many months of cash are left?"
+   ],
+   "data_to_ask": [
+    "Cash flow statement",
+    "Debt terms"
+   ]
+  },
+  {
+   "name": "Diagnose",
+   "questions": [
+    "Which units or products lose money, and why?"
+   ],
+   "data_to_ask": [
+    "P&L by unit"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "healthcare-providers",
+   "note": "Loss-making hospital departments: payer mix, volume, and fixed-cost absorption."
+  }
+ ],
+ "common_mistakes": [
+  "Ignoring cash and survival first",
+  "Treating symptoms, not root causes",
+  "No sequencing between quick wins and structural change"
+ ],
+ "related": [
+  "profitability",
+  "cost-reduction"
+ ],
+ "match": {
+  "case_types": [
+   "Turnaround"
+  ],
+  "tags": [
+   "turnaround",
+   "restructuring"
+  ],
+  "keywords": [
+   "turnaround",
+   "loss",
+   "distress"
+  ]
+ }
+}

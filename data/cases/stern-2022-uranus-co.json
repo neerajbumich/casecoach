@@ -1,0 +1,594 @@
+{
+ "id": "stern-2022-uranus-co",
+ "title": "Uranus Co.",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  283,
+  293
+ ],
+ "author": "Krithik Tirupapuliyur, Avik Banerjee, Steve Mendoza (Stern '21)",
+ "case_type": [
+  "Market Entry",
+  "Capacity/Supply Chain",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "hospitality",
+ "sub_industry": "travel",
+ "industry_source_label": "Travel/Hospitality",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 9; Structure: 7 (1 = Easiest, 10 = Hardest)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "market-sizing",
+  "space-tourism",
+  "capacity",
+  "payback",
+  "customer-preferences",
+  "market-share",
+  "survey-bias"
+ ],
+ "concepts_tested": [
+  "Market Sizing",
+  "Market Penetration",
+  "Capacity",
+  "Breakeven Time"
+ ],
+ "client_type": "for-profit",
+ "geography": "Global; Bangkok headquarters",
+ "prompt": "Uranus Co. is an established aerospace company looking to enter the luxury space travel market. It is seeking advice on the global launch of its new travel service, which will be a 2-week cruise experience on a spaceship orbiting earth. Uranus is trying to determine whether they should enter the market and if they can be profitable. How would you advise Uranus Co.?",
+ "clarifying_info": [
+  {
+   "question_topic": "Existing business",
+   "answer": "Uranus supplies aerospace equipment and assets to governments and private companies. It operates globally and is headquartered in Bangkok."
+  },
+  {
+   "question_topic": "Objective and timing",
+   "answer": "Determine whether the market is lucrative and large enough to enter, with breakeven within two years. Desired entry timing is as soon as possible."
+  },
+  {
+   "question_topic": "Competitors and service",
+   "answer": "SpaceX and MoonShine are the largest competitors. The service is similar to a cruise-ship experience, but in space."
+  }
+ ],
+ "interviewer_notes": "Have the candidate build a case-specific entry framework, size annual ticket demand, assess competitors and preferences, then test capacity and payback. Before giving Exhibit 1, ask what sizing factors matter. If asked, guide the candidate to include both yes and maybe survey respondents. Age, asthma and city residence are deliberate red herrings; the exhibit's only medical eligibility condition is no heart condition. This is a fictional case assumption, not real travel-health advice. Let the candidate defend their own share estimate before disclosing management's 20% target. Financial analysis assumes full utilization of the stated fleet and trip schedule. The source calls fuel and maintenance fixed costs even though they vary by trip; preserve the inputs and compute them at the specified schedule without treating them as invariant at all volumes.",
+ "suggested_framework": {
+  "summary": "Evaluate customer demand and competition, operating capabilities, service design and economics before selecting an entry route.",
+  "tree": {
+   "label": "Launch luxury orbital cruises?",
+   "children": [
+    {
+     "label": "Market and product",
+     "children": [
+      {
+       "label": "Affluent eligible customers, willingness and preferences"
+      },
+      {
+       "label": "Competitor strengths and shares"
+      },
+      {
+       "label": "Price, trip length, safety and onboard experience"
+      },
+      {
+       "label": "Regulatory environment"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Tickets, food/drink, merchandise, activities and broadcasting"
+      },
+      {
+       "label": "Spaceship investment, marketing, insurance and launch pads"
+      },
+      {
+       "label": "Fuel, maintenance, staffing and passenger costs"
+      },
+      {
+       "label": "Two-year breakeven"
+      }
+     ]
+    },
+    {
+     "label": "Internal readiness",
+     "children": [
+      {
+       "label": "IP and operational capabilities"
+      },
+      {
+       "label": "Capital availability and fleet capacity"
+      },
+      {
+       "label": "Brand reputation and safety"
+      }
+     ]
+    },
+    {
+     "label": "Go-to-market",
+     "children": [
+      {
+       "label": "Organic launch, partnerships or acquisition"
+      },
+      {
+       "label": "Timing and demand validation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess launching the two-week orbital cruise service?",
+   "release_when": "Read the prompt and give clarifications on request.",
+   "info_to_release": "Uranus is a global aerospace supplier based in Bangkok. It wants to enter as soon as possible and break even within two years. SpaceX and MoonShine are its largest competitors.",
+   "exhibit_ids": [],
+   "expected_answer": "Assess affluent customer demand and eligibility, competitor and product fit, regulation and safety, operational capacity and capital needs, ticket and ancillary revenues, ongoing costs and payback. Compare organic, partnership and acquisition approaches while testing operational and financial capabilities.",
+   "good_answer_signals": [
+    "Builds a space-travel-specific framework.",
+    "Includes safety, large upfront capital and rollout timing."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What factors determine market size? Using our research, estimate annual space-travel tickets for global millionaires.",
+   "release_when": "Wait for factors first, then give Exhibit 1. Clarify that yes and maybe responses both count if asked.",
+   "info_to_release": "Global population 8 billion; millionaires 0.1%. Survey of 200 American millionaires: 90 yes, 80 no, 30 maybe on leisure space travel; 2.3 tickets annually on average among interested respondents. Heart conditions: 75 yes, 125 no. Asthma: 50 yes, 150 no. Globally, 40% of millionaires are over 50 and 65% live in major cities. The only stated eligibility requirement is no heart condition.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "8 billion × 0.1% = 8 million millionaires. Apply the survey's 125/200 without heart conditions to get 5 million eligible people. Interested share including maybe is (90 + 30)/200 = 60%, giving 3 million potential buyers. At 2.3 tickets annually, modeled demand is 6.9 million tickets per year. Do not filter by asthma, age or city residence. Flag that a small American self-report survey may not represent global demand and that marginal health and interest proportions are multiplied without joint-response data.",
+   "good_answer_signals": [
+    "Filters only on the stated eligibility rule.",
+    "Distinguishes buyers from annual tickets.",
+    "Recognizes sample and self-report limitations."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "How much of this market could Uranus capture?",
+   "release_when": "Give Exhibits 2 and 3. Let the candidate defend an estimate before revealing management's 20% expectation.",
+   "info_to_release": "SpaceX has 50% of tickets, MoonShine 30%, and other firms 20%; no other firm exceeds 6%. Uranus offers leading distance, voyage length and amenities and ties SpaceX on safety, but is most expensive (the cost-score scale is reversed). Customers prioritize safety and amenities, then trip length and distance; cost is least important. After discussion, disclose that Uranus believes it can capture 20%.",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "A 20% capture could be plausible given Uranus's strong offering on valued dimensions, taking business from a fragmented fringe and potentially the leaders. It is not derived mechanically from the chart, and not guaranteed. Customers' low stated price sensitivity helps but does not eliminate price risk. Share capture will take time while Uranus demonstrates reliability and establishes its brand.",
+   "good_answer_signals": [
+    "Supports a share estimate rather than merely repeating management's number.",
+    "Reads the reversed cost scale correctly.",
+    "Recognizes gradual ramp-up and safety parity rather than claiming superiority on every attribute."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Does the operating plan have capacity to serve at least 20% of annual demand?",
+   "release_when": "Give Exhibits 4 and 5 after market and competitive assessment.",
+   "info_to_release": "Fleet 150 ships, each with 400 passengers and 2 trips per month. Ten global launch pads. Each trip uses 500,000 gallons of fuel. Management wants at least 20% of annual market tickets.",
+   "exhibit_ids": [
+    "ex4",
+    "ex5"
+   ],
+   "expected_answer": "2 trips × 12 months × 150 ships = 3,600 trips per year. At 400 passengers per trip, capacity is 1.44 million tickets annually, or 20.87% of 6.9 million demand. This exceeds the 1.38 million tickets corresponding to 20%, but requires the stated schedule and sufficient utilization. Capacity alone does not establish demand capture.",
+   "good_answer_signals": [
+    "Keeps per-ship, per-month and fleet totals separate.",
+    "Distinguishes available capacity from realized sales."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "At full capacity, can Uranus recover its initial investment within two years?",
+   "release_when": "Continue with Exhibit 5 after the capacity calculation.",
+   "info_to_release": "Each ship costs $1.5 billion to build. Ticket price $400,000; other revenue $100,000 per customer; variable passenger cost $400,000. Fuel $5/gallon; maintenance $100,000/trip; annual launch-pad lease $10 million per pad; annual insurance $450 million, payroll $40 million and marketing $50 million. Use full capacity and the provided annual schedule.",
+   "exhibit_ids": [
+    "ex4",
+    "ex5"
+   ],
+   "expected_answer": "Initial construction is $225 billion. Annual scheduled fuel is $9 billion, maintenance $360 million, pad leases $100 million, and insurance/payroll/marketing $540 million, totaling $10 billion. Per-passenger contribution is $400,000 + $100,000 − $400,000 = $100,000. Full-capacity annual cash contribution after those operating costs is 1.44 million × $100,000 − $10 billion = $134 billion. Simple payback is $225 billion / $134 billion = 1.679 years, about 1.68, below two years. This excludes construction lead time, demand ramp-up and any unprovided financing or other costs.",
+   "good_answer_signals": [
+    "Separates upfront ship investment from annual operating costs.",
+    "Adds ancillary revenue and includes all specified trip and annual costs.",
+    "Recognizes the full-capacity assumption and avoids presenting launch lead time as already covered."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Uranus enter, and what should it do next?",
+   "release_when": "After the capacity and payback analysis.",
+   "info_to_release": "No additional information.",
+   "exhibit_ids": [],
+   "expected_answer": "The source favors entry: modeled demand is 6.9 million annual tickets, Uranus has a competitive premium offer, capacity supports 20.87% share and full-capacity payback is about 1.68 years. Qualify the recommendation with survey uncertainty, regulation, safety/liability, setup complexity and competitor actions. Validate demand with broader research before major commitments; develop construction and staffing plans, then marketing and pre-orders. Other recommendations are acceptable if supported, especially if ramp-up or implementation concerns undermine the two-year objective.",
+   "good_answer_signals": [
+    "Leads with a supported answer and key numbers.",
+    "Distinguishes modeled operating payback from a guaranteed launch-to-breakeven timeline.",
+    "Links demand validation and execution plans to the risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Market Research",
+   "page": 289,
+   "kind": "other",
+   "description": "Global wealth metrics, qualitative millionaire-density map and a survey of 200 American millionaires. Map shading has no numerical density values. The case's only travel eligibility condition is absence of heart conditions.",
+   "data": {
+    "columns": [
+     "Input",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Global population",
+      8000000000
+     ],
+     [
+      "Millionaires globally (%)",
+      0.1
+     ],
+     [
+      "Millionaires over age 50 (%)",
+      40
+     ],
+     [
+      "Millionaires living in major cities (%)",
+      65
+     ],
+     [
+      "Survey sample",
+      200
+     ],
+     [
+      "Want leisure space travel: yes",
+      90
+     ],
+     [
+      "Want leisure space travel: no",
+      80
+     ],
+     [
+      "Want leisure space travel: maybe",
+      30
+     ],
+     [
+      "Average tickets desired per year",
+      2.3
+     ],
+     [
+      "Heart condition: yes",
+      75
+     ],
+     [
+      "Heart condition: no",
+      125
+     ],
+     [
+      "Asthma: yes",
+      50
+     ],
+     [
+      "Asthma: no",
+      150
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-uranus-co/p289.webp",
+   "image_has_answers": false,
+   "key_insight": "Use only wealth, heart-condition eligibility, willingness and annual tickets; age, city residence and asthma are red herrings under the case's rule.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Competitive Landscape",
+   "page": 290,
+   "kind": "other",
+   "description": "Ticket-share pie chart plus an unlabeled-bar comparison of cost, distance, voyage length, amenities and safety. A shorter cost bar means a higher price. Exact strength scores are not transcribed from unlabeled bars; qualitative comparisons are preserved.",
+   "data": {
+    "columns": [
+     "Competitor",
+     "Ticket share (%)"
+    ],
+    "rows": [
+     [
+      "SpaceX",
+      50
+     ],
+     [
+      "MoonShine",
+      30
+     ],
+     [
+      "Rest of market",
+      20
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-uranus-co/p290.webp",
+   "image_has_answers": false,
+   "key_insight": "Uranus leads on distance, voyage length and amenities, ties SpaceX on safety and is most expensive. The remaining 20% is fragmented, with no firm above 6%.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex3",
+   "title": "Customer Surveys",
+   "page": 291,
+   "kind": "other",
+   "description": "Unlabeled importance bars rank safety and amenities highest, followed by trip length and distance, with cost far lower. Customer statements favor longer trips, a full-planet view and paying more for the best experience. Exact unlabeled scores are omitted.",
+   "data": {
+    "columns": [
+     "Customer statement topic",
+     "Stated preference"
+    ],
+    "rows": [
+     [
+      "Voyage length",
+      "A longer trip allows relaxation and value for money."
+     ],
+     [
+      "Distance from Earth",
+      "Greater height should offer a full-planet view."
+     ],
+     [
+      "Cost",
+      "Willing to pay extra for the best experience."
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-uranus-co/p291.webp",
+   "image_has_answers": false,
+   "key_insight": "Uranus's premium attributes align with surveyed preferences, but stated willingness is not verified purchase behavior.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "ex4",
+   "title": "Operations Information",
+   "page": 292,
+   "kind": "table",
+   "description": "Fleet, passenger capacity, trip frequency, launch pads and trip fuel requirements.",
+   "data": {
+    "columns": [
+     "Input",
+     "Amount"
+    ],
+    "rows": [
+     [
+      "Passengers per ship",
+      400
+     ],
+     [
+      "Ships in fleet",
+      150
+     ],
+     [
+      "Trips per month per ship",
+      2
+     ],
+     [
+      "Launch pads globally",
+      10
+     ],
+     [
+      "Gallons of fuel per trip",
+      500000
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-uranus-co/p292.webp",
+   "image_has_answers": false,
+   "key_insight": "Compute fleet trips and passenger capacity before assessing whether the share target can be served.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex5",
+   "title": "Revenue and Cost Data",
+   "page": 293,
+   "kind": "table",
+   "description": "Per-customer revenues and cost, upfront construction, per-trip costs and annual overheads. The source labels ship construction and trip fuel/maintenance together as fixed costs, but their economic timing and drivers differ.",
+   "data": {
+    "columns": [
+     "Input",
+     "USD amount",
+     "Basis"
+    ],
+    "rows": [
+     [
+      "Ticket price",
+      400000,
+      "per customer"
+     ],
+     [
+      "Other revenue",
+      100000,
+      "per customer"
+     ],
+     [
+      "Ship construction",
+      1500000000,
+      "upfront per ship"
+     ],
+     [
+      "Fuel price",
+      5,
+      "per gallon"
+     ],
+     [
+      "Maintenance",
+      100000,
+      "per trip"
+     ],
+     [
+      "Payroll",
+      40000000,
+      "annual"
+     ],
+     [
+      "Launch-pad lease",
+      10000000,
+      "annual per pad"
+     ],
+     [
+      "Insurance",
+      450000000,
+      "annual"
+     ],
+     [
+      "Marketing",
+      50000000,
+      "annual"
+     ],
+     [
+      "Variable passenger cost",
+      400000,
+      "per customer"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-uranus-co/p293.webp",
+   "image_has_answers": false,
+   "key_insight": "Treat ship construction as upfront, compute fuel/maintenance at the planned trip volume, and deduct passenger-variable cost from ticket plus ancillary revenue.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is modeled global annual demand for tickets?",
+   "givens": [
+    "Population 8 billion, millionaires 0.1%",
+    "125 of 200 surveyed have no heart condition",
+    "90 yes and 30 maybe responses out of 200 count as willing",
+    "2.3 annual tickets per interested buyer"
+   ],
+   "steps": [
+    "Millionaires = 8 billion × 0.1% = 8 million.",
+    "Eligible = 8 million × 125/200 = 5 million.",
+    "Willing = 5 million × (90 + 30)/200 = 3 million.",
+    "Tickets = 3 million × 2.3 = 6.9 million annually."
+   ],
+   "answer": "6.9 million tickets annually under the source's survey-extrapolation assumptions.",
+   "answer_value": 6900000,
+   "unit": "tickets/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "Can the fleet serve 20% of that demand?",
+   "givens": [
+    "150 ships",
+    "2 trips monthly per ship",
+    "400 passengers per trip",
+    "6.9 million annual market tickets"
+   ],
+   "steps": [
+    "Annual trips = 150 × 2 × 12 = 3,600.",
+    "Annual ticket capacity = 3,600 × 400 = 1,440,000.",
+    "Capacity share = 1.44 million / 6.9 million = 20.8696%.",
+    "20% target demand = 6.9 million × 20% = 1.38 million, below capacity."
+   ],
+   "answer": "Yes: 1.44 million annual tickets, equivalent to approximately 20.87% of the modeled market.",
+   "answer_value": 20.869565217391305,
+   "unit": "% market capacity",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What upfront and scheduled annual costs must be covered?",
+   "givens": [
+    "150 ships at $1.5 billion each",
+    "3,600 trips, 500,000 fuel gallons per trip at $5/gallon",
+    "$100,000 maintenance per trip",
+    "10 pads at $10 million annual lease each",
+    "Annual insurance $450 million, payroll $40 million and marketing $50 million"
+   ],
+   "steps": [
+    "Upfront construction = 150 × $1.5 billion = $225 billion.",
+    "Fuel = 3,600 × 500,000 × $5 = $9 billion per year.",
+    "Maintenance = 3,600 × $100,000 = $360 million per year.",
+    "Pad leases = 10 × $10 million = $100 million per year.",
+    "Other annual costs = $450 million + $40 million + $50 million = $540 million.",
+    "Annual scheduled costs = $9 billion + $360 million + $100 million + $540 million = $10 billion."
+   ],
+   "answer": "$225 billion upfront and $10 billion annual scheduled costs, excluding the separately modeled per-passenger cost.",
+   "answer_value": 10000000000,
+   "unit": "USD/year scheduled costs",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is full-capacity simple payback?",
+   "givens": [
+    "Ticket $400,000 and other revenue $100,000 per customer",
+    "$400,000 variable cost per customer",
+    "1.44 million tickets at full capacity",
+    "$10 billion annual scheduled costs",
+    "$225 billion upfront construction"
+   ],
+   "steps": [
+    "Contribution per customer = 400,000 + 100,000 − 400,000 = $100,000.",
+    "Annual operating cash contribution = 1.44 million × $100,000 − $10 billion = $134 billion.",
+    "Simple payback = $225 billion / $134 billion = 1.67910448 years."
+   ],
+   "answer": "Approximately 1.68 operating years at full capacity, less than the two-year target under the supplied model.",
+   "answer_value": 1.6791044776119404,
+   "unit": "years at full capacity",
+   "verified": true
+  }
+ ],
+ "synthesis": "The source supports entry: modeled annual demand is 6.9 million tickets, the premium offer aligns with surveyed preferences, and 1.44 million annual seats support 20.87% market share. At full capacity, $134 billion annual operating contribution repays $225 billion upfront construction in about 1.68 years. This is conditional on demand, utilization and the stated schedule, not a guaranteed payback from project initiation. Validate global demand, safety and regulatory feasibility, then build the staffing, construction, marketing and pre-order plan. Account for ramp-up, setup complexity and competitor response before committing to the full investment.",
+ "what_great_looks_like": [
+  "Ignores irrelevant age, asthma and urban-residence filters under the source rule.",
+  "Questions extrapolation from 200 American millionaires.",
+  "Supports a share estimate with competitive and customer evidence.",
+  "Separates upfront investment, trip costs and passenger-variable costs.",
+  "Recognizes that share capture and operational readiness take time."
+ ],
+ "common_pitfalls": [
+  "Excluding maybe respondents despite the source's instruction.",
+  "Confusing interested people with annual tickets.",
+  "Reading a lower cost score as a cheaper offer.",
+  "Assuming capacity guarantees actual ticket sales.",
+  "Treating ship-building cost as an annual expense.",
+  "Calling the 1.68-year result a proven launch-to-payback timeline."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-04",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[1].data (exact unlabeled offering scores omitted)",
+   "exhibits[2].data (exact unlabeled importance scores omitted)"
+  ],
+  "math_verified": true,
+  "notes": "All source calculations match: 6.9 million annual tickets, 1.44 million capacity, 20.87% capacity share, $225 billion upfront, $10 billion annual scheduled costs and approximately 1.68-year payback. Figures are hypothetical case assumptions, not verified real-world forecasts. Health eligibility is a fictional modeling rule. Global demand extrapolates a small US self-report sample and multiplies marginal health/interest proportions without joint data. Exact unlabeled score values are omitted while qualitative rankings and candidate images remain available; Uranus ties SpaceX on safety rather than strictly exceeding it. Source fixed-cost labeling includes trip-variable fuel and maintenance; cost drivers are made explicit without changing calculations. Payback is full-capacity operating payback, excluding unprovided construction and ramp-up timing. Difficulty uses max(9,7), Python round(9/2) = 4. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "case_type secondary mappings",
+   "industry",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "client_type",
+   "difficulty aggregation across quant and structure",
+   "suggested_framework.tree organization",
+   "common_pitfalls"
+  ]
+ }
+}

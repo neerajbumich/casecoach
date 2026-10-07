@@ -1,0 +1,443 @@
+{
+ "id": "kellogg-2024-andrew-s-simple-delights",
+ "title": "Andrew's Simple Delights",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  415,
+  426
+ ],
+ "author": "Steve Azzolino (Kellogg 2024); inspired by Andrew Tran (Kellogg 2024)",
+ "case_type": [
+  "Profitability",
+  "Pricing"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "Restaurant industry",
+ "geography": "Evanston, Illinois, United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "pricing-strategy",
+  "unit-economics",
+  "seasonality",
+  "below-cost-pricing",
+  "price-elasticity",
+  "brand-risk",
+  "turnaround"
+ ],
+ "concepts_tested": [
+  "Pricing strategy",
+  "Profitability analysis",
+  "Business insight"
+ ],
+ "fit_question": "Tell me about a time that you had to work collaboratively, but the project did not go as planned.",
+ "prompt": "Our client, Simple Delights, is a restaurant in Evanston, Illinois. They are an Asian-fusion restaurant and have been open for the last 12 months. Customers in the area have called Simple Delights one of their favorite restaurants. They particularly love the restaurant's crab rangoons, which some customers have called \"the best in the world.\" The majority of customers are students at Northwestern University. Despite their popularity, the restaurant has become increasingly unprofitable. If they do not fix the situation soon, the owner will have to close the restaurant. How would you advise Simple Delights to turn around the business?",
+ "clarifying_info": [
+  {
+   "question_topic": "Competition",
+   "answer": "Evanston has a saturated restaurant industry with several Asian-fusion restaurants."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Simple Delights is a counter-service restaurant (customers order and pick up at the counter). They offer dine-in, take-out, and are available on food delivery apps. Crab rangoons are an appetizer of crab, cream cheese, and seasonings wrapped in a crispy wonton."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "The restaurant has only one location, in Evanston."
+  },
+  {
+   "question_topic": "Goal",
+   "answer": "The owner would like to reach $120,000 in annual profit as soon as possible."
+  }
+ ],
+ "interviewer_notes": "This case challenges the candidate to pick up on key facts throughout the case that become relevant at later stages, while analyzing a somewhat unique industry. Steps: (1) develop a comprehensive framework, (2) analyze historical revenues and costs, (3) explore the impact of pricing strategy on profit, (4) brainstorm the impacts of updating pricing, (5) provide a client recommendation.",
+ "suggested_framework": {
+  "summary": "Three-pronged framework covering the local restaurant market, the business's own financials (revenue and cost drivers), and operations/logistics considerations.",
+  "tree": {
+   "label": "How to turn around Simple Delights",
+   "children": [
+    {
+     "label": "Restaurant market in Evanston",
+     "children": [
+      {
+       "label": "Market share of the local food industry"
+      },
+      {
+       "label": "Customer profile (tastes, preferences, health trends)"
+      },
+      {
+       "label": "Available substitutes (campus dining, groceries, etc.)"
+      }
+     ]
+    },
+    {
+     "label": "Business financials",
+     "children": [
+      {
+       "label": "Revenue",
+       "children": [
+        {
+         "label": "Number of customers"
+        },
+        {
+         "label": "Average ticket price"
+        },
+        {
+         "label": "Menu items and pricing"
+        },
+        {
+         "label": "Revenue channel mix (dine-in / take-out / delivery)"
+        }
+       ]
+      },
+      {
+       "label": "Costs",
+       "children": [
+        {
+         "label": "Ingredient cost"
+        },
+        {
+         "label": "Rent"
+        },
+        {
+         "label": "Wages and headcount"
+        },
+        {
+         "label": "Insurance and licenses"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Operations & logistics",
+     "children": [
+      {
+       "label": "Capacity and utilization"
+      },
+      {
+       "label": "Brand image impact of strategic changes"
+      },
+      {
+       "label": "Competitive response to changes"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you advise Simple Delights to turn around the business?",
+   "expected_answer": "Candidate should build a comprehensive framework spanning the local restaurant market (share, customer profile, substitutes), the business's own financials (revenue drivers like customer count, ticket price, menu mix, and channel mix; cost drivers like ingredients, rent, wages, insurance/licenses), and operations/logistics (capacity/utilization, brand impact of changes, competitive response).",
+   "good_answer_signals": [
+    "Covers market, financials, and operations as distinct buckets rather than jumping straight to costs",
+    "Splits revenue into customer count, price, and mix rather than treating it as one number",
+    "Anticipates that any recommended change could trigger a competitive or brand response"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do the restaurant's historical revenues and costs look like?",
+   "release_when": "Provide Exhibit A when the interviewee asks about revenue or costs. If asked, remind them the restaurant opened in January. If asked why sales dropped from May to August, push the candidate to hypothesize that most customers are students who left Evanston for the summer.",
+   "info_to_release": "Exhibit A: trailing-twelve-month revenue and cost trend, $K's, Jan-Dec.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate should read the chart and recognize the restaurant is now losing about $20k/month (roughly $80k revenue vs. $100k costs by year-end). Against the $120k/year goal (~$10k/month), the business needs to improve profitability by about $30k/month. Candidate should also notice that both revenue and costs are at all-time highs simultaneously, which points to a cost problem (margins), not a demand problem -- and should ask for cost/margin information at this point. Do not release the next exhibit until the candidate specifically asks about food item margins/prices.",
+   "good_answer_signals": [
+    "Correctly reads the ~$20k/month loss and connects it to the ~$30k/month improvement needed to hit the $120k annual goal",
+    "Notices revenue and costs are both at all-time highs and infers a margin/cost issue rather than a demand issue",
+    "Explicitly asks for item-level margin/price data before moving on"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "In late August, because of the drop in demand, the owner made two changes: renamed the restaurant from 'Andrew's Bodega' to 'Simple Delights' to highlight food quality, and updated menu pricing. What is your initial reaction to this strategy? Then: what do you notice in the updated menu pricing?",
+   "release_when": "Provide Exhibit B after the candidate asks about menu margins/prices, and only after they've reacted to the rebrand/repricing strategy.",
+   "info_to_release": "Exhibit B: January vs. September menu prices across appetizers and main courses. When asked, crab rangoons cost $5.49 to produce.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidate should note the repricing strategy was misguided, since the actual cause of the summer demand drop was students leaving town, not price -- though they may still list pros (short-term demand boost, brand refresh) and cons (margin impact). On the exhibit, candidate should quickly identify that crab rangoons' price fell the most dramatically, from $8.99 to $3.49 (a $5.50, ~60% cut). Given the $5.49 production cost, the restaurant is now losing about $2 on every crab rangoon sold. If asked why they priced below cost, the owner didn't have a firm handle on costs and wanted to boost sales of the most popular item.",
+   "good_answer_signals": [
+    "Correctly judges the repricing strategy as misaligned with the true (seasonal) cause of the demand drop",
+    "Picks out crab rangoons specifically as the item with the most dramatic price cut, rather than treating all items equally",
+    "Computes that the restaurant now loses ~$2 per crab rangoon sold at $3.49 against a $5.49 cost"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "What would be the impact on sales, and on profit, of raising the crab rangoon price back up?",
+   "release_when": "Only reveal Exhibit C if the candidate asks about the sales impact of changing price (or mentions price elasticity), or asks about crab rangoon market share.",
+   "info_to_release": "Exhibit C: monthly unit sales of crab rangoons for Simple Delights vs. competitors in Evanston. If asked, clarify that average monthly Simple Delights unit sales were ~4,000 before the summer and rose to ~8,000 after the September price cut.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Candidate should notice Simple Delights' crab rangoon sales fell over the summer (mirroring revenue) then roughly doubled in September after the price cut, from ~4,000/month to ~8,000/month. An excellent candidate notes total market size (Simple Delights + competitors) also grew after the price cut, suggesting some customers switched from ordering something else to crab rangoons. Candidate should then test raising the price back toward $8.99: at 4,000 units and $8.99 price ($5.49 cost), unit contribution is $3.50, for $14,000/month profit; at 8,000 units and $3.49 price, unit contribution is -$2.00, for -$16,000/month. Raising the price back to $8.99 (even if volume reverts to ~4,000) improves monthly profit by about $30,000 -- enough to hit the owner's goal (though a candidate who notes summer volumes may run lower than 4,000 should be credited for an excellent insight).",
+   "good_answer_signals": [
+    "Reads the roughly 2x jump in unit sales (4,000 to 8,000/month) correctly off the chart",
+    "Notices total market size for crab rangoons grew after the price cut, not just Simple Delights' share of it",
+    "Correctly computes and compares unit contribution/profit at both price points and connects the ~$30k/month swing to the earlier profitability gap"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other implications should we consider before recommending a price increase?",
+   "release_when": "Prompt the candidate to brainstorm if they don't raise other considerations on their own.",
+   "expected_answer": "Non-financial: raising the price could damage the brand, especially since the name changed in late August, meaning returning students will only associate the new 'Simple Delights' name with the low crab-rangoon price introduced then; also consider how competitors might respond if they cut prices too and whether they'd also raise them in response. Financial: crab rangoons as an appetizer may be driving complementary sales of higher-margin main courses, so a price hike could reduce overall basket size; critically, if summer months continue to see well below 4,000 units sold (as historical trends suggest), the $120,000 annual profit goal likely still won't be achieved even after the price fix, since the underlying seasonal demand problem hasn't been addressed.",
+   "good_answer_signals": [
+    "Distinguishes financial from non-financial implications",
+    "Flags the specific brand risk tied to the August rebrand and the risk of losing complementary main-course sales",
+    "Independently concludes the annual $120,000 goal is still at risk because the summer demand problem hasn't been solved -- this is the critical observation"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your final recommendation to Simple Delights?",
+   "expected_answer": "Recommend raising the crab rangoon price from $3.49 back to $8.99, which is expected to improve monthly profit by ~$30,000, bringing average monthly profitability to roughly $10,000 (on pace for the $120,000 annual goal). A candidate could instead argue against raising the price, provided they support it with reasons surfaced earlier in the case. The plan carries risks (aim for at least 3): brand damage from the price increase (next step: customer survey to gauge brand impact), potential decline in sales of other, higher-margin menu items if crab rangoon traffic drops (next step: analyze unit sales of other items post-price-change to gauge restaurant-wide impact), and no plan yet to address the underlying seasonal demand drop over the summer (next step: a growth-strategy analysis, e.g. new markets, geographies, or distribution channels).",
+   "good_answer_signals": [
+    "States a clear recommendation (raise the price) and quantifies its expected impact using the earlier math",
+    "Surfaces at least three distinct, well-reasoned risks rather than a generic list",
+    "Pairs each risk with a concrete next step/analysis to mitigate or validate it"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "TTM Financial Performance",
+   "page": 418,
+   "kind": "line",
+   "description": "Trailing-twelve-month line chart of monthly revenue and costs ($K's), Jan-Dec, showing both climbing from a mid-year trough (~$20K each in July) to roughly $80K revenue and $100K costs by year-end, with costs now exceeding revenue.",
+   "image_path": "exhibits/kellogg-2024-andrew-s-simple-delights/p418.webp",
+   "key_insight": "Revenue and costs both dropped sharply over the summer and rebounded to all-time highs by year-end, but costs (~$100K) now exceed revenue (~$80K), implying a steady-state loss of roughly $20K/month -- a cost/margin problem, not a demand problem, since both lines are simultaneously at their highest levels ever.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex2",
+   "title": "Menu pricing update",
+   "page": 419,
+   "kind": "table",
+   "description": "Menu prices in January vs. September for seven items across appetizers (Chicken Satay, Spring Rolls, Crab Rangoons) and main courses (Pad Thai, Crawfish, Green Curry, California Roll).",
+   "data": {
+    "columns": [
+     "Menu item",
+     "January price",
+     "September price"
+    ],
+    "rows": [
+     [
+      "Chicken Satay",
+      "$4.99",
+      "$4.49"
+     ],
+     [
+      "Spring Rolls",
+      "$5.99",
+      "$5.49"
+     ],
+     [
+      "Crab Rangoons",
+      "$8.99",
+      "$3.49"
+     ],
+     [
+      "Pad Thai",
+      "$19.99",
+      "$18.99"
+     ],
+     [
+      "Crawfish",
+      "$24.99",
+      "$21.99"
+     ],
+     [
+      "Green Curry",
+      "$23.99",
+      "$22.99"
+     ],
+     [
+      "California Roll (6-piece)",
+      "$12.49",
+      "$11.49"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-andrew-s-simple-delights/p419.webp",
+   "key_insight": "Every item's price was cut modestly (roughly $0.50-$3.00) except crab rangoons, which was cut dramatically from $8.99 to $3.49 -- a $5.50 (~61%) reduction, far out of line with the other items and, as later revealed, below its $5.49 production cost.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Unit sales of Crab Rangoons",
+   "page": 420,
+   "kind": "bar",
+   "description": "Stacked bar chart of monthly unit sales of crab rangoons in Evanston, Jan-Dec, split between Simple Delights and competitors.",
+   "data": {
+    "columns": [
+     "Month",
+     "Simple Delights units (approx.)",
+     "Competitors units (approx.)"
+    ],
+    "rows": [
+     [
+      "Jan",
+      4000,
+      4000
+     ],
+     [
+      "Feb",
+      4200,
+      4000
+     ],
+     [
+      "Mar",
+      3900,
+      4000
+     ],
+     [
+      "Apr",
+      4300,
+      4000
+     ],
+     [
+      "May",
+      4100,
+      4000
+     ],
+     [
+      "Jun",
+      3500,
+      3400
+     ],
+     [
+      "Jul",
+      2500,
+      3000
+     ],
+     [
+      "Aug",
+      2500,
+      3000
+     ],
+     [
+      "Sep",
+      8000,
+      4000
+     ],
+     [
+      "Oct",
+      8400,
+      4600
+     ],
+     [
+      "Nov",
+      7800,
+      3600
+     ],
+     [
+      "Dec",
+      8000,
+      4000
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-andrew-s-simple-delights/p420.webp",
+   "key_insight": "Simple Delights' crab rangoon unit sales roughly doubled from ~4,000/month (Jan-May) to ~8,000/month (Sep-Dec) after the September price cut, and total market unit sales (Simple Delights + competitors) also grew in that period -- the price cut didn't just take share from competitors, it grew the overall category.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much does monthly profitability need to improve to hit the owner's $120,000 annual profit goal?",
+   "givens": [
+    "Restaurant is currently losing ~$20,000/month (from Exhibit A)",
+    "Goal = $120,000/year = $10,000/month"
+   ],
+   "steps": [
+    "Required monthly profit = $120,000 / 12 = $10,000/month",
+    "Required improvement = $10,000 - (-$20,000) = $30,000/month"
+   ],
+   "answer": "Monthly profitability needs to improve by about $30,000 (from -$20,000/month to +$10,000/month) to hit the $120,000 annual goal.",
+   "answer_value": 30000,
+   "unit": "USD/month improvement needed",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is the monthly profit contribution from crab rangoons at the original $8.99 price (4,000 units/month) versus the discounted $3.49 price (8,000 units/month), given a $5.49 unit cost?",
+   "givens": [
+    "Cost per crab rangoon = $5.49",
+    "Original scenario: price $8.99, ~4,000 units/month",
+    "Discounted scenario: price $3.49, ~8,000 units/month"
+   ],
+   "steps": [
+    "At $8.99: unit contribution = $8.99 - $5.49 = $3.50; monthly profit = 4,000 x $3.50 = $14,000",
+    "At $3.49: unit contribution = $3.49 - $5.49 = -$2.00; monthly profit = 8,000 x (-$2.00) = -$16,000",
+    "Difference = $14,000 - (-$16,000) = $30,000/month"
+   ],
+   "answer": "Raising the price back to $8.99 (even if volume reverts to ~4,000 units/month) swings crab rangoon profit from -$16,000/month to +$14,000/month, a $30,000/month improvement -- exactly the improvement needed to hit the owner's $120,000 annual goal.",
+   "answer_value": 30000,
+   "unit": "USD/month profit swing",
+   "verified": true
+  }
+ ],
+ "synthesis": "Recommend raising the crab rangoon price back from $3.49 to $8.99. This single change is expected to improve monthly profit by about $30,000 (from a $2/unit loss at 8,000 units/month to a $3.50/unit gain at 4,000 units/month), bringing the restaurant to roughly $10,000/month in profit -- in line with the owner's $120,000 annual goal. That said, the plan carries real risks: the brand may be damaged by nearly tripling the price of a flagship item shortly after a rebrand built around this same low price; sales of other, higher-margin menu items could suffer if crab rangoon traffic (and any complementary purchases) declines; and, most critically, this fix does not address the underlying seasonal demand drop when students leave Evanston for the summer, so the $120,000 annual goal may still fall short if summer volumes remain depressed. Recommended next steps: a customer survey to gauge brand impact of the price change, an analysis of other menu items' unit sales following the change to assess restaurant-wide impact, and a growth-strategy analysis (new markets, geographies, or distribution channels) to address the summer demand gap.",
+ "what_great_looks_like": [
+  "Connects the $20k/month loss and $120k annual goal into a single, clearly stated $30k/month improvement target early in the case",
+  "Diagnoses a margin/cost problem (not a demand problem) from the simultaneous all-time-high revenue and cost lines in Exhibit A",
+  "Immediately isolates crab rangoons as the outlier in the repricing table rather than treating all items as equally relevant",
+  "Notices the total crab-rangoon market grew after the price cut, not just Simple Delights' volume, when interpreting Exhibit C",
+  "Independently raises that the summer demand problem remains unsolved even after the price fix -- the case's critical, tie-it-together insight"
+ ],
+ "common_pitfalls": [
+  "Attributing the May-August sales decline to the rebrand/repricing rather than recognizing it happened earlier, when students left for the summer",
+  "Treating all seven repriced menu items as equally significant instead of zeroing in on crab rangoons' outsized cut",
+  "Recommending a price increase without quantifying its profit impact using the given unit-contribution math",
+  "Concluding the $120,000 goal is achieved once the price is restored, without questioning whether summer volumes will still fall short"
+ ],
+ "follow_ups": [
+  "If time allows: brainstorm additional options to increase profitability specifically in the summer months."
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[ex1].data (no numeric data table provided; revenue/cost values are approximate readings off the line chart, omitted as a data table and described qualitatively)",
+   "exhibits[ex3].data (unit sales values are approximate readings off a stacked bar chart, not exact figures; book only confirms the ~4,000/~8,000 monthly averages explicitly)"
+  ],
+  "math_verified": true,
+  "notes": "Book does not give a difficulty rating for this case; difficulty was inferred. This case's cover page uses a different concepts-tested format (plain labels, no Z-codes) than most other cases in this book.",
+  "fields_inferred": [
+   "difficulty",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "case_type (secondary: Pricing)"
+  ]
+ }
+}

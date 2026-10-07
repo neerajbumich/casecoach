@@ -1,0 +1,404 @@
+{
+ "id": "darden-2023-circle-bubble",
+ "title": "Circle Bubble",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  82,
+  91
+ ],
+ "case_type": [
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Growth",
+ "industry": "industrials-manufacturing",
+ "sub_industry": "packaging-plastics",
+ "industry_source_label": "Industrials",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2; Quantitative 3; Qualitative 2 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "cross-selling",
+  "customer-concentration",
+  "survey-analysis",
+  "revenue-growth",
+  "sales-training",
+  "private-equity"
+ ],
+ "fit_question": "What attributes will you bring to a case team? Tell me about a time that you failed.",
+ "prompt": "The Private Equity Fund PEGrowth has recently acquired a company called Circle, which is a company in the protective packaging space. Your consulting firm had worked on the due diligence process for this deal and now the fund wants to increase the value of the company. Due to the cost-cutting program already conducted prior to the acquisition, PEGrowth wants to focus on increasing revenue.",
+ "clarifying_info": [
+  {
+   "question_topic": "Products and business model",
+   "answer": "Circle serves business customers across industries. Historically it supplied air bubbles for flexible wrap and void fill. Two years ago it acquired a stretch-plastic business. Stretch film can protect food in kitchens or secure layers on pallets."
+  },
+  {
+   "question_topic": "Goal and revenue",
+   "answer": "Increase revenue by at least 10% next year from $250 million in 2019."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "A few players dominate packaging materials. Low margins and high transport costs limit markets geographically around production facilities. Market growth tracks the overall economy; aggressive geographic expansion or taking competitors' share is not a feasible route here."
+  }
+ ],
+ "interviewer_notes": "Tests exhibit interpretation, survey data and upselling; suggested after 20+ cases. The candidate should choose an area to investigate after the framework. If they pursue the market, explain the constrained geography and economy-level growth. Show Exhibit 1 if they ask about company financials. Encourage interpretation of the 80% line and why concentration matters. The candidate should request information about the top 25 customers' buying behavior. Brainstorm low cross-buying before Exhibit 2. The survey's dashed branches indicate willingness among previously unaware buyers. Percentages 33%, 47%, 43% and 57% are rounded whole-customer shares.",
+ "suggested_framework": {
+  "summary": "Evaluate market constraints and organic versus inorganic revenue growth, prioritizing existing customers.",
+  "tree": {
+   "label": "Grow Circle's revenue at least 10%",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Size, growth, customer preferences and segments"
+      },
+      {
+       "label": "Competitors, shares and substitutes"
+      }
+     ]
+    },
+    {
+     "label": "Organic growth",
+     "children": [
+      {
+       "label": "Price increases or decreases"
+      },
+      {
+       "label": "New customers, penetration and channels"
+      },
+      {
+       "label": "Existing-customer retention, frequency, bundling and cross-selling"
+      },
+      {
+       "label": "Product development and high-margin mix"
+      }
+     ]
+    },
+    {
+     "label": "Inorganic growth",
+     "children": [
+      {
+       "label": "Buy competitors or suppliers"
+      },
+      {
+       "label": "Partnerships and joint ventures"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How should PEGrowth increase Circle's revenue?",
+   "release_when": "After the prompt; clarifications on request.",
+   "info_to_release": "2019 revenue is $250 million; the goal is at least 10% growth next year. Cost cutting is already complete. Circle sells air-bubble and stretch-plastic protective packaging; stretch plastics were added through an acquisition 2 years ago.",
+   "expected_answer": "Explore pricing, volume from existing and new customers, product mix and inorganic options. Given geographically concentrated low-margin markets and high transport costs, prioritize opportunities within the existing customer base rather than assuming rapid expansion or share capture.",
+   "good_answer_signals": [
+    "Focuses on revenue instead of repeating cost reduction.",
+    "Chooses a concrete next analysis."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What insights do you draw from cumulative sales by customer?",
+   "release_when": "Show Exhibit 1 when the candidate asks about current company financials.",
+   "info_to_release": "Exhibit 1 shows cumulative 2019 sales of $250 million, with an 80% reference line. There are about 500 customers. The chart/guidance identifies approximately $200 million from the top 25 customers.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "About 80% of revenue comes from only 25 of 500 customers, or 5%. These customers average $8 million annual revenue. This is both a concentration risk and a focused growth opportunity. Investigate their buying behavior and unmet needs through a customer survey.",
+   "good_answer_signals": [
+    "Connects the chart to a practical customer-research priority.",
+    "Does not confuse cumulative bars with individual customer revenue."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "Only 3 of the top 25 customers buy both products from Circle. Why might that be?",
+   "release_when": "After discussing customer concentration, before the detailed survey.",
+   "info_to_release": "The top-25 survey found only 3 customers buying both air bubbles and stretch plastics.",
+   "expected_answer": "External reasons include no need for both products, different specifications, low awareness of Circle's offering, existing long-term supplier contracts or insufficient quality. Internal reasons include no active cross-selling, weak salesperson incentives, limited knowledge transfer or training, and margin differences between product lines.",
+   "good_answer_signals": [
+    "Separates demand barriers from sales-execution barriers.",
+    "Gives case-specific rather than generic explanations."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "How much revenue could cross-selling generate?",
+   "release_when": "After the brainstorm; show Exhibit 2 and management findings.",
+   "info_to_release": "Management found no lead sharing across sales departments and no formal cross-product training. Of 25 customers, 60% need both products, 24% only air bubbles and 16% only stretch. Among the 15 needing both, 20% buy both from Circle, 33% only air bubbles and 47% only stretch. Among air-bubble-only buyers, 80% do not know Circle sells stretch; 75% of that unaware group are willing to buy it, with upsell revenue equal to 75% of current revenue. Among stretch-only buyers, 57% are unaware of air bubbles; 50% of that group are willing, with upsell equal to 50% of current revenue. Awareness complements are 20% and 43%; unwillingness complements are 25% and 50%.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Top-25 average revenue is $200m/25 = $8m. Fifteen need both: 3 already buy both, approximately 5 buy air bubbles only and 7 stretch only. Four of the 5 air-bubble buyers are unaware, and 3 of those are willing: 3 × $8m × 75% = $18m. About 4 of 7 stretch buyers are unaware, and 2 are willing: 2 × $8m × 50% = $8m. Total potential is $26m, or 10.4% of $250m, implying $276m revenue and meeting the 10% target if realized. Use whole-customer counts behind rounded percentages and distinguish willingness rate from upsell size.",
+   "good_answer_signals": [
+    "Follows the nested survey denominators.",
+    "Does not double count existing dual-product buyers.",
+    "Recognizes equal average customer spend as a simplifying assumption."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What should PEGrowth recommend?",
+   "release_when": "After estimating the opportunity.",
+   "info_to_release": "No new information.",
+   "expected_answer": "Cross-sell between Circle's product lines to existing customers. The modeled $26m opportunity is 10.4% growth and can meet the goal. Willingness may not convert to purchases; sales execution and dependence on the top customers are risks. Work with sales-department heads on cross-selling and training, share leads, and assess production capacity to support incremental demand.",
+   "good_answer_signals": [
+    "Separates potential from committed revenue.",
+    "Links the recommendation to specific organizational failures."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Cumulative sales by customer, 2019",
+   "page": 85,
+   "kind": "bar",
+   "description": "Cumulative revenue bars for customers 1–39 plus approximately 460 others; the dotted 80% line and highlighted top-25 group convey concentration. Individual bars are not numerically labeled, so no spurious exact customer values are transcribed.",
+   "data": {
+    "columns": [
+     "Chart feature",
+     "Supplied value"
+    ],
+    "rows": [
+     [
+      "Total 2019 revenue (USD million)",
+      250
+     ],
+     [
+      "Revenue reference line (%)",
+      80
+     ],
+     [
+      "Highlighted customer group",
+      "Top 25"
+     ],
+     [
+      "Final aggregated customer group",
+      "Other ~460"
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-circle-bubble/p085.webp",
+   "key_insight": "Approximately 80% of revenue comes from the top 25 customers, making existing-customer cross-selling a focused lever.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Survey results of 25 customers",
+   "page": 88,
+   "kind": "bar",
+   "description": "Demand, current buying, awareness and conditional willingness branches. Dashed connectors carry previously unaware buyers into the willingness bars. Upsell assumptions are supplied inputs, not calculated revenue answers.",
+   "data": {
+    "columns": [
+     "Survey group or assumption",
+     "Response",
+     "Value (%)"
+    ],
+    "rows": [
+     [
+      "Top 25: demand",
+      "Both products",
+      60
+     ],
+     [
+      "Top 25: demand",
+      "Only air bubble",
+      24
+     ],
+     [
+      "Top 25: demand",
+      "Only stretch",
+      16
+     ],
+     [
+      "15 needing both: purchase from Circle",
+      "Both",
+      20
+     ],
+     [
+      "15 needing both: purchase from Circle",
+      "Only air bubble",
+      33
+     ],
+     [
+      "15 needing both: purchase from Circle",
+      "Only stretch",
+      47
+     ],
+     [
+      "Air-bubble buyers: aware of stretch",
+      "Yes",
+      20
+     ],
+     [
+      "Air-bubble buyers: aware of stretch",
+      "No",
+      80
+     ],
+     [
+      "Previously unaware air-bubble buyers: willing to buy stretch",
+      "Yes",
+      75
+     ],
+     [
+      "Previously unaware air-bubble buyers: willing to buy stretch",
+      "No",
+      25
+     ],
+     [
+      "Stretch buyers: aware of air bubble",
+      "Yes",
+      43
+     ],
+     [
+      "Stretch buyers: aware of air bubble",
+      "No",
+      57
+     ],
+     [
+      "Previously unaware stretch buyers: willing to buy air bubble",
+      "Yes",
+      50
+     ],
+     [
+      "Previously unaware stretch buyers: willing to buy air bubble",
+      "No",
+      50
+     ],
+     [
+      "Air-bubble buyers: expected upsell size",
+      "Percent of current revenue",
+      75
+     ],
+     [
+      "Stretch buyers: expected upsell size",
+      "Percent of current revenue",
+      50
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-circle-bubble/p088.webp",
+   "key_insight": "Customer demand exists but product awareness and internal sales coordination constrain cross-selling.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the top-customer revenue concentration and average spend?",
+   "givens": [
+    "$250m total revenue",
+    "Top 25 of approximately 500 customers account for 80%"
+   ],
+   "steps": [
+    "25/500 = 5% of customers.",
+    "$250m × 80% = $200m.",
+    "$200m / 25 = $8m average customer revenue."
+   ],
+   "answer": "Top 5% contribute $200m, averaging $8m each.",
+   "answer_value": 8,
+   "unit": "USD millions/customer/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many customers offer cross-sell opportunities?",
+   "givens": [
+    "25 surveyed; 60% need both",
+    "Among those, 20% buy both, 33% air only, 47% stretch only",
+    "Air awareness 20%; unaware willingness 75%",
+    "Stretch awareness 43%; unaware willingness 50%"
+   ],
+   "steps": [
+    "25 × 60% = 15 needing both.",
+    "15 × 20% = 3 already buying both; 15 × 33% ≈ 5 air only; 15 × 47% ≈ 7 stretch only.",
+    "5 × 80% = 4 unaware air buyers; 4 × 75% = 3 willing.",
+    "7 × 57% ≈ 4 unaware stretch buyers; 4 × 50% = 2 willing."
+   ],
+   "answer": "3 air-only customers potentially add stretch; 2 stretch-only customers potentially add air bubbles.",
+   "answer_value": 5,
+   "unit": "potential cross-buying customers",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "How much incremental revenue is available?",
+   "givens": [
+    "$8m average current revenue/customer",
+    "3 willing air-only buyers with 75% upsell",
+    "2 willing stretch-only buyers with 50% upsell"
+   ],
+   "steps": [
+    "Air buyers: 3 × $8m × 75% = $18m.",
+    "Stretch buyers: 2 × $8m × 50% = $8m.",
+    "Total = $18m + $8m = $26m."
+   ],
+   "answer": "$26 million potential annual incremental revenue.",
+   "answer_value": 26,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "Does the opportunity meet the growth goal?",
+   "givens": [
+    "$26m incremental revenue",
+    "$250m baseline",
+    "At least 10% growth target"
+   ],
+   "steps": [
+    "$26m / $250m × 100 = 10.4%.",
+    "$250m + $26m = $276m projected revenue."
+   ],
+   "answer": "10.4% potential growth, slightly above the 10% goal.",
+   "answer_value": 10.4,
+   "unit": "%",
+   "verified": true
+  }
+ ],
+ "synthesis": "Prioritize cross-selling to existing customers. The modeled $26 million opportunity represents 10.4% growth from $250 million, meeting the target if converted. Coordinate sales teams, share leads and train representatives across products. Verify actual willingness-to-purchase conversion and production capacity; dependence on the top 5% of customers remains a material risk.",
+ "what_great_looks_like": [
+  "Interprets cumulative rather than individual customer sales.",
+  "Turns concentration analysis into a targeted customer survey.",
+  "Uses structured internal/external hypotheses for low cross-buying.",
+  "Follows the survey branches and differentiates willingness from upsell size."
+ ],
+ "common_pitfalls": [
+  "Applying all survey percentages to the full 25 customers.",
+  "Counting current dual-product buyers as new cross-sell opportunities.",
+  "Treating 33%, 47% and 57% as precise counts rather than rounded survey shares.",
+  "Presenting modeled purchase intention as guaranteed revenue."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Both charts visually reviewed; calculations recomputed in math-darden-circle.py. Survey connectors confirm willingness conditional on prior unawareness. Whole-customer counts follow the source explanation of rounded percentages. Chart 1's individual bars are unlabeled; only supplied aggregate/chart markers are transcribed, not invented exact values. Guidance's approximately $50m largest customer is a rough reading; the visible bar is below $50m, so no precise first-customer value is used. Source assumes each targeted customer has the top-25 average $8m revenue; individual spend is unavailable. Book's approximately 10% agrees with exact 10.4%. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "stages[3].good_answer_signals"
+  ]
+ }
+}

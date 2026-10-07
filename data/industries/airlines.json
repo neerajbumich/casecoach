@@ -1,0 +1,72 @@
+{
+  "id": "airlines",
+  "name": "Airlines",
+  "group": "Travel & transport",
+  "one_liner": "Passenger and cargo air carriers with high fixed costs, volatile fuel expenses, and perishable inventory, where profit depends on filling seats at the right price.",
+  "how_it_makes_money": "Airlines earn ticket revenue from passengers, plus ancillary fees (bags, seats, change fees) and cargo. Loyalty programs are a major profit center, with co-branded credit cards generating substantial high-margin revenue from banks buying miles.",
+  "value_chain": [
+    "Aircraft acquisition and leasing",
+    "Network and schedule planning",
+    "Pricing and revenue management",
+    "Distribution and sales",
+    "Flight and ground operations",
+    "Loyalty and customer service"
+  ],
+  "revenue_formula": [
+    "Passenger revenue = available seat miles (ASM) × load factor × yield",
+    "Revenue = passengers × average fare + ancillary revenue per passenger + cargo",
+    "Unit revenue (RASM) = total revenue ÷ ASMs"
+  ],
+  "cost_structure": [
+    "Labor: often the largest cost, driven by union contracts",
+    "Fuel: often roughly 20-30% of operating costs, highly volatile",
+    "Aircraft ownership: leases, depreciation, and interest",
+    "Maintenance",
+    "Airport fees, landing charges, and navigation",
+    "Distribution and sales costs"
+  ],
+  "margins": "Airlines are historically low-margin and cyclical, with operating margins often in the low to high single digits and losses in downturns. Premium cabin mix, loyalty economics, network strength, and cost discipline separate the leaders from the rest.",
+  "key_metrics": [
+    {"name": "Available seat miles (ASM)", "what": "Capacity, measured as seats flown times miles."},
+    {"name": "Load factor", "what": "Share of seats filled, a core efficiency metric."},
+    {"name": "Yield", "what": "Average fare per passenger mile, reflecting pricing power."},
+    {"name": "RASM / TRASM", "what": "Revenue per available seat mile, the key unit revenue metric."},
+    {"name": "CASM ex-fuel", "what": "Cost per available seat mile excluding fuel, the key unit cost metric."},
+    {"name": "On-time performance", "what": "Operational reliability, which affects customer satisfaction and costs."}
+  ],
+  "trends": [
+    "Premium cabin and loyalty revenue driving a split between strong network carriers and struggling low-cost carriers",
+    "Low-cost and ultra-low-cost carriers under pressure, with bankruptcies and consolidation",
+    "Aircraft delivery delays from Boeing and Airbus constraining capacity",
+    "Pilot and labor contract costs rising",
+    "Sustainable aviation fuel and decarbonization commitments",
+    "Air traffic control staffing and infrastructure challenges"
+  ],
+  "key_players": [
+    "Delta Air Lines",
+    "United Airlines",
+    "American Airlines",
+    "Southwest Airlines",
+    "Alaska Airlines",
+    "JetBlue",
+    "Ryanair",
+    "Emirates",
+    "Lufthansa",
+    "IAG"
+  ],
+  "case_angles": [
+    {"question": "An airline's profits dropped despite record passengers; what's going on?", "framework_id": "profitability"},
+    {"question": "Should a US carrier launch a new international route?", "framework_id": "investment-npv"},
+    {"question": "How should an airline respond to a low-cost carrier entering its hub?", "framework_id": "competitive-response"},
+    {"question": "Should two mid-sized airlines merge?", "framework_id": "mergers-acquisitions"}
+  ],
+  "interview_hooks": [
+    "Are airlines now loyalty and credit card businesses that happen to fly planes?",
+    "Is the ultra-low-cost model broken in the US?",
+    "Should regulators allow further airline consolidation?"
+  ],
+  "news": {
+    "keywords": ["airline", "airlines", "jet fuel", "faa", "air travel", "flight cancellations", "load factor", "low-cost carrier", "aircraft deliveries", "air traffic control"],
+    "companies": ["Delta", "United Airlines", "American Airlines", "Southwest", "Alaska Airlines", "JetBlue", "Spirit Airlines", "Frontier", "Ryanair", "Lufthansa", "Boeing", "Airbus"]
+  }
+}

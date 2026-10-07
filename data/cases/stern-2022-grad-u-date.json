@@ -1,0 +1,460 @@
+{
+ "id": "stern-2022-grad-u-date",
+ "title": "Grad-U-Date",
+ "school": "Stern",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Stern/NYU Stern Casebook 22-23.pdf",
+ "page_range": [
+  98,
+  106
+ ],
+ "author": "Wayne Atwell (Stern ’15)",
+ "case_type": [
+  "Pricing",
+  "Profitability",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Pricing",
+ "industry": "tech-saas",
+ "sub_industry": "consumer-internet",
+ "industry_source_label": "Online Dating",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant: 6; Structure: 6 (1–10); higher dimension converted with round(x/2)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "monetization",
+  "freemium",
+  "market-sizing",
+  "customer-segmentation",
+  "pricing-strategy",
+  "competitive-response",
+  "profitability"
+ ],
+ "concepts_tested": [
+  "Brainstorming",
+  "Critical thinking",
+  "Math"
+ ],
+ "prompt": "Our client is an online dating startup named Grad-U-Date, which specializes in matching graduate students with other graduate students. Grad-U-Date has finished building their app and are now looking for your assistance in deciding on a monetization strategy. What is Grad-U-Date’s best method of monetization? How profitable will the company be?",
+ "clarifying_info": [
+  {
+   "question_topic": "User gender mix",
+   "answer": "Users will be 50% men and 50% women."
+  },
+  {
+   "question_topic": "Professional students",
+   "answer": "MBA, law and medical students count as professional students."
+  },
+  {
+   "question_topic": "Development cost",
+   "answer": "The app has already been built; its development cost is sunk."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Grad-U-Date will operate only within the United States."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are 4 major competitors and hundreds of small competitors. Free dating apps have increased significantly since late 2012. No existing online dating service focuses exclusively on graduate students."
+  },
+  {
+   "question_topic": "Combining revenue models",
+   "answer": "Only one revenue model can be used in the current decision."
+  }
+ ],
+ "interviewer_notes": "Facilitate a conversation with prompts. Complete qualitative brainstorming before profit calculations. Questions 1 and 2 should be conversational but structured. Push for at least 3 monetization models, with advantages and disadvantages. Use Exhibit 1 for the simple market sizing exercise, then Exhibit 2 for model profitability. Fixed costs are $10,000,000 annually and variable operating costs are $1 per member annually. Do not show Exhibit 3 until all model calculations are complete. Ask as many of the three additional questions as time permits: whether the trend changes the recommendation, why monthly-fee usage fell rapidly from 2013, and how to improve profits. Strong candidates brainstorm 5 or more models and finish quickly enough to address 2 or 3 additional questions.",
+ "suggested_framework": {
+  "summary": "Size the graduate-student opportunity, compare monetization economics and adoption, then stress-test the choice against competition and market trends.",
+  "tree": {
+   "label": "Choose a sustainable monetization model",
+   "children": [
+    {
+     "label": "Addressable market",
+     "children": [
+      {
+       "label": "Enrollment flows and years of study"
+      },
+      {
+       "label": "Professional versus non-professional students"
+      },
+      {
+       "label": "Gender mix and limits of an MBA-only platform"
+      }
+     ]
+    },
+    {
+     "label": "Competitive landscape and adoption",
+     "children": [
+      {
+       "label": "Major and smaller competitors"
+      },
+      {
+       "label": "Free alternatives and fee trends"
+      },
+      {
+       "label": "Expected model-specific market share"
+      }
+     ]
+    },
+    {
+     "label": "Model profitability",
+     "children": [
+      {
+       "label": "Monthly fee, premium accounts and advertising"
+      },
+      {
+       "label": "Paying share and revenue per user"
+      },
+      {
+       "label": "Fixed costs and costs of all members"
+      }
+     ]
+    },
+    {
+     "label": "Durability and growth",
+     "children": [
+      {
+       "label": "Willingness to pay and platform size"
+      },
+      {
+       "label": "Cost reductions and additional services"
+      },
+      {
+       "label": "Validate trends before expanding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess Grad-U-Date’s monetization strategy?",
+   "release_when": "After the prompt; release clarifications only when asked.",
+   "info_to_release": "The app is already built, so development is a sunk cost. The scope is the United States and only one revenue model may be chosen.",
+   "exhibit_ids": [],
+   "expected_answer": "Determine the graduate-student market, the competitive landscape and attainable share, then calculate profitability under each model. Consider whether the most profitable current model can sustain its economics as free alternatives grow.",
+   "good_answer_signals": [
+    "Separates market size from market share.",
+    "Does not charge sunk development costs again."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "What monetization models could Grad-U-Date use, and what are their advantages and disadvantages?",
+   "release_when": "Before any calculations; push for at least 3 models.",
+   "info_to_release": "There are 4 large competitors and hundreds of smaller competitors. Free dating apps have increased significantly since late 2012; none specializes exclusively in graduate students.",
+   "exhibit_ids": [],
+   "expected_answer": "Source options include monthly fees, advertising, paid premium accounts, profile consulting, and micro-transactions such as paying per message or to increase profile traffic. Discuss trade-offs in a structured way: subscriptions produce recurring direct revenue but discourage sign-ups; free access with premium features or advertising supports a larger platform but depends on conversion or advertising yield; optional consulting and micro-transactions monetize specific needs but depend on take-up.",
+   "good_answer_signals": [
+    "Names 5 or more models for an excellent answer.",
+    "Discusses advantages and disadvantages rather than listing models only."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What issues would arise if Grad-U-Date limited the site to MBA students?",
+   "release_when": "After monetization brainstorming and before market sizing.",
+   "info_to_release": "The client is considering an MBA-only site. The overall graduate-student user mix is assumed to be 50% men and 50% women.",
+   "exhibit_ids": [],
+   "expected_answer": "An MBA-only site unnecessarily reduces the market and platform size. Most MBA programs have more men than women, creating gender imbalance. MBA students tend to be older, and many are already married or in committed relationships. These are reasons not to narrow the target solely to MBA students.",
+   "good_answer_signals": [
+    "Identifies market-size, gender-balance and relationship-status concerns."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "market-sizing",
+   "interviewer_asks": "What is the potential graduate-student market size?",
+   "release_when": "Share Exhibit 1 after the qualitative questions.",
+   "info_to_release": "There are 1,000 US universities. Each enrolls 450 new medical students annually for 4 years, 300 MBA students for 2 years, 200 law students for 3 years and 1,000 non-professional students for 3 years. Medical, MBA and law students are professional students.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Current enrollment per university is 1,800 medical + 600 MBA + 600 law + 3,000 non-professional = 6,000 graduate students. Across 1,000 universities, the potential market is 6,000,000 students, split equally between professional and non-professional students. This is the book’s enrollment-based potential market, not a forecast that every student dates or joins the app.",
+   "good_answer_signals": [
+    "Converts annual entrants into enrolled students using degree length.",
+    "Carries the 50/50 professional mix into advertising economics."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Calculate the annual profit for each revenue model. Which would you recommend initially?",
+   "release_when": "Provide Exhibit 2 after market sizing. Withhold Exhibit 3 until calculations are complete.",
+   "info_to_release": "Annual fixed costs are $10,000,000 and variable operating costs are $1 per member. Monthly-fee adoption is 5% of the market at $10 per month. Premium-model adoption is 30%; 40% of men and 20% of women buy a $5 monthly premium account. Advertising-model adoption is 40%; monthly revenue per non-professional student is $0.75 and per professional student is $1.25. Users are 50% men and 50% women.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Monthly fees: 300,000 users generate $36 million revenue and $25.7 million profit. Premium accounts: 1.8 million total users, 30% paying on the gender-weighted basis, generate $32.4 million revenue and $20.6 million profit. Advertising: 2.4 million users at $1 weighted average monthly ad revenue generate $28.8 million revenue and $16.4 million profit. Initially favor monthly fees because they yield the highest current profit. Charge variable costs for all members, not just premium-paying members.",
+   "good_answer_signals": [
+    "Annualizes monthly revenue but not the already annual cost per member.",
+    "Weights premium conversion by gender and ad yield by professional status."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "exhibit",
+   "interviewer_asks": "Does this market information change your recommendation? Why did monthly-fee usage drop quickly starting in 2013?",
+   "release_when": "Share Exhibit 3 only after the model calculations. Additional questions are optional as time permits.",
+   "info_to_release": "Exhibit 3 plots the percentage of dating users paying monthly fees and average monthly fees from 2008 to 2014. Free dating apps increased significantly from late 2012.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Switch from monthly fees to premium accounts. Both the proportion of users paying monthly fees and the average fee have declined since 2008, with the paying-user share falling particularly sharply from 2013. Current monthly-fee profit is therefore unlikely to persist. Increased competition, convenient high-quality free apps and Tinder’s late-2012 launch are the book’s explanations. Premium accounts retain a larger free-access platform while monetizing a subset of users.",
+   "good_answer_signals": [
+    "Updates the recommendation using forward-looking evidence.",
+    "Distinguishes the two axes and does not equate current profitability with sustainability."
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Grad-U-Date increase profit under your recommended revenue model?",
+   "release_when": "As time permits after interpreting the trend chart.",
+   "info_to_release": "Separate ideas for lower costs from ideas for higher revenue. The app already exists.",
+   "exhibit_ids": [],
+   "expected_answer": "Reduce costs by outsourcing servers and providing email-only rather than telephone support. Revenue ideas include profile consulting, photo editing, deals with popular date locations, expansion to recent graduate-school alumni, and micro-transactions. The source also suggests creating an app to attract users, although the prompt says it has already been built; treat that as a source inconsistency, not a new development requirement.",
+   "good_answer_signals": [
+    "Buckets ideas into costs and revenues.",
+    "Tests compatibility with the current one-model constraint before adding revenue streams."
+   ]
+  },
+  {
+   "order": 8,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Grad-U-Date do, and what risks and next steps matter?",
+   "release_when": "At the end of the discussion.",
+   "info_to_release": "No additional facts.",
+   "exhibit_ids": [],
+   "expected_answer": "Adopt premium accounts, forecast to produce $20.6 million annual profit. Monthly fees are more profitable today but face a shrinking paying segment and restrict the platform. Risks include weaker premium conversion, declining willingness to pay for premium, faster growth in ad-supported models, graduate students’ affordability, falling graduate enrollment, and users preferring a broader dating pool. Validate premium and advertising trends. Explore alumni or undergraduates, other countries, consulting and date deals, micro-transactions, and social-media integration. Combining premium with ads is a future question requiring relaxation of the one-model constraint.",
+   "good_answer_signals": [
+    "Leads with a quantified recommendation.",
+    "Names risks that could overturn the preferred model."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Student Enrolment Information",
+   "page": 104,
+   "kind": "bar",
+   "description": "Annual new graduate students per university, years per degree, and the stated 1,000 US universities.",
+   "data": {
+    "columns": [
+     "Student category",
+     "New students per university per year",
+     "Years for degree"
+    ],
+    "rows": [
+     [
+      "Medical",
+      450,
+      4
+     ],
+     [
+      "MBA",
+      300,
+      2
+     ],
+     [
+      "Law",
+      200,
+      3
+     ],
+     [
+      "Non-professional",
+      1000,
+      3
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-grad-u-date/p104.webp",
+   "key_insight": "Multiply annual intake by degree length to obtain current enrollment; the resulting professional and non-professional populations are equal.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Product Usage",
+   "page": 105,
+   "kind": "other",
+   "description": "Adoption forecasts and pricing or advertising yield for the three mutually exclusive revenue models.",
+   "data": {
+    "columns": [
+     "Model",
+     "Graduate-student adoption (%)",
+     "Revenue assumptions"
+    ],
+    "rows": [
+     [
+      "Monthly fee",
+      5,
+      "$10 per member per month"
+     ],
+     [
+      "Premium account",
+      30,
+      "$5 per premium member per month; 40% of men and 20% of women purchase"
+     ],
+     [
+      "Advertising",
+      40,
+      "$0.75 per non-professional member per month; $1.25 per professional member per month"
+     ]
+    ]
+   },
+   "image_path": "exhibits/stern-2022-grad-u-date/p105.webp",
+   "key_insight": "The model with the highest adoption does not necessarily have the highest profit; segment mix matters for premium conversion and advertising yield.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Online Dating Market Info",
+   "page": 106,
+   "kind": "line",
+   "description": "Dual-axis chart for 2008–2014: solid line is the percentage of users paying monthly fees (left percentage axis); dashed line is average monthly fee (right dollar axis). Individual points are not numerically labeled.",
+   "image_path": "exhibits/stern-2022-grad-u-date/p106.webp",
+   "key_insight": "Both series decline; the paying-user share falls sharply after 2012, weakening the case for monthly subscriptions despite their current profit advantage.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the potential graduate-student market?",
+   "givens": [
+    "1,000 universities",
+    "Annual intakes and degree lengths: medical 450 and 4; MBA 300 and 2; law 200 and 3; non-professional 1,000 and 3"
+   ],
+   "steps": [
+    "Medical = 450 × 4 = 1,800; MBA = 300 × 2 = 600; law = 200 × 3 = 600; non-professional = 1,000 × 3 = 3,000 students per university.",
+    "Total = 6,000 × 1,000 = 6,000,000 students.",
+    "Professional share = (1,800 + 600 + 600) / 6,000 = 50%."
+   ],
+   "answer": "6 million graduate students, half professional and half non-professional.",
+   "answer_value": 6000000,
+   "unit": "students",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is annual profit under monthly fees?",
+   "givens": [
+    "6 million potential users",
+    "5% adoption",
+    "$10 monthly fee",
+    "$10 million annual fixed costs",
+    "$1 annual variable cost per member"
+   ],
+   "steps": [
+    "Users = 6,000,000 × 5% = 300,000.",
+    "Revenue = 300,000 × $10 × 12 = $36,000,000.",
+    "Profit = $36,000,000 − $10,000,000 − 300,000 × $1 = $25,700,000."
+   ],
+   "answer": "$25.7 million annual profit.",
+   "answer_value": 25700000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is annual profit under premium accounts?",
+   "givens": [
+    "6 million potential users",
+    "30% adoption",
+    "Equal male and female mix",
+    "40% of men and 20% of women pay $5 monthly",
+    "$10 million annual fixed costs",
+    "$1 annual variable cost for every member"
+   ],
+   "steps": [
+    "Total users = 6,000,000 × 30% = 1,800,000.",
+    "Paying share = 50% × 40% + 50% × 20% = 30%; paying members = 540,000.",
+    "Revenue = 540,000 × $5 × 12 = $32,400,000.",
+    "Profit = $32,400,000 − $10,000,000 − 1,800,000 = $20,600,000."
+   ],
+   "answer": "$20.6 million annual profit.",
+   "answer_value": 20600000,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is annual profit under advertising?",
+   "givens": [
+    "6 million potential users",
+    "40% adoption",
+    "50% professional and 50% non-professional mix carried through from market sizing",
+    "Monthly ad yields of $1.25 and $0.75 respectively",
+    "$10 million annual fixed costs",
+    "$1 annual variable cost per member"
+   ],
+   "steps": [
+    "Users = 6,000,000 × 40% = 2,400,000.",
+    "Weighted monthly revenue = 50% × $1.25 + 50% × $0.75 = $1.",
+    "Revenue = 2,400,000 × $1 × 12 = $28,800,000.",
+    "Profit = $28,800,000 − $10,000,000 − 2,400,000 = $16,400,000."
+   ],
+   "answer": "$16.4 million annual profit.",
+   "answer_value": 16400000,
+   "unit": "USD/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Choose premium accounts, with expected annual profit of $20.6 million. Monthly fees yield $25.7 million today but constrain platform adoption and face declining willingness to pay. Advertising yields $16.4 million on the supplied assumptions. Confirm that premium conversion and pricing are more sustainable than subscriptions; ad-supported competition, affordability and graduate enrollment are risks. Investigate additional services, new student segments, geographic expansion and social integration. Combining ads with premium is a future option to test, not permitted under the current one-model constraint.",
+ "what_great_looks_like": [
+  "Generates 5 or more monetization models with structured trade-offs.",
+  "Identifies several disadvantages of an MBA-only platform.",
+  "Completes the math efficiently enough to discuss 2 or 3 additional questions.",
+  "Separates cost reduction from revenue expansion in brainstorming.",
+  "Changes the initial monthly-fee recommendation when the trend evidence arrives."
+ ],
+ "common_pitfalls": [
+  "Using annual admissions as total enrollment.",
+  "Charging premium-model variable costs only to paying users.",
+  "Failing to annualize monthly prices.",
+  "Keeping the highest current-profit option despite the declining fee market.",
+  "Combining models despite the explicit current constraint."
+ ],
+ "follow_ups": [
+  "Could premium accounts and advertising work together if the single-model constraint were relaxed?",
+  "What evidence would establish whether premium accounts face the same decline as monthly fees?"
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[2].data (unlabeled chart points; exact values omitted)"
+  ],
+  "math_verified": true,
+  "notes": "Dedup returned NEW. All source calculations recomputed and matched. The title page rates both Quant and Structure 6; this takes precedence over the contents/segment Structure 7 label. Difficulty uses the higher title-page rating, mapped in Python to 3. Exhibit 3 is visually clear but exact point values are not labeled, so no false-precision table is supplied. The source suggests creating an app despite stating it already exists, and later suggests combining models despite the current one-model constraint; those are retained as a contradiction and a future relaxation respectively. No source arithmetic inconsistency was found. Reviewed and accepted by Claude 2026-10-04.",
+  "fields_inferred": [
+   "industry",
+   "sub_industry",
+   "client_type",
+   "case_type secondary labels",
+   "difficulty aggregation across two source dimensions",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework",
+   "stages question wording and release sequencing",
+   "stages[1].expected_answer monetization trade-off explanations",
+   "stages.good_answer_signals",
+   "common_pitfalls",
+   "follow_ups[1]"
+  ]
+ }
+}

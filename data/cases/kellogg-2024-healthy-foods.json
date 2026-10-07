@@ -1,0 +1,354 @@
+{
+ "id": "kellogg-2024-healthy-foods",
+ "title": "Healthy Foods",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  180,
+  190
+ ],
+ "author": "Milija Medic; edited by Mauricio Atri (Kellogg 2012), Tuhina Kapoor (Kellogg 2020)",
+ "variant_group_id": "healthy-foods",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Y02 Growth Strategy",
+ "industry": "cpg",
+ "sub_industry": "food-beverage",
+ "industry_source_label": "X12 Retail & CPG",
+ "geography": "Unspecified",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "revenue-growth",
+  "share-of-wallet",
+  "customer-segmentation",
+  "prioritization-matrix",
+  "b2b-distribution"
+ ],
+ "concepts_tested": [
+  "Z10 Customer strategy",
+  "Z10 Marketing strategy",
+  "Z12 Creativity"
+ ],
+ "fit_question": "Tell me about a time you had to lead a diverse team?",
+ "prompt": "Our client is Healthy Foods, a wholesaler serving a variety of clients with Food products. The client is profitable but they want you to help them find revenue growth opportunities from their current business. How can we help Healthy Foods drive their revenue growth?",
+ "clarifying_info": [
+  {
+   "question_topic": "Customers",
+   "answer": "The client serves various customer categories (shown in Exhibit A)."
+  },
+  {
+   "question_topic": "Customer sensitivities",
+   "answer": "Highest to lowest sensitivity: price, convenient delivery, help with location planning, help with menu, website development, inventory, help with management optimization."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "The client is one of the market leaders and is not losing market share."
+  }
+ ],
+ "interviewer_notes": "Problem: How can Healthy Foods increase revenue? Problem-solving steps: 1) Develop a structure to address the problem, 2) Identify main customer types and their current contributions, 3) Analyze client's wallet share for different customers, 4) Share of Wallet analysis and Wallet Size versus Share of Wallet, 5) Provide client recommendation. Provide Exhibit A when discussing customer segments; provide Exhibit B once the interviewee realizes they need to understand Share of Wallet; provide Exhibit C once the interviewee realizes they need Wallet Size vs. Share of Wallet.",
+ "suggested_framework": {
+  "summary": "A market/customer-centric growth framework covering market trends, segmentation/positioning, product and channel mix, pricing, promotion, and volume/wallet share with existing customers.",
+  "tree": {
+   "label": "How can Healthy Foods drive revenue growth?",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Overall trends, competitor offerings, customer preferences"
+      }
+     ]
+    },
+    {
+     "label": "Segmentation, targeting and positioning",
+     "children": [
+      {
+       "label": "Which segments are ideal customers?"
+      },
+      {
+       "label": "How are we positioned?"
+      }
+     ]
+    },
+    {
+     "label": "Product and channel mix",
+     "children": [
+      {
+       "label": "Current product/menu mix"
+      },
+      {
+       "label": "Markets and channels served"
+      }
+     ]
+    },
+    {
+     "label": "Price",
+     "children": [
+      {
+       "label": "Current pricing"
+      },
+      {
+       "label": "Room to raise price or bundle offerings"
+      }
+     ]
+    },
+    {
+     "label": "Promotion",
+     "children": [
+      {
+       "label": "Marketing and promotion mechanisms"
+      }
+     ]
+    },
+    {
+     "label": "Volume",
+     "children": [
+      {
+       "label": "Who are our customers and how do we reach them?"
+      },
+      {
+       "label": "What is our wallet share with them?"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem: how can Healthy Foods drive revenue growth from its current business?",
+   "expected_answer": "The framework should cover the key areas needed to explore revenue growth opportunities: Market (trends, competitor offerings, customer preferences), Segmentation/targeting/positioning, Product and channel mix, Price, Promotion, and Volume (customers, reach, wallet share).",
+   "good_answer_signals": [
+    "Framework spans both market/positioning and customer wallet-share angles",
+    "Structure is MECE and tailored to a B2B food wholesaler"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "The client has some information about the customer segments that it sells to -- what can we learn from it?",
+   "release_when": "Provide Exhibit A",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "The interviewee will likely explore growth opportunities in the independent restaurant category first, since it is the largest revenue contributor. If they ask about customer satisfaction/sensitivities, share that the needs of this segment are already well met (per the clarifying information on customer sensitivities). The interviewee should then ask about Share of Wallet across customer categories to identify where growth opportunities actually lie.",
+   "good_answer_signals": [
+    "Doesn't stop at 'grow the biggest segment' -- probes into whether that segment's needs are already met",
+    "Pivots to asking about Share of Wallet"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "What can we do with the Share of Wallet information across customer size segments?",
+   "release_when": "Provide Exhibit B when the interviewee realizes they need to understand Share of Wallet",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "The interviewee should recognize that Share of Wallet in the highest-revenue-generating (largest) customer categories is already high, and the client is already a key/primary supplier for many of them. The candidate should brainstorm all options to increase revenue and the reasoning behind each, then conclude the growth opportunity lies in the smaller-revenue-generating customer categories, where the client's Share of Wallet is smaller. Prioritization criterion: the bigger the customer's total Share of Wallet and the smaller the client's current Share of Wallet, the better the opportunity.",
+   "good_answer_signals": [
+    "Recognizes limited headroom in the largest customers (A, B) given already-high share of wallet",
+    "Formulates a clear prioritization criterion before being handed Exhibit C"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Now that we know we should focus on smaller-revenue-generating customer categories, how should we prioritize among them?",
+   "release_when": "Share Exhibit C when the interviewee realizes they will need to understand Share of Wallet vis-à-vis Wallet Size",
+   "exhibit_ids": [
+    "exC"
+   ],
+   "expected_answer": "The bigger the customer category's total Wallet Size and the smaller the client's Share of Wallet, the larger the revenue growth opportunity. Using Exhibit C, the interviewee should identify hospitals and hotels as the most promising candidates for revenue growth, given their large wallets and the client's small Share of Wallet with them. The interviewee should then identify the strongest customer sensitivities these clients have and suggest ways to increase the client's Share of Wallet there.",
+   "good_answer_signals": [
+    "Correctly reads the scatter plot to prioritize large-wallet, low-share categories",
+    "Connects the prioritized segments (hospitals, hotels) back to the customer sensitivity list from the clarifying information"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to the client?",
+   "expected_answer": "In the current business, the largest growth opportunities lie in the hospitals and hotels customer segments. The interviewee should suggest ways to better serve those customers and increase the client's Share of Wallet there, capturing significant new revenue given the large Wallet Size of those clients.",
+   "good_answer_signals": [
+    "Names Share of Wallet as the key parameter",
+    "Quickly rules out the largest-revenue customers as having little growth room",
+    "Uses the Wallet Size vs. Share of Wallet plot as a prioritization tool"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Revenues by Customer Type",
+   "page": 183,
+   "kind": "pie",
+   "description": "Pie chart of the client's total revenue split across customer categories: Independent Restaurants, Chain Restaurants, Hospitals, School Cafeterias, Grocery Stores, and Other. No numeric labels are given on the chart; slice sizes must be read visually.",
+   "data": {
+    "columns": [
+     "Customer type",
+     "Approx. share of revenue (visual estimate)"
+    ],
+    "rows": [
+     [
+      "Independent Restaurants",
+      "~50%"
+     ],
+     [
+      "Chain Restaurants",
+      "~15%"
+     ],
+     [
+      "Hospitals",
+      "~13%"
+     ],
+     [
+      "School Cafeterias",
+      "~10%"
+     ],
+     [
+      "Grocery Stores",
+      "~7%"
+     ],
+     [
+      "Other",
+      "~5%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-healthy-foods/p183.webp",
+   "key_insight": "Independent Restaurants generate roughly half of client revenue and are already well served (per clarifying info), so the biggest revenue category is not necessarily the best growth target.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "exB",
+   "title": "Client's Share of Wallet",
+   "page": 184,
+   "kind": "bar",
+   "description": "Bar chart showing, for four customer-size tiers (X = smallest, C, B, A = largest), the percentage of customer spend for which the client is the primary food supplier versus the percentage for which the client is one of many food suppliers.",
+   "data": {
+    "columns": [
+     "Customer size tier",
+     "Client is Primary Food Supplier (%)",
+     "Client is one of many food suppliers (%)"
+    ],
+    "rows": [
+     [
+      "X (smallest)",
+      "~25%",
+      "~25%"
+     ],
+     [
+      "C",
+      "~30%",
+      "~30%"
+     ],
+     [
+      "B",
+      "~40%",
+      "~20%"
+     ],
+     [
+      "A (largest)",
+      "~60%",
+      "~45%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-healthy-foods/p184.webp",
+   "key_insight": "Share of Wallet is already highest among the largest customers (A, B), signaling limited headroom there and pointing the candidate toward the smaller-revenue customer categories for growth.",
+   "data_confidence": "low"
+  },
+  {
+   "id": "exC",
+   "title": "Wallet Size vs. Share of Wallet for the Smaller-Revenue-Generating Customer Categories",
+   "page": 185,
+   "kind": "other",
+   "description": "Bubble/scatter chart plotting Wallet Size ($m) against the client's Share of Wallet (%) for five smaller-revenue customer categories: Hospitals, Hotels, School Cafeterias, Grocery Stores, and Chain Restaurants.",
+   "data": {
+    "columns": [
+     "Customer category",
+     "Approx. Wallet Size ($m)",
+     "Approx. Share of Wallet (%)"
+    ],
+    "rows": [
+     [
+      "Hospitals",
+      "~500",
+      "~55%"
+     ],
+     [
+      "Hotels",
+      "~420",
+      "~20%"
+     ],
+     [
+      "School Cafeterias",
+      "~290",
+      "~43%"
+     ],
+     [
+      "Grocery Stores",
+      "~360",
+      "~18%"
+     ],
+     [
+      "Chain Restaurants",
+      "~200",
+      "~57%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-healthy-foods/p185.webp",
+   "key_insight": "The book's guide identifies hospitals and hotels as the most promising growth targets (large wallet size, low client share of wallet); exact bubble-to-label mapping is visually ambiguous, so the text-stated conclusion should be trusted over precise coordinate readings.",
+   "data_confidence": "low"
+  }
+ ],
+ "math": [],
+ "synthesis": "In the current business, the largest growth opportunities lie in the hospitals and hotels customer segments. The client should suggest ways to better serve those customers and increase its Share of Wallet there, capturing significant new revenue given the large Wallet Size of those clients.",
+ "what_great_looks_like": [
+  "Identifies Share of Wallet as the key parameter for prioritizing growth opportunities",
+  "Quickly recognizes there is little room to grow within the largest-revenue-generating customers",
+  "Uses the Wallet Size vs. Share of Wallet plot as a prioritization tool to land on hospitals and hotels"
+ ],
+ "common_pitfalls": [
+  "Defaulting to 'grow the biggest segment' (Independent Restaurants) without checking whether its needs are already met",
+  "Stopping at Share of Wallet alone without also weighing total Wallet Size",
+  "Failing to tie the prioritized segments back to their specific customer sensitivities when recommending next steps"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data",
+   "exhibits[1].data",
+   "exhibits[2].data"
+  ],
+  "math_verified": true,
+  "notes": "No math steps in this case -- it is purely qualitative/exhibit-driven. Exhibits A, B and C have no numeric axis labels on data points/slices in the rendered images (only axis scales and category names are legible), so transcribed values are visual estimates flagged with data_confidence 'low'; the qualitative conclusions (independent restaurants largest, hospitals/hotels best growth targets) are explicitly stated in the book text and are high confidence.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "suggested_framework.tree",
+   "client_type",
+   "geography",
+   "exhibits[*].data (approximate values)"
+  ]
+ }
+}

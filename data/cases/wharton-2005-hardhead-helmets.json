@@ -1,0 +1,260 @@
+{
+ "id": "wharton-2005-hardhead-helmets",
+ "title": "HardHead Helmets",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  20,
+  22
+ ],
+ "variant_group_id": "hardhead-helmets",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Investment/PE due diligence",
+  "Competitive Response"
+ ],
+ "case_type_source_label": "PE take-private evaluation",
+ "industry": "sports",
+ "sub_industry": "sporting-goods",
+ "industry_source_label": "bicycle helmets",
+ "geography": "US",
+ "client_type": "PE/investor",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Bain, 2nd Round"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "private-equity",
+  "take-private",
+  "market-sizing",
+  "channel-shift",
+  "customer-segmentation",
+  "regulation-driven-demand",
+  "brand-competition"
+ ],
+ "concepts_tested": [
+  "sustainability of regulation-driven growth",
+  "channel economics",
+  "competitive response from branded entrants",
+  "customer segmentation"
+ ],
+ "prompt": "Our client is private equity firm considering taking private a leading manufacturer of bicycle helmets. Should they?",
+ "clarifying_info": [
+  {
+   "question_topic": "Market share",
+   "answer": "The company is the clear market leader with 60% share."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "Existing competitors have small share. Some new entrants are still small but growing quickly, including Nike and Reebok."
+  },
+  {
+   "question_topic": "Distribution channels",
+   "answer": "Historically sold primarily through Mom-and-Pop specialty bike retailers. Channel mix has recently moved to 50% discounters (e.g. Wal*Mart), and discounters look set to dominate going forward."
+  },
+  {
+   "question_topic": "Cost position",
+   "answer": "HardHead and all competitors manufacture in Asia, so costs are already very low; no competitor is likely to realize a greater cost advantage. (Not a cost-cutting case.)"
+  },
+  {
+   "question_topic": "Regulatory issues",
+   "answer": "In the last 5 years, most states passed helmet laws."
+  },
+  {
+   "question_topic": "Customer segments",
+   "answer": "Primary segments: Adult Cycling Enthusiast, Casual Biker, and Under 18."
+  },
+  {
+   "question_topic": "Product",
+   "answer": "No new safety-design innovation industry-wide; much fashion innovation, especially by new entrants."
+  }
+ ],
+ "interviewer_notes": "Share each bullet only if the candidate asks for it clearly and deliberately. For bullets with 'Explore with candidate' sub-points, make the candidate fully answer the associated question before moving on. If the candidate struggles to cover all topics, nudge them (e.g., 'Do you think there might be any government regulation that would impact past or future sales?').",
+ "suggested_framework": {
+  "summary": "Assess whether HardHead's recent growth is sustainable and whether its market position can withstand well-capitalized branded entrants, across demand drivers, channel dynamics, competition, and customer segments.",
+  "tree": {
+   "label": "Should the PE firm take HardHead Helmets private?",
+   "children": [
+    {
+     "label": "Demand drivers",
+     "children": [
+      {
+       "label": "One-time helmet-law effect vs. ongoing demand"
+      }
+     ]
+    },
+    {
+     "label": "Channel dynamics",
+     "children": [
+      {
+       "label": "Shift from specialty bike shops to mass discounters"
+      }
+     ]
+    },
+    {
+     "label": "Competitive position",
+     "children": [
+      {
+       "label": "New branded entrants (Nike, Reebok) and fashion positioning"
+      }
+     ]
+    },
+    {
+     "label": "Customer segments",
+     "children": [
+      {
+       "label": "Adult Cycling Enthusiast"
+      },
+      {
+       "label": "Casual Biker"
+      },
+      {
+       "label": "Under 18"
+      }
+     ]
+    },
+    {
+     "label": "Cost position",
+     "children": [
+      {
+       "label": "Already low-cost (Asia manufacturing); little room for cost advantage"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "analysis",
+   "interviewer_asks": "How are the changes in distribution channel (shift to 50%+ discounters) going to affect the company's future prospects?",
+   "release_when": "After candidate asks about channels/distribution",
+   "info_to_release": "Channel mix has moved to 50% discounters (e.g. Wal*Mart) and discounters look set to dominate.",
+   "expected_answer": "Margins will come under pressure from discounters. More importantly, competitors such as Nike will have a big advantage in the discounter channel due to greater scale and distributor leverage, and a recognizable consumer brand (especially Nike's sports image) matters more where there's no expert bike-shop salesperson to push the HardHead product.",
+   "good_answer_signals": [
+    "Connects channel shift to margin pressure",
+    "Recognizes branded competitors gain relative advantage without expert in-store selling"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What impact does the recent wave of state helmet laws have? Draw a graph of revenue over the past five years and projecting into the next five years.",
+   "release_when": "After candidate asks about regulation/legal environment",
+   "info_to_release": "In the last 5 years, most states passed helmet laws.",
+   "expected_answer": "The helmet laws drove a significant one-time increase in sales as helmets were purchased for the first time; this event won't repeat, so the revenue graph should show a spike followed by a leveling off, not continued high growth.",
+   "good_answer_signals": [
+    "Identifies the sales bump as a one-time, regulation-driven event",
+    "Correctly shapes the revenue graph as spike-then-plateau, not continued growth"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "How would you expect purchase behavior to differ between the Adult Cycling Enthusiast, Casual Biker, and Under 18 segments? What does each segment want in a helmet?",
+   "info_to_release": "Primary segments are Adult Cycling Enthusiast, Casual Biker, and Under 18.",
+   "expected_answer": "Adults buy a new helmet infrequently (only after a crash or significant wear), while children need new helmets every few years as their heads grow. Adult Cycling Enthusiasts want the coolest, most fashion-forward gear. Casual Bikers are more conservative but still want something that looks good. Children's helmets are bought by parents who care about safety but are influenced by kids who care about looking cool.",
+   "good_answer_signals": [
+    "Differentiates replacement frequency by segment",
+    "Differentiates purchase drivers (safety vs. fashion vs. parent/child dynamic) by segment"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "market-sizing",
+   "interviewer_asks": "For a strong candidate: What would you expect the size of each of these segments to be? What are the implications for HardHead's future earnings?",
+   "expected_answer": "Candidate should propose reasonable assumptions and work the math (exact numbers matter less than reasonable, consistent assumptions). Using standard assumptions (100M households, 50% with children, 2 children/household, 75% of children ride bicycles) gives ~75M Under-18 customers; assuming 2% of adults are Cycling Enthusiasts and 20% are Casual Bikers gives ~2M and ~20M respectively. Since the helmet-law bump created a large one-time purchase wave, ongoing sales depend mainly on the Under-18 market (new children aging in) and new entrants to the adult segments.",
+   "good_answer_signals": [
+    "States assumptions explicitly before calculating",
+    "Arrives at a reasonable order-of-magnitude segment size",
+    "Connects segment sizing to the conclusion that ongoing (not one-time) demand is what matters"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "[With ~3 minutes left] The partner from the PE firm just walked into the room and wants to know if he should do the deal.",
+   "expected_answer": "No. HardHead's exceptional recent growth is a one-time effect of new helmet laws plus its historically strong share, so a deal priced on that growth would overvalue the company. New entrants like Nike and Reebok will likely steal share as consumers gravitate to well-known sports brands, and as helmets shift from utilitarian to fashion-driven, HardHead is at a disadvantage. The shift to mass discounters gives national fashion brands more retailer leverage (margin, placement, assortment, advertising support). The deal might make sense only if the PE firm has another fashion brand to combine with HardHead to help it compete on fashion.",
+   "good_answer_signals": [
+    "Gives a clear, unprompted recommendation before time runs out",
+    "Cites unsustainable one-time growth as an overvaluation risk",
+    "Notes the competitive/channel/fashion threats from branded entrants",
+    "Identifies the conditional scenario (pairing with a fashion brand) where a deal could work"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How large is the Under-18 bicycle-helmet customer segment?",
+   "givens": [
+    "100M households (standard consulting assumption)",
+    "50% of households have children",
+    "2 children per household with children",
+    "75% of children ride bicycles"
+   ],
+   "steps": [
+    "Households with children = 100M × 50% = 50M",
+    "Children = 50M × 2 = 100M",
+    "Bicycle-riding children (Under 18 segment) = 100M × 75% = 75M"
+   ],
+   "answer": "75M Under-18 customers",
+   "answer_value": 75000000,
+   "unit": "people",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How large are the Adult Cycling Enthusiast and Casual Biker segments?",
+   "givens": [
+    "Assume ~100M adults (implied by the book's 2%/20% figures)",
+    "2% of adults are Cycling Enthusiasts",
+    "20% of adults are Casual Bikers"
+   ],
+   "steps": [
+    "Cycling Enthusiasts = 100M adults × 2% = 2M",
+    "Casual Bikers = 100M adults × 20% = 20M"
+   ],
+   "answer": "~2M Adult Cycling Enthusiasts and ~20M Casual Bikers",
+   "verified": true
+  }
+ ],
+ "synthesis": "No — do not do the deal. HardHead's recent exceptional growth was a one-time effect of newly passed state helmet laws layered on its historically strong share, so a purchase price based on that growth trajectory would be overvalued. Well-capitalized branded entrants like Nike and Reebok are likely to take share as bike helmets shift from a utilitarian purchase to a fashion one, and the ongoing shift toward mass discounters gives those national brands more retailer leverage than HardHead can match. The deal could make sense only if the PE firm has a complementary fashion brand to pair with HardHead so it can compete on style against the new entrants.",
+ "what_great_looks_like": [
+  "Recognizes the helmet-law-driven revenue spike as one-time, not a sustainable growth trend",
+  "Connects the channel shift to discounters with both margin pressure and a relative advantage for branded, scaled competitors",
+  "Differentiates the three customer segments by replacement cycle and purchase driver",
+  "Attempts segment sizing with clearly stated, reasonable assumptions",
+  "Delivers a clear, well-supported recommendation without prompting as time runs low"
+ ],
+ "common_pitfalls": [
+  "Treats the post-helmet-law revenue growth as representative of future growth when valuing the deal",
+  "Chases cost-cutting opportunities despite the case explicitly not being a cost case",
+  "Misses that discounter channel dynamics favor scaled, branded competitors over HardHead",
+  "Fails to distinguish purchase behavior/needs across the three customer segments"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book does not give a full computed total for the adult population; the 100M-adult assumption in m2 is inferred from the book's own 2%→2M and 20%→20M figures (both imply the same ~100M base), consistent with its 'let the candidate come up with all of the assumptions' framing.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry"
+  ]
+ }
+}

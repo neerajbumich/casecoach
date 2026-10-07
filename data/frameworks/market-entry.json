@@ -1,0 +1,207 @@
+{
+ "id": "market-entry",
+ "name": "Market entry",
+ "category": "core",
+ "summary": "Should we enter, and if so how? Assess market attractiveness, competition, the client's ability to win, the economics, and the entry mode, then weigh the risks.",
+ "opening_line": "To decide whether to enter I'd look at four things: how attractive the market is, how competitive it is, whether we have what it takes to win, and whether the economics work. Then I'd look at the best way in.",
+ "when_to_use": [
+  "Entering a new geography, customer segment or product category",
+  "Launching into a market the client hasn't served",
+  "Evaluating an 'opportunity' (Kellogg-style opportunity assessment)"
+ ],
+ "when_not_to_use": [
+  "The client is already in the market and profits are falling: use profitability",
+  "The main question is which company to buy: use M&A (though entry mode may include acquisition)"
+ ],
+ "tree": {
+  "label": "Enter the market?",
+  "children": [
+   {
+    "label": "Market attractiveness",
+    "children": [
+     {
+      "label": "Size & growth"
+     },
+     {
+      "label": "Profitability of incumbents"
+     },
+     {
+      "label": "Customer needs & segments"
+     },
+     {
+      "label": "Regulation / barriers"
+     }
+    ]
+   },
+   {
+    "label": "Competitive landscape",
+    "children": [
+     {
+      "label": "Key players & share"
+     },
+     {
+      "label": "Their advantages"
+     },
+     {
+      "label": "Likely response to entry"
+     }
+    ]
+   },
+   {
+    "label": "Client capabilities",
+    "children": [
+     {
+      "label": "Right to win: brand, tech, cost"
+     },
+     {
+      "label": "Synergies with core business"
+     },
+     {
+      "label": "Gaps to fill"
+     }
+    ]
+   },
+   {
+    "label": "Economics",
+    "children": [
+     {
+      "label": "Revenue potential (share × market)"
+     },
+     {
+      "label": "Investment & costs"
+     },
+     {
+      "label": "Breakeven / NPV / payback"
+     }
+    ]
+   },
+   {
+    "label": "Entry mode",
+    "children": [
+     {
+      "label": "Build (organic)"
+     },
+     {
+      "label": "Buy (acquisition)"
+     },
+     {
+      "label": "Partner (JV / licence)"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Market attractiveness",
+   "questions": [
+    "How big is the market, and how fast is it growing?",
+    "Are incumbents profitable?",
+    "What are the entry barriers?"
+   ],
+   "data_to_ask": [
+    "Market size and CAGR",
+    "Segment breakdown",
+    "Regulatory requirements"
+   ]
+  },
+  {
+   "name": "Competition",
+   "questions": [
+    "Who are the leaders, and how concentrated is it?",
+    "How would they react?",
+    "Is there a gap we can exploit?"
+   ],
+   "data_to_ask": [
+    "Market shares",
+    "Competitor pricing and positioning"
+   ]
+  },
+  {
+   "name": "Client capabilities",
+   "questions": [
+    "Why us? What's our advantage?",
+    "Can we leverage existing assets (brand, channels, plants)?",
+    "What would we need to build or acquire?"
+   ],
+   "data_to_ask": [
+    "Client's core strengths",
+    "Capacity and capital available"
+   ]
+  },
+  {
+   "name": "Economics",
+   "questions": [
+    "What share can we realistically win, and by when?",
+    "What's the upfront investment and breakeven?",
+    "Does it meet the client's return hurdle?"
+   ],
+   "data_to_ask": [
+    "Price, costs and investment",
+    "Hurdle rate / payback target"
+   ]
+  },
+  {
+   "name": "Entry mode & risks",
+   "questions": [
+    "Build, buy or partner? Speed vs control vs cost",
+    "What could go wrong: execution, cannibalisation, regulatory?"
+   ],
+   "data_to_ask": [
+    "Acquisition targets / partner options"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "pharma",
+   "note": "Attractiveness = patient population × diagnosis/treatment rates × price (reimbursement). Barriers: regulatory approval timeline, patents, payer access."
+  },
+  {
+   "industry": "retail",
+   "note": "Entry economics per store: sales per sq ft, build-out capex, rent. Consider local competition, real estate and supply chain reach."
+  },
+  {
+   "industry": "tech-saas",
+   "note": "Look at TAM by segment, switching costs and network effects of incumbents, and CAC/payback in the new segment."
+  },
+  {
+   "industry": "restaurants",
+   "note": "Unit economics per location (AUV, four-wall margin), site selection, franchise vs company-owned."
+  },
+  {
+   "industry": "public-sector",
+   "note": "For governments or non-profits entering a programme area, replace 'profit' with impact per dollar and stakeholder support."
+  }
+ ],
+ "common_mistakes": [
+  "Skipping 'client capabilities': an attractive market isn't enough if the client can't win",
+  "Forgetting entry mode (build / buy / partner)",
+  "No numbers: failing to size the prize or compute breakeven",
+  "Ignoring the competitive response"
+ ],
+ "related": [
+  "market-sizing",
+  "three-cs",
+  "porters-five-forces",
+  "breakeven",
+  "investment-npv",
+  "new-product-gtm"
+ ],
+ "match": {
+  "case_types": [
+   "Market Entry"
+  ],
+  "tags": [
+   "market-entry",
+   "international-expansion",
+   "opportunity-assessment"
+  ],
+  "keywords": [
+   "enter",
+   "entry",
+   "expansion",
+   "new market"
+  ]
+ }
+}

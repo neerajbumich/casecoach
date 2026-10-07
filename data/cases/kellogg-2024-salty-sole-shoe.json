@@ -1,0 +1,474 @@
+{
+ "id": "kellogg-2024-salty-sole-shoe",
+ "title": "Salty Sole Shoe",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  315,
+  324
+ ],
+ "author": "Meredith Tierney (Kellogg 2011); edited by Uri Kalir (Kellogg 2012), Derek Wiatrowski (Kellogg 2020)",
+ "variant_group_id": "kellogg-2024-salty-sole-shoe",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Profitability",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "Y07 Profitability",
+ "industry": "retail",
+ "sub_industry": "apparel-footwear",
+ "industry_source_label": "X12 Retail and Consumer; X06 Financial Services",
+ "geography": "US",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "profitability",
+  "private-equity",
+  "breakeven-algebra",
+  "volume-growth",
+  "market-share",
+  "fixed-vs-variable-cost",
+  "footwear",
+  "pricing"
+ ],
+ "concepts_tested": [
+  "Z12 Creativity",
+  "Z01 Accounting",
+  "Z09 Microeconomics"
+ ],
+ "fit_question": "What is an example of when you showed initiative and leadership?",
+ "prompt": "Your client is a large retail-focused private equity firm that owns Salty Sole, a leading designer of junior women's footwear, primarily targeting the 14-22 year old age group. Salty Sole was purchased last year by the private equity firm expecting to realize substantial profits upon sale in 2012 by increasing the company's EBITDA. However, due to a current recession, annual profit has only grown modestly post-acquisition and is not on track to generate the double-digit returns the private equity firm originally anticipated. How can the company increase profitability and achieve the private equity firm's return on investment objectives?",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry / market economics",
+   "answer": "Client is the market leader in junior women's footwear in the U.S. only. The apparel industry is characterized by cyclicality due to the economy and consumer preferences."
+  },
+  {
+   "question_topic": "Client characteristics",
+   "answer": "Client designs and distributes footwear to discount retailers (like Kohl's) and is considered mid-priced. Client outsources all manufacturing on a fixed-contract basis (manufacturing costs with outsourced providers fall under Fixed Costs for simplicity)."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "Client follows a 'me-too' strategy — follows fashion rather than inventing it — then offers lower prices than name brands (so it is not subject to fashion risk). Client competes on trendy fashion and value pricing."
+  }
+ ],
+ "interviewer_notes": "The case primarily tests understanding of profitability and profitability-growth strategies. Begin by reading the case question and asking the interviewee to take a few moments, then explain how they would like to proceed. Problem-solving steps: (1) develop a structure to address the problem, (2) analyze client costs, (3) analyze client revenues, (4) analyze market size/share, (5) provide client recommendation. Excellent interviewees quickly identify that volume is the issue by ticking through the parts of the profitability equation, and will question the assumption of a uniform 50% gross margin across products. Outstanding interviewees note that stable discounts/allowances suggest either a strong, highly-valued product or aggressive projections.",
+ "suggested_framework": {
+  "summary": "Book-provided profitability tree: profit (π) = Revenue (R) − Cost (C); Revenue breaks into Average Price (discounts, channel variations, product mix, customer segments) and Quantity Sold (share of market × size of market); Cost breaks into Fixed (factories, marketing, SG&A) and Variable (canvas, rubber, labor).",
+  "tree": {
+   "label": "π (Profit)",
+   "children": [
+    {
+     "label": "R (Revenue)",
+     "children": [
+      {
+       "label": "Avg P",
+       "children": [
+        {
+         "label": "Discounts"
+        },
+        {
+         "label": "Channel variations"
+        },
+        {
+         "label": "Product mix"
+        },
+        {
+         "label": "Customer segments"
+        }
+       ]
+      },
+      {
+       "label": "Qty Sold",
+       "children": [
+        {
+         "label": "Share of market",
+         "children": [
+          {
+           "label": "Specific category"
+          },
+          {
+           "label": "Competitors"
+          }
+         ]
+        },
+        {
+         "label": "Size of market"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "C (Cost)",
+     "children": [
+      {
+       "label": "F (Fixed)",
+       "children": [
+        {
+         "label": "Factories"
+        },
+        {
+         "label": "Marketing"
+        },
+        {
+         "label": "SG&A"
+        }
+       ]
+      },
+      {
+       "label": "V (Variable)",
+       "children": [
+        {
+         "label": "Canvas"
+        },
+        {
+         "label": "Rubber"
+        },
+        {
+         "label": "Labor"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How can the company increase profitability and achieve the private equity firm's return on investment objectives?",
+   "expected_answer": "A profitability tree: profit = revenue (average price × quantity sold, where quantity = market share × market size) minus cost (fixed and variable), as shown in the book's own framework.",
+   "good_answer_signals": [
+    "Draws a profit tree separating price and volume on the revenue side, fixed and variable on the cost side",
+    "Breaks volume into market share × market size"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What observations can be made from this financial chart? Have a quick discussion of the company's cost structure — how would you reduce fixed costs? How would you reduce variable costs?",
+   "release_when": "Start of Part 2",
+   "info_to_release": "Exhibit A (2006A-2012E financial estimates). Fixed costs are ~23-25% of sales and variable costs ~50% of sales, both flat across years; the interviewer should reveal that fixed costs cannot actually be adjusted (per company research) and that variable costs are already at the lowest possible market rate.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "The company grew strongly pre-recession, then declined and only gradually picked up. Net sales changes are not due to discounts/allowances, which stay flat around 1% of sales throughout. On costs, variable costs are flat at ~50% of sales and fixed costs are flat (~23-25% of sales); candidate should suggest ways to cut each (renegotiate contracts, cheaper manufacturing partners for fixed; reduce labor/sales force, use technology, volume purchasing for variable) but ultimately learn both levers are already at their limits, so cost is not the issue.",
+   "good_answer_signals": [
+    "Notices discounts/allowances are flat, ruling out pricing-discount effects on the sales trend",
+    "Proposes concrete cost-reduction ideas before being told both levers are exhausted"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Has pricing remained constant, or has the company adjusted price to reflect lower consumer discretionary income? What would you consider when adjusting price? How many units must be sold by 2012 for the PE firm to achieve a 20% return on investment (approximately a $300 million sale value)?",
+   "release_when": "Start of Part 3",
+   "info_to_release": "Pricing has remained constant at an average of $25/unit; the company has determined it would not be prudent to adjust pricing, per industry research. Target 2012 sale value for a 20% return ≈ $300 million.",
+   "expected_answer": "Price considerations: price sensitivity/elasticity, cost structure, brand equity (a price cut could dilute the brand; a price increase risks competing with more upscale brands). Since both cost and price are fixed, volume is the only remaining lever. Required 2012 EBITDA = $300M / 6.5x sale multiple ≈ $46.15M, rounded up to $50M for simplicity. Solving $50,000,000 = $25v − (0.5 × $25 × v) − $15,000,000 gives $65,000,000 = $12.5v, so v = 5,200,000 pairs of shoes.",
+   "good_answer_signals": [
+    "Correctly divides the $300M target sale value by the 6.5x multiple to get required EBITDA",
+    "Sets up and solves the linear equation for volume correctly",
+    "Recognizes volume is the only lever left once cost and price are ruled out"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "This required volume is more than double the 2008/2009 levels — what would you want to know to determine if it's feasible?",
+   "release_when": "When the candidate identifies market size/share as needed information",
+   "info_to_release": "Exhibit B (US casual footwear market size and share, 2006-2009).",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "The candidate should recognize that the client is already the market leader with about 40% share, and that total market size is not projected to increase (roughly flat around $125-163M across 2006-2009, no clear growth trend). This means the client can only grow volume meaningfully by stealing share from competitors and/or by launching new products in other categories.",
+   "good_answer_signals": [
+    "Notes Salty Sole is already the largest player at ~40% share",
+    "Concludes the market itself isn't growing, so growth must come from share gains or category expansion"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "Since cost structure and price are both fixed, volume is the only real lever to increase profitability — but volume must more than double (to 5.2M pairs) to achieve the PE firm's desired 20% return, which is difficult given the recession and a flat industry. Recommend strategies for volume growth while flagging risks: (1) Volume — new products/geographies/distribution channels (e.g., international), increased marketing to steal share, acquiring growth (brands), shifting product mix toward higher-margin products; (2) Price — add value/features rather than cutting price; (3) Risks — capacity constraints, and cannibalization if new products are introduced.",
+   "good_answer_signals": [
+    "Explicitly states volume is the only lever, with the required more-than-doubling framed against a shrinking/flat, recessionary market",
+    "Proposes concrete volume-growth strategies (new products, geographies, channels, share-stealing, M&A, mix shift)",
+    "Flags capacity and cannibalization risk"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Salty Sole Financial Estimates",
+   "page": 318,
+   "kind": "table",
+   "description": "Financial estimates ($M), 2006A-2012E: sales, discounts/allowances, net sales, % increase, COGS, fixed costs, total costs, EBITDA, sale multiple, implied purchase/sale price, and return on investment %.",
+   "data": {
+    "columns": [
+     "Metric",
+     "2006A",
+     "2007A",
+     "2008A",
+     "2009E",
+     "2010E",
+     "2011E",
+     "2012E"
+    ],
+    "rows": [
+     [
+      "Sales ($M)",
+      50,
+      65,
+      60,
+      61,
+      62,
+      65,
+      70
+     ],
+     [
+      "Less Discounts/Allowances ($M)",
+      -0.5,
+      -0.65,
+      -0.6,
+      -0.61,
+      -0.62,
+      -0.65,
+      -0.7
+     ],
+     [
+      "Net Sales ($M)",
+      49.5,
+      64.35,
+      59.4,
+      60.39,
+      61.38,
+      64.38,
+      69.3
+     ],
+     [
+      "% Increase",
+      20,
+      30,
+      -7.7,
+      1.7,
+      1.6,
+      4.8,
+      7.7
+     ],
+     [
+      "COGS ($M)",
+      24.75,
+      32.18,
+      29.7,
+      30.2,
+      30.69,
+      32.18,
+      34.65
+     ],
+     [
+      "Fixed Costs ($M)",
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+     ],
+     [
+      "Total Costs ($M)",
+      39.75,
+      47.18,
+      44.7,
+      45.2,
+      45.69,
+      47.18,
+      49.65
+     ],
+     [
+      "EBITDA ($M)",
+      9.75,
+      17.18,
+      14.7,
+      15.2,
+      15.69,
+      17.18,
+      19.65
+     ],
+     [
+      "Sale Multiple",
+      "6.5x",
+      "6.5x",
+      "6.5x",
+      "6.5x",
+      "6.5x",
+      "6.5x",
+      "6.5x"
+     ],
+     [
+      "Purchase/Sale Price ($M)",
+      null,
+      111.64,
+      95.55,
+      98.77,
+      101.99,
+      111.64,
+      127.73
+     ],
+     [
+      "Return on Investment %",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      2.7
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-salty-sole-shoe/p318.webp",
+   "key_insight": "Fixed costs are constant at $15M/year while variable costs (COGS) stay a steady ~50% of sales, so the projected 2012 EBITDA of $19.65M (implying a $127.73M sale value at 6.5x) falls far short of the ~$300M sale value needed for the PE firm's targeted 20% return — the shortfall must come from higher volume, since neither cost ratio nor price has room to move.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex2",
+   "title": "Exhibit B – US Casual Footwear Market Size and Share",
+   "page": 319,
+   "kind": "bar",
+   "description": "Stacked bar chart of US casual footwear market share (%) by Salty Sole and 5 named competitors, 2006-2009, with total market size ($M) labeled above each year's bar.",
+   "data": {
+    "columns": [
+     "Year",
+     "Total Market Size ($M)",
+     "Salty Sole Share (%)"
+    ],
+    "rows": [
+     [
+      2006,
+      125,
+      40
+     ],
+     [
+      2007,
+      163,
+      40
+     ],
+     [
+      2008,
+      150,
+      40
+     ],
+     [
+      2009,
+      153,
+      40
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-salty-sole-shoe/p319.webp",
+   "key_insight": "Salty Sole holds a stable ~40% share as the clear market leader, but total market size has not grown consistently (peaking at $163M in 2007, then settling near $150-153M) — so hitting the required 5.2M-pair volume target requires taking share from competitors and/or expanding into new product categories, not riding organic market growth.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What EBITDA is required in 2012 for the PE firm to achieve its target ~$300M sale value at a 6.5x multiple?",
+   "givens": [
+    "Target 2012 sale value ≈ $300M",
+    "Sale multiple = 6.5x"
+   ],
+   "steps": [
+    "Required EBITDA = $300M / 6.5 ≈ $46.15M",
+    "Rounded up to $50M for simplicity (as instructed by the case)"
+   ],
+   "answer": "≈$46.15M precisely, rounded to $50M for the volume calculation",
+   "answer_value": 50,
+   "unit": "$M EBITDA (rounded)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many pairs of shoes (v) must be sold in 2012 to reach the required $50M EBITDA, given $25/unit price, 50% variable cost rate, and $15M fixed costs?",
+   "givens": [
+    "Price = $25/unit",
+    "Variable cost = 50% of price = $12.50/unit",
+    "Fixed costs = $15,000,000",
+    "Target EBITDA = $50,000,000"
+   ],
+   "steps": [
+    "$50,000,000 = $25v − (0.5 × $25 × v) − $15,000,000",
+    "$50,000,000 = $12.5v − $15,000,000",
+    "$65,000,000 = $12.5v",
+    "v = 5,200,000 pairs"
+   ],
+   "answer": "5,200,000 pairs of shoes must be sold in 2012",
+   "answer_value": 5200000,
+   "unit": "pairs of shoes",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Using the precise (unrounded) required EBITDA of $46.15M instead of the book's rounded $50M, what volume would be required?",
+   "givens": [
+    "Precise required EBITDA = $300M / 6.5 = $46.15M",
+    "Price = $25/unit, variable cost = $12.5/unit, fixed costs = $15M"
+   ],
+   "steps": [
+    "$46,150,000 = $12.5v − $15,000,000",
+    "$61,150,000 = $12.5v",
+    "v ≈ 4,892,000 pairs"
+   ],
+   "answer": "≈4,892,000 pairs — meaningfully lower than the book's rounded 5,200,000, since the book's $50M figure was deliberately rounded up 'for simplicity'",
+   "answer_value": 4892000,
+   "unit": "pairs of shoes",
+   "verified": false,
+   "book_answer_if_different": "5,200,000 pairs (using the book's instructed rounding of required EBITDA up to $50M)"
+  }
+ ],
+ "synthesis": "Since both cost structure (fixed costs immovable, variable costs already at market-lowest) and price ($25/unit, held constant per industry research) are effectively fixed, volume is the only lever left to raise profitability. Reaching the PE firm's ~$300M target 2012 sale value requires roughly 5.2M pairs sold — more than double 2008-2009 volumes — which is challenging given the recession and a flat industry (Salty Sole already holds ~40% share of a market that isn't growing). Recommend pursuing volume through new products/geographies/distribution channels (e.g., international expansion), increased marketing to steal share, acquiring growth via brand acquisitions, and shifting product mix toward higher-margin items; consider adding value/features rather than cutting price. Key risks: production capacity constraints and cannibalization if new products are introduced.",
+ "what_great_looks_like": [
+  "Quickly ticks through the profitability equation (price, cost, volume) to isolate that volume is the real lever, rather than getting stuck brainstorming cost cuts",
+  "Correctly converts the target sale value into a required EBITDA and then into a required unit volume via the algebraic breakeven equation",
+  "Proactively asks for market size/share data to sanity-check the feasibility of the required volume, rather than accepting the number at face value",
+  "Questions the case's simplifying assumption of a uniform gross margin across all products"
+ ],
+ "common_pitfalls": [
+  "Spending too long brainstorming cost-cutting ideas after being told fixed and variable costs are already at their limits",
+  "Setting up the breakeven equation incorrectly (e.g., forgetting to subtract variable cost per unit, or misapplying the 50% rate)",
+  "Recommending volume growth without checking market size/share data for feasibility, or without flagging capacity/cannibalization risk"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (the 'Return on Investment %' figure of 2.7 for 2012E could not be independently reconciled from the other exhibit figures — the underlying acquisition/purchase price is not shown in the exhibit)",
+   "exhibits[1].data (Exhibit B's per-competitor share bands are visually estimated as roughly equal except Salty Sole's clearly-labeled ~40%; only Salty Sole's share and the total market size labels are precisely legible)"
+  ],
+  "math_verified": false,
+  "notes": "The book's own volume answer (5,200,000 pairs) was independently recomputed using its instructed rounding (required EBITDA rounded up from $46.15M to $50M 'for simplicity') and matched exactly. An additional unrounded calculation (math[2]) is included to show the two answers diverge meaningfully (~4.89M vs. 5.2M pairs) purely due to that rounding choice, not an arithmetic error.",
+  "fields_inferred": [
+   "difficulty",
+   "tags",
+   "math[2] (unrounded alternative calculation, not present in the book)",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

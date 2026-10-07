@@ -1,0 +1,317 @@
+{
+ "id": "darden-2023-sticky-surfactants",
+ "title": "Sticky Surfactants",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  24,
+  32
+ ],
+ "case_type": [
+  "Profitability",
+  "Pricing",
+  "Other"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "chemicals",
+ "sub_industry": "specialty-chemicals",
+ "industry_source_label": "Chemicals",
+ "geography": "Global",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant 1 / Qual 1 / Overall 1 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "profitability",
+  "commodity-pricing",
+  "divestiture",
+  "repurposing",
+  "sunk-cost",
+  "contract-pricing"
+ ],
+ "fit_question": "Tell me about a time that you led a team. What challenges did you face?",
+ "prompt": "Your client, CavalierChem, is a global chemicals manufacturer. CavalierChem recently acquired a manufacturing facility that makes surfactants as part of a larger purchase of competitor assets. Surfactants are a specialty chemical used for a variety of purposes, including laundry detergent, and the client has very little prior experience with this type of product. The manufacturing facility is not currently generating profits, and the client wants your help in determining what to do.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "Make the highest return possible from the facility in the next 5 years."
+  },
+  {
+   "question_topic": "Core business",
+   "answer": "80% of revenue is commodity plastics sold to manufacturers; the other 20% is a mix of downstream products and byproducts."
+  },
+  {
+   "question_topic": "Acquisition rationale",
+   "answer": "The surfactant plant came in a bundled acquisition of strategically important manufacturing assets; evaluate this plant independently."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "This surfactant market is $300M annually. CavalierChem and one competitor are the only significant manufacturers."
+  }
+ ],
+ "interviewer_notes": "Suitable after 0–10 practice cases; tests divestiture and commodity pricing. Seek at least two of improve profitability, repurpose and divest before showing Exhibit 1. Acquisition price is sunk. Questions may be placed flexibly. Release volume and pricing only when sales/revenue structure is requested. After pricing, strong candidates return to the other strategic options. Ignore discounting when asked in the primary comparison. The book accepts any option with sound reasoning, but its claim that 10% NPVs are roughly equivalent does not follow from the stated timing. The prompt's zero-profit description conflicts with Exhibit 1's positive unit profit; record both.",
+ "suggested_framework": {
+  "summary": "Compare improving operations, repurposing the facility and divesting it over the five-year horizon.",
+  "tree": {
+   "label": "Maximize facility return",
+   "children": [
+    {
+     "label": "Increase profitability",
+     "children": [
+      {
+       "label": "Contract pricing, share, existing/new customers and new uses"
+      },
+      {
+       "label": "Variable costs: COGS, hourly labor and utilities"
+      },
+      {
+       "label": "Fixed costs: overhead, maintenance, salaries and SG&A"
+      }
+     ]
+    },
+    {
+     "label": "Repurpose",
+     "children": [
+      {
+       "label": "Products with similar manufacturing processes and market attractiveness"
+      },
+      {
+       "label": "Capex, operating costs and conversion timeline"
+      }
+     ]
+    },
+    {
+     "label": "Divest",
+     "children": [
+      {
+       "label": "Achievable sale price and competition/monopoly implications"
+      },
+      {
+       "label": "Customer relationships and employees"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you determine what CavalierChem should do with this facility?",
+   "release_when": "After the prompt and requested clarifications; push beyond profitability if no alternatives are considered.",
+   "expected_answer": "Compare improving profitability, repurposing and selling the asset against the five-year return objective. Identify at least two alternatives. Exclude the acquisition price from the forward decision because it is sunk.",
+   "good_answer_signals": [
+    "Considers strategic alternatives rather than only a profit tree."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What does this exhibit imply about prospects for raising profits?",
+   "release_when": "After at least two strategic alternatives are identified.",
+   "info_to_release": "Exhibit 1 gives variable cost 2.3 cents/lb and fixed cost 2.7 cents/lb for both firms, and reported profit 0.5 cents/lb for CavalierChem versus 2.0 cents/lb for its competitor.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Costs per pound are identical, but competitor profit is four times the client's. The main visible opportunity is realized price, not a demonstrated cost gap. Ask about contract versus spot sales. The exhibit implies positive current profit despite the opening prompt's claim of none.",
+   "good_answer_signals": [
+    "Recognizes that the comparison is per pound and investigates pricing."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "How much incremental profit could matching the competitor's contract price generate?",
+   "release_when": "Only when sales structure and revenue details are requested.",
+   "info_to_release": "Annual sales 1.4M tons; give 2,000 lb/ton if asked. Contracts account for 75% of sales; 25% sells on the spot market. Average client contract price 5.67 cents/lb, competitor contract price 7.67 cents/lb, common spot price 5 cents/lb.",
+   "expected_answer": "Annual volume is 2.8B lb and contracted volume 2.1B lb. Raising contract price by 2 cents/lb produces 4.2B cents, or $42M incremental annual profit, assuming unchanged volume and costs. Convert cents to dollars explicitly.",
+   "good_answer_signals": [
+    "Applies the increase only to contract volume.",
+    "Keeps tons, pounds, cents and dollars consistent."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could CavalierChem raise realized revenue per pound?",
+   "expected_answer": "Customer actions: adjust contract/spot mix, emphasize higher-paying customers, develop relationships through sales events, renegotiate contracts, and build a premium brand. Product actions: improve sustainability to support a premium or modify the product to reduce customer-use costs and capture some savings. Then return to repurposing and divestiture.",
+   "good_answer_signals": [
+    "Structures customer and product ideas, then drives the comparison of alternatives."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "How do contract renegotiation, repurposing and divestiture compare over five years?",
+   "release_when": "When the candidate revisits alternatives; prompt if needed. Ignore discounting for this comparison if asked.",
+   "info_to_release": "Repurposing requires $50M capex and yields $75M incremental annual profit after a two-year startup. The highest buyer offers $200M. Client objective is total cash flow over five years; ignore discounting for now.",
+   "expected_answer": "Using the book's simplified incremental-cash-flow comparison: renegotiation yields 5 × $42M=$210M; repurposing yields 3 × $75M−$50M=$175M; sale yields $200M. Pricing ranks first by $10M over sale, contingent on execution. The book does not reconcile existing operating profit or retained asset value across options; clarify those before a real transaction decision.",
+   "good_answer_signals": [
+    "Remembers the five-year horizon and two-year startup delay.",
+    "Separates calculation ranking from execution risk."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "We meet the CEO in five minutes. What should we recommend?",
+   "expected_answer": "Under the instructed undiscounted comparison, renegotiate contracts toward 7.67 cents/lb, adding $42M annually and $210M over five years. This narrowly exceeds a $200M sale and a $175M repurposing plan. Risks are customers rejecting increases and market contraction. Investigate customer economics and solicit alternative sale bids. Do not claim all options have equivalent 10% NPVs: with conventional timing, sale is worth more on that basis.",
+   "good_answer_signals": [
+    "Makes the recommendation conditional on achievable prices, cash-flow definitions and timing."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Average surfactant unit costs and reported profit",
+   "page": 27,
+   "kind": "bar",
+   "description": "Reported per-pound cost and profit benchmarks in cents. These historical profit figures are supplied comparison inputs, not the calculated answer to the pricing question.",
+   "data": {
+    "columns": [
+     "Reported metric (cents/lb)",
+     "CavalierChem",
+     "Competitor"
+    ],
+    "rows": [
+     [
+      "Variable cost",
+      2.3,
+      2.3
+     ],
+     [
+      "Fixed cost",
+      2.7,
+      2.7
+     ],
+     [
+      "Reported profit",
+      0.5,
+      2.0
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-sticky-surfactants/p027.webp",
+   "key_insight": "Equal costs but very different reported profit point to realized pricing.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the annual profit increase from competitor-level contract pricing?",
+   "givens": [
+    "1.4M tons/year; 2,000 lb/ton",
+    "75% contract volume",
+    "Contract prices 5.67 and 7.67 cents/lb"
+   ],
+   "steps": [
+    "1.4M × 2000 = 2.8B lb/year.",
+    "2.8B × 75% = 2.1B contracted lb/year.",
+    "2.1B × (7.67−5.67) / 100 = $42M/year."
+   ],
+   "answer": "$42M incremental annual profit.",
+   "answer_value": 42,
+   "unit": "USD millions/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are the five-year undiscounted option totals?",
+   "givens": [
+    "Pricing increase $42M/year",
+    "Repurpose: $50M upfront, $75M/year in years 3–5",
+    "Sale $200M",
+    "Ignore discounting"
+   ],
+   "steps": [
+    "Renegotiate: 42 × 5 = $210M.",
+    "Repurpose: 75 × 3−50 = $175M.",
+    "Divest: $200M."
+   ],
+   "answer": "Pricing $210M, sale $200M, repurposing $175M under the book's simplified comparison.",
+   "answer_value": 210,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Does the opening zero-profit statement reconcile with the candidate exhibit?",
+   "givens": [
+    "Exhibit reports 0.5 cents/lb profit",
+    "2.8B lb annual volume"
+   ],
+   "steps": [
+    "2.8B × $0.005 = $14M annual reported operating profit."
+   ],
+   "answer": "The exhibit implies $14M annual profit, inconsistent with the prompt's zero-profit description unless unspecified other costs exist.",
+   "answer_value": 14,
+   "unit": "USD millions/year",
+   "verified": false,
+   "book_answer_if_different": "The prompt says the facility 'is not currently generating profits'; the candidate exhibit shows positive profit of 0.5 cents/lb."
+  },
+  {
+   "id": "m4",
+   "question": "Are 10% NPVs roughly equivalent as the conclusion claims?",
+   "givens": [
+    "Book's suggested 10% discount rate",
+    "$42M in years 1–5",
+    "$50M upfront and $75M in years 3–5",
+    "$200M immediate sale",
+    "End-year cash flows assumed for sensitivity"
+   ],
+   "steps": [
+    "Pricing NPV = sum of 42/1.1^t for t=1..5 = $159.213M.",
+    "Repurposing NPV = −50 + sum of 75/1.1^t for t=3..5 = $104.144M.",
+    "Immediate sale = $200M."
+   ],
+   "answer": "No: under conventional timing the NPVs are about $159.2M, $104.1M and $200M, respectively.",
+   "answer_value": 159.2130443152,
+   "unit": "USD millions (pricing NPV)",
+   "verified": false,
+   "book_answer_if_different": "The conclusion says 'the NPVs with 10% discount rate are roughly equivalent.' This is not supported by the stated cash flows under end-year operating cash flows and immediate capex/sale assumptions."
+  }
+ ],
+ "synthesis": "Renegotiate contracts toward 7.67 cents/lb under the case's required undiscounted five-year comparison: $42M annual improvement and $210M total, versus $200M sale or $175M repurposing. Test customer willingness and market resilience while soliciting sale bids. Before committing, resolve positive existing profit versus the prompt's zero-profit premise and put all options on a consistent timing and retained-value basis; conventional 10% discounting favors immediate sale, not equivalent NPVs.",
+ "what_great_looks_like": [
+  "Considers at least two strategic paths and ignores sunk acquisition cost.",
+  "Identifies pricing from identical per-pound costs.",
+  "Structures customer/product pricing ideas and revisits strategic alternatives.",
+  "Remembers the five-year horizon and highlights narrow ranking differences."
+ ],
+ "common_pitfalls": [
+  "Applying the contract price rise to spot-market volume.",
+  "Forgetting cents-to-dollars or tons-to-pounds conversions.",
+  "Counting five repurposed operating years despite the startup delay.",
+  "Treating inconsistent existing profit and discounted-value statements as settled facts."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "stages[4].expected_answer (existing profit and residual asset value omitted by source)",
+   "math[3].givens (cash-flow timing assumed for sensitivity)"
+  ],
+  "math_verified": false,
+  "notes": "Refreshed case. Candidate exhibit implies positive $14M annual profit, contradicting the opening premise; preserved the opening text and used candidate data in the answer. The central $42M incremental and $210M/$175M/$200M arithmetic verifies. Those figures compare incremental operating profit against a whole-asset sale without reconciling baseline or terminal value. The source's 'roughly equivalent' 10% NPVs are not supported under conventional timing: about $159.2M/$104.1M/$200M. The primary exercise explicitly says ignore discounting, so its recommendation is retained conditionally. Overall difficulty 1/3 maps to 2 in Python. Generic feedback page 32 is not case content. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "case_type",
+   "format",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls",
+   "math[2]",
+   "math[3]",
+   "synthesis (source-consistency caveats)"
+  ]
+ }
+}

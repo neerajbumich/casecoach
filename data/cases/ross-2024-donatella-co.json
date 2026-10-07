@@ -1,0 +1,449 @@
+{
+ "id": "ross-2024-donatella-co",
+ "title": "Donatella Co.",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  67,
+  78
+ ],
+ "case_type": [
+  "Growth/Revenue",
+  "M&A/Acquisition"
+ ],
+ "case_type_source_label": "Growth Strategy",
+ "industry": "luxury",
+ "sub_industry": "luxury-goods",
+ "industry_source_label": "CPG",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quant - 2, Qual - 2, Overall - 2 (1-3 scale)",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "sustainability",
+  "carbon-emissions",
+  "luxury",
+  "benchmarking",
+  "acquisition",
+  "csrd"
+ ],
+ "concepts_tested": [
+  "emissions intensity",
+  "portfolio analysis",
+  "peer benchmarking",
+  "sustainability levers",
+  "acquisition screening"
+ ],
+ "prompt": "Donatella Co. is an Italian global fashion house with four luxury brands. Its CEO is concerned about the company's environmental impact and wants to prepare for the EU Corporate Sustainability Reporting Directive while improving sustainability within Donatella Co. and its supply chain. Where should the company start?",
+ "clarifying_info": [
+  {
+   "question_topic": "Scale",
+   "answer": "Donatella Co. generated €1B of revenue last year across its four brands."
+  },
+  {
+   "question_topic": "Reporting threshold",
+   "answer": "The described legislation applies to EU companies with more than €40M of annual revenue and non-EU companies with more than €150M of revenue in Europe."
+  },
+  {
+   "question_topic": "Time horizon",
+   "answer": "Management is looking for improvements in the short term."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Customers are global, with the largest markets in North America and Western Europe and a fast-growing Asian customer base."
+  }
+ ],
+ "interviewer_notes": "This is an open-ended sustainability case. Direct the candidate first to greenhouse-gas emissions by brand, then to peer benchmarking, operational and portfolio levers, and acquisition screening. Exhibit 1 prints revenue in thousands and derives brand CO2e by multiplying items sold by CO2e per item. Exhibit 2's published $/emission values contain a mathematical error for StellaCo: 375/200 is 1.875, not 1.50. Exhibit 3 is an unlabeled bubble chart; positions are approximate and bubble-area values cannot be recovered reliably.",
+ "suggested_framework": {
+  "summary": "Diagnose the footprint, benchmark performance, identify internal and external levers, and prioritize actions against impact, economics, and reporting readiness.",
+  "tree": {
+   "label": "Improve sustainability and reporting readiness",
+   "children": [
+    {
+     "label": "Environmental footprint",
+     "children": [
+      {
+       "label": "Emissions by brand and value-chain step"
+      },
+      {
+       "label": "Materials, dyes, water, transport, and disposal"
+      }
+     ]
+    },
+    {
+     "label": "Economics and market",
+     "children": [
+      {
+       "label": "Investment and operating cost"
+      },
+      {
+       "label": "Customer willingness to pay"
+      },
+      {
+       "label": "Competitor benchmarks"
+      }
+     ]
+    },
+    {
+     "label": "Action portfolio",
+     "children": [
+      {
+       "label": "Operational improvements and circularity"
+      },
+      {
+       "label": "Offsets, divestitures, and acquisitions"
+      },
+      {
+       "label": "Reporting systems and governance"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you help Donatella Co. decide where to start?",
+   "expected_answer": "Establish a measurable baseline across brands and the supply chain, identify the largest emissions and regulatory gaps, compare Donatella Co. with peers, and then rank operational and portfolio actions by emissions impact, cost, speed, growth, customer response, and implementation risk.",
+   "good_answer_signals": [
+    "Begins with a quantified baseline",
+    "Covers operations, sourcing, disposal, economics, and stakeholders",
+    "Separates reporting compliance from emissions reduction"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 1, calculate emissions by brand and identify the priority areas.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Brand A emits 250,000 source units, or 61.7% of the 405,000 total, while contributing 40% of revenue. Brand C emits 112,500, or 27.8%, on 25% of revenue. Brand B contributes 5.6% of emissions on 15% of revenue and Brand D 4.9% on 20%. Begin with Brand A, then Brand C; Brand D is the cleanest relative to its revenue contribution.",
+   "good_answer_signals": [
+    "Calculates all four brands and the total",
+    "Compares emissions share with revenue share",
+    "Prioritizes A and C rather than merely the largest brand"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "What does Exhibit 2 indicate about Donatella Co.'s sustainability spending versus peers?",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Spend per emissions unit is about $0.74 for Donatella Co., $0.60 for FucciCo, $2.03 for Buitton, $0.60 for Frada, and $1.88 for StellaCo. Donatella Co. has lower absolute emissions than most peers and spends more per unit than FucciCo and Frada, but substantially less than Buitton and StellaCo. The ratio is only a directional benchmark because spending quality, emissions scope, and company scale may differ.",
+   "good_answer_signals": [
+    "Computes ratios consistently",
+    "Corrects the source's StellaCo arithmetic",
+    "Avoids treating spend as proof of sustainability outcomes"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Donatella Co. improve the sustainability of its brand portfolio?",
+   "expected_answer": "Internally, reduce transport emissions, improve labor and supplier practices, recycle water, change materials and dyes, design for repair or reuse, and build circular take-back programs. Externally, purchase credible offsets only for residual emissions, support environmental projects, acquire a lower-emissions growth brand, or divest a persistent laggard. Pair actions with auditable data, targets, ownership, and customer communication that avoids greenwashing.",
+   "good_answer_signals": [
+    "Separates internal reduction from external portfolio levers",
+    "Includes circularity and supply-chain actions",
+    "Adds measurement and governance"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "exhibit",
+   "interviewer_asks": "Which acquisition target in Exhibit 3 appears most attractive?",
+   "release_when": "After the candidate identifies acquisition as a short-term portfolio lever.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Target 5 is the preferred option: it combines strong revenue growth of roughly 8.5% with revenue near 28M and a relatively small emissions bubble. Target 6 grows faster but is much smaller; Targets 1-3 are larger but slower-growing and appear more emissions-intensive. Confirm exact revenue, growth, emissions, valuation, and strategic fit before recommending a transaction because the chart has no printed point labels or bubble-size scale.",
+   "good_answer_signals": [
+    "Balances growth, scale, and emissions",
+    "Selects Target 5",
+    "Treats plotted estimates as directional and calls for diligence"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What should Donatella Co. do next?",
+   "expected_answer": "Start with audited emissions and CSRD-ready reporting, prioritizing Brand A and then Brand C for operational reduction. Benchmark programs rather than spending alone, implement transport, materials, water, and circularity initiatives, and investigate Target 5 as a short-term growth and portfolio-emissions lever. Validate definitions and trends, conduct acquisition diligence, and strengthen government affairs and sustainability governance. Key risks are changing rules, limited acquisition capital, poor data comparability, and greenwashing.",
+   "good_answer_signals": [
+    "Connects diagnosis to concrete priorities",
+    "Combines internal improvements with selective M&A",
+    "Includes diligence, governance, and communication risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Revenue, items sold, and CO2e by brand",
+   "page": 71,
+   "kind": "table",
+   "description": "Revenue mix, item volume, CO2e per item, calculated emissions, and emissions share for Donatella Co.'s four brands.",
+   "data": {
+    "columns": [
+     "Brand",
+     "Revenue share",
+     "Revenue (source $000)",
+     "Items sold",
+     "CO2e per item (source KT)",
+     "Brand CO2e",
+     "CO2e share"
+    ],
+    "rows": [
+     [
+      "A",
+      "40%",
+      "400,000",
+      "2,500",
+      "100",
+      "250,000",
+      "61.7%"
+     ],
+     [
+      "B",
+      "15%",
+      "150,000",
+      "300",
+      "75",
+      "22,500",
+      "5.6%"
+     ],
+     [
+      "C",
+      "25%",
+      "250,000",
+      "1,250",
+      "90",
+      "112,500",
+      "27.8%"
+     ],
+     [
+      "D",
+      "20%",
+      "200,000",
+      "500",
+      "40",
+      "20,000",
+      "4.9%"
+     ],
+     [
+      "Total",
+      "100%",
+      "1,000,000",
+      "",
+      "",
+      "405,000",
+      "100%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-donatella-co/p071.webp",
+   "key_insight": "Brand A is disproportionately emissions-heavy, generating 61.7% of CO2e but only 40% of revenue; Brand D has the opposite profile.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Peer sustainability spend and emissions",
+   "page": 73,
+   "kind": "bar",
+   "description": "CO2e emissions and sustainability spending for Donatella Co. and four competitors, with recalculated spend per emissions unit.",
+   "data": {
+    "columns": [
+     "Company",
+     "CO2e emissions (source 000 KT)",
+     "Sustainability spend (source $000)",
+     "Spend per emissions unit"
+    ],
+    "rows": [
+     [
+      "Donatella Co.",
+      "405",
+      "$300",
+      "$0.741"
+     ],
+     [
+      "FucciCo",
+      "2,000",
+      "$1,200",
+      "$0.600"
+     ],
+     [
+      "Buitton",
+      "800",
+      "$1,620",
+      "$2.025"
+     ],
+     [
+      "Frada",
+      "1,500",
+      "$900",
+      "$0.600"
+     ],
+     [
+      "StellaCo",
+      "200",
+      "$375",
+      "$1.875"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-donatella-co/p073.webp",
+   "key_insight": "Donatella Co.'s spending intensity is above FucciCo and Frada but well below Buitton and StellaCo; the source understates StellaCo's ratio.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Potential acquisition targets",
+   "page": 76,
+   "kind": "other",
+   "description": "Bubble chart comparing six targets by year-over-year revenue growth, revenue, and relative CO2e bubble size. Coordinates are visually estimated because values are not printed.",
+   "data": {
+    "columns": [
+     "Target",
+     "Approximate growth",
+     "Approximate revenue (millions)",
+     "Relative CO2e"
+    ],
+    "rows": [
+     [
+      "1",
+      "0.5%",
+      "110",
+      "largest"
+     ],
+     [
+      "2",
+      "3.5%",
+      "88",
+      "large"
+     ],
+     [
+      "3",
+      "4.0%",
+      "60",
+      "medium-large"
+     ],
+     [
+      "4",
+      "5.0%",
+      "16",
+      "small"
+     ],
+     [
+      "5",
+      "8.5%",
+      "28",
+      "small"
+     ],
+     [
+      "6",
+      "10.0%",
+      "10",
+      "very small"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-donatella-co/p076.webp",
+   "key_insight": "Target 5 offers the best directional balance of strong growth, meaningful revenue, and relatively low emissions.",
+   "data_confidence": "low"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are emissions and emissions shares by brand?",
+   "givens": [
+    "Items A/B/C/D: 2,500/300/1,250/500",
+    "CO2e per item: 100/75/90/40",
+    "Revenue shares: 40%/15%/25%/20%"
+   ],
+   "steps": [
+    "Brand A = 2,500×100 = 250,000",
+    "Brand B = 300×75 = 22,500",
+    "Brand C = 1,250×90 = 112,500",
+    "Brand D = 500×40 = 20,000",
+    "Total = 405,000",
+    "Shares = 61.7%, 5.6%, 27.8%, and 4.9%"
+   ],
+   "answer": "405,000 total; Brand A 61.7%, B 5.6%, C 27.8%, D 4.9%",
+   "answer_value": 405000,
+   "unit": "source CO2e units",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much does each company spend per emissions unit?",
+   "givens": [
+    "Donatella 300/405",
+    "Fucci 1,200/2,000",
+    "Buitton 1,620/800",
+    "Frada 900/1,500",
+    "Stella 375/200"
+   ],
+   "steps": [
+    "Donatella = 0.7407",
+    "Fucci = 0.6000",
+    "Buitton = 2.0250",
+    "Frada = 0.6000",
+    "Stella = 1.8750"
+   ],
+   "answer": "Donatella $0.74; Fucci $0.60; Buitton $2.03; Frada $0.60; Stella $1.88",
+   "answer_value": 0.74074,
+   "unit": "source spend units per source emissions unit for Donatella",
+   "verified": false,
+   "book_answer_if_different": "The source guidance reports approximately $0.75, $0.60, $2.00, $0.60, and $1.50. StellaCo should be $1.875, and Buitton is $2.025 before rounding."
+  }
+ ],
+ "synthesis": "Build an audited emissions baseline and CSRD-ready reporting, then focus reductions on Brand A and Brand C. Improve transport, materials, water use, and circularity while benchmarking program effectiveness rather than expenditure alone. Explore Target 5 as a lower-emissions growth acquisition, subject to exact data, valuation, strategic fit, and integration diligence. Strengthen governance and communications to manage evolving regulation, capital constraints, and greenwashing risk.",
+ "what_great_looks_like": [
+  "Compares each brand's emissions share with revenue share",
+  "Corrects peer-ratio arithmetic",
+  "Treats spend intensity as a directional input",
+  "Balances internal reductions with portfolio actions",
+  "Handles the acquisition chart's visual uncertainty explicitly"
+ ],
+ "common_pitfalls": [
+  "Ranking brands on absolute emissions without revenue context",
+  "Assuming higher spending guarantees better outcomes",
+  "Copying the incorrect StellaCo ratio",
+  "Selecting the fastest-growing target without considering scale and emissions",
+  "Treating unlabeled bubble sizes as precise data"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "Exhibit 3 target coordinates",
+   "Exhibit 3 relative bubble sizes",
+   "exact unit normalization in Exhibits 1 and 2"
+  ],
+  "math_verified": false,
+  "notes": "Exhibits 1 and 2 were transcribed from rendered pages and recalculated. The source's StellaCo spend-per-emission result is incorrect: 375/200 = 1.875, not 1.50. Exhibit 3 has no printed point values or bubble scale, so its entries are explicitly approximate. Reviewed and accepted by Claude 2026-09-28.",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

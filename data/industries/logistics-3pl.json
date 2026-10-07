@@ -1,0 +1,124 @@
+{
+  "id": "logistics-3pl",
+  "name": "Logistics & 3PL",
+  "group": "Travel & transport",
+  "one_liner": "Moving and storing goods for shippers through parcel, freight forwarding, warehousing and contract logistics, a density- and utilization-driven business.",
+  "how_it_makes_money": "Parcel carriers charge per package based on weight, zone and speed, plus surcharges. Third-party logistics (3PL) providers earn fees for warehousing, fulfillment and value-added services, often under multi-year contracts. Freight forwarders and brokers are asset-light and earn a spread between what they charge shippers and pay carriers.",
+  "value_chain": [
+    "Inbound freight and forwarding",
+    "Warehousing and distribution centers",
+    "Order fulfillment and packaging",
+    "Line-haul transportation",
+    "Last-mile delivery",
+    "Returns (reverse logistics)"
+  ],
+  "revenue_formula": [
+    "Parcel revenue = packages per day × days × revenue per piece",
+    "Warehousing revenue = square feet or pallets × storage rate + orders handled × fulfillment fee",
+    "Broker/forwarder net revenue = shipments × (price charged − carrier cost)"
+  ],
+  "cost_structure": [
+    "Labor: drivers, warehouse staff; typically the largest cost",
+    "Purchased transportation: fees paid to third-party carriers",
+    "Fuel: largely passed through via fuel surcharges",
+    "Facilities: rent and depreciation of hubs and warehouses",
+    "Fleet and equipment, including aircraft for express players",
+    "Technology and automation"
+  ],
+  "margins": "Asset-heavy parcel and express carriers typically earn high single to low double digit operating margins, while contract logistics and brokerage margins are thinner on revenue but asset-light. Network density, utilization and freight cycle drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Revenue per piece",
+      "what": "Average yield per package, driven by weight, zone and service mix."
+    },
+    {
+      "name": "Cost per piece",
+      "what": "Unit cost; density is the key lever."
+    },
+    {
+      "name": "Packages per stop / stops per route",
+      "what": "Last-mile density, the biggest driver of delivery cost."
+    },
+    {
+      "name": "Warehouse utilization",
+      "what": "Share of capacity used, key to 3PL profitability."
+    },
+    {
+      "name": "On-time delivery rate",
+      "what": "Service quality measure customers pay for."
+    },
+    {
+      "name": "Gross margin / net revenue per load",
+      "what": "Spread earned by brokers and forwarders."
+    }
+  ],
+  "trends": [
+    "Amazon's in-house logistics network competing with UPS and FedEx",
+    "Warehouse automation and robotics to offset labor costs",
+    "Nearshoring and supply chain diversification away from China",
+    "Freight market downcycle pressuring rates and volumes",
+    "Carriers shifting toward higher-margin volume over raw volume",
+    "Tariffs and changing de minimis rules affecting cross-border ecommerce"
+  ],
+  "key_players": [
+    "UPS",
+    "FedEx",
+    "DHL",
+    "Amazon Logistics",
+    "C.H. Robinson",
+    "Expeditors",
+    "GXO",
+    "Kuehne+Nagel",
+    "DSV",
+    "XPO"
+  ],
+  "case_angles": [
+    {
+      "question": "A parcel carrier's profits fell despite record volumes; why?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a 3PL invest in warehouse robotics?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "How should a regional carrier respond to Amazon building its own delivery network?",
+      "framework_id": "competitive-response"
+    },
+    {
+      "question": "Should a 3PL expand into Mexico to capture nearshoring?",
+      "framework_id": "market-entry"
+    }
+  ],
+  "interview_hooks": [
+    "Will Amazon become the largest parcel carrier in the US, and what does that mean for UPS and FedEx?",
+    "Is asset-light or asset-heavy the better logistics model?",
+    "How much can automation really lower fulfillment costs?"
+  ],
+  "news": {
+    "keywords": [
+      "logistics",
+      "parcel",
+      "freight forwarder",
+      "warehouse",
+      "supply chain",
+      "shipping rates",
+      "last-mile delivery",
+      "fulfillment center",
+      "3pl",
+      "freight broker"
+    ],
+    "companies": [
+      "UPS",
+      "FedEx",
+      "DHL",
+      "C.H. Robinson",
+      "Expeditors",
+      "GXO",
+      "Kuehne+Nagel",
+      "DSV",
+      "XPO",
+      "Maersk"
+    ]
+  }
+}

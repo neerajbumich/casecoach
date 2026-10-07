@@ -1,0 +1,381 @@
+{
+ "id": "wharton-2005-retail-bank",
+ "title": "Retail Bank",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  31,
+  32
+ ],
+ "variant_group_id": "retail-bank",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Growth/Revenue",
+  "Pricing"
+ ],
+ "case_type_source_label": "revenue/profit doubling feasibility & action plan",
+ "industry": "banking",
+ "sub_industry": "wealth-management",
+ "industry_source_label": "private division of a retail bank",
+ "geography": "US (large presence in the North East, moderate in the South East)",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Accenture, 2nd Round"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "cross-sell",
+  "customer-segmentation",
+  "pricing",
+  "revenue-growth",
+  "private-banking",
+  "feasibility-assessment",
+  "customer-profitability"
+ ],
+ "concepts_tested": [
+  "cross-sell revenue modeling",
+  "customer segmentation by value",
+  "profitable-customer pricing/selection",
+  "feasibility assessment against a numeric target"
+ ],
+ "prompt": "Our client is the private division of a retail bank that has 100,000 clients, $500,000,000 in revenues, and $150,000,000 in net income. Our client's goal is to double the revenues and profits of the business in 5 years. Assess the feasibility of the goal. Prioritize the two or three most important steps they should take in their action plan.",
+ "clarifying_info": [
+  {
+   "question_topic": "Pricing",
+   "answer": "Revenue comes from interest and fees."
+  },
+  {
+   "question_topic": "Costs",
+   "answer": "Transaction costs and salaries. Sales are made one-on-one between a bank salesperson and the customer, so both salary cost and transaction costs tend to be high."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Large presence in the North East and moderate presence in the South East."
+  },
+  {
+   "question_topic": "Products",
+   "answer": "4 product lines, ranked by revenue and profit: Private banking (deposits, loans) — revenue rank 1, profit rank 1; Investment management (brokerage, advice, access) — revenue rank 2, profit rank 3; Trust (estate planning and trust, transferred death) — revenue rank 3, profit rank 2; Insurance — revenue rank 4, profit rank 2 (as stated in the book)."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "20–25% of customers purchase more than one product; 75–80% purchase only one product. Segmented into 5 groups by investable volume: Ultra High ($10M+, 5% of customers), High Net ($1M–$10M, 10%), Affluent ($0.5M–$1M, 20%), Mass Affluent ($100K–$500K, 25%), Mass ($0–$100K, 40%). The Ultra High, High Net, and Affluent segments together generate 60–70% of revenues; Mass Affluent and Mass together generate 30–40%."
+  }
+ ],
+ "interviewer_notes": "Share each bullet of information only if the candidate asks for it in a clear and deliberate way. At the analysis stage the candidate should start working the numbers to make fact-based recommendations — this case rewards quantitatively grounded prioritization (buyer/segment selection and cross-sell) over generic growth ideas.",
+ "suggested_framework": {
+  "summary": "Assess feasibility of doubling revenue/profit in 5 years by examining the customer base (segmentation, cross-sell rate), product mix (revenue vs. profit contribution), cost structure, and geography, then quantify the biggest lever (cross-sell to existing high-value single-product customers).",
+  "tree": {
+   "label": "Is doubling revenue & profit in 5 years feasible?",
+   "children": [
+    {
+     "label": "Customer base",
+     "children": [
+      {
+       "label": "Segmentation by investable volume"
+      },
+      {
+       "label": "Single- vs. multi-product customers (cross-sell gap)"
+      }
+     ]
+    },
+    {
+     "label": "Product mix",
+     "children": [
+      {
+       "label": "Revenue rank by product line"
+      },
+      {
+       "label": "Profit rank by product line"
+      }
+     ]
+    },
+    {
+     "label": "Cost structure",
+     "children": [
+      {
+       "label": "High salary and transaction costs from one-on-one sales model"
+      }
+     ]
+    },
+    {
+     "label": "Geography",
+     "children": [
+      {
+       "label": "North East vs. South East footprint"
+      }
+     ]
+    },
+    {
+     "label": "Quantified levers",
+     "children": [
+      {
+       "label": "Cross-sell to existing single-product, high-value customers"
+      },
+      {
+       "label": "Reprice/deprioritize low-value mass segments"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Assess the feasibility of doubling revenues and profits in 5 years, and prioritize the two or three most important steps in the action plan.",
+   "expected_answer": "Candidate lays out a framework covering the customer base (segmentation, cross-sell rate), product mix (revenue and profit by line), cost structure, and geography, and signals intent to quantify the largest lever(s) before recommending.",
+   "good_answer_signals": [
+    "Proposes a structured framework before requesting data",
+    "Signals intent to end with a quantified feasibility check against the doubling target"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "clarify",
+   "interviewer_asks": "What are the sources of revenue and cost, and where does the business operate?",
+   "release_when": "Only if candidate asks clearly and deliberately",
+   "info_to_release": "Revenue comes from interest and fees; costs are transaction costs and salaries, both high due to a one-on-one sales model; large presence in the North East, moderate in the South East.",
+   "expected_answer": "Candidate notes the business is relationship/labor-intensive (high salary and transaction costs from one-on-one selling), which matters for how expensive it is to acquire vs. cross-sell customers.",
+   "good_answer_signals": [
+    "Connects the one-on-one sales model to high cost-to-serve, informing later prioritization"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "Tell me about the product lines.",
+   "release_when": "Only if candidate asks",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Candidate notes the 4 product lines (Private banking, Investment management, Trust, Insurance) and that revenue rank and profit rank diverge for some lines (e.g., Investment management ranks 2nd in revenue but only 3rd in profit), suggesting profit-per-dollar-of-revenue differs meaningfully by product.",
+   "good_answer_signals": [
+    "Notices the revenue-rank vs. profit-rank divergence rather than treating all products as equally attractive"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "How is the customer base segmented?",
+   "release_when": "Only if candidate asks",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Candidate notes the 5 investable-volume segments and that 20–25% of customers already buy more than one product while 75–80% buy only one — and that the top 3 segments (35% of customers) generate 60–70% of revenue versus 30–40% from the bottom 2 segments (65% of customers).",
+   "good_answer_signals": [
+    "Identifies the single-product majority as a cross-sell opportunity",
+    "Identifies the revenue concentration in the top 3 segments"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "analysis",
+   "interviewer_asks": "Given that transaction costs are similar across segments, how should the bank think about which customers to grow versus discourage?",
+   "expected_answer": "Since transaction costs are roughly flat across segments, it makes sense to grow the higher-revenue-generating segments (Ultra High, High Net, Affluent) via selective marketing and promotions, and to discourage the lower-revenue Mass Affluent/Mass segments — e.g., by raising prices on them, letting them either add profitability or switch to a competitor.",
+   "good_answer_signals": [
+    "Uses the flat-transaction-cost fact to justify segment-based pricing/targeting",
+    "Proposes concrete mechanisms (selective marketing for top segments, repricing for bottom segments)"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "math",
+   "interviewer_asks": "How much incremental revenue could cross-selling the existing single-product customers in the top segments generate — and is doubling revenue feasible?",
+   "expected_answer": "Focusing on the top 3 segments (assumed to be the ongoing customer base), $350M of current revenue relates to them, of which $262.5M comes from customers who hold only one product. Assuming the 4 product lines generate roughly comparable revenue per customer, fully cross-selling those single-product customers into all 4 products would generate about $1,050M in revenue from this group alone — which already exceeds the $1,000M doubling target. The goal is therefore feasible, primarily through cross-selling existing high-value customers rather than needing new customer acquisition.",
+   "good_answer_signals": [
+    "Chains segment revenue → single-product revenue → cross-sell multiplier cleanly",
+    "Explicitly compares the result to the $1,000M doubling target to assess feasibility"
+   ]
+  },
+  {
+   "order": 7,
+   "kind": "synthesis",
+   "interviewer_asks": "So, is the goal feasible, and what should the client prioritize?",
+   "expected_answer": "Yes, it is feasible — cross-selling existing customers in the top segments alone could roughly double revenue. Priority actions: (1) incentivize the sales force to cross-sell additional products to existing customers, (2) run promotions targeted at the top 3 affluent segments, and (3) raise prices on the bottom 2 mass-market segments to 'fire' unprofitable customers.",
+   "good_answer_signals": [
+    "Gives a clear feasibility verdict grounded in the cross-sell math",
+    "Prioritizes exactly 2–3 concrete, ranked action steps as asked"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Product line revenue and profit ranks",
+   "page": 31,
+   "kind": "table",
+   "description": "Ranks the bank's 4 product lines (1 = highest) by revenue contribution and by profit contribution.",
+   "data": {
+    "columns": [
+     "Product line",
+     "Sub-products",
+     "Revenue rank",
+     "Profit rank"
+    ],
+    "rows": [
+     [
+      "Private banking",
+      "deposits, loans",
+      1,
+      1
+     ],
+     [
+      "Investment management",
+      "brokerage, advice, access",
+      2,
+      3
+     ],
+     [
+      "Trust",
+      "estate planning and trust, transferred death",
+      3,
+      2
+     ],
+     [
+      "Insurance",
+      "",
+      4,
+      2
+     ]
+    ]
+   },
+   "key_insight": "Revenue rank and profit rank diverge: Investment management is 2nd in revenue but only 3rd in profit, while Trust and Insurance are relatively more profit-efficient than their revenue rank alone suggests — product prioritization should weigh profit contribution, not just revenue rank.",
+   "data_confidence": "medium",
+   "image_path": "exhibits/wharton-2005-retail-bank/p031.webp"
+  },
+  {
+   "id": "ex2",
+   "title": "Customer segments by investable volume",
+   "page": 32,
+   "kind": "table",
+   "description": "Breaks the 100,000-client base into 5 segments by investable volume and their share of customers.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Investable volume",
+     "% of customers"
+    ],
+    "rows": [
+     [
+      "Ultra High",
+      "$10M+",
+      "5%"
+     ],
+     [
+      "High Net",
+      "$1M-$10M",
+      "10%"
+     ],
+     [
+      "Affluent",
+      "$0.5M-$1M",
+      "20%"
+     ],
+     [
+      "Mass Affluent",
+      "$100,000-$500,000",
+      "25%"
+     ],
+     [
+      "Mass",
+      "$0-$100,000",
+      "40%"
+     ]
+    ]
+   },
+   "key_insight": "The top 3 segments (35% of customers: Ultra High, High Net, Affluent) generate 60–70% of revenue, while the bottom 2 segments (65% of customers: Mass Affluent, Mass) generate only 30–40% — a strong case for reallocating marketing/pricing effort toward the top segments and away from the bottom ones.",
+   "data_confidence": "high",
+   "image_path": "exhibits/wharton-2005-retail-bank/p032.webp",
+   "image_has_answers": true
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How much revenue comes from the top 3 customer segments (Ultra High, High Net, Affluent)?",
+   "givens": [
+    "Total revenue $500M",
+    "Top 3 segments generate 60-70% of revenue (using 70% as in the book)"
+   ],
+   "steps": [
+    "Revenue from top 3 segments = $500M × 70% = $350M"
+   ],
+   "answer": "$350M",
+   "answer_value": 350000000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How much of that top-3-segment revenue comes from customers who currently hold only one product?",
+   "givens": [
+    "Top-3-segment revenue $350M",
+    "75% of customers hold only one product (using 75% as in the book)"
+   ],
+   "steps": [
+    "Single-product revenue = $350M × 75% = $262.5M"
+   ],
+   "answer": "$262.5M",
+   "answer_value": 262500000,
+   "unit": "USD",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "If those single-product customers were fully cross-sold into all 4 product lines, what revenue would result, and does that make doubling revenue feasible?",
+   "givens": [
+    "Single-product revenue base $262.5M",
+    "Assume the 4 product lines generate roughly comparable revenue per customer, so fully cross-selling multiplies this revenue by 4",
+    "Doubling target = $500M × 2 = $1,000M"
+   ],
+   "steps": [
+    "Fully cross-sold revenue = $262.5M × 4 = $1,050M",
+    "Compare to doubling target: $1,050M > $1,000M"
+   ],
+   "answer": "≈$1,050M in revenue from cross-selling this group alone, which exceeds the $1,000M doubling target — the goal is feasible",
+   "answer_value": 1050000000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "Doubling revenue and profit in 5 years is feasible — cross-selling the existing single-product customers within the top 3 (highest-value) segments alone could generate roughly $1,050M in revenue, already above the $1,000M doubling target, without needing to acquire new customers. The recommended priorities are: (1) incentivize the sales force to cross-sell additional products to existing customers, (2) run targeted promotions for the top 3 affluent segments, and (3) raise prices on the bottom 2 mass-market segments to shed unprofitable, high-cost-to-serve customers.",
+ "what_great_looks_like": [
+  "Structures the problem around customer segmentation and product mix before requesting numbers",
+  "Notices that revenue rank and profit rank diverge across product lines and factors that into prioritization",
+  "Quantifies the cross-sell opportunity step by step and checks it against the explicit doubling target",
+  "Uses the flat-transaction-cost fact to justify differentiated treatment (grow top segments, reprice/shed bottom segments)",
+  "Ends with exactly the requested 2-3 prioritized, concrete action steps"
+ ],
+ "common_pitfalls": [
+  "Proposes generic growth levers (new markets, new products) without quantifying the cross-sell opportunity already sitting in the existing base",
+  "Ignores that transaction costs are similar across segments, missing the case for actively discouraging low-value segments",
+  "Fails to check the cross-sell revenue estimate against the explicit numeric doubling target",
+  "Recommends more than the requested 2-3 priority actions, diluting the answer"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (Insurance profit rank)"
+  ],
+  "math_verified": true,
+  "notes": "Insurance is listed with profit rank '2', identical to Trust's profit rank; this looks like a possible typo in the book (perhaps meant to be a distinct rank), but is transcribed verbatim per the fidelity-first rule rather than corrected. The 60-70% / 75-80% ranges in the book are point-estimated at 70% and 75% respectively for the cross-sell math, matching the book's own worked example. Exhibit image audit 2026-09-28: pages that also show interviewer notes are flagged image_has_answers.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "sub_industry",
+   "geography"
+  ]
+ }
+}

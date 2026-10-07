@@ -1,0 +1,292 @@
+{
+ "id": "johnson-2022-east-asia-cuisine",
+ "title": "East Asia Cuisine",
+ "school": "Johnson",
+ "edition": "2022-2023",
+ "year": 2022,
+ "source_file": "Johnson/Cornell Johnson Casebook 2022-2023.pdf",
+ "page_range": [
+  67,
+  76
+ ],
+ "case_type": [
+  "Market Entry",
+  "Profitability",
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "restaurants",
+ "sub_industry": "qsr",
+ "industry_source_label": "Restaurant",
+ "geography": "Ithaca, New York, United States",
+ "format": "candidate-led",
+ "difficulty": 2,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall: Simple; Quant: Medium; Analysis: Low",
+ "quant_intensity": "H",
+ "estimated_minutes": 30,
+ "tags": [
+  "restaurant-entry",
+  "customer-conversion",
+  "segmentation",
+  "seasonality",
+  "fixed-costs",
+  "profit-target",
+  "revenue-growth"
+ ],
+ "prompt": "Our client, Randy, is a second-year MBA student at Cornell Johnson Graduate School of Management. Having missed the wonderful food in her hometown, Hong Kong, and in light of the lack of Guangdong-style food in Ithaca, she is considering starting a takeaway-only restaurant that sells Hong Kong-style dim sum and beverages. Randy would like to know what factors she should consider when deciding whether to start this business.",
+ "clarifying_info": [
+  {
+   "question_topic": "Goal",
+   "answer": "Randy wants stabilized annual profit of $80,000."
+  },
+  {
+   "question_topic": "Business model and experience",
+   "answer": "She plans to source frozen food from Hong Kong or locally, including siu mai, beef balls, curry fish balls and milk tea. Food would be reheated or steamed. She has no prior restaurant experience but believes this simple model is manageable."
+  },
+  {
+   "question_topic": "Location",
+   "answer": "The proposed retail location is in Collegetown opposite Breazzano Centre, where Johnson students attend classes, and a 10-minute walk from Cornell's main campus."
+  },
+  {
+   "question_topic": "Budget",
+   "answer": "Upfront funding is not a major concern; Randy believes she can cover the cost of a small takeaway restaurant."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are no direct competitors for the niche concept at present. Other Chinese restaurants and takeaway options are substitutes."
+  }
+ ],
+ "interviewer_notes": "Either go or no-go is acceptable with support, although the baseline calculation favors no-go. After the framework, ask where the candidate wants to start and guide toward weekly revenue sizing. Release traffic, trial, conversion, frequency and spend assumptions when requested. Then ask about student breaks before giving the source's operating assumption of 8 months or 30 revenue-generating weeks. Rent is paid for 12 months; salaries and overhead only for 8. The solution tables are worked answers, not candidate exhibits. Encourage profit-improvement ideas; revenue opportunities are the main focus but sensible cost reductions are acceptable. If time permits, push for additional ideas and implementation detail.",
+ "suggested_framework": {
+  "summary": "Assess local demand, annual profitability and operating feasibility for a seasonal takeaway business.",
+  "tree": {
+   "label": "Start the business",
+   "children": [
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Ithaca population and Collegetown footfall"
+      },
+      {
+       "label": "Demand, target customers and preferences"
+      },
+      {
+       "label": "Chinese restaurant and takeaway substitutes"
+      }
+     ]
+    },
+    {
+     "label": "Financials",
+     "children": [
+      {
+       "label": "Product mix and average price"
+      },
+      {
+       "label": "Fixed rent, overhead, insurance and salaries"
+      },
+      {
+       "label": "Variable raw-material costs"
+      }
+     ]
+    },
+    {
+     "label": "Operations",
+     "children": [
+      {
+       "label": "Hong Kong versus local sourcing and transportation"
+      },
+      {
+       "label": "Food storage and operating calendar"
+      },
+      {
+       "label": "Food licensing"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What factors should Randy consider, and where would you begin?",
+   "release_when": "Read the prompt and provide clarifications when asked; steer toward revenue sizing after the structure.",
+   "info_to_release": "On request, clarify the $80,000 stabilized annual profit target, proposed Collegetown location opposite Breazzano Centre and 10-minute distance from main campus, frozen-food reheating model, lack of restaurant experience, available upfront funds and absence of direct niche competitors.",
+   "exhibit_ids": [],
+   "expected_answer": "Evaluate customer demand and footfall, substitutes, revenue and fixed/variable costs, then sourcing, storage, operating hours and licensing. Establish the $80,000 goal before recommending entry. Start with reachable customers and a recurring weekly revenue estimate.",
+   "good_answer_signals": [
+    "Tailors the framework to a student-centered takeaway business.",
+    "Distinguishes a viable business from one meeting Randy's profit goal."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "Estimate potential weekly revenue. What information do you need?",
+   "release_when": "Provide each assumption when requested, not the completed solution table.",
+   "info_to_release": "Ithaca has 30,000 residents, mostly students. Only 20% pass the store; 30% of those are Chinese. Of Chinese passersby, 70% try it, 25% of those convert to long-term customers and visit twice weekly. Of non-Chinese passersby, 50% try it, 10% of those convert and visit once weekly. Average spend is $7 per person per visit.",
+   "exhibit_ids": [],
+   "expected_answer": "Reachable traffic is 30,000 × 20% = 6,000. Chinese weekly visits are 6,000 × 30% × 70% × 25% × 2 = 630, generating $4,410. Non-Chinese weekly visits are 6,000 × 70% × 50% × 10% × 1 = 210, generating $1,470. Total recurring weekly revenue is $5,880; the book also accepts rounding to $6,000.",
+   "good_answer_signals": [
+    "Applies trial and conversion sequentially.",
+    "Uses different visit frequencies for the two groups.",
+    "Counts recurring visits rather than all residents as customers."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Should the shop operate all year given summer and winter breaks? Estimate annual revenue.",
+   "release_when": "After weekly sizing, discuss seasonality before giving the operating calendar.",
+   "info_to_release": "Use the book's planning assumption: operate for 8 months per year, corresponding to 30 revenue-generating weeks in this case.",
+   "exhibit_ids": [],
+   "expected_answer": "Student breaks reduce the attractiveness of year-round operations. Annual revenue at the supplied 30-week assumption is $5,880 × 30 = $176,400. Use that explicit week count, not a new calendar conversion or a full 52-week year.",
+   "good_answer_signals": [
+    "Recognizes student-driven seasonality.",
+    "Carries the exact weekly estimate into the annual calculation."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What costs matter, and does the annual profit meet Randy's goal?",
+   "release_when": "Ask for cost categories first, then release assumptions when requested.",
+   "info_to_release": "Gross margin is 80%. The source also gives gross profit of $176,400 × 80% = $141,120. Rent is $2,000 per month, all employee salaries total $5,000 per month, and overhead is $3,000 per month. Rent must be paid for 12 months; salaries and overhead for 8 months. An 8-month-only lease is assumed impractical.",
+   "exhibit_ids": [],
+   "expected_answer": "Gross profit is $141,120. Annual rent is $24,000, salaries $40,000 and overhead $24,000, totaling $88,000. Net profit is $141,120 − $88,000 = $53,120, below the $80,000 goal by $26,880. The baseline does not justify entry against Randy's stated objective.",
+   "good_answer_signals": [
+    "Pays rent for the full year while seasonalizing salaries and overhead.",
+    "Does not deduct food costs again after applying gross margin.",
+    "Compares net profit with the target rather than merely checking positivity."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could Randy improve profitability?",
+   "release_when": "After finding the profit shortfall.",
+   "info_to_release": "Consider existing target customers and new customer groups or revenue streams. Sensible cost reductions are also acceptable.",
+   "exhibit_ids": [],
+   "expected_answer": "For existing customers, test prices ending in .99, loyalty programs to improve conversion, and food placement near the storefront to attract passersby with aroma. For new demand, partner with Asian-affinity student groups, use delivery apps to reach more of Ithaca and promote through school resources, including visible faculty or management visits. Sublease the shop during the remaining 4 months if feasible. The book gives no quantified benefit from these ideas, so do not claim the profit gap is already closed.",
+   "good_answer_signals": [
+    "Organizes ideas by customer segment or revenue source.",
+    "Connects each idea to conversion, reach, spend or unused-space income.",
+    "Keeps unproven growth ideas distinct from the baseline forecast."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Should Randy launch the restaurant?",
+   "release_when": "After the improvement brainstorm.",
+   "info_to_release": "Either recommendation is acceptable if backed by the analysis.",
+   "exhibit_ids": [],
+   "expected_answer": "Do not launch the current plan: expected annual profit is $53,120 versus the $80,000 target. The risk is missing a distinctive Ithaca opportunity. Revise the plan and explore further restaurant or hospitality opportunities, including the revenue levers discussed. The source's next step is to work with marketing on social-media programs and advertising for the revised concept. A go recommendation must explain why credible improvements or other considerations justify proceeding despite the baseline shortfall.",
+   "good_answer_signals": [
+    "Gives a quantified recommendation and explicitly acknowledges the missed-opportunity risk.",
+    "Does not treat hypothetical marketing upside as established profit."
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What recurring weekly revenue is expected?",
+   "givens": [
+    "30,000 residents; 20% pass the shop",
+    "30% Chinese: 70% trial, 25% conversion, 2 visits/week",
+    "70% non-Chinese: 50% trial, 10% conversion, 1 visit/week",
+    "$7 per visit"
+   ],
+   "steps": [
+    "Reachable people = 30,000 × 20% = 6,000.",
+    "Chinese visits = 6,000 × 30% × 70% × 25% × 2 = 630/week.",
+    "Non-Chinese visits = 6,000 × 70% × 50% × 10% = 210/week.",
+    "Chinese revenue = 630 × $7 = $4,410; non-Chinese = 210 × $7 = $1,470.",
+    "Total = $5,880/week."
+   ],
+   "answer": "$5,880 per week; the source permits rounding to $6,000.",
+   "answer_value": 5880,
+   "unit": "USD/week",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What annual revenue follows from the seasonal calendar?",
+   "givens": [
+    "Weekly revenue $5,880",
+    "Source operating assumption 8 months and 30 revenue weeks"
+   ],
+   "steps": [
+    "$5,880 × 30 = $176,400."
+   ],
+   "answer": "$176,400 annual revenue.",
+   "answer_value": 176400,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What annual net profit remains after operating costs?",
+   "givens": [
+    "Annual revenue $176,400; gross margin 80%",
+    "Monthly rent $2,000 for 12 months",
+    "Monthly salaries $5,000 and overhead $3,000 for 8 months",
+    "Profit goal $80,000"
+   ],
+   "steps": [
+    "Gross profit = $176,400 × 80% = $141,120.",
+    "Rent = $2,000 × 12 = $24,000.",
+    "Salaries = $5,000 × 8 = $40,000; overhead = $3,000 × 8 = $24,000.",
+    "Operating costs = $88,000.",
+    "Net profit = $141,120 − $88,000 = $53,120.",
+    "Shortfall = $80,000 − $53,120 = $26,880."
+   ],
+   "answer": "$53,120 annual net profit, $26,880 below Randy's goal.",
+   "answer_value": 53120,
+   "unit": "USD/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "Do not open under the current plan: estimated annual profit is $53,120, short of the $80,000 target. Revenue is $176,400 over the case's 30-week season, and rent continues for all 12 months. Avoid missing the niche opportunity by revising the plan around conversion, promotion, delivery and potential off-season subleasing, then developing marketing programs. Either decision can be defended, but unquantified improvement ideas should not be presented as if they already close the $26,880 gap.",
+ "what_great_looks_like": [
+  "Builds a sequential traffic, trial, conversion and visit-frequency model.",
+  "Recognizes seasonal demand and year-round rent.",
+  "Benchmarks net profit against the owner's specific target.",
+  "Offers structured growth ideas linked to the customer funnel.",
+  "Keeps an alternative go recommendation grounded in explicit conditions."
+ ],
+ "common_pitfalls": [
+  "Applying conversion directly to all residents.",
+  "Using identical visit frequency for both customer groups.",
+  "Multiplying revenue by a full year despite student breaks.",
+  "Paying only 8 months of rent or 12 months of all operating costs.",
+  "Recommending launch merely because net profit is positive."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-05",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Dedup verdict NEW. Pages 67–76 read; rendered pages 68–76 visually inspected. No candidate-facing exhibits: pages 71 and 74 are worked solution tables, not handouts. All inputs are released verbally in sequence; the source's explicitly provided $141,120 gross-profit figure is retained in info_to_release. Arithmetic matches the book. The source calls 8 months equivalent to 30 weeks; treated as its supplied planning convention, not an exact calendar identity, and retained without substituting a different annualization. No quantified marketing uplift or sublease income is invented. Client is an individual founder, so client_type omitted. Restaurant mapped to restaurants/qsr for the takeaway-only model. Overall Simple normalized in code to 2. No book arithmetic errors found. Reviewed and accepted by Claude 2026-10-05.",
+  "fields_inferred": [
+   "case_type secondary labels",
+   "industry taxonomy mapping",
+   "sub_industry",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework.summary",
+   "stages.interviewer_asks where bridging source phases",
+   "stages.good_answer_signals",
+   "math[2] target shortfall",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

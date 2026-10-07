@@ -1,0 +1,185 @@
+{
+  "id": "small-talk-and-rapport",
+  "section": "culture",
+  "order": 1,
+  "title": "Small talk and rapport",
+  "summary": "What Americans actually chat about in the first and last five minutes of an interview or coffee chat, and how to use it to build warmth. Interviewers often form a 'would I staff this person' impression before the case even starts.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "Why the first five minutes matter",
+      "body": "US interviews usually open with two to five minutes of light conversation before the case. It is not filler: interviewers are checking whether you are easy to talk to, curious, and calm, the 'airport test' of whether they would enjoy a delay with you. The goal is a short, genuine exchange, then a smooth handoff to business. Match their energy, keep answers brief, and ask one question back."
+    },
+    {
+      "type": "table",
+      "title": "The sports calendar (what's 'in season')",
+      "columns": [
+        "Months",
+        "What people are talking about"
+      ],
+      "rows": [
+        [
+          "Late Aug - Dec",
+          "College football Saturdays; huge in the Midwest. Michigan vs Ohio State ('The Game') is late November"
+        ],
+        [
+          "Sep - early Jan",
+          "NFL regular season, Sundays plus Monday/Thursday nights; Thanksgiving Day games"
+        ],
+        [
+          "Jan - early Feb",
+          "NFL playoffs, then the Super Bowl on a Sunday in early-to-mid February (ads, parties)"
+        ],
+        [
+          "Oct - Apr",
+          "NBA and NHL regular seasons; NBA All-Star weekend in February"
+        ],
+        [
+          "Mid Mar - early Apr",
+          "March Madness: college basketball tournament, office bracket pools"
+        ],
+        [
+          "Apr - Jun",
+          "NBA and NHL playoffs; Finals in June"
+        ],
+        [
+          "Late Mar - Oct",
+          "MLB baseball; postseason and World Series in October"
+        ]
+      ],
+      "note": "Exact dates shift yearly; check the league site if you plan to reference a game."
+    },
+    {
+      "type": "list",
+      "title": "Safe, easy topics",
+      "items": [
+        "Weekend plans or how the weekend went: keep it to one or two specifics, then ask theirs.",
+        "Weather and seasons, especially in the Midwest: first snow, a long winter, a great fall day.",
+        "Travel: a recent trip, a city they live in, office location they love.",
+        "Food: a local restaurant, coffee spot, or a dish you have been trying to cook.",
+        "Sports as a light reference, even if you only follow the big moments.",
+        "School life: a class you are enjoying, a club event, Ann Arbor in the fall.",
+        "Their path: how they ended up at the firm or in their practice area."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Topics to avoid or keep very light",
+      "items": [
+        "Politics, elections, and current controversies, even if the interviewer brings them up.",
+        "Religion, and personal questions about family plans, age, or relationships.",
+        "Salary, bonuses, or what someone earns.",
+        "Complaints about your school, previous employer, or other firms.",
+        "Strong opinions on sensitive social issues or immigration policy.",
+        "Health details, yours or theirs."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "You don't need to be a sports fan",
+      "body": "Knowing what is in season is enough. 'I'm still learning American football, but the Big House on a Saturday was something else' is honest and invites them to explain. Asking a good question beats faking expertise. If they are a fan of a team, ask how the season is going; people enjoy being the expert."
+    },
+    {
+      "type": "list",
+      "title": "Openers and transitions that work",
+      "items": [
+        "Opener: 'How's your week going so far?' Then actually listen and respond to the detail.",
+        "Opener: 'Are you based in Chicago? I'm hoping to visit this fall. Anything I shouldn't miss?'",
+        "Bridge from your side: 'Good, thanks. Busy week with midterms, but I spent Saturday at the football game, which was a first.'",
+        "Transition to the case: 'I'm excited to dig in. Should we get started?'",
+        "Close: 'Thanks, this was fun. Good luck to the team this weekend.'"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Showing curiosity",
+      "body": "Americans read follow-up questions as interest. Use their detail: if they mention a ski trip, ask where and whether it was their first time. Avoid an interrogation: one question, a short reaction ('That sounds great'), and a bit about you. Share small personal details freely; Americans expect light self-disclosure. Mentioning your home city's food, a sport you follow (cricket counts), or a memorable job often sparks good questions."
+    },
+    {
+      "type": "compare",
+      "title": "Rapport norms: India vs US (tendencies)",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Opening",
+          "Often moves to business quickly in formal settings, or to family and background",
+          "Two to five minutes of light, personal-but-not-private talk"
+        ],
+        [
+          "Typical topics",
+          "Cricket, family, hometown, education",
+          "Weekend, sports in season, weather, travel, food"
+        ],
+        [
+          "Personal questions",
+          "Family and marital questions can be ordinary",
+          "Family, age, and relationship questions usually avoided with strangers"
+        ],
+        [
+          "Addressing people",
+          "Sir/Ma'am and titles common",
+          "First names right away, including partners"
+        ],
+        [
+          "Humor",
+          "Varies; more reserved with seniors",
+          "Light self-deprecating humor is welcome"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Small talk is not a test of trivia",
+      "body": "Candidates sometimes over-prepare sports facts and sound scripted. The interviewer is not grading knowledge. A warm 30-second exchange beats a recited stat. Keep it short when the interviewer seems rushed, and let them decide when to move to the case."
+    }
+  ],
+  "in_a_case": [
+    "First two minutes of a case interview: a short, warm exchange, then let the interviewer move to the prompt. Do not launch the case unprompted.",
+    "Coffee chats: spend the first few minutes on their path or something you share (your school, a home country, a city) before asking about the firm.",
+    "Fit stories land better when they include small human details, the same instinct as good small talk.",
+    "End-of-interview questions are a rapport moment: ask about their experience, not facts you could find online.",
+    "In a sports or media case (e.g., ticketing, streaming rights), knowing the season calendar helps you reason about seasonality."
+  ],
+  "flashcards": [
+    {
+      "front": "When is the NFL season?",
+      "back": "Regular season September to early January; playoffs in January; Super Bowl on a Sunday in early-to-mid February."
+    },
+    {
+      "front": "What is March Madness?",
+      "back": "The college basketball tournament, mid-March to early April; offices often run bracket pools."
+    },
+    {
+      "front": "When is baseball (MLB) season?",
+      "back": "Late March to October, with the World Series in late October."
+    },
+    {
+      "front": "What is 'The Game' in Ann Arbor?",
+      "back": "Michigan vs Ohio State football, played late November; Michigan Stadium ('The Big House') holds over 100,000."
+    },
+    {
+      "front": "Three safe small-talk topics",
+      "back": "Weekend plans, weather and seasons, travel or food (also sports in season)."
+    },
+    {
+      "front": "Three topics to avoid",
+      "back": "Politics, religion, and pay (also family plans, age, health)."
+    },
+    {
+      "front": "How long is typical pre-interview small talk?",
+      "back": "About two to five minutes; the interviewer usually decides when to move on."
+    },
+    {
+      "front": "Best way to show curiosity",
+      "back": "Ask one follow-up on a detail they mentioned, react briefly, then share a small detail about yourself."
+    }
+  ],
+  "sources": [
+    "https://www.nba.com/news/key-dates?os=vpkn75tqhopmkpsxtq",
+    "https://en.wikipedia.org/wiki/Michigan_Stadium"
+  ],
+  "checked": "2026-10"
+}

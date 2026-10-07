@@ -1,0 +1,310 @@
+{
+ "id": "fuqua-2023-fuquan-land",
+ "title": "Fuquan Land",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  161,
+  167
+ ],
+ "case_type": [
+  "Market Entry",
+  "Capacity/Supply Chain"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "agriculture",
+ "sub_industry": "farming",
+ "industry_source_label": "Agriculture",
+ "geography": "Durham, North Carolina",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "Bain"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Difficult; Qualitative: Difficult",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "agriculture",
+  "market-entry",
+  "capacity-allocation",
+  "contribution-margin",
+  "profit-target",
+  "demand-constraints"
+ ],
+ "prompt": "A retired Fuqua professor is thinking about buying a piece of land in the surrounding Durham area. The land includes 10 acres which is ready for development. The financial goal of this professor is to achieve $20,000 of profit within two years, exclusive of the purchase price. Is this a good idea?",
+ "clarifying_info": [
+  {
+   "question_topic": "Use of land",
+   "answer": "First ask the candidate to brainstorm possible uses; then specify agricultural development."
+  },
+  {
+   "question_topic": "Professor's background",
+   "answer": "Agricultural engineering education and consulting experience with commercial partners."
+  },
+  {
+   "question_topic": "Market capture",
+   "answer": "If asked, the client can capture the remaining share not controlled by competitors."
+  },
+  {
+   "question_topic": "Growth",
+   "answer": "If asked, market growth is flat at 0%."
+  }
+ ],
+ "interviewer_notes": "This Bain-style case intentionally starts with a brainstorm before the framework. If asked about land use, request structured options before specifying agriculture. Require an approach before calculations. Provide plant density if not requested: 10 pine trees, 25 rose bushes, 75 beets and 50 saffron per acre. The candidate must allocate scarce acreage to the highest contribution per acre subject to residual market demand. Optional additional-profit brainstorm is for candidates who finish the quantitative section promptly.",
+ "suggested_framework": {
+  "summary": "Evaluate revenue uses, development costs and external risks, then focus on agricultural economics.",
+  "tree": {
+   "label": "Achieve $20,000 two-year profit",
+   "children": [
+    {
+     "label": "Revenue generation",
+     "children": [
+      {
+       "label": "Farming: viability, crop type and time to harvest/profit"
+      },
+      {
+       "label": "Commercial development: investors, community benefit and timeline"
+      },
+      {
+       "label": "Residential development: housing trends, short/long rentals and Durham population"
+      }
+     ]
+    },
+    {
+     "label": "Costs",
+     "children": [
+      {
+       "label": "Government fees, zoning and land restrictions"
+      },
+      {
+       "label": "Property taxes and acquisition alternatives"
+      },
+      {
+       "label": "Planning and contracting"
+      }
+     ]
+    },
+    {
+     "label": "External factors",
+     "children": [
+      {
+       "label": "Location, community and development consequences"
+      },
+      {
+       "label": "Regional economy and employers"
+      },
+      {
+       "label": "Climate, financing and real-estate risks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "brainstorm",
+   "interviewer_asks": "What could the professor use the land for?",
+   "release_when": "When the candidate asks the intended use, before the formal framework.",
+   "info_to_release": "After the brainstorm, specify agricultural development. The professor has agricultural engineering and commercial consulting experience.",
+   "expected_answer": "Structure possibilities into real estate, such as residential rentals or commercial property, and farming, such as crops or animals. Then adapt to the stated agricultural scope.",
+   "good_answer_signals": [
+    "Remains flexible when asked to brainstorm before structuring the full case."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "structure",
+   "interviewer_asks": "How will you determine whether agricultural development meets the objective?",
+   "expected_answer": "Calculate available demand, unit contribution and capacity per acre; choose the profit-maximizing crop mix within 10 acres; subtract startup and recurring costs across two years. Exclude the land purchase price as instructed and consider feasibility, climate and market risks.",
+   "good_answer_signals": [
+    "Builds the calculation plan before diving into the exhibit."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Which crops should be planted, and on how much land?",
+   "release_when": "After the approach; show Exhibit 1. Release remaining-share capture and densities if asked, otherwise provide densities to progress.",
+   "info_to_release": "Pine/rose/beets/saffron price per plant $150/$105/$45/$75, unit cost $90/$75/$33/$51, market demand 5000/1000/1000/2500, competitor control 60%/20%/85%/90%. Available land 10 acres. Densities are 10/25/75/50 plants per acre. The client can capture remaining market share.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Residual demand is 2000 pine trees, 800 rose bushes, 150 beets and 250 saffron. Unit contribution is $60/$30/$12/$24; per-acre contribution is $600/$750/$900/$1200. Plant 5 acres saffron to meet 250 units, 2 acres beets for 150 units, and the remaining 3 acres in roses, producing 75 bushes. Pine is excluded because it has lower contribution per acre. Annual contribution is $6000+$1800+$2250=$10,050.",
+   "good_answer_signals": [
+    "Ranks by contribution per acre rather than per plant.",
+    "Respects demand caps before filling remaining acreage."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "What is profit over the first two years?",
+   "release_when": "After selecting the crop mix; give growth as 0% if asked.",
+   "info_to_release": "Year-one startup cost $1,500; annual maintenance $1,050. No market growth. Exclude the land purchase price.",
+   "expected_answer": "Year-one profit = $10,050−$1,500−$1,050=$7,500. Year two = $10,050−$1,050=$9,000. Total $16,500, short of the $20,000 goal by $3,500. The crop amounts already deduct per-plant costs; do not deduct them twice.",
+   "good_answer_signals": [
+    "Separates one-time from recurring costs and distinguishes contribution from revenue."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What additional levers could help achieve the profit goal?",
+   "release_when": "Optional challenge if the candidate completes the exhibit efficiently.",
+   "expected_answer": "Pricing: cost/value/market-based approaches or segmentation, recognizing limited commodity pricing power. Volume: new markets, upselling, cross-selling, bundles or more production where feasible. Other streams: farm tours, renting additional land and cost reduction. Any recommendation to buy must credibly close the $3,500 gap rather than merely name possibilities.",
+   "good_answer_signals": [
+    "Connects proposed levers to the quantified shortfall and capacity constraints."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "The professor asks, 'Well, should I buy the land?'",
+   "expected_answer": "Not for the proposed agricultural use on current assumptions: maximum modeled two-year profit is $16,500, below the $20,000 goal. Buy only if a credible additional source closes the $3,500 gap; otherwise consider alternative investments. Risks include capturing all available demand, changing demand, storms, infestations and competition. Validate the market and risk-mitigation plan. If proceeding, contact the seller and arrange financing.",
+   "good_answer_signals": [
+    "Gives a conditional, quantified recommendation rather than assuming the optional levers will work."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Annual analysis of North Carolina market",
+   "page": 164,
+   "kind": "table",
+   "description": "Crop prices, unit costs, total demand and competitor-controlled share. Notes give $1,500 year-one startup and $1,050 annual maintenance cost.",
+   "data": {
+    "columns": [
+     "Crop",
+     "Price/plant ($)",
+     "Cost/plant ($)",
+     "Market demand (plants)",
+     "Competitor control (%)"
+    ],
+    "rows": [
+     [
+      "Pine trees",
+      150,
+      90,
+      5000,
+      60
+     ],
+     [
+      "Rose bush",
+      105,
+      75,
+      1000,
+      20
+     ],
+     [
+      "Beets",
+      45,
+      33,
+      1000,
+      85
+     ],
+     [
+      "Saffron",
+      75,
+      51,
+      2500,
+      90
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-fuquan-land/p164.webp",
+   "key_insight": "Combine residual demand with contribution per acre; price or unit margin alone gives the wrong priority.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What demand and unit contribution can the professor capture?",
+   "givens": [
+    "Exhibit crop prices, costs, total demand and competitor shares"
+   ],
+   "steps": [
+    "Available demand = total demand × (1−competitor share): 5000×40%=2000; 1000×80%=800; 1000×15%=150; 2500×10%=250.",
+    "Contribution per plant = price−cost: pine $60; rose $30; beets $12; saffron $24."
+   ],
+   "answer": "Residual demand is 2000/800/150/250 plants; unit contributions $60/$30/$12/$24.",
+   "answer_value": 250,
+   "unit": "saffron plants/year available demand",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What acreage allocation maximizes annual contribution?",
+   "givens": [
+    "10 acres",
+    "Densities pine/rose/beets/saffron 10/25/75/50 plants per acre",
+    "Unit contributions $60/$30/$12/$24",
+    "Residual crop demand"
+   ],
+   "steps": [
+    "Per-acre contribution: 10×60=$600; 25×30=$750; 75×12=$900; 50×24=$1200.",
+    "Saffron: 250/50=5 acres; beets: 150/75=2 acres; roses: 10−5−2=3 acres.",
+    "Annual contribution = 5×1200 + 2×900 + 3×750 = $10,050."
+   ],
+   "answer": "5 acres saffron, 2 acres beets and 3 acres roses; $10,050 annual contribution before overhead.",
+   "answer_value": 10050,
+   "unit": "USD/year",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Does two-year profit meet the goal?",
+   "givens": [
+    "Annual crop contribution $10,050",
+    "Startup $1,500 once",
+    "Maintenance $1,050 annually",
+    "No growth",
+    "Goal $20,000; exclude land purchase price"
+   ],
+   "steps": [
+    "Year 1 = 10050−1500−1050=$7500.",
+    "Year 2 = 10050−1050=$9000.",
+    "Two-year profit = 7500+9000=$16500; shortfall = 20000−16500=$3500."
+   ],
+   "answer": "$16,500 profit, $3,500 below target.",
+   "answer_value": 16500,
+   "unit": "USD over two years",
+   "verified": true
+  }
+ ],
+ "synthesis": "Do not buy solely for the modeled agricultural plan. The optimal crop mix—5 acres saffron, 2 beets and 3 roses—generates $16,500 over two years, excluding purchase price, leaving a $3,500 shortfall. A purchase needs credible incremental profit from other activities or better economics. Validate demand capture, competition and climate/pest exposure before proceeding; if those conditions are met, engage the seller and arrange financing.",
+ "what_great_looks_like": [
+  "Adapts to an opening brainstorm before the framework.",
+  "Asks for plants per acre, residual market capture and growth.",
+  "Optimizes scarce land using contribution per acre and demand caps.",
+  "Requires specific measures to close the $3,500 shortfall before recommending purchase."
+ ],
+ "common_pitfalls": [
+  "Ranking by unit margin instead of profit per acre.",
+  "Using total demand instead of the share not controlled by competitors.",
+  "Repeating startup costs in year two or omitting annual maintenance.",
+  "Calling crop contribution gross revenue and double-counting unit costs."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Fuqua Classic from 2021–2022. Core arithmetic verifies. Guidance calls crop contribution 'rev' and $1,050 overhead 'labor', whereas the exhibit calls it annual maintenance; retained the candidate-facing maintenance label and correctly identified contribution. The model assumes annual sellable production with no crop maturation delay; no additional timing assumptions were invented. Difficult maps to 4 in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "chemicals",
+  "name": "Chemicals",
+  "group": "Energy & resources",
+  "one_liner": "Converting oil, gas and minerals into materials used across nearly every industry, split between cyclical commodity chemicals and higher-margin specialties.",
+  "how_it_makes_money": "Commodity producers sell high-volume basic chemicals and plastics where margins track the spread between feedstock and product prices. Specialty chemical makers sell performance-based formulations such as coatings, adhesives and additives, priced on value to the customer. Industrial gas companies earn steady returns from long-term supply contracts.",
+  "value_chain": [
+    "Feedstock sourcing (oil, gas, minerals)",
+    "Basic and commodity chemicals",
+    "Intermediates and polymers",
+    "Specialty formulation",
+    "Distribution to end industries"
+  ],
+  "revenue_formula": [
+    "Revenue = volume (tonnes) × price per tonne",
+    "Commodity margin = volume × (product price − feedstock cost) × plant utilization",
+    "Specialty revenue = customers × application volume × value-based price"
+  ],
+  "cost_structure": [
+    "Raw materials and feedstock: typically the largest cost, especially for commodities",
+    "Energy: natural gas and power for heat-intensive processes",
+    "Plant fixed costs and maintenance, with utilization driving unit cost",
+    "R&D and technical service: significant for specialties",
+    "Logistics and distribution",
+    "Environmental, health and safety compliance"
+  ],
+  "margins": "Commodity chemical margins are volatile and follow feedstock spreads and utilization, while specialty and industrial gas players earn steadier, higher margins. Feedstock advantage, scale, differentiation and customer switching costs drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Capacity utilization",
+      "what": "Share of plant capacity in use; drives fixed-cost absorption and pricing power."
+    },
+    {
+      "name": "Feedstock spread",
+      "what": "Product price minus raw material cost, the core commodity profit driver."
+    },
+    {
+      "name": "EBITDA margin",
+      "what": "Standard profitability measure, used to compare commodity and specialty players."
+    },
+    {
+      "name": "Price/volume/mix",
+      "what": "Decomposition of revenue change, standard in chemicals reporting."
+    },
+    {
+      "name": "R&D intensity",
+      "what": "R&D as share of sales, indicates specialty positioning."
+    },
+    {
+      "name": "Return on capital employed (ROCE)",
+      "what": "Returns on large asset bases, key in a capital-heavy sector."
+    }
+  ],
+  "trends": [
+    "Global overcapacity, especially from new Chinese capacity, pressuring commodity margins",
+    "Portfolio reshaping: spin-offs of commodity units and focus on specialties",
+    "US ethane feedstock advantage versus higher-cost European producers",
+    "Decarbonization, recycling and circular plastics",
+    "PFAS and regulatory scrutiny creating liability and substitution demand",
+    "Weak demand in construction, autos and durables weighing on volumes"
+  ],
+  "key_players": [
+    "BASF",
+    "Dow",
+    "LyondellBasell",
+    "DuPont",
+    "Linde",
+    "Air Products",
+    "Sherwin-Williams",
+    "Eastman",
+    "Huntsman",
+    "Sinopec"
+  ],
+  "case_angles": [
+    {
+      "question": "A commodity chemicals company's margins collapsed; what's driving it?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a chemicals conglomerate spin off its commodity business?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "How should a specialty chemicals firm price a new coating additive?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "Should we build a new cracker on the US Gulf Coast?",
+      "framework_id": "investment-npv"
+    }
+  ],
+  "interview_hooks": [
+    "Can European chemical makers stay competitive with high energy costs?",
+    "Is the move from commodities to specialties still a winning strategy?",
+    "Will chemical recycling ever be economic at scale?"
+  ],
+  "news": {
+    "keywords": [
+      "chemical maker",
+      "chemicals",
+      "petrochemical",
+      "polyethylene",
+      "specialty chemicals",
+      "cracker",
+      "pfas",
+      "plastics",
+      "industrial gases",
+      "fertilizer plant"
+    ],
+    "companies": [
+      "BASF",
+      "Dow",
+      "LyondellBasell",
+      "DuPont",
+      "Linde",
+      "Air Products",
+      "Eastman",
+      "Huntsman",
+      "Celanese",
+      "Sherwin-Williams"
+    ]
+  }
+}

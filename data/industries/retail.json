@@ -1,0 +1,72 @@
+{
+  "id": "retail",
+  "name": "Retail",
+  "group": "Consumer & retail",
+  "one_liner": "Businesses that buy goods from manufacturers and resell them to consumers through stores and digital channels, with economics defined by thin margins, inventory turns, and store productivity.",
+  "how_it_makes_money": "Retailers earn the spread between purchase cost and selling price, and scale players supplement it with vendor funding, membership fees, private-label margin, and increasingly retail media advertising. Profitability depends on turning inventory quickly and spreading fixed store and supply-chain costs over high volume.",
+  "value_chain": [
+    "Merchandising and assortment planning",
+    "Sourcing and vendor negotiation",
+    "Distribution centers and replenishment",
+    "Store and digital operations",
+    "Checkout, fulfillment, and returns",
+    "Loyalty and customer marketing"
+  ],
+  "revenue_formula": [
+    "Revenue = number of stores × sales per store (traffic × conversion × average basket)",
+    "Same-store sales growth = traffic change + ticket change",
+    "Revenue = customers × visits per year × spend per visit (plus membership or ad income)"
+  ],
+  "cost_structure": [
+    "Cost of goods sold: by far the largest cost, often roughly 60-75% of sales depending on format",
+    "Store labor: the largest operating expense and a key target of scheduling and automation",
+    "Occupancy: rent, utilities, and maintenance of the store fleet",
+    "Supply chain and fulfillment: DCs, trucking, and last-mile costs for online orders",
+    "Shrink and markdowns: theft, damage, and clearance of unsold inventory",
+    "Marketing and SG&A"
+  ],
+  "margins": "Operating margins are thin, roughly 2-5% for grocery and mass merchants and higher (roughly 8-15%) for specialty and off-price leaders. The spread is driven by gross margin mix (private label, apparel), inventory discipline, and store productivity.",
+  "key_metrics": [
+    {"name": "Same-store sales (comps)", "what": "Growth in sales at stores open at least a year, separating organic health from new-store openings."},
+    {"name": "Sales per square foot", "what": "Store productivity, used to compare formats and decide on closures or remodels."},
+    {"name": "Inventory turnover", "what": "How many times inventory sells through per year; faster turns free cash and cut markdowns."},
+    {"name": "GMROI", "what": "Gross margin dollars earned per dollar of average inventory, the merchant's core profitability lens."},
+    {"name": "Traffic, conversion, and average ticket", "what": "Decomposes store sales into visits, share of visits that buy, and basket size."},
+    {"name": "Shrink rate", "what": "Inventory lost to theft, damage, and error as a share of sales, a current pressure point."}
+  ],
+  "trends": [
+    "Scale winners such as Walmart, Costco, and Amazon gaining share while mid-tier chains and department stores struggle",
+    "Retail media networks becoming a high-margin profit pool built on shopper data",
+    "Omnichannel fulfillment (buy online pick up in store, same-day delivery) using stores as mini warehouses",
+    "Off-price and value formats benefiting from cautious consumers and trade-down",
+    "Tariff and sourcing shifts pressuring import-heavy categories and prompting supply-chain diversification",
+    "Automation and AI in forecasting, pricing, and store operations to offset labor costs"
+  ],
+  "key_players": [
+    "Walmart",
+    "Amazon",
+    "Costco",
+    "Target",
+    "Kroger",
+    "Home Depot",
+    "Lowe's",
+    "TJX Companies",
+    "Best Buy",
+    "Dollar General"
+  ],
+  "case_angles": [
+    {"question": "A national retailer's same-store sales are declining; diagnose the drivers and recommend a plan.", "framework_id": "profitability"},
+    {"question": "Should a grocery chain launch its own retail media network?", "framework_id": "new-product-gtm"},
+    {"question": "A department store chain needs to decide which stores to close.", "framework_id": "turnaround"},
+    {"question": "How should a big-box retailer respond to Amazon expanding same-day delivery in its markets?", "framework_id": "competitive-response"}
+  ],
+  "interview_hooks": [
+    "Is the physical store a cost center or a strategic asset in an omnichannel world?",
+    "Will retail media meaningfully change retailer economics, or is it a reclassification of trade funds?",
+    "Can mid-sized retailers survive without the scale of Walmart, Costco, and Amazon?"
+  ],
+  "news": {
+    "keywords": ["retailer", "same-store sales", "comparable sales", "store closures", "big-box", "department store", "retail media", "shoplifting", "holiday sales", "foot traffic"],
+    "companies": ["Walmart", "Target", "Costco", "Kroger", "Home Depot", "Lowe's", "TJX", "Best Buy", "Dollar General", "Macy's", "Albertsons"]
+  }
+}

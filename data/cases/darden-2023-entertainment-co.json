@@ -1,0 +1,458 @@
+{
+ "id": "darden-2023-entertainment-co",
+ "title": "EntertainmentCo",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  102,
+  114
+ ],
+ "case_type": [
+  "M&A/Acquisition",
+  "Investment/PE due diligence"
+ ],
+ "case_type_source_label": "M&A",
+ "industry": "hospitality",
+ "sub_industry": "leisure-entertainment",
+ "industry_source_label": "Entertainment",
+ "client_type": "PE/investor",
+ "format": "interviewer-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2; Quantitative 2; Qualitative 2 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "private-equity",
+  "spin-off",
+  "ebitda",
+  "revenue-growth",
+  "capital-allocation",
+  "operational-improvement",
+  "risk-assessment"
+ ],
+ "fit_question": "Can you describe a time when you had to work with a difficult stakeholder on a project? What was the situation, how did you handle it, and what was the outcome?",
+ "prompt": "EntertainmentCo is the world's largest live entertainment company, with two distinct business divisions—a ticketing division and a venue management division. Due to an anticipated crackdown from federal regulators, EntertainmentCo is planning a spin-off of its ticketing division. Your client is a PE firm that is interested in investing in the spin-off. Should they do it?",
+ "clarifying_info": [
+  {
+   "question_topic": "Investor objectives",
+   "answer": "The PE firm specializes in telecommunications, media and entertainment. It targets 50% increases in both revenue and EBITDA from initial investment in year 1 to exit in year 5 and can invest $175 million in operational improvements."
+  },
+  {
+   "question_topic": "Ticketing business",
+   "answer": "It markets, prices, sells and distributes tickets online, by phone and at physical box offices, manages inventory, provides customer support and ensures ticket validity."
+  },
+  {
+   "question_topic": "Venue business",
+   "answer": "It promotes and produces concerts, theater and sports events for artists, performers and teams."
+  },
+  {
+   "question_topic": "Regulatory scrutiny",
+   "answer": "Press and entertainment-media attention has raised antitrust concerns: events organized by the venue division must use the proprietary ticket platform, weakening competition."
+  }
+ ],
+ "interviewer_notes": "Tests revenue, EBITDA and connecting exhibits; suggested after 15–20 cases. Ask for exact ticketing revenue before permitting rounding to $500m. The source instructs use of $240m EBITDA later, but 66% of $360m is $237.6m, not exactly $240m. Retain $240m as the source's rounded follow-on convention and label it. Exhibit 2's revenue-category descriptions are interviewer-only and may be read aloud on request; use the candidate page109, not solution108. Project selection must respect the $175m budget and success-risk ratings. Source mixes year-1/year-5 language with 2024–2029 projections; preserve the displayed dates and year-5 project labels without inventing a timing adjustment.",
+ "suggested_framework": {
+  "summary": "Evaluate the spin-off's financial trajectory, improvement capabilities and competitive market.",
+  "tree": {
+   "label": "Invest in the ticketing spin-off?",
+   "children": [
+    {
+     "label": "Financials",
+     "children": [
+      {
+       "label": "Ticket fees × tickets and partnership fees × partners"
+      },
+      {
+       "label": "Technology, labor, marketing, royalties and compliance costs"
+      },
+      {
+       "label": "50% revenue and EBITDA growth targets"
+      }
+     ]
+    },
+    {
+     "label": "Capabilities",
+     "children": [
+      {
+       "label": "Inventory/data management and customer-support automation"
+      },
+      {
+       "label": "New events, partnerships and portfolio synergies"
+      }
+     ]
+    },
+    {
+     "label": "Market",
+     "children": [
+      {
+       "label": "Live-event demand and personalized experiences"
+      },
+      {
+       "label": "Digital/mobile ticketing and augmented reality"
+      },
+      {
+       "label": "New entrants and incumbent diversification"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate this investment?",
+   "release_when": "After the prompt; clarifications on request.",
+   "info_to_release": "The investor wants 50% revenue and EBITDA growth by exit and has up to $175m for operating improvements.",
+   "expected_answer": "Establish current ticketing revenue and EBITDA, compare standalone forecasts with both growth hurdles, then evaluate affordable improvement projects and post-separation business risks. Consider market demand, competition, technology and capabilities.",
+   "good_answer_signals": [
+    "Asks for financial data tied to both investor objectives."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What revenue and EBITDA did ticketing generate in 2024, and what are the growth targets?",
+   "release_when": "Show Exhibit 1. Require exact revenue first; then release the source's rounding instructions.",
+   "info_to_release": "Total revenue $2,268m, ticketing share 22%; total EBITDA $360m, ticketing share 66%. After exact calculation, the source instructs rounding revenue to $500m and using $240m EBITDA for subsequent calculations. Growth target is 50% for each.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Exact ticketing revenue is $498.96m and EBITDA $237.6m. Exact 50%-growth targets are $748.44m and $356.4m. Under the explicitly rounded follow-on convention, targets are $750m revenue and $360m EBITDA. Do not call 66% exactly two-thirds. Exhibit 2 later supplies a $239m bottom-up EBITDA baseline, a separate minor inconsistency, whose exact target would be $358.5m.",
+   "good_answer_signals": [
+    "Reads the color-coded ticketing shares correctly.",
+    "Distinguishes exact values from the requested rounding convention."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Do the 2029 standalone projections support investing without improvements?",
+   "release_when": "Show candidate Exhibit 2 after establishing targets. Category details only if requested, orally.",
+   "info_to_release": "Exhibit 2 gives five revenue streams with 2024/2029 revenue and EBITDA. On request: service fees pay for the platform, support and operations; convenience fees apply to phone purchases; advertising sells site space/sponsorships; delivery covers physical-ticket shipping; premium services include VIP packages and meet-and-greets. Forecasts assume no operational improvements.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Sum the rows: 2024 revenue $500m and EBITDA $239m; 2029 revenue $693m and EBITDA $335m. Increases are $193m (38.6%) and $96m (40.17%). Both fall short of 50%, whether using the bottom-up baselines or the rounded $750m/$360m targets. The status quo does not meet investment criteria; investigate operational improvements.",
+   "good_answer_signals": [
+    "Adds each row rather than importing solution-page totals.",
+    "Recognizes the spin-off needs active value creation."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "How could the PE firm increase revenue and EBITDA?",
+   "release_when": "After the status-quo shortfall is identified.",
+   "info_to_release": "No new numerical inputs.",
+   "expected_answer": "Revenue levers include new event types such as professional conferences or augmented-reality events, personalized recommendations, complementary parking/food packages, branded credit cards or data services. Cost levers include support automation, inventory improvement, renegotiated royalties/fees and less office space. Given strong ticketing margins, the source emphasizes revenue growth and limited cost-cutting room. Consider how separation changes the business model.",
+   "good_answer_signals": [
+    "Offers ticketing-specific levers and recognizes post-spin-off dependencies."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Which projects should the PE firm fund within $175m?",
+   "release_when": "Show Exhibit 3 after the brainstorm.",
+   "info_to_release": "Bundles: $25m investment, +$20m revenue, +$15m EBITDA, three-quarter-filled success indicator. Marketing data: $50m, +$20m, +$20m, three-quarter filled. New events: $100m, +$30m, +$20m, quarter filled. AI pricing: $75m, +$18m, +$15m, half filled. Benefits are year-5 figures; success indicators are qualitative, not numeric probabilities.",
+   "exhibit_ids": [
+    "ex3"
+   ],
+   "expected_answer": "Bundles + marketing data + AI pricing costs $150m and adds $58m revenue/$50m EBITDA, reaching $751m/$385m, above both rounded targets. Bundles + marketing data + new events costs $175m and adds $70m/$55m, reaching $763m/$390m. Both meet targets within budget, but the source favors the first combination because new events has low success potential; it also leaves $25m unspent. Benefits remain uncertain and are not probability-weighted forecasts.",
+   "good_answer_signals": [
+    "Checks budget and both growth constraints.",
+    "Considers qualitative success risk rather than maximizing nominal benefits alone."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "The investing partner is about to enter. What is your recommendation?",
+   "release_when": "After project selection.",
+   "info_to_release": "No further information.",
+   "expected_answer": "Invest subject to diligence and implement bundles, marketing data and AI pricing: $150m of projects can lift the year-5 forecast to $751m revenue and $385m EBITDA, clearing even the conservative rounded $750m/$360m hurdles. Consider separation-related loss of artists/venues, competitor response and forecast reliability. Conduct due diligence and finalize a bid; no acquisition price or investment-return multiple is given.",
+   "good_answer_signals": [
+    "Makes the recommendation conditional on executing the improvements.",
+    "Names concrete spin-off and projection risks."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Pre-spin-off revenue and EBITDA mix, 2024",
+   "page": 106,
+   "kind": "bar",
+   "description": "Revenue total $2,268m and EBITDA total $360m, with business mix shown by matching colors.",
+   "data": {
+    "columns": [
+     "Business",
+     "Revenue share (%)",
+     "EBITDA share (%)"
+    ],
+    "rows": [
+     [
+      "Concert",
+      68,
+      6
+     ],
+     [
+      "Ticketing",
+      22,
+      66
+     ],
+     [
+      "Artist management",
+      5,
+      1
+     ],
+     [
+      "Partnerships",
+      5,
+      27
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-entertainment-co/p106.webp",
+   "key_insight": "Ticketing generates 22% of revenue but 66% of EBITDA, indicating relatively high margins.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Projected ticketing revenue and EBITDA, USD millions",
+   "page": 109,
+   "kind": "table",
+   "description": "Candidate-facing component projections, excluding operating improvements. No calculated totals are included in the data.",
+   "data": {
+    "columns": [
+     "Category",
+     "2024 revenue",
+     "2029 revenue",
+     "2024 EBITDA",
+     "2029 EBITDA"
+    ],
+    "rows": [
+     [
+      "Service fees",
+      270,
+      378,
+      131,
+      183
+     ],
+     [
+      "Convenience fees",
+      25,
+      35,
+      12,
+      17
+     ],
+     [
+      "Advertising and sponsorships",
+      50,
+      70,
+      24,
+      34
+     ],
+     [
+      "Delivery fees",
+      50,
+      70,
+      24,
+      34
+     ],
+     [
+      "Premium services",
+      105,
+      140,
+      48,
+      67
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-entertainment-co/p109.webp",
+   "key_insight": "The standalone forecast falls short of both 50% growth targets.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex3",
+   "title": "Operational efficiency project opportunities",
+   "page": 112,
+   "kind": "table",
+   "description": "Project investment and supplied year-5 incremental impacts, with qualitative success indicators. Bundles add travel/parking/insurance/merchandise; data supports targeted recommendations; events add conferences/virtual/VR; AI optimizes individualized pricing. Budget $175m.",
+   "data": {
+    "columns": [
+     "Project",
+     "Investment (USD m)",
+     "Year-5 revenue increase (USD m)",
+     "Year-5 EBITDA increase (USD m)",
+     "Success indicator fill"
+    ],
+    "rows": [
+     [
+      "Expanded bundles",
+      25,
+      20,
+      15,
+      "Three-quarter"
+     ],
+     [
+      "Data analysis for marketing",
+      50,
+      20,
+      20,
+      "Three-quarter"
+     ],
+     [
+      "New event types",
+      100,
+      30,
+      20,
+      "Quarter"
+     ],
+     [
+      "AI-driven dynamic pricing",
+      75,
+      18,
+      15,
+      "Half"
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-entertainment-co/p112.webp",
+   "key_insight": "Two feasible combinations meet targets, but lower success potential makes the new-event option riskier.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is exact 2024 ticketing revenue?",
+   "givens": [
+    "Total $2,268m; share 22%"
+   ],
+   "steps": [
+    "2,268 × 0.22 = $498.96m."
+   ],
+   "answer": "$498.96 million; source permits subsequent rounding to $500m.",
+   "answer_value": 498.96,
+   "unit": "USD millions",
+   "verified": false,
+   "book_answer_if_different": "Question 1 correctly gives $498.96M, but Question 2 says 'Round $494.56M to $500M'; $494.56M is a typo."
+  },
+  {
+   "id": "m2",
+   "question": "What is exact 2024 ticketing EBITDA?",
+   "givens": [
+    "Total EBITDA $360m; share 66%"
+   ],
+   "steps": [
+    "360 × 0.66 = $237.6m."
+   ],
+   "answer": "$237.6 million, approximately $240m under the book's later rounding convention.",
+   "answer_value": 237.6,
+   "unit": "USD millions",
+   "verified": false,
+   "book_answer_if_different": "Book labels '$360M × 66% = $240M' a precise calculation and substitutes 2/3. Exact 66% gives $237.6M; Exhibit 2 separately sums to $239M."
+  },
+  {
+   "id": "m3",
+   "question": "What are the 50% growth targets?",
+   "givens": [
+    "Exact Exhibit 1 baselines $498.96m revenue, $237.6m EBITDA",
+    "Source directs using rounded $500m/$240m"
+   ],
+   "steps": [
+    "Exact: $498.96m × 1.5 = $748.44m revenue; $237.6m × 1.5 = $356.4m EBITDA.",
+    "Rounded convention: $500m × 1.5 = $750m; $240m × 1.5 = $360m."
+   ],
+   "answer": "Exact targets $748.44m/$356.4m; use explicitly rounded $750m/$360m as the source's follow-on convention.",
+   "answer_value": 356.4,
+   "unit": "USD millions exact EBITDA target",
+   "verified": false,
+   "book_answer_if_different": "Book targets $750M revenue/$360M EBITDA use rounded baselines, including its inaccurate claim that 66% of $360M is exactly $240M."
+  },
+  {
+   "id": "m4",
+   "question": "Does the status quo meet the targets?",
+   "givens": [
+    "Five category inputs in Exhibit 2"
+   ],
+   "steps": [
+    "2024 totals: revenue 270+25+50+50+105 = $500m; EBITDA 131+12+24+24+48 = $239m.",
+    "2029 totals: revenue 378+35+70+70+140 = $693m; EBITDA 183+17+34+34+67 = $335m.",
+    "Revenue gain $193m / $500m = 38.6%; EBITDA gain $96m / $239m = 40.1674%."
+   ],
+   "answer": "Neither achieves 50% growth without improvements.",
+   "answer_value": 40.1673640167,
+   "unit": "% EBITDA growth",
+   "verified": true
+  },
+  {
+   "id": "m5",
+   "question": "What does the preferred project combination deliver?",
+   "givens": [
+    "Bundles 25/20/15; data 50/20/20; AI 75/18/15 (cost/revenue/EBITDA, USD m)",
+    "Baseline forecast $693m/$335m"
+   ],
+   "steps": [
+    "Cost = 25+50+75 = $150m ≤ $175m.",
+    "Revenue = 693+20+20+18 = $751m.",
+    "EBITDA = 335+15+20+15 = $385m."
+   ],
+   "answer": "$150m investment reaches $751m revenue and $385m EBITDA.",
+   "answer_value": 385,
+   "unit": "USD millions EBITDA",
+   "verified": true
+  },
+  {
+   "id": "m6",
+   "question": "What does the new-event alternative deliver?",
+   "givens": [
+    "Bundles 25/20/15; data 50/20/20; events 100/30/20",
+    "Baseline forecast $693m/$335m"
+   ],
+   "steps": [
+    "Cost = 25+50+100 = $175m.",
+    "Revenue = 693+20+20+30 = $763m.",
+    "EBITDA = 335+15+20+20 = $390m."
+   ],
+   "answer": "$175m investment reaches $763m revenue and $390m EBITDA, with lower new-event success potential.",
+   "answer_value": 390,
+   "unit": "USD millions EBITDA",
+   "verified": true
+  }
+ ],
+ "synthesis": "Conditionally invest and fund bundles, marketing data and AI pricing for $150m. Their modeled year-5 revenue of $751m and EBITDA of $385m clear both the exact and rounded growth hurdles. The source's 2024 EBITDA calculation is inaccurate: 66% of $360m is $237.6m, not exactly $240m; this correction does not change project selection. Validate separation-related customer losses, competitive responses and project assumptions before finalizing a bid.",
+ "what_great_looks_like": [
+  "Connects business-mix, standalone-forecast and project exhibits.",
+  "Checks revenue and EBITDA targets separately.",
+  "Considers project success risk within the budget.",
+  "Recognizes dependence on the former parent may change after separation."
+ ],
+ "common_pitfalls": [
+  "Treating 66% as exactly two-thirds.",
+  "Using the parent company's entire revenue as the spin-off baseline.",
+  "Selecting projects on nominal upside alone.",
+  "Assuming operational budget is the acquisition purchase price."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "medium",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "All three candidate exhibits visually reviewed and calculations recomputed in math-darden-entertainment.py, including feasible project combinations. Source errors: Question2 misprints revenue as $494.56M instead of $498.96M; Question1 calls 66%×$360M=$240M precise, but it is $237.6M. Later explicit rounding instructions to use $500M/$240M are preserved in release information, with corrected exact targets alongside. Exhibit2's EBITDA components sum to $239M, a separate minor baseline inconsistency. Project selection is unchanged across those baselines. Dates 2024–2029 conflict with loose year1-to-year5 wording. Success-fill symbols are ordinal, not calibrated probabilities. Candidate Exhibit2 page109 excludes interviewer-only details and worked totals on page108. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "common_pitfalls",
+   "stages[1].expected_answer (exact target corrections)"
+  ]
+ }
+}

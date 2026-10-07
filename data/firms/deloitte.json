@@ -1,0 +1,53 @@
+{
+  "id": "deloitte",
+  "name": "Deloitte Strategy (Monitor Deloitte / Deloitte Consulting Strategy)",
+  "tier": "Big 4 strategy",
+  "one_liner": "Strategy arm of Deloitte, the largest Big 4 network, combining Monitor Group's strategy heritage with Deloitte's implementation and technology scale.",
+  "at_a_glance": [
+    "Monitor Deloitte formed when Deloitte acquired Monitor Group (2013).",
+    "US MBA Strategy summer associates are hired into Deloitte Consulting LLP across roughly 18 US cities.",
+    "Part of Deloitte's global Big 4 network of several hundred thousand people.",
+    "Focus areas include corporate and growth strategy, M&A, customer strategy, and technology/AI strategy."
+  ],
+  "interview_process": {
+    "rounds": [
+      "First round: behavioral interview plus 1-2 case interviews (~30-45 min each).",
+      "Final round: behavioral interview, a case, and often a group case; some teams use a written or presentation case."
+    ],
+    "case_style": "Mostly candidate-led cases; formats can include a data packet with prep time before presenting, or a group case where teamwork is observed.",
+    "fit_style": "Structured behavioral interviews on leadership, teamwork, and handling ambiguity; Deloitte publishes behavioral interview tips for candidates.",
+    "assessments": "None standard for MBA strategy roles as far as public sources show."
+  },
+  "what_they_look_for": [
+    "Big-picture thinking on complex, ambiguous problems",
+    "Analytical and structured problem solving",
+    "Storytelling and communication",
+    "Technology acumen",
+    "Collaboration"
+  ],
+  "culture": [
+    "Scale of Deloitte lets strategy teams follow work into implementation.",
+    "Collaborative, team-oriented environment; group cases reflect that emphasis.",
+    "More defined practice areas than MBB generalist models."
+  ],
+  "why_us_angles": [
+    "How does moving from strategy to implementation within one firm fit your product-building background?",
+    "Which Deloitte Strategy area (e.g., customer, M&A, supply chain, AI) maps to your experience?",
+    "Why does the Monitor strategy heritage plus Deloitte scale appeal to you?",
+    "If you've worked at Deloitte (or another Big 4) before, what shapes how you see the firm?"
+  ],
+  "prep_tips": [
+    "Practice a presentation-style case: read a data packet, build a few pages, present to a senior interviewer.",
+    "Prepare for group cases: contribute early, build on others, and help drive to an answer.",
+    "Use Deloitte's five-step case approach: understand, assumptions, key findings, recommendation, next steps.",
+    "If you've worked in audit or at a Big 4 firm, be ready to explain why strategy now."
+  ],
+  "practice_mode": "tier2",
+  "sources": [
+    "https://www.deloitte.com/us/en/careers/join-deloitte/recruiting-tips/case-and-scenario-interview-tips.html",
+    "https://apply.deloitte.com/en_US/careers/JobDetail/Deloitte-Strategy-Summer-Associate/307164",
+    "https://www.deloitte.com/global/en/services/consulting/services/monitor-deloitte.html",
+    "https://www.hackingthecaseinterview.com/pages/monitor-deloitte-interview"
+  ],
+  "checked": "2026-09"
+}

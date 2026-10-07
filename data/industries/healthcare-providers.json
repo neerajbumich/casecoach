@@ -1,0 +1,126 @@
+{
+  "id": "healthcare-providers",
+  "name": "Healthcare Providers",
+  "group": "Healthcare",
+  "one_liner": "Hospitals, health systems and physician groups deliver care with high fixed costs and labor intensity, while their prices are set largely by government and negotiated insurer rates.",
+  "how_it_makes_money": "Providers bill for services delivered, under fee-for-service, per-case (DRG) or, increasingly, value-based and capitated arrangements. Revenue depends heavily on payer mix: commercial insurers pay well above Medicare, which in turn pays more than Medicaid.",
+  "value_chain": [
+    "Patient access and referral",
+    "Primary and outpatient care",
+    "Inpatient and acute care",
+    "Post-acute and home care",
+    "Coding, billing and collections"
+  ],
+  "revenue_formula": [
+    "Revenue = patient volume (admissions, visits, procedures) × acuity/case mix × net reimbursement rate",
+    "Net reimbursement = Σ payer mix share × payer rate - denials and bad debt",
+    "Capitated revenue = attributed members × per-member-per-month payment"
+  ],
+  "cost_structure": [
+    "Labor: nurses, physicians and staff, often roughly half or more of hospital operating costs",
+    "Supplies and drugs: implants, pharmaceuticals, medical supplies",
+    "Facilities and equipment: buildings, imaging and surgical capital",
+    "Administration and revenue cycle: billing, coding, IT and EHR",
+    "Purchased services and contract labor: agency staffing, outsourced functions"
+  ],
+  "margins": "Nonprofit health systems often run thin operating margins in the low single digits, while some for-profit chains and specialized outpatient operators do better; payer mix, labor costs and site of care drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Operating margin",
+      "what": "Operating income over revenue; the headline measure of financial health for health systems."
+    },
+    {
+      "name": "Payer mix",
+      "what": "Share of revenue by commercial, Medicare, Medicaid and self-pay; a primary driver of profitability."
+    },
+    {
+      "name": "Case mix index (CMI)",
+      "what": "Average acuity of inpatients; higher acuity means higher reimbursement per case."
+    },
+    {
+      "name": "Average length of stay (ALOS)",
+      "what": "Days per inpatient admission; shorter stays free capacity and cut cost per case."
+    },
+    {
+      "name": "Bed occupancy rate",
+      "what": "Share of staffed beds in use; shows capacity utilization."
+    },
+    {
+      "name": "Days in accounts receivable (A/R days)",
+      "what": "Time to collect payment; measures revenue cycle efficiency."
+    },
+    {
+      "name": "Labor cost per adjusted discharge",
+      "what": "Labor spend normalized for volume; tracks workforce productivity."
+    }
+  ],
+  "trends": [
+    "Nursing and clinician shortages keeping labor costs elevated",
+    "Care shifting from inpatient hospitals to outpatient, ambulatory surgery and home settings",
+    "Gradual move toward value-based care and risk-bearing contracts",
+    "Health system mergers and physician practice acquisitions under antitrust scrutiny",
+    "Pressure on Medicaid funding and coverage affecting safety-net providers",
+    "AI for clinical documentation, scheduling and revenue cycle"
+  ],
+  "key_players": [
+    "HCA Healthcare",
+    "Kaiser Permanente",
+    "CommonSpirit Health",
+    "Ascension",
+    "Tenet Healthcare",
+    "Community Health Systems",
+    "Mayo Clinic",
+    "Cleveland Clinic",
+    "Optum (physician groups)",
+    "(highly fragmented locally)"
+  ],
+  "case_angles": [
+    {
+      "question": "A hospital system's margins have turned negative. How do you restore profitability?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a health system build an ambulatory surgery center network?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "Emergency department wait times are rising. How should the hospital improve patient flow?",
+      "framework_id": "operations-capacity"
+    },
+    {
+      "question": "Should two neighboring health systems merge?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Does hospital consolidation improve care or mostly raise prices?",
+    "Will value-based care ever overtake fee-for-service?",
+    "Should site-neutral payment equalize what hospitals and clinics are paid for the same service?"
+  ],
+  "news": {
+    "keywords": [
+      "hospital",
+      "hospitals",
+      "health system",
+      "physician group",
+      "nurses",
+      "medicare reimbursement",
+      "medicaid cuts",
+      "outpatient",
+      "emergency department",
+      "value-based care",
+      "cms"
+    ],
+    "companies": [
+      "HCA Healthcare",
+      "Kaiser Permanente",
+      "CommonSpirit",
+      "Ascension",
+      "Tenet Healthcare",
+      "Community Health Systems",
+      "Mayo Clinic",
+      "Cleveland Clinic",
+      "Providence"
+    ]
+  }
+}

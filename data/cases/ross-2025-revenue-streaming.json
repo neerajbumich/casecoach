@@ -1,0 +1,488 @@
+{
+ "id": "ross-2025-revenue-streaming",
+ "title": "Revenue Streaming",
+ "school": "Ross",
+ "edition": "2025-26",
+ "year": 2025,
+ "source_file": "Ross/Ross 2025.pdf",
+ "page_range": [
+  56,
+  65
+ ],
+ "variant_group_id": "ross-2025-revenue-streaming",
+ "is_canonical_variant": true,
+ "case_type": [
+  "M&A/Acquisition",
+  "Growth/Revenue"
+ ],
+ "case_type_source_label": "Media & Technology | M&A",
+ "industry": "media-streaming",
+ "sub_industry": "video-streaming",
+ "industry_source_label": "Media & Technology",
+ "geography": "Global",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 1, Qual - 2, Overall - 2)",
+ "quant_intensity": "M",
+ "estimated_minutes": 35,
+ "tags": [
+  "ma",
+  "synergies",
+  "revenue-diversification",
+  "cost-synergy",
+  "due-diligence",
+  "streaming",
+  "integration-risk"
+ ],
+ "concepts_tested": [
+  "cost synergy calculation",
+  "revenue synergy / cross-selling identification",
+  "competitive feature benchmarking",
+  "M&A alternatives brainstorm"
+ ],
+ "prompt": "Our client, Vidnet, started as an online DVD rental company. Thanks to an early pivot into online movie and television streaming, the company found massive success as internet infrastructure improved and enabled widespread video streaming. Over the last ten years, Vidnet has amassed customers around the globe, growing to $20B in annual revenue. Today, however, the company is faced with increasing competition as new video streaming platforms have emerged. The CEO is considering the purchase of a popular music streaming platform, DotMuse, to diversify revenues and fend off competition. She has asked our firm what factors she should be considering, and whether Vidnet should make the purchase?",
+ "clarifying_info": [
+  {
+   "question_topic": "Who are the new competitors?",
+   "answer": "A mix of video streaming services with features ranging from low price to original content, explored later in the case. None of them are streaming music at the current moment."
+  },
+  {
+   "question_topic": "Does Vidnet have past M&A experience?",
+   "answer": "The company has not completed an acquisition in the past, which is why they are engaging our firm."
+  },
+  {
+   "question_topic": "How do users access the services?",
+   "answer": "Vidnet and DotMuse are both accessible via computers and mobile devices. Vidnet also built partnerships with several major electronics companies to have its platform built into SMART TVs."
+  },
+  {
+   "question_topic": "Where does DotMuse operate?",
+   "answer": "DotMuse currently makes $9B in annual revenue, also from customers around the world. A more specific breakdown will be provided later."
+  },
+  {
+   "question_topic": "Does Vidnet still sell DVDs?",
+   "answer": "The company has limited DVD sales in North America and Europe, totaling about $0.5B. For the purposes of this engagement, focus is on streaming."
+  }
+ ],
+ "interviewer_notes": "Candidate-led case (interviewee led) testing M&A synergy evaluation early in the target-selection phase; candidate should not fixate on price or financials. General case flow: explore synergies (Exhibit 1, Calculation), Strategy (Exhibit 2), Alternatives (Brainstorm). Ratings: Quant - 1, Qual - 2, Overall - 2 (book's own scale).",
+ "suggested_framework": {
+  "summary": "Book-provided framework covering the music streaming market, revenue synergies, cost synergies, and risks of the DotMuse acquisition.",
+  "tree": {
+   "label": "Vidnet acquisition of DotMuse",
+   "children": [
+    {
+     "label": "Music Streaming Market",
+     "children": [
+      {
+       "label": "Magnitude and growth"
+      },
+      {
+       "label": "Competition",
+       "children": [
+        {
+         "label": "Number and fragmentation"
+        }
+       ]
+      },
+      {
+       "label": "Bargaining power of music providers"
+      },
+      {
+       "label": "Number and fragmentation of major labels, artists"
+      },
+      {
+       "label": "Broader market conditions"
+      },
+      {
+       "label": "Is this a favorable time to buy a company?"
+      }
+     ]
+    },
+    {
+     "label": "Revenue Synergies",
+     "children": [
+      {
+       "label": "Cross selling",
+       "children": [
+        {
+         "label": "Advertising across platforms or markets"
+        }
+       ]
+      },
+      {
+       "label": "Pricing",
+       "children": [
+        {
+         "label": "Bundling may lead to more revenue from existing customers"
+        }
+       ]
+      },
+      {
+       "label": "IP & Unique Assets",
+       "children": [
+        {
+         "label": "Shared data improves recommendation algorithms"
+        },
+        {
+         "label": "Differing content relationships may enable acquisition of new content"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Cost Synergies",
+     "children": [
+      {
+       "label": "Redundancies",
+       "children": [
+        {
+         "label": "HR, IT, and other back office functions can be consolidated"
+        }
+       ]
+      },
+      {
+       "label": "Economies of scale",
+       "children": [
+        {
+         "label": "Bargaining power with content companies"
+        },
+        {
+         "label": "Fixed assets like servers and office space can be shared"
+        },
+        {
+         "label": "DVD and CD materials for hard copy sales"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "Risks",
+     "children": [
+      {
+       "label": "Integration costs",
+       "children": [
+        {
+         "label": "Cultural differences"
+        },
+        {
+         "label": "Employee training for policies, IT, etc."
+        }
+       ]
+      },
+      {
+       "label": "Brand dilution"
+      },
+      {
+       "label": "Better alternatives",
+       "children": [
+        {
+         "label": "Other music platforms"
+        },
+        {
+         "label": "Other diversification strategies"
+        }
+       ]
+      },
+      {
+       "label": "Due diligence",
+       "children": [
+        {
+         "label": "Overestimating synergies, especially revenue synergies"
+        }
+       ]
+      },
+      {
+       "label": "Valuation",
+       "children": [
+        {
+         "label": "Similar acquisitions, DCF, asset value methods"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What factors should Vidnet's CEO be considering, and should Vidnet purchase DotMuse?",
+   "expected_answer": "A framework covering the music streaming market (size, growth, competition, bargaining power), revenue synergies (cross-selling, pricing/bundling, IP and unique assets), cost synergies (redundancies, economies of scale), and risks (integration costs, brand dilution, better alternatives, due diligence, valuation).",
+   "good_answer_signals": [
+    "Structures around market, revenue synergies, cost synergies, and risks",
+    "Does not fixate on price/financials this early in target selection, per interviewer notes"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "Here is revenue and cost information for Vidnet and DotMuse. What do you notice?",
+   "info_to_release": "Exhibit 1: Revenues by geography ($B) for Vidnet and DotMuse (North America, Europe, Asia, Africa, South America) and cost by category as % of revenue for both companies (Content Acquisition, Data Streaming, User Acquisition, Admin & Staff Salaries, HR/IT/Back Office, Rent & Overhead, Other Costs).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Vidnet and DotMuse are dominant in different geographic markets (Vidnet strong in North America/Europe/Asia; DotMuse relatively stronger in Africa), so both could cross-sell to the counterpart's customers to increase market share. On costs, there are percentage imbalances, particularly in Content Acquisition (23% Vidnet vs 46% DotMuse), Data Streaming (15% vs 8%), and Rent & Overhead (12% vs 19%). There are cost redundancies, particularly in back-office functions, since NewCo won't need the same HR/accounting staff and tools as two separate companies.",
+   "good_answer_signals": [
+    "Talks through concrete cross-sell examples (e.g., free-trial ads in-app, bundled subscription discount)",
+    "Talks through concrete cost synergy examples (Vidnet's content relationships lowering DotMuse's content acquisition cost; DotMuse sharing streaming cost best practices; office consolidation)",
+    "Highlights acquisition-specific nuances like retaining key staff and that synergy realization depends on tuck-in vs. standalone integration"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Vidnet has strong relationships with content producers and is confident that they can bring DotMuse's cost of Content Acquisition to a similar percentage as their own. What would be the cost savings in dollars for this scenario?",
+   "info_to_release": "DotMuse revenue: $9B (current and projected). DotMuse Content Acquisition cost: 46% of revenue currently; Vidnet's Content Acquisition cost is 23% of revenue.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Current Content Acquisition cost = 46% × $9B = $4.14B. Projected (Vidnet's 23% rate) = 23% × $9B = $2.07B. Cost savings = $4.14B - $2.07B = $2.07B. Candidates should recognize the projected rate is just half of the current percentage, so $9B written as $9,000M: 50% is $4,500M, minus $360M (the extra 4% no longer needed relative to 50%) gives $4,140M as the current cost; the projected cost at 23% is $2,070M, so savings are $2.07B — a sizable chunk of DotMuse's current revenue, making it an attractive target.",
+   "good_answer_signals": [
+    "Completes the calculation easily since all data is already given",
+    "Questions the assumption that Vidnet's relationships can actually reduce DotMuse's costs to the same percentage of revenue, and suggests further due diligence",
+    "Connects the size of the synergy to how it might affect valuation and how much of it Vidnet vs. DotMuse's shareholders would capture"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "exhibit",
+   "interviewer_asks": "Here is a comparison of features across Vidnet, its competitors, and DotMuse. What does this tell you about differentiation strategy?",
+   "info_to_release": "Exhibit 2: Feature comparison table (HD Streaming, Content Quality, Original Content, Suggestion Algorithm, Low Price) rated on a partial-to-full scale for Vidnet, Rainforest, MeTube, Pidgeon, and DotMuse.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Vidnet and Rainforest are very similar in features, so the DotMuse acquisition may be an opportunity to differentiate the platform and diversify revenues as the CEO requested. HD Streaming, Content Quality, and Suggestion Algorithm are all features relevant to music, so improving DotMuse's HD Streaming and Suggestion Algorithm via knowledge/resource transfer from Vidnet would help retain or draw additional revenue from current Vidnet customers. Vidnet can also use the acquisition to develop original-content capabilities. Neither Vidnet nor DotMuse are low-priced options, so revenue-extraction strategies like bundling are more viable than price competition; differences in Data Streaming costs in Exhibit 1 are likely rooted in differences in HD Streaming features.",
+   "good_answer_signals": [
+    "Considers how strategy affects integration level (tuck-in eases knowledge transfer; standalone is simpler if the goal is just content diversification)",
+    "Notes neither company is a low-price player, favoring bundling/upsell strategies over price competition, while flagging that using the same customer base cuts against true diversification",
+    "Links Exhibit 1's data streaming cost gap to the HD Streaming feature differences in Exhibit 2"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "Aside from acquisition of DotMuse, what are other ways that Vidnet can diversify revenue streams?",
+   "expected_answer": "Streaming platforms: other video platforms, other music streaming platforms, other media (e.g., video games), tiered pricing (regular vs. HD streaming, family plans). Services: original content, merchandising, DVD/Blu-ray sales. M&A alternatives: organic growth (start their own music streaming platform), joint venture, partnership, purchase assets (e.g., streaming exclusivity rights).",
+   "good_answer_signals": [
+    "Considers diversification via both other streaming platforms and other services",
+    "Thinks of alternatives to M&A and acknowledges the complexity and permanence of integration"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What is your recommendation to Vidnet's CEO?",
+   "expected_answer": "Vidnet should acquire DotMuse because projected cost synergies are above $2B, a significant proportion of DotMuse's revenues, providing a profitable way for Vidnet to diversify revenues. Risks: Vidnet might not be able to bring down Content Acquisition costs to the projected value; synergy capture may be lost due to integration challenges (loss of key staff, culture clashes, service interruptions); Vidnet may experience negative brand impacts as it strays from video streaming. Next steps: conduct proper due diligence to confirm synergies, consider alternative streaming platforms or services in place of DotMuse, and develop an integration strategy (tuck-in vs. standalone).",
+   "good_answer_signals": [
+    "Grounds the recommendation in the quantified cost synergy ($2.07B) as a share of DotMuse's revenue",
+    "Flags due-diligence and integration risk rather than treating the synergy estimate as certain",
+    "Names concrete next steps including confirming synergies and choosing an integration approach"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Revenue and Cost Information for Vidnet/DotMuse",
+   "page": 59,
+   "kind": "table",
+   "description": "Left: bar chart of revenues by geography ($B) for Vidnet and DotMuse across North America, Europe, Asia, Africa, and South America. Right: table of cost by category as percent of revenue for Vidnet vs. DotMuse, split into Cost of Revenue (Content Acquisition, Data Streaming), Operating Costs (User Acquisition, Admin & Staff Salaries, HR/IT & Back Office, Rent & Overhead), and Other Costs.",
+   "data": {
+    "columns": [
+     "Category",
+     "Vidnet",
+     "DotMuse"
+    ],
+    "rows": [
+     [
+      "Revenue - North America ($B)",
+      7,
+      1
+     ],
+     [
+      "Revenue - Europe ($B)",
+      6,
+      2
+     ],
+     [
+      "Revenue - Asia ($B)",
+      3,
+      2
+     ],
+     [
+      "Revenue - Africa ($B)",
+      2,
+      3
+     ],
+     [
+      "Revenue - South America ($B)",
+      2,
+      1
+     ],
+     [
+      "Content Acquisition (% of revenue)",
+      23,
+      46
+     ],
+     [
+      "Data Streaming (% of revenue)",
+      15,
+      8
+     ],
+     [
+      "User Acquisition (% of revenue)",
+      28,
+      25
+     ],
+     [
+      "Admin & Staff Salaries (% of revenue)",
+      23,
+      24
+     ],
+     [
+      "HR, IT, & Back Office (% of revenue)",
+      9,
+      8
+     ],
+     [
+      "Rent & Overhead (% of revenue)",
+      12,
+      19
+     ],
+     [
+      "Other Costs (% of revenue)",
+      6,
+      7
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-revenue-streaming/p059.webp",
+   "key_insight": "Vidnet and DotMuse are strongest in different geographies (Vidnet in North America/Europe/Asia, DotMuse relatively stronger in Africa), enabling cross-sell; DotMuse's Content Acquisition cost (46% of revenue) is far above Vidnet's (23%), the single largest cost-synergy opportunity.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Features of Vidnet, Vidnet Competitors, and DotMuse",
+   "page": 62,
+   "kind": "table",
+   "description": "Table rating five companies (Vidnet, Rainforest, MeTube, Pidgeon, DotMuse) on five features (HD Streaming, Content Quality, Original Content, Suggestion Algorithm, Low Price) using partially-filled circles indicating relative strength (empty=none, quarter/half/three-quarter=partial, full=strong).",
+   "data": {
+    "columns": [
+     "Company",
+     "HD Streaming",
+     "Content Quality",
+     "Original Content",
+     "Suggestion Algorithm",
+     "Low Price"
+    ],
+    "rows": [
+     [
+      "Vidnet",
+      "High (full)",
+      "High (3/4)",
+      "Low (1/4)",
+      "High (full)",
+      "Medium (half)"
+     ],
+     [
+      "Rainforest",
+      "High (full)",
+      "High (full)",
+      "Low (1/4)",
+      "High (3/4)",
+      "Medium (half)"
+     ],
+     [
+      "MeTube",
+      "Medium (half)",
+      "High (full)",
+      "High (full)",
+      "Low (1/4)",
+      "High (full)"
+     ],
+     [
+      "Pidgeon",
+      "High (3/4)",
+      "Low (1/4)",
+      "High (3/4)",
+      "Low (1/4)",
+      "Medium (half)"
+     ],
+     [
+      "DotMuse",
+      "Medium (half)",
+      "High (full)",
+      "High (full)",
+      "Medium (half)",
+      "Medium (half)"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2025-revenue-streaming/p062.webp",
+   "key_insight": "Vidnet and Rainforest (its closest competitor) look nearly identical on features, so acquiring DotMuse — which is strong on Content Quality and Original Content and offers a new medium entirely — is a real differentiation opportunity, especially if DotMuse's weaker HD Streaming and Suggestion Algorithm can be improved via Vidnet's resources.",
+   "data_confidence": "medium"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "If Vidnet can bring DotMuse's Content Acquisition cost down to Vidnet's percentage of revenue (23%), what are the annual cost savings in dollars?",
+   "givens": [
+    "DotMuse revenue: $9B (current and projected)",
+    "DotMuse current Content Acquisition cost: 46% of revenue",
+    "Vidnet Content Acquisition cost: 23% of revenue (target rate for DotMuse post-synergy)"
+   ],
+   "steps": [
+    "Current Content Acquisition cost = 46% × $9B = $4.14B",
+    "Projected Content Acquisition cost = 23% × $9B = $2.07B (half of current %, since 23% is exactly half of 46%)",
+    "Cost savings = $4.14B - $2.07B = $2.07B"
+   ],
+   "answer": "$2.07B in annual cost savings",
+   "answer_value": 2.07,
+   "unit": "USD billions",
+   "verified": true,
+   "book_answer_if_different": "The exhibit guidance text separately states 'candidate should acknowledge that $2.43B is a sizable chunk of the current revenue stream' — this figure does not match the book's own worked calculation ($2.07B savings) and appears to be a typo in the source book; the calculation itself (given directly in the book's table: $4.14B - $2.07B = $2.07B) is internally consistent and used here."
+  }
+ ],
+ "synthesis": "Vidnet should acquire DotMuse because projected cost synergies are above $2B, which is a significant proportion of DotMuse's revenues. This provides a profitable way for Vidnet to diversify revenues.",
+ "what_great_looks_like": [
+  "Completes the Content Acquisition synergy calculation quickly since all necessary data is provided",
+  "Questions the underlying assumption that Vidnet's relationships can realistically bring DotMuse's costs down to Vidnet's percentage, and calls for due diligence to confirm it",
+  "Connects the size of the cost synergy to valuation and negotiating leverage in the deal",
+  "Notices Vidnet and Rainforest's feature parity and frames DotMuse as a genuine differentiation play, not just a cost play",
+  "Generates non-M&A alternatives (organic build, JV, partnership, asset purchase) when asked to brainstorm beyond the DotMuse deal"
+ ],
+ "common_pitfalls": [
+  "Fixating on valuation/price this early in target selection instead of exploring synergies and strategic fit first",
+  "Treating the projected cost synergy as guaranteed rather than an assumption requiring due diligence",
+  "Overlooking that Vidnet and DotMuse are not low-price players, which shapes which revenue-synergy levers (bundling/upsell vs. price competition) are viable",
+  "Failing to note that synergy capture depends heavily on integration approach (tuck-in vs. standalone)"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[1].data (feature ratings read visually from partially-filled circle icons, exact fill fractions approximate)"
+  ],
+  "math_verified": true,
+  "notes": "The book's Exhibit Guidance text mentions a figure of '$2.43B' as 'a sizable chunk of the current revenue stream' which is inconsistent with the book's own worked calculation of $2.07B in savings; likely a typo in the source book. Used the book's own worked numbers ($4.14B, $2.07B, $2.07B) as authoritative since they are internally consistent and independently verified.",
+  "fields_inferred": [
+   "case_type",
+   "industry/sub_industry mapping",
+   "difficulty (mapped from book's 1-3 quant/qual/overall scale)",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "common_pitfalls",
+   "client_type"
+  ]
+ }
+}

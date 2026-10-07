@@ -1,0 +1,306 @@
+{
+ "id": "ross-2024-banana-heaven",
+ "title": "Banana Heaven",
+ "school": "Ross",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Ross/Ross 2024.pdf",
+ "page_range": [
+  101,
+  108
+ ],
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Profitability"
+ ],
+ "case_type_source_label": "Public Sector | Profitability",
+ "industry": "public-sector",
+ "sub_industry": "government",
+ "industry_source_label": "Public Sector",
+ "geography": "Banana Heaven, an island in the Indian Ocean",
+ "client_type": "public sector",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Ross overall rating 2/3 (Quant - 1, Qual - 3, Overall - 2)",
+ "quant_intensity": "L",
+ "estimated_minutes": 30,
+ "tags": [
+  "public-sector",
+  "agriculture",
+  "water-conservation",
+  "subsidy",
+  "pilot-design",
+  "scaling",
+  "externalities"
+ ],
+ "concepts_tested": [
+  "farmer economics",
+  "policy incentives",
+  "crop diversification",
+  "pilot scaling",
+  "supply and demand development"
+ ],
+ "prompt": "The government of Banana Heaven, an island in the Indian Ocean, presides over a predominantly agricultural economy in which most people farm paddy rice. The government buys paddy at a predefined Minimum Selling Price and sells it domestically and for export. Banana Heaven faces a groundwater crisis: because paddy cultivation uses a great deal of water, the water level is falling by approximately 50 feet every year. The government plans a crop-diversification pilot to encourage farmers to shift from paddy to crops that use less groundwater. What should the government's plan of action be to conduct a successful pilot and replicate the program across the whole island nation?",
+ "clarifying_info": [
+  {
+   "question_topic": "Government objective",
+   "answer": "The government has no specific numerical goal; it wants to reduce overall water use in the country."
+  },
+  {
+   "question_topic": "Current crop mix",
+   "answer": "Only a small portion of farmers currently grow crops other than paddy."
+  },
+  {
+   "question_topic": "Economic alternatives",
+   "answer": "The country is not capable of moving into another economic structure."
+  },
+  {
+   "question_topic": "Paddy market",
+   "answer": "Farmers sell paddy to the government at a fixed price, and the government sells it domestically and for export."
+  }
+ ],
+ "interviewer_notes": "This is a McKinsey-style interviewer-led public-sector case. The candidate must move beyond a standard business framework and recognize groundwater depletion as an externality. A successful crop switch must make economic sense to farmers: the alternative crop plus subsidy should leave them at least as well off as paddy. Outstanding candidates also consider soil and climate, adoption mechanisms, monitoring technology or gamification, and the operational challenges of scaling.",
+ "suggested_framework": {
+  "summary": "Book-provided framework assessing farmer and government economics, market and environmental feasibility, and implementation and scaling risks.",
+  "tree": {
+   "label": "Banana Heaven crop-diversification program",
+   "children": [
+    {
+     "label": "Financial and economic case",
+     "children": [
+      {
+       "label": "Farmer profit from paddy versus alternative crop"
+      },
+      {
+       "label": "Actual groundwater reduction"
+      },
+      {
+       "label": "Government subsidy required to close farmer profit gap"
+      }
+     ]
+    },
+    {
+     "label": "Market and external factors",
+     "children": [
+      {
+       "label": "Alternative-crop market size and demand trend"
+      },
+      {
+       "label": "Existing players"
+      },
+      {
+       "label": "Soil and climate suitability"
+      },
+      {
+       "label": "Crop damage and wildlife risks"
+      }
+     ]
+    },
+    {
+     "label": "Implementation and scaling risks",
+     "children": [
+      {
+       "label": "Farmer technical knowledge"
+      },
+      {
+       "label": "New-crop supply chain"
+      },
+      {
+       "label": "Government budget and farmer adoption"
+      },
+      {
+       "label": "Resources required to scale"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you design the crop-diversification pilot and determine whether it can be scaled?",
+   "expected_answer": "Evaluate whether alternative crops reduce groundwater use while preserving farmer economics, quantify any subsidy needed, test market demand and soil/climate suitability, and plan operational support, farmer adoption, monitoring, supply-chain development, government budget, and scaling resources.",
+   "good_answer_signals": [
+    "Makes farmer economics a necessary condition for adoption",
+    "Keeps groundwater reduction central",
+    "Recognizes both pilot design and eventual scale-up"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "The alternatives are maize and pulse. Which crop should the government encourage, and how much subsidy would the pilot require?",
+   "info_to_release": "Per acre: paddy costs $200 and earns $500 revenue; maize costs $150 and earns $300 revenue while saving 50% of groundwater; pulse costs $300 and earns $400 revenue while saving 40% of groundwater. The pilot includes 1,000 farmers with an average of 500 acres each.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Profit per acre is $300 for paddy, $150 for maize, and $100 for pulse. Maize is the better alternative because it is both more profitable than pulse and saves more groundwater (50% versus 40%). The government must close the $150-per-acre profit gap between paddy and maize. Across 1,000 farmers × 500 acres, that subsidy is $75 million per year.",
+   "good_answer_signals": [
+    "Calculates profit rather than comparing revenue alone",
+    "Combines economics with water saved",
+    "Computes both the $150 per-acre gap and $75 million total pilot budget"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "After six successful months, the government wants to roll the program out from 1,000 farmers to all 100,000 farmers. What should it consider to scale successfully?",
+   "expected_answer": "On supply, promote adoption by mitigating crop-transfer risks, educate farmers about groundwater through information and awareness campaigns, and provide expert technical support. On demand, create a market for maize through exports and uses as an input to industries such as alcohol. Continue government support through subsidies, non-monetary incentives, and a 100% purchase guarantee. The scaling plan must also address budget, supply chain, monitoring, soil/climate variation, and resource capacity.",
+   "good_answer_signals": [
+    "Structures the answer into supply and demand",
+    "Addresses both farmer adoption and an outlet for maize",
+    "Includes technical support and government purchase assurance",
+    "Recognizes that nationwide scaling magnifies budget and operational constraints"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "What should the government of Banana Heaven do?",
+   "expected_answer": "Proceed with a maize pilot because maize saves 50% of groundwater and is economically superior to pulse, but provide at least $150 per acre so farmers match their paddy profit; the 1,000-farmer pilot requires $75 million. Before scaling, perform diligence on maize demand and export opportunities, assess soil and climate to choose pilot areas, and build an adoption, technical-support, supply-chain, monitoring, and scaling plan. Key risks are the subsidy burden, national dependence on rice, and unsuitable growing conditions.",
+   "good_answer_signals": [
+    "Leads with maize and the quantified subsidy",
+    "Connects the policy to the groundwater objective",
+    "Names food-security, fiscal, and agronomic risks",
+    "Offers concrete demand and implementation next steps"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Financial Analysis of Crop Options",
+   "page": 105,
+   "kind": "table",
+   "description": "Per-acre cost, revenue, and groundwater savings for paddy, maize, and pulse, together with pilot size assumptions.",
+   "data": {
+    "columns": [
+     "Crop",
+     "Cost per acre",
+     "Revenue per acre",
+     "Groundwater saved"
+    ],
+    "rows": [
+     [
+      "Paddy",
+      "$200",
+      "$500",
+      "Not stated"
+     ],
+     [
+      "Maize",
+      "$150",
+      "$300",
+      "50%"
+     ],
+     [
+      "Pulse",
+      "$300",
+      "$400",
+      "40%"
+     ],
+     [
+      "Pilot assumption",
+      "1,000 farmers",
+      "500 acres per farmer",
+      ""
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-banana-heaven/p105.webp",
+   "key_insight": "Maize dominates pulse on both profit per acre and groundwater saved, but farmers still need a $150-per-acre subsidy to match paddy profit.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Scaling the Pilot: Supply and Demand",
+   "page": 107,
+   "kind": "text",
+   "description": "Checklist of supply-side adoption and support levers and demand-side market creation and government support needed to scale from 1,000 to 100,000 farmers.",
+   "data": {
+    "columns": [
+     "Supply",
+     "Demand"
+    ],
+    "rows": [
+     [
+      "Adoption of maize and mitigation of crop-transfer risks",
+      "Create a market through exports and industrial uses such as alcohol"
+     ],
+     [
+      "Information, education, and awareness about groundwater",
+      "Government subsidies and non-monetary incentives"
+     ],
+     [
+      "Operations and expert technical support",
+      "100% government purchase assurance for maize"
+     ]
+    ]
+   },
+   "image_path": "exhibits/ross-2024-banana-heaven/p107.webp",
+   "key_insight": "Scaling requires simultaneous farmer-side capability and adoption support plus dependable demand for the much larger maize crop.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which alternative crop is economically preferable, and what subsidy is required for the 1,000-farmer pilot?",
+   "givens": [
+    "Paddy: $500 revenue and $200 cost per acre",
+    "Maize: $300 revenue and $150 cost per acre; 50% groundwater saved",
+    "Pulse: $400 revenue and $300 cost per acre; 40% groundwater saved",
+    "1,000 farmers with 500 acres each"
+   ],
+   "steps": [
+    "Paddy profit per acre = $500 - $200 = $300",
+    "Maize profit per acre = $300 - $150 = $150",
+    "Pulse profit per acre = $400 - $300 = $100",
+    "Required maize subsidy per acre = $300 - $150 = $150",
+    "Pilot acres = 1,000 × 500 = 500,000 acres",
+    "Total subsidy = 500,000 × $150 = $75,000,000"
+   ],
+   "answer": "Encourage maize and provide at least $150 per acre, or $75 million for the pilot",
+   "answer_value": 75000000,
+   "unit": "USD",
+   "verified": true
+  }
+ ],
+ "synthesis": "Banana Heaven should pilot maize because it saves more groundwater than pulse (50% versus 40%) and yields higher farmer profit ($150 versus $100 per acre). To make adoption economically neutral relative to paddy, the government must subsidize maize by at least $150 per acre, or $75 million across the 1,000 farmers and 500 acres per farmer in the pilot. The government should first validate maize demand, exports, and industrial uses and identify areas with suitable soil and climate. Scaling then requires farmer education, technical support, transfer-risk mitigation, a reliable maize supply chain, purchase assurance, and monitoring. The central risks are fiscal burden, dependence on rice for domestic consumption, and agronomic mismatch.",
+ "what_great_looks_like": [
+  "Recognizes groundwater depletion as an externality and farmer incentives as the adoption constraint",
+  "Chooses maize using both profit and groundwater saved",
+  "Calculates the full pilot subsidy correctly",
+  "Develops supply and demand together when scaling",
+  "Adds practical adoption tools such as education, expert support, monitoring technology, or gamification"
+ ],
+ "common_pitfalls": [
+  "Chooses a crop based only on water savings without protecting farmer income",
+  "Compares revenues without subtracting costs",
+  "Computes $150 per acre but omits total pilot acreage",
+  "Scales production without creating demand for maize",
+  "Ignores rice dependence, soil, climate, or government-budget constraints"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "The title page says Banana Heaven while the prompt twice says Banana Haven; the title spelling is retained. The book explicitly calls this a McKinsey interviewer-led case. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "concepts_tested",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

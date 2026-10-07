@@ -1,0 +1,292 @@
+{
+ "id": "kellogg-2024-sosland-sports",
+ "title": "Sosland Sports",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  325,
+  332
+ ],
+ "author": "Case source: PrepLounge ('Fysikum'); edited by Rohan Maini (Kellogg 2020)",
+ "variant_group_id": "kellogg-2024-sosland-sports",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Market Entry"
+ ],
+ "case_type_source_label": "Y04 Market Entry",
+ "industry": "hospitality",
+ "sub_industry": "fitness",
+ "industry_source_label": "X09 Hospitality & Leisure",
+ "geography": "Sweden (existing) / Germany (expansion target)",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "market-entry",
+  "breakeven-analysis",
+  "competitive-analysis",
+  "pricing",
+  "international-expansion",
+  "fitness-leisure",
+  "capacity-utilization"
+ ],
+ "concepts_tested": [
+  "Z03 Breakeven analysis",
+  "Z11 Competitive analysis",
+  "Z12 Creativity",
+  "Z10 Customer strategy"
+ ],
+ "fit_question": "Experience: Tell me about your most meaningful career achievement to date.",
+ "prompt": "Your client, Sosland (pronounced sauce-land) Sports, is an operator of squash centers in Sweden. The squash centers include sauna, spa, pool, gym, and — of course — the squash courts. Due to extreme success in Sweden, the company is considering expanding to other countries in Europe, in particular Germany. The founder and CEO, Felicity Sosland, has asked us to evaluate this possible expansion. What factors would you consider in order to estimate the outcomes of this expansion?",
+ "clarifying_info": [
+  {
+   "question_topic": "Company",
+   "answer": "Sosland Sports centers are mid-range centers with medium-quality facilities. They only exist in Sweden currently."
+  },
+  {
+   "question_topic": "Goal",
+   "answer": "Breakeven at least, with no specific timeframe."
+  },
+  {
+   "question_topic": "Revenue model",
+   "answer": "Annual subscription-based revenue model."
+  }
+ ],
+ "interviewer_notes": "Problem: should Sosland Sports expand into Germany? Problem-solving steps: (1) develop a problem-solving structure, (2a) determine the breakeven point, (2b) a 'sense check' trick question about whether the fee is annual or weekly, (3a) conduct competitive analysis, (3b) brainstorm service differentiators, (4) provide client recommendation. Strong interviewees quickly contextualize the €90 fee against the client's problem and look to compare it to the market. Outstanding interviewees structure the breakeven math correctly and solve it simply and clearly.",
+ "suggested_framework": {
+  "summary": "A 3C's (Customers, Competitors, Company) or Five Forces structure for evaluating international market entry.",
+  "tree": {
+   "label": "Should Sosland Sports expand into Germany?",
+   "children": [
+    {
+     "label": "Customers",
+     "children": [
+      {
+       "label": "Market size and growth rate"
+      },
+      {
+       "label": "Market segmentation (activity level, ages)"
+      },
+      {
+       "label": "Cultural factors (e.g., German sporting preferences)"
+      }
+     ]
+    },
+    {
+     "label": "Competitors",
+     "children": [
+      {
+       "label": "Number and concentration, substitutes"
+      },
+      {
+       "label": "Intensity of competition"
+      },
+      {
+       "label": "Positioning"
+      }
+     ]
+    },
+    {
+     "label": "Company",
+     "children": [
+      {
+       "label": "Replication of business model"
+      },
+      {
+       "label": "Economies of scale"
+      },
+      {
+       "label": "Cost of expansion"
+      },
+      {
+       "label": "Projected profitability"
+      }
+     ]
+    },
+    {
+     "label": "Data-gathering approach",
+     "children": [
+      {
+       "label": "Internal: firm resources and client's own organization"
+      },
+      {
+       "label": "External: third-party sources (market research, competitor research, real estate agents, industry contacts)"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What factors would you consider in order to estimate the outcomes of this expansion? How would you go about gathering the data needed?",
+   "expected_answer": "A 3C's or Five Forces structure covering Customers (market size/growth, segmentation, cultural factors), Competitors (number/concentration, intensity, positioning), and Company (replicability of the business model, economies of scale, cost of expansion, projected profitability). A good data-gathering answer proposes purchasing market research, researching competitors online, contacting a real estate agent for cost data, or contacting someone with market/industry experience. An outstanding answer structures this as internal (firm/client resources) vs. external (third-party) data gathering.",
+   "good_answer_signals": [
+    "Uses a recognizable structure (3C's or Five Forces) rather than an unstructured list",
+    "Separates internal vs. external data sources when asked how to gather information"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "Can you determine the minimum annual membership fee Sosland Sports has to charge in order to cover the running cost?",
+   "release_when": "Start of Part 2",
+   "info_to_release": "Exhibit A (cost overview). If asked, revenues are assumed equal to annual costs (breakeven). Courts are always used during operating hours. If asked about doubles, assume 50% singles and 50% doubles matches.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Hours available/week = 10 hours/day (8am-6pm) × 7 days × 15 courts = 1,050 court-hours. Hours in use = 70% utilization × 1,050 = 735 court-hours. Average players per hour = (50% × 2 singles) + (50% × 4 doubles) = 3 players/hour. Members = 735 × 3 = 2,205 members. Minimum annual membership fee = €200,000 / 2,205 ≈ €90.70 (round to €90).",
+   "good_answer_signals": [
+    "Correctly computes total available court-hours before applying utilization",
+    "Correctly derives average players per hour from the 50/50 singles/doubles assumption",
+    "Arrives at ~€90 as the minimum annual fee"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "clarify",
+   "interviewer_asks": "Are you sure this is an annual fee and not a weekly one?",
+   "info_to_release": "This is a deliberate trick/sense-check question to test the candidate's confidence — since the €200,000 annual cost is divided by the total number of members (not weekly figures), the €90.70 result is indeed an annual fee.",
+   "expected_answer": "The candidate should confidently confirm it is an annual fee, since the calculation divided total annual cost by total membership count, not a weekly figure. Ideally the candidate also notes that €90/year seems low and should be compared against the competition.",
+   "good_answer_signals": [
+    "Confidently defends that the result is an annual fee without being talked out of a correct answer",
+    "Proactively flags that €90/year seems low and should be benchmarked against competitors"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "The dominant market player for squash centers (70% market share in Germany) offers memberships for €70. Would you recommend entering the market?",
+   "expected_answer": "A good answer says further investigation is needed — specifically what the incumbent offers and whether Sosland Sports can differentiate. For example, if the incumbent uses a cost-leadership strategy with a cheap, low-quality offering, Sosland Sports could launch a premium, high-quality center instead. An outstanding answer considers that if the incumbent instead operates across all segments (low-end to high-quality) with a lower cost base, Sosland Sports should not enter, since entry would trigger price competition the client cannot win.",
+   "good_answer_signals": [
+    "Doesn't answer yes/no without further investigation of the incumbent's positioning and cost base",
+    "Considers the scenario where entry is not advisable (incumbent spans all segments with a cost advantage)"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What could Sosland Sports offer to customers to differentiate their service offering?",
+   "expected_answer": "A structured brainstorm of differentiators: providing high-quality courses/coaching, setting up cross-country tournaments between Sweden and Germany, advertising with celebrities, offering longer opening hours for members paying a higher fee, and offering ancillary services like a café or bar.",
+   "good_answer_signals": [
+    "Structures the brainstorm (e.g., by category) rather than listing disconnected ideas"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "There is only a case to enter the German market if Sosland Sports can differentiate itself from the dominant competitor: Sosland Sports needs to charge €90/year to break even, but the major incumbent charges only €70/year, so the client must determine how to justify and support the higher price through differentiation. Risks: competitor reaction to a new entrant, and differing consumer preferences/buying habits in Germany. Next steps: a deeper dive into competitors' businesses and market research into Germans' leisure buying habits.",
+   "good_answer_signals": [
+    "Frames the recommendation around the €90 vs. €70 pricing gap and the need for differentiation to justify it",
+    "Flags competitor reaction and cultural/preference risk",
+    "Proposes concrete next steps (competitor deep dive, German leisure market research)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Cost overview",
+   "page": 328,
+   "kind": "table",
+   "description": "Table of the planned German squash center's cost and operating parameters: total annual cost, number of courts, opening hours, days of use per week, court use per member, and usage capacity.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Total annual cost",
+      "€200,000"
+     ],
+     [
+      "Number of courts",
+      15
+     ],
+     [
+      "Opening hours",
+      "8am - 6pm"
+     ],
+     [
+      "Days of use per week",
+      7
+     ],
+     [
+      "Court use",
+      "1 hour per member per week"
+     ],
+     [
+      "Usage capacity",
+      "70%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-sosland-sports/p328.webp",
+   "key_insight": "Combining 15 courts, 10 operating hours/day, 7 days/week, 70% utilization, and a 50/50 singles/doubles assumption yields 2,205 members needed to break even, implying a minimum annual fee of ~€90 — notably higher than the German market leader's €70 fee.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the minimum annual membership fee Sosland Sports must charge to cover its €200,000 annual cost?",
+   "givens": [
+    "Total annual cost = €200,000",
+    "15 courts, open 8am-6pm (10 hours/day), 7 days/week",
+    "70% usage capacity",
+    "Assume 50% of played hours are singles (2 players) and 50% are doubles (4 players)",
+    "Court use = 1 hour per member per week"
+   ],
+   "steps": [
+    "Hours available per week = 10 hours/day × 7 days/week × 15 courts = 1,050 court-hours",
+    "Hours in use = 70% × 1,050 = 735 court-hours",
+    "Average players per hour = (50% × 2) + (50% × 4) = 1 + 2 = 3 players/hour",
+    "Members = 735 hours × 3 members/hour = 2,205 members",
+    "Minimum annual fee = €200,000 / 2,205 ≈ €90.70"
+   ],
+   "answer": "Approximately €90.70 per year (rounds to ~€90)",
+   "answer_value": 90.7,
+   "unit": "€/year membership fee",
+   "verified": true
+  }
+ ],
+ "synthesis": "There is only a case for Sosland Sports to enter the German market if it can differentiate itself from the dominant competitor: the breakeven analysis shows Sosland needs to charge about €90/year, while the major incumbent (70% market share) charges only €70/year, so the client must find a way to justify and support that higher price — for example through a premium positioning, added services, or unique offerings. Risks include competitor reaction to a new entrant and differing German consumer preferences/buying habits. Next steps: a deeper dive into competitors' businesses and market research into German leisure buying habits.",
+ "what_great_looks_like": [
+  "Structures the initial brainstorm with a recognizable framework (3C's / Five Forces) instead of an unstructured list",
+  "Solves the breakeven math cleanly and in the right order (capacity → utilized hours → players → members → fee)",
+  "Holds firm and correctly defends the answer as an annual (not weekly) fee when challenged",
+  "Ties the pricing gap (€90 vs. €70) directly into the entry recommendation rather than treating it as a standalone number"
+ ],
+ "common_pitfalls": [
+  "Forgetting to apply the 70% usage-capacity factor, or applying it to the wrong base (courts vs. court-hours)",
+  "Using only singles or only doubles assumptions instead of the stated 50/50 mix",
+  "Getting talked out of the correct 'annual fee' answer when the interviewer probes with the sense-check question",
+  "Recommending entry or non-entry without further investigating the incumbent's segment coverage and cost position"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Book's own figures (1,050 court-hours, 735 utilized hours, 3 players/hour, 2,205 members, €90.70 fee) were independently recomputed and matched exactly.",
+  "fields_inferred": [
+   "difficulty",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

@@ -1,0 +1,358 @@
+{
+ "id": "fuqua-2023-orwells-that-ends-well",
+ "title": "Orwells that Ends Well",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  56,
+  64
+ ],
+ "author": "Josh Goldstein (Fuqua '24)",
+ "case_type": [
+  "M&A/Acquisition",
+  "Profitability"
+ ],
+ "case_type_source_label": "M&A",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Pharmaceuticals",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "BCG"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative Difficulty Medium; Qualitative Difficulty Medium",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "acquisition",
+  "synergies",
+  "portfolio-overlap",
+  "pharmaceuticals",
+  "integration-risk",
+  "profit-accretion"
+ ],
+ "prompt": "Your client is Animal Pharma, a public pharmaceutical supplier focused on oral solid medications (e.g., tablets, capsules). Animal Pharma's portfolio has been impacted by decreasing margins. Animal Pharma is considering the acquisition of a rival supplier to boost profitability. Animal Pharma's CEO has hired you to review the attractiveness of this strategy.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "The executive board wants the stock to increase ASAP and seeks a quick and sustained boost."
+  },
+  {
+   "question_topic": "Business model",
+   "answer": "Animal Pharma manufactures none of its products and relies on upstream partners for molecule synthesis."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "Sales are solely domestic, with no current international exposure."
+  },
+  {
+   "question_topic": "Positioning",
+   "answer": "The stock trails the S&P 500 but performs similarly to comparable pharmaceutical companies."
+  },
+  {
+   "question_topic": "Deal conditions",
+   "answer": "Prices are non-negotiable and payable immediately. Integration difficulty adds execution complexity but cannot be monetized. Similar assets must be divested before acquisition; this is factored into deal price."
+  }
+ ],
+ "interviewer_notes": "Let the candidate assess Exhibit 1 and request financial data quantifying synergies. Exhibit 2 financials cover the latest year and all revenue and costs. Explicitly clarify that target sales include overlap, target costs remain unchanged, international sales are unaffected by overlap, and synergies reduce only Animal Pharma's existing costs. The source contains mutually inconsistent price, overlap and risk inputs; preserve the exhibits and make the calculation assumptions explicit. The book prefers Co 1 for quick, low-risk execution, but its own Exhibit 1 ranks Co 3 lowest in integration difficulty.",
+ "suggested_framework": {
+  "summary": "The book evaluates strategic fit, acquisition economics and execution risk.",
+  "tree": {
+   "label": "Acquisition attractiveness",
+   "children": [
+    {
+     "label": "Strategic fit",
+     "children": [
+      {
+       "label": "Product overlap, pipeline and R&D"
+      },
+      {
+       "label": "Manufacturing, drug formats, international markets and downstream customers"
+      }
+     ]
+    },
+    {
+     "label": "Economics",
+     "children": [
+      {
+       "label": "Deal price, financing and marketing/manufacturing/R&D synergies"
+      },
+      {
+       "label": "Friendly versus hostile deal, full purchase versus JV or assets, competing bids"
+      }
+     ]
+    },
+    {
+     "label": "Risk",
+     "children": [
+      {
+       "label": "Integration, FTC oversight and synergy realization"
+      },
+      {
+       "label": "Manufacturing diligence, acquired liabilities and market approvals"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you assess whether acquiring a rival will improve Animal Pharma's performance?",
+   "expected_answer": "Assess product and capability fit, price and financing, recurring profit and synergies, and integration, regulatory and liability risks. Prioritize speed and sustainability given the board's stock-price objective.",
+   "good_answer_signals": [
+    "Connects deal execution to urgency",
+    "Distinguishes recurring earnings from upfront purchase cost"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What do you conclude about the three acquisition candidates?",
+   "release_when": "After the framework.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "info_to_release": "Co 1 Snowvartis: price 1.25B, integration difficulty 20%, overlap 10%, synergies $50. Co 2 Napoleon & Napoleon: 160M, 15%, 8.3%, $150. Co 3 Boxer Myers Squibb: 220M, 5%, 9.1%, $200. Synergy currency scale is not specified. Prices are fixed and immediately payable; integration difficulty is not a quantifiable cash cost.",
+   "expected_answer": "Request financial detail before valuing synergies. Exhibit 1 shows Co 1 is most expensive and has the highest difficulty percentage, while Co 3 has the lowest percentage. This conflicts with the guidance's descriptions of Co 1 as low-risk and Co 2/3 as higher-price, higher-risk deals; clarify these inconsistencies rather than silently reversing the table.",
+   "good_answer_signals": [
+    "Requests quantified synergies",
+    "Flags incompatible source inputs"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using the financials, calculate profit accretion for each acquisition.",
+   "release_when": "When the candidate requests financials and synergy quantification.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "info_to_release": "All figures are billions: AP US sales 10, international 0, marketing 4, R&D 2, manufacturing 0. Targets' US sales 6/8/10, international 0/0/4, marketing 2/2/4, R&D 1/1/3, manufacturing 0/1/2. Overlap 25%/50%/25%; synergy rates 10%/20%/20% apply only to AP's $6B costs. Costs do not decline with overlap; international sales are unaffected.",
+   "expected_answer": "Using Exhibit 2 overlap, retained target revenue is $4.5B/$4B/$11.5B; costs are $3B/$4B/$9B and AP savings $0.6B/$1.2B/$1.2B. Recurring incremental profit is $2.1B/$1.2B/$3.7B. Subtracting Exhibit 1 purchase prices gives first-year net contributions $0.85B/$1.04B/$3.48B. The solution's $1.1B/-$0.3B/$1.7B uses different prices ($1B/$1.5B/$2B). Co 2 is not negative using candidate-facing prices.",
+   "good_answer_signals": [
+    "Applies overlap only to domestic target sales",
+    "Applies synergies only to AP costs",
+    "Separates price inconsistency from arithmetic"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "brainstorm",
+   "interviewer_asks": "What could be reducing profitability in Animal Pharma's current portfolio?",
+   "expected_answer": "Revenue: drug-price pressure from public perception, government intervention or competition; demand shifting to diet or holistic alternatives; and a shift toward lower-margin sales channels such as retail versus hospitals. Costs: higher partner synthesis contracts, freight, marketing and liability expenses.",
+   "good_answer_signals": [
+    "Structures revenue and costs",
+    "Tailors costs to outsourced manufacturing"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "The CEO wants your acquisition recommendation after a contentious board meeting. What do you recommend?",
+   "expected_answer": "The book favors Co 1 for rapid execution or Co 3 for upside. With Exhibit 1 prices and Exhibit 2 financials, Co 3 has the greatest recurring accretion ($3.7B) and first-year net contribution ($3.48B), but a definitive risk ranking requires reconciliation of contradictory inputs. Validate prices, overlap and integration difficulty, finance the deal and conduct manufacturing, liability and FTC diligence. International and manufacturing capabilities introduce execution challenges for AP.",
+   "good_answer_signals": [
+    "States a conditional choice using transparent assumptions",
+    "Addresses financing, regulatory and integration risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Acquisition targets",
+   "page": 59,
+   "kind": "table",
+   "description": "Printed deal prices, integration difficulty, product overlap and synergies; units and values conflict with subsequent guidance.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Snowvartis (Co 1)",
+     "Napoleon & Napoleon (Co 2)",
+     "Boxer Myers Squibb (Co 3)"
+    ],
+    "rows": [
+     [
+      "Deal price",
+      "1.25B",
+      "160M",
+      "220M"
+     ],
+     [
+      "Integration difficulty",
+      "20%",
+      "15%",
+      "5%"
+     ],
+     [
+      "Product overlap",
+      "10%",
+      "8.3%",
+      "9.1%"
+     ],
+     [
+      "Synergies available (scale unspecified)",
+      "$50",
+      "$150",
+      "$200"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-orwells-that-ends-well/p059.webp",
+   "image_has_answers": false,
+   "key_insight": "The displayed prices and risk ordering conflict with the solution, requiring clarification.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Financials",
+   "page": 61,
+   "kind": "table",
+   "description": "Annual sales and costs in USD billions, domestic overlap and AP cost-synergy rates.",
+   "data": {
+    "columns": [
+     "Metric",
+     "Animal Pharma",
+     "Co 1",
+     "Co 2",
+     "Co 3"
+    ],
+    "rows": [
+     [
+      "US sales ($B)",
+      10,
+      6,
+      8,
+      10
+     ],
+     [
+      "International sales ($B)",
+      0,
+      0,
+      0,
+      4
+     ],
+     [
+      "Marketing ($B)",
+      4,
+      2,
+      2,
+      4
+     ],
+     [
+      "R&D ($B)",
+      2,
+      1,
+      1,
+      3
+     ],
+     [
+      "Manufacturing ($B)",
+      0,
+      0,
+      1,
+      2
+     ],
+     [
+      "Overlap",
+      "-",
+      "25%",
+      "50%",
+      "25%"
+     ],
+     [
+      "Synergy benefit",
+      "-",
+      "10%",
+      "20%",
+      "20%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-orwells-that-ends-well/p061.webp",
+   "image_has_answers": false,
+   "key_insight": "Co 3 retains international revenue despite domestic overlap; synergies apply to AP's cost base only.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is recurring incremental profit using Exhibit 2?",
+   "givens": [
+    "AP costs $6B",
+    "Target US sales 6/8/10 and international 0/0/4 ($B)",
+    "Overlap 25%/50%/25%",
+    "Costs 3/4/9 ($B)",
+    "Synergies 10%/20%/20% of AP costs"
+   ],
+   "steps": [
+    "Retained revenue: 6×0.75=4.5; 8×0.5=4; 10×0.75+4=11.5 ($B)",
+    "Savings: 6×0.1=0.6; 6×0.2=1.2; 6×0.2=1.2 ($B)",
+    "Recurring accretion: 4.5-3+0.6=2.1; 4-4+1.2=1.2; 11.5-9+1.2=3.7 ($B)"
+   ],
+   "answer": "Co 1 $2.1B; Co 2 $1.2B; Co 3 $3.7B recurring incremental profit",
+   "answer_value": 3.7,
+   "unit": "USD billions (Co 3)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What is first-year net contribution after the printed acquisition prices?",
+   "givens": [
+    "Recurring accretion 2.1/1.2/3.7 ($B)",
+    "Exhibit 1 prices 1.25/0.16/0.22 ($B)"
+   ],
+   "steps": [
+    "Co 1: 2.1-1.25=0.85",
+    "Co 2: 1.2-0.16=1.04",
+    "Co 3: 3.7-0.22=3.48"
+   ],
+   "answer": "Co 1 $0.85B; Co 2 $1.04B; Co 3 $3.48B, conditional on Exhibit 2 overlap",
+   "answer_value": 3.48,
+   "unit": "USD billions (Co 3)",
+   "verified": false,
+   "book_answer_if_different": "The book reports $1.1B, -$0.3B and $1.7B using deal costs $1B, $1.5B and $2B. Candidate Exhibit 1 instead prints $1.25B, $160M and $220M. Exhibit 1's overlap percentages also disagree with Exhibit 2; no single consistent answer is possible without selecting assumptions."
+  }
+ ],
+ "synthesis": "Co 3 has the highest financial accretion under Exhibit 2 financials and Exhibit 1 prices: $3.7B recurring and $3.48B after the upfront price. Reconcile the book's contradictory price, overlap and risk data before committing. The source prefers Co 1 for speed and low risk, but Exhibit 1 does not support that ranking. Conduct financing, regulatory, manufacturing and integration diligence; the board needs both quick execution and sustainable returns.",
+ "what_great_looks_like": [
+  "Separates recurring synergy value from purchase cost",
+  "Flags contradictions in the supplied data",
+  "Connects manufacturing and international expansion to AP's capability gaps"
+ ],
+ "common_pitfalls": [
+  "Applies synergies to target costs",
+  "Reduces international sales for overlap",
+  "Silently substitutes solution prices for candidate inputs"
+ ],
+ "extraction": {
+  "model": "codex/gpt-6",
+  "extracted_at": "2026-10-01",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[1] depends on conflicting deal-price and overlap inputs",
+   "synthesis risk ranking",
+   "exhibits[0].data synergy currency scale"
+  ],
+  "math_verified": false,
+  "notes": "Candidate exhibits visually confirmed. Exhibit 1 prices, overlap, integration difficulty and unscaled synergy amounts conflict with the solution. Calculations explicitly use Exhibit 2 overlap and Exhibit 1 prices, yielding $0.85B/$1.04B/$3.48B rather than $1.1B/-$0.3B/$1.7B. Co 1 low-risk preference contradicts the printed difficulty percentages. Python recomputation saved in math-orwells.py. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "format",
+   "sub_industry",
+   "client_type",
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "common_pitfalls",
+   "what_great_looks_like"
+  ]
+ }
+}

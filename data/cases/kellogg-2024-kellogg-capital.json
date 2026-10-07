@@ -1,0 +1,418 @@
+{
+ "id": "kellogg-2024-kellogg-capital",
+ "title": "Kellogg Capital",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  203,
+  215
+ ],
+ "author": "Eli Derrow (Kellogg '21); edited by AnnaClare Smith (Kellogg '22)",
+ "variant_group_id": "kellogg-capital",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Growth/Revenue",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Y02 Growth strategy; Y04 New product / Market entry",
+ "industry": "asset-management-pe",
+ "sub_industry": "asset-management",
+ "industry_source_label": "X06 Financial Services",
+ "geography": "US",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 4,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "asset-management",
+  "new-product-launch",
+  "market-sizing",
+  "fee-economics",
+  "expected-value",
+  "segmentation",
+  "growth-strategy"
+ ],
+ "concepts_tested": [
+  "Z08 Market sizing",
+  "Z04 Capacity",
+  "Z12 Creativity",
+  "Z14 Pricing strategy",
+  "Z07 Market Share"
+ ],
+ "fit_question": "Tell me about a time when you had to provide critical feedback to a team member or client.",
+ "prompt": "The Chief Strategy and Innovation Officer of Kellogg Capital, an Evanston-based asset management firm, has retained you to help with her top priority of the year (2021). Kellogg Capital has amassed $5 billion in assets under management (AUM) since its founding in 2015. However, despite stellar investment performance of their active investment strategies, Kellogg Capital's growth, as defined by revenue, is plateauing. What new, profitable opportunity should Kellogg Capital pursue to continue their growth?",
+ "clarifying_info": [
+  {
+   "question_topic": "Products / business model",
+   "answer": "Kellogg Capital has 3 investment products with varying volatilities and asset mixes, but each has illiquid assets requiring extended lock-up periods. Its only revenue source is performance and management fees on AUM in these 3 products (management fees typically range 0.1% to 2%+ of AUM)."
+  },
+  {
+   "question_topic": "Location / customers",
+   "answer": "Due to compliance concerns, Kellogg Capital only has U.S. offices and only allows investments from U.S.-based investors, and does not expect this to change. It currently only allows investments from pension funds, sovereign wealth funds, and endowments and foundations (E&Fs)."
+  },
+  {
+   "question_topic": "Competitive dynamics",
+   "answer": "Kellogg Capital competes against both active and passive asset managers, does not want to change fees on its current products for institutional clients, and is not looking to acquire any competitors."
+  },
+  {
+   "question_topic": "Market",
+   "answer": "If asked, say stock market performance is strong, or irrelevant, to the case."
+  },
+  {
+   "question_topic": "Timeline and goal",
+   "answer": "The Chief Strategy and Innovation Officer is looking for medium-term (1+ year) growth opportunities, hoping to double Kellogg Capital's 2020 revenue (approximately $50M) within 3 years."
+  }
+ ],
+ "interviewer_notes": "Problem: How can Kellogg Capital maintain its high revenue growth rate? Problem-solving steps: 1) Develop a structure, 2A) Analyze the current customer and channel market, 2B) Brainstorm reasons why Kellogg Capital has not yet entered the retail market, 3) Analyze Kellogg Capital's current product mix, 4) Estimate revenue from new product launch, 5) Provide Chief Strategy and Innovation Officer recommendation. Costs are not a critical aspect of this case; the key client question is about new opportunities, so the interviewee should not focus on current product-customer combinations (e.g. pricing).",
+ "suggested_framework": {
+  "summary": "A growth-opportunity matrix (New Geography / New Customer / New Distribution / New Product) evaluated on Opportunity Revenue, Costs, and Capabilities/Risks.",
+  "tree": {
+   "label": "Growth Opportunities",
+   "children": [
+    {
+     "label": "New Geography"
+    },
+    {
+     "label": "New Customer"
+    },
+    {
+     "label": "New Distribution"
+    },
+    {
+     "label": "New Product"
+    },
+    {
+     "label": "Opportunity Revenue considerations",
+     "children": [
+      {
+       "label": "Market: size / growth / trends?"
+      },
+      {
+       "label": "Competition: fragmented? response?"
+      },
+      {
+       "label": "Ongoing revenue: pricing model, capacity constraints, cannibalization"
+      }
+     ]
+    },
+    {
+     "label": "Costs considerations",
+     "children": [
+      {
+       "label": "Initial investment cost"
+      },
+      {
+       "label": "Opportunity cost (impact on current products' performance)"
+      },
+      {
+       "label": "Ongoing costs (trading execution, salaries, taxes, tech, regulatory compliance)"
+      }
+     ]
+    },
+    {
+     "label": "Capabilities / Risks considerations",
+     "children": [
+      {
+       "label": "Synergies with current products/distribution/customers/geography"
+      },
+      {
+       "label": "Diversification benefit"
+      },
+      {
+       "label": "Operational risks (compliance/geopolitical)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Develop a structure to address the problem: what new, profitable opportunity should Kellogg Capital pursue to continue their growth?",
+   "expected_answer": "A structure should cover the key long-term growth opportunities for an asset manager (new geography, new customer, new distribution, new product), evaluated across Opportunity Revenue (market size/growth/trends, competition, ongoing revenue model/capacity/cannibalization), Costs (initial investment, opportunity cost, ongoing costs -- noted as not critical to this case), and Capabilities/Risks (synergies, diversification, operational risks). The interviewee should focus on new opportunities rather than pricing of current product-customer combinations.",
+   "good_answer_signals": [
+    "Uses a 2D growth-opportunity matrix rather than a generic profitability framework",
+    "De-prioritizes costs appropriately since the interviewer notes they are not critical here"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "We have data on the current market landscape for Kellogg Capital's prospective clients. What customer segment / channel should Kellogg Capital target?",
+   "release_when": "Provide Exhibit A once the interviewee has addressed general market growth rates and identifying new customers/channels",
+   "info_to_release": "Kellogg Capital has not yet entered the retail market -- it is currently only targeting institutional investors. The chart depicts AUM Kellogg Capital could achieve for each market segment at 100% penetration.",
+   "exhibit_ids": [
+    "exA"
+   ],
+   "expected_answer": "The interviewee should fairly quickly read the chart, recognizing the ideal prospective clients are in the upper-right quadrant with the largest bubble size. Takeaway: Kellogg Capital should target the retail customer base, specifically the mass retail segment ($440B), to continue growth -- not the high net worth segment (Kellogg Capital is waiting to build tax-advantaged solutions before entering HNW) and not its shrinking current institutional base. Strong interviewees proactively brainstorm ways to enter this channel or ask why Kellogg Capital hasn't already entered it, leading into part 2B.",
+   "good_answer_signals": [
+    "Correctly reads growth rate (y-axis), fee (x-axis), and bubble size (market size) together",
+    "Lands specifically on mass retail rather than HNW or institutional"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "Why do you think Kellogg Capital has not yet entered the retail market given the strength of this market?",
+   "expected_answer": "A structured approach splits Internal (Capabilities) from External (Environment/Risks). Product: is mass retail interested in Kellogg Capital's products (too volatile, too complicated)? Can they meet mass retail needs (disclosure of holdings, daily NAV)? Sales/Distribution: does Kellogg Capital have the sales team to target retail (high volume of small investments vs. large institutional tickets)? Competition: is mass retail more price-competitive / fee-compressed? Regulatory: does Kellogg Capital have the compliance infrastructure for a more regulated space? The key insight is that Kellogg Capital's products are at capacity and, due to illiquid components, cannot meet mass retail's daily contribution/redemption requirements. Strong interviewees recall the illiquid-assets detail and proactively suggest creating liquid-only 'lite' products, leading into part 3.",
+   "good_answer_signals": [
+    "Structures the brainstorm as Internal (Product, Sales/Distribution) vs. External (Competition, Regulatory)",
+    "Connects back to the illiquid-asset lock-up constraint mentioned in the case prompt"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Kellogg Capital believes it can create 'lite' products, derived by removing the illiquid components from its 3 products. What would be the expected fees of these new 'lite' products?",
+   "release_when": "Provide Exhibit B",
+   "info_to_release": "Mutual funds do not allow performance fees, so first calculate the equivalent management fee for each current product (e.g. a 10% performance fee on a 10% excess return is equivalent to a 1% management fee). Then adjust that equivalent management fee for the proportional performance of the new 'lite' product (e.g. if removing illiquid assets lowers expected performance by 10%, reduce the equivalent management fee by 10%). The 'Performance Allocation' pie charts show what share of excess returns each asset class (including illiquid securities) contributes.",
+   "exhibit_ids": [
+    "exB"
+   ],
+   "expected_answer": "Probability-Optimized Enhanced Trading Systematic Fund: equivalent mgmt fee = 0.5% + 5%*15% = 1.25%; illiquid securities are 20% of performance allocation, so lite fee = 1.25% x 80% = 1.0%. Purple Pride Fund: equivalent mgmt fee = 0.7% + 5%*10% = 1.2%; illiquid securities are 10% of performance allocation, so lite fee = 1.2% x 90% = 1.08%. Wildcat Investment Fund: fee is already a flat 0.75% management fee (no performance fee); illiquid securities are 50% of performance allocation, so lite fee = 0.75% x 50% = 0.375%. Strong interviewees should call out Purple Pride as the highest-fee lite product and request penetration data to check whether it could hit Kellogg Capital's growth target.",
+   "good_answer_signals": [
+    "Correctly converts performance fees into equivalent management fees before adjusting for the liquid-asset share",
+    "Reads the illiquid-securities slice of each pie chart correctly"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Kellogg Capital has conducted a market analysis to understand potential penetration 3 years from now, should they launch a lite product. Which one of the three products should Kellogg Capital pursue?",
+   "release_when": "Provide Exhibit C",
+   "exhibit_ids": [
+    "exC"
+   ],
+   "expected_answer": "Mass retail market size in year 3 = $440B x 1.15 (~3 years of ~5% annual growth from Exhibit A, actually slightly higher with compounding) = ~$500B. Weighted-average penetration from Exhibit C's probability distribution: Probability-Optimized Lite = 0.5%x40%+1%x20%+1.5%x40% = 1.0%; Purple Pride Lite = 0.5%x50%+1%x50%+1.5%x0% = 0.75%; Wildcat Lite = 0.5%x30%+1%x30%+1.5%x40% = 1.05%. Market penetration (AUM) = market size x weighted-avg penetration: Probability-Optimized ~$5B, Purple Pride ~$3.75B, Wildcat ~$5.25B. Estimated revenue = AUM x lite fee: Probability-Optimized ~$50M, Purple Pride ~$3.75B x 1.08% ~$40M, Wildcat ~$5.25B x 0.375% ~$20M (strong interviewees may skip calculating Wildcat, recognizing it won't hit the target). Only the Probability-Optimized Enhanced Trading Systematic Fund Lite meets Kellogg Capital's ~$50M revenue target, even though Purple Pride has higher fees.",
+   "good_answer_signals": [
+    "Correctly compounds/estimates 3-year market size growth",
+    "Computes weighted-average penetration as an expected value across the probability distribution",
+    "Chains market size x penetration x fee into a revenue estimate for each product and picks the one that hits the target"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Please provide a recommendation to the Chief Strategy and Innovation Officer.",
+   "expected_answer": "Kellogg Capital should enter the mass retail market with its Probability-Optimized Enhanced Trading Systematic Fund Lite product. Although it has slightly lower fees than the Purple Pride Fund, it is the only fund expected to hit the ~$50M annual revenue target by year 3 given expected penetration levels. Risks: cannibalization of current institutional investors (who may want the lite funds' lower fees) and greater sensitivity of mass retail asset flows to short-term performance. Mitigations: study pricing the mutual funds higher (Kellogg Capital would currently come in below average market fees for the segment) and study introducing lower-volatility versions of the lite products for risk-averse investors.",
+   "good_answer_signals": [
+    "Gives a single, clear product recommendation grounded in the revenue-target math",
+    "Surfaces cannibalization and volatility-flow risk with concrete mitigations",
+    "Connects back to the case's growth framework (new product as the chosen growth lever)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "exA",
+   "title": "Kellogg Capital Prospective U.S. Customers and Channels (2021)",
+   "page": 207,
+   "kind": "other",
+   "description": "Bubble chart with Segment Annual Growth Rate on the y-axis and Expected Annual Fee on the x-axis, plotting prospective U.S. customer/channel segments (E&F, Sovereign Wealth, Public Pension, Private Pension, Mass Retail, HNW; bubble area indicates market size). No page render is available for this exhibit -- transcribed from the text layer, which gives market sizes for each bubble and (in the Part 4 narrative) a ~5% annual growth rate specifically for Mass Retail.",
+   "data": {
+    "columns": [
+     "Segment",
+     "Market size (AUM at 100% penetration)",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "E&F",
+      "$100B",
+      ""
+     ],
+     [
+      "Mass Retail",
+      "$440B",
+      "~5% annual growth rate (per case narrative)"
+     ],
+     [
+      "HNW",
+      "$40B",
+      ""
+     ],
+     [
+      "Sovereign Wealth",
+      "$100B",
+      ""
+     ],
+     [
+      "Public Pension",
+      "$250B",
+      ""
+     ],
+     [
+      "Private Pension",
+      "$250B",
+      ""
+     ]
+    ]
+   },
+   "key_insight": "Mass Retail is both the largest addressable segment ($440B) and sits in the attractive upper-right (high growth, high fee) quadrant, making it the clear target versus the smaller or slower-growing institutional segments.",
+   "data_confidence": "low",
+   "image_path": "exhibits/kellogg-2024-kellogg-capital/p207.webp"
+  },
+  {
+   "id": "exB",
+   "title": "Kellogg Capital Current Products (As of 6/30/2021)",
+   "page": 208,
+   "kind": "table",
+   "description": "Current AUM, annual excess performance expectations, standard fee structure, and performance allocation (by asset class: Stocks, Bonds, Commodities, Illiquid Securities) for Kellogg Capital's 3 existing products.",
+   "data": {
+    "columns": [
+     "Product",
+     "Current AUM",
+     "Annual Excess Performance Expectation",
+     "Standard Fee",
+     "Performance Allocation (Stocks/Bonds/Commodities/Illiquid)"
+    ],
+    "rows": [
+     [
+      "Probability-Optimized Enhanced Trading Systematic Fund, L.P.",
+      "$2.5 Billion",
+      "15%",
+      "0.5% Mgmt. and 5% Performance",
+      "25% / 25% / 30% / 20%"
+     ],
+     [
+      "Purple Pride Fund, L.P.",
+      "$2 Billion",
+      "10%",
+      "0.7% Mgmt. and 5% Performance",
+      "55% / 20% / 15% / 10%"
+     ],
+     [
+      "Wildcat Investment Fund, L.P.",
+      "$0.5 Billion",
+      "7.5%",
+      "0.75% Mgmt. Fee",
+      "20% / 20% / 10% / 50%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-kellogg-capital/p208.webp",
+   "key_insight": "Illiquid securities make up very different shares of each fund's performance allocation (20% / 10% / 50%), which drives very different 'lite' equivalent fees once illiquid assets are stripped out.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "exC",
+   "title": "'Lite' Products Mass Retail 2024 Penetration: Probability Distribution",
+   "page": 209,
+   "kind": "table",
+   "description": "Probability distribution of expected mass-retail penetration (0.5%, 1%, 1.5%) for each of the 3 proposed 'lite' products, used to compute a weighted-average expected penetration per product.",
+   "data": {
+    "columns": [
+     "Expected Mass Retail Penetration",
+     "Probability-Optimized Enhanced Trading Systematic Fund Lite",
+     "Purple Pride Fund Lite",
+     "Wildcat Investment Fund Lite"
+    ],
+    "rows": [
+     [
+      "0.5%",
+      "40%",
+      "50%",
+      "30%"
+     ],
+     [
+      "1%",
+      "20%",
+      "50%",
+      "30%"
+     ],
+     [
+      "1.5%",
+      "40%",
+      "0%",
+      "40%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-kellogg-capital/p209.webp",
+   "key_insight": "Weighting each penetration scenario by its probability gives expected penetrations of 1.0% / 0.75% / 1.05% for the three lite products -- Purple Pride Lite has no chance of the highest (1.5%) penetration scenario, capping its expected value.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the expected 'lite' management fee for each of Kellogg Capital's 3 products after removing illiquid assets?",
+   "givens": [
+    "Probability-Optimized: 0.5% mgmt + 5% performance fee on 15% excess return; 20% of performance allocation is illiquid securities",
+    "Purple Pride: 0.7% mgmt + 5% performance fee on 10% excess return; 10% of performance allocation is illiquid securities",
+    "Wildcat: flat 0.75% management fee (no performance fee); 50% of performance allocation is illiquid securities"
+   ],
+   "steps": [
+    "Equivalent mgmt fee (Probability-Optimized) = 0.5% + 5%*15% = 1.25%",
+    "Equivalent mgmt fee (Purple Pride) = 0.7% + 5%*10% = 1.2%",
+    "Equivalent mgmt fee (Wildcat) = 0.75% (already a flat management fee)",
+    "Lite fee (Probability-Optimized) = 1.25% x (100%-20%) = 1.25% x 80% = 1.0%",
+    "Lite fee (Purple Pride) = 1.2% x (100%-10%) = 1.2% x 90% = 1.08%",
+    "Lite fee (Wildcat) = 0.75% x (100%-50%) = 0.75% x 50% = 0.375%"
+   ],
+   "answer": "Lite fees: 1.0% (Probability-Optimized), 1.08% (Purple Pride), 0.375% (Wildcat)",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What annual revenue should each lite product be expected to generate from mass retail in year 3 (2024)?",
+   "givens": [
+    "2021 Mass Retail market size = $440B, growing ~5%/year (Exhibit A)",
+    "Weighted-average 2024 penetration probability distribution (Exhibit C)",
+    "Lite fees from m1: 1.0% / 1.08% / 0.375%"
+   ],
+   "steps": [
+    "2024 Mass Retail market size = $440B x 1.15 (~3 years of growth) = ~$500B",
+    "Weighted-avg penetration (Probability-Optimized) = 0.5%x40% + 1%x20% + 1.5%x40% = 0.2%+0.2%+0.6% = 1.0%",
+    "Weighted-avg penetration (Purple Pride) = 0.5%x50% + 1%x50% + 1.5%x0% = 0.25%+0.5%+0% = 0.75%",
+    "Weighted-avg penetration (Wildcat) = 0.5%x30% + 1%x30% + 1.5%x40% = 0.15%+0.3%+0.6% = 1.05%",
+    "Market penetration AUM = market size x weighted-avg penetration: Probability-Optimized ~$500B x 1.0% = ~$5B; Purple Pride ~$500B x 0.75% = ~$3.75B; Wildcat ~$500B x 1.05% = ~$5.25B",
+    "Estimated revenue = penetration AUM x lite fee: Probability-Optimized ~$5B x 1.0% = ~$50M; Purple Pride ~$3.75B x 1.08% = ~$40M; Wildcat ~$5.25B x 0.375% = ~$20M"
+   ],
+   "answer": "~$50M (Probability-Optimized), ~$40M (Purple Pride), ~$20M (Wildcat) -- only Probability-Optimized meets Kellogg Capital's ~$50M revenue target",
+   "answer_value": 50,
+   "unit": "USD million (Probability-Optimized Lite estimated revenue)",
+   "verified": true
+  }
+ ],
+ "synthesis": "Kellogg Capital should enter the mass retail market with its Probability-Optimized Enhanced Trading Systematic Fund Lite product. While it has slightly lower fees than the Purple Pride Fund, it is the only fund that would be able to hit the target of ~$50M of annual revenue by year 3 given expected penetration levels. Risks include cannibalization of current investors (institutional investors may want the lower fees the mutual funds provide) and greater sensitivity of mass retail asset flows to short-term performance. Mitigation steps include studying higher pricing for the mutual funds (currently below average market fees for the segment) and introducing lower-volatility versions of the lite products for risk-averse investors.",
+ "what_great_looks_like": [
+  "Reads the multi-dimensional Exhibit A bubble chart efficiently to land on mass retail as the target segment",
+  "Correctly converts performance fees to equivalent management fees before adjusting for the liquid-asset share",
+  "Computes expected value across a probability distribution (Exhibit C) rather than just using the midpoint or most likely scenario",
+  "Answers both each part's immediate question and the overarching question of how Kellogg Capital doubles revenue in 3 years"
+ ],
+ "common_pitfalls": [
+  "Recommending Purple Pride Lite based on its higher fee alone without checking whether its lower penetration probability still meets the revenue target",
+  "Forgetting to strip out the illiquid-securities share of performance allocation when computing each lite product's expected fee",
+  "Treating the probability distribution in Exhibit C as three equally likely scenarios rather than weighting by the given probabilities"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "exhibits[0].data (Exhibit A has no page render; growth rate and fee values are only available for Mass Retail via the narrative text, not per-segment)"
+  ],
+  "math_verified": true,
+  "notes": "Exhibit A (page 207) has no rendered image in this bundle (render_pages only includes 208-209), so its precise per-segment growth-rate and fee coordinates could not be read from a chart -- only the market-size figures and the Mass Retail growth rate (~5%, stated in the Part 4 narrative) are captured, both from the text layer.",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "suggested_framework.tree",
+   "client_type",
+   "geography",
+   "case_type (mapped from Y02/Y04 to taxonomy)"
+  ]
+ }
+}

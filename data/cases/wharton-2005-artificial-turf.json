@@ -1,0 +1,266 @@
+{
+ "id": "wharton-2005-artificial-turf",
+ "title": "Artificial Turf",
+ "school": "Wharton",
+ "edition": "2005-06",
+ "year": 2005,
+ "source_file": "Wharton/Wharton 2005.pdf",
+ "page_range": [
+  29,
+  30
+ ],
+ "variant_group_id": "artificial-turf",
+ "is_canonical_variant": true,
+ "case_type": [
+  "Market Sizing/Guesstimate"
+ ],
+ "case_type_source_label": "market sizing problem",
+ "industry": "industrials-manufacturing",
+ "sub_industry": "building-products",
+ "industry_source_label": "artificial turf",
+ "geography": "US",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "1st Round"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "H",
+ "estimated_minutes": 25,
+ "tags": [
+  "market-sizing",
+  "guesstimate",
+  "school-population-estimation",
+  "unit-economics",
+  "area-calculation"
+ ],
+ "concepts_tested": [
+  "comfort with ambiguity",
+  "structuring a market-sizing tree",
+  "population-based estimation",
+  "unit conversion (yards to feet)"
+ ],
+ "prompt": "Our client would like us to estimate the market for artificial turf. How would you approach this question?",
+ "clarifying_info": [
+  {
+   "question_topic": "Uses of artificial turf",
+   "answer": "Candidate should brainstorm the range of uses before narrowing scope: sports fields (football, soccer, rugby, golf), commercial businesses, residential, airports, and schools (high schools, colleges). The interviewer then prompts the candidate to estimate the number of schools in the US (or another chosen use case)."
+  }
+ ],
+ "interviewer_notes": "This is a pure market-sizing problem, so rarely is any information provided beyond what the candidate specifically and deliberately asks for. It tests the candidate's comfort with ambiguity. The candidate should lead the discussion, brainstorm the uses of artificial turf, and then be prompted (if needed) to estimate the number of schools in the US as the sizing path.",
+ "suggested_framework": {
+  "summary": "Brainstorm the use cases for artificial turf, choose one segment (schools) to size, estimate the number of relevant institutions from US population data, then multiply by turf replaced per year and price per square foot.",
+  "tree": {
+   "label": "Size the US market for artificial turf (schools segment)",
+   "children": [
+    {
+     "label": "Number of schools",
+     "children": [
+      {
+       "label": "High schools"
+      },
+      {
+       "label": "Bachelor's colleges"
+      },
+      {
+       "label": "Community colleges"
+      }
+     ]
+    },
+    {
+     "label": "Sq. ft. of turf bought per year per school",
+     "children": [
+      {
+       "label": "Field size"
+      },
+      {
+       "label": "Turf lifetime"
+      },
+      {
+       "label": "Adoption rate"
+      }
+     ]
+    },
+    {
+     "label": "Price per sq. ft. of turf"
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "brainstorm",
+   "interviewer_asks": "How would you approach estimating the market for artificial turf?",
+   "expected_answer": "Candidate brainstorms the range of uses for artificial turf (sports fields — football, soccer, rugby, golf; commercial businesses; residential; airports; schools — high schools and colleges), then proposes narrowing to one use case to size.",
+   "good_answer_signals": [
+    "Generates multiple plausible use cases before calculating anything",
+    "Proposes narrowing scope to a tractable segment"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "Let's estimate the number of high schools in the US.",
+   "release_when": "Only if candidate asks for population data clearly and deliberately",
+   "info_to_release": "US population 300M; assume ~1% of the population is age 18 (flat age distribution); assume 80% of 18-year-olds attend/attended high school; assume ~250 18-year-olds per high school.",
+   "expected_answer": "Number of 18-year-olds = 300M × 1% = 3M; attending high school = 3M × 80% = 2.4M; number of high schools = 2.4M / 250 ≈ 9,600.",
+   "good_answer_signals": [
+    "States each assumption explicitly",
+    "Chains population → attendance rate → class size cleanly"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "market-sizing",
+   "interviewer_asks": "Now estimate the number of (bachelor's) colleges in the US.",
+   "info_to_release": "US population 300M; assume ~1% of the population is age 19; assume 25% of 19-year-olds go to a 4-year college; assume average graduating class size of 400.",
+   "expected_answer": "Number of 19-year-olds = 300M × 1% = 3M; going to college = 3M × 25% = 750,000; number of colleges = 750,000 / 400 ≈ 1,875.",
+   "good_answer_signals": [
+    "Reuses the age-cohort approach consistently",
+    "Picks a reasonable average graduating class size"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "market-sizing",
+   "interviewer_asks": "And the number of community colleges?",
+   "info_to_release": "Assume 10% of 19-year-olds go to community college; assume average graduating class size of 200.",
+   "expected_answer": "Going to community college = 3M × 10% = 300,000; number of community colleges = 300,000 / 200 = 1,500.",
+   "good_answer_signals": [
+    "Applies the same cohort-based method a third time consistently"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "math",
+   "interviewer_asks": "Now put it together — what's the total annual market size for artificial turf in US schools?",
+   "info_to_release": "Assumptions to use: price of turf = $10/sq ft; turf lifetime = 10 years; athletic field size = 60 yards × 120 yards; adoption rate of turf = 50%.",
+   "expected_answer": "Total schools = 9,600 + 1,875 + 1,500 = 13,000. Field size = 180 ft × 360 ft = 64,800 sq ft. Annual sq ft of turf bought per school = (1/10 lifetime) × 50% adoption × 64,800 = 3,240 sq ft. Market size = 13,000 schools × 3,240 sq ft × $10/sq ft ≈ $420M.",
+   "good_answer_signals": [
+    "Correctly converts yards to feet before computing area",
+    "Correctly amortizes turf purchases over its 10-year lifetime",
+    "Arrives at a final market-size figure in the hundreds of millions"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "So, what's your estimate of the market size?",
+   "expected_answer": "The market for artificial turf in US schools (high schools, colleges, and community colleges) is roughly $420 million per year; candidate should note this covers only the schools segment and that other use cases (sports leagues, commercial, residential, airports) would add further market size if sized separately.",
+   "good_answer_signals": [
+    "States a clear final number",
+    "Notes the estimate is scoped to schools, not the full addressable market"
+   ]
+  }
+ ],
+ "exhibits": [],
+ "math": [
+  {
+   "id": "m1",
+   "question": "How many US high schools are there?",
+   "givens": [
+    "US population 300M",
+    "~1% of population is age 18",
+    "80% of 18-year-olds attend high school",
+    "~250 18-year-olds per high school"
+   ],
+   "steps": [
+    "18-year-olds = 300M × 1% = 3M",
+    "Attending high school = 3M × 80% = 2.4M",
+    "Number of high schools = 2.4M / 250 = 9,600"
+   ],
+   "answer": "≈9,600 high schools",
+   "answer_value": 9600,
+   "unit": "schools",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "How many (bachelor's) colleges are there?",
+   "givens": [
+    "US population 300M",
+    "~1% of population is age 19",
+    "25% of 19-year-olds attend a 4-year college",
+    "Average graduating class of 400 students"
+   ],
+   "steps": [
+    "19-year-olds = 300M × 1% = 3M",
+    "Attending college = 3M × 25% = 750,000",
+    "Number of colleges = 750,000 / 400 = 1,875"
+   ],
+   "answer": "≈1,875 colleges",
+   "answer_value": 1875,
+   "unit": "colleges",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "How many community colleges are there?",
+   "givens": [
+    "19-year-old population 3M",
+    "10% attend community college",
+    "Average graduating class of 200 students"
+   ],
+   "steps": [
+    "Attending community college = 3M × 10% = 300,000",
+    "Number of community colleges = 300,000 / 200 = 1,500"
+   ],
+   "answer": "≈1,500 community colleges",
+   "answer_value": 1500,
+   "unit": "colleges",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is the annual US market size for artificial turf in schools?",
+   "givens": [
+    "Total schools = 9,600 + 1,875 + 1,500 = 13,000",
+    "Athletic field = 60 yards × 120 yards",
+    "Turf lifetime = 10 years",
+    "Turf adoption rate = 50%",
+    "Price of turf = $10/sq ft"
+   ],
+   "steps": [
+    "Field area = (60×3) ft × (120×3) ft = 180 ft × 360 ft = 64,800 sq ft",
+    "Annual sq ft bought per school = (1/10 lifetime) × 50% adoption × 64,800 sq ft = 3,240 sq ft",
+    "Market size = 13,000 schools × 3,240 sq ft × $10/sq ft = $421.2M ≈ $420M"
+   ],
+   "answer": "≈$420 million per year",
+   "answer_value": 420000000,
+   "unit": "USD/year",
+   "verified": true
+  }
+ ],
+ "synthesis": "The annual US market size for artificial turf, sized through the schools segment (high schools, 4-year colleges, and community colleges), is approximately $420 million. This is built bottom-up: ~13,000 total schools, each replacing roughly 3,240 sq ft of turf per year (accounting for a 10-year turf lifetime and ~50% adoption on a 64,800 sq ft field), at $10/sq ft. This figure covers only the schools use case; sizing other uses (professional/amateur sports leagues, commercial, residential, airports) separately would add further market size.",
+ "what_great_looks_like": [
+  "Brainstorms multiple plausible uses for artificial turf before picking one to size",
+  "States every assumption explicitly and keeps them internally consistent",
+  "Correctly converts yards to feet before computing field area",
+  "Correctly amortizes a durable purchase (turf) over its useful life rather than treating it as bought every year at full size",
+  "Sanity-checks the final number and is explicit about what it does and doesn't cover"
+ ],
+ "common_pitfalls": [
+  "Forgets to convert yards to feet (or vice versa) when computing field area",
+  "Forgets to amortize turf purchases over the 10-year lifetime, overstating annual demand by 10x",
+  "Picks an unreasonable age-cohort percentage or school size without sanity-checking it",
+  "Presents the schools-only estimate as if it were the entire addressable market for artificial turf"
+ ],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Case gives no firm name, only '1st Round'; firm_style_hint reflects that. All book math independently recomputed and matches (market size $421.2M rounds to the book's stated $420M).",
+  "fields_inferred": [
+   "difficulty",
+   "estimated_minutes",
+   "quant_intensity",
+   "what_great_looks_like",
+   "common_pitfalls",
+   "industry",
+   "sub_industry"
+  ]
+ }
+}

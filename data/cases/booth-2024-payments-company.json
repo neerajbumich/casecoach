@@ -1,0 +1,475 @@
+{
+ "id": "booth-2024-payments-company",
+ "title": "Payments Company",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  238,
+  244
+ ],
+ "case_type": [
+  "Profitability",
+  "Market Entry"
+ ],
+ "case_type_source_label": "Profitability",
+ "industry": "payments-fintech",
+ "sub_industry": "payments",
+ "industry_source_label": "Financial Services",
+ "geography": "United States, England, and Japan",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Deloitte",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2, Quant 2, Creativity 1 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "contactless-payments",
+  "transit",
+  "market-prioritization",
+  "breakeven",
+  "sunk-cost",
+  "processing-fees",
+  "go-to-market"
+ ],
+ "concepts_tested": [
+  "chart interpretation",
+  "expected market opportunity",
+  "five-year profitability",
+  "breakeven analysis",
+  "unit conversion"
+ ],
+ "fit_question": "Are you applying to all consulting firms, and why or why not? Alternatively, explain why the interviewer should hire you over your peers.",
+ "prompt": "PayCo is a global credit-card company with more than $5B of revenue in 2010. It developed proprietary TAP contactless technology for cash-dominated transit systems such as subways, trains, buses, and taxis. Develop the business case for commercialization: which market and transit vertical should PayCo target first, will TAP break even in less than five years, and should PayCo pursue commercialization?",
+ "clarifying_info": [
+  {
+   "question_topic": "Industry trend",
+   "answer": "Contactless tap-and-go payment is increasingly used at fast-food restaurants and convenience stores."
+  },
+  {
+   "question_topic": "Strategic objective",
+   "answer": "PayCo wants to use contactless payments to drive top-line growth by entering the transit vertical."
+  },
+  {
+   "question_topic": "Adoption challenge",
+   "answer": "Transit authorities may adopt TAP or retain their existing fare-collection systems."
+  },
+  {
+   "question_topic": "Engagement scope",
+   "answer": "The broader engagement covers global market sizing, opportunity prioritization, a financial business case, and go-to-market strategy."
+  }
+ ],
+ "interviewer_notes": "Run the three prompt questions sequentially as mini-cases rather than asking for a traditional framework. Exhibit 1 supports market and vertical prioritization; prompt for qualitative considerations if the candidate gives only a calculation. Exhibit 2 supports the NYC subway P&L and requires careful conversion among billions, millions, thousands, percentages, and per-transaction costs. The $1M past development investment is sunk and excluded from the commercialization decision. The source incorrectly labels fare-collection opportunity results in millions even though Exhibit 1 states annual fare collection in billions.",
+ "suggested_framework": {
+  "summary": "Prioritize the expected and timely transit opportunity, build an incremental commercialization P&L, and test strategic benefits and risks before launch.",
+  "tree": {
+   "label": "Commercialize TAP?",
+   "children": [
+    {
+     "label": "Market priority",
+     "children": [
+      {
+       "label": "Fare pool and transaction volume"
+      },
+      {
+       "label": "Contract win probability and system timing"
+      },
+      {
+       "label": "Brand, strategic fit, and pursuit cost"
+      }
+     ]
+    },
+    {
+     "label": "Incremental economics",
+     "children": [
+      {
+       "label": "License and processing-fee revenue"
+      },
+      {
+       "label": "Transaction, advertising, and SG&A costs"
+      },
+      {
+       "label": "Annual and cumulative profit, breakeven, and NPV"
+      }
+     ]
+    },
+    {
+     "label": "Go-to-market and risk",
+     "children": [
+      {
+       "label": "Transit-authority adoption and competitive response"
+      },
+      {
+       "label": "Forecast and cost sensitivity"
+      },
+      {
+       "label": "Proof point for expansion to other cities"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "exhibit",
+   "interviewer_asks": "Using Exhibit 1, which market and transit vertical should PayCo target first?",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Prioritize New York subways. Buses have much smaller fare pools and can be screened out quickly. Expected annual subway fare opportunity is $12B x 90% = $10.8B in New York, $13B x 70% = $9.1B in London, and $45B x 20% = $9.0B in Tokyo. New York is highest and is ready in 2012; Tokyo is not ready until 2015. A strong candidate should notice that the source calls these figures millions even though the exhibit units are billions, and should test the sensitive 90% win estimate and pursuit costs.",
+   "good_answer_signals": [
+    "Uses fare pool times contract-win probability",
+    "Screens out buses and deprioritizes country macro data",
+    "Integrates system timing and qualitative strategic factors",
+    "Catches the source's unit-label error"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "analysis",
+   "interviewer_asks": "What additional factors could change the New York priority?",
+   "expected_answer": "Assess PayCo's brand and relationships in each city, strategic importance, regulatory and technical integration difficulty, sales and implementation cost, competitive intensity, and sensitivity to win probability. Tokyo would exceed New York at a 25% win probability because $45B x 25% = $11.25B, but its 2015 timing still delays value.",
+   "good_answer_signals": [
+    "Tests the most uncertain assumption",
+    "Notes that a five-point Tokyo probability increase changes the quantitative ranking",
+    "Adds cost and capability considerations absent from the exhibit"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 2, build the annual TAP profit forecast for the NYC subway opportunity.",
+   "release_when": "Provide Exhibit 2 after selecting New York subways.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Revenue equals 0.20% of fare collections plus a $250K annual license fee. Cost equals transactions x $0.005 plus advertising and SG&A. Profit is -$300K in 2011, -$50K in 2012, +$200K in 2013, +$200K in 2014, and +$200K in 2015. The $1M past development investment is sunk and excluded from the forward commercialization P&L.",
+   "good_answer_signals": [
+    "Converts transactions in millions and fare collections in millions consistently",
+    "Builds revenue and cost separately for each year",
+    "Excludes sunk development cost"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Does TAP break even in less than five years, and what is cumulative five-year profit?",
+   "expected_answer": "Cumulative profit is -$300K after 2011, -$350K after 2012, -$150K after 2013, +$50K after 2014, and +$250K after 2015. TAP therefore breaks even during the fourth year and earns $250K over five years before time value of money. A more complete investment assessment would discount the cash flows.",
+   "good_answer_signals": [
+    "Uses cumulative rather than annual profit for breakeven",
+    "Identifies 2014 as the fourth year",
+    "Mentions NPV without inventing a discount rate"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "Should PayCo commercialize TAP?",
+   "expected_answer": "Proceed with a bid for New York subways, subject to validating the 90% win probability and operating forecasts. The project breaks even in year four and produces $250K over five years, while creating brand, market-share, and expansion benefits. Test transaction and fare forecasts, advertising cost, implementation feasibility, and competitor response; then develop a high-level implementation plan. The absolute profit is modest, so the strategic option value matters.",
+   "good_answer_signals": [
+    "Makes a clear proceed recommendation with conditions",
+    "Supports it with breakeven and cumulative profit",
+    "Balances modest economics with strategic benefits and risks"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Country and transit-system opportunity data",
+   "page": 240,
+   "kind": "table",
+   "description": "Country macro indicators plus subway and bus demand, annual fare collection, system timing, and estimated contract-win probability for New York, London, and Tokyo.",
+   "data": {
+    "columns": [
+     "Country / city",
+     "Population",
+     "Population growth",
+     "GDP",
+     "GDP growth",
+     "GDP per capita",
+     "Vertical",
+     "Daily passengers",
+     "Annual fare collection",
+     "New-system timing",
+     "Win probability"
+    ],
+    "rows": [
+     [
+      "US / NYC",
+      "313M",
+      "0.96%",
+      "$14.7T",
+      "2.7%",
+      "$47,400",
+      "Subway",
+      "11.5M",
+      "$12B",
+      "2012",
+      "90%"
+     ],
+     [
+      "England / London",
+      "63M",
+      "0.56%",
+      "$2.2T",
+      "1.6%",
+      "$35,100",
+      "Subway",
+      "8.5M",
+      "$13B",
+      "2012",
+      "70%"
+     ],
+     [
+      "Japan / Tokyo",
+      "126M",
+      "-0.28%",
+      "$4.3T",
+      "3.0%",
+      "$34,200",
+      "Subway",
+      "14.3M",
+      "$45B",
+      "2015",
+      "20%"
+     ],
+     [
+      "US / NYC",
+      "313M",
+      "0.96%",
+      "$14.7T",
+      "2.7%",
+      "$47,400",
+      "Bus",
+      "3.0M",
+      "$2.8B",
+      "2013",
+      "90%"
+     ],
+     [
+      "England / London",
+      "63M",
+      "0.56%",
+      "$2.2T",
+      "1.6%",
+      "$35,100",
+      "Bus",
+      "4.5M",
+      "$5.5B",
+      "2013",
+      "70%"
+     ],
+     [
+      "Japan / Tokyo",
+      "126M",
+      "-0.28%",
+      "$4.3T",
+      "3.0%",
+      "$34,200",
+      "Bus",
+      "5.8M",
+      "$4.4B",
+      "2015",
+      "20%"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-payments-company/p240.webp",
+   "image_has_answers": false,
+   "key_insight": "New York subways have the highest probability-weighted fare pool and earlier implementation timing; Tokyo's much larger pool is offset by a low win probability and delayed system change.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "NYC subway forecast and TAP assumptions",
+   "page": 242,
+   "kind": "table",
+   "description": "Five-year transaction, fare-collection, pricing, unit-cost, advertising, and SG&A inputs for the NYC subway commercialization business case.",
+   "data": {
+    "columns": [
+     "Input",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015"
+    ],
+    "rows": [
+     [
+      "TAP transactions (M)",
+      "1,500",
+      "2,000",
+      "2,500",
+      "3,000",
+      "3,000"
+     ],
+     [
+      "TAP fare collection ($M)",
+      "$3,750",
+      "$5,000",
+      "$6,250",
+      "$7,500",
+      "$7,500"
+     ],
+     [
+      "Advertising and promotion ($000)",
+      "$500",
+      "$250",
+      "$0",
+      "$0",
+      "$0"
+     ],
+     [
+      "SG&A ($000)",
+      "$50",
+      "$50",
+      "$50",
+      "$50",
+      "$50"
+     ],
+     [
+      "Annual license fee",
+      "$250K",
+      "$250K",
+      "$250K",
+      "$250K",
+      "$250K"
+     ],
+     [
+      "Processing fee",
+      "0.20% of fare collection",
+      "0.20%",
+      "0.20%",
+      "0.20%",
+      "0.20%"
+     ],
+     [
+      "Cost per transaction",
+      "$0.005",
+      "$0.005",
+      "$0.005",
+      "$0.005",
+      "$0.005"
+     ],
+     [
+      "Past TAP development investment",
+      "$1,000K sunk",
+      "",
+      "",
+      "",
+      ""
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-payments-company/p242.webp",
+   "image_has_answers": false,
+   "key_insight": "Processing revenue and transaction cost scale nearly together, while the license fee covers recurring SG&A and recoups the initial advertising spend over time.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "Which subway market has the highest probability-weighted fare opportunity?",
+   "givens": [
+    "Subway annual fare collection: NYC $12B, London $13B, Tokyo $45B",
+    "Win probabilities: 90%, 70%, 20%"
+   ],
+   "steps": [
+    "NYC = $12B x 90% = $10.8B",
+    "London = $13B x 70% = $9.1B",
+    "Tokyo = $45B x 20% = $9.0B"
+   ],
+   "answer": "New York subways at $10.8B of probability-weighted annual fare opportunity",
+   "answer_value": 10.8,
+   "unit": "USD billions",
+   "verified": false,
+   "book_answer_if_different": "The book gives the same numerical results, 10.8, 9.1, and 9.0, but labels the fare collections and market opportunities as $MM on the solution page. Exhibit 1 explicitly states annual fare collection in $B, so the corrected units are billions."
+  },
+  {
+   "id": "m2",
+   "question": "What is annual TAP profit for NYC from 2011 through 2015?",
+   "givens": [
+    "Fare collection $3,750M; $5,000M; $6,250M; $7,500M; $7,500M",
+    "Transactions 1,500M; 2,000M; 2,500M; 3,000M; 3,000M",
+    "0.20% processing fee",
+    "$250K annual license fee",
+    "$0.005 transaction cost",
+    "Advertising $500K; $250K; $0; $0; $0",
+    "$50K annual SG&A"
+   ],
+   "steps": [
+    "2011 revenue = $7.5M + $0.25M = $7.75M; cost = $7.5M + $0.5M + $0.05M = $8.05M; profit = -$0.30M",
+    "2012 revenue = $10.25M; cost = $10.30M; profit = -$0.05M",
+    "2013 revenue = $12.75M; cost = $12.55M; profit = $0.20M",
+    "2014 revenue = $15.25M; cost = $15.05M; profit = $0.20M",
+    "2015 revenue = $15.25M; cost = $15.05M; profit = $0.20M"
+   ],
+   "answer": "Annual profit: -$300K, -$50K, +$200K, +$200K, +$200K",
+   "answer_value": -300,
+   "unit": "USD thousands in 2011",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "When does TAP break even and what is five-year cumulative profit?",
+   "givens": [
+    "Annual profit -$300K, -$50K, +$200K, +$200K, +$200K",
+    "Past $1M development cost is sunk"
+   ],
+   "steps": [
+    "Cumulative 2011 = -$300K",
+    "Cumulative 2012 = -$350K",
+    "Cumulative 2013 = -$150K",
+    "Cumulative 2014 = +$50K",
+    "Cumulative 2015 = +$250K"
+   ],
+   "answer": "Breakeven in year 4; $250K cumulative profit after five years",
+   "answer_value": 250,
+   "unit": "USD thousands cumulative through 2015",
+   "verified": true
+  }
+ ],
+ "synthesis": "PayCo should pursue New York subways, subject to validating the 90% contract-win estimate and operating assumptions. New York has the highest probability-weighted subway fare pool at $10.8B, not the $10.8M unit shown on the source solution page, and is ready in 2012. The forward TAP P&L breaks even in year four and yields $250K over five years, excluding sunk development cost. Bid discipline, transaction forecasts, advertising cost, technical delivery, and competitor response require diligence; strategic brand and expansion value help justify the modest absolute profit.",
+ "what_great_looks_like": [
+  "Screens buses and macro data before calculating",
+  "Combines fare pool, win probability, and timing",
+  "Maintains units across billions, millions, thousands, percentages, and per-transaction costs",
+  "Treats past development as sunk",
+  "Flags the source's market-opportunity unit error"
+ ],
+ "common_pitfalls": [
+  "Choosing Tokyo based only on gross fare collection",
+  "Using annual profit instead of cumulative profit for breakeven",
+  "Including the $1M sunk development cost in the commercialization decision",
+  "Applying 0.20% to transactions rather than fare value",
+  "Repeating the source's $MM opportunity label despite Exhibit 1's $B units"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "All P&L and breakeven calculations were independently recomputed and match the source. The market-prioritization solution contains a unit error: Exhibit 1 reports annual fare collection in billions, but page 241 labels the 10.8, 9.1, and 9.0 opportunity figures as millions. Correct units are billions. Exhibit tables contain inputs only. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type secondary label",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "suggested_framework",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

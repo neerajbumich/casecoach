@@ -1,0 +1,380 @@
+{
+ "id": "fuqua-2023-water-provision-scheme",
+ "title": "Water Provision Scheme",
+ "school": "Fuqua",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Fuqua/Fuqua_Casebook_2023-2024 (2).pdf",
+ "page_range": [
+  93,
+  100
+ ],
+ "author": "Sai Kuncham Venkat (Fuqua '24)",
+ "case_type": [
+  "Public Sector/Social Impact",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Decision Analysis",
+ "industry": "public-sector",
+ "sub_industry": "government",
+ "industry_source_label": "Public Sector",
+ "geography": "Rural India",
+ "client_type": "public sector",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "McKinsey"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Quantitative: Difficult; Qualitative: Difficult",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "public-sector",
+  "water-access",
+  "npv",
+  "perpetuity",
+  "pilot-selection",
+  "education",
+  "social-impact"
+ ],
+ "prompt": "As of March 2021, the Education Ministry (EM) in India believes that more than 42,000 government schools across the country don't have drinking water facilities and have no provision of water. Consumption of dirty water is detrimental to kids' health; it can lead to many diseases and cause the students to drop out of school. Each school has typically 100 students and each student typically consumes 200L yearly. The client wants your help to design a roadmap to serve the needs of the 42,000 schools and ensure that each school has potable drinking water by 2030.",
+ "clarifying_info": [
+  {
+   "question_topic": "Objective",
+   "answer": "Maximize student enrollment by providing water in the most feasible way."
+  },
+  {
+   "question_topic": "Funding",
+   "answer": "Government funding is incredibly limited."
+  },
+  {
+   "question_topic": "Location",
+   "answer": "All schools are in rural India."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led: framework, water-option analysis, qualitative comparison, pilot-state selection, and enrollment-infrastructure brainstorm. Give water-option costs verbally. The only exhibit to show the candidate is the state table on page 98. Give the discount rate and can capacity if asked. The cost solution assumes perpetual constant annual spending although the horizon is unstated. The state answer key changes 100 students per school to 200 without explanation; use the prompt's 100 consistently and flag the resulting halving of reported impacts. The ranking still favors Tamil Nadu.",
+ "suggested_framework": {
+  "summary": "Assess safe sources and infrastructure, government feasibility, and community ownership.",
+  "tree": {
+   "label": "Provide potable water and improve enrollment",
+   "children": [
+    {
+     "label": "Sources, quality and safety",
+     "children": [
+      {
+       "label": "Borewell, river, tank, ponds and rainwater harvesting"
+      },
+      {
+       "label": "Facilities, piping, distribution and maintenance"
+      },
+      {
+       "label": "Testing and treatment to drinking-water standards"
+      }
+     ]
+    },
+    {
+     "label": "Government implications",
+     "children": [
+      {
+       "label": "Affordable, viable delivery and cost considerations"
+      },
+      {
+       "label": "Existing stipulations, stakeholders and implementation challenges"
+      }
+     ]
+    },
+    {
+     "label": "Community",
+     "children": [
+      {
+       "label": "Engage teachers, students, parents and community leaders"
+      },
+      {
+       "label": "Awareness and targeted education on clean water"
+      },
+      {
+       "label": "Local ownership and responsibility for sustainability"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you design the water-provision roadmap?",
+   "release_when": "After the prompt, with objective, funding and geography clarified on request.",
+   "expected_answer": "Consider available water sources and infrastructure, quality and maintenance, financial and government feasibility, and community engagement. Keep enrollment impact and long-run sustainability central rather than choosing a technology solely on installation cost.",
+   "good_answer_signals": [
+    "Includes safe treatment and ongoing maintenance.",
+    "Involves the local community in long-term ownership."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "The Ministry has identified replenishable contractor-delivered cans or in-house treatment. Nearby sources are dirty, so all schools must use one of these options. Which is more economical?",
+   "release_when": "After the framework. Share costs verbally, not as an image; provide rate and can capacity if asked.",
+   "info_to_release": "Water cans cost INR 20 per can with no stated upfront cost. Treatment requires INR 200,000 upfront, INR 5,000 annual maintenance and INR 5,000 annual electricity. If asked: discount rate 5%, 100 students per school, 200 L per student annually, and 20 L per can.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "One school needs 20,000 L or 1,000 cans annually, costing INR 20,000 a year. Treatment costs INR 10,000 a year after INR 200,000 upfront. Under the perpetuity assumption implicit in the book, cans have present cost 20,000/5% = INR 400,000; treatment has 200,000 + 10,000/5% = INR 400,000. The 2030 implementation deadline is not a specified cash-flow horizon. Recognize equal present costs and move to qualitative risks.",
+   "good_answer_signals": [
+    "Requests missing inputs before calculating.",
+    "Remembers student demand from the prompt and states the perpetuity assumption."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "brainstorm",
+   "interviewer_asks": "What other factors matter given that both options have the same NPV?",
+   "release_when": "After the equal-cost conclusion.",
+   "expected_answer": "Compare water quality and safety: filtration performance, can quality assurance, local health standards and contamination risks from handling cans or maintaining the facility. Compare reliability and access: student/staff convenience, contractor delivery reliability, and dependable electricity for treatment. Neither choice is risk-free; select based on local feasibility.",
+   "good_answer_signals": [
+    "Structures quality/safety separately from reliability/access.",
+    "Compares risks of both options in low-income settings."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "The EM wants to pilot this in one state. Which state should be prioritized based on the data?",
+   "release_when": "Show the state table after the qualitative option comparison. This is the case's only candidate-facing image.",
+   "info_to_release": "Schools/current enrollment/percentage saying they would attend if water is provided: Andhra Pradesh 4,000/50%/90%; Tamil Nadu 3,000/15%/95%; Karnataka 6,000/55%/80%; Uttar Pradesh 4,000/30%/67.5%; Delhi 1,000/60%/90%; Punjab 2,000/58%/78%; HP 1,000/50%/70%. The prompt gives 100 students per school.",
+   "exhibit_ids": [
+    "ex2"
+   ],
+   "expected_answer": "Prioritize incremental enrollment, not the highest final percentage or largest school count alone. Applying (anticipated minus current enrollment) × schools × the prompt's 100-student base gives Andhra Pradesh 160,000, Tamil Nadu 240,000, Karnataka 150,000, Uttar Pradesh 150,000, Delhi 30,000, Punjab 40,000 and HP 20,000. Tamil Nadu ranks first. The book's corresponding figures are twice these because its guidance switches to 200 students per school; that conflicts with the prompt. Treat the survey percentage as anticipated overall enrollment, as the answer key does, and clarify the student-population base before actual planning.",
+   "good_answer_signals": [
+    "Maximizes incremental enrollment.",
+    "Recognizes that stated intention may not become actual attendance."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "Even clean water does not generate 100% enrollment. What other infrastructure factors could prevent primary-school enrollment?",
+   "release_when": "After pilot-state selection.",
+   "expected_answer": "Within schools: sanitation, overcrowded classrooms and inadequate seating, unsafe buildings, electricity and technology access. Outside schools: reliable transport, healthcare, government social welfare and financial assistance, and community centers for education and extracurricular activities. Structure the answer and recognize that multiple barriers constrain rural enrollment.",
+   "good_answer_signals": [
+    "Separates school infrastructure from surrounding community infrastructure."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Summarize the proposed pilot and what must be validated before scaling.",
+   "expected_answer": "Pilot in Tamil Nadu, where the supplied model predicts the largest incremental enrollment: 240,000 using the prompt's 100 students per school. Both water options have INR 400,000 present cost per school under the book's implicit perpetuity, so choose locally using water safety, delivery or power reliability, accessibility and maintenance capability. Validate demand, student-population assumptions, the costing horizon and implementation feasibility before scaling toward the 2030 goal. Address other school and community infrastructure barriers as well.",
+   "good_answer_signals": [
+    "Combines enrollment impact, affordability, safety and execution rather than treating water alone as sufficient."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Water-provision cost inputs — verbal only",
+   "page": 96,
+   "kind": "table",
+   "description": "Verbally supplied inputs. No image because the book says only the state exhibit should be shown.",
+   "data": {
+    "columns": [
+     "Input",
+     "Water cans",
+     "Treatment facility",
+     "Unit"
+    ],
+    "rows": [
+     [
+      "One-time cost",
+      "None stated",
+      200000,
+      "INR"
+     ],
+     [
+      "Maintenance",
+      "None stated",
+      5000,
+      "INR/year"
+     ],
+     [
+      "Water-can cost",
+      20,
+      "Not applicable",
+      "INR/can"
+     ],
+     [
+      "Electricity",
+      "None stated",
+      5000,
+      "INR/year"
+     ]
+    ]
+   },
+   "key_insight": "Compare upfront and recurring costs on a consistent discounted basis, then evaluate nonfinancial differences.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Pilot-state enrollment inputs",
+   "page": 98,
+   "kind": "table",
+   "description": "Rural school counts, current enrollment and survey willingness to attend if water is provided. The solution treats willingness as anticipated total enrollment.",
+   "data": {
+    "columns": [
+     "State",
+     "Rural schools",
+     "Current enrollment (%)",
+     "Would attend with water (%)"
+    ],
+    "rows": [
+     [
+      "Andhra Pradesh",
+      4000,
+      50,
+      90
+     ],
+     [
+      "Tamil Nadu",
+      3000,
+      15,
+      95
+     ],
+     [
+      "Karnataka",
+      6000,
+      55,
+      80
+     ],
+     [
+      "Uttar Pradesh",
+      4000,
+      30,
+      67.5
+     ],
+     [
+      "Delhi",
+      1000,
+      60,
+      90
+     ],
+     [
+      "Punjab",
+      2000,
+      58,
+      78
+     ],
+     [
+      "HP",
+      1000,
+      50,
+      70
+     ]
+    ]
+   },
+   "image_path": "exhibits/fuqua-2023-water-provision-scheme/p098.webp",
+   "key_insight": "Tamil Nadu has the largest incremental enrollment opportunity once rate improvement and school count are combined.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is annual water demand and can cost per school?",
+   "givens": [
+    "100 students",
+    "200 L/student/year",
+    "20 L/can",
+    "INR 20/can"
+   ],
+   "steps": [
+    "Demand = 100 × 200 = 20,000 L/year.",
+    "Cans = 20,000 / 20 = 1,000/year.",
+    "Cost = 1,000 × 20 = INR 20,000/year."
+   ],
+   "answer": "INR 20,000 annual can cost per school.",
+   "answer_value": 20000,
+   "unit": "INR/year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are the present costs of the two options?",
+   "givens": [
+    "Cans INR 20,000 annually",
+    "Treatment INR 200,000 upfront, 5,000 maintenance and 5,000 electricity annually",
+    "Discount rate 5%",
+    "Implicit book assumption: constant annual costs in perpetuity"
+   ],
+   "steps": [
+    "Can present cost = 20,000 / 0.05 = INR 400,000.",
+    "Treatment annual operating cost = 5,000 + 5,000 = INR 10,000.",
+    "Treatment present cost = 200,000 + 10,000 / 0.05 = INR 400,000."
+   ],
+   "answer": "Both options have INR 400,000 present cost per school under the implicit perpetuity assumption.",
+   "answer_value": 400000,
+   "unit": "INR",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "Which state has the greatest incremental enrollment using 100 students per school?",
+   "givens": [
+    "State counts and current/anticipated enrollment percentages in Exhibit 2",
+    "Prompt: 100 students per school"
+   ],
+   "steps": [
+    "Incremental enrollment = schools × (anticipated rate − current rate) × 100.",
+    "Andhra Pradesh: 4,000 × (90% − 50%) × 100 = 160,000.",
+    "Tamil Nadu: 3,000 × (95% − 15%) × 100 = 240,000.",
+    "Karnataka: 6,000 × (80% − 55%) × 100 = 150,000.",
+    "Uttar Pradesh: 4,000 × (67.5% − 30%) × 100 = 150,000.",
+    "Delhi: 1,000 × (90% − 60%) × 100 = 30,000.",
+    "Punjab: 2,000 × (78% − 58%) × 100 = 40,000.",
+    "HP: 1,000 × (70% − 50%) × 100 = 20,000."
+   ],
+   "answer": "Tamil Nadu, with 240,000 additional students under the prompt-consistent calculation.",
+   "answer_value": 240000,
+   "unit": "additional students",
+   "verified": false,
+   "book_answer_if_different": "Page 99 changes the population to '200 (average number of students per school)' and reports Andhra Pradesh 320000, Tamil Nadu 480000, Karnataka 300000, Uttar Pradesh 300000, Delhi 60000, Punjab 80000, HP 40000. Those figures double the prompt-consistent results."
+  }
+ ],
+ "synthesis": "Pilot in Tamil Nadu, which has the largest modeled enrollment improvement: 240,000 using the prompt's 100-student base, rather than the book's inconsistent 480,000. Cans and treatment each cost INR 400,000 in present value under the implicit perpetuity, so local safety, reliability, access and maintenance should decide the technology. Validate the population base, survey-to-attendance conversion and costing horizon, then build a scalable roadmap toward 2030 that also addresses sanitation, classrooms, transport and other enrollment barriers.",
+ "what_great_looks_like": [
+  "Asks for discount rate and can volume before calculating.",
+  "Recognizes the equal-cost result and moves to a structured comparison of risks.",
+  "Uses incremental enrollment rather than raw survey percentages to rank states.",
+  "Organizes enrollment barriers into within-school and outside-school infrastructure."
+ ],
+ "common_pitfalls": [
+  "Confusing 200 liters per student with 200 students per school.",
+  "Treating the 2030 deadline as a supplied perpetuity horizon.",
+  "Showing the cost/solution page despite verbal-only instructions.",
+  "Assuming clean water alone delivers universal enrollment."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-01",
+  "confidence": "medium",
+  "low_confidence_fields": [
+   "math[2].givens (whether 100 denotes potential rather than currently enrolled students is not defined)",
+   "math[1].givens (perpetuity horizon implicit)"
+  ],
+  "math_verified": false,
+  "notes": "The answer key switches from 100 students per school to 200 during state selection. Corrected every incremental enrollment result to use 100; ranking is unchanged. The underlying population base is not clearly defined, so these are prompt-consistent illustrative impacts, not validated demand forecasts. The NPV calculation implicitly uses perpetuities; no asset life or annual cash-flow horizon is supplied. The 2030 goal is an implementation deadline. The book ends with the final brainstorm rather than a formal recommendation; synthesis is inferred from its analyses. Difficulty Difficult maps to 4 in Python. Reviewed and accepted by Claude 2026-10-01.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "stages[5]",
+   "synthesis",
+   "common_pitfalls",
+   "math[1].givens (explicit perpetuity assumption)"
+  ]
+ }
+}

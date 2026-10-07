@@ -1,0 +1,331 @@
+{
+ "id": "booth-2024-new-vaccine",
+ "title": "New Vaccine",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  231,
+  237
+ ],
+ "case_type": [
+  "Market Entry",
+  "Pricing",
+  "New Product/GTM"
+ ],
+ "case_type_source_label": "Market Entry",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Pharmaceutical / Healthcare",
+ "geography": "United States",
+ "client_type": "for-profit",
+ "format": "candidate-led",
+ "firm_style_hint": [
+  "L.E.K. Consulting",
+  "Round 1"
+ ],
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2, Quant 2, Creativity 1 (1-3 scale); Quant Level - MEDIUM",
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "vaccine",
+  "pricing",
+  "market-sizing",
+  "cost-benefit",
+  "patient-segmentation",
+  "antibiotics",
+  "revenue-potential"
+ ],
+ "concepts_tested": [
+  "pricing",
+  "competitive dynamics",
+  "pharmaceuticals",
+  "segment economics",
+  "revenue realism"
+ ],
+ "fit_question": "Tell me about feedback you disagreed with and how you responded. Alternatively, describe a time you needed to establish credibility with a team or manager and how you did it.",
+ "prompt": "Our client is a large pharmaceutical corporation that has developed a new vaccine to prevent low-birth-weight infants from contracting staph infections. The company has asked us to determine the potential for this vaccine.",
+ "clarifying_info": [
+  {
+   "question_topic": "Meaning of potential",
+   "answer": "The client wants clarity on revenue potential and a cost-benefit analysis of administering the vaccine."
+  },
+  {
+   "question_topic": "Geography",
+   "answer": "The launch under consideration is in the United States; international potential is out of scope."
+  },
+  {
+   "question_topic": "Regulatory status",
+   "answer": "The vaccine has full FDA approval."
+  },
+  {
+   "question_topic": "R&D",
+   "answer": "Ignore additional research and development considerations for this case."
+  },
+  {
+   "question_topic": "Efficacy",
+   "answer": "Assume a 100% success rate."
+  },
+  {
+   "question_topic": "Competition",
+   "answer": "There are no comparable vaccines. If a low-birth-weight baby contracts staph, antibiotics are an alternative and are assumed always successful."
+  }
+ ],
+ "interviewer_notes": "The candidate should combine orally released population and product facts with Exhibit 1. After the initial $3B market calculation, challenge whether the company can realistically earn that amount and steer toward antibiotics as the substitute. For this case, ignore who pays: whichever treatment is more cost effective is assumed more likely to be used in each segment. Strong candidates go beyond the requested calculations and compare vaccination with expected antibiotic treatment cost by infant-weight segment.",
+ "suggested_framework": {
+  "summary": "Size the eligible population, establish vaccine economics, compare expected treatment costs by risk segment, and translate likely adoption into revenue.",
+  "tree": {
+   "label": "US potential for the staph vaccine",
+   "children": [
+    {
+     "label": "Target population",
+     "children": [
+      {
+       "label": "Annual births and low-birth-weight incidence"
+      },
+      {
+       "label": "Weight segments and staph frequency"
+      }
+     ]
+    },
+    {
+     "label": "Vaccine economics",
+     "children": [
+      {
+       "label": "Doses, price, efficacy, and administration cost"
+      },
+      {
+       "label": "Revenue by adopted segment and distribution channels"
+      }
+     ]
+    },
+    {
+     "label": "Alternatives and adoption",
+     "children": [
+      {
+       "label": "Expected antibiotic treatment cost"
+      },
+      {
+       "label": "Doctors, parents, hospitals, and public opinion"
+      },
+      {
+       "label": "Health consequences beyond immediate treatment cost"
+      }
+     ]
+    },
+    {
+     "label": "Readiness and risk",
+     "children": [
+      {
+       "label": "FDA approval and launch execution"
+      },
+      {
+       "label": "Changing low-birth-weight population and vaccine sentiment"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "How would you evaluate the potential for the new vaccine?",
+   "expected_answer": "Estimate the annual eligible population and segment it by weight and infection risk. Determine dose count, price, efficacy, and distribution. Compare the cost of vaccinating each segment with expected antibiotic treatment cost and other health benefits, then forecast realistic adoption and revenue. Consider regulatory readiness, alternatives, stakeholder behavior, and launch risks.",
+   "good_answer_signals": [
+    "Defines potential as both revenue and cost-benefit",
+    "Segments the population rather than treating all infants alike",
+    "Includes antibiotics as a substitute"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "market-sizing",
+   "interviewer_asks": "What is the maximum annual revenue opportunity at the proposed per-dose price?",
+   "info_to_release": "The United States has 5M births each year, 10% are low birth weight, the vaccine requires six doses per child, and the stated administration cost and proposed floor price are $1,000 per dose.",
+   "expected_answer": "The eligible population is 5M x 10% = 500,000 infants. At six $1,000 doses, a complete course is $6,000. Vaccinating every eligible infant would therefore produce a theoretical $3B annual revenue opportunity. This is an upper bound, not a realistic forecast, because antibiotic treatment may be cheaper for lower-risk segments.",
+   "good_answer_signals": [
+    "Calculates 500,000 eligible infants",
+    "Uses six doses per child",
+    "Challenges the realism of 100% adoption"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 1, calculate the cost to vaccinate each infant-weight segment.",
+   "release_when": "Provide Exhibit 1 after the candidate asks about infection risk or antibiotic alternatives.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "info_to_release": "The complete six-dose vaccine course costs $6,000 per child. Total low-birth-weight population is 500,000 infants per year.",
+   "expected_answer": "The two 10% segments each contain 50,000 infants and cost 50,000 x $6,000 = $300M to vaccinate. The 80% segment contains 400,000 infants and costs 400,000 x $6,000 = $2.4B. Total vaccination cost across all segments is $3B.",
+   "good_answer_signals": [
+    "Converts shares into segment populations",
+    "Keeps per-dose and full-course price distinct",
+    "Reconciles segment totals to $3B"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "math",
+   "interviewer_asks": "Compare vaccination with expected antibiotic treatment cost for each segment.",
+   "info_to_release": "Assume antibiotics always work. Ignore who pays; the more cost-effective option is expected to be administered in each segment.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "For infants under 1,000g, expected antibiotic cost is 50,000 x 40% x $35,000 = $700M, above the $300M vaccination cost, so vaccination is preferred. For 1,000-1,500g, antibiotics cost 50,000 x 10% x $25,000 = $125M, below $300M vaccination; adoption is possible but not assured. For 1,500-2,500g, antibiotics cost 400,000 x 2% x $10,000 = $80M versus $2.4B vaccination, so antibiotics are preferred absent a mandate or broader health benefit.",
+   "good_answer_signals": [
+    "Applies infection probability before treatment cost",
+    "Makes a distinct decision for each segment",
+    "Recognizes the middle segment is commercially uncertain"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "synthesis",
+   "interviewer_asks": "What revenue potential should the client plan for, and what should it do next?",
+   "expected_answer": "Plan for $300M-$600M of annual revenue at the $6,000 course price. The under-1,000g segment supports $300M because vaccination costs $300M versus $700M expected antibiotics. Capturing the 1,000-1,500g segment could add another $300M, but antibiotics cost only $125M, so uptake is uncertain. Do not count the $2.4B larger-infant segment absent a mandate or evidence of substantial downstream health benefits. Build segment-specific marketing around prevention, quantify short- and long-term staph harms, and address public vaccine concerns.",
+   "good_answer_signals": [
+    "Recommends a bounded $300M-$600M range",
+    "Explains why the range depends on the middle segment",
+    "Names risks and evidence needed to improve adoption"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Staph infection treatment by baby size",
+   "page": 235,
+   "kind": "table",
+   "description": "Low-birth-weight infant segments, population shares, staph infection frequencies, and antibiotic treatment cost per infected child.",
+   "data": {
+    "columns": [
+     "Input",
+     "<1,000 grams",
+     "1,000-1,500 grams",
+     "1,500-2,500 grams"
+    ],
+    "rows": [
+     [
+      "Share of low-birth-weight babies",
+      "10%",
+      "10%",
+      "80%"
+     ],
+     [
+      "Frequency of staph",
+      "40%",
+      "10%",
+      "2%"
+     ],
+     [
+      "Antibiotic cost per infected child",
+      "$35K",
+      "$25K",
+      "$10K"
+     ]
+    ]
+   },
+   "image_path": "exhibits/booth-2024-new-vaccine/p235.webp",
+   "image_has_answers": false,
+   "key_insight": "The smallest infants have sufficiently high infection risk and treatment cost to make universal vaccination cost effective; economics deteriorate sharply with higher birth weight.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the theoretical annual vaccine revenue if every low-birth-weight infant receives all six doses?",
+   "givens": [
+    "5M US births per year",
+    "10% low birth weight",
+    "Six doses",
+    "$1,000 per dose"
+   ],
+   "steps": [
+    "Eligible infants = 5M x 10% = 500,000",
+    "Course price = 6 x $1,000 = $6,000",
+    "Revenue = 500,000 x $6,000 = $3B"
+   ],
+   "answer": "$3B theoretical annual revenue",
+   "answer_value": 3,
+   "unit": "USD billions per year",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What does it cost to vaccinate each weight segment?",
+   "givens": [
+    "500,000 low-birth-weight infants",
+    "Segment shares 10%, 10%, and 80%",
+    "$6,000 per complete course"
+   ],
+   "steps": [
+    "Segment populations = 50,000; 50,000; 400,000",
+    "Vaccination cost = 50,000 x $6,000 = $300M for <1,000g",
+    "Vaccination cost = 50,000 x $6,000 = $300M for 1,000-1,500g",
+    "Vaccination cost = 400,000 x $6,000 = $2.4B for 1,500-2,500g"
+   ],
+   "answer": "$300M, $300M, and $2.4B by ascending weight segment",
+   "answer_value": 300,
+   "unit": "USD millions for the <1,000g segment",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is expected antibiotic treatment cost by weight segment?",
+   "givens": [
+    "Segment populations 50,000; 50,000; 400,000",
+    "Staph frequencies 40%; 10%; 2%",
+    "Antibiotic cost $35K; $25K; $10K per infected child"
+   ],
+   "steps": [
+    "<1,000g = 50,000 x 40% x $35,000 = $700M",
+    "1,000-1,500g = 50,000 x 10% x $25,000 = $125M",
+    "1,500-2,500g = 400,000 x 2% x $10,000 = $80M"
+   ],
+   "answer": "$700M, $125M, and $80M by ascending weight segment",
+   "answer_value": 700,
+   "unit": "USD millions for the <1,000g segment",
+   "verified": true
+  }
+ ],
+ "synthesis": "Plan on $300M-$600M of annual revenue, not the $3B theoretical maximum. Vaccination clearly wins for infants under 1,000g: $300M versus $700M of expected antibiotic treatment. The 1,000-1,500g segment could add $300M but vaccination exceeds the $125M antibiotic alternative, making adoption uncertain. The largest segment is uneconomic at $2.4B versus $80M absent a mandate or broader benefit. Develop segment-specific marketing, quantify longer-term staph harm, and address vaccine hesitancy.",
+ "what_great_looks_like": [
+  "Challenges the $3B headline opportunity",
+  "Builds segment populations correctly",
+  "Compares universal vaccination with probability-weighted antibiotic cost",
+  "Translates cost-effectiveness into a revenue range",
+  "Identifies health outcomes and vaccine sentiment beyond immediate cost"
+ ],
+ "common_pitfalls": [
+  "Confusing $1,000 per dose with $1,000 per course",
+  "Applying antibiotic cost to every infant rather than infected infants",
+  "Assuming all 500,000 infants will be vaccinated",
+  "Ignoring the large differences in infection risk by weight",
+  "Giving a point estimate instead of the source's $300M-$600M range"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "All population, vaccination, and expected antibiotic-cost calculations were independently recomputed and match the source. Exhibit data contains inputs only; worked segment totals remain in stages and math. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "case_type secondary labels",
+   "industry/sub_industry mapping",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

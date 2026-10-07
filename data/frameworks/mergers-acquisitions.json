@@ -1,0 +1,205 @@
+{
+ "id": "mergers-acquisitions",
+ "name": "M&A / acquisition",
+ "category": "core",
+ "summary": "Should the client buy the target? Check the market, the target's standalone value, the synergies, the price and financing, and the deal risks and integration.",
+ "opening_line": "I'd evaluate the deal on four fronts: the target's market, the target's standalone value, the synergies we'd unlock, and whether the price and risks make sense. That's integration, culture and regulation.",
+ "when_to_use": [
+  "Client considers acquiring, merging with or investing in a company",
+  "Post-merger integration questions (focus on synergies and integration)",
+  "Divestiture decisions (reverse the logic: standalone value vs sale price)"
+ ],
+ "when_not_to_use": [
+  "A financial-sponsor (PE) purchase with no synergies: emphasise the investment / due-diligence framework",
+  "The client just wants to grow and acquisition is only one option: start with the growth framework"
+ ],
+ "tree": {
+  "label": "Acquire the target?",
+  "children": [
+   {
+    "label": "Market",
+    "children": [
+     {
+      "label": "Size, growth, profitability"
+     },
+     {
+      "label": "Competitive dynamics"
+     },
+     {
+      "label": "Trends / disruption"
+     }
+    ]
+   },
+   {
+    "label": "Target standalone",
+    "children": [
+     {
+      "label": "Financials: revenue, margins, growth"
+     },
+     {
+      "label": "Customers, products, capabilities"
+     },
+     {
+      "label": "Management & culture"
+     }
+    ]
+   },
+   {
+    "label": "Synergies",
+    "children": [
+     {
+      "label": "Revenue: cross-sell, new channels, pricing"
+     },
+     {
+      "label": "Cost: procurement, overhead, footprint"
+     },
+     {
+      "label": "Capabilities / technology"
+     }
+    ]
+   },
+   {
+    "label": "Deal economics",
+    "children": [
+     {
+      "label": "Valuation vs price"
+     },
+     {
+      "label": "Financing"
+     },
+     {
+      "label": "Returns (NPV / IRR / payback)"
+     }
+    ]
+   },
+   {
+    "label": "Risks & integration",
+    "children": [
+     {
+      "label": "Culture & talent"
+     },
+     {
+      "label": "Regulatory / antitrust"
+     },
+     {
+      "label": "Integration complexity"
+     },
+     {
+      "label": "Alternatives: build or partner"
+     }
+    ]
+   }
+  ]
+ },
+ "buckets": [
+  {
+   "name": "Market",
+   "questions": [
+    "Is the target's market attractive and growing?",
+    "How would the combined company's position change?"
+   ],
+   "data_to_ask": [
+    "Market size, growth and shares"
+   ]
+  },
+  {
+   "name": "Target standalone",
+   "questions": [
+    "Is the target healthy on its own?",
+    "What makes it valuable: customers, IP, brand, capacity?"
+   ],
+   "data_to_ask": [
+    "Target P&L",
+    "Customer concentration"
+   ]
+  },
+  {
+   "name": "Synergies",
+   "questions": [
+    "Where exactly do revenue and cost synergies come from?",
+    "How big are they, how certain, and how fast?"
+   ],
+   "data_to_ask": [
+    "Overlapping cost lines",
+    "Cross-sell potential"
+   ]
+  },
+  {
+   "name": "Deal economics",
+   "questions": [
+    "What's it worth (standalone + synergies) vs the asking price?",
+    "How is it financed, and what return does it earn?"
+   ],
+   "data_to_ask": [
+    "Asking price / multiple",
+    "Cost of capital"
+   ]
+  },
+  {
+   "name": "Risks",
+   "questions": [
+    "Culture clash? Key people leaving?",
+    "Antitrust issues?",
+    "Could we build it more cheaply?"
+   ],
+   "data_to_ask": [
+    "Regulatory view",
+    "Integration plan"
+   ]
+  }
+ ],
+ "industry_adaptations": [
+  {
+   "industry": "cpg",
+   "note": "Synergies usually come from distribution (shelf access, retailer relationships) and procurement. Check brand fit and portfolio overlap."
+  },
+  {
+   "industry": "airlines",
+   "note": "Revenue synergies from network/route overlap and pricing power; cost synergies from fleet, maintenance and overhead. Antitrust scrutiny is heavy."
+  },
+  {
+   "industry": "pharma",
+   "note": "Value sits in the pipeline: risk-adjust each asset by phase success probability and remaining patent life."
+  },
+  {
+   "industry": "tech-saas",
+   "note": "Focus on ARR quality (retention, growth), product fit and cross-sell into the acquirer's base. Price is often a revenue multiple."
+  },
+  {
+   "industry": "asset-management-pe",
+   "note": "For PE buyers, synergies are replaced by the value-creation plan: operational improvements, multiple expansion and leverage."
+  }
+ ],
+ "common_mistakes": [
+  "Assuming synergies without quantifying them or saying how quickly they come",
+  "Ignoring the target's standalone health",
+  "Never comparing value to the price paid",
+  "Leaving out integration, culture and antitrust risk"
+ ],
+ "related": [
+  "investment-npv",
+  "profitability",
+  "porters-five-forces",
+  "value-chain"
+ ],
+ "match": {
+  "case_types": [
+   "M&A/Acquisition"
+  ],
+  "tags": [
+   "ma",
+   "acquisition",
+   "synergies",
+   "divestiture",
+   "valuation",
+   "post-merger"
+  ],
+  "keywords": [
+   "acqui",
+   "merger",
+   "synerg",
+   "target",
+   "deal"
+  ]
+ }
+}

@@ -1,0 +1,392 @@
+{
+ "id": "kellogg-2024-plastic-world",
+ "title": "Plastic World",
+ "school": "Kellogg",
+ "edition": "2024",
+ "year": 2024,
+ "source_file": "Kellogg/Casebook_Kellogg_24.pdf",
+ "page_range": [
+  299,
+  307
+ ],
+ "author": "Milija Medic; edited by Peter Manoogian (Kellogg 2012), Laura Mast (Kellogg 2020)",
+ "variant_group_id": "kellogg-2024-plastic-world",
+ "is_canonical_variant": true,
+ "case_type": [
+  "M&A/Acquisition",
+  "Investment/PE due diligence",
+  "Profitability"
+ ],
+ "case_type_source_label": "Y03 Mergers & Acquisitions",
+ "industry": "industrials-manufacturing",
+ "sub_industry": "packaging-plastics",
+ "industry_source_label": "X06 Financial Services",
+ "geography": "Unspecified",
+ "client_type": "PE/investor",
+ "format": "candidate-led",
+ "firm_style_hint": [],
+ "difficulty": 3,
+ "difficulty_inferred": true,
+ "quant_intensity": "M",
+ "estimated_minutes": 30,
+ "tags": [
+  "private-equity",
+  "acquisition",
+  "profit-margin",
+  "valuation",
+  "pricing",
+  "sales-incentives",
+  "product-line-rationalization",
+  "due-diligence"
+ ],
+ "concepts_tested": [
+  "Z13 Organizational changes",
+  "Z07 Market share",
+  "Z10 Customer strategy"
+ ],
+ "fit_question": "Tell me about a time that you demonstrated entrepreneurial drive in a non-professional environment.",
+ "prompt": "Our client is a private equity firm interested in Plastic World, a plastic packaging manufacturer. Plastic World's owners are requesting $25m. The offer is final. Should our client buy the company?",
+ "clarifying_info": [
+  {
+   "question_topic": "Company / product",
+   "answer": "Plastic World makes plastic packaging for beverages, cosmetics, and household and automotive chemicals. Products are top quality, with 350 sets of molds across different materials, finishes, and colors, and continuous innovation. Overall product mix has not changed in recent years. The sales force is 'best in breed,' holds market share, and is compensated on market share. Two years ago the company invested further in equipment for product innovation."
+  },
+  {
+   "question_topic": "Customers",
+   "answer": "Plastic World's customers exhibit strong loyalty. They are experiencing increasing pressure in their own industries to innovate their plastic packaging."
+  }
+ ],
+ "interviewer_notes": "Problem: should the PE firm purchase Plastic World for $25m? Problem-solving steps: (1) examine financial statements, (2) explore feasibility of the target's profit margin improvement, (3) provide client recommendations.",
+ "suggested_framework": {
+  "summary": "A due-diligence framework that starts with the P&L to diagnose why profitability is negative, benchmarks against competitors to determine if the problem is industry-wide or company-specific, then assesses valuation upside from feasible margin improvements.",
+  "tree": {
+   "label": "Should the PE firm buy Plastic World for $25m?",
+   "children": [
+    {
+     "label": "Financial diagnosis",
+     "children": [
+      {
+       "label": "Revenue trend vs. volume trend"
+      },
+      {
+       "label": "Cost structure (COGS, SG&A, Depreciation)"
+      },
+      {
+       "label": "Profit margin trend"
+      }
+     ]
+    },
+    {
+     "label": "Benchmarking",
+     "children": [
+      {
+       "label": "Is the margin problem industry-wide or company-specific? (competitor profit margins)"
+      }
+     ]
+    },
+    {
+     "label": "Valuation upside",
+     "children": [
+      {
+       "label": "How does company valuation scale with profit margin?"
+      },
+      {
+       "label": "What margin-improvement levers are feasible (sales incentives, product line simplification)?"
+      }
+     ]
+    },
+    {
+     "label": "Recommendation",
+     "children": [
+      {
+       "label": "Buy / don't buy at $25m, and post-acquisition value-creation plan"
+      }
+     ]
+    }
+   ]
+  },
+  "canonical_framework_ids": []
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "Should our client, a PE firm, buy Plastic World for the requested $25m?",
+   "expected_answer": "A due-diligence structure covering the financial statements (revenue, cost, margin trends), competitive benchmarking (is the problem company-specific or industry-wide), and valuation upside from feasible operational improvements."
+  },
+  {
+   "order": 2,
+   "kind": "exhibit",
+   "interviewer_asks": "What observations can be made from this P&L statement? What could be the reasons behind what is in the data?",
+   "release_when": "Immediately after the candidate runs through their problem-solving structure",
+   "info_to_release": "Exhibit A (2016-2018 P&L: sales, volume, COGS, SG&A, depreciation, EBIT).",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Revenue has steadily dropped while sales volume has grown; profit margin is dropping and negative (candidate should calculate ~ -6% in 2018). Given the product mix hasn't changed and volume is rising, the revenue decline must be driven by falling prices per unit. The jump in depreciation reflects the equipment investment made two years ago. Candidate should next ask for competitor profitability data to check whether this is an industry-wide or company-specific problem, and should ask about product quality/customer loyalty to rule out price competition as the reason for the price cuts — since the product is high quality and customers are loyal, most would buy even at a higher price. This should lead to investigating the sales force, who are compensated on market share and thus incentivized to cut prices.",
+   "good_answer_signals": [
+    "Calculates 2018 profit margin as roughly -6%",
+    "Infers price (not mix or volume) is driving the revenue decline, since volume is rising and mix is unchanged",
+    "Connects the sales force's market-share-based compensation to the incentive to cut prices"
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "exhibit",
+   "interviewer_asks": "How does Plastic World's profitability compare to competitors, and how does company value scale with profit margin?",
+   "release_when": "Exhibit B when the candidate requests competitor information; Exhibit C once the candidate starts discussing using profit margins in valuation",
+   "info_to_release": "Exhibit B (competitor profit margins, all positive, vs. Plastic World's roughly -6%); Exhibit C (company valuation as a function of profit margin).",
+   "exhibit_ids": [
+    "ex2",
+    "ex3"
+   ],
+   "expected_answer": "All competitors are profitable, so the margin problem is client-specific, not industry-wide — candidate should discuss a realistic target margin for Plastic World based on the industry data. From Exhibit C: the company would be worth $25m (matching the asking price) if its margin rose from -6% to 0%, and roughly $40m if it reached the industry-average margin (~10%). The key follow-up question is how easily margin can be pushed above zero: changing the sales-force incentive is an easy fix; the dense, constantly-innovated product line (350 molds) is the next-largest lever — some molds could be eliminated to cut costs, while staying mindful of clients' own innovation pressures.",
+   "good_answer_signals": [
+    "Concludes the margin issue is company-specific since all competitors are profitable",
+    "Reads Exhibit C correctly to link 0% margin to $25m valuation and industry-average margin to ~$40m",
+    "Proposes the sales-incentive change and mold/product-line simplification as concrete, feasible levers"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "synthesis",
+   "interviewer_asks": "Provide your recommendation to the client.",
+   "expected_answer": "Accept the $25m offer — at breakeven margin the company is already worth $25m — and drive further value creation post-acquisition: (1) compensate the sales force on company earnings instead of market share, removing the incentive to cut price; (2) simplify the product line by eliminating some of the 350 molds to cut costs, while leveraging the strong sales force to maintain client satisfaction; (3) examine industry best practices for other improvement areas. If margin reaches the industry average, the company could be worth roughly $40m — well above the purchase price.",
+   "good_answer_signals": [
+    "Recommends buying, tying the decision to the $25m valuation-at-breakeven finding",
+    "Lays out the two easy-to-implement levers (sales incentives, product line simplification) with rationale",
+    "Quantifies the upside to industry-average margin ($40m)"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Exhibit A – Profit & Loss statement",
+   "page": 302,
+   "kind": "table",
+   "description": "P&L statement for 2016-2018: sales ($), volume (units), COGS ($), SG&A ($), depreciation ($), and EBIT ($).",
+   "data": {
+    "columns": [
+     "Metric",
+     "2018",
+     "2017",
+     "2016"
+    ],
+    "rows": [
+     [
+      "Sales ($)",
+      18824000,
+      19180000,
+      19650000
+     ],
+     [
+      "Volume (units)",
+      36200000,
+      34250000,
+      32750000
+     ],
+     [
+      "COGS ($)",
+      9050000,
+      8900000,
+      8650000
+     ],
+     [
+      "SG&A ($)",
+      7500000,
+      7200000,
+      7300000
+     ],
+     [
+      "Depreciation ($)",
+      3450000,
+      3450000,
+      2250000
+     ],
+     [
+      "EBIT ($)",
+      -1176000,
+      -370000,
+      1450000
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-plastic-world/p302.webp",
+   "key_insight": "Sales revenue fell every year (2016→2018) while volume rose every year — with an unchanged product mix, this can only be explained by falling average price per unit, and EBIT has swung from positive to increasingly negative.",
+   "data_confidence": "high"
+  },
+  {
+   "id": "ex2",
+   "title": "Exhibit B – Competitor Profit Margins",
+   "page": 303,
+   "kind": "bar",
+   "description": "Horizontal bar chart of profit margins (%) for six competitors (A-F) and Plastic World.",
+   "data": {
+    "columns": [
+     "Company",
+     "Approx. Profit Margin (%)"
+    ],
+    "rows": [
+     [
+      "Competitor A",
+      13
+     ],
+     [
+      "Competitor B",
+      12
+     ],
+     [
+      "Competitor C",
+      10
+     ],
+     [
+      "Competitor D",
+      9
+     ],
+     [
+      "Competitor E",
+      6
+     ],
+     [
+      "Competitor F",
+      5
+     ],
+     [
+      "Plastic World",
+      -6
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-plastic-world/p303.webp",
+   "key_insight": "Every competitor has a positive profit margin (roughly 5-13%), while Plastic World alone is negative (~-6%) — the profitability problem is company-specific, not an industry-wide phenomenon.",
+   "data_confidence": "medium"
+  },
+  {
+   "id": "ex3",
+   "title": "Exhibit C – Valuation by Profit Margin",
+   "page": 304,
+   "kind": "line",
+   "description": "Line chart plotting company valuation ($m) against profit margin (%), from -10% to +15%, showing a roughly linear relationship.",
+   "data": {
+    "columns": [
+     "Profit Margin (%)",
+     "Company Valuation ($M)"
+    ],
+    "rows": [
+     [
+      -10,
+      10
+     ],
+     [
+      -5,
+      17.5
+     ],
+     [
+      0,
+      25
+     ],
+     [
+      5,
+      32.5
+     ],
+     [
+      10,
+      40
+     ],
+     [
+      15,
+      47.5
+     ]
+    ]
+   },
+   "image_path": "exhibits/kellogg-2024-plastic-world/p304.webp",
+   "key_insight": "At 0% profit margin the company is worth exactly the $25m asking price; if Plastic World reached the ~10% industry-average margin implied by Exhibit B, it would be worth roughly $40m — well above the purchase price, before even accounting for further improvement toward the 13%+ margins of top competitors.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is Plastic World's 2018 profit margin?",
+   "givens": [
+    "2018 EBIT = -$1,176,000",
+    "2018 Sales = $18,824,000"
+   ],
+   "steps": [
+    "Profit margin = EBIT / Sales = -$1,176,000 / $18,824,000 ≈ -6.25%"
+   ],
+   "answer": "Approximately -6% profit margin",
+   "answer_value": -6.25,
+   "unit": "% profit margin",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "Did Plastic World's average price per unit actually fall from 2016 to 2018, given rising volume and unchanged product mix?",
+   "givens": [
+    "2016: Sales $19,650,000, Volume 32,750,000 units",
+    "2017: Sales $19,180,000, Volume 34,250,000 units",
+    "2018: Sales $18,824,000, Volume 36,200,000 units"
+   ],
+   "steps": [
+    "2016 avg. price = $19,650,000 / 32,750,000 = $0.600/unit",
+    "2017 avg. price = $19,180,000 / 34,250,000 = $0.560/unit",
+    "2018 avg. price = $18,824,000 / 36,200,000 = $0.520/unit",
+    "Average price fell from $0.600 to $0.520/unit, a decline of about 13% over the two years"
+   ],
+   "answer": "Average price per unit fell from $0.600 (2016) to $0.520 (2018), roughly a 13% decline, confirming price cuts (not mix or volume) drove the revenue decline",
+   "answer_value": -13,
+   "unit": "% price decline 2016-2018",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What is Plastic World worth if its profit margin rises to 0%, and if it reaches the industry-average margin?",
+   "givens": [
+    "Exhibit C: valuation is roughly linear in profit margin, e.g. $25m at 0% margin and $40m at 10% margin",
+    "Competitor margins (Exhibit B) average roughly 9-10%"
+   ],
+   "steps": [
+    "Reading Exhibit C at profit margin = 0%: valuation = $25m",
+    "Reading Exhibit C at profit margin ≈ 10% (industry-average range): valuation ≈ $40m"
+   ],
+   "answer": "$25m at breakeven (0%) margin — matching the asking price; roughly $40m at an industry-average (~10%) margin",
+   "answer_value": 40,
+   "unit": "$M valuation at industry-average margin",
+   "verified": true
+  }
+ ],
+ "synthesis": "The client should accept the $25m offer: at breakeven (0%) profit margin, Plastic World is already worth $25m by Exhibit C's valuation curve, so the deal is downside-protected even before improvements. Post-acquisition, the client should pursue two easy-to-implement levers to push margin toward the industry average (~10%, implying a valuation near $40m): (1) re-base sales-force compensation on company earnings rather than market share, removing the incentive to cut price, and (2) simplify the 350-mold product line to cut costs, while leveraging the strong sales force to preserve client satisfaction and staying mindful of customers' own innovation pressures. The client should also benchmark further improvement ideas against industry best practices.",
+ "what_great_looks_like": [
+  "Notices immediately from Exhibit A that rising volume with falling revenue and unchanged mix implicates price, not demand, as the driver",
+  "Independently connects the sales force's market-share-based compensation to the price-cutting behavior before being prompted",
+  "Reads Exhibit C precisely to link the $25m offer price to the 0%-margin valuation point and to the ~$40m industry-average-margin valuation",
+  "Distinguishes the easy fix (sales incentives) from the harder, judgment-laden fix (product-line simplification) and weighs the innovation-pressure risk of cutting molds"
+ ],
+ "common_pitfalls": [
+  "Assuming the price cuts reflect competitive pressure without checking product quality/customer loyalty or competitor margins first",
+  "Treating the -6% margin and $25m valuation as unrelated facts rather than reading Exhibit C to connect them directly to the asking price",
+  "Recommending mold/product-line cuts without weighing the risk to customer innovation needs and client loyalty"
+ ],
+ "follow_ups": [],
+ "extraction": {
+  "model": "claude-sonnet-5",
+  "extracted_at": "2026-09-28",
+  "confidence": "high",
+  "low_confidence_fields": [
+   "exhibits[1].data (Exhibit B's individual competitor bar values are read visually from an unlabeled bar chart and are approximate; the book's own narrative conclusions — all competitors profitable, industry-average margin implying ~$40m valuation — are captured accurately)"
+  ],
+  "math_verified": true,
+  "notes": "The cover page lists 'X06 Financial Services' as the primary sector, which appears to be a labeling mismatch — the client is a PE firm but the target/case content is a plastics packaging manufacturer; industry_source_label is kept as printed but industry/sub_industry slugs reflect the target company (industrials-manufacturing/packaging-plastics).",
+  "fields_inferred": [
+   "suggested_framework.tree",
+   "difficulty",
+   "tags",
+   "math[1] (average price-per-unit trend, not an explicit calculation in the book text, though it supports the book's stated conclusion)",
+   "industry (chosen from case content rather than the printed, apparently mismatched, source label)",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

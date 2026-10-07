@@ -1,0 +1,129 @@
+{
+  "id": "tech-saas",
+  "name": "Software & SaaS",
+  "group": "Tech & media",
+  "one_liner": "Companies selling software as recurring subscriptions, where near-zero marginal cost and high retention reward scale and punish churn.",
+  "how_it_makes_money": "Most revenue comes from recurring subscriptions priced per seat, per usage unit, or by tier, often sold on annual or multi-year contracts. Add-ons include professional services, implementation, premium support, and increasingly consumption-based or AI-feature pricing.",
+  "value_chain": [
+    "Product and engineering",
+    "Cloud hosting and infrastructure",
+    "Marketing and lead generation",
+    "Sales and channel partners",
+    "Onboarding and customer success",
+    "Renewal and expansion"
+  ],
+  "revenue_formula": [
+    "ARR = customers × average contract value (ACV)",
+    "Next-year ARR = starting ARR × net revenue retention + new-logo ARR",
+    "ACV = seats × price per seat (or usage units × unit price)"
+  ],
+  "cost_structure": [
+    "R&D: engineering salaries, often the largest single bucket for younger companies",
+    "Sales & marketing: frequently the biggest spend at growth-stage firms, driving customer acquisition",
+    "Cost of revenue: cloud hosting, support, and services delivery; gross margins are typically ~70-80%+",
+    "G&A: finance, legal, HR; shrinks as a share of revenue with scale",
+    "Stock-based compensation: large non-cash expense that shareholders scrutinize"
+  ],
+  "margins": "Gross margins are high (roughly 70-85%), but operating margins range from deeply negative for growth-stage firms to ~25-40%+ for mature leaders. The spread is driven by go-to-market efficiency, retention, and how much growth is being bought with S&M spend.",
+  "key_metrics": [
+    {
+      "name": "Annual recurring revenue (ARR)",
+      "what": "Annualized value of subscription contracts; the headline measure of scale and growth."
+    },
+    {
+      "name": "Net revenue retention (NRR)",
+      "what": "Revenue kept from an existing customer cohort after expansion, downgrades, and churn; above ~100% means the base grows on its own."
+    },
+    {
+      "name": "Gross churn",
+      "what": "Share of revenue or customers lost in a period; the leak that growth must outrun."
+    },
+    {
+      "name": "CAC payback",
+      "what": "Months of gross profit needed to recover the cost of acquiring a customer; a test of go-to-market efficiency."
+    },
+    {
+      "name": "LTV/CAC",
+      "what": "Lifetime gross profit of a customer divided by acquisition cost; roughly 3x is a common rule of thumb."
+    },
+    {
+      "name": "Rule of 40",
+      "what": "Revenue growth rate plus profit (or FCF) margin; balances growth against profitability for valuation."
+    },
+    {
+      "name": "Gross margin",
+      "what": "Share of revenue left after hosting and support; signals how software-like the business really is."
+    }
+  ],
+  "trends": [
+    "Generative AI features and agents being bundled into products, raising questions about whether seat-based pricing survives",
+    "Shift toward usage- and outcome-based pricing alongside or instead of per-seat licenses",
+    "Investor focus moved from growth-at-all-costs to efficient growth and free cash flow",
+    "Vendor consolidation as customers cut overlapping tools and push for platform suites",
+    "Active private-equity take-privates and roll-ups of mature software companies",
+    "Rising inference costs pressuring gross margins for AI-heavy products"
+  ],
+  "key_players": [
+    "Microsoft",
+    "Salesforce",
+    "Oracle",
+    "SAP",
+    "Adobe",
+    "ServiceNow",
+    "Workday",
+    "Intuit",
+    "Atlassian",
+    "Snowflake"
+  ],
+  "case_angles": [
+    {
+      "question": "A mid-market SaaS company's growth has stalled and NRR is falling; what is going wrong and how do we fix it?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should our SaaS client move from per-seat to usage-based pricing for its new AI features?",
+      "framework_id": "pricing"
+    },
+    {
+      "question": "A PE firm is considering acquiring a vertical SaaS provider; is it a good investment?",
+      "framework_id": "mergers-acquisitions"
+    },
+    {
+      "question": "How should a horizontal SaaS company enter a new industry vertical?",
+      "framework_id": "market-entry"
+    }
+  ],
+  "interview_hooks": [
+    "Does AI shrink the seat count that per-seat SaaS depends on, or expand the value software captures?",
+    "Are best-of-breed point solutions or all-in-one platforms winning the enterprise buyer?",
+    "Is product-led growth or a traditional enterprise sales motion the better path for a given segment?"
+  ],
+  "news": {
+    "keywords": [
+      "saas",
+      "software-as-a-service",
+      "annual recurring revenue",
+      "net revenue retention",
+      "enterprise software",
+      "per-seat pricing",
+      "subscription software",
+      "crm software",
+      "take-private",
+      "software stocks"
+    ],
+    "companies": [
+      "Salesforce",
+      "Microsoft",
+      "Oracle",
+      "SAP",
+      "Adobe",
+      "ServiceNow",
+      "Workday",
+      "Intuit",
+      "Atlassian",
+      "Snowflake",
+      "HubSpot",
+      "Datadog"
+    ]
+  }
+}

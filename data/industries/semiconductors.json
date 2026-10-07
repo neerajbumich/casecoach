@@ -1,0 +1,126 @@
+{
+  "id": "semiconductors",
+  "name": "Semiconductors",
+  "group": "Tech & media",
+  "one_liner": "Designers and manufacturers of chips, a cyclical, capital-intensive industry where process leadership and scale create steep barriers to entry.",
+  "how_it_makes_money": "Chip designers sell processors, memory, and analog/power components to device makers, cloud providers, and automakers, either manufacturing themselves (integrated device makers) or outsourcing to foundries (fabless). Foundries charge per wafer, while equipment and IP vendors sell tools and license designs to the rest of the chain.",
+  "value_chain": [
+    "Chip design and IP",
+    "Design software (EDA)",
+    "Wafer fabrication (foundry)",
+    "Assembly, test, and packaging",
+    "Distribution to device makers",
+    "End products and data centers"
+  ],
+  "revenue_formula": [
+    "Revenue = units shipped × average selling price (ASP)",
+    "Foundry revenue = wafers processed × price per wafer (driven by node)",
+    "Units per wafer = good dies per wafer × yield"
+  ],
+  "cost_structure": [
+    "Fab capex and depreciation: leading-edge fabs cost tens of billions and dominate costs for manufacturers",
+    "R&D: design and process development, often ~15-25% of revenue for leading firms",
+    "Materials and wafers: silicon, chemicals, gases, and photomasks",
+    "Equipment: lithography and deposition tools, with a few near-monopoly suppliers",
+    "Labor and energy for fab operations"
+  ],
+  "margins": "Leading fabless and foundry firms can earn gross margins of roughly 50-70%+, while memory makers swing between losses and high profits through the cycle. Process leadership, product differentiation, and capacity utilization drive the spread.",
+  "key_metrics": [
+    {
+      "name": "Gross margin",
+      "what": "Captures pricing power and manufacturing efficiency; a key signal of differentiation."
+    },
+    {
+      "name": "Yield",
+      "what": "Share of working chips per wafer; small improvements sharply lower unit cost."
+    },
+    {
+      "name": "Fab utilization",
+      "what": "Share of manufacturing capacity in use; high fixed costs make it critical to profitability."
+    },
+    {
+      "name": "Process node (nm)",
+      "what": "Generation of manufacturing technology; leadership determines performance and pricing power."
+    },
+    {
+      "name": "Book-to-bill ratio",
+      "what": "Orders received versus units billed; an indicator of where the cycle is heading."
+    },
+    {
+      "name": "Inventory days",
+      "what": "Chips held in inventory; rising levels often signal a coming downturn."
+    }
+  ],
+  "trends": [
+    "AI accelerator demand concentrating profits in GPUs, high-bandwidth memory, and advanced packaging",
+    "Government subsidies and export controls reshaping where fabs are built and who can buy advanced chips",
+    "Onshoring of manufacturing to the US, Europe, and Japan to reduce reliance on Taiwan",
+    "Advanced packaging and chiplets becoming a key battleground as node shrinks slow",
+    "Hyperscalers designing their own custom chips",
+    "Uneven cycle: AI booming while consumer, auto, and industrial chip demand recovers more slowly"
+  ],
+  "key_players": [
+    "NVIDIA",
+    "TSMC",
+    "Intel",
+    "Samsung",
+    "AMD",
+    "Broadcom",
+    "Qualcomm",
+    "Micron",
+    "SK Hynix",
+    "ASML"
+  ],
+  "case_angles": [
+    {
+      "question": "Should a chipmaker build a new fab in the US given available subsidies?",
+      "framework_id": "investment-npv"
+    },
+    {
+      "question": "A fabless chip company is losing share in data-center processors; how should it respond?",
+      "framework_id": "competitive-response"
+    },
+    {
+      "question": "Memory prices have crashed; how can our client restore profitability?",
+      "framework_id": "profitability"
+    },
+    {
+      "question": "Should a semiconductor company acquire a smaller AI chip startup?",
+      "framework_id": "mergers-acquisitions"
+    }
+  ],
+  "interview_hooks": [
+    "Can the US meaningfully onshore leading-edge manufacturing, and at what cost?",
+    "Will custom hyperscaler chips erode NVIDIA's dominance in AI?",
+    "Are export controls effective, or do they accelerate rival ecosystems?"
+  ],
+  "news": {
+    "keywords": [
+      "semiconductor",
+      "chipmaker",
+      "foundry",
+      "chips act",
+      "wafer",
+      "export controls",
+      "high-bandwidth memory",
+      "fab",
+      "lithography",
+      "advanced packaging",
+      "chip shortage"
+    ],
+    "companies": [
+      "NVIDIA",
+      "TSMC",
+      "Intel",
+      "Samsung",
+      "AMD",
+      "Broadcom",
+      "Qualcomm",
+      "Micron",
+      "SK Hynix",
+      "ASML",
+      "Applied Materials",
+      "Arm"
+    ]
+  }
+}

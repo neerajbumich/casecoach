@@ -1,0 +1,656 @@
+{
+  "id": "american-brands",
+  "section": "consumer",
+  "order": 7,
+  "title": "American brands you should know",
+  "summary": "About 95 household US brands across eight categories, each with its parent and a one-phrase positioning. Interviewers use these names as shorthand for business models, so recognising them instantly saves time and credibility.",
+  "blocks": [
+    {
+      "type": "text",
+      "title": "How to use this list",
+      "body": "Interviewers drop brand names without explanation: 'think of a Chipotle-like chain' or 'a client like Clorox.' You need the one-phrase positioning and, often, the parent company, because portfolio and channel questions hinge on it. These tables cover the brands most likely to come up. Learn the positioning, not the trivia; in a case, a brand is shorthand for a business model."
+    },
+    {
+      "type": "table",
+      "title": "Grocery and consumer packaged goods (CPG)",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "Coca-Cola",
+          "Soft drinks / The Coca-Cola Co.",
+          "The global soda icon; also Sprite, Dasani, Minute Maid"
+        ],
+        [
+          "Pepsi, Gatorade",
+          "Beverages / PepsiCo",
+          "No. 2 cola plus the leading sports drink"
+        ],
+        [
+          "Lay's, Doritos",
+          "Salty snacks / Frito-Lay (PepsiCo)",
+          "Dominant chip portfolio; DSD trucks stock stores directly"
+        ],
+        [
+          "Tide",
+          "Laundry / Procter & Gamble",
+          "Premium detergent; P&G is the model of brand management"
+        ],
+        [
+          "Pampers",
+          "Diapers / Procter & Gamble",
+          "Leading baby-care brand; rival Huggies (Kimberly-Clark)"
+        ],
+        [
+          "Oreo",
+          "Cookies / Mondelez",
+          "America's signature sandwich cookie; endless limited flavours"
+        ],
+        [
+          "Kraft Mac & Cheese, Heinz",
+          "Packaged food / Kraft Heinz",
+          "Pantry staples; a case study in cost-cutting vs brand investment"
+        ],
+        [
+          "Cheerios",
+          "Cereal / General Mills",
+          "Wholesome family cereal; General Mills also owns Pillsbury, Nature Valley"
+        ],
+        [
+          "Pringles, Pop-Tarts, Cheez-It",
+          "Snacks / Kellanova (Mars since Dec 2025)",
+          "Kellogg's snack side, now inside family-owned Mars"
+        ],
+        [
+          "Frosted Flakes, Froot Loops",
+          "Cereal / WK Kellogg (Ferrero since Sep 2025)",
+          "Kellogg's US cereal business, now Italian-owned"
+        ],
+        [
+          "Hershey's, Reese's",
+          "Confectionery / The Hershey Co.",
+          "America's chocolate; Reese's is its powerhouse"
+        ],
+        [
+          "Clorox",
+          "Cleaning / The Clorox Co.",
+          "Bleach and disinfecting wipes; also Glad, Kingsford, Burt's Bees"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Restaurants and QSR (quick-service restaurants)",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "McDonald's",
+          "Burgers / franchisor",
+          "Consistency, speed, value menu; a real-estate-plus-franchise model"
+        ],
+        [
+          "Starbucks",
+          "Coffee / company-operated",
+          "'Third place' café; mobile ordering and Rewards drive traffic"
+        ],
+        [
+          "Chick-fil-A",
+          "Chicken / private, family-owned",
+          "Top-tier service and drive-thru throughput; closed Sundays"
+        ],
+        [
+          "Taco Bell",
+          "Mexican-inspired QSR / Yum! Brands",
+          "Cheap, playful, late-night value; Yum! also owns KFC, Pizza Hut"
+        ],
+        [
+          "KFC",
+          "Fried chicken / Yum! Brands",
+          "Global chicken brand, bigger abroad than at home"
+        ],
+        [
+          "Wendy's",
+          "Burgers / The Wendy's Co.",
+          "'Fresh, never frozen' beef; witty social media"
+        ],
+        [
+          "Burger King",
+          "Burgers / Restaurant Brands International",
+          "'Have it your way'; RBI also owns Popeyes, Tim Hortons"
+        ],
+        [
+          "Subway",
+          "Sandwiches / Roark Capital (private)",
+          "Huge franchise footprint; build-your-own sandwiches"
+        ],
+        [
+          "Domino's",
+          "Pizza / franchisor",
+          "Delivery and digital-ordering pioneer; a tech-led turnaround story"
+        ],
+        [
+          "Chipotle",
+          "Fast casual",
+          "Customizable burritos, 'food with integrity'; throughput obsession"
+        ],
+        [
+          "Dunkin'",
+          "Coffee and donuts / Inspire Brands",
+          "Everyday coffee for commuters; Inspire also owns Arby's, Sonic"
+        ],
+        [
+          "Olive Garden",
+          "Casual dining / Darden",
+          "Italian-American family dining, unlimited breadsticks"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Retail",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "Walmart",
+          "Mass merchant",
+          "Everyday low prices; the largest US retailer"
+        ],
+        [
+          "Target",
+          "Mass merchant",
+          "'Expect more, pay less'; design-forward owned brands"
+        ],
+        [
+          "Costco",
+          "Warehouse club",
+          "Membership value, bulk, Kirkland Signature"
+        ],
+        [
+          "Amazon",
+          "E-commerce / marketplace",
+          "Everything store; Prime's fast delivery"
+        ],
+        [
+          "Kroger",
+          "Supermarkets",
+          "Largest traditional grocer; many regional banners"
+        ],
+        [
+          "Whole Foods",
+          "Natural/organic grocery / Amazon",
+          "Premium organic; Prime member deals"
+        ],
+        [
+          "Trader Joe's",
+          "Grocery / owned by Aldi Nord's founding family",
+          "Quirky, private-label-only, small stores"
+        ],
+        [
+          "Home Depot",
+          "Home improvement",
+          "Pros and DIYers; rival Lowe's"
+        ],
+        [
+          "Best Buy",
+          "Consumer electronics",
+          "Last national electronics chain; showroom and Geek Squad"
+        ],
+        [
+          "CVS",
+          "Drugstore / CVS Health",
+          "Pharmacy plus insurer (Aetna) and PBM (Caremark)"
+        ],
+        [
+          "TJ Maxx",
+          "Off-price / TJX",
+          "Brand names for less; treasure-hunt"
+        ],
+        [
+          "Ulta Beauty",
+          "Beauty specialty",
+          "Mass to prestige beauty plus salons; rival Sephora (LVMH)"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Autos",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "Ford",
+          "Detroit automaker",
+          "F-Series pickups, Mustang, Bronco; 'Built Ford Tough'"
+        ],
+        [
+          "Chevrolet",
+          "Mass brand / General Motors",
+          "Silverado trucks, mainstream cars and EVs"
+        ],
+        [
+          "Cadillac",
+          "Luxury / General Motors",
+          "American luxury, leading GM's EV push"
+        ],
+        [
+          "GMC",
+          "Trucks and SUVs / General Motors",
+          "Premium-trim trucks (Sierra, Yukon)"
+        ],
+        [
+          "Jeep",
+          "SUVs / Stellantis",
+          "Off-road heritage; Wrangler, Grand Cherokee"
+        ],
+        [
+          "Ram",
+          "Pickups / Stellantis",
+          "Full-size trucks spun out of Dodge"
+        ],
+        [
+          "Tesla",
+          "EVs / Tesla Inc.",
+          "EV pioneer; direct sales, no dealers"
+        ],
+        [
+          "Toyota",
+          "Japanese automaker",
+          "Reliability and resale value; Camry, RAV4, hybrids"
+        ],
+        [
+          "Lexus",
+          "Luxury / Toyota",
+          "Quiet, reliable luxury and dealer service"
+        ],
+        [
+          "Honda",
+          "Japanese automaker",
+          "Dependable cars (Civic, CR-V, Accord)"
+        ],
+        [
+          "Subaru",
+          "Japanese automaker",
+          "All-wheel drive, outdoorsy and safety image"
+        ],
+        [
+          "Hyundai / Kia",
+          "Korean automakers (Hyundai Motor Group)",
+          "Value plus long warranties; fast-rising design and EVs"
+        ]
+      ],
+      "note": "US car buying runs through franchised dealers (state laws); Tesla's direct model is the exception."
+    },
+    {
+      "type": "table",
+      "title": "Tech and apps",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "Apple",
+          "Devices / Apple Inc.",
+          "Premium ecosystem; iPhone is the dominant US smartphone"
+        ],
+        [
+          "Google",
+          "Search and ads / Alphabet",
+          "Search, Android, Maps, Gmail; ad-funded"
+        ],
+        [
+          "Microsoft",
+          "Software and cloud",
+          "Windows, Office/365, Azure, Xbox"
+        ],
+        [
+          "Facebook, Instagram",
+          "Social / Meta",
+          "Ad-funded social networks; WhatsApp is far less used in the US than in India"
+        ],
+        [
+          "AWS",
+          "Cloud / Amazon",
+          "The largest cloud platform; Amazon's profit engine"
+        ],
+        [
+          "Uber",
+          "Ride-hailing and delivery",
+          "Default ride app; Uber Eats in delivery"
+        ],
+        [
+          "Lyft",
+          "Ride-hailing",
+          "US-focused No. 2 in rides"
+        ],
+        [
+          "DoorDash",
+          "Food and convenience delivery",
+          "Leading US restaurant delivery; DashPass subscription"
+        ],
+        [
+          "Instacart",
+          "Grocery delivery / Maplebear Inc.",
+          "Shoppers pick from your local grocer's shelves"
+        ],
+        [
+          "Zillow",
+          "Real-estate marketplace",
+          "Home listings and 'Zestimate' values"
+        ],
+        [
+          "LinkedIn",
+          "Professional network / Microsoft",
+          "Recruiting and B2B networking"
+        ],
+        [
+          "Nvidia",
+          "Chips",
+          "GPUs powering the AI boom"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Finance and payments",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "Visa",
+          "Card network",
+          "Largest payments network; earns per-transaction fees, no lending"
+        ],
+        [
+          "Mastercard",
+          "Card network",
+          "No. 2 network, same model as Visa"
+        ],
+        [
+          "American Express",
+          "Card issuer + network",
+          "Premium rewards, high-spending customers, closed loop"
+        ],
+        [
+          "Chase",
+          "Bank / JPMorgan Chase",
+          "Largest US bank; Sapphire rewards cards"
+        ],
+        [
+          "Bank of America",
+          "Bank",
+          "Mass-market banking; Merrill wealth arm"
+        ],
+        [
+          "Wells Fargo",
+          "Bank",
+          "Big retail bank rebuilding after the fake-accounts scandal"
+        ],
+        [
+          "Capital One",
+          "Card issuer / bank",
+          "Data-driven credit cards; bought Discover and its network in 2025"
+        ],
+        [
+          "PayPal, Venmo",
+          "Digital payments / PayPal",
+          "Online checkout; Venmo for splitting bills with friends"
+        ],
+        [
+          "Zelle",
+          "Bank-to-bank transfers / owned by major banks",
+          "Instant bank transfers; the closest US analogue to UPI"
+        ],
+        [
+          "Cash App, Square",
+          "Fintech / Block",
+          "Peer payments for consumers; card readers for small merchants"
+        ],
+        [
+          "Affirm, Klarna",
+          "Buy now, pay later",
+          "Interest-free installments at checkout"
+        ],
+        [
+          "Fidelity, Vanguard, Schwab",
+          "Asset management / brokerage",
+          "Retirement accounts (401k, IRA); Vanguard = low-cost index funds"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Airlines and travel",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "Delta",
+          "Legacy airline",
+          "Premium, reliable; Atlanta hub; strong Amex co-brand card"
+        ],
+        [
+          "United",
+          "Legacy airline",
+          "Biggest international network; Chicago, Newark, SF hubs"
+        ],
+        [
+          "American",
+          "Legacy airline",
+          "Big Three legacy carrier; Dallas-Fort Worth hub"
+        ],
+        [
+          "Southwest",
+          "Low-cost carrier",
+          "Friendly point-to-point flying; ended open seating in Jan 2026"
+        ],
+        [
+          "JetBlue",
+          "Low-cost / hybrid",
+          "Comfort on a budget; East Coast focus"
+        ],
+        [
+          "Alaska Airlines",
+          "Airline",
+          "West Coast loyalty favourite; acquired Hawaiian in 2024"
+        ],
+        [
+          "Marriott",
+          "Hotels",
+          "Largest hotel company; Ritz-Carlton, Sheraton, Bonvoy loyalty"
+        ],
+        [
+          "Hilton",
+          "Hotels",
+          "Hampton Inn to Waldorf Astoria; Hilton Honors"
+        ],
+        [
+          "Airbnb",
+          "Short-term rentals",
+          "Stay in homes; asset-light marketplace"
+        ],
+        [
+          "Expedia",
+          "Online travel agency",
+          "Expedia, Hotels.com, Vrbo"
+        ],
+        [
+          "Booking Holdings",
+          "Online travel agency",
+          "Booking.com, Priceline, Kayak, OpenTable"
+        ],
+        [
+          "Enterprise",
+          "Car rental / private",
+          "Largest US rental company; neighbourhood branches"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Media and entertainment",
+      "columns": [
+        "Brand",
+        "Category / parent",
+        "What it stands for"
+      ],
+      "rows": [
+        [
+          "Disney",
+          "Entertainment / The Walt Disney Co.",
+          "Parks, Marvel, Pixar, Disney+, Hulu, ABC"
+        ],
+        [
+          "ESPN",
+          "Sports TV / Disney",
+          "The sports network; live sports anchor the bundle"
+        ],
+        [
+          "Netflix",
+          "Streaming",
+          "Largest subscription streamer; now also ads and live events"
+        ],
+        [
+          "YouTube",
+          "Video / Alphabet",
+          "Creator video, now big on TV screens; YouTube TV"
+        ],
+        [
+          "HBO, Max",
+          "Premium TV / Warner Bros. Discovery",
+          "Prestige series; WBD-Paramount deal pending in 2026"
+        ],
+        [
+          "NBC, Peacock",
+          "Broadcast and streaming / Comcast NBCUniversal",
+          "Network TV, Olympics, NFL; Comcast is also a cable company"
+        ],
+        [
+          "CBS, Paramount+",
+          "Broadcast and streaming / Paramount Skydance",
+          "Mass-audience network, NFL, Paramount films"
+        ],
+        [
+          "Fox News",
+          "Cable news / Fox Corp.",
+          "Most-watched cable news; Fox also airs NFL"
+        ],
+        [
+          "CNN",
+          "Cable news / Warner Bros. Discovery",
+          "24-hour news pioneer"
+        ],
+        [
+          "The New York Times",
+          "News / NYT Co.",
+          "Digital subscription success: news, Games, Cooking"
+        ],
+        [
+          "The Wall Street Journal",
+          "Business news / News Corp",
+          "The business daily, paywalled"
+        ],
+        [
+          "Spotify",
+          "Audio streaming (Swedish)",
+          "Leading music and podcast app in the US"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "watch",
+      "title": "Parents changed recently",
+      "body": "Ownership moves fast: Mars bought Kellanova (Pringles, Cheez-It) in 2025, Ferrero bought WK Kellogg (US cereal), Capital One bought Discover, and Walgreens went private. Southwest dropped free bags and open seating. If unsure of a parent, say so and reason from the business model rather than guessing."
+    }
+  ],
+  "in_a_case": [
+    "'Our client is a Clorox-type CPG company': think branded consumables, big-box customers (Walmart, Costco), private label threat.",
+    "A QSR growth case: know franchise vs company-operated (McDonald's franchises; Starbucks mostly operates its own US stores).",
+    "Payments cases: separate networks (Visa, Mastercard) from issuers (Chase, Capital One) and wallets (PayPal, Cash App).",
+    "Fit and small talk: brands from recent experience (Trader Joe's, Chipotle, Costco runs) are safe, relatable examples.",
+    "Brainstorming competitors or partners: name the right US players (DoorDash, Instacart, Uber Eats) instead of Indian equivalents."
+  ],
+  "flashcards": [
+    {
+      "front": "Pringles and Cheez-It: parent?",
+      "back": "Kellanova, owned by Mars since Dec 2025"
+    },
+    {
+      "front": "Frosted Flakes: parent?",
+      "back": "WK Kellogg Co, owned by Ferrero since Sep 2025"
+    },
+    {
+      "front": "Lay's, Doritos and Gatorade: parent?",
+      "back": "PepsiCo (Frito-Lay for snacks)"
+    },
+    {
+      "front": "Taco Bell, KFC, Pizza Hut: parent?",
+      "back": "Yum! Brands"
+    },
+    {
+      "front": "Burger King, Popeyes, Tim Hortons: parent?",
+      "back": "Restaurant Brands International"
+    },
+    {
+      "front": "Dunkin', Arby's, Sonic: parent?",
+      "back": "Inspire Brands"
+    },
+    {
+      "front": "Chick-fil-A positioning?",
+      "back": "Private chicken chain known for service and drive-thru speed; closed Sundays"
+    },
+    {
+      "front": "Trader Joe's positioning?",
+      "back": "Small-format grocer selling almost only its own private label; owned by Aldi Nord's founding family"
+    },
+    {
+      "front": "What did Capital One buy in 2025?",
+      "back": "Discover, including its own card network"
+    },
+    {
+      "front": "Zelle?",
+      "back": "Bank-owned instant bank-to-bank transfers; the nearest US analogue to UPI"
+    },
+    {
+      "front": "Delta vs Southwest?",
+      "back": "Delta: premium legacy carrier. Southwest: low-cost point-to-point (assigned seats since Jan 2026)"
+    },
+    {
+      "front": "Who owns ESPN and Hulu?",
+      "back": "Disney"
+    }
+  ],
+  "sources": [
+    "https://www.mars.com/news-and-stories/press-releases-statements/mars-completes-acquisition-of-kellanova",
+    "https://www.ferrero.com/int/en/news-stories/news/ferrero-completes-acquisition-of-wk-kellogg-co",
+    "https://investor.capitalone.com/news-releases/news-release-details/capital-one-completes-acquisition-discover",
+    "https://abcnews.com/GMA/Travel/southwest-begins-booking-assigned-seats-future-flights/story?id=124134538",
+    "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery_by_Paramount_Skydance",
+    "https://www.stocktitan.net/sec-filings/KR/10-k-kroger-co-files-annual-report-38d6497b0466.html",
+    "https://www.axios.com/2025/08/28/walgreens-private-sycamore"
+  ],
+  "checked": "2026-10"
+}

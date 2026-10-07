@@ -1,0 +1,200 @@
+{
+  "id": "regions-and-geography",
+  "section": "consumer",
+  "order": 5,
+  "title": "Regions & Geography",
+  "summary": "How US geography shapes demand: the four Census regions and the Sun Belt shift, a suburban and car-based way of life, climate seasonality, and state-by-state rules. Explains why density, not just income, decides whether delivery and small-format retail work.",
+  "blocks": [
+    {
+      "type": "table",
+      "title": "The four Census regions",
+      "columns": [
+        "Region",
+        "Anchor states / metros",
+        "Consumer profile"
+      ],
+      "rows": [
+        [
+          "Northeast",
+          "NY, NJ, PA, MA; Boston-NYC-Philly-DC corridor",
+          "Dense, older, high income and costs; transit and walkable cities; slow growth"
+        ],
+        [
+          "Midwest",
+          "IL, OH, MI, MN; Chicago, Detroit, Minneapolis",
+          "Value-oriented, car-based, strong grocery/club chains; harsh winters"
+        ],
+        [
+          "South",
+          "TX, FL, GA, NC, TN; Dallas, Houston, Atlanta, Miami",
+          "Largest and fastest-growing region; lower taxes and living costs; hot climate"
+        ],
+        [
+          "West",
+          "CA, WA, AZ, CO; LA, Bay Area, Seattle, Phoenix",
+          "Most urbanized region; tech wealth and high housing costs on the coast; early adopter of trends"
+        ]
+      ],
+      "note": "The South grew ~6% from 2020 to 2025 vs ~3% nationally (Census Vintage 2025)."
+    },
+    {
+      "type": "text",
+      "title": "The Sun Belt shift",
+      "body": "The 'Sun Belt' is the band of southern and southwestern states from the Carolinas and Florida through Texas to Arizona. Lower taxes, cheaper housing and remote work have pulled people and companies there for decades, accelerated after 2020. Growth concentrates in outer suburbs of metros like Dallas, Houston, Atlanta and Phoenix. For retailers and restaurants, this is where new stores open; the Northeast and Midwest are more about optimizing existing footprints."
+    },
+    {
+      "type": "list",
+      "title": "Urban, suburban, rural",
+      "items": [
+        "~80% of Americans live in Census-defined urban areas (2020), but most of that is low-density suburb, not city core.",
+        "In a housing survey, ~52% of households described their neighborhood as suburban, ~27% urban, ~21% rural (AHS 2017).",
+        "Urbanization ranges from ~89% in the West to ~74% in the Midwest (2020 Census).",
+        "Rural America is older and lower-income on average, with longer drives to stores and fewer delivery options."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Car dependence and commuting",
+      "items": [
+        "~69% of workers drove alone to work in 2024; only ~4% used public transit; ~13% worked from home (ACS).",
+        "Mean one-way commute: ~27 minutes (2024).",
+        "Only ~8% of households have no vehicle; ~59% have two or more (2023, BTS).",
+        "Implication: big-box stores with parking, drive-thrus, weekly stock-up trips and curbside pickup are the default retail model.",
+        "Transit-dependent markets (NYC, parts of Chicago, SF, Boston, DC) behave very differently; don't generalize from them."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Climate effects on demand",
+      "items": [
+        "Seasonality is strong: winter coats, snow tires and heating in the North; summer AC, pools and beverages peak nationwide.",
+        "The 'back-to-school' (Jul-Sep) and holiday season (Nov-Dec) calendars matter more than weather for most retailers.",
+        "Hurricanes (Gulf/Atlantic, Jun-Nov) and wildfires (West) drive stock-up spikes, insurance costs and supply disruptions.",
+        "A warm winter can hurt apparel and utilities in one region while helping restaurants and home improvement."
+      ]
+    },
+    {
+      "type": "list",
+      "title": "State differences that change the case",
+      "items": [
+        "Nine states have no broad wage income tax, including Texas, Florida, Washington, Nevada and Tennessee.",
+        "Five states have no statewide sales tax: Alaska, Delaware, Montana, New Hampshire, Oregon; elsewhere state plus local rates vary widely.",
+        "Prices are usually shown before sales tax, which is added at checkout and differs by city.",
+        "California often sets de facto national rules: vehicle emissions, product labeling (Prop 65), privacy (CCPA), and gig-worker law.",
+        "Alcohol, cannabis, pharmacy and insurance are regulated state by state, so a national rollout can mean 50 rulebooks."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Why density drives delivery and retail economics",
+      "body": "Delivery cost per order falls when many orders sit close together: more drops per hour, shorter rides, smaller dark stores turning inventory fast. The US averages ~37 people per km² vs ~484 in India (World Bank, 2023), and most Americans live in spread-out suburbs. So US delivery leans on larger baskets, scheduled slots, fees and subscriptions, while ultra-fast delivery works mainly in dense cores like Manhattan."
+    },
+    {
+      "type": "compare",
+      "title": "India vs US: density, delivery, store formats",
+      "left": "India",
+      "right": "US",
+      "rows": [
+        [
+          "Population density (2023)",
+          "~484 people/km²",
+          "~37 people/km²"
+        ],
+        [
+          "Urban share (2025, World Bank)",
+          "~36%",
+          "~80%, mostly suburban"
+        ],
+        [
+          "Default shopping trip",
+          "Frequent, small top-ups on foot or two-wheeler",
+          "Weekly car trip to a big-box or supermarket"
+        ],
+        [
+          "Neighborhood store",
+          "Kirana within walking distance",
+          "Convenience store or pharmacy, often a drive away"
+        ],
+        [
+          "Quick commerce",
+          "10-30 minute grocery is mainstream in metros",
+          "Niche; 1-2 hour or same-day slots are the norm"
+        ],
+        [
+          "Delivery labor",
+          "Large, low-cost gig workforce on two-wheelers",
+          "Costly; e.g. NYC minimum ~$22/hr before tips (2026); cars, longer distances"
+        ],
+        [
+          "Store size",
+          "Small formats dominate; modern trade still growing",
+          "Large formats: supercenters, warehouse clubs, malls"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Ask 'where' before 'how much'",
+      "body": "In delivery, retail-expansion or real-estate cases, ask which metros and what density. A dark-store model that pencils out in Manhattan may lose money in suburban Phoenix. Splitting the market into dense urban cores vs suburbs vs rural often unlocks the answer."
+    }
+  ],
+  "in_a_case": [
+    "Quick-commerce expansion in the US: segment cities by density first; only a handful of urban cores support sub-30-minute delivery profitably.",
+    "Store-network growth for a restaurant chain: favor fast-growing Sun Belt suburbs with drive-thru sites over saturated Northeast metros.",
+    "A national retailer's Q3 miss: check regional weather (warm fall, hurricane) before blaming merchandising.",
+    "Pricing case: remember sales tax is added at checkout and varies by state and city; 'shelf price' is pre-tax.",
+    "Launching a regulated product: plan state-by-state; California rules often become the national standard."
+  ],
+  "flashcards": [
+    {
+      "front": "The four US Census regions",
+      "back": "Northeast, Midwest, South, West. The South is largest and fastest-growing."
+    },
+    {
+      "front": "South vs national population growth, 2020-2025",
+      "back": "~6% vs ~3% (Census)."
+    },
+    {
+      "front": "Share of Americans in Census-urban areas (2020)",
+      "back": "~80%, though most live in suburbs."
+    },
+    {
+      "front": "Share of workers who drive alone to work (2024)",
+      "back": "~69%; transit ~4%; work from home ~13% (ACS)."
+    },
+    {
+      "front": "US households with no vehicle (2023)",
+      "back": "~8%; ~59% have two or more (BTS)."
+    },
+    {
+      "front": "States with no statewide sales tax",
+      "back": "Alaska, Delaware, Montana, New Hampshire, Oregon."
+    },
+    {
+      "front": "Population density: India vs US (2023)",
+      "back": "~484 vs ~37 people per km², ~13x (World Bank)."
+    },
+    {
+      "front": "What is the Sun Belt?",
+      "back": "Southern/southwestern states from the Carolinas and Florida through Texas to Arizona; long-run US growth magnet."
+    },
+    {
+      "front": "Why does density matter for delivery?",
+      "back": "More drops per hour and shorter trips lower cost per order; sparse suburbs need bigger baskets or fees."
+    }
+  ],
+  "sources": [
+    "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html",
+    "https://census.gov/newsroom/press-releases/2022/urban-rural-populations.html",
+    "https://www.huduser.gov/portal/pdredge/pdr-edge-frm-asst-sec-080320.html",
+    "https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html",
+    "https://www.bts.gov/browse-statistical-products-and-data/info-gallery/share-household-vehicles-available-1960-2023",
+    "https://www.aarp.org/money/taxes/states-without-an-income-tax/",
+    "https://www.kiplinger.com/taxes/states-with-no-sales-tax",
+    "https://api.worldbank.org/v2/country/IND;USA/indicator/EN.POP.DNST?format=json&mrv=1",
+    "https://api.worldbank.org/v2/country/IND;USA/indicator/SP.URB.TOTL.IN.ZS?format=json&mrv=1",
+    "https://www.nyc.gov/site/dca/workers/workersrights/food-delivery-worker-laws-faqs.page"
+  ],
+  "checked": "2026-10"
+}

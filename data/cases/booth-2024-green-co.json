@@ -1,0 +1,338 @@
+{
+ "id": "booth-2024-green-co",
+ "title": "Green Co",
+ "school": "Booth",
+ "edition": "2024-2025",
+ "year": 2024,
+ "source_file": "Booth/Booth MCG Casebook 2024-2025.pdf",
+ "page_range": [
+  169,
+  175
+ ],
+ "case_type": [
+  "Investment/PE due diligence",
+  "Cost Reduction/Operations"
+ ],
+ "case_type_source_label": "Investment Decision",
+ "industry": "retail",
+ "sub_industry": "apparel-footwear",
+ "industry_source_label": "Retail and Leisure / Apparel",
+ "geography": "Global",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "firm_style_hint": [
+  "Deloitte",
+  "Round 1"
+ ],
+ "difficulty": 4,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 3/3; Quant 3/3; Creativity 1/3",
+ "quant_intensity": "H",
+ "estimated_minutes": 40,
+ "tags": [
+  "esg",
+  "carbon-emissions",
+  "energy-efficiency",
+  "npv",
+  "apparel",
+  "implementation"
+ ],
+ "fit_question": "Tell me about yourself. Tell me about a time you had unclear instructions for a task and how you approached it.",
+ "prompt": "Green Co is a $10B global manufacturer and retailer of high-end outdoor apparel that plans to reach $15B revenue by FY25. The CEO wants an absolute carbon-emission reduction despite growth, relative to business as usual, to support sustainability, brand value and market capitalization. Evaluate the targets and energy-efficiency investments.",
+ "clarifying_info": [
+  {
+   "question_topic": "Business as usual",
+   "answer": "BAU means the company implements no carbon-emission reductions."
+  },
+  {
+   "question_topic": "Energy prices",
+   "answer": "Assume no change in energy price."
+  },
+  {
+   "question_topic": "Emissions",
+   "answer": "Carbon emissions are directly proportional to energy consumption."
+  },
+  {
+   "question_topic": "Discounting",
+   "answer": "Use a 10% discount rate and the exhibit's formula, which discounts annual benefits from t=1."
+  }
+ ],
+ "interviewer_notes": "Interviewer-led quantitative case with no initial framework. Show Exhibit 1 throughout. The source's NPV solution is inconsistent with its own t=1 discount formula: correct ordinary-annuity/perpetuity NPVs make Grouping 2 financially superior, though its much larger upfront capital requirement must be tested.",
+ "suggested_framework": {
+  "summary": "Follow the case's sequence: forecast BAU energy and emissions, value projects, compare target savings and test implementation.",
+  "tree": {
+   "label": "Sustainability investment",
+   "children": [
+    {
+     "label": "BAU forecast",
+     "children": [
+      {
+       "label": "Locations and energy consumption"
+      },
+      {
+       "label": "Energy spend and emissions"
+      }
+     ]
+    },
+    {
+     "label": "Project economics",
+     "children": [
+      {
+       "label": "Capex, annual savings, lifetime and NPV"
+      },
+      {
+       "label": "Emissions reduction and target fit"
+      }
+     ]
+    },
+    {
+     "label": "Implementation",
+     "children": [
+      {
+       "label": "Capital, incentives, capability and roadmap"
+      },
+      {
+       "label": "Stakeholder goals, measurement and energy-price risk"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "exhibit",
+   "interviewer_asks": "Review Exhibit 1. Without a carbon goal, what are FY25 energy spend and emissions?",
+   "expected_answer": "Scale each site's FY21 energy by location growth: offices 0.7M kWh, retail 6.0M and manufacturing/distribution 2.4M, totaling 9.1M. At $10 per kWh-equivalent unit of the table, spend is $91M. Relative to 6.5M kWh and 300,000 tons in FY21, emissions rise to 420,000 tons CO2-e.",
+   "good_answer_signals": [
+    "Scales each location type separately",
+    "Gets $91M and 420,000 tons"
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "math",
+   "interviewer_asks": "What is the NPV of each project grouping using the displayed t=1 formula and a 10% discount rate?",
+   "expected_answer": "With the $6.7M given, Grouping 1 NPV = $6.7M − $4M ≈ $2.7M; Grouping 2 NPV = $4.4M ÷ 10% − $41.5M = $2.5M, so the book picks Grouping 1. Strong candidates notice the timing is inconsistent: $6.7M treats Grouping 1's savings as starting today, but $44M treats Grouping 2's as starting next year. Treated consistently, Grouping 2 wins either way: starting today, $6.9M vs $2.7M; starting next year, $2.5M vs $2.1M. Also weigh the capital need ($41.5M vs $4M) and payback before recommending.",
+   "good_answer_signals": [
+    "Uses consistent t=1 timing",
+    "Catches the source's NPV inconsistency"
+   ],
+   "info_to_release": "Don't make them grind the annuity: once they write the formula, tell them the PV of Grouping 1's savings is $6.7M (as the book does). Benefits and costs are assumed to start immediately (FY21)."
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Relative to BAU, what are FY25 energy-cost savings under a goal of no absolute emissions increase and under a 5% absolute decrease from FY21?",
+   "expected_answer": "No increase holds spend at FY21's $65M, saving $91M-$65M=$26M versus BAU. A 5% reduction makes spend 95%×$65M=$61.75M, saving $29.25M versus BAU.",
+   "good_answer_signals": [
+    "Anchors targets to FY21 absolute emissions",
+    "Compares both outcomes with $91M BAU"
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "Which grouping can achieve a 5% absolute emissions reduction, and which should Green Co choose?",
+   "expected_answer": "The target is 95%×300,000=285,000 tons, requiring a 135,000-ton reduction from the 420,000-ton BAU forecast. Either project saves 140,000 tons and meets it. On consistent NPV, Grouping 2 is higher at $2.5M versus $2.065M, so choose Grouping 2 if Green Co can fund and implement the $41.5M capex; otherwise assess capital constraints and alternatives rather than using the book's incorrect Grouping 1 comparison.",
+   "good_answer_signals": [
+    "Calculates the 135,000-ton gap",
+    "Balances corrected NPV with capital feasibility"
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What else matters when setting the goal and implementing the project?",
+   "expected_answer": "Consider capital availability, tax credits and incentives, leadership commitment, employee adoption, stakeholder and peer expectations, implementation roadmap, measurement and verification, operational disruption, energy-price uncertainty and delivery capability.",
+   "good_answer_signals": [
+    "Covers financial, organizational and operational factors",
+    "Includes measurement and verification"
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "What do you recommend?",
+   "expected_answer": "Adopt at least a 5% absolute reduction goal. Both projects clear the 135,000-ton requirement, but Grouping 2 has the higher correctly calculated NPV, $2.5M versus $2.065M. Proceed with Grouping 2 only after confirming financing and delivery capacity; benchmark the goal and establish a measurement roadmap.",
+   "good_answer_signals": [
+    "Uses corrected economics",
+    "Separates environmental target fit from capital feasibility"
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Green Co Data Sheet",
+   "page": 171,
+   "kind": "table",
+   "description": "FY21 company footprint and energy data, FY25 growth goals, discounting assumptions and two energy-efficiency projects.",
+   "image_path": "exhibits/booth-2024-green-co/p171.webp",
+   "image_has_answers": false,
+   "key_insight": "Both projects exceed the required emissions reduction, so the choice turns on correctly calculated NPV and implementation feasibility.",
+   "data_confidence": "high",
+   "data": {
+    "columns": [
+     "Section",
+     "Metric",
+     "Value"
+    ],
+    "rows": [
+     [
+      "FY21",
+      "Revenue",
+      "$10B"
+     ],
+     [
+      "FY21",
+      "Locations",
+      "20 offices; 600 retail; 50 manufacturing & distribution"
+     ],
+     [
+      "FY21",
+      "Energy consumption",
+      "0.5M, 4.0M and 2.0M kWh respectively; 6.5M total"
+     ],
+     [
+      "FY21",
+      "Energy spend",
+      "$65M"
+     ],
+     [
+      "FY21",
+      "Carbon emissions",
+      "300,000 metric tons CO2-e"
+     ],
+     [
+      "FY25 goal",
+      "Revenue",
+      "$15B"
+     ],
+     [
+      "FY25 goal",
+      "Locations",
+      "28 offices; 900 retail; 60 manufacturing & distribution"
+     ],
+     [
+      "Grouping 1",
+      "Offices lighting & HVAC retrofits",
+      "$4M capex; $1.6M annual savings; 140,000-ton reduction; 5 years"
+     ],
+     [
+      "Grouping 2",
+      "Manufacturing & distribution solar and controls",
+      "$41.5M capex; $4.4M annual savings; 140,000-ton reduction; perpetuity"
+     ],
+     [
+      "Assumption",
+      "Discount rate",
+      "10%"
+     ]
+    ]
+   }
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What are BAU FY25 energy consumption, spend and emissions?",
+   "givens": [
+    "FY21 sites and energy by type",
+    "FY25 site goals",
+    "$65M spend and 300,000 tons at 6.5M kWh"
+   ],
+   "steps": [
+    "Offices=0.5×28/20=0.7M kWh",
+    "Retail=4.0×900/600=6.0M kWh",
+    "Manufacturing=2.0×60/50=2.4M kWh",
+    "Total=9.1M kWh",
+    "Spend=$65M×9.1/6.5=$91M",
+    "Emissions=300,000×9.1/6.5=420,000 tons"
+   ],
+   "answer": "9.1M kWh, $91M energy spend and 420,000 metric tons CO2-e",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are the NPVs of the two project groupings, and which is higher?",
+   "givens": [
+    "Grouping 1: $4M capex, $1.6M annual savings for 5 years",
+    "Grouping 2: $41.5M capex, $4.4M annual savings in perpetuity",
+    "10% discount rate"
+   ],
+   "steps": [
+    "Book-given PV of Grouping 1 savings = $6.7M (savings start immediately, 5 payments)",
+    "Grouping 1 NPV = $6.7M − $4M = $2.7M",
+    "Grouping 2 PV = $4.4M ÷ 0.10 = $44M (payments start next year)",
+    "Grouping 2 NPV = $44M − $41.5M = $2.5M",
+    "Consistent, both starting today: Grouping 2 PV = $4.4M + $44M = $48.4M → NPV $6.9M vs Grouping 1 $2.67M",
+    "Consistent, both starting next year: Grouping 1 PV = $1.6M × 3.791 = $6.07M → NPV $2.07M vs Grouping 2 $2.5M"
+   ],
+   "answer": "With the book's figures, Grouping 1 ($2.7M) edges Grouping 2 ($2.5M); with consistent timing, Grouping 2 is higher either way.",
+   "answer_value": 2.5,
+   "unit": "USD millions (higher NPV)",
+   "verified": false,
+   "book_answer_if_different": "The book gives Grouping 1 a $6.7M benefit PV and $2.7M NPV, apparently treating its five savings as an annuity due, while giving Grouping 2 a $2.5M NPV using an ordinary perpetuity. Its displayed formula discounts from t=1. Consistent t=1 timing yields $2.065M for Grouping 1 and $2.5M for Grouping 2, reversing the book's recommendation. Even consistent t=0 timing would favor Grouping 2 ($6.9M versus $2.672M)."
+  },
+  {
+   "id": "m3",
+   "question": "What are savings versus BAU for the two absolute-emissions goals?",
+   "givens": [
+    "BAU spend $91M",
+    "FY21 spend $65M",
+    "Emissions proportional to energy and spend"
+   ],
+   "steps": [
+    "No increase: spend=$65M; savings=$91M-$65M=$26M",
+    "5% decrease: spend=$65M×95%=$61.75M; savings=$91M-$61.75M=$29.25M"
+   ],
+   "answer": "$26M for no absolute increase; $29.25M for a 5% absolute decrease",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What reduction versus BAU is needed for a 5% absolute decrease from FY21?",
+   "givens": [
+    "FY21 emissions 300,000 tons",
+    "BAU FY25 emissions 420,000 tons"
+   ],
+   "steps": [
+    "Target=300,000×95%=285,000 tons",
+    "Required reduction=420,000-285,000=135,000 tons",
+    "Each project saves 140,000 tons"
+   ],
+   "answer": "135,000 metric tons; either project meets the target",
+   "answer_value": 135000,
+   "unit": "metric tons CO2-e",
+   "verified": true
+  }
+ ],
+ "synthesis": "Set at least a 5% absolute emissions-reduction goal: it needs a 135,000-ton cut versus business as usual, and either project delivers 140,000 tons. The book recommends Grouping 1 on a $2.7M vs $2.5M NPV, but that compares the projects on different timing; treated consistently, Grouping 2 has the higher NPV. Recommend Grouping 2 if Green Co can fund and deliver the $41.5M capex; if capital is tight, Grouping 1 is the cheaper, faster way to hit the target. Next: confirm financing, stress-test energy prices, and set up measurement of savings and emissions.",
+ "what_great_looks_like": [
+  "Scales energy by facility type",
+  "Uses a consistent NPV timing convention",
+  "Separates emissions achievement from financing and implementation"
+ ],
+ "common_pitfalls": [
+  "Scales energy only by revenue",
+  "Accepts the source's inconsistent NPV comparison",
+  "Chooses solely on carbon because both projects save the same amount"
+ ],
+ "extraction": {
+  "model": "codex/gpt-5",
+  "extracted_at": "2026-09-30",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": false,
+  "notes": "Exhibit 1 is candidate-facing and contains inputs only. The source's NPV timing inconsistency is corrected and documented in m2. Reviewed and accepted by Claude 2026-09-30.",
+  "fields_inferred": [
+   "quant_intensity",
+   "estimated_minutes",
+   "tags",
+   "what_great_looks_like",
+   "common_pitfalls"
+  ]
+ }
+}

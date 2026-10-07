@@ -1,0 +1,334 @@
+{
+ "id": "darden-2023-pharmaco",
+ "title": "PharmaCo",
+ "school": "Darden",
+ "edition": "2023-2024",
+ "year": 2023,
+ "source_file": "Darden/Darden Case Book 2023-24.pdf",
+ "page_range": [
+  74,
+  81
+ ],
+ "case_type": [
+  "M&A/Acquisition",
+  "Market Entry"
+ ],
+ "case_type_source_label": "M&A",
+ "industry": "pharma",
+ "sub_industry": "branded",
+ "industry_source_label": "Pharmaceuticals",
+ "geography": "Switzerland and Austin, United States; worldwide sales",
+ "client_type": "for-profit",
+ "format": "interviewer-led",
+ "difficulty": 3,
+ "difficulty_inferred": false,
+ "difficulty_source_label": "Overall 2; Quantitative 3; Qualitative 2 (1–3 scale)",
+ "quant_intensity": "H",
+ "estimated_minutes": 35,
+ "tags": [
+  "acquisition",
+  "expected-value",
+  "drug-development",
+  "conditional-probability",
+  "valuation",
+  "integration-risk"
+ ],
+ "fit_question": "Tell me about a time when you had to persuade someone to do something that they at first didn't want to do.",
+ "prompt": "PharmaCo is a pharmaceutical company with $10 billion in annual revenue. Its corporate HQ and primary R&D centers are in Switzerland, with regional sales offices worldwide. PharmaCo is interested in entering a new, rapidly growing segment of drugs called biologicals. To gain the R&D capabilities requisite for biologicals, PharmaCo is considering acquiring BioLead, a biologicals start-up in Austin. BioLead is privately owned and has an estimated valuation of $1 billion. Our firm has been hired to evaluate the BioLead acquisition and to advise on its strategic fit with PharmaCo's biologicals strategy. What factors should the team consider when evaluating whether PharmaCo should acquire BioLead?",
+ "clarifying_info": [
+  {
+   "question_topic": "Core business",
+   "answer": "PharmaCo has a successful history researching, developing and selling small-molecule drugs, the vast majority of existing drugs, including aspirin and most blood-pressure or cholesterol medicines."
+  },
+  {
+   "question_topic": "Why acquisition?",
+   "answer": "Biologicals R&D is very different from small-molecule R&D. Competitors are several years ahead, so PharmaCo wants to jumpstart its biologicals program through an acquisition."
+  }
+ ],
+ "interviewer_notes": "Tests expected value and valuation; suggested after 10–15 completed cases. Start with acquisition factors, then brainstorm lifetime drug costs, asking 'What else?' once or twice for specificity and breadth. SM1 lifetime sales are introduced before valuation; strong candidates recall them. Show Exhibit 1 for the valuation and release phase and production costs only on request. Costs are incurred when a phase is reached, not only when it succeeds. End with human and organizational R&D integration risks. The source provides no explicit final acquisition recommendation; the synthesis here is a qualified summary of its evidence.",
+ "suggested_framework": {
+  "summary": "Compare pipeline economics and strategic capabilities with price, integration risks and alternatives.",
+  "tree": {
+   "label": "Acquire BioLead?",
+   "children": [
+    {
+     "label": "Pipeline value",
+     "children": [
+      {
+       "label": "Drug count, success probabilities, revenue and profit"
+      },
+      {
+       "label": "Acquisition price versus risk-adjusted value"
+      }
+     ]
+    },
+    {
+     "label": "Strategic capabilities",
+     "children": [
+      {
+       "label": "Scientific talent, patents, know-how, labs and equipment"
+      },
+      {
+       "label": "Sales, marketing and key opinion-leader relationships"
+      }
+     ]
+    },
+    {
+     "label": "Fit and integration",
+     "children": [
+      {
+       "label": "PharmaCo capability gaps and BioLead existing partnerships"
+      },
+      {
+       "label": "Culture, language, distance and talent retention"
+      }
+     ]
+    },
+    {
+     "label": "Alternatives",
+     "children": [
+      {
+       "label": "Other acquisition targets or partnerships"
+      },
+      {
+       "label": "Strategies outside biologicals"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "stages": [
+  {
+   "order": 1,
+   "kind": "structure",
+   "interviewer_asks": "What factors should the team consider when evaluating BioLead?",
+   "release_when": "After the prompt; clarifications if requested.",
+   "info_to_release": "PharmaCo has $10 billion annual revenue; BioLead's estimated valuation is $1 billion. PharmaCo seeks biologicals capabilities quickly because rivals are several years ahead.",
+   "expected_answer": "Assess the current pipeline's success-adjusted revenue and profit, future R&D capability, scientists, intellectual property, facilities and equipment, marketing and sales relationships, and acquisition price. Include BioLead's pharmaceutical partnerships, PharmaCo's capability gaps, other targets, partnership entry and alternatives to biologicals. Consider key opinion leaders from academia and the public arena who can support promotion.",
+   "good_answer_signals": [
+    "Distinguishes current pipeline value from the capabilities to create future drugs."
+   ]
+  },
+  {
+   "order": 2,
+   "kind": "brainstorm",
+   "interviewer_asks": "SM1 is BioLead's only promising drug and could generate $10 billion lifetime sales if brought to market. What costs arise throughout a drug's lifetime?",
+   "release_when": "After the acquisition framework.",
+   "info_to_release": "SM1 lifetime sales conditional on reaching market are $10 billion.",
+   "expected_answer": "Use research, regulatory approval and commercialization buckets. Research includes scientists, specialized equipment/labs, materials, Phase I–III trials and documentation, and failed drugs. Regulatory costs include fees and legal staff for patents, trademarks and filings. Commercialization includes promotional materials, campaigns, production/materials/quality/sourcing, sales and administrative personnel, new facilities, packaging, logistics, taxes and patent-infringement costs.",
+   "good_answer_signals": [
+    "Uses pharmaceutical-specific examples.",
+    "Covers unsuccessful research as well as successful commercialization."
+   ]
+  },
+  {
+   "order": 3,
+   "kind": "math",
+   "interviewer_asks": "Using Exhibit 1, what is SM1 worth?",
+   "release_when": "Show Exhibit 1 now; release costs only when asked.",
+   "info_to_release": "Conditional success probabilities: Phase I 70%, Phase II 40%, Phase III 50%, filing 90%. Costs incurred upon reaching a phase: Phase I $160 million, Phase II $125 million, Phase III $75 million, filing $5 million. Manufacturing is 5% of sales, logistics 5%, other production costs 10%. Lifetime revenue if successful is $10 billion, previously supplied.",
+   "exhibit_ids": [
+    "ex1"
+   ],
+   "expected_answer": "Overall success probability is 70% × 40% × 50% × 90% = 12.6%. Expected revenue is $1,260 million; expected production costs are $252 million. Expected development/filing costs are $160 million + $87.5 million + $21 million + $0.7 million = $269.2 million. Net expected value is $738.8 million. Phase I is entered with certainty, but completion succeeds with 70% probability; later phase costs are weighted by reaching those phases, not by final approval. This is a probability-weighted lifetime net value, not a time-discounted DCF.",
+   "good_answer_signals": [
+    "Uses conditional probabilities cumulatively.",
+    "Does not success-weight the initial Phase I spend.",
+    "Recalls the $10 billion sales figure."
+   ]
+  },
+  {
+   "order": 4,
+   "kind": "analysis",
+   "interviewer_asks": "How does SM1's value compare with BioLead's estimated company value?",
+   "release_when": "After the valuation; prompt only if the candidate does not make the comparison.",
+   "info_to_release": "BioLead's estimated company value is $1 billion.",
+   "expected_answer": "SM1's $738.8 million expected value is $261.2 million below $1 billion. The source asks the candidate to hypothesize the difference. Scientific talent, intellectual property, R&D infrastructure and future pipeline capability may provide value beyond SM1, but are not quantified here. SM1 alone does not substantiate the full company valuation.",
+   "good_answer_signals": [
+    "Separates a single-drug valuation from whole-company strategic value."
+   ]
+  },
+  {
+   "order": 5,
+   "kind": "brainstorm",
+   "interviewer_asks": "What are the major risks of integrating BioLead's and PharmaCo's R&D functions?",
+   "release_when": "After valuation.",
+   "info_to_release": "PharmaCo is an established Swiss-based company; BioLead is a young entrepreneurial Austin business.",
+   "expected_answer": "Limited overlap in expertise may prevent collaboration. Mature-company versus start-up culture can clash. Language, distance and time differences can impair communication and community. BioLead scientists may leave after gaining wealth from the sale or because they do not want to work in a large corporation. Recognize the human element of organizational change.",
+   "good_answer_signals": [
+    "Makes talent retention central to acquiring R&D capability.",
+    "Links integration risks to the strategic purpose of the deal."
+   ]
+  },
+  {
+   "order": 6,
+   "kind": "synthesis",
+   "interviewer_asks": "Summarize what the analysis implies for the acquisition decision.",
+   "release_when": "Optional closing synthesis inferred from the completed analysis; the source ends with integration risks.",
+   "info_to_release": "No additional facts.",
+   "expected_answer": "The acquisition could accelerate biologicals entry, but SM1 alone yields $738.8 million expected lifetime net value versus BioLead's $1 billion valuation. Establish whether broader capabilities and future pipeline can justify the $261.2 million gap, and investigate talent, cultural and geographic integration risks before committing. The supplied information is insufficient for an unconditional buy recommendation.",
+   "good_answer_signals": [
+    "Avoids presenting uncertain expected cash flows as guaranteed.",
+    "Qualifies the decision rather than inventing strategic benefits or acquisition synergies."
+   ]
+  }
+ ],
+ "exhibits": [
+  {
+   "id": "ex1",
+   "title": "Expected probability of success by R&D stage",
+   "page": 79,
+   "kind": "other",
+   "description": "Sequential clinical-trial and filing tree. Filing submits clinical and safety evidence for regulatory approval to sell the drug.",
+   "data": {
+    "columns": [
+     "Stage",
+     "Conditional success (%)",
+     "Conditional failure (%)"
+    ],
+    "rows": [
+     [
+      "Phase I",
+      70,
+      30
+     ],
+     [
+      "Phase II",
+      40,
+      60
+     ],
+     [
+      "Phase III",
+      50,
+      50
+     ],
+     [
+      "Filing",
+      90,
+      10
+     ]
+    ]
+   },
+   "image_path": "exhibits/darden-2023-pharmaco/p079.webp",
+   "key_insight": "Multiply stage-success probabilities for market entry, but weight each development cost by the probability of reaching its stage.",
+   "data_confidence": "high"
+  }
+ ],
+ "math": [
+  {
+   "id": "m1",
+   "question": "What is the probability of successful marketing and sales?",
+   "givens": [
+    "Conditional success rates 70%, 40%, 50%, 90%"
+   ],
+   "steps": [
+    "0.70 × 0.40 × 0.50 × 0.90 = 0.126."
+   ],
+   "answer": "12.6% overall success probability.",
+   "answer_value": 12.6,
+   "unit": "%",
+   "verified": true
+  },
+  {
+   "id": "m2",
+   "question": "What are expected revenue and commercial production costs?",
+   "givens": [
+    "$10 billion lifetime revenue if successful",
+    "12.6% success probability",
+    "Manufacturing 5%, logistics 5%, other 10% of sales"
+   ],
+   "steps": [
+    "Expected revenue = $10,000m × 0.126 = $1,260m.",
+    "Production costs if successful = $10,000m × 20% = $2,000m.",
+    "Expected production costs = $2,000m × 0.126 = $252m."
+   ],
+   "answer": "$1,260 million expected revenue and $252 million expected production costs.",
+   "answer_value": 252,
+   "unit": "USD millions expected production costs",
+   "verified": true
+  },
+  {
+   "id": "m3",
+   "question": "What are expected research and filing costs?",
+   "givens": [
+    "Phase I $160m, Phase II $125m, Phase III $75m, filing $5m",
+    "Costs incurred on entering a phase"
+   ],
+   "steps": [
+    "Phase I = $160m × 100% = $160m.",
+    "Phase II = $125m × 70% = $87.5m.",
+    "Phase III = $75m × 70% × 40% = $21m.",
+    "Filing = $5m × 70% × 40% × 50% = $0.7m.",
+    "Total = $269.2m."
+   ],
+   "answer": "$269.2 million expected development and filing costs.",
+   "answer_value": 269.2,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m4",
+   "question": "What is SM1's net expected value?",
+   "givens": [
+    "Expected revenue $1,260m",
+    "Production costs $252m",
+    "Development and filing $269.2m"
+   ],
+   "steps": [
+    "$1,260m − $252m − $269.2m = $738.8m."
+   ],
+   "answer": "$738.8 million expected lifetime net value.",
+   "answer_value": 738.8,
+   "unit": "USD millions",
+   "verified": true
+  },
+  {
+   "id": "m5",
+   "question": "What value beyond SM1 is needed to support BioLead's valuation?",
+   "givens": [
+    "BioLead valuation $1,000m",
+    "SM1 expected value $738.8m"
+   ],
+   "steps": [
+    "$1,000m − $738.8m = $261.2m."
+   ],
+   "answer": "$261.2 million valuation gap; strategic capabilities are not quantified in the source.",
+   "answer_value": 261.2,
+   "unit": "USD millions",
+   "verified": true
+  }
+ ],
+ "synthesis": "BioLead may accelerate PharmaCo's biologicals entry, but SM1's $738.8 million expected lifetime net value does not alone justify a $1 billion company valuation. Assess the $261.2 million gap against scientific talent, intellectual property, infrastructure and future pipeline potential, while investigating integration and retention risks. No unconditional acquisition recommendation is supported by the provided data.",
+ "what_great_looks_like": [
+  "Examines scientific, commercial and partnership capabilities beyond the current drug.",
+  "Structures a comprehensive pharmaceutical-cost brainstorm.",
+  "Weights each phase's costs by probability of entry.",
+  "Compares drug and company valuations and recognizes the human element in integration."
+ ],
+ "common_pitfalls": [
+  "Applying the final 12.6% probability to all R&D costs.",
+  "Treating each phase's cost as incurred only after successful completion.",
+  "Calling probability adjustment a time-discounted valuation.",
+  "Assuming SM1 represents all company value or that expected cash flows are certain."
+ ],
+ "extraction": {
+  "model": "codex/gpt-6.1-sol",
+  "extracted_at": "2026-10-03",
+  "confidence": "high",
+  "low_confidence_fields": [],
+  "math_verified": true,
+  "notes": "Candidate probability tree visually reviewed and calculations recomputed in math-darden-pharmaco.py. No numerical mismatches. Source says Phase I has a '100% chance of completion'; the exhibit clearly gives 70% success. The 100% applies to entering/incurring Phase I costs, so this wording is clarified without changing correct arithmetic. Source calls the result 'known future cash flows'; these are uncertain probability-weighted lifetime values, with no timing or discount rate given. No final recommendation page is present; the qualified synthesis is inferred. The $261.2m gap is calculated from source figures, not explicitly printed. Reviewed and accepted by Claude 2026-10-03.",
+  "fields_inferred": [
+   "estimated_minutes",
+   "quant_intensity",
+   "tags",
+   "suggested_framework.tree",
+   "stages[3].expected_answer (gap and explanatory synthesis)",
+   "stages[5]",
+   "math[4]",
+   "synthesis",
+   "common_pitfalls"
+  ]
+ }
+}

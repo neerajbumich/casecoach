@@ -1,6 +1,6 @@
-# PracticeLoop — A Personalized Learning Product
+# CaseCoach — A Personalized Learning Product
 
-**Built by Neeraj Banisetti.** PracticeLoop is a learning and practice platform that connects structured content, timed exercises, feedback and progress tracking into a repeatable improvement loop.
+**Built by Neeraj Banisetti.** CaseCoach is a learning and practice platform that connects structured content, timed exercises, feedback and progress tracking into a repeatable improvement loop.
 
 The current content focuses on consulting case interviews. The product work is broader: designing how a learner finds useful material, practices a skill, interprets feedback and decides what to work on next. This repository presents that learning experience as a product portfolio project; it does not claim to be a PM interview curriculum.
 
